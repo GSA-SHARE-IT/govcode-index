@@ -1,0 +1,87 @@
+{
+  "@type": "Dataset",
+  "@id": "https://gsa-share-it.github.io/govcode-index/gov-code.json",
+  "title": "Federal Source Code Inventory (gov-code.json)",
+  "description": "An index of software projects developed by the U.S. federal government, compiled from agency-index.json inventories. Records are grouped by agency and each release describes one project, including its name, repository URL, license, development status, contract number, maintenance type, contact, and reuse frequencies.",
+  "identifier": "gov-code.json",
+  "contactPoint": {
+    "@type": "Kind",
+    "fn": "SHARE IT Act Working Group",
+    "hasEmail": "mailto:opensource@cms.hhs.gov",
+    "organization-name": "General Services Administration"
+  },
+  "describedBy": {
+        "@type": "Distribution",
+        "title": "gov-code.json Data Dictionary",
+        "accessURL": "TODO: Create a data dictionary"
+  },
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "issued": "TODO: YYYY-MM-DD first published",
+  "inventoried": "TODO: YYYY-MM-DD date when dataset was added to the catalog",
+  "modified": "2026-11-05",
+  "spatial": [
+    {
+      "@type": "Location",
+      "prefLabel": "United States"
+    }
+  ],
+  "accessRights": "Public",
+  "rights": ["This data asset is an open government data asset. It is not exempt from disclosure under FOIA. It is a public data asset eligible for disclosure in the Federal Data Catalog. It is available at no cost to the public in open, machine-readable formats and under an open license. Individual projects listed in the index are governed by their own licenses, recorded per project in the permissions.license field."],
+  "accessRestriction": {
+    "@type": "AccessRestriction",
+    "restrictionStatus": "Unrestricted",
+    "specificRestriction": null,
+    "restrictionNote": "Publicly available without access restrictions."
+  },
+  "useRestriction": null,
+  "cuiRestriction": null,
+  "publisher": {
+    "@type": "org:Organization",
+    "name": "General Services Administration"
+  },
+  "keyword": [
+    "source code",
+    "open source",
+    "software",
+    "code.json",
+    "agency-index.json",
+    "share it act",
+    "software inventory",
+    "repositories"
+  ],
+"landingPage": {
+    "@type": "Document",
+    "title": "Federal Source Code Inventory (gov-code.json)",
+    "accessURL": "https://github.com/GSA-SHARE-IT/govcode-index"
+  },
+  "temporal": {
+    "@type": "PeriodOfTime",
+    "startDate": "TODO: YYYY-MM-DD",
+    "endDate": "TODO: YYYY-MM-DD"
+  },
+  "theme": [
+    {
+      "@type": "Concept",
+      "prefLabel": "Software"
+    },
+    {
+      "@type": "Concept",
+      "prefLabel": "Information Technology"
+    }
+  ],
+  "accrualPeriodicity": "monthly",
+  "language": [
+    "en"
+  ],
+  "distribution": [
+    {
+      "@type": "Distribution",
+      "title": "gov-code.json",
+      "description": "Complete index in JSON, keyed by agency, with a 'releases' array of projects per agency.",
+      "accessURL": "https://github.com/GSA-SHARE-IT/govcode-index",
+      "downloadURL": "https://gsa-share-it.github.io/govcode-index/gov-code.json",
+      "mediaType": "application/json",
+      "format": "JSON"
+    }
+  ]
+}
