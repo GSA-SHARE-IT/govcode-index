@@ -1,0 +1,43 @@
+name: Update agency indexes
+
+on:
+  schedule:
+    - cron: "17 9 * * 1" # Mondays at 09:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: agency-indexes-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update-indexes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download agency indexes
+        run: python scripts/pull_index_assets.py
+
+      - name: Commit updated indexes
+        run: |
+          git add -- agency-indexes/
+          if git diff --cached --quiet; then
+            echo "Agency indexes are unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update agency indexes"
+          git push
