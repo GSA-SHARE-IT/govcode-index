@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-05-16",
+        "lastModified": "2026-06-02"
+    },
+    "description": "An Ansible role for installing cisagov/ncats-webui.",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-ncats-webui/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-ncats-webui",
+    "laborHours": 738.0,
+    "languages": [
+        "Shell",
+        "Python",
+        "Jinja"
+    ],
+    "name": "ansible-role-ncats-webui",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-ncats-webui.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "ansible-role",
+        "ncats-webui"
+    ],
+    "vcs": "git"
+}

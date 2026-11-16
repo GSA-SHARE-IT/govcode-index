@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-30",
+        "metadataLastUpdated": "2018-07-30"
+    },
+    "description": "ConMan is a serial console management program designed to support a large number of console devices and simultaneous users.",
+    "laborHours": 8527.2,
+    "languages": [],
+    "name": "ConMan: The Console Manager",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dun/conman",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

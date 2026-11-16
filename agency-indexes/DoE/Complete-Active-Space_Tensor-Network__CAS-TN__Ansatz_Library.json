@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "maradzikee@ornl.gov"
+    },
+    "date": {
+        "created": "2022-08-19",
+        "metadataLastUpdated": "2022-08-19"
+    },
+    "description": "Scalable full configuration interaction based on the parameterization of the electronic wavefunction that is based on particle number, instead of (spin) orbital number.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Complete-Active-Space Tensor-Network (CAS-TN) Ansatz Library",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/elvis-maradzike/cas-tn",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

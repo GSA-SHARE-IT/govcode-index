@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "The RAD3D software solves the critical heat transfer mechanisms that occur in production glass furnaces. The code includes state-of-the-art solution algorithms for efficient radiant interaction of the heating elements, furnace walls and internal furnace components. The code specifically solves the coupled radiative and conductive heating of semi-transparent materials such as glass to calculate the temperature distribution in the glass during processing.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Radiation Heat Transfer in 3 Dimensions for Semi-Transparent Materials....",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

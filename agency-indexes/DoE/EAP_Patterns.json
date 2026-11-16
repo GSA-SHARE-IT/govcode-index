@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-01-04",
+        "metadataLastUpdated": "2023-01-04"
+    },
+    "description": "EAP Patterns: Memory access and iteration patterns from the EAP code base with the physics removed. This is intended to be a serial app representing memory access patterns. We will populate the data structures from EAP output files to provide representative patterns of face and cell loops within the EAP code base The arguments to the program are the EAP output file and the number of MPI processors to emulate. Currently there is no MPI in the application and the number of processors represents a means of emulating the halo (clone) cells around the domain of the given processor. An optional argument `processor_ID` can be provided to specify the processor to emulate. In the future we plan to include the ability to run multiple MPI ranks to more accurately represent the on-node demands on memory bandwidth.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "EAP Patterns",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/eap-patterns",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

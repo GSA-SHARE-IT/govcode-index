@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "A challenging scientific problem that will benefit from exascale computing is predictive simulation of two- and three-dimensional quantum many-body Hamiltonians in condensed matter physics, together with the related strong entanglement problems in quantum chemistry and quantum computing. Efficient numerical simulations will require new insights into wavefunction compression algorithms that scale on extremely heterogeneous HPC architectures. To address this need, we propose to develop a scalable math library of parallel multi-linear algebraic numerical primitives for hierarchical tensor compression. Our library will subsequently be used for building an efficient, performance-portable HPC framework for simulating strongly correlated quantum systems. In particular, our will will be the first to deliver a massively parallel implementation of the multiscale entanglement renormalization ansatz (MERA), a hierarchical tensor decomposition quantum scheme capable of expressing local expectation values of strongly entangled higher-dimensional quantum systems efficiently. To address the extreme complexity and high computational cost of such schemes, we will automate their parallel implementation by delivering an integrated software framework, ExaTN (Exascale Tensor Networks), that will process hierarchical tensor representations on exascale HPC systems via an asymchronous task-based programming model. As a specific application, our framework will provide scientists with a capability of simulating strongly entangled quantum systems, thus positioning ORNL as a strategic leader in modeling of strongly correlated materials.",
+    "laborHours": 173097.6,
+    "languages": [
+        "C++ using clang and/or gcc versions compliant with C++11"
+    ],
+    "name": "ExaTN",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ornl-qci/exatn",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

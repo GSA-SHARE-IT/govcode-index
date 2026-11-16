@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-11-20",
+        "metadataLastUpdated": "2019-11-20"
+    },
+    "description": "There are numerous options for renewable energy systems development. Location, size, type of system, and a number of other criteria need to be considered. The objective of this program is to determine the optimal size (capacity, Kilowatt (kW)) of a renewable energy generator, based on minimizing life cycle cost (LCC). The reason for developing such a program is driven by three major issues. First, the need to evaluate a very large number (tens of thousands) of project opportunity sites. Next, the need for data transfer efficiency and computational efficiency in on-line and mobile applications. And lastly, to increase the accuracy of screening studies, which are the earliest indicators of project opportunities. Many existing programs require the user to enter the size (kW) of the renewable energy system in order to start calculations. \n \nHowever, there are many factors that affect what the size should be including: renewable energy resources, utility rates, initial and maintenance costs, and economic parameters. NREL scientists have developed an algorithm that addresses the previous three major issues. Lifecycle cost is calculated based on: the sum of initial cost, plus the present value of operations and maintenance costs, costs involved with purchasing power from the utility company, and revenue involved with the sale of excess electricity back to the utility.\n\nThe algorithm computes the derivative of an equation for LCC as a function of the size of the renewable energy generator (P), then sets the derivative equal to zero (dLCC/dP=0), and solves for the value of (P) that minimizes life cycle cost. Once the size (P) has been determined, other project details may be calculated. This algorithm develops a closed-form solution for the optimal size of a renewable energy generator. Having a closed-form solution avoids problems of scale and speed that can be encountered with optimization algorithms. Incentives that affect initial cost or provide a payment for energy production are also represented.\n\nBecause the algorithm was built in terms of analytics (calculus) and not numeric methods, it can be easily implemented in any platform such as spreadsheets or mobile computing applications. The program is very accurate as long as the simplifying assumptions in the derivation apply: constant load (during daylight hours for PV, all hours for wind); a single rate for all power purchased from the utility; and a single rate for all power sold back to the utility.  The program calculates energy saved on-site and energy sold back to the utility using a duration curve based on capacity factor.  Data for the calculation is available on-line at www.nrel.gov/gis.",
+    "homepageURL": "https://www.labpartnering.org/p/lab-technologies/4d681f46-9778-4024-877c-6633a9617a0b",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "dlCC Optimization",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.labpartnering.org/p/lab-technologies/4d681f46-9778-4024-877c-6633a9617a0b",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.labpartnering.org/p/lab-technologies/4d681f46-9778-4024-877c-6633a9617a0b",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ]
+}

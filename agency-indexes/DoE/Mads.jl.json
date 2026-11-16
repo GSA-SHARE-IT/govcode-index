@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Mads.jl (Model analysis and decision support in Julia) is a code that streamlines the process of using data and models for analysis and decision support. It is based on another open-source code developed at LANL and written in C/C++ (MADS; http://mads.lanl.gov; LA-CC-11- 035). Mads.jl can work with external models of arbitrary complexity as well as built-in models of flow and transport in porous media. It enables a number of data- and model-based analyses including model calibration, sensitivity analysis, uncertainty quantification, and decision analysis. The code also can use a series of alternative adaptive computational techniques for Bayesian sampling, Monte Carlo, and Bayesian Information-Gap Decision Theory. The code is implemented in the Julia programming language, and has high-performance (parallel) and memory management capabilities. The code uses a series of third party modules developed by others. The code development will also include contributions to the existing third party modules written in Julia; this contributions will be important for the efficient implementation of the algorithm used by Mads.jl. The code also uses a series of LANL developed modules that are developed by Dan O'Malley; these modules will be also a part of the Mads.jl release. Mads.jl will be released under GPL V3 license. The code will be distributed as a Git repo at gitlab.com and github.com. Mads.jl manual and documentation will be posted at madsjulia.lanl.gov.",
+    "laborHours": 150434.4,
+    "name": "Mads.jl",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/madsjulia/Mads.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

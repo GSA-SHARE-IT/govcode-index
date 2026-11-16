@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-01-19",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "LOGOS is a software package which contains a set of discrete optimization models that can be employed for capital budgeting optimization problems. More specifically, provided a set of items (characterized by cost and reward values) and constraints, these models select the best combination of items which maximizes overall reward and satisfies the provided constraints. The developed models are based on different versions of the knapsack optimization algorithms. Two main classes of optimization models have been initially developed: deterministic and stochastic. Stochastic optimization models evolve deterministic models by explicitly considering data uncertainties (associated to constraints or item cost and reward). These models can be employed as stand-alone models or interfaced with the INL developed RAVEN code to propagate data uncertainties and analyze the generated data (i.e., sensitivity analysis).",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "LOGOS",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/LOGOS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

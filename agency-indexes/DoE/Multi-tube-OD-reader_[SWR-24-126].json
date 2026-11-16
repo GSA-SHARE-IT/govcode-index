@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-10-07",
+        "metadataLastUpdated": "2024-10-07"
+    },
+    "description": "This software accompanies an NREL-designed machine for observing changes in optical density of 16 biological samples growing in Hungate tubes. It involves hardware & app for Multi-Tube OD Reader.\n\nOur Multi-Tube-OD-Reader device is based on the TubeOD reader (linked below), but with a housing to maximize throughput.\n\nThis repository contains the schematics for 3D printing an enclosure, a parts list for constructing, and the code for controlling the 16-tube, in-line optical density monitoring device. This device and software are particularly useful for researchers studying microbes that grow well in Hungate tubes, but are not amenable to growth in microplate readers.\n\nRelated publication: https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.790576/full",
+    "laborHours": 623.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "Multi-tube-OD-reader [SWR-24-126]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/Multi-Tube-OD-Reader",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

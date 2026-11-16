@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-18",
+        "metadataLastUpdated": "2020-08-18"
+    },
+    "description": "This module provides functionality to perform RNASeq analysis to enable users to quantify gene expression, identify splice junctions and measure differential expression using the Tuxedo suite of tools.",
+    "laborHours": 9606.4,
+    "languages": [],
+    "name": "KBaseRNASeq",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/KBaseRNASeq",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "krhodges@illinois.edu"
+    },
+    "date": {
+        "created": "2024-11-11",
+        "metadataLastUpdated": "2024-11-11"
+    },
+    "description": "Repository for Kinetic Estimation Tool Capturing Heterogeneous Datasets Using Pyomo (KETCHUP), a flexible parameter estimation tool that leverages a primal-dual interior-point algorithm to solve a nonlinear programming (NLP) problem that identifies a set of parameters capable of recapitulating the steady-state fluxes and concentrations in wild-type and perturbed metabolic networks.",
+    "laborHours": 76577.6,
+    "languages": [],
+    "name": "maranasgroup/KETCHUP",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/maranasgroup/KETCHUP",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

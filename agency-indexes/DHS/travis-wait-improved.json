@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-07-05",
+        "lastModified": "2023-07-26"
+    },
+    "description": "A tool to help long-running, yet reticent, processes avoid death at the hands of Traivs-CI.",
+    "downloadURL": "https://api.github.com/repos/cisagov/travis-wait-improved/downloads",
+    "homepageURL": "https://github.com/cisagov/travis-wait-improved",
+    "laborHours": 353.5,
+    "languages": [
+        "Python",
+        "Shell"
+    ],
+    "name": "travis-wait-improved",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/travis-wait-improved.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "travis-ci",
+        "sherpa",
+        "travis-wait",
+        "packer"
+    ],
+    "vcs": "git"
+}

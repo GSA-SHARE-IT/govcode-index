@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "BLOT is a graphic program for post-processing finite element analyses output in the EXODUS II database format. It is command driven with free-format input and can drive graphics devices supported by the Sandia Virtual Device Interface. BLOT produces mesh plots of the analysis output variables including deformed mesh plots, line contours, filled (painted) contours, vector plots of two/three variables (velocity vectors), and symbol plots of scalar variables (discrete cracks). Features include pathlines of analysis variables drawn on the mesh, element selection by material, element birth and death, multiple views combining several displays on each plot, symmetry mirroring, and node and element numbering. X-Y plots of the analysis variables include time vs. variable plots or variable vs. variable plots, and distance vs. variable plots at selected time steps where distance is the accumulated distance between pairs of nodes or element centers. BLOT is written in as portable a form as possible. Fortran code is written in ANSI Standard FORTRAN-77. Machine-specific routines are limited in number and are grouped together to minimize the time required to adapt them to a new system. SEACAS codes have been ported to several Unix systems",
+    "laborHours": 692284.0,
+    "languages": [
+        "C++",
+        "HTML",
+        "C",
+        "CMake",
+        "Fortran",
+        "Python"
+    ],
+    "name": "BLOT Ver. 1.65",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/seacas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.65"
+}

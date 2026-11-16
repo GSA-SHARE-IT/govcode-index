@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "SADE is a software package for rapidly assembling analytic pipelines to manipulate data. The packages consists of the engine that manages the data and coordinates the movement of data between the tasks performing a function, a set of core libraries consisting of plugins that perform common tasks, and a framework to extend the system supporting the development of new plugins. Currently through configuration files, a pipeline can be defined that maps the routing of data through a series of plugins. Pipelines can be run in a batch mode or can process streaming data; they can be executed from the command line or run through a Windows background service. There currently exists over a hundred plugins, over fifty pipeline configurations, and the software is now being used by about a half-dozen projects.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "Windows.Net framework 4.5, C#"
+    ],
+    "name": "Streaming Analytics and Data Engineering",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

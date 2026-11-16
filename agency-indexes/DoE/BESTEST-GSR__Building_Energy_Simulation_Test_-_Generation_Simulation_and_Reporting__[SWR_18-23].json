@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-11-29",
+        "metadataLastUpdated": "2023-08-15"
+    },
+    "description": "Building Energy Simulation Test (BESTEST) is an NREL-developed method to validate the qualitative performance of different whole building simulations engines relative to each other. \nhttps://www.nrel.gov/docs/legosti/old/6231.pdf\n\nFor EnergyPlus® and OpenStudio®, generation of test cases, simulation, and reporting has been a manual or partially automated process that typically took a number of months after a new version of EnergyPlus came out. Building Energy Simulation Test - Generation Simulation and Reporting (BESTEST-GSR) was developed to fully automate this process so it is less error-prone, less time-consuming, and can be quickly run on request for any development branch of EnergyPlus and OpenStudio.\n\nThe initial use case is to directly support OpenStudio and EnergyPlus development, but the software is configured to support use by external software developers that build tools on top of EnergyPlus and/or OpenStudio. Tools built on top of OpenStudio can leverage the test generation, simulation, and reporting, while tools built on EnergyPlus can leverage the test simulation and reporting.\n\nThe model generation is accomplished by running OpenStudio measures for envelope, heating, or cooling test cases. At this stage the specified weather file required for a specific test case is assigned to the model. Simulation is enabled using the OpenStudio Command Line Interface (CLI) to run a series of OpenStudio and Reporting measures to a specified seed model. The specified workflow is defined with an OpenStudio OSW file. The first measure generates the test case model, while the second measure is a reporting measure that runs after the simulation to collect necessary simulation results from the EnergyPlus SQL file. The Reporting stage gathers data from individual OpenStudio OSW files and populates a series of BESTEST Microsoft Excel spreadsheets. BESTEST-GSR also gathers zip files from individual simulations for diagnostic purposes.",
+    "laborHours": 68339.2,
+    "languages": [],
+    "name": "BESTEST-GSR (Building Energy Simulation Test - Generation Simulation and Reporting) [SWR 18-23]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/BESTEST-GSR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

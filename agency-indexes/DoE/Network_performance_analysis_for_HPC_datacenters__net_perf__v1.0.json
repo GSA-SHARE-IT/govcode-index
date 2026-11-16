@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-24",
+        "metadataLastUpdated": "2024-07-31"
+    },
+    "description": "The software has two main features: (1) identify data movement trends in HPC data centers that use network flow monitoring (2) analyze the performance of individual data flows under the existing data movement management strategy and identify performance bottlenecks that impede timely data availability for science workflows. Its main advantage is that it is tailored for HPC network traffic by considering HPC data movement management intricacies.",
+    "laborHours": 349.6,
+    "languages": [],
+    "name": "Network performance analysis for HPC datacenters (net_perf) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/annna-gian/nersc_net_perf.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

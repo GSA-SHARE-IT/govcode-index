@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-15",
+        "metadataLastUpdated": "2020-05-15"
+    },
+    "description": "AML is a library to manage byte-addressable memory devices. The library is designed as a collection of building blocks, so that users can create custom\nmemory management policies for allocation and placement of data across devices.",
+    "laborHours": 8208.0,
+    "languages": [],
+    "name": "AML",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://xgitlab.cels.anl.gov/argo/aml",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ]
+}

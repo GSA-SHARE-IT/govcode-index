@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "zlu@anl.gov"
+    },
+    "date": {
+        "created": "2021-09-01",
+        "metadataLastUpdated": "2021-10-16"
+    },
+    "description": "To fully evaluate energy and emission impacts of advanced vehicle technologies and new transportation fuels, the fuel cycle from wells to wheels and the vehicle cycle through material recovery and vehicle disposal need to be considered. Sponsored by the U.S. Department of Energy's Office of Energy Efficiency and Renewable Energy (EERE), Argonne has developed a full life-cycle model called GREET (Greenhouse gases, Regulated Emissions, and Energy use in Technologies). It allows researchers and analysts to evaluate various vehicle and fuel combinations on a full fuel-cycle/vehicle-cycle basis. The first version of GREET was released in 1996. Since then, Argonne has continued to update and expand the model. GREET is developed as a multidimensional spreadsheet model in Microsoft Excel. It provides a comprehensive, life-cycle-based approach to compare the energy use and emissions of conventional and advanced vehicle technologies. It includes two sub-models named Fuel-Cycle Model (GREET 1, contains data on fuel cycles and vehicle operations) and Vehicle-Cycle Model (GREET 2, evaluates the energy and emission effects associated with vehicle material recovery and production, vehicle component fabrication, vehicle assembly, and vehicle disposal/recycling). This public domain model is available free of charge for anyone to use.",
+    "homepageURL": "https://greet.es.anl.gov/greet.models",
+    "laborHours": 0.0,
+    "languages": [
+        "Microsoft Excel"
+    ],
+    "name": "Greenhouse gases, Regulated Emissions, and Energy use in Technologies Model ® (2021 Excel)",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://greet.es.anl.gov/copyright",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://greet.es.anl.gov/greet.models",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "version": "Excel 2021"
+}

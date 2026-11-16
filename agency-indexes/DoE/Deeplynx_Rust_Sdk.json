@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2023-07-13",
+        "metadataLastUpdated": "2023-07-18"
+    },
+    "description": "This software is a Rust package that interacts with the Application Programming Interface (API) suite provided by DeepLynx. A Rust codebase may import this package in order to have access to these methods for communicating with a DeepLynx instance.",
+    "laborHours": 0.0,
+    "languages": [
+        "Rust"
+    ],
+    "name": "Deeplynx Rust Sdk",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/Deep-Lynx-Rust_SDK",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

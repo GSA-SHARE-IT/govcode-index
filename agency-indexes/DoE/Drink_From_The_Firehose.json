@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-05-31",
+        "metadataLastUpdated": "2023-05-31"
+    },
+    "description": "DFTF converts Redfish events to messages on a Kafka bus. DFTF subscribes to events in Redfish,\nspecifically Alerts and CrayTelemetry. It listens for HTTP POST requests containing event data, reduces\nthe data, serializes the reduced data using Avro, and publishes the data to topics in Kafka.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Drink From The Firehose",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/dftf",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-03-07",
+        "metadataLastUpdated": "2023-03-07"
+    },
+    "description": "LaSDI is a data-driven physical simulation software that forms a latent space for a given high-fidelity model and discovers a set of ordinary differential equations for the latent space dynamics. It allows a fast and accurate solution process, which is useful for multi-query decision making applications, such as design optimization and uncertainty quantification. The performance of the LaSDI framework is demonstrated on four different problems, i.e., 1D and 2D Burgers equations, nonlinear heat conduction, and radial advection problems. Both linear and nonlinear compression techniques, such as neural network and proper orthogonal decomposition, are used to form a latent space. A concept of local dynamics identification procedure is introduced to enable a parametric model, which enhances the accuracy level over a given parameter space.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Latent Space Dynamics Identification",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/LaSDI",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

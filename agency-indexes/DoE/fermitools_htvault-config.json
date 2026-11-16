@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2021-07-15",
+        "metadataLastUpdated": "2021-07-15"
+    },
+    "description": "Configure a Hashicorp Vault server for use with htgettoken",
+    "laborHours": 0.0,
+    "languages": [
+        "Bash",
+        "Python"
+    ],
+    "name": "fermitools/htvault-config",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/fermitools/htvault-config",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ],
+    "vcs": "git"
+}

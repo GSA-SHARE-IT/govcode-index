@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-30",
+        "metadataLastUpdated": "2024-08-30"
+    },
+    "description": "This jupyter notebook calculates basic statistics (e.g., mean, standard deviation, coefficient of variation) and simple graphs (e.g., bar graphs, line plots) for data from the Experiment Data Depot (EDD) to provide rapid and reproducible assessment of data quality to aid research efforts across the JBEI and ABF projects. It rapidly and reproducibly calculates basic statistical values for data stored in the EDD which aids researchers and strengthens comparisons across different experiments and projects.",
+    "laborHours": 288.8,
+    "languages": [],
+    "name": "EDD Basic Stats and Graphs Notebook analysis (EDD BSG Notebook) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/JBEI/Omics-Data-QA-QC-tool",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

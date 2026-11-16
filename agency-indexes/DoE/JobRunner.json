@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-07-30",
+        "metadataLastUpdated": "2020-07-31"
+    },
+    "description": "The job runner is started by the batch/resource manager system and is the component that actually executes the SDK module. It also provides the callback handler and pushes logs to the execution engine logging system.",
+    "laborHours": 2036.8,
+    "languages": [],
+    "name": "JobRunner",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/JobRunner",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

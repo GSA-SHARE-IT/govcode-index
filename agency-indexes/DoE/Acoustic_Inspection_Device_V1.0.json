@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "The Acoustic Inspection Device (AID) is an instrument used to interrogate materials with ultrasonic acoustic waves. The AID application software program runs under the Microsoft Windows 98 or Windows 2000 operating system. Is serves as the instrument controller and provides the user interface for the instrument known as the Acoustic Inspection Device (AID). The program requests, acquires, and analyzes acoustic waveforms from the AID hardware (pulser/receiver module, digitizer, and communications link). Graphical user displays of the AID application program include the real-time display of ultrasonic acoustic waveforms and analytical results including acoustic time-of-flight, velocity, and material identification. This program utilizes a novel algorithm, developed at PNNL, that automatically extracts the time-of-flight and amplitude data from the raw waveform and compares the extracted data to a material database.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Acoustic Inspection Device V1.0",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2022-06-15"
+    },
+    "description": "The MapRE (Multi-criteria Analysis for Planning Renewable Energy) GIS (Geographic Information Systems) Tools are a set of ArcGIS tools to a) conduct site suitability analysis for wind and solar resources using inclusion and exclusion criteria, and create resource maps, b) create project opportunity areas and compute various attributes such as cost, distances to existing and planned infrastructure. and environmental impact factors; and c) calculate and update various attributes for already processed renewable energy zones. In addition, MapRE data sets are geospatial data of renewable energy project opportunity areas and zones with pre-calculated attributes for several countries. These tools and data are available at mapre.lbl.gov.",
+    "homepageURL": "http://mapre.lbl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MapRE GIS Tools & Data (MapRE)",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://mapre.lbl.gov",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

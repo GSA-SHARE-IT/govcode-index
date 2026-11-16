@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "simsdl@ornl.gov"
+    },
+    "date": {
+        "created": "2018-04-18",
+        "metadataLastUpdated": "2018-04-18"
+    },
+    "description": "A suite of parallel file system tools designed for performance and scalability\n",
+    "laborHours": 20185.6,
+    "name": "PCircle",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/olcf/pcircle",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

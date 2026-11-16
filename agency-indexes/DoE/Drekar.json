@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-08"
+    },
+    "description": "Drekar is a code written for solving the low-mach incompressible Navier-Stokes and magnetohydrodynamics equations. It implements a stabilized Galerkin finite element discretization of the incompressible Navier-Stokes equations and a variational multiscale stabilized formulation for magnetohydrodynamics published by Codina. Drekar contains the front end physics description of the problem and then leverages 30 open source Trilinos packages to solve the problem. It relies on Trilinos for all parallel capabilities. The code will be released open source under the LGPL license. The code will be used by the partners of the Consortium for Advanced Simulation of Light Water Reactors (CASL), an Energy Innovation Hub funded by DOE to simulate fluid flow and heat transfer inside nuclear reactors. Additionally the code will be used for fundamental research collaborations in magnetohydrodynamics and computational fluid dynamics.",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 0.0,
+    "languages": [
+        "C++ / various compilers"
+    ],
+    "name": "Drekar",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

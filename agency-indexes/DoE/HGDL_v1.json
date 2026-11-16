@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-15",
+        "metadataLastUpdated": "2021-03-15"
+    },
+    "description": "The software is a general optimizer, simliar to scipy.minimize, but using advanced methods and it is HPC ready.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "HGDL v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/hgdl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "version": "v1"
+}

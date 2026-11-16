@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-11-05",
+        "metadataLastUpdated": "2021-11-05"
+    },
+    "description": "DevOps cloud on the fly provides automated virtual machine creation on demand. This is accomplished using two very powerful software tools: Packer and Vagrant.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "DevOps Cloud on the fly",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/devOpsCloudOnTheFly",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-12-18",
+        "metadataLastUpdated": "2020-12-21"
+    },
+    "description": "This library includes in-progress code for the optimization of materials and molecules using reinforcement learning. This project seeks to develop a generalized machine learning approach for optimizing targeted, and often complex, functional properties over the space of possible material structures, allowing faster identification of promising candidates. Electronic and transport properties of materials are determined by their molecular structure (for molecules) or their crystal structure (for in-organic crystalline materials). The atomic composition, bonding, and 3-D-spatial arrangement in these systems therefore represent a vast, discontinuous search space for optimal candidates. This library implements AlphaZero style reinforcement learning applied to two worked examples: the optimization of stable organic radicals for redox flow batteries, and the determination of stable electrolyte species for solid state batteries. The current code contains proof-of-concept results run on the Eagle HPC system, while the completed package will be a flexible tool for material optimization across of number of energy-relevant fields, which leverages cloud compute resources for the majority of the computational heavy lifting.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "rlmolecule: A library for general-purpose material and molecular optimization using AlphaZero-style reinforcement learning",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/rlmolecule",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-08-10",
+        "metadataLastUpdated": "2022-08-10"
+    },
+    "description": "Docker image with pysmurf and firmware files for the SMuRF project. This docker image, named pysmurf-server contains pysmurf, firmware files (mcs and pyrogue's zip) and default configuration files (yml) for stable firmware versions.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "slaclab/pysmurf-stable-docker",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/pysmurf-stable-docker/blob/main/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/pysmurf-stable-docker",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

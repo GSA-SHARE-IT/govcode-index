@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2018-05-30",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "RAVEN (Risk Analysis Virtual Environment) is a flexible and multi-purpose probabilistic risk analysis, uncertainty quantification, parameter optimization and data knowledge-discovering framework.&nbsp;https://raven.inl.gov/",
+    "laborHours": 770108.0,
+    "languages": [],
+    "name": "Raven",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/raven",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

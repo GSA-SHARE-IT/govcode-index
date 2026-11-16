@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "stewartsl@ornl.gov"
+    },
+    "date": {
+        "created": "2023-04-27",
+        "metadataLastUpdated": "2023-04-27"
+    },
+    "description": "The Interactive Corpus Analysis Tool (ICAT) is an interactive machine learning dashboard for unlabeled text/natural language processing datasets that allows a user to iteratively and visually define features, explore and label instances of their dataset, and simultaneously train a logistic regression model. ICAT was created to allow subject matter experts in a specific domain to directly train their own models for unlabeled datasets visually, without needing to be a machine learning expert or needing to know how to code the models themselves. This approach allows users to directly leverage the power of machine learning, but critically, also involves the user in the development of the machine learning model.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Interactive Corpus Analysis Tool",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/icat",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

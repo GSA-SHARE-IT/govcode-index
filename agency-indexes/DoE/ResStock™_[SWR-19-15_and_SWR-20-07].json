@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-10-11",
+        "metadataLastUpdated": "2024-04-26"
+    },
+    "description": "The ResStock™ analysis tool is helping states, municipalities, utilities, and manufacturers identify which home improvements save the most energy and money.With support from the U.S. Department of Energy (DOE), researchers at NREL developed ResStock. It's a versatile tool that takes a new approach to large-scale residential energy analysis by combining:\n\n- Large public and private data sources\n- Statistical sampling\n- Detailed subhourly building simulations\n- High-performance computing.\n- This combination achieves unprecedented granularity and most importantly—accuracy—in modeling the diversity of the single-family housing stock.",
+    "laborHours": 4008133.6,
+    "languages": [],
+    "name": "ResStock™ [SWR-19-15 and SWR-20-07]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NREL/OpenStudio-BuildStock/blob/master/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/OpenStudio-BuildStock",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

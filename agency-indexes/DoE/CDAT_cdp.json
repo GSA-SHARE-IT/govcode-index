@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-05-28",
+        "metadataLastUpdated": "2020-05-28"
+    },
+    "description": "The Community Diagnostics Package (CDP) is a framework for creating new climate diagnostic packages in a generalized manner. CDP allows for a modular implementation of the components required for running diagnostics. The design of CDP consists of modules to handle the user-defined parameters, provenance, and viewing results.",
+    "laborHours": 1094.4,
+    "languages": [],
+    "name": "CDAT/cdp",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CDAT/cdp",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

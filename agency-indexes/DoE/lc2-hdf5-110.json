@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2018-05-24",
+        "metadataLastUpdated": "2018-05-24"
+    },
+    "description": "Investigate hdf5 1.10 features like SWMR and virtual dataset for LCLS II\n",
+    "laborHours": 6080.0,
+    "languages": [],
+    "name": "lc2-hdf5-110",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/lc2-hdf5-110",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

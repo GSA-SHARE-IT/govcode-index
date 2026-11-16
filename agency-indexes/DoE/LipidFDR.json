@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Python scripts of SVM model training and testing used in a publication entitled 'A generalizable method for false-discovery rate estimation in mass spectrometry-based lipidomics'.",
+    "laborHours": 121.6,
+    "languages": [],
+    "name": "LipidFDR",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/LipidFDR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

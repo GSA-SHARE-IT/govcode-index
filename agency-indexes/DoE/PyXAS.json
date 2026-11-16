@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "rgrandy@bnl.gov"
+    },
+    "date": {
+        "created": "2020-03-02",
+        "metadataLastUpdated": "2020-03-02"
+    },
+    "description": "An open-source package for 2D X-ray near-edge spectroscopy analysis",
+    "laborHours": 10761.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "PyXAS",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/gmysage/pyxas",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2021-02-09"
+    },
+    "description": "The HPC software ecosystem is growing larger and more complex, but software distribution mechanisms have not kept up with this trend. Tools, Libraries, and applications need to run on multiple platforms and build with multiple compliers. Increasingly, packages leverage common software components, and building any one component requires building all of its dependencies. In HPC environments, ABI-incompatible interfaces (likeMPI), binary-incompatible compilers, and cross-compiled environments converge to make the build process a combinatoric nightmare. This obstacle deters many users from adopting useful tools, and others waste countless hours building and rebuilding tools. Many package managers exist to solve these problems for typical desktop environments, but none suits the unique needs of supercomputing facilities or users. To address these problems, we have Spack, a package manager that eases the task of managing software for end-users, across multiple platforms, package versions, compilers, and ABI incompatibilities.",
+    "laborHours": 169312.8,
+    "languages": [],
+    "name": "Spack: the Supercomputing Package Manager",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/spack/spack",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

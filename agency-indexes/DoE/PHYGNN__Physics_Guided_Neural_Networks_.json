@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-08-20",
+        "metadataLastUpdated": "2020-08-28"
+    },
+    "description": "This implementation of a Physics Guided Neural Network (PHYGNN) augments a traditional neural network loss function with a generic term that can be used to guide the neural network to learn physical or theoretical constraints. ",
+    "laborHours": 2675.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "PHYGNN (Physics Guided Neural Networks)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/phygnn",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

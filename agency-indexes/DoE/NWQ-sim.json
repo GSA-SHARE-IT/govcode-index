@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-09-23",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "NWQSim is a quantum circuit simulation environment developed at PNNL. It currently includes two major components: a state-vector simulator (SV-Sim) and a density matrix simulator (DM-Sim) and we may add more components, such as a Clifford simulator, in the future effort. NWQSim has two language interface: C/C++ and Python. It supports Q#/QDK frontend through QIR and QIR-runtime. It supports Qiskit and Cirq frontends through OpenQASM. NWQSim runs on several backends: Intel-CPU, Intel-Xeon-Phi, AMD-CPU, AMD-GPU, NVIDIA-GPU, and IBM-CPU. It supports three modes: (1) single processor, such as a single CPU (with and without AVX2 and AVX512 acceleration), a single NVIDIA GPU or a single AMD GPU; (2) single-node-multi-processors, such as multi-CPUs/Xeon-Phis, multi-NVIDA/AMD GPUs; (3) multi-nodes, such as a CPU cluster, a Xeon-Phi cluster (e.g., ANL Theta, NERSC Cori), an NVIDIA cluster (e.g., ORNL Summit, NERSC Perlmutter).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "NWQ-sim",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/sv-sim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Tomopy is a Python toolbox to perform x-ray data processing, image reconstruction and data exchange tasks at synchrotron facilities. The dependencies of the software are currently as follows: -Python related python standard library (http://docs.python.org/2/library/) numpy (http://www.numpy.org/) scipy (http://scipy.org/) matplotlib (http://matplotlip.org/) sphinx (http://sphinx-doc.org) pil (http://www.pythonware.com/products/pil/) pyhdf (http://pysclint.sourceforge.net/pyhdf/) h5py (http://www.h5py.org) pywt (http://www.pybytes.com/pywavelets/) file.py (https://pyspec.svn.sourceforge.net/svnroot/pyspec/trunk/pyspec/ccd/files.py) -C/C++ related: gridec (anonymous?? C-code written back in 1997 that uses standard C library) fftw (http://www.fftw.org/) tomoRecon (multi-threaded C++ verion of gridrec. Author: Mark Rivers from APS. http://cars9.uchicago.edu/software/epics/tomoRecon.html) epics (http://www.aps.anl.gov/epics/)",
+    "laborHours": 9986.4,
+    "name": "Tomopy: A Python toolbox to perform X-Ray data proessing and image reconstruction.",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/tomopy/tomopy/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/tomopy/tomopy",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

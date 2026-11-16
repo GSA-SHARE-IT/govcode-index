@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "krhodges@illinois.edu"
+    },
+    "date": {
+        "created": "2024-11-08",
+        "metadataLastUpdated": "2024-11-08"
+    },
+    "description": "Efforts to manage soils for carbon (C) sequestration remain limited by our understanding of how differences in plant traits and microbial traits mechanistically drive soil organic C (SOC) storage. Addressing this uncertainty is particularly critical in bioenergy agriculture, due to its potential to enhance soil C and provide a C neutral fuel. As such, we examined differences between two contrasting feedstocks, Zea mays (corn) and Miscanthus x giganteus (miscanthus), in the ability of their litter to form new chemically resistant particulate SOC vs. physically protected mineral associated SOC and used this data to improve the parameterization of a microbial SOC model. We tested a hypothesized conceptual model whereby easy to decompose corn litters drive greater microbial carbon use efficiency (CUE) and the formation of more mineral associated SOC over particulate SOC than more complex miscanthus litters. To do this, we performed a soil microcosm experiment where we added 13C enriched aboveground and belowground litters to soils and traced the fate of the 13C into microbial respiration and SOC pools. We found that corn litters promoted higher microbial CUE (0.37) than miscanthus litters (0.24). In turn, corn litter formed approximately 50% more mineral associated SOC than miscanthus litters. Similarly, structurally complex root litters promoted a lower CUE and formed less mineral associated SOC than leaf and shoot litters for both crops. When we used our data to parameterize the SOC model, we found that modeling microbial trait differences uniquely allowed the model to capture the fate of litter C in SOC. Collectively, we found a robust link between litter quality, microbial efficiency, and the formation of SOC. This link bridges the empirical uncertainty in how different crops can form new soil C and provides an empirical basis for modeling SOC transformations.",
+    "laborHours": 121.6,
+    "languages": [],
+    "name": "BrzostekEcologyLab/CORPSE-soil-jars",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BrzostekEcologyLab/CORPSE-soil-jars",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

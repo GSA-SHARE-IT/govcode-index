@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "Samlab provides a workflow and data storage for machine learning experiment inputs and outputs using mongodb, and a web service to manage, search, visualize, and analyze the results.",
+    "laborHours": 7296.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Sandia Machine Learning Laboratory",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/samlab/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/samlab",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-03-09",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Prepare and format the inputs for Hector. This software was developed out of a need to help support Hector, PNNL’s simple climate model continue to grow",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "JGCRI/hectordata",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jgcri/hectordata",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

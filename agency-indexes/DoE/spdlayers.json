@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-11-29",
+        "metadataLastUpdated": "2021-11-29"
+    },
+    "description": "Symmetric Positive Definite (SPD) enforcement layers for PyTorch. Regardless of the input, the output of these layers will always be a SPD tensor! The `Cholesky` layer uses a cholesky factorization to enforce SPD, and the `Eigen` layer uses an eigendecomposition to enforce SPD. Both layers take in some tensor of shape `[batch_size, input_shape]` and output a SPD tensor of shape`[batch_size, output_shape, output_shape]`. The relationship between input and output is defined by the following. ```python input_shape = sum([i for i in range(output_shape + 1)]) ``` The layers have no learnable parameters, and merely serve to transform a vector space to a SPD matrix space.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "spdlayers",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/spdlayers",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

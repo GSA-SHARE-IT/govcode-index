@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "MACSio is a Multi-purpose, Application-Centric, Scalable I/O proxy application. It is designed to support a number of goals with respect to parallel I/O performance testing and benchmarking including the ability to test and compare various I/O libraries and I/O paradigms, to predict scalable performance of real applications and to help identify where improvements in I/O performance can be made within the HPC I/O software stack.",
+    "laborHours": 36814.4,
+    "name": "Multi-Purpose, Application-Centric, Scalable I/O Proxy Application",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/MACSio",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

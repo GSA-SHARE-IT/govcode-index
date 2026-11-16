@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-08-19",
+        "metadataLastUpdated": "2023-04-24"
+    },
+    "description": "The PyChargeModel creates two classes called \"ElectricVehicles\" and \"evse_class\", which can be used to create multiple instances of electric vehicles (EVs) and electric vehicle supply equipment (EVSE or charging ports) and simulate charging behavior. These objects can be instantiated with several properties such as battery chemistries, battery pack sizes, cell sizes, charging port power, dc or ac chargers etc. The objects can communicate with each other by calling different methods built within the classes. Through these methods, each EV object can be assigned to an EVSE, charged either using a default protocol or using setpoint values communicated from a site controller via the EVSE object.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "PyChargeModel (Oriented Programming Based Electric Vehicle and Electric Vehicle Supply Equipment Charging Model in Python) [SWR-22-39]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/PyChargeModel",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

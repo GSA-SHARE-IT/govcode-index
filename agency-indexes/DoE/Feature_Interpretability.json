@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-01-26",
+        "metadataLastUpdated": "2024-01-26"
+    },
+    "description": "The feature interpretability code is a python module that interprets and analyzes neural networks trained on hydrodynamic simulation output in the form of numpy arrays. The code takes trained neural networks and extracts internal model states in the form of images. Additionally, tools for covariance analysis of network weights and predictions are provided. This code is built on the TensorFlow and PyTorch python libraries, and includes trained networks and example input data for demonstration purposes.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Feature Interpretability",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/feature_interpretability",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

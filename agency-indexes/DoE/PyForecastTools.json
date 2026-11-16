@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-09-04",
+        "metadataLastUpdated": "2020-09-01"
+    },
+    "description": "This package provides a basic toolkit for model validation and forecast verification, implemented in Python. The code is designed to aid model validation tasks for users of the standard scientific python stack. Functions and classes are provided to calculate a broad range of metrics for continuous and categorical predictions.",
+    "laborHours": 866.4,
+    "languages": [],
+    "name": "PyForecastTools",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/drsteve/PyForecastTools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

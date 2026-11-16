@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-26"
+    },
+    "description": "The WEC Design Response Toolbox (WDRT) is a numerical toolbox for design-response analysis of wave energy converters (WECs). The WDRT was developed during a series of efforts to better understand WEC survival design. The WDRT has been designed as a tool for researchers and developers, enabling the straightforward application of statistical and engineering methods. The toolbox includes methods for short-term extreme response, environmental characterization, long-term extreme response and risk analysis, fatigue, and design wave composition.",
+    "laborHours": 537806.4,
+    "languages": [
+        "Powershell",
+        "Python"
+    ],
+    "name": "WEC Design Response Toolbox v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/WDRT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

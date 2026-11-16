@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-04-03",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This software implements an algorithm for finding triplets of hyperedges with specified size relations. Specifically, this is an\nimplementation of the pseudo-code in Algorithm 2 of our preprint manuscript \"Size-aware hypergraph motifs\", see:\nhttps://arxiv.org/pdf/2311.07783.pdf",
+    "laborHours": 7113.6,
+    "languages": [],
+    "name": "pnnl/hyperedge-triplets",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/hyperedge-triplets",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

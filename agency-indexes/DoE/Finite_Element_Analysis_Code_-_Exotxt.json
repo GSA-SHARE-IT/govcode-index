@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-09-18"
+    },
+    "description": "Exotxt is an analysis code that reads finite element results data stored in an exodusII file and generates a file in a structured text format. The text file can be edited or modified via a number of text formatting tools. Exotxt is used by analysis to translate data from the binary exodusII format into a structured text format which can then be edited or modified and then either translated back to exodusII format or to another format.",
+    "laborHours": 692284.0,
+    "languages": [],
+    "name": "Finite Element Analysis Code - Exotxt",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/seacas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

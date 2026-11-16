@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-01-19",
+        "metadataLastUpdated": "2022-01-19"
+    },
+    "description": "The Gravitation and Mesh Adaptation (GaMA) toolbox consists of a set of Matlab classes for modeling the environment around asteroids and comets. A variety of gravitational models and supporting algorithms from are consolidated alongside a custom meshing utility tailored for the application. This allows the user to work within a single streamlined environment to import and manipulate surface definitions, probe the dynamical environment, integrate trajectories, and post-process results. For other applications, modified surface meshes can be exported. Gravity Models: 1) Werner's analytic polyhedron model 2) Mascon model 3) Gottlieb's spherical harmonic model 4) Approximate polyhedron models 5) Curvilinear surface models 6) Custom composite models Meshing Features: 1) Array-based half-edge data structure 2) Supports curvilinear surface definitions up to degree 4 3) Ray-tracing 4) Coarsening 5) Feature-based refinement 6) Projection 7) Smoothing 8) Mesh quality validity tests 9) Mesh repair Additional Features: 1) Solar radiation pressure model 2) Distant 3rd body model 3) Collision detection 4) Trajectory integration and post-processing 5) Visualization of surface fields",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Gravitation and Mesh Adaption",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jmpearl/GaMA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

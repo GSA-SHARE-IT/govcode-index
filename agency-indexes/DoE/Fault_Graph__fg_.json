@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "nutarojj@ornl.gov"
+    },
+    "date": {
+        "created": "2022-01-28",
+        "metadataLastUpdated": "2022-02-03"
+    },
+    "description": "This software package offers a novel fault graph modeling language and a simulation tool for executing models specified in the language. The modeling language has three primary features that distinguish it from similar reliability analysis tools. These are (1) a random variable modeling several distinct outcomes of a single fault; (2) chains of faults in which one fault triggers another; and (3) time to fail sampled from probability distributions including positive normal, exponential, Weibull with a minimum, or immediate.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Fault Graph (fg)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/1qn/fault-graph",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

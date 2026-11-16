@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2020-05-27"
+    },
+    "description": "RAJA is a collection of C++ software abstractions designed to make HPC applications portable across a range of hardware architectures and programming models. The main conceptual abstraction in FAJA is a loop. RAJA provides abstractions for types, loop execution and scheduling, and loop iteration space portioning and ordering cooperate to insulate algorithms in application code that domain experts write from implementations details of those algorithms that may need to depend on the underlying computer hardware for high performance.",
+    "laborHours": 22708.8,
+    "languages": [],
+    "name": "RAJA - LLNL HPC Architecture Portability Encapsulation Layer Version 1.0",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/RAJA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

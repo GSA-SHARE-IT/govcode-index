@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2018-05-24",
+        "metadataLastUpdated": "2018-05-24"
+    },
+    "description": "A python client that talks to the PCDS logbook using the logbook webservice.\n",
+    "laborHours": 1352.8,
+    "languages": [],
+    "name": "LogBookClient",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/LogBookClient",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

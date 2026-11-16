@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-01-07",
+        "metadataLastUpdated": "2022-01-07"
+    },
+    "description": "This routine is to be used with the open source package for seismic wave propagation\nSPECFEM3D_Globe version v7.0.2-111-gf469578\n(https://geodynamics.org/cig/software/specfem3d_globe/) to implement the LLNL S-, P-, Rayleigh, Love wave model (SPiRaL). It handles 3D radial isotropic crustal and mantle properties, as well as 410-660 topography.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LLNL S-, P-, Rayleigh, Love wave model implementation into SPECFEM3D_Globe",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/geodynamics/specfem3d_globe.git",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

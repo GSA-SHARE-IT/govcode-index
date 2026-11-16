@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-04-26",
+        "metadataLastUpdated": "2023-04-26"
+    },
+    "description": "The software is code for analyzing, debugging, and solving optimization models. The code implements several algorithms and provides convenient APIs to apply these algorithms to optimization models. The algorithms are primarily based on graph theory. They compute well-known partitions of graphs, and use these partitions to provide the user information about their optimization model, including diagnosing certain types of structural modeling errors. Some algorithms may be used as a subroutine to solve an optimization problem, and may call an optimization solver to facilitate this. Well-known linear algebra routines are called to provide further diagnostics. The software contains no data and no models other than toy models used for testing.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Tools for analysis of optimization models",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl-ansi/JuMPIn.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

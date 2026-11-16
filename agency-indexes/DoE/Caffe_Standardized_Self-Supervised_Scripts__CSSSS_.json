@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-03-28",
+        "metadataLastUpdated": "2018-03-28"
+    },
+    "description": "The program is a set of python scripts which extends the open source\nprogram Caffc lo allow it to learn to train a neuml network using self -supervised training. ",
+    "laborHours": 501.6,
+    "name": "Caffe Standardized Self-Supervised Scripts (CSSSS)",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/selfsupervised",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

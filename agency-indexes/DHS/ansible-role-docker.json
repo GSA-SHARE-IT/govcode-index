@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-04-19",
+        "lastModified": "2026-06-04"
+    },
+    "description": "An Ansible role for installing Docker",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-docker/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-docker",
+    "laborHours": 820.2,
+    "languages": [
+        "Shell",
+        "Python",
+        "Jinja"
+    ],
+    "name": "ansible-role-docker",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-docker.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "ansible-role",
+        "docker"
+    ],
+    "vcs": "git"
+}

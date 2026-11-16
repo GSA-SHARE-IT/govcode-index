@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "HOMMEXX is a global atmosphere dynamics and transport solver that uses a spectral element method, and is now written to be performance portable to many new computer architectures.",
+    "laborHours": 93723.2,
+    "languages": [
+        "C++"
+    ],
+    "name": "HOMMEXX",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/E3SM-Project/HOMMEXX/blob/master/src/share/cxx/COPYRIGHT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/HOMMEXX",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

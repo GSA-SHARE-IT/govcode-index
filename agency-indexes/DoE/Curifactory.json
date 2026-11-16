@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "stewartsl@ornl.gov"
+    },
+    "date": {
+        "created": "2022-02-08",
+        "metadataLastUpdated": "2022-02-22"
+    },
+    "description": "Curifactory is a library and CLI tool designed to help organize and manage research experiments in Python. Experiment management requires several aspects, including experiment orchestration, parameterization, caching, reproducibility, reporting, and parallelization. Existing projects such as MLFlow, MetaFlow, Luigi, and Pachyderm support these aspects in several different ways and to various degrees. Curifactory provides a different opinion to these, with a heavier focus on supporting general research experiment workflows for individuals or small teams working primarily in Python.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Curifactory",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/curifactory",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

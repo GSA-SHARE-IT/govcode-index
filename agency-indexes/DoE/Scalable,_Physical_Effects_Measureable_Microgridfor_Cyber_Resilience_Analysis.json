@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-04-13",
+        "metadataLastUpdated": "2023-03-13"
+    },
+    "description": "SPEMMCRA provides a low-cost simulated method to provide for testing of control theory and cybersecurity approaches to microgrid implementations. Specifically, this physics-based approach provides realistic responses to compare control strategies in simulation, but also to demonstrate actions that can or cannot be taken in taking cybersecurity actions . As communications interfaces or other actions are taken that affect the flow of data, SPEMMCRA can show whether the microgrid operation is adversely affected by what is intended to mitigate a cybersecurity event.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Scalable, Physical Effects Measureable Microgridfor Cyber Resilience Analysis",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/SPEMMCRA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

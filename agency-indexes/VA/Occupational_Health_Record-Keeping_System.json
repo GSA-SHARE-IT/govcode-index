@@ -1,0 +1,45 @@
+{
+    "id": 1467,
+    "name": "Occupational Health Record-Keeping System",
+    "organization": "OIT DSO",
+    "version": null,
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/foia-ohrs-occupational-health-record-system",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "OHRS",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Red Hat Enterprise Linux",
+        "VMware vSphere",
+        "Java Enterprise Edition (Java EE)",
+        "Microsoft Structured Query Language (SQL) Server"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2021-01-26",
+        "lastModified": "2021-01-26",
+        "metadataLastUpdated": "2021-01-26"
+    },
+    "description": "Repository containing the FOIA Releases for Occupational Health Record-Keeping System"
+}

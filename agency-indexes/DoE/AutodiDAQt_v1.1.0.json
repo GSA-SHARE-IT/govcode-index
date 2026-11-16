@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-08-01",
+        "metadataLastUpdated": "2023-08-01"
+    },
+    "description": "\tAutodiDAQt automates and simplifies writing data acquisition software for spectroscopy and microscopy. After defining only how to communicate with instruments and hardware, autodiDAQt generates user interfaces for long running acquisition applications, handlings data collation and retention, and provides remote communication to analysis computers. This reduces the time to get experiments running from months to hours and increases reliability for scientific experiments.\n\nAutodiDAQt metaprograms from instrument drivers directly, where possible.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "AutodiDAQt v1.1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/chstan/autodiDAQt",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

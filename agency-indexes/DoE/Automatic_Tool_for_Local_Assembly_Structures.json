@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Whole community shotgun sequencing of total DNA (i.e. metagenomics) and total RNA (i.e. metatranscriptomics) has provided a wealth of information in the microbial community structure, predicted functions, metabolic networks, and is even able to reconstruct complete genomes directly. Here we present ATLAS (Automatic Tool for Local Assembly Structures) a comprehensive pipeline for assembly, annotation, genomic binning of metagenomic and metatranscriptomic data with an integrated framework for Multi-Omics. This will provide an open source tool for the Multi-Omic community at large.",
+    "laborHours": 4438.4,
+    "name": "Automatic Tool for Local Assembly Structures",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/atlas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

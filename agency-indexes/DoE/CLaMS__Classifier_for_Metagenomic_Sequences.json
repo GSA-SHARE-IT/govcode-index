@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-08"
+    },
+    "description": "CLaMS-\"Classifer for Metagenonic Sequences\" is a Java application for binning assembled metagenomes wings user-specified training sequence sets and other user-specified initial parameters. Since ClAmS analyzes and matches sequence composition-based genomic signatures, it is much faster than binning tools that rely on alignments to homologs; CLaMS can bin ~20,000 sequences in 3 minutes on a laptop with a 2.4 Ghz. Intel Core 2 Duo processor and 2 GB Ram. CLaMS is meant to be desktop application for biologist and can be run on any machine under any operating system on which the Java Runtime Environment is enabled. CLaMS is freely available in both GVI-based and command-line based forms.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [
+        "JRE"
+    ],
+    "name": "CLaMS: Classifier for Metagenomic Sequences",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "landryne@ornl.gov"
+    },
+    "date": {
+        "created": "2022-03-10",
+        "metadataLastUpdated": "2022-03-10"
+    },
+    "description": "This code is used to determine the different types of pleiotropy among genes and multiple phenotypes",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Multi-Phenotype Association (MPA) Decomposition",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/daweighill/MPA_decomp",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

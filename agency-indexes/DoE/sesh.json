@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "brownjm@ornl.gov"
+    },
+    "date": {
+        "created": "2021-10-01",
+        "metadataLastUpdated": "2021-10-01"
+    },
+    "description": "`sesh` calculates resonance self-shielding corrections for time-of-flight experimental data",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "sesh",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/brownjm1968/sesh",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2023-01-17",
+        "metadataLastUpdated": "2023-08-24"
+    },
+    "description": "This open-source tool aims to provide a powerful and flexible platform for simulating electromagnetic transients (EMT) of large-scale inverter-based resource (IBR)-dominated power systems. The purpose of making it open source is to foster a community of EMT simulation and assist in exploring new EMT algorithms and applying advanced computational techniques to EMT simulation.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "ParaEMT (NREL's EMT Simulator: An Open Source, and HPC-Compatible Large-Scale Power System Electro-Magnetic Transient (EMT) Simulator) [SWR-22-16]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/ParaEMT_public",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

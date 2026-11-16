@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Warp is a multidimensional discrete-particle beam simulation program designed to be applicable where the beam space-charge is non-negligible or dominant. It is being developed in a collaboration among LLNL, LBNL and the University of Maryland. It was originally designed and optimized for heave ion fusion accelerator physics studies, but has received use in a broader range of applications, including for example laser wakefield accelerators, e-cloud studies in high enery accelerators, particle traps and other areas. At present it incorporates 3-D, axisymmetric (r,z) planar (x-z) and transverse slice (x,y) descriptions, with both electrostatic and electro-magnetic fields, and a beam envelope model. The code is guilt atop the Python interpreter language.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Particle-in-cell/accelerator code for space-charge dominated beam simulation",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/warp/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-09-17"
+    },
+    "description": "Panzer is a finite element assembly engine used for research on solving partial differential equations (PDEs). Panzer takes a physics model implemented by a user and creates and populates the linear algrbra objects, such as residuals and Jacobians, for use in implicit finite element methods. Panzer can be considered \"glue code\" that pulls together the capabilities of a number of open-source Trilinos packages (Epetra, Intrepid, Sacado, FEI, and Phalanx). This code provides a generic framework for describing a set of partial differential equations. Panzer provides a simple example driver that solves the undergraduate textbook partial differential equation of heat transfer in a solid (see for example, \"Transport Phenomena\" by Bird Stewart, and Lightfoot 1960). Panzer is intended as a tool to simplify the use of the discretization tools in Trilinos (Intrepid and Phalanx) and is meant to aid in fundamental research on discretizations. Panzer will be released open-source as a package in Trilinos under a BSD license.",
+    "laborHours": 8344830.4,
+    "languages": [],
+    "name": "Panzer",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

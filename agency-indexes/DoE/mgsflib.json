@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-05-17",
+        "metadataLastUpdated": "2024-05-17"
+    },
+    "description": "Code for my PhD thesis that creates meshes using gmsh and code I wrote to create high-order hybrid meshes to use for testing a hybrid method between spectral element method and generalized finite differences. It also uses a tetrahedral mesh improvement method called \"stellar\" to improve mesh quality near a curved boundary.",
+    "laborHours": 1900.0,
+    "languages": [],
+    "name": "mgsflib",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Jacobj-LANL/mgsflib",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

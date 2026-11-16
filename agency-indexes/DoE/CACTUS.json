@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-06-03",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "CACTUS is an innovative LLM‐based agent that combines the cognitive capabilities of large language models with domain‐specific tools. By integrating\ncheminformatics tools, CACTUS assists researchers in tasks such as molecular property prediction, similarity searching, and drug‐likeness assessment.",
+    "laborHours": 729.6,
+    "languages": [],
+    "name": "CACTUS",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/cactus",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "High Performance Computing (HPC) systems generate millions of inter-related event log lines per day from thousands of computers, providing feedback on both successful and unsuccessful operations within the system. Thorough analysis of these logs is often required for root cause analysis of problems and tuning for greatest performance. This \"app\" for the \"Gnawts\" log analysis software (http://www.gnawts.com) facilitates faster and deeper insights into HPC system logs.",
+    "laborHours": 4301.6,
+    "languages": [
+        "CSS",
+        "Perl",
+        "HTML",
+        "Korn shell",
+        "JavaScript",
+        "Python"
+    ],
+    "name": "Gnawts",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/gnawts",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

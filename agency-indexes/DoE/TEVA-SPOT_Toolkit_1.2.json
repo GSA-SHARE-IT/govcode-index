@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-25"
+    },
+    "description": "The TEVA-SPOT Toolkit (SPOT) supports the design of contaminant warning systems (CWSs) that use real-time sensors to detect contaminants in municipal water distribution networks. Specifically, SPOT provides the capability to select the locations for installing sensors in order to maximize the utility and effectiveness of the CWS. SPOT models the sensor placement process as an optimization problem, and the user can specify a wide range of performance objectives for contaminant warning system design, including population health effects, time to detection, extent of contamination, volume consumed and number of failed detections. For example, a SPOT user can integrate expert knowledge during the design process by specigying required sensor placements or designating network locations as forbidden. Further, cost considerations can be integrated by limiting the design with user-specified installation costs at each location.",
+    "laborHours": 30.4,
+    "languages": [
+        "C++",
+        "C",
+        "Python"
+    ],
+    "name": "TEVA-SPOT Toolkit 1.2",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/TEVA-SPOT-Toolkit",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

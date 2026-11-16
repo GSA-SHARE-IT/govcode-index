@@ -1,0 +1,42 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-07-27",
+        "lastModified": "2024-03-12"
+    },
+    "description": "The website source and terraform code for continuous phishing assessment.",
+    "downloadURL": "https://api.github.com/repos/cisagov/con-pca-web/downloads",
+    "homepageURL": "https://github.com/cisagov/con-pca-web",
+    "laborHours": 45725.8,
+    "languages": [
+        "HTML",
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "SCSS",
+        "Shell",
+        "Python",
+        "Makefile",
+        "Dockerfile"
+    ],
+    "name": "con-pca-web",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/con-pca-web.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

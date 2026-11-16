@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "ECCE provides a sophisticated graphical user interface, scientific visualization tools, and the underlying data management framework enabling scientists to efficiently set up calculations and store, retrieve, and analyze the rapidly growing volumes of data produced by computational chemistry studies. ECCE was conceived as part of the Environmental Molecular Sciences Laboratory construction to solve the problem of researchers being able to effectively utilize complex computational chemistry codes and massively parallel high performance compute resources. Bringing the power of these codes and resources to the desktops of researcher and thus enabling world class research without users needing a detailed understanding of the inner workings of either the theoretical codes or the supercomputers needed to run them was a grand challenge problem in the original version of the EMSL. ECCE allows collaboration among researchers using a web-based data repository where the inputs and results for all calculations done within ECCE are organized. ECCE is a first of kind end-to-end problem solving environment for all phases of computational chemistry research: setting up calculations with sophisticated GUI and direct manipulation visualization tools, submitting and monitoring calculations on remote high performance supercomputers without having to be familiar with the details of using these compute resources, and performing results visualization and analysis including creating publication quality images. ECCE is a suite of tightly integrated applications that are employed as the user moves through the modeling process.",
+    "laborHours": 450421.6,
+    "name": "Extensible Computational Chemistry Environment",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/mattbernst/ECCE/blob/master/ecce-v7.0/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mattbernst/ECCE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

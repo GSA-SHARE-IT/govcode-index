@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2018-02-14",
+        "metadataLastUpdated": "2018-03-14"
+    },
+    "description": "SQL Parser derived from Presto, written in Python with the PLY framework",
+    "laborHours": 1596.0,
+    "name": "lacquer",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/lacquer",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

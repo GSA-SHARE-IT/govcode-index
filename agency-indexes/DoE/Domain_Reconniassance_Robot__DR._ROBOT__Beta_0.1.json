@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2018-11-29",
+        "metadataLastUpdated": "2018-11-29"
+    },
+    "description": "This tool can be used to enumerate the subdomains associated with a company by aggregating the results of multiple OSINT (Open Source Intelligence) tools.",
+    "laborHours": 1459.2,
+    "languages": [
+        "Bash",
+        "Perl",
+        "Python",
+        "Ruby"
+    ],
+    "name": "Domain Reconniassance Robot (DR. ROBOT) Beta 0.1",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/dr_robot",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "Beta 0.1"
+}

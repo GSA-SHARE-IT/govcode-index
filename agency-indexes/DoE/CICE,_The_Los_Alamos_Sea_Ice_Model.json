@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The Los Alamos sea ice model (CICE) is the result of an effort to develop a computationally efficient sea ice component for a fully coupled atmosphere–land–ocean–ice global climate model. It was originally designed to be compatible with the Parallel Ocean Program (POP), an ocean circulation model developed at Los Alamos National Laboratory for use on massively parallel computers. CICE has several interacting components: a vertical thermodynamic model that computes local growth rates of snow and ice due to vertical conductive, radiative and turbulent fluxes, along with snowfall; an elastic-viscous-plastic model of ice dynamics, which predicts the velocity field of the ice pack based on a model of the material strength of the ice; an incremental remapping transport model that describes horizontal advection of the areal concentration, ice and snow volume and other state variables; and a ridging parameterization that transfers ice among thickness categories based on energetic balances and rates of strain. It also includes a biogeochemical model that describes evolution of the ice ecosystem. The CICE sea ice model is used for climate research as one component of complex global earth system models that include atmosphere, land, ocean and biogeochemistry components. It is also used for operational sea ice forecasting in the polar regions and in numerical weather prediction models.",
+    "laborHours": 51938.4,
+    "name": "CICE, The Los Alamos Sea Ice Model",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/CICE-Consortium/CICE/blob/master/LICENSE.pdf",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CICE-Consortium/CICE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

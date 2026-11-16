@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2018-02-14",
+        "metadataLastUpdated": "2018-03-14"
+    },
+    "description": "Firmware Libraries for RCE Platform Development",
+    "laborHours": 34260.8,
+    "name": "rce-gen3-fw-lib",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/rce-gen3-fw-lib/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/rce-gen3-fw-lib",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,29 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-12-13"
+    },
+    "description": "LRIOT is a test bench framework that is designed to generate sophisticated I/O rates that can stress high-performance memory and storage systems, such as non-volatile random access memories (NVRAM)and storage class memory. Furthermore, LRIOT provides the capabilities to mix multiple types of concurrency, namely threading and task parallelism, as well as distributed execution using Message Passing Interface (MPI) libraries. It will be used by algorithm designers to generate access patterns that mimic their application's behavior, and by system designers to test high-performance NVRAM storage.",
+    "laborHours": 760.0,
+    "name": "Livermore Random I/O Testbench",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://bitbucket.org/vanessen/lriot/src/594efbf7484ed377e0b9e55e6f1bf564b6556546/lriot_license_header_stub.c",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/vanessen/lriot",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

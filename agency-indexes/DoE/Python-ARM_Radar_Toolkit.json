@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The Python-ARM Radar Toolkit (Py-ART) is a collection of radar quality control and retrieval codes which all work on two unifying Python objects: the PyRadar and PyGrid objects. By building ingests to several popular radar formats and then abstracting the interface Py-ART greatly simplifies data processing over several other available utilities. In addition Py-ART makes use of Numpy arrays as its primary storage mechanism enabling use of existing and extensive community software tools.",
+    "laborHours": 159980.0,
+    "name": "Python-ARM Radar Toolkit",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ARM-DOE/pyart",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

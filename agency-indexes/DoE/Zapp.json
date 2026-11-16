@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-03-11",
+        "metadataLastUpdated": "2022-03-11"
+    },
+    "description": "This code package computes the multi-species BGK kinetic model of Haack, Hauck, and Murillo [J. Stat. Phys., 168, 2017]. It uses a block adaptive mesh refinement (AMR) framework derived from the open-source, Parthenon performance portable AMR framework to provide refinement in the (up to) six dimensional phase space. It includes an atomic ionization model, accurate collision physics across coupling regimes, self-consistent electric fields, and allows for degeneracy in the electronic screening. This kinetic model greatly extends the temperature regime and the spatiotemporal scales for modeling moderately coupled plasmas.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Zapp",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-06-20",
+        "metadataLastUpdated": "2019-06-20"
+    },
+    "description": "The ESnet Visualization widgets are various data visualization widgets for use\nin web browsers.  They were developed for use in the [MyESnet portal](https://my.es.net/)\nbut are general enough to be used other places.  The widgets are built using the d3.js library.",
+    "laborHours": 106.4,
+    "languages": [],
+    "name": "esviz",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/esnet/esviz/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/esnet/esviz",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

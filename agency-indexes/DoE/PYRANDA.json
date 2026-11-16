@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-05-10",
+        "metadataLastUpdated": "2018-05-22"
+    },
+    "description": "Pyranda Is fortran 90 code which solves compact finite difference equations on a three dimensional fortran arrays, domain decomposed using the Message Passing Interface (MPI). The fortran source solves the linear system of equations which forms a pentadtagona1 matrix. Derivatives are used to construct hyperbolic partlal differential equation (PDE) operators, namely gradient, divergence, Laplacian, and curl operators. \n5. Solution Method:\nThe library provides a python Interface which facilitates problem setup and description. However, the core solver Is written in the fortran 90 language. The solver couples MPI communication and linear solves together so that a direct (non-iterative) solution to the linear system of equations can be computed with minimal communication. Domain decomposition is limited to a uniform data size but provides perfect load balancing. \n6. Computer for which the code Is written:",
+    "laborHours": 9849.6,
+    "languages": [],
+    "name": "PYRANDA",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/pyranda",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

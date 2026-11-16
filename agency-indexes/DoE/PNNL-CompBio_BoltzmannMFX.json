@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2023-05-08",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "BoltzmannMFX is a biological simulation code that solves chemical reaction networks using maximum entropy methods. It uses modules from MFiX-Exa and is based on the AMReX framework for massively parallel block-structured adaptive mesh applications.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PNNL-CompBio/BoltzmannMFX",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-CompBio/BoltzmannMFX",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

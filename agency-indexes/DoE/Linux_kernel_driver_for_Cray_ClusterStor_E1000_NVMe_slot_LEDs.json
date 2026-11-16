@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-03-29",
+        "metadataLastUpdated": "2023-03-29"
+    },
+    "description": "Linux kernel driver for the Cray ClusterStor E1000 NVMe slot LEDs. This driver allows us to set the 'fault' and 'locate' LEDs on a CrayE1000 slot to indicate which drive has failed. Is there",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Linux kernel driver for Cray ClusterStor E1000 NVMe slot LEDs",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/tonyhutter/e1000_nvme_led",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

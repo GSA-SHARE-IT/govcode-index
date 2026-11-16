@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-05-13"
+    },
+    "description": "SERI QC is a mathematical software package that assesses the quality of solar radiation data. The SERI QC software is a function written in the C programming language. IT IS NOT A STANDALONE SOFTWARE APPLICATION. The user must write the calling application that requires quality assessment of solar data. The C function returns data quality flags to the calling program. A companion program, QCFIT, is a standalone Windows application that provides support files for the SERI QC function (data quality boundaries). The QCFIT software can also be used as an analytical tool for visualizing solar data quality independent of the SERI QC function.",
+    "laborHours": 319.2,
+    "languages": [
+        "C"
+    ],
+    "name": "SERI QC Solar Data Quality Assessment Software",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/SolarResourceTools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "At exascale, the challenge becomes to develop applications that run at scale and use exascale platforms reliably, efficiently, and flexibly. Workflows become much more complex because they must seamlessly integrate simulation and data analytics. They must include down-sampling, post-processing, feature extraction, and visualization. Power and data transfer limitations require these analysis tasks to be run in-situ or in-transit. We expect successful workflows will comprise multiple linked simulations along with tens of analysis routines. Users will have limited development time at scale and, therefore, must have rich tools to develop, debug, test, and deploy applications. At this scale, successful workflows will compose linked computations from an assortment of reliable, well-defined computation elements, ones that can come and go as required, based on the needs of the workflow over time. We propose a novel framework that utilizes both virtual machines (VMs) and software containers to create a workflow system that establishes a uniform build and execution environment (BEE) beyond the capabilities of current systems. In this environment, applications will run reliably and repeatably across heterogeneous hardware and software. Containers, both commercial (Docker and Rocket) and open-source (LXC and LXD), define a runtime that isolates all software dependencies from the machine operating system. Workflows may contain multiple containers that run different operating systems, different software, and even different versions of the same software. We will run containers in open-source virtual machines (KVM) and emulators (QEMU) so that workflows run on any machine entirely in user-space. On this platform of containers and virtual machines, we will deliver workflow software that provides services, including repeatable execution, provenance, checkpointing, and future proofing. We will capture provenance about how containers were launched and how they interact to annotate workflows for repeatable and partial re-execution. We will coordinate the physical snapshots of virtual machines with parallel programming constructs, such as barriers, to automate checkpoint and restart. We will also integrate with HPC-specific container runtimes to gain access to accelerators and other specialized hardware to preserve native performance. Containers will link development to continuous integration. When application developers check code in, it will automatically be tested on a suite of different software and hardware architectures.",
+    "laborHours": 2629.6,
+    "name": "Build and Execute Environment",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/lanl/BEE/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/BEE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

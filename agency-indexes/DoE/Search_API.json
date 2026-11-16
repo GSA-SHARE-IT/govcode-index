@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-07-23",
+        "metadataLastUpdated": "2020-07-31"
+    },
+    "description": "This is a small HTTP interface around KBase's elasticsearch indexes.\n\n",
+    "laborHours": 5730.4,
+    "languages": [],
+    "name": "Search API",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/search_api2",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

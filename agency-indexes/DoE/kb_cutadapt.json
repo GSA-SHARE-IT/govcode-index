@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-11",
+        "metadataLastUpdated": "2020-09-11"
+    },
+    "description": "This repository is a KBase wrapper that exposes some of the functionality of the cutadapt tool as a set of KBase Apps.",
+    "laborHours": 2204.0,
+    "languages": [],
+    "name": "kb_cutadapt",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseapps/kb_cutadapt",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2022-10-28",
+        "lastModified": "2025-04-04"
+    },
+    "description": "The containerized brain of the Cyber Hygiene vulnerability scanner",
+    "downloadURL": "https://api.github.com/repos/cisagov/cyhy-commander-docker/downloads",
+    "homepageURL": "https://github.com/cisagov/cyhy-commander-docker",
+    "laborHours": 564.1,
+    "languages": [
+        "Shell",
+        "Python",
+        "Dockerfile"
+    ],
+    "name": "cyhy-commander-docker",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/cyhy-commander-docker.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "cyhy",
+        "docker",
+        "vulnerability-scanner"
+    ],
+    "vcs": "git"
+}

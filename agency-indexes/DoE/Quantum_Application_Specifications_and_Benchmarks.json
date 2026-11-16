@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-09-22",
+        "metadataLastUpdated": "2023-09-22"
+    },
+    "description": "This software describes computational tasks for quantum computers that are derived from LANL basic science research applications such as the modeling of materials, chemicals and compounds at atomic scales. The computations focus on quantum simulation tasks, such as quantum dynamics, thermal state preparation and ground state estimation. The primary function of the software is to develop estimates of the requirements for large-scale fault-tolerant quantum computers to solve these scientific computations. The secondary focus of the software are codes for assessing the limitations of conducting quantum computations on classical computers.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Quantum Application Specifications and Benchmarks",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl-ansi/qc-applications",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

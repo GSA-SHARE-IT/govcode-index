@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2025-01-17",
+        "metadataLastUpdated": "2025-01-17"
+    },
+    "description": "This code is a python based application that queries the National Vulnerability Database (NVD) API search term and CPE endpoints. It then sifts through the API response and uses the STIX2 python package to create STIX SDOs, SROs, and SCOs from the applicable data. If there are CWEs associated with the bundle, it queries the OpenCVE API for information on the weakness, then translates that data to STIX as well. It then combines all the data into a STIX bundle and outputs it to a JSON file.",
+    "laborHours": 91.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "Nvd Search To Stix",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/NSTS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

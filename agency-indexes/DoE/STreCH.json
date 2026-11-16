@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-09-28",
+        "metadataLastUpdated": "2021-09-28"
+    },
+    "description": "Symbolic regression software that formulates a symbolic regression problem as a mixed-integer nonlinear optimization problem, and solves it using a sequential tree construction heuristic",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "STreCH",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jongeunkim/STreCH",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

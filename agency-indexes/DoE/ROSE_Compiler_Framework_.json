@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-05-15",
+        "metadataLastUpdated": "2019-05-16"
+    },
+    "description": "The purpose of the ROSE Complier Framework Is to automate source code porting, source and binary code analysis, and source code translations such as platform optimization, binary code analysis, Identification of source code and binary code vulnerablllttes.",
+    "laborHours": 5605912.0,
+    "languages": [],
+    "name": "ROSE Compiler Framework ",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/rose-compiler/rose",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

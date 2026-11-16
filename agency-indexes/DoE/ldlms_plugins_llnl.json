@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-05-23",
+        "metadataLastUpdated": "2019-05-23"
+    },
+    "description": "ldlms_plugins_llnl contains LLNL-developed plugins for LDMS (Lightweight Distributed Metric Service), which is software for low overhead monitoring, transport and storage of cluster metric data.  These plugins add to LDMS the capability to monitor Lustre file system clients, metadata servers, and object storage servers.",
+    "laborHours": 1216.0,
+    "languages": [],
+    "name": "ldlms_plugins_llnl",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ldms-plugins-llnl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

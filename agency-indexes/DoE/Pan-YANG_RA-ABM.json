@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "krhodges@illinois.edu"
+    },
+    "date": {
+        "created": "2024-11-01",
+        "metadataLastUpdated": "2024-11-01"
+    },
+    "description": "Crowd-sourcing incorporates common citizens as rich sources of data and is promising for environmental monitoring. In this paper, we propose and test the idea of incorporating incentives to crowd-sourcing management for rainfall monitoring. Specifically, we modeled the allocation of incentives (quantitatively measurable and limited rewards) among crowd-sourcing participants for a theoretical rainfall monitoring case. For this purpose, we developed an integrated model comprising a reward allocation component to represent the decision‐making process of a central manager, an agent‐based model to simulate the interactions between the manager and participants, and a rainfall simulation model to evaluate the effectiveness of various reward allocation policies. We simulated six reward allocation policies of varying levels of administrative cost, and consideration of participant and rainfall spatial heterogeneities. The results suggest the performance of each policy to improve with the reward budget and their spatial uniformity. Among the six policies tested, we found that the participant density weighted maximum participation policy yields the most accurate estimation of rainfall intensity due to its more explicit consideration of the spatial distribution of participants; however, this policy associates with a high administrative cost. This highlights the trade‐off between performance and cost in designing effective reward allocation policies. This paper provides a physical and behavior simulation modeling tool to study the feasibility and complexity of reward‐based participant management for crowd-sourcing rainfall monitoring. The proposed crowd-sourcing method is beneficial for a wide range of applications that require rainfall data with fine resolution, such as stormwater management and water availability and biomass assessment for food and energy crops.",
+    "laborHours": 319.2,
+    "languages": [],
+    "name": "Pan-YANG/RA-ABM",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Pan-YANG/RA-ABM",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "Dimensionality Reduction Library is a C++ library for dimensionality reduction. In the context of this library, dimensionality reduction is considered to consist of 1)estimation of the intrinsic dimensionality using sampled data, 2) Finding maps that reduce the dimensionality of data (forward map) or increase the dimensionality of data (reverse map) and 3) mapping arbitray coordinates to high and low dimensionalities. The library is intended to provide a consistent interface to multiple dimensionality reduction algorithms with an efficient C++ interface that runs efficiently on multicore architectures. A few routines have been optimized with an option for GPU acceleration or distributed computation. Currently the library offers intrinsic dimensionality estimation using point-PCA reconstruction error and/ residual variance. The following dimensionality reduction methods have been implemented: Principal Component Analysis Multidimensional Scaling Locally Linear Embedding IsoMap Autoencoder Neutral Networks An executable is also supplied that can be built to allow for command-line access to the library routines. A description for an application of the library for molecular structure analysis has been published.",
+    "laborHours": 6976.8,
+    "languages": [
+        "JavaScript"
+    ],
+    "name": "Dimensionality Reduction Library v 0.2",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/dimensionality-reduction-library",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "0.2"
+}

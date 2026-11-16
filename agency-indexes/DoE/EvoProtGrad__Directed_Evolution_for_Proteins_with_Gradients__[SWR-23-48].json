@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-06-02",
+        "metadataLastUpdated": "2024-06-05"
+    },
+    "description": "A Python package for directed evolution on a protein sequence with gradient-based discrete Markov chain monte carlo (MCMC). Users are able to compose custom models that map sequence to function with pretrained models, including protein language models (PLMs), to guide and constrain search. Our package natively integrates with the HuggingFace platform and supports PLMs from transformers.\n\nOur MCMC sampler identifies promising amino acids to mutate via model gradients taken with respect to the input (i.e., sensitivity analysis). We allow users to compose their own custom target function for MCMC by leveraging the Product of Experts MCMC paradigm. Each model is an \"expert\" that contributes its own knowledge about the protein's fitness landscape to the overall target function. The sampler is designed to be more efficient and effective than brute force and random search while maintaining most of the generality and flexibility.\n\nAdditional information can be found in the related publication: https://iopscience.iop.org/article/10.1088/2632-2153/accacd",
+    "laborHours": 820.8,
+    "languages": [
+        "PYTHON",
+        "Jupyter Notebook"
+    ],
+    "name": "EvoProtGrad (Directed Evolution for Proteins with Gradients) [SWR-23-48]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/EvoProtGrad",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

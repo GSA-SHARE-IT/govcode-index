@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-17",
+        "metadataLastUpdated": "2018-07-17"
+    },
+    "description": "This package provides a SLCS server that can provide short-lived X509 certificates for users in an ESGF user database.\n",
+    "laborHours": 167.2,
+    "languages": [],
+    "name": "esgf-slcs-server",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ESGF/esgf-slcs-server",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

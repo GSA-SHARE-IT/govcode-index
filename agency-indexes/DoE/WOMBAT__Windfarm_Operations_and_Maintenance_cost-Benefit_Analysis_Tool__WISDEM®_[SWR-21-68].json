@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2021-06-07",
+        "metadataLastUpdated": "2024-10-25"
+    },
+    "description": "The windfarm operations and maintenance cost-benefit analysis tool (WOMBAT) is software to simulate the operations and maintenance phase of either onshore or offshore windfarms. WOMBAT is a medium-fidelity tool that is designed to model turbine, cable, and substation failures at the subassembly level, but is flexible enough that individual component or asset-level modeling can also be performed. WOMBAT enables users to model technological improvements, the use of a wide range of service equipment from drone repairs and remote resets to heavy lift vessels and crawler cranes, to analyze cost trends with varying trade-offs in conjunction with energy production, availability and a growing range of metrics. \n\nThis library provides a tool to simulate the operation and maintenance phase (O&M) of distributed, land-based, and offshore windfarms using a discrete event simulation framework.\n\nWOMBAT is written around the SimPy discrete event simulation framework. Additionally, this is supported using a flexible and modular object-oriented code base, which enables the modeling of arbitrarily large (or small) windfarms with as many or as few failure and maintenance tasks that can be encoded.\n\nPlease note that this is still heavily under development, so you may find some functionality to be incomplete at the current moment, but rest assured the functionality is expanding. With that said, it would be greatly appreciated for issues or PRs to be submitted for any improvements at all, from fixing typos (guaranteed to be a few) to features to testing.\n\nAlso available at: https://pypi.org/project/wombat/",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "WOMBAT (Windfarm Operations and Maintenance cost-Benefit Analysis Tool) WISDEM® [SWR-21-68]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/WISDEM/WOMBAT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "V0.9.3"
+}

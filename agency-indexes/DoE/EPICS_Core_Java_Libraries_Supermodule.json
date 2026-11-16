@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-08-02",
+        "metadataLastUpdated": "2022-08-02"
+    },
+    "description": "This is a supermodule to build, test, bundle and deploy all Java/Maven modules of the EPICS Core Libraries. It also contains the EPICS parent POM that is inherited by all modules, and provides a convenience dependency POM that can be used by other projects to depend on a matching set of the EPICS Core libraries.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "EPICS Core Java Libraries Supermodule",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/epics-core-java-backport-1.5/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/epics-core-java-backport-1.5",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

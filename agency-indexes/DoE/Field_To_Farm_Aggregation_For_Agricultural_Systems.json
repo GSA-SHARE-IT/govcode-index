@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2024-10-07",
+        "metadataLastUpdated": "2024-10-07"
+    },
+    "description": "The Fields to Farms methodology illustrates the generation of farm parcels from the Crop Data Layer (CDL), a raster dataset containing 133 categories representing various crop types and land uses. This methodology involves two primary steps: Field Delineation and Farm Aggregation. The code specifically addresses the aggregation of pre-delineated fields within a county to form farms, adhering to predefined criteria for farm size categories. It is assumed that the field delineation process, which involves creating vector polygons from CDL raster, has been completed beforehand, possibly through external tools or methods. Upon initialization, the script processes county-level fields, preparing them for farm aggregation. In the Farm Aggregation phase, the code iteratively combines delineated fields into farms based on specified criteria, continuing until the aggregated farm size meets predefined thresholds derived from data from the 2017 National Agricultural Statistics Service (NASS) census. Throughout this iterative process, the script dynamically adjusts the aggregation to ensure alignment with the desired distribution reported by NASS. The resulting output of the script is a GeoDataFrame containing classified farms, which are subsequently saved as GeoPackage files. These files enable further analysis and visualization, facilitating comprehensive exploration of the farm landscape generated through the methodology.",
+    "laborHours": 76.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Field To Farm Aggregation For Agricultural Systems",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/Field2Farm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-30"
+    },
+    "description": "Conjoin is a code for joining sequentially in time multiple exodusII database files. It is used to create a single results or restart file from multiple results or restart files which typically arise as the result of multiple restarted analyses. The resulting output file will be the union of the input files with a status variable indicating the status of each element at the various time planes.Combining multiple exodusII files arising from a restarted analysis or combining multiple exodusII files arising from a finite element analysis with dynamic topology changes.",
+    "laborHours": 692284.0,
+    "languages": [
+        "C++",
+        "HTML",
+        "C",
+        "CMake",
+        "Fortran",
+        "Python"
+    ],
+    "name": "Conjoin",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/seacas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

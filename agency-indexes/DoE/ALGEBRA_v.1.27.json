@@ -1,0 +1,40 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-24"
+    },
+    "description": "The ALGEBRA program allows the user to manipulate data from a finite element analysis before it is plotted. The finite element output data is in the form of variable values (e.g., stress, strain, and velocity components) in an EXODUS II database. The ALGEBRA program evaluates user-supplied functions of the data and writes the results to an output EXODUS II database that can be read by plot programs.",
+    "homepageURL": "https://github.com/sandialabs/seacas",
+    "laborHours": 693758.4,
+    "languages": [
+        "C++",
+        "HTML",
+        "C",
+        "CMake",
+        "Fortran",
+        "Python"
+    ],
+    "name": "ALGEBRA v.1.27",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://github.com/sandialabs/seacas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.27"
+}

@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-06-27",
+        "lastModified": "2026-05-29"
+    },
+    "description": "An Ansible role for setting up SSH access for the development team",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-dev-ssh-access/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-dev-ssh-access",
+    "laborHours": 904.7,
+    "languages": [
+        "Shell",
+        "HCL",
+        "Jinja",
+        "Python"
+    ],
+    "name": "ansible-role-dev-ssh-access",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-dev-ssh-access.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "ansible-role",
+        "hacktoberfest"
+    ],
+    "vcs": "git"
+}

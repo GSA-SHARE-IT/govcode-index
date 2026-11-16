@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-04-08",
+        "metadataLastUpdated": "2019-04-08"
+    },
+    "description": "Cygnus is a C++ code which is used to analyze Coulomb excitation experiments. In these experiments, the structure of nuclei is probed at low energy, so that only the electromagnetic interaction is involved. The excitation can then be solved semi-classically. Cygnus fits calculated yields to experimental data, allowing the extraction of transition matrix elements, which are important probes of nuclear structure.",
+    "laborHours": 49172.0,
+    "languages": [],
+    "name": "Cygnus",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jhenderson88/Cygnus",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-01-09",
+        "metadataLastUpdated": "2020-07-27"
+    },
+    "description": "Brief Description for Public Release:\nVarity is a framework to identify variations in floating-point programs through randomized differential testing. Varity generates random tests that include floating-point operations and compile these tests with different compilers in a system. It also generates random floating-point inputs for the tests. When tests are executed, the results are compared to identify variations in the results. Varity helps users of a system to identify the compilers that produce the most similar results in the system.",
+    "laborHours": 15732.0,
+    "languages": [],
+    "name": "Varity",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/Varity",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

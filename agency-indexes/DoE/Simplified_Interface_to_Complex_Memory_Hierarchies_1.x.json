@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Memory systems are expected to get evermore complicated in the coming years, and it isn't clear exactly what form that complexity will take. On the software side, a simple, flexible way of identifying and working with memory pools is needed. Additionally, most developers seek code portability and do not want to learn the intricacies of complex memory. Hence, we believe that a library for interacting with complex memory systems should expose two kinds of abstraction: First, a low-level, mechanism-based interface designed for the runtime or advanced user that wants complete control, with its focus on simplified representation but with all decisions left to the caller. Second, a high-level, policy-based interface designed for ease of use for the application developer, in which we aim for best-practice decisions based on application intent. We have developed such a library, called SICM: Simplified Interface to Complex Memory.",
+    "laborHours": 17829.6,
+    "name": "Simplified Interface to Complex Memory Hierarchies 1.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/SICM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

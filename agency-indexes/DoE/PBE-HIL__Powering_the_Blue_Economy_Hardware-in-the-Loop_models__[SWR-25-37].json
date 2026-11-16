@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2025-01-08",
+        "metadataLastUpdated": "2025-01-08"
+    },
+    "description": "Powering the Blue Economy Hardware-in-the-Loop models (PBE-HIL) is a repository of Power Hardware-in-the-loop models developed for typical Powering the Blue Economy market loads and power requirements. The HIL models were developed to be as generic and functional as possible, meaning that the user can easily configure these models to represent their unique PBE design. These PBE load and power requirement HIL models can then be used to inform marine energy converter (MEC) and power electronics design, as well as be used in laboratory testing using HIL equipment, leading to improved understanding of MEC performance and lower risk prior to open-water MEC deployment.",
+    "laborHours": 52318.4,
+    "languages": [
+        "C",
+        "Python",
+        "HTML"
+    ],
+    "name": "PBE-HIL (Powering the Blue Economy Hardware-in-the-Loop models) [SWR-25-37]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/PBE-HIL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

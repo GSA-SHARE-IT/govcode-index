@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The Domain Name System Security Extensions (DNSSEC) add authentication to the DNS. However, analyzing and troubleshooting a DNSSEC deployment is difficult in part because of the protocol complexity and in part because authentication involves retrieving dependent components from a number of different Internet locations. DNSViz was written to bring all these DNSSEC components together into a single graph, so they can be represented visually, and nuances can be highlighted for easy identification. DNSViz includes functionality for both analyzing a domain name using active probing and visual representation of the domain name, available currently through a Web interface.",
+    "laborHours": 11445.6,
+    "name": "DNSViz",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dnsviz/dnsviz",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

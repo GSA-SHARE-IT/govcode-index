@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-07-12",
+        "lastModified": "2023-07-26"
+    },
+    "description": "A Terraform module for creating a security group suitable for IPA clients.",
+    "downloadURL": "https://api.github.com/repos/cisagov/ipa-client-security-group-tf-module/downloads",
+    "homepageURL": "https://github.com/cisagov/ipa-client-security-group-tf-module",
+    "laborHours": 132.0,
+    "languages": [
+        "HCL"
+    ],
+    "name": "ipa-client-security-group-tf-module",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ipa-client-security-group-tf-module.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

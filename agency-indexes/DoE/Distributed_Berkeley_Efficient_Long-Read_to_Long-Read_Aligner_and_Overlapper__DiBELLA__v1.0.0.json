@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-16",
+        "metadataLastUpdated": "2021-03-16"
+    },
+    "description": "We present a parallel algorithm and scalable implementation for genome analysis, specifically the problem of finding overlaps and alignments for data from \"third generation\" long read sequencers. While long sequences of DNA offer enormous advantages for biological analysis and insight, current long read sequencing instruments have high error rates and therefore require different approaches to analysis than their short read counterparts. Our work focuses on an efficient distributed-memory parallelization of an accurate single-node algorithm for overlapping and aligning long reads. We achieve scalability of this irregular algorithm by addressing the competing issues of increasing parallelism, minimizing communication, constraining the memory footprint, and ensuring good load balance. The resulting application, DiBELLA, is the first distributed memory overlapper and aligner specifically designed for long reads and parallel scalability.",
+    "homepageURL": "https://sourceforge.net/projects/dibella",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Distributed Berkeley Efficient Long-Read to Long-Read Aligner and Overlapper (DiBELLA) v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sourceforge.net/projects/dibella",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

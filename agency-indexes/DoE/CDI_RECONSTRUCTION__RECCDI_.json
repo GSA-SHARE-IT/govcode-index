@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-10-10",
+        "metadataLastUpdated": "2019-10-11"
+    },
+    "description": "IMPLEMENTS PARALLEL GENETIC ALGORITHMS AND PHASE RETRIVAL METHOS FOR BRASS CDI TECHNIQUES.  THE SOFTWARE HAS GOOD PERFORMANCE, IS EASY TO MAINTAIN AND INCLUDES MULTIPLE FEATURES TO GUIDE THE RECONSTRUCTION PROCESS.",
+    "laborHours": 3511.2,
+    "languages": [],
+    "name": "CDI RECONSTRUCTION (RECCDI)",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AdvancedPhotonSource/cdi",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

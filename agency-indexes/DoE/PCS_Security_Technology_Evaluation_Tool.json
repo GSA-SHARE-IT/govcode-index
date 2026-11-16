@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-24"
+    },
+    "description": "P-STET assists in the security technology decision making process from a costlbeneflt perspective. It aids in addressing such questions as whether to acquire and deploy new security technology, to re-configure an existing product or system, or to maintain status quo. P-STET offers both a qualitative and quantitative option. P-STET is most efficient when tailored to an organization's security cost/benefit environment. It then serves as both a guide to show what types of security questions should be addressed and as a means to analyze the data gathered from the questions to make an informed decision. The quantitative option provides a straightforward way to express costs/benefits in terms of dollars. It relies on the organization to quantify benefits or cost avoidances, and, therefore, best serves as a guide to ensure various cost and benefit angles are evaluated. The qualitative option allows the organization to assess costs by levels with respect to security and PCS budgets, operational impacts, and opportunity costs. Benefits are represented in terms of improvements to the organization's operations and are also assessed by levels with respect to some benchmark such as compliance with best practices. Results are displayed graphically using radar charts, allowing the user to make a more intuitive decision. The shaded area of each chart represents the overall cost and benefit of the security investment. A good investment is denoted when the ratio of benefit shaded area to cost shaded area is large.",
+    "laborHours": 0.0,
+    "languages": [
+        "Java"
+    ],
+    "name": "PCS Security Technology Evaluation Tool",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/P-STET",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

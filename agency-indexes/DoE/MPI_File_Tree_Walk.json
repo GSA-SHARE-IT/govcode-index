@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-05-04"
+    },
+    "description": "MPI-FTW is a scalable MPI based software application that navigates a directory tree by dynamically allocating processes to navigate sub-directories found. Upon completion, MPI-FTW provides statistics on the number of directories found, files found, and time to complete. In addition, commands can be executed at each directory level.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "laborHours": 0.0,
+    "languages": [
+        "mpicc compiler"
+    ],
+    "name": "MPI File Tree Walk",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

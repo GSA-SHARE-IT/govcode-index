@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-02-03",
+        "metadataLastUpdated": "2021-02-03"
+    },
+    "description": "We perform a comparison study of two topology optimizations methods applied to the design of a two fluids heat exchanger modeled with a coupled thermal-flow problem. The flow follows an isothermal and\nincompressible Stokes-Brinkman equation and the heat transfer is governed by a convection-diffusion\nequation without internal generation and high Peclet number. To keep the two fluid phases separated, we solve two Stokes-Brinkman equations, where the Brinkman term models the other phase as a solid. These two velocity fields are then fed to the heat transfer equation. Our goal is to maximize the enthalpy at the cold outlet while constraining the pressure drop. We first solve the design modeling the solid and fluid phases with a volume fraction variable. A SIMP-like penalization in the Brinkman term drives the optimization to a discrete design. The cost and constraint function\nderivatives are calculated with the library pyadjoint and the optimization is performed by IPOPT. We present optimized designs in two dimensions and discuss the influence of the parameters.\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Two dimensional topology optimization of heat exchangers with the volume fraction method",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/2DHEVF",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

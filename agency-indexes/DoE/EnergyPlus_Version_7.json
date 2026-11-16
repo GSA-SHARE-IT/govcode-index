@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-28"
+    },
+    "description": "EnergyPlus is a whole building energy simulation program that engineers, architects and researchers use to model energy and water use in buildings. Modeling the performance of a building with EnergyPlus enables building professionals to optimize the building design to use less energy and water. Each version of EnergyPlus is tested extensively before release. EnergyPlus models heating, cooling, lighting, ventilation, other energy flows, and water use. EnergyPlus includes many innovation simulation capabilities: time-steps less than an hour, modular systems and plant integrated with heat balance-based zone simulation, multizone air flow, thermal comfort, water use, natural ventilation, and photovoltaic systems. EnergyPlus runs on the Windows, Macintosh, and Linux platforms. Free add-ons and other third party software products are available for use with EnergyPlus.",
+    "laborHours": 0.0,
+    "languages": [
+        "Intel Fortran V11"
+    ],
+    "name": "EnergyPlus Version 7",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://energyplus.net/licensing",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/EnergyPlusRelease/releases/tag/7.0.0.036",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "7.0.0.036"
+}

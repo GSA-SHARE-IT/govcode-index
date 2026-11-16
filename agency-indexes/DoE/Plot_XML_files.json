@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-11-15",
+        "metadataLastUpdated": "2022-11-15"
+    },
+    "description": "Plots XML files; plots specified singular XML file or all XML files within a specified folder.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Plot XML files",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CLDruzgalski/AM_fileConverters",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "000"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2025-04-14",
+        "metadataLastUpdated": "2025-04-14"
+    },
+    "description": "Framework for interacting with prompt-based LLMs (Large Language Models such as, but not\nlimited to, ChatGPT) in order to develop domain specific taxonomies. The software itself is a series of prompts designed to\nextract hierarchical taxonomy categories from an LLM, as well as guidelines for how to fine-tune LLMs in order to provide\nbetter domain-specific taxonomic categories.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 395.2,
+    "languages": [],
+    "name": "Prompt-Based Development of Domain-Specific Taxonomies",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

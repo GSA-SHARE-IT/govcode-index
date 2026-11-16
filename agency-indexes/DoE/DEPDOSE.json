@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-04-26",
+        "metadataLastUpdated": "2023-04-26"
+    },
+    "description": "DEPDOSE is an open-source computer application which combines the KDEP respiratory tract deposition software with committed equivalent dose coefficient tables from the DC_PAK internal dosimetry package. DEPDOSE allows the user to rapidly produce tables of dose coefficients to workers and members of the public inhaling a precisely defined, user-specified aerosols using the ICRP 60 series methodology. Combined with a plume dispersion modeling system such as QUIC, this makes it possible to predict radiation doses downstream from an accidental or intentional release of radioactive materials. For this work, a radioactive plume was calculated to members of the public downstream from a plausible release of radionuclides into the atmosphere.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "DEPDOSE",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/DEPDOSE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

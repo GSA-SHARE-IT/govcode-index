@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2023-01-03",
+        "metadataLastUpdated": "2023-05-17"
+    },
+    "description": "Caldera ICM is part of Caldera software platform, a suite of collective, open-source tools that was developed to improve the state of the art in modeling the impacts of Electric Vehicle (EV) charging on the grid. The foundation of Caldera ICM is it’s first-of-its-kind library of high-fidelity charging models for a wide variety of vehicles, validated by test data under a range of operating conditions. The charging models are used to accurately model the EV charging on an electric vehicle supply equipment (EVSE) – also known as a charger. ICM uses as inputs, the EV characteristics such as battery size, battery chemistry (i.e. NMC, LTO), watt hour per mile, inverter efficiency and max charge rate; as well as EVSE characteristics such as max current and supply equipment type (i.e. L2 vs XFC). Using these inputs Caldera ICM creates an uncontrolled charging profile curve for each compatible EV-EVSE pair. These charge profiles can be used stand alone to estimate charge duration given start State Of Charge (SOC) and end SOC or charge energy size given start SOC and charge duration. In Caldera Grid, another tool in the Caldera software platform, these charge profiles are used to represent EV charging as a load on the grid using charge event data such as EV type, SE type, start SOC, final SOC, park start time and park end time. ICM currently supports energy shifting Smart Charge Management (SCM) strategies such as \"Time Of Use (TOU) immediate”, “TOU random” and “random start” by delaying the charge to start at a preferable time with respect to the strategy and, one voltage support SCM strategy named autonomous voltage control strategy by providing reactive power back to the electric grid.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Caldera Infrastructure Charge Module (ICM)",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/Caldera_ICM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

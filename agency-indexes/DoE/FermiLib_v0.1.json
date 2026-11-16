@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "FermiLib is an open source software package designed to facilitate the development and testing of algorithms for simulations of fermionic systems on quantum computers. Fermionic simulations represent an important application of early quantum devices with a lot of potential high value targets, such as quantum chemistry for the development of new catalysts. This software strives to provide a link between the required domain expertise in specific fermionic applications and quantum computing to enable more users to directly interface with, and develop for, these applications. It is an extensible Python library designed to interface with the high performance quantum simulator, ProjectQ, as well as application specific software such as PSI4 from the domain of quantum chemistry. Such software is key to enabling effective user facilities in quantum computation research.",
+    "laborHours": 0.0,
+    "languages": [
+        "PYTHON 2.7"
+    ],
+    "name": "FermiLib v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ProjectQ-Framework/FermiLib",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

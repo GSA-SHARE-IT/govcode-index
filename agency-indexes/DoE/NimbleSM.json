@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "ndbrook@sandia.gov"
+    },
+    "date": {
+        "created": "2018-06-20",
+        "metadataLastUpdated": "2024-09-18"
+    },
+    "description": "NimbleSM is a Lagrangian finite-element code for solid mechanics.  Its primary application is the solution of mechanics problems on nonuniform, three-dimensional meshes using either explicit transient dynamic or implicit quasi-static time integration.  Additional features include multiscale modeling and the simulation of contact.  The NimbleSM code base is designed for performance portability across varying hardware architectures.",
+    "laborHours": 19729.6,
+    "languages": [
+        "C++",
+        "Shell",
+        "C",
+        "Gnuplot",
+        "CMake",
+        "Python"
+    ],
+    "name": "NimbleSM",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/nimblesm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

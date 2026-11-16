@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "awander@sandia.gov"
+    },
+    "date": {
+        "created": "2018-09-06",
+        "metadataLastUpdated": "2018-09-07"
+    },
+    "description": "This software provides mechanical/structural explanations for machine learning in chemistry.",
+    "laborHours": 2097.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "FeatureCreature",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/FeatureCreature",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

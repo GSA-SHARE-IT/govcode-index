@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2025-02-18",
+        "metadataLastUpdated": "2025-02-18"
+    },
+    "description": "The Lagrangian Droplet cloud microphysics scheme uses high-resolution data of air velocity, temperature, and water\nvapor mixing ratio to drive particle-based simulations of cloud microphysics. The model was first implemented using a\nhigh-resolution Large Eddy Simulation of the Pi Chamber at Michigan Tech, which is small-scale convection chamber the\ngenerates clouds in a laboratory setting",
+    "laborHours": 820.8,
+    "languages": [],
+    "name": "pnnl/Lagrangian-Droplets",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/Lagrangian-Droplets",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

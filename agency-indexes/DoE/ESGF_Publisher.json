@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-16",
+        "metadataLastUpdated": "2018-07-16"
+    },
+    "description": "This repository contains a basic description and layout of the ESFG Publisher, with the latest version including the following updates: Support for CMIP6, integration of PrePARE, PID creation via RabbitMQ, cdf2cim included, and handler for non-netCDF and skip variable scan for multiple cases. http://esgf.github.io/esg-publisher/\n",
+    "laborHours": 24806.4,
+    "languages": [],
+    "name": "ESGF Publisher",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ESGF/esg-publisher",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

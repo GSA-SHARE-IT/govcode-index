@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2023-03-08",
+        "lastModified": "2024-03-31"
+    },
+    "description": "Python library for getting metadata from source code hosting tools",
+    "downloadURL": "https://api.github.com/repos/cisagov/scraper/downloads",
+    "homepageURL": "https://github.com/cisagov/scraper",
+    "laborHours": 1635.1,
+    "languages": [
+        "Python",
+        "Makefile"
+    ],
+    "name": "scraper",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/scraper.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

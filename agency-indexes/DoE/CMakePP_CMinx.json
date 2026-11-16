@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "pieper@ameslab.gov"
+    },
+    "date": {
+        "created": "2022-11-15",
+        "metadataLastUpdated": "2022-11-15"
+    },
+    "description": "Generates API documentation for CMake functions and macros",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "CMakePP/CMinx",
+    "organization": "Ames Laboratory (AMES)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CMakePP/CMinx",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Ames Laboratory (AMES)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2020-01-24",
+        "metadataLastUpdated": "2020-01-24"
+    },
+    "description": "Code takes a data file of input features of a set of digitized pulses and converts the file to three vectors describing a two-component Gaussian mixture model of the input pulses. \n\nThese three vectors can then be applied mathematically to a set of input feature data of digitized pulses to \ngenerate soft-scores describing the likelihood of each pulse's membership in each of the two Gaussian modeled components. \n\nThe operation of the code also displays graphics to the user for \ninterpreting the output vectors and\ndistribution of the soft-scores of the input data.",
+    "laborHours": 182.4,
+    "languages": [],
+    "name": "PSD GMM Trainer",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/trainGMM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

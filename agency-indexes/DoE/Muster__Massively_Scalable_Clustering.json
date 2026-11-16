@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Muster is a framework for scalable cluster analysis. It includes implementations of classic K-Medoids partitioning algorithms, as well as infrastructure for making these algorithms run scalably on very large systems. In particular, Muster contains algorithms such as CAPEK (described in reference 1) that are capable of clustering highly distributed data sets in-place on a hundred thousand or more processes.",
+    "laborHours": 2052.0,
+    "name": "Muster: Massively Scalable Clustering",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/LLNL/muster/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/muster",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

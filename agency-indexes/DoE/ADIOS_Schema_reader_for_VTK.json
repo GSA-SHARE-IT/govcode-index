@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2019-05-14"
+    },
+    "description": "This is an implementation of a VTK class that can read data from an ADIOS file. Specifically, it interprets a schema embedded in the attributes of the ADIOS metadata to determine the structure of the data.",
+    "laborHours": 767204.8,
+    "languages": [],
+    "name": "ADIOS Schema reader for VTK",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.kitware.com/paraview/paraview",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

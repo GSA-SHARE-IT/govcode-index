@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-13",
+        "metadataLastUpdated": "2020-08-13"
+    },
+    "description": "This service provides interface to grant information and set ACLs for a node from shock service. It also provides interface to write typed object Handle to a persistnent store (MongoDB) that can be later retrieved.",
+    "laborHours": 1869.6,
+    "languages": [],
+    "name": "AbstractHandle",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/handle_service2",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

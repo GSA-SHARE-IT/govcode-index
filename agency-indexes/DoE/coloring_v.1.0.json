@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2024-03-19",
+        "metadataLastUpdated": "2024-03-19"
+    },
+    "description": "SAND2024-02435O\nThe software coloring allows applications written in the C++ language to generate publication-quality 2D plots. Its functionality is similar to Microsoft Excel's chart functionality or the Python language's matplotlib package. The value of coloring is that it is written purely in C++ and thus can be compiled on systems where Python is not available and linked into high performance computing software. \n\nFor drawing shapes onto an image, coloring uses the mathematical definition of quadratic Bezier splines and uses Newton's method to search for the closest point on a spline to a given query point. This is then used to do accurate sub-pixel sampling to get clean, non-pixelated images. For working with the actual plot data, coloring has basic statistical methods such as finding maxima and minima as well as axis scaling such as logarithms. \nSandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++17 version"
+    ],
+    "name": "coloring v.1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/coloring",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

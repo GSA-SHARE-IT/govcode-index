@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "aespiritu@lbl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2021-08-13"
+    },
+    "description": "Calculation of thermal and optical properties of glass, windows and shades. Calculation code only, no GUI.",
+    "laborHours": 1626.4,
+    "languages": [],
+    "name": "Berkeley Lab WINDOW Calc Engine (CalcEngine) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/WinCalc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

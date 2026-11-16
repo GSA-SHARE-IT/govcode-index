@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The SIERRA Toolkit is a collection of libraries to facilitate the development of parallel engineering analysis applications. These libraries supply basic core services that an engineering analysis application may need such as a parallel distributed and dynamic mesh database (for unstructured meshes), mechanics algorithm support (parallel infrastructure only), interfaces to parallel solvers, parallel mesh and data I/O, and various utilities (timers, diagnostic tools, etc.).The toolkit is intended to reduce the effort required to develop an engineering analysis application by removing the need to develop core capabilities that most every application would require.",
+    "laborHours": 8344830.4,
+    "name": "SIERRA Toolkit v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/trilinos/Trilinos/blob/master/packages/stk/COPYRIGHT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

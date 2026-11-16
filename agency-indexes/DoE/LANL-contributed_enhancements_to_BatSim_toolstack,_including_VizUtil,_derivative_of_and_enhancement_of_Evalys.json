@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-11-15",
+        "metadataLastUpdated": "2024-11-15"
+    },
+    "description": "The tools used are the modified, enhanced and extended versions of the open source BatSim and BatSched suite, including visualization tools (Evalys) derived from those toolstacks.",
+    "laborHours": 562.4,
+    "languages": [],
+    "name": "LANL-contributed enhancements to BatSim toolstack, including VizUtil, derivative of and enhancement of Evalys",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/agpl-3.0",
+                "name": "AGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hpc/BatsimGantt-LANL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

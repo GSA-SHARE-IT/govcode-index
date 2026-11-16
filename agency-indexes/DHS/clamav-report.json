@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-09-05",
+        "lastModified": "2026-05-13"
+    },
+    "description": "Generate reports from groups of hosts running ClamAV",
+    "downloadURL": "https://api.github.com/repos/cisagov/clamav-report/downloads",
+    "homepageURL": "https://github.com/cisagov/clamav-report",
+    "laborHours": 888.4,
+    "languages": [
+        "Shell",
+        "Python"
+    ],
+    "name": "clamav-report",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/clamav-report.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "clamav",
+        "anti-virus",
+        "reporting",
+        "csv"
+    ],
+    "vcs": "git"
+}

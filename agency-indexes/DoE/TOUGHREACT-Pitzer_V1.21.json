@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-11-13",
+        "metadataLastUpdated": "2018-11-16"
+    },
+    "description": "TOUGHREACT is a numerical simulation program for chemically reactive non-isothermal flows of multiphase fluids in porous and fractured media. The program is written in Fortran 77 and was developed by introducing reactive chemistry into the multiphase flow code TOUGH2 V2. Interactions between mineral assemblages and fluids can occur under local equilibrium or kinetic rates. The gas phase can be chemically active. Precipitation and dissolution reactions can change formation porosity and permeability, and can also modify the unsaturated flow properties of the rock.\nThe code is distributed with a comprehensive user's guide that includes sample problems addressing geothermal reservoirs and hydrothermal systems, nuclear waste isolation, groundwater quality, sequestration of carbon dioxide in saline aquifers, and supergene copper enrichment. The TOUGHREACT-Pitzer V1.21 package supports the following fluid property modules packaged into TOUGH2 V2.0 (CR-1574): EOS1, EOS2, EOS3, EOS4, EOS7, EOS9, and ECO2N. This version incorporates a Pitzer ion interaction model for application to saline solutions. It is NOT compatible with the most recent TOUGHREACT V2 and relies on the previous TOUGHREACT V1.21.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "TOUGHREACT-Pitzer V1.21",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

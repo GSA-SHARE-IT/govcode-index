@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-07"
+    },
+    "description": "Self-Configuring Network Monitor (SCNM) is a passive monitoring that can collect packet headers from any point in a network path. SCNM uses special activation packets to automatically activate monitors deployed at the layer three ingress and egress routers of the wide-area network, and at critical points within the site networks. Monitoring output data is sent back to the application data source or destination host. No modifications are required to the application or network routing infrastructure in order to activate monitoring of traffic for an application. This ensures that the monitoring operation does not add a burden to the networks administrator.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Self-Configuring Network Monitor",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

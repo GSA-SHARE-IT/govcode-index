@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Portage is a software library system for physics remapping (mapping physics variables from one computational mesh to another) either within a single simulation code or between two disparate simulation codes. Portage is designed to utilize advanced-architecture compute platforms and to be easily extensible by third parties.",
+    "laborHours": 73157.6,
+    "name": "Portage, Version 1.0",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/laristra/portage/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/laristra/portage",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

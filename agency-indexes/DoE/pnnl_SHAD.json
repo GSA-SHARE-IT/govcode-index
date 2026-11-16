@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-04-02",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Scalable High-performance Algorithms and Data-structures.\nScalable High-performance Algorithms and Data-structures (SHAD) is an application programming interface based on a generic software library. It has a modular design that enables reuse of modules. The core of this software tool set is built on an Abstract Runtime interface and it's library includes the common data structures such as array, vector, map and set. It is designed to accommodate significant amount of data which can be accessed in massively parallel environments, and used as building blocks for SHAD extensions, i.e. higher level software libraries.",
+    "laborHours": 13573.6,
+    "languages": [],
+    "name": "pnnl/SHAD",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/SHAD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-07-30",
+        "metadataLastUpdated": "2019-07-30"
+    },
+    "description": "X-ray grating interferometry has been employed for a wide range of imaging applications by using the Talbot self-images of a grating. At synchrotron facilities, it has also been exploited to characterize the coherence and wavefront of the x-ray beam. The method is relatively straightforward, easy to implement, and provides accurate quantitative data. However, to exploit its full potential, it requires highly specialized, robust data analysis. If this works, we have set the framework for the development and dissemination of a robust open-source code called wavepy that is tailored to the data analysis for imaging and beam characterization using grating interferometry. Wavepy consists of a Python library for data analysis of x-ray grating interferometry. The library takes advantage of the python programming language capabilities and flexibility, and aims to be easy to collaborate, distribute, and integrate with other imaging packages. The main reason for using Python is twofold: to take advantage of a widely used language in the scientific community, and also to make extensive use of the existing Python libraries for numerical calculation and plotting, namely numpy, scipy and matplotlib. Installation is facilitated by using conda to solve dependencies. The development makes use of git for version control and collaborative development. The code is hosted in the GitHub repository https://github.com/APS-XSD-OPT-Group/wavepy. One of the reasons for using Python is to be able to integrate wavey with other projects, mainly DXchange to seamlessly load images of different formats, and TomoPy for tomography. The main code is a collection of functions that can be used in different ways, for instance, inside a development environment (DE) or by creating a graphical interface that uses wavepy underneath. ",
+    "laborHours": 3040.0,
+    "languages": [],
+    "name": "wavepy",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/APS-XSD-OPT-Group/wavepy",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

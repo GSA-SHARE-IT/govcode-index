@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "WINDOW features include: - Microsoft Windows TM interface - algorithms for the calculation of total fenestration product U-values and Solar Heat Gain Coefficient consistent with ASHRAE SPC 142, ISO 15099, and the National Fenestration Rating Council - a Condensation Resistance Index in accordance with the NFRC 500 Standard - and integrated database of properties - imports data from other LBNL window analysis software: - Import THERM file into the Frame Library - Import records from IGDB and OPtics5 into the Glass Library for the optical properties of coated and uncoated glazings, laminates, and applied films. Program Capabilities WINDOW 7.2 offers the following features: The ability to analyze products made from any combination of glazing layers, gas layers, frames, spacers, and dividers under any environmental conditions and at any tilt; The ability to model complex glazing systems such as venetian blinds and roller shades. Directly accessible libraries of window system components, (glazing systems, glazing layers, gas fills, frame and divider elements), and environmental conditions; The choice of working in English (IP), or Systeme International (SI) units; The ability to specify the dimensions and thermal properties of each frame element (header, sills, jamb, mullion) in a window; A multi-band (wavelength-by-wavelength) spectral model; A Glass Library which can access spectral data files for many common glazing materials from the Optics5database; A night-sky radiative model; A link with the DOE-2.1E and Energy Plus building energy analysis program. Performance Indices and Other Results For a user-defined fenestration system and user-defined environmental conditions, WINDOW calculates: The U-value, solar heat gain coefficient, shading coefficient, and visible transmittance for the complete window system; The U-value, solar heat gain coefficient, shading coefficient, and visible transmittance for the glazing system (center-of-glass values); The U-values of the frame and divider elements and corresponding edge-of-glass areas (based on generic correlations); The total solar and visible transmittance and reflectances of the glazing system. Color properties, i.e. L*, a*, and b* color coordinates, dominant wavelength, and purity for transmitted and reflected (outdoor) solar radiation; The damage-weighted transmittance of the glazing system between 0.3 an 0.38 microns; The angular dependence of the solar and visible transmittances, solar and visible reflectances, solar absorptance, and solar heat gain coefficient of the glazing system; The percent relative humidity of the inside and outside air for which condensation will occur on the interior and exterior glazing surfaces respectively; The center-of-glass temperature distribution.",
+    "homepageURL": "https://windows.lbl.gov/software/window",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Berkeley Lab WINDOW",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://windows.lbl.gov/window-license",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://windows.lbl.gov/software/window",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

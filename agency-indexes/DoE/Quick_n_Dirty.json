@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-05-12",
+        "metadataLastUpdated": "2020-05-12"
+    },
+    "description": "QnD is a pure Python package for working with binary files. It has built-in support for HDF5, NetCDF3,\nand PDB formats. It provides a Pythonic, dict-like interface, and allows easy movement among time-like\n\"records\". Both reading and writing are enabled. The HDF and NetCDF capabilities rely on external\nlibraries, while the PDB support is part of QnD itself and entirely in Python. QnD works under Python 2\nand 3. For interactive use, much less typing is involved than for some other packages.",
+    "laborHours": 2310.4,
+    "languages": [],
+    "name": "Quick n Dirty",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/qnd",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

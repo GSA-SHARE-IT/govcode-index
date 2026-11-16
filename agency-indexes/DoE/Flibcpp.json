@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "johnsonsr@ornl.gov"
+    },
+    "date": {
+        "created": "2021-01-31",
+        "metadataLastUpdated": "2021-02-01"
+    },
+    "description": "Flibcpp is a library for use by application developers that provides native Fortran interfaces to existing high-quality algorithms and containers implemented in C++ and available on all modern computer systems.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "Fortran",
+        "SWIG"
+    ],
+    "name": "Flibcpp",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/swig-fortran/flibcpp",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

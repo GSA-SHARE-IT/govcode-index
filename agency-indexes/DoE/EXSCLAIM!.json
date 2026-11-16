@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-04-08",
+        "metadataLastUpdated": "2022-04-08"
+    },
+    "description": "Due to recent improvements in image resolution and acquisition speed, materials microscopy is experiencing an explosion of published imaging data. The standard publication format, while sufficient for traditional data ingestion scenarios where a select number of images can be critically examined and curated manually, is not conducive tolarge-scale data aggregation or analysis, hindering data sharing and reuse. Most images in publications are presented as components of a larger figure with their explicit context buried in the main body or caption text, so even if aggregated, collections of images with weak or no digitized contextual labels have limited value. To solve the problem of curating labeled microscopy data from literature, we introduce the EXSCLAIM! Python toolkit for the automatic EXtraction, Separation, and Caption-based natural Language Annotation of IMages from scientific literature. The software is implemented through a three part pipeline: the JournalScraper, which searches the web and downloads figures and captions based on a user provided query, the CaptionDistributor, which separates caption text based on the subfigure each portion of the caption refers to, and the FigueSeparator, which separates figures into component subfigures and extracts other visual information. Also included is a Django user interface for exploring the resulting dataset.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "EXSCLAIM!",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/MaterialEyes/exsclaim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

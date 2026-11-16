@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2018-09-28",
+        "metadataLastUpdated": "2019-03-22"
+    },
+    "description": "The framework stores HEP event data into a database and provides fast and scalable access to the data for distributed Python- and numpy-based analysis.",
+    "homepageURL": "http://cdcvs.fnal.gov/projects/nosql-ldrd",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "NoSQL BigData Project",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://cdcvs.fnal.gov/projects/nosql-ldrd",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ]
+}

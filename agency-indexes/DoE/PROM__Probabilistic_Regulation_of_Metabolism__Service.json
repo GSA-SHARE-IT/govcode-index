@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-17",
+        "metadataLastUpdated": "2020-09-17"
+    },
+    "description": "This service enables the creation of FBA model constraint objects that are based on regulatory networks and expression data. Constraints are constructed by either automatically aggregating necessary information from the CDS (if available for a given genome), or by adding user expression and regulatory data. PROM provides the capability to simulate transcription factor knockout phenotypes. PROM model constraint objects are created in a user's workspace, and can be operated on and used in conjunction with an FBA model with the KBase FBA Modeling Service.",
+    "laborHours": 1124.8,
+    "languages": [],
+    "name": "PROM (Probabilistic Regulation of Metabolism) Service",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseattic/prom_service",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

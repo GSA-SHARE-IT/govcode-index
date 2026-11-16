@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-08-16",
+        "metadataLastUpdated": "2019-08-16"
+    },
+    "description": "High performance parallel power flow solver that can be run in desktops as well as in high performance computing cluster. ",
+    "laborHours": 6216.8,
+    "languages": [],
+    "name": "PFLOW",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pflow-team/PFLOW",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-24",
+        "metadataLastUpdated": "2024-07-24"
+    },
+    "description": "This software library presents efficient and multithreaded implementations of matrix low rank approximation via column selection in C++17 code. The algorithms are described in Fornace, Mark, and Michael Lindsey. \"Column and row subset selection using nuclear scores: algorithms and theory for Nystro m approximation, CUR decomposition, and graph Laplacian reduction.\" arXiv preprint arXiv:2407.01698 (2024). The presented methods are by-and-large ver novel, have provable approximation guarantees, multiple use-cases, and exhibit higher quality approximations on a variety of studied examples.",
+    "laborHours": 927.2,
+    "languages": [],
+    "name": "nuclear-score-maximization v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mfornace/nuclear-score-maximization",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

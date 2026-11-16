@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-12-13"
+    },
+    "description": "The visualization enables the simulation analyst to see changes in the frequency through time and space. With this technology, the analyst has a bird's eye view of the frequency at loads and generators as the simulated power system responds to the loss of a generator, spikes in load, and other contingencies. The significance of a contingency to the operation of an electrical power system depends critically on how the resulting tansients evolve in time and space. Consequently, these dynamic events can only be understood when seen in their proper geographic context. this understanding is indispensable to engineers working on the next generation of distributed sensing and control systems for the smart grid. By making possible a natural and intuitive presentation of dynamic behavior, our new visualization technology is a situational-awareness tool for power-system engineers.",
+    "laborHours": 773132.8,
+    "name": "Geographic Visualization of Power-Grid Dynamics",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ssrangan/VizPower/blob/master/Open%20Source%20Software%20License%20(Permissive).pdf",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ssrangan/VizPower",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

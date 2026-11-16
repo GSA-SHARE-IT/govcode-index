@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2025-02-04",
+        "metadataLastUpdated": "2025-02-04"
+    },
+    "description": "This codebase was designed to tackle the problem of how to directly utilize experimental omics measurements with a\ngenome scale metabolic model of the organism of the study. Most models only loosely utilize known experimental\nquantities to constrain model simulation.",
+    "laborHours": 12312.0,
+    "languages": [],
+    "name": "pnnl-predictive-phenomics/emll",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl-predictive-phenomics/Emll",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

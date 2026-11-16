@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-12-13",
+        "metadataLastUpdated": "2024-12-13"
+    },
+    "description": "Utility to bin continuous variables and estimate mutual information based on B-Spline binning.",
+    "laborHours": 152.0,
+    "languages": [],
+    "name": "pnnl-predictive-phenomics/bspline_mutual_information",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl-predictive-phenomics/bspline_mutual_information",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

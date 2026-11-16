@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-09-28",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "Unit operations for the MSW sorting process include shredding, magnets for ferrous separation, screening, air classification, eddy current for non-ferrous separation, and near-infrared detection for plastic recovery. The MIXCINC module within Aspen Plus was selected to handle mixed solid streams containing inert (metals and glass) and non-conventional materials (paper, plastics, biomass, organic waste). The Peng-Robinson equation of state with Boston-Mathias modifications was applied to predict properties for a nonconventional solids mix. Enthalpy and density of the non-conventional materials were defined using non-conventional material properties.",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "Aspenplus Model For Msw Sorting Process",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/agpl-3.0",
+                "name": "AGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabUnsupported/AspenPlus",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

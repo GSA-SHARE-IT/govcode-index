@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-09-04",
+        "metadataLastUpdated": "2022-01-05"
+    },
+    "description": "Software for solving nonlinear optimization problems where the objective and/or constraint functions are blackboxes.",
+    "homepageURL": "https://www.anl.gov/partnerships/licensable-software",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "CONORBIT",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.anl.gov/partnerships/licensable-software",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2018-04-24",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "The ns-3 topology generator provides a quick and easy way to create a network topology, and generate C++ simulation code for ns-3.",
+    "laborHours": 3116.0,
+    "languages": [],
+    "name": "Topology_Generator",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/Topology_Generator",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

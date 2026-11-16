@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-06-06",
+        "metadataLastUpdated": "2023-06-16"
+    },
+    "description": "Zero-RK is a software package that simulates chemically reacting systems using sparse, preconditioned,\nadaptive matrix methods to achieve orders-of-magnitude reduction in simulation time while maintaining\naccurate results.",
+    "laborHours": 13497.6,
+    "languages": [],
+    "name": "Zero-Order Reaction Kinetics v. 3.4.hip",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/zero-rk",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "3.4.hip"
+}

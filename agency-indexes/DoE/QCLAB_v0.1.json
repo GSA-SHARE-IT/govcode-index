@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-17",
+        "metadataLastUpdated": "2021-05-17"
+    },
+    "description": "QCLAB is an object-oriented MATLAB package for creating and representing quantum circuits. QCLAB can be used for rapid prototyping and testing of quantum algorithms, and allows for fast algorithm development and discovery. QCLAB provides I/O through openQASM making it compatible with quantum hardware. It is uniquely targeted at MATLAB users who so far didn't have any native MATLAB options for developing quantum computing applications.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "QCLAB v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/QuantumComputingLab/qclab",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

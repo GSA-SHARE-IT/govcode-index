@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-06-03",
+        "metadataLastUpdated": "2020-06-03"
+    },
+    "description": "With function preserving projection (FPP), we aim to address high-dimensional data exploration\nchallenges common in many scientific applications. Instead of preserving the global or local geometric\nstructure of a dataset like traditional dimensionality reduction methods (e.g., principal component\nanalysis, t-stochastic neighborhood embedding), the proposed approach finds a linear projection that\nreveal interpretable (yet potentially nonlinear) pattern of the properties of interests defined on a highdimensional\ndomain (e.g., simulation yield defined on the input parameter space).\nThe key insight driving FPP is the fact that while non-linear embeddings are difficult to interpret, humans\nare highly skilled in understanding complex visual patterns. FPP lets users select the complexity of a\npattern they consider interpretable, allows to find a joint projection that explains multiple functions, and\nprovides a confidence statistic (akin to a p-value) indicating how salient the resulting pattern is. We\ndemonstrate the efficacy of the proposed method on several synthetic and scientific datasets for both\ncontinuous (regression) and discrete (classification) problems of interests and illustrate the scalability of\nFPP by finding an optimal projection for close to 40 gigabytes in around 10 minutes.\n",
+    "laborHours": 182.4,
+    "languages": [],
+    "name": "Function Preserving Projection",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/fpp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

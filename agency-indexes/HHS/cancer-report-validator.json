@@ -1,0 +1,47 @@
+{
+    "contact": {
+        "URL": "https://github.com/CDCgov",
+        "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+        "created": "2019-12-17",
+        "lastModified": "2020-10-18"
+    },
+    "description": "The Cancer Report Validator (CRV) is an interactive tool for validating the content of electronic submissions of cancer-related medical information prior to a system's communication with a public health central cancer registry. ",
+    "downloadURL": "https://api.github.com/repos/CDCgov/cancer-report-validator/downloads",
+    "homepageURL": "https://github.com/CDCgov/cancer-report-validator",
+    "laborHours": 0,
+    "languages": [
+        "Java",
+        "XSLT",
+        "Groovy",
+        "JavaScript",
+        "CSS",
+        "HTML"
+    ],
+    "name": "cancer-report-validator",
+    "organization": "Centers for Disease Control and Prevention",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "git://github.com/CDCgov/cancer-report-validator.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "cancer",
+        "informatics",
+        "data-validation",
+        "hl7",
+        "cda",
+        "clinical-document-architecture",
+        "cancer-registry",
+        "cancer-reporting"
+    ],
+    "vcs": "git"
+}

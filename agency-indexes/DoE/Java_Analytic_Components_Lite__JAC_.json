@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-22",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Faster clustering algorithms written in Java for multicore CPUs.",
+    "laborHours": 18285.6,
+    "languages": [],
+    "name": "Java Analytic Components Lite (JAC)",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/pnnl/jac-lite-clustering/blob/master/README.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/jac-lite-clustering",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

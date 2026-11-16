@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "pgarvey@bnl.gov"
+    },
+    "date": {
+        "created": "2019-07-02",
+        "metadataLastUpdated": "2019-07-02"
+    },
+    "description": "The top-level repository for the EPICS areaDetector software. This repository contains mostly documentation, configuration files, and a top-level Makefile to build the entire areaDetector package.",
+    "laborHours": 866.4,
+    "languages": [],
+    "name": "areaDetector",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NSLS-II/areaDetector/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NSLS-II/areaDetector",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

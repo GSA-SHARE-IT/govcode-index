@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The Hone sensors are packet-process correlation engines that log the relationships between applications and the communications they are responsible for. Hone sensors are available for a variety of platforms including Linux, Windows, and MacOSX. Hone sensors are designed to help analysts understand the meaning of communications on a deeper level by associating the origin or destination process to the communication. They do this by tracing communications on a per-packet basis, through the kernel of the operating system to determine their ultimate source/destination on the monitored machine.",
+    "laborHours": 3252.8,
+    "name": "The Open Host Network Packet Process Correlator for Windows",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/HoneProject/Windows-Sensor/blob/master/License.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/HoneProject/Windows-Sensor",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

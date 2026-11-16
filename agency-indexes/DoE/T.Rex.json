@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "T.Rex is used to explore tabular data sets containing up to ten million records to help rapidly understand a previously unknown data set. Analysis can quickly identify patterns of interest and the records and fields that capture those patterns. T.Rex contains a growing set of deep analytical tools and supports robust export capabilities that selected data can be incorporated into to other specialized tools for further analysis. T.Rex is flexible in ingesting different types and formats of data, allowing the user to interactively experiment and perform trial and error guesses on the structure of the data; and also has a variety of linked visual analytic tools that enable exploration of the data to find relevant content, relationships among content, trends within the content, and capture knowledge about the content. Finally, T.Rex has a rich export capability, to extract relevant subsets of a larger data source, to further analyze their data in other analytic tools.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "Java"
+    ],
+    "name": "T.Rex",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

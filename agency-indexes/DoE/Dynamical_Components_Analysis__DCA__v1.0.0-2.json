@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-11",
+        "metadataLastUpdated": "2021-03-12"
+    },
+    "description": "Dynamical Components Analysis is a Python implementation of the method described in \"Unsupervised discovery of temporal structure in noisy data with dynamical components analysis\". It implements the method as well as related data analysis functions.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Dynamical Components Analysis (DCA) v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BouchardLab/DynamicalComponentsAnalysis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

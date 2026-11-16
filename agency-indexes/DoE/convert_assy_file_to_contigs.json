@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-14",
+        "metadataLastUpdated": "2020-09-14"
+    },
+    "description": "Convert a KBaseFile.AssemblyFile to a KBaseGenome.ContigSet.",
+    "laborHours": 1307.2,
+    "languages": [],
+    "name": "convert_assy_file_to_contigs",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseapps/gaprice_convert_assy_file_to_contigs",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

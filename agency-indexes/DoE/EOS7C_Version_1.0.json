@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-09-27",
+        "metadataLastUpdated": "2019-09-24"
+    },
+    "description": "EOS7C allows the user to model CO2 injection into natural gas reservoirs that contain methane. There are numerous natural gas modeling codes that can be easily modified to handle CO2, but the developer is not aware of any direct competitors. The current use of the code would be research on carbon sequestration or enhanced natural gas recovery (something the industry is not yet motivated to do). The code development was fully funded by DOE, contains no third party code as the developer has removed MA 28 from the manual, and fully written by LBNL employees. \n\nThe code will be distributed via the TOUGH website and requires the use of TOUGH 2 v2, with which it will be bundled. ",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 7159.2,
+    "languages": [],
+    "name": "EOS7C Version 1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

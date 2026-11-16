@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "krhodges@illinois.edu"
+    },
+    "date": {
+        "created": "2024-11-01",
+        "metadataLastUpdated": "2024-11-01"
+    },
+    "description": "Plasmids harbor transferable genes that contribute to the functional repertoire of microbial communities, yet their contributions to metagenomes are often overlooked. Environmental plasmids have the potential to spread antibiotic resistance to clinical microbial strains. In soils, high microbiome diversity and high variability in plasmid characteristics present a challenge for studying plasmids. To improve the understanding of soil plasmids, we present RefSoil+, a database containing plasmid sequences from 922 soil microorganisms. Soil plasmids were larger than other described plasmids, which is a trait associated with plasmid mobility. There was a weak relationship between chromosome size and plasmid size and no relationship between chromosome size and plasmid number, suggesting that these genomic traits are independent in soil. We used RefSoil+ to inform the distributions of antibiotic resistance genes among soil microorganisms compared to those among nonsoil microorganisms. Soil-associated plasmids, but not chromosomes, had fewer antibiotic resistance genes than other microorganisms. These data suggest that soils may offer limited opportunity for plasmid-mediated transfer of described antibiotic resistance genes. RefSoil+ can serve as a reference for the diversity, composition, and host associations of plasmid-borne functional genes in soil, a utility that will be enhanced as the database expands. Our study improves the understanding of soil plasmids and provides a resource for assessing the dynamics of the genes that they carry, especially genes conferring antibiotic resistances.",
+    "laborHours": 304.0,
+    "languages": [],
+    "name": "ShadeLab/RefSoil_plasmids",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ShadeLab/RefSoil_plasmids",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

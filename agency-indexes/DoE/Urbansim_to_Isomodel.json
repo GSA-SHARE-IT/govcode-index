@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-07-29",
+        "metadataLastUpdated": "2019-07-29"
+    },
+    "description": "This is python software couples UrbanSim, a free software package to the Argonne Isomodel building energy model and provides a few analysis tools.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Urbansim to Isomodel",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Argonne-National-Laboratory/urbansim-isomodel",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

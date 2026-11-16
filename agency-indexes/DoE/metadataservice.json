@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "pgarvey@bnl.gov"
+    },
+    "date": {
+        "created": "2019-07-02",
+        "metadataLastUpdated": "2019-07-02"
+    },
+    "description": "metadatastore web service implementation. Uses metadatastore in the backend Python 3.4, 3.5. Requires tornado, metadatastore, pymongo, ujson, and requests.\n\n",
+    "laborHours": 592.8,
+    "languages": [],
+    "name": "metadataservice",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NSLS-II/metadataservice",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "awander@sandia.gov"
+    },
+    "date": {
+        "created": "2018-09-06",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "This Python package provides high-performance implementations of the functions and examples presented in \"BiEntropy - The Approximate Entropy of a Finite Binary String\" by Grenville J. Croll, presented at ANPA 34 in 2013. https://arxiv.org/abs/1305.0954\n\nAccording to the paper, BiEntropy is \"a simple algorithm which computes the approximate entropy of a finite binary string of arbitrary length\" using \"a weighted average of the Shannon Entropies of the string and all but the last binary derivative of the string.\"",
+    "laborHours": 2021.6,
+    "languages": [
+        "C",
+        "Python",
+        "Makefile"
+    ],
+    "name": "BiEntropy for Python v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/bientropy",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.1"
+}

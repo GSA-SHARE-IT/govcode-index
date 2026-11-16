@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-28"
+    },
+    "description": "DICe is a 2D and stereo image correlation software package that determines motion and deformation of objects from sequences of digital images.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++, Javascript"
+    ],
+    "name": "Digital Image Correlation Engine v.2.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dicengine/dice/releases/tag/v2.0",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v2.0"
+}

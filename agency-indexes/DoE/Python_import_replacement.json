@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-12-13"
+    },
+    "description": "SmartImport.py is a Python source-code file that implements a replacement for the standard Python module importer. The code is derived from knee.py, a file in the standard Python diestribution , and adds functionality to improve the performance of Python module imports in massively parallel contexts.",
+    "laborHours": 243.2,
+    "name": "Python import replacement",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/langton/MPI_Import",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/langton/mpi_import",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

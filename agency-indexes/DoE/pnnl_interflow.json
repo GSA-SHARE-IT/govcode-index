@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-03-25",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "A Python package for organizing and calculating cross-sectoral interdependency flow values. The interflow package collects known resource flow values (e.g., water demand) between sectors provided by the user and calculates new sector flows for a secondary resource type (e.g., energy demand) based on provided resource intensity estimates, source sector fractions, and downstream sector discharge fractions.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/interflow",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/interflow",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

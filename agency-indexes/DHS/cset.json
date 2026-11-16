@@ -1,0 +1,49 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-05-15",
+        "lastModified": "2026-11-07"
+    },
+    "description": "Cybersecurity Evaluation Tool",
+    "downloadURL": "https://api.github.com/repos/cisagov/cset/downloads",
+    "homepageURL": "https://github.com/cisagov/cset",
+    "laborHours": 0.0,
+    "languages": [
+        "TSQL",
+        "JavaScript",
+        "HTML",
+        "C#",
+        "TypeScript",
+        "SCSS",
+        "CSS",
+        "Java",
+        "Shell",
+        "Python",
+        "PowerShell",
+        "Sass",
+        "Dockerfile",
+        "Batchfile"
+    ],
+    "name": "cset",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/cset.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "cset",
+        "security-audit"
+    ],
+    "vcs": "git"
+}

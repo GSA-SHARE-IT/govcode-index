@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-09-30",
+        "metadataLastUpdated": "2020-09-30"
+    },
+    "description": "Assessing primer specificity and predicting both desired and off-target amplification products is an essential step for robust PCR assay design. Code is described to predict potential polymerase chain reaction (PCR) amplicons in a large sequence database such as NCBI nt from either singleplex or a large multiplexed set of primers, allowing degenerate primer and probe bases, with target mismatch annotates amplicons with gene information automatically downloaded from NCBI, and optionally it can predict whether there are also TaqMan/Luminex probe matches within predicted amplicons.",
+    "homepageURL": "https://sourceforge.net/projects/simulatepcr",
+    "laborHours": 243.2,
+    "languages": [
+        "PERL"
+    ],
+    "name": "PCR Amplicon Prediction from Multiplex Degenerate Primer and Probe Sets",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sourceforge.net/projects/simulatepcr",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

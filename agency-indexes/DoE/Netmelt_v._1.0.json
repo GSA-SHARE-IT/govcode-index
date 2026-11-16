@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "awander@sandia.gov"
+    },
+    "date": {
+        "created": "2018-09-10",
+        "metadataLastUpdated": "2020-09-08"
+    },
+    "description": "System assessments typically yield large quantities of data from disparate sources for an analyst to scrutinize for issues.  Netmeld is used to parse input from different file formats, store the data in a common format, allow users to easily query it, and enable analysts to tie different analysis tools together using a common back-end. ",
+    "laborHours": 10868.0,
+    "languages": [
+        "C++",
+        "Python",
+        "SQL"
+    ],
+    "name": "Netmelt v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/netmeld/netmeld",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

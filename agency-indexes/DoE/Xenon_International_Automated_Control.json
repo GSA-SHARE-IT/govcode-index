@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "The Xenon International Automated Control software monitors, displays status, and allows for manual operator control as well as fully automatic control of multiple commercial and PNNL designed hardware components to generate and transmit atmospheric radioxenon concentration measurements every six hours.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "gcc-c++"
+    ],
+    "name": "Xenon International Automated Control",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2023-07-13",
+        "metadataLastUpdated": "2023-07-13"
+    },
+    "description": "GPU-FPX is a tool based on NVBit that detects and analyzes floating-point exceptions on NVIDIA GPUs through binary instrumentation. Its purpose is to detect and report the occurrences of floating-point exceptions during numerical computations, offering efficient location detections and exception flow. GPUFPX achieves exceptional performance, being 16x faster than comparable prior tools, such as BinFPE.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GPU-FPX",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/GPU-FPX",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-10-05",
+        "metadataLastUpdated": "2018-10-05"
+    },
+    "description": "Testing suite for the STREAMM-tools source code. In-depth documentation can be found at STREAMM website.",
+    "laborHours": 988.0,
+    "languages": [],
+    "name": "STREAMM-tools-tests",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/streamm-tools-tests",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-05-17",
+        "metadataLastUpdated": "2024-05-17"
+    },
+    "description": "Allows the user to fit a classical event categorization matrix (ECM) model, and a novel Bayesian event categorization matrix model, both of which are used for nuclear detonation detection.",
+    "laborHours": 1276.8,
+    "languages": [],
+    "name": "ezECM",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/skoermer-LANL/ezECM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

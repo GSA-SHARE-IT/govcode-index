@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-07"
+    },
+    "description": "The NetLogger Toolkit is designed to monitor, under actual operating conditions, the behavior of all the elements of the application-to-application communication path in order to determine exactly where time is spent within a complex system. Using NetLogger, distributed application components are modified to produce timestamped logs of \"interesting\" events at all the critical points of the distributed system. Events from each component are correlated, which allows one to characterize the performance of all aspects of the system and network in detail. The NetLogger Toolkit itself consists of four components an API and library of functions to simplify the generation of application-level event logs, a set of tools for collecting and sorting log files, an event archive system, and a tool for visualization and analysis of the log files. In order to instrument an application to produce event logs, the application developer inserts calls to the NetLogger API at all the critical points in the code, then links the application with the NetLogger library. All the tools in the NetLogger Toolkit share a common log format, and assume the existence of accurate and synchronized system clocks. NetLogger messages can be logged using an easy-to-read text based format based on the lETF-proposed ULM format, or a binary format that can still be used through the same API but that is several times faster and smaller, with performance comparable or better than binary message formats such as MPI, XDR, SDDF-Binary, and PBIO. The NetLogger binary format is both highly efficient and self-describing, thus optimized for the dynamic message construction and parsing of application instrumentation. NetLogger includes an \"activation\" API that allows NetLogger logging to be turned on, off, or modified by changing an external file This IS useful for activating logging in daemons/services (e g GndFTP server). The NetLogger reliability API provides the ability to specify backup logging locations and periodically try to reconnect broken TCP pipe. A typical use for this is to store data on local disk while net is down. An event archiver can log one or more incoming NetLogger streams to a local disk file (netlogd) or to a mySQL database (netarchd). We have found exploratory, visual analysis of the log event data to be the most useful means of determining the causes of performance anomalies The NetLogger Visualization tool, niv, has been developed to provide a flexible and interactive graphical representation of system-level and application-level events.",
+    "homepageURL": "http://netlogger.lbl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "The NetLogger Toolkit V2.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://netlogger.lbl.gov/software/netlogger-license",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://netlogger.lbl.gov",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

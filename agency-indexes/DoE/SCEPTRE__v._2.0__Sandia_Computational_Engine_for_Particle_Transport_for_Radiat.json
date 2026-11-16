@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2018-11-20",
+        "metadataLastUpdated": "2020-11-03"
+    },
+    "description": "SCEPTRE solves the linear Boltzmann transport equation for general one-, two- and three-dimensional unstructured-mesh Cartesian geometries. SCEPTRE can handle any particle type for which multigroup-Legendre cross sections are available. However, the code is designed primarily to model the transport of photons, electrons, and positrons through matter. SCEPTRE 2.0 includes several auxiliary packages for pre- and post-processing, regression testing, stochastic radiation transport, thermal radiation transport, and charged-particle transport in the presence of electromagnetic fields. SCEPTRE 2.0 includes sophisticated transport-synthetic acceleration and ray-effects mitigation capabilities.",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "SCEPTRE  v. 2.0 (Sandia Computational Engine for Particle Transport for Radiat",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "version": "v. 2.0"
+}

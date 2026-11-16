@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "lioukaihsin@utexas.edu"
+    },
+    "date": {
+        "created": "2021-06-27",
+        "metadataLastUpdated": "2021-06-27"
+    },
+    "description": "NanoGW can perform the following calculations:\n\n1. Linear-response time-dependent density functional theory (by solving Casida equation)\n2. Full-frequency GW calculation with or without LDA vertex function (does not support spin-orbit coupling)\n3. Construct and solve Bethe-Salpeter equation\n\nNanoGW has been tested thoroughly and optimized for molecules and nanoclusters. It runs particularly efficient for small-size (less than 30 atoms) molecules or clusters. This package can also deal with crystalline systems. However, its functionality for dealing crystals has not been thoroughly tested yet.",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "NanoGW",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/real-space/nanogw",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ]
+}

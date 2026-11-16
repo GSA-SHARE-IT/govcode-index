@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-17",
+        "metadataLastUpdated": "2020-05-27"
+    },
+    "description": "Gotcha is a library that wraps functions. Tools can use gotcha to install hooks into other libraries, for example putting a wrapper function around libc's malloc.\n",
+    "laborHours": 2204.0,
+    "languages": [],
+    "name": "GOTCHA",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/GOTCHA",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

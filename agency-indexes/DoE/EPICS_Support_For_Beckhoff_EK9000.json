@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-07-07",
+        "metadataLastUpdated": "2022-07-07"
+    },
+    "description": "This is a device support module for the EK9000, which couples EtherCAT terminals (specifically the ELXXXX terminals from Beckhoff) to a modbus network. Because it uses modbus, it's runnable on any IOC without needing a kernel module or other support software.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "EPICS Support For Beckhoff EK9000",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/epics-ek9000/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/epics-ek9000",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

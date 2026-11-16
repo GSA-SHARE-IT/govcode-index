@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-05-12",
+        "metadataLastUpdated": "2024-08-07"
+    },
+    "description": "A suite of software tools used to interface with power electronic equipment for laboratory testing and device certification. They are typically used as equipment drivers with using the System Validation Platform (SVP) graphical user interface (GUI). Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525. SAND2021-1185 O",
+    "laborHours": 18665.6,
+    "languages": [
+        "Python 2.7",
+        "Scilab"
+    ],
+    "name": "System Validation Platform Working Directories",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/svp_energy_lab",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

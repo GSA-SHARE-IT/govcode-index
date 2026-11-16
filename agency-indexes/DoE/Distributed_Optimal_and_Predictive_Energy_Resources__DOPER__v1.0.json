@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-10-15",
+        "metadataLastUpdated": "2019-10-15"
+    },
+    "description": "This is a controller for distributed energy resources (i.e. photovoltaics, storage,..) based on model predictive control. It is written in Python.",
+    "laborHours": 4453.6,
+    "languages": [],
+    "name": "Distributed Optimal and Predictive Energy Resources (DOPER) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/DOPER",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

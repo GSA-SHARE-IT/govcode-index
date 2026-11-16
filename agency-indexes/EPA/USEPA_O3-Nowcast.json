@@ -1,0 +1,33 @@
+{
+    "name": "USEPA/O3-Nowcast",
+    "organization": "usepa",
+    "description": "Estimates and predicts AQI in real time. Putting the \"now\" in AQI",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/O3-Nowcast/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/O3-Nowcast",
+    "downloadURL": "https://github.com/USEPA/O3-Nowcast/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/O3-Nowcast/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/O3-Nowcast.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2019-06-27T20:25:17Z",
+        "lastModified": "2025-10-29T21:07:52Z",
+        "metadataLastUpdated": "2026-11-16T06:39:58.502Z"
+    }
+}

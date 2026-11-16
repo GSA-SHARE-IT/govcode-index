@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-08-12",
+        "metadataLastUpdated": "2021-08-12"
+    },
+    "description": "We developed an analysis framework for quantitatively interpreting results from multi-color fluorescence microscopy data. When the emission signal from fluorescent probes (i.e. from biological microscopy or in single-particle microscopy) is spectrally separated before detection, the resulting signals contain information about the strengths of each probe. We built a model to deconvolve the raw data into quantitative descriptions of either of the wavelength of a single probe or the relative strengths among multiple probes. This approach requires only spectrally separating the image data into two or more channels, as opposed to fully resolving the spectral profile, thus allowing other microscopy techniques to be used simultaneously. Our analysis framework incorporates the response features of the optical and imaging elements used to produce the spectral separation, yielding highly quantitative interpretations of the underlying behaviors that give rise to the data.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Quantitative analysis method for multi-color microscopy",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ryand-LANL/DualColorAnalysis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

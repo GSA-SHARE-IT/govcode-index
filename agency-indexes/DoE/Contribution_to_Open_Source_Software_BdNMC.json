@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-08-12",
+        "metadataLastUpdated": "2021-08-19"
+    },
+    "description": "BdNMC is a Monte Carlo that simulates the creation, propagation and detection of dark sector particles in particle physics experiments. Dark sector particles are defined as any particles which are weakly coupled to matter and are expected to travel large distances in matter without interaction. The code takes input from some initial distribution or list of Standard Model particles and generates a list of dark sector particles. The generated dark sector particles are propagated to a defined detector volume, where they are then checked for their probability to interact with the detector through either decay or scattering. The code outputs an expected number of interaction events to the user, and may optionally produce an additional output file of all of the particles simulated by the code for each interaction event. This contribution makes corrections and updates to several of the physics formulas and functions implemented in the BdNMC simulation code related to Coherent Captain Mills experiment's physics analyses.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Contribution to Open Source Software BdNMC",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/BdNMC_LANL",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

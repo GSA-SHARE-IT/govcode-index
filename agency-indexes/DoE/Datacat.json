@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2018-02-14",
+        "metadataLastUpdated": "2018-03-14"
+    },
+    "description": "Datacat is a system for the tracking and organization of files, their replicas, and user-defined metadata across heterogeneous storage systems.",
+    "laborHours": 32680.0,
+    "name": "Datacat",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/datacat/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/datacat",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

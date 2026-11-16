@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "The code “miniWeather” solves the 2-D Euler equations with a Finite-Volume method on a regular Cartesian grid with Runge-Kutta time stepping, 4th-order hypervisocisty, and 4th-order spatial accuracy.  The code is primarily a parallel programming training mini application in Fortran, C, and C++ with MPI, OpenMP, OpenMP offload, OpenACC, and C++ portability approaches. It can also serve as a mini application for acceptance testing for new machines and compilers for both functionality and performance.",
+    "laborHours": 7828.0,
+    "languages": [
+        "C++11, any C++11 compiler can be used"
+    ],
+    "name": "miniWeather",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mrnorman/miniWeather",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

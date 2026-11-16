@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-02-24",
+        "metadataLastUpdated": "2021-03-05"
+    },
+    "description": "With this COUNT software, we can run a simple query on a campus's Wireless Local Area Network controller (WLAN controller) to obtain the number of connected devices per access point across the whole campus and this can be used as a proxy for the actual number of occupants in the campus. The software supports user defined functions to parse access point names to retrieve more information (e.g.: building names, room numbers etc.) and also allows post-processing of the data.",
+    "laborHours": 349.6,
+    "languages": [],
+    "name": "Counting Occupants Using Network Technology (COUNT) v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/COUNT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

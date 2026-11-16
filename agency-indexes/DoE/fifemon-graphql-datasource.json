@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2019-11-13",
+        "metadataLastUpdated": "2019-11-13"
+    },
+    "description": "A plugin for the Grafana monitoring/dashboarding web application that provides \nan interface to data provided by GraphQL APIs, such as the \"Lens\" API service\nthat SCD maintains for batch job monitoring data.",
+    "laborHours": 1520.0,
+    "languages": [
+        "JavaScript",
+        "TypeScript"
+    ],
+    "name": "fifemon-graphql-datasource",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/fifemon/graphql-datasource",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-06-02",
+        "metadataLastUpdated": "2023-06-06"
+    },
+    "description": "Light-matter interactions play an important role in many branches of physics, chemistry, energy, and materials science. In the strong coupling regime, light-matter interactions are able to tune the materials properties via the formation of new quasiparticles, such as plasmons and polaritons. However, theoretical and numerical modeling of the light-matter interaction-mediated processes remain a big challenge because light-matter interactions are fundamentally multiscale and multiphysics problems involving multiple interactions between electrons, nuclei, and photons at different time/length scales. In the current community, light-matter interactions were treated at different levels of theoretical complexity in quantum chemistry and quantum optics. In quantum optics or quantum photonics, the matter is usually simplified as a few-level system, and the light is treated quantum-mechanically. On the other hand, quantum chemistry explores first-principles methods, including both single-particle and many-body-based techniques, to describe the electronic properties of matter in detail. However, light is usually prescribed as a classical electromagnetic field, and the light-matter interaction is taken into account as an external potential via classical approximations. This software is designed to fill current modeling shortcomings by delivering a first-ever scalable multiscale platform for simulating light-matter interactions in realistic electromagnetic environments. The software solves Maxwell and Schrodinger equations self-consistent on the heterogeneous platforms. It implements HF/DFT, TDDFT, and coupled-cluster counterparts for light-matter interactions and adopts modular programming to offload massively parallel algorithms on a large number of CPU/GPUs.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Multiscale Ecosystem for solving Maxwell-Schrodinger equations of open quantum systems (OpenMS) ",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/OpenMS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

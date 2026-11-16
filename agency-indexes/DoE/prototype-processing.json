@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "pgarvey@bnl.gov"
+    },
+    "date": {
+        "created": "2019-09-25",
+        "metadataLastUpdated": "2019-09-25"
+    },
+    "description": "Prototype live processing developed at Brookhaven National Laboratory.",
+    "laborHours": 91.2,
+    "languages": [],
+    "name": "prototype-processing",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NSLS-II/prototype-processing",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

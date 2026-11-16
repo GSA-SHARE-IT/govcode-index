@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-07"
+    },
+    "description": "The PCCEServer application is a server that should be used in conjunction with the LBNLSecureMessaging user interface to enable secure synchronous and asynchronous messaging. It provides authentication and authorization services for members of a collaboration group via PKI/SSL and maintains an access control list. Members of collaboration groups using the LBNLSecureMessaging client must register identifying information. including username and password and an optional X.509 certificate, with the PCCEServer. This registration not only restricts access to instant messaging, but augments the LBNLSecureMessaging's IRC-based chat facility with persistence. Users register permanent unique user ids by which they are known to other users in the system and create permanent venues intended for group conversations on a tong-term or continuous basis. In addition, the PCCEServer enhances instant messaging with presence and awareness information such as user availability, and it allows users to leave notes asynchronously for other users who are online or offline. Written in Java, it is a standalone application that can run on any platform that supports a Java Virtual Machine.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [
+        "Java Version 1.4 or higher (including JSSE)"
+    ],
+    "name": "PCCEServer",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/CDCgov",
+        "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+        "created": "2018-04-03",
+        "lastModified": "2020-03-06"
+    },
+    "description": "This is the repository with the API gateway to connect the other microservices together.",
+    "downloadURL": "https://api.github.com/repos/CDCgov/fdns-ms-gateway/downloads",
+    "homepageURL": "https://github.com/CDCgov/fdns-ms-gateway",
+    "laborHours": 0,
+    "languages": [
+        "HTML",
+        "Java",
+        "Dockerfile",
+        "Shell",
+        "Makefile"
+    ],
+    "name": "fdns-ms-gateway",
+    "organization": "Centers for Disease Control and Prevention",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "git://github.com/CDCgov/fdns-ms-gateway.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2021-04-14",
+        "metadataLastUpdated": "2021-04-14"
+    },
+    "description": "An Emacs \"major mode\" using the polymode infrastructure to enable language-specific in-place editing of documentation in the ReStructuredText format.",
+    "laborHours": 0.0,
+    "languages": [
+        "Emacs Lisp"
+    ],
+    "name": "poly-cmake",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/FNALssi/poly-cmake",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ],
+    "vcs": "git"
+}

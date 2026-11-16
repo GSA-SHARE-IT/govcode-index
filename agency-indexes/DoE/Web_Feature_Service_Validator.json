@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "vowelll@osti.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This site allows state data contributors to validate their WFS services against a specified schema for tier 3 data. The application uses the USGIN models API at https://github.com/usgin/usginmodels.",
+    "laborHours": 4636.0,
+    "name": "Web Feature Service Validator",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/usgin/ContentModelCMS/blob/master/License.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/usgin/ContentModelCMS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

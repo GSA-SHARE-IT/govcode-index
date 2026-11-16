@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-04-15",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "HATS allows partner countries to collect data on all of their handheld radiation detectors. The DataViewer then allows them to get summaries of how all the devices are performing over time, pick outliers in performance so they can be fixed, trend how individual devices perform over time, and provide reports on the state of health of devices they service. The application is intended to be for maintenance providers and partner countries involved in the NSDD program. It is not clear if other entities use multiple detectors or require trending of a single detector type.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov/default.aspx",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Handheld Assessment Tool - Data Viewers (HATS)",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov/default.aspx",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov/default.aspx",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

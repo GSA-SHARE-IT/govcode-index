@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-10-04",
+        "metadataLastUpdated": "2022-02-16"
+    },
+    "description": "Lidar (light detection and ranging) instruments are often used in wind energy studies in place of meteorological towers, as they can collect measurements at higher heights than met towers and are more easily moved to different parts of a site. While lidars can accurately measure mean wind speeds, they frequently measure different values of turbulence intensity (TI) than would be measured by a cup anemometer on a tower. Discrepancies in TI values are caused by several factors, including instrument noise and volume averaging. The inability of lidars to accurately measure turbulence is a significant barrier to replacing met towers with lidars in the future. There is currently no accepted standard process for quantifying and removing these errors in lidar TI measurements. The Software is an error reduction algorithm for lidar-measured turbulence. The algorithm is trained using co-located lidar and meteorological tower data. Lidar-measured parameters, such as wind speed, shear, and TI, will be used to predict the difference between the lidar- and tower-measured TI. The algorithm will be disseminated as a set of computer code that can be used by lidar users and manufacturers to correct lidar TI data in real time or in post-processing.",
+    "laborHours": 684.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "L-TERRA",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/L-TERRA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "vowelll@osti.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This is a Node.js command line utility for scraping XML metadata from CSW and WFS, downloading linkage data from CSW and WFS, pinging hosts and returning status codes, pinging data linkages and returning status codes, writing ping status to CSV files, and uploading data to Amazon S3.",
+    "laborHours": 790.4,
+    "name": "NGDS Data Archiver",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ngds/data-archiver",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-05-21"
+    },
+    "description": "Hipace++ is the new implementation of the DESY-LBNL code Hipace (not distributed nor licensed) for plasma acceleration, relying on the quasi-static particle-in-cell (PIC) method, enabling fast and accurate simulations of plasma accelerators for problems satisfying the quasi-static approximation. Plasma acceleration is a priority in the ATAP division, and such problems represent a wide range of parameters. Hipace++ is an HPC (high-performance computing) code running on supercomputers and it provides the first efficient implementation of the quasi-static PIC method on Graphic Processing Units (GPU), showing 10x speedup and using much less resources than CPU implementations for production simulations. It currently runs on Nvidia GPUs and will ultimately be portable to more accelerated HPC platforms. The porting strategy is novel, and can be adapted to other flavors of quasi-static PIC. Besides, Hipace++ aims at using mesh refinement for higher efficiency, thus enabling simulations unfeasible today. For this purpose, Hipace++ depends on the open-source library AMReX (Adaptive Mesh Refinement at EXascale) developed at LBNL.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "HiPACE++ v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Hi-PACE/hipace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "sprice@lanl.gov"
+    },
+    "date": {
+        "created": "2019-05-02",
+        "metadataLastUpdated": "2019-05-06"
+    },
+    "description": "The Model for Prediction Across Scales (MPAS) is a collaborative project for developing atmosphere, ocean, and other earth-system simulation components for use in climate, regional climate, and weather studies. The primary development partners are the climate modeling group at Los Alamos National Laboratory (COSIM) and the National Center for Atmospheric Research. Both primary partners are responsible for the MPAS framework, operators, and tools common to the applications; LANL has primary responsibility for the ocean, sea ice, and land ice models, and NCAR has primary responsibility for the atmospheric model.",
+    "laborHours": 244279.2,
+    "languages": [
+        "C++",
+        "Fortran"
+    ],
+    "name": "MPAS-Dev/MPAS-Model",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/MPAS-Dev/MPAS-Model",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git",
+    "version": "6.2"
+}

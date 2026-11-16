@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2025-03-26"
+    },
+    "description": "URBANopt is a user interface for creating and running district and city scale building energy simulations. The framework is built around the OpenStudio Urban Measures which are part of the OpenStudio project. Building footprints, building height, building type, and other data can be imported from public records or other sources. Footprints and locations for new buildings and district systems can also be specified. OpenStudio Measures are used to create starting point energy models and to model energy design features and efficiency measures for each building. URBANopt allows a user to pose several scenarios such as “what if 30% of the commercial retail buildings added roof top solar” or “what if all elementary schools converted to ground source heat pumps” and then visualize the impacts at a district or city scale. URBANopt is capable of modeling existing buildings, new construction, and district energy systems. URBANopt can be used to explore options for achieving Zero Energy across a collection of buildings (e.g., Zero Energy Districts).",
+    "homepageURL": "https://www.nrel.gov/buildings/urbanopt.html",
+    "laborHours": 635147.2,
+    "languages": [],
+    "name": "URBANopt (Urban Renewable Building And Neighborhood Optimization) [SWR-16-33]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.nrel.gov/buildings/urbanopt.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ]
+}

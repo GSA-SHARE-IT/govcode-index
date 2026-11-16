@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2021-06-21"
+    },
+    "description": "NREL's RTS Data Vis App contains the following sub-projects: (1) Conditioner: A tool to resample high-rate data from the relay for low-rate visualization and (2) Chart: A tool to plot the data from the relay, including a specialized copy of the Conditioner. The Conditioner is a command-line tool for reading ADMS data from ZMQ, resampling, and exporting over a websocket. The Chart is an example of a charting tool for ADMS applications, using a ZMQ message bus.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Real Time Streaming Data visualization tooling (RTS Data Vis App)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/rts-vis-app",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

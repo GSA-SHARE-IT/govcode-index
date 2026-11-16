@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2024-07-26"
+    },
+    "description": "Graphs occur in several places in real world from road networks, social networks and scientific simulations. HPC Graph is a graph analysis software to analyze the properties such as connectivity, communities etc in extreme scale graphs.",
+    "laborHours": 2295.2,
+    "languages": [
+        "C++",
+        "Makefile",
+        "C"
+    ],
+    "name": "HPCGraph v. 0.1",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/HPCGraph",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

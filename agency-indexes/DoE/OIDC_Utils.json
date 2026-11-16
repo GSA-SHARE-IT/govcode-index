@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "yakubovs@ornl.gov"
+    },
+    "date": {
+        "created": "2024-02-15",
+        "metadataLastUpdated": "2024-02-15"
+    },
+    "description": "This project enables user authentication on servers using OpenID Connect tokens. It includes a PAM module for SSH login via an OIDC token and a utility for executing commands and copying files on behalf of a user, also utilizing an OIDC token for authentication.",
+    "laborHours": 0.0,
+    "languages": [
+        "C"
+    ],
+    "name": "OIDC Utils",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PaNGalaxy/oidc-utils",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-01-09",
+        "metadataLastUpdated": "2019-03-25"
+    },
+    "description": "SOFAST is used to characterize the surface slope of reflective mirrors for solar applications. SOFAST uses a large monitor or projection screen to display fringe patterns, and a machine vision camera to image the reflection of these patterns in the subject mirror. From these images, a detailed map of surface normals can be generated and compared to design or fitted mirror shapes. SOFAST uses standard Fringe Reflection (Deflectometry) approaches to measure the mirror surface normals. SOFAST uses an extrinsic analysis of key points on the facet to locate the camera and monitor relative to the facet coordinate system. It then refines this position based on the measured surface slope and integrated shape of the mirror facet. The facet is placed into a reference frame such that key points on the facet match the design facet in orientation and position. This is key to evaluating a facet as suitable for a specific solar application. SOFAST reports the measurements of the facet as detailed surface normal location in a format suitable for ray tracing optical analysis codes. SOFAST also reports summary information as to the facet fitted shape (monomial) and error parameters. Useful plots of the error distribution are also presented.",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 10822.4,
+    "languages": [],
+    "name": "Sandia Optical Fringe Analysis Slope Tool (SOFAST) v. 2018.11.20",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "version": "v. 2018.11.20"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-10-18",
+        "metadataLastUpdated": "2021-10-18"
+    },
+    "description": "RadTraQ is a python library housing routines related to assessing and monitoring the quality of a radar's quality and calibration. This library is a work in progress, currently housing scripts to plot radar CFADs, plot and analyze corner reflector scans, calculate noise floors, create cloud masks, and plot up average profiles for comparisons.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "RadTraQ (Radar Tracking and Quality Toolkit",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Arm-Development/RadTraQ",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

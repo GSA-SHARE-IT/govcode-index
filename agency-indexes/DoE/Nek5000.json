@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Nek5000 is high-order spectral element code used for the simulation of incompressible fluid flow, MHD, and heat transfer in general three-dimensional domains that has been specifically developed for deployment on large-scale distributed memory parallel architectures. The code features state of the art matrix free multilevel iterative solvers coupled with stable second and third order operator-split stepping schemes. Scalable performance has been established onup to 32,000 processors and the overall quality of the algorithmic approach, implementation, and performance were recognized with the award of the Gordon Bell Prize in 1999.",
+    "laborHours": 0.0,
+    "languages": [
+        "f77/C"
+    ],
+    "name": "Nek5000",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/Nek5000/Nek5000/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Nek5000/Nek5000",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

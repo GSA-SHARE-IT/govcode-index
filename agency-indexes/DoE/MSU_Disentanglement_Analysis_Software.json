@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-10-17",
+        "metadataLastUpdated": "2022-10-17"
+    },
+    "description": "This software is used to disentangle the forced-versus-unforced components of tropospheric temperature change over the satellite era (after 1979) using maps of surface temperature change as a predictor. In general, the software assembles training datasets (from pre-computed surface temperature trend maps and domain averaged tropospheric warming rates), trains statistical/machine learning (ML) algorithms, applies the trained statistical/ML model to climate model data and observations, and then saves the results. A leave-one-out approach is used in which the statistical/ML models are iteratively trained on (N- 1) climate model and then applied to the remaining climate model (and observations). Each model includes a large ensemble (i.e., &gt;10) of model simulations. The software relies on scikit-learn ridge regression, PLS regression, and neural network algorithms.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MSU Disentanglement Analysis Software",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/MDAS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

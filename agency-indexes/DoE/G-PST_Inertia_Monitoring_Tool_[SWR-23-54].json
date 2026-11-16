@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-06-05",
+        "metadataLastUpdated": "2023-07-31"
+    },
+    "description": "This tool provides interfaces for ingesting real-time unit commitment data (e.g., from a grid operator's control room energy management system) and calculating system inertia estimates based on the H-constant method, before relaying those estimates to customizable visualization or logging outputs.",
+    "laborHours": 0.0,
+    "languages": [
+        "Go",
+        "CSS",
+        "HTML",
+        "JavaScript"
+    ],
+    "name": "G-PST Inertia Monitoring Tool [SWR-23-54]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/G-PST/inertia",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

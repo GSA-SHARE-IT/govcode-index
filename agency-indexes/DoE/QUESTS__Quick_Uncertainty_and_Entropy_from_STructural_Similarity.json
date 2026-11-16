@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-08-08",
+        "metadataLastUpdated": "2024-09-12"
+    },
+    "description": "QUESTS provides a strategy to quantify the uncertainty and the information content (entropy) of datasets\nof atomistic simulations. The code implements the calculation of a descriptor, compares information\ncontents of datasets, verifies whether given structures are contained in specific datasets, and more. This\ncode base enables better design of training sets for machine learning force fields as well as\nunderstanding some thermodynamic properties of materials.",
+    "laborHours": 714.4,
+    "languages": [],
+    "name": "QUESTS: Quick Uncertainty and Entropy from STructural Similarity",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dskoda/quests",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

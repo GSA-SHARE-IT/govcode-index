@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Canary is an extensible water-quality change-detection tool for algorithm development. It has been developed in MATLAB and was developed as part of an IAG with the US EPA NHSRC.",
+    "homepageURL": "https://software.sandia.gov/trac/canary",
+    "laborHours": 0.0,
+    "name": "CANARYV1.5",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://software.sandia.gov/trac/canary",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2019-02-08",
+        "metadataLastUpdated": "2019-03-22"
+    },
+    "description": "Resonance Control GUI for LCLS-II ResCtl System is a Qt5-based, python GUI used for interacting with an LCLS-II resonance control system for an 8-cavity cryomodule. The code is written in Python, and can use auxiliary software Qt5, pyqtgraph, numpy, and scipy. The code is operating system-agnostic, has no specific hardware requirements, and has no embedded source code.",
+    "homepageURL": "http://pip2.fnal.gov",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Resonance Control GUI for LCLS-II ResCtl System",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://pip2.fnal.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ]
+}

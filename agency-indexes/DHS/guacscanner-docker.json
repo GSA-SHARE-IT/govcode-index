@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2021-11-03",
+        "lastModified": "2026-10-07"
+    },
+    "description": "Dockerized guacscanner.",
+    "downloadURL": "https://api.github.com/repos/cisagov/guacscanner-docker/downloads",
+    "homepageURL": "https://github.com/cisagov/guacscanner-docker",
+    "laborHours": 901.0,
+    "languages": [
+        "Shell",
+        "Python",
+        "Dockerfile"
+    ],
+    "name": "guacscanner-docker",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/guacscanner-docker.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "hacktoberfest"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-03-11",
+        "metadataLastUpdated": "2022-03-11"
+    },
+    "description": "The Generic Learning User Enablement Code (GLUE Code) is a modular framework designed to couple different scientific\napplications to support use cases including multiscale methods and various forms of machine learning. The workflow was\ninitially designed around supporting active learning as an alternative to coupled applications to support multiscale\nmethods but has been written in a sufficiently modular way that different machine learning methods can be utilized.\nApplication programming interfaces (API) are available for C, C++, Fortran, and Python with support for various storage\nformats including SQL databases and HDF5. The code also provides direct coupling with high performance computing job\nschedulers such as Slurm and Flux. The associated open source repository will include source code, build infrastructure,\ndocumentations, and examples demonstrating how to use the GLUE Code with oopen source ICF and Porous Media\napplications",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Generic Learning User Enablement Code (GLUE Code)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

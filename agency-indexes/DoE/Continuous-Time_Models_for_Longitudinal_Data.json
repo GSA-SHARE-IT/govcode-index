@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-06-20",
+        "metadataLastUpdated": "2023-06-20"
+    },
+    "description": "This software is used to estimate a probabilistic continuous-time model from data. The models capture\nnonlinear associations between variables that change over time. They can be used to infer future values\nof variables. These tools were used in the manuscript entitled \"Continuous-Time Probabilistic Models for\nLongitudinal Electronic Health Records.\"",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Continuous-Time Models for Longitudinal Data",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/alankaplan/CTMLD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

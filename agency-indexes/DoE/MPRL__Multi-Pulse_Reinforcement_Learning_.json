@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-05-25",
+        "metadataLastUpdated": "2022-08-19"
+    },
+    "description": "MPRL contains code for defining and deploying reinforcement learning control agents for multi-pulse, multi-fuel advanced compression ignition engines.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "shell"
+    ],
+    "name": "MPRL (Multi-Pulse Reinforcement Learning)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/MPRL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

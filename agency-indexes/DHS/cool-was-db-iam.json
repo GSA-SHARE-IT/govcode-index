@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2024-02-05",
+        "lastModified": "2026-04-09"
+    },
+    "description": "Terraform to manage IAM permissions for COOL users that are allowed to read from and write to the COOL WAS database",
+    "downloadURL": "https://api.github.com/repos/cisagov/cool-was-db-iam/downloads",
+    "homepageURL": "https://github.com/cisagov/cool-was-db-iam",
+    "laborHours": 714.4,
+    "languages": [
+        "Shell",
+        "HCL"
+    ],
+    "name": "cool-was-db-iam",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/cool-was-db-iam.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

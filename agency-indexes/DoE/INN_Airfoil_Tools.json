@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-05-18",
+        "metadataLastUpdated": "2022-06-22"
+    },
+    "description": "This software package contains code to perform airfoil inverse shape design using a sparsified invertible neural network model. This is a specialized deep learning architecture that enables both network weights to be shared to evaluate forward or inverse passes through the network. As a design tool, this network allows practitioners to specify desired aerodynamic and structural properties and generate shapes that satisfy those properties. The invertible neural network is accompanied with tuned parameters as well as software tools to train new models as needed.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "INN Airfoil Tools",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/INN-interface",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-01-17",
+        "metadataLastUpdated": "2023-01-17"
+    },
+    "description": "This software builds on PHAME developed at LANL to generate phylogenetic trees of bacterial whole genome sequences. Where PHAME uses whole genome alignments to generate informative sites to base tress on, PHAME-OuS annotates bacterial genes, identifies orthologous sequences, aligns related proteins, uses those alignments to inform transcript alignments, then builds trees with several methods. The first is a conventional gene concatenation and ML tree estemation method. The second attempts to reconcile gene tree with a unified species tree using quartets (ASTRAL). Both methods allow filtering of gene lists on number of species represented, length, and gappiness in order to tune noise-to-signal for tree estimation",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "OrthoPhylo",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/OrthoPhylo",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

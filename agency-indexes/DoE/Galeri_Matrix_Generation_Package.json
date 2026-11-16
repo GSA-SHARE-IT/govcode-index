@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-09-12"
+    },
+    "description": "The Galeri package defines a collection of serial and distributed linear algebra objects to be used for software verification and validation. Galeri is used in several of the examples of the Amesos, IFPACK and ML packages, and in the Trilinos tutorial, Didasko. Galeri can be used for the generation of linear system with known propeties and data distribution for convergence analysis of interative solvers of Krylov type and domain decomposition and multigrid preconditioners.",
+    "laborHours": 8344830.4,
+    "languages": [],
+    "name": "Galeri Matrix Generation Package",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-11-13",
+        "metadataLastUpdated": "2019-11-13"
+    },
+    "description": "Pairwise sequence alignment is one of the most computationally intensive kernels in genomic data analysis, accounting for more than 90% of the run time for key bioinformatics applications. This method is particularly expensive for third-generation sequences due to the high computational expense of analyzing these long read lengths (1Kb-1Mb). Given the quadratic overhead of exact pairwise algorithms such as Smith-Waterman, for long alignments, the community primarily relies on approximate algorithms that search only for high-quality alignments and stop early when one is not found. In this work, we present the first GPU optimization of the popular X-drop alignment algorithm, named LOGAN. Results show that our high-performance multi-GPU LOGAN implementation achieves up to 181.6 GCUPS and speed-ups up to 6.6x and 30.7x using 1 and 6 NVIDIA Tesla V100, respectively, over the state-of-the-art software running on two IBM Power9 processors using 168 threads, with equivalent accuracy. We also demonstrate a 2.3x LOGAN speed-up versus ksw2, a state-of-art vectorized algorithm for sequence alignment implemented in minimap2. To highlight the impact of our work on a real-world application, we couple the LOGAN aligner with a many-to-many long-read alignment software called BELLA, and demonstrate that our implementation improves the overall BELLA runtime by up to 10.6x. Finally, we adapt the Roofline model for our optimized kernel and demonstrate that our implementation is near-optimal on the NVIDIA Tesla V100s.",
+    "laborHours": 133851.2,
+    "languages": [],
+    "name": "LOGAN: High-Performance X-Drop Pairwise Alignment on GPU (LOGAN) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/albertozeni/LOGAN",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

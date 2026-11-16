@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-09-24",
+        "metadataLastUpdated": "2022-09-27"
+    },
+    "description": "Achieving the U.S. government's target of net-zero greenhouse gas (GHG) emissions by 2050 will require technological transformations and energy sector migration towards low-carbon or carbon-negative options. To understand the role of technologies, identify synergies and dissonance and the effect of allocating limited low-carbon biomass resources, we developed the Decarbonization Tool to evaluate scenarios from 2020 through 2050. The tool employs an LCA framework considering the U.S. economy as the functional unit and assessing GHG emissions reduction from the 2020 level of 5.4 billion tones CO2e. The tool employs a lifecycle analysis framework to capture both the direct and supply-chain emissions resulting from changes in patterns of energy generation and consumption, technology breakthroughs, and reductions in fugitive emissions over time at the granularity of economic sectors, sub-sectors, and end use applications. A reference scenario is developed using Energy Information Administration (EIA AEO) projection of economic activities for 2020-2050, GHG emissions data from Environmental Protection Agency's (EPA) inventory of GHG sources and sinks for 2019, and emission factors from Argonne's Greenhouse gases, Regulated Emissions, and Energy use in Technologies Model (GREET®) tool. We consider several carbon reduction approaches including replacement and scale-up of electricity generation with renewables, partial electrification of the transportation sector complimented with biofuels, improvements in building energy efficiency, replacement of natural gas with renewable hydrogen, mitigation of methane emissions from waste and natural gas, agricultural decarbonization, and carbon dioxide removal pathways. The scenario we analyze indicates the potential to achieve 80-90% decarbonization economy-wide relative to a 200X baseline.",
+    "homepageURL": "https://www.anl.gov/partnerships/licensable-software",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "DECARBONIZATION SCENARIO ANALYSIS MODEL",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.anl.gov/partnerships/licensable-software",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

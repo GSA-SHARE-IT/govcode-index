@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-07-23",
+        "metadataLastUpdated": "2020-07-31"
+    },
+    "description": "Client side implementation of auth2 ui components. Includes login, logout, signup forms; account management, ID linking.\n\n",
+    "laborHours": 28910.4,
+    "languages": [],
+    "name": "KBase UI Auth2 Client",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/kbase-ui-plugin-auth2-client",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

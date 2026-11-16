@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-07-29",
+        "metadataLastUpdated": "2022-07-29"
+    },
+    "description": "Carbon fluxes in terrestrial ecosystems and their response to environmental change are a major source of uncertainty in the modern carbon cycle. The National Ecological Observatory Network (NEON) presents the opportunity to merge eddy covariance (EC)-derived fluxes with CO2 isotope ratio measurements to gain insights into carbon cycle processes. Collected continuously and consistently across &gt;40 sites, NEON EC and isotope data facilitate novel integrative analyses. However, currently provisioned atmospheric isotope data are uncalibrated, greatly limiting ability to perform cross-site analyses. Here, we present two approaches to calibrating NEON CO2 isotope ratios, along with an R package to calibrate NEON data. We find that calibrating CO2 isotopologues independently yields a lower d13C bias (&lt;0.05‰) and higher precision (&lt;0.40‰) than directly correcting d13C with linear regression (bias: &lt;0.11‰, precision: 0.42‰), but with slightly higher error and lower precision in calibrated CO2 mole fraction. The magnitude of the corrections to d13C and CO2 mole fractions vary substantially by site, underscoring the need for users to apply a consistent calibration framework to data in the NEON archive. Post-calibration data sets show that site mean annual d13C correlates negatively with precipitation, temperature, and aridity, but positively with elevation. Forested and agricultural ecosystems exhibit larger gradients in CO2 and d13C than other sites, particularly during the summer and at night. The overview and analysis tools developed here will facilitate cross-site analysis using NEON data, provide a model for other continental-scale observational networks, and enable new advances leveraging the isotope ratios of specific carbon fluxes.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "NEONiso R Package, versions greater than 0.5.2",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/agpl-3.0",
+                "name": "AGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/NEONiso",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

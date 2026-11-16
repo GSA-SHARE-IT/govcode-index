@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-08",
+        "metadataLastUpdated": "2021-12-08"
+    },
+    "description": "Background: Machine learning (ML) based risk stratification models of Electronic Health records (EHR) data may help to optimize treatment of COVID-19 patients, but are often limited by their lack of clinical interpretability and cost of laboratory tests. We develop a ML based tool for predicting adverse outcomes based on EHR data to optimize clinical utility under a given cost structure. This cohort study was performed using deidentified EHR data from COVID-19 patients from ProMedica Healthcare in northwest Ohio and southeastern Michigan. Methods: We tested performance of various ML approaches for predicting either increasing ventilatory support or mortality and the set of model features under a budget constraint was optimized via exhaustive search across all combinations of features. Results: The optimal sets of features for predicting ventilation under any budget constraint included demographics and comorbidities (DCM), basic metabolic panel (BMP), D-dimer, lactate dehydrogenase (LDH), erythrocyte sedimentation rate (ESR), CRP, brain natriuretic peptide (BNP), and procalcitonin and for mortality included DCM, BMP, complete blood count, D-dimer, LDH, CRP, BNP, procalcitonin and ferritin. Conclusions: This study presents a quick, accurate and cost-effective method to evaluate risk of deterioration for patients with SARS-CoV-2 infection at the time of clinical evaluation.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Budget Constrained Machine Learning for Early Prediction of Adverse Outcomes for COVID-19 Patients",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/BCML-COVID19",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

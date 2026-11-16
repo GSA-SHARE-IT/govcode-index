@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-10",
+        "metadataLastUpdated": "2018-07-10"
+    },
+    "description": "Orio is an annotation system implemented in Python that enables developers to insert annotations into their source code (in C or Fortran). These annotations are used to trigger performance optimizations on a specified code fragment. ",
+    "laborHours": 117511.2,
+    "languages": [],
+    "name": "Orio",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/brnorris03/Orio",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

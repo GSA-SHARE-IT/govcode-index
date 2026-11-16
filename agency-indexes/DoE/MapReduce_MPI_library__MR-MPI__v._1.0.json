@@ -1,0 +1,40 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "The MapReduce MPI library is a software tool for performing MapReduce operations on a distributed memory parallel computer via message passing (MPI). These are data-processing or computational operations which achieve parallelism by breaking a large task into two stages, a map and a reduce . Each of these are formulated as simple on-processor functions which the user can easily write. The library assigns independent tasks to processors and performs the parallel data movement and transformations behind the scenes.",
+    "laborHours": 13315.2,
+    "languages": [
+        "C++",
+        "Shell",
+        "C",
+        "Makefile",
+        "HTML",
+        "Python",
+        "Odin"
+    ],
+    "name": "MapReduce MPI library (MR-MPI) v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/mapreduce",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

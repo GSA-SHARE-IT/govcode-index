@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-12",
+        "metadataLastUpdated": "2018-07-12"
+    },
+    "description": "Zoltan provides dynamic load balancing for parallel computing with a procedural C interface, with a variety of redistribution algorithms available. To access the Zoltan package, please refer to the packages directory within the main Trilinos GitHub repository. \n",
+    "laborHours": 8344830.4,
+    "languages": [],
+    "name": "Trilinos/Zoltan",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/trilinos/Trilinos/blob/master/packages/zoltan/COPYRIGHT_AND_LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

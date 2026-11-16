@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-09-02",
+        "metadataLastUpdated": "2023-03-29"
+    },
+    "description": "This software package provides functionality to fit piecewise cubic splines to model the relationship between a univariate X (independent variable) and a univariate Y (dependent variable). The output is akin to linear regression but has higher \"capacity\" in that it can learn more complicated relationships despite leveraging only a single predictor. It thus can learn very reasonable relationships between X and Y with minimal effort. The canonical intended use case is for predicting electric demand (Y) from temperature (X). There can be complicated, non-linear relationships between these two variables, but these can be reasonably approximated by the sum of: 1) an \"aggregate\" relationship between daily average temperature and daily average demand, and 2) intra-day patterns represented as hourly offsets from the daily average load. The spline functionality is used for learning a robust \"aggregate\" relationship without the inconvenience of manual feature engineering while still ensuring robust results. The model fitting workhorse is R's built-in smooth.spline. This package provides a suite of options for controlling how smooth.spline fits a spline to the data. In particular, it is designed to return a model with a single critical point (i.e., a single location along the domain/support where the first derivative is zero). This is to ensure that predicted changes in electric demand are always positive as temperatures become more extreme. This helps to prevent overfitting, particularly when the input data has few observations or has significant uncertainty from other sources.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ASP (Adaptive Splines for Prediction) [SWR-22-66]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/adaptive-splines",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

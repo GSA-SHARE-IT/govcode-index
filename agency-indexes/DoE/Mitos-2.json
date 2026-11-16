@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-08-05",
+        "metadataLastUpdated": "2022-08-12"
+    },
+    "description": "Mitos is a library and a tool for collecting sampled memory performance data to view with MemAxes.",
+    "laborHours": 684.0,
+    "languages": [],
+    "name": "Mitos",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/Mitos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.9.1"
+}

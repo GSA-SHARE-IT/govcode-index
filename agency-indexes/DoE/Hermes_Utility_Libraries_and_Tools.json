@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "This software is a set of utility libraries and tools developed in support of multiple scientific simulation projects. These libraries provide many general-purpose capabilities, such as a compact, extensible, machine-independent binary file format for various forms of scientific data, a Fortran-callable command parser that supports symbolic variables, looping, and conditional constructs, a Fortran-callable interface to ITT Corporation's callable IDL graphics and data analysis, a multi-block, 2D electrostatic solver, a machine-independent Fortran interface to standard system services, and various Fortran-callable dynamic memory services. In some cases, C interfaces are also provided. In addition, some tools that use these various libraries are available. A brief description of each library/tool follows: PFF library - PFF is a compact, extensible, machine-independent binary file format for various forms of scientific data. Two libraries are provided: one designed to be called from Fortran 77, and the other designed to be called from C or C++. Dataset types for several varieties of scientific data are built into the library, and new dataset types can be added. The libraries provide support for reading/writing these datasets from/to PFF files, as well as functionality for interactive processing of PFF files and the data they contain. Tools for manipulating, converting, and comparing PFF data are also available.",
+    "laborHours": 42043.2,
+    "languages": [
+        "C++",
+        "C",
+        "Fortran",
+        "Python"
+    ],
+    "name": "Hermes Utility Libraries and Tools",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/hermes-util",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

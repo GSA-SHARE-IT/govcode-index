@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-05-12",
+        "metadataLastUpdated": "2021-05-12"
+    },
+    "description": "Lestofire is an academic software for the automated design of engineering components. It finds the optimal geometry of a system to minimize a given cost function while constrained by a given set of physics equations. Using a level set function to describe the geometry, lestofire uses shapes derivative to evolve the system until its optimal shape. It leverages the compilation of variational forms in Firedrake (https://www.firedrakeproject.org/) and the automated calculation of shape derivatives via pyadjoint (http://www.dolfin-adjoint.or/en/latest/) to allow fast prototyping of different physics, cost functions and design parametrizations.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Level set topology optimization in Firedrake",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/lestofire",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

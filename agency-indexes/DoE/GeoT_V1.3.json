@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-06-13",
+        "metadataLastUpdated": "2019-06-17"
+    },
+    "description": "Geo T automates into a stand-alone computer program the multicomponent chemical geothermometry method previously developed by Reed and Spycher (1984). Geo T allows for simultaneous regression of multiple water chemical analyses, automatic reconstitution of deep fluids, and estimation of reservoir temperature from statistical evaluation of computed mineral saturation indices. The temperature estimation includes a \"best\" estimated temperature with its range of uncertainity. The computer program also outputs temperatures predicted using classical geothermometers. Input parameters include water composition and optionally, gas composition, dilution/evaporation factor (in case of boiling or mixing with dilute waters), and end-member water composition (in case of mixing with other non-dilute waters). This program was designed for geothermal applications but is also useful as a tool to quickly speciate a large number of water analyses.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GeoT V1.3",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-12-17",
+        "metadataLastUpdated": "2018-12-18"
+    },
+    "description": "This project is intended to take a graph and build a smaller (upscaled) graph that is representative of the original in some way. We represent the graph Laplacian in a mixed form, solve some local eigenvalue problems to uncover near-nullspace modes, and use those modes as coarse degrees of freedom.",
+    "laborHours": 7584.8,
+    "languages": [],
+    "name": "GAUSS",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/gelever/GAUSS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

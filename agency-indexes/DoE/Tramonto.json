@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-25"
+    },
+    "description": "Tramonto is a code for performing molecular theory calculations using a matrix-based Newton's method approach for 1D, 2D, and 3D geometries. More specifically the code solves the integral equations of a particular class of liquid state theory namely density functional theories (DFT) of inhomogeneous fluids in order to predict the structure and thermodynamic properties of fluids near surfaces, in porous media, or near macromolecules. It can also be used to study self-assembling systems such as lamellae forming diblock copolymers or lipid bilayers. The types of fluids currently treated by the code include atomistic fluids (hard spheres, Lennard-Jones, ions, etc), freely-jointed polymers, and small molecules with bond constraints. The system of equations solved by this code are integral equations of finite range. They lead to sparse matrices for large physical systems, but rather dense matrices when the physical systems are small. The systems of equations are solved using a real space matrix based Newton's method. Standard freely available parallel iterative solvers many be used to solve the problem (see Aztecoo from Sandia's Trilinos project). Alternatively, specialized Schur complement based solvers developed for more efficient solution of these semi-dense matrices may be used.",
+    "laborHours": 46876.8,
+    "languages": [
+        "C++",
+        "C",
+        "CMake",
+        "Python"
+    ],
+    "name": "Tramonto",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/tramonto",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

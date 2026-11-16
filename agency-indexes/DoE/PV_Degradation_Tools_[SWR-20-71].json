@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-07-01",
+        "metadataLastUpdated": "2024-06-05"
+    },
+    "description": "This open-source tool functions for calculating degradation of photovoltaic modules. For example, functions to calculate front and rear relative Humidity, as well as Acceleration Factors. A degradation calculation function is also being developed, considering humidity and spectral irradiances models.",
+    "laborHours": 3617.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "PV Degradation Tools [SWR-20-71]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/PVDegradationTools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "0.3.3"
+}

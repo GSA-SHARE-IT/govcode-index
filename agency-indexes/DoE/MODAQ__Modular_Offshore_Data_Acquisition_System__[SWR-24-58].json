@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-04-04",
+        "metadataLastUpdated": "2024-04-04"
+    },
+    "description": "The National Renewable Energy Laboratory (NREL) has developed a data acquisition system to support laboratory (component) and in-water validation and testing of Marine Renewable Energy (MRE) technologies. The Modular Ocean Data AcQuisition System (MODAQ) is a robust system built on industrial grade hardware that can acquire high-quality and summary data from many sensor and instrument types. MODAQ includes modules to perform real-time QC screening, system health monitoring, and send alerts. MODAQ is also part of a larger data management, processing, visualization, and archiving system.",
+    "laborHours": 16917.6,
+    "languages": [
+        "HTML",
+        "LabVIEW",
+        "SaltStack",
+        "JavaScript"
+    ],
+    "name": "MODAQ (Modular Offshore Data Acquisition System) [SWR-24-58]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/MODAQ",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

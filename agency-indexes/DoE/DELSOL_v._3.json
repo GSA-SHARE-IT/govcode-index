@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-24"
+    },
+    "description": "DELSOL calculates collector field performance and layout and optimal system design for solar thermal central receiver plants. The code consists of a detailed model of the optical performance, a simpler model of the non-optical performance, an algorithm for field layout, and a searching algorithm to find the best system design based on energy cost. The latter two features are coupled to a cost model of central receiver components and an economic model for calculating energy costs. The program optimizes the tower height, receiver size, field layout, heliostat spacings, and tower position at user specified power levels.",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "DELSOL v. 3",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/delsol",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "3.0"
+}

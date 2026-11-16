@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-05-25"
+    },
+    "description": "We are developing a peer-to-peer system to support secure, location independent information sharing in the scientific community. Once complete, this system will allow seamless and secure sharing of information between multiple collaborators. The owners of information will be able to control how the information is stored, managed, and shared. In addition, users will have faster access to information updates within a collaboration. Groups collaborating on scientific experiments have a need to share information and data. This information and data is often represented in the form of files and database entries. In a typical scientific collaboration, there are many different locations where data would naturally be stored. This makes It difficult for collaborators to find and access the information they need. Our goal is to create a lightweight file-sharing system that makes it easy for collaborators to find and use the data they need. This system must be easy-to-use, easy-to-administer, and secure. Our information-sharing tool uses group communication, in particular the InterGroup protocols, to reliably deliver each query to all of the current participants in a scalable manner, without having to discover all of their identities. We will use the Secure Group Layer (SGL) and Akenti to provide security to the participants of our environment, SGL will provide confidentiality, integrity, authenticity, and authorization enforcement for the InterGroup protocols and Akenti will provide access control to other resources.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [
+        "Java 1.4 or higher"
+    ],
+    "name": "Secure Information Sharing",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

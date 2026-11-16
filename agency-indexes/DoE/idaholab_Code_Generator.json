@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2018-04-24",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "The ns-3 code generator provides a way to automatically generate C++ simulation code for ns-3 from a high level network topology description.",
+    "laborHours": 1854.4,
+    "languages": [],
+    "name": "idaholab/Code_Generator",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/Code_Generator",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

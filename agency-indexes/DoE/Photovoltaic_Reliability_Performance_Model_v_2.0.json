@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "PV-RPM is intended to address more “real world” situations by coupling a photovoltaic system performance model with a reliability model so that inverters, modules, combiner boxes, etc. can experience failures and be repaired (or left unrepaired). The model can also include other effects, such as module output degradation over time or disruptions such as electrical grid outages. In addition, PV-RPM is a dynamic probabilistic model that can be used to run many realizations (i.e., possible future outcomes) of a system’s performance using probability distributions to represent uncertain parameter inputs.",
+    "homepageURL": "https://sam.nrel.gov/photovoltaic/pvrpm.html",
+    "laborHours": 0.0,
+    "languages": [
+        "For existing proof-of-concept, it was written in Goldsim in an object oriented format. The next vers"
+    ],
+    "name": "Photovoltaic Reliability Performance Model v 2.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://sam.nrel.gov/photovoltaic/pvrpm.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sam.nrel.gov/photovoltaic/pvrpm.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

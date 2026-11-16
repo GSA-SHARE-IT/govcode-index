@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2018-05-30",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "SPPARKS is a kinetic Monte Carlo (KMC) code designed to run efficiently on parallel computers using both KMC and Metropolis Monte Carlo algorithms.",
+    "laborHours": 25703.2,
+    "languages": [],
+    "name": "SPPARKS",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/SPPARKS",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

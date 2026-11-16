@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-01-13",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "LIGGGHTS-INL is a capability-extended version of LIGGGHTS. LIGGGHTS is an Open Source Discrete Element Method Particle Simulation Software (https://www.cfdem.com/media/DEM/docu/Manual.html). LIGGGHTS stands for LAMMPS improved for general granular and granular heat transfer simulations. LAMMPS is a classical molecular dynamics simulator. It is widely used in the field of Molecular Dynamics (https://lammps.sandia.gov/doc/Manual.html). Thanks to physical and algorithmic analogies, LAMMPS is a very good platform for DEM simulations. LAMMPS offers a GRANULAR package to perform these kinds of simulations. LIGGGHTS aims to improve those capability with the goal to apply it to industrial applications.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Granular Flow",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/LIGGGHTS-INL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

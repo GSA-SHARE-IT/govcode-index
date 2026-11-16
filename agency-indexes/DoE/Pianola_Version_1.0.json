@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Pianola is a software benchmark for measuring the performance of input/output (I/O) hardware and software. It works by monitoring the I/O activity of an existing application and storing the sequence of events, along with their timing, in a script. After some additional processing, a separate piece of software in this package can replay these I/) events and replicate their timing without reference to the original application. Therefore, Pianola allows users to create standalone I/O benchmarks that mimic the behavior of applications that either cannot be released or that are difficult for nonspecialists to configure, build or run.",
+    "homepageURL": "https://computation.llnl.gov/software-catalog",
+    "laborHours": 0.0,
+    "name": "Pianola Version 1.0",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://computation.llnl.gov/software-catalog",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

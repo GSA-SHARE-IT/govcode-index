@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-02",
+        "metadataLastUpdated": "2021-09-20"
+    },
+    "description": "Los Alamos National Laboratory is embarking on a project to set a new standard in genome mapping through development of unique 4D genomics capabilities. We will develop and deploy open source software tools to discover fundamental cellular functions that are hijacked by viruses to cause disease. Given LANL’s breadth of expertise in genomics, high performance computing, and advanced visualization, we are uniquely positioned to build the nascent 4D genomics field to help determine the 4D spatial-temporal architecture and dynamic reconfiguration of the human genome for any application. The goal of this software project is to create a web-based interactive application, with a complete web software stack, that provides a way to browse, visualization, query and annotate curated sets of related genomic data. The software will provide an intuitive interface to this complex data, utilizing a set of custom and off-the-shelf components integrated into specific configurations of coordinated data views. To achieve this, the project will provide components, algorithms and integrated applications and will be available as an open source project that can be used by others to view related sets of data. The primary users of this platform will include institutional users at Los Alamos National Laboratory, scientists and researchers from collaborative institutions, and others interested in exploring multi-modal genomic databases.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "4D Genome Browser",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/4DGB",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

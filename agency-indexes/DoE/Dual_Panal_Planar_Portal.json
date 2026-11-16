@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "The D3P system is designed to provide a very fast imaging system in order to search for weapons on persons in an airport environment. The complete vision of the D3P system is to have two array systems facing each other. Version 2.3 of the software is designed to control and process data from a single panel. A second panel is expected to be added at a future date and the software will be modified at that time to integrate the images from two panels at one time. The D3P software can be segmented into three specific tasks. The first task is data acquisition and scanner control. At the operator's request, this task commands the scanner to move and the radar transceiver-array to send data to the computer system in a known and well-ordered manner. The array is moved over the complete aperture in 1 to 2 seconds. At the completion of the array movement the second software task reconstructs the high-resolution image from the radar data utilizing the integrated DSP board. The third task displays the result to the computer screen for user review and analysis.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Dual Panal Planar Portal",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

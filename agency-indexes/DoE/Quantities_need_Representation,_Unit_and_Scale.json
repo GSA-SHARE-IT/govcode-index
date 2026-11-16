@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-05-11",
+        "metadataLastUpdated": "2020-05-11"
+    },
+    "description": "C++ template library to represent quantities in scientific computing. It enables a strong, compile-time,\ntyping of physical quantities. This typing includes information about:\n- representation: float, double, ...\n- unit: [ mass, length, time, angle ]\n- scale: kilo, milli, micro, ...\nIs",
+    "laborHours": 3040.0,
+    "languages": [],
+    "name": "Quantities need Representation, Unit and Scale",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/QRUS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

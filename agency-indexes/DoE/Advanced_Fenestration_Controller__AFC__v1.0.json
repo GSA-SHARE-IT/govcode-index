@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-12",
+        "metadataLastUpdated": "2024-07-12"
+    },
+    "description": "The Advanced Fenestration Controller is the result of 5+ years of R&D to develop an advanced control system for Dynamic Facades (e.g., automated shades, blinds, etc.), electric lighting, and HVAC system in buildings. It can dynamically control those technologies to reduce electricity cost while increasing comfort. The work in FY22 focused on open-sourcing our development, per agreement with DOE.",
+    "laborHours": 2523.2,
+    "languages": [],
+    "name": "Advanced Fenestration Controller (AFC) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/AFC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

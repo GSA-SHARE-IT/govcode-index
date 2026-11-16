@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "pgarvey@bnl.gov"
+    },
+    "date": {
+        "created": "2019-09-25",
+        "metadataLastUpdated": "2019-09-25"
+    },
+    "description": "I/O tools for the Eiger detector.",
+    "laborHours": 532.0,
+    "languages": [],
+    "name": "eiger-io",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NSLS-II/eiger-io",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

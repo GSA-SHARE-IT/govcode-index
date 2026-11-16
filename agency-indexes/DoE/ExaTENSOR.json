@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "ExaTENSOR is a software math library for performing basic numerical tensor algebra operations on distributed heterogeneous HPC platforms. The library provides the following basic numerical tensor algebra primitives: tensor contraction, tensor product, tensor addition, tensor scaling by a scalar, etc. ExaTENSOR supports dense, block-sparse and hierarchical block-sparse tensors stored and processed across many heterogeneous HPC nodes (node equipped with NVIDIA GPU and Intel Xeon Phi have been considered so far). The architecture of ExaTENSOR is based on the concept of domain-specific virtual processor (DSVP), that is, an intermediate software layer capable of processing domain-specific instructions, in this case, numerical tensor algebra instructions. In this way, a separation of the domain-specific algorithm expression and hardware-agnostic algorithm execution is achieved, thus ensuring portability of the applications which use ExaTENSOR as a numerical backend.",
+    "laborHours": 85591.2,
+    "languages": [
+        "Fortran 2003",
+        "C/C++",
+        "gcc-8.1",
+        "intel-1.8",
+        "xl-16.1.1"
+    ],
+    "name": "ExaTENSOR",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-QCI/ExaTENSOR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

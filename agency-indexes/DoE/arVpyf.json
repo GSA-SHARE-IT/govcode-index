@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "pgarvey@bnl.gov"
+    },
+    "date": {
+        "created": "2019-07-02",
+        "metadataLastUpdated": "2019-07-02"
+    },
+    "description": "Archiver Python Frontend represents a collection of Python classes associated with the EPICS Archiver Appliance middle layer and other data sources for building composite and extandable applications and integrating them with general (like Apache Spark) or domain-wide (like NSLS-II Databroker) data management and processing systems.",
+    "laborHours": 805.6,
+    "languages": [],
+    "name": "arVpyf",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NSLS-II/arvpyf/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NSLS-II/arvpyf",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

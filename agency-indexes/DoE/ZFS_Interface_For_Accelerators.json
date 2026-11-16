@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-01-06",
+        "metadataLastUpdated": "2022-01-06"
+    },
+    "description": "As data volume increases in HPC centers, storing data in reasonable amounts of space and time while maintaining data integrity and recoverability becomes ever more difficult. ZFS is a filesystem that provides these features, among many others, that make it attractive for usage in HPC environments. It has the ability to compress data, compute checksums, and compute redundancy codes within the same runtime, rather than compute each separately, without knowledge of the underlying structure of the filesystem. However, measurements have shown that compression on CPUs can be incredibly inefficient and significantly reduce the performance of ZFS. The ZFS Interface for Accelerators (Z.I.A.) was developed to provide an interface to route data to accelerators while being processed by ZFS, so that the ZFS infrastructure and features are maintained, while allowing for ZFS administrators to provide faster implementations of compression, or other features, to their instance of ZFS.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ZFS Interface For Accelerators",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hpc/zfs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

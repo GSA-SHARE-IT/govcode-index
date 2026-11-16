@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "The ECE application forecasts annual costs of preventive and corrective maintenance for budgeting purposes. Features within the application enable the user to change the specifications of the model to customize your forecast to best fit their needs and support “what if” analysis. Based on the user's selections, the ECE model forecasts annual maintenance costs. Preventive maintenance costs include the cost of labor to perform preventive maintenance activities at the specific frequency and labor rate. Corrective maintenance costs include the cost of labor and the cost of replacement parts. The application presents forecasted maintenance costs for the next five years in two tables: costs by year and costs by site.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "C++, other"
+    ],
+    "name": "Equipment Cost Estimator",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

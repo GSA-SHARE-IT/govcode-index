@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-04",
+        "metadataLastUpdated": "2021-06-04"
+    },
+    "description": "The capacity for big data manipulation and analysis has greatly evolved in the modern digital world due to varying sources such as social networks, medical scans, surveillance and monitoring systems, etc. Data mining and deep learning techniques are currently being utilized to understand the latent representation of the data using unsupervised approaches and also are known for their fast processing time. Even though these frameworks exhibit superior performance in supervised learning applications, however they are restricted in their algorithmic complexity  and prove ineffective in computing the optimal latent representations for unsupervised applications. Non-Negative Matrix Factorization (NMF) techniques have proven effective in finding the most complex latent representations applied to a wide field of applications involving dimension reduction techniques applied to the  fields of topic modeling, text mining, background separation in image/video datasets, anomaly detections and cancer detection. However NMF needs apriori information about the latent dimensionality. PyDnNMFk has NMF coupled with custom clustering that enables  the recognition of the unknown latent dimensionality of the data along with the ability for an accurate reconstruction of the Factors. As the data size grows, the bottleneck due to the hardware computing/memory abilities grows too. Even though shared-memory based multiprocessing NMF frameworks perform faster compared to single core implementations, still the latency gives rise to the long wait times which might be an issue for time constraint applications. This raises the need for an optimal high performance implementation of NMF where the distributed memory and inter-process communication across massively parallel cores across multiple nodes tends to address the challenge. Hence we also provide Distributed implementation of NMFk, which can effectively factorize with identifying the latent dimensionality on exa-scale data. The implementations include a shared-memory multiprocessing based k estimation( pynNMFk), distributed memory inter-processor implementation(pyDnNMFk) and GPU factorization based implementation(pyGnNMFk) . The factor updates are based on Forbenius norm/KL divergence minimization criteria. ",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pyDnMFk (Python Distributed Non Negative Matrix Factorization with determination of hidden features)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/pyDNMFk",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

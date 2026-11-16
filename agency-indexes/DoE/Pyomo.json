@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "wehart@sandia.gov"
+    },
+    "date": {
+        "created": "2018-02-08",
+        "metadataLastUpdated": "2020-09-01"
+    },
+    "description": "The main repository for the Pyomo optimization modeling software.",
+    "laborHours": 314837.6,
+    "languages": [],
+    "name": "Pyomo",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Pyomo/pyomo",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

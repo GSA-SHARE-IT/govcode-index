@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-19"
+    },
+    "description": "This software package implements the thick-restart Lanczos method. It can be used on either a single address space machine or distributed parallel machine. The user can choose to implement or use a matrix-vector multiplication routine in any form convenient. Most of the arithmetic computations in the software are done through calls to BLAS and LAPACK. The software is written in Fortran 90. Because Fortran 90 offers many utility functions such functions such as dynamic memory management, timing functions, random number generator and so on, the program is easily portable to different machines without modifying the source code. It can also be easily accessed from other language such as C or C-+. Since the software is highly modularized, it is relatively easy to adopt it for different type of situations. For example if the eigenvalue problem may have some symmetry and only a portion of the physical domain is discretized, then the dot-product routine needs to be modified. In this software, this modification is limited to one subroutine. It also can be instructed to write checkpoint files so that it can be restarted at a later time.",
+    "homepageURL": "https://sdm.lbl.gov/~kewu/trlan.html",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran 90"
+    ],
+    "name": "Thick-Restart Laczos Method for Symmetric Eigenvalue Problems",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://sdm.lbl.gov/~kewu/trlan-license.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sdm.lbl.gov/~kewu/trlan.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

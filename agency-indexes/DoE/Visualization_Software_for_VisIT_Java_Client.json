@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The VisIT Java Client (JVC) library is a lightweight thin client that is designed and written purely in the native language of Java (the Python & JavaScript versions of the library use the same concept) and communicates with any new unmodified standalone version of VisIT, a high performance computing parallel visualization toolkit, over traditional or web sockets and dynamically determines capabilities of the running VisIT instance whether local or remote.",
+    "laborHours": 1383.2,
+    "name": "Visualization Software for VisIT Java Client",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/visit-vis/visit_java_client/blob/master/gov.lbnl.visit.swt/License.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/visit-vis/visit_java_client",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

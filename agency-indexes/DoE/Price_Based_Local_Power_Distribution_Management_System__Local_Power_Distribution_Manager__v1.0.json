@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "A trans-active energy micro-grid controller is implemented in the VOLTTRON distributed control platform. The system uses the price of electricity as the mechanism for conducting transactions that are used to manage energy use and to balance supply and demand. In order to allow testing and analysis of the control system, the implementation is designed to run completely as a software simulation, while allowing the inclusion of selected hardware that physically manages power. Equipment to be integrated with the micro-grid controller must have an IP (Internet Protocol)-based network connection and a software \"driver\" must exist to translate data communications between the device and the controller.",
+    "laborHours": 0.0,
+    "languages": [
+        "NA"
+    ],
+    "name": "Price Based Local Power Distribution Management System (Local Power Distribution Manager) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/LBNL-ETA/LPDM/blob/CBERD/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/LPDM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-04-29",
+        "metadataLastUpdated": "2019-04-30"
+    },
+    "description": "Mass spectrometry (MS) is an analytical technique that enables all chemical species within a complex mixture to be resolved and identified based on their mass:charge ratio. MS is an increasingly important tool in life science research and development because it can resolve or separate small molecules, peptides, lipids, proteins, biopolymers and fragments of all of these structures. Unfortunately, the use of MS has been limited for lack of software tools to visualize, manipulate, store and transfer MS data. Ben Bowen, Oliver Ruebel and colleagues made a huge advance on the resolution of these limitations with the invention of \"OpenMSI\" (#2013-004), a computational method that makes the handling of these very large files (up to 50 Tb) much easier, especially for scientists with limited background in bioinformatics or sophisticated software applications of the type needed to handle such data files. \n\nWith the OpenMSI Arrayed Analysis Tool (OMAAT, #2016-188) invention, the authors take MS data analysis one step further by providing tolls for automatic sample position optimization and ion selection. Even though sample deposition technologies have improved greatly, there is always the chance of encountering outliers in a predefined roster, especially in very large sample sets. Manual curation of the data would be extremely time consuming, so the inventors have included an algorithm that automatically finds the outliers. OMAAT is written in Python with accompanying Jupyter (formerly iPython) notebook and is fully integrated with OpenMSI.",
+    "laborHours": 623.2,
+    "languages": [],
+    "name": "OpenMSI Arrayed Analysis Tools (OMAAT) v2.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/biorack/omaat/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/biorack/omaat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "2.0"
+}

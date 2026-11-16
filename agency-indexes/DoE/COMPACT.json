@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2019-01-23",
+        "metadataLastUpdated": "2023-03-07"
+    },
+    "description": "The code extrapolates the nearest neighbor particle spacing and sizing from collected X-ray images. The profiles are directly interpretable for non-destructive imaging of large imaging datasets that span the micron to millimeter size scale.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "COMPACT",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.osti.gov/osti-public/idaholabresearch-compact",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ]
+}

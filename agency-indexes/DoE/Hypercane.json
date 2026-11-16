@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-11-17",
+        "metadataLastUpdated": "2023-11-21"
+    },
+    "description": "Automatically summarizing a collection of documents requires analyzing their features using various operations. Hypercane is a framework for building algorithms for sampling files from a collection. Sampling is a vital part of automatic summarization. Hypercane ties together many existing third-party libraries. These libraries include those for processing web resources, natural language processing for analyzing text and filtering documents, and machine learning for clustering summarization candidates. A user can run up to more than 70 operations on a corpus in the order of their choosing. Through these operations, they can create custom automatic summarization algorithms to help them process the corpus of their choice. Details of the algorithms possible with Hypercane are available in Jones 2021. Details of running Hypercane are available in Jones et al.; 2021.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Hypercane",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/hypercane",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

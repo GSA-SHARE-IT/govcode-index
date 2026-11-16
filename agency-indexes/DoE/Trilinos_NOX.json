@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-12",
+        "metadataLastUpdated": "2018-07-12"
+    },
+    "description": "NOX is the Nonlinear Object-Oriented Solutions package of Trilinos, which enables the robust and efficient solution of the nonlinear equations of the form F(x) = 0. To access the NOX package, please refer to the packages directory within the main Trilinos GitHub repository. \n",
+    "laborHours": 8344830.4,
+    "languages": [],
+    "name": "Trilinos/NOX",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/trilinos/Trilinos/blob/master/packages/nox/Copyright_NOX.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

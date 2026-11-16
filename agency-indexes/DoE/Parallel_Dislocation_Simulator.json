@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-08-23",
+        "metadataLastUpdated": "2023-08-23"
+    },
+    "description": "ParaDiS, or Parallel Dislocation Simulator, is a simulation tool that performs direct numerical simulation of\ndislocation ensembles, the carriers of plasticity, to predict the strength in crystalline materials from the\nfundamental physics of defect motion, evolution, and interaction.\nThe code has been successfully deployed on high performance computing architectures and used to\nstudy the origins of strength and strain hardening for cubic crystals, the strength of micro-pillars, and\nirradiated materials at LLNL. The ParaDiS code has been successfully deployed on more than one\nhundred thousand CPU's with over ten million active degrees of freedom.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Parallel Dislocation Simulator",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ParaDiS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "4.0"
+}

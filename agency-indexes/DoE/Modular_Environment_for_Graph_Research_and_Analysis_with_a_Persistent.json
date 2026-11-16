@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-08-06"
+    },
+    "description": "The MEGRAPHS software package provides a front-end to graphs and vectors residing on special-purpose computing resources. It allows these data objects to be instantiated, destroyed, and manipulated. A variety of primitives needed for typical graph analyses are provided. An example program illustrating how MEGRAPHS can be used to implement a PageRank computation is included in the distribution.The MEGRAPHS software package is targeted towards developers of graph algorithms. Programmers using MEGRAPHS would write graph analysis programs in terms of high-level graph and vector operations. These computations are transparently executed on the Cray XMT compute nodes.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Modular Environment for Graph Research and Analysis with a Persistent",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/megraphs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

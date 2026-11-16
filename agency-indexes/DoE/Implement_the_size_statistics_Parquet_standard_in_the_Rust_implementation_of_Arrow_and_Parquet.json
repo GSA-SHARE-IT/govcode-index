@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-03-11",
+        "metadataLastUpdated": "2024-03-11"
+    },
+    "description": "This patch will implement the new size statistics standard in the Rust implementation of Apache Arrow\nand Parquet (https://github.com/apache/arrow-rs/). This allows an uncompressed and unencoded size to\nbe known prior to uncompressing and unencoding data stored in parquet files.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Implement the size statistics Parquet standard in the Rust implementation of Arrow and Parquet.",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/apache/arrow-rs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

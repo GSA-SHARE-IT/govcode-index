@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-08-02",
+        "metadataLastUpdated": "2023-08-02"
+    },
+    "description": "smol is a Python implementation of the Cluster Expansion Method and extensions of this methodology; which is used to fit applied lattice models from first principle calculations for subsequent use in Monte Carlo simulations for computing thermodynamic and statistical properties of atomic configuration. smol has a several notable advantages over other similar software packages. The first being its Python implementation which makes it easy to use even for users with little software and coding skills. Despite being implemented in Python, essential Monte Carlo routines are implemented in Cython such that performance is not compromised and is competitive even to similar software implemented in C/C++. Furthermore, the package has specific functionality for handling complex ionic materials (such as cathodes and electrolytes) that is not readily available in other packages. Lastly, the software has a flexible and modular design with the intention of making it fast and efficient to develop and extend the methodology.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Statistical Mechanics on Lattices (smol) v0.0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CederGroupHub/smol",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

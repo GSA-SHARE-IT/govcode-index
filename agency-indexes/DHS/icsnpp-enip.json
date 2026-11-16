@@ -1,0 +1,40 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2021-01-19",
+        "lastModified": "2026-10-17"
+    },
+    "description": "Zeek Ethernet/IP and CIP Parser - CISA ICSNPP",
+    "downloadURL": "https://api.github.com/repos/cisagov/icsnpp-enip/downloads",
+    "homepageURL": "https://github.com/cisagov/icsnpp-enip",
+    "laborHours": 1124.3,
+    "languages": [
+        "Zeek",
+        "JavaScript",
+        "C++",
+        "Shell",
+        "Standard ML",
+        "Makefile",
+        "CMake"
+    ],
+    "name": "icsnpp-enip",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/icsnpp-enip.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Route Sanitizer is ORNL's connected vehicle moving object database de-identification tool and a graphical user interface to ORNL's connected vehicle de-identification algorithm. It uses the Google Chrome (soon to be Electron) platform so it will run on different computing platforms. The basic de-identification strategy is record redaction: portions of a vehicle trajectory (e.g. sequences of precise temporal spatial records) are removed. It does not alter retained records. The algorithm uses custom techniques to find areas within trajectories that may be considered private, then it suppresses those in addition to enough of the trajectory surrounding those locations to protect against \"inference attacks\" in a mathematically sound way. Map data is integrated into the process to make this possible.",
+    "laborHours": 0.0,
+    "name": "Route Sanitizer: Connected Vehicle Trajectory De-Identification Tool",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jmcarter9t/route-sanitizer",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

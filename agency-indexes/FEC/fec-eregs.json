@@ -1,0 +1,58 @@
+{
+    "organization": "Federal Election Commission",
+    "contact": {
+        "URL": "https://github.com/fecgov/fec/issues",
+        "email": "opensource@fec.gov"
+    },
+    "date": {
+        "created": "2015-12-10",
+        "lastModified": "2020-09-29",
+        "metadataLastUpdated": "2020-10-06"
+    },
+    "description": "The Federal Election Commission's web-based application that makes regulations easier to find, read and understand.",
+    "downloadURL": "https://api.github.com/repos/fecgov/fec-eregs/downloads",
+    "homepageURL": "https://www.fec.gov/regulations",
+    "laborHours": 8406.6,
+    "languages": [
+        "SCSS",
+        "Python",
+        "HTML",
+        "Handlebars",
+        "JavaScript"
+    ],
+    "name": "fec-eregs",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/fecgov/fec-eregs/blob/master/LICENSE.md",
+                "name": "CC0"
+            }
+        ]
+    },
+    "repositoryURL": "https://github.com/fecgov/fec-eregs",
+    "relatedCode": [
+        {
+            "name": "regulations-core",
+            "URL": "https://github.com/eregs/regulations-core"
+        },
+        {
+            "name": "regulations-site",
+            "URL": "https://github.com/eregs/regulations-site"
+        },
+        {
+            "name": "regulations-parser",
+            "URL": "https://github.com/eregs/regulations-parser"
+        }
+    ],
+    "status": "Production",
+    "tags": [
+        "FEC",
+        "github",
+        "regulations",
+        "search",
+        "eRegs",
+        "CFR"
+    ],
+    "vcs": "git"
+}

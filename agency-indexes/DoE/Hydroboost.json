@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2025-03-05",
+        "metadataLastUpdated": "2025-03-05"
+    },
+    "description": "HydroBoost is the most realistic revenue optimization tool for the hybridization of hydropower and battery energy storage systems to date. The innovative representation of how operators actually schedule hydropower in practice results in more realistic predictions of revenue and operations. Unlike other optimization tools, HydroBoost generates forecast energy prices with uncertainty to use in the optimization. This allows HydroBoost to give users a range of potential revenue with an upper bound using the perfect foresight pricing and a lower bound using a naive persistence forecast model. Additional forecast can be generated and used in the optimization, such as additive models, random forest, and neural networks to give further insight into potential revenue. \n\nHydroBoost has been designed to be applicable for both run-of-river and reservoir storage sites. The primary focus is on the day-ahead market and requires year-long data with an hour time-step.  All time-series input and constraints are contained in an Excel worksheet for convince. The user will run the forecasting generation first with a Python script to give the optimization model the necessary requirements. Next the optimization is ran using Julia and results are generated and stored into a directory as csv files.\n\nHydroBoost includes an additional module to generate figures based on the results of the optimization simulation. The results help analyze the results and users to draw insights into how the hydro and battery systems are operated and the revenue each is producing. Additionally, the difference between the perfect foresight model and models that include forecast can easily be inspected.",
+    "laborHours": 1322.4,
+    "languages": [
+        "Julia",
+        "Python"
+    ],
+    "name": "Hydroboost",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/HydroBoost",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

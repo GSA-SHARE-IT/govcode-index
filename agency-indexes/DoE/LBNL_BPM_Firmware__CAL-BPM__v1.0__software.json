@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-09-03",
+        "metadataLastUpdated": "2021-09-08"
+    },
+    "description": "CAL-BPM is the firmware code base of the Advanced Light Source (ALS) Beam Position Monitor (BPM) Field Programmable Gate Array (FPGA) based electronics.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LBNL BPM Firmware (CAL-BPM) v1.0: software",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BerkeleyLab/CAL-BPM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

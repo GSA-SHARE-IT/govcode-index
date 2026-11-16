@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-09-24",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This software reads PMU (phasor measurement unit) data and creates features from the data that are used in analyses. It\nthen takes the past features from previous days of data and builds a baseline to understand the typical behavior of the\npower grid. This baseline is used by employing multivariate statistical algorithms like PCA (Principal Component Analysis),\nclustering (unsupervised learning), and classification (supervised learning). This baseline is then applied to new data to\ndetermine the state of the power grid, whether the behavior is typical or atypical, compared to what has been seen\npreviously. At the end of the day, the baseline is updated and the new baseline is used on the next day. When a time period\nis determined to be atypical, then drill down analyses are performed to help the user understand why the time period is\natypical. Plots and tables are used to show atypicality, including a performance envelope plot. This plot shows the typical\nbehavior of the variable or feature of interest, by plotting in the background the values of the variable from past days using\ncontour shading over time and then the new data over time. This allows the user to see how the new data differs from past\ndata at the same time.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov/default.aspx",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ESAMS Anomaly Detection Tool",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov/default.aspx",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov/default.aspx",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

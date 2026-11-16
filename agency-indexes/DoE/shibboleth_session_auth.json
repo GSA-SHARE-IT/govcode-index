@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-06-20",
+        "metadataLastUpdated": "2019-06-20"
+    },
+    "description": "Simplistic Shibboleth integration for Django sessions. This is a very simple way of allowing users to be authenticated via Shibboleth but to be a part of Django groups and users. This is accomplished by using Apache mod_shib to protect the provided view. If the user is able to authenticate then we extract certain details from the data provided by Shibboleth. The view will create Django Users and Groups as necessary.",
+    "laborHours": 288.8,
+    "languages": [],
+    "name": "shibboleth_session_auth",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/esnet/shibboleth_session_auth/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/esnet/shibboleth_session_auth",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

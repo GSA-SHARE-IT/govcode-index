@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2025-02-24",
+        "metadataLastUpdated": "2025-03-11"
+    },
+    "description": "GeoGridFusion facilitates the usage and storage of gridded geospatial satellite data by users outside of the National Renewable Lab (NREL), particularly those without access to high-performance computing (HPC) resources. This tool builds on work done by the PVDegradationTools project for DuraMAT, with the goal of making our advancements from this project widely accessible.\n\nThis repo contains utilities to allow for the storage of user downloaded geospatial weather data by providing a local datastore for storage and spatial queries, supporting large-scale analyses without the need for HPC resources.",
+    "laborHours": 9393.6,
+    "languages": [
+        "Python",
+        "Jupyter Notebook"
+    ],
+    "name": "GeoGridFusion (Open-Source Geospatial Toolkit for Solar Data Integration​) [SWR-25-19]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/GeoGridFusion",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-05-10",
+        "metadataLastUpdated": "2020-05-27"
+    },
+    "description": "STAT is a light weight debugging tool that gathers and merges stack traces from all of the processes in a parallel application. STAT uses the MRNet tree based overlay network to broadcast commands from the tool front-end to the STAT daemons and for the front-end to gather the traces from the STAT daemons. As the traces propagate through the MRNet network tree, they are merged across all tasks to fonn a single call prefix tree. The call prefix tree can be examined to identify tuks with similar function call patterns and to delineate a small set of equivalence classes. A representative task from each of these classes can then be fed into a full feature debugger like TotalView for root cause analysis. ",
+    "laborHours": 27755.2,
+    "languages": [],
+    "name": "Stack Trace Analysis Tool (STAT)",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/STAT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

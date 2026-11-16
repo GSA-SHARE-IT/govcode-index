@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-08-19",
+        "metadataLastUpdated": "2021-08-19"
+    },
+    "description": "AutoPerf is a collection of modules for low-overhead performance monitoring on HPC systems, the modules collect monitoring data such as MPI data, network counter data etc. Autoperf modules interoperate with the Open source Darshan software (xgitlab.cels.anl.gov/darshan/) as submodules and leverages the Darshan's log recording and analysis framework.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "AUTOPERF",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/argonne-lcf/autoperf",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

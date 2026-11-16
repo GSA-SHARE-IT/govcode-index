@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2021-03-02",
+        "metadataLastUpdated": "2021-03-22"
+    },
+    "description": "Energy Intensity Indicators provides a framework to quantify how energy efficiency may or may not be affecting energy use relative to other economic trends.\n\nThe model enables the decomposition of energy use for economic sectors through the use of a Log Mean Divisia Index (LMDI) model. The LMDI methodology decomposes energy use into three main categories: activity, structure and intensity (i.e. energy efficiency). A user can thus explain changes to overall energy use in a sector through changes to sector output (activity), structural shifts within sectors (e.g. across transportation modes), and efficiency of energy use in that sector.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "Python"
+    ],
+    "name": "OSEII (Open-Source Energy Intensity Indicators)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/EnergyIntensityIndicators",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

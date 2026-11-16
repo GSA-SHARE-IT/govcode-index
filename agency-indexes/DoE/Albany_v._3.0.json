@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-16"
+    },
+    "description": "The Albany code is a general-purpose finite element code for solving partial differential equations (PDEs). Albany is a research code that demonstrates how a PDE code can be built by interfacing many of the open-source software libraries that are released under Sandia's Trilinos project. Part of the mission of Albany is to be a testbed for new Trilinos libraries, to refine their methods, usability, and interfaces. Albany includes hooks to optimization and uncertainty quantification algorithms, including those in Trilinos as well as those in the Dakota toolkit. Because of this, Albany is a desirable starting point for new code development efforts that wish to make heavy use of Trilinos. Albany is both a framework and the host for specific finite element applications. These applications have project names, and can be controlled by configuration option when the code is compiled, but are all developed and released as part of the single Albany code base, These include LCM, QCAD, FELIX, Aeras, and ATO applications.",
+    "laborHours": 195228.8,
+    "languages": [
+        "Shell",
+        "C",
+        "CMake",
+        "MATLAB",
+        "Python",
+        "GLSL"
+    ],
+    "name": "Albany v. 3.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/Albany",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "3.0"
+}

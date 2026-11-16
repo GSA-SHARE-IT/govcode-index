@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Utility to show the shared folders on the local computer, or on a remote computer",
+    "laborHours": 212.8,
+    "languages": [],
+    "name": "ListWindowsShares",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/List-Windows-Shares",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

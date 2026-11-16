@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-01-07",
+        "metadataLastUpdated": "2022-01-07"
+    },
+    "description": "XPlacer/Tracer is a dynamic analysis tool that finds bad memory access patterns in heterogeneous codes. XPlacer/Tracer consists of two components. (1) A configurable ROSE plugin for source code instrumentation of heterogeneous code written in the C/C++ and CUDA programming languages. (2) A sample configuration that instruments memory accesses to dynamic memory in CPU and GPU codes, and a runtime library that tracks these memory accesses at runtime. The collected information is reported in form of a textual summary or as memory map that can be converted to images.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "XPlacer/Tracer",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/XPL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.5"
+}

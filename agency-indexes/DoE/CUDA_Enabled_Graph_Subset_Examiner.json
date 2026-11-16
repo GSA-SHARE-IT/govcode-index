@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Finding Godsil-McKay switching sets in graphs is one way to demonstrate that a specific graph is not determined by its spectrum--the eigenvalues of its adjacency matrix. An important area of active research in pure mathematics is determining which graphs are determined by their spectra, i.e. when the spectrum of the adjacency matrix uniquely determines the underlying graph. We are interested in exploring the spectra of graphs in the Johnson scheme and specifically seek to determine which of these graphs are determined by their spectra. Given a graph G, a Godsil-McKay switching set is an induced subgraph H on 2k vertices with the following properties: I) H is regular, ii) every vertex in G/H is adjacent to either 0, k, or 2k vertices of H, and iii) at least one vertex in G/H is adjacent to k vertices in H. The software package examines each subset of a user specified size to determine whether or not it satisfies those 3 conditions. The software makes use of the massive parallel processing power of CUDA enabled GPUs. It also exploits the vertex transitivity of graphs in the Johnson scheme by reasoning that if G has a Godsil-McKay switching set, then it has a switching set which includes vertex 1. While the code (in its current state) is tuned to this specific problem, the method of examining each induced subgraph of G can be easily re-written to check for any user specified conditions on the subgraphs and can therefore be used much more broadly.",
+    "laborHours": 106.4,
+    "name": "CUDA Enabled Graph Subset Examiner",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/jtjohnston/computational_combinatorics/blob/master/GM-switching/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jtjohnston/computational_combinatorics",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

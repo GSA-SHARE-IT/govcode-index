@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2023-08-14",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Simulation tool for electrical grid security. It is possible to select from pre-loaded power system topologies, enable different grid controls\n(like AGC, power system stabilizer), add faults, tweak different parameters, add pre-modeled attack scenarios, and run\nbatch simulations to generate data needed for research.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GridSTAGE (aka PowerDrone)",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/GridSTAGE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

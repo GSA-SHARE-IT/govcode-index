@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-11-15",
+        "metadataLastUpdated": "2024-11-15"
+    },
+    "description": "SOURCES is a code for computing neutron source rates and spectra from spontaneous fission (including delayed neutrons) and (alpha,n) reactions in homogeneous materials and (alpha,n) reactions in single-interface and two-interface geometries. SOURCES is a Los Alamos National Laboratory (LANL) code that is written in FORTRAN and distributed through the Radiation Safety Information Computation Center (RSICC). LANL’s last release of SOURCES to RSICC was SOURCES4C in 2002. This disclosure covers the latest version of SOURCES, SOURCES4D. This version adds sensitivity capabilities for (alpha,n) sources in homogeneous materials. Specifically, SOURCES4D writes new output that can be used to calculate, in post-processing, first and second derivatives of the (alpha,n) source rate density and spectrum with respect to nuclide densities in a homogeneous material and first derivatives of the (alpha,n) source rate density and spectrum with respect to nuclide stopping powers and (alpha,n) cross sections (nuclear data). These derivatives are useful for uncertainty quantification, predictive modeling, and other applications in neutron transport problems.",
+    "laborHours": 2310.4,
+    "languages": [],
+    "name": "SOURCES4D",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/agpl-3.0",
+                "name": "AGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/SOURCES4D",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,41 @@
+{
+    "contact": {
+        "URL": "https://github.com/CDCgov",
+        "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+        "created": "2020-09-17",
+        "lastModified": "2021-05-10"
+    },
+    "description": "Privacy review and statistical disclosure control methods for covid public case data.",
+    "downloadURL": "https://api.github.com/repos/CDCgov/covid_case_privacy_review/downloads",
+    "homepageURL": "https://github.com/CDCgov/covid_case_privacy_review",
+    "laborHours": 0,
+    "languages": [
+        "R"
+    ],
+    "name": "covid_case_privacy_review",
+    "organization": "Centers for Disease Control and Prevention",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "git://github.com/CDCgov/covid_case_privacy_review.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "covid-19",
+        "covid",
+        "r",
+        "privacy",
+        "sdc",
+        "srrg",
+        "coronavirus"
+    ],
+    "vcs": "git"
+}

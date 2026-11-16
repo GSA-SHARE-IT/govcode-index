@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-10-29",
+        "metadataLastUpdated": "2021-10-29"
+    },
+    "description": "The Flux Wrapper Scripts translate the commands used by other HPC resource / workload management tools to Flux commands in order to provide a bridge for HPC users between other HPC resource / workload management tools and the Flux resource manager.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Flux wrapper scripts",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/flux-wrappers",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

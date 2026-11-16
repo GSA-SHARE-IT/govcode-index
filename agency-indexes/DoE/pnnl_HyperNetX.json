@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-01-03",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "HyperNetX is a Python library of classes, algorithms, and generators for working with multi-way and nested relational data. Given a network of nodes and relationships, the base class HyperNetX.Entity is used to instantiate individual data elements along with their relationships to other elements of the network. By exploiting Python's dictionary data structure we capture both multi-way and nested data structures with constant time lookup. The base class HyperNetX.Hypergraph instantiates a network of this data into a hypergraph structure. Many of the common metrics and features of graphs, such as diameter, connectedness, and clustering coefficient, have analogous definitions with respect to hypergraphs, which are computed using algorithms in the HyperNetX library.",
+    "laborHours": 14789.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "pnnl/HyperNetX",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/HyperNetX",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

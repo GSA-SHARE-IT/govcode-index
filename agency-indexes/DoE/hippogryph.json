@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "degrawjw@ornl.gov"
+    },
+    "date": {
+        "created": "2024-05-06",
+        "metadataLastUpdated": "2024-10-01"
+    },
+    "description": "hippogryph is a Python package for the generation of multiblock structured grids with the grid locations determined by a mapping. A structured grid is a grid for which there is a relationship between the physical space coordinates x, y, and z and three indices i, j, and k and a multiblock grid is constructed from a set of subgrids (\"blocks\"). A \"mapped\" grid is a grid for which there is a transformation f such that the nodal locations are determined by applying this mapping to the indices: (x, y, z) = f(i, j, k). While it is possible to represent most structured grids in this form, the focus here is on mappings that are known beforehand and not computed using the numerical calculations that are commonly used within the field of numerical grid generation. The grid is first constructed in index space using primitive shapes, and then the physical space grid is constructed from the mapping, usually a tensor-product type mapping where x=f(i), y=f(j), and z=f(k), though more mappings may be added in the future. hippogryph can read and write grids in the structured Plot3D format as well as the unstructured Exodus II format.",
+    "laborHours": 5274.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "hippogryph",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jasondegraw/hippogryph",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

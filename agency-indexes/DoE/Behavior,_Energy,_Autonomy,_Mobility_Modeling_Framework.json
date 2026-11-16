@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-10-23",
+        "metadataLastUpdated": "2019-10-23"
+    },
+    "description": "The Behavior, Energy, Autonomy, and Mobility (BEAM) model is an integrated, agent-based travel demand simulation framework. Individual agents express preferences through a utility-maximizing evolutionary algorithm that minimizes each individual's cost and time spent traveling via diverse modal options, including the competition for scarce supply resources such as parking spaces and charging infrastructure. BEAM simulates the essential elements that compose a dynamic transportation system. From the road network, parking and charging infrastructure, to the transit system and a synthetic population with plans and preferences, the virtual system is an amalgamation of multiple spatially resolved layers that together represent an integrated transportation system. BEAM is an extension to the MATSim (Multi-Agent Transportation Simulation) model, where agents employ reinforcement learning across successive simulated days to maximize their personal utility through plan mutation (exploration) and selecting between previously executed plans (exploitation). The BEAM model shifts some of the behavioral emphasis in MATSim from across-day planning to within-day planning, where agents dynamically respond to the state of the system during the mobility simulation. In BEAM, agents can plan across all major modes of travel including driving, walking, biking, transit, and demand-responsive ride hailing.",
+    "laborHours": 58200.8,
+    "languages": [],
+    "name": "Behavior, Energy, Autonomy, Mobility Modeling Framework",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-UCB-STI/beam",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

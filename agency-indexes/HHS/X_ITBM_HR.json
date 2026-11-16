@@ -1,0 +1,40 @@
+{
+    "name": "X_ITBM_HR",
+    "description": "Configuration of the ServiceNow IT Business Management applications for Human Resources projects.",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/unlicense",
+                "name": "The Unlicense"
+            }
+        ]
+    },
+    "organization": "Department of Health and Human Services",
+    "homepageURL": "https://github.com/HHS/X_ITBM_HR",
+    "downloadURL": "https://api.github.com/repos/HHS/X_ITBM_HR/downloads",
+    "repositoryURL": "https://github.com/HHS/X_ITBM_HR.git",
+    "vcs": "git",
+    "laborHours": 0.0,
+    "languages": [],
+    "date": {
+        "created": "2018-07-27",
+        "lastModified": "2018-09-13",
+        "metadataLastUpdated": "2022-03-22"
+    },
+    "tags": [
+        "Configuration",
+        "ServiceNow",
+        "Business",
+        "Management",
+        "applications",
+        "Human",
+        "Resources",
+        "projects"
+    ],
+    "contact": {
+        "email": "HHS_GitHub_Service_Desk@hhs.gov",
+        "name": "U.S. Department of Health & Human Services"
+    }
+}

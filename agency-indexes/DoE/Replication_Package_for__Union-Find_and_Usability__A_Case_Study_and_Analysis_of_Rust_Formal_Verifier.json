@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-10-03",
+        "metadataLastUpdated": "2024-10-03"
+    },
+    "description": "This replication package is a case study on automated deductive verification for Rust for practical\nprograms. It is a companion artifact to a corresponding usability study on verification titled \"Union-Find\nand Usability: A Case Study and Analysis of Rust Formal Verifiers\". It seeks to answer the question \"Can\nRust developers today use Rust verifiers to verify their code?\". To answer this question, the study\ncontrasts the verification experience of two mature Rust verifiers, Creusot and Prusti, by using the tools to\ndevelop a verified implementation of union-find in Rust. The union-find implementation is based on real-world code as used in the popular egg E-graph library. The artifact consists of two different verified\nlibraries, one using Creusot and one using Prusti. The libraries have similar Rust interfaces and high-level\nproofs but differ in their details: Creusot and Prusti have different annotation languages and support\ndifferent proof styles. Each implementation can be verified with its respective tool and compiles as a\ntraditional Rust development.",
+    "homepageURL": "https://zenodo.org/records/13887654",
+    "laborHours": 456.0,
+    "languages": [],
+    "name": "Replication Package for \"Union-Find and Usability: A Case Study and Analysis of Rust Formal Verifier",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://zenodo.org/records/13887654",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "version": "1.0"
+}

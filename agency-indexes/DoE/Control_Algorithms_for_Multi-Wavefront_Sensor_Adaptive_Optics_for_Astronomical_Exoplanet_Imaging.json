@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-10-16",
+        "metadataLastUpdated": "2024-10-16"
+    },
+    "description": "This package consists of simulations of control algorithms being proposed for upcoming adaptive optics\nprojects for exoplanet direct imaging, in which one wavefront affector (deformable mirror) is controlled by\ntwo wavefront sensors. Simulations include time-domain behavior under various assumed conditions,\nparameter optimization routines for the controllers, and stability analysis.",
+    "laborHours": 2295.2,
+    "languages": [],
+    "name": "Control Algorithms for Multi-Wavefront Sensor Adaptive Optics for Astronomical Exoplanet Imaging",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/multiwfs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "vowelll@osti.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "WARP, which can stand for ``Weaving All the Random Particles,'' is a three-dimensional (3D) continuous energy Monte Carlo neutron transport code developed at UC Berkeley to efficiently execute on NVIDIA graphics processing unit (GPU) platforms. WARP accelerates Monte Carlo simulations while preserving the benefits of using the Monte Carlo method, namely, that very few physical and geometrical simplifications are applied. WARP is able to calculate multiplication factors, neutron flux distributions (in both space and energy), and fission source distributions for time-independent neutron transport problems. It can run in both criticality or fixed source modes, but fixed source mode is currently not robust, optimized, or maintained in the newest version. WARP can transport neutrons in unrestricted arrangements of parallelepipeds, hexagonal prisms, cylinders, and spheres. The goal of developing WARP is to investigate algorithms that can grow into a full-featured, continuous energy, Monte Carlo neutron transport code that is accelerated by running on GPUs. The crux of the effort is to make Monte Carlo calculations faster while producing accurate results. Modern supercomputers are commonly being built with GPU coprocessor cards in their nodes to increase their computational efficiency and performance. GPUs execute efficiently on data-parallel problems, but most CPU codes, including those for Monte Carlo neutral particle transport, are predominantly task-parallel. WARP uses a data-parallel neutron transport algorithm to take advantage of the computing power GPUs offer.",
+    "laborHours": 7083.2,
+    "name": "WARP",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sellitforcache/warp/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sellitforcache/warp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

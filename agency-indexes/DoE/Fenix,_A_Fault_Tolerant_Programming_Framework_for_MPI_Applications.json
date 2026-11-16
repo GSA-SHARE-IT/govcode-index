@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "Fenix provides APIs to allow the users to add fault tolerance capability to MPI-based parallel programs in a transparent manner. Fenix-enabled programs can run through process failures during program execution using a pool of spare processes accommodated by Fenix.",
+    "laborHours": 3070.4,
+    "languages": [
+        "CMake",
+        "C"
+    ],
+    "name": "Fenix, A Fault Tolerant Programming Framework for MPI Applications",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/epizon-project/Fenix",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

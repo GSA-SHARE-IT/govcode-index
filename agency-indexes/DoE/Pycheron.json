@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2019-12-19",
+        "metadataLastUpdated": "2024-08-07"
+    },
+    "description": "A clear way to increase current capabilities for seismic nuclear explosion monitoring is to supplement the global International Monitoring System (IMS) network with openly available stations. The quality of openly available data is typically much lower than that of the IMS, given the wide variety of experimental goals and deployment conditions. Incorporating additional stations without properly identifying and mitigating data quality problems can actually degrade overall monitoring capabilities. Towards that objective, Pycheron, a python-based library for seismic data quality control (QC) was developed. Pycheron began as a translation of the Incorporated Research Institutions for Seismology (IRIS) Modular Utility for STAtistical kNowledge Gathering (MUSTANG) package (written in R) into Python, but has grown into a stand-alone package that includes significant additional functionality. Pycheron is intended to be implemented at the beginning of the data processing pipeline. The objectives of the library are to: automatically assess data quality and instrumentation health; maintain the highest quality of data possible; identify specific and key problems; alert downstream processing algorithms to any degradation in quality; improve our ability to process orders of magnitudes more data; and, serve as a basic service that all data processing within our program builds upon. Pycheron calculates metrics characterizing quality over time as well as creating QC masks to identify each interval with a QC problem. SAND2019-11607 M\n\nSandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy's National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 34124.0,
+    "languages": [
+        "Python",
+        "CSS",
+        "Fortran"
+    ],
+    "name": "Pycheron",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/pycheron",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

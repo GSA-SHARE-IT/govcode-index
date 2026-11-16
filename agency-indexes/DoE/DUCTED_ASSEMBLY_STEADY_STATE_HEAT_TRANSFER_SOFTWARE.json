@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-08-23",
+        "metadataLastUpdated": "2021-08-23"
+    },
+    "description": "The Ducted Assembly Steady State Heat transfer software (DASSH) performs full core, steady state, subchannel temperature calculations for hexagonal, ducted assemblies. DASSH is targeted for use in the early stages of the reactor design process when assembly characteristics may not be defined or are undergoing considerable changes. DASSH provides a relatively rapid assessment of the temperature and flow distribution to inform reactor design updates and analysis.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "DUCTED ASSEMBLY STEADY STATE HEAT TRANSFER SOFTWARE",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dassh-dev/dassh",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-06-21",
+        "metadataLastUpdated": "2023-04-24"
+    },
+    "description": "ML4PD is a code base developed to use machine learning(ML)-based modular process units that can be combined to create whole process models. The package is developed within python and leverages tensorflow for the ML components.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "ML4PD (Machine Learning for High Throughput Process Design) [SWR-22-62]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/ml4pd",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

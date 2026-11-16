@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-28"
+    },
+    "description": "Drekar is an application code that solves partial differential equations for fluids that can be optionally coupled to electromagnetics. Drekar solves low-mach compressible and incompressible computational fluid dynamics (CFD), compressible and incompressible resistive magnetohydrodynamics (MHD), and multiple species plasmas interacting with electromagnetic fields. Drekar discretization technology includes continuous and discontinuous finite element formulations, stabilized finite element formulations, mixed integration finite element bases (nodal, edge, face, volume) and an initial arbitrary Lagrangian Eulerian (ALE) capability. Drekar contains the implementation of the discretized physics and leverages the open source Trilinos project for both parallel solver capabilities and general finite element discretization tools. The code will be released open source under a BSD license. The code is used for fundamental research for simulation of fluids and plasmas on high performance computing environments.",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Drekar v.2.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

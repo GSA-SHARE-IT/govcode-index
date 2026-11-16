@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-11-23",
+        "metadataLastUpdated": "2022-11-23"
+    },
+    "description": "The Neural Phase Simulation (NPS) is a package of codes for simulating microstructure evolution and accelerated molecular dynamics with deep neural-networks based surrogate models. NPS is designed to offer quantitatively accurate and computationally efficient simulation capabilities by leveraging modern machine-learning techniques. The primary intended use cases of NPS are training neural network surrogate models, though performing simulations on a single node is also supported. The NPS surrogate models can be trained from ground truth simulation methods, which are supposed to be accurate but expensive, such as molecular dynamics, phase field methods, kinetic Monte Carlo and discrete dislocation dynamics.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Neural Phase Simulation",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Critical-Materials-Institute/NPS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-09-28",
+        "metadataLastUpdated": "2021-09-30"
+    },
+    "description": "PIRT is a tomography inversion code that incorporates center of rotation correction written with the goal of being scalable on HPC systems. PIRT is built upon PETSc (which handles the optimization routines, data management and parallel I/O), Boost (which handles geometry routines) and FFTW (for position correction cost function evaluation).",
+    "homepageURL": "https://www.anl.gov/partnerships/licensable-software",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Parallel Iterative Reconstruction for Tomography",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.anl.gov/partnerships/licensable-software",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

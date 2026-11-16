@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2022-10-10",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "General Entity Model (GEM) is an extensible, upper-level ontology. An ontology is simply a collection of concepts and their relationships and properties and can be used as a schema or data model to describe some domain. As an upper-level ontology, GEM is intended to be used as a foundation for building domain-specific ontologies (such as energy, manufacturing, etc).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "General Entity Model",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/GEM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

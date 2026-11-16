@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "BuildingSync® is a common schema for energy audit data that can be utilized by different software and databases involved in the energy audit process. It allows data to be more easily aggregated, compared and exchanged between different databases and software tools. This streamlines the energy audit process, improving the value of the data and facilitating achievement of greater energy efficiency.",
+    "laborHours": 134793.6,
+    "languages": [],
+    "name": "BuildingSync",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/BuildingSync/schema/blob/develop/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BuildingSync/schema",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

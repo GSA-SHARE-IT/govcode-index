@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-04-26",
+        "metadataLastUpdated": "2024-04-26"
+    },
+    "description": "This software provides a data-driven approach for efficiently identifying high impedance faults (HIFs) in distribution systems. To tackle the nonlinearity of the voltage current trajectory of HIFs, we first formulate linear least squares problems to approximate the trajectory with piecewise functions. Then we collect the function features of all segments as inputs and use the support vector machine approach to efficiently identify HIFs at different locations.",
+    "laborHours": 60.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "A Data-Driven Approach for High-Impedance Fault Localization in Distribution Systems [SWR-24-13]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/openEDI/oedisi-hif-identification",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

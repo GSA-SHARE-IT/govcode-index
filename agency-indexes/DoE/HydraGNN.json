@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "lupopasinim@ornl.gov"
+    },
+    "date": {
+        "created": "2021-10-19",
+        "metadataLastUpdated": "2021-10-19"
+    },
+    "description": "Distributed PyTorch implementation of multi-headed graph convolutional neural networks",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "HydraGNN",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/HydraGNN",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-01-26",
+        "metadataLastUpdated": "2018-01-26"
+    },
+    "description": "We developed a grid reference system-based Unique Building Identifier (UBID). The method converts a building footprint on a map to a unique code. Unlike geographic coordinates (latitude and longitude), which require high precision and can only locate points on the earth, the UBID code records two-dimensional information about a building footprint in a concise and practical manner. The UBID itself is neither a database nor a data schema. Rather, it acts as an external common key between databases to facilitate data mapping. The developed ruleset ensures that individual implementers can reach the same conclusion utilizing publicly available digital maps. It can also automatically resolve discrepancies, caused by physical space or structure changes over time, during data exchange. The method is also flexible and scalable to identify a portion of a building or a group of buildings.",
+    "laborHours": 440.8,
+    "name": "Unique Building Identifier Generator",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/buildingid",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

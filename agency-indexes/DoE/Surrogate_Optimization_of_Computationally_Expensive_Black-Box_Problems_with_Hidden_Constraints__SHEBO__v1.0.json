@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-10-16",
+        "metadataLastUpdated": "2019-10-16"
+    },
+    "description": "SHEBO (surrogate optimization of problems with hidden constraints and expensive black-box objectives) is an efficient optimization algorithm that employs surrogate models to solve computationally expensive black-box simulation optimization problems that have hidden constraints. Hidden constraints are encountered when the objective function evaluation does not return a value for a parameter vector. These constraints are often encountered in optimization problems in which the objective function is computed by a black-box simulation code. SHEBO uses a combination of local and global search strategies together with an evaluability prediction function and a dynamically adjusted evaluability threshold to iteratively select new sample points.",
+    "laborHours": 319.2,
+    "languages": [],
+    "name": "Surrogate Optimization of Computationally Expensive Black-Box Problems with Hidden Constraints (SHEBO) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/julianem/shebo-hidden-constraint-optimization/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

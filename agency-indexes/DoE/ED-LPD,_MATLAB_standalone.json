@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-01-23",
+        "metadataLastUpdated": "2019-01-25"
+    },
+    "description": "This computer software is a MATLAB standalone code for implementation of the Lumped Particle Domain model. The model solves charge transfer kinetics, lithium diffusion dynamics, charge conservation and energy conservation occurring across the porous electrode pair unit cell sandwich to predict electrical and thermal response of a battery. Physico-chemical states of batteries are also evaluated by the model.",
+    "homepageURL": "https://www.nrel.gov/workingwithus/licensing.html",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "ED-LPD, MATLAB standalone",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.nrel.gov/workingwithus/licensing.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.nrel.gov/workingwithus/licensing.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ]
+}

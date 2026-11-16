@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-08-12",
+        "metadataLastUpdated": "2021-08-12"
+    },
+    "description": "A python class has been developed to help streamline the creation of customizable Github applications Python Class for Github Application Development (Py-CGAD). Py-CGAD contains an interface for interacting with Github’s RESTful API by automatically handling authentication and providing common functionality through simple methods. These methods include uploading files to a repository, posting and getting statuses among others. Py-CGAD is generic and can be used as a template for quickly building a variety of different application of interest to the mission of the lab and the public in general.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Python Class for Github Application Development (Py-CGAD)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

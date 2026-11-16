@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "maiterthm@ornl.gov"
+    },
+    "date": {
+        "created": "2024-02-14",
+        "metadataLastUpdated": "2024-06-21"
+    },
+    "description": "This project provides the AR/VR interface to ORNL's exascale digital twin.\nThe main functionality is implemented using Unreal Engine 5.1 for Desktop or\nMicrosoft Hololens2 based visualization and interation with the system.\nThe digital twin provides data ingestion from telemetry, as well as triggering\nand interacting with simulations developed for the wider ExaDigiT project at\nORNL, as well as for the LUMI system at CSC and other CrayEX Supercomputers.\nFor the overarching project, see ExaDigiT at https://exadigit.github.io,\nwith the code repositories at https://code.ornl.gov/exadigit.",
+    "laborHours": 25262.4,
+    "languages": [],
+    "name": "exadigitUE5",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            },
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/exadigit/exadigitue5.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

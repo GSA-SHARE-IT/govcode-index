@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-04-10",
+        "metadataLastUpdated": "2018-04-11"
+    },
+    "description": "PyFEHM is an open-source Python library that provides classes and methods to support a scripting environment for the subsurface heat and mass transfer, and geomechanics code FEHM. It is inspired by a similar library, PyTOUGH, available for use with the TOUGH2 family of codes. ",
+    "laborHours": 34382.4,
+    "name": "pyFEHM",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/PyFEHM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

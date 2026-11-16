@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "The purpose of this benchmark is to measure the maximal message rate of a single compute node. The first num_cores ranks are expected to reside on the 'core' compute node for which message rate is being tested. After that, the next num_nbors ranks are neighbors for the first core rank, the next set of num_nbors ranks are neighbors for the second core rank, and so on. For example, testing an 8-core node (num_cores = 8) with 4 neighbors (num_nbors = 4) requires 8 + 8 * 4 - 40 ranks. The first 8 of those 40 ranks are expected to be on the 'core' node being benchmarked, while the rest of the ranks are on separate nodes.",
+    "laborHours": 0.0,
+    "languages": [
+        "C"
+    ],
+    "name": "Sequoia Messaging Rate Benchmark",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.osti.gov/osti-public/sequoia-messaging-rate-benchmark",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

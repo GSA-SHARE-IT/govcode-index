@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-11-03",
+        "metadataLastUpdated": "2023-11-03"
+    },
+    "description": "LANL developed a benchmark of software code for radiation testing of microprocessors several years ago, and it was published under an open-source license on GitHub.  Publishing the software is necessary for other researchers to adopt and implement this benchmark for radiation testing of other microprocessors to standardize test practices so that test data can be compared across different microprocessors.  The original codes have been used several times by other organizations to test a wide range of microcontrollers and microprocessors.  \nAfter several years of research, LANL is ready to update the benchmark.  Changes include:\n1.\tAddition of new codes that allow common software codes to be tested,\n2.\tAddition of new codes that instrument more microprocessor circuitry, \n3.\tAddition of input patterns that allow for a more compressive understanding of how the memory layout affects the sensitivity to radiation-induced faults and better use of automated test pattern generation standards, and\n4.\tModification of current codes for faster and more resilient detection, reporting and correction of radiation-induced faults.\nThese codes have been tested by LANL researchers over the last few years, which has been published in the open literature.  As the code base for the new benchmarks are stable, it is time to release the update to the GitHub repository, where the original codes were released.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Update to the Microcontroller Benchmark for Radiation Testing",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/benchmark_codes",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

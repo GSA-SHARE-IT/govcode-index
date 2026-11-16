@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-08-11",
+        "metadataLastUpdated": "2021-08-11"
+    },
+    "description": "EScp is a high speed transfer tool with a similar command line syntax to scp. Unlike SCP it is designed to transfer files at high speed, thus far we have been able to show 100gbit/s transfers, although I expect that the throughput should scale in proportion to the network interface, i.e. I expect 400gbit/s performance on our 400gbit/s test bed. EScp achieves good performance through an innovative design (multithreaded, zero copy transfers), along with pluggable filters and I/O engines. As an example, you can switch from POSIX i/O to UIO by checking a different engine. It also natively supports encryption, and cheksums for file verification and transport security. AAA is through standard SSH (same as SCP). By taking advantage of filters, EScp supports transferring unstructured data and/or I/O to non-posix data sources. Examples include streaming data (i.e. from equipment), transferring data to the cloud, and/or supporting non-posix file systems (like HPSS).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ESnet Secure Copy (EScp) v0.6",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/esnet/EScp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

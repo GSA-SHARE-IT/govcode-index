@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The Futility package contains the following: 1) Definition of the size of integers and real numbers; 2) A generic Unit test harness; 3) Definitions for some basic extensions to the Fortran language: arbitrary length strings, a parameter list construct, exception handlers, command line processor, timers; 4) Geometry definitions: point, line, plane, box, cylinder, polyhedron; 5) File wrapper functions: standard Fortran input/output files, Fortran binary files, HDF5 files; 6) Parallel wrapper functions: MPI, and Open MP abstraction layers, partitioning algorithms; 7) Math utilities: BLAS, Matrix and Vector definitions, Linear Solver methods and wrappers for other TPLs (PETSC, MKL, etc), preconditioner classes; 8) Misc: random number generator, water saturation properties, sorting algorithms.",
+    "laborHours": 99727.2,
+    "name": "Futility",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CASL/Futility",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

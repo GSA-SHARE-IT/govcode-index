@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-09-28",
+        "metadataLastUpdated": "2021-09-30"
+    },
+    "description": "The software develops a framework for training intelligent agent to conduct automatic service restoration in power distribution systems. The framework is based on imitation learning paradigm with a mixed-integer programming based expert and environment. The software also provides access to reinforcement learning baseline comparison.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "IntelliHealer: Imitation Learning Online Service Restoration",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/whoiszyc/IntelliHealer",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

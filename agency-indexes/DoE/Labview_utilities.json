@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "gilmorem@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-23",
+        "metadataLastUpdated": "2023-03-02"
+    },
+    "description": "The software package provides several utilities written in LabView. These utilities don't form independent programs, but rather can be used as a library or controls in other labview programs. The utilities include several new controls (xcontrols), VIs for input and output routines, as well as other 'helper'-functions not provided in the standard LabView environment.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Labview utilities",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/atap-ibt-labview-utilities",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ]
+}

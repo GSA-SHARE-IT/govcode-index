@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-12-13"
+    },
+    "description": "Cloud droplet number concentration is an important factor in understanding aerosol-cloud interactions. As aerosol concentration increases, it is expected that droplet number concentration (Nd) will increase and droplet size will decrease, for a given liquid water path. This will greatly affect cloud albedo as smaller droplets reflect more shortwave radiation&#894; however, the magnitude and variability of these processes under different environmental conditions is still uncertain.McComiskey et al. (2009) have implemented a method, based onBoers and Mitchell (1994), for calculating Nd from ground-based remote sensing measurements of optical depth and liquid water path. They show that the magnitude of the aerosol-cloud interactions (ACI) varies with a range of factors, including the relative value of the cloud liquid water path (LWP), the aerosol size distribution, and the cloud updraft velocity. Estimates of Nd under a range of cloud types and conditions and at a variety of sites are needed to further quantify the impacts of aerosol cloud interactions. In order to provide data sets for studying aerosol-cloud interactions, the McComiskey et al. (2009) method was implemented as the Droplet Number Concentration (NDROP) value-added product (VAP).",
+    "laborHours": 532.0,
+    "name": "Droplet Number Concentration Value Added Product",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ARM-DOE/adi-vap-ndrop",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ARM-DOE/adi-vap-ndrop",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

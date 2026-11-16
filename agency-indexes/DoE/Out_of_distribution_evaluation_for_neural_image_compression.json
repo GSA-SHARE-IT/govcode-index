@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-11-14",
+        "metadataLastUpdated": "2023-11-14"
+    },
+    "description": "Official code for the NeurIPS 2023 paper \"Neural Image Compression: Generalization, Robustness, and\nSpectral Biases\". This code can be used to:\n- Computing spectral distortion errors of images compressed with traditional codes or neural image\ncompression models (as proposed in the aformentioned paper)\n- Visualize power spectral densities and fourier heatmaps (as proposed in the aformentioned paper)\n- Train and test a variety of neural image compression models",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Out of distribution evaluation for neural image compression",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/klieberman/ood_nic",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

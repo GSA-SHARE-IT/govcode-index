@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-08-07",
+        "metadataLastUpdated": "2020-09-08"
+    },
+    "description": "GPTune is an autotuning framework for exascale applications. Given an application with a set of parameters controlling its performance (e.g. runtime, memory and/or energy consumption, numerical accuracy, ...), GPTune aims at finding a combination of the parameters that yields the best possible performance. Although general enough, GPTune specializes in the tunning of expensive-to-run applications, where the cost of running the application is very expensive (in terms of computing power requirement and/or runtime).",
+    "laborHours": 38471.2,
+    "languages": [],
+    "name": "GPTune v.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/gptune/GPTune",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-11-03",
+        "metadataLastUpdated": "2023-04-11"
+    },
+    "description": "Bats are notoriously difficult to study, therefore, identifying specific behavioral trends and the precise environmental conditions at the time of collision requires a monitoring solution that can reliably collect relevant data. To date, thermal infrared video surveillance has been extensively applied to study bats and has proven to be a powerful yet cumbersome tool. Current analytical approaches are time consuming because data processing data has not been fully automated. In the past, steps have been taken to record avian and bat activity in conjunction with complicated image processing techniques that separate species from other moving objects within the field of view (i.e. clouds and portions of the wind turbine). Once the videos are collected, the post-processing does not allow real time monitoring and identification, leading to a delay in both studying the behavior of these species and determining the effectiveness of any impact reduction strategy being studied. Moreover, object identification capability is lacking, thus limiting the usefulness of video data. To resolve these issues, we are using open source computer vision and machine learning techniques allowing for automatic detection of objects in real-time with the ability to correlate these objects with environmental variables and recording the flight paths of each object. The code has gone through five rounds of development with images used to train the models. This advancement allows for automated real-time data collection, identification, and tracking, thereby eliminating the need for long and tedious post-analysis processing of the videos. We will discuss the two open source and publicly available machine learning models developed within this scope of this work: 1) a binary model with a 97.5% accuracy in identifying the difference between an object and an empty scene, including wind turbine and clouds; and 2) a multiple classification model with the capability of identifying the type of object detected: bats (90% accuracy), birds (83% accuracy), insects (69% accuracy) and non-biological (99% accuracy).",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "BFSVBF (BatFinder Smart Video BioFilter) [SWR-22-87] and Multi-class BatFinder Smart Video BioFilter Keras",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/BatFinder_Smart_Video_BioFilter",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

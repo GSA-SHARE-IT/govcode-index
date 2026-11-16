@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-12-13"
+    },
+    "description": "LCMSnet communicates with, controls and orchestrates devices for high pressure liquid chromatography. In developing cutting edge chromatographic methods it was apparent that components from different manufacturers were required. Autosamplers, valves, and pumps all had to be controlled and configured to run unattended and in the highest throughput possible. The power of LCMSnet is the ability so build methods in a simple step by step fashion and then the software uses a scheduling algorithm to run the devices as efficiently as possible without crashing critical functions. This latest iteration of the software allows for modeling of the valves and incorporates logic that will report if a fluid path is undesirable. LCMSnet has reduced method development time from days to minutes and allows the ability to check configurations before any valves or pumps are connected.",
+    "laborHours": 70239.2,
+    "name": "LCMSNet v. 3.0",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/PNNL-Comp-Mass-Spec/LCMSNet",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/LCMSNet",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

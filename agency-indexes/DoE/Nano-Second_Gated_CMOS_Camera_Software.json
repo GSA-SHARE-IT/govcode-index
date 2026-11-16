@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "hill35@llnl.gov"
+    },
+    "date": {
+        "created": "2022-08-03",
+        "metadataLastUpdated": "2022-09-07"
+    },
+    "description": "nsCamera is a driver for nanosecond gated CMOS cameras developed at LLNL and Sandia. It serves as a uniform application interface regardless of the actual combination of camera electronics and sensors used. The software abstracts the hardware to enable a user to write applications without detailed knowledge of the inner workings of each of the boards an sensors they may wish to deploy.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Nano-Second Gated CMOS Camera Software",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/nsgcc/nsCamera",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "2.1.1"
+}

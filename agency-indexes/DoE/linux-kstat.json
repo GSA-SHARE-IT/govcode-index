@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-31",
+        "metadataLastUpdated": "2018-07-31"
+    },
+    "description": "This is an implementation of the Sun::Solaris::Kstat Perl module for Linux ZFS. It should behave identically to the Solaris version.",
+    "laborHours": 15.2,
+    "languages": [],
+    "name": "linux-kstat",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/zfsonlinux/linux-kstat",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

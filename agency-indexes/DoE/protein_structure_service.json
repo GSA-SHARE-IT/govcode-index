@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-17",
+        "metadataLastUpdated": "2020-09-17"
+    },
+    "description": "This service has methods for finding Protein Structure Databank (PDB) entries with sequences similar to a KBase protein sequence, specified by either a MD5 id or a feature or coding sequence id. There are two functions, one for searching by MD5, and the other searching by feature ID (FID). ",
+    "laborHours": 1140.0,
+    "languages": [],
+    "name": "protein_structure_service",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseattic/protein_structure_service",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

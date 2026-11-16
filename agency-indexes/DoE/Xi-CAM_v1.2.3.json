@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-10"
+    },
+    "description": "Xi-CAM aims to provide a community driven platform for multimodal analysis in synchrotron science. The platform core provides a robust plugin infrastructure for extensibility, allowing continuing development to simply add further functionality. Current modules include tools for characterization with (GI)SAXS, Tomography, and XAS. This will continue to serve as a development base as algorithms for multimodal analysis develop. Seamless remote data access, visualization and analysis are key elements of Xi-CAM, and will become critical to synchrotron data infrastructure as expectations for future data volume and acquisition rates rise with continuously increasing throughputs. The highly interactive design elements of Xi-cam will similarly support a generation of users which depend on immediate data quality feedback during high-throughput or burst acquisition modes.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Xi-CAM v1.2.3",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

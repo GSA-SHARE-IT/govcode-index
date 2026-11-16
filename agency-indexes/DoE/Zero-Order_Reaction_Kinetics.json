@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-07-16",
+        "metadataLastUpdated": "2019-07-16"
+    },
+    "description": "Zero-order Reaction Kinetics (Zero-RK) is a software package that simulates chemically reacting systems in a computationally efficient manner. The fundamental advance embodied in Zero-RK is the numerical approach, which results in orders-of-magnitude reduction in simulation time while maintaining the accuracy of the results.",
+    "laborHours": 13497.6,
+    "languages": [],
+    "name": "Zero-Order Reaction Kinetics",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/zero-rk",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

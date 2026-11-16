@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-07-15",
+        "metadataLastUpdated": "2021-07-15"
+    },
+    "description": "Frontend for the Software Defined Accelerators from Machine Learning Tools Environment (SODALITE) and the Software Defined Architectures for Data Analytics (SO(DA)^2) projects. This frontend takes in input json files from trained neural networks from the most common machine learning tools (PyTorch, TensorFlow, MxNet, etc.) and the related h5 files with weights, and generate the related MLIR (multilevel intermediate representation) linear algebra dialect. This allows the neural networks to be ingested by the rest of the SODA toolchain.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SODA frontend",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.pnnl.gov/sodalite/soda-frontend",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "chaic@ornl.gov"
+    },
+    "date": {
+        "created": "2025-01-29",
+        "metadataLastUpdated": "2025-01-30"
+    },
+    "description": "Python scripts for using the PickerXL model, which operates on seismic single station data to pick primary and secondary waves.",
+    "laborHours": 121.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "PickerXL",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/picker-xl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

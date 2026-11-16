@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2022-01-06",
+        "metadataLastUpdated": "2022-01-06"
+    },
+    "description": "HPXML is a consensus data transfer standard for residential buildings. Over several years, multiple versions of the standard have been released. This tool accepts an HPXML file in an older version and translates it to a newer version.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "HPXML Version Translator",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/hpxml_version_translator",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

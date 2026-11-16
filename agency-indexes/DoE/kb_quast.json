@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-11",
+        "metadataLastUpdated": "2020-09-11"
+    },
+    "description": "KBase wrapper for the QUAST assembly quality assessment tool. QUAST stands for QUality ASsessment Tool. The tool evaluates genome assemblies by computing various metrics.",
+    "laborHours": 1170.4,
+    "languages": [],
+    "name": "kb_quast",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseapps/kb_quast",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

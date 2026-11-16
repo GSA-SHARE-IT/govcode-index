@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "STRIDE is a suite of benchmarks, 8 in total, which access a computers low level caches and memory in a variety of patterns. The resulting performance of the kernels provides significant insight into the performance that a real application may incur and dictate how certain algorithmic choices should be made.",
+    "homepageURL": "https://asc.llnl.gov/sequoia/benchmarks",
+    "laborHours": 0.0,
+    "name": "Stride Version 1.0",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://asc.llnl.gov/sequoia/benchmarks",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

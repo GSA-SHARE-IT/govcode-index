@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-11-25",
+        "metadataLastUpdated": "2024-11-25"
+    },
+    "description": "This package is a wrapper for the well-known Thevenin equivalent circuit model for simulating battery behavior with a focus on ease of use. The model is comprised of a single series resistor followed by any number of parallel RC pairs. \n\nThe package includes an intuitive \"experiment\" interface, which simplifies the programming of constant or dynamic current, voltage, and/or power-driven loads, making it ideal for a wide range of applications, from basic tests to complex simulations. It also supports state-of-charge (SOC) and temperature-dependent properties, allowing the model to be more easily calibrated against real cells.",
+    "laborHours": 2036.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "thevenin: An Equivalent Circuit Modeling Package [SWR-24-132]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/thevenin",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

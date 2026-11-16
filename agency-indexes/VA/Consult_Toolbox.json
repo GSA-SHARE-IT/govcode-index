@@ -1,0 +1,46 @@
+{
+    "id": 2178,
+    "name": "Consult Toolbox",
+    "organization": "OIT DSO",
+    "version": "1.9.006x",
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/Redacted-Public-Release-CC-OC-P1-Consult-Toolbox-1.9.006x-iter-2-gmrc-3.0-148-Oct-2019",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "CTB",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Apache Tomcat",
+        "JDK - Oracle Java Standard Edition (SE) Development Kit",
+        "Spring Boot",
+        "Docker",
+        "Transport Layer Security (TLS) Protocol Standard or Specification"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-29",
+        "lastModified": "2020-08-20",
+        "metadataLastUpdated": "2020-08-20"
+    },
+    "description": "Repository containing the CIF submission for Community Care (CC) One Consult Phase 1, Consult Toolbox 1.9.006x, iter 2, GMRC*3.0*148 received Oct 2019."
+}

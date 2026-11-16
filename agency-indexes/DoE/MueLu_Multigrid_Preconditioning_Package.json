@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-09-17"
+    },
+    "description": "MueLu is intended for the research and development of multigrid algorithms used in the solution of sparse linear systems arising from systems of partial differential equations. The software provides multigrid source code, test programs, and short example programs to demonstrate the various interfaces for creating, accessing, and applying the solvers. MueLu currently provides an implementation of smoothed aggregation algebraic multigrid method and interfaces to many commonly used smoothers. However, the software is intended to be extensible, and new methods can be incorporated easily. MueLu also allows for advanced usage, such as combining multiple methods and segregated solves. The library supports point and block access to matrix data. All algorithms and methods in MueLu have been or will be published in the open scientific literature.",
+    "laborHours": 8344830.4,
+    "languages": [],
+    "name": "MueLu Multigrid Preconditioning Package",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

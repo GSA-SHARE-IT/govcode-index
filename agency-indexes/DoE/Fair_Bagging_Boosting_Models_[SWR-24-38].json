@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-03-01",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "Fair Bagging Boosting Models is a software implementation of a framework for building, measuring bias and correcting bias in 3 popular forest machine learning models: gradient boosted trees (GBT), random forest (RF), and XGBoost models, using the XGBoost library. The framework takes advantage of the flexibility in XGBoost library to represent gradient boosted tree and random forest models, as well as the ability to use custom loss function.",
+    "laborHours": 1216.0,
+    "languages": [
+        "Python",
+        "Jupyter Notebook"
+    ],
+    "name": "Fair Bagging Boosting Models [SWR-24-38]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/Fair_Bagging_Boosting_Models",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

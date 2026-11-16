@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-01-26",
+        "metadataLastUpdated": "2024-02-22"
+    },
+    "description": "Tardigrade is a collection of functions, libraries, and stand-alone code which enables the simulation of materials using the higher-order micromorphic framework. The tools present are the interface to INL's MOOSE code which is used as the underlying FEA solver, several constitutive equations (linear elasticity, a pressure-sensitive elasto-plastic model, crystal plasticity, and additional models for geo-materials) useful for demonstration purposes and the simulation of some materials, the micromorphic filter which converts DNS information to micromorphic stress-deformation quantities, and the overlap coupling framework which enables multi-scale simulations of a coupled higher-order macroscale and a classically defined microscale.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Tardigrade, Version 1.1x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/tardigrade",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git",
+    "version": "1.1x"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-08-27",
+        "metadataLastUpdated": "2021-08-27"
+    },
+    "description": "Two Python files, entSpectroscopy.py and simulateCircuitsScript.py, containing the necessary code to reproduce the experiments for our recent work \"Qubit-efficient entanglement spectroscopy using qubit resets\" LA-UR-20-25416 (https://arxiv.org/abs/2010.03080). This paper described new quantum algorithms, also known as circuits, and described experiments testing these algorithms both on real quantum hardware and in simulators. The file entSpectroscopy.py contains functions which take parameters describing the input (e.g. input size) and output descriptions of quantum circuits by implementing the algorithms described in our paper. These circuit descriptions are created as `QuantumCircuit` objects using the Python library qiskit, and our simulation experiments use simulators provided by qiskit. The file also contains helper functions for processing the results of these circuits and for calculating the statistical uncertainty in the results, both according to formulas given in our paper. Finally, entSpectroscopy.py includes helper functions for easily preparing the qiskit simulator according to given noise parameters. The file simulateCircuitsScript.py demonstrates how we performed our experiments by calling functions in entSpectroscopy.py. This script takes as input parameters from the command line and hardcoded data, uses functions in entSpectroscopy.py to get circuit descriptions, simulates those circuits using qiskit, and outputs and plots the results.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Qubit-efficient entanglement spectroscopy",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-10-30",
+        "metadataLastUpdated": "2023-10-30"
+    },
+    "description": "JSAC is a Java implementation of the Seismic Analysis Code (SAC2000,\nhttps://github.com/LLNL/SAC2000). It is intended to bring the most commonly used features of SAC2000\nup to date with modern standards, support parallelized computation where possible, and implement\nimprovements in algorithms and numerics.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "JSAC",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/JSAC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-22",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "ESTEEM is an interactive web-based prototype visualization tool to allow you to explore dynamic word embeddings across regions using siple keyword queries.",
+    "laborHours": 7995.2,
+    "languages": [],
+    "name": "ESTEEM",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/esteem",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

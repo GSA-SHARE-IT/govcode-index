@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Mcqueuer is a simple tool that allows anyone from researchers to experienced developers to create multi-node/multi-core jobs by simply creating a file with a list of commands. Users simply combine tasks, which would otherwise each be their own job on the cluster, into a single file that is given to Mcqueuer. Mcqueuer then does the heavy lifting required to process the tasks in parallel in a single multi-node job. In addition, Mcqueuer provides load-balancing, which frees the user from having to worry about complex memory and CPU considerations, and instead focus on the processing itself.",
+    "laborHours": 198785.6,
+    "name": "Mcqueuer",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/aaronrphillips/mcqr/blob/master/COPYING",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/aaronrphillips/mcqr",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

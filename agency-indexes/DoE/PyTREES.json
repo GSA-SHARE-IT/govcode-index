@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-09-15",
+        "metadataLastUpdated": "2022-09-22"
+    },
+    "description": "PyTREES (Python tool for Training/Testing Robust Explainable Ensembles on Spectra) is software that implements a data-driven approach to predicting the amount of specific oxides present in materials samples of laser-induced breakdown spectroscopy (LIBS); such as from the ChemCam instrument suite onboard the NASA Curiosity rover. PyTREES is designed to input LIBS data in the format provided by the ChemCam team [1]. PyTREES then applies appropriate pre-processing to this data [2], and implements several regression methods for predicting oxides from spectra. The regression methods include: ensemble methods (random forest, extra trees, and gradient boosting regression) and blended submodels using the “double blending” technique. PyTREES additionally implements methods for quantifying the importance of features in regression model: (1) mean decrease in impurity (MDI) and (2) permutation importance to investigate the wavelengths used by the regression methods. [1] Gasda et al. (2021). Spectrochim Acta B, 181, 106223. [2] Clegg et al. (2017). Spectrochim Acta B , 129, 64–85.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PyTREES",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

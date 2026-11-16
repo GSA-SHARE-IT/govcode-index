@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2023-04-13",
+        "metadataLastUpdated": "2023-04-13"
+    },
+    "description": "The AMG2023 benchmark solves two diffusion problems with a linear solver preconditioned with algebraic multigrid. The code only contains a driver, a Makefile, and a documentation file. It requires an installation of the open source software library hypre that needs to be downloaded elsewhere and is not included here. Its purpose is to benchmark linear solver performance on high performance computers.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "AMG2023",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/AMG2023",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

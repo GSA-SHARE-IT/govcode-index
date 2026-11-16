@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2024-01-15",
+        "metadataLastUpdated": "2024-01-25"
+    },
+    "description": "Montepy is an object-oriented  Python  interface for  MCNP input files. It excels at reading, editing, creating, and writing MCNP input files. The Monte Carlo N Particle (MCNP) code is a Monte Carlo transport solver for simulating many different types of radiation problems and is developed by Los Alamos National Laboratory. Montepy creates an object-oriented interface for the MCNP input file to allow for efficient automated modifications to large, complex simulations.",
+    "laborHours": 0.0,
+    "languages": [
+        "python3.8"
+    ],
+    "name": "Montepy",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/MontePy",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

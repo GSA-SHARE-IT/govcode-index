@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2020-09-12",
+        "metadataLastUpdated": "2020-09-17"
+    },
+    "description": "Based on [1], XRFtomo brings together a variety of image processing tools used for preparing, processing and reconstructing 3D renditions of samples imaged using a synchrotron-based x-ray fluorescence (XRF) microprobe or nanoprobe at the Advanced Photon Source (APS). This software bridges the gap between data acquisition and visualization by providing tools to adjust for misalignment in the imaging process and tools for running reconstructions[2], all with the use of a GUI or command line. XRFtomo accepts .h5 files processed through MAPS[3] and it outputs reconstructed cross-sections, projections, sinograms, metadata, and a configuration file with last-used parameters for rapid processing the next time the program is launched. These images serve as inputs for other 3D visualization software for generating volumetric renderings and animations. ",
+    "laborHours": 6764.0,
+    "languages": [],
+    "name": "XRFtomo",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/tomography/XRFtomo",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

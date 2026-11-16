@@ -1,0 +1,19 @@
+{
+    "name": "Disability Predictive Model",
+    "repositoryURL": "",
+    "description": "Dual score card application based on the Predictive Model design architecture written by IBM. It is called when initial adjudicative disability cases are transferred to the DDS for a medical determination. It will analyze the date electronically and produce two values, each between 0 and 1. The first value will express the confidence that a favorable determination will be made (known as SSAL - SSA Allowance). The second (known as SSPT - SSA Processing Time) will express the confidence that the determination can be reached quickly.",
+    "permissions": {
+        "licenses": [],
+        "usageType": "exemptByAgencyMission",
+        "exemptionText": ""
+    },
+    "laborHours": 0,
+    "tags": [
+        "Predictive",
+        "Disability"
+    ],
+    "contact": {
+        "email": "Open.Source@ssa.gov",
+        "name": "Open Source Administrator"
+    }
+}

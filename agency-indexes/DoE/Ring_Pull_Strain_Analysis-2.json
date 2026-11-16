@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-04-19",
+        "metadataLastUpdated": "2024-05-03"
+    },
+    "description": "Ring Pull Strain Analysis (RPSA) is a framework for analysis of Digital Image Correlation (DIC) data of gaugeless ring pull testing. It is meant for analysis of rings cut from tube cross sections and pulled in a displacement-controlled tensile test. This code takes load frame data, images take during testing, and csv files from the DIC analysis of those images and allows the user to analyze and plot data from the test. Some important features of the software include getting the strain values as a function of radial distance and angle, plotting of the strain around the ring, and stress-strain analysis of the load frame\ndata. Additional capability is included with Ring Pull Coating Analysis (RPCA, also part of the software). Additional images are taken of samples with an outer coating and are used to correlate failure of the coating with strain values measured with DIC.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Ring Pull Strain Analysis",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/RingPullStrainAnalysis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git",
+    "version": "1.1"
+}

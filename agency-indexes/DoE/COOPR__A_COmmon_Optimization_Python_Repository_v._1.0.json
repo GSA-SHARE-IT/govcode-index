@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Coopr integrates Python packages for defining optimizers, modeling optimization applications, and managing computational experiments. A major driver for Coopr development is the Pyomo package that can be used to define abstract problems, create concrete problem instances, and solve these instances with standard solvers. Other Coopr packages include EXACT, a framework for managing computational experiments, SUCASA, a tool for customizing integer programming solvers, and OPT, a generic optimization interface.",
+    "laborHours": 314837.6,
+    "name": "COOPR: A COmmon Optimization Python Repository v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Pyomo/pyomo",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

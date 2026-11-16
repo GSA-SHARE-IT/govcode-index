@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-10-01",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The Maximo Json Client is a Microsoft .Net core class library. The function of the library is to abstract Http requests from\n.Net code to the IBM Maximo Json API (Json API). The library assumes the responsibility for handshaking with the Json\nAPI (authentication, session management, etc.) and converting to a common syntax.",
+    "laborHours": 592.8,
+    "languages": [],
+    "name": "pnnl/maximojsonclient",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/maximojsonclient",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

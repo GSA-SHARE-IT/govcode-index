@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-05-01",
+        "lastModified": "2025-04-21"
+    },
+    "description": "Terraform code to create a Nessus vulnerability scanner in the COOL Shared Services environment.",
+    "downloadURL": "https://api.github.com/repos/cisagov/cool-sharedservices-nessus/downloads",
+    "homepageURL": "https://github.com/cisagov/cool-sharedservices-nessus",
+    "laborHours": 696.9,
+    "languages": [
+        "HCL",
+        "Shell"
+    ],
+    "name": "cool-sharedservices-nessus",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/cool-sharedservices-nessus.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

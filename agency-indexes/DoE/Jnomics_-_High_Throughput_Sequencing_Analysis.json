@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-17",
+        "metadataLastUpdated": "2020-09-17"
+    },
+    "description": "The code found in this repository contains the client and server code for the jnomics-manager. The code is dependent on the core jnomics package which is held as a submodule in the 'jnomics' subdirectory at the root of the package.",
+    "laborHours": 7022.4,
+    "languages": [],
+    "name": "Jnomics - High Throughput Sequencing Analysis",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseattic/jnomics",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

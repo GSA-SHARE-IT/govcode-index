@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-05-24",
+        "metadataLastUpdated": "2021-06-10"
+    },
+    "description": "According to the North American Electric Reliability Corporation (NERC) definition: \"Frequency response is a measure of an Interconnection's ability to stabilize frequency immediately following the sudden loss of generation or load, and is a critical component of the reliable operation of the Bulk-Power System, particularly during disturbances and recoveries. Failure to maintain frequency can disrupt the operation of equipment and initiate disconnection of power plant equipment to prevent it from being damaged, which could lead to wide-spread blackouts.\" Frequency Response Tool automates the power system frequency response analysis process. The tool performs initial estimation of the system frequency parameters (initial frequency, minimum frequency, settling point). User can visually inspect and adjust these parameters. The tool also calculates the frequency response performance metrics of the system, archives the historic events and baselines the system performance. Frequency response performance characteristics of the system are calculated using phasor measurement unit (PMU) information. Methodology of the frequency response performance assessment implemented in the tool complies with the NERC Frequency response standard.",
+    "homepageURL": "https://svn.pnl.gov/FRTool",
+    "laborHours": 0.0,
+    "languages": [
+        "VB.NET"
+    ],
+    "name": "Frequency Response Tool",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://svn.pnl.gov/FRTool#License",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://svn.pnl.gov/FRTool",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

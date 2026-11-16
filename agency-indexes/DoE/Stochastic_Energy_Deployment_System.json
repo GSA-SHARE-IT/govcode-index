@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "SEDS is an economy-wide energy model of the U.S. The model captures dynamics between supply, demand, and pricing of the major energy types consumed and produced within the U.S. These dynamics are captured by including: the effects of macroeconomics; the resources and costs of primary energy types such as oil, natural gas, coal, and biomass; the conversion of primary fuels into energy products like petroleum products, electricity, biofuels, and hydrogen; and lastly the end- use consumption attributable to residential and commercial buildings, light and heavy transportation, and industry. Projections from SEDS extend to the year 2050 by one-year time steps and are generally projected at the national level. SEDS differs from other economy-wide energy models in that it explicitly accounts for uncertainty in technology, markets, and policy. SEDS has been specifically developed to avoid the computational burden, and sometimes fruitless labor, that comes from modeling significantly low-level details. Instead, SEDS focuses on the major drivers within the energy economy and evaluates the impact of uncertainty around those drivers.",
+    "homepageURL": "https://www.nrel.gov/analysis/seds",
+    "laborHours": 0.0,
+    "languages": [
+        "Ruby"
+    ],
+    "name": "Stochastic Energy Deployment System",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.nrel.gov/analysis/seds/download-model.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.nrel.gov/analysis/seds",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ]
+}

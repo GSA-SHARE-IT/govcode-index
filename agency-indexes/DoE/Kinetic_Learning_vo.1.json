@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-07-16",
+        "metadataLastUpdated": "2021-07-06"
+    },
+    "description": "New synthetic biology capabilities hold the promise of dramatically improving our ability to engineer biological systems. However, a fundamental hurdle in realizing this potential is our inability to accurately predict biological behavior after modifying the corresponding genotype. Kinetic models have traditionally been used to predict pathway dynamics in bioengineered systems, but they take significant time to develop, and rely heavily on domain expertise. This software implements a method to effectively predict pathway dynamics in an automated fashion using a combination of machine learning and abundant multiomics data (proteomics and metabolomics). The new method outperforms a classical kinetic model, and produces qualitative and quantitative predictions that can be used to productively guide bioengineering efforts. This method systematically leverages arbitrary amounts of new data to improve predictions, and does not assume any particular interactions, but rather implicitly chooses the most predictive ones.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Kinetic Learning vo.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

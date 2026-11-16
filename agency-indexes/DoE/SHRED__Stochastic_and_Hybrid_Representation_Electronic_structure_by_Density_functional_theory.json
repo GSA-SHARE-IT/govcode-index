@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-03-11",
+        "metadataLastUpdated": "2022-03-11"
+    },
+    "description": "The stochastic and hybrid representation electronic structure by density functional theory (SHRED) calculates microscopic material properties using time-dependent, nonadiabatic, and ground-state density functional theory (DFT) with a periodic basis. It can utilize deterministic, stochastic, and hybrid representations of the electronic orbitals. This provides a capability for highly parallelized computation of DFT for larger systems and/or higher temperatures. Thus, the code is particularly suited for calculation of material properties in the warm and hot dense matter regimes.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SHRED: Stochastic and Hybrid Representation Electronic structure by Density functional theory",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

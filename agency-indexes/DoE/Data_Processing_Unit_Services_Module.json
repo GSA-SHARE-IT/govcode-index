@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-01-06",
+        "metadataLastUpdated": "2022-01-24"
+    },
+    "description": "The Data Processing Services Module (DPUSM) provides the ability to perform pluggable compression, erasure coding, checksuming and other important file system operations within the Linux kernel. The pluggable provider interface allows for the use of hardware acceleration of those services. In-kernel file systems are then able to use these functions to use these accelerators to perform operations that are normally run on the processor, resulting in improved file system performance. Third parties will register \"providers\" with the DPUSM to communicate with their respective accelerators. Providers will implement functions with DPUSM API signatures so that the DPUSM can translate the data inputted by users of the DPUSM into data that providers recognize.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Data Processing Unit Services Module",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

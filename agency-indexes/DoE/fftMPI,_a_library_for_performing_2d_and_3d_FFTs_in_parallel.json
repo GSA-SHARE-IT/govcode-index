@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "The fftMPI library enables two and three dimensional Fast Fourier Transforms (FFTs) to be\r\nperformed efficiently in parallel on a variety of platforms from desktop machines to supercomputers. It allows for flexibility in the initial distribution of the FFT grid across processors, as well as the final output. It handles the data communication and reordering necessary to perform multi-dimensional FFTs in parallel. It relies on open-source or vendor-provided libraries to perform one dimensional FFTs on a single processor. It uses MPI for inter-processor communication, which is a standard distributed memory message-passing library.",
+    "laborHours": 8907.2,
+    "languages": [
+        "The CSlib can be used from programs written in C++, C, Fortran, or Python.",
+        "Shell",
+        "Makefile"
+    ],
+    "name": "fftMPI, a library for performing 2d and 3d FFTs in parallel",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/fftmpi?tab=License-1-ov-file#readme",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/fftmpi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "2.0"
+}

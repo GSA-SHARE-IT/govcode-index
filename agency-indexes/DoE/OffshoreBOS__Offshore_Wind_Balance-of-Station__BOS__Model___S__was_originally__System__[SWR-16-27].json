@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2023-08-09",
+        "metadataLastUpdated": "2023-08-10"
+    },
+    "description": "+++ This repository was archived by the owner on May 4, 2020. It is now read-only. +++\n\nAn offshore balance of station (BOS) model for estimating the costs in assembly, installation, financing, and decommissioning of offshore wind plants.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "Python",
+        "makefile"
+    ],
+    "name": "OffshoreBOS (Offshore Wind Balance-of-Station (BOS) Model) \"S\" was originally \"System\" [SWR-16-27]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/WISDEM/OffshoreBOS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

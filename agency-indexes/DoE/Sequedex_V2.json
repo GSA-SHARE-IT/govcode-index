@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-12-19",
+        "metadataLastUpdated": "2018-12-20"
+    },
+    "description": "Sequedex is computer software to rapidly assign phylogeny and function to short sequences of nucleic acid or protein.   In addition, Sequedex comprises functions required to generate underlying data modules as well as tools for analyzing assignments in a variety of contexts.",
+    "laborHours": 8724.8,
+    "languages": [],
+    "name": "Sequedex V2",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/sequedex-core",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

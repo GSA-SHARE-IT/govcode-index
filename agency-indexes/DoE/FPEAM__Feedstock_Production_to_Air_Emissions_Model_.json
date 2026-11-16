@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-10-16",
+        "metadataLastUpdated": "2019-10-17"
+    },
+    "description": "FPEAM is a modeling framework that integrates agricultural and forestry production, supply data, and equipment budgets for those activities with methodologies for estimating air pollutant emissions.",
+    "laborHours": 4408.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "FPEAM (Feedstock Production to Air Emissions Model)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/fpeam",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

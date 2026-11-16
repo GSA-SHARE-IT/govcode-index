@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-05-16",
+        "lastModified": "2023-07-26"
+    },
+    "description": "A systemd-enabled Fedora 33 Linux Docker image, in the spirit of geerlingguy/docker-fedora32-ansible.",
+    "downloadURL": "https://api.github.com/repos/cisagov/docker-fedora33-ansible/downloads",
+    "homepageURL": "https://github.com/cisagov/docker-fedora33-ansible",
+    "laborHours": 20.6,
+    "languages": [
+        "Dockerfile"
+    ],
+    "name": "docker-fedora33-ansible",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/docker-fedora33-ansible.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

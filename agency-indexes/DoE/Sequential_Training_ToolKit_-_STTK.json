@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-09-01",
+        "metadataLastUpdated": "2021-09-21"
+    },
+    "description": "Sequential Training ToolKit, or STTK, is a software toolkit plugin for the Unity development platform that enables software developers to easily develop structured Sequential Training applications for gaming and extended reality (XR) environments. STTK is architected to easily import the toolkit as a plugin for the Unity platform and then interact with the graphical user interface (GUI) for drag-and-drop functionality. STTK also includes easy add-on plugins for Prefabs and auto-builds a State Machine. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525. SAND2021-3059 O",
+    "laborHours": 0.0,
+    "languages": [
+        "C#"
+    ],
+    "name": "Sequential Training ToolKit - STTK",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/STTK",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

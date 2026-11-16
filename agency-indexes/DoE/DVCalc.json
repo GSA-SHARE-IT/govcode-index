@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2020-11-09",
+        "metadataLastUpdated": "2022-01-05"
+    },
+    "description": "A methodology and tool for computing the benefits and costs of Advanced Distribution Management Systems (DMS) for Grid Modernization. It suggests an approach for monetizing the \"functional\" benefits, expressed in non-monetary terms, such as System Average Interruption Duration Index/System Average Interruption Frequency Index (SAIDI/SAIFI) reduction and improved efficiency, using commonly available technical and financial parameters. It offers a model for individual utilities to determine the estimated costs and benefits using their own specific data. Where actual utility-specific data is not available, industry default values are offered. The model uses discounted cash flow (DCF) analysis to evaluate the economic justification for an investment in DMS.",
+    "homepageURL": "https://www.anl.gov/partnerships/licensable-software",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "DVCalc",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.anl.gov/partnerships/licensable-software",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.anl.gov/partnerships/licensable-software",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

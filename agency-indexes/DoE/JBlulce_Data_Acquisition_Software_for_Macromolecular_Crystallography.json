@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-05-04"
+    },
+    "description": "JBlulce (Java Beam Line Universal Integrated Configuration Environment is a data acquisition software for macromolecular crystallography conforming user interface of the SSRL Blulce that has become a de-factor standard in the field. Besides this interface conformity, JBlulce is a unique system in terms of architecture, spec, capability and software implementation. It features only two software layers, the JBlulce clients and the EPICS servers, as compared to three layers present in Blulce and most of similar systems. This layers reduction provides a faster communication with hardware and an easier access to advanced hardware capabilities like on-the-fly scanning. Then JBlulce clients are designed to operate in parallel with the other beamline controls which streamlines the tasks performed by staff such as beamline preparation, maintenance, auditing and user assistance. Another distinction is the deployment of multiple plugins that can be written in any programming language thus involving more staff into the development. further on, JBlulce makes use of unified motion controls allowing for easy scanning and optimizing of any beamline component. Finally, the graphic interface is implemented in Java making full use of rich Java libraries and Jave IDE for debugging. to compare, Blulce user interface is implemented with aging Tcl/tk language providing very restricted capabilities. JBlulce makes full use of the industrial power and wide drivers selection of EPICS in controlling hardware; all hardware communication is routed via multiple EPICS servers residing on local area network. JBlulce also includes several EPICS State Notation servers aimed at making hardware communication more robust. Besides using EPICS for controlling hardware, JBlulce extensively uses EPICS databases for efficient communications between multiple instances of JBlulce clients and JBlulce plugins that can run in parallel on different computers. All of the above makes JBlulce one of the biggest and most sophisticated EPICS client projects to date. JBlulce configuration is stored in my SQL database which provides flexibility in tuning the system. The database is also accessible by the plugins. From the users perspective JBlulce provides all standard features of data acquisition software for macromolecular crystallography plus such unique capabilities as one click beamline energy change that may involve switching undulator harmonics, mirrors lanes and beam realignment, automated diffraction rtastering for finding small crystals and sweet spots on poorly diffracting crystals with automated scoring of raster cells by the number of reflections; data collection along a vector; automated on-the-fly fluorescent tastering, a faster and lower-irradiation compliment to the diffraction raster; fully automated fluorescence measurements for MAD that include signal optimization, fast on the fly energy scanning and automated adapting of scan range to chemical shifts; fly-scan minibeam realignment; automated loop and crystal centering, controls for sample automounter, automated screening, data collection auditing, remote access and a lot more.",
+    "homepageURL": "https://www.gmca.aps.anl.gov/jbluice-epics",
+    "laborHours": 0.0,
+    "languages": [
+        "SUN JDK 1.6, Perl 5, EPICS 3.14, SNL 2.0"
+    ],
+    "name": "JBlulce Data Acquisition Software for Macromolecular Crystallography",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.gmca.aps.anl.gov/jbluice-epics/jbluice-license.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.gmca.aps.anl.gov/jbluice-epics",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

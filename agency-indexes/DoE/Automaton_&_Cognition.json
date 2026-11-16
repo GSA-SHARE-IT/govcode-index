@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-06-20",
+        "metadataLastUpdated": "2023-06-20"
+    },
+    "description": "AutoCog is a framework to design programming models (PM) for language models (LM). It permits\nresearchers to devise Cognitive Architectures where traditional Artificial Intelligence algorithms are\nexecuted by Language Models.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Automaton & Cognition",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/AutoCog",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0.1"
+}

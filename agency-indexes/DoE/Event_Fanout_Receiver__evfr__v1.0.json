@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-16",
+        "metadataLastUpdated": "2024-07-16"
+    },
+    "description": "The event fanout-receiver is an event-based timing system implementation capable of synchronizing (with respect to clock, events and triggers) to an upstream event generator. This can be used in 2 modes: fanout or receiver. the first one receives 1 upstream timing streams and fanouts it to 36. The second one receives and decodes the stream. This has been in use by ALS for many years and this is a similar implementation, but providing a more flexible configuration",
+    "laborHours": 8618.4,
+    "languages": [],
+    "name": "Event Fanout/Receiver (evfr) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BerkeleyLab/LBNL-EVFR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

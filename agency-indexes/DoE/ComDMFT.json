@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "vincent@sacksteder.com"
+    },
+    "date": {
+        "created": "2023-01-24",
+        "metadataLastUpdated": "2023-02-21"
+    },
+    "description": "ComDMFT is an ab initio code for simulating correlated quantum materials with crystalline symmetry. It combines DFT or qsGW calculations with impurity problems describing strong on-atom correlations. The impurity problem is set up using Wannier90 and cRPA, and can be solved with DMFT and CTQMC.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ComDMFT",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/comscope/ComDMFT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

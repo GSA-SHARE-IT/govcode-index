@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2020-08-20",
+        "metadataLastUpdated": "2020-08-20"
+    },
+    "description": "TOUGH is a widely used general purpose numerical simulator designed for fluid and heat flows of multiphase, multicomponent fluid mixtures in porous and fractured media, which has been applied to many real-world problems such as underground geological storage, geothermal reservoir engineering or nuclear waste disposal, to name a few.\n\n`toughio` is a lightweight, object-oriented and vectorized Python library that aims to provide user-friendly routines to facilitate pre- and post-processing of a TOUGH simulation. Although its primary target is the latest version TOUGH3, `toughio` can also be used to read/write TOUGH2 input/output files. Currently, to the best of our knowledge, only PyTOUGH offers an exhaustive number of features to carry out a complete TOUGH simulation using a scripting language. `toughio` and PyTOUGH share the same objectives, yet with different approaches and philosophies. On the one hand, a PyTOUGH mesh is represented as a MULGRAPH geometry where elements can be unstructured horizontally but only layered vertically. It also checks that the model parameters are valid to ensure that a TOUGH simulation runs smoothly. On the other hand, although it provides basic meshing features, `toughio` mostly relies on common third-party softwares (e.g. Abaqus, FLAC3D, Gmsh, LaGriT) to generate the mesh by importing and converting it to a TOUGH mesh, which also conveniently facilitates the coupling of TOUGH with any other simulator that also supports the same mesh formats. Besides, `toughio` is designed to be just a TOUGH input and output file reader/writer. It assumes that the user knows what he is doing and does not verify the validity of the model parameters (`toughio` does verify the functional arguments).",
+    "laborHours": 9652.0,
+    "languages": [],
+    "name": "toughio v1.2.2",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/keurfonluu/toughio",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

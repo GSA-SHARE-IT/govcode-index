@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-11-02",
+        "metadataLastUpdated": "2023-11-02"
+    },
+    "description": "MSR-Genie is a vendor-neutral tool for fast and efficient queries about model-specific registers (MSRs).\nThe tool allows end users to query bi-directionally across MSR lists as well as processor families and\nmodels, and provides them with guidance on appropriate bitmasks. The msr-genie tool is open-source\nand easily extensible, and currently supports 30 Intel processor models and two-thousand unique MSRs.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "msr-genie",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/msr-genie",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

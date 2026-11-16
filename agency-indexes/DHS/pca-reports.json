@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2018-10-10",
+        "lastModified": "2024-02-02"
+    },
+    "description": "Report-generation tools for Phishing Campaign Assessment (PCA)",
+    "downloadURL": "https://api.github.com/repos/cisagov/pca-reports/downloads",
+    "homepageURL": "https://github.com/cisagov/pca-reports",
+    "laborHours": 577.7,
+    "languages": [
+        "Python",
+        "Mustache",
+        "Shell",
+        "Dockerfile"
+    ],
+    "name": "pca-reports",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/pca-reports.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

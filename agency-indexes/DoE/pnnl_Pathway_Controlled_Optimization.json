@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2023-01-10",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "A method for prediction of cell regulation to maximize cell growth rate while maintaining the solvent capacity\nof the cell. Prediction is formulated as an optimization problem using a thermodynamic framework that can leverage\nexperimental data. We develop a formulation and variable initialization procedure that allows for computing solutions of\nthe optimization with an interior point method",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/Pathway_Controlled_Optimization",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/Pathway_Controlled_Optimization",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

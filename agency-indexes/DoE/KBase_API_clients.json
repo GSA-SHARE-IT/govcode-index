@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-07-23",
+        "metadataLastUpdated": "2020-07-31"
+    },
+    "description": "This directory contains all current KBase Javascript clients, as of April 14, 2016. These are not likely to change very often, and the generation process to get the whole batch is not straightforward in all cases, so they've been included here. The clients are updated in src/kbase-clients by replacing the appropriate client file with the updated one from the home project. Before being used they must be prepared and placed into the dist directory under kb/service.",
+    "laborHours": 24365.6,
+    "languages": [],
+    "name": "KBase API clients",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/kbase-service-clients-js",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

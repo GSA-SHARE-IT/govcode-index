@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-30",
+        "metadataLastUpdated": "2024-08-30"
+    },
+    "description": "This software contains a set of components that allow us to measure and analyze the use and performance of computer networks using existing off the shelf Open Source components organized into a scalable and extensible system. The components were developed for and used within ESnet's Stardust Measurement Environment. The components are used to collect, process and display network measurement data in an architecture that employs a combination of Elasticsearch, Logstash and Grafana. The advantage of this approach is we can tailor system behavior to our analytical needs and expand its capability with new types of network measurement without waiting for a commercial vendor to support our fairly niche use cases. Additionally we have existing collaborations within our community that came about from prior research efforts that will benefit from the release of this software so that others can also contribute features.",
+    "laborHours": 16340.0,
+    "languages": [],
+    "name": "Stardust Network Measurement Components (esnet-stardust-components) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/esnet/stardust-snmp-pipeline",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

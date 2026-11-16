@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "awander@sandia.gov"
+    },
+    "date": {
+        "created": "2018-08-24",
+        "metadataLastUpdated": "2018-09-07"
+    },
+    "description": "The goal of this track is to develop blockchain-based ledgering solutions to log and query the user activities of accessing genomic datasets (e.g., GTEx) across multiple sites.",
+    "laborHours": 121.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "iDASH 2018: Task 1",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.github.com/sandialabs/idash2018task1",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

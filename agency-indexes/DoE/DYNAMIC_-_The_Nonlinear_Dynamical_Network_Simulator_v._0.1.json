@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2024-07-29"
+    },
+    "description": "The purpose of the DYNAMIC software system is to perform simulations to validate a new research concept called “Chaotic Logic” which we recently published. The problem to be solved is to simulate certain networks of nonlinearly-interacting dynamical variables, and collect statistics on their behavior, to show that they can reliably perform useful computations. The dynamical trajectories for such networks are computed by time integration of their Hamilton’s equations.",
+    "laborHours": 2827.2,
+    "languages": [
+        "Python 3.5.2"
+    ],
+    "name": "DYNAMIC - The Nonlinear Dynamical Network Simulator v. 0.1",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/dynamic",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

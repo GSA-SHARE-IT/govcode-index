@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-07-28",
+        "metadataLastUpdated": "2020-07-28"
+    },
+    "description": "Logic in Memory Emulator (LiME) is a hardware/software tool specially designed for memory system evaluation and experiment. Emerging memories display a wide range of bandwidths, latencies, and capacities, making it challenging for the computer architect to navigate the design space of potential memory configurations, and for the application developer to assess performance implications of using such memories. With the LiME framework, architectural ideas can be prototyped in great detail yet with sufficient performance to support realistic evaluation on long running applications. LiME consists of two fundamental components: 1) the hardware and OS infrastructure for the emulator, and 2) a suite of benchmark applications to assist in characterizing the performance of current and future computer architectures. Some of the applications have been collected from other open source projects.\nUses:\nLogging, replay and analysis of an application's memory behavior Evaluate impact of emerging memory technology on application performance. Emulate complex memory interactions in whole applications orders of magnitude faster than software\nsimulation. Emulate acceleration hardware co-located with the memory subsystem.\nFeatures:\nCapture and log external memory accesses to a separate off-chip memory device without affecting application execution.\nMemory traces include the address, length, timestamp, and optionally the data for each transaction. Captured trace data can be saved to an SD card for off-line analysis.\nConfigure a wide range of memory latencies in sub-nanosecond increments that encompass highbandwidth and storage class memories.\nSpecify regions of interest (ROI) in applications to reduce the amount of trace data captured for analysis. Currently supports execution on Xilinx Zynq SoC which integrates an ARM processor with FPGA logic on a single device.\nApplications can be run under Linux or in bare metal mode on the ARM cores.",
+    "laborHours": 32041.6,
+    "languages": [],
+    "name": "Logic in Memory Emulator",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/lime.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "2.2"
+}

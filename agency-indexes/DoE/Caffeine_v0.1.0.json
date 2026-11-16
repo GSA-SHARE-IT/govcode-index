@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-08-01",
+        "metadataLastUpdated": "2023-08-01"
+    },
+    "description": "Caffeine is the CoArray Fortran Framework of Efficient Interfaces to Network Environments. Caffeine aims to produce a parallel runtime library that will support Fortran compilers with a programming-model-agnostic application binary interface (ABI) to various lower-level communication libraries. The current version of Caffeine uses the GASNet-EX networking middleware, also developed at Berkeley Lab. On many combinations of applications and platforms, GASNet-EX outperforms the widely used Message Passing Interface (MPI). Through GASNet-EX's support for communicating between graphics processing units (GPU), GASNet-EX has features that specifically target the emerging, leading-edge exascale computing platforms.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Caffeine v0.1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/berkeleylab/caffeine",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

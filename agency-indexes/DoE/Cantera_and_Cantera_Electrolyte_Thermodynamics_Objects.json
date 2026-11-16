@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Cantera is a suite of object-oriented software tools for problems involving chemical kinetics, thermodynamics, and/or transport processes. It is a multi-organizational effort to create and formulate high quality 0D and 1D constitutive modeling tools for reactive transport codes.Institutions involved with the effort include Sandia, MIT, Colorado School of Mines, U. Texas, NASA, and Oak Ridge National Labs. Specific to Sandia's contributions, the Cantera Electrolyte Thermo Objects (CETO) packages is comprised of add-on routines for Cantera that handle electrolyte thermochemistry and reactions within the overall Cantera package. Cantera is a C++ Cal Tech code that handles gas phase species transport, reaction, and thermodynamics. With this addition, Cantera can be extended to handle problems involving liquid phase reactions and transport in electrolyte systems, and phase equilibrium problemsinvolving concentrated electrolytes and gas/solid phases. A full treatment of molten salt thermodynamics and transport has also been implemented in CETO. The routines themselves consist of .cpp and .h files containing C++ objects that are derived from parent Cantera objects representing thermodynamic functions. They are linked unto the main Cantera libraries when requested by the user. As an addendum to the main thermodynamics objects, several utility applications are provided. The first is multiphase Gibbs free energy minimizer based on the vcs algorithm, called vcs_cantera. This code allows for the calculation of thermodynamic equilibrium in multiple phases at constant temperature and pressure. Note, a similar code capability exists already in Cantera. This version follows the same algorithm, but gas a different code-base starting point, and is used as a research tool for algorithm development. The second program, cttables, prints out tables of thermodynamic and kinetic information for thermodynamic and kinetic objects within Cantera. This program serves as a \"Get the numbers out\" utility for Cantera, and as such it is very useful as a verification tool. These add-on utilities are encapsulated into a directory structure named cantera_apps, whose installation uses autoconf and also utilizes Cantera's application environment (i.e., they utilize Cantera as a library).",
+    "laborHours": 97432.0,
+    "name": "Cantera and Cantera Electrolyte Thermodynamics Objects",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Cantera/cantera",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

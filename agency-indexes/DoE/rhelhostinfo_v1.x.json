@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-05-09",
+        "metadataLastUpdated": "2022-05-10"
+    },
+    "description": "rhelhostinfo v1.x adds some functionality to the existing approved C21099 rhelhostinfo by identifying host configuration changes over time. It provides a framework that allows organizations to modify the application functionality for their own requirements, including the ability to configure or return a host to DoD STIG standards per the open-source openSCAP project using the XCCDF framework, identify user command-line history, enumerate the local OSI layer 3 environment, identify and assist with configuring the host firewall, conduct limited packet capture and identify relevant network information.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "rhelhostinfo v1.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

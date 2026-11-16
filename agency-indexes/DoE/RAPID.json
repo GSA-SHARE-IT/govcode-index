@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "allus@ornl.gov"
+    },
+    "date": {
+        "created": "2021-07-20",
+        "metadataLastUpdated": "2021-09-28"
+    },
+    "description": "Parallel computer code for the simulator for dynamics of power systems which has the capability to initiate the system and create different faults for the dynamic analysis. The code is based on time-parallel method (Parareal) with Adaptive Method Reduction (AMR). The coarse solvers for the Parareal algorithm include several Semi Analytical Solution methods. Also, Integrated simulation of coupled transmission and distribution systems can be studied.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "RAPID",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/PowerSystems/rapid",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

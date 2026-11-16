@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "vowelll@osti.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This particular consortium implementation of the software integration infrastructure will, in large part, refactor portions of the Rocstar multiphysics infrastructure. Development of this infrastructure originated at the University of Illinois DOE ASCI Center for Simulation of Advanced Rockets (CSAR) to support the center's massively parallel multiphysics simulation application, Rocstar, and has continued at IllinoisRocstar, a small company formed near the end of the University-based program. IllinoisRocstar is now licensing these new developments as free, open source, in hopes to help improve their own and others' access to infrastructure which can be readily utilized in developing coupled or composite software systems; with particular attention to more rapid production and utilization of multiphysics applications in the HPC environment. There are two major pieces to the consortium implementation, the Application Component Toolkit (ACT), and the Multiphysics Application Coupling Toolkit (MPACT). The current development focus is the ACT, which is (will be) the substrate for MPACT. The ACT itself is built up from the components described in the technical approach. In particular, the ACT has the following major components: 1.The Component Object Manager (COM): The COM package provides encapsulation of user applications, and their data. COM also provides the inter-component function call mechanism. 2.The System Integration Manager (SIM): The SIM package provides constructs and mechanisms for orchestrating composite systems of multiply integrated pieces.",
+    "laborHours": 113452.8,
+    "name": "Multiphysics Application Coupling Toolkit",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IllinoisRocstar/IMPACT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

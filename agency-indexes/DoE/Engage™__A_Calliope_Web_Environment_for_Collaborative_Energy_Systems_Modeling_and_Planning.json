@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2022-02-16",
+        "metadataLastUpdated": "2023-04-24"
+    },
+    "description": "Engage™ is a free, open-access energy system planning tool that allows multiple users/stakeholders to develop and collaborate on capacity expansion models. The tool, developed at the National Renewable Energy Laboratory (NREL), provides a collaborative and easy-to-use interface built on Calliope, a multi-scale energy systems modeling framework. Visit the NREL hosted webtool at https://engage.nrel.gov/",
+    "laborHours": 0.0,
+    "languages": [
+        "JavaScript",
+        "Python",
+        "SCSS",
+        "CSS",
+        "HTML"
+    ],
+    "name": "Engage™: A Calliope Web Environment for Collaborative Energy Systems Modeling and Planning",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/engage",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

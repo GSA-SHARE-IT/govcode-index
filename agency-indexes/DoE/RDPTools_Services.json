@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-17",
+        "metadataLastUpdated": "2020-09-17"
+    },
+    "description": "KBase service code for RDP. A classifier of rRNA amplicon data contributed by the RDB Project. Deploys both client and service.",
+    "laborHours": 608.0,
+    "languages": [],
+    "name": "RDPTools Services",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseattic/rdptools",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

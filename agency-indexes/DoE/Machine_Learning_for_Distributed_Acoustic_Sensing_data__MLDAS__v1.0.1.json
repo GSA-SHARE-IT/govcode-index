@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-02",
+        "metadataLastUpdated": "2021-03-02"
+    },
+    "description": "MLDAS is a Python-written package for exploratory data analysis and deep learning training on Distributed Acoustic Sensing data. The machine learning tools are powered by the PyTorch library and designed to work efficiently on large scale datasets using parallel computing. Various SLURM scripts as well as a tutorial have also been made available to allow geophysicists to quickly and easily implement the available tools in their analysis workflow on supercomputer facilities.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Machine Learning for Distributed Acoustic Sensing data (MLDAS) v1.0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/ml4science/mldas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

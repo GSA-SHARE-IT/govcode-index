@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2018-11-26"
+    },
+    "description": "MICOT is a tool for optimizing and controlling infrastructure systems. In includes modules for optimizing the operations of an infrastructure structure (for example optimal dispatch), designing infrastructure systems, restoring infrastructures systems, resiliency, preparing for natural disasters, interdicting networks, state estimation, sensor placement, and simulation of infrastructure systems. It implements algorithms developed at LANL that have been published in the academic community. This is a release of the of resilient design module of the MICOT.",
+    "laborHours": 12281858.4,
+    "languages": [],
+    "name": "Multi Infrastructure Control and Optimization Toolkit, Resilient Design Module (MICOT-RDT), version 2.X",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/lanl-ansi/micot-rdt/blob/master/LICENCE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl-ansi/micot",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

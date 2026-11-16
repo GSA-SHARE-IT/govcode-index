@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-11-03",
+        "metadataLastUpdated": "2023-11-03"
+    },
+    "description": "The unambiguous identification of compounds from their electron ionization mass (EI-MS) spectra remains a significant unsolved problem in the field of metabolomics and analytical chemistry as a whole. Typically EI-MS spectra are compared using various mathematical operations that convert the spectral similarity or differences into a distance-like metric that roughly approximates the similarity of any two spectra. A commonly used metric for this is the cosine similarity metric which has values close to one for very similar spectra and a value of zero for very dissimilar spectra; however, no metric is perfect. Due to the prevalence of structurally-similar compounds such as isomers and the prevalence of certain fragmentation patterns across structurally-dissimilar compounds, the unambiguous assignment of EI-MS spectra compounds remains difficult. Frequently, querying an observed EI-MS spectrum against a large database such as the NIST17 library yields multiple possible assignments requiring the end user to distinguish between multiple high scoring hits, or multiple low scoring hits while keeping in mind that the correct hit may not be in the database at all. Although techniques such as orthogonal information from techniques such as chromatography can greatly aid in unambiguous assignment, this also requires more complicated experimental designs and access to more complicated analytical instrumentation.\nSubstructures can be trivially detected and represented as strings using a previously published technique called node coloring from a known chemical structure. However, for experimentally-derived EI-MS spectra this information must be derived from the spectra itself (i.e., because we do not know what compound it represents). To achieve this, the software uses techniques from the field of machine learning and a large training dataset of EI-MS spectra corresponding to known structures annotated with substructure strings, to build models that can predict the presence of a given chemical substructure from an EI-MS spectrum directly.If these predictions are of high-quality (i.e., are unlikely to be false positives), the presence of one or more predicted substructures can be used to constrain the number of possible hits for a query spectrum. Mathematically, this restriction could be expressed in many forms, but the most straight-forward implementation is to weight the cosine similarity of a query spectrum and a plausible database match with a Tanimoto-like coefficient based on the ratio of the number of substructures predicted to the number of substructures present in the potential database hit.\nDetermining which combination of models best reduces assignment ambiguity will be achieved using a combination of manual curation and optimization techniques such as genetic algorithms. This software will perform all the steps necessary to construct said models from a training dataset and evaluate them using a holdout dataset. Various statistical analyses can be performed to determine if this approach does decrease assignment ambiguity. For example, if this approach works, on average, the rank-order of the correct assignment for the holdout set of EI-MS spectra should decrease and the weighted cosine similarities for most of the possible matches in the database should be better than the unweighted cosine similarities. Furthermore, this same pipeline can be used on real experimental data to generate less ambiguous assignments.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "EI_MS_ML",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/EI_MS_ML",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

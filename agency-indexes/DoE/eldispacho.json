@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "simsdl@ornl.gov"
+    },
+    "date": {
+        "created": "2018-04-18",
+        "metadataLastUpdated": "2018-04-18"
+    },
+    "description": "eldispacho (Dispatcher) is a singleton that simulates the quantum network itself. Each quantum client connects to the dispatcher, which then simulates channels for communication. Eldispacho has a sense of time and space and thus is where the noise model is located.\n",
+    "laborHours": 1580.8,
+    "name": "eldispacho",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-QCI/eldispacho",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

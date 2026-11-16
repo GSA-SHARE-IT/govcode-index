@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-11-03",
+        "metadataLastUpdated": "2023-05-05"
+    },
+    "description": "Bats are notoriously difficult to study, therefore, identifying specific behavioral trends and the precise environmental conditions at the time of collision requires a monitoring solution that can reliably collect relevant data. To date, thermal infrared video surveillance has been extensively applied to study bats and has proven to be a powerful yet cumbersome tool. Current analytical approaches are time consuming because data processing data has not been fully automated. In the past, steps have been taken to record avian and bat activity in conjunction with complicated image processing techniques that separate species from other moving objects within the field of view (i.e. clouds and portions of the wind turbine). Once the videos are collected, the post-processing does not allow real time monitoring and identification, leading to a delay in both studying the behavior of these species and determining the effectiveness of any impact reduction strategy being studied. Moreover, object identification capability is lacking, thus limiting the usefulness of video data. To resolve these issues, we are using open source 3D computer vision and machine learning techniques allowing for automatic detection of objects in real-time with the ability to correlate these objects with environmental variables and recording the flight paths of each object. The machine learning has been trained on 3D data and allows for automated real-time data collection, identification and tracking, thereby eliminating the need for long and tedious post-analysis processing of the videos. This machine learning model is an added feature to the previous BatFinder Smart Video BioFilter and increases the accuracy of that systems classification by increasing the accuracy of identifying bats (90% accuracy) and insects (69% accuracy) to a 97% accuracy. There are two object classifier machine learning models, Binary and multi-classification. Binary object classifier labeled BatFinder_Smart_Video_BioFilter.h5 distinguishes between biological objects and non-biological objects. The main goal of this object classifier is to ignore the turbine blades while detecting biological object flying withing the rotor swept area of the turbine. Non-biological objects have a probability of 0 and biological objects have a probability of 1. Multi-classifier labeled Multiclass_BatFinder_Smart_Video_BioFilter.h5 distinguishes between bats, birds, insects and non-biological.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "3DBFSVBF (3D BatFinder Smart Video BioFilter and Multi-class BatFinder Smart Video BioFilter) [SWR-22-88]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/BatFinder_Smart_Video_BioFilter",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,29 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-12-13"
+    },
+    "description": "Pececillo is a proxy-app for the open source Truchas metal processing code (LA-CC-15-097). It implements many of the physics models used in Truchas: free-surface, incompressible Navier-Stokes fluid dynamics (e.g., water waves); heat transport, material phase change, view factor thermal radiation; species advection-diffusion; quasi-static, elastic/plastic solid mechanics with contact; electomagnetics (Maxwell's equations). The models are simplified versions that retain the fundamental computational complexity of the Truchas models while omitting many non-essential features and modeling capabilities. The purpose is to expose Truchas algorithms in a greatly simplified context where computer science problems related to parallel performance on advanced architectures can be more easily investigated. While Pececillo is capable of performing simulations representative of typical Truchas metal casting, welding, and additive manufacturing simulations, it lacks many of the modeling capabilites needed for real applications.",
+    "laborHours": 21705.6,
+    "name": "Pececillo",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://gitlab.com/truchas/pececillo/blob/master/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/truchas/pececillo",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

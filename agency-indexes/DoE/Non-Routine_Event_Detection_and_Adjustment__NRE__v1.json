@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-12-18",
+        "metadataLastUpdated": "2019-06-26"
+    },
+    "description": "The non-routine event (NRE) detection and adjustment module provides algorithms to detect and to adjust changes in energy use that are not attributable to installed efficiency measures, and not accounted for in the baseline model's independent variables. The detection algorithm is based on statistical change point algorithm and the adjustment uses a data driven approach to quantify the changes in the energy use that are induced by the NRE.",
+    "laborHours": 653.6,
+    "languages": [],
+    "name": "Non-Routine Event Detection and Adjustment (NRE) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/nre",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

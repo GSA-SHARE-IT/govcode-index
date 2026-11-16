@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2021-07-26",
+        "metadataLastUpdated": "2023-08-14"
+    },
+    "description": "This wind turbine digital twin software (wtDigiTwin) provides a digital twin solution for wind turbine applications. The focus of wtDigiTwin is to estimate loads, motions and environmental conditions for an operating wind turbine. The program uses supervisory control and data acquisition (SCADA) measurements as inputs, together with a wind turbine model. The wind industry is currently challenged by the high cost of operation and maintenance. These costs could be mitigated if component failures are predicted, but such predictions are difficult unless the turbines are equipped with expensive measuring devices. The alternative is to use a digital twin such as wtDigiTwin to estimate the necessary signals. wtDigiTwin can perform online prediction of signals that are otherwise not measured, using a limited set of reliable measurements and a physics-based model. The predicted signals can be used in applications that have direct cost benefits: 1) real-time estimation of the fatigue consumption of key components of the wind turbine; 2) root cause analyses and failure detections ; 3) lifetime reassessments ; 4) improvements to follow-on designs. The current version provides examples to estimate wind speed, thrust, torque, tower-top position, and tower loads on an onshore wind turbine using the following measurements tower top acceleration, generator torque, pitch, and rotational speed. The model combines a linear state-space model, a wind speed estimator, and a Kalman filter algorithm that integrates measurements with the state model to perform state estimations. The state space model is obtained either using OpenFAST linearizations, or using the yams package provided with the software.",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB",
+        "Python"
+    ],
+    "name": "wtDigiTwin (Wind Turbine Digital Twin) [SWR-21-15]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/wtDigiTwin",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

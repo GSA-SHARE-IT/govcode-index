@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "joiner@ameslab.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "ThermoPhonon is a stand-alone code, which can be integrated into other software packages. Typically, it is used together with a density functional theory (DFT) code (such as VASP, Wien2k, AbInit, SIESTA) and a phonon code (such as Phonopy or Phon). The workflow is the following. Molecular dynamics (MD) in a supercell at a given temperature T is performed using another code. After sufficient equilibration, the output in the form of atomic positions and forces for a large number of selected MD steps is recorded into a file. If needed, one can modify this file by applying additional constraints, such as enforced crystal symmetry or subtracted motion of the center of mass. ThermoPhonon reads the file with atomic positions and forces and writes a new file with the force constants. Force constants can be used by another code (such as Phonopy or Phon) to produce phonon spectrum for plotting, in the assumption of known equilibrium atomic positions provided in a separate file.",
+    "homepageURL": "http://lib.dr.iastate.edu/ameslab_software/2",
+    "laborHours": 0.0,
+    "name": "ThermoPhonon",
+    "organization": "Ames Laboratory (AMES)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://lib.dr.iastate.edu/ameslab_software/2",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Ames Laboratory (AMES)"
+    ]
+}

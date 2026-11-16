@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-05-28",
+        "metadataLastUpdated": "2023-03-13"
+    },
+    "description": "The Stochastic Techno-Economic Model or STEM is an analytical tool that estimates the logistics cost of different biomass feedstocks by incorporating uncertainty into the modeling framework. The scope of the model covers multiple stages of the biomass life cycle spanning feedstock harvest, collection, transportation and handling, preprocessing, and storage. The model determines the total logistics cost per dry metric ton ($/DM ton) for biomass and breaks down the costs for important cost categories including ownership related costs such as interest and depreciation, insurance, housing, and taxes as well as operating costs like repairs and maintenance, labor costs, and fuel and lube costs.",
+    "laborHours": 0.0,
+    "languages": [
+        "C"
+    ],
+    "name": "Stochastic Techno Economic Model",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/STEM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-04-11",
+        "metadataLastUpdated": "2018-04-11"
+    },
+    "description": "This code package solves the multi-species 1D-3V BGK kinetic model of Haack, Hauck, and Murillo [J. Stat. Phys., 168, 2017, Phys. Rev. E, submitted, 2017]. This model conserves mass, momentum, and energy and satisfies Boltzmann's H Theorem, i.e. entropy dissipation. Additionally, the collision model matches either the momentum or temperature relaxation rate of the Boltzmann equation. It can be run in 0D-3V and 1D-3V modes.",
+    "laborHours": 3070.4,
+    "name": "Multi-BGK",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Multi-BGK",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-12-13"
+    },
+    "description": "Knowledge graphs represent information as entities and relationships between them. For tasks such as natural language question answering or automated analysis of text, a knowledge graph provides valuable context to establish the specific type of entities being discussed. It allow us to derive better context about newly arriving information and leads to intelligent reasoning capabilities. We address two primary needs: A) Automated construction of knowledge graphs is a technically challenging, expensive process; and B) The ability to synthesize new information by monitoring newly emerging knowledge is a transformational capability that does not exist in state of the art systems.",
+    "laborHours": 19136.8,
+    "name": "NOUS: A Knowledge Graph Management System",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/streaming-graphs/NOUS",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/streaming-graphs/NOUS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

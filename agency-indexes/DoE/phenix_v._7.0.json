@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2024-07-08",
+        "metadataLastUpdated": "2024-07-16"
+    },
+    "description": "SAND2021-6741 O\nphenix is Sandia's orchestration tool that allows users to quickly deploy, un-deploy, and interact with SCEPTRE ICS environments. phenix is an orchestration tool used for managing the creation, configuration, and deployment of modeling and simulation environments. As an abstraction layer on top of an underlying virtual machine manager called minimega, phenix organizes the network, application, and scenario information for a given deployment. It allows users to create, configure, and deploy experiments in a repeatable and rapid fashion. An application framework provides the flexibility to manipulate an experiment to suit various needs and requirements. phenix also includes a web-based graphical user interface (GUI) where experiments can be created, configured, and interacted with.",
+    "laborHours": 131145.6,
+    "languages": [
+        "Go",
+        "Javascript",
+        "Vue"
+    ],
+    "name": "phenix v. 7.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/sceptre-phenix",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "7.0"
+}

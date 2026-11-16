@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-12-16",
+        "metadataLastUpdated": "2020-12-16"
+    },
+    "description": "HavoqGT (Highly Asynchronous Visitor Queue Graph Toolkit) is a framework for expressing\nasynchronous vertex-centric graph algorithms, and executing them on High Performance Computing (HPC) systems. It provides a vertex 'visitor' interface, where actions are defined at an individual vertex level, and contains a suite of classic graph algorithms. HavoqGT is capable of processing large graphs stored in NVRAM (SSDs) using a memory mapped interface.\n",
+    "laborHours": 15139.2,
+    "languages": [],
+    "name": "Highly Asynchronous Visitor Queue Graph Toolkit",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/havoqgt",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.2"
+}

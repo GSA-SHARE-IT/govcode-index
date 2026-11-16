@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "vowelll@osti.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This is a Python API for interacting with USGIN Content Models.",
+    "laborHours": 243.2,
+    "name": "USGIN content models API",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/usgin/usginmodels/blob/master/License.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/usgin/usginmodels",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

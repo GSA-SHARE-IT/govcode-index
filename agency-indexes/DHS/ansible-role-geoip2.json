@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2021-01-04",
+        "lastModified": "2026-09-08"
+    },
+    "description": "An Ansible role for installing a MaxMind GeoIP2 database.",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-geoip2/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-geoip2",
+    "laborHours": 1071.5,
+    "languages": [
+        "Shell",
+        "Jinja",
+        "Python"
+    ],
+    "name": "ansible-role-geoip2",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-geoip2.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

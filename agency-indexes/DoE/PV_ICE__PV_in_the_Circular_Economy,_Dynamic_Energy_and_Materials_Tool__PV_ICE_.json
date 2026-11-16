@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-03-24",
+        "metadataLastUpdated": "2021-08-17"
+    },
+    "description": "This open-source tool implements Circular Economy metrics for photovoltaic (PV) materials. It can be used to quantify and assign a value framework to efforts on re-design, reduction, replacement, reuse, recycling, and lifetime and reliability increases in the PV value chain.\n\nThe PV_ICE is leveraging published data from different sources on PV manufacturing and predicted technological changes. Input data is being compiled here\n\nThis tool will help implement circularity metrics, quantify and assign a value framework to efforts on re-design, reduction, replacement, reusage, recycling, and lifetime and reliability increases on PV.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "PV_ICE: PV in the Circular Economy, Dynamic Energy and Materials Tool (PV ICE)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/PV_ICE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "v. 2"
+}

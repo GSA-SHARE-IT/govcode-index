@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2022-10-17",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "The purpose of this code is to automatically create random C programs that are guaranteed to have bugs of a particular \"interestingness\". We are using this to train learning machines to fuzz programs better. Other people might want to use it for training humans to examine software.",
+    "laborHours": 0.0,
+    "languages": [
+        "python 3"
+    ],
+    "name": "Buggy-Program-Program",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/Buggy-Program-Program",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

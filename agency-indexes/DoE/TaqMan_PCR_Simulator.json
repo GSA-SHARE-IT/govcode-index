@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "TaqSim simulates various types of PRC reactions, including multiplex reactions. Given a set of primers and dearch databases, TaqSim identifies amplicons that match user defined criteria and can generate output files in a number of formats allowing it to serve as a front-end or back-end for other software.",
+    "homepageURL": "http://staff.vbi.vt.edu/dyermd/publications/taqsim.html",
+    "laborHours": 0.0,
+    "name": "TaqMan PCR Simulator",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://staff.vbi.vt.edu/dyermd/publications/taqsim.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

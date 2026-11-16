@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "NREL's Developer Network, developer.nrel.gov, provides data that users can access to provide data to their own analyses, mobile and web applications. Developers can retrieve the data through a Web services API (application programming interface). The Developer Network handles overhead of serving up web services such as key management, authentication, analytics, reporting, documentation standards, and throttling in a common architecture, while allowing web services and APIs to be maintained and managed independently.",
+    "laborHours": 64736.8,
+    "name": "Developer Network",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NREL/developer.nrel.gov/blob/master/source/terms.html.erb",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/developer.nrel.gov",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

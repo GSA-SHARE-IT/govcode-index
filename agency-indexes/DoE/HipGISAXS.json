@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-01-08",
+        "metadataLastUpdated": "2019-09-23"
+    },
+    "description": "Implementation of a flexible Grazing Incidence Small-Angle Scattering (GISAXS). Simulation code based on the Distorted Wave Born Approximation (DWBA) theory that effectively utilizes the parallel processing power provided by graphic processors and multicore processors. This constitutes a handy tool for experimentalists facing a massive flux of data, allowing them to accurately simulate the GISAXS process and analyze the produced data. The software computes the diffraction image for any given super position of custom shapes or morphologies in a user-defined region of the reciprocal space for all possible grazing incidence angles and in-plane sample rotations. This flexibility then allows to easily tackle a wide range of possible sample structures such as nanoparticles o top of or embedded in a substrate or a multilayered structure. In cases where the sample displays regions of significant refractive index contrast, an algorithm has been implemented to perform a slicing of the sample along the vertical direction and compute the averaging refractive index profile to be used as the reference geometry of the unpertubed system. Preliminary tests show good agreement with experimental data for a variety of commonly encountered nanostructures.",
+    "laborHours": 20033.6,
+    "languages": [],
+    "name": "HipGISAXS",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbl-camera/hipgisaxs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

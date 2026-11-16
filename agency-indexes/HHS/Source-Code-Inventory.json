@@ -1,0 +1,43 @@
+{
+    "name": "Source-Code-Inventory",
+    "description": "An application and Wiki for managing an inventory of source code, compliant with the Federal Source Code Policy.",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GNU General Public License v3.0"
+            }
+        ]
+    },
+    "organization": "Department of Health and Human Services",
+    "homepageURL": "https://github.com/HHS/Source-Code-Inventory",
+    "downloadURL": "https://api.github.com/repos/HHS/Source-Code-Inventory/downloads",
+    "repositoryURL": "https://github.com/HHS/Source-Code-Inventory.git",
+    "vcs": "git",
+    "laborHours": 0.0,
+    "languages": [
+        "C#"
+    ],
+    "date": {
+        "created": "2018-01-30",
+        "lastModified": "2022-03-15",
+        "metadataLastUpdated": "2022-03-22"
+    },
+    "tags": [
+        "application",
+        "Wiki",
+        "managing",
+        "inventory",
+        "source",
+        "code",
+        "compliant",
+        "Federal",
+        "Policy"
+    ],
+    "contact": {
+        "email": "HHS_GitHub_Service_Desk@hhs.gov",
+        "name": "U.S. Department of Health & Human Services"
+    }
+}

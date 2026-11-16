@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2024-09-17",
+        "metadataLastUpdated": "2025-01-09"
+    },
+    "description": "This is the implementation of the framework for the planning of the technological makeup of the industrial sector.\nMotivated by the efforts to achieve carbon neutrality, the model of this framework modifies the portfolio of technologies over time for the sector of interest such that,\n- Net Present Value (NPV) is minimized\n- Constraint on Greenhouse Emissions (GHG), e.g. carbon dioxide, is satisfied\n- Demand of the underlying commodity is satisfied\n- The current implementation reflects a case study for the electric power sector.\nThe for a given initial set of capacities of different vintages, the space of decisions include,\n- Retirement of the existing capacities.\n- Retrofitting the existing capacities to alternative characteristics.\n- Creation of new capacities from a technology portfolio.\nAll the associated quantities with the deployments, e.g. CO2, heat requirement, etc.",
+    "laborHours": 2690.4,
+    "languages": [],
+    "name": "STREAM: Strategic Technology Roadmapping and Energy, Environmental, and Economic Analysis Model",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ANL-CEEESA/dre4m",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

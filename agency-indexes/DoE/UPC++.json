@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "aespiritu@lbl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2019-07-23"
+    },
+    "description": "UPC++ is a Partitioned Global Address Space (PGAS) extension for C++, with three main objectives: 1) to provide an object-oriented PGAS programming model in the context of the popular C++ language; 2) to add useful parallel programming idioms unavailable in UPC, such as asynchronous remote function invocation and multidimensional arrays, to support complex scientific applications; 3) to offer an easy on-ramp to PGAS programming through interoperability with other existing parallel programming systems (e.g., MPI, OpenMP, CUDA). UPC++ includes two main features beyond UPC: 1) One of the major limitations of UPC in the context of DOE application is the relatively weak notion of multidimensional arrays, which it inherited from C. To remedy this problem in UPC++, we included a multidimensional domain and array library based on that of Titanium. Titanium's library is similar to Chapel's dense and strided domains, as both were inspired by the dense and strided regions and arrays in ZPL. 2) Another feature provided by UPC++ but not by UPC is remote function invocation, which is inspired by Phalanx, X10, Habanero-C, and C++11. The user may start an asynchronous remote function invocation with the following syntax: \"async(place)(function, args...);\". UPC++ provides two programming constructs for specifying dynamic dependencies among tasks: 1) event-driven execution as in Phalanx and Habanero-C; 2) finish-async as in X10. We implemented UPC++ with a \"compiler-free\" approach using C++ templates and runtime libraries. The UPC++ front-end consists of a set of C++ header files that enables the C++ compiler to \"translate\" UPC++ features in a user program to runtime library calls. In particular, we use templates and operator overloading to customize the behavior of UPC++ types.\n\nThis software package has been replaced with UPCC++ V 1.0",
+    "laborHours": 20702.4,
+    "languages": [],
+    "name": "UPC++",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://bitbucket.org/berkeleylab/upcxx/src/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/upcxx.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

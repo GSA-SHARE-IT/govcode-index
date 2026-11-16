@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2020-06-26",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "Power Distribution Designing for Resilience Application (PowDDeR) is a software application to succinctly capture the capabilities of a power system to respond to disturbances, including natural or human (malicious or errors) caused disturbances. The software provides a measure of resilience for power systems.",
+    "laborHours": 0.0,
+    "languages": [
+        "C#"
+    ],
+    "name": "Power Distribution Designing For Resilience Application (powdder)",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabUnsupported/PowDDeR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

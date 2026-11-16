@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2024-04-30",
+        "metadataLastUpdated": "2024-04-30"
+    },
+    "description": "Parsnip has three parts. The first part is the front-end user experience. The front end will be a graphical representation of the intermediate language. Once a user is satisfied with the information on the front end, Parsnip translates the data from the visual application into the second part of Parsnip - the intermediate language. More advanced users may skip the front end and generate their own intermediate language files. The final part is the backend which takes the intermediate language files and generates Zeek and Spicy code.\nParsnip will not completely replace parser developers. Many protocols have unique challenges requiring manual effort; however, the goal of Parsnip is to automate at least 90% of the development that largely consists of repetitive tasks.  Parsnip output will compile a functioning parser but may not include all PDU types or parse all data.",
+    "laborHours": 5973.6,
+    "languages": [
+        "JavaScript",
+        "Python",
+        "Jinja2"
+    ],
+    "name": "Parsnip Parser Creation Application",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/parsnip",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

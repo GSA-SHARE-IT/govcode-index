@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "pgarvey@bnl.gov"
+    },
+    "date": {
+        "created": "2019-09-25",
+        "metadataLastUpdated": "2019-09-25"
+    },
+    "description": "This is a repository to build areaDetector and its dependencies out of the relevant git repositories. These are included as submodules (along with areaDetector).",
+    "laborHours": 197.6,
+    "languages": [],
+    "name": "NSLS-II/epics-modules",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NSLS-II/epics-modules",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

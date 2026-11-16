@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-12-02",
+        "metadataLastUpdated": "2021-09-07"
+    },
+    "description": "HYbrid Battery Robust Energy Design (HYBRED) Tool is formulated as a mixed integer linear programming (MILP) model where discrete decisions are taken as of size of battery per type, choice of service each battery type can provide at a specific time (grid or dynamic regulatory service), and times of charging and discharging each battery. The potential charging sources are grid and renewables while the end users are commercial and industrial building loads, and electrical vehicles. The objective of the model is to maximize the batteries profit or in other words, to minimize the total battery cost. Major inputs to the model are solar irradiation profiles, time of use tariffs, buildings loads, dynamic regulatory service signal, various battery parameters, etc. Major outputs of the tool include battery sizes, costs and revenues, temporal profiles, and duration curves.",
+    "homepageURL": "https://www.labpartnering.org/p/lab-technologies/02761bf5-e886-43b9-b506-5be4b0416b99",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "HYBRED (HYbrid Battery Robust Energy Design Tool)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.labpartnering.org/p/lab-technologies/02761bf5-e886-43b9-b506-5be4b0416b99",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.labpartnering.org/p/lab-technologies/02761bf5-e886-43b9-b506-5be4b0416b99",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ]
+}

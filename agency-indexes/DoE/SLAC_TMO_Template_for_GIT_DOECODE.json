@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "coffee@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2023-09-20",
+        "metadataLastUpdated": "2023-09-20"
+    },
+    "description": "Template for development of TMO related code at LCLS(-II)",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SLAC TMO Template for GIT/DOECODE",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slac-lcls-tmo/tmo-template",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

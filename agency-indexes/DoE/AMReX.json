@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "asalmgren@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-14",
+        "metadataLastUpdated": "2021-04-14"
+    },
+    "description": "AMReX is a software framework for the development and implementation of massively parallel algorithms using block-structured adaptive mesh refinement (AMR). Block-structured AMR provides the basis for the temporal and spatial discretization strategy for a large variety of applications of interest to the DOE. AMReX provides a unified infrastructure with the functionality needed for applications to be able to effectively and efficiently utilize machines from laptops to exascale accelerator-based architectures. AMR reduces the computational cost and memory footprint compared to a uniform mesh while preserving accurate descriptions of different physical processes in complex multi-physics algorithms. AMReX supports algorithms that solve systems of partial differential equations (PDEs) in simple or complex geometries, and those that use particles and/or particle-mesh operations to represent component physical processes.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "AMReX",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AMReX-Codes/amrex",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

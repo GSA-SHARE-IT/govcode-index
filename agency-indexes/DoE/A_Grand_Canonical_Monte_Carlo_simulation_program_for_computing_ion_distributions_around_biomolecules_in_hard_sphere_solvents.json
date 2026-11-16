@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The GIBS software program is a Grand Canonical Monte Carlo (GCMC) simulation program (written in C++) that can be used for 1) computing the excess chemical potential of ions and the mean activity coefficients of salts in homogeneous electrolyte solutions; and, 2) for computing the distribution of ions around fixed macromolecules such as, nucleic acids and proteins. The solvent can be represented as neutral hard spheres or as a dielectric continuum. The ions are represented as charged hard spheres that can interact via Coulomb, hard-sphere, or Lennard-Jones potentials. In addition to hard-sphere repulsions, the ions can also be made to interact with the solvent hard spheres via short-ranged attractive square-well potentials.",
+    "laborHours": 3906.4,
+    "name": "A Grand Canonical Monte Carlo simulation program for computing ion distributions around biomolecules in hard sphere solvents",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://store.pnnl.gov/content/30876-615-os",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Electrostatics/GIBS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

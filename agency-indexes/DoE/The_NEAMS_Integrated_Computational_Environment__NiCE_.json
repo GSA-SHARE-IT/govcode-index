@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Many new, high-performance nuclear energy modeling and simulation tools are under development in the United States and many more existing projects are moving to high-performance computing. This shift to state-of-the-art modeling and simulation will not only result in an unprecedented use of computing resources but it will generate extremely large amounts of data in extraordinary detail. Domain scientists will find themselves simultaneously in two positions: managing the complexity of their own problem domain and managing the complexity of a nightmarish scenario of high-performance computational tools. We believe that the computational science community should develop integrated tools for coupling, working with and analyzing data from simulation codes instead of leaving domains scientists and students to fend for themselves and come up with a \"working\" solution. While many projects offer some set of tools to work with their codes, to launch jobs remotely or to setup input files, most of these tools are rarely integrated in a holistic way to provide an easy, common and high-productivity environment for users. For that matter, most remote jobs are launched on \"the machine in the other room,\" but that certainly will not work for larger problems that require Leadership Class computing resources found only at U.S. National Laboratories or similar facilities. Overcoming the challenges of launching on these machines and even on public or private \"clouds\" are left as a challenge to the user.",
+    "laborHours": 92902.4,
+    "name": "The NEAMS Integrated Computational Environment (NiCE)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/eclipse/ice/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/eclipse/ice",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

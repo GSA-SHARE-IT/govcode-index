@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-11-17",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "FENATE: Fast Evaluation of Network Architecture -- Toolchain and Environment. Our framework is comprised of scalable\ntools to both skeletonize and simulate MPI communication patterns providing a functional view of the network under\ninvestigation (trading off accuracy for speed)",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "FENATE",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/FENATE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

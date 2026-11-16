@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-26",
+        "metadataLastUpdated": "2020-08-26"
+    },
+    "description": "This repo contains the various client libraries generated from the Data API Thrift specifications. Upon changes to the Data API Thrift specs, new client libraries are generated and copied into this repo. A new semver tag is generated, and the repo is merged into the canonical repo (KBase). This workflow ensures that downstream projects can pick up the correct or latest library version.",
+    "laborHours": 108923.2,
+    "languages": [],
+    "name": "KBase Data Thrift Clients",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/kbase-data-thrift-clients",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

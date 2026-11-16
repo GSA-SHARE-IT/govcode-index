@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "ezellma@ornl.gov"
+    },
+    "date": {
+        "created": "2022-02-23",
+        "metadataLastUpdated": "2022-02-23"
+    },
+    "description": "Phoenix is a library and set of tools to simplify cluster provisioning and management.  It is intended to be lightweight yet powerful.  Its design borrows the best ideas and corrects the worst sins from other cluster management systems used in the past.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Phoenix",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/olcf/phoenix",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

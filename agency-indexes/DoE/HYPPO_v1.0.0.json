@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-11-23",
+        "metadataLastUpdated": "2021-11-23"
+    },
+    "description": "HYPPO is a hyperparameter optimization (HPO) software that uses surrogate modeling and uncertainty quantification to provide reliable neural network architectures. Similar state-of-the-art HPO technologies do not use such features and mostly perform random searches to explore the parameter space, which can easily become computationally expensive. Using HYPPO, the user is able to reduce by an order of magnitude the number of evaluations necessary to identify the most optimal region in the hyperparameter space. Finally, using asynchronous nested parallelism, we are able to decrease by two orders of magnitude the amount of time required to complete the HPO process.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "HYPPO v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/hpo-uq/hyppo",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

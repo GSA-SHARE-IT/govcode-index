@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-03-11",
+        "metadataLastUpdated": "2019-03-12"
+    },
+    "description": "Coramin is a package that provides tools for developing tailored algorithms for mixed-integer nonlinear programming problems. This software includes the ability to:\n- Generate convex or piecewise relaxations of nonlinear optimization problems, addressing bilinear, quadratic, and convex/concave univariate functions\n- Perform optimization-based bounds tightening on all or subsets of the problem variables\n- Generate polyhedral envelopes for multi-linear functions",
+    "laborHours": 2006.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "Coramin v. 0.1 Beta",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Coramin/Coramin",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 0.1"
+}

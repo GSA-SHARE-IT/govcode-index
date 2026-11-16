@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "leblondtr@ornl.gov"
+    },
+    "date": {
+        "created": "2024-02-01",
+        "metadataLastUpdated": "2024-02-01"
+    },
+    "description": "We introduce the Trapped-Ion Surface Code Compiler (TISCC), a software tool that generates circuits for a universal set of surface code patch operations in terms of a native trapped-ion gate set. To accomplish this, TISCC manages an internal representation of a trapped-ion system where a repeating pattern of trapping zones and junctions is arranged in an arbitrarily large rectangular grid. Surface code operations are compiled by instantiating surface code patches on the grid and using methods to generate transversal operations over data qubits, rounds of error correction over stabilizer plaquettes, and/or lattice surgery operations between neighboring patches. Beyond the implementation of a basic surface code instruction set, TISCC contains corner movement functionality and a patch translation that is implemented using ion movement alone. Except in the latter case, all TISCC functionality is extensible to alternative grid-like hardware architectures. TISCC output has been verified using the Oak Ridge Quasi-Clifford Simulator (ORQCS).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ORNL-QCI/TISCC",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ORNL-QCI/TISCC/blob/v1.0.0/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-QCI/TISCC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

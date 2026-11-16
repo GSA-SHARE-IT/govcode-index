@@ -1,0 +1,29 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "A processor emulator and a suite of benchmark applications have been developed to assist in characterizing the performance of data-centric workloads on current and future computer architectures. Some of the applications have been collected from other open source projects. For more details on the emulator and an example of its usage, see reference [1].",
+    "laborHours": 21872.8,
+    "name": "Processor Emulator with Benchmark Applications",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://bitbucket.org/PerMA/emulator_st/src/2969fa5dab7e1b0ffe425869bd27158242c2ee27/COPYING",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/perma/emulator_st",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

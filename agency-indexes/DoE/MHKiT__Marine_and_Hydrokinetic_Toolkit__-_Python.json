@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "chitra.sivaraman@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-01-13",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The MHKiT Code Hub is a collection of open-source marine renewable energy (MRE) software. The MHKiT code, developed in Python and MATLAB, includes modules for ingesting, quality controlling, processing, visualizing, and managing data. MHKiT-Python and MHKiT-MATLAB provide robust and verified functions in both Python and MATLAB that are needed by the MRE community to standardize data processing. Calculations and visualizations adhere to IEC technical specifications and other guidelines. Current functionality includes power performance, power quality, mechanical loads, resource tools, and data quality control for wave, tidal, and river applications.",
+    "laborHours": 593985.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "MHKiT (Marine and Hydrokinetic Toolkit) - Python",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/MHKiT-Software/MHKiT-Python",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

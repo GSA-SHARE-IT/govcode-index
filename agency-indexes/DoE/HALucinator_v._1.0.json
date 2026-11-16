@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-07-22",
+        "metadataLastUpdated": "2019-07-22"
+    },
+    "description": "Scripts that enable emulating firmware by intercepting low-level hardware abstraction function calls and replacing their execution with abstractions of the hardware the intercepted functions are intended to interact with.",
+    "laborHours": 4316.8,
+    "languages": [],
+    "name": "HALucinator v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/embedded-sec/halucinator",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 1.0"
+}

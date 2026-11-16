@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "albertop@iastate.edu"
+    },
+    "date": {
+        "created": "2022-03-31",
+        "metadataLastUpdated": "2022-03-31"
+    },
+    "description": "Reduced-order model that takes the biomass biochemical composition as input and returns the primary pyrolysis products in a dictionary. ",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Reduced-order model for biomass pyrolysis",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Biomass-Autothermal-Pyrolysis/ReducedOrderModel",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

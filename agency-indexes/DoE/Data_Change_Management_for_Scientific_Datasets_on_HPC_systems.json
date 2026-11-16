@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-10-31",
+        "metadataLastUpdated": "2019-09-23"
+    },
+    "description": "The Dac-Man framework identifies, captures and manages change in large scientific datasets, and enables plug-in of domain-specific change analysis with minimal user effort.",
+    "laborHours": 4316.8,
+    "languages": [],
+    "name": "Data Change Management for Scientific Datasets on HPC systems",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dghoshal-lbl/dac-man",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

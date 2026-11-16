@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "LibVMI is an introspection library focused on reading and writing memory from virtual machines (VMs). For convenience, LibVMI also provides functions for accessing CPU registers, pausing and unpausing a VM, printing binary data, and more. LibVMI is designed to work across multiple virtualization platforms. LibVMI currently supports VMs running in either Xen or KVM. LibVMI also supports reading physical memory snapshots when saved as a file.",
+    "laborHours": 59097.6,
+    "languages": [
+        "Yacc",
+        "C++",
+        "C",
+        "CMake",
+        "M4",
+        "Python"
+    ],
+    "name": "LibVMI",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/libvmi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "0.6"
+}

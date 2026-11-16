@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Hardware advancements such as Intel's PEBS and AMD's IBS, as well as software developments such as the perf_event API in Linux have made available the acquisition of memory access samples with performance information. MemAxes is a visualization and analysis tool for memory access sample data. By mapping the samples to their associated code, variables, node topology, and application dataset, MemAxes provides intuitive views of the data.",
+    "laborHours": 5198.4,
+    "name": "MemAxes Visualization Software",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/scalability-llnl/MemAxes",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

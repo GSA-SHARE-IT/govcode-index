@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2018-05-30",
+        "metadataLastUpdated": "2023-03-07"
+    },
+    "description": "Example recipes and scripts for use with CIVET (Continuous Integration, Verification, Enhancement, and Testing).",
+    "laborHours": 136.8,
+    "languages": [],
+    "name": "Example CIVET recipes",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/civet_example_recipes",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

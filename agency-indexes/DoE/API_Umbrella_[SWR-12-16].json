@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-09-12",
+        "metadataLastUpdated": "2023-05-31"
+    },
+    "description": "API Umbrella is an open source API management platform for exposing web service APIs. The basic goal of API Umbrella is to make life easier for both API creators and API consumers. Binary packages are available for download. Follow the quick setup instructions on the download page to begin running API Umbrella.",
+    "laborHours": 61088.8,
+    "languages": [
+        "Lua",
+        "Ruby",
+        "JavaScript"
+    ],
+    "name": "API Umbrella [SWR-12-16]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/api-umbrella",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "0.15.1 / 2019-05-14"
+}

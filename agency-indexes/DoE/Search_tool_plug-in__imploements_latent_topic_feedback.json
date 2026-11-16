@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "IRIS is a search tool plug-in that is used to implement latent topic feedback for enhancing text navigation. It accepts a list of returned documents from an information retrieval wywtem that is generated from keyword search queries. Data is pulled directly from a topic information database and processed by IRIS to determine the most prominent and relevant topics, along with topic-ngrams, associated with the list of returned documents. User selected topics are then used to expand the query and presumabley refine the search results.",
+    "laborHours": 592.8,
+    "name": "Search tool plug-in: imploements latent topic feedback",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/iris",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-12-03",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "PostgreSQL histograms for ActiveRecord relations.\nA plugin for the Ruby on Rails (RoR) web application development framework web application development framework that leverages the \"Active Relation\" relational algebra component to automatically formulate SQL statements for the construction of histograms.",
+    "laborHours": 76.0,
+    "languages": [
+        "Ruby"
+    ],
+    "name": "pnnl/pg-histogram",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/pg-histogram",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

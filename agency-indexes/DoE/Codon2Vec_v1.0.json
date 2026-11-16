@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-11-23",
+        "metadataLastUpdated": "2021-11-23"
+    },
+    "description": "Background: Codon2Vec is an embedding neural network that predicts 'high' or 'low' gene expression directly from the protein-coding sequences. Embedding neural networks are commonly used for natural language processing (NLP) applications. Analogous to how an English sentence is a string of words, a gene can be thought of as a string of codons. Similar to how NLP neural networks model English sentences as a non-random sequence of words, we considered a coding sequence as a non-random non-overlapping array of codons (k-mers of length = 3). Value Proposition: - Codon2Vec achieved a high median AUC-ROC score of 83.8% when trained and applied to transcriptomic data from 300 fungal species - Unlike Codo2Vec, conventional methods predicting for expression based on codon usage rely on a priori knowledge of optimal codons or a set of reference genes. - Unlike Codon2vec, these methods do not account for the effect of codon order on gene expression. - Codon2Vec neural network bypasses the need for artisanal feature selection step that is necessary for traditional machine learning models.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Codon2Vec v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/rhondene/Codon2Vec",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

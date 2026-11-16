@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2025-04-10",
+        "metadataLastUpdated": "2025-04-10"
+    },
+    "description": "This file contains a spreadsheet and equations that evaluate corrosion test data. The data (which can be\ninserted by the user) is current vs voltage data. This spreadsheet will be part of the supplemental\ninformation of a journal article that is under review.\nSpecifically, the spreadsheet evaluates the classical Butler Volmer equation in the presence of several\ndifferent forms of noise found in electrochemical systems. The forms of noise are: 1) solution resistance,\n2) random noise in the current, 3) drift of the open circuit potential voltage.",
+    "homepageURL": "https://doi.org/10.1016/j.corsci.2025.112900",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Three-point Analysis for Butler-Volmer Electrochemical Kinetics",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://doi.org/10.1016/j.corsci.2025.112900",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "version": "1.1"
+}

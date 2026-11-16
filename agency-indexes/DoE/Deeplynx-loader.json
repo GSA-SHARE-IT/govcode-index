@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2023-07-17",
+        "metadataLastUpdated": "2023-07-17"
+    },
+    "description": "'deeplynx-timeseries-loader' is a library designed to make it as easy as possible for users to download and access timeseries or tabular data from DeepLynx.",
+    "laborHours": 0.0,
+    "languages": [
+        "Rust"
+    ],
+    "name": "Deeplynx-loader",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/Deep-Lynx-Timeseries-Loader",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

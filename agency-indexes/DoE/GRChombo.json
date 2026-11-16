@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-07-29",
+        "metadataLastUpdated": "2019-07-29"
+    },
+    "description": "GRChombo is a new numerical relativity code written to take full advantage of modern parallel computing techniques.  GRChombo's features include full adaptive mesh refinement (AMR) with block structured Berger-Rigoutsos grid generation which supports non-trivial \"many-boxes-in-many-boxes\" meshing hierarchies, and massive parallelism through the Message Passing Interface (MPI). GRChombo evolves the Einstein equation with the standard BSSN formalism, with an option to turn on CCZ4 constraint damping if required. It can stably and accurately evolve vacuum black hole spacetimes such as binary black hole mergers, and non-vacuum spacetimes such as scalar collapses into black holes. ",
+    "laborHours": 6551.2,
+    "languages": [],
+    "name": "GRChombo",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/GRChombo/GRChombo",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

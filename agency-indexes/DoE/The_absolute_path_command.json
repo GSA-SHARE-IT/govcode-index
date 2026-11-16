@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The ap command traveres all symlinks in a given file, directory, or executable name to identify the final absolute path. It can print just the final path, each intermediate link along with the symlink chan, and the permissions and ownership of each directory component in the final path. It has functionality similar to \"which\", except that it shows the final path instead of the first path. It is also similar to \"pwd\", but it can provide the absolute path to a relative directory from the current working directory.",
+    "laborHours": 76.0,
+    "name": "The absolute path command",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/LLNL/ap/blob/master/LICENSE.TXT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ap",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

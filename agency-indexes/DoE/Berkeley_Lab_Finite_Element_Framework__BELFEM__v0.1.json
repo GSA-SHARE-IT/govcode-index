@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-21",
+        "metadataLastUpdated": "2024-06-21"
+    },
+    "description": "The software program, referred to as BELFEM, is a specialized finite element code designed for the magnetodynamic modeling of high-temperature superconducting (HTS) tapes. It incorporates novel mixed finite element formulations, particularly the h-ϕ-formulation with thin-shell simplification, to efficiently simulate larger geometries. This methodology is extremely promising for predicting the electrodynamic performance of HTS tapes used in superconducting cables and magnets, offering the benefit of reduced computational cost. Compared to similar technologies like COMSOL Multiphysics and GetDP, BELFEM's performance benchmarking indicates superior efficiency in its thin-shell implementation. In the future, it will also support features like thermal coupling and inter-tape current sharing, enhancing its utility in research and development, particularly in nuclear fusion applications. The intent is to develop BELFEM as a robust and efficient tool for the HTS community, contributing to the analysis and design of superconducting cables and magnets.",
+    "laborHours": 97416.8,
+    "languages": [],
+    "name": "Berkeley Lab Finite Element Framework (BELFEM) v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cmesse/belfem.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

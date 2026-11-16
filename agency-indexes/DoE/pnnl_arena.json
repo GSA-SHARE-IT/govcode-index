@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-06-30",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "CFA ARENA is a novel programming model with the support of a runtime targeting asynchronous data-centric execution paradigm in a distributed system. All the machine nodes in ARENA are connected by a ring network to bring the specialized computation to the data rather than the reverse to minimize data movement. The programming interfaces are implemented using C++",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/arena",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/arena",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "URL": "https://github.com/CDCgov",
+        "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+        "created": "2018-08-09",
+        "lastModified": "2020-03-05"
+    },
+    "description": "This is the repository that contains the Kafka workers to handle the generation of reports.",
+    "downloadURL": "https://api.github.com/repos/CDCgov/fdns-ms-reporting-kafka/downloads",
+    "homepageURL": "https://github.com/CDCgov/fdns-ms-reporting-kafka",
+    "laborHours": 0,
+    "languages": [
+        "Java",
+        "Makefile",
+        "Dockerfile",
+        "Shell"
+    ],
+    "name": "fdns-ms-reporting-kafka",
+    "organization": "Centers for Disease Control and Prevention",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "git://github.com/CDCgov/fdns-ms-reporting-kafka.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

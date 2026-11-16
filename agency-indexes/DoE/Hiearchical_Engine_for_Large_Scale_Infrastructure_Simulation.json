@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "HELICS ls a new open-source, cyber-physlcal-energy co-simulation framework for electric power systems. HELICS Is designed to support very-large-scale (100,000+ federates) co­simulations with off-the-shelf power-system, communication, market, and end-use tools. Other key features Include cross platform operating system support, the integration of both eventdrlven (e.g., packetlzed communication) and time-series (e.g.,power flow) simulations, and the ability to co-Iterate among federates to ensure physical model convergence at each time step.",
+    "laborHours": 265848.0,
+    "name": "Hiearchical Engine for Large Scale Infrastructure Simulation",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/GMLC-TDC/HELICS-src/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/GMLC-Tdc/HELICS-src",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

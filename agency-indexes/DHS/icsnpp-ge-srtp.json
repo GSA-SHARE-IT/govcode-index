@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2024-07-17",
+        "lastModified": "2026-10-21"
+    },
+    "description": "Zeek GE SRTP Parser - CISA ICSNPP",
+    "downloadURL": "https://api.github.com/repos/cisagov/icsnpp-ge-srtp/downloads",
+    "homepageURL": "https://github.com/cisagov/icsnpp-ge-srtp",
+    "laborHours": 122.4,
+    "languages": [
+        "Zeek",
+        "CMake",
+        "Shell",
+        "C++"
+    ],
+    "name": "icsnpp-ge-srtp",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/icsnpp-ge-srtp.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

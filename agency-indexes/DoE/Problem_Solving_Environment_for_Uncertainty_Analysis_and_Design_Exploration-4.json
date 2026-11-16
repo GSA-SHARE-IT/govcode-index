@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2023-02-07"
+    },
+    "description": "PSUADE is an software system that is used to study the releationships between the inputs and outputs of gerneral simulation models for the purpose of performing uncertainty and sensitivity analyses on simulation models.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Problem Solving Environment for Uncertainty Analysis and Design Exploration",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/psuade",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.4"
+}

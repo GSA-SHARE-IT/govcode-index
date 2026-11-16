@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-08-24",
+        "metadataLastUpdated": "2023-04-24"
+    },
+    "description": "BDEM is a discrete element method based simulation tool developed specifically for modeling high-solids granular flows that include polydispersity, heat-transfer, moving boundaries and chemistry. Our solver provides facilities for simulating spherical/non-spherical particles with modified contact and friction models in complex dynamic geometries defined using level-sets or triangulated files. The solver is developed on top of NREL's open-source performance portable library, AMReX, providing parallel execution capabilities on current and upcoming high-performance-computing (HPC) architectures. Simulations at the scale of several millions to billion particles have been performed using this software on large scale computing resources. This software can be applied to non-reacting solids dominant flows in silos, hoppers and screw conveyors as well as in high temperature reacting systems such as screw kilns and auger reactors.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "C",
+        "Python"
+    ],
+    "name": "BDEM (Discrete-element-simulator for high-solids granular flows) [SWR-22-72]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/BDEM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

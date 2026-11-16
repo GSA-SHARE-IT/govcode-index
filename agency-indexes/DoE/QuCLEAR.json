@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2025-02-23",
+        "metadataLastUpdated": "2025-02-23"
+    },
+    "description": "SF-25-008  This software optimizes quantum circuits using a two-step process. The first step, Clifford Extraction, moves the Clifford gates to the end of the circuit and includes circuit\noptimizations. The second step, Clifford Absorption, then addresses these extracted gates on a classical computer. By reducing the number of gates that need to run on the quantum device, the software achieves a significantly lower gate count.",
+    "laborHours": 66956.0,
+    "languages": [],
+    "name": "QuCLEAR",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/revilooliver/QuCLEAR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

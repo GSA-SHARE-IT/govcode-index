@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-01-16",
+        "metadataLastUpdated": "2023-07-25"
+    },
+    "description": "The SAM™ Open Source Project repository contains the source code, tools, and instructions to build a desktop version of the National Renewable Energy Laboratory's (NREL's) System Advisor Model™ (SAM). SAM is a simulation program for electricity generation projects. It has models for different kinds of renewable energy systems and financial models for residential, commercial, and utility-scale projects. For more details about SAM's capabilities, see the SAM website at https://sam.nrel.gov/. For a short video describing the SAM repositories, see https://youtu.be/E5z1iiZfZ3M.",
+    "laborHours": 552915.2,
+    "languages": [
+        "C++",
+        "LK script"
+    ],
+    "name": "SAM™ (System Advisor Model™)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            },
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/SAM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-07"
+    },
+    "description": "Procdn is a collection of software that provides support in the Linux kernel for Globus distinguished name (DNs). The primary component is a Linux kernel module that creates data structures in the kernel for associating DNs with user processes. The other components included with the software help initiate this mapping in the kernel, including patches for the Flobus toolkit and a sample implementation for various batch scheduler systems. In addition, the software includes some utilities for listing current mappings in the kernel.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PROCDN",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

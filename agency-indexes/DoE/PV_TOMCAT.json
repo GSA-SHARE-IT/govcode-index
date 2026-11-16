@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-11-05",
+        "metadataLastUpdated": "2018-11-05"
+    },
+    "description": "PV TOMCAT predicts the outdoor operating temperature and output power of a PV module based on measured physical properties and outdoor conditions. It includes a ray tracing model of a PV module, which runs in the commercial SunSolve ray tracer. Output from this model is combined with meteorological time series data to produce a combined input file for a finite-element model of heat conduction and radiation. Finally, this finite-element model is run in the commercial COMSOL Multiphysics software, producing time series outputs of temperature and power.",
+    "laborHours": 349.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "PV TOMCAT",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/pv_tomcat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

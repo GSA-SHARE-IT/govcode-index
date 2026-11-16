@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-09-15",
+        "metadataLastUpdated": "2021-09-15"
+    },
+    "description": "Predictive modeling of patient tumor growth response to drug treatment is severely limited by a lack of experimental data for training. Combining experimental data from several studies is an attractive approach, but presents two problems: batch effects and limited data for individual drugs and cell lines. Batch effects are caused by systematic procedural differences among studies, which causes systematic experimental outcome differences. Directly using these experimental results as features for machine learning commonly causes problems when training on one study and testing on another. This severely limits a model's ability to perform well on new experiments. Even after combining studies, predicting outcomes on new patient tumors remains an open challenge. We propose a semi-supervised, autoencoder-based, machine learning procedure, which learns a smaller set of gene expression features that are robust to batch effects using background information on a cell line or tissue's tumor type. We implemented this reduced feature representation and show that the new feature space clusters strongly according to tumor type. This experiment is carried out across multiple studies: CCLE, CTRP, gCSI, GDSC, NCI60, and patient derived tumors. We hypothesize that using a batch effect resistant feature set across studies will improve prediction performance. Genome Data Commons (GDC) gene expression profiles for publicly available human tissues and cell lines from NCI60 and CCLE were processed using the semi-supervised learning procedure. Our autoencoder repurposes the 'center loss' (CL) cost function of Wen et. al. to learn a more generalized set of features using the cell line or tissue's tumor type. ",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "RNA-seq latent featurizer using center loss cost function",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CBIIT/NCI-DOE-Collab-Pilot1-Semi-Supervised-Feature-Learning-with-Center-Loss",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

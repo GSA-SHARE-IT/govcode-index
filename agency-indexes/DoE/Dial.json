@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "dewittsj@ornl.gov"
+    },
+    "date": {
+        "created": "2025-02-14",
+        "metadataLastUpdated": "2025-02-14"
+    },
+    "description": "A key step in almost all scientific endeavors is answering the question: Given this data I already collected, what new data do I expect will yield the most useful information toward my scientific objective? The area of (sequential) experimental design has long been investigating answers to this question, but in recent years techniques from the machine learning subfield of active learning are increasingly applied. Researchers need a simple software tool for active learning applied to experimental design that can easily integrate into their existing workflows.\n\nThis computer code, Dial, provides a microservice in ORNL's INTERSECT ecosystem for active learning applied to experimental design. By being part of the INTERSECT ecosystem, Dial is simple to integrate into any INTERSECT-based workflow. Dial provides multiple backend options, where a backend is an implementation of a specific active learning method. Users can select the backend that performs best for their application. Developers can also add new backends as needed.\n\nAt its core, Dial receives a set of pre-existing measurements and input parameter bounds and then recommends one or more new sets of parameters to measure. Dial also includes interfaces to other microservices in the INTERSECT ecosystem so that it can be incorporated into INTERSECT campaigns.\n\nDial provides a simple, yet powerful interface to convert automated INTERSECT workflows into autonomous workflows that adapt based on the results that are obtained. A shared microservice for active learning prevents duplicated effort by each application team implementing its own adaptive design of experiments tool.",
+    "laborHours": 668.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "Dial",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/INTERSECT-DIAL/dial",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

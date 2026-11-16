@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-28"
+    },
+    "description": "The MRPA++ computer code simulates neutron scattering and superconductivity in correlated electron systems. It uses a random-phase approximation (RPA) / Bardeen-Cooper-Schrieffer (BCS) theory to predict the neutron scattering cross section of realistic multi-orbital tight-binding models with Hubbard-like electron-electron interactions for the normal and superconducting states. It can also be used to calculate the pairing interaction in these models using an RPA approximation and to predict the superconducting gap structure.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++/Gnu g++ (GCC)/4.1.2"
+    ],
+    "name": "MRPA++",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/maierta/MRPAPP/blob/master/Open%20Source%20Software%20License%20MRPAPP.doc",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/maierta/MRPAPP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

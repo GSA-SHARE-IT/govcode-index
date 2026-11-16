@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-10",
+        "metadataLastUpdated": "2021-12-10"
+    },
+    "description": "Quandary numerically simulates and optimizes the time-evolution of open quantum systems. The underlying dynamics are modelled by Lindblad's master equation, a linear ordinary differential equation (ODE) describing quantum systems interacting with the environment. Quandary solves this ODE numerically by applying a time-stepping integration scheme, and utilizes a gradient-based optimization approach to determine optimal control pulses that drive the quantum system to a desired target state. Two optimization objectives are considered: (a) Unitary gate optimization that finds controls to realize a unitary gate transformation, and (b) optimal reset that aims to drive the quantum system to the ground states. Gradient-based optimization schemes utilizing Petsc's Tao optimization package are applied to generate control pulses that minimize the respective measure. To evaluate the gradient of the objective function, the discrete adjoint method is used while leveraging techniques from Algorithmic Differentiation to produce exact and consistent gradients. To mitigate excessive execution run times, the software can be build together with the XBraid software library which provides a parallelization strategy to distribute the time-evolution of the underlying dynamics onto multiple processor.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Quandary",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/quandary",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0"
+}

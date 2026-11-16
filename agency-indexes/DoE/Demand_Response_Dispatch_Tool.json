@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-24",
+        "metadataLastUpdated": "2021-06-10"
+    },
+    "description": "The Demand Response (DR) Dispatch Tool uses price profiles to dispatch demand response resources and create load modifying profiles. These annual profiles are used as inputs to production cost models and regional planning tools (e.g., PROMOD). The tool has been effectively implemented in transmission planning studies conducted by the Western Electricity Coordinating Council via its Transmission Expansion Planning and Policy Committee. The DR Dispatch Tool can properly model the dispatch of DR resources for both reliability and economic conditions.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Demand Response Dispatch Tool",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

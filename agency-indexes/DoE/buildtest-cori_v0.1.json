@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-09",
+        "metadataLastUpdated": "2021-06-15"
+    },
+    "description": "Testsuite for Cori system using buildtest",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "buildtest-cori v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/buildtesters/buildtest-cori",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "v0.1"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-04-01",
+        "metadataLastUpdated": "2024-04-11"
+    },
+    "description": "This repository contains python scripts and numerical data accompanying the paper:\n\"Leveraging Interpolation Models and Error Bounds for Verifiable Scientific Machine Learning,\" Tyler Chang, Andrew Gillette, Romit Maulik, 2024. The following subdirectories are included:\n- \"interpolants\" contains our interpolation scripts used for all studies\n- \"experiments\" contains scripts demonstrating our experiments with synthetic data\n- \"airfoil\" contains scripts demonstrating our experiments with the publicly available UIUC airfoil dataset. Further instructions are provided in READMEs within the sub-directories.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Interpolation Models and Error Bounds for Verifiable Scientific Machine Learning",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/interpML",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

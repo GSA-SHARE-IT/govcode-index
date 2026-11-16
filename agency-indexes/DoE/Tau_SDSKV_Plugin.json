@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-01-28",
+        "metadataLastUpdated": "2022-01-28"
+    },
+    "description": "The TAU SDSKV Plugin logs TAU Profiling events to an SDSKV Key-Value Database.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Tau SDSKV Plugin",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/mochi-hpc/tau-sdskv/blob/main/COPYRIGHT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mochi-hpc/tau-sdskv",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-26"
+    },
+    "description": "Sandia OpenSHMEM is an implementation of the OpenSHMEM Standard over the Portals 4 Networking API and the OpenFabrics Interface (OFI). Sandia OpenSHMEM is designed to be a low-overhead implementation of the OpenSHMEM standard which takes advantage of the many features of the Portals 4 specification.",
+    "laborHours": 18559.2,
+    "languages": [
+        "Shell",
+        "Perl",
+        "C",
+        "Makefile",
+        "M4",
+        "Python"
+    ],
+    "name": "Sandia OpenSHMEM",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/Sandia-OpenSHMEM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

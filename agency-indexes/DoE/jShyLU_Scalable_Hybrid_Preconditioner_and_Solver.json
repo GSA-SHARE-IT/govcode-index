@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-09-19"
+    },
+    "description": "ShyLU is numerical software to solve sparse linear systems of equations. ShyLU uses a hybrid direct-iterative Schur complement method, and may be used either as a preconditioner or as a solver. ShyLU is parallel and optimized for a single compute Solver node. ShyLU will be a package in the Trilinos software framework.",
+    "laborHours": 8344830.4,
+    "languages": [],
+    "name": "jShyLU Scalable Hybrid Preconditioner and Solver",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

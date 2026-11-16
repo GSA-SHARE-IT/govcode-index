@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This software package includes a library of C# functions to create, modify and extract data from UIMF files. UIMF files are SQLite databases of mass spectrometry data acquired at Pacific Northwest National Laboratory (PNNL).",
+    "laborHours": 25475.2,
+    "languages": [],
+    "name": "UIMF Library",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/PNNL-Comp-Mass-Spec/UIMF-Library/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/UIMF-Library",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

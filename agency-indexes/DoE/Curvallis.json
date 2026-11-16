@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-17",
+        "metadataLastUpdated": "2023-01-26"
+    },
+    "description": "Curvallis is a plotting program written in Python using MatPlotLib to visualize and modify experimental equation of state data. It does this by plotting individual isotherms as lines. Data can be either 1d or 2d, meaning there can be 1 or many isotherms plotted at once. Data points on these lines can be moved around, and new points can be added or removed. 1d data can have different equations fitted to them, which best fit the data. These equations are currently only Nth degree polynomials and Equations of State, but any equation can be added. Manipulating data points causes this fitted line to be recalculated and redisplayed. The manipulated data points, as well as the fitted line, can be written to a file.",
+    "laborHours": 2614.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "Curvallis",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/Curvallis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-10-05",
+        "metadataLastUpdated": "2020-10-05"
+    },
+    "description": "Algorithms and software code to detect and diagnose faulty operations with economizer operations.",
+    "laborHours": 109880.8,
+    "languages": [
+        "Linux"
+    ],
+    "name": "Active and Passive Economizer Diagnostics for Rooftop and Air-Handling Units",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/VOLTTRON/volttron-applications",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

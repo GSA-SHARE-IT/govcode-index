@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-19"
+    },
+    "description": "AMELIA is an application with focus on particle physics processes in ATLAS. This will allow students and other users to decode the collision events that unfold after the head-on collisions of protons at the Large hadron Collider. AMELIA uses the Irrlicht engine for the 3D graphics and wxWidgets for the interface. It uses the best aspects of technical animation and allows users to control 3D representations of collision events and to manipulate 3D models of the detector and see how particles are detected as they pass through. It allows the user to rotate, zoom and select virtual pieces of the ATLAS detector and events. The characteristics of the events (momentum etc.) can also be read, and one can select tracks for analysis, activate context-oriented media, etc. This framework intends to integrate different types of media into a single product. This way, videos, animations, sound, interactive visualization and data analysis will be bound together in the same package.-",
+    "homepageURL": "https://sourceforge.net/projects/amelia",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Atlas Multimedia Educational Lab for Interactive Analysis",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sourceforge.net/projects/amelia",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

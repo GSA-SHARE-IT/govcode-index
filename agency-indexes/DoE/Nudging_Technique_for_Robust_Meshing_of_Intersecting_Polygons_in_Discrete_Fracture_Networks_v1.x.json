@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-09-10",
+        "metadataLastUpdated": "2021-09-10"
+    },
+    "description": "Understanding flow and transport in fractured rock is an important national priority, which includes environmental protection, resource development, infrastructure development, and seismic risk. In energy resources formations, such as tight sandstone formations, shale formations and coal beds with very low permeability, as well as nuclear waste repository sites, networks of fractures are typically the principal pathways for fluid and gas flow and contaminant transport. A Discrete Fracture Network (DFN) approach is an advanced method to mimic discrete pathways for fluid flow through a fractured rock mass. DFN models represent deterministically and stochastically defined fractures observed at subsurface media and to predict flow and transport for individual sites. In order to achieve accurate flow and transport predictions, a high-quality computational mesh is required. The geometric features (fractures, fracture intersections, spaces between fracture intersections, etc.) that must be resolved in a generated DFN typically span a wide range of spatial scales and make the efficient automated generation of high-quality meshes a challenge. To deal with these challenges, many approaches deform the DFN to align its features with a mesh. The proposed nudging technique allows for the production of a high-quality conforming Delaunay triangulation of a DFN without significant modification of fractures location, size, orientation, and topology. The nudging technique is based on the feature rejection algorithm for meshing (FRAM). Using FRAM, the DFN mesh is constructed so that all the features in the network, e.g., length of intersections between fractures and distance between lines of intersection of a fracture are equal to or larger than a user-defined minimum length scale, h. FRAM performs well in the case of stochastically defined networks, where fractures size, positions, orientation, etc., are sampled from given probabilistic distributions. However, reproducing a DFN with deterministically defined fractures where fractures position, orientation and size are rigidly defined, is not possible using the standard version of FRAM. This nudging technique is developed to accompany FRAM and produce high quality mesh on a DFN with both stochastic and deterministic fractures. The essence of the nudging technique is in the fracture perturbation in fracture location and fracture orientation in the way that keeps the fracture within a distance h of their original position and do not create any features smaller than h. If needed, the nudging approach applies multiple times until the desired requirements on distance are met with no significant fracture network deformation and no original connectivity modification. ",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Nudging Technique for Robust Meshing of Intersecting Polygons in Discrete Fracture Networks v1.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

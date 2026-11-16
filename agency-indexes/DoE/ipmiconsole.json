@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-19"
+    },
+    "description": "Ipmiconsole is a tool and library that allows a user to establish a console session with a remote machine using the IPMI Serial over LAN (SOL) protocol",
+    "homepageURL": "https://www.gnu.org/software/freeipmi/index.html",
+    "laborHours": 0.0,
+    "languages": [
+        "C"
+    ],
+    "name": "ipmiconsole",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.gnu.org/software/freeipmi/index.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

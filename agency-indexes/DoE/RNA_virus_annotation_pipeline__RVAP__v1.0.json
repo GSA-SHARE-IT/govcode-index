@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-08-02",
+        "metadataLastUpdated": "2023-08-02"
+    },
+    "description": "The code consists of two scripts that assign functional domains to RNA virus proteins. They achieve this by aggregating the outputs of multiple freely available tools and clustering the domains into high hierarchy clusters.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "RNA virus annotation pipeline (RVAP) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/rvmt-jgi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

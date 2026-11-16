@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-11",
+        "metadataLastUpdated": "2020-09-11"
+    },
+    "description": "This repo has implementation of KBase narrative methods (https://kbase.us/) that help in exploration, analysis and visualization of Cufflinks high-throughput RNA-seq data. It uses the large amount of data produced from Cuffdiff RNA-seq differential expression analysis as input and allows user to easily navigate through it by visualizing different types of CummeRbund plots including squared coefficient of variation (SCV) plots, density plot of genes in the two samples, scatter plot, volcano matrix plots, etc.",
+    "laborHours": 4651.2,
+    "languages": [],
+    "name": "kb_cummerbund",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseapps/kb_cummerbund",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

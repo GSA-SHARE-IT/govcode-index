@@ -1,0 +1,40 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "ForTrilinos stands for interfaces to Trilinos. It effectively replaces common practices for interfacing Fortran codes with Trilinos C++ packages. Common practices include writing user-specific drivers and exploiting the name-mangling schemes of specific compilers. ForTrilinos improves portability and robustness by exploiting the C interoperability constructs of Fortran 2003. These constructs facilitate binding Fortran interface bodies to their equivalent C function prototypes, providing for name resolution independent of the compiler™s underlying mangling scheme and guaranteeing compatible type bit representations. Furthermore, ForTrilinos maintains the overall design philosophy and architecture of Trilinos by creating a derived type structure in Fortran similar to the class hierarchy in the underlying C++.ForTrilinos can be applied wherever the underlying Trilinos packages can be applied.",
+    "laborHours": 165087.2,
+    "languages": [
+        "Dockerfile",
+        "C++",
+        "Shell",
+        "SWIG",
+        "CMake",
+        "Fortran",
+        "Python"
+    ],
+    "name": "ForTrilinos v 10.1",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/ForTrilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "10.1"
+}

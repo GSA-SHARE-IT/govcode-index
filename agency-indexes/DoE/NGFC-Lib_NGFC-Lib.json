@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-10-15",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Automated NGFC system design tool set to develop optimized, next-generation solid oxide fuel cell (SOFC)\nbased natural gas fuel cell (NGFC) system designs with >70% fuel efficiency and <30 g/kWh CO2 emissions",
+    "laborHours": 39261.6,
+    "languages": [],
+    "name": "NGFC-Lib/NGFC-Lib",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NGFC-Lib/NGFC-Lib",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

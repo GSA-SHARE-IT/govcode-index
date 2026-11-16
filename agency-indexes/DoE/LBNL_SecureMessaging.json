@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-07"
+    },
+    "description": "The LBNLSecureMessaging application enables collaboration among colocated or geograhically dispersed users by supporting secure synchronous and asynchronous communication. This application is the graphical user interface client that is meant to be used in conjunction with servers (LBNL's PCCEServer and a customized IRC server) to allow group and one-to-one conversations via text-based instant messaging. Conversations may be private (by invitation only) or public (open to any member of a collaboratory group_ and they may be permanent and on-going or temporary and ad hoc. Users may leave notes for other people who are online or offline. By providing presence and awareness information, collaborators can easily locate each other and rendezvous. Written in Java/Swing, this application is cross-platform. To gain access to functionality, users have to be registered with an authorization server (PCCEServer) that maintains an access control list. Thus a collaboration group is comprised of a set of PCCE-registered users. Registered users can log in via either X.509 certificate or a username and password combination. PKI and SSL are used to authenticate servers and clients and to encrypt messages sent over the network. The LBNLSecureMessaging application offers instant messaging capabilities in a secure environment that provides data integrity, privacy authorization, and authentication.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LBNL SecureMessaging",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

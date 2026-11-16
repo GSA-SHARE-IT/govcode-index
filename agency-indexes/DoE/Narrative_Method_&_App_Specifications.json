@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-04",
+        "metadataLastUpdated": "2020-08-04"
+    },
+    "description": "This is a KBase repository for Narrative method and app specifications. These specifications are used to dynamically populate the set of narrative methods and apps that are available, in terms of both method & app functionality/behavior and display.",
+    "laborHours": 6992.0,
+    "languages": [],
+    "name": "Narrative Method & App Specifications",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/narrative_method_specs",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

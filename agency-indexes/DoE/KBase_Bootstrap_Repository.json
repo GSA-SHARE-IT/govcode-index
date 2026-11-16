@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-25",
+        "metadataLastUpdated": "2020-08-25"
+    },
+    "description": "This repository adds 3rd party dependencies to an Ubuntu image. This includes specific versions of various programming languages and associated libraries.",
+    "laborHours": 1824.0,
+    "languages": [],
+    "name": "KBase Bootstrap Repository",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/bootstrap",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-08-15",
+        "metadataLastUpdated": "2024-08-15"
+    },
+    "description": "Kinetics05 uses a variety of linear and nonlinear regression methods, depending on the model to be fitted.\nIsoconversional methods use linear regression, supplemented by empirical correlations between model\nparameters and reaction profile characteristics. Distributed activation energy and nucleation-growth\nmodels use nonlinear regression, with the exception of the discrete distribution model, which uses a\nnested constrained linear-nonlinear regression method.",
+    "homepageURL": "https://softwarelicensing.llnl.gov/product/kinetics05oss",
+    "laborHours": 6688.0,
+    "languages": [],
+    "name": "Kinetics05_OSS",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://softwarelicensing.llnl.gov/product/kinetics05oss",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "version": "0"
+}

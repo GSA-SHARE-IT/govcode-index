@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2024-01-22",
+        "metadataLastUpdated": "2024-01-22"
+    },
+    "description": "WindSE is a python package that uses a FEniCS backend to perform wind farm simulations and optimization. Documentation can be found at: https://windse.readthedocs.io/en/latest/",
+    "laborHours": 3146.4,
+    "languages": [
+        "Python",
+        "Shell"
+    ],
+    "name": "WindSE: Wind Systems Engineering [SWR-17-03]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/WindSE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "FY23Q3 Release"
+}

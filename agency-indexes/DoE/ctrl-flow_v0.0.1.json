@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-07-13",
+        "metadataLastUpdated": "2023-07-13"
+    },
+    "description": "ctrl-flow is a software that assists users in selecting a building control sequence from a library of control sequences that are implemented in the Modelica Buildings Library. The software allows selecting, configuring and editing the control sequences. It also allows exporting the sequence for use in building project design documents in Modelica-based simulations. The export will be in a json intermediate format, in the Modelica Language, in the Control Description Language and in English language format, such as in a Word document. The software functions as a web based application that includes a graphical user interface.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ctrl-flow v0.0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbl-srg/ctrl-flow-dev.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

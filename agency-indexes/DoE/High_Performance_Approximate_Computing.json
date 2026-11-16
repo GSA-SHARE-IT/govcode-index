@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-08",
+        "metadataLastUpdated": "2021-12-08"
+    },
+    "description": "This code repository contains the implementation of the \"High-Performance Approximate Computing\" (HPAC) toolkit. The toolkit allows you to approximate your own C/C++. The developer uses \"pragma's\" to annotate code regions as approximate. The compiler extensions lower these pragmas to either compiletime approximate techniques or runtime approximation techniques. At execution time, the implemented runtime system decides which annotated regions it should approximate. HPAC also provides a set of script utilities. The utilities perform a grid search within approximation parameters and performance. The user can analyze the raw data to identify optimal approximation techniques for the application.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "High Performance Approximate Computing",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/HPAC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

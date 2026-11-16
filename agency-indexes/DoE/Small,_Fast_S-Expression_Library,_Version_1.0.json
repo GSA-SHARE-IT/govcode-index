@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-19"
+    },
+    "description": "This software is a library for C and C++ programmers to use for fast and efficient parsing and processing of symbolic expressions, or s-expressions. An s-expression is a text-representation of a tree data structure, and is the basis for the syntax of the LISP and Scheme programming languages. Multiple similar libraries exist, but this one was designed from the ground up for speed, efficiency, and simplicity.",
+    "laborHours": 0.0,
+    "languages": [
+        "Any ANSI-C compiler"
+    ],
+    "name": "Small, Fast S-Expression Library, Version 1.0",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/mjsottile/sfsexp/blob/master/COPYING",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mjsottile/sfsexp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

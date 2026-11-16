@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-08",
+        "metadataLastUpdated": "2020-09-08"
+    },
+    "description": "The KBase Phylogenomics module offers tools for comparative phylogenomic and pangenomic analysis of genomes in KBase. ",
+    "laborHours": 57060.8,
+    "languages": [],
+    "name": "kb_phylogenomics",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseapps/kb_phylogenomics",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

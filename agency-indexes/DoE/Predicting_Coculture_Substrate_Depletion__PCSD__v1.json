@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-02-08",
+        "metadataLastUpdated": "2019-04-29"
+    },
+    "description": "(based on Erbilgin et al., BMC Bioinformatics, 2017, 18:57). Mixed cultures of microbial species are increasingly used to carry out a specific task in lieu of engineering a single microbe to do the same task. However, knowing how different species' metabolisms will integrate to reach a desired outcome is a difficult problem that has been studied in great detail--but only using steady-state models. Mixed cultures used for biotechnology processes, as well as microbial communities that exist in nature and crop agriculture, are metabolically dynamic systems. Studying the temporal substrate utilization by individuals is individuals in mixed cultures is an important first step in developing approaches to better model these biochemical processes and microbial communities found in nature. \n\nThe 2017-004 software is comprised of four custom iPython notebooks that were used for all computational tasks in the experimental work described in \"Dynamic substrate preferences predict metabolic properties of a simple microbial consortium\" (Erbilgin et al., BMC Bioinformatics, 2017). The results indicate that a significant portion of a model community's overall metabolism can be predicted based on the metabolism of the individuals. The results further suggest that, when the mixed culture's substrate depletion significantly deviates from such a prediction, this may highlight potential metabolic pathways affected by species-species microbial interactions, leading to hypotheses about how a particular microbial community's structure and function may be modulated to perform a particular biotechnological goal.",
+    "laborHours": 501.6,
+    "languages": [],
+    "name": "Predicting Coculture Substrate Depletion (PCSD) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/biorack/bmc_bioinf_2016_erbilgin",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

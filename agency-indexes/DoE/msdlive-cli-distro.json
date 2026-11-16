@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-08-22",
+        "metadataLastUpdated": "2024-09-16"
+    },
+    "description": "MSD-LIVE, the MultiSector Dynamics – Living, Intuitive, Value-adding, Environment, is a flexible and scalable data and code\nmanagement system combined with a distributed computational platform that will enable MSD researchers to document\nand archive their data, run their models and analysis tools, and share their data, software, and multi-model workflows\nwithin a robust Community of Practice. MSD-LIVE will facilitate a new open, collaborative, resource-rich, technology-facilitated,\ncommunity-driven way of doing MSD research.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "msdlive-cli-distro",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/MSD-LIVE/msdlive-cli-distro",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

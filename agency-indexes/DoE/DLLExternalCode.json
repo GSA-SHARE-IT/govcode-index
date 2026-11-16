@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "bobby.kitchens@srnl.doe.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "DLLExternalCode is the a general dynamic-link library (DLL) interface for linking GoldSim (www.goldsim.com) with external codes. The overall concept is to use GoldSim as top level modeling software with interfaces to external codes for specific calculations. The DLLExternalCode DLL that performs the linking function is designed to take a list of code inputs from GoldSim, create an input file for the external application, run the external code, and return a list of outputs, read from files created by the external application, back to GoldSim. Instructions for creating the input file, running the external code, and reading the output are contained in an instructions file that is read and interpreted by the DLL.",
+    "homepageURL": "http://srnl.doe.gov/downloads/DllExternalCode_distribution.zip",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran90 compiler"
+    ],
+    "name": "DLLExternalCode",
+    "organization": "Savannah River Site (SRS)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://srnl.doe.gov/downloads/DllExternalCode_distribution.zip",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://srnl.doe.gov/downloads/DllExternalCode_distribution.zip",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Savannah River Site (SRS)"
+    ]
+}

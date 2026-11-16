@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Graphator is a collection of relatively simple sequential programs that generate communication graphs/matrices for commonly occurring patterns in parallel programs. Currently, there is support for five communication patterns: two-dimensional 4-point stencil, four-dimensional 8-point stencil, all-to-alls over sub-communicators, random near-neighbor communication, and near-neighbor communication.",
+    "laborHours": 91.2,
+    "name": "Communication Graph Generator for Parallel Programs",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/graphator",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

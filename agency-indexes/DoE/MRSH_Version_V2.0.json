@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The MRSH project is a collection of the following programs: MRSH, MRCP, MRLOGIN, MRSHD, MRLOGIND. These programs are modifications of the programs RSH, RCP, RLOGIN, RSHD, and RLOGIND. They have been modified to provide authentication via munge, an intra-cluster authentication service. Henceforth, \"MRSH\" implies the collective set of programs MRSH, MRCP, MRLOGIN, MRSHD, and MRLOGIND. Similarly RSH will refer to its collective set of programs.",
+    "laborHours": 24213.6,
+    "name": "MRSH Version V2.0",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/chaos/mrsh",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

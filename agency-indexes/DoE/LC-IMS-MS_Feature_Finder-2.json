@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "LC-IMS-MS Feature Finder is a command line software application which searches for possible molecular ion signatures in multidimensional liquid chromatography, ion mobility spectrometry, and mass spectrometry data by clustering deisotoped peaks with similar monoisotopic mass values, charge states, elution times, and drift times. The software application includes an algorithm for detecting multiple conformations and co-eluting species in the ion mobility dimension. LC-IMS-MS Feature Finder is designed to create an output file with detected features that includes associated information about the detected features.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "C#"
+    ],
+    "name": "LC-IMS-MS Feature Finder",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-25",
+        "metadataLastUpdated": "2020-08-25"
+    },
+    "description": "This is a tool for incorporating an object imported via the JGI-to-KBase, aka \"Push to KBase\" service into a user's existing or new narrative. This was originally a component of the dataview plugin, but now lives separately.",
+    "laborHours": 258.4,
+    "languages": [],
+    "name": "JGI Import Tool",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/kbase-ui-plugin-jgi-import",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

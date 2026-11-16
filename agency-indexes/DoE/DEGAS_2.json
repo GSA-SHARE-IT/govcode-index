@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "dstotler@pppl.gov"
+    },
+    "date": {
+        "created": "2019-05-22",
+        "metadataLastUpdated": "2019-05-22"
+    },
+    "description": "DEGAS 2 [1], like its predecessor, DEGAS [2], uses the Monte Carlo approach to integrating the Boltzmann equation, allowing the treatment of complex geometries, atomic physics, and wall interactions. DEGAS 2 is written in a \"macro-enhanced'' version of FORTRAN via the FWEB library, providing an object oriented capability and simplifying tedious tasks, such as dynamic memory allocation and the reading and written of self-describing binary files. As a result, the code is extremely flexible and can be readily adapted to problems seemingly far removed from tokamak divertor physics, e.g., its use in simulating the diffusive evaporation of lithium in NSTX [3] and LTX [4]. DEGAS 2 has been extensively verified, as is documented in its User's Manual [5]. Experimental validation has been largely centered on the Gas Puff Imaging (GPI) technique for visualizing plasma turbulence in the tokamak edge. The validation against deuterium gas puff data from NSTX is described in the paper by B. Cao et al. [6] Analogous work with both deuterium and helium has been carried out on Alcator C-Mod. A related application of DEGAS 2 is in the interpretation of data from the Edge Neutral Density Diagnostic on NSTX [7] and NSTX-U. DEGAS 2 has been applied to many other devices, including JT-60U [8], ADITYA [9], and FRC experiments at Tri-Alpha Energy [10]. Neutral transport codes are frequently coupled to plasma simulation codes to allow a self-consistent plasma-neutral solution to be computed. Initially, DEGAS 2 was coupled to UEDGE [11]. More recently, DEGAS 2 has been coupled to the drift-kinetic XGC0 [12], and has been used in the development and testing of the simplified built-in neutral transport module in XGC1 [13]. A related project is a DEGAS 2-based synthetic GPI diagnostic for XGC1 [14].\n\n[1] D. P. Stotler & C. F. F. Karney, Contrib. Plasma Phys. 34, 392 (1994)\n[2] D. Heifetz, D. Post et al., J. Comp. Phys. 46, 309 (1982)\n[3] D. P. Stotler et al., J. Nucl. Mater. 415, S1058 (2011)\n[4] J. C. Schmitt et al., J. Nucl. Mater. 438, S1096 (2013)\n[5] DEGAS 2 Home Page\n[6] B. Cao et al., Fusion Sci. Tech. 64, 29 (2013)\n[7] D. P. Stotler et al., Phys. Plasmas 22, 082506 (2015)\n[8] H. Takenaga et al., Nucl. Fusion 41, 1777 (2001)\n[9] R. Dey et al., Nucl. Fusion 57, 086003 (2017)\n[10] E. M. Granstedt et al., Presented at 60th Annual Meeting of the APS Division of Plasma Physics\n[11] D. P. Stotler et al., Contrib. Plasma Phys. 40, 221 (2000)[\n[12] D. P. Stotler et al., Comput. Sci. Disc. 6, 015006 (2013)\n[13] D. P. Stotler et al., Nucl. Fusion 57, 086028 (2017)\n[14] D. P. Stotler et al., Nucl. Mater. Energy 19, 113 (2019)\n\n",
+    "homepageURL": "https://theory.pppl.gov/research/research.php?rid=10#h52",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "DEGAS 2",
+    "organization": "Princeton Plasma Physics Laboratory (PPPL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://theory.pppl.gov/research/TheoryCodeLicenseReleaseForm.pdf",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://theory.pppl.gov/research/research.php?rid=10#h52",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Princeton Plasma Physics Laboratory (PPPL)"
+    ]
+}

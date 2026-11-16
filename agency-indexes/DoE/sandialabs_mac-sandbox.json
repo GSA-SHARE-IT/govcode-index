@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "ndbrook@sandia.gov"
+    },
+    "date": {
+        "created": "2018-05-02",
+        "metadataLastUpdated": "2018-05-02"
+    },
+    "description": "The software is an analyzer for automated sandbox analysis of malware on the OS X operating system. It runs inside an OS X virtual machine to collect data about what happens when a given file opened or run. As of August 2014, there was no sandbox software for Mac OS X malware, as it requires different methods from those used on the Windows OS (which most sandboxes are written for). This software adds OS X analysis capabilities to an existing open-source sandbox, Cuckoo Sandbox (https://cuckoosandbox.org/), which previously only worked for Windows. \n\nThe analyzer itself can take many different types of files as input: the traditional Mach-O and FAT executables, .app files, zip files, Python scripts, Java archives, and web pages, as well as PDFs and other documents. While the file is running, the analyzer also simulates rudimentary human interaction with clicks and mouse movements in order to bypass the tests some malware use to see if they are being analyzed. The analyzer outputs several different kinds of data: functions call traces, network captures, screenshots, and all created and modified files. This work also includes a static analysis Cuckoo module for Mach-O binary files. It extracts file structures, code library imports and exports, and signatures. This data can be used along with the analyzer results to create signatures for malware.  ",
+    "laborHours": 1276.8,
+    "name": "sandialabs/mac-sandbox",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/mac-sandbox",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

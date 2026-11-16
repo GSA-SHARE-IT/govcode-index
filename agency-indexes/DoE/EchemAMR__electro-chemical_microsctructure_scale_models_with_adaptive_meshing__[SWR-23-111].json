@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-07-15",
+        "metadataLastUpdated": "2024-08-26"
+    },
+    "description": "A 3D microstructure resolving electrochemical transport and interfacial chemistry solver. \n\nElectrode microstructure plays an important role in determining the performance of an electrochemical system, e.g. lithium ion battery.  EchemAMR is a microstructure scale model that solves the governing equations for ion transport, electrical current continuity, interfacial chemistry and structural mechanics. Complex microstructure geometries from imaging can be directly imported into EchemAMR. A volume fraction based description of the geometry on Cartesian grid with an immersed interface formulation enables simplified meshing and large-scale simulations with millions of degrees of freedom. EchemAMR has been tested against systems with analytic solutions for numerical convergence and highly resolved lithium ion battery microstructures. EchemAMR demonstrates excellent mass conversation and efficient scaling on heterogenous High-Performance Computing (HPC) with central and graphics processing units.",
+    "laborHours": 8253.6,
+    "languages": [
+        "C++",
+        "HTML",
+        "C",
+        "Jupyter Notebook",
+        "MATLAB",
+        "Python"
+    ],
+    "name": "EchemAMR (electro-chemical microsctructure scale models with adaptive meshing) [SWR-23-111]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/echemAMR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

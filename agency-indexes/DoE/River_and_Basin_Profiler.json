@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-08-27",
+        "metadataLastUpdated": "2021-08-27"
+    },
+    "description": "The River and Basin Profiler (RaBPro) represents a set of python tools that help characterize and analyze rivers and watersheds from a digital elevation model (DEM). RaBPro contains three primary functions: First, RaBPro will delineate watersheds for any given points within a DEM. Second, RaBPro will extract the elevation and slope profiles for flowlines (rivers) within the DEM. Finally, RaBPro provides convenient zonal statistics functionality for characterizing watersheds using auxiliary data the the user provides.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "River and Basin Profiler",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

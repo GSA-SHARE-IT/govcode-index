@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-09-22",
+        "metadataLastUpdated": "2023-09-22"
+    },
+    "description": "NuDustc++ is a nucleating and sputtering dust code. It takes in the temperature-density profiles, abundance data, and chemistry network. It creates a binned size distribution from user input data to track certain grain sizes. NuDustc++ loads the data and calculates where and when a shock is detected in the input data. Using a runge-Kutta DoPri 5 integrator, it calculates nucleation and growth of grains by solving a system of coupled non-linear ODEs. It calculates sputtering based on the presence or lack of a shock by either integrating over energy or summing up the sputtering yield contributions per gas species. It is used to determine and track dust grain nucleation, growth, and erosion (sputtering) in gaseous systems to determine characteristics of the produced grain distribution.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "NuDustC++",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/nuDustC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

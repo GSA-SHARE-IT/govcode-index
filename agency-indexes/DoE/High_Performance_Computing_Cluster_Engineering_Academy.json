@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-05-03",
+        "metadataLastUpdated": "2019-05-06"
+    },
+    "description": "Collection of tools and code for evaluation testing of HPC orchestration solutions by HPCCEA summer students. These scripts and configuration files were written by HPCCEA summer students as part of their summer internship where they explore alternative solutions to our current HPC cluster management software. These scripts/configuration files range from using configuration management tools (Puppet, Chef, Ansible, Fabric, etc.) to scripting languages (Phython, BASH, Perl, etc.). Each year, new students will be added to the project and expand on previous years work.",
+    "laborHours": 1474.4,
+    "languages": [],
+    "name": "High Performance Computing Cluster Engineering Academy",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/HPCCEA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-11-13",
+        "metadataLastUpdated": "2018-11-13"
+    },
+    "description": "This software is a C to Verilog converter. However it doesn't just generate any Verilog code, it is intended to generate Verilog code compatible with execution over quantum based D-Wave systems. ",
+    "laborHours": 410.4,
+    "languages": [],
+    "name": "Dwave compatible C to Verilog converter ",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/c2verilog",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

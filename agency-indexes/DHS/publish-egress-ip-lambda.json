@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2022-07-06",
+        "lastModified": "2026-11-03"
+    },
+    "description": "A Lambda function that scans a set of AWS accounts and publishes file(s) (to an S3 bucket) containing the public IP addresses of EC2 instances or Elastic IPs that have been properly tagged",
+    "downloadURL": "https://api.github.com/repos/cisagov/publish-egress-ip-lambda/downloads",
+    "homepageURL": "https://github.com/cisagov/publish-egress-ip-lambda",
+    "laborHours": 829.0,
+    "languages": [
+        "Python",
+        "Shell",
+        "Dockerfile"
+    ],
+    "name": "publish-egress-ip-lambda",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/publish-egress-ip-lambda.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

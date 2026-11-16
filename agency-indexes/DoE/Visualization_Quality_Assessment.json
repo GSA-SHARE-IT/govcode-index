@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-06-02",
+        "metadataLastUpdated": "2023-06-02"
+    },
+    "description": "Understanding how inaccuracies in visualizations affect users’ perception and understanding of scientific data is hard. Inaccuracies in visualizations are quite common and could arise from a range of sources such as errors in the original dataset arising from compression artifacts, errors in the capturing device, noise during transmission of the data, effects due to the algorithm being used to convert data to visualization images, images generated from neural networks, and sources we have yet to discover.  Many image quality assessment metrics have been developed to quantify image errors.  However, these are usually focused on “natural images” rather than visualizations of scientific data.  Common image quality assessment metrics (IQAs) include MSE, PSNR, perceptual metrics such SSIM, FSIM as well as perceptual metrics using deep learning approaches.   However, a critical part of understanding how errors are perceived by humans, and subsequently developing more accurate quality assessment metrics, is through user evaluation studies.\n\nThe goal of this software is to develop a visualization quality assessment (VQA) process that will enable the generation of VQAs that can be used to quantify errors in scientific data visualizations.  The VQA development process will include software to support user evaluation experimental design, analysis of visualization differences against standard quality metrics, and the ability to develop additional VQA metrics specific to scientific visualization images. ",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Visualization Quality Assessment",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/vizStudy",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

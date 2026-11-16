@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "phuck@lbl.gov"
+    },
+    "date": {
+        "created": "2018-06-14",
+        "metadataLastUpdated": "2018-06-14"
+    },
+    "description": "Since its start in 2011, Materials Project (MP, https://materialsproject.org/) has grown into a world-wide resource for a materials sciences community of more than 27,000 users who rely on the portal as a trusted source to accelerate their research. As a result, they wish to help with MP's efforts by contributing back, but also ask for support in sharing their experimental and computational datasets alongside MP's curated results. This provides the opportunity for researchers in both domains to validate calculations or measurements almost instantaneously and use the disseminated data for integrated materials studies.\n\nWith the public announcement of our general contribution framework, MPContribs, we present a sustainable solution for well-curated data management, organization and dissemination in the context of MP. The framework serves the purpose of collectively maintaining contributions to local and MP community databases as annotations to existing MP materials. It subsequently disseminates them through a generic interactive gateway powered by Jupyter notebooks or through custom project web apps enabled by the webtzite app kit.",
+    "laborHours": 7949.6,
+    "languages": [
+        "JavaScript",
+        "Python"
+    ],
+    "name": "MPContribs",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/materialsproject/MPContribs",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

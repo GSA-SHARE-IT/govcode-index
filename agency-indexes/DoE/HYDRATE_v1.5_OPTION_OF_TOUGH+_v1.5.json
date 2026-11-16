@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-10-10",
+        "metadataLastUpdated": "2019-09-24"
+    },
+    "description": "HYDRATE v1.5 is a numerical code that for the simulation of the behavior of hydrate-bearing geologic systems, and represents the third update of the code since its first release [Moridis et al., 2008]. It is an option of TOUGH+ v1.5 [Moridis and Pruess, 2014], a successor to the TOUGH2 [Pruess et al., 1999, 2012] family of codes for multi-component, multiphase fluid and heat flow developed at the Lawrence Berkeley National Laboratory. HYDRATE v1.5 needs the TOUGH+ v1.5 core code in order to compile and execute. It is written in standard FORTRAN 95/2003, and can be run on any computational platform (workstation, PC, Macintosh) for which such compilers are available. \nBy solving the coupled equations of mass and heat balance, the fully operational TOUGH+HYDRATE code can model the non-isothermal gas release, phase behavior and flow of fluids and heat under conditions typical of common natural CH4-hydrate deposits (i.e., in the permafrost and in deep ocean sediments) in complex geological media at any scale (from laboratory to reservoir) at which Darcy's law is valid. \nTOUGH+HYDRATE v1.5 includes both an equilibrium and a kinetic model of hydrate formation and dissociation. The model accounts for heat and up to four mass components, i.e., water, CH4, hydrate, and water-soluble inhibitors such as salts or alcohols. These are partitioned among four possible phases (gas phase, liquid phase, ice phase and hydrate phase). Hydrate dissociation or formation, phase changes and the corresponding thermal effects are fully described, as are the effects of inhibitors. The model can describe all possible hydrate dissociation mechanisms, i.e., depressurization, thermal stimulation, salting-out effects and inhibitor-induced effects.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 9408.8,
+    "languages": [],
+    "name": "HYDRATE v1.5 OPTION OF TOUGH+ v1.5",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

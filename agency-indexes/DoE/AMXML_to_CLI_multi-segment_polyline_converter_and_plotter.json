@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-09",
+        "metadataLastUpdated": "2021-12-09"
+    },
+    "description": "Converts XML file formats to CLI format for 3D printing; combines equivalent polyline segments (laser power, velocity, focus/spot-size) into a single polyline for a given path. Also plots CLI file format with respect to power for a single specified layer, or the entire file, for 3D printed applications.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "AMXML to CLI multi-segment polyline converter and plotter",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CLDruzgalski/AM_fileConverters",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

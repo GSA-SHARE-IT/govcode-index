@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-16",
+        "metadataLastUpdated": "2024-07-16"
+    },
+    "description": "Jupyter notebooks to reconstruct and visualize microCT data from ALS beamline 8.3.2. Relies on standard tomography and image processing tools (astra, tomopy, itk, scikit-image) and ipywidgets (sliders, drop down menus, etc) to make parameter selection and data visualization easy for users.",
+    "laborHours": 1854.4,
+    "languages": [],
+    "name": "als microct recon (microct) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/als-computing/microct",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

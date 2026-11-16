@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-05-21"
+    },
+    "description": "Smelly is an interactive webtool displaying odor dispersion from various potential waste-to-energy sites across California. It currently displays data for dry anaerobic digestion technology with organic waste intake of 90,000 tons per year. The model addresses meteorological and geographical differences in offsite odor impacts (Jin et al. 2019). In addition to interactive display of odor dispersions, the embedded emission calculator provides two additional functionalities: (1) determine the impact distance for given onsite odor emission rates; and (2) determine allowable odor emission rates at given separation distance between the facility and its downwind communities. Please note that data and model is preliminary at this point and serve as a Proof of Concept. Additional data collection, modeling and research is needed for final application.",
+    "homepageURL": "https://smelly.lbl.gov/About_Smelly.html",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Smelly-Odor Webtool (Smelly) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://smelly.lbl.gov/License.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://smelly.lbl.gov/About_Smelly.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

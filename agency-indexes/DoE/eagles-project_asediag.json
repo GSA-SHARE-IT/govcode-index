@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-11-25",
+        "metadataLastUpdated": "2024-11-25"
+    },
+    "description": "Aerosol process analysis in model-native Spectral Element (SE) grid.  Aerosol Diagnostics on Model Native Grid is a Python-based tool designed for diagnosing aerosol processes in E3SM. It is\nparticularly designed to analyze simulation data on the model-native spectral element (SE) grid, soit is also known as\nAerosol SE Diagnostics or “asediag”",
+    "laborHours": 1884.8,
+    "languages": [],
+    "name": "eagles-project/asediag",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/eagles-project/asediag",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-15",
+        "metadataLastUpdated": "2020-05-15"
+    },
+    "description": "The Global Extensible Open Power Manager (GEOPM) is a framework for exploring power and energy optimizations targeting high performance computing. ",
+    "laborHours": 99058.4,
+    "languages": [],
+    "name": "GEOPM ",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/geopm/geopm",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

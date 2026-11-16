@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-09-07",
+        "metadataLastUpdated": "2022-09-07"
+    },
+    "description": "The Transactive Energy Service System (TESS) is a platform to design, deploy, and operate transactive energy systems in electric utility retail environments. TESS provides retail market clearing mechanisms for peer-to-peer trading of behind-the-meter distributed energy resources based on ramping, capacity, and storage prices.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Transactive Energy Service System (TESS)",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slacgismo/TESS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

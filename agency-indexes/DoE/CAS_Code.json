@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "darve@stanford.edu"
+    },
+    "date": {
+        "created": "2018-01-31",
+        "metadataLastUpdated": "2018-01-31"
+    },
+    "description": "The regular weighted ensemble method simulation Python code was originally developed by H. Lee, Stanford. The bash \nscript for multiple simultaneous simulations was originally developed by S. Ahn, Stanford. The resampling method \nimplemented in the code is from E. Darve and J. Izaguirre (Chapter 7 in Schlick's \"Innovations in Biomolecular Modeling \nand Simulations.\"). The Concurrent Adaptive Sampling (CAS) algorithm Python code was developed on top of the regular \nweighted ensemble method code by S. Ahn, Stanford. Improvements on the parameter input file had been made by J. \nBirgmeier, Stanford.\n\nThere are two folders provided in this Github repository: **2D_Toy_Model_Code** and **MD_Code**. Each folder provides \nall of the needed code with input files for a particular example, e.g., toymodel1, toymodel2, and penta-alanine. In the \n2D_Toy_Model_Code, **Code_With_Proper_Files** will make a separate folder with many output files for each walker and\n**Code_Without_Proper_Files** will only output minimum number of files like flux.txt, total_weight_on_each_ball.txt, \ntotal_weight.txt, time_record.txt, etc.",
+    "laborHours": 2523.2,
+    "name": "CAS_Code",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/shirleyahn/CAS_Code",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

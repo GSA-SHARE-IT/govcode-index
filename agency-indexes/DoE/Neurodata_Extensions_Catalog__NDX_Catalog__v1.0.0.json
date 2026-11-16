@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-01",
+        "metadataLastUpdated": "2021-03-01"
+    },
+    "description": "The Neurodata Extensions Catalog (NDX Catalog) is a novel web archive and associated software tools that enable users to easily create, search for, test, review, and install extensions to the Neurodata Without Borders (NWB) data standard for neurophysiology. The Catalog consists of several software repositories that can be found at https://github.com/nwb-extensions.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Neurodata Extensions Catalog (NDX Catalog) v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/conda-forge/conda-smithy",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "v1.0.0"
+}

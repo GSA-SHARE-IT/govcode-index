@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2019-02-12",
+        "metadataLastUpdated": "2019-03-22"
+    },
+    "description": "Skybright is a utility to estimate the sky brightness in images of the sky taken by optical astronomical telescopes. It uses a simple three component model, including airglow, scattered moonlight, and twilight. The code is derived from an extraction of the sky estimation code in obstac, the telescope scheduling code used by the Dark Energy Survey (written by the same author).",
+    "laborHours": 395.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "skybright",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ehneilsen/skybright",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ],
+    "vcs": "git"
+}

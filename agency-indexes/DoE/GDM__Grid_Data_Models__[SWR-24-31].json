@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-04-08",
+        "metadataLastUpdated": "2024-04-25"
+    },
+    "description": "Grid Data Models (GDM) is a collection of pydantic data models for power distribution and transmission system components. These data models can be easily serialized and deserialized. GDM provides a standard interface for accessing power system component data with built in validation.\n\nSee also: https://pypi.org/project/grid-data-models/",
+    "laborHours": 1976.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "GDM (Grid Data Models) [SWR-24-31]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL-Distribution-Suites/grid-data-models",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "v0.1.2"
+}

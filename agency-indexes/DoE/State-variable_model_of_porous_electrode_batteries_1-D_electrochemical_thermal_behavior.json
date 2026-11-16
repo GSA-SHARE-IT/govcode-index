@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-01-23",
+        "metadataLastUpdated": "2019-01-30"
+    },
+    "description": "Compared to full-order numerical models, the state-variable model (SVM) achieves multiple orders of reduction in computation time for simulation of electrochemical/thermal transport and reaction processes occurring inside lithium-ion and similar batteries with porous electrode construction.  The model efficiently describes Li diffusion dynamics in active material and electrolyte phases, charge transfer kinetics, charge balance, and electron transport processes.  The model requires a separate pre-processing step to identify SVM parameters.\n",
+    "homepageURL": "https://www.nrel.gov/workingwithus/licensing.html",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "MATLAB"
+    ],
+    "name": "State-variable model of porous electrode batteries 1-D electrochemical/thermal behavior",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.nrel.gov/workingwithus/licensing.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.nrel.gov/workingwithus/licensing.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ]
+}

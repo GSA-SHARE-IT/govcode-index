@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-12-08",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Thermoelectric Capacity at Risk Analysis Tool for ERCOT. capratTX is a unique R package, featuring algorithms for simulating water storages that provide cooling water for thermoelectric power plants. The tool may be used to compute long-term \"capacity at risk\" under a range of future climate\nprojections.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/capratTX",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/capratTX",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-05-29",
+        "metadataLastUpdated": "2024-05-29"
+    },
+    "description": "GPT-crafted control software and graphical user interface for Keithley 2400 Source Measure Units and global optimization algorithm. It contains Numba-compatible self-adaptive differential evolution algorithm for optimization tasks.\n\nThis software is comprised of two repositories: \nhttps://github.com/NREL/Keithley_GPT\nhttps://github.com/NREL/DE",
+    "laborHours": 288.8,
+    "languages": [
+        "Python",
+        "Jupyter Notebook"
+    ],
+    "name": "I-V characterization and parameter extraction tool [SWR-24-59]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/DE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

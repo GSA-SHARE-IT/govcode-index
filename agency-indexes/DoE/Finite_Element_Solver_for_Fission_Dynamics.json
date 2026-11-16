@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "FELIX is a physics computer code used to model fission fragment mass distributions in a fully quantum-mechanical, microscopic framework that only relies on our current knowledge of nuclear forces. It is an implementation of the time-dependent generator coordinate method (TDGCM), which simulates the dynamics of a collective quantum wave-packet assuming the motion is adiabatic. In typical applications of the TDGCM, the nuclear collective wavepacket is obtained as a superposition of wavefunctions obtained by solving the Hartree-Fock-Bogoliubov equations of nuclear density functional theory (DFT). The program calculates at each time step the coefficients of that superposition.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Finite Element Solver for Fission Dynamics",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.osti.gov/osti-public/finite-element-solver-for-fission-dynamics",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

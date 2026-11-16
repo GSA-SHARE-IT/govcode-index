@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The primary goal was to build a classifier that accurately predicts a binary response. We utilized a Lasso logistic regression classifier (LLRC) which simultaneously restricts the size of model coefficients and the number of quality metrics included the model. Importantly the model does not treat false-negatives and false-positives as equally deleterious events.",
+    "laborHours": 364.8,
+    "languages": [],
+    "name": "glmnetGLR",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/PNNL-Comp-Mass-Spec/glmnetGLR/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/glmnetGLR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

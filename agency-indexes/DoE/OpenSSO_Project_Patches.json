@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-08"
+    },
+    "description": "These are patches to Sun Microsystems open source OpenSSO project to fix various bugs and incorporate changes for Sandia and NNSA to use the product including fixes to improve OpenSSO's authentication and authorization abilities. These fixes will then by incorporated by Sun into their Sun Access Manager product, which is used by various DOE/NNSA plants and labs. Having Sun maintain these changes will relieve SNL and DOE from the cost of maintaining the changes themselves.",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "OpenSSO Project Patches",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

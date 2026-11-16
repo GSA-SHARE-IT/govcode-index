@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2024-03-09",
+        "metadataLastUpdated": "2024-03-26"
+    },
+    "description": "RMEM - a prototyping platform to explore the usage of RMA-based strategies in GPU-to-GPU communication.\nThe implementation relies on libfabric (BSD-2 or GNUv2) to explore different synchronization approach and their associated performance. It is compatible with different network technologies such as InfiniBand, SlingShot-11, and TCP.  It provides to the user host-to-host and device-to-device communication. The latter can be initiated either from the host, or from the device.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "RMEM-REMOTE MEMORY",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pmodels/rmem",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-03-28",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The goal of Computational Simulation of Online Social Behavior (SocialSim) is to develop innovative technologies for highfidelity computational simulation of online social behavior. SocialSim will focus specifically on information spread and evolution. Current computational approaches to social and behavioral simulation are limited in this regard. Top-down simulation approaches focus on the dynamics of a population as a whole, and model behavioral phenomena by assuming uniform or mostly-uniform behavior across that population. Such methods can easily scale to simulate massive populations, but can be inaccurate if there are specific, distinct variations in the characteristics of the population. In contrast, bottom-up simulation approaches treat population dynamics as an emergent property of the activities and interactions taking place within a diverse population. While such approaches can enable more accurate simulation of information spread, they do not readily scale to represent large populations. SocialSim aims to develop novel approaches to address these challenges.",
+    "laborHours": 8086.4,
+    "languages": [],
+    "name": "pnnl/socialsim",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/socialsim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

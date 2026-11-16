@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-12",
+        "metadataLastUpdated": "2021-07-12"
+    },
+    "description": "NchooseK represents a suite of software tools that seeks to unify and facilitate the exploitation of circuit-model quantum computers and quantum annealers.  Numerous types of software will be included in this suite including compilers, preprocessors, optimizers, translators, run-time systems, support tools and scripts, and technology demonstrations.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "NchooseK",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/NchooseK",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

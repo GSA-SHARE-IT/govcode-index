@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-03-06",
+        "metadataLastUpdated": "2020-03-03"
+    },
+    "description": "The purpose of this code is to enable collaborative research in simulation of large deformation structural mechanics.\n\nParticularly, it will be used to investigate abstract physics coupling methods and algorithms for implicit solves on emerging computing hardware.",
+    "laborHours": 24836.8,
+    "languages": [],
+    "name": "SERAC",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/serac",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

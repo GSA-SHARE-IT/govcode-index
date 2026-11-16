@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-09-14",
+        "metadataLastUpdated": "2022-09-14"
+    },
+    "description": "Examining existing PG&E baseline methodologies. Load modeling is a complex task, with factors such as weather, time of year, location, purpose of building, and more. This study’s purpose is to use non-Demand-Response data from customers in order to find the most accurate method of predicting load behavior for Demand-Response days.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "slacgismo/pge-baseline-study",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slacgismo/pge-baseline-study",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

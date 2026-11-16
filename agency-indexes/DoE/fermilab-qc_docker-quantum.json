@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2019-11-06",
+        "metadataLastUpdated": "2019-11-06"
+    },
+    "description": "Dockerfiles for quantum simulators",
+    "laborHours": 152.0,
+    "languages": [
+        "make",
+        "dockerfile"
+    ],
+    "name": "fermilab-qc/docker-quantum",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/fermilab-qc/docker-quantum",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

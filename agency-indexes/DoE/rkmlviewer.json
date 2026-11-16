@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-11-05",
+        "metadataLastUpdated": "2021-11-05"
+    },
+    "description": "rkmlviewer is an application designed to read and display data encoded in the Keyhole Markup Language.\nThe application provides a graphical window with a first person style camera to view KML files in 3d.\nThe application is built to display \"large scale\" data (not suitable for resolution > 100km)\nrkmlviewer is written in Go, uses OpenGL 3.3 for rendering, and GLFW for cross platform windowing support.\nrkmlviewer contains a command line (ncurses style) gui to select application options at runtime.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "rkmlviewer",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

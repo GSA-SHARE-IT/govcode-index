@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-12-16",
+        "metadataLastUpdated": "2020-12-16"
+    },
+    "description": "Very early stages of a simple tool able to create multiple automated requests of different Independent System Operators (ISOs) data, and download it in comma separated value (.csv) files.\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ISO Data Automated Request Tool",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ISO-DART",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

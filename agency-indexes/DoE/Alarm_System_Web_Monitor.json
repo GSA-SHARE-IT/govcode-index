@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "kasemirk@ornl.gov"
+    },
+    "date": {
+        "created": "2021-10-12",
+        "metadataLastUpdated": "2021-10-12"
+    },
+    "description": "Web display for Kafka-based alarms. Provides a simple read-only display of current alarms, similar to the Phoebus alarm table view. Part of ORNL-EPICS",
+    "laborHours": 0.0,
+    "languages": [
+        "Java",
+        "JavaScript"
+    ],
+    "name": "Alarm System Web Monitor",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/epl-1.0",
+                "name": "EPL-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ornl-epics/alarm-webmon",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

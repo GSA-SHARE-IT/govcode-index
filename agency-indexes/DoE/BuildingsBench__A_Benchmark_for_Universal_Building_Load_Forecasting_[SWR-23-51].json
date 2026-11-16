@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-06-02",
+        "metadataLastUpdated": "2023-08-28"
+    },
+    "description": "The residential and commercial building stock in the United States is responsible for a significant percentage of energy consumption and greenhouse gas emissions. Electrification of end-uses, as well as decarbonizing the electrical grid through renewable energy sources such as solar and wind, constitutes the pathway to zero-emission buildings. Forecasting day-ahead building energy consumption is an integral part of this solution. Currently, specialized forecasting models are hand-made for each individual building, which is time-consuming, expensive, and leads to duplicated efforts. BuildingsBench is a Python software framework for training and comparing generalized machine learning models for universal building load forecasting. This challenge tasks a single foundational model to generalize its forecasts for a wide variety of buildings, across geographic regions, building types, weather patterns, and more. This software provide code for pre-training such models and subsequently evaluating their performance on a suite of hundreds of diverse real and synthetic buildings.\n\nBuildingsBench is a platform for:\n\n- Large-scale pretraining with the synthetic Buildings-900K dataset for short-term load forecasting (STLF). Buildings-900K is statistically representative of the entire U.S. building stock and is extracted from the NREL End-Use Load Profiles database.\n\n- Benchmarking on two tasks evaluating generalization: zero-shot STLF and transfer learning for STLF.\n\nWe provide an index-based PyTorch Dataset for large-scale pretraining, easy data loading for multiple real building energy consumption datasets as PyTorch Tensors or Pandas DataFrames, simple (persistence) to advanced (transformer) baselines, metrics management, and more.",
+    "laborHours": 0.0,
+    "languages": [
+        "Jupyter Notebook",
+        "Python"
+    ],
+    "name": "BuildingsBench: A Benchmark for Universal Building Load Forecasting [SWR-23-51]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/BuildingsBench",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

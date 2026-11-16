@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-16",
+        "metadataLastUpdated": "2020-09-16"
+    },
+    "description": "Javascript clients for the KBase Data API services.",
+    "laborHours": 836.0,
+    "languages": [],
+    "name": "data_api_js_clients",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseattic/data_api_js_clients",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

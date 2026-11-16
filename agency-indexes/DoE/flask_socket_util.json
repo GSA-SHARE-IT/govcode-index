@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-08-10",
+        "metadataLastUpdated": "2022-08-10"
+    },
+    "description": "This is a small utility for using websockets from within Flask for PSDM web services. It consists of a Flask blueprint for web sockets and some client Javascript.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "flask_socket_util",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/flask_socket_util",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

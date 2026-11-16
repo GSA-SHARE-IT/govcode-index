@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-07-15",
+        "metadataLastUpdated": "2022-07-15"
+    },
+    "description": "The Sunny package is an existing open source software to support the simulation of magnetic spin systems. It is available online under the MIT license here: https://github.com/SunnySuite/Sunny.jl The package aims to include the following features: - Analysis for symmetry-allowed interactions - Monte Carlo algorithms for simulating equilibrium configurations. - Schemes for integrating spin dynamics. - Inference of model Hamiltonians - Support for generalized SU(N) spins - Tools for interpreting experimental data, such as diffraction data, magnetization curves, and heat capacity data",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Contributing to Sunny open source code",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/SunnySuite/Sunny.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

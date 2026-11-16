@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "czhu@pppl.gov"
+    },
+    "date": {
+        "created": "2018-06-27",
+        "metadataLastUpdated": "2018-06-27"
+    },
+    "description": "Building on the theoretical foundations of Bruno & Laurence, that three-dimensional, (3D) magnetohydrodynamic (MHD) equilibria with “stepped”-pressure profiles are well-defined and guaranteed to exist, whereas 3D equilibria with integrable magnetic-fields and smooth pressure (or with non-integrable fields and continuous-but-fractal pressure) are pathological. Dr. S.R. Hudson wrote the “Stepped Pressure Equilibrium Code”, (SPEC). SPEC finds minimal-plasma-energy states, subject to the constraints of conserved helicity and fluxes in a collection of nested sub-volumes by extremizing the multi-region, relaxed-MHD (MRxMHD), energy functional, introduced by Dr. M.J. Hole, Dr. S.R. Hudson & Prof. R.L. Dewar.",
+    "homepageURL": "https://princetonuniversity.github.io/SPEC",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "Stepped-Pressure Equilibrium Code (SPEC)",
+    "organization": "Princeton Plasma Physics Laboratory (PPPL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://princetonuniversity.github.io/SPEC",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Princeton Plasma Physics Laboratory (PPPL)"
+    ]
+}

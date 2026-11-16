@@ -1,0 +1,33 @@
+{
+    "name": "USEPA/ccte-api-chemical",
+    "organization": "usepa",
+    "description": "US EPA's CTX Chemical API, available at: https://comptox.epa.gov/ctx-api/docs/chemical.html",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/ccte-api-chemical/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/ccte-api-chemical",
+    "downloadURL": "https://github.com/USEPA/ccte-api-chemical/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/ccte-api-chemical/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/ccte-api-chemical.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2022-12-08T17:22:25Z",
+        "lastModified": "2026-11-13T16:11:11Z",
+        "metadataLastUpdated": "2026-11-16T06:39:58.786Z"
+    }
+}

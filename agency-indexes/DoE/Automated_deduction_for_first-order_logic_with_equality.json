@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-27"
+    },
+    "description": "Otter 3.3 is the current version of ANL's automated deduction system designed to search for proofs and countermodels of conjectures stated in first-order logic with equality. It is used mostly for research in mathematics and logic and also for various applications requiring deductive data processing.",
+    "homepageURL": "https://www.anl.gov/partnerships/licensable-software",
+    "laborHours": 0.0,
+    "languages": [
+        "C"
+    ],
+    "name": "Automated deduction for first-order logic with equality",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.anl.gov/partnerships/licensable-software",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.anl.gov/partnerships/licensable-software",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

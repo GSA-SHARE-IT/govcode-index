@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-10",
+        "metadataLastUpdated": "2021-12-10"
+    },
+    "description": "Clippy (CLI + PYthon) is a Python language interface to HPC resources. Precompiled binaries that execute on HPC systems are exposed as methods to a dynamically-created Clippy Python object, where they present a familiar interface to researchers, data scientists, and others. Clippy allows these users to interact with HPC resources in an easy, straightforward environment - at the REPL, for example, or within a notebook - without the need to learn complex HPC behavior and arcane job submission commands.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Clippy",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/clippy",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

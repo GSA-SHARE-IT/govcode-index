@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "This software provides implementations of fast matrix multiplication algorithms. These algorithms perform fewer floating point operations than the classical cubic algorithm. The software uses code generation to automatically implement the fast algorithms based on high-level descriptions. The code serves two general purposes. The first is to demonstrate that these fast algorithms can out-perform vendor matrix multiplication algorithms for modest problem sizes on a single machine. The second is to rapidly prototype many variations of fast matrix multiplication algorithms to encourage future research in this area. The implementations target sequential and shared memory parallel execution.",
+    "laborHours": 79724.0,
+    "languages": [
+        "Objective-C",
+        "C++",
+        "Shell",
+        "Roff",
+        "MATLAB",
+        "Python"
+    ],
+    "name": "fast-matmul",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/fast-matmul",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

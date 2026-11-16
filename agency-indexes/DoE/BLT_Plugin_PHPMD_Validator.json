@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-08-26",
+        "metadataLastUpdated": "2022-08-26"
+    },
+    "description": "A plugin tool for testing PHP code according to the Mess Detector rules extending functionality to users of Acquia BLT for Drupal.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "BLT Plugin PHPMD Validator",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/blt-phpmd",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

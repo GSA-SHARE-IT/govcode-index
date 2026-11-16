@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-02-03",
+        "metadataLastUpdated": "2021-02-04"
+    },
+    "description": "B.MPI3 is a C++ library wrapper for standard MPI-3. B.MPI3 is designed following the principles of Boost\nand the STL. B.MPI3 is unrelated to the official, now deprecated, MPI-C++ interface. It provides an iterator-based interface and MPI-3 features (RMA and Shared memory). B.MPI3 is written from scratch in C++14.\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "B.MPI3",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/LLNL/b-mpi3/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/b-mpi3",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

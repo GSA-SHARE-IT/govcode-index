@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2018-10-01",
+        "lastModified": "2026-10-07"
+    },
+    "description": "Terraform files that provide AWS elastic IP addresses for use by other dhs-ncats projects ",
+    "downloadURL": "https://api.github.com/repos/cisagov/elastic-ips-terraform/downloads",
+    "homepageURL": "https://github.com/cisagov/elastic-ips-terraform",
+    "laborHours": 95.6,
+    "languages": [
+        "HCL",
+        "Shell"
+    ],
+    "name": "elastic-ips-terraform",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/elastic-ips-terraform.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "terraform"
+    ],
+    "vcs": "git"
+}

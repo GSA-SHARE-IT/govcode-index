@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-10-14",
+        "metadataLastUpdated": "2019-10-15"
+    },
+    "description": "This module mostly wraps the XIA C-library to control and readout the XIA-pixie16 module. It also includes some functions to analyze the data and to make control of the pixie16 more convienent in python.",
+    "laborHours": 2401.6,
+    "languages": [],
+    "name": "Pixie16 Python Interface (Pixie16) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/pypixie16/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

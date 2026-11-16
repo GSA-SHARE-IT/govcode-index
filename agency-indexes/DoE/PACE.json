@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "sarat@ornl.gov"
+    },
+    "date": {
+        "created": "2023-05-09",
+        "metadataLastUpdated": "2023-05-09"
+    },
+    "description": "Performance Analytics for Computational Experiments (PACE) is an end-to-end performance monitoring infrastructure to summarize performance data collected from Department of Energy’s (DOE) climate model experiments to derive insights and present them through a web portal. PACE automatically captures provenance/timing data from simulations run on DOE supercomputers.",
+    "laborHours": 0.0,
+    "languages": [
+        "JavaScript",
+        "Python"
+    ],
+    "name": "PACE",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/pace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2021-08-25"
+    },
+    "description": "Charon is used to solve the drift-diffusion PDE Equations associated with semi-conductor physics. it is used to stimulate the operation of semi-conductor devices such as transistors and diodes. Additionally, the ode includes the functionality, but no the restricted data, to model these devices under the effects of neutron radiation.",
+    "homepageURL": "https://charon.sandia.gov",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Charon v. 2.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://charon.sandia.gov",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

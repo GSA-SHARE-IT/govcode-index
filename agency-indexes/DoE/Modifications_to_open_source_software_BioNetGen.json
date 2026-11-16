@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-02-11",
+        "metadataLastUpdated": "2022-02-11"
+    },
+    "description": "Partial Scaling Algorithm (PSA), it is an accelerating algorithm for stochastic simulations of biochemical reaction networks. This algorithm is implemented in an open source computational modeling platform, BioNetGen.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Modifications to open source software BioNetGen",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/RuleWorld/bionetgen",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

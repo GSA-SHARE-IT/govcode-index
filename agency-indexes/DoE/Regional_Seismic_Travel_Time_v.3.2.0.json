@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-09-30",
+        "metadataLastUpdated": "2024-07-25"
+    },
+    "description": "The RSTT software computes predictions of the travel time of seismic energy traveling from a source to a receiver through 2.5D models of the seismic velocity distribution within the Earth. The two primary applications for the RSTT library are tomographic inversion studies and seismic event location calculations. In tomographic inversions studies, a seismologist begins with number of source-receiver travel time observations and an initial starting model of the velocity distribution within the Earth. A forward travel time calculator, such as the RSTT library, is used to compute predictions of each observed travel time and all of the residuals (observed minus predicted travel time) are calculated. The Earth model is then modified in some systematic way with the goal of minimizing the residuals. The Earth model obtained in this way is assumed to be a better model than the starting model if it has lower residuals. The other major application for the RSTT library is seismic event location. Given an Earth model, an initial estimate of the location of a seismic event, and some number of observations of seismic travel time thought to have originated from that event, location codes systematically modify the estimate of the location of the event with the goal of minimizing the difference between the observed and predicted travel times. The second application, seismic event location, is routinely implemented by the military as part of its effort to monitor the Earth for nuclear tests conducted by foreign countries.",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "C++",
+        "Fortran",
+        "Java",
+        "C++",
+        "C"
+    ],
+    "name": "Regional Seismic Travel Time v.3.2.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/rstt",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "3.2.0"
+}

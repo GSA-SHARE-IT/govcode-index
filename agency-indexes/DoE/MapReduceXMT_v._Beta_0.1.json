@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-08-06"
+    },
+    "description": "The MapReduceXMT library ports the MapReduce framework onto the Cray XMT. MapReduce is a programming paradigm and an approach to data management for unstructured problems. It has gained relevance due to its ability to map serial operations onto parallel distributed architectures, significantly improving developer/analyst productivity. The MapReduceXMT implements the key aspects of MapReduce for the Cray XMT, a massively threaded system that is inherently difficult to program. MapReduceXMT allows users to utilize the machine effectively and efficiently without extensive training in multi-threaded programming. The MapReduceXMT library ports the MapReduce framework onto the Cray XMT. MapReduce is a programming paradigm and an approach to data management for unstructured problems. It has gained relevance due to its ability to map serial operations onto parallel distributed architectures, significantly improving developer/analyst productivity. The MapReduceXMT implements the key aspects of MapReduce for the Cray XMT, a massively threaded system that is inherently difficult to program. MapReduceXMT allows users to utilize the machine effectively and efficiently without extensive training in multi-threaded programming.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MapReduceXMT v. Beta 0.1",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/map-reduce-xmt",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

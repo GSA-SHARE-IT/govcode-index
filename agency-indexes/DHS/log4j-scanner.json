@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2021-12-21",
+        "lastModified": "2026-11-04"
+    },
+    "description": "log4j-scanner is a project derived from other members of the open-source community by CISA to help organizations identify potentially vulnerable web services affected by the log4j vulnerabilities. ",
+    "downloadURL": "https://api.github.com/repos/cisagov/log4j-scanner/downloads",
+    "homepageURL": "https://github.com/cisagov/log4j-scanner",
+    "laborHours": 2924.8,
+    "languages": [
+        "Java",
+        "Python",
+        "Dockerfile"
+    ],
+    "name": "log4j-scanner",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/log4j-scanner.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "security-tools",
+        "security",
+        "log4j",
+        "cve-2021-45046",
+        "cve-2021-44228"
+    ],
+    "vcs": "git"
+}

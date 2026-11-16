@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-15",
+        "metadataLastUpdated": "2024-08-15"
+    },
+    "description": "Psychart is a graphical program developed for NERSC for accurately monitoring air conditions for the air cooled HPC equipment. Psychart will live directly in the OMNI system as a Grafana plugin. It employs the use of Psychrolib and the Grafana Starter Panel to create a front-end program that plots the state of the environmental air on a psychrometric chart. It is highly customizable, allowing the user to modify graph bounds, optionally show ASHRAE data center comfort regions, change the series point color, and more. What sets Psychart apart from other existing psychrometric charts is its ability to plot in real-time. Other psychrometric charts that can be found online require manual input of data and do not seamlessly integrate with Grafana.",
+    "laborHours": 12676.8,
+    "languages": [],
+    "name": "Psychrometric Chart v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/nicfv/Psychart",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

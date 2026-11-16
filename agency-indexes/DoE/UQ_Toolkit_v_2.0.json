@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-30"
+    },
+    "description": "The Uncertainty Quantification (UQ) Toolkit is a software library for the characterizaton and propagation of uncertainties in computational models. For the characterization of uncertainties, Bayesian inference tools are provided to infer uncertain model parameters, as well as Bayesian compressive sensing methods for discovering sparse representations of high-dimensional input-output response surfaces, and also Karhunen-Loève expansions for representing stochastic processes. Uncertain parameters are treated as random variables and represented with Polynomial Chaos expansions (PCEs). The library implements several spectral basis function types (e.g. Hermite basis functions in terms of Gaussian random variables or Legendre basis functions in terms of uniform random variables) that can be used to represent random variables with PCEs. For propagation of uncertainty, tools are provided to propagate PCEs that describe the input uncertainty through the computational model using either intrusive methods (Galerkin projection of equations onto basis functions) or non-intrusive methods (perform deterministic operation at sampled values of the random values and project the obtained results onto basis functions).",
+    "laborHours": 217101.6,
+    "languages": [
+        "C++",
+        "C",
+        "Fortran"
+    ],
+    "name": "UQ Toolkit v 2.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/UQTk",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

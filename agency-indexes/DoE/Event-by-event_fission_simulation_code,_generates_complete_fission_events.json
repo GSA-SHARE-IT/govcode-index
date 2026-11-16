@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "FREYA is a computer code that generates complete fission events. The output includes the energy and momentum of these final state particles: fission products, prompt neutrons and prompt photons. The version of FREYA that is to be released is a module for MCNP6.",
+    "homepageURL": "http://nuclear.llnl.gov/simulations",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "Event-by-event fission simulation code, generates complete fission events",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://nuclear.llnl.gov/simulations",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://nuclear.llnl.gov/simulations",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-07-03",
+        "metadataLastUpdated": "2023-07-03"
+    },
+    "description": "Provides a central location for viewing and comparing different methods for downscaling coarse resolution\nclimate model output.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Downscaled Climate Data Dashboard",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/Downscaled-Climate-Data-Dashboard",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

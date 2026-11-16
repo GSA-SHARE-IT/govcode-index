@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-05-17",
+        "metadataLastUpdated": "2024-05-17"
+    },
+    "description": "ASAUM is a C++ library for representing distributed, multi-block structed and unstructured meshes.  The library is meant to provide users with the ability to read/write, partition, and query the large distributed meshes that are commonly used in scientific computing.",
+    "laborHours": 14926.4,
+    "languages": [],
+    "name": "ASAUM--Adaptive Structured and Unstructured Mesh",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/ASAUM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

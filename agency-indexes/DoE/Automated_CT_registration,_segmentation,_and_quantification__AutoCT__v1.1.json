@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-10-07",
+        "metadataLastUpdated": "2021-10-07"
+    },
+    "description": "Processing and analyzing brain imaging is crucial in both scientific development and clinical field. In this software package, we build a pipeline that integrates automatic registration, segmentation, and quantitative analysis for subjects' CT scans. Leveraging diffeomorphic transofrmations, we enable optimized forward and inverse mappings between an image and the reference. Furthermore, we extract localized features from deformation field based on an online template process, which advances statistical learning downstream. The created templates, atlas as well as our methods provide the brain imaging community tools for AI implementations",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Automated CT registration, segmentation, and quantification (AutoCT) v1.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/LBL_TBI/autoct/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

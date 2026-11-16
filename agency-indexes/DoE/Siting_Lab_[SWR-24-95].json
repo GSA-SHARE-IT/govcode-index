@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-10-07",
+        "metadataLastUpdated": "2024-10-07"
+    },
+    "description": "Siting Lab contains a collection of user-friendly tutorials and guides for working with the Siting Lab (https://data.openei.org/siting_lab) data within the context of the reV model. The python code examples demonstrate the creation and transformation of Siting Lab data into reV compliant format as well as working with the reV model inputs and outputs.\n\nSpecifically, Siting Lab provides a collection of Jupyter Notebooks that serve as guides for working with data from NREL's spatial analysis portfolio. These notebooks teach users how to create and interact with reV data in order to facilitate external use of the model. The guides in this repository reference NREL's Supply Curve data as well as Siting Lab spatial data available on OEDI.",
+    "laborHours": 532.0,
+    "languages": [
+        "Jupyter Notebook"
+    ],
+    "name": "Siting Lab [SWR-24-95]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/SitingLab",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

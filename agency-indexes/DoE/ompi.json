@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "simsdl@ornl.gov"
+    },
+    "date": {
+        "created": "2018-04-18",
+        "metadataLastUpdated": "2018-04-18"
+    },
+    "description": "Clone of Open MPI",
+    "laborHours": 680017.6,
+    "name": "ompi",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ORNL/ompi/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/ompi",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2024-07-24"
+    },
+    "description": "This software enables the user to produce Google Earth visualizations of turbine wake effects for wind farms. The visualizations are based on computations of statistical quantities that vary with wind direction and help quantify the effects on power production of upwind turbines on turbines in their wakes. The results of the software are plot images and kml files that can be loaded into Google Earth. The statistics computed are described in greater detail in the paper: S. Martin, C. H. Westergaard, and J. White (2016), Visualizing Wind Farm Wakes Using SCADA Data, in Wither Turbulence and Big Data in the 21st Century? Eds. A. Pollard, L. Castillo, L. Danaila, and M. Glauser. Springer, pgs. 231-254.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Wind Wake Watcher v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/Wind-Wake-Watcher",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2023-08-14",
+        "metadataLastUpdated": "2023-08-17"
+    },
+    "description": "Building Energy Simulation Test (BESTEST) is an NREL-developed method to validate the qualitative performance of different whole building simulations engines relative to each other. \nhttps://www.nrel.gov/docs/legosti/old/6231.pdf\n\nThe purpose of this repository is to generate BESTEST test case models, run simulations, and populate data for ASHRAE Standard 140 reporting spreadsheets for EnergyPlus® based whole building simulation tools. It was originally setup for 2014 version of Standard 140. In May of 2022 it was updated to the 2020 version of Standard 140. This update included updates and additions to existing test suites, the bulk of which was in Section 5.2 (Building Thermal Envelope and Fabric Load Tests). We did not add Section 5.5 Airside HVAC Equipment Performance, but we hope to add that later in 2022. At some point we also hope to add Section 5.2.4 ground modeling, which is currently excluded.\n\nSupported Tools\nThe default IDF generation is based on the OpenStudio® CLI, but the workflow supports a 'Bring your own IDF' use case. Additionally, for non-EnergyPlus® based tools the post processing scripts can be used if simulation results are provided as a CSV file.The scripts on this repository should work on Mac, Windows, and Linux.\n\nDependencies\nInstall OpenStudio® 3.4.0\nmake sure command line can recognize the 'openstudio' command\nThis includes EnergyPlus® 22.1\nInstall Ruby on your system if it isn't already setup.\n2.7 is used for development but other versions may work\nSince OpenStudio has its own embedded Ruby, which is used for running measures, you don't necessarily have to use a version of Ruby supported by OpenStudio.\nInstall RubyXL Ruby gem\nThis is used to modify Microsoft Excel spreadsheets\nInstall Parallel Ruby gem\nThis allows the CLI to run simulations in parallel",
+    "laborHours": 68339.2,
+    "languages": [
+        "Ruby",
+        "HTML"
+    ],
+    "name": "BESTEST-GSR (Building Energy Simulation Test - Generation Simulation and Reporting) 2023 [SWR 18-23]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/BESTEST-GSR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "OpenStudio 3.4.0 EnergyPlus 22.1 Std 140 ver 2020"
+}

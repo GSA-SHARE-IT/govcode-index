@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "Phisherman is an online software tool that was created to help experimenters study phishing. It can potentially be re-purposed to run other human studies. Phisherman enables studies to be run online, so that users can participate from their own computers. This means that experimenters can get data from subjects in their natural settings. Alternatively, an experimenter can also run the app online in a lab-based setting, if that is desired. The software enables the online deployment of a study that is comprised of three main parts: (1) a consent page, (2) a survey, and (3) an identification task, with instruction/transition screens between each part, allowing the experimenter to provide the user with instructions and messages. Upon logging in, the subject is taken to the permission page, where they agree to or do not agree to take part in the study. If the subject agrees to participate, then the software randomly chooses between doing the survey first (and identification task second) or the identification task first (and survey second). This is to balance possible order effects in the data. Procedurally, in the identification task, the software shows the stimuli to the subject, and asks if she thinks it is a phish (yes/no) and how confident she is about her answer. The subject is given 5 levels of certainty to select from, labeled \"low\" (1), to \"medium\" (3), to \"high\" (5), with the option of picking a level between low and medium (2), and between medium and high (4). After selecting his/her confidence level, then the \"Next\" button activates, allowing a user to move to the next email. The software saves a given subject's progress in the identification task, so that she may log in and out of the site. The consent page is a space for the experimenter to provide the subject with human studies board /internal review board information, and to formally consent to participate in the study. The survey is a space for the experimenter to provide questions and spaces for the users to input answers (allowing both multiple-choice and free-answer options). Phisherman includes administrative pages for managing the stimuli and users. This includes a tool for the experimenter to create, preview, edit, delete (if desired), and manage stimuli (emails). The stimuli may include pictures (uploaded to an appropriate folder) and links, for realism. The software includes a safety feature that prevents the user from going to any link location or opening a file/image. Instead of re-directing the subject's browser, the software provides a pop-up box with the URL location of where the user would have gone. Another administrative page may be used to create fake subject accounts for testing the software prior to deployment, as well as to delete subject accounts when necessary. Data from the experiment can be downloaded from another administrative page.",
+    "laborHours": 3800.0,
+    "languages": [
+        "Groovy",
+        "CSS",
+        "JavaScript"
+    ],
+    "name": "Phisherman v 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/phisherman",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

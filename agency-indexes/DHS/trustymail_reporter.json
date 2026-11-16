@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2018-01-09",
+        "lastModified": "2026-11-03"
+    },
+    "description": "Generate Trustworthy Email reports based on scan data",
+    "downloadURL": "https://api.github.com/repos/cisagov/trustymail_reporter/downloads",
+    "homepageURL": "https://github.com/cisagov/trustymail_reporter",
+    "laborHours": 2435.8,
+    "languages": [
+        "Python",
+        "Mustache",
+        "Shell",
+        "Dockerfile"
+    ],
+    "name": "trustymail_reporter",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/trustymail_reporter.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "cisa-directives"
+    ],
+    "vcs": "git"
+}

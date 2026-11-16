@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-10-04",
+        "metadataLastUpdated": "2024-10-04"
+    },
+    "description": "Cell performance optimization is important for improving the system efficiency of a redox flow battery. To gain better insights into key controlling factors Of system efficiency, this work first proposed a theoretical model for a unit cell by extending a two-dimensional analytic model to a full cell. The model is then used for cell performance optimization after validating it with experimental and numerical modeling data.",
+    "laborHours": 1808.8,
+    "languages": [],
+    "name": "pnnl/EZBattery",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/EZBattery",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

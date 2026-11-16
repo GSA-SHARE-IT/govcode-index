@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-09-23",
+        "metadataLastUpdated": "2023-03-16"
+    },
+    "description": "A generic simulation tool for power grid and general dynamic systems based on semi-analytical solutions (SAS) technology.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Generic Semi-Analytical Simulation Tool (GenSAS)",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ANL-CEEESA/gensas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

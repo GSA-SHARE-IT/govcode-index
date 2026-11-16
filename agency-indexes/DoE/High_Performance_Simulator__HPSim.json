@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-05-17",
+        "metadataLastUpdated": "2024-05-17"
+    },
+    "description": "HPSim is a GPU-accelerated online multi-particle beam dynamics simulation tool for ion linacs. It was originally developed for use on the Los Alamos 800-MeV proton linac with the goal of providing a fast and accurate tool for realistic beam simulations of the actual operating linac. It runs on a GPU equipped workstation. The simulation parameters mirror those of the actual accelerator and can be manipulated through Python scripts in an offline mode or track them\nwhen connected via EPICS in an online mode.",
+    "laborHours": 33272.8,
+    "languages": [],
+    "name": "High Performance Simulator (HPSim",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/enchuanhuang/hpsim",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

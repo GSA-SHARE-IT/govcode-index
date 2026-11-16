@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-02-26",
+        "lastModified": "2026-10-07"
+    },
+    "description": "Terraform configuration to create and populate the cyber.dhs.gov zone.",
+    "downloadURL": "https://api.github.com/repos/cisagov/cool-dns-cyber.dhs.gov/downloads",
+    "homepageURL": "https://github.com/cisagov/cool-dns-cyber.dhs.gov",
+    "laborHours": 1500.2,
+    "languages": [
+        "HCL",
+        "Shell"
+    ],
+    "name": "cool-dns-cyber.dhs.gov",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/cool-dns-cyber.dhs.gov.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

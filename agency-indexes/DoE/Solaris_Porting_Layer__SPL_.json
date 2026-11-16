@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-30",
+        "metadataLastUpdated": "2018-07-30"
+    },
+    "description": "The Solaris Porting Layer (SPL) is a Linux kernel module which provides many of the Solaris kernel APIs. This shim layer makes it possible to run Solaris kernel code in the Linux kernel with relatively minimal modification. This can be particularly useful when you want to track upstream Solaris development closely and do not want the overhead of maintaining a large patch which converts Solaris primitives to Linux primitives.\n",
+    "laborHours": 11643.2,
+    "languages": [],
+    "name": "Solaris Porting Layer (SPL)",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/spl",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

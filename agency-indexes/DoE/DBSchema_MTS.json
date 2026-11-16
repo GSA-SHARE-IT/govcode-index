@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This is a collection of DDL files that define the database schema used by the Mass and Time Tag System (MTS) component of the Pan-Omics Research Information Storage and Management system (PRISM) at the Pacific Northwest National Laboratory (PNNL).  MTS is used to track and quantify peptides and proteins identified in proteomics and related samples.",
+    "laborHours": 116112.8,
+    "languages": [],
+    "name": "DBSchema_MTS",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/DBSchema_MTS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

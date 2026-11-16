@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "CoMD-Em is a software implementation suite of the CoMD [4] proxy app using different emerging programming models. It is intended to analyze the features and capabilities of novel programming models that could help ensure code and performance portability and scalability across heterogeneous platforms while improving programmer productivity. Another goal is to provide the authors and venders with some meaningful feedback regarding the capabilities and limitations of their models. The actual application is a classical molecular dynamics (MD) simulation using either the Lennard-Jones method (LJ) or the embedded atom method (EAM) for primary particle interaction. The code can be extended to support alternate interaction models. The code is expected ro run on a wide class of heterogeneous hardware configurations like shard/distributed/hybrid memory, GPU's and any other platform supported by the underlying programming model.",
+    "laborHours": 1337.6,
+    "name": "CoMD Implementation Suite in Emerging Programming Models",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/LLNL/CoMD-Chapel/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/CoMD-Chapel",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

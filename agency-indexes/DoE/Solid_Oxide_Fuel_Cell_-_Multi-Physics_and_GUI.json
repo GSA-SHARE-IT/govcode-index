@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "SOFC-MP is a simulation tool developed at PNNL to evaluate the tightly coupled multi-physical phenomena in SOFCs. The purpose of the tool is to allow SOFC manufacturers to numerically test changes in planar stack design to meet DOE technical targets. The SOFC-MP 2D module is designed for computational efficiency to enable rapid engineering evaluations for operation of tall symmetric stacks. It can quickly compute distributions for the current density, voltage, temperature, and species composition in tall stacks with co-flow or counter-flow orientations. The 3D module computes distributions in entire 3D domain and handles all planner configurations: co-flow, counter-flow, and cross-flow. The detailed data from 3D simulation can be used as input for structural analysis. SOFC-MP GUI integrates both 2D and 3D modules, and it provides user friendly pre-processing and post-processing capabilities.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "C++, FORTRAN, C#"
+    ],
+    "name": "Solid Oxide Fuel Cell - Multi-Physics and GUI",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

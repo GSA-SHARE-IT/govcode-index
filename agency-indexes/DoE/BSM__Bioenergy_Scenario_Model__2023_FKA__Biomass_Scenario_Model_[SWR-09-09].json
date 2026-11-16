@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2023-08-16",
+        "metadataLastUpdated": "2024-01-03"
+    },
+    "description": "The U.S. Department of Energy's (DOE's) Bioenergy Technologies Office and the National Renewable Energy Laboratory (NREL) developed the BSM (Bioenergy Scenario model) to explore the development of a U.S. biofuels industry. The BSM is a system dynamics model built on the STELLA software platform. The model represents the dynamic interactions of the major sectors of the biofuels industry—feedstock production, feedstock logistics, biomass to biofuels conversion, and biofuels end use, including fuels inventory, dispensing, distribution, fuel use, and the vehicle fleet. The BSM represents contextual aspects of the developing biofuels industry, including investment in new biomass to biofuel conversion technologies, competition from petroleum fuels, vehicle demand for biofuels, and various government policies, using all of these to simulate the development of the industry. The purpose of the BSM is to generate and explore plausible scenarios for the evolution of a biofuels industry in the United States, and as a high-level system model it is not designed for precise, quantitative forecasting. Instead, it is best used to (1) analyze and evaluate alternate policies; (2) generate scenarios; (3) identify high-impact levers and bottlenecks to system evolution; and (4) seed focused discussion among policymakers, analysts, and stakeholders.",
+    "laborHours": 0.0,
+    "languages": [
+        "STELLA"
+    ],
+    "name": "BSM (Bioenergy Scenario Model) 2023 FKA: Biomass Scenario Model [SWR-09-09]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/bsm-public",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "2023 release"
+}

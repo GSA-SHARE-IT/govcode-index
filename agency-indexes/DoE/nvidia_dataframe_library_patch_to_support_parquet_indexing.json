@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-02-28",
+        "metadataLastUpdated": "2023-02-28"
+    },
+    "description": "On behalf of our WFO sponsors/collaborators, we are working closely with NVIDIA to improve their public, open-source GPU dataframes library. We are improving the library's support for reading and writing Parquet (an open source file format) for general-purpose cloud storage and processing. This patch better supports the indexing found in the more recent Parquet specifications. Is there",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "nvidia dataframe library patch to support parquet indexing",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/rapidsai/cudf",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

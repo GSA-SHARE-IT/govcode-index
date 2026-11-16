@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-03-11",
+        "metadataLastUpdated": "2022-03-11"
+    },
+    "description": "The work done on the open source MPI.jl package was done in order to allow it to work with a streaming, in-situ Gaussian process. The addition was to add the capability for the Julia package to use the MPI non-blocking Barrier, Ibarrier. This involved addition of a small chunk of code to the existing package basically replicating the function for the existing blocking MPI barrier but adapted handle the MPI Ibarrier interface.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MPI.jl Contribution",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Direct Deposit Fraud Prevention",
+    "repositoryURL": "",
+    "description": "An intranet web application developed to collect and processes requests to block direct deposit auto-enrollment changes that are received and processed in the SSA Notification of Change (SANOC) System.  The DDFP web application also requires input of the reason for the block - Fraud Alleged or Preventive Measure.  Both the adding and removal of the block are updated in real time allowing the application to access the data for display the block request history.",
+    "permissions": {
+        "licenses": [],
+        "usageType": "exemptByAgencySystem",
+        "exemptionText": ""
+    },
+    "laborHours": 0,
+    "tags": [
+        "Direct Deposit",
+        "Fraud Prevention"
+    ],
+    "contact": {
+        "email": "Open.Source@ssa.gov",
+        "name": "Open Source Administrator"
+    }
+}

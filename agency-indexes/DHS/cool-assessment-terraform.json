@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-03-02",
+        "lastModified": "2026-10-19"
+    },
+    "description": "Terraform to deploy an assessment environment to the COOL",
+    "downloadURL": "https://api.github.com/repos/cisagov/cool-assessment-terraform/downloads",
+    "homepageURL": "https://github.com/cisagov/cool-assessment-terraform",
+    "laborHours": 5060.2,
+    "languages": [
+        "HCL",
+        "Shell",
+        "Python"
+    ],
+    "name": "cool-assessment-terraform",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/cool-assessment-terraform.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

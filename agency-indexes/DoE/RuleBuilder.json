@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-01-29",
+        "metadataLastUpdated": "2018-01-29"
+    },
+    "description": "RuleBuilder is a tool for drawing graphs represented by the BioNetGen rule-based modeling language (BNGL), a domain-specific language used to formulate mathematical models of biochemical interaction networks.  This framework provides an intuitive plain-text representation of such networks using a graph-based formalism. The interactions between the model's components are graph-rewriting rules that denote the minimum context needed for the interaction to occur.  In some cases the context required for reactions to occur can grow quite large, and the lengthy textual description of the interaction can be difficult to interpret or debug. RuleBuilder is designed to make this process simpler through visualization of individual rule or pattern strings.  The software assists in the reading of existing models by converting the BNGL strings of interest into a graph-based representation composed of nodes and edges. RuleBuilder also enables the user to build the visual representation directly from its interface, composing the BNGL string as components and operators are added to the graphical object.",
+    "laborHours": 1368.0,
+    "name": "RuleBuilder",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/RuleWorld/RuleBuilder",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-09-25",
+        "metadataLastUpdated": "2024-07-30"
+    },
+    "description": "SPPARKS is a kinetic Monte Carlo simulator which implements kinetic and Metropolis Monte Carlo solvers in a general way so that they can be hooked to applications of various kinds. Specific applications are implemented in SPPARKS as physical models which generate events (e.g. a diffusive hop or chemical reaction) and execute them one-by-one. Applications can run in parallel so long as the simulation domain can be partitioned spatially so that multiple events can be invoked simultaneously.    SPPARKS is used to model various kinds of mesoscale materials science scenarios such as grain growth, surface deposition and growth, and reaction kinetics. It can also be used to develop new Monte Carlo models that hook to the existing solver and parallel infrastructure provided by the code.",
+    "laborHours": 165102.4,
+    "languages": [
+        "C++",
+        "C"
+    ],
+    "name": "Stochastic Parallel PARticle Kinetic Simulator",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/spparks",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

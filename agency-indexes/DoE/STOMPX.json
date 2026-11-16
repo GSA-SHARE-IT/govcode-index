@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-10-13",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "STOMPX is an OpenMPI implementation of selected operational modes of the Subsurface Transport Over Multiple Phases\nnumerical simulator. STOMPX is designed to execute with both shared- and distributed-memory computer architectures.\nThis implementation of the simulator is designed to solve the same problems as the STOMP simulator, but taking\nadvantage of multiple processor execution through the OpenMPI language and libraries. The STOMP simulator is written in\nFortran 90 and operates on single processors or shared-memory computer architectures. The STOMPX simulator extends\nexecution to distributed-memory computer architectures, including super computers",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "STOMPX",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

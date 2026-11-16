@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2021-01-25",
+        "metadataLastUpdated": "2021-01-26"
+    },
+    "description": "ModuleOT is an open hardware security platform which provides all features necessary for securing remote energy resources. The platform consists of a physical bump in-the wire device which runs a custom-built application built with Go and Python and leverages AES-NI Instruction set available on modern hardware for cryptographic acceleration. By combining these features, ModuleOT acts as an all-in-one low-cost solution to enable cryptographically secured communications to any critical remote servers or devices. Because the software application has been built using Golang, this source can be easily compiled for different hardware platforms. The module is designed to provide the following core features: (1) encrypted communications across an untrusted network, (2) certificate-based authentication with secure storage, (3) hardware cryptographic acceleration, (4) IP-based whitelisting, (5) local firewall management, and (6) legacy (RS485) device support.\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ModuleOT",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/ModuleOT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

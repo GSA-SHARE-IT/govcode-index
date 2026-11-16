@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "IMPACT-Z is a parallel particle-in-cell code whose primary purpose is to model the dynamics of charged particle beams in linear accelerators. The code includes the effects of externally applied fields from magnets and accelerating cavities as well as the effect of self-fields (space charge fields). Mathematically, the code solves the Vlasov/Poisson equations using a particle-based technique. The code, which is written in Fortran90 with MPI, runs on both single-processor and multi-processor systems.",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran90 with MPI"
+    ],
+    "name": "Impact-Z",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/impact-lbl/IMPACT-Z/blob/master/license.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/impact-lbl/IMPACT-Z",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-02-24",
+        "metadataLastUpdated": "2021-02-24"
+    },
+    "description": "This source code includes tutorials targeting a general audience that will help users to use high performance computing environments and systems at Livermore Computing and beyond. Examples of HPC tools covered include mpi and posix. Tutorials may include source code demonstrating usage.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "High Performance Computing tutorials",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/HPC-Tutorials",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

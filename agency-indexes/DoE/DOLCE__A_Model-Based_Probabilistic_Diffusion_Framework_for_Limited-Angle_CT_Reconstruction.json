@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-10-09",
+        "metadataLastUpdated": "2023-10-09"
+    },
+    "description": "Limited-Angle Computed Tomography (LACT) is a non-destructive evaluation technique used in a variety\nof applications ranging from security to medicine. The limited angle coverage in LACT is often a dominant\nsource of severe artifacts in the reconstructed images, making it a challenging inverse problem. We\npresent DOLCE, a new deep model-based framework for LACT that uses a conditional diffusion model as\nan image prior. Diffusion models are a recent class of deep generative models that are relatively easy to\ntrain due to their implementation as image denoisers. DOLCE can form high-quality images from severely\nunder-sampled data by integrating data-consistency updates with the sampling updates of a diffusion\nmodel, which is conditioned on the transformed limited-angle data. We show through extensive\nexperimentation on several challenging real LACT datasets that, the same pre-trained DOLCE model\nachieves the SOTA performance on drastically different types of images. Additionally, we show that,\nunlike standard LACT reconstruction methods, DOLCE naturally enables the quantification of the\nreconstruction uncertainty by generating multiple samples consistent with the measured data.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "DOLCE: A Model-Based Probabilistic Diffusion Framework for Limited-Angle CT Reconstruction",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/wustl-cig/DOLCE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

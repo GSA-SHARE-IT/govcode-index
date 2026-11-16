@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-07-11",
+        "metadataLastUpdated": "2019-07-12"
+    },
+    "description": "A database, web API and portal will be developed that stores data from synchotron experiments. The data stored will be: \n- metadata about the experiment (who ran it, when it was conducted, what proposal and ESAF were covered) \n- references to raw data (e.g. images taken at the beamline) \n- references to derived data \n\nBeamline users and Beamline staff will have private access to view experiment data and assign web-friendly visualizations to it. They will also be use the portal to download some of the data taken at the beamline. They we will be able to create and approve experiment pages that can be viewed publicly. \n\nThe software created for this project will include replication and fail over technologies to maintain a high level of uptime. \n\nSoftware developed in this project will be: \n- database schema \n- web middleware to create a web API \n- web-based user interface code",
+    "laborHours": 4833.6,
+    "languages": [],
+    "name": "Splash v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/als-computing/splash",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

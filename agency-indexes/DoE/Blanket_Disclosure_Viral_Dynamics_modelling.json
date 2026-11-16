@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-09-10",
+        "metadataLastUpdated": "2021-09-13"
+    },
+    "description": "The codes are used to analyze biological data, plot figures, and generate results for papers that will be published as a result of the execution of our NIH grant.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Blanket Disclosure Viral Dynamics modelling",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/gamma-dde",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/CDCgov",
+        "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+        "created": "2018-04-03",
+        "lastModified": "2020-06-26"
+    },
+    "description": "This is the repository with the HL7 utilities service to parse, validate and generate sample HL7 data.",
+    "downloadURL": "https://api.github.com/repos/CDCgov/fdns-ms-hl7-utils/downloads",
+    "homepageURL": "https://github.com/CDCgov/fdns-ms-hl7-utils",
+    "laborHours": 0,
+    "languages": [
+        "Java",
+        "HTML",
+        "FreeMarker",
+        "Dockerfile",
+        "Makefile"
+    ],
+    "name": "fdns-ms-hl7-utils",
+    "organization": "Centers for Disease Control and Prevention",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "git://github.com/CDCgov/fdns-ms-hl7-utils.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

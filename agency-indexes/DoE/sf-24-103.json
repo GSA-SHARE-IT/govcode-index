@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2024-12-09",
+        "metadataLastUpdated": "2024-12-09"
+    },
+    "description": "pyzag is a library for efficiently training generic models defined with a recursive nonlinear function. We developed it primarily to provide an efficient means to train NEML2 models\n it can be used to train other, more general types of models.",
+    "laborHours": 1079.2,
+    "languages": [],
+    "name": "sf-24-103",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/applied-material-modeling/pyzag",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

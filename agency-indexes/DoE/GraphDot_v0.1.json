@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-10-15",
+        "metadataLastUpdated": "2019-10-15"
+    },
+    "description": "GraphDot is a scikit-learn compatible library that implements GPU-accelerated graph kernels for similarity comparison between graphs.",
+    "laborHours": 1126912.8,
+    "languages": [],
+    "name": "GraphDot v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/yhtang/graphdot",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

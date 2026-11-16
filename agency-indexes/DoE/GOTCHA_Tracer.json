@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-17",
+        "metadataLastUpdated": "2018-07-17"
+    },
+    "description": "This is a simple example for how to create a tracer using GOTCHA. It is also shows how a CMake project would integrate Gotcha. This includes testing Gotcha via direct invocation and using LD_PRELOAD.\n",
+    "laborHours": 258.4,
+    "languages": [],
+    "name": "GOTCHA Tracer",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/GOTCHA-tracer",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

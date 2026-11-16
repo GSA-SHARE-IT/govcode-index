@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2025-01-17",
+        "metadataLastUpdated": "2025-01-17"
+    },
+    "description": "The Cyber-Informed Engineering Battery Analysis Tool (CIEBAT) leverages the Department of Energy’s Cyber-Informed Engineering to prompt engineering designers and operators through an analysis of the critical functions to be supported by a BESS installation, the criticality of those functions, the impacts of denial, disruption or misuse of those functions within the BESS system, and the mitigations which could best prevent impacts to those functions resulting from cyber attack. Through use of this tool, BESS designers and operators can quickly identify appropriate engineering mitigation opportunities to limit impacts from cyber attack and functions where engineering and operational staff can prioritize and guide the application of cybersecurity protections to best support the resiliency of the system.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Cyber-informed Engineering Battery Analysis Tool",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/CIEBAT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "rgrandy@bnl.gov"
+    },
+    "date": {
+        "created": "2020-03-30",
+        "metadataLastUpdated": "2020-03-30"
+    },
+    "description": "PyMDA allows for processing individual microcrystal data sets as progressive wedges to address radiation damage and allows for robust extraction of diffraction signals including weak anomalous signals through the implementation of unit-cell-based classification and an iterative outlier rejection strategy. PyMDA may be used routinely to process microcrystal data sets to produce one or more assembled data sets for structural analysis.",
+    "laborHours": 395.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "PyMDA",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/qun-liu/PyMDA",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "COGENT is a simulation code that models the plasma evolution in the edge region of a tokamak fusion reactor, from the open field line scrape-off layer, across the separatrix, and into the core. The model is based on the 4D gyrokinetic closure of the kinetic equations for a plasma coupled to an electrostatic potential field. The background magnetic field is prescribed either analytically or generated from experimental data, and the grid is aligned with magnetic flux surfaces. Multiple collision operator options are provided, from Krook to fully nonlinear Fokker-Planck.",
+    "laborHours": 1019479.2,
+    "name": "Continuum Gyrokinetic Edge New Technology",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/LLNL/COGENT/blob/master/COPYRIGHT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/cogent",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

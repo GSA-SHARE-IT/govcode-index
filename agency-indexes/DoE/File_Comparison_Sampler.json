@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The file Comparison Sampler console application compares two or more files (typically in separate folders) to check whether the start of the files match, the end of the files match, and selected sections inside the files also match. It is useful for comparing large files without reading the entire file. Alternatively, you can provide two folder paths and the program will compare all of the files in the first folder to the identically named files in the second folder.",
+    "laborHours": 532.0,
+    "languages": [],
+    "name": "File Comparison Sampler",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/File-Comparison-Sampler",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

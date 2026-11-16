@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-07-21",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "This model was developed to assess the viability of US Lithium supply from geothermal brine and the potential supply chain impact of extracting Lithium from this source. This model links global demand and supply of lithium (Li) considering different electric vehicle (EV) demand scenarios. We seek to answer the following questions: • What is the economic potential of Li extraction from US geothermal sources? • Is geothermal Li extraction technology a viable investment in the US? • What is the potential supply chain impact of Li supply from US geothermal sources?",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Lithium Supply Analysis Model",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/LISA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

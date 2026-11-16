@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-09",
+        "metadataLastUpdated": "2021-06-15"
+    },
+    "description": "The Adapter Python IO software, in short Adapter or the Adapter software, encapsulates certain Python IO capabilities used for loading in and writing out data when performing analytical Python code runs. More specificcally, it provides a Python API to load data tables from various formats such as XLSX (MS Excel), CSV, and database, into Python code as Pandas DataFrames, as well as to write out tables into a database or CSV files. The Adapter software standardizes a way to point the code to one or multiple input files of one or multiple formats. Therefore, its main feature is the ability to convert data tables identified in one main and, optionally, one or more additional input files, into database tables and Pandas DataFrames for downstream usage in any compatible software. In addition to the loading capability, an instance of the Adapter IO object has the capability to write data out. If the write capability is invoked, all loaded tables are written as either a single database or a set of CSV files, or both, to a location specified in the dedicated input table.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Adapter Python IO (Adapter) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/Adapter",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "PyUtilib is a collection of Python utilities that are used by Python packages developed at Sandia National Laboratories, including the Coopr and FAST Python packages. PyUtilib includes facilities for managing factories, subprocess management, interfacing with Excel, and applying numerical techniques.",
+    "laborHours": 14972.0,
+    "languages": [
+        "Shell",
+        "Python"
+    ],
+    "name": "PyUtilib: A Pythos Utility Library v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/pyutilib",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-06-15",
+        "metadataLastUpdated": "2022-06-15"
+    },
+    "description": "Dye-doped whispering gallery mode resonator (WGMR) microspheres yield highly structured emission spectra that are extremely sensitive to their environment and are of intense interest for use in a variety of sensing applications. Efforts to leverage the unique sensitivities of WGMRs have relied on stringent experimental requirements to correlate specific spectral shifts/changes to an analyte/stimulus such as 1) precise positional knowledge, 2) reference spectra for each microsphere, and 3) high mechanical stability. Consequently, these can hinder adequate mixing or incorporation of analytes and creates challenges for remote sensing. The MATLAB codes provided here are to be used in conjunction with a continuous flow technique for measuring WGM spectra of dye-doped microspheres suspended in solution. One MATLAB script, smooths the data, automatically baseline corrects it to isolate the whispering gallery modes (WGM) from the unwanted bulk emission, and assesses the similarity of each spectrum to aid in selecting a set of unique WGM spectra for further analysis. The next script is designed to analyze WGM spectra to determine the size of the resonator and the refractive index (RI) of its local environment without a priori knowledge of the individual microsphere. The final script allows the user to cluster spheres based on the product of their RI and radius and the contrast ratio of the RI of the sphere material and that of its environment by using a shared nearest neighbor spectral clustering algorithm.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MatLab Package for Whispering Gallery Mode Data",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/WhisperingGalleryModeResonatorDataWU",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

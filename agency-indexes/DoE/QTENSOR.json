@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2020-11-09",
+        "metadataLastUpdated": "2022-01-05"
+    },
+    "description": "QTensor is a quantum circuit simulator designed to run efficiently in parallel mode on large supercomputers. It is based on the tensor network representation of quantum circuits. The simulator is flexible and agnostic to both the connectivity map of the quantum device and the types of gates used in the circuit.",
+    "homepageURL": "https://www.anl.gov/partnerships/licensable-software",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "QTENSOR",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.anl.gov/partnerships/licensable-software",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

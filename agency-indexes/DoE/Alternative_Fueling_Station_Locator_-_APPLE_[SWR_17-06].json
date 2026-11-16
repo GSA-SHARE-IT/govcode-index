@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-03-13",
+        "metadataLastUpdated": "2023-05-30"
+    },
+    "description": "The free Alternative Fueling Station Locator app helps you find fueling stations that offer electricity, natural gas, biodiesel, E85, propane, or hydrogen.\n\nUse your current location or enter a custom location to find the 20 closest stations within a 30-mile radius. View the stations on a map or see a list of stations ordered by distance from your location. Select your alternative fuel of choice and adjust the custom filters to fit your needs.\n\nSelect a station from the map or list to view contact info and other details:\n- address, phone number, and hours of operation\n- payment types accepted\n- public or private access\n- special services\n- compression (natural gas)\n- vehicle size access (natural gas)\n- number and types of chargers (electric)\n- blends available (biodiesel)\n- blender pumps (ethanol)\n\nThe app draws information from the U.S. Department of Energy's Alternative Fuels Data Center, which houses the most comprehensive, up-to-date database of alternative fueling stations in the United States. The database contains location information for more than 15,000 alternative fueling stations throughout the country.",
+    "homepageURL": "https://afdc.energy.gov/stations#/find/nearest",
+    "laborHours": 29518.4,
+    "languages": [
+        "Objective-C"
+    ],
+    "name": "Alternative Fueling Station Locator - APPLE [SWR 17-06]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.nrel.gov/disclaimer.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://afdc.energy.gov/stations#/find/nearest",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "version": "1.1.0"
+}

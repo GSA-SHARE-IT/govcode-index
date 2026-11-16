@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The MDEF package contains capabilities ofr modeling the deformation of materials at the crystal scale. Primary code capabilities are: xoth \"strength\" and \"equation of state\" aspects of material response, post-processing utilities, utilities for comparing results with data from diffraction experiments.",
+    "homepageURL": "https://anisotropy.mae.cornell.edu/dplab/mdef",
+    "laborHours": 0.0,
+    "name": "Multi-scale and Multi-phase deformation of crystalline materials",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://anisotropy.mae.cornell.edu/dplab/mdef",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

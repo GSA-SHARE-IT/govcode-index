@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "ESIOS is a software program developed at Pacific Northwest National Laboratory (PNNL) that performs intra-hour dispatch and automatic generation control (AGC) simulations for electric power system frequency regulation and load/variable generation following. The program dispatches generation resources at minute interval to meet control performance requirements, while incorporating stochastic models of forecast errors and variability with generation, load, interchange and market behaviors. The simulator also contains an operator model that mimics manual actions to adjust resource dispatch and maintain system reserves. Besides simulating generation fleet intra-hour dispatch, ESIOS can also be used as a test platform for the design and verification of energy storage, demand response, and other technologies helping to accommodate variable generation.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "Python, Java"
+    ],
+    "name": "Electric System Intra-hour Operation Simulator",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

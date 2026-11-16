@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-11",
+        "metadataLastUpdated": "2021-03-11"
+    },
+    "description": "MT-xGEMM is a simple driver for benchmarking xGEMM Level 3 BLAS functions. Support includes multiple BLAS interfaces, including: CBLAS, MKL, CUBLAS and HIPBLAS.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MT-xGEMM v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/NERSC/nersc-proxies/mt-gemm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

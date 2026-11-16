@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "miniAMR is a \"miniapp\" which will be added to the Mantevo project. It provides a platform to experiment with different aspects of Adaptive Mesh Refinement (AMR). The calculations are performed on random data and the refinement is driven by simple objects moving through the mesh, so no real problem is solved. By having a small code that runs quickly, we can use to study different aspects of AMR and easily port the code to new testbed machines",
+    "laborHours": 10989.6,
+    "languages": [
+        "Makefile",
+        "C"
+    ],
+    "name": "miniAMR",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/miniAMR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "0.9"
+}

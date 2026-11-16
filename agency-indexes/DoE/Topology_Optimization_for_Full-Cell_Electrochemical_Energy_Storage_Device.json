@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2025-03-31",
+        "metadataLastUpdated": "2025-03-31"
+    },
+    "description": "This code is used to conduct topology optimization of a general full cell energy storage device. The anode\nand cathode designs are optimized simultaneously, allowing possibility for interdigitation. The charging\nmechanism can consist of both electric double layer charging (EDLC) typically observed in capacitors and\nredox reaction typically observed in batteries.",
+    "laborHours": 942.4,
+    "languages": [],
+    "name": "Topology Optimization for Full-Cell Electrochemical Energy Storage Device",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/TOPEFC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

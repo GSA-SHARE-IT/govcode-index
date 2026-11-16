@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Parallel Heterogeneous Dynamic unstructured Mesh (phdMesh) data structure library and integration testing code that performs dynamic load balancing of the data structure and parallel geometric proximity search on a contrived test problem. The phdMesh library is intended to be module within a finite element or finite volume library or code. The integration testing code is intended to provide a compact and highly portable performance evaluation code for parallel computing systems.",
+    "laborHours": 8344830.4,
+    "name": "phdMesh",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

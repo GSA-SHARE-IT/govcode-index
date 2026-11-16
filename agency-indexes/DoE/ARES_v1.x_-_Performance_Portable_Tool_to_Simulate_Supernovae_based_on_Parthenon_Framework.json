@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-01-26",
+        "metadataLastUpdated": "2024-01-26"
+    },
+    "description": "Historically, codes for simulating supernovae (such as Arepo, FLASH or LEAFS) have been at the forefront of scientific high-performance computing to the immense computational resources required for full 3D simulations. However, given the shift towards heterogenous HPC architectures, many current-generation codes are at the risk of losing their competitiveness as they are only designed to run on homogeneous CPU-only systems. There exist several efforts to enable these codes for GPU’s, however, these efforts only consider specific architectures or vendors (e.g., implement only CUDA or HIP), limiting themselves to a small range of exascale computing systems.\nFrameworks such as Kokkos aim to provide a framework which is agnostic of the targeted architecture, enabling the development of performant and portable code.\nIn the Ares code, we develop a performance portable tool to simulate supernovae based on the Parthenon Framework, which in turn uses Kokkos in the background. Here, the Parthenon Framework provides an interface to the underlying mesh-refinement routines, which form the backbone of our code. In addition, we incorporate the already existing Singularity-EOS toolkit to provide us with various equations of state, primarily the Helmholtz equation of state. We also include the JINA Reaclib as a basis for our nuclear network solver. Finally, we implement a gravity solver to complete the required physics.\nThis setup will provide us with a minimal code base to simulate supernova in a similar style to the tried-and-tested Arepo code, but in a futureproof performance portable framework.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ARES v1.x - Performance Portable Tool to Simulate Supernovae based on Parthenon Framework",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/AresPK",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

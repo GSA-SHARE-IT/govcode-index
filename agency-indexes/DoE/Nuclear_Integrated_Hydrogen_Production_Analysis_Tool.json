@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2024-08-26",
+        "metadataLastUpdated": "2024-08-26"
+    },
+    "description": "This is an Excel-based time-independent discount cash flow calculator for LWR-HTSE systems. The tool incorporates (1) discounted cash flow and levelized cost of hydrogen (LCOH) analysis, (2) sensitivity analysis with respect to select financial performance metrics with output ‘tornado’ charts, (3) profitability analysis represented by heat maps using the two most sensitive parameters, (4) electricity versus hydrogen production preference analysis by comparing change in net present value (?NPV) between NPP-HTSE and business-as-usual electricity production for the grid, and (5) competitiveness analysis by comparing the calculated LCOH for NPP-HTSE with that of steam methane reforming, which is the conventional process to produce hydrogen.",
+    "laborHours": 0.0,
+    "languages": [
+        "Visual Basic"
+    ],
+    "name": "Nuclear Integrated Hydrogen Production Analysis Tool",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/NIHPA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

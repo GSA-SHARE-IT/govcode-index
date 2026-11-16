@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2019-12-19",
+        "metadataLastUpdated": "2019-12-19"
+    },
+    "description": "A library of utility classes for computer vision. Contains implementations of various well-known image processing techniques, such as interest point operators and region descriptors. Includes interfaces to various libraries for image and video I/O, as well as an interface to LAPACK/BLAS. FL was developed at the University of Illinois, Urbana-Champaign (UIUC) and released under an open source license. Version 1.2 was a maintenance release provided by SNL under the LGPL license. Version 1.3 is a maintenance release, containing the following changes: - Improved image format handling. Now handles strided and planar memory layouts and a wider range of pixel formats. - Improved image file I/O, including better support for metadata, a wider range of stored pixel types, and a couple of new file formats. - Improvements to DOG and SIFT, and efficiency improvements in low-level convolution. - Improvements to networking, including a generic TCP listener. - Various improvements to numerical processing. The HISTORY file included in the distribution contains a more detailed description of the changes.",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "FL V1.4",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "version": "1.4"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-02-25",
+        "metadataLastUpdated": "2019-05-31"
+    },
+    "description": "WINGRIDDER V3.0 is a Windows-based software for designing and generating numerical grids for numerical simulators that are based on the \"integral finite difference\" or the \"control volume\" numerical scheme (e.g., TOUGH2, Pruess et al., 1996). The user can design and generate grid that properly represents the stratigraphic features, inclined faults, and repository. WINGRIDDER V3.0 is an upgrade from WINGRIDDER V2.0. This revision includes testable requirements as listed in the Requirements Document (RD), 10024-RD-3.0-00, Section 2. With new features, WINGRIDDER V3.0 adds the ability to generate a multiple-interactive-continuum (MINC) grid.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "WinGridder-A graphic grid generator for TOUGH2 simulators (WinGridder) v3.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

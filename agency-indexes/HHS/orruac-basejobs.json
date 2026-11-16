@@ -1,0 +1,37 @@
+{
+    "name": "orruac-basejobs",
+    "description": "Mule apps related to base tables,cleansing,lookups",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": null
+    },
+    "organization": "Department of Health and Human Services",
+    "homepageURL": "https://github.com/HHS/orruac-basejobs",
+    "downloadURL": "https://api.github.com/repos/HHS/orruac-basejobs/downloads",
+    "repositoryURL": "https://github.com/HHS/orruac-basejobs.git",
+    "vcs": "git",
+    "laborHours": 0.0,
+    "languages": [
+        "RAML",
+        "DataWeave"
+    ],
+    "date": {
+        "created": "2021-03-18",
+        "lastModified": "2021-05-28",
+        "metadataLastUpdated": "2022-03-22"
+    },
+    "tags": [
+        "Mule",
+        "apps",
+        "related",
+        "base",
+        "tables",
+        "cleansing",
+        "lookups"
+    ],
+    "contact": {
+        "email": "HHS_GitHub_Service_Desk@hhs.gov",
+        "name": "U.S. Department of Health & Human Services"
+    }
+}

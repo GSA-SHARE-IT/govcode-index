@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-09-04",
+        "metadataLastUpdated": "2018-09-04"
+    },
+    "description": "Quinoa is a set of computational tools that enables research and numerical analysis in fluid dynamics. At this time it remains a test-bed to experiment with various algorithms using fully asynchronous runtime systems. Currently, Quinoa consists of the following tools: (1) Walker, a numerical integrator for systems of stochastic differential equations in time. It is a mathematical tool to analyze and design the behavior of stochastic differential equations. It allows the estimation of arbitrary coupled statistics and probability density functions and is currently used for the design of statistical moment approximations for multiple mixing materials in variable-density turbulence. (2) Inciter, an overdecomposition-aware finite element field solver for partial differential equations using 3D unstructured grids. Inciter is used to research asynchronous mesh-based algorithms and to experiment with coupling asynchronous to bulk-synchronous parallel code. Two planned new features of Inciter, compared to the previous release (LA-CC-16-015), to be implemented in 2017, are (a) a simple Navier-Stokes solver for ideal single-material compressible gases, and (b) solution-adaptive mesh refinement (AMR), which enables dynamically concentrating compute resources to regions with interesting physics. Using the NS-AMR problem we plan to explore how to scale such high-load-imbalance simulations, representative of large production multiphysics codes, to very large problems on very large computers using an asynchronous runtime system. (3) RNGTest, a test harness to subject random number generators to stringent statistical tests enabling quantitative ranking with respect to their quality and computational cost. (4) UnitTest, a unit test harness, running hundreds of tests per second, capable of testing serial, synchronous, and asynchronous functions. (5) MeshConv, a mesh file converter that can be used to convert 3D tetrahedron meshes from and to either of the following formats: Gmsh, http://www.geuz.org/gmsh, Netgen, http://sourceforge.net/apps/mediawiki/netgen-mesher, ExodusII, http://sourceforge.net/projects/exodusii, HyperMesh, http://www.altairhyperworks.com/product/HyperMesh.",
+    "laborHours": 130020.8,
+    "languages": [],
+    "name": "Quinoa, Version 0.2",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/quinoacomputing/quinoa",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

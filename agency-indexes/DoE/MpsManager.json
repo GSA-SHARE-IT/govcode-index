@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-07-14",
+        "metadataLastUpdated": "2022-07-14"
+    },
+    "description": "The MpsManager provides an extra security layer for important MPS configuration parameters: analog device thresholds and bypasses. The MpsManager server writes/reads information to/from the MPS runtime configuration database (https://github.com/slaclab/mps_database/tree/master/runtime).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MpsManager",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/mps_manager/blob/master/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/mps_manager",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

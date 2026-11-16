@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-01-24",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Generate random global temperature fields with spatial and temporal correlation derived from an ESM\nAs of version 2.0, fldgen allows to emulate any climate variable, not just ones that are approximately normally distributed, and it allows us to emulate climate variables in combinations, such as temperature and precipitation. These new capabilities can be used for risk modeling in areas such as drought and it agricultural impacts, where both temperature and moisture play a role.",
+    "laborHours": 988.0,
+    "languages": [],
+    "name": "JGCRI/fldgen",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/JGCRI/fldgen",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

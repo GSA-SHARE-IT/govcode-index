@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-07-02",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "GraphBLAS Template Library (GBTL): graph algorithms and primitives using semiring algebra as defined at graphblas.org",
+    "laborHours": 54856.8,
+    "languages": [],
+    "name": "cmu-sei/gbtl",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cmu-sei/gbtl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-07-01",
+        "metadataLastUpdated": "2021-07-01"
+    },
+    "description": "Graphene U-Net is a library that provides a simplified platform for training deep neural networks for the task of microscopy image segmentation. It contains functions and classes that make the process of training a neural network simple such that non-ML experts can train and evaluate models on their own datasets. It uses Pytorch as a backend and can run on both CUDA-enable GPUs and CPUs. It contains the main library file Microscopy_Unet.py as well as unet.py which contains the UNET model used for this software. This can be replaced with any other fully convolutional deep learning architecture with relative ease.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Graphene U-Net v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbnlcomputerarch/graphene-u-net",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2024-09-02",
+        "metadataLastUpdated": "2024-09-17"
+    },
+    "description": "SF-24-054 Octeres is a collection of tools and libraries for processing large amounts of\nsupercomputer data.",
+    "laborHours": 11688.8,
+    "languages": [],
+    "name": "Octeres",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://git.cels.anl.gov/aig-public/octeres",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-08",
+        "metadataLastUpdated": "2021-12-08"
+    },
+    "description": "YGM provides a simplified distributed memory communication framework based on a mailbox abstraction for HPC applications. YGM is designed for irregular data-driven applications that communicate small message payloads in an all-to-all fashion. YGM aggregates and routes messages into larger payloads to gain greater bandwidth utilization on modern HPC interconnects. YGM has been demonstrated up to 131k cores of IBM BG/P Sequoia and 96k cores of Catalyst at LLNL, and contains a set of graph-inspired benchmarks.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "YGM",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ygm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "mcdonnellmt@ornl.gov"
+    },
+    "date": {
+        "created": "2024-09-27",
+        "metadataLastUpdated": "2024-10-15"
+    },
+    "description": "Interconnected Science Ecosystem - Software Development Kit (INTERSECT-SDK)",
+    "laborHours": 6064.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "INTERSECT-SDK (Python)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/INTERSECT-SDK/python-sdk",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

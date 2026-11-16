@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-08-19",
+        "metadataLastUpdated": "2020-04-20"
+    },
+    "description": "As a part of the annual Argonne Cyber Defense Competition, we develop 3 general categories of software: 1. Mock infrastructure components including ICS systems, web properties, etc.; 2. Visualization, monitoring, and network administration software; 3. Software to assist in the development of puzzles and challenges. We would like to use this disclosure to notify of the existence of this code and allow us to open source portions of the code that would be useful to our community building and education efforts associated with the Cyber Defense Competition. Software will only be released after each year's competition when it won't give a competitive advantage to future competitors. ",
+    "laborHours": 17084.8,
+    "languages": [],
+    "name": "Cyber Defense Competition Code ",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Argonne-National-Laboratory/cyber-defense-competition",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2022-09-30",
+        "metadataLastUpdated": "2023-10-23"
+    },
+    "description": "Model that supports drone deployment. Analysis on speed, package weight, energy consumption, # of drones, and battery replacements. This software developed tools for drone deployment optimization for direct delivery by introducing a new model that presents new insights addressing real-life issues. Specifically, this developed a new mixed-integer programming model with both time windows and battery replacements.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Optimization Models For Drone Deployment",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/OMDD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

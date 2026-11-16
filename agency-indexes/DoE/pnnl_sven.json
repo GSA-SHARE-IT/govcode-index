@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-08-30",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This is a JavaScript library for a storyline layout\nalgorithm. Storylines are adept at communicating\ncomplex change by encoding time on the x-axis and\nusing the proximity of lines in the y direction to\nrepresent interaction between entities. The library in\nthis disclosure takes as input a list of objects\ncontaining an id, time, and state. The output is a\ndata structure that can be used to conveniently\nrender a storyline visualization. Most importantly, the\nlibrary computes the y-coordinate of the entities over\ntime that decreases layout artifacts including\ncrossings, wiggles, and whitespace. This is\naccomplished through multi-objective, multi-stage\noptimization problem, where the output of one stage\nproduces input and constraints for the next stage.",
+    "laborHours": 15671.2,
+    "languages": [],
+    "name": "pnnl/sven",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/sven",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

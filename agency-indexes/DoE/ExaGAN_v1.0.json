@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-07-15",
+        "metadataLastUpdated": "2019-10-04"
+    },
+    "description": "This software provides a basic Generative Adversarial Network (GAN) template for modeling 2D slices of N-body dark matter simulations, as part of the Exalearn project. The underlying design is a standard deep convolutional GAN, but we augment it with a technique we are calling multi-channel rescaling. This technique adds a second image channel to the output of the GAN, which represents the data in a different normalization in order to improve the quality of the results.",
+    "laborHours": 349.6,
+    "languages": [],
+    "name": "ExaGAN v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pzharrington/ExaGAN",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

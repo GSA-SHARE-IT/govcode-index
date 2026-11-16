@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "BECCA is a learning and control method based on the function of the human brain. The goal behind its creation is to learn to control robots in unfamiliar environments in a way that is very robust, similar to the way that an infant learns to interact with her environment by trial and error. As of this release, this software contains an application for controlling robot hardware through a socket. The code was created so as to make it extensible to new applications. It is modular, object-oriented code in which the portions of the code that are specific to one robot are easily separable from those portions that are the constant between implementations. BECCA makes very few assumptions about the robot and environment it is learning, and so is applicable to a wide range of learning and control problems.",
+    "laborHours": 927.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "Brain-Emulating Cognition and Control Architecture (BECCA) v. 0.2 beta",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/becca",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "0.2"
+}

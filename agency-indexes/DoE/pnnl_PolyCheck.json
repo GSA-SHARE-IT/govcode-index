@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-07-19",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The program employs a novel approach to assess the correctness of arbitrary iteration reordering transformations on an affine program, including non-affine transformations.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/PolyCheck",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/PolyCheck",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

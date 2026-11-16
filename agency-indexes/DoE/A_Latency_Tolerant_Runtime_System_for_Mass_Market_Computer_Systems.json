@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Grappa is a latency tolerant runtime system for mass market computer systems comprised of multiple nodes having x86 multicore processors and infiniband interconnect. Grappa is designed to enable in-memory irregular applications written in the C++ programming language to scale up on multiprocessor systems. Grappa addresses the load balance, communication, and synchronization challenges posed by running applications that do not partition evenly across large systems. Two mechanisms are essential to its success: fast task switching and message aggregation. Fast task switching enables processors to tolerate communication and synchronization delays; aggregation sustains high bandwidth on low injection rate networks.",
+    "laborHours": 120764.0,
+    "name": "A Latency Tolerant Runtime System for Mass Market Computer Systems",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/uwsampa/grappa",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

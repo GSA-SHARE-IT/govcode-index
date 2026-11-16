@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "aespiritu@lbl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Shifter enables application virtualization or containerization in large-scale HPC environments. This technology decreases the effort to port applications to or between HPC sites while increasing reproducibility and scientific productivity. Shifter works by converting application/container images to a common format, and then leverages basic Linux functionality to make that image available to batch jobs run in the HPC environment.",
+    "laborHours": 13756.0,
+    "name": "shifter",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NERSC/shifter/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NERSC/shifter",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-22",
+        "metadataLastUpdated": "2021-04-22"
+    },
+    "description": "The neural network constructed of 3D convolutional and fully connected layers was trained on the simulated mass distribution of the Universe with the purpose to recover the values of cosmological parameters used to generate the Universe.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Regression of 3D Sky Map to Cosmological Parameters (CosmoFlow) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/balewski/cosmoflow",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

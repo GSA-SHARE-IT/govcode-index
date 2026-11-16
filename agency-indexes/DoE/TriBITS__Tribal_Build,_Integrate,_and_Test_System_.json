@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "TriBITS is a configuration, build, test, and reporting system that uses the Kitware open-source CMake/CTest/CDash system. TriBITS contains a number of custom CMake/CTest scripts and python scripts that extend the functionality of the out-of-the-box CMake/CTest/CDash system.",
+    "laborHours": 8344830.4,
+    "name": "TriBITS (Tribal Build, Integrate, and Test System)",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

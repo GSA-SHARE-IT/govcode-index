@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "savaraa@ornl.gov"
+    },
+    "date": {
+        "created": "2022-08-27",
+        "metadataLastUpdated": "2022-08-27"
+    },
+    "description": "MSRESOLVE. A program for converting mass spectrometry signals to concentrations. Baseline corrections, smoothing, solving overlapping patterns, mass spectrometer tuning, and more.",
+    "laborHours": 0.0,
+    "languages": [
+        "python"
+    ],
+    "name": "MSRESOLVE",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AdityaSavara/MSRESOLVE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

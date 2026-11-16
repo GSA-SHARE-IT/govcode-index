@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-08-01",
+        "metadataLastUpdated": "2019-10-24"
+    },
+    "description": "ML4Chem is a free, and open-source machine learning package for chemistry and materials sciences written in Python. It allows scientists to focus on applying the most commonly used machine learning models in chemistry and materials sciences with minimum effort.",
+    "laborHours": 2675.2,
+    "languages": [],
+    "name": "ML4Chem: Machine Learning for Chemistry and Materials v0.0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/muammar/ml4chem",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

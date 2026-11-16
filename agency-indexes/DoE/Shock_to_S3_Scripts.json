@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-03",
+        "metadataLastUpdated": "2020-09-03"
+    },
+    "description": "Scripts for moving / transforming KBase data files and database records as part of the Shock to S3 data storage conversion.",
+    "laborHours": 91.2,
+    "languages": [],
+    "name": "Shock to S3 Scripts",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseIncubator/shockToS3Scripts",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

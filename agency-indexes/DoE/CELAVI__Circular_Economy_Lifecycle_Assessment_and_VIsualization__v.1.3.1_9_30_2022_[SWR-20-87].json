@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2024-03-11",
+        "metadataLastUpdated": "2024-03-11"
+    },
+    "description": "A circular economy emphasizes the efficient use of all resources (e.g., materials, land, water). Despite anticipated overall benefits to society, the transition to a circular economy is likely to create regional differences in impacts. Current tools are unable to fully evaluate these potential externalities, which will be important for informing research prioritization and regional decision making. The Circular Economy Lifecycle Assessment and VIsualization (CELAVI) framework allows stakeholders to quantify and visualize potential regional and sectoral transfers of impacts that could result from transitioning to a circular economy, with particular focus on energy materials. The framework uses system dynamics to model material flows for multiple circular economy pathways and decisions are based on learning-by-doing and are implemented via cost and strategic value of different circular economy pathways. It uses network theory to track the spatial and sectoral flow of functional units across a graph and discrete event simulation to to step through time and evaluate lifecycle assessment data at each time step. The framework is designed to be flexible and scalable to accommodate multiple energy materials and multiple energy technologies. The primary goal of CELAVI is to help answer questions about how material flows and environmental and economic impacts of energy systems might change if the circularity of energy systems increases.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "Python"
+    ],
+    "name": "CELAVI (Circular Economy Lifecycle Assessment and VIsualization) v.1.3.1 9/30/2022 [SWR-20-87]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/celavi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "v.1.3.1"
+}

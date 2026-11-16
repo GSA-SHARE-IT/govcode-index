@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-01-09",
+        "metadataLastUpdated": "2019-01-15"
+    },
+    "description": "The CBES API provides Application Programming Interface to a suite of functions to improve energy efficiency of buildings, including building energy benchmarking, preliminary retrofit analysis using a pre-simulation database DEEP, and detailed retrofit analysis using energy modeling with the EnergyPlus simulation engine. New capabilities in version 2.0 include renewable technologies (PV, storage), advanced HVAC systems, demand response measures, TDV (Time Dependent Valuation energy) metrics, as well as shading from adjacent buildings, trees or roof obstructions. The CBES API is used to power the LBNL CBES Web App. It can be used by third party developers and vendors.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 1501972.8,
+    "languages": [],
+    "name": "Commercial Building Energy Saver, API (CBES API) v2.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2024-10-02",
+        "lastModified": "2026-04-08"
+    },
+    "description": "A skeleton project for quickly getting a new cisagov Terraform root module started.",
+    "downloadURL": "https://api.github.com/repos/cisagov/skeleton-tf-root-module/downloads",
+    "homepageURL": "https://github.com/cisagov/skeleton-tf-root-module",
+    "laborHours": 711.3,
+    "languages": [
+        "Shell",
+        "HCL"
+    ],
+    "name": "skeleton-tf-root-module",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/skeleton-tf-root-module.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "skeleton",
+        "terraform",
+        "terraform-root-module"
+    ],
+    "vcs": "git"
+}

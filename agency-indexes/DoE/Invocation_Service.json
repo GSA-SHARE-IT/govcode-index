@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-16",
+        "metadataLastUpdated": "2020-09-16"
+    },
+    "description": "The invocation service provides remote invocation of commands. A java script browser client for interactive remote invocation (IRIS) is included. This deploys  the client, service and javascript web application.",
+    "laborHours": 4423.2,
+    "languages": [],
+    "name": "Invocation Service",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseattic/invocation",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

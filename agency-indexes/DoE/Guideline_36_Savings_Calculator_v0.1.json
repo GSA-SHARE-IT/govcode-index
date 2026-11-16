@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-06-10",
+        "metadataLastUpdated": "2021-06-11"
+    },
+    "description": "This software package contains a simple calculator that can be used to estimate savings from implementing a retrofit of HVAC controls to ASHRAE Guideline 36 in a multi-zone office building. Implemented in Excel, the calculator has a user-interface front-end to configure parameters of the case study, such as location, building size, and existing control strategies, and a back-end containing results from a large number of pre-run annual energy simulations. The software package also contains the simulation models and associated pre- and post-processing scripts to generate these results.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Guideline 36 Savings Calculator v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/G36SavingsCalculator",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

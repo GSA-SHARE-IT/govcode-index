@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "obriense@ornl.gov"
+    },
+    "date": {
+        "created": "2022-03-04",
+        "metadataLastUpdated": "2022-03-04"
+    },
+    "description": "Uses spectral fitting of X-Ray fluorescence to obtain the density (g/L) of transuranics.",
+    "laborHours": 0.0,
+    "languages": [
+        "Visual Basic"
+    ],
+    "name": "MEXRF",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/multTMU/MEXRF",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

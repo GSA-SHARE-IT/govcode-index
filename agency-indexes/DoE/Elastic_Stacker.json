@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2023-06-21",
+        "metadataLastUpdated": "2023-06-21"
+    },
+    "description": "Stacker is a library and command-line tool for interacting with components of the Elastic Stack remotely\nusing their APIs. For example, Stacker allows the user to persist API resources to disk and re-create them\nusing the same APIs, potentially allowing configuration to be kept in sync across multiple Elastic Stack\ninstances.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Elastic Stacker",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/elastic-stacker",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

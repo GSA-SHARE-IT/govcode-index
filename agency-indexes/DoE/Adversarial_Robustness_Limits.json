@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-07-10",
+        "metadataLastUpdated": "2024-07-10"
+    },
+    "description": "This is the official code for the ICML 2024 paper \"Adversarial Robustness Limits via Scaling-Law and\nHuman-Alignment Studies\". This code extends that of Wang et al. (2023) to facilitate state-of-the-art\nCIFAR-10 adversarial robustness, via training of WideResNet models on various large synthetic datasets.\nThe code also facilitates derivation of the various scaling laws put forth in our ICML paper, which we use\nto compute efficient training settings.",
+    "laborHours": 4544.8,
+    "languages": [],
+    "name": "Adversarial Robustness Limits",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/bbartoldson/Adversarial-Robustness-Limits",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

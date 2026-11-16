@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "haunab@ornl.gov"
+    },
+    "date": {
+        "created": "2023-07-25",
+        "metadataLastUpdated": "2023-08-02"
+    },
+    "description": "Tools for building containers to ease building Klipper and CanBoot for multiple targets.\n\nNote: This is being submitted to DOECODE as per instructions received after providing notification of creation of IP outside of work as part of a site-specific IP assignment agreement. This work was not funded by, nor was any work performed under any DOE contract.",
+    "laborHours": 0.0,
+    "languages": [
+        "Bash",
+        "C",
+        "Z shell"
+    ],
+    "name": "Klipper Firmware Tools",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/laikulo/Klipper-firmware.git",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "watsongr@ornl.gov"
+    },
+    "date": {
+        "created": "2017-11-15",
+        "metadataLastUpdated": "2020-08-12"
+    },
+    "description": "The PTP project provides an integrated development environment to support the development of parallel applications written in C, C++, and Fortran. This include support for the MPI, OpenMP and UPC programming models, as well as OpenSHMEM and OpenACC, support for a wide range of batch systems and runtime systems, including PBS/Torque, LoadLeveler, GridEngine, Parallel Environment, Open MPI, and MPICH2. A scalable parallel debugger and support for the integration of a wide range of parallel tools is also included.",
+    "homepageURL": "https://git.eclipse.org/c/ptp/org.eclipse.ptp.git",
+    "laborHours": 548841.6,
+    "languages": [],
+    "name": "Eclipse Parallel Tools Platform",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/epl-1.0",
+                "name": "EPL-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://git.eclipse.org/c/ptp/org.eclipse.ptp.git",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

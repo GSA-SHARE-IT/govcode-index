@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-03-01",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Software that orchestrate data processing and management for mass spectrometry workflows and data products. Stack presented contains a web application, data processing job scheduling, and data processing workers for data processing and management.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "EMSL-Computing/CoreMS-Portal",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/EMSL-Computing/CoreMS-Portal",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2025-04-10",
+        "metadataLastUpdated": "2025-04-10"
+    },
+    "description": "This GUI explores various whether various adaptive optics control-related parameter can reach NASA's\nHabitable Worlds Observatory mission requirement of 10 pm rms over 10 minutes, building off of Fig. 4 in\nDouglas et al. 2019 (DOI: 10.3847/1538-3881/aaf385).",
+    "laborHours": 182.4,
+    "languages": [],
+    "name": "Adaptive Optics Control GUI for the Habitable Worlds Observatory",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/hwo1dGUI",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-02-11",
+        "metadataLastUpdated": "2022-02-11"
+    },
+    "description": "The IMMPALA python/R module can be used to calibrate and compare strength models using multiple experiments and multiple experiment types.  For instance, one can use it to calibrate the Johnson Cook model using Hopkinson bar experiments and flyer plate experiments.  The calibration is done using a Bayesian approach, so that all of the uncertainty can be quantified.  For experiments that are expensive to simulate, the calibration uses an emulator.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Intelligent Materials Model Prediction using Advanced LeArning (IMMPALA)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/impala",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

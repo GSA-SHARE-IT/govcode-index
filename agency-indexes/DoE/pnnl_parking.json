@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2023-08-10",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Commercial Parking Application is a web-based application that alerts delivery drivers in real time to available parking\nspaces near their destinations. Parking availability can be viewed on a map in real-time, using sensor data supplied by\nexternal services. The app can be viewed with a web browser on a mobile device or PC. Currently the app supports\nconnections to real time sensors from Lacuna, Fybr, Cleverciti, and Automotus",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/parking",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/parking",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

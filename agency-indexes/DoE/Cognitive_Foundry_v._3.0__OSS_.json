@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "The Cognitive Foundry is a unified collection of tools designed for research and applications that use cognitive modeling, machine learning, or pattern recognition. The software library contains design patterns, interface definitions, and default implementations of reusable software components and algorithms designed to support a wide variety of research and development needs. The library contains three main software packages: the Common package that contains basic utilities and linear algebraic methods, the Cognitive Framework package that contains tools to assist in implementing and analyzing theories of cognition, and the Machine Learning package that provides general algorithms and methods for populating Cognitive Framework components from domain-relevant data.",
+    "laborHours": 189939.2,
+    "languages": [
+        "Java"
+    ],
+    "name": "Cognitive Foundry v. 3.0 (OSS)",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/algorithmfoundry/Foundry",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "3.0"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-16",
+        "metadataLastUpdated": "2024-07-16"
+    },
+    "description": "We have developed some scripts and tools that compliment an existing open-source product (Podman, https://podman.io/). This enables podman to function as a high-performance container solution. This capability is similar to Shifter and Singularity (both developed at LBNL). The advantage of leveraging Podman is it has greater support in the broader community outside of HPC and has capabilities missing from many of the HPC-only solutions.\n\nThe specific enhancements we wish to share our how to enable Podman to scale to very large HPC jobs and our integrations we have done to utilize high-performance interconnects and GPUs.",
+    "laborHours": 1140.0,
+    "languages": [],
+    "name": "Podman-hpc v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NERSC/podman-hpc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

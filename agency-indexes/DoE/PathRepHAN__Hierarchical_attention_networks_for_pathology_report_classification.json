@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-11-25",
+        "metadataLastUpdated": "2020-11-30"
+    },
+    "description": "Developers at ORNL explored how a deep learning (DL) approach based on hierarchical attention networks (HANs) can improve model performance for multiple information extraction tasks from unstructured cancer pathology reports compared to conventional methods that do not sufficiently capture syntactic and semantic contexts from free-text documents. The HAN was implemented for 2 information extraction tasks: (1) primary site, matched to 12 International Classification of Diseases for Oncology topography codes (7 breast, 5 lung primary sites), and (2) histological grade classification, matched to G1–G4. Our results demonstrate that for both information tasks, HAN performed significantly better compared to the conventional ML and DL techniques.",
+    "laborHours": 501.6,
+    "languages": [
+        "Python 2.7"
+    ],
+    "name": "PathRepHAN: Hierarchical attention networks for pathology report classification",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/v33/PathRepHAN",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

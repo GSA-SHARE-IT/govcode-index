@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2023-08-17",
+        "metadataLastUpdated": "2023-08-17"
+    },
+    "description": "SF-23-008   This project is a Julia implementation of the Gradient Optimization of Analytic conTrols (GOAT) \noptimal control\nmethodology. It integrates with other packages in Julia's ecosystem to provide memory-efficient, \nparallelized solutions to quantum optimal control tasks.   A prototype implementation of some of these algorithms was initially developed and funded by the \nASCR Early Career Research Award program under PI Travis Humble at Oak Ridge National Laboratory. \nThe current version was funded under the ASCR AIDE-QC Program under PI Paul Hovland. The current \npackage to be released has a novel implementation, syntax, and structure making it substantially \ndifferent than the original prototype (which was not released under copyright to the best of my \nknowledge).\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GOAT. jl",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/MCS-Quantum/GOAT.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

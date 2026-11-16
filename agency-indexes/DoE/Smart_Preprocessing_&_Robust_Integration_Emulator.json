@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2023-12-13",
+        "metadataLastUpdated": "2023-12-13"
+    },
+    "description": "To achieve the desired particle size of biomass feedstocks during preprocessing for trouble-free handling and conversion to produce biofuels and bioproducts, the raw materials must undergo a crucial milling process. The particle size of biomass plays a critical role in subsequent biofuel manufacturing, where a larger area-to-volume ratio facilitates efficient synthesis while balancing the impact of moisture on biomass storage. To optimize biofuel production efficiency and overcome these challenges, it is imperative to accurately predict the particle size distribution (PSD) of the biomass in the design of efficient preprocessing systems. The population balance model (PBM), upon empirical calibration and validation, can provide rapid prediction of post-milling PSD of granular biomass. However, PSD has limitations related to mass conservation and the absence of moisture considerations. To overcome these drawbacks, a deep learning model called the enhanced deep neural operator (DNO+) is implemented in the code. This model not only retains the capabilities of the PBM in handling complex mapping functions but also incorporates additional factors influencing the system. By considering various experimental conditions such as sieve size and moisture content, the trained DNO+ model can effectively predict the PSD after milling for any given feed PSD. To further reduce the reliance on experimental data, the PBM is integrated into the DNO+ model, resulting in a physics-informed DNO+ (PIDNO+). The PIDNO+ model addresses the non-conservation of quality exhibited by the PBM while inheriting the advantages of the DNO+ model in considering multiple influencing factors. Moreover, the PIDNO+ model significantly reduces the amount of data required for model training. Both deep learning models, i.e., DNO+ and PIDNO+, are excellent in predictive performance, offering swift and accurate machine learning-based predictions. The use of this code that contains these models will assist in guiding the proper milling equipment selection and operational conditions to achieve the desired biomass particle sizes, ensuring the efficiency of subsequent biofuel and bioproduct production processes.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Smart Preprocessing & Robust Integration Emulator",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/SPRITE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

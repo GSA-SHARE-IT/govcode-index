@@ -1,0 +1,35 @@
+{
+    "organization": "Federal Election Commission",
+    "contact": {
+        "URL": "https://github.com/fecgov/fec/issues",
+        "email": "opensource@fec.gov"
+    },
+    "date": {
+        "created": "2015-09-24",
+        "lastModified": "2020-09-29",
+        "metadataLastUpdated": "2020-10-06"
+    },
+    "description": "Reverse proxy app to combine multiple applications.",
+    "downloadURL": "https://api.github.com/repos/fecgov/fec-proxy/downloads",
+    "homepageURL": "https://github.com/fecgov/fec-proxy",
+    "laborHours": 30.4,
+    "languages": [],
+    "name": "fec-proxy",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/fecgov/fec-proxy/blob/master/LICENSE.md",
+                "name": "CC0"
+            }
+        ]
+    },
+    "repositoryURL": "https://github.com/fecgov/fec-proxy",
+    "status": "Production",
+    "tags": [
+        "FEC",
+        "github",
+        "proxy"
+    ],
+    "vcs": "git"
+}

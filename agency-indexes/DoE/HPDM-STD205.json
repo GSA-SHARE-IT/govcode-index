@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "wanh@ornl.gov"
+    },
+    "date": {
+        "created": "2023-02-13",
+        "metadataLastUpdated": "2023-02-13"
+    },
+    "description": "ASHRAE Standard 205 - Heat Pump Design Model supply; This package helps OEMs to convert HPDM output files to STD 205 format; it also provides some RS sample tables.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "HPDM-STD205",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/HPDM-STD205",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

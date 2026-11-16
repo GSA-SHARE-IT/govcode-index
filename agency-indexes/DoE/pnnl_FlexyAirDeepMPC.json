@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-03-12",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This is a trained machine learning model written in Pytorch for automated control of the FlexyAir\n(https://ocl.sk/hardware/flexyair/) dynamical system control educational device. This software is to be released to support our demonstration of our deepMPC methods on embedded hardware to control a real (albeit tutorial) physical system with control actuators.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/FlexyAirDeepMPC",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/FlexyAirDeepMPC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

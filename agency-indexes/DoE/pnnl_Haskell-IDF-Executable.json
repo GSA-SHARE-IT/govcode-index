@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-03-06",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Executables for working with EnergyPlus Input Files (IDF) This project aims to provide a suite of executables for working with EnergyPlus Input Files (IDF). The project is developed using the Haskell programming language (c.f., https://www.haskell.org/).\nThe current release (version 0.1.0.0) includes a utility that \"pretty prints\" the input file (i.e., that decodes and then, immediately, re-encodes and displays the input file, viz., that sanitizes the input) and a utility that converts the input file into\na labeled graph in the DOT language (c.f., https://www.graphviz.org/doc/info/lang.html) for subsequent rendering using\nGraphviz Visualization Software (c.f., https://www.graphviz.org/).\n\nAn example workflow is to pipe the input file into the pretty printer, to pipe the result into the labeled graph converter, and then to pipe the result into Graphviz, yielding an image file that depicts the hierarchical and referential relationships between EnergyPlus Data Dictionary (IDD) classes that are detected within the input file.",
+    "laborHours": 152.0,
+    "languages": [],
+    "name": "pnnl/Haskell-IDF-Executable",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/Haskell-IDF-Executable",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

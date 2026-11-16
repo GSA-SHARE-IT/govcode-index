@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-06-02",
+        "metadataLastUpdated": "2024-07-01"
+    },
+    "description": "OCHRE™ Gymnasium is a Python framework for conducting reinforcement learning research on residential building energy management problems. It is a lightweight wrapper around OCHRE, a Python-based thermal-electric residential building simulator developed in-house at NREL. OCHRE Gymnasium adheres to the standard OpenAI Gym API for a reinforcement learning environment. Detailed Sphinx documentation will be auto-generated and accompany this codebase. This documentation will detail the API, provide examples of how to use the code, etc.",
+    "laborHours": 29928.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "OCHRE™ Gymnasium (ochre_gym) [SWR-23-47]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/ochre_gym",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-30",
+        "metadataLastUpdated": "2024-11-07"
+    },
+    "description": "The IRViz package provides easy to use graphical user interface for the analysis of IR data.",
+    "laborHours": 3222.4,
+    "languages": [],
+    "name": "IRViz v0.0.5",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbl-camera/irviz",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

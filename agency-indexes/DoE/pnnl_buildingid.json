@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-10-08",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Unique Building Identifier (UBID)\nThis \"invention\" is an enhanced version of the UBID library and command-line executable that, in addition to encoding, decoding and validating UBIDs, also calculates UBID-based statistics and generates figures.",
+    "laborHours": 440.8,
+    "languages": [],
+    "name": "pnnl/buildingid",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/buildingid",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

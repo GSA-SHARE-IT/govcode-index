@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2020-06-09"
+    },
+    "description": "Sandia's Dakota software (available at http://dakota.sandia.gov) supports science and engineering transformation through advanced exploration of simulations. Specifically it manages and analyzes ensembles of simulations to provide broader and deeper perspective for analysts and decision makers. This enables them to: (1) enhance understanding of risk, (2) improve products, and (3) assess simulation credibility. In its simplest mode, Dakota can automate typical parameter variation studies through a generic interface to a computational model. However, Dakota also delivers advanced parametric analysis techniques enabling design exploration, optimization, model calibration, risk analysis, and quantification of margins and uncertainty with such models. It directly supports verification and validation activities. The algorithms implemented in Dakota aim to address challenges in performing these analyses with complex science and engineering models from desktop to high performance computers.",
+    "homepageURL": "https://dakota.sandia.gov/sites/default/files/docs/6.0/html-dev/files.html",
+    "laborHours": 3812676.8,
+    "languages": [],
+    "name": "Design Analysis Kit for Optimization and Terascale Applications 6.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://dakota.sandia.gov/sites/default/files/docs/6.0/html-dev/files.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

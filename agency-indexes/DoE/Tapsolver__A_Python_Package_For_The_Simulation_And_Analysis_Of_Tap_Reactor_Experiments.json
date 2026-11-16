@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-03-11",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "TAPsolver is a python package, which automates TAP simulation and analysis routines. TAPsolver is built around the python packages FEniCS and Dolfin-Adjoint, which help take advantage of model adjoints to provide automatic derivatives. TAPsolver is flexible, with reaction mechanisms and rate constants that can be set through input files that allow users to take advantage of the different functionalities, which include sensitivity analyses, parameter optimization and uncertainty quantification.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Tapsolver: A Python Package For The Simulation And Analysis Of Tap Reactor Experiments",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/medford-group/TAPsolver",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

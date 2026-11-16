@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-07"
+    },
+    "description": "Visapult is software pipeline of two components, a backend and viewer, used to perform pipelined and distributed memory parallel, Image Based Rendering assisted volume rendering of 3D scalar data on structured rectilinear grids. Visapult implements a two-stage volume rendering pipeline using two software components called the \"backend\" and the \"viewer.\" The backend reads 3D scientific data from some source in a domain-decomposed fashion, and performs software volume rendering on each block of data. Results, which consist of six images per block (representing the six primary view axes) are transmitted over parallel sockets to the viewer. The viewer receives each block's worth of data, constructs an internal scene graph, and presents the resulting rendering to the human viewer. The human user can interactively transform the 3D model to obtain a view from any angle. Whereas full-resolution volume rendering is extremely computer and bandwidth intensive, the Visapult architecture is designed to perform the most demanding part of volume rendering on a parallel computer. Yet, the viewer maintains interactive rendering rates independent of the size of the original volume, and independent of network bandwidth.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [
+        "C and C++"
+    ],
+    "name": "VISAPULT",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

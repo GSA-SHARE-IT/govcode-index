@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-09-17",
+        "metadataLastUpdated": "2020-09-17"
+    },
+    "description": "EVOLVE is a combination of a dashboard developed in React, which enables user to visualize the net load evolution with emerging technologies such as PV, energy storage, and electric vehicles, and a Python backend processes data. A user can choose settings for solar, energy storage, and electric vehicles in the dashboard. Modules that are developed to model the impact of these DERs can also be used independently without being integrated into the dashboard. We used a RESTful API to expose these modules to the React front-end.  ",
+    "laborHours": 30749.6,
+    "languages": [
+        "Python",
+        "Python"
+    ],
+    "name": "EVOLVE",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/nrel/evolve",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

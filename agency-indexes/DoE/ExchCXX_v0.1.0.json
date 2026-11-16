@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-01",
+        "metadataLastUpdated": "2021-03-01"
+    },
+    "description": "ExchCXX is a modern C++ library for the evaluation of exchange-correlation (XC) functionals required for density functional theory (DFT) calculations. In addition to providing high-level wrappers for the ubiquitous Libxc library for the CPU evaluation of XC functionals, ExchCXX also provides locally developed implementations of a small subset of XC functionals which may be evaluated either on the host (CPU) or device (GPU, FPGA, etc).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ExchCXX v0.1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/wavefunction91/ExchCXX",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

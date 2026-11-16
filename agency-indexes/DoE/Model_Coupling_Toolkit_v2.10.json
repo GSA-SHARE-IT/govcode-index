@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "jacob@anl.gov"
+    },
+    "date": {
+        "created": "2018-04-13",
+        "metadataLastUpdated": "2021-11-08"
+    },
+    "description": "MCT is a set of open-source software tools for creating coupled models. MCT is fully parallel and can be used to couple message-passing parallel models to create a parallel coupled model. MCT is available as a small library and a set of Fortran90 modules. Interoperability is through a simple API. Two models that declare and use MCT datatypes can be coupled with a minimum of effort.",
+    "laborHours": 34184.8,
+    "languages": [],
+    "name": "Model Coupling Toolkit v2.10",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/MCSclimate/MCT",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git",
+    "version": "v2.10"
+}

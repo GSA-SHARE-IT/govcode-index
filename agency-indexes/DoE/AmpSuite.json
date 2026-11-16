@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2025-03-07",
+        "metadataLastUpdated": "2025-03-12"
+    },
+    "description": "Seismic amplitudes offer vital information about explosion source characteristics, including discrimination and yield estimation. To take advantage of this, we developed an interactive Python package to measure, control data quality, generate broad area propagation models and perform discrimination and estimate yield. Propagation models are essential in support of transportable yield and broad area discrimination. The key benefit of this package will be its ability to continuously integrate data and new techniques. The AmpSuite framework will provide standardized, repeatable, and accurate model generation and characterization routines. The capability is crucial for monitoring agencies tasked with rapid and high-quality seismic event characterization.\nThe AmpSuite software includes a series of independent modules to perform:\n• Direct Phase Amplitude Measurement and Storage\n• Coda Envelope Measurement and Storage\n• Data Quality Control\n• New Propagation Model Developments\n• Seismic Discrimination and Analysis\n• Yield Estimation\nand supporting utility software. The AmpSuite software provides comprehensive solutions for monitoring agencies seeking to optimize model generation and event analysis within a contemporary Python framework. Stakeholders (AFTAC) have begun to move towards the Python language for scientific analysis as a new workforce emerges.",
+    "laborHours": 440.8,
+    "languages": [],
+    "name": "AmpSuite",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/AmpSuite",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "name": "USEPA/download-UDOGM-data",
+    "organization": "usepa",
+    "description": "DEPRECATED - Downloads a set of files from the Utah Division of Oil, Gas and Mining, parses them, and stores them in an Artifact",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/download-UDOGM-data/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/download-UDOGM-data",
+    "downloadURL": "https://github.com/USEPA/download-UDOGM-data/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/download-UDOGM-data/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/download-UDOGM-data.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2022-06-23T15:00:53Z",
+        "lastModified": "2026-06-24T20:36:05Z",
+        "metadataLastUpdated": "2026-11-16T06:39:58.583Z"
+    }
+}

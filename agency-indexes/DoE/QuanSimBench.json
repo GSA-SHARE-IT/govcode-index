@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-08-27",
+        "metadataLastUpdated": "2021-08-27"
+    },
+    "description": "QuanSimBench is a software program that performs a gate-by-gate simulation of a quantum computer with a full state vector formulation. It simulates a simplified version of Shor's algorithm with increasing number of qubits until resources are exhausted. The score (states/s) is how fast the Approximate Quantum Fourier Transform can be computed (the modular exponentiation is not timed). The goal is to quantify the ability of a computer to simulate ideal quantum circuits.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "QuanSimBench",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/datavortex/QuanSimBench",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

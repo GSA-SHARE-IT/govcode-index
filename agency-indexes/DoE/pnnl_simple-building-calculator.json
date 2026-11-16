@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-28",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The Simple Building Calculator is a web application that estimates annual energy\nuse using regression models that have been fit to simulation results for the DOE\nCommercial Prototype Building Models. The tool is a single-page application that\nwill allow a user to rapidly analyze the impact of energy efficiency measures and\ndesign options on building performance. As it uses linear regression models rather\nthan more complicated machine learning models or physics based simulation, the\ntool can deploy easily and run client-side.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/simple-building-calculator",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/simple-building-calculator",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-08"
+    },
+    "description": "COYOTE is designed for the analysis of steady and transient, multi-dimensional, nonlinear heat conduction problems. The spatial discretization technique is based on the Galerkin finite element method. The code contains a library of linear and quadratic elements and incudes bars and shells. COYOTE Implicit and explicit time integration methods, with adaptive time step control, are available for transient problems and fixed-point methods are used for Conjugate gradient iterative methods are used for the matrix solution. Coupled enclosure radiation with efficient view factor computation is included. Simulation capabilities include material motion, dynamic radiation enclosures, contact boundary conditions, multipoint constraints, material (element) addition, and deletion, bulk nodes, chemically reactive materials, and coupling with other mechanics codes. The code is designed for single or multi-processor computing",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "COYOTE",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

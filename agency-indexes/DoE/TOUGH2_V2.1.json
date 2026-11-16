@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-09-25",
+        "metadataLastUpdated": "2018-09-27"
+    },
+    "description": "TOUGH2 is a numerical simulator for nonisothermal flows of multicomponent, multiphase fluids in one-, two-, and three-dimensional porous and fracture media. The chief applications for which TOUGH2 is designed are in geothermal reservoir engineering, nuclear waste disposal, environmental assessment and remediation, geologic carbon sequestration, and unsaturated and saturated zone hydrology. \n\nThe TOUGH2 V2.1 package is an upgrade of TOUGH2 V2.0 (CR-1574) and includes the following improvements and enhancements relative to TOUGH2 V2.0: \n\n- Includes all known bug fixes \n\n- The module TMVOC (CR-1820) is fully integrated \n\n- The module ECO2N (CR-2202) is fully integrated \n\n- A fluid property module ECO2M has been added, that can seamlessly model CO2 storage and leakage scenarios, including transitions between super- and sub-critical fluids, and phase changes between liquid and gaseous CO2. \n\nThe TOUGH2 V2.1 package also supports all legacy fluid property modules, i.e., those packaged into TOUGH2 V2.0 (CR-1574), which includes T2VOC (CR-1254).",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 5715.2,
+    "languages": [],
+    "name": "TOUGH2 V2.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

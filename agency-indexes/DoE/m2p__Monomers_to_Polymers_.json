@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-09-22",
+        "metadataLastUpdated": "2022-08-31"
+    },
+    "description": "The software is Python-based code that takes monomers, represented as SMILES, and \"reacts\" them together to form long polymer chains, represented as SMILES, based on known polymer chemistries. The software is used in a machine-learning pipeline where a database and machine-learning approaches are used to predict polymer properties base on molecular structure. This software is necessary to represent the polymer chain, instead of simple repeat units, as the software statistically represents different molecular architectures that occur during reactions (e.g. head-to-head, head-to-tail, and tail-to-tail). It is capable of building polymer chains with five different chemistries: vinyl/olefin, polyamide, polycarbonate, polyester, and polyimides. The user is able to specify different monomer pairings and degree of polymerization for different polymer chains.",
+    "laborHours": 1216.0,
+    "languages": [
+        "Python",
+        "Python"
+    ],
+    "name": "m2p (Monomers to Polymers)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/m2p",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

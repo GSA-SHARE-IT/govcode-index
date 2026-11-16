@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The plpdfa software is a product of an LDRD project at LLNL entitked \"Adaptive Sampling for Very High Throughput Data Streams\" (tracking number 11-ERD-035). This software was developed by a graduate student summer intern, Chris Challis, who worked under project PI Dan Merl furing the summer of 2011. The software the source code is implementing is a statistical analysis technique for clustering and classification of text-valued data. The method had been previously published by the PI in the open literature.",
+    "homepageURL": "http://cran.r-project.org",
+    "laborHours": 0.0,
+    "name": "Particle learning for probabilistic deterministic finite automata",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://cran.r-project.org",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

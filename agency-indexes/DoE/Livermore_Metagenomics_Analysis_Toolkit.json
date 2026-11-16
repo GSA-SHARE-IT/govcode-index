@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "LMAT is designed to take as input a collection of raw metagenomic sequencer reads, and search each read against a reference genome database and assign a taxonomic label and confidence value to each read and report a summary of the predicted taxonomic contents of the metagenomic sample.",
+    "homepageURL": "https://sourceforge.net/projects/lmat",
+    "laborHours": 0.0,
+    "name": "Livermore Metagenomics Analysis Toolkit",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sourceforge.net/projects/lmat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-10"
+    },
+    "description": "The software allows users of the OpenDSS grid modeling software to access their load flow models using a GUI interface developed in MATLAB. The circuit definitions are entered into a Microsoft Excel spreadsheet which makes circuit creation and editing a much simpler process than the basic text-based editors used in the native OpenDSS interface. Plot tools have been developed which can be accessed through a MATLAB GUI once the desired parameters have been simulated.",
+    "homepageURL": "https://sourceforge.net/projects/electricdss",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB, Delphi (http://www.embarcadero.com), currently version Delphi XE2, Free Pascal"
+    ],
+    "name": "Matlab-Excel Interface for OpenDSS",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://sourceforge.net/p/electricdss/code/HEAD/tree/License.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sourceforge.net/projects/electricdss",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ]
+}

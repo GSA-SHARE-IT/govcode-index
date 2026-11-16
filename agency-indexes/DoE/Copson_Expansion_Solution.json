@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2020-01-31",
+        "metadataLastUpdated": "2020-01-31"
+    },
+    "description": "Evaluate Copson's solution for the free expansion of an ideal gas into vacuum. \n\nThe solution for streamlines and characteristics are given along with a way to evaluate the solution for any (x,t) location.",
+    "laborHours": 334.4,
+    "languages": [],
+    "name": "Copson Expansion Solution",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/copson_expansion_solution",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

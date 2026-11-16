@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-14"
+    },
+    "description": "LIGR (Linear Grains) implements a linear (Fourier mode) analysis of a shock propagating through density perturbations. It has two primary capabilities. First, it calculates the shock front distortion and post-shock flow variables (density, velocity, pressure) for single Fourier mode pairs in two dimensions (a pair of x and y modes). Second, it calculates these same quantities for a grains-like pre-shock density perturbation, which consists of a sum of many Fourier modes. This grains-like perturbation is a periodic grid of rectangles at a specifiable density and size (the grains), separated by regions of a different specifiable size and density (interstitial spaces between the grains). The single-mode analysis is based on the work of Velikovich et al., Phys. Plasmas 14 072706 (2007).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Linear Grains",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/LIGR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

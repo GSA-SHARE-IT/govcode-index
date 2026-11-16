@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-06",
+        "metadataLastUpdated": "2024-08-07"
+    },
+    "description": "The levelized cost of avoided CO2 (LCAC) tool facilitates techno-economic calculations for various decarbonization technologies. It comprises two components to accomplish this: an input workbook based on MS Excel and a web-based output tool. The workbook acts as the input sheet, using the user-provided decarbonization measures and their impacts on lifetime energy consumption, energy costs, and CO2 emissions to compute LCAC (expressed in $/metric ton of avoided CO2). The workbook is uploaded to a web-based tool to generate an LCAC curve. This graphical representation illustrates the economic comparison of all decarbonization measures for purposes such as implementation prioritization. We are unaware of any publicly available tools with similar capabilities.",
+    "laborHours": 881.6,
+    "languages": [],
+    "name": "Levelized Cost of Avoided CO2 tool (LCAC tool) v0.9",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IACDecarb/IAC-Decarb-Tools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

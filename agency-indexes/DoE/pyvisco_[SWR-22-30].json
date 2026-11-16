@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-03-29",
+        "metadataLastUpdated": "2023-07-27"
+    },
+    "description": "pyvisco is a Python library that supports the identification of Prony series parameters for linear viscoelastic materials described by a Generalized Maxwell model. The necessary material model parameters are identified by fitting a Prony series to the experimental measurement data. pyvisco allows for the identification of Prony series parameters from experimental data measured in either the frequency-domain (via Dynamic Mechanical Thermal Analysis) or time-domain (via relaxation measurements). The experimental data can be provided as raw measurement sets at different temperatures or as pre-processed master curves. An optional minimization routine is included to reduce the number of Prony elements. This routine is helpful in Finite Element simulations where reducing the computational complexity of the linear viscoelastic material models can shorten the simulation time.\n\nSee also, https://pypi.org/project/pyvisco/",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "Jupyter Notebook"
+    ],
+    "name": "pyvisco [SWR-22-30]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/pyvisco",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

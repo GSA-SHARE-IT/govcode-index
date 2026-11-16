@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-06",
+        "metadataLastUpdated": "2018-07-06"
+    },
+    "description": "iMesh interface to GRUMMP, the Generation and Refinement of Unstructured, Mixed-Element Meshes in Parallel. Supports all mesh topologies except septahedra, polygons, and polyhedra (no edges in 3D), all upward and downward adjacencies (again, no edges in 3D), 2D and 3D, full implementation. ",
+    "homepageURL": "http://tetra.mech.ubc.ca/GRUMMP",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "iMesh/GRUMMP",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://tetra.mech.ubc.ca/GRUMMP/License.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://tetra.mech.ubc.ca/GRUMMP",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ]
+}

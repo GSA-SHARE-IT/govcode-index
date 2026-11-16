@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Modern processors offer a wide range of control and measurement features. While those are traditionally accessed through libraries like PAPI, some newer features no longer follow the traditional model of counters that can be used to only read the state of the processor. For example, Precise Event Based Sampling (PEBS) can generate records that requires a kernel memory for storage. Additionally, new features like power capping and thermal control require similar new access methods. All of these features are ultimately controlled through Model Specific Registers (MSRs). We therefore need new mechanisms to make such features available to tools and ultimately to the user. libMSR provides a convenient interface to access MSRs and to allow tools to utilize their full functionality.",
+    "laborHours": 6232.0,
+    "name": "libMSR library and msr-safe kernel module",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/libmsr",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

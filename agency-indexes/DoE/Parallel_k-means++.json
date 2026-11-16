@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "A parallelization of the k-means++ seed selection algorithm on three distinct hardware platforms: GPU, multicore CPU, and multithreaded architecture. K-means++ was developed by David Arthur and Sergei Vassilvitskii in 2007 as an extension of the k-means data clustering technique. These algorithms allow people to cluster multidimensional data, by attempting to minimize the mean distance of data points within a cluster. K-means++ improved upon traditional k-means by using a more intelligent approach to selecting the initial seeds for the clustering process. While k-means++ has become a popular alternative to traditional k-means clustering, little work has been done to parallelize this technique. We have developed original C++ code for parallelizing the algorithm on three unique hardware architectures: GPU using NVidia's CUDA/Thrust framework, multicore CPU using OpenMP, and the Cray XMT multithreaded architecture. By parallelizing the process for these platforms, we are able to perform k-means++ clustering much more quickly than it could be done before.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Parallel k-means++",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/patrickmackey/parallel_kpp/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/patrickmackey/parallel_kpp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

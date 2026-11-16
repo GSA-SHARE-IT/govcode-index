@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "haunab@ornl.gov"
+    },
+    "date": {
+        "created": "2025-03-25",
+        "metadataLastUpdated": "2025-04-22"
+    },
+    "description": "A CLI for interacting with Klipper components.",
+    "laborHours": 45.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "klipperctl",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Laikulo/klipperctl.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

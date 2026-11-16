@@ -1,0 +1,44 @@
+{
+    "id": 1830,
+    "name": "Personnel and Accounting Integrated Data",
+    "organization": "OIT DSO",
+    "version": null,
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/foia-prs-paid",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "PAID",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Z/OS",
+        "NetCOBOL",
+        "SAS Statistical Analysis (SAS/STAT)"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-28",
+        "lastModified": "2021-01-26",
+        "metadataLastUpdated": "2021-01-26"
+    },
+    "description": "Repository containing the FOIA Releases for Personnel and Accounting Integrated Data"
+}

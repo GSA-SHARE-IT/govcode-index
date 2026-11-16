@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-06-20",
+        "metadataLastUpdated": "2019-06-20"
+    },
+    "description": "OWAMP protocol analyzer plugin for Bro/Zeek.",
+    "laborHours": 197.6,
+    "languages": [],
+    "name": "zeek_perfsonar_owamp",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/esnet/zeek_perfsonar_owamp/blob/master/COPYING",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/esnet/zeek_perfsonar_owamp",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

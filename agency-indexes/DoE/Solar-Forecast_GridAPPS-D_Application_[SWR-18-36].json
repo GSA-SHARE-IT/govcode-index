@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-12-19",
+        "metadataLastUpdated": "2023-05-08"
+    },
+    "description": "Persistent model serves as the baseline in the intra-hour forecasting of solar radiation due to the extensive computing efforts from the numerical weather prediction (NWP) models and the lack of surface observations in cloud as well as other atmospheric properties. The smart persistent model actively updates the extraterrestrial solar radiation with time and is an important improvement from the persistent model while the cloud conditions are assumed unchanged by giving constant clear-sky indexes. We developed a Physics-based Smart Persistent model for Intra-hour solar forecasting (PSPI) to further improve the accuracy of the smart persistent model. We used a cloud retrieval technique developed by Xie and Liu (2013) to estimate cloudy fraction and cloud albedo using surface-based observations of solar radiation. The solar radiation in future time steps is accurately given by actively computing individual cloud albedo related to the future solar position. Our evaluation studies indicated that the PSPI model significantly increased the accuracy in the short-term forecast of solar radiation, especially in thin cloud conditions or those covered by broken clouds.",
+    "laborHours": 410.4,
+    "languages": [
+        "Python",
+        "Dockerfile"
+    ],
+    "name": "Solar-Forecast GridAPPS-D Application [SWR-18-36]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/Solar-Forecasting",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

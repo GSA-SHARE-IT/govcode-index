@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-01-24",
+        "metadataLastUpdated": "2023-04-05"
+    },
+    "description": "These datasets describe multiple facets of the temporal complementarity of co-located hybrid renewable energy systems throughout the United States. Several metrics characterizing the complementarity of generation profiles are provided on an annual and monthly basis (for both hourly and daily aggregations). These generation profiles are underpinned by hourly resource data (e.g., the WIND Toolkit and National Solar Radiation Database (NSRDB)) spanning the multi-year period 2007-2013. The data include complementarity results for greater than 1.76 million individual locations within the continental United States (CONUS). The data are intended to accompany two publications on the topic of temporal complementarity: 1) Harrison-Atlas, Dylan, Caitlin Murphy, Anna Schleifer, and Nicholas Grue. \"Temporal complementarity and value of wind-PV hybrid systems across the United States.\" Renewable Energy 201 (2022): 111-123, doi:10.1016/j.renene.2022.10.060; and 2) Murphy, Caitlin, Harrison-Atlas, Dylan, Nicholas Grue, Vahan Gevorgian, Juan Gallego-Calderon, Shiloh Elliot and Thomas Mosier. “A Resource Assessment for FlexPower”. NREL Technical Report.",
+    "laborHours": 0.0,
+    "languages": [
+        "Jupyter Notebook"
+    ],
+    "name": "Data on temporal complementarity of hybrid renewable energy systems [SWR-23-09]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/Renewable-Complementarity",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

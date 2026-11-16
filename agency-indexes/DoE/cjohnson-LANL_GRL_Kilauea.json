@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-10-04",
+        "metadataLastUpdated": "2024-10-04"
+    },
+    "description": "The python routines are outlined in detail to perform the methods and results in the manuscript under review in the journal Geophysical Research Letters titled “Seismic features predict ground motions during repeating caldera collapse sequence” with LA-UR-23-33345. All routines are written in open source python and were applied to publicly available data sets. The codes formats the data into the appropriate structure required to train a boosted tree regression model. Other codes produce figure results.",
+    "laborHours": 486.4,
+    "languages": [],
+    "name": "cjohnson-LANL/GRL_Kilauea",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cjohnson-LANL/GRL_Kilauea",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

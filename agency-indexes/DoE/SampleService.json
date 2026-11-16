@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-07-23",
+        "metadataLastUpdated": "2020-07-31"
+    },
+    "description": "Service for creating, modifying, and retrieving samples. The Sample Service stores information regarding experimental samples taken from the environment. It supports Access Control Lists for each sample, subsample trees, and modular metadata validation.",
+    "laborHours": 14151.2,
+    "languages": [],
+    "name": "SampleService",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/sample_service",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-09-27",
+        "metadataLastUpdated": "2022-09-27"
+    },
+    "description": "This code provides Finite Element solvers for Electrochemical Transport. A few examples from the literature are reproduced, with a focus on CO2 electrolysis. The Discontinuous Galerkin scheme for the electroneutral Nernst-Planck equations is from Roy, T., Andrej, J. and Beck, V.A., 2021. A scalable DG solver for the electroneutral Nernst-Planck equations. arXiv preprint arXiv:2112.09271. This work also includes a scalable preconditioner.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Finite Element Method for Electrochemical Transport",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/echemfem",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0.1"
+}

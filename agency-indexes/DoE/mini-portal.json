@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-06-19",
+        "metadataLastUpdated": "2019-06-19"
+    },
+    "description": "This \"mini-portal\" is a demonstration of several of the packages used in the MyESnet Portal. In particular it shows an example of using: react-timeseries-charts, react-network-diagrams, and pond. This was built using create-react-app which is a great way to bootstrap a React project.",
+    "laborHours": 7341.6,
+    "languages": [],
+    "name": "mini-portal",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/esnet/mini-portal/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/esnet/mini-portal",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

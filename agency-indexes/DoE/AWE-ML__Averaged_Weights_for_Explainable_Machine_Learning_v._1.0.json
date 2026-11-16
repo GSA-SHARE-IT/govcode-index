@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-03-12",
+        "metadataLastUpdated": "2019-03-13"
+    },
+    "description": "This software uses averaged weighted estimators to classify instances and then explicate the individual decision process in classification. The software has state of the art performance in accuracy, while maintaining full explainability. It does this by calculating hierarchically averaged probabilities for a large class of feature combinations and updating them ‘on-the-fly’. On the fly updating also allows the model to be accurate, relative to the total dataset, maintaining accuracy in real-time, without a need to retrain the classifier. ",
+    "laborHours": 31768.0,
+    "languages": [
+        "C++",
+        "Python"
+    ],
+    "name": "AWE-ML: Averaged Weights for Explainable Machine Learning v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/aweml",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 1.0"
+}

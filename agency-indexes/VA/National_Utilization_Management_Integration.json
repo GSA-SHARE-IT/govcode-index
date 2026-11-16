@@ -1,0 +1,50 @@
+{
+    "id": 1453,
+    "name": "National Utilization Management Integration",
+    "organization": "OIT DSO",
+    "version": null,
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/foia-WEBN-NUMI",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "NUMI",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Microsoft .NET Framework",
+        "Microsoft Structured Query Language (SQL) Server",
+        "VMware vSphere",
+        "Windows Server",
+        "Veritas eDiscovery Platform",
+        "Active Server Pages (ASP).NET Asynchronous JavaScript And Extensible Markup La",
+        "ASP.NET Core",
+        "CareEnhance Review Manager Enterprise (CERMe)",
+        "Windows Client"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2021-01-26",
+        "lastModified": "2021-01-26",
+        "metadataLastUpdated": "2021-01-26"
+    },
+    "description": "Repository containing the FOIA Releases for National Utilization Management Integration"
+}

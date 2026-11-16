@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-21",
+        "metadataLastUpdated": "2021-04-21"
+    },
+    "description": "the Xilinx tools relay on a component on the board (FTDI chip) to have a small memory from a particular manufacturer (Digilent) to serve as a bridge to the FPGA. What the software we're requesting to release simply does is to run between the Xilinx tools (one of them is called Vivado but there are others) and our boards so that we don't need that memory on our boards. The protocol the software uses to communicate with the Xilinx tools is called XVC (Xilinx Virtual Cable). This server code runs on the computer that is physically connected to the FPGA board, but the Xilinx tools that communicate with it can run either on that computer or some other computer connected to it over the network, this is where the network component comes into play.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "XVC FTDI JTAG v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BerkeleyLab/XVC-FTDI-JTAG",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

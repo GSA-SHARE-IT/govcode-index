@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-02-17",
+        "metadataLastUpdated": "2021-02-18"
+    },
+    "description": "gpCAM is tailored to be used by experimentalists who want to steer experiments autonomously. It is based on a Gaussian process (GP). Its strength compared to other software lies in its flexibility, which together with the right training, makes it more powerful than any GP-based software. However, that means, that the software in as-is mode cannot reach its full potential.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "gpCAM v6",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/MarcusMichaelNoack/gpcam",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

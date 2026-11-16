@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-10-15",
+        "metadataLastUpdated": "2018-10-17"
+    },
+    "description": "This software is designed for the sole purpose of analyzing numerical lattice QCD results computed for one of the developers' research projects related to neutrinoless double beta decay, and will be distributed with their research publication. This software is provided to maximize the dissemination of the research results, to enable other scientists and the general public to easily check the results of their analysis, and also to be in compliance with the public availability of \"digital data\" as required by the DOE.",
+    "laborHours": 957.6,
+    "languages": [],
+    "name": "project_0vbb v1.0-beta",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/callat-qcd/project_0vbb",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-09-07",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Our name normalizer and enrichment micro-service address the shortcomings of standard text normalization. Initially the\ntext input is split into tokens. This process takes into account some conventions of formatting. Any dashes present\nbetween two tokens preserves the relationship of those two tokens. Conversely a comma between two tokens ensures\nthat the separation between the two tokens is maintained. The order of tokens is also preserved. Standard text\nnormalization (conversion to lowercase, trimming extra white space, and canonicalization) is then applied to the tokens.\nOnce normalized every unique and sequence of tokens is given confidence values by comparing the normalized values to\npublicly available data.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Name Normalizer",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "version": "1"
+}

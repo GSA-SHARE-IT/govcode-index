@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-30",
+        "metadataLastUpdated": "2021-07-30"
+    },
+    "description": "Phoebus is a performance portable code for simulating relativistic astrophysical phenomena. Phoebus includes the following physics: 1) general relativity, including both stationary and dynamical spacetimes, 2) magnetohydrodynamics closed by a general equation of state, 3) neutrino transport and weak interactions that couple neutrinos and matter, and 4) nuclear reactions.  Capabilities for these physical ingredients are developed atop the open source Parthenon framework for performance portable, block-structured adaptive mesh refinement.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Phoebus",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-04-13",
+        "metadataLastUpdated": "2022-04-13"
+    },
+    "description": "This code performs an optimization over the structure of a porous electrode formed from a lattice of unit cells. This is a steepest descent version of the code used in: V. A. Beck, J. J. Wong, C. F. Jekel, D. A. Tortorelli, S. E. Baker, E. B. Duoss and M. A. Worsley, Computational design of microarchitected porous electrodes for redox flow batteries, J. Power Sources, 2021, 512, 230453.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Lattice Optimization for Porous Electrode",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/LOPE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

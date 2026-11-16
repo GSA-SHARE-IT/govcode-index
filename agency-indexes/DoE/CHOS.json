@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "CHOS is a framework that facilitates concurrently supporting multiple Linux distributions on a single system. This is primarily accomplished using the change root (chroot) method built into the Linux kernel. However, CHOS provides an additional kernel module that allows the same chroot file structure to be Used for multiple systems. The software also includes utilities to switch into the chroot environment from the command-line and a pluggable authentication module (PAM) allowing transparent startup of the chroot environment for users.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [
+        "gcc"
+    ],
+    "name": "CHOS",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

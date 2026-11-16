@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Aristos is a Trilinos package for nonlinear continuous optimization, based on full-space sequential quadratic programming (SQP) methods. Aristos is specifically designed for the solution of large-scale constrained optimization problems in which the linearized constraint equations require iterative (i.e. inexact) linear solver techniques. Aristos' unique feature is an efficient handling of inexactness in linear system solves. Aristos currently supports the solution of equality-constrained convex and nonconvex optimization problems. It has been used successfully in the area of PDE-constrained optimization, for the solution of nonlinear optimal control, optimal design, and inverse problems.",
+    "laborHours": 8344830.4,
+    "name": "Aristos Optimization Package",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

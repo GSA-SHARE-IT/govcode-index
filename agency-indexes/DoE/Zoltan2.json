@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2024-09-17"
+    },
+    "description": "Zoltan2 is a refactoring of the open-source Zoltan library that enables Zoltan users to take better advantage of current and emerging high performance computing architectures and software tools. Like Zoltan, Zoltan2 is a toolkit of combinatorial scientific computing algorithms that enable better performance of scientific codes via improved data locality and parallel scalability. Specifically Zoltan2 partitions data, colors graphs, and orders matrices. Zoltan2 is a software library written in template C++; it supports a wider range of data types and problem sizes than Zoltan. It will be available as part of Sandia's Trilinos framework of scientific computing packages.",
+    "laborHours": 8344830.4,
+    "languages": [],
+    "name": "Zoltan2",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

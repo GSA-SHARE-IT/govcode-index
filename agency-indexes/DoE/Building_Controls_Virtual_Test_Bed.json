@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "The Building Controls Virtual Test Bed (BCVTB) is a modular software environment that is based on the Ptolemy II software environment. The BCVTB can be used for design and analysis of heterogenous systems, such as building energy and controls systems. Our additions to Ptolemy II allow users to Couple to Ptolemy II simulation software such as EnergyPlus, MATLAB/Simulink or Dymola for data exchange during run-time. Future versions of the BCVTS will also contain an interface to BACnet which is a communication protocol for building Control systems, and interfaces to digital/analog converters that allow communication with controls hardware. Through Ptolemy II, the BCVTB provides a graphical model building environment, synchronizes the exchanged data and visualizes the system evolution during run- time.",
+    "homepageURL": "https://simulationresearch.lbl.gov/bcvtb",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Building Controls Virtual Test Bed",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://simulationresearch.lbl.gov/bcvtb/License",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://simulationresearch.lbl.gov/bcvtb",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

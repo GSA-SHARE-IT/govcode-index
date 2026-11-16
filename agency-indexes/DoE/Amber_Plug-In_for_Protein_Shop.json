@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "The Amber Plug-in for ProteinShop has two main components: an AmberEngine library to compute the protein energy models, and a module to solve the energy minimization problem using an optimization algorithm in the OPTI-+ library. Together, these components allow the visualization of the protein folding process in ProteinShop. AmberEngine is a object-oriented library to compute molecular energies based on the Amber model. The main class is called ProteinEnergy. Its main interface methods are (1) \"init\" to initialize internal variables needed to compute the energy. (2) \"eval\" to evaluate the total energy given a vector of coordinates. Additional methods allow the user to evaluate the individual components of the energy model (bond, angle, dihedral, non-bonded-1-4, and non-bonded energies) and to obtain the energy of each individual atom. The Amber Engine library source code includes examples and test routines that illustrate the use of the library in stand alone programs. The energy minimization module uses the AmberEngine library and the nonlinear optimization library OPT++. OPT++ is open source software available under the GNU Lesser General Public License. The minimization module currently makes use of the LBFGS optimization algorithm in OPT++ to perform the energy minimization. Future releases may give the user a choice of other algorithms available in OPT++.",
+    "homepageURL": "https://sourceforge.net/projects/proteinshop",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Amber Plug-In for Protein Shop",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sourceforge.net/projects/proteinshop",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

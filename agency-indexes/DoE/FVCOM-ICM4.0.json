@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-09-27",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "FVCOM-ICM is a water quality model that simulates the influence of nutrients and carbon pollution on biogeochemical oceanographic processes such as phytoplankton primary productivity, nutrient consumption, mineralization, decay and settling of particulate organic matter and computes resulting dissolved oxygen (DO) concentrations and pH levels. An “offline” approach of coupling Finite Volume Coastal Ocean Model (FVCOM) hydrodynamic solutions to CE-QUAL-ICM biogeochemical model was used. FVCOM and CE-QUAL-ICM are public domain Fortran Codes that were developed independently by US Army Corps of Engineers and University of Massachusetts. PNNL developed FVCOM-ICM that has the ability to conduct water quality calculations using a previously computed hydrodynamic solution. The biogeochemical calculations using CE-QUAL-ICM kinetics are conducted over the same finite-volume mesh and in the FVCOM framework.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "FVCOM-ICM4.0",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/ssmc/fvcom-icm4.0",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

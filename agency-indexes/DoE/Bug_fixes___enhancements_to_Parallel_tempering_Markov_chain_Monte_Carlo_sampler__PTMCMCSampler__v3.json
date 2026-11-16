@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-17",
+        "metadataLastUpdated": "2024-07-18"
+    },
+    "description": "Markov chain Monte Carlo sampler useful for a variety of problems for optimization, numerical integration, and generating draws from a probability distribution. They are often used in physical and mathematical problems, especially when it is difficult or impossible to use other approaches.\n\nThis disclosure is for new bug fixes and enhancements to an existing open source library that is already in the public domain under the MIT license.\nhttps://github.com/jellis18/PTMCMCSampler",
+    "laborHours": 1246.4,
+    "languages": [],
+    "name": "Bug fixes / enhancements to Parallel tempering Markov chain Monte Carlo sampler (PTMCMCSampler) v3",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/nanograv/PTMCMCSampler",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

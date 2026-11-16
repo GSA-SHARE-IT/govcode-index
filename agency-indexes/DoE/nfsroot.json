@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-30",
+        "metadataLastUpdated": "2018-07-30"
+    },
+    "description": "nfsroot is a package designed to help make Linux root file system images network-bootable and sharable by many clients. It was designed for the CHAOS Linux distribution (now renamed to TOSS) for clusters, developed at Lawrence Livermore National Laboratory, but will work with other Red Hat Enterprise Linux derived distros.",
+    "laborHours": 1079.2,
+    "languages": [],
+    "name": "nfsroot",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/chaos/nfsroot",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

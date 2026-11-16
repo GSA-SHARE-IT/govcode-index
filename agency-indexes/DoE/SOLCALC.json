@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2018-10-11",
+        "metadataLastUpdated": "2019-03-22"
+    },
+    "description": "SolCalc is a software suite that computes and displays magnetic  fields  generated  by  a  three  dimensional  (3D) solenoid system. Examples of such systems are the Mu2e magnet  system  and  Helical  Solenoids  for  muon  cooling systems. ",
+    "homepageURL": "http://partnerships.fnal.gov",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "SOLCALC",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://partnerships.fnal.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ]
+}

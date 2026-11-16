@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-09-15",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The concept of the software is for a user to input the desired decay period and initial isotopic distribution and radioactivity, and RA-Decay will return the new isotopic distribution and radioactivity including the progeny ingrowth.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "RA Decay",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

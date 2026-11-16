@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2022-04-01",
+        "metadataLastUpdated": "2023-03-13"
+    },
+    "description": "The purpose of Scramble is to provide a cross validation method to ensure machine learning model accuracy in cases where model classes have heterogeneous N values.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Scramble",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/Scramble",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

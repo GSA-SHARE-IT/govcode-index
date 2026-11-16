@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-09-11",
+        "metadataLastUpdated": "2023-09-26"
+    },
+    "description": "Rust Engineering Format is a small package that provides engineering notation formatting for float precision numbers in Rust.",
+    "laborHours": 0.0,
+    "languages": [
+        "Rust"
+    ],
+    "name": "rust_eng_fmt (Rust Engineering Format) [SWR-23-80]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/rust_eng_fmt",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

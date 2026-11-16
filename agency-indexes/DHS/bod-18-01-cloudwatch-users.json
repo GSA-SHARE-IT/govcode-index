@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-04-11",
+        "lastModified": "2026-04-09"
+    },
+    "description": "Create AWS users that only have permission to view CloudWatch logs related to BOD 18-01 scanning",
+    "downloadURL": "https://api.github.com/repos/cisagov/bod-18-01-cloudwatch-users/downloads",
+    "homepageURL": "https://github.com/cisagov/bod-18-01-cloudwatch-users",
+    "laborHours": 671.9,
+    "languages": [
+        "Shell",
+        "HCL"
+    ],
+    "name": "bod-18-01-cloudwatch-users",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/bod-18-01-cloudwatch-users.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "aws",
+        "iam",
+        "users",
+        "cloudwatch"
+    ],
+    "vcs": "git"
+}

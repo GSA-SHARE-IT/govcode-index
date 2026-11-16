@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-23",
+        "metadataLastUpdated": "2024-07-26"
+    },
+    "description": "iPHoP is a bioinformatic tools that uses a set of approaches to predict the potential host of novel bacteriophages (viruses infecting bacteria) that are only known by their genome sequence, and not cultivated in the laboratory. Existing technologies typically rely on a single method, and the main advantage of iPHoP is its ability to integrate the results from multiple methods into a single prediction. This is of interest for microbial ecology researchers, as they often analyze novel bacteriophage genomes that they were able to assemble from metagenomes, but they don't know which bacteria these phages infect.",
+    "laborHours": 3116.0,
+    "languages": [],
+    "name": "Integrated Phage-Host Prediction tool (iPHoP) v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/srouxjgi/iphop",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

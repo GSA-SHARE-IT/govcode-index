@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-03-13",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Collection of measurements and metrics to be used on social network data. The task was to develop a set of measurements and metrics that can be used to measure the effectiveness of various social network simulations.  Provides a collection of measurements and metrics. This takes a variety of metrics and measurements and packages them into a consistent framework.",
+    "laborHours": 23134.4,
+    "languages": [],
+    "name": "pnnl/socialsim_package",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/socialsim_package",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-02-25",
+        "metadataLastUpdated": "2021-05-17"
+    },
+    "description": "The ability to analyze time-series data in network operations is critical to ensure optimal operations and management in wide area networks, sensor networks, and cloud networks. Hylia is a collection of multiple time-series prediction algorithms designed specifically to work with network monitoring data sets such as SNMP, NETFLOW and other monitoring data. It is designed to recognize these features and perform the extrapolation of the data.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Hylia: Time-Series Library for Network Operations (Hylia) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/esnet/hylia_networkprediction",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

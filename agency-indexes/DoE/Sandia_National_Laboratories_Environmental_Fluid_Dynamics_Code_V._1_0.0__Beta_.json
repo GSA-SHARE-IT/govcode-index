@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-24"
+    },
+    "description": "The DOE has funded Sandia National Labs (SNL) to develop an open-source modeling tool to guide the design and layout of marine hydrokinetic (MHK) arrays to maximize power production while minimizing environmental effects. This modeling framework simulates flows through and around MHK arrays while quantifying environmental responses. As an augmented version of US EPA's Environmental Fluid Dynamics Code (EFDC), SNL-EFDC includes: (1) a new module that simulates energy conversion (momentum withdrawal) by MHK devices with commensurate changes in the turbulent kinetic energy and its dissipation rate, (2) new, advanced sediment dynamics routines, and (3) augmented water quality modules.",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "Sandia National Laboratories Environmental Fluid Dynamics Code V. 1 0.0 (Beta)",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/EFDC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "10.0"
+}

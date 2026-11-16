@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-04-15",
+        "lastModified": "2026-04-09"
+    },
+    "description": "Terraform code to create resources used to import assessment data into AWS",
+    "downloadURL": "https://api.github.com/repos/cisagov/assessment-data-import-terraform/downloads",
+    "homepageURL": "https://github.com/cisagov/assessment-data-import-terraform",
+    "laborHours": 654.1,
+    "languages": [
+        "Shell",
+        "HCL"
+    ],
+    "name": "assessment-data-import-terraform",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/assessment-data-import-terraform.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

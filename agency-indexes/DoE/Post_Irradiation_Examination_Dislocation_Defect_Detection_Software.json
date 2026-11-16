@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2024-10-10",
+        "metadataLastUpdated": "2024-10-10"
+    },
+    "description": "This software provides dislocation-type defect identification and segmentation using a standard open source computer vision model, YOLOv8, that leverages transfer learning to create a highly effective dislocation defect quantification tool while using only a minimal number of expert annotated micrographs for training. This model demonstrates the ability to segment both dislocation lines and loops concurrently in micrographs with high pixel noise levels and on multiple alloys.  It includes multiple layers of frozen layers used for transfer learning from multidisciplinary data and is extensible to alloys that are not included in the training dataset.",
+    "laborHours": 136.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "Post Irradiation Examination Dislocation Defect Detection Software",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/agpl-3.0",
+                "name": "AGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/PANDA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

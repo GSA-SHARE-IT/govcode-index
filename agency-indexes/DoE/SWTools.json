@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-08"
+    },
+    "description": "The SWTools code is an infrastructure to facilitate the management of third-party software installations. SWTools is infrastructure code that works with user-supplied build and test scripts resulting in a mostly-automated software build and test framework. The framework tries to simplify the work required to deal with upgrades, whether they be compiler, operating system, or application upgrades. The code also automates the collection of as much reporting data as possible including user-facing web pages. Inventory and user documentation will be kept up to date dynamically; that is, the same documentation that the installer writes for local users of the system will be made available online, and all web based inventory information will be dynamically updated.",
+    "homepageURL": "https://www.olcf.ornl.gov/center-projects/swtools",
+    "laborHours": 0.0,
+    "languages": [
+        "Python 2.5 or Korn shell script"
+    ],
+    "name": "SWTools",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.olcf.ornl.gov/center-projects/swtools",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.olcf.ornl.gov/center-projects/swtools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This code is a data parse for preparing output from the Qspp agent-based stochastic simulation model for plotting in Excel. This code is specific to a set of simulations that were run for the purpose of preparing data for a publication. It is necessary to make this code open-source in order to publish the model code (Qspp), which has already been released. There is a necessity of assuring that results from using Qspp for a publication",
+    "laborHours": 1915.2,
+    "name": "Parser for Sabin-to-Mahoney Transition Model of Quasispecies Replication",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.github.com/carolzhou/virus",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

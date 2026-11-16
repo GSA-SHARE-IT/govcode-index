@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "alexanderwg@ornl.gov"
+    },
+    "date": {
+        "created": "2025-01-17",
+        "metadataLastUpdated": "2025-01-23"
+    },
+    "description": "Here, we develop MIJAMP (MIJAMP Is Just A MethylBED Parser), a software package that was developed to discover methylated motifs from the output of ONT’s Modkit or other data in the methylBED format. MIJAMP employs a human-driven refinement strategy that empirically validates all motifs against genome-wide methylation data, thus eliminating false, under-, or overexplained motifs. MIJAMP can also report methylation data on a specific, user-defined motif.",
+    "laborHours": 334.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "MIJAMP",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/alexander-public/mijamp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

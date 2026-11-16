@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jacob@anl.gov"
+    },
+    "date": {
+        "created": "2024-03-01",
+        "metadataLastUpdated": "2024-03-04"
+    },
+    "description": "First release of version 3.0 of the Energy Exascale Earth System Model. \nThe fully coupled cases now run by default in a “tri-grid” configuration where the land and river model share a higher-resolution (0.5 degree) lat-lon grid while the atmosphere and ocean are on their own grids. [ATM] component is EAM. Vertical res. has been increased from 72 to 80 layers; horizontal res. remains ne30pg2. Atmospheric physics have had significant additions and changes since version 2. Added: interactive gas chemistry in stratosphere and troposphere; size mode for prognostic treatment of stratospheric sulfate aerosol; explicit representation of secondary organic aerosols (SOA) sources; a new dust emission scheme; Predicted Particle Properties (P3) for stratiform clouds; cloud microphysics for convective clouds; MCSP to represent the effects of organized mesoscale convective systems; rougher topography. Improved: aerosol wet removal processes to reduce the overestimation of aerosols and thus aerosol forcing; numerical coupling of aerosol emission, vertical mixing and dry deposition; cloud base mass flux adjustment in ZM; lower stratospheric vertical grid and surrogate-accelerated parameter optimization. Re-tuned: Dimethyl sulfide (DMS) emission, number of monolayers for black carbon (BC) aging, and hygroscopicity of particulate organic matter (kPOM). [LAND] component is ELM. The default configuration for ELM has been switched from vegetation leaf area specified as a static monthly time series based on satellite data to a dynamic vegetation growth model. This implementation uses prognostic coupled carbon, nitrogen, and phosphorus cycles (C-N-P) for vegetation and soil biogeochemistry; the relative demand (RD) approach to resolve competition between plants and soil microbes for available nutrients; the converging trophic cascade (CTC) model for organization of plant litter and soil organic matter pools. The model also includes:  A computationally efficient radiative transfer parameterization (TOP), which is based on the Monte Carlo simulations, accounts for subgrid topographic effects on solar radiation; Changed the order of sublimation and dew on snow depth calculation to ensure that snow depth is not accidentally set to a negative value. [RIVER] model is still MOSART. [OCEAN] component remains MPAS-Ocean. Major change since version 2.1 include: Using a new Icosahedral 30 km mesh with Ice Shelf Cavities (IcoswISC30E3r5) for low-resolution coupled simulations. Switched coupled surface pressure to pressure at mean sea level which reduces errors in gradient term for sea ice. Improvements to the Redi isopycnal mixing scheme; Improved computational efficiency of the ocean component by changing the baroclinic time stepping method. [SEA-ICE] component is MPAS-Seaice and has had many improvements since 2.1; Added Icepack as the default sea ice column physics; Switched to high-frequency sea ice coupling as the default surface stress flux option for all meshes; Reduced the maximum number of sea ice atmospheric turbulent flux iterations; Decreased the dynamics minimum concentration sea ice and the ice mass per unit area cutoff; Reduced standard monthly sea ice output by removing sea ice age, first year ice tracers, and level ice volume and area; Added or updated checks on configuration settings. [LAND-ICE] component remains MPAS-Albany-landIce (MALI). The version of MALI has been updated to include higher-order advection and time integration. The land-ice component is not yet supported in production configurations with v3. [COUPLER] remains cpl7/MCT. A new property-preserving map procedure enables high-order flux maps between components for selected fields. In v3 LR cases, applied to all atmosphere-to-surface fluxes except precip. Calculation of gustiness between atmosphere, ocean and land was rationalized. Default processor layouts for the low-resolution configuration are available on Perlmutter and other DOE platforms.",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "C",
+        "Fortran"
+    ],
+    "name": "Energy Exascale Earth System Model v3.0.0",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/E3SM/releases/tag/v3.0.0",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git",
+    "version": "v3.0.0"
+}

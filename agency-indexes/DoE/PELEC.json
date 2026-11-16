@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2022-07-21"
+    },
+    "description": "PeleC is an adaptive-mesh compressible hydrodynamics code for reacting flows. It solves the compressible Navier-Stokes with multispecies transport in a block structured framework. The resulting algorithm is well suited for flows with localized resolution requirements and robust to discontinuities. User controllable refinement crieteria has the potential to result in extremely small numerical dissipation and dispersion, making this code appropriate for both research and applied usage. The code is built on the AMReX library which facilitates hierarchical parallelism and manages distributed memory parallism. PeleC algorithms are implemented to express shared memory parallelism.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PELEC",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/AMReX-Combustion/PeleC/blob/development/license.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AMReX-Combustion/PeleC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

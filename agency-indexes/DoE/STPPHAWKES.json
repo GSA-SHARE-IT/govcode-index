@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2024-10-23",
+        "metadataLastUpdated": "2024-10-23"
+    },
+    "description": "SAND2024-08541O\nSTTPHAWKES software solution is a Bayesian estimation approach to a Hawkes process model that treats missing data as a latent variable in the estimation. The open-source software will be released to the R CRAN repository and Sandia National Labs’ Github.\nSandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 3526.4,
+    "languages": [
+        "R",
+        "C++"
+    ],
+    "name": "STPPHAWKES",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/stpphawkes",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "0.2.0"
+}

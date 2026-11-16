@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-07-16",
+        "metadataLastUpdated": "2019-07-16"
+    },
+    "description": "Unlike computer languages like C++ which has throw/catch, Python which has try/except and other newer computer languages, C has no built-in mechanism for handling exceptions (e.g., memory allocate failure or a divide by zero exceptions).\n\nWhile simple exception handling in the form of an integer parameter (e.g, errno) or an enum are often implemented in C programs, the richer types of exception reporting possible with newer computer languages are rarely implemented in C. \n\nThe statusMessageReporting package was created to facilitate rich exception reporting by C functions to their calling functions.\n\nThe statusMessageReporting (smr) package allows a function, called the generator, to communicate an exception to its calling function using a statusMessageReporting report. \n\nThe main parts of a report are:\n\n1)the level of the report called the status (valid levels are smr_status_Ok, smr_status_Info, smr_statusWarning and smr_status_Error)\n\n2) a string called the report's message and 3) two integer values, one representing the generator's ID, called the libraryID, and the other is the library's specific integer, called the code, that represents the type of exception the generator is reporting.\n\nThe code is similar to the errno for the C standard library. Since libraries are often developed independent of one another, they often use the same code values to represent different exceptions (e.g., one library may define the code 3 to be an error opening a file while another library may define the code 3 to be a divide-by-zero error) which is why the libraryID is needed. \n\nThat is, the equivalent of errno is the combination libraryID:code. To insure that each library's libraryID is unique, libraryIDs must be obtained from the function smr_registerLibrary.\n",
+    "laborHours": 60359.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "statusMessageReporting",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/gidiplus",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The Synthetic Proxy Infrastructure for Task Evaluation is a proxy application designed to support application developers in gauging the performance of various task granularities when determining how best to utilize task based programming models.The infrastructure is designed to provide examples of common communication patterns with a synthetic workload intended to provide performance data to evaluate programming model and platform overheads for the purpose of determining task granularity for task decomposition purposes. This is presented as a reference implementation of a proxy application with run-time configurable input and output task dependencies ranging from an embarrassingly parallel scenario to patterns with stencil-like dependencies upon their nearest neighbors. Once all, if any, inputs are satisfied each task will execute a synthetic workload (a simple DGEMM of in this case) of varying size and output all, if any, outputs to the next tasks.The intent is for this reference implementation to be implemented as a proxy app in different programming models so as to provide the same infrastructure and to allow for application developers to simulate their own communication needs to assist in task decomposition under various models on a given platform.",
+    "laborHours": 106.4,
+    "name": "Synthetic Proxy Infrastructure for Task Evaluation",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/lanl/spite/blob/master/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/spite",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

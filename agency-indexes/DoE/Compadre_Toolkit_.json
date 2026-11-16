@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-04-11",
+        "metadataLastUpdated": "2021-08-30"
+    },
+    "description": "The Compadre Toolkit solves a minimization problem, that once solved allows a user to reconstruct a function from sample data collected from a cloud of data sites. The solution to this minimization can also be used to assemble a linear system that can be solved numerically using some other software. The minimization problem the toolkit solves is to find the optimal finite polynomial in a user specified finite dimensional space with regards to minimizing an objective function which measures a linear sampling functional applied to the polynomial, compared to the same sampling functional applied to the source function, weighted by a positive kernel that has compact support.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "Python"
+    ],
+    "name": "Compadre Toolkit ",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/compadre",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "LEAF Version 2.0 is a framework comprising of three models RUSLE2, WEPS, and AGNPS. The framework can predict row crop, crop residue, and energy crop yields at a sub-field resolutions for various combinations of soil, climate and crop management and residue harvesting practices. It estimates the loss of soil, carbon, and nutrients to the atmosphere, to the groundwater, and to runoff. It also models the overland flow of water and washed-off sediments, nutrients and other chemicals to provide estimates of sediment, nutrient, and chemical loadings to water bodies within a watershed. AGNPS model and wash-off calculations are the new additions to this version of LEAF. Development of LEAF software is supported by DOE's BETO program.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Landscape Environmental Assessment Framework",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabUnsupported/LEAF",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

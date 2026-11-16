@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Draco is an object-oriented component library geared towards numerically intensive, radiation (particle) transport applications built for parallel computing hardware. It consists of semi-independent packages and a robust build system. The packages in Draco provide a set of components that can be used by multiple clients to build transport codes. The build system can also be extracted for use in clients. Software includes smart pointers, Design-by-Contract assertions, unit test framework, wrapped MPI functions, a file parser, unstructured mesh data structures, a random number generator, root finders and an angular quadrature component.",
+    "laborHours": 67214.4,
+    "name": "Draco,Version 6.x.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/lanl/Draco/blob/develop/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/losalamos/Draco",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

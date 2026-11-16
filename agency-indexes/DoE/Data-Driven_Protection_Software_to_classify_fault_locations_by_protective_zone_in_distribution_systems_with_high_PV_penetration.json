@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-07-18",
+        "metadataLastUpdated": "2024-07-18"
+    },
+    "description": "The software contains\n(a) the source codes to generate Point-on-Wave (PoW) transient data for any feeder model in Alternative Transient Program\n(ATP) format. Codes provide options to change different steady state settings, including the loading condition and PV\ncapacity and transient state setting like faults type, location and initiation time\n(b) data post-processing source code to converted data from native format to COMTRADE, csv, HDF5\n(c) Docker container to train CNN to classify fault locations by protective zone. The container takes dataset and other\ntraining parameters (sampling rate, training epochs, batch size etc) as input to train CNN. The container writes back the\ntrained CNN model, training and testing metrics and plots to the local workstation",
+    "laborHours": 501.6,
+    "languages": [],
+    "name": "Data-Driven Protection Software to classify fault locations by protective zone in distribution systems with high PV penetration",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/oedisi_transients",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

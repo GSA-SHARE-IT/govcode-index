@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-12-06",
+        "metadataLastUpdated": "2019-12-06"
+    },
+    "description": "pyPicFusion is a standalone fusion reaction code that takes arbitrarily weighted macro-particles representing fusion reactants and generates fusion products. \n\nThe code takes into account the fusion cross-section and kinematics of the reaction to produce weighted fusion products with given velocities/energies in the laboratory frame.",
+    "laborHours": 364.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "pyPICfusion",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/pyPICfusion",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0"
+}

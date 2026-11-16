@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-08-25",
+        "metadataLastUpdated": "2023-08-25"
+    },
+    "description": "We would like to disclose a code based on Python/Pytorch, in which we implement the data-driven physics-informed machine learning of Lagrangian large eddy simulation that is described in the manuscript \"Lagrangian Large Eddy Simulations via Physics-Informed Machine Learning \". High-Reynolds number Homogeneous Isotropic Turbulence is fully described within the Navier-Stokes (NS) equations, which are notoriously difficult to solve numerically. Engineers, interested primarily in describing turbulence at a reduced range of resolved scales, have designed heuristics, known as Large Eddy Simulation (LES). LES is described in terms of the temporally evolving Eulerian velocity field defined over a spatial grid with the mean-spacing correspondent to the resolved scale. This classic Eulerian LES depends on assumptions about the effects of sub-grid scales on the resolved scales. Here, we take an alternative approach and design novel LES heuristics stated in terms of Lagrangian particles moving with the flow. Our \\emph{Lagrangian LES}, thus L-LES, is described by equations generalizing the weakly compressible Smoothed Particle Hydrodynamics formulation with extended parametric and functional freedom, which is then resolved via Machine Learning training on Lagrangian data from Direct Numerical Simulations of the NS equations. The L-LES model includes physics-informed parameterization and functional form, by combining physics-based parameters and physics-inspired Neural Networks to describe the evolution of turbulence within the resolved range of scales. The sub-grid scale contributions are modeled separately with physical constraints to account for the effects from un-resolved scales. We build the resulting model under the Differentiable Programming framework to facilitate efficient training. We experiment with loss functions of different types, including physics-informed ones accounting for statistics of Lagrangian particles. We show that our Lagrangian LES model is capable of reproducing Eulerian and unique Lagrangian turbulence structures and statistics over a range of turbulent Mach numbers.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Code for the manuscript \"Lagrangian Large Eddy Simulations vis Physics-informed Machine Learning\"",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Lagrangian-LES",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

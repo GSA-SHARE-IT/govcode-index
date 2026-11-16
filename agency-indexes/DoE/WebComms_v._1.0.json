@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "WebComms is a lightweight wrapper around the popular open source Apache HttpClient library and enables developers to quickly fetch resources on the internet.",
+    "laborHours": 8314.4,
+    "languages": [
+        "Java"
+    ],
+    "name": "WebComms v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/webcomms?tab=License-1-ov-file#readme",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/webcomms",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

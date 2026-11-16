@@ -1,0 +1,45 @@
+{
+    "id": 2188,
+    "name": "Veterans Integrated Registries Platform",
+    "organization": "OIT DSO",
+    "version": "2.2.6.191",
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/Redacted-Public-Release-VIRP-P2-v2.2.6.191-build-3-Aug-2020",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "VIRP",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Microsoft .NET Framework",
+        "Microsoft Structured Query Language (SQL) Server",
+        "Windows Server",
+        "Microsoft Power Business Intelligence (BI)"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-28",
+        "lastModified": "2020-12-03",
+        "metadataLastUpdated": "2020-12-03"
+    },
+    "description": "Repository containing the CIF submission for Veterans Integrated Registries Platform (VIRP) Phase 2, v2.2.6.191, build 3 received Aug 2020."
+}

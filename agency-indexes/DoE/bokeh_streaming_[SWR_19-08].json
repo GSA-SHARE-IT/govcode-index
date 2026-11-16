@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-04-02",
+        "metadataLastUpdated": "2023-08-16"
+    },
+    "description": "Simple examples of bokeh streaming data. The plots are intended to be generic and able to infer some of the plot data from the structure of the data sent. The receiver accepts zlib compressed pickled python dictionaries.",
+    "laborHours": 167.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "bokeh streaming [SWR 19-08]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/bokeh-streaming",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "sluedtke@lanl.gov"
+    },
+    "date": {
+        "created": "2021-04-15",
+        "metadataLastUpdated": "2021-06-28"
+    },
+    "description": "Vector Particle-in-Cell (VPIC) is a general purpose particle-in-cell simulation code for modeling kinetic plasmas in one, two, or three spatial dimensions. It employs a second-order, explicit, leapfrog algorithm to update charged particle positions and velocities in order to solve the relativistic kinetic equation for each species in the plasma, along with a full Maxwell description for the electric and magnetic fields evolved via a second- order finite-difference-time-domain (FDTD) solve. The VPIC code has been optimized for modern computing architectures and uses Message Passing Interface (MPI) calls for multi-node application as well as data parallelism using threads. VPIC employs a variety of short-vector, single-instruction-multiple-data (SIMD) intrinsics for high performance and has been designed so that the data structures align with cache boundaries. The current feature set for VPIC includes a flexible input deck format capable of treating a wide variety of problems. These include: the ability to treat electromagnetic materials (scalar and tensor dielectric, conductivity, and diamagnetic material properties); multiple emission models, including user-configurable models; arbitrary, user-configurable boundary conditions for particles and fields; user- definable simulation units; a suite of \"standard\" diagnostics, as well as user-configurable diagnostics; a Monte-Carlo treatment of collisional processes capable of treating binary and unary collisions and secondary particle generation; and, flexible checkpoint-restart semantics enabling VPIC checkpoint files to be read as input for subsequent simulations. VPIC has a native I/O format that interfaces with the high-performance visualization software Ensight and Paraview. While the common use cases for VPIC employ low-order particles on rectilinear meshes, a framework exists to treat higher-order particles and curvilinear meshes, as well as more advanced field solvers.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "C"
+    ],
+    "name": "VPIC v.1.2",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/vpic",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git",
+    "version": "1.2"
+}

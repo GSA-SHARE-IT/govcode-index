@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-09-15",
+        "metadataLastUpdated": "2021-09-15"
+    },
+    "description": "Axom is an open-source library of \"building block\" software components that provide core infrastructure capabilities for HPC applications. Such capabilities include: input file parsing and verification for various file formats, format specification for material shape input to multi-material simulations and tools for placing those shapes on meshes, parallel distributed coordination of diagnostic messages, geometric primitives, spatial queries and spatial search acceleration data structures, in memory key-value data store for managing simulation data and parallel file I/O. Axom components are used widely across LLNL Advanced Simulation and Computing program applications. It is also part of the LLNL institutionally-supported RADIUSS project, which promotes and funds its adoption by projects across LLNL.",
+    "laborHours": 229945.6,
+    "languages": [],
+    "name": "Axom",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/axom",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.6.0"
+}

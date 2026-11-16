@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2018-11-29",
+        "metadataLastUpdated": "2018-12-03"
+    },
+    "description": "The purpose of the ADAPT code is to generate Dynamic Event Trees (DET) using a user specified set of simulators. ADAPT can utilize any simulation tool which meets a minimal set of requirements. ADAPT is based on the concept of DET which uses explicit modeling of the deterministic dynamic processes that take place during a nuclear reactor plant system (or other complex system) evolution along with stochastic modeling. When DET are used to model different aspects of Probabilistic Risk Assessment (PRA), all accident progression scenarios starting from an initiating event are considered simultaneously. The DET branching occurs at user specified times and/or when an action is required by the system and/or the operator. These outcomes then decide how the dynamic system variables will evolve in time for each DET branch. Since two different outcomes at a DET branching may lead to completely different paths for system evolution, the next branching for these paths may occur not only at different times, but can be based on different branching criteria. The computational infrastructure allows for flexibility in ADAPT to link with different system simulation codes, parallel processing of the scenarios under consideration, on-line scenario management (initiation as well as termination), analysis of results, and user friendly graphical capabilities. The ADAPT system is designed for a distributed computing environment; the scheduler can track multiple concurrent branches simultaneously. The scheduler is modularized so that the DET branching strategy can be modified (e.g. biasing towards the worst case scenario/event). Independent database systems store data from the simulation tasks and the DET structure so that the event tree can be constructed and analyzed later. ADAPT is provided with a user-friendly client which can easily sort through and display the results of an experiment, precluding the need for the user to manually inspect individual simulator runs.",
+    "homepageURL": "http://www.sandia.gov/adapt",
+    "laborHours": 0.0,
+    "languages": [
+        "Python 2",
+        "MySQL"
+    ],
+    "name": "ADAPT (Analysis of Dynamic Accident Progression Trees) Revision 5710",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://www.sandia.gov/adapt",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "version": "Revision 5710"
+}

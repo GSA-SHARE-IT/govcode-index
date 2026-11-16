@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Avalaunch implements a tree-based process launcher. It first bootstraps itself on to a set of compute nodes by launching children processes, which immediately connect back to the parent process to acquire info needed t launch their own children. Once the tree is established, user processes are started by broadcasting commands and application binaries through the tree. All communication flows over high-performance network protocols via spawnnet. The goal is to start MPI jobs having hundreds of thousands of processes within seconds.",
+    "laborHours": 21371.2,
+    "name": "Avalaunch",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/LLNL/avalaunch/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/avalaunch",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

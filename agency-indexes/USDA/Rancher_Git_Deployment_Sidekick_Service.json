@@ -1,0 +1,35 @@
+{
+    "organization": "OC",
+    "name": "Rancher Git Deployment Sidekick Service",
+    "description": "Rancher Git Deployment Sidekick Service",
+    "repositoryURL": "https://bitbucket.org/usdawcmaas/git-deploy",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "laborHours": 200,
+    "tags": [
+        "Rancher",
+        "DevOps"
+    ],
+    "contact": {
+        "email": "Source.Code@ocio.usda.gov",
+        "name": "USDA Source Code"
+    },
+    "status": "Production",
+    "vcs": "git",
+    "languages": [
+        "salt"
+    ],
+    "homepageURL": "https://bitbucket.org/usdawcmaas/git-deploy/src/master/",
+    "date": {
+        "created": "2017-11-21",
+        "lastModified": "2017-11-21",
+        "metadataLastUpdated": "2019-06-06"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-02",
+        "metadataLastUpdated": "2020-09-02"
+    },
+    "description": "This is a plugin for kbase-ui, which allows a KBase user to view individual ontological terms, and navigate within the ontology to which that term belongs.",
+    "laborHours": 17328.0,
+    "languages": [],
+    "name": "KBase UI Plugin: Ontology",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseIncubator/kbase-ui-plugin-ontology",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

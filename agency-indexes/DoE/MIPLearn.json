@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2020-05-28",
+        "metadataLastUpdated": "2021-05-18"
+    },
+    "description": "MIPLearn is an extensible framework for Learning-Enhanced Mixed-Integer Optimization, an approach targeted at discrete optimization problems that need to be repeatedly solved with only minor changes to input data. The package uses Machine Learning (ML) to automatically identify patterns in previously solved instances of the problem, or in the solution process itself, and produces hints that can guide a conventional MIP solver towards the optimal solution faster.",
+    "laborHours": 3024.8,
+    "languages": [],
+    "name": "MIPLearn",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ANL-CEEESA/MIPLearn",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "spotluri@nvidia.com"
+    },
+    "date": {
+        "created": "2018-06-12",
+        "metadataLastUpdated": "2020-09-08"
+    },
+    "description": "Prototype of OpenSHMEM for NVIDIA GPUs, developed as part of DoE Design Forward project.",
+    "laborHours": 744.8,
+    "languages": [
+        "C"
+    ],
+    "name": "NVIDIA/df-nvshmem-prototype",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NVIDIA/df-nvshmem-prototype",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

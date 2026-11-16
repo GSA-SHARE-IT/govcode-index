@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The JMP Add-In TopN-PFS provides an automated tool for finding layered Pareto front to identify the top N solutions from an enumerated list of candidates subject to optimizing multiple criteria. The approach constructs the N layers of Pareto fronts, and then provides a suite of graphical tools to explore the alternatives based on different prioritizations of the criteria. The tool is designed to provide a set of alternatives from which the decision-maker can select the best option for their study goals.",
+    "laborHours": 0.0,
+    "name": "TopN-Pareto Front Search",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/candcook/TopN-PFS/blob/master/README.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/candcook/TopN-PFS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

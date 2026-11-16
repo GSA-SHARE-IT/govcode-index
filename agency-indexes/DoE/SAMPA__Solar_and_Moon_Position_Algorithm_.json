@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-09-09",
+        "metadataLastUpdated": "2019-09-10"
+    },
+    "description": "SAMPA calculates the location of the Sun and Moon in the sky for the purpose of solar eclipse monitoring and for estimating the influence on solar irradiance. Valid from the year -2000 to 6000, with an uncertainty of +/- 0.0003 degrees for the Sun position and +/- 0.003 degrees for the Moon position. \n",
+    "homepageURL": "https://midcdmz.nrel.gov/solpos/sampa.html",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SAMPA (Solar and Moon Position Algorithm)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://midcdmz.nrel.gov/sampa/#license",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://midcdmz.nrel.gov/solpos/sampa.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ]
+}

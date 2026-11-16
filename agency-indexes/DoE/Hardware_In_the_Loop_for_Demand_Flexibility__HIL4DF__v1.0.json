@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-24",
+        "metadataLastUpdated": "2024-06-27"
+    },
+    "description": "The software package in question is a collection of simulation models in the Modelica language, representing a variety of mechanical system designs and envelope conditions related to LBL's FLEXLAB facility. The collection of models also features multiple controls sequences that can be simulated with the FLEXLAB model to simulate different demand flexibility scenarios. Additionally, this package will feature datasets from 3 experimental tests, used for calibration, validation and comparison against the Modelica models, this includes weather data that can be used to replicate different scenarios in simulation across the same weather conditions experienced in real experiments. Given FLEXLAB high level of instrumentation and available data, the models are calibrated across multiple measurement points, and thus results from the extension of this model to other climate zones or control sequences, would provide high level of confidence.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Hardware In the Loop for Demand Flexibility (HIL4DF) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/HIL4DF",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

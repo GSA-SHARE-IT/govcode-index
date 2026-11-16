@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2023-02-22",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "Jester is a Rust CLI designed to package and send time series or tabular data to the data warehouse DeepLynx. It primarily reads .csv files and then sends those via HTTP or Websocket requests to an external instance of DeepLynx. It is meant to run on a host computer which has access to the data.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Jester",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/Jester",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

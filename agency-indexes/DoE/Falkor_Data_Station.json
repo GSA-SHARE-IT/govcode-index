@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-02-15",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "In order to support different hardware configurations, an extensible and modular software architecture was developed that could adapt to new requirements in an agile manner. This led to the design of an application programming interface or software development kit that would allow for the rapid integration of new hardware plugins, including AMPS, MIPS, and National Instruments, along with support for digitizers from vendors such as Acqiris. The use of ZeroMQ and a simple communication protocol allows for real time data display and analysis. This is achieved via a separate application simply called the AgMD1 Console. This application allows for low level foreign function interface (FFI) calls to the AGMD1 libraries to operate the U1084A analog-to-digital converter.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Falkor Data Station",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/business/default.aspx?topic=Licensing_Guidelines",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

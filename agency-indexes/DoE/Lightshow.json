@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "mcarbone@bnl.gov"
+    },
+    "date": {
+        "created": "2022-10-12",
+        "metadataLastUpdated": "2022-10-12"
+    },
+    "description": "A one-stop-shop for writing computational spectroscopy input files.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Lightshow",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AI-multimodal/Lightshow",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

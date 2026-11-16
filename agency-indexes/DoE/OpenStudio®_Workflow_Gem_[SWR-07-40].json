@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-09-12",
+        "metadataLastUpdated": "2024-02-09"
+    },
+    "description": "This branch is the development branch for the OpenStudio® workflow gem.",
+    "laborHours": 216645.6,
+    "languages": [
+        "Ruby",
+        "HTML"
+    ],
+    "name": "OpenStudio® Workflow Gem [SWR-07-40]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NREL/OpenStudio-workflow-gem/blob/develop/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/OpenStudio-workflow-gem",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "2.3.1"
+}

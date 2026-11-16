@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-08-24",
+        "metadataLastUpdated": "2021-08-24"
+    },
+    "description": "x-ray fluorescence (XRF) imaging typically involves the creation and analysis of 3D data sets, where at each scan position a full energy dispersive x-ray spectrum is recorded. This allows one to later process the data in a variety of different approaches, e.g., by spectral region of interest (ROI) summation with or without background subtraction, principal component analysis, or fitting. XRF-Maps is a C++ open source software package that implements these functions to provide a tool set for the analysis of XRF data sets.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "XRF-MAPS",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AdvancedPhotonSource/XRF-Maps",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

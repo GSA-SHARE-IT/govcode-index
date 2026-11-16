@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-26"
+    },
+    "description": "This software generates environmental contours of extreme sea states using buoy observations of significant wave height and energy period or peak period. The code transforms these observations using principal component analysis (PCA) to create an uncorrelated representation of the data. The subsequent components are modeled using probability distributions and parameter fitting functions. The inverse first-order reliability method (I-FORM) is then applied to these models in order to generate an extreme event contour based on a given return period (i.e., 100 years).The subsequent contour is then transformed back into the original input space defined by the variables of interest in order to create an environmental contour of extreme sea states.",
+    "laborHours": 197.6,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "Extreme_SeaState_Contour_v1",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/SNL-ESSC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

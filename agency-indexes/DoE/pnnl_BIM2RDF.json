@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2025-01-30",
+        "metadataLastUpdated": "2025-01-30"
+    },
+    "description": "This software tool automatically creates the semantic model that building system applications need by leveraging data that exists in existing practice building design tools.",
+    "laborHours": 1170.4,
+    "languages": [],
+    "name": "pnnl/BIM2RDF",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/BIM2RDF",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

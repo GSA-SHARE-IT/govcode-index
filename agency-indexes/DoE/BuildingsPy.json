@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-04-30",
+        "metadataLastUpdated": "2019-10-04"
+    },
+    "description": "BuildingsPy is a Python package that can be used to run Modelica simulations and to process Modelica output files. It can also be used to run unit tests as part of the development of LBNL's Modelica Buildings library. The package provides functions to extract data series from the output file for further use in the python packages matplotlib for plotting and SciPy for scientific computing.",
+    "laborHours": 3936.8,
+    "languages": [],
+    "name": "BuildingsPy",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbl-srg/BuildingsPy",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

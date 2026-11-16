@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "savaraa@ornl.gov"
+    },
+    "date": {
+        "created": "2020-07-24",
+        "metadataLastUpdated": "2020-09-08"
+    },
+    "description": "Parameter estimation for complex physical problems often suffers from finding 'solutions' that are not physically realistic. The CheKiPEUQ software provides tools for finding physically realistic parameter estimates.and CheKiPEUQ provide tools for making graphs of the parameter positions within parameter space as well as plots of the final simulation results.\n\nThe primary purpose of the CheKiPEUQ software is to enable more physically realistic parameter estimation from comparing simulations to experiments. Specifically, when prior knowledge is available about the region of parameter space which is physically realistic and when the level of uncertainty from experiment can be estimated. The software is intentionally general and can be used for almost any type of simulation. The software is made in a user friendly manner so that users can simply enter the required data and then run the program, following guidelines provided by the authors along with some trial and error. Examples are provided. Users do not need to understand the methodology that will be namedi in the following sentences. While CheKiPEUQ can be used for conventional parameter estimation and other uses, the primary uses for CheKiPEUQ are: 1) Bayesian Parameter Estimation, 2) Bayesian Model Discrimination, 3) Bayesian Design of Experiments. For more information see the project website, documentation, examples, and related publications.",
+    "laborHours": 109455.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "CheKiPEUQ",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AdityaSavara/CheKiPEUQ",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

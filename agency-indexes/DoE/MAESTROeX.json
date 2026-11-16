@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "ajnonaka@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-15",
+        "metadataLastUpdated": "2021-04-15"
+    },
+    "description": "MAESTROeX is a massively parallel, finite-volume C++/F90 solver for low Mach number astrophysical flows. The code utilizes a low Mach number equation set allowing for more efficient, long-time integration of highly subsonic flows compared to compressible approaches. The recommended range of applicability is for flows where the Mach number does not exceed~0.1.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "Fortran"
+    ],
+    "name": "MAESTROeX",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AMReX-Astro/MAESTROeX",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "20.11"
+}

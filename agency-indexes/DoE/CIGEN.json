@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-08-27",
+        "metadataLastUpdated": "2024-08-27"
+    },
+    "description": "CIGEN is a tool that finds input ranges that cause high compiler-induced numerical inconsistencies in\nnumerical programs written in a compiled language. Numerical program behavior may diverge when they\nare compiled and ran differently. Many factors, such as different hardware architectures (for example, the\nx87 FPU with its 80-bit registers), different compilers, or different optimization flags may cause the results\nof floating-point computations to become inconsistent. This kind of inconsistencies are known as\ncompiler-induced numerical inconsistencies. Given a program with floating-point inputs and an output,",
+    "laborHours": 3739.2,
+    "languages": [],
+    "name": "CIGEN",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/CIGEN",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

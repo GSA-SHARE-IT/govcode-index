@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "PnMPI is a tool infrastructure for parallel programs implemented using the message passing interface (MPI). It enables users to dynamically assemble multiple tools, both existing and newly developed ones, into a single tool chain and to execute them concurrently. This provides new options for scalable tools designs including (but not concurrently. This provides new options for scalable tool designs including (but not limited to) the transparent virtualization of MPI environments of an application. In addition, PnMPI allows tools to export support routines to other tools. This promotes a separation of tasks between tools which leads to enhanced tool modularity. PnMPI has been implemented for a variety of platforms including Linux and AIX clusters, and a static version of PnMPI is available on Blue Gene/L.",
+    "laborHours": 8451.2,
+    "name": "PnMPI",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/pnmpi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

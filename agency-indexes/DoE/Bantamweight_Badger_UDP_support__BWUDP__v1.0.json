@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-07-13",
+        "metadataLastUpdated": "2023-07-13"
+    },
+    "description": "Software networking library to allow an FPGA ethernet core (such as Badger: https://gitlab.lbl.gov/hdl-libraries/bedrock/-/tree/master/badger) to be used in a soft-core processor or microcontroller.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Bantamweight Badger UDP support (BWUDP) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BerkeleyLab/BWUDP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

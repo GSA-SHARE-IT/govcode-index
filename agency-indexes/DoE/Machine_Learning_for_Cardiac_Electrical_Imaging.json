@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2023-06-28",
+        "metadataLastUpdated": "2023-06-28"
+    },
+    "description": "PyTorch code for cardiac electrical imaging using the 12-lead ECG. This code is associated with the\npaper from CINC 2022. If you use this code, please cite:\nPaper : https://cinc.org/2022/Program/accepted/26_Preprint.pdf\nDataset : https://library.ucsd.edu/dc/object/bb29449106\nThe code support two tasks:\nTask 1: Activation Map Reconstruction from ECG\nTask 2: Transmembrane potential Reconstruction from ECG",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Machine Learning for Cardiac Electrical Imaging",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/landajuela/cardiac_ml",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0."
+}

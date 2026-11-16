@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Dr. L provides two-dimensional visualizations of very large abstract graph structures. it can be used for data mining applications including biology, scientific literature, and social network analysis. Dr. L is a graph layout program that uses a multilevel force-directed algorithm. A graph is input and drawn using a force-directed algorithm based on simulated annealing. The resulting layout is clustered using a single link algorithm. This clustering is used to produce a coarsened graph (fewer nodes) which is then re-drawn. this process is repeated until a sufficiently small graph is produced. The smallest graph is drawn and then used as a basis for drawing the original graph by refining the series of coarsened graphs that were produced. The layout engine can be run in serial or in parallel.",
+    "homepageURL": "https://www.sandia.gov/smartin/software.html",
+    "laborHours": 0.0,
+    "languages": [
+        "g++ and bash"
+    ],
+    "name": "Dr.L: Distributed Recursive (Graph) Layout",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.sandia.gov/smartin/software.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

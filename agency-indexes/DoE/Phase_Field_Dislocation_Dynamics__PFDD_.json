@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-05-01",
+        "metadataLastUpdated": "2018-05-01"
+    },
+    "description": "Phase Field Dislocation Dynamics (PFDD) is a phase field approach for tracking the motion and interactions of individual dislocations in materials, mostly face-centered cubic (fcc) metals. The phase field approach relies on scalar order parameters or phase field variables to track a quantity of interest. In PFDD, these phase field variables represent the passage of perfect dislocations across each active slip system, with one order parameter defined in each slip system. Partial dislocations are represented with linear combinations of the order parameters. The system is evolved through minimization of the total system energy, which is directly dependent on the phase field variables. All of the physics is described by the total energy functional that is derived from a thermodynamic basis, and the system kinetics are evolved using a Ginzburg-Landau (GL) equation.",
+    "laborHours": 3024.8,
+    "name": "Phase Field Dislocation Dynamics (PFDD)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Phase-Field-Dislocation-Dynamics-PFDD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

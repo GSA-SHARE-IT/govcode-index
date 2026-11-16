@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-16",
+        "metadataLastUpdated": "2020-09-16"
+    },
+    "description": "Identification of core annotation pipeline (CAP). The repository for workflow development to integrate in-house workflows into KBase. These scripts integrate assemblies, abundances, and annotations into a Phyloseq object, specifically genes which are core among multiple metagenomes.",
+    "laborHours": 136.8,
+    "languages": [],
+    "name": "CAP",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseattic/cap",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

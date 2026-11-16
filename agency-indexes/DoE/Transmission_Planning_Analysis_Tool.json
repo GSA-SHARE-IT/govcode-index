@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "Developed to solve specific problem: Assist transmission planning for regional transfers in interconnected power systems. This work was originated in a study for the U.S. Department of State, to recommend transmission reinforcements for the Central American regional system that interconnects 6 countries. Transmission planning analysis is currently performed by engineers with domain-specific and system-specific knowledge without a unique methodology. The software codes of this disclosure assists engineers by defining systematic analysis procedures to help identify weak points and make decisions on transmission planning of regional interconnected power systems. Transmission Planning Analysis Tool groups PSS/E results of multiple AC contingency analysis and voltage stability analysis and QV analysis of many scenarios of study and arrange them in a systematic way to aid power system planning engineers or transmission operators in effective decision-making process or in the offline study environment.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "Matlab/ 7.11.0"
+    ],
+    "name": "Transmission Planning Analysis Tool",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-21",
+        "metadataLastUpdated": "2021-04-21"
+    },
+    "description": "ArQTiC is a domain-specific full-stack software package built for the dynamic simulations of materials on quantum computers. Its main contributions include providing a software library for high-level programming of such simulations on quantum computers, and providing post-processing capabilities that allow users to more efficiently analyze results from the quantum computer. Paired with the power to optimize and execute quantum circuits, ArQTiC opens the field of dynamic materials simulations on quantum computers to a broader community of scientists from a wider range of domain sciences, paving the way for accelerated progress towards physical quantum supremacy.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Architecture for Quantum Time-dependent Circuits (ArQTIC) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lebassman/ArQTiC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

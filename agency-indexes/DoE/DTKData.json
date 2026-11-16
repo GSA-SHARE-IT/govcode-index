@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "simsdl@ornl.gov"
+    },
+    "date": {
+        "created": "2018-04-18",
+        "metadataLastUpdated": "2018-04-18"
+    },
+    "description": "DTKData contains large files for DataTransferKit testing and examples.\n",
+    "laborHours": 0.0,
+    "name": "DTKData",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-CEES/DTKData",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

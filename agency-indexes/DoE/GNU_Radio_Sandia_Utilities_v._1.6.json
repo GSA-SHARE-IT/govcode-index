@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "awander@sandia.gov"
+    },
+    "date": {
+        "created": "2018-09-06",
+        "metadataLastUpdated": "2019-07-30"
+    },
+    "description": "This software adds a data handling module to the GNU Radio (GR) software defined radio (SDR) framework as well as some general-purpose function blocks (filters, metadata control, etc). This software is useful for processing bursty RF transmissions with GR, and serves as a base for applying SDR signal processing techniques to a whole burst of data at a time, as opposed to streaming data which GR.",
+    "laborHours": 11536.8,
+    "languages": [
+        "C++",
+        "Python"
+    ],
+    "name": "GNU Radio Sandia Utilities v. 1.6",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/gr-pdu_utils",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 1.6"
+}

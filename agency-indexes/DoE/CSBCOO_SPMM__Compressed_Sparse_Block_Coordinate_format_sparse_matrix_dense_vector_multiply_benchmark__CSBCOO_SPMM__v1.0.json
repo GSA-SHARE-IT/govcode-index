@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-01",
+        "metadataLastUpdated": "2021-03-01"
+    },
+    "description": "The purpose of this microbenchmark is to provide a means to explore different programming methodologies using a simple, but not trivial, mathematical kernel. The kernel is based on the matrix vector product in the MFDn nuclear configuration interaction code's LOBPCG eigensolver. This particular mathematical operation is a key element in the solution of systems of equations and block eigensolvers.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "CSBCOO SPMM: Compressed Sparse Block Coordinate format sparse matrix dense vector multiply benchmark (CSBCOO SPMM) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/NERSC/nersc-proxies/csbcoo-spmm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

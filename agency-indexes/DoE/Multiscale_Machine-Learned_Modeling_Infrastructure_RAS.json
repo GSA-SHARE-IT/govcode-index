@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-09",
+        "metadataLastUpdated": "2021-12-09"
+    },
+    "description": "MuMMI RAS is the application component of the Multiscale Machine-Learned Modeling Infrastructure (MuMMI). It simulates RAS protein interactions at three scales of resolution coupled with ML-based selection and in-situ feedback. MuMMI RAS is particularly configured for massive scale, running thousands of simultaneous jobs with several terabytes of data on Lassen and Summit.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Multiscale Machine-Learned Modeling Infrastructure RAS",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mummi-framework/mummi-ras",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

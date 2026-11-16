@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-10"
+    },
+    "description": "This software (Asset Scoring Tool) is designed to help building owners and managers to gain insight into the as-built efficiency of their buildings. It is a web tool where users can enter their building information and obtain an asset score report. The asset score report consists of modeled building energy use (by end use and by fuel type), building systems (envelope, lighting, heating, cooling, service hot water) evaluations, and recommended energy efficiency measures. The intended users are building owners and operators who have limited knowledge of building energy efficiency. The scoring tool collects minimum building data (~20 data entries) from users and build a full-scale energy model using the inference functionalities from Facility Energy Decision System (FEDS). The scoring tool runs real-time building energy simulation using EnergyPlus and performs life-cycle cost analysis using FEDS. An API is also under development to allow the third-party applications to exchange data with the web service of the scoring tool.",
+    "homepageURL": "https://buildingenergyscore.energy.gov",
+    "laborHours": 0.0,
+    "languages": [
+        "Ruby, C# Javascript"
+    ],
+    "name": "Commercial Building Energy Asset Score",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://buildingenergyscore.energy.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://buildingenergyscore.energy.gov",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

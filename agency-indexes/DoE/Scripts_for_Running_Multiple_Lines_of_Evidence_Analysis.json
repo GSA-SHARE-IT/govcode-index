@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-11-30",
+        "metadataLastUpdated": "2020-11-30"
+    },
+    "description": "The software code titled “Scripts for Running Multiple Lunes of Evidence Analysis” enables high throughput network analysis; efficient analysis of large multi-omic networks in order to rank genes by connectivity. This code creates a set of scripts that take omic networks as input as well as list of known genes and calculates scores for all other genes in genome based on connectivity to those genes and does so accurately and efficiently. In addition, it aids the user in performing a validation check of observed data to random.  The code outputs a table of all genes in the genome with LOE scores and scores observed data versus random.",
+    "laborHours": 76.0,
+    "languages": [
+        "Python 3.6"
+    ],
+    "name": "Scripts for Running Multiple Lines of Evidence Analysis",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/afurches/Cell_Wall_LOE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

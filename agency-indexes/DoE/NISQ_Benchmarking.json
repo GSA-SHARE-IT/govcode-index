@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-07-15",
+        "metadataLastUpdated": "2022-07-15"
+    },
+    "description": "Test suite of quantum algorithms for Noisy Intermediate Scale Quantum (NISQ) computers. The test suite includes benchmark-style code for quantum volume circuits (QV), fairness sampling circuits, quantum telecloning circuits, and other NISQ benchmark style algorithms on small problems (i.e., up to 100 qubits), such as Variational Quantum Eigensolver (VQE), Hamiltonian Simulation, and Grover unstructured search example circuits. These benchmark-style applications are implemented in quantum software packages, mostly IBM's QISKIT, but may include vendor-specific frameworks, such as PyQuil (for Rigetti) or Q\\# for Microsoft, or CirQ (for Google) as the test suite grows with the vendor sample. The test suite also includes numerical simulation code for Quantum Alternating Operator Ansatz (QAOA) algorithms, VQE, Hamiltonian Simulation and search examples. Numerical simulation code simulates quantum computers on classical computers, which is only possible for small problem instances; the implementation framework of choice is typically within Python, using the numpy/scipy libraries as well as extensions to the Julia language.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "NISQ Benchmarking",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Quantum-Volume-in-Practice",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

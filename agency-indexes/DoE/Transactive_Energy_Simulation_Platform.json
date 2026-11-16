@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2022-11-18"
+    },
+    "description": "Transactive Energy Simulation Platform (TESP) combines existing domain simulators in the electric power grid, buildings, and communication systems, with new transactive agents, growth models and evaluation scripts. The existing domain simulators include GridLAB-D for the distribution grid and single-family residential buildings, MATPOWER for transmission and bulk generation, EnergyPlus for large buildings and ns-3 for communication systems. More are planned for subsequent versions of TESP. The new elements are: TEAgents - simulate market participants and transactive systems for market clearing. Some of this functionality was extracted from GridLAB-D and implemented in Python for customization by PNNL and others. Growth Model - a means for simulating system changes over a multiyear period, including both normal load growth and specific investment decisions. Customizable in Python code. Evaluation Script - a means of evaluating different transactive systems through customizable post-processing in Python code. TESP will run on Linux, Windows and Mac OS X.",
+    "laborHours": 46892.0,
+    "languages": [],
+    "name": "Transactive Energy Simulation Platform",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/tesp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

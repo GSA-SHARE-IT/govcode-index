@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Computing a Voronoi or Delaunay tessellation from a set of points is a core part of the analysis of many simulated and measured datasets. As the scale of simulations and observations surpasses billions of particles, a distributed-memory scalable parallel algorithm is the only feasible approach. The primary contribution of this software is a distributed-memory parallel Delaunay and Voronoi tessellation algorithm based on existing serial computational geometry libraries that automatically determines which neighbor points need to be exchanged among the subdomains of a spatial decomposition. Other contributions include the addition of periodic and wall boundary conditions.",
+    "laborHours": 5502.4,
+    "name": "TESS",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/diatomic/tess2",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

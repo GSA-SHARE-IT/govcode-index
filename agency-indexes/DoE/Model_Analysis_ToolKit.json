@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "MATK provides basic functionality to facilitate model analysis within the Python computational environment. Model analysis setup within MATK includes: - define parameters - define observations - define model (python function) - define samplesets (sets of parameter combinations) Currently supported functionality includes: - forward model runs - Latin-Hypercube sampling of parameters - multi-dimensional parameter studies - parallel execution of parameter samples - model calibration using internal Levenberg-Marquardt algorithm - model calibration using lmfit package - model calibration using levmar package - Markov Chain Monte Carlo using pymc package MATK facilitates model analysis using: - scipy - calibration (scipy.optimize) - rpy2 - Python interface to R",
+    "laborHours": 54856.8,
+    "name": "Model Analysis ToolKit",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dharp/MATK",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

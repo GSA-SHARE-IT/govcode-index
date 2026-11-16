@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2023-01-27",
+        "metadataLastUpdated": "2023-01-27"
+    },
+    "description": "Cardinal is a code that automates the workflow for iteratively solving neutral particle transport via the OpenMC code and computational fluid dynamics via the NekRS code within the Multiphysics Object Oriented Simulation Environment (MOOSE), a finite element framework for solving general partial differential equations. Cardinal establishes a mapping between the Monte Carlo geometry representation used in OpenMC and the spectral element mesh used in NekRS to other physics applications built upon the MOOSE framework, allowing high-resolution particle transport and fluid dynamics physics feedback to the MOOSE application ecosystem. Heat generation rates as solved by OpenMC are used as heat sources in MOOSE, while the temperature and density fields from NekRS are used as conjugate heat transfer boundary conditions and/or source fields in MOOSE. OpenMC, Nek5000, and MOOSE are open source, community-developed simulation codes.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "CARDINAL",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/neams-th-coe/cardinal",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

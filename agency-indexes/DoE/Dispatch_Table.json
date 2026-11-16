@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-09-19",
+        "metadataLastUpdated": "2018-10-23"
+    },
+    "description": "The Energy Market Price Response (EMPR) service is provided by the device, which shifts demand from high price periods in the day to low price periods.  The device would consume energy when prices are low and release energy (or defer consumption) when prices are high. This load shifting benefits the individual consumers and society in general by shifting consumption to periods when production resources are available at lower costs.  The service could be driven by price forecasts of the day-ahead market or shorter time periods.  The service could be facilitated by demand response aggregators, utilities, or other load serving entities.",
+    "laborHours": 76.0,
+    "languages": [],
+    "name": "Dispatch Table",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/TomEdmunds/DispatchTable",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

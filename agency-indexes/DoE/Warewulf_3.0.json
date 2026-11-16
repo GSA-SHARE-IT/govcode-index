@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Warewulf is a scalable systems management suite originally developed to manage large high-performance Linux clusters. Focused on general scalable systems management, it includes a framework for system configuration, management, provisioning/installation, monitoring, event notification, and more via a modular plugin architecture. Install the components and features you need or leverage the existing system configuration stored within Warewulf to create custom solutions to meet your performance needs. One of the goals of the project is to grow the project by allowing other organizations and developers to contribute back to the project under an open source BSD license. We have been successful with gaining support within the open source community already and have contributors and support in not only the government and academic space but also the commercial sector (e.g. Intel). Being both open source and vendor neutral puts Warewulf in a unique position to be supported and utilized as an open standard in High Performance Computing (HPC). Warewulf is an active member of various HPC initiatives and groups and is considered one of the most utilized, extensible and scalable clustering toolkits available.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Warewulf 3.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://warewulf.lbl.gov/trac/browser/trunk/common/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/warewulf/warewulf3",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-12-07",
+        "metadataLastUpdated": "2023-03-28"
+    },
+    "description": "Performs Multi-Tiered Iterative Phasing for Single Particle Imaging. The Spinifel code uses distributed computing (using MPI and Legion) to spread work across many compute nodes. On-node computation is accelerated using GPGPUs (using CuPy, and CUDA).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MTIP Single Particle Imaging (Spinifel) v0.1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.osti.gov/mtip/spinifel",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

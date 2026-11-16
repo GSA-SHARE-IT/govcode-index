@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-12-23",
+        "metadataLastUpdated": "2023-06-09"
+    },
+    "description": "Modern high-performance buildings exhibit an increasing number of building loads that use direct current (DC) electricity internally, rather than alternating current (AC), due to the advent of low-cost computing and advanced power electronics. Powering DC devices from the AC grid requires AC/DC power conversion, which introduces energy losses and reduces efficiency. As DC loads proliferate, the cumulative wasted energy associated with hundreds of millions of AC/DC converters has become one of the broadest energy savings opportunities in buildings.\n\nDC power distribution systems have been proposed as an elegant and transformative solution to the problem of DC devices. In a DC distribution system, the building's wires carry DC electricity, rather than AC; and a few centralized, highly efficient AC/DC converters replace the many smaller, less efficient converters that serve individual DC loads. Unfortunately, the trade-offs associated with DC distribution systems are not well understood. Reported energy savings associated with DC power distribution differ widely and have not been well validated.\n\nThe Building Electrical Efficiency Analysis Model (BEEAM) is a Modelica library that simulates the efficiency of building electrical distribution systems using harmonic power flow. BEEAM can model a wide variety of building distribution topologies, including three-phase AC, single-phase AC, unipolar DC, bipolar DC, and hybrid networks under both balanced and unbalanced load conditions. BEEAM accurately models power electronic converter losses, provides granular estimates of losses throughout the distribution system, and properly models efficiency at part load conditions. Users can package BEEAM within a functional mockup unit (FMU), enabling co-simulation with other modeling platform, such as EnergyPlus. In summary, BEEAM provides a tool suite for fair and accurate comparison of the efficiency of building electrical distribution systems, including AC, DC, and hybrid systems.",
+    "laborHours": 0.0,
+    "languages": [
+        "Modelica",
+        "MATLAB",
+        "Ruby",
+        "Jupyter ",
+        "Python"
+    ],
+    "name": "BEEAM (Building Electrical Efficiency Analysis Model) [SWR-20-107]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/BEEAM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

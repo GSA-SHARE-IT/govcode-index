@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-05-15",
+        "metadataLastUpdated": "2025-03-26"
+    },
+    "description": "These models are based on the 2015 Design Report of Dutta et al. found here: https://www.nrel.gov/docs/fy15osti/62455.pdf The models are distributed under the GNU General Public License. You will need a separate license to use the Aspen Plus and Microsoft Excel software packages in order to run the models. These models relate to an Aspen Plus process model for in situ and ex situ upgrading of fast pyrolysis vapors for the conversion of biomass to hydrocarbon fuels. It is based on conceptual designs that allow projections of future commercial implementations of the technologies based on a combination of research and existing commercial technologies. Results from the model are documented in a detailed design report NREL/TP-5100-62455 (available at http://www.nrel.gov/docs/fy15osti/62455.pdf). The model consists of the following key operations: (a) fast pyrolysis and vapor upgrading, (b) vapor condensation and recovery of an organic liquid and an aqueous phase, (c) hydroprocessing of the liquid organic phase to produce a fuel blendstock, (d) hydrogen production from off gases, (e) electricity production from excess heat, (f) other utilities such as cooling water, (g) wastewater utilization and treatment.",
+    "homepageURL": "https://www.nrel.gov/extranet/biorefinery/aspen-models",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Ex Situ and In Situ Catalytic Fast Pyrolysis Models (ASPEN PLUS MODELS) [SWR-16-12]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.nrel.gov/extranet/biorefinery/aspen-models",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ]
+}

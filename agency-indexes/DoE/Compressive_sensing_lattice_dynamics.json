@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-07-15",
+        "metadataLastUpdated": "2019-07-16"
+    },
+    "description": "A comprehensive package to study lattice dynamics from first-principles. The interatomic force constants were fitted using the compressive sensing algorithm.",
+    "laborHours": 11734.4,
+    "languages": [],
+    "name": "Compressive sensing lattice dynamics",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/csld",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

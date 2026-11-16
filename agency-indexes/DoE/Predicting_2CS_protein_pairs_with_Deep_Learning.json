@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-12-13",
+        "metadataLastUpdated": "2020-12-28"
+    },
+    "description": "Neural network was trained on the amino acid sequences of known two-component systems (2CS) pairs. The recommender algorithm uses learned model to select the most likely 2CS pair from an arbitrary set of protein pairs whose amino acid sequences are known.",
+    "laborHours": 1717.6,
+    "languages": [],
+    "name": "Predicting 2CS protein pairs with Deep Learning",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://git.code.sf.net/p/kinaseorakle/code",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

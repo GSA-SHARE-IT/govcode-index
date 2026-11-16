@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "kwons@ornl.gov"
+    },
+    "date": {
+        "created": "2024-03-12",
+        "metadataLastUpdated": "2024-03-13"
+    },
+    "description": "There is high demand for high-throughput calculations of phase equilibria based on the CALPHAD method (CALculation of PHAse Diagram). High-throughput calculations are possible through HPC, currently by a commercial program called Thermo-Calc. However, the number of nodes/processors are limited to the number of purchased license (16 processors per license). This program provides a toolkit for high-throughput calculations of phase equilibria by the CALPHAD method. The program is prepared for Python environment, so that it can be easily installed and used together with other open-source programs. The program can be run in supercomputer.",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran",
+        "Python"
+    ],
+    "name": "Equilipy",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/Equilipy",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

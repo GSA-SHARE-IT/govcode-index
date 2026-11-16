@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-01-15",
+        "metadataLastUpdated": "2018-01-16"
+    },
+    "description": "The converter extracts all the required feeder data information from “Opendss format” files also known as “.dss” files to construct the feeder data spreadsheets to be interfaced with the “ePHASORSIM” simulator.",
+    "laborHours": 8664.0,
+    "name": "DSS2ePHASOR (\"OpenDSS\" files to \"ePHASORSIM\" interface files converter)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NREL/DSS2ePHASOR/blob/master/README.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/DSS2ePHASOR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

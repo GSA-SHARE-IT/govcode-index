@@ -1,0 +1,43 @@
+{
+    "id": 2298,
+    "name": "Web VistA Remote Access Management",
+    "organization": "OIT DSO",
+    "version": "1.3",
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/Redacted-Public-Release-WebVRAM-v1.3-build-7-Sep-2020",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "WebVRam",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Windows Server",
+        "Microsoft .NET Framework"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-07-27",
+        "lastModified": "2020-12-03",
+        "metadataLastUpdated": "2020-12-03"
+    },
+    "description": "Repository containing the CIF submission for A Telehealth Hub Initiative and Interfacility Access - WebVRAM, v1.3, build 7 rec Sep 2020."
+}

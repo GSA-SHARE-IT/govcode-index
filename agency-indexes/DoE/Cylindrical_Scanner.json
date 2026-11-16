@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "The CS system is designed to provide a very fast imaging system in order to search for weapons on persons in an airport environment. The Cylindrical Scanner moves a vertical transceiver array rapidly around a person standing stationary. The software can be segmented in to three specific tasks. The first task is data acquisition and scanner control. At the operator's request, this task commands the scanner to move and the radar transceiver array to send data to the computer system in a known and well-ordered manner. The array is moved over the complete aperture in 10 to 12 seconds. At the completion of the array movement the second software task automatically reconstructs the high-resolution image from the radar data utilizing the integrated DSP boards. The third task displays the resulting images, as they become available, to the computer screen for user review and analysis.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Cylindrical Scanner",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

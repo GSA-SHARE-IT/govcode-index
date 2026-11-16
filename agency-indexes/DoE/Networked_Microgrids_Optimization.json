@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "cheny4@ornl.gov"
+    },
+    "date": {
+        "created": "2024-12-12",
+        "metadataLastUpdated": "2024-12-13"
+    },
+    "description": "This project is mainly about the operation optimization of three networked microgrids (MG), including centralized optimization and distributed optimization. The alternating direction method of multipliers (ADMM) algorithm is used for distributed optimization. In the distribution network considered here, there is a Distribution Management system (DMS) as the system coordinator and several networked microgrids. In grid-connected mode, power could be imported or exported at the distribution substation bus according to the utility rate, and the exchanged power at point of common coupling (PCC) of any microgrid has a limitation. In islanded mode, the power\nimports/exports at the distribution substation are zero. In both grid-connected and islanded mode, the distribution substation is taken as a slack bus with fixed voltage magnitude.",
+    "homepageURL": "https://code.ornl.gov/cheny4/networked-microgrids-optimization",
+    "laborHours": 12372.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "Networked Microgrids Optimization",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            },
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/cheny4/networked-microgrids-optimization",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

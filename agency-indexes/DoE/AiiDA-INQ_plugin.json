@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-09-09",
+        "metadataLastUpdated": "2024-09-09"
+    },
+    "description": "The AiiDA-INQ plugin will allow the INQ code developed at the lab to utilize the AiiDA workflow manager\nwhich enables high-throughput workflows. This includes provenance tracking, restart capabilities, job\ncalculators, and other capabilities",
+    "laborHours": 1246.4,
+    "languages": [],
+    "name": "AiiDA-INQ plugin",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/aiida-inq",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

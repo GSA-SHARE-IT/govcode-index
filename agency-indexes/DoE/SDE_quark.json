@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2024-03-12",
+        "metadataLastUpdated": "2024-03-19"
+    },
+    "description": "This program provides a fixed-grid quadrature algorithm to compute integrals in the self-energy of the quark propagator within the Maris-Tandy model. The quark propagator both on t he spacelike real axis and at complex-valued momenta is determined from its Schwinger-Dyson equation (SDE). We first apply an iterative solver to find the quark propagator on the spacelike real axis. The propagator at complex-valued momenta is then computed from its self-energy based on this solution, where \ndemanding integrals are encountered. In order to compute of these integrals, we apply customized variable transformations for the radial integral after subtracting the asymptotics. We subsequently apply an optional compound of quadrature rules for the angular integral.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SDE_quark",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/shaoyangjia/SDE_quark",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

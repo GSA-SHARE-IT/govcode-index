@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "MpiGraph consists of an MPI application called mpiGraph written in C to measure message bandwidth and an associated crunch_mpiGraph script written in Perl to process the application output into an HTMO report. The mpiGraph application is designed to inspect the health and scalability of a high-performance interconnect while under heavy load. This is useful to detect hardware and software problems in a system, such as slow nodes, links, switches, or contention in switch routing. It is also useful to characterize how interconnect performance changes with different settings or how one interconnect type compares to another.",
+    "homepageURL": "https://sourceforge.net/projects/mpigraph",
+    "laborHours": 0.0,
+    "name": "mpiGraph",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sourceforge.net/projects/mpigraph",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

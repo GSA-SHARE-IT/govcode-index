@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-12-14",
+        "metadataLastUpdated": "2020-12-14"
+    },
+    "description": "Palm/FastFootprints implements two method for rapid memory footprint access diagnostics. The two methods are whole program and precise. Current footprint analyses can cause 200× or more slowdown with realistic inputs and are therefore impractical. The whole-program method reduces the overhead to 10% by computing upper bounds, but still yields interprocedural insight through a call path profile. Our precise method uses additional static analysis and profiling to refine the upper bounds for intra-procedural loop nests.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Palm/FastFootprint",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.pnnl.gov/perf-lab-hub/palm/palm-memory",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "version": "1"
+}

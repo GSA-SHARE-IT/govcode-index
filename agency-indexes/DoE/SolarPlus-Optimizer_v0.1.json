@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-16",
+        "metadataLastUpdated": "2024-07-16"
+    },
+    "description": "With the falling costs of solar arrays and battery storage and reduced reliability of the grid due to natural disasters, small-scale local generation and storage resources are beginning to proliferate. However, very few software options exist for integrated control of building loads, batteries and other distributed energy resources. The available software solutions on the market can force customers to adopt one particular ecosystem of products, thus limiting consumer choice, and are often incapable of operating independently of the grid during blackouts. In this software package, we present the \"Solar+ Optimizer\" (SPO), a control platform that provides demand flexibility, resiliency and reduced utility bills, built using open-source software. SPO employs Model Predictive Control (MPC) to produce real time optimal control strategies for the building loads and the distributed energy resources on site. SPO is designed to be vendor-agnostic, protocol-independent and resilient to loss of wide-area network connectivity. The software was evaluated in a real convenience store in northern California with on-site solar generation, battery storage and control of HVAC and commercial refrigeration loads. Preliminary tests showed price responsiveness of the building and cost savings of more than 10% in energy costs alone.",
+    "laborHours": 20200.8,
+    "languages": [],
+    "name": "SolarPlus-Optimizer v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/SolarPlus-Optimizer",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,46 @@
+{
+    "id": 1006,
+    "name": "Administrative Data Repository",
+    "organization": "OIT DSO",
+    "version": "3.42",
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/Redacted-Public-Release-ADR-v3.42-Nov-2020",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "ADR",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Red Hat Enterprise Linux",
+        "Oracle Database",
+        "WebLogic Server",
+        "HP-UX",
+        "Paessler Router Traffic Grapher (PRTG) Network Monitor"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-03-27",
+        "lastModified": "2021-01-26",
+        "metadataLastUpdated": "2021-01-26"
+    },
+    "description": "Repository containing the Code in Flight submission for Administrative Data Repository (ADR) v3.42 received November 2020."
+}

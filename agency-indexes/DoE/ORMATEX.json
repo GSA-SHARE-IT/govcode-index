@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "gureckywl@ornl.gov"
+    },
+    "date": {
+        "created": "2025-01-24",
+        "metadataLastUpdated": "2025-01-24"
+    },
+    "description": "The Oak Ridge Matrix Exponential (ORMATEX) software library contains methods to compute the matrix exponential and the action of the matrix exponential on a vector.  Additionally, this package contains the related methods for the phi-functions which commonly appear in a wide class of exponential time integration methods.  Krylov methods are provided to evaluate the matrix exponential-vector and phi-vector products for cases where the matrix is large and sparse.  Utilizing these methods, ORMATEX implements performant exponential integrators for large systems of coupled ordinary differential equations (ODEs).  The exponential time integration routines in ORMATEX are particularly suitable to large, stiff systems of equations.  These routines may be utilized as a competitive alternative to classical implicit and explicit time integration schemes for certain classes of differential equations where the problem stiffness can be predominately explained by the linear terms.",
+    "laborHours": 2523.2,
+    "languages": [
+        "Rust",
+        "Python"
+    ],
+    "name": "ORMATEX",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/ORMATEX",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0.1"
+}

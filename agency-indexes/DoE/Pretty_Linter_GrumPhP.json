@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-08-26",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This software takes JSON and YAML files, and after running them through a linter, sorts the keys of objects alphabetically. This helps prevent the following problems when checking these data/config files into repositories:\nProblems where the entire file looks like it was removed and added due to\nIndentation changes Key sorting differences\nMerging issues when 2 or more people add data to the same or similar locations",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Pretty Linter GrumPhP",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/pretty_lint",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

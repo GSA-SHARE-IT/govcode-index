@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "vowelll@osti.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This revision corrects some errors in SPRNG 1. Users of newer SPRNG versions can obtain the corrected files and build their version with it. This version also improves the scalability of some of the application-based tests in the SPRNG test suite. It also includes an interface to a parallel Mersenne Twister, so that if users install the Mersenne Twister, then they can test this generator with the SPRNG test suite and also use some SPRNG features with that generator.",
+    "homepageURL": "http://www.sprng.org",
+    "laborHours": 0.0,
+    "name": "SPRNG Scalable Parallel Random Number Generator LIbrary",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://creativecommons.org/licenses/by-nc-sa/4.0",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://www.sprng.org",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ]
+}

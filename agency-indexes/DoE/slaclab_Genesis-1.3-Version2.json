@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-08-10",
+        "metadataLastUpdated": "2022-08-10"
+    },
+    "description": "The latest release of Genesis supports parallel computer architecture, based on the Message Passing Interface (MPI) protocol.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "slaclab/Genesis-1.3-Version2",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/Genesis-1.3-Version2",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

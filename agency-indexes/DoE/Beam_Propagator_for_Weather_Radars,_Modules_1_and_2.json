@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-28"
+    },
+    "description": "This program simulates the beam propagation of weather radar pulses under particular and realistic atmospheric conditions (without using the assumption of standard refraction conditions). It consists of two modules: radiosondings_refract_index_many.pro (MAIN MODULE) beam_propagation_function.pro(EXTERNAL FUNCTION) FOR THE MAIN MODULE, THE CODE DOES OUTPUT--INTO A FILE--THE BEAM HEIGHT AS A FUNCTION OF RANGE. THE RADIOSONDE INPUT FILES SHOULD BE ALREADY AVAILABLE BY THE USER. FOR EXAMPLE, RADIOSONDE OBSERVATION FILES CAN BE OBTAINED AT: RADIOSONDE OBSERVATIONS DOWNLOADED AT \"http://weather.uwyo.edu/upperair/soounding.html\" OR \"http://jervis.pyr.ec.gc.ca\" THE EXTERNAL FUNCTION DOES THE ACTUAL COMPUTATION OF BEAM PROPAGATION. IT INCLUDES CONDITIONS OF ANOMALOUS PROPAGATION AND NEGATIVE ELEVATION ANGLES. THE EQUATIONS USED HERE WERE DERIVED BY EDWIN CAMPOS, BASED ON THE SNELL-DESCARTES LAW OF REFRACTION, CONSIDERING THE EARTH CURVATURE. THE PROGRAM REQUIRES A COMPILER FOR THE INTERACTIVE DATA LANGUAGE (IDL). DESCRIPTION AND VALIDATION DETAILS HAVE BEEN PUBLISHED IN THE PEER-REVIEWED SCIENTIFIC LITERATURE, AS FOLLOWS: Campos E. 2012. Estimating weather radar coverage over complex terrain, pp.26-32, peer reviewed, in Weather Radar and Hydrology, edited by Moore RJ, Cole SJ and Illingworth AJ. International Association of Hydrological Sciences (IAHS) Press, IAHS Publ. 351. ISBN 978-1-907161-26-1.",
+    "homepageURL": "https://www.anl.gov/partnerships/licensable-software",
+    "laborHours": 0.0,
+    "languages": [
+        "Interactive Data Language"
+    ],
+    "name": "Beam Propagator for Weather Radars, Modules 1 and 2",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.anl.gov/partnerships/licensable-software",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.anl.gov/partnerships/licensable-software",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

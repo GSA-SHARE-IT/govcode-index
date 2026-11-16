@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2024-07-16"
+    },
+    "description": "Screamer is a special purpose circuit code developed for the design of Pulsed Power systems. It models electrical circuits which have a restricted topology in order to provide a fast-running tool while still allowing configurations general enough for most Pulsed Power system designs",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran and C++"
+    ],
+    "name": "Screamer version 4.1",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/screamer",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "4.1"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-05-28",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "This tool helps red teamers and penetration testers to conduct post exploitation activities through various Configuration Management tools such as Puppet, Chef, Ansible, and Salt.",
+    "laborHours": 1109.6,
+    "languages": [],
+    "name": "Master of Servers (MOSE) v. 1.0.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/mose",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 1.0.0"
+}

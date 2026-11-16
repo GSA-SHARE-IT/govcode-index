@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-09-28",
+        "metadataLastUpdated": "2021-09-28"
+    },
+    "description": "The MIRA project comprises of a set of Python drivers that enable rigorous intercomparison of remapping algorithms by providing the infrastructure for computing the numerical metrics of interest for ESM. This work is funded by the SciDAC Coupling Approaches for Next-Generation Architectures (CANGA) project.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "METRICS FOR INTERCOMPARISON OF REMAPPING ALGORITHMS (MIRA)",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CANGA/MIRA-Datasets",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-09-04",
+        "metadataLastUpdated": "2018-09-04"
+    },
+    "description": "Metamesh is a general-purpose C++ language library for creating data structures that represent meshes. An important difference between Metamesh and other \"mesh\" libraries is that Metamesh does not provide a specific mesh format, in the usual sense, or tools or a GUI by which users build specific meshes. Rather, it provides a mechanism by which mesh formats themselves can be built, based on their constituent parts and the relationships between them.Consider that a mesh in up to three space dimensions can, in principle, contain nodes (0d entities, or points), edges (1d entities), faces (2d entities), and cells (3d, or volumetric, entities). A node might be defined in terms of (x), (x,y), or (x,y,z) in Cartesian coordinates; or perhaps something else, in a different coordinate system. An edge is typically defined from two nodes; say, \"edge E goes from node A=(ax,ay) to node B=(bx,by).\" Faces can reasonably be defined in terms of nodes or edges, and cells in terms of nodes, edges, or faces. Note also that someone might wish to support general faces or cells, or only specific variants - say, triangular faces and tetrahedral cells, or quadrilateral faces and hexahedral cells. Or, perhaps, both triangular and quadrilateral faces (but no others), with prisms for each cell. Consider also that a mesh can have the same or a lesser dimension than that of its enclosing space. In 3d, for example, one could have a full 3d mesh, a 2d \"sheet\" mesh with no cells, a 1d \"parametrized curve\" with neither faces nor cells, or even a 1d \"point cloud.\" And, in addition to defining a mesh scheme, a user might wish to place additional data onto one or more mesh entities. Imagine, for example, a velocity at each node, a flux across each edge or face, and a mass or average density per cell. Metamesh supports all of this, through the use of C++ class and function templates, and template metaprogramming techniques. Programmers begin with constructs that Metamesh provides (or, users can define their own), and assemble them in particular ways in order to create particular mesh formats. Metamesh then provides functionality automatically to meshes that are constructed in this manner. Finally, Metamesh provides very general functions for spinning, extruding, visualizing, and performing input/output of whatever meshes a user builds with it.",
+    "laborHours": 7052.8,
+    "languages": [],
+    "name": "Metamesh, Version 1.0",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/staleyLANL/metamesh",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

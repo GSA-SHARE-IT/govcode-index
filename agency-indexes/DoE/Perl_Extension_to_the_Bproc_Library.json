@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-05-25"
+    },
+    "description": "The Beowulf Distributed process Space (Bproc) software stack is comprised of UNIX/Linux kernel modifications and a support library by which a cluster of machines, each running their own private kernel, can present itself as a unified process space to the user. A Bproc cluster contains a single front-end machine and many back-end nodes which receive and run processes given to them by the front-end. Any process which is migrated to a back-end node is also visible as a ghost process on the fron-end, and may be controlled there using traditional UNIX semantics (e.g. ps(1), kill(1), etc). This software is a Perl extension to the Bproc library which enables the Perl programmer to make direct calls to functions within the Bproc library. See http://www.clustermatic.org, http://bproc.sourceforge.net, and http://www.perl.org",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "laborHours": 0.0,
+    "languages": [
+        "gcc or equivalent ANSI C compiler."
+    ],
+    "name": "Perl Extension to the Bproc Library",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

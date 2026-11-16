@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-07-16",
+        "metadataLastUpdated": "2019-07-17"
+    },
+    "description": "This Matlab script implements a simple topology optimization algorithm that minimizes the compliance of a structure within a 3D prismatic design domain. \n\nIt uses a simple linear elastic finite element solver to solve the equilibrium equations, and the optimality criterion (00) method to update the design iteratively.\n\nThis functionality is identical to, or the simplest possible extension from 2D to 3D of, a 99-line Matlab code released in 2001 in a journal article by Sigmund. \n\nWhat is new in this code is our implementation of simple surrogate models for several truss micro-architectures, which converts this code to a multiscale design tool, whereas the original code is single-scale. \n\nThe development of these surrogate models and their implementation is described in a journal article we intend to submit. \n\nWe plan to include the full source code in an Appendix in this paper. \n\nThe code’s primary function is as a pedagogical tool rather than as a finished software product. \n\nSigmund’s 2001 paper describes the implementation line-by-line.\n\nWe are including this updated version of the code to allow the reader to understand exactly what changes must be made to a “standard” topology optimization code to implement the surrogate models and thus multiscale design optimization.",
+    "laborHours": 91.2,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "Matlab Code for Multiscale Topology Optimization",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/MultiscaleTopOpt",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

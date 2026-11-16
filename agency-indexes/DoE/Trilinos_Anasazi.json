@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-10",
+        "metadataLastUpdated": "2018-07-12"
+    },
+    "description": "Anasazi is an extensible and interoperable framework for large-scale eigenvalue algorithms. Abstract interface supports Epetra and other linear algebra objects. To access the Anasazi package, please refer to the packages directory within the main Trilinos GitHub repository. \n\n",
+    "laborHours": 8344830.4,
+    "languages": [],
+    "name": "Trilinos/Anasazi",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

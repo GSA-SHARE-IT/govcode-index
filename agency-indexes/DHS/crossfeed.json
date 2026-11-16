@@ -1,0 +1,47 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-06-24",
+        "lastModified": "2026-11-06"
+    },
+    "description": "External monitoring for organization assets",
+    "downloadURL": "https://api.github.com/repos/cisagov/crossfeed/downloads",
+    "homepageURL": "https://github.com/cisagov/crossfeed",
+    "laborHours": 130489.5,
+    "languages": [
+        "TypeScript",
+        "HCL",
+        "Python",
+        "JavaScript",
+        "SCSS",
+        "Shell",
+        "Smarty",
+        "HTML",
+        "CSS",
+        "Dockerfile",
+        "Makefile"
+    ],
+    "name": "crossfeed",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/crossfeed.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "cybersecurity",
+        "infrastructure",
+        "scanning"
+    ],
+    "vcs": "git"
+}

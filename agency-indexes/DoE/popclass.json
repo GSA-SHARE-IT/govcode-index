@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-09-17",
+        "metadataLastUpdated": "2024-09-17"
+    },
+    "description": "popclass is a lightweight python package that allows fast, probabilistic classification of the lens of a\nmicrolensing event given the event's posterior distribution and a model of the Galaxy. popclass provides\nthe bridge between Galactic simulation and lens classification, an interface to common Bayesian\ninference libraries, and the ability for users to flexibly specify their own Galactic model and classification\nparameters.",
+    "laborHours": 775.2,
+    "languages": [],
+    "name": "popclass",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/popclass",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

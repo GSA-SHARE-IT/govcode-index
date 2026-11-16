@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-11",
+        "metadataLastUpdated": "2021-03-11"
+    },
+    "description": "This is a software utility used to maximize next-generation sequencing data output without compromising quality values. The DNA Sequencing Optimizer is used to determine the optimal amount of library to load. To do this a supervised machine learning model predicts cluster density, a measure of how much DNA is bound to the sequence, from the concentration of DNA loaded. The output is a plot that is used by experimentalists to determine the best DNA library concentration to load onto the sequencer.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "DNA Sequencing Optimizer v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/JBEI/library_loading_concentration_prediction",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

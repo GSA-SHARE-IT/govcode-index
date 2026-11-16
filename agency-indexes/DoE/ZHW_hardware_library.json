@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-02-28",
+        "metadataLastUpdated": "2023-02-28"
+    },
+    "description": "Hardware library implementation of the open source ZFP CODEC. ZHP provides a sub-set of the ZFP library compression and decompression functionality, but in the SystemC language rather than the C/C++ and Fortran languages used in the ZFP implementation.",
+    "laborHours": 2766.4,
+    "languages": [],
+    "name": "ZHW hardware library",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/zhw",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.1"
+}

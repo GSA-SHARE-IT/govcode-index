@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "aespiritu@lbl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Chisel is a new open-source hardware construction language developed at UC Berkeley that supports advanced hardware design using highly parameterized generators and layered domain-specific hardware languages. Chisel is embedded in the Scala programming language, which raises the level of hardware design abstraction by providing concepts including object orientation, functional programming, parameterized types, and type inference. From the same source, Chisel can generate a high-speed C++-based cycle-accurate software simulator, or low-level Verilog designed to pass on to standard ASIC or FPGA tools for synthesis and place and route.",
+    "laborHours": 16233.6,
+    "name": "Constructing Hardware in a Scale Embedded Language",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ucb-bar/chisel/blob/master/src/LICENSE.TXT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ucb-bar/chisel",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

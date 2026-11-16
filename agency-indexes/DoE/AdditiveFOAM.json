@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "colemanjs@ornl.gov"
+    },
+    "date": {
+        "created": "2023-06-13",
+        "metadataLastUpdated": "2024-05-07"
+    },
+    "description": "AdditiveFOAM is a continuum heat transfer and fluid flow code for metal additive manufacturing developed on the OpenFOAM CFD Framework. The main components of AdditiveFOAM include: a dynamic heat source model representing heat input from independently moving beams; a robust and efficient thermodynamic solver for solid-liquid phase change in metal alloys; a library to export thermal data to ExaCA— a cellular automata (CA) code used for predicting solidification grain growth. By integrating these capabilities, AdditiveFOAM offers valuable insights into the process-structure relationships of metal additive manufacturing components.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "AdditiveFOAM",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/AdditiveFOAM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-10"
+    },
+    "description": "Many applications of high performance embedded computing are limited by performance or power bottlenecks. We have designed SEAK, a new benchmark suite, (a) to capture these bottlenecks in a way that encourages creative solutions to these bottlenecks? and (b) to facilitate rigorous, objective, end-user evaluation for their solutions. To avoid biasing solutions toward existing algorithms, SEAK benchmarks use a mission-centric (abstracted from a particular algorithm) and goal-oriented (functional) specification. To encourage solutions that are any combination of software or hardware, we use an end-user blackbox evaluation that can capture tradeoffs between performance, power, accuracy, size, and weight. The tradeoffs are especially informative for procurement decisions. We call our benchmarks future proof because each mission-centric interface and evaluation remains useful despite shifting algorithmic preferences. It is challenging to create both concise and precise goal-oriented specifications for mission-centric problems. This paper describes the SEAK benchmark suite and presents an evaluation of sample solutions that highlights power and performance tradeoffs.",
+    "homepageURL": "https://hpc.pnl.gov/SEAK",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "The Suite for Embedded Applications and Kernels",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://hpc.pnl.gov/SEAK",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://hpc.pnl.gov/SEAK",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

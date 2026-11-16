@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2023-10-11",
+        "metadataLastUpdated": "2023-10-11"
+    },
+    "description": "MaCaw is a MOOSE-based application that enables domain-decomposed neutral particle transport calculations in MOOSE. It leverages the ray tracing MOOSE module for unstructured mesh tracking and OpenMC for collision physics, handling material definitions, and tallying quantities.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Macaw",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/macaw",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

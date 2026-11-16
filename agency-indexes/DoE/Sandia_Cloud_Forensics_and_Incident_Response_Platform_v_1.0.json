@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-03-14",
+        "metadataLastUpdated": "2019-03-18"
+    },
+    "description": "As systems and devices become virtualized and deployed in the cloud, the hypervisor becomes an increasingly appropriate place to collect performance data, system state, system landscape, function calls, transaction traces, and other characteristics. We developed a method by which an introspection application may be coupled with a hypervisor to “reach into” the VM with minimal intrusiveness to collect data critical to the reconstruction of events, files, and operations. Such a capability is required to take advantage of the hypervisor as an instrumentation platform and to integrate that data with more traditional collection mechanisms. The concept of a VM serviced by a lightweight hypervisor is a relatively new paradigm for forensic practitioners. Traditional forensic techniques, based on assumptions that the filesystem was directly interacting with the hardware through an abstraction, afforded the forensic practitioner the assumption that there was nothing controlling the application below the filesystem. This is not the case when using virtualized technologies. Hypervisors can covertly monitor, introspect and interact with the guest in a transparent fashion. The problems of storage and collection of actionable data are exhausting. The current challenge is most hypervisors do not expose a useful application programming interface (API) at a sufficient level to do transparent, fine-grained and customizable introspection. Scalable VM instrumentation and introspection at an in-depth level requires fast handling of events, as well as direct access to VM state. Furthermore, deep introspection benefits greatly from the ability to gather data from the hardware during the VM’s exit to the hypervisor. All of this requires identical access to the system as the hypervisor itself; improper use of this ability could easily cause system instability. It is for this reason we believe that the hypervisor developers have been hesitant to grant this much control through their APIs. However, our approach leverages other means to collect and monitor the guests in a targeted fashion. Virtual machine introspection (VMI) is a technique used to monitor the runtime state of a system-level virtual machine. The runtime state can be may include processor registers, memory, disk, network, and any other hardware-level events\nA review of research literature and current VMI technologies exposed several limitations and tradeoffs in VMI approaches, including: the use of in-guest agents; kernel to user space transitions (dramatically slowing down processing); VMI tool pre-configuration requirements; hypervisor version lock-in or source code patching; reliance on operating system symbols; limited processor features due to hypervisor (even if the hardware could do more).\nTo address these constraints, a VMI tool was envisioned to provide the cloud forensic capabilities while having as few of these limitations as possible. The Kernel-based Virtual Machine Introspection (KVMi) tool was developed for hypervisors on Intel’s x86-64 architecture. To meet performance, scoping and use-case demands, the follow criteria were applied to KVMi to support live, forensic data collection:\n•\tShall not require in-guest agents.\n•\tShall work with any recent version of modern hypervisors.\n•\tShall introspect upon any guest (VM) running modern versions of Windows, Linux and OS X.\n•\tShall have the ability to find and track operating system artifacts\n•\tShall not require operating system symbol files.\n•\tShall be able to fully handle VM-exits, bypassing execution of the hypervisor if necessary, to facilitate new features the hypervisor may not support.\n•\tShall be compilable/loadable on a running system with standard build tools.\n",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 38273.6,
+    "languages": [
+        "C"
+    ],
+    "name": "Sandia Cloud Forensics and Incident Response Platform v 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "version": "v. 1.0"
+}

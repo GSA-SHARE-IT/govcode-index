@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "wiardada@ornl.gov"
+    },
+    "date": {
+        "created": "2020-05-20",
+        "metadataLastUpdated": "2020-05-20"
+    },
+    "description": "SAMMY is an R-matrix Bayesian fitting program used in the analysis of nuclear cross section data.",
+    "laborHours": 199621.6,
+    "languages": [
+        "Fortran and C++"
+    ],
+    "name": "SAMMY",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/RNSD/SAMMY",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "version": "8.2"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-06-10",
+        "metadataLastUpdated": "2021-06-11"
+    },
+    "description": "We have developed a series of compact RF mixing boards by integrating I/Q quadrature mixing, IF(intermediate frequency)/LO(local oscillator)/RF power level adjustments, and DC (direct current) bias fine tuning on a 40 mm × 80 mm 4-layer PCB (printed circuit board) board with EMI (electromagnetic interference) shielding.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "RF mixing modules for superconducting qubit room temperature control systems v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/LBL-QubiC/rfmixingmodules",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

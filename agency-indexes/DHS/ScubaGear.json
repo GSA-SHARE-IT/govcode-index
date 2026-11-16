@@ -1,0 +1,51 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2022-07-21",
+        "lastModified": "2026-11-12"
+    },
+    "description": "Automation to assess the state of your M365 tenant against CISA's baselines",
+    "downloadURL": "https://api.github.com/repos/cisagov/ScubaGear/downloads",
+    "homepageURL": "https://github.com/cisagov/ScubaGear",
+    "laborHours": 187211.0,
+    "languages": [
+        "PowerShell",
+        "HTML",
+        "Open Policy Agent",
+        "JavaScript",
+        "CSS"
+    ],
+    "name": "ScubaGear",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ScubaGear.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "assessment-tool",
+        "cisa",
+        "cybersecurity",
+        "m365",
+        "open-policy-agent",
+        "open-source",
+        "powershell",
+        "rego",
+        "scuba",
+        "security",
+        "security-automation",
+        "contributions-welcome",
+        "scubaconnect"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The code runs the Game of Life among several processors. Each processor uses CUDA to set up the grid's buffer on the GPU, and that buffer is fed to other GPU languages to apply the rules of the game of life. Only the halo is copied off the buffer and exchanged using MPI. This code looks at the interoperability of GPU languages among current platforms.",
+    "laborHours": 1185.6,
+    "name": "GPULife",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnkelly/GPULife",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

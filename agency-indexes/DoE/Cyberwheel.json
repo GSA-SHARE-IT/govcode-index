@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "weberb@ornl.gov"
+    },
+    "date": {
+        "created": "2024-07-15",
+        "metadataLastUpdated": "2024-07-15"
+    },
+    "description": "Cyberwheel is a high fidelity training environment for autonomous cyber defense agents that includes both simulation and emulation capabilities. Cyberwheel simplifies customization of the training network and easily allows redefining the agent’s reward function, observation space, and action space to support rapid experimentation of novel approaches to agent design. It also provides visibility into agent behaviors necessary for agent evaluation and sufficient documentation and examples to lower the barrier to entry.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Cyberwheel",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ornl/cyberwheel",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

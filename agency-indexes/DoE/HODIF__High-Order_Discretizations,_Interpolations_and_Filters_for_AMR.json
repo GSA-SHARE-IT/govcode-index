@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-24"
+    },
+    "description": "This software, a library, contains FORTRAN77 subroutines to calculate first and second derivatives up to 8th order, interpolations (1D and 2D) up to 10th order and filters up to 14th order. Only even orders are addressed and finite-difference stencils are implemented on a vertex-centered mesh. The primary aim of this library is to be used in block-structured adaptive mesh simulations where high order is desired. The interpolants in this library are essentially designed to do prolongations and restrictions between levels of rfinement - however, they assume that the refinement ratio is 2. The filters are provided to remove high wavenumber content from solutions in case Runge phenomenon occurs - a common occurrence in case of marginal resolution of the solution. Details of the derivation and use are to be found in \"Using high-order methods on adaptively refined block-structured meshes - discretizations, interpolations and filters\", by J. Ray, C.A. Kennedy, S. Lefantzi and H.N. Najm, Sandia Technical Report, SAND2005-7981. The software comes with a User's Guide and examples how to use it.",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "HODIF: High-Order Discretizations, Interpolations and Filters for AMR",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/HODIF",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

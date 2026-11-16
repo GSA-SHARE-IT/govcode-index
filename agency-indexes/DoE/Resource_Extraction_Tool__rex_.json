@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-04-17",
+        "metadataLastUpdated": "2020-04-20"
+    },
+    "description": "The Resource Extraction Tool (rex) includes tools developed for reV and reVX related to the efficient access of, extraction from, and computation on NREL's renewable resource datasets (NSRDB and WTK).",
+    "laborHours": 8040.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "Resource Extraction Tool (rex)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/nrel/rex",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

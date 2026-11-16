@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "burtscher@txstate.edu"
+    },
+    "date": {
+        "created": "2025-03-14",
+        "metadataLastUpdated": "2025-03-14"
+    },
+    "description": "This repository holds the PFPL code. PFPL is a guaranteed-error-bound lossy compressor/decompressor that produces bit-for-bit identical files on CPUs and GPUs. It supports absolute (ABS), relative (REL), and normalized-absolute (NOA) point-wise error bounds for single- and double-precision inputs in IEEE 754 binary format. It yields good compression ratios at high throughputs.",
+    "laborHours": 4316.8,
+    "languages": [],
+    "name": "PFPL",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/burtscher/PFPL",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

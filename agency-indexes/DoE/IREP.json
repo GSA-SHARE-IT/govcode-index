@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-18",
+        "metadataLastUpdated": "2022-10-27"
+    },
+    "description": "A tool for filling C/C++ or Fortran data structures from Lua input tables. IREP reads external program input using the Lua C Library, organizes the input into native language structures, and shares those structures among compiled program objects written in either (or both) C/C++ or Fortran.",
+    "laborHours": 927.2,
+    "languages": [
+        "C, C++, Fortran, Lua version 5.1"
+    ],
+    "name": "IREP",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/irep",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

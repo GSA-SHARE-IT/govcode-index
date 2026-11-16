@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2021-09-16",
+        "metadataLastUpdated": "2021-09-16"
+    },
+    "description": "Fast ion transport along the electrode thickness is required for Lithium ion battery (LIB) to sustain continuous high-rate discharge or charge currents, which is a desired feature for the fast charging of electric vehicle batteries. Advance in LIB electrode manufacturing allows to control, to a certain extent, the electrode microstructure architecture in order to improve the macroscopic performances of these devices. For instance, several groups have experimentally tested architectures tailored specifically to increase the through plane ionic diffusion in regards for fast charge application by adding channels or groove-like large pores oriented along the electrode thickness. These voids do not replace the existing pores of the electrode microstructure but consist in a second, coarser, pore network, called the secondary pore network (SPN). The model quantifies the impact of SPN on ionic diffusion with a composite electrode through a simple analytical approach, considering various pore channel geometries and comparing to standard electrodes with identical gravimetric and identical volumetric specific theoretical capacity. The goal is to find optimal SPN design parameters according to three optimization objectives aiming to balance the improved overall through-plane, thanks to the coarse aligned channels, and the degraded in-plane diffusion, due to the porous matrix densification required to maintain gravimetric and volumetric specific theoretical capacity. The analytical model must be considered as a pre-screening tool to quickly investigate large design space, that can be refined later with more complex electrochemical CPU-expensive numerical models.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Secondary Pore Network Design Optimization Analytical Diffusion Model for Lithium Ion Battery",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/Secondary_pore_network",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

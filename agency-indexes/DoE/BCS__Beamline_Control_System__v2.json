@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-12-05",
+        "metadataLastUpdated": "2018-12-05"
+    },
+    "description": "The software is a flexible architecture used to integrate motors, analog data, digital signals, and instruments together to control scientific experiments and collect data during an experiment. The architecture supports features needed by scientists to quickly add new hardware to an experiment and to take and view data in a meaningful way. It does not perform analysis of the data, but provides basic visualization needed to evaluate the quality of the data as well as the calibration of the system.\n",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 60.8,
+    "languages": [],
+    "name": "BCS (Beamline Control System) v2",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

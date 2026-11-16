@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-07-29",
+        "metadataLastUpdated": "2022-07-29"
+    },
+    "description": "Protective vaccines and reliable diagnostics are essential tools for controlling viral diseases. However, the efficacy of these tools can be diminished by mutations in viral genomes. The delay between the emergence of new viral strains and the redesign of vaccines and diagnostics allows for continued viral transmission. Is it possible to address this challenge by computationally predicting viral genome sequence evolution? Can we “future-proof” vaccines and diagnostics by targeting both current and anticipated future sequence variants? While predicting viral evolution is still an unsolved, “grand challenge” problem in biology, the large, and rapidly growing, number of SARS-CoV-2 genome sequences provide an opportunity to quantify the ability of machine learning to predict viral genome sequence evolution. Towards this end, we have developed a simple computational model for predicting viral evolution at the level of individual nucleotides. The key metric for quantifying the per-base, prediction accuracy for viral evolution is the Mann-Whitney U statistic (or, equivalently, the area under the receiver operator curve). Since the Mann-Whitney U statistic is not a differentiable function, existing deep leaning packages (like Pytorch and Keras/TensorFlow) are not useful, as they require that the accuracy metric/objective function be analytically differentiable with respect to the model parameters. To overcome this challenge, we have implemented custom software, “FutureTense”, that can train a machine learning model by maximizing the non-differentiable Mann-Whitney U statistic. This software trains a machine learning model by exploring along the direction of the discrete gradient of the Mann-Whitney U statistic in the model parameter space. Parallel computing and genome sequence-specific optimizations are used to accelerate model training. The resulting machine learning model learns the observed high C-&gt;U mutation rates in the SARS-CoV-2 genome (which are potentially induced by host defenses) and provides prediction accuracies that are significantly better than one would expect from random chance. While predicting viral evolution is still quite far from a solved problem, the surprising performance of this simple model gives hope that the accuracy of predicting viral genome evolution can be further increased by more sophisticated approaches.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "FutureTense",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/FutureTense",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

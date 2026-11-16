@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-02-29",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Efficient Graph Neural Network for Predicting Molecular Properties software can compare the prediction quality with ab initio DFT results reported by the high-performance state-of-theart NWChem quantum chemistry package [1] through Mean Absolute Error (MAE) obtained by the fitting between DFT and\nmodel predictions i.e, MPNN [2]. We also demonstrated the performance benefits by grouping large molecules by atom\nsizes, and executing GNN models on different types of resources. Since the training times depend on the number of\natoms, we demonstrate the impact of distributing the workloads on two GPUs with varying capabilities (e.g., NVIDIA A100\nvs. GeForce RTX 2080 Ti) to optimize the efficiency. We are at the precipice of broad adoption of GNNs for molecular\nproperty prediction tasks; hence, our work is timely by comparing model prediction against classical approaches with the\nintent of providing initial screening for specific classes of molecules.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/emp-gnn",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/emp-gnn",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

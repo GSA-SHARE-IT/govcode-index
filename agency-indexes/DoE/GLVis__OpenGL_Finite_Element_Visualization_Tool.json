@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2021-01-22"
+    },
+    "description": "GLVis is an OpenGL tool for visualization of finite element meshes and functions. When started without any options, GLVis starts a server, which waits for a socket connections and visualizes any recieved data. This way the results of simulations on a remote (parallel) machine can be visualized on the lical user desktop. GLVis can also be used to visualize a mesh with or without a finite element function (solution). It can run a batch sequence of commands (GLVis scripts), or display previously saved socket streams.  For more information, see the project website: http://glvis.org/.",
+    "laborHours": 17343.2,
+    "languages": [],
+    "name": "GLVis: OpenGL Finite Element Visualization Tool",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/glvis/glvis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "The MPI Multicore Linktest (LinkTest) measures the aggregate bandwidth from/to a multicore node in a parallel system. It allows the user to specify a variety of different node layout and communication routine variations and reports the maximal observed bandwidth across all specified options. In particular, this benchmark is able to vary the number of tasks on the root node and thereby allows users to study the impact of multicore architectures on MPI communication performance.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MPI Multicore Linktest Benchmark",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.osti.gov/osti-public/mpi-multicore-linktest-benchmark",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-08-01",
+        "metadataLastUpdated": "2023-08-01"
+    },
+    "description": "PDCVOL is an extension software originated from the Proactive Data Containers (PDC) software (LBNL Track Code 2017-098), it is an HDF5 VOL connector that allows HDF5 applications to store and access data with the PDC system without the need to modify their code. The application can take advantage of the PDC optimization features and achieve better I/O performance.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PDC VOL Connector (PDCVOL) v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hpc-io/vol-pdc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-22",
+        "metadataLastUpdated": "2020-11-30"
+    },
+    "description": "Given a collection of pairs ((A) written material such as reports, phrases, bulleted lists, etc., (B) structured labels called annotations) called the training data, we want to create software to take future written material (A) and correctly predict (B). In this case we have used medical reports and medical coder's structured labels as our training data. The software builds a machine learning model of type deep learning, specifically a convolutional neural network (CNN) using the training data so that when new data arrives in the future the annotations can be predicted.",
+    "laborHours": 273.6,
+    "languages": [
+        "python/none/3.6"
+    ],
+    "name": "DeepAnnotator",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CBIIT/pilot3_MT-CNN_ORNL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

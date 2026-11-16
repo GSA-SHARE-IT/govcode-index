@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-01-31",
+        "metadataLastUpdated": "2019-02-04"
+    },
+    "description": "First, note: flux framework, and the flux framework projects, are already released under GPLv2 and LGPLv2 for linkable components since roughly 2014. This request is to re-license the flux framework in full to LGPLv3 to better support vendor collaboration and allow use of external apache2 and similarly licensed libraries.\nflux is a framework for writing resource managers as well as a resource manager for HPC systems. It allows for hierarchical nesting and providing a portable interface for job scheduling across systems.",
+    "laborHours": 118028.0,
+    "languages": [],
+    "name": "Flux Resource Manager Framework",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/agpl-3.0",
+                "name": "AGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/flux-framework/flux-core",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

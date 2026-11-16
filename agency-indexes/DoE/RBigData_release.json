@@ -1,0 +1,50 @@
+{
+    "contact": {
+        "email": "ostrouchovg@ornl.gov"
+    },
+    "date": {
+        "created": "2018-04-13",
+        "metadataLastUpdated": "2018-06-28"
+    },
+    "description": "pbdR: This release script for pbdR 1.0 combines several repositories on GitHub and on CRAN with an installer script. We list authors of the subject repositories who are active maintainers.\n\nPackages are released under a variety of licenses noted in the release script.",
+    "laborHours": 136.8,
+    "languages": [
+        "R"
+    ],
+    "name": "RBigData/release",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mpl-2.0",
+                "name": "MPL-2.0"
+            },
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            },
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            },
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            },
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/RBigData/release",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

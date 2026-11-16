@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2019-03-19",
+        "metadataLastUpdated": "2019-03-22"
+    },
+    "description": "Synoptic is a system for graphical representation of real-time data in the Fermilab Accelerator Control System. It offers a means for domain experts to create, in a short time, coherent displays representing a machine or a process, along with actual readings from the control system indicating its current state. The displays can run either within a Java application, or in a conventional web browser as SVG images updated on the fly. Synoptic also optionally supports setting data back to the control system. The end users do not have to be familiar with programming, because displays are composed in a high-level graphical editor from preexisting building blocks: gauges, alarm indicators, static shapes, and such. Similarly, the runtime environment takes care of all internal “plumbing and wiring” between components and hides the complexity of the actual data acquisition protocols.\n\nThe open-source Java Synoptic Toolkit includes a core of Synoptic, free of dependencies from the proprietary infrastructure. It can be used with any data acquisition system, providing that an appropriate data access interface is developed. The product can be customized in a variety of ways, for instance, by developing specialized components for rendering data.\n",
+    "homepageURL": "http://synoptic.fnal.gov/opensource.html",
+    "laborHours": 0.0,
+    "languages": [
+        "Java"
+    ],
+    "name": "Java Synoptic Toolkit",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://synoptic.fnal.gov/opensource.html",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-06-28",
+        "metadataLastUpdated": "2023-06-28"
+    },
+    "description": "\tHaxall-based Fault Correction is a set of fault auto-correction algorithms implemented using the Axon language. These algorithms can automatically fix equipment and control problems as they arise and improve the operation of building Heating, Ventilation, and Air Conditioning (HVAC) systems. The coded auto-correction algorithms include mitigation of rogue zones, ASHRAE Guideline 36 static pressure and supply air reset, resolution of control hunting due to improper settings in a proportional-integral-derivative controller, correction of biased temperature sensors, etc. FDD tools with enhanced auto-correction capability can resolve control problems as they are detected, increasing energy savings and emissions reductions while freeing up operational staff expertise for the hardest facility problems.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Haxall-based (Axon) fault auto-correction package for building HVAC system (Haxall-based Fault Correction) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/haxall-based-fault-correction",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

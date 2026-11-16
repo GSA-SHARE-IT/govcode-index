@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "graphMC consists of an implementation of a set of statistical tests that ensure that a Markov chain in the space of graphs has converged to its stationary distribution. The tests are applicable when the graphs have labelled nodes. The tests are applied to the binary time-series traced out by an edge between two selected nodes. The software fits models of a first-order Markov process and an independent draws from a binary distribution to the time-series and selects one based on the BIC scores of the two models. The package consists of (1) an implementation of a Markov chain driving a graph rewiring process that preserves the joint degree distribution of the graph, (2) implementation of the statistical test mentioned above and (3) two examples that show how the Markov chain infrastructure and the statistical tests can be used.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "graphMC: A package for testing the independence of graphs",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/graphMC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

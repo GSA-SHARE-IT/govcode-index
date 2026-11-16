@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-07-15",
+        "metadataLastUpdated": "2019-07-16"
+    },
+    "description": "Implementation of the Progressive Hedging algorithm written in Julia utilizing JuMP.  This is used to solve multistage optimization problems (e.g. Stochastic programs or capacity expansion models). The user uses the StructJuMP extension of JuMP to create the model and build up the scenario tree.",
+    "laborHours": 820.8,
+    "languages": [],
+    "name": "ProgressiveHedging.jl",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/ProgressiveHedging.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-10-14",
+        "metadataLastUpdated": "2024-10-14"
+    },
+    "description": "Vidyut3d is a massively-parallel plasma-fluid solver for low-temperature plasmas (LTPs) that supports both local field (LFA) and local mean energy (LMEA) approximations, as well as complex gas and surface-phase chemistry. The solver supports 2D and 3D domains, and uses AMReX's adaptive mesh refinement capabilities to increase the grid resolution around complex structures (e.g. streamer heads and sheaths) while maintaining a tractable problem size. Vidyut specializes in simulating various types of gas-phase discharges, as well as plasma/surface interactions and surface chemistry (e.g. for plasma-mediated catalysis applications). The solver also supports hybrid CPU/GPU parallelization strategies, and has demonstrated excellent scaling on various HPC architectures for problem sizes consisting of O(100 M) control volumes.",
+    "laborHours": 21173.6,
+    "languages": [
+        "C++",
+        "Python"
+    ],
+    "name": "Vidyut3d: A Non-Equilibrium Plasma Modeling Tool [SWR-24-101]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/vidyut3d",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

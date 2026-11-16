@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-08-19",
+        "metadataLastUpdated": "2021-08-19"
+    },
+    "description": "This software package contains utilities for ingesting battery cycling data from various equipment and converting it to a common file format including metadata. Further development of the package will include utilities for further processing the data for a variety of machine learning tasks.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "battery-data-toolkit",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/materials-data-facility/battery-data-toolkit",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2025-03-07",
+        "metadataLastUpdated": "2025-03-07"
+    },
+    "description": "Analyze virus genetic sequences to identify lineages that are spreading especially rapidly.",
+    "laborHours": 121.6,
+    "languages": [],
+    "name": "Graph theory approach to estimate the rate of SARS-CoV-2 lineage spread from early genetic sequence data",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ruianke/CoV2-GenomicGraphTheory-PCA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

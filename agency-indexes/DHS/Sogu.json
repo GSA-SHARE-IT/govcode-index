@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2018-10-04",
+        "lastModified": "2023-07-26"
+    },
+    "description": "This script generates a list of possible SOGU filenames based on serial numbers of active drives. It has the added functionality of searching each drive from the generated file list.",
+    "downloadURL": "https://api.github.com/repos/cisagov/Sogu/downloads",
+    "homepageURL": "https://github.com/cisagov/Sogu",
+    "laborHours": 110.6,
+    "languages": [
+        "PowerShell"
+    ],
+    "name": "Sogu",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "NOASSERTION"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/Sogu.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

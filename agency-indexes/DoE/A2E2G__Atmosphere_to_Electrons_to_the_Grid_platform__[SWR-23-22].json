@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-06-21",
+        "metadataLastUpdated": "2023-08-28"
+    },
+    "description": "A2E2G is a platform that integrates 1) forecasting tools to account for weather uncertainty, with 2) aerodynamic wind plant models to account for wake dynamics and wind plant operation, and 3) economic models to advise on operation for a wind power plant that offers grid services in addition to energy. The A2E2G platform can be used as a high-level controller for a wind plant for market participation and real-time wind plant control. \n \nThe A2E2g platform is a holistic Python tool with modules that can be run to 1) advise on market participation and 2) control and operate a wind power plant in real time. The A2E2g framework assumes two stages: the first stage is in day-ahead and the second stage is in real-time. Managing uncertainty is key in the first stage and managing variability is key in the second stage. The different components have models written and developed in the Python programming language. The code is assembled into a Python package and can be easily downloaded and installed from the A2E2g repository (https://github.com/NREL/a2e2g).",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "Jupyter Notebook"
+    ],
+    "name": "A2E2G (Atmosphere to Electrons to the Grid platform) [SWR-23-22]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/a2e2g",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

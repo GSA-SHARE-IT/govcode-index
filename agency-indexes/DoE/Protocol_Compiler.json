@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2019-10-14",
+        "metadataLastUpdated": "2019-10-14"
+    },
+    "description": "A command line tool that converts a protocol specification into a target language.",
+    "homepageURL": "https://cdcvs.fnal.gov/redmine/projects/protocol-compiler/repository",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Protocol Compiler",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://cdcvs.fnal.gov/redmine/projects/protocol-compiler/repository",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-01-19",
+        "metadataLastUpdated": "2024-01-19"
+    },
+    "description": "DATING (Determining Allowable Temperatures in Inert and Nitrogen Gases) calculates allowable initial temperatures for dry storage of light-water-reactor spent fuel and the cumulative damage fraction of Zircaloy cladding for specified initial storage temperature and stress and cooling histories. It is made available to ensure compliance with NUREG 10CFR Part 72, Licensing Requirements for the Storage of Spent Fuel in an Independent Spent Fuel Storage Installation (ISFSI). Although the program's principal purpose is to calculate estimates of allowable temperature limits, estimates for creep strain, annealing fraction, and life fraction as a function of storage time are also provided. Equations for the temperature of spent fuel in inert and nitrogen gas storage are included explicitly in the code; in addition, an option is included for a user-specified cooling history in tabular form, and tables of the temperature and stress dependencies of creep-strain rate and creep-rupture time for Zircaloy at constant temperature and constant stress or constant ratio of stress/modulus can be created. DATING includes the GEAR package for the numerical solution of the rate equations and DPLOT for plotting the time-dependence of the calculated cumulative damage-fraction, creep strain, radiation damage recovery, and temperature decay.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "None"
+    ],
+    "name": "Temperature for Spent Fuel Dry Storage (DATING-A)",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

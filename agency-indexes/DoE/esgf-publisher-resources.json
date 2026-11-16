@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-16",
+        "metadataLastUpdated": "2018-07-16"
+    },
+    "description": "ESGF Next Generation Publishing Resource files; Repository of project schema and resource files needed for \"next generation\" publishing.\n",
+    "laborHours": 1535.2,
+    "languages": [],
+    "name": "esgf-publisher-resources",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ESGF/esgf-publisher-resources",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

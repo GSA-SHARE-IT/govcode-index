@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "LIME 0.5 is an initial version of a Lightweight Integrating Multi-physics Environment for coupling codes. LIME by itself is not a code for doing multiphysics simulations. Instead, LIME provides the key high-level software, a flexible but defined approach, and interface requirements for a collection of (potentially disparate) physics codes to be combined with strong coupling (when needed) though non-linear solution methods (e.g. JFNK, fixed point), thus creating a new multi-physics simulation capability customized for a particular need. The approach taken is designed to; preserve and leverage any important specialized algorithms and/or functionality an existing application may provide; minimize the requirements barrier for an application to participate; and work within advanced solver frameworks (e.g. as extensions to the Trilinos/NOX nonlinear solver libraries, PETSc, . . .). Of note is that components/physics codes that can be coupled within LIME are NOT limited to: components written in one particular language; a particular numerical discretization approach ( e.g. Finite Element); or physical models expressed as PDE's.",
+    "laborHours": 7326.4,
+    "languages": [
+        "CMake",
+        "C++",
+        "Fortran"
+    ],
+    "name": "LIME 0.5",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/limeext",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

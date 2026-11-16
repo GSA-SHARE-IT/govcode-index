@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-14",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The software framework, AMReX, supports the development of block-structured adaptive mesh refinement (AMR) algorithms for solving systems of partial differential equations. AMR reduces the computational cost and memory footprint compared to a uniform mesh while preserving the essential local descriptions of different physical processes in complex multiphysics algorithms. AMR uses a hierarchical representation of the solution at multiple levels of resolution where the solution on each level is defined on the union of data containers at that resolution. These data containers, which represent the solution over a logically rectangular subregion of the domain, can contain field data defined on a mesh, Lagrangian particles or combinations of both. In addition to these basic data types, AMReX supports a multilevel embedded boundary representation of complex geometry; linear solvers for cell-centered and nodal data; asynchronous I/O in a native format readable by ParaView, VisIt and yt; and interfaces to hypre and PETSc solvers. AMReX enables applications to run on distributed memory architectures with multicore CPUs and with GPU accelerators. AMReX uses a lightweight abstraction layer that effectively hides the details of the architecture from the application. The framework currently supports CUDA, HIP and SYCL for GPU acceleration and OpenMP for multi-core CPU architectures.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "AMReX v2024",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AMReX-Codes/amrex",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

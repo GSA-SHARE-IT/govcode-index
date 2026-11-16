@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-07-16",
+        "metadataLastUpdated": "2019-07-16"
+    },
+    "description": "SPIFY is a C++ library for parsing input files to be used in scientific computing applications.\n\nThe library allows an application developer to define a full set of required and optional input variable of different types\nand handles all of the parsing and validation.",
+    "laborHours": 912.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Spify Parser of Input Files with YAML syntax",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/spify",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

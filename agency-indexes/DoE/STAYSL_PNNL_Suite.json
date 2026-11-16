@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-08"
+    },
+    "description": "The STAYSL PNNL Suite of software provides a set of tools for working with neutron activation rates measured in a nuclear fission reactor, an accelerator-based neutron source, or any neutron field to determine the neutron flux spectrum through a generalized least-squares approach. This process is referred to as neutron spectral adjustment since the preferred approach is to use measured data to adjust neutron spectra provided by neutron physics calculations. The input data consist of the reaction rates based on measured activities, an initial estimate of the neutron flux spectrum, neutron activation cross sections and their associated uncertainties (covariances), and relevant correction factors. The output consists of the adjusted neutron flux spectrum and associated covariance matrix, which is useful for neutron dosimetry and radiation damage calculations. The software suite consists of the STAYSL PNNL, SHIELD, BCF, and NJpp Fortran codes and the SigPhi Calculator spreadsheet tool. In addition, the development of this software suite and associated data libraries used the third-party NJOY99 Fortran code (http://t2.lanl.gov/nis/codes/njoy99/). The NJOY99 and NJpp codes are used to assemble cross section and covariance input data libraries (for both SHIELD and STAYSL PNNL) from the International Reactor Dosimetry File of 2002 (IRDF-2002; http://www-nds.iaea.org/irdf2002/) developed by the Nuclear Data Section of the International Atomic Energy Agency (Vienna, Austria). The BCF, SigPhi Calculator, and SHIELD software tools are used to calculate corrected activation rates and neutron self-shielding correction factors, which are inputs to the STAYSL PNNL code.",
+    "homepageURL": "https://www.pnnl.gov/projects/staysl-pnnl-software-suite-reactor-dosimetry",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "STAYSL PNNL Suite",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/projects/staysl-pnnl-software-suite-reactor-dosimetry",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.pnnl.gov/projects/staysl-pnnl-software-suite-reactor-dosimetry",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

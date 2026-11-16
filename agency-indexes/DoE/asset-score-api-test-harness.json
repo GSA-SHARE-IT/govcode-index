@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This repository contains sample code written in PHP that allows you to access the Asset Score API. The Department of Energy Building Energy Asset Score (Asset Score) is a national standardized tool for evaluating the physical and structural energy efficiency of commercial and multifamily residential buildings. The scoring tool will store user-provided data and generate an asset score and system evaluation for your building envelope and mechanical and electrical systems. The tool will also identify cost-effective upgrade opportunities and help you gain insight into the energy efficiency potential of your building.",
+    "laborHours": 2705.6,
+    "languages": [],
+    "name": "asset-score-api-test-harness",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/pnnl/asset-score-api-test-harness/blob/master/Readme.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/asset-score-api-test-harness",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-04-25",
+        "metadataLastUpdated": "2022-05-12"
+    },
+    "description": "MIDAS DC2AC is an automated tool for achieving a converged AC power flow solution from any dispatch, e.g., determined using DC power flow model based optimal power flow. The entire process is free of human interference. It is usually encountered in practice that, even with a DC power flow solution, acquiring the solved AC power flow solution, if exists, sometimes could be a challenging task, especially during the planning stage. It is also difficult to distinguish the unsolvable cases from diverging iterations. Manual adjustments to approach the desired power flow condition has been largely relied on in the past using lots of engineering heuristics. This tool provides a systematic way to first achieve a solvable AC power flow case by modifying the power flow condition, and then try to track the AC power flow solution while gradually removing the adopted changes. If all adopted changes can be completely removed, then the original AC power flow solution is obtained. Otherwise, insights for actionable controls are derived to help operation and planning. Currently, this tool has been implemented in Python using SIEMENS PTI PSS/E as power flow solver, where only adjusting generator terminal voltage set point is considered as an available means to try to turn an unsolved power flow to a solved one. In future, more means should be considered, including the operation of tap-changing transformers, switched shunts and redispatch of active power.",
+    "laborHours": 0.0,
+    "languages": [
+        "PYTHON"
+    ],
+    "name": "MIDAS-DC-AC Tool: Fully Automating the Acquisition of AC Power Flow Solution (MIDAS-DC2AC)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/DC2AC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

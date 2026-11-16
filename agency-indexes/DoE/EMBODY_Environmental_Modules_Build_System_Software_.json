@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-03-27"
+    },
+    "description": "Embody (Environment Modules Build) is a software build tool with integrated support for the environment-modules package. The tool eases and automates the task of building and installing software packages from source or binary distributions, as well as the management of associated module files. An administrator or software pool maintainer has to write a brief script for the installation process. These steps are usually described for manual execution, in a package's README or INSTALL file. It would be up to the site administrator to work out a procedure to capture the steps taken. This tool: streamlines and codifies the installation tasks in a common framework; it provides a self-documenting and unified way for maintaining package installations; uses bash shell variables and functions for portability; keeps log files of the proceedings. It is similar in intent and function to other existing tools, such as RPM, but has several novel features tailored for High Performance Computing (HPC) software deployments. The design goal is simplicity and decoupling from RPM's dependencies and its database, which enables coexistence of several builds. Useful on HPC systems, new builds can be deployed centrally to shared file systems and without affecting running jobs.",
+    "homepageURL": "https://www.anl.gov/partnerships/licensable-software",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "EMBODY(Environmental Modules Build System Software)",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.anl.gov/partnerships/licensable-software",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.anl.gov/partnerships/licensable-software",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

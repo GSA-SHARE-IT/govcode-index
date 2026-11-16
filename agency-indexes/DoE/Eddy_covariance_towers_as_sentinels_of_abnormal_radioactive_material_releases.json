@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-11-15",
+        "metadataLastUpdated": "2025-01-08"
+    },
+    "description": "Ensuring accurate detection and attribution of abnormal releases of radioactive material is critical for protecting human health and safety. Most commonly, such detection is accomplished via active monitoring approaches involving the collection of physical samples. This is labor intensive and limits the temporal and spatial resolution of any detected events to a relatively coarse level. As an alternative first step towards passive monitoring, we developed an approach using eddy flux tower data records to identify signals from a known abnormal release and quantify the extent to which that signal also occurs at other times in the data record. Through two case-studies, one of which targeted the Fukushima nuclear disaster and the other targeting an abnormal release event at a radioisotope production facility in Fleurus Belgium, we tested our approach and identified several potential heretofore unidentified abnormal releases that were consistent with atmospheric circulation patterns and/or wind direction from known release sites. Because our approach is relatively simple and is resistant to systematic errors in the observational record, it has broad applicability beyond specific constituents and ecosystem types to identify a wide variety of limited-duration anomalies in flux tower data to ensure human health and industrial safety.",
+    "laborHours": 2872.8,
+    "languages": [],
+    "name": "Eddy covariance towers as sentinels of abnormal radioactive material releases",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/fluxnet-sentinels",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

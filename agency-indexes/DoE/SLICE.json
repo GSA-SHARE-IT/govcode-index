@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bostelmannf@ornl.gov"
+    },
+    "date": {
+        "created": "2024-10-03",
+        "metadataLastUpdated": "2024-10-03"
+    },
+    "description": "For most of their lifetime, pebble-bed reactors (PBRs) operate at an equilibrium state in which the core is filled with fuel pebbles at various levels of burnup. A fuel pebble travels multiple times in so-called passes through the reactor before it reaches its target discharge burnup and is replaced with a fresh fuel pebble. Given the stochastic nature of the fuel pebble travel paths and consequently the individual fuel pebble histories, it is not possible with standard methods developed for traditional reactor concepts to calculate the fuel inventory in the reactor core. \nAn iterative approach, the SCALE Leap-In method for Cores at Equilibrium (SLICE), was developed to generate region-average fuel inventory for a PBR. The SLICE code enables automatic generation of input files for the SCALE code system (https://www.ornl.gov/scale), management of the SCALE result files, and analysis of results.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "SLICE",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/scale/code/slice",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

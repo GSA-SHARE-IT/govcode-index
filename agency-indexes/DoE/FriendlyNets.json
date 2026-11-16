@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-08-25",
+        "metadataLastUpdated": "2023-08-25"
+    },
+    "description": "FriendlyNets provides a method for assessing the promotion/inhibition effect on a microbe of a microbial community using a network of community interactions. At its core, FriendlyNets judges how much a network promotes or inhibits one of its nodes. It does this by assuming a set of dynamical systems represented by the network and using the resulting dynamics. FriendlyNets is also packaged with functions for generating a network from a set of genome-scale metabolic models (commonly called GSMs or GEMs) by simulating pairwise growth.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "FriendlyNets",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/friendlyNets",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

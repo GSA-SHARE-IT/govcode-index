@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2021-06-16",
+        "metadataLastUpdated": "2021-06-17"
+    },
+    "description": "OSIF is a tool that allows the user to easily fit electrochemical impedance spectra of proton exchange membrane fuel cells to a commonly accepted equivalent circuit model. The fitted parameters provide insight into the physical properties of the cell which allow the user to support experimental hypotheses.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "OSIF (Open Source Impedance Fitter)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/OSIF",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

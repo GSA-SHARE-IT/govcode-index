@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-12-19",
+        "metadataLastUpdated": "2018-12-20"
+    },
+    "description": "ADaPT Is a software library that Is used for mixed preclsk>n ftoatln1 point analysis.",
+    "laborHours": 456.0,
+    "languages": [],
+    "name": "Algorithmic Differentlation Applied to Floating-Point Precision Tuning",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/agpl-3.0",
+                "name": "AGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/adapt",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

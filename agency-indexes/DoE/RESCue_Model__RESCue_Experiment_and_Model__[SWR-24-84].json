@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-10-24",
+        "metadataLastUpdated": "2024-10-24"
+    },
+    "description": "The Renewable Energy and Storage Cybersecurity Research (RESCue) project is a collaborative effort aimed at securing the rapidly growing deployment of transmission-connected hybrid renewable energy systems, consisting of a combination of wind, solar, and/or energy storage equipment, against escalating cyber threats. This project brings together major original equipment manufacturers (OEMs) of wind, solar, and energy storage, along with major asset owners and DOE National Laboratories, to collectively identify cyber threats, assess risks, and develop robust cybersecurity strategies and solutions. The development of hybrid reference architectures has provided comprehensive blueprints for the secure design and integration of hybrid renewable energy systems, accounting for their unique characteristics and interdependencies. Additionally, NREL has created a cyber-resilient design framework that integrates cybersecurity considerations from the start of the system lifecycle, ensuring security is \"baked in\" from the initial design phase.\n\nThe research thrusts for the project included (i) development of hybrid reference architectures and (ii) a cyber-resilient design framework for hybrid energy systems. The reference architectures has provided comprehensive blueprints for the secure design and integration of hybrid renewable energy systems, accounting for their unique characteristics and interdependencies. Additionally, NREL has created a cyber-resilient design framework that integrates cybersecurity considerations from the start of the system lifecycle, ensuring security is \"baked in\" from the initial design phase. A demonstration experiment was developed for one of the architectures using NREL's Cyber Range resources. This experiment configuration, deployable using open-source tools, is provided here in this repository. Additional models were developed for the wind and solar architectures as well, however the configurations for only the Energy Storage scenario are provided here: https://www.nrel.gov/docs/fy24osti/89921.pdf",
+    "laborHours": 2173.6,
+    "languages": [
+        "Python",
+        "Shell"
+    ],
+    "name": "RESCue Model (RESCue Experiment and Model) [SWR-24-84]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/RESCue",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "Computational Fluid Dynamics is an important area in scientific computing where, despite the use of multi-threading, obtaining good performance at each core is still extremely challenging. The challenges are primarily due to memory bandwidth limitations and difficulties in using short SIMD engines effectively. One strategy to improve in-core performance involves using a hierarchical data layout made of small cubical structures of the problem states that can fit well in the cache hierarchy. Even for such a hierarchical data layout, finite-differencing equations can be easily expressed but at the expense of some inefficiency. The transformations to overcome the inefficiencies are highly tedious and error-prone. Therefore, we built a source-to-source translator called CFDbuilder to automate the transformations using directives. We see up to 6.92x performance improvement with one of our advection codes using such an approach. We believe such an approach could enable library and application writers to build efficient CFD libraries.",
+    "laborHours": 8831.2,
+    "languages": [
+        "Java",
+        "Makefile",
+        "GAP"
+    ],
+    "name": "CFDbuilder",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/CFDbuilder?tab=License-1-ov-file",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/CFDbuilder",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

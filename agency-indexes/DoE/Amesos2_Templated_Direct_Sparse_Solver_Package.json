@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-08-06"
+    },
+    "description": "Amesos2 is a templated direct sparse solver package. Amesos2 provides interfaces to direct sparse solvers, rather than providing native solver capabilities. Amesos2 is a derivative work of the Trilinos package Amesos.",
+    "laborHours": 8344830.4,
+    "languages": [],
+    "name": "Amesos2 Templated Direct Sparse Solver Package",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

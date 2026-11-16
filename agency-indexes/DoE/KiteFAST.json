@@ -1,0 +1,40 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2021-06-07",
+        "metadataLastUpdated": "2022-09-13"
+    },
+    "description": "KiteFAST is a simulator for airborne wind energy systems based on NREL's OpenFAST whole turbine simulator. KiteFAST is a multi-physics engineering tool for modeling the coupled aero-servo-elastic dynamics of airborne wind energy systems i.e. a wind-energy kite. The engineering model is like NREL's OpenFAST tool for land-based or offshore horizontal-axis wind turbines atop towers, in that KiteFAST models the important physical phenomena and system couplings, including the wind/aerodynamic excitation and full-system dynamics response (fuselage, wings, tail, stabilizers, pylons, nacelles, rotors, tether, ground station, control surfaces, and controller) under both normal (for fatigue) and extreme (for ultimate) loading conditions. The configuration of the wind-energy kite is assumed to have one fuselage; two wings (starboard, port) attached to the fuselage; one vertical stabilizer attached the fuselage; two horizontal stabilizers (starboard, port) attached to the vertical stabilizer; one or more pylons per wing, each with two rotors (top, bottom); one ground-station-fixed tether with a bridal connection to the wings, and nominal circular motion of the energy kite in the port (left) direction. The general configuration of the control surfaces assumes one or more flaps per wing, two rudders on the vertical stabilizer, two elevators per horizontal stabilizer, and rotors with variable speed and rotor-collective blade pitch. KiteFAST was developed from (1) the existing MBDyn open-source multi-body dynamics code; (2) the existing/modified OpenFAST modules NWTC Subroutine Library, AirfoilInfo, InflowWind, MoorDyn, and TurbSim; and (3) new source code for a) generating MBDyn models of the energy kite (KiteMBDyn Preprocessor), b) computing quasi-steady energy-kite aerodynamics (KiteAeroDyn, KiteAeroDyn Driver, KiteVSM, ActuatorDisk), c) interfacing an energy-kite controller, and d) coupling the various KiteFAST modules together (KiteFASTMBD).",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "C++",
+        "Fortran",
+        "Python",
+        "Jupyter Notebook",
+        "Roff",
+        "C",
+        "C++"
+    ],
+    "name": "KiteFAST",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/OpenFAST/KiteFAST",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

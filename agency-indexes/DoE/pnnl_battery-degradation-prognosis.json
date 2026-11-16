@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2025-03-21",
+        "metadataLastUpdated": "2025-03-21"
+    },
+    "description": "This is a tool for long term prognosis of redox flow battery parameter degradation which uses Transformer-based deep\nlearning models for time series forecasting which was developed as part of the ROVI project.",
+    "laborHours": 19592.8,
+    "languages": [],
+    "name": "pnnl/battery-degradation-prognosis",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/battery-degradation-prognosis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

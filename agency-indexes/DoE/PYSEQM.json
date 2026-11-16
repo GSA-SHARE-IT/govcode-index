@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-08-27",
+        "metadataLastUpdated": "2021-09-24"
+    },
+    "description": "PYSEQM is a package for performing semi-empirical quantum mechanical (SEQM) simulations on molecular systems utilizing PyTorch. SEQM simulations determine molecular properties (energy, electron density, dipole moment, ect.) by solving an approximate Schrödinger equation for the motions of electrons in a molecule. The use of PyTorch provides three specific advantages. First, it allows the calculations to be offloaded to GPU accelerators, giving an order of magnitude increase in speed. Second, back propagation is used to get atomic forces (derivative of the total energy with respect to atomic position) at the same computational cost as the energy calculation itself. Finally, the use of PyTorch makes for a natural interface to modern machine learning methods, which can be used to adjust the semi-empirical parameters build into SEQM methods. Additionally, PYSEQM implements various other optimizations for performing quantum mechanics based molecular dynamics, including SP2 for rapid GPU based solution of the self-consistent field algorithm, and the extended Lagrangian method for rapid QM-MD.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PYSEQM",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/PYSEQM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

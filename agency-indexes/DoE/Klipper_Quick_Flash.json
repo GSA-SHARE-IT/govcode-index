@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "haunab@ornl.gov"
+    },
+    "date": {
+        "created": "2024-03-18",
+        "metadataLastUpdated": "2024-03-18"
+    },
+    "description": "A tool to compile firmware and flash same to Klipper MCUs\n\nNote: This is a personal project being submitted to DOE CODE as per instruction from ORNL's TTS office.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Klipper Quick Flash",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/laikulo/klipper-quickflash.git",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0.0"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-02",
+        "metadataLastUpdated": "2021-07-02"
+    },
+    "description": "Here we have developed a pipeline for the fast evaluation of viral emerging risks (FEVER) that generates primer and probe sets for genetically diverse viruses. The goal of probe design is to produce a short nucleotide sequence (called a K-mer, as it is of length K) that reacts with SARS-CoV-2 without also reacting to background material that may be present in the sample that is being tested. Other desirable properties of the probe, making it more effective in the experimental setup, include maintaining a high G/C content and reducing the \"hairpin propensity\" (ie, the tendency of the probe string to fold over on itself) by ensuring that any self-complementary pairs of sub-strings in the probe are sufficiently short. The mathematical formalization of the problem is expressed in terms of a constrained optimization, with G/C content and length of self-complementary sub-strings taken as constraints, while maximizing coverage of the probe.  A probe is said to \"cover\" a SARS-CoV-2 sequence if the probe's K-mer appears as a sub-sequence of that sequence.  Thus, coverage is defined as the number of sequences in the database that are covered by the probe.  \"Exact\" coverage corresponds to an exact match of probe and sub-sequence; \"off-by-m\" coverage corresponds to an approximate match in which all but m nucleotides agree. Given a database of SARS-CoV-2 sequences, the single probe design problem is to find a string of length K, subject to the constraints of G/C content and hairpin aversion, which covers as many SARS-CoV-2 sequences as possible. For the multi-probe design problem, we seek P probes instead of just one, and a P-probe design is said to cover a SARS-CoV-2 sequence if any one of the probes cover it. Selection of K=31 was used because it was short enough that a single probe can cover a large fraction of the sequences in the SARS-CoV-2 database, but long enough that it won't accidentally cover potential background sequences. ",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "FEVER Probe Design Algorithm",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jt-lanl/fever-probes",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

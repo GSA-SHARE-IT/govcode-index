@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-13",
+        "metadataLastUpdated": "2020-06-01"
+    },
+    "description": "ParaView is an open-source, multi-platform data analysis and visualization application that allows users to quickly build visualizations to analyze their data using qualitative and quantitative techniques. ",
+    "laborHours": 767204.8,
+    "languages": [],
+    "name": "ParaView",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.paraview.org/paraview-license",
+                "name": "Other"
+            },
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.kitware.com/paraview/paraview",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ]
+}

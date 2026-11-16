@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-04-03",
+        "metadataLastUpdated": "2019-04-03"
+    },
+    "description": "Brief Description for Public Release:\nA collection of general code samples demonstrating issues encountered with using OpenMP4.5 (and some CUDA) during efforts to port codes to a GPU platform using IBM XL.  These independent examples include both C++ and FORTRAN language usage, along with attempts to use OpenMP and CUDA in an interoperable manner.  This suite of code samples is meant to supplement the examples provided by openmp.org at https://github.com/OpenMP/Examples, especially in regards to FORTRAN language support and OpenMP/CUDA interoperability.",
+    "laborHours": 2158.4,
+    "languages": [],
+    "name": "OpenMP 4.5 and CUDA C++ and FORTRAN code samples",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/FGPU",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

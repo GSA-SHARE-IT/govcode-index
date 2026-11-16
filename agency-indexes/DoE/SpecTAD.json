@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "The SpecTAD software represents a refactoring of the Temperature Accelerated Dynamics (TAD2) code authored by Arthur F. Voter and Blas P. Uberuaga (LA-CC-02-05). SpecTAD extends the capabilities of TAD2, by providing algorithms for both temporal and spatial parallelism. The novel algorithms for temporal parallelism include both speculation and replication based techniques. SpecTAD also offers the optional capability to dynamically link to the open-source LAMMPS package.",
+    "laborHours": 29032.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "SpecTAD",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/spectad",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

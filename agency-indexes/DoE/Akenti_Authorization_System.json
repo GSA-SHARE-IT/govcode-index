@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-19"
+    },
+    "description": "Akenti is an authorization service for distributed resources. The authorization policy is kept in distributed certificates signed by one or more stakeholders for the resources. The package consists of the following components: Java GUI tools to create and sign the policy certificates C++ libraries to do make access decisions based on the policy certificates A standalone authorization server that make access decisions C interfaces to the libraries and server",
+    "homepageURL": "https://dst.lbl.gov/ACSSoftware/Akenti",
+    "laborHours": 0.0,
+    "languages": [
+        "gcc 2.95.3, jdk 1.3"
+    ],
+    "name": "Akenti Authorization System",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://dst.lbl.gov/ACSSoftware/Akenti/download.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://dst.lbl.gov/ACSSoftware/Akenti",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-04-08",
+        "metadataLastUpdated": "2019-04-08"
+    },
+    "description": "ScrubJay allows users to query large collections of heterogeneous numerical dawets. Scrubjay v 1.0 a general and scalable framework for analyzing big he1erogeneous HPC performance data. ScrubJay decouples the task of specifying data relationships from the task of analyzing d111a 11nd automates performance 1111alysis. ScrubJay makes large-scale analysis tractable, reproducible, and provides insights into HPC facilities.",
+    "laborHours": 1626.4,
+    "languages": [],
+    "name": "ScrubJay",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ScrubJay",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

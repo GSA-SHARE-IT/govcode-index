@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "MixDown is a meta-build tool that orchestrates and manages the building of multiple 3rd party libraries. It can manage the downloading, uncompressing, unpacking, patching, configuration, build, and installation of 3rd party libraries using a variety of configuration and build tools. As a meta-build tool, it relies on 3rd party tools such as GNU Autotools, make, Cmake, scons, etc. to actually confugure and build libraries. MixDown includes an extensive database of settings to be used for general machines and specific leadership class computing resources.",
+    "laborHours": 6536.0,
+    "name": "MixDown",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/tepperly/MixDown",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

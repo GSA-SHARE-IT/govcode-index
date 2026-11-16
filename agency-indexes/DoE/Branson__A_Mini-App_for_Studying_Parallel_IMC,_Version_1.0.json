@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This code solves the gray thermal radiative transfer (TRT) equations in parallel using simple opacities and Cartesian meshes. Although Branson solves the TRT equations it is not designed to model radiation transport: Branson contains simple physics and does not have a multigroup treatment, nor can it use physical material data. The opacities have are simple polynomials in temperature there is a limited ability to specify complex geometries and sources. Branson was designed only to capture the computational demands of production IMC codes, especially in large parallel runs. It was also intended to foster collaboration with vendors, universities and other DOE partners. Branson is similar in character to the neutron transport proxy-app Quicksilver from LLNL, which was recently open-sourced.",
+    "laborHours": 33987.2,
+    "name": "Branson: A Mini-App for Studying Parallel IMC, Version 1.0",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/lanl/branson/blob/develop/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/branson",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

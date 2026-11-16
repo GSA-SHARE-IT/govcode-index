@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-20",
+        "metadataLastUpdated": "2018-07-20"
+    },
+    "description": "Generally, for encrypted communication to occur, a root trust must be established (usually In the form of a certificate authority) and used to sign communlcatln1 component's certificates that are used to perform encryption. This process ls rather Involved In a number of manual steps with arcane command syntax. Certlpy wraps the standard Python PyOpenSSL library to simplify the calls to create the above mentioned PKI (public key infrastructure) with both a command line and programming Interface. Certlpy was orlglnally created to automate and manage PKI within the open source JupyterHub project so that It could be deployed safely In Uvennore Computing. JupyterHub Is a collection of software components enabling Interactive python notebooks and reproducible science. To ensure secure communication throuahout, Certlpy signs and Issues certs to each component: enabling encryption and authentication (SSL). ",
+    "laborHours": 380.0,
+    "languages": [],
+    "name": "Simple utility for creat1n1 and signing SSL certificates.",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/certipy",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

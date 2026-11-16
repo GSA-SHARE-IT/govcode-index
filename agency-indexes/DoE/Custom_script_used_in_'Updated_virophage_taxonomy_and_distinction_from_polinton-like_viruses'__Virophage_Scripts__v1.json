@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-06-28",
+        "metadataLastUpdated": "2023-06-30"
+    },
+    "description": "This is a script and the associated test input/output that will accompany a new manuscript (soon to be submitted for publication). It can be used to detect and classify virophage, a specific group of viruses. This script is released as documentation for the manuscript, but there is no specific invention, and most bioinformaticians would be able to recreate a comparable script in a matter of days (if not hours) based on the description in the manuscript.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Custom script used in 'Updated virophage taxonomy and distinction from polinton-like viruses' (Virophage_Scripts) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/simroux/ICTV_VirophageSG",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

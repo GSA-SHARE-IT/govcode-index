@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "This model links global demand and supply of three intertwined materials cobalt (Co), copper (Cu) and nickel (Ni) in a simulation market model with explicit consideration of electric vehicle (EV) and battery scenarios. By incorporating feedback between supply, demand, prices and capacity expansion, we quantify realistic production scenarios for both primary (mining) and secondary sources (recycling). Furthermore, to understand the magnitude of material (battery) demand from the in-use EV stock, we also consider demand to replace end-of-life (EOL) batteries. We seek to answer the following questions: 1) How will production from both primary and secondary sources react to various EV deployment scenarios and battery-chemistry combinations? 2) How much supply might promising/potential new (mining) projects contribute to supply? 3) What is the impact of reducing battery lifetime? 4) If recycling rates are increased for all 3 materials, what are the implications for Co production?",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Cobalt-copper-nickel Supply Chains Model",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/CoCuNi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

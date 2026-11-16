@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2023-04-24"
+    },
+    "description": "PelePhysics is a suite of physics packages that provides functionality of use to reacting hydrodynamics CFD codes. The initial release includes an interface to reaction rate mechanism evaluation, transport coefficient evaluation, and a generalized equation of state (EOS) facility. Both generic evaluators and interfaces to code from externally available tools (Fuego for chemical rates, EGLib for transport coefficients) are provided.",
+    "laborHours": 2114760.8,
+    "languages": [
+        "C++",
+        "C",
+        "Fortran",
+        "Python"
+    ],
+    "name": "PelePhysics [SWR-17-36]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/AMReX-Combustion/PelePhysics/blob/development/license.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AMReX-Combustion/PelePhysics",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "2.0"
+}

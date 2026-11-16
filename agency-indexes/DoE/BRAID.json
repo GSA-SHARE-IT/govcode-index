@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-09-30",
+        "metadataLastUpdated": "2020-10-08"
+    },
+    "description": "BRAID is a rewriting system for translating abstract intermediate descriptions into light-weight, \"pay only for what you need\" middleware wrappers. Initial capabilities will focus on language interoperability, remote method invocation (RMI), and interface contract enforcement wrappers from Scientific Interface Definition Language (SIDL) specifications. Language interoperability will be provided for software written in C, C++, Fortran, Java, and Python, as was done with Babel, but also a subset of PGAS/HPCS languages, such as Chapel, UPC, and X10. Interface contract enforcement wrappers will initially be supported in a subset of those languages.",
+    "homepageURL": "https://sourceforge.net/projects/compose-hpc",
+    "laborHours": 154523.2,
+    "languages": [],
+    "name": "BRAID",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sourceforge.net/projects/compose-hpc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

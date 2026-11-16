@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "lensor@illinois.edu"
+    },
+    "date": {
+        "created": "2024-10-29",
+        "metadataLastUpdated": "2024-10-29"
+    },
+    "description": "The robust nature of the non-conventional yeast Issatchenkia orientalis allows it to grow under highly acidic conditions and therefore, has gained increasing interest in producing organic acids using a variety of carbon sources. Recently, the development of a genetic toolbox for I. orientalis, including an episomal plasmid, characterization of multiple promoters and terminators, and CRISPR-Cas9 tools, has eased the metabolic engineering efforts in I. orientalis. However, multiplex engineering is still hampered by the lack of efficient multicopy integration tools. To facilitate the construction of large, complex metabolic pathways by multiplex CRISPR-Cas9-mediated genome editing, we developed a bioinformatics pipeline to identify and prioritize genome-wide intergenic loci and characterized 47 gRNAs located in 21 intergenic regions. These loci are screened for guide RNA cutting efficiency, integration efficiency of a gene cassette, the resulting cellular fitness, and GFP expression level. We further developed a landing pad system using components from these well-characterized loci, which can aid in the integration of multiple genes using single guide RNA and multiple repair templates of the user’s choice. We have demonstrated the use of the landing pad for simultaneous integrations of 2, 3, 4, or 5 genes to the target loci with efficiencies greater than 80%. As a proof of concept, we showed how the production of 5-aminolevulinic acid can be improved by integrating five copies of genes at multiple sites in one step. We have further demonstrated the efficiency of this tool by constructing a metabolic pathway for succinic acid production by integrating five gene expression cassettes using a single guide RNA along with five different repair templates, leading to the production of 9 g/L of succinic acid in batch fermentations. This study demonstrates the effectiveness of a single gRNA-mediated CRISPR platform to build complex metabolic pathways in a non-conventional yeast. This landing pad system will be a valuable tool for the metabolic engineering of I. orientalis.",
+    "laborHours": 197.6,
+    "languages": [],
+    "name": "A Landing Pad System for Multicopy Gene Integration in Issatchenkia orientalis",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Zhao-Group/Landing-pad-model",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

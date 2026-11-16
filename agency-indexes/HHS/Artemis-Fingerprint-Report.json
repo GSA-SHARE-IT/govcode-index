@@ -1,0 +1,41 @@
+{
+    "name": "Artemis-Fingerprint-Report",
+    "description": "This script cleans data from fingerprint appointments made by ORR sites and generates a report about usage of different fingerprint methods over time.",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": null
+    },
+    "organization": "Department of Health and Human Services",
+    "homepageURL": "https://github.com/HHS/Artemis-Fingerprint-Report",
+    "downloadURL": "https://api.github.com/repos/HHS/Artemis-Fingerprint-Report/downloads",
+    "repositoryURL": "https://github.com/HHS/Artemis-Fingerprint-Report.git",
+    "vcs": "git",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "date": {
+        "created": "2021-07-28",
+        "lastModified": "2021-07-30",
+        "metadataLastUpdated": "2022-03-22"
+    },
+    "tags": [
+        "script",
+        "cleans",
+        "fingerprint",
+        "appointments",
+        "ORR",
+        "sites",
+        "generates",
+        "report",
+        "usage",
+        "different",
+        "methods",
+        "time"
+    ],
+    "contact": {
+        "email": "HHS_GitHub_Service_Desk@hhs.gov",
+        "name": "U.S. Department of Health & Human Services"
+    }
+}

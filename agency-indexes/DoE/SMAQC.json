@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "SMAQC computes quality metrics for a LC-MS/MS dataset. The quality metrics are based on the metrics proposed by Rudnick and Stein, as described in \"Performance metrics for liquid chromatography-tandem mass spectrometry systems in proteomics analyses.\", Mol Cell Proteomics. 2010 Feb;9(2):225-41. SMAQC requires that the dataset first be processed with MASIC, then processed with MSGF+ or X!Tandem. The MSGF+ or X!Tandem results must be post-processed with the PeptideHitResultsProcessor (PHRP).",
+    "laborHours": 5548.0,
+    "languages": [],
+    "name": "SMAQC",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/SMAQC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

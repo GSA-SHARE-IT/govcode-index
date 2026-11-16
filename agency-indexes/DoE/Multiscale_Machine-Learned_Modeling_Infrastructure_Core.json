@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-09",
+        "metadataLastUpdated": "2021-12-09"
+    },
+    "description": "MuMMI Core is the central component of the Multiscale Machine-Learned Modeling Infrastructure (MuMMI), a scalable and generalizable framework that couples pairs of models using machine learning and in situ feedback across three scales of resolution.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Multiscale Machine-Learned Modeling Infrastructure Core",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mummi-framework/mummi-core",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

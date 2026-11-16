@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Sponge provides a web interface to Pulp (http://pulpproject.org/) that implements a particular workflow as described in the paper \"Staging Package Deployment via Repository Management\" (http://www.usenix.org/events/lisa11/tech/full_papers/Pierre.pdf). Namely, it implements a process for intensive management of software repositories to apply more deterministic updates to clients of those repositories.",
+    "laborHours": 2021.6,
+    "name": "Sponge",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/stpierre/sponge",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

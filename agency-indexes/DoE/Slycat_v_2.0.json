@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2019-04-18"
+    },
+    "description": "Slycat™ is a web-based system for analysis of large, high-dimensional data such as that produced by High Performance Computing (HPC) platforms.  The Slycat™ server integrates data ingestion, scalable analysis, data management, and visualization with commodity web clients using a multi-tiered hierarchy of data and model storage.  Analysis inputs are pushed or pulled into Slycat™, where models are generated and analysis artifacts are stored in a project database.  These artifacts are the basis for visualizations that are delivered to users’ desktops through ordinary web browsers, eliminating the need to build and deploy platform-specific client applications.  Slycat™ currently provides four types of analysis: canonical correlation analysis (CCA) to model relationships between inputs and output metrics, time series analysis featuring clustering and comparative visualization of waveforms, parameter space visualization including remote retrieval of images and movies from HPC disks, and VideoSwarm for modeling video similarities over time.",
+    "laborHours": 66758.4,
+    "languages": [
+        "JavaScript",
+        "Python"
+    ],
+    "name": "Slycat v 2.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/slycat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

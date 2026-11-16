@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-08-10",
+        "metadataLastUpdated": "2018-08-14"
+    },
+    "description": "The software takes the data stream generated using the ZedSDK from a Zed or Zed Mini (fancy camera that mimics human depth perception), and loads selected data streams into a rolling shared memory buffer for use in analysis codes. Essentially, the software streams data into a shared memory buffer to be analyzed only when the analysis software is triggered.",
+    "laborHours": 476626.4,
+    "languages": [],
+    "name": "Zed Context Driver (ZedCD) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cosama/zed-context-driver.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

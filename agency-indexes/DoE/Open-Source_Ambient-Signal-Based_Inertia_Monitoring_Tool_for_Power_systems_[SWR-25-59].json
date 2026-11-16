@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2025-04-22",
+        "metadataLastUpdated": "2025-04-22"
+    },
+    "description": "This script, developed by NREL, implements an inertia estimation algorithm using a sliding window approach. The inertia (H) is estimated based on frequency deviations and active power deviations, utilizing the swing equation from power system dynamics. An example application is provided using the WECC 240-bus system.",
+    "laborHours": 30.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "Open-Source Ambient-Signal-Based Inertia Monitoring Tool for Power systems [SWR-25-59]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/Open-Source-Ambient-Signal-Based-Inertia-Monitoring-Tool-for-Power-systems",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

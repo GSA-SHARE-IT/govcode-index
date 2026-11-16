@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-01-31",
+        "metadataLastUpdated": "2019-02-01"
+    },
+    "description": "Sonar contains software for managing a HPC performance-monitoring software stack. This includes streaming data into a distributed Kafka message queue, storing/querying from a distributed Cassandra database, and front-end tools for secure access, visualization, and analytics of facility-wide performance data.",
+    "laborHours": 790.4,
+    "languages": [],
+    "name": "Sonar",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/sonar-driver",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

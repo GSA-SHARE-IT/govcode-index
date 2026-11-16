@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-08-09",
+        "metadataLastUpdated": "2022-08-09"
+    },
+    "description": "This docker image, named smurf-rogue contains Rogue and additional tools used by the SMuRF project. It is based on smurf-base.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "slaclab/smurf-rogue-docker",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/smurf-rogue-docker/blob/main/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/smurf-rogue-docker",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

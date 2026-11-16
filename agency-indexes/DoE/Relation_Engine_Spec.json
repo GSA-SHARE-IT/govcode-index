@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-07-23",
+        "metadataLastUpdated": "2020-07-31"
+    },
+    "description": "Specifications and config for the KBase Relation Engine. This repo holds the stored queries, schemas, and migrations for the relation engine graph database service. These specifications are used by the Relation Engine API.",
+    "laborHours": 3891.2,
+    "languages": [],
+    "name": "Relation Engine Spec",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/relation_engine_spec",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

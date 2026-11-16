@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2024-06-06",
+        "metadataLastUpdated": "2024-06-11"
+    },
+    "description": "SAND2024-00946O\nPython codes used in \"Trade-offs in the latent representation of microstructure evolution,\" a manuscript accepted for publication in Acta Materialia, are part of a repository. The code was developed to perform analysis of microstructure evolution. \n\nThe repository consists of two main directories: models, which train and test models such as autoencoders and diffusion maps, and analysis, which analyzes microstructures. Source code is used to perform dimensionality reduction of microstructure data for analysis of its evolution in time. \nSandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.",
+    "homepageURL": "https://ip.sandia.gov",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Python codes for the paper -  \"Trade-offs in the latent representation of microstructure evolution\"",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "version": "0.0"
+}

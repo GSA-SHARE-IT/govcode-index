@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-09-12",
+        "metadataLastUpdated": "2024-02-09"
+    },
+    "description": "OpenStudio® Server is a web application and distributed computing tool, which is the backbone of the OpenStudio Analysis Framework (OSAF). It is intended to make parametric analysis of building energy models accessible to architects, engineers, and designers via the OpenStudio PAT GUI or the OpenStudio Analysis Gem. OpenStudio Server analyses are defined by PAT projects or OSA's. Each analysis may include many OpenStudio simulations, as determined by project configuration.",
+    "laborHours": 42803.2,
+    "languages": [
+        "R",
+        "Shell",
+        "HTML",
+        "Ruby",
+        "SCSS",
+        "JavaScript"
+    ],
+    "name": "OpenStudio® Server [SWR-07-40]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NREL/OpenStudio-server/blob/develop/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/OpenStudio-server",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "3.7.0"
+}

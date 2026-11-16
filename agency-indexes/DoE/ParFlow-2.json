@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "smith84@llnl.gov"
+    },
+    "date": {
+        "created": "2022-04-05",
+        "metadataLastUpdated": "2022-04-05"
+    },
+    "description": "ParFlow is an open-source, modular, parallel watershed flow model. It includes fully-integrated overland flow, the ability to simulate complex topography, geology and heterogeneity and coupled land-surface processes including the land-energy budget, biogeochemistry and snow (via CLM). It is multi-platform and runs with a common I/O structure from laptop to supercomputer. ParFlow is the result of a long, multi-institutional development history and is now a collaborative effort between CSM, LLNL, UniBonn and UCB. ParFlow has been coupled to the mesoscale, meteorological code ARPS and the NCAR code WRF.",
+    "laborHours": 138532.8,
+    "languages": [
+        "C",
+        "C++",
+        "Python",
+        "Tcl"
+    ],
+    "name": "ParFlow",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/parflow/parflow",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "3.10.0"
+}

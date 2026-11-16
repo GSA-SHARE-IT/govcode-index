@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "There are many common software patterns and utilities for the ORNL Quantum Computing Institute that can and should be shared across projects. Otherwise we find duplication of code which adds unwanted complexity. This is a software product seeks to alleviate this by providing common utilities such as object factories, graph data structures, parameter input mechanisms, etc., for other software products within the ORNL Quantum Computing Institute. This work enables pure basic research, has no export controlled utilities, and has no real commercial value.",
+    "laborHours": 334.4,
+    "name": "QCI Common",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-QCI/common",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

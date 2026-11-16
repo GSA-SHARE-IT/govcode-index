@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2023-08-10",
+        "metadataLastUpdated": "2023-08-10"
+    },
+    "description": "SAND2023-05455O\nReposcanner provides a highly modular, extensible framework for defining routines for mining data from software repositories and performing analyses on that data to yield valuable insights on team behaviors. Reposcanner features seamless support for different version control platforms like GitHub, Gitlab, and Bitbucket; smart parsing of URLs; intelligent credential management capabilities; and a comprehensive test suite. Reposcanner is connected to the Exascale Computing Project and is intended for research purposes.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python 3"
+    ],
+    "name": "Reposcanner ",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/bssw-psip/bssw-psip.github.io",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

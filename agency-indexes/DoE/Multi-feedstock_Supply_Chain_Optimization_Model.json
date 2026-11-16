@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-08-06",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "This tool can be used to determine a least-cost feedstock mix from crop residue, energy crop and MSW to meet conversion specifications, while also identifying appropriate depot locations and size, given that depot can be co-located with the biorefinery or can be located in any counties in the biofinery’s supply shed.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Multi-feedstock Supply Chain Optimization Model",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/MFSCO",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

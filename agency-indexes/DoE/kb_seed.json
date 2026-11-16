@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-07-30",
+        "metadataLastUpdated": "2020-07-31"
+    },
+    "description": "The kb_seed module contains an import of a large body of code from the SEED project. These imports are performed on a periodic basis as new features developed on the SEED side are required in the KBase codebase. This deploys both client and service libraries.",
+    "laborHours": 276077.6,
+    "languages": [],
+    "name": "kb_seed",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/kb_seed",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "pgarvey@bnl.gov"
+    },
+    "date": {
+        "created": "2019-07-01",
+        "metadataLastUpdated": "2019-07-01"
+    },
+    "description": "Repository of tools used for both data collection and analysis at NSLS-II. This is a home for facility-wide tools: code that is generalized for use at multiple beamlines but not necessarily generalized for use at multiple facilities.",
+    "laborHours": 1398.4,
+    "languages": [],
+    "name": "NSLS-II",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NSLS-II/nslsii",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

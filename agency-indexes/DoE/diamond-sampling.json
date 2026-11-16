@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "This software provides a means for computing only the largest few entries of the product of two matrices, both exactly and approximately (using randomized sampling techniques). The purpose of the code is to demonstrate both the time it takes to solve the problem as well as the accuracy of the approximate approach. It is also meant to serve as a foundation to test the applicability of the sampling technique to related problems in data mining, including maximum inner product search, nearest neighbor search, and maximum cosine similarity.",
+    "laborHours": 6794.4,
+    "languages": [
+        "Matlab, C, C++",
+        "Java",
+        "Makefile",
+        "HTML"
+    ],
+    "name": "diamond-sampling",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/DiamondSampling",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

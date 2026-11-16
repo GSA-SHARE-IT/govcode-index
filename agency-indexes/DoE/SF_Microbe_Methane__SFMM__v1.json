@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-20",
+        "metadataLastUpdated": "2024-06-20"
+    },
+    "description": "Scripts for analyzing microbial community taxonomy and function, running statistical tests, and making complex graphics.",
+    "laborHours": 14440.0,
+    "languages": [],
+    "name": "SF_Microbe_Methane (SFMM) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cliffbueno/SF_microbe_methane",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

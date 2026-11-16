@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-10",
+        "metadataLastUpdated": "2020-09-10"
+    },
+    "description": "Functions for uploading and downloading KBase expression files. A module to upload, download and export RNASeq Expression data obtained by either StringTie or Cufflinks Apps.",
+    "laborHours": 24000.8,
+    "languages": [],
+    "name": "ExpressionUtils",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseapps/ExpressionUtils",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

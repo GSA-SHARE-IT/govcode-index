@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2023-07-06",
+        "metadataLastUpdated": "2024-10-16"
+    },
+    "description": "Battery life modeling often involves a lot of manual parameter fitting and is not easy for users to adopt the model and use it. To reduce the difficulties for users to adopt battery lifetime models, an automatic battery lifetime modeling analysis and simulation tool suite, Auto-BLAST, has been developed. Auto-BLAST includes a lithium-loss-base life model, a battery electric model, and an algorithm which automatically fits all key parameters in the electric and life models using user provided data. The models and algorithm are packaged into two user-friendly GUIs, Auto-LifeMod, for easy battery life prognostic model fitting and Auto-LifeSim, for easy battery lifetime simulation. The lithium-loss-based life model adopts a similar model framework that models degradations using aging rate models, using battery cycling data to predict battery degradation and expected lifetime. The electric model is an equivalent circuit model which simulates battery voltage responses based on current/power demand profiles. The auto-fitting algorithm uses the user-input data to generate custom battery life model(s). Two GUIs, wrapping around the life model and the auto-fitting algorithm, provide friendly interfaces for users to generate a life model and use it for case study. One GUI requires summary data from accelerated battery life degradation tests as an input and produces battery life models predicting (a) capacity degradation, and (b) resistance growth of the battery. The GUI displays the electrical model response and the input experimental data against the life model predictions with fitted model parameters and fitting error. The GUI also generates an output file to save the fitted model parameters. The second GUI uses the life model from the first GUI and a user-defined battery cycling profile to predict battery lifetime degradation and expected lifetime. Predicted capacity and resistance vs. time are plotted in the GUI and saved to output file. There is a user guide for both GUIs",
+    "homepageURL": "https://labpartnering.org/technologies/a298da24-0625-42a8-9693-a81d839529d7",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "Auto-BLAST (AutoBLAST) [SWR-20-93]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://labpartnering.org/technologies/a298da24-0625-42a8-9693-a81d839529d7",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://labpartnering.org/technologies/a298da24-0625-42a8-9693-a81d839529d7",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ]
+}

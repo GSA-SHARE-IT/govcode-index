@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-10"
+    },
+    "description": "Energy Operation Model (EOM) simulates the operation of the electric grid at the zonal scale, including inter-zonal transmission constraints. It generates the production cost, power generation by plant and category, fuel usage, and locational marginal price (LMP) with a flexible way to constrain the power production by environmental constraints, e.g. heat waves, drought conditions). Different from commercial software such as PROMOD IV where generator capacity and heat rate efficiency can only be adjusted on a monthly basis, EOM calculates capacity impacts and plant efficiencies based on hourly ambient conditions (air temperature and humidity) and cooling water availability for thermal plants. What is missing is a hydro power dispatch.",
+    "homepageURL": "https://store.pnnl.gov/content/energy-operation-model-eom",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Energy Operation Model",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://store.pnnl.gov/content/energy-operation-model-eom",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://store.pnnl.gov/content/energy-operation-model-eom",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-03-11",
+        "metadataLastUpdated": "2023-06-16"
+    },
+    "description": "The SCC software calculates the step response characteristics based on the data collected from the plant. The tools available to characterize the step response needs a plant model. Our tool calculates the characteristics based on the data captured from the plant. This prevents the user from building a plant model and directly calculates the response.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "SCC (Step characteristics calculator) [SWR-21-80]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/scc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

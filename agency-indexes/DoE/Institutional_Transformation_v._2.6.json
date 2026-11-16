@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-06-03",
+        "metadataLastUpdated": "2019-06-04"
+    },
+    "description": " IX uses whole building analysis, and solar power cost algorithms  to evaluate tradeoffs associated with alternative large-scale, long term facilities energy conservation strategies.  It is designed to use existing energy simulation tools such as doe2.2 and SAMS to produce detailed results which are then processed at a higher level. ",
+    "laborHours": 425.6,
+    "languages": [],
+    "name": "Institutional Transformation v. 2.6",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/IX2.6",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 2.6"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-10"
+    },
+    "description": "The Open Smart Energy Gateway (OpenSEG) aims to provide near-real time smart meter data to consumers without the delays or latencies associated with it being transported to the utility data center and then back to the consumer's application. To do this, the gateway queries the local Smart Meter to which it is bound to get energy consumption information at pre-defined intervals (minimum interval is 4 seconds). OpenSEG then stores the resulting data internally for retrieval by an external application.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Open Smart Energy Gateway (OpenSEG)",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

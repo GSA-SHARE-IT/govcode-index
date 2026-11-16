@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-09-22",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Dynamics-based deep learning methods to modernize current scientific computing methods. Neuromancer is currently capable of solving inverse problems for a system of ordinary differential equations. The functionality includes system identification and constrained optimal control of unknown or partially known ODEs.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/neuromancer",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/neuromancer",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

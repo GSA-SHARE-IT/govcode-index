@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "CRUISE implements a user-space file system that stores data in main memory and transparently spills over to other storage, like local flash memory or the parallel file system, as needed. CRUISE also exposes file contents fo remote direct memory access, allowing external tools to copy files to the parallel file system in the background with reduced CPU interruption.",
+    "laborHours": 4772.8,
+    "name": "Checkpoint-Restart in User Space",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/LLNL/cruise/blob/master/COPYRIGHT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/cruise",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

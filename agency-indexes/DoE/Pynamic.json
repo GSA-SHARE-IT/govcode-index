@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-30",
+        "metadataLastUpdated": "2018-07-30"
+    },
+    "description": "Pynamic is a benchmark designed to test a system's ability to handle the Dynamic Linking and Loading requirements of Python-based scientific applications. This benchmark is developed to add a workload to our testing environment, workload that represents a newly emerging class of DLL behaviors. Pynamic builds on pyMPI, an MPI extension to Python. Our augmentation includes a code generator that automatically generates Python C-extension dummy codes and a glue layer that facilitates linking and loading of the generated dynamic modules into the resulting pyMPI. Pynamic is configurable, enabling modeling the static properties of a specific code. It does not, however, model any significant computations of the target and hence it is not subjected to the same level of control as the target code. In fact, HPC computer vendors and tool developers will be encouraged to add it to their testing suite once the code release is completed. An ability to produce and run this benchmark is an effective test for validating the capability of a compiler and a linker/loader as well as an OS kernel and other runtime systems of HPC computer vendors. In addition, the benchmark is designed as a stress test case for code development tools. Though Python has recently gained popularity in the HPC community, its heavy DLL operations have hindered certain HPC code development tools, notably parallel debuggers, from performing optimally.\n",
+    "laborHours": 14029.6,
+    "languages": [],
+    "name": "Pynamic",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/pynamic",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-05-04"
+    },
+    "description": "Hopper is a powerful interactive tool that allows users to graphically move, copy, find, delete, and otherwise operate on files. Users can connect to and manipulate resources using ftp, ssh, sftp, htar, Endeavor (nft), and other protocols. Operations include changing permissions, checking access, searching using wildcards, synchronizing directories, and many others.",
+    "homepageURL": "https://hpc.llnl.gov/software/data-management-tools/using-hopper",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "File and Directory Management Tool: view, organize, transfer files",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://hpc.llnl.gov/software/data-management-tools/using-hopper",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

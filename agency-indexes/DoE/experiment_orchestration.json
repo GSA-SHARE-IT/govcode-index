@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "weberb@ornl.gov"
+    },
+    "date": {
+        "created": "2022-09-30",
+        "metadataLastUpdated": "2024-01-18"
+    },
+    "description": "This framework allows experiment authors to use one local process to orchestrate many simultaneous trials of an experiment on remote resources. When several of these processes are run in parallel, it becomes possible to orchestrate thousands of remote experiment trials on an entire remote cluster using a single orchestration, or \"boss\" node.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "experiment_orchestration",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/experiment_orchestration",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

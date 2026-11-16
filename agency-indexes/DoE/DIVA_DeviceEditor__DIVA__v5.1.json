@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-06-24",
+        "metadataLastUpdated": "2021-06-24"
+    },
+    "description": "The DIVA software interfaces a process in which researchers design their DNA with a web-based graphical user interface (DeviceEditor), submit their designs to a central queue, and a few weeks later receive their sequence-verified clonal constructs. Each researcher independently designs the DNA to be constructed with a web-based BioCAD tool, and presses a button to submit their designs to a central queue. Researchers have web-based access to their DNA design queues, and can track the progress of their submitted designs as they progress from \"evaluation\", to \"waiting for reagents\", to \"in progress\", to \"complete\". Researchers access their completed constructs through the central DNA repository. Along the way, all DNA construction success/failure rates are captured in a central database. his success/failure rate data can be leveraged to refine the DNA assembly design process.",
+    "homepageURL": "https://agilebiofoundry.org/capabilities/diva-biocad",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "DIVA/DeviceEditor (DIVA) v5.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://agilebiofoundry.org/capabilities/diva-biocad",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://agilebiofoundry.org/capabilities/diva-biocad",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

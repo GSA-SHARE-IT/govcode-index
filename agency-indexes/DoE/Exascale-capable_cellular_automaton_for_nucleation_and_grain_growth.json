@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-22",
+        "metadataLastUpdated": "2021-12-22"
+    },
+    "description": "This model is a cellular automata-based algorithm used to predict grain-scale microstructure development. Nucleation and growth of existing grains are considered in an initially liquid domain, where the temperature field evolution is either driven through heat transport simulation data or a frozen temperature approximation (i.e., a constant cooling rate and a fixed thermal gradient). The growth of grains is based on the decentered octahedron algorithm published by Gandin and Rappaz (https://doi.org/10.1016/S1359-6454(96)00303-5), where the grain envelopes are tracked as approximations of the evolving dendritic growth front. The input heat transport data, which can come from simulation of an arbitrary processing technique, consists of coordinates and times at which said coordinates fall below the liquidus and solidus temperatures for the final time. As a result, only the final solidification of a given region is modeled (no remelting). The code is designed to be compatible with pre-Exascale architectures, and uses MPI and the Kokkos library to decompose the computational domain and offload solidification calculations to GPUs.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Exascale-capable cellular automaton for nucleation and grain growth",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ExaCA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

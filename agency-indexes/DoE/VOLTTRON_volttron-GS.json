@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-12-20",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "PNNL grid related applications\nObject oriented design intended to facilitate reuse and extensibility of system features. The template enforces that needed structure and behaviors are available. Users may inherit and adapt these structures and behaviors to meet their specific requirements. Recognizes separation of the transactive system calculations into (1) scheduling of assets, (2) balancing of\nsupply and demand, and (3) coordination among independent agents. This separation facilitates useful computation boundaries in which computations can be completed without requiring end-to-end communication for each update. The code provides fundamental market solutions for balancing. The code provides mechanisms for inter-agent coordination. Allows event-driven agent interactions; not limited to prescribed time intervals. Aggregates value and electricity at nodes and conveys opportunities up and down through the network.",
+    "laborHours": 8952.8,
+    "languages": [],
+    "name": "VOLTTRON/volttron-GS",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/VOLTTRON/volttron-GS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

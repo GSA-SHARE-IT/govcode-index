@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2019-10-07",
+        "metadataLastUpdated": "2019-10-08"
+    },
+    "description": "Software infrastructure for using a custom (user-written) scheduler with the SISPI control system of DECam, and an example template for such a scheduler. This version of the obstac code is only infrastructure for supporting writing a scheduler, not a functional scheduler in itself: earlier versions of obstac that include the DES scheduler are part of SISPI, and not included as part of this package.",
+    "laborHours": 623.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "obstac10",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ehneilsen/obstac10",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ],
+    "vcs": "git"
+}

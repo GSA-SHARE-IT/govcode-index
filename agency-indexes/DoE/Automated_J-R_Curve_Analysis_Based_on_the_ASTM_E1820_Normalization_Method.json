@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-11-25",
+        "metadataLastUpdated": "2020-11-30"
+    },
+    "description": "The J-integral vs. crack growth resistance curve (J-R curve) is a useful tool for evaluating material fracture toughness in the ductile condition. A widely accepted practice for conducting tests to obtain J-R curves is ASTM standard E1820, in which the normalization method was introduced as an alternative method for determining the J-R curve. The normalization method requires solely force-displacement data, together with initial and final crack size measurements from a specimen to derive the J-R curve. Because of the elimination of the compliance measurement, the normalization method significantly simplifies testing requirements to obtain J-R curve. Despite these advantages, the analysis procedures of the normalization method are quite complicated to follow, which may limit the wide application of this method. To address this, we have developed a software with user-friendly graphic interface to perform automated normalization analysis. Any users, even without detailed knowledge of the normalization analysis, can use this software to derive J-R curves based on the ASTM E1820 normalization method.",
+    "laborHours": 4301.6,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "Automated J-R Curve Analysis Based on the ASTM E1820 Normalization Method",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://code.ornl.gov/xc8/ANJR",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/xc8/ANJR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

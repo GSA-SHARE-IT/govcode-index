@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-12-13"
+    },
+    "description": "ExaMPM is a mini-application for the Material Point Method (MPM) for studying the application of MPM to future exascale computing systems. MPM is a general method for computational mechanics and fluids and is used in a wide variety of science and engineering disciplines to study problems with large deformations, phase change, fracture, and other phenomena. ExaMPM provides a reference implementation of MPM as described in the 1994 work of Sulsky et.al. (Sulsky, Deborah, Zhen Chen, and Howard L. Schreyer. \"A particle method for history-dependent materials.\" Computer methods in applied mechanics and engineering 118.1-2 (1994): 179-196.). The software can solve basic MPM problems in solid mechanics using the original algorithm of Sulsky with explicit time integration, basic geometries, and free-slip and no-slip boundary conditions as described in the reference. ExaMPM is intended to be used as a starting point to design new parallel algorithms for the next generation of DOE supercomputers.",
+    "laborHours": 33911.2,
+    "name": "ExaMPM",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ECP-copa/ExaMPM",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ECP-copa/ExaMPM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

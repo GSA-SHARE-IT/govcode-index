@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-25"
+    },
+    "description": "The Image Composition Engine for Tiles (lceT) is a high-performance sort-last parallel rendering library. It is designed to be used in parallel applications requiring rendering. The primary purpose of IceT is to be integrated into parallel visualization applications such as ParaView to provide parallel rendering capabilities. The Image Composition Engine for Tiles (lceT) is a high-performance sort-last parallel rendering library. IceT uses a \"sort-Iasf' approach to rendering. Each process in a parallel application independently renders a local piece of geometry. The resulting images are given to IceT, and IceT combines the images together to form a single cohesive image. Ice T is also capable of driving tiled displays, largeformat displays comprising an array of smaller displays. To this end IceT can collect the smaller tile images and organize them such that the entire tiled display can be driven. Ice T takes advantage of spatial coherence in geometry by identifying empty regions of the display and reducing the overall required work.",
+    "laborHours": 8709.6,
+    "languages": [
+        "C"
+    ],
+    "name": "Image Composition Engine for Tiles",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/IceT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "2.0"
+}

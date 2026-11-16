@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "FALCON has been developed to enable simulation of the tightly coupled fluid-rock behavior in hydrothermal and engineered geothermal system (EGS) reservoirs, targeting the dynamics of fracture stimulation, fluid flow, rock deformation, and heat transport in a single integrated code, with the ultimate goal of providing a tool that can be used to test the viability of EGS in the United States and worldwide. Reliable reservoir performance predictions of EGS systems require accurate and robust modeling for the coupled thermal­hydrological­mechanical processes.",
+    "laborHours": 23043.2,
+    "languages": [],
+    "name": "Fracturing And Liquid CONvection",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/falcon",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

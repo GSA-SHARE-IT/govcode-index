@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-01-10",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "A joint inverse module was developed by imposing structural similarities between different physical parameters and\nincorporated into the E4D geophysical simulator, a parallel multi-physics modeling and inversion code with unstructured\ntetrahedral mesh. The inversion capability of E4D can accommodate joint inversions of data from two or more geophysical\nmethods that are available in E4D and is suitable for large scale three-dimensional subsurface characterization or\nmonitoring. The joint inversion capability were tested using synthetic data from borehole electrical resistivity tomography\nand seismic survey.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "E4D Simulator with Joint Inversion Capability",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

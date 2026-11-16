@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-09-28",
+        "metadataLastUpdated": "2021-09-30"
+    },
+    "description": "Models the generation asset investment decisions of individual utility \"agents\" in a user-specified electricity market. Agents employ limited local resources and information to evaluate projections of future market events, and determine when and how quickly they should construct new generation assets to respond to market trends and the retirement of existing system assets. ABCE is implemented in Python and Julia, and can be connected to the ANL A-LEAF electricity system optimization code; the contribution from A-LEAF is completely compartmentalized in the code's execution and will not be released as open-source at this time.",
+    "homepageURL": "https://www.anl.gov/partnerships/licensable-software",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ABCE (Agent Based Capacity Expansion)",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.anl.gov/partnerships/licensable-software",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.anl.gov/partnerships/licensable-software",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

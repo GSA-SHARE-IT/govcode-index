@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "HFBRHO is a physics computer code that is used to model the structure of the nucleus. It is an implementation of the nuclear energy Density Functional Theory (DFT), where the energy of the nucleus is obtained by integration over space of some phenomenological energy density, which is itself a functional of the neutron and proton densities. In HFBTHO, the energy density derives from the Skyrme effective two-body interaction between nucleons, nuclear superfluidity is treated at the Hartree-Fock-Bogoliubov (HFB) approximation, and axial-symmetry of the nuclear shape is assumed This version is the 2nd release of the program; the previous version has been published in Computer Physics Communications (1). It is the first version that has been partly developed at Lawrence Livermore National Laboratory.",
+    "homepageURL": "http://cpc.cs.qub.ac.uk/summaries/ADUI_v2_0.html",
+    "laborHours": 0.0,
+    "name": "HFBTHO",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://cpc.cs.qub.ac.uk/summaries/ADUI_v2_0.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

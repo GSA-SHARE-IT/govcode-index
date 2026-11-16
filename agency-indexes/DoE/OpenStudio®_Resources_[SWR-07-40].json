@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-09-12",
+        "metadataLastUpdated": "2024-02-09"
+    },
+    "description": "This repository includes a suite of simulation tests that can be used to validate new OpenStudio® model objects as well as ensure that objects continue to work after they are added. Each new OpenStudio Model object should ideally have two simulation tests associated with it: - a Ruby one which verifies the Ruby API and, - an OSM one that verifies the OSM file can be loaded with future versions of OpenStudio. Both tests should result in a simulation-ready OpenStudio Model that can be simulated using EnergyPlus®. Both of these tests are located in the /model/simulationtests directory, the easiest way to add a new test is to find a related existing test and modify it. When new tests are added they must be added to the model_tests.rb file.",
+    "laborHours": 1593948.0,
+    "languages": [
+        "Ruby",
+        "html",
+        "jupyter notebook"
+    ],
+    "name": "OpenStudio® Resources [SWR-07-40]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NREL/OpenStudio-resources/blob/develop/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/OpenStudio-resources",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

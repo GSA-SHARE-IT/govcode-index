@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-07-02",
+        "metadataLastUpdated": "2023-12-18"
+    },
+    "description": "MATBOX is a MATLAB application for performing various microstructure-related tasks including microstructure numerical generation, image filtering and microstructure segmentation, microstructure characterization, result three-dimensional visualization and result correlation, and microstructure meshing. MATBOX was originally developed to analyze electrode microstructures for lithium ion batteries; however, the algorithms provided by the toolbox are widely applicable to other heterogeneous materials. The toolbox provides a user-friendly experience thanks to a Graphic-User Interface.",
+    "laborHours": 28059.2,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "MATBOX (Microstructure Analysis Toolbox) [SWR-20-76]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NREL/MATBOX_Microstructure_analysis_toolbox",
+                "name": "Other"
+            },
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/MATBOX_Microstructure_analysis_toolbox",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "Matbox2021c"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-08"
+    },
+    "description": "Mingus provides hybrid coupled local/non-local mechanics analysis capabilities that extend several traditional methods to applications with inherent discontinuities. Its primary features include adaptations of solid mechanics, fluid dynamics and digital image correlation that naturally accommodate dijointed data or irregular solution fields by assimilating a variety of discretizations (such as control volume finite elements, peridynamics and meshless control point clouds). The goal of this software is to provide an analysis framework form multiphysics engineering problems with an integrated image correlation capability that can be used for experimental validation and model",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 0.0,
+    "languages": [
+        "C++, CNU or Clang"
+    ],
+    "name": "Mingus Discontinuous Multiphysics",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

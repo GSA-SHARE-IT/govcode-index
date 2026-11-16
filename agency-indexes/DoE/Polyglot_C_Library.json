@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2024-06-20",
+        "metadataLastUpdated": "2024-06-20"
+    },
+    "description": "The C library component of Polyglot.\nPolyglot utilizes a combination of custom and open source tools and libraries to provide developers with a consistent environment for building tools, etc. for a wide variety of targets with minimal changes to the code being built. It supports a variety of architectures and operating systems/firmware in as target-agnostic way as possible. This allows for developers to minimize the amount of time/effort required to port tools-in particular, forensic tools-to a wide variety of targets.\nThe project is comprised of two main components: a frontend toolchain that understands how to utilize other tools in order to build code for a specific target, and a minimalistic C library specific to Polyglot. These collectively provide the method to build code for a specific target, and the capability for code to interact with the underlying operating system when run on the target. Both components are written in a way to minimize the amount of target-specific knowledge required to both develop and utilize the project.",
+    "laborHours": 31129.6,
+    "languages": [
+        "C"
+    ],
+    "name": "Polyglot C Library",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/polyglot-libc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

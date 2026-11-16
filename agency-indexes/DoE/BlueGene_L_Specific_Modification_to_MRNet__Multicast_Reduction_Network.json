@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "MRNet is a software tree-based overlay network developed at the University of Wisconsin, Madison that provides a scalable communication mechanism for parallel tools. MRNet uses a tree topology of networked processes between a user tool and distributed tool daemons. This tree topology allows scalable multicast communication from the tool to the daemons. The internal nodes of the tree can be used to distribute computation and analysis on data sent from the tool daemons to the tool. This release covers modifications that we have made to the Wisconsin implementation to port this software to the BlueGene/L architecture. It also covers some additional files that were created for this port.",
+    "laborHours": 68460.8,
+    "name": "BlueGene/L Specific Modification to MRNet: Multicast/Reduction Network",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dyninst/mrnet",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

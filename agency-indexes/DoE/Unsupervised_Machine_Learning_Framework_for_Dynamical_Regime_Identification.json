@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-02-11",
+        "metadataLastUpdated": "2022-02-11"
+    },
+    "description": "The code objectively identifies dynamical regimes by selecting regions of data in which the observed values of governing equation terms can be reduced to a truncated to a subset of governing equation terms. It is written in python and uses SciKit Learn open source machine learning libraries.",
+    "homepageURL": "https://github.com/bekaiser-LANL/id_dominant_balances.git",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Unsupervised Machine Learning Framework for Dynamical Regime Identification",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/bekaiser-LANL/id_dominant_balances.git",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

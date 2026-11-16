@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2021-02-24",
+        "metadataLastUpdated": "2021-02-24"
+    },
+    "description": "H2FillS: Hydrogen Filling Simulation\nThe Hydrogen Filling Simulation (H2FillS) software is a thermodynamic model designed to track and report on the transient change in hydrogen temperature, pressure, and mass flow when filling a fuel cell electric vehicle (FCEV).\n\nH2FillS simulates gas flow from the hydrogen station to the FCEV storage system. Using empirical fueling data sets, the model has been validated over a range of fueling conditions to match common light-duty FCEV fill profiles. Overall, it provides significant benefits to the light-duty fueling market and fill knowledge gaps of the interaction between a hydrogen station and an FCEV.\n\nCapabilities\nUse the comprehensive H2FillS model to:\n\nSafely design and operate a hydrogen fueling station\nSupport code refinement with readily available data\nDevelop system and operational improvements to reduce capital or operating costs at hydrogen stations or on-board FCEVs.\nHow It Works\nH2FillS uses a \"drag-and-drop\" graphical user interface to simulate station and vehicle systems with preset parameters for common hydrogen station components as default values. When needed, users can define their own parameters to create their own station or vehicle components.\n\nDownload H2FillS in Two Steps\nRead the terms of the end user software license agreement.\nRegister to download the software.\nThere are two versions of the model:\n\nA full-station model starts the simulation at high-pressure ground storage, runs through a dispenser, and ends at a vehicle storage system.\nA partial-station model starts at the dispenser breakaway and consists solely of the dispenser components and the vehicle storage system.\nH2FillS will automatically output fill performance data from the vehicle by tracking pressure and temperature throughout the fill. Users can input their own fill profiles into the model to run a variety of simulations.",
+    "homepageURL": "https://www.nrel.gov/hydrogen/h2fills.html",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "H2Fills™",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.nrel.gov/hydrogen/h2fills-agreement-registration.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.nrel.gov/hydrogen/h2fills.html",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ]
+}

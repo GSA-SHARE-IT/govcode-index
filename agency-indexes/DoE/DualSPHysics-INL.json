@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2025-01-17",
+        "metadataLastUpdated": "2025-01-17"
+    },
+    "description": "Funded by the DOE's Bioenergy Technology Office through the Feedstock-Conversion Interface Consortium, INL researchers developed this code to model biomass freestock flow in various handling equipment, such as hoppers and augers. Built on top of an existing open-source code DualSPHysics (https://dual.sphysics.org/) , the enrichment includes modification of the mass conservation equation that switching tracking density to void ratio, adding a hypoplastic constitutive law to better capture the flow physics of this type of material and implementing a novel boundary condition that can handle the dynamic contact between material and equipment. All implementation were realized via Nvidia CUDA, so GPU accelaration can be leveraged to signifiantly speed up the computational process.",
+    "laborHours": 44338.4,
+    "languages": [
+        "C++"
+    ],
+    "name": "DualSPHysics-INL",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/DualSPHysics-INL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

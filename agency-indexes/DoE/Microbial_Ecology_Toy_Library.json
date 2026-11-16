@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2020-03-03",
+        "metadataLastUpdated": "2020-03-03"
+    },
+    "description": "These are miscellaneous utility functions that I've developed and found useful in working with sequencing counts.\n\nPurpose: To collect often reused procedures in one open source location that can be shared and worked on publicly, and perhaps contributed back to other open source projects.\n\nFunction: Adds, divides, filters, summarizes tables of counts.\n\nCapabilities: Currently, the main capability is to reformat count tables for use with the ALDEx2 package.",
+    "laborHours": 34428.0,
+    "languages": [],
+    "name": "Microbial Ecology Toy Library",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/meco",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0.9000"
+}

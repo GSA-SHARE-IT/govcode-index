@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2018-09-06",
+        "metadataLastUpdated": "2018-09-06"
+    },
+    "description": "Loop-Less Coe Generator for small even size matrices multiplication for AMD processor systems.  Matrices are stored in double precision row-wise. Defining the sizes of double precision matrices required.  Output is an assembly listing file. Stored as a text file. ",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LOOP-LESS CODE GENERATOR FOR WELL-DEFINED COMPUTATIONAL TASKS",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jesseYhWang/LLCGX",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

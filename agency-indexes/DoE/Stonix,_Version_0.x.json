@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "STONIX is a program for configuring UNIX and Linux computer operating systems. It applies configurations based on the guidance from publicly accessible resources such as: NSA Guides, DISA STIGs, the Center for Internet Security (CIS), USGCB and vendor security documentation. STONIX is written in the Python programming language using the QT4 and PyQT4 libraries to provide a GUI. The code is designed to be easily extensible and customizable.",
+    "laborHours": 56878.4,
+    "name": "Stonix, Version 0.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CSD-Public/stonix",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

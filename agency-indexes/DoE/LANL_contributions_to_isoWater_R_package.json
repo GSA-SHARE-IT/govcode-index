@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-06-02",
+        "metadataLastUpdated": "2023-06-07"
+    },
+    "description": "The ratio of heavy-to-light stable isotope abundance in water vapor is a tracer of atmospheric processes including evapotranspiration, condensation, mixing, and transport. Measurements of these isotope ratios at the surface, in the atmospheric column, or from satellites provide insights into atmospheric processes that cannot be gained from measurements of water vapor mixing ratios alone. A number of theoretical models for how water vapor isotope ratios should vary in response to atmospheric processes have been developed, and LANL contributions to the isoWater R package provides a simplified interface for calculating expected vapor isotope ratios based on these models and adding them to plots of water vapor isotope ratios.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LANL contributions to isoWater R package",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/isoWater",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

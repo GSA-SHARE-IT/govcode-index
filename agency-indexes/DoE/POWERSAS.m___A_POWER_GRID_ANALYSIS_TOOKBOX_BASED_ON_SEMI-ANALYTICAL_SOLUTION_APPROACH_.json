@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-12-30",
+        "metadataLastUpdated": "2022-01-03"
+    },
+    "description": "PowerSAS.m is a robust, efficient and scalable power grid analysis framework based on semi-analytical solutions (SAS) technology for MATLAB/Octave users. It provides various functionalities for power grid analysis including steady-state analysis, dynamic analysis and hybrid extended-term analysis. It features high numerical robustness, enhanced computational performance and highly customizable and extensible user interfaces.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "POWERSAS.m ( A POWER GRID ANALYSIS TOOKBOX BASED ON SEMI-ANALYTICAL SOLUTION APPROACH)",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ANL-CEEESA/powersas.m/blob/release/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ANL-CEEESA/powersas.m",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

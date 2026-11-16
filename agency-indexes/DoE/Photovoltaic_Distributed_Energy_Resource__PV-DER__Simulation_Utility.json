@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-08-02",
+        "metadataLastUpdated": "2019-08-02"
+    },
+    "description": "This software allows the user to run simulations of a solar PV-Distributed energy resource connected to a stiff voltage source. It allows modifying DER parameters, introducing external disturbance events, and visualizing the simulation results. It models the PV-DER (inverter) using dynamic phasor concept. ",
+    "laborHours": 2401.6,
+    "languages": [],
+    "name": "Photovoltaic Distributed Energy Resource (PV-DER) Simulation Utility",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sibyjackgrove/SolarPV-DER-simulation-utility",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "MSI QuickView is a software designed to provide a graphical user interface (GUI) for greatly speeding up experimental feedback (visualization and analysis) of mass spectrometry imaging (MSI or IMS) data during data acquisition. Often different software loads the entire data set, i.e., all lines of data into computer memory (RAM). This causes out of memory errors for larger datasets. We solved this in MSI QuickView by reading in the data one line at a time. Only the required information (e.g. the final pixel values for that line of heat map) is maintained in RAM. Interim analysis options include the mean intensity vs. m/z spectrum, intensity vs. time spectrums for up to 6 different m/z values or ranges chosen by the user and heat maps for each line. This assists in validating the usefulness of the particular experiment after scanning the first few lines. In addition, the tool facilitates further processing and analysis of the massive datasets. The user can manually pick different m/z values, time ranges, scroll through the spectra for any line in the data without having to load it in manually, save multiple images, change aspect ratios for the heat maps, and process the heat maps in multiple ways including overlaying images at different m/z values, displaying up to 9 different heat maps, alignment of scans along each line etc. There is no manipulation of the data required by the user to visualize the data.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB, Java"
+    ],
+    "name": "Mass Spectrometry Imaging Quick View",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

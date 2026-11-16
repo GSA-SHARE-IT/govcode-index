@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-05-04"
+    },
+    "description": "CPODES is a general purpose (serial and parallel) solver for systems of ordinary differential equation (ODE) with invariants. It implements a coordinate projection approach using different types of projection (orthogonal or oblique) and one of several methods for the decomposition of the Jacobian of the invariant equations.",
+    "homepageURL": "https://simtk.org/projects/cpodes",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Coordinate Projection-based Solver for ODE with Invariants",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://simtk.org/projects/cpodes",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

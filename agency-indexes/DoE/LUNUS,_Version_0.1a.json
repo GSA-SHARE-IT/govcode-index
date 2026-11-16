@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "LUNUS software for generating 3D maps of diffuse scattering from macromolecular X-ray crystallography diffraction images. A set of tools needed for advanced refinement of crystal structures and crystallographic charge density models. Includes tools for processing X--ray diffraction images, charge density maps, and structure factors for analysis of diffuse X-ray scattering and charge density variations in crystallography. Specific methods include: elementary algebraic operations on images and 3D lattices; fourier transform of images and 3D lattices; image processing to measure diffuse intensity; crystallographic refinement; and 3D integration of diffuse intensity.",
+    "laborHours": 25353.6,
+    "name": "LUNUS, Version 0.1a",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/mewall/lunus/blob/master/00LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mewall/lunus",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

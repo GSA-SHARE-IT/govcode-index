@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jacob@anl.gov"
+    },
+    "date": {
+        "created": "2022-11-16",
+        "metadataLastUpdated": "2022-11-16"
+    },
+    "description": "First patch release of v2.0.0 Changes since v2.0.0 [Important change] Fix ocean threading bug seen in debug cases on Chrysalis with Intel 20.0.4. Was introduced around time of v2.0.0 tag. Does not change v2.0.0 answers on Chrysalis because those didn't use threading or debugging. [EAM] Add semi-lagrangian tracer transport for theta-l (F90 and C++), add new algorithm for finding tropopause, add DSCREAM to allow v2 and SCREAM settings in same code such as adjust_ps [EAM-MMF] 60L default, allow C++ back end of RRTMGP (EAM too). [EAMxx] add nu-top functionality, fix forcing functor, add ttype9 and dcmip2012 tests 2.1, 2.2, and 3 HOMME: remove obsolete remap algs, option to specify dynamics alg indep of tracer, new sponge layer, add imex tests [ELM] Add topography-based subgrid (topounits), add FATES-ELM Nitro., Phos. and CH4 coupling, add land-use ts for NARRM, add lulc for SSP3 RCP7, Fix nutrient fertilization exp test and carbon isotope flux, Fix xactive lnd dry deposition, add lake water storage option, fix plant hydraulics 2d params, fix carbon budget calc, fix soil nutrient conc. bug, fix mosart dam bug, add test for new ELM, MOSART features, fix bug in O3 dry dep stomatal resistances, fix plant hydraulics restart BFB error, update mkmapdata. [MOSART] fix bug for reading the latitude from an unstructured input file, fix oversat in bubble test. [MPAS-ocean] Add CFC11, CFC12 tracers, add 2D spherical transport tests, fix del4 tracer mixing, add MARBL ocean tracer mixing, modify harmonic analysis options, add GPU port of vmix routines, fix calc of ML-averaged BV freq. [MPAS-seaice] Change extents of initial polar disks for oRRS18to6v3 grid, fix ice BGC with MARBL, update spherical test cases, fix DON coupling, Remove Cf from sea ice constants. [MPAS-landice] add CRYO1850-4xCO2 compset [CIME] add GCP, ANL GCE, Spock, Perlmutter, deprecate config_compilers.xml, fix and clean-up cmake macros, fix slurm bindings, refactor CIME internal testing, cleanup SCORPIO perf data, allow position independent compset naming, [also] update v2 benchmarking suite, extend e3sm_prod with throughput and memory checks",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "C",
+        "Fortran"
+    ],
+    "name": "Energy Exascale Earth System Model v2.0.1",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/E3SM/releases/tag/v2.0.1",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git",
+    "version": "v2.0.1"
+}

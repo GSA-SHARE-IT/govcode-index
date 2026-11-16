@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "kalb@bnl.gov"
+    },
+    "date": {
+        "created": "2019-05-02",
+        "metadataLastUpdated": "2019-05-02"
+    },
+    "description": "BNL NowCasting software is used in conjunction with multiple ground-based, upward looking, high definition imagers to predict available solar resources in the zero - 30 minutes time frame.  It takes HD images of the sky as input and conducts image pre-processing to correct image geometry, correct deformation caused by fish-eye lenses and remove extraneous parts of the image. It calculates the location of the sun and removes it to reduce distortion.   A cloud detection/tracking algorithm was developed using both spectral and spatial information for discriminating clouds and clear sky based on their shape, size, and color.  The software repeats the process with updated images generated every 30 seconds (or less) and then tracks the clouds as they move through the region of interest.  Cloud motion determination is based on finding the maximal normalized cross-correlation between sequential images.  The resolution of multiple imager views of clouds in the sky allows the system to estimate cloud height and categorize them into low or high cloud regimes that move at different rates. Additional input data on solar irradiance from pyranometers is ingested.  The algorithm then  determines the transmissivity of light and uses machine-learning techniques to predict the amount of available global horizontal irradiance (GHI) that will be available on the ground. Images from individual sets of cameras are stitched together to form regional forecasts that cover both generating facilities and distributed solar resources. The size of the nowcasting network is dependent on the number and location of imagers that are installed but has been demonstrated in an area up to 50 sq km",
+    "laborHours": 3693.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "BNL-NowCasting/SolarForecasting",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BNL-NowCasting/SolarForecasting",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

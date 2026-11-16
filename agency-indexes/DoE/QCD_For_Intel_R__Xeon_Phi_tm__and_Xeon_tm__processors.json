@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kindrew@jlab.org"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This library provides a library containing highly optimized Wilson-Dslash, Wilson Clover operator and Krylov subspace solvers for Lattice QCD simulations. The library is targeted at Intel(R) Xeon Phi(tm), and Intel(R) Xeon(tm) processors.",
+    "laborHours": 70041.6,
+    "name": "QCD For Intel(R) Xeon Phi(tm) and Xeon(tm) processors",
+    "organization": "Thomas Jefferson National Accelerator Facility (TJNAF)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/JeffersonLab/qphix/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/JeffersonLab/qphix.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Thomas Jefferson National Accelerator Facility (TJNAF)"
+    ],
+    "vcs": "git"
+}

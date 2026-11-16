@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-01",
+        "metadataLastUpdated": "2021-04-01"
+    },
+    "description": "In recent years advances in the performance of machine learning methods have considerably improved the ability to accurately extract information from images. Identification of building characteristics from imagery is an example of an application that is time consuming and costly to perform manually, and where automatic feature extraction holds great promise. A major contribution of the work conducted in this project is the provision of open, transparent, and replicable solutions for buildings features extraction from images (e.g., satellite/aerial images). In this first version of the toolkit we are focussing on extracting building footprints from satellite/aerial images using state of the art deep learning image segmentation algorithms.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Automatic Building Feature Extraction Toolkit (AutoBFE) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/AutoBFE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

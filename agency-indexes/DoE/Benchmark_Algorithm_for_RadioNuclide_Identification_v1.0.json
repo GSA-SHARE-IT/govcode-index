@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-05-08",
+        "metadataLastUpdated": "2020-05-08"
+    },
+    "description": "Benchmark Algorithm for Radio-Nuclide Identification (BARNI) is an automatic radionuclide identification\ntool for use with gamma-ray spectra. BARNI is designed to serve as a comparative tool for commercial\nvendor algorithms, such as those found in RadioIsotope Identification Devices (RIID). The tool\nincorporates an automated training routine allowing BARNI's classifier to be trained for a variety of\ndetectors. The identification algorithm uses a peak search, the results of which are used to build features\nthat are subsequently used for training a classifier. The user provided spectral templates allow BARNI to\nbe trained for any detector of the user's choice.\nIs",
+    "laborHours": 1641.6,
+    "languages": [],
+    "name": "Benchmark Algorithm for RadioNuclide Identification v1.0",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/barni",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

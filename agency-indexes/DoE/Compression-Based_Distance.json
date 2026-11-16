@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-17",
+        "metadataLastUpdated": "2020-09-17"
+    },
+    "description": "Compression-based distance (CBD) is a simple, rapid, and accurate method to efficiently assess differences in microbiota samples. CBD characterizes the similarities between microbial communities via the amount of repetition or overlap in order to determine microbial community distance. CBD relies on the fact that more repetitive data is the more it can be compressed. By combining 16S rRNA hypervariable tag data from different samples and assessing the relative amounts of compression, there is a proxy for the similarities between the communities. The amount of compression is converted to a distance by taking compression gained by combining the datasets over the total compressed size of the individual datasets. The distance has a value with a minimum of 0 meaning the communities are the same and a maximum of 1 meaning the communities are completely different.",
+    "laborHours": 729.6,
+    "languages": [],
+    "name": "Compression-Based Distance",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseattic/cbd",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

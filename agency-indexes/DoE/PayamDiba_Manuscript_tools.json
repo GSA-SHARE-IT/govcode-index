@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "krhodges@illinois.edu"
+    },
+    "date": {
+        "created": "2024-11-04",
+        "metadataLastUpdated": "2024-11-04"
+    },
+    "description": "CoNSEPT is a tool to predict gene expression in various cis and trans contexts. Inputs to CoNSEPT are enhancer sequence, transcription factor levels in one or many trans conditions, TF motifs (PWMs), and any prior knowledge of TF-TF interactions.",
+    "laborHours": 90166.4,
+    "languages": [],
+    "name": "PayamDiba/Manuscript_tools",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PayamDiba/Manuscript_tools",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

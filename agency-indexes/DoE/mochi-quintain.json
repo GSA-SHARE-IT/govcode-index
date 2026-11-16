@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-01-27",
+        "metadataLastUpdated": "2022-01-27"
+    },
+    "description": "mochi-quintain is a microservice (i.e., a Mochi provider) that responds to parameterized RPCs to generate synthetic concurrent server load.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "mochi-quintain",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/mochi-hpc/mochi-quintain/blob/main/COPYRIGHT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mochi-hpc/mochi-quintain",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

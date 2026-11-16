@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Provides the shell of a plugin based application environment that builds on MVC Framework to allow one to rapidly construct an application by using a collection of plugins. The MVC Shell is implemented in C# as a .NET 2.0 application that can then be used as a shell for building a plugin based application. The infrastructure allows for dynamically processing a specified collection of plugins in order to determine the functionality of the application, where all plugins operate within the context of the underlying MVC Framework environment.",
+    "homepageURL": "http://www.codeplex.com/mvcshell",
+    "laborHours": 0.0,
+    "name": "MVC Shell",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://www.codeplex.com/mvcshell",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

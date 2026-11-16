@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2024-04-26",
+        "metadataLastUpdated": "2024-04-26"
+    },
+    "description": "The ResStock™ analysis tool was built on NREL's OpenStudio® platform, and is a project geared at modeling existing residential building stocks at national, regional, or local scales with a high-degree of granularity (e.g., one physics-based simulation model for every 200 dwelling units), using the EnergyPlus® simulation engine. Information about ComStock™, a sister tool for modeling the commercial building stock, can be found here: https://www.nrel.gov/buildings/comstock.html\nThis repository contains:\nHousing characteristics of the U.S. residential building stock, in the form of conditional probability distributions stored as tab-separated value (.tsv) files. Comments at the bottom of each file document data sources and assumptions for each.\nA library of housing characteristic \"options\" that translate high-level characteristic parameters into arguments for OpenStudio measures, and which are referenced by the housing characteristic .tsv files and building energy upgrades defined in project definition files\nProject definition files:\nv2.3.0 and later: buildstockbatch YML files openable in any text editor\nv2.2.5 and prior: Project folder openable in PAT\nUnit-level OpenStudio Measures for automatically constructing OpenStudio Models of each representative dwelling unit model:\nv3.0.0 and later: OpenStudio-HPXML Measures\nv2.5.0 and prior: OpenStudio Measures\nHigher-level OpenStudio Measures for controlling simulation inputs and outputs\nThis repository does not contain software for running ResStock simulations, which can be found as follows:\n\nVersions 2.3.0 and later only support the use of buildstockbatch for deploying simulations on high-performance or cloud computing. Version 2.3.0 also removed separate projects for single-family detached and multifamily buildings, in lieu of a combined project_national representing the U.S. residential building stock. See the changelog for more details.\nVersions 2.2.5 and prior support the use of the publicly available OpenStudio-PAT software as an interface for deploying simulations on cloud computing. Read the documentation for v2.2.5.",
+    "laborHours": 2638370.4,
+    "languages": [
+        "Python",
+        "Ruby"
+    ],
+    "name": "ResStock™ v3.2.0 [SWR-19-15 and SWR-20-07]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NREL/resstock/blob/develop/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/resstock",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "v3.2.0"
+}

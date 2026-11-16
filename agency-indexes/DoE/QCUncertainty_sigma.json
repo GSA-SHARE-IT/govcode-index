@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "pieper@ameslab.gov"
+    },
+    "date": {
+        "created": "2025-03-17",
+        "metadataLastUpdated": "2025-03-17"
+    },
+    "description": "Sigma is a header-only C++ library for uncertainty propagation throughout mathematical operations on floating point values.",
+    "laborHours": 1231.2,
+    "languages": [
+        "C++",
+        "GCC 12-14",
+        "Clang 14",
+        "MSVC"
+    ],
+    "name": "QCUncertainty/sigma",
+    "organization": "Ames Laboratory (AMES)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/QCUncertainty/sigma",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Ames Laboratory (AMES)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

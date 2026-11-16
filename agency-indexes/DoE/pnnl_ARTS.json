@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-04-30",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Abstract RunTime System (ARTS) aims to provide different levels of abstraction that trade-off performance and programmability and helps to connect upper layers of the software stack with the different computational substrates.",
+    "laborHours": 10108.0,
+    "languages": [],
+    "name": "pnnl/ARTS",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/ARTS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

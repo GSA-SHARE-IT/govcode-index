@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-30"
+    },
+    "description": "This application simulates microstructural and compositional evolution in two-phase, two-component systems. It is designed to run within the SPPARKS solver and combines the kMC with solution to the Cahn-Hilliard Eq. for phase field.",
+    "laborHours": 165102.4,
+    "languages": [
+        "C++",
+        "C"
+    ],
+    "name": "app_hybridPotts-phasefield.cpp",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/spparks",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

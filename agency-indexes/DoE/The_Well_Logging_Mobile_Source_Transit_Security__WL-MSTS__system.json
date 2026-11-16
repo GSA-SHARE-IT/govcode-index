@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-07-26",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The Well Logging Mobile Source Transit Security (WL-MSTS) system was developed under funding from the National Nuclear Security Administration (NNSA) Office of Radiological Security (ORS). The objective of the system is to track mobile radioactive sources used in the well-logging service industry in support of oil and gas exploration. The individual software applications and libraries, and firmware executables work together and in conjunction with the electronic hardware components to provide situational awareness of the radioactive sources as they are transported from the home base of operations to a job site and back again. Information flows in near real time from the transport vehicle carrying the sources to the end user's central monitoring center using both cellular and satellite communications. A combination of active radio-frequency (RF) tags (attached to source shields) and radiation sensing is used to monitor the proximity of the radioactive sources to the transport vehicle. A Global Positioning System (GPS) is used to track the geographic location of the transport vehicle. Various sensors are used to detect and report tamper of the WL-MSTS components. An in-Cab Unit (iCU) is used to provide local status of the monitoring system to the driver of the transport vehicle. A browser based application allows authorized engineers to interact with the monitoring system to configure it and check status. Base Station application software allows qualified personnel to track alarms, source information and source locations and provides contact info of individuals that need to be notified should anomalous conditions be detected.\nWell Logging Master Control Unit (MCU)\t31390\nWell Logging MSTS rTag firmware\t31433\nWell Logging - In Cab Unit firmware\t31432\nBLE Beacon Electronic Tag (eTag) Firmware\t31480\nHome Base Security Solution (HBSS) Vault Extender Scanner\t31566\nHome Base Security Solution (HBSS) Master Scanner Firmware\t31567\nWell Logging MSTS Message Parser Library\t31568\nWell Logging MSTS GSOC Viewer\t31569\nWell Logging MSTS Admin Tool\t31570\nWell Logging HBSS Bunker Automated Data Service (BADS)\t31571\nWell Logging HBSS Bunker Inventory Graphical System (BIGS)\t31572\nWell Logging Master Control Unit Overpack (WL-MCU-OP) Firmware\t31583",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "The Well Logging Mobile Source Transit Security (WL-MSTS) system",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

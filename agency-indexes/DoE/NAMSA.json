@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "In NAMSA, we introduce two main solutions to address the limitations of MSA-type algorithms for simulation of electron scattering/microscopy data: just-in-time compilation and work partitioning via MPI and GPU-to-GPU communication. First, the just-in-time (JIT) compilation strategy produces optimally tuned CUDA C++ kernels due to the data layout being perfectly known at runtime and compiled via calls from the Python interpreter. NAMSA automatically optimizes the 2-D FFT planning, and CUDA multi-streams scheduling/launching of probe simulations. With NAMSA, we can simulate electron scattering/microscopy on hundreds to thousands of GPUs, while removing the major limitations of memory and bandwidth from MSA.",
+    "laborHours": 2766.4,
+    "languages": [
+        "Python (2.7/3.X), CUDA C++ /NVCC/10.01"
+    ],
+    "name": "NAMSA",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/disMultiABM/namsa",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

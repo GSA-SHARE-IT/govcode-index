@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2024-03-09",
+        "metadataLastUpdated": "2024-03-13"
+    },
+    "description": "This is a graphical user interface (GUI) that can be deployed in a Node-RED environment and be configured to provide monitoring and control of an ISO 15118 EV Charger (DC or AC).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ISO 15118 Node-Red Dashboard",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/node-red/node-red",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

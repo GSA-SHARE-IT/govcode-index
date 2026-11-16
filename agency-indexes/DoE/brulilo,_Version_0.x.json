@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "brulilo is a Python package for building and evolving thermonuclear reaction networks, such as those used in astrophysical explosion calculations. It is very much a current work in progress, and much of the intended functionality is still under development. The main goal of brulilo is an easy-to-use code for quick calculations or post-processing, as well as a learning tool to test various implementations of solvers on both CPUs and GPUs. Currently, brulilo parses an input text file that specifies the reactions to be included in the network. The notation of the inputs are in the typical astrophysical notation; i.e. hydrogen burning to deuterium in the sun, \"p + p + e --> d + neutrino\", is given as \"p(p,)d.\" Each reaction is added to a list comprising the reaction network, and once completed, the network contains a list of all isotopes and reactions involved. brulilo then parses publicly available nuclear data (binding energy, spin, partition function data, etc.) for each isotope from the WebNucleo group's data at nucleo.ces.clemson.edu. Fits to reaction rate data for each reaction are obtained from the publicly available data provided by the Joint Institute for Nuclear Astrophysics' Reaclib database. Reverse reactions are calculated from detailed balance. The reaction network then consists of a sparse system of mathematically stiff ordinary differential equations (ODEs). Physically, \"stiffness\" here means that there are some reaction rates that are occurring much faster than others; the ratio of the fast to slow often being greater than 10^15 in astrophysics. Numerical integration of such systems typically involves implicit integration schemes, which brulilo will leverage from the scientific computing Python package, Numpy, as well as implement its own. There has recently been work from researchers at Oak Ridge National Lab who have found good results from applying quasi-equilibrium and quasi-asymptotic conditions to the stiff system of ODEs, which effectively remove some of the stiffness and allow for efficient explicit integration techniques to be used. The original intent of brulilo was to implement these stiffness-alleviating techniques with explicit integrators and compare the performance to traditional implicit integrations of the full stiff system. This is still underway, as the code is very much in an alpha-release state. Furthermore, explicit integrators are often much easier to parallelize than their implicit counterparts. brulilo will implement parallelization of these techniques, leveraging both the Python implementation of MPI, mpi4py, as well as highly parallelized versions targeted at GPUs with PyOpenCL and/or PyCUDA.",
+    "laborHours": 1743379.2,
+    "name": "brulilo, Version 0.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/cmsquared/brulilo/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cmsquared/brulilo",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

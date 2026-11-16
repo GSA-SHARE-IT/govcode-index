@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-09-24",
+        "metadataLastUpdated": "2024-09-24"
+    },
+    "description": "The Spectral Efficiency and Tandem Performance Calculators allow users to test material types for use in tandem photovoltaic devices to better understand if a given material could work well. The Spectral Efficiency (SE) calculator takes a set of current vs voltage (I-V) and quantum efficiency (QE) data along with a spectrum input and plots the spectral efficiency of the cells represented by the datasets for the spectrum provided. The Tandem Performance calculator uses the calculated spectral efficiency of top and bottom cells and the transmission data of the top cell to calculate performance metrics for a tandem device in either a two or four terminal architecture. The SE and Tandem Performance calculators are based on the following publication: Yu, Z., Leilaeioun, M. & Holman, Z. Selecting tandem partners for silicon solar cells. Nat Energy 1, 16137 (2016).",
+    "laborHours": 957.6,
+    "languages": [
+        "Python",
+        "Jupyter Notebook"
+    ],
+    "name": "Spectral Efficiency and Tandem Performance Calculators [SWR-24-92]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/SE-and-Tandems",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

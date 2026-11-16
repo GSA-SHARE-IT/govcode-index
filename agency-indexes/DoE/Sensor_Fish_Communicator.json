@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "The Sensor Fish collects information that can be used to evaluate conditions encountered by juvenile salmonids and other fish as they pass through hydroelectric dams on their way to the ocean. Sensor Fish are deployed in turbines, spillways, and sluiceways and measure changes in pressure, angular rate of change, and linear acceleration during passage. The software is need to make Sensor Fish fully functional and easy to use. Sensor Fish Communicator (SFC) links to Sensor Fish, allowing users to control data collection settings and download data. It may also be used to convert native raw data (.raw2) files into Comma Separated Variable (.csv) files and plot the results. The multiple capabilities of the SFC allow hardware communication, data conversion, and data plotting with one application.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "c++"
+    ],
+    "name": "Sensor Fish Communicator",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

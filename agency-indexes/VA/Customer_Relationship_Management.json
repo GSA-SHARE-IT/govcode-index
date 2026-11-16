@@ -1,0 +1,44 @@
+{
+    "id": 2280,
+    "name": "Customer Relationship Management",
+    "organization": "OIT DSO",
+    "version": "8.10.0.21",
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/Redacted-Public-Release-CRM-PE-P2-Build-8.10.0.21-rec-Jun-2020",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "PEGA CRM",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Windows Server",
+        "Pega Business Process Management (BPM) for Healthcare",
+        "Java Enterprise Edition (Java EE)"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-28",
+        "lastModified": "2020-10-05",
+        "metadataLastUpdated": "2020-10-05"
+    },
+    "description": "Repository containing the Code in Flight submission for Customer Relationship Management (CRM) Platform Enhancements Phase 2 Build 8, Release 10, Build 8.10.0.21 rec Jun 2020."
+}

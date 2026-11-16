@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2020-05-28",
+        "metadataLastUpdated": "2020-05-28"
+    },
+    "description": "Frhodo is an open-source Python application to optimize chemical kinetics mechanisms using Cantera as its chemistry\nsolver. Frhodo is built on an easy-to-use GUI that provides immediate graphical feedback when changes are made to a\nmechanism. This feedback is used to optimize kinetics mechanisms based on experimental observables. Optimization\ncan be performed either by hand or built-in optimization routines. There is currently support for high-temperature\nchemical kinetics experiments that can be simulated using a 0d reactor or using a custom reactor built for\nmeasurements taken behind incident shock waves. Such experiments include shock tubes, idealized rapid compression\nmachines, etc. Additional tools for exploring chemical kinetics mechanisms are provided such as the simulation\nexplorer, which can graph an extensive list of combustion relevant variables. The guiding principle of Frhodo is to\nelevate researcher capabilities by minimizing repetitive tasks.\n",
+    "laborHours": 25308.0,
+    "languages": [],
+    "name": "FRHODO",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Argonne-National-Laboratory/Frhodo",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

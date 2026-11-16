@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-12-16",
+        "metadataLastUpdated": "2024-12-16"
+    },
+    "description": "The marine carbon management software is an open-source Python based software that contains generic models for marine carbon capture, marine carbon dioxide removal, marine carbon capture and utilization, marine carbon capture and storage. The models include design parameters, operational conditions and scenarios and technology costs.",
+    "laborHours": 942.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "MCM (Marine Carbon Management) [SWR-24-122]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/MarineCarbonManagement",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

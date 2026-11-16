@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-16",
+        "metadataLastUpdated": "2018-07-16"
+    },
+    "description": "This is a Python library for processing the 5th Climate Model Intercomparison Project [CMIP5]_ Data Reference Syntax [DRS]_. http://esgf.org/esgf-drslib/\n",
+    "laborHours": 4818.4,
+    "languages": [],
+    "name": "esgf-drslib",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ESGF/esgf-drslib",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

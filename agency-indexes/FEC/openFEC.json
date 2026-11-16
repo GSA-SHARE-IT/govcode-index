@@ -1,0 +1,43 @@
+{
+    "organization": "Federal Election Commission",
+    "contact": {
+        "URL": "https://github.com/fecgov/fec/issues",
+        "email": "opensource@fec.gov"
+    },
+    "date": {
+        "created": "2014-08-19",
+        "lastModified": "2020-10-05",
+        "metadataLastUpdated": "2020-10-06"
+    },
+    "description": "The first RESTful API for the Federal Election Commission. We're aiming to make campaign finance more accessible for journalists, academics, developers, and other transparency seekers.",
+    "downloadURL": "https://api.github.com/repos/fecgov/openFEC/downloads",
+    "homepageURL": "https://api.open.fec.gov/developers/",
+    "laborHours": 205853.6,
+    "languages": [
+        "Python",
+        "PLpgSQL",
+        "JavaScript",
+        "HTML",
+        "Shell",
+        "CSS"
+    ],
+    "name": "openFEC",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/fecgov/openFEC/blob/master/LICENSE.md",
+                "name": "CC0"
+            }
+        ]
+    },
+    "repositoryURL": "https://github.com/fecgov/openFEC",
+    "status": "Production",
+    "tags": [
+        "FEC",
+        "github",
+        "API",
+        "campaign finance"
+    ],
+    "vcs": "git"
+}

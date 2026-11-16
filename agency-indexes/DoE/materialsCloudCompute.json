@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-11-19",
+        "metadataLastUpdated": "2021-11-19"
+    },
+    "description": "materialsCloudCompute (mCC) is a software package for running easily parallelizable materials science theoretical computations on Amazon Web Services (AWS) infrastructure. mCC provides tools to partition out computational problem into smaller subproblems which can be run in parallel, and ensure that each of those subproblems completes successfully. It utilizes the following AWS services: EC2, S3, and RDS. It operates by launch a managing EC2 instance, which can launch worker instances that perform the calculations. The Managing instance tracks the subproblems and ensures that the Worker instances continue to operation, killing and relaunching them if they fail.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "materialsCloudCompute",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/materialsCloudCompute",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "lees4@ornl.gov"
+    },
+    "date": {
+        "created": "2022-06-09",
+        "metadataLastUpdated": "2022-06-23"
+    },
+    "description": "Brick (https://brickschema.org/) is a unified metadata schema to address the problem of building data standardization. Creating Brick models for building datasets means that the contents of the datasets are semantically described using the standard terms defined in the Brick ontology, and it will enable the benefits of data standardization, without having to recollect or reorganize the data. The challenge is that building brick models for building datasets leads to repeated manual trial and error processes, which can be time-consuming. VizBrick is a tool with a graphic/Web-based user interface that can assist users to create Brick models visually and interactively without having to understand the Resource Description Framework (RDF) syntax. VizBrick contains a web server that renders VizBrick web interface pages for browsers. The web server utilizes software components that (1) provide Brick ontology entity mapping to data column suggestions to users so that they can efficiently create their model; (2) provide keyword/Metadata-based search capability for easy find of relevant brick concepts and relations to their data columns",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "VizBrick",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/liza183/vizbrick",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

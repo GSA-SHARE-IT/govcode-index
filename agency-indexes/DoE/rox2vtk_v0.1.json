@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-21",
+        "metadataLastUpdated": "2024-06-27"
+    },
+    "description": "For the development of magnets for particle accellerators, the tool ROXIE from CERN has become a de facto standard. This script interprets the output files of ROXIE and translates them into a VTK file that can be read in ParaView for visualization.",
+    "laborHours": 273.6,
+    "languages": [],
+    "name": "rox2vtk v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cmesse/rox2vtk.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

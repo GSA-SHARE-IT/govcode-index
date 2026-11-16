@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-16",
+        "metadataLastUpdated": "2024-07-16"
+    },
+    "description": "nexport is a lightweight python 3 package which enables neural network developers to export the weights and biases of trained networks to useful file types. It provides I/O support for applications which require specific data types for instantiating neural networks in various inference environments. It was initially developed to support exporting to the data structure used by 'inference-engine', a Fortran inference package.",
+    "laborHours": 471.2,
+    "languages": [],
+    "name": "Neural Network Export Package (nexport) v0.1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BerkeleyLab/nexport",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

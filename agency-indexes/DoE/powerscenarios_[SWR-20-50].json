@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-08-26",
+        "metadataLastUpdated": "2024-03-11"
+    },
+    "description": "Realistic data-driven renewable energy scenarios for stochastic grid operation problems",
+    "laborHours": 39200.8,
+    "languages": [
+        "MATLAB",
+        "Python",
+        "Jupyter Notebook",
+        "Tex"
+    ],
+    "name": "powerscenarios [SWR-20-50]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/powerscenarios",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2020-01-16",
+        "metadataLastUpdated": "2020-01-16"
+    },
+    "description": "cubacpp provides a C++ binding for the excellent CUBA library, and to a lesser extent, to the GSL integration library GSL. cubacpp provides no new integration facilities. It merely provides a more convenient syntax for use of the CUBA (and GSL) integration routines, made possible by the features of the C++ programming language.",
+    "laborHours": 7995.2,
+    "languages": [],
+    "name": "cubacpp",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/mpaterno/cubacpp",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ]
+}

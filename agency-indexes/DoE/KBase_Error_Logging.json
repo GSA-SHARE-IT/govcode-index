@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-07-23",
+        "metadataLastUpdated": "2020-07-31"
+    },
+    "description": "This repository contains code for gathering and uploading KBase app errors from user job states in the catalog, workspace and execution engine. This repository is run through a cron job every night. The main function in the repo is get_errored_apps_EE2. The cron job calls the upload_errorlogs function that calls the main get_errored_apps_EE2 function.",
+    "laborHours": 684.0,
+    "languages": [],
+    "name": "KBase Error Logging",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/ErrorLogging",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

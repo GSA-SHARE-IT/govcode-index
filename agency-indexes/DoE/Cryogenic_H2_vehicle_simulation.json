@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-12-18",
+        "metadataLastUpdated": "2018-12-20"
+    },
+    "description": "CryoH2Vehicle enables to simulate the variations of the thermodynamic states of H2 inside nn onboard vessel, that undergoes n given duty cycle (park/drive/fill). Typical states of charge and boil-off losses can thus be estimated. ",
+    "laborHours": 380.0,
+    "languages": [],
+    "name": "Cryogenic H2 vehicle simulation",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/cryoH2vehicle",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

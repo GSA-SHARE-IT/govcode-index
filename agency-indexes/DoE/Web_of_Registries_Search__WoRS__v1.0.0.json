@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-07-01",
+        "metadataLastUpdated": "2021-07-01"
+    },
+    "description": "The Web of Registries Search (WoRs) is a web based software application that enables users to search for publicly available biological parts using keywords or sequence fragments. For the initial version (1.0.0) of the application, WoRS targets 10 sources of biological part data: the GenBank NIH genetic sequence database (https://www.ncbi.nlm.nih.gov/genbank/), the iGem parts registry (parts.igem.org), the Addgene plasmid repository (https://www.addgene.org/), and 7 Inventory of Composable Elements (ACS Synbio, JGI, JBEI, JBEI Public, ABF, SynBerc, ABF Public) registry instances. WoRs has built-in automated web scrapers which extract data from sources that do not have a public or well-defined application programming interface (API). They extract as much public data as they can find and create a searchable index to speed up searches. Included in the indexed information is the source of the information.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Web of Registries Search (WoRS) v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/JBEI/wors",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

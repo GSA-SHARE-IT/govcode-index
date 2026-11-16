@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "While an organized source of reference information on PV performance modeling is certainly valuable, there is nothing to match the availability of actual examples of modeling algorithms being used in practice. To meet this need, Sandia has developed a PV performance modeling toolbox (PV_LIB) for Matlab. It contains a set of well-documented, open source functions and example scripts showing the functions being used in practical examples. This toolbox is meant to help make the multi-step process of modeling a PV system more transparent and provide the means for model users to validate and understand the models they use and or develop. It is fully integrated into Matlab's help and documentation utilities. The PV_LIB Toolbox provides more than 30 functions that are sorted into four categories",
+    "laborHours": 532.0,
+    "name": "PV_LIB Toolbox",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cwhanse/PVLIB_Python",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

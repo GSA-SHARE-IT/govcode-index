@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-07-23",
+        "metadataLastUpdated": "2018-08-13"
+    },
+    "description": "The PIACE software is an approach to the parallel integration and chromosomal expansion (PIACE) of metabolic pathways, which extends the Chemical-Induced Chromosomal Expansion (CIChE) method. The software has little to no application outside the specific use case of a specific approach to isopentanol production and analysis of specific related data.",
+    "laborHours": 273.6,
+    "languages": [],
+    "name": "PIACE Project v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/JBEI/PIACE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

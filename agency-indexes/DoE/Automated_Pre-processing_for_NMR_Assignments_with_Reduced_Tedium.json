@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-08"
+    },
+    "description": "An important rate-limiting step in the resonance assignment process is accurate identification of resonance peaks in MNR spectra. NMR spectra are noisy. Hence, automatic peak-picking programs must navigate between the Scylla of reliable but incomplete picking, and the Charybdis of noisy but complete picking. Each of these extremes complicates the assignment process: incomplete peak-picking results in the loss of essential connectivities, while noisy picking conceals the true connectivities under a combinatiorial explosion of false positives. Intermediate processing can simplify the assignment process by preferentially removing false peaks from noisy peak lists. This is accomplished by requiring consensus between multiple NMR experiments, exploiting a priori information about NMR spectra, and drawing on empirical statistical distributions of chemical shift extracted from the BioMagResBank. Experienced NMR practitioners currently apply many of these techniques \"by hand\", which is tedious, and may appear arbitrary to the novice. To increase efficiency, we have created a systematic and automated approach to this process, known as APART. Automated pre-processing has three main advantages: reduced tedium, standardization, and pedagogy. In the hands of experienced spectroscopists, the main advantage is reduced tedium (a rapid increase in the ratio of true peaks to false peaks with minimal effort). When a project is passed from hand to hand, the main advantage is standardization. APART automatically documents the peak filtering process by archiving its original recommendations, the accompanying justifications, and whether a user accepted or overrode a given filtering recommendation. In the hands of a novice, this tool can reduce the stumbling block of learning to differentiate between real peaks and noise, by providing real-time examples of how such decisions are made.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Automated Pre-processing for NMR Assignments with Reduced Tedium",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

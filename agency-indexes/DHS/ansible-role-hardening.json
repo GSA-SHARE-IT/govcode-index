@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-08-17",
+        "lastModified": "2023-07-26"
+    },
+    "description": "Ansible role to apply a security baseline. Systemd edition.",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-hardening/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-hardening",
+    "laborHours": 2339.2,
+    "languages": [
+        "Jinja",
+        "Shell",
+        "Dockerfile"
+    ],
+    "name": "ansible-role-hardening",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-hardening.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2025-04-07",
+        "metadataLastUpdated": "2025-04-07"
+    },
+    "description": "The Hydrogen Production, Storage, and Transmission Analysis Tool (HYPSTAT) is a modeling framework developed by the National Renewable Energy Laboratory (NREL) to support the analysis of hydrogen systems. HYPSTAT focuses on key components of hydrogen infrastructure, particularly electrolytic hydrogen production, hydrogen storage, and hydrogen transmission, as part of the transition to decarbonized energy systems\n\nHYPSTAT operates as a supply-to-demand model, taking a fixed exogenous demand as input and optimizing the design and operation of the hydrogen system to meet that demand. It determines cost-optimal configurations based on specified technology options and system constraints.",
+    "laborHours": 304.0,
+    "languages": [
+        "Python",
+        "Jupyter Notebook"
+    ],
+    "name": "HYPSTAT (Hydrogen Production, Storage, and Transmission Analysis Tool) [SWR-23-04]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/HYPSTAT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

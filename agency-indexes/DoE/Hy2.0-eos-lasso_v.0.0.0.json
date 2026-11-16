@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2025-02-17",
+        "metadataLastUpdated": "2025-02-17"
+    },
+    "description": "SAND2025-00777O\nHy2.0-eos-lasso is a software tool that derives an equation of state (EOS) using the compound energy formalism (CEF) with LASSO-based parameter fitting. It uses experimental and density functional theory (DFT) data to derive accurate EOS parameters. This tool is designed for users familiar with CEF and aims to facilitate reproducibility in academic research by meeting open-sourcing requirements. Hy2.0-eos-lasso addresses fundamental materials modeling challenges by providing a robust method for EOS parameter fitting. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.",
+    "homepageURL": "https://ip.sandia.gov",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Hy2.0-eos-lasso v.0.0.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "version": "0.0.0"
+}

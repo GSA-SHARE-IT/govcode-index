@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-14",
+        "metadataLastUpdated": "2021-12-14"
+    },
+    "description": "The Replicative Assessment of Spectrometric Equipment (RASE) is a software for evaluating the performance of radiation detectors and isotope identification algorithms. It uses a semi-empirical approach to rapidly generate synthetic spectra and inject into detector's software to obtain nuclide identification response. RASE facilitates studies of spectroscopic device performance and a quantitative assessment of its capabilities to correctly distinguish and identify isotopes of interest in realistic scenarios.",
+    "laborHours": 4088.8,
+    "languages": [],
+    "name": "Replicative Assessment of Spectroscopic Equipment",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/RASE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "2.0"
+}

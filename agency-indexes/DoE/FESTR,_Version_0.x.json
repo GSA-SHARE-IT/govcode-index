@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "FESTR is a modeling tool for calculating spectroscopic-quality synthetic outputs (e.g., spectra and images) based on (in general) the time evolutions of 3-D spatial distributions of materials characterized by their chemical composition, temperature, and density conditions. FESTR performs raytracing across unstructured meshes, builds intrinsic optical properties of mixed materials by performing equation-of-state lookups in external data, and then solves the radiation-transport equation along rays to obtain emergent time and space resolved synthetic spectra. These results can be further processed into time and/or space integrated spectra, as well as into spectral-band-integrated synthetic images, radiated power histories, and total radiated energy values. FESTR is also applicable to spatial reconstructions of material properties via the analysis of experimental data.",
+    "laborHours": 70376.0,
+    "name": "FESTR, Version 0.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/LANLhakel/FESTR/blob/d5a8941f2e74fb0adc8b12a90180b299b95dc93e/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LANLhakel/FESTR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

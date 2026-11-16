@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jbreslau@pppl.gov"
+    },
+    "date": {
+        "created": "2018-07-03",
+        "metadataLastUpdated": "2018-08-07"
+    },
+    "description": "COILOPT++ is a code for designing optimal modular and saddle coils for stellarators.  Given a topologically toroidal plasma equilibrium surface with a specified normal magnetic field component, one or more toroidal winding surfaces enclosing the plasma surface, and initial guesses for one or more coil shapes for each winding surface, COILOPT++ employs a variety of local and global optimization algorithms to adjust the coil shapes to best satisfy a specified set of physical and geometric constraints.  Typical coil representations are cylic cubic B-splines, for which it is possible to specify that a segment of modular coil about the outboard midplane be completely vertical to improve device accessibility.",
+    "homepageURL": "https://theory.pppl.gov/research/research.php?rid=10#h12",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "COILOPT++",
+    "organization": "Princeton Plasma Physics Laboratory (PPPL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://theory.pppl.gov/research/TheoryCodeLicenseReleaseForm.pdf",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://theory.pppl.gov/research/research.php?rid=10#h12",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Princeton Plasma Physics Laboratory (PPPL)"
+    ]
+}

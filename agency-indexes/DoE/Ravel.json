@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Ravel is a tool for analyzing and visualizing parallel execution traces. It deduces a logical structure of parallel program events from the trace records and calculates comparative metrics. It displays the results of this analysis using multiple views at varying levels of detail to allow interactive exploration of the trace.",
+    "laborHours": 12555.2,
+    "name": "Ravel",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.1",
+                "name": "GPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/scalability-llnl/Ravel",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

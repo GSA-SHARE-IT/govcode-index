@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-05-22",
+        "metadataLastUpdated": "2025-03-26"
+    },
+    "description": "The software was developed for the purpose of Microgrid Controller Procurement where multiple Microgrid Controller vendors were competing to prove the best performance. Each microgrid controller was connected to Real-Time Simulator (Opal-RT) where the Real-Time model of microgrid was simulated. Microgrid controllers were able to control most of the assets in the model. To be able to fairly compare controller's performance each controller was evaluated using exactly the same model, with the same initial conditions and exactly the same test sequence.\n\nThe microgrid evaluation test sequence lasted 100 minutes and consist of various grid disturbances to which a microgrid controller must respond. The microgrid and power system will experience multiple types of disturbances while performing dispatch functions.  Many functions are tested in grid-connected and islanded modes such as unexpended failures of generators, energy storage trip events, and large load fluctuations. The test sequence focuses on fault scenarios that cause the highest short-circuit fault current contribution; force a swing bus or generator capable of being a swing bus offline; cause the most reconfigurations; and cause conflicting objectives for the microgrid controller. \n\nDuring the test sequence execution multiple datapoints are being recorded and stored. During data postprocessing key performance parameters are extracted allowing quantitative comparison of performance on multiple aspects including: resiliency, fuel utilization, grid interconnection, ancillary services and power quality and eventually after summing all key performance parameters by comparing the overall result.\n\nTo be able to perform such testing multiple tools had to be developed included in this repository including:\n- Real time model of microgrid (Urban-Banshee, Remote-smaller model)\n- Test sequence configuration tools\n- Test execution real-time scripts\n- Post processing scripts\n- Human Machine Interface software",
+    "homepageURL": "https://github.com/PowerSystemsHIL/EPHCC/tree/NREL_merge",
+    "laborHours": 242196.8,
+    "languages": [],
+    "name": "GHOST (Grid Hardware Open Source Testbed) [SWR-18-32]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PowerSystemsHIL/EPHCC/tree/NREL_merge",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

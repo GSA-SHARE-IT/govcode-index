@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The INDDGO software package offers a set of tools for finding exact solutions to graph optimization problems via tree decompositions and dynamic programming algorithms. Currently the framework offers serial and parallel (distributed memory) algorithms for finding tree decompositions and solving the maximum weighted independent set problem. The parallel dynamic programming algorithm is implemented on top of the MADNESS task-based runtime.",
+    "laborHours": 60830.4,
+    "name": "Integrated Network Decompositions and Dynamic Programming for Graph Optimization (INDDGO)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/bdsullivan/INDDGO",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

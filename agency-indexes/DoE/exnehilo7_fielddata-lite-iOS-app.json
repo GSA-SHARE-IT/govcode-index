@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "martins@ornl.gov"
+    },
+    "date": {
+        "created": "2024-09-12",
+        "metadataLastUpdated": "2024-09-19"
+    },
+    "description": "Field Expedition Routing and Navigation (FERN) is an IOS app funded by the Center for Bioenergy Innovation (CBI).  It allows an end user to make trips to collect novel data points. It allows user to return to previously surveyed points to collect more data. It calculates the optimal route to use to sample points needed for return trips.  A companion php/database application is required for full functionality. Links to this open source project are in the README.  FERN can use the default GPS on an Iphone but it also optimized for Arrow Gold GPS. Other external GPS could be supported by modifying this code and adding the proper routines.",
+    "laborHours": 2097.6,
+    "languages": [
+        "Swift"
+    ],
+    "name": "exnehilo7/fielddata-lite-iOS-app",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/exnehilo7/fielddata-lite-iOS-app",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

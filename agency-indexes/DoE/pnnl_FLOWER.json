@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-05-18",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Network FLOW analyzER - Network bi-directional deep packet header inspection. This software is designed to generate custom network flow records by monitoring bi-directional traffic from a span port, tap or other source. This function is independent of proprietary hardware or software solutions. This tool solves the problem of existing COTS solutions being either too complex or too slow.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/FLOWER",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/FLOWER",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

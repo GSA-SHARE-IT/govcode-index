@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jacob@anl.gov"
+    },
+    "date": {
+        "created": "2021-03-08",
+        "metadataLastUpdated": "2021-03-09"
+    },
+    "description": "v1.2.0 used for v1 Cryosphere Science Campaign\n\nThis release is on the maint-1.2 branch which was branched from master on Feb 25, 2019 (7a3e32d6a), and is the code base for the Cryosphere Science Campaign\nv1 simulations. This includes modified v1 versions of the atmosphere (EAM), land model (ELM), ocean (MPAS-Ocean), sea ice (MPAS-Seaice), and land ice (MALI). A key feature of the E3SM v1 Cryosphere simulations is the inclusion of Antarctic ice shelf cavities in the ocean domain.  This allows the calculation of ice shelf basal melt rates, with a static ice shelf geometry. Another distinction between standard E3SM configurations and Cryosphere configurations is the inclusion of prescribed iceberg fluxes (using gridded monthly climatology data from Merino et al 2016). To account for the explicit representation of Antarctic mass fluxes to the ocean through prognostic basal melting and prescribed icebergs, standard representations of runoff from Antarctica, both solid and liquid, are disabled.\n\nDifferences from v1.0 DECK simulations include all of those listed in the v1.1.0-beta tag. Additional differences from the v1.1 BGC simulations are listed in the v1.2.0-beta tag.",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "C",
+        "Fortran"
+    ],
+    "name": "Energy Exascale Earth System Model v1.2.0",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/E3SM/releases/tag/v1.2.0",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git",
+    "version": "v1.2.0"
+}

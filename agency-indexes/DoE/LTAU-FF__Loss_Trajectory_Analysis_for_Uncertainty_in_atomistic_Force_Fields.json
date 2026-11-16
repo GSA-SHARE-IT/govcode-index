@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-08-08",
+        "metadataLastUpdated": "2024-09-12"
+    },
+    "description": "LTAU (Loss Trajectory Analysis for Uncertainty) is a technique for estimating the uncertainty in a model's\npredictions for any regression task by approximating the cumulative distribution function (CDF) of the\nmodel's errors over the course of training. The approximated CDF, combined with a similarity search\nalgorithm in the model's descriptor space, can then be used to estimate the likelihood that the model's\npredictions on any given test point will fall below a chosen threshold. LTAU-FF (LTAU in atomistic Force\nFields) is the application of LTAU specifically for use with atomistic force fields.",
+    "laborHours": 896.8,
+    "languages": [],
+    "name": "LTAU-FF: Loss Trajectory Analysis for Uncertainty in atomistic Force Fields",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ltau-ff",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

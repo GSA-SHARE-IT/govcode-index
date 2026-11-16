@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-27",
+        "metadataLastUpdated": "2021-05-27"
+    },
+    "description": "PSL is a software framework for localizing radiation point sources in a 3D environment using a freely moving radiation detector system. The framework assumes a single point source of radiation is in the environment and uses known detector positions and orientations along with their radiation measurements to find the most likely location of the point source. This approach to the problem enables analyses that improve upon the capability of a standard Maximum Likelihood Expectation Maximization (MLEM) approach, such as setting a source detection threshold, finding a likelihood interval for the position of the source, finding a likelihood interval for the activity (intensity) of the source, determining whether more than one point source may be present, and generating a map of Minimum Detectable Activity (MDA) for a given source type. Applications include radiological and nuclear security, consequence management, decontamination and decommissioning of nuclear facilities, and radiological emergency response.",
+    "homepageURL": "https://gitlab.com/lbl-anp/ipo/psl",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Point Source Likelihood Framework (psl) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://gitlab.com/lbl-anp/ipo/psl",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://gitlab.com/lbl-anp/ipo/psl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

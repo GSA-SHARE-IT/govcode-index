@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-03-24",
+        "metadataLastUpdated": "2023-07-11"
+    },
+    "description": "PVwindow simulates photovoltaic window properties by allowing the user build stacks of thin film materials that compose the window layers. The only needed inputs are the complex refractive indices and thicknesses of the materials. The software will simulate the optical transmission, front reflection, and back reflection of the stack using the transfer matrix method. Properties specific to PV window optics such as visible transmittance and color are also calculated. The optics code extracts the number of absorbed photons in the PV absorber layer and solves the single diode equation to yield theoretical photovoltaic metrics such as power conversion efficiency, fill factor, open circuit voltage, and short circuit current of the PV window when illuminated at an arbitrary angle or from either side of the stack. The software tool ultimately allows researchers to design photovoltaic windows and simulate their properties. The software also exports files that can be read into LBL Window software or into the EnergyPlus and Open Studio building energy modeling software to determine larger scale energy impacts of PV window integration.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "PVwindow (Photovoltaic Window Simulator) [SWR-22-01]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/PVwindow",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

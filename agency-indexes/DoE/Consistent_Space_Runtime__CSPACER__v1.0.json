@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-29",
+        "metadataLastUpdated": "2021-03-31"
+    },
+    "description": "This software provides a runtime for communication-bound applications, especially with irregular communication patterns. The target programming abstraction for the runtime is the space consistency model, which defines consistency guarantees at the granularity of memory spaces. This model has relaxed consistency semantics that enables a wide range of runtime optimizations. The runtime leverages threading to accelerate communication primitives, especially collective operations. It also allows efficient pipelining of communication operations and enable constructing a consistent state of multiple unordered communication activities targeting a memory space. The runtime uses a reduced API design that decomposes complex communication primitives in traditional general-purpose runtime into a sequence of simpler steps.\n\nTo improve the productivity of using this runtime, we provide communication patterns commonly used for regular scientific computing applications and irregular data analytics. These communication patterns offer skeletons for the integration with application computation to allow efficient overlap.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Consistent Space Runtime (CSPACER) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

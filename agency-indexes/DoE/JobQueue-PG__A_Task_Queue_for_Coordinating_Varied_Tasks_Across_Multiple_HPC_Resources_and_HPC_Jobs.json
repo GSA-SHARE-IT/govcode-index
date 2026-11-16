@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-05-19",
+        "metadataLastUpdated": "2022-06-15"
+    },
+    "description": "The software allows for queueing and dispatch of tasks of small, varied, or uncertain runtimes across multiple HPC jobs, resources, and other computing systems. The software was designed to allow scientists to enqueue, run, and accumulate results from computational experiments in an efficient, manageable manner. For example, the software can be used to enqueue many small computational experiments and run them using several long-running multi-node HPC jobs that may or may not run simultaneously.",
+    "laborHours": 0.0,
+    "languages": [
+        "python"
+    ],
+    "name": "JobQueue-PG: A Task Queue for Coordinating Varied Tasks Across Multiple HPC Resources and HPC Jobs",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/E-Queue-HPC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

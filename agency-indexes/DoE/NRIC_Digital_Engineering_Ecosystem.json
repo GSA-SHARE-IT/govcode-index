@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-02-05",
+        "metadataLastUpdated": "2023-03-13"
+    },
+    "description": "The NRIC Digital Engineering Ecosystem is a software suite designed to eliminate procedural failures in the engineering lifecycle of complex projects. It focuses on improving the flow of scheduling data, safety information, engineering requirements, and CAD files among stakeholders of complex engineering projects. The project comprises software adapters that move engineering data from disparate software tools in and out of a central database. The ecosystem is designed to efficiently incorporate data sources from many different engineering toolsets, making it software agnostic, and adaptable to many different engineering applications.",
+    "laborHours": 0.0,
+    "languages": [
+        "JavaScript"
+    ],
+    "name": "NRIC Digital Engineering Ecosystem",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/IDEAS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

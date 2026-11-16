@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-07-27",
+        "metadataLastUpdated": "2020-07-27"
+    },
+    "description": "mpibind is a memory-driven algorithm to map parallel hybrid applications to the underlying hardware\nresources transparently, efficiently, and portably. There are two fundamental aspects of this algorithm.\nFirst, unlike existing mappings, its primary design point is the memory system. Compute elements are\nselected based on the identified memory components and not vice versa. Second, it embodies a global\nawareness of hybrid programming abstractions as well as heterogeneous devices.",
+    "laborHours": 23590.4,
+    "languages": [],
+    "name": "A memory-driven mapping algorithm for heterogeneous systems",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/mpibind",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

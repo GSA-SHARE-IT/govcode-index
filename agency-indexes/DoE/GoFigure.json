@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-07",
+        "metadataLastUpdated": "2021-07-07"
+    },
+    "description": "GoFigure is a code repository for a set of tools for the analysis and retrieval of technical images, or figures, such as drawings and plots. The goal of these tools is to automate the understanding of technical content contained in scientific images. Computer vision algorithms are automating the analysis of content in images and these tools will extend these innovations for images of scientific content. GoFigure includes tools for analyzing the context, topology and shape information in images, as well as graph-based matching algorithms for fast retrieval of similar images. These components are written in Python, a high-level programming language that takes advantage of the Python eco-system of high-quality open-source packages for computer vision, graph algorithms and machine learning.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GoFigure",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/GoFigure-LANL/GoFigure",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

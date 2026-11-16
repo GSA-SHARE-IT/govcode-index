@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2021-02-25",
+        "metadataLastUpdated": "2023-06-01"
+    },
+    "description": "The software provides database access and analysis code for project ATHENA data. In particular, it provides (1) access to the AWS RDS database and (2) supporting code for analysis. Additionally, the software contains all the code related to modeling the Dallas-Fort Worth International Airport (DFW) curbside (CTA modeling) using SUMO simulator. It demonstrates how to install, run and derive useful data from SUMO simulations. We will describe the basic files needed to run a simulation and how those files are generated. The software also has code for generating simulations representing different traffic management policies for DFW and simulating those policies on personal computer or on NREL's Eagle supercomputer. The examples provided are a representation of the DFW airport for curbside dropoff and and pickup.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "Python"
+    ],
+    "name": "Athena - Digital Twin and Infrastructure Model [SWR 20-106]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/athena-forecast",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

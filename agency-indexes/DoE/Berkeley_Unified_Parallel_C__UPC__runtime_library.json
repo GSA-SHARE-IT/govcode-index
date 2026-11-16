@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-08-31",
+        "metadataLastUpdated": "2018-09-04"
+    },
+    "description": "This software comprises a portable, open-source implementation of a runtime library to support applications written in the Unified Parallel C (UPC) language. This library implements the UPC-specific functionality, including shared-memory allocation and distributed locks. The network-dependent functionality is implemented as a thin wrapper around the separate GASNet (Global-Address Space Networking) library, which is required for operation. This software implements the \"Berkeley UPC Runtime Specification\", which is targeted by at least four separate UPC compiler front-ends. The implementation is highly portable and runs over hardware ranging from laptops to custom supercomputers. An external library is required for certain local memory allocation operations; a well-defined interface allows for multiple implementations of this library, but at present the \"umalloc\" library from LBNL is the only compatible implementation.",
+    "laborHours": 91230.4,
+    "languages": [],
+    "name": "Berkeley Unified Parallel C (UPC) runtime library",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/upc-runtime",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

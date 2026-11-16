@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-07-17",
+        "metadataLastUpdated": "2019-04-22"
+    },
+    "description": "This software package is the Graphic User Interface (GUI) software component for the Sensor Suitcase Retro-Commissioning project, which is a sensor and analysis system to support monitoring-based retro-commissioning of small commercial buildings, performed by non-experts. \n\nSmall commercial buildings typically do not have the budgets or business economics to allow investing in energy efficiency enhancements the building retro-commissioning provides. In addition, they do not have in-house staff with expertise in building systems who can perform building retro-commissioning or identify energy efficiency improvement opportunities. \n\nThe solution to this problem is to develop a turn-key hardware/software solution (the RCx Sensor Suitcase) that can be used by non-experts to automatically generate low and no-cost energy efficiency rec commendations that will improve building operating costs, occupant comfort and building energy performance. \n\nThis is a joint project between Lawrence Berkeley National Laboratory, leading the development of the software and analysis elements, and Pacific Northwest National Laboratory (PNNL), leading the development of the hardware and sensor elements with an associated table-based configuration support tool. The project is funded by the U.S. Department of Energy. \n\nThis software package was developed as a proof-of-concept prototype for the sensor suitcase software component. The software component was developed with a Microsoft Excel spreadsheet which reads the sensor data and calls a MATLAB DLL to analyze the sensor data.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Retro-Commissioning Sensor Suitcase",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2019-09-30",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "Software is a workflow management system designed to capture documents and route for compliance and peer reviews. Software does not in itself contain any technical information but is used as a business system to manage and release information from a research organization.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Laboratory Review System/Scientific OSTI Release Tool",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabUnsupported/LRS_SORT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

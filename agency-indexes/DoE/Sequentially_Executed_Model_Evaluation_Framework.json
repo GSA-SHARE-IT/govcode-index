@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-26"
+    },
+    "description": "Provides a message passing framework between generic input, model and output drivers, and specifies an API for developing such drivers. Also provides batch and real-time controllers which step the model and 1/0 through the time domain (or other discrete domain), and sample 1/0 drivers. This is a Framework library framework, and does not, itself, solve any problems or execute any modelling. The SeMe framework aids in development of models which operate on sequential information, such as time-series, where evaluation is based on prior results combined with new data for this iteration. Ha) applications in quality monitoring, and was developed as part of the CANARY-EDS software, where real-time water quality data is being analyzed",
+    "laborHours": 4772.8,
+    "languages": [
+        "Java",
+        "Perl",
+        "HTML",
+        "TeX"
+    ],
+    "name": "Sequentially Executed Model Evaluation Framework",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/seme-framework",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

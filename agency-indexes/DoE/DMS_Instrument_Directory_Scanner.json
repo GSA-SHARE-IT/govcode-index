@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This program examines the source folder on instrument computers to find files and folders. It creates a tab-delimited text file for each instrument, listing the names of the files and folders found. The text files for the instruments are stored in a central location, and are made made visible via the DMS website to allow instrument operators to see the instrument data files on the instrument computer.",
+    "laborHours": 760.0,
+    "languages": [],
+    "name": "DMS Instrument Directory Scanner",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/DMS-Instrument-Directory-Scanner",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-07",
+        "metadataLastUpdated": "2021-03-07"
+    },
+    "description": "Buildtest is used on Cori system to run regression test, there is a Cori test suite at https://github.com/buildtesters/buildtest-cori that leverages buildtest to run the tests.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "buildtest v0.9.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/buildtesters/buildtest",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "v.0.9.1"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-11-20",
+        "metadataLastUpdated": "2019-09-23"
+    },
+    "description": "Software to provide fluid properties, including thermodynamic relationships, transport properties and reaction kinetics, for computational fluid dynamics packages.",
+    "laborHours": 2114760.8,
+    "languages": [],
+    "name": "PelePhysics v2.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AMReX-Combustion/PelePhysics",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

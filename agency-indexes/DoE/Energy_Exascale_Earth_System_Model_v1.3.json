@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jacob@anl.gov"
+    },
+    "date": {
+        "created": "2021-09-24",
+        "metadataLastUpdated": "2021-09-24"
+    },
+    "description": "This version used only for additional G-cases in the v1 Cryosphere campaign. MPAS-Ocean: Update MPAS-source to GM varying, add namelist options for 3D varying GM bolus Kappa Flags are added to enable the 3D varying GM bolus Kappa, it is enabled by default and is on whenever the GM parameterization is on. Output of kappaGM3D and the phase speed are added to monthly history as well Differences from v1.2 simulations include above and all of those listed in the v1.3.0-beta tag.",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "C",
+        "Fortran"
+    ],
+    "name": "Energy Exascale Earth System Model v1.3",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/E3SM/releases/tag/v1.3.0",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git",
+    "version": "v1.3.0"
+}

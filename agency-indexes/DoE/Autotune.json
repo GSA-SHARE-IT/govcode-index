@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The Autotune software code uses an island-based evolutionary algorithm to solve multi-objective optimization problems. For the code provided, this has been applied to the whole-building simulation engine EnergyPlus to allow a software description of a building to be calibrated to measured data.",
+    "laborHours": 7068.0,
+    "name": "Autotune",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ORNL-BTRIC/Autotune/blob/master/LICENCE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-BTRIC/Autotune",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

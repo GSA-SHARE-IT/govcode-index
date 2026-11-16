@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-10-05",
+        "metadataLastUpdated": "2018-10-05"
+    },
+    "description": "Tracknodes keeps a history of node state and comment changes. It allows system administrators of HPC systems to determine when nodes were down and discover trends such as recurring issues. Supports Torque, PBSpro and has limited support for SLURM.\n",
+    "laborHours": 486.4,
+    "languages": [],
+    "name": "Tracknodes",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/tracknodes",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

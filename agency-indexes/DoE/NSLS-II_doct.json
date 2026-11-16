@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "pgarvey@bnl.gov"
+    },
+    "date": {
+        "created": "2019-07-02",
+        "metadataLastUpdated": "2019-07-02"
+    },
+    "description": "A read-only dottable dictionary. Document is a light-weight sub-class of the built in dict which is read only, has . (getattr) access, and knows it's _name. ",
+    "laborHours": 121.6,
+    "languages": [],
+    "name": "NSLS-II/doct",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NSLS-II/doct/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NSLS-II/doct",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

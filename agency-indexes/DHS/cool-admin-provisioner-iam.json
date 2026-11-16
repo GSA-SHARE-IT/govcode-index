@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2022-10-14",
+        "lastModified": "2026-04-09"
+    },
+    "description": "Manage IAM permissions for users who provision all COOL environments (not just assessment environments)",
+    "downloadURL": "https://api.github.com/repos/cisagov/cool-admin-provisioner-iam/downloads",
+    "homepageURL": "https://github.com/cisagov/cool-admin-provisioner-iam",
+    "laborHours": 710.8,
+    "languages": [
+        "Shell",
+        "HCL"
+    ],
+    "name": "cool-admin-provisioner-iam",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/cool-admin-provisioner-iam.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

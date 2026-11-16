@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-12",
+        "metadataLastUpdated": "2024-06-12"
+    },
+    "description": "This software allows to analyze XRF maps, XFS spectra and XAS spectra collected at the Advanced Light Source's Beamline 10.3.2.\n\nFeatures include:\n1) XRF maps:\n- process XRF maps, all elemental maps are saved as bmp automatically and labeled with the incident energy used, the scale bar is also labeled and can be controlled.\n- XRF elemental correlation plots, save the correlation plots automatically\n- Extract single or multiple transects in XRF maps on one or several regions of interest, each transect profile is numbered and saved in a corresponding folder, along with the corresponding maps showing transect location.\n\n2) XFS spectra\n- save in log10 scale the XFS spectra, either a single or multiple files all at once. The files are saved as .bmp.\n- XFS spectra are labeled according to tabulated fluorescence emission lines.\n\n3) XAS spectra\n- allows to plot individual scalers in the raw data.\n- allows calibration of the spectra using an Io internal glitch present in all spectra and performing 1st derivative.\n- Least-square linear combination fitting of XANES or extended XANES spectra using a database of standards using 1, 2 or 3 components maximum. It also provides the 5 top combinations and provide the user for the possibility of saving the 2nd, 3rd, 4th and 5th best combinations in addition to the best one. The processed spectra (pre-edge background substracted, post-edge normalized), the fits and residuals are automatically saved.\nA table of the component, with fit% and SSN is provided and saved automatically as well.",
+    "laborHours": 16400.8,
+    "languages": [],
+    "name": "XRF-XFS-XAS-Auto v1.0 - Beta release",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/als-computing/bl1032",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-28"
+    },
+    "description": "Modern cosmology and plasma physics codes are now capable of simulating trillions of particles on petascale systems. Each timestep output from such simulations is on the order of 10s of TBs. Summarizing and visualizing raw particle data is challenging, and scientists often focus on density structures, whether in the real 3D space, or a high-dimensional phase space. In this work, code was developed for reading 10s of terabytes of data and for writing the resultant cluster IDs for each particle. This code will be part of a highly scalable version of the clustering algorithm DBSCAN, and apply it to the largest datasets produced by state-of-the-art codes. The overall function of BD-CATS (Big Data Clustering at Trillion Particles Scale) is to perform end-to-end analysis: loading the data, dynamic partitioning, computing kdtrees, performing clustering analysis, and storing the results. BD-CATS-IO provides the functionality of loading the data and storing the results.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "BD-CATS-IO",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/hpc-io/BD-CATS-IO/blob/main/license.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hpc-io/BD-CATS-IO",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

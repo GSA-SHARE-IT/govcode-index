@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-14",
+        "metadataLastUpdated": "2023-08-11"
+    },
+    "description": "MPICH is a high-performance and widely portable implementation of the MPI-4 standard from the Argonne National Laboratory. This release has all MPI 4 functions and features required by the standard with the exception of support for the user-defined data representations for I/O.",
+    "laborHours": 425797.6,
+    "languages": [],
+    "name": "MPICH",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/pmodels/mpich/blob/main/COPYRIGHT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pmodels/mpich",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

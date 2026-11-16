@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-01-09",
+        "metadataLastUpdated": "2019-03-25"
+    },
+    "description": "AIMFAST is a software code used to align facets on a dish or heliostat solar concentrator to a specific aimpoint strategy to minimize peak fluxes and maximize system optical performance. AIMFAST uses a large monitor or projection screen to display fringe patterns, and a machine vision camera to image the reflection of these patterns in the subject dish mirrors. From these images, a detailed map of surface normals can be generated and compared to design or fitted mirror shapes. This fitted comparison is then used to develop a single vector representing the orientation of the facets relative to the design orientation and provide near-real-time adjustment information to a communicating computer. The communicating computer can display adjustments or directly interface with adjustment tools. ",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 4879.2,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "Alignment Implementation for Manufacturing using Fringe Analysis Slope Technique (AIMFAST) 2018.11.20",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "version": "2018.11.20"
+}

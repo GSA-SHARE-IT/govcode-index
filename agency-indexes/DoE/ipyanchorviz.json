@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stewartsl@ornl.gov"
+    },
+    "date": {
+        "created": "2022-11-28",
+        "metadataLastUpdated": "2022-11-28"
+    },
+    "description": "ipyanchorviz is a novel method for viewing and sorting textual snippets using concept anchors. The component includes a circular display with textual snippets embedded in the center. Snippets respond to user defined concept anchors around the ring based on their affinity with the concept. It is implemented in the ipywidget ecosystem. As an ipywidget, this visualization is a first class citizen in the Jupyter ecosystem and can easily be used by researchers.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ipyanchorviz",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/ipyanchorviz",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

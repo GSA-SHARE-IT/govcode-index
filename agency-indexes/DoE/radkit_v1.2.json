@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-09-08",
+        "metadataLastUpdated": "2021-09-08"
+    },
+    "description": "The radkit software suite (python) consists of three primary libraries: stark, trajan, and curie. The trajan library provides the tools to analyze and manipulate data from lidar and inertial measurement unit (IMU) devices as well as trajectories from algorithms such as simultaneous localization and mapping (SLAM). These components allow reading and writing standard data formats, performing rigid affine transformations, discretizing three-dimensional space, and visualizing data products. The curie library comprises a standard set of object-oriented tools for radiation data and analysis in the following modules: (1) listmode and binmode data classes with methods for manipulation, plotting, slicing and file IO; (2) radiological/nuclear source detection/identification analysis results; (3) source encounters of correlated analyses and (4) energy-dependent angular detector response functions. The stark package provides low-level tools that are leveraged by both curie and trajan. The tools are flexible for offline analysis as well as performant for real-time integrations. The radkit libraries have associated Robot Operating System packages for use in real-time and robotic systems.",
+    "homepageURL": "https://sites.google.com/lbl.gov/2021-084/landing-page",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "radkit v1.2",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://sites.google.com/lbl.gov/2021-084/landing-page",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://sites.google.com/lbl.gov/2021-084/landing-page",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

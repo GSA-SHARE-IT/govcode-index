@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The TOX (Tomcat Oracle & XML) web archive is a foundation for development of HTTP-based applications using Tomcat (or some other servlet container) and an Oracle RDBMS. Use of TOX requires coding primarily in PL/SQL, JavaScript, and XSLT, but also in HTML, CSS and potentially Java. Coded in Java and PL/SQL itself, TOX provides the foundation for more complex applications to be built.",
+    "laborHours": 714.4,
+    "name": "Tomcat, Oracle & XML Web Archive",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/tox",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

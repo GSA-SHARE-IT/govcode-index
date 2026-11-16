@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "pieper@ameslab.gov"
+    },
+    "date": {
+        "created": "2024-06-19",
+        "metadataLastUpdated": "2024-06-19"
+    },
+    "description": "We introduce HTESP (High-Throughput Electronic Structure Package), an automated tool designed for high-throughput ab initio calculations. HTESP simplifies the entire workflow, including data extraction, input files generation, calculation submission, result collection, and plotting. The package is implemented in Python and Bash languages. In this paper, we provide detailed information about the package, its installation process and some illustrative examples to demonstrate its usage. Additionally, the package includes comprehensive online documentation on input parameters and tutorials to assist users.",
+    "laborHours": 14060.0,
+    "languages": [
+        "Bash",
+        "Python"
+    ],
+    "name": "High-throughput electronic structure package",
+    "organization": "Ames Laboratory (AMES)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Neraaz/HTESP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Ames Laboratory (AMES)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-09-30",
+        "metadataLastUpdated": "2020-10-08"
+    },
+    "description": "ARKode is part of a software family called SUNDIALS: SUite of Nonlinear and Differential/ALgebraic equation Solvers [1]. The ARKode solver library provides an adaptive-step time integration package for stiff, nonstiff and multi-rate systems of ordinary differential equations (ODEs) using Runge Kutta methods [2].",
+    "homepageURL": "https://computation.llnl.gov/projects/sundials",
+    "laborHours": 103025.6,
+    "languages": [],
+    "name": "ARKode, v1.0",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://computation.llnl.gov/projects/sundials",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-05-11",
+        "metadataLastUpdated": "2020-05-11"
+    },
+    "description": "Scanning Electron Microscopy (SEM) images provide a variety of structural and morphological\ninformation for the characterization of the nanomaterials. This code offers automatic recognition and\nquantitative analysis of SEM images in a high-throughput manner using computer vision and machine\nlearning techniques. The main function of this application is to extract particle size and morphology\ninformation of overlapping nanoparticles and core-shell nanostructures in a user friendly interface. The\ncode is written in C++ with QT environment, and has been tested on MacOSX.",
+    "laborHours": 3192.0,
+    "languages": [],
+    "name": "LIvermore SEM image Tools",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/LIST",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.9"
+}

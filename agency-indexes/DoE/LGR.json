@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "awander@sandia.gov"
+    },
+    "date": {
+        "created": "2018-08-24",
+        "metadataLastUpdated": "2020-03-04"
+    },
+    "description": "Provides test-bed for physics on heterogeneous supercomputers.",
+    "laborHours": 15716.8,
+    "languages": [],
+    "name": "LGR",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/SNLComputation/lgrtk",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

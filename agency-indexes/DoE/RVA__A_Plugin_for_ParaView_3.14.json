@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "ryan.morrone@netl.doe.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "RVA is a plugin developed for the 64-bit Windows version of the ParaView 3.14 visualization package. RVA is designed to provide support in the visualization and analysis of complex reservoirs being managed using multi-fluid EOR techniques. RVA, for Reservoir Visualization and Analysis, was developed at the University of Illinois at Urbana-Champaign, with contributions from the Illinois State Geological Survey, Department of Computer Science and National Center for Supercomputing Applications. RVA was designed to utilize and enhance the state-of-the-art visualization capabilities within ParaView, readily allowing joint visualization of geologic framework and reservoir fluid simulation model results. Particular emphasis was placed on enabling visualization and analysis of simulation results highlighting multiple fluid phases, multiple properties for each fluid phase (including flow lines), multiple geologic models and multiple time steps. Additional advanced functionality was provided through the development of custom code to implement data mining capabilities. The built-in functionality of ParaView provides the capacity to process and visualize data sets ranging from small models on local desktop systems to extremely large models created and stored on remote supercomputers. The RVA plugin that we developed and the associated User Manual provide improved functionality through new software tools, and instruction in the use of ParaView-RVA, targeted to petroleum engineers and geologists in industry and research. The RVA web site (http://rva.cs.illinois.edu) provides an overview of functions, and the development web site (https://github.com/shaffer1/RVA) provides ready access to the source code, compiled binaries, user manual, and a suite of demonstration data sets. Key functionality has been included to support a range of reservoirs visualization and analysis needs, including: sophisticated connectivity analysis, cross sections through simulation results between selected wells, simplified volumetric calculations, global vertical exaggeration adjustments, ingestion of UTChem simulation results, ingestion of Isatis geostatistical framework models, interrogation of joint geologic and reservoir modeling results, joint visualization and analysis of well history files, location-targeted visualization, advanced correlation analysis, visualization of flow paths, and creation of static images and animations highlighting targeted reservoir features.",
+    "laborHours": 7220.0,
+    "name": "RVA: A Plugin for ParaView 3.14",
+    "organization": "National Energy Technology Laboratory (NETL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/shaffer1/RVA/blob/master/Copyright.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/shaffer1/RVA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Energy Technology Laboratory (NETL)"
+    ],
+    "vcs": "git"
+}

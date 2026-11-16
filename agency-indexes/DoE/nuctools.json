@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "brownjm@ornl.gov"
+    },
+    "date": {
+        "created": "2021-10-21",
+        "metadataLastUpdated": "2021-10-21"
+    },
+    "description": "Nuctools is a python package designed to provide tools for analysis of nuclear interaction data.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "nuctools",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/brownjm1968/nuctools",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

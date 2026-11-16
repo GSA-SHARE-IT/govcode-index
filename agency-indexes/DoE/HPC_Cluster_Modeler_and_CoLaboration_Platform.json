@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-04",
+        "metadataLastUpdated": "2021-06-04"
+    },
+    "description": "The developed software is an HPC cluster model and collaboration tool which provides the\nfollowing features:\n- Construction of HPC cluster nodes\n- Complex interaction and dependency between HPC cluster nodes\n- Construction of fully software stacks (OS, data base, scheduler, libraries) internal to the\ncluster environment\n- Cluster nodes may be implemented via arbitrary providers (virtual machines, containers)\n- Complex interaction and dependency between HPC node’s software stacks\n- Verification test framework between nodes and their software stacks\nThis is being used for active projects. This is intended to be used to provide consistent, coordinated scenario measurements,\nconfiguration and collaboration among the DoE TriLabs and other USG HPC sites in the\nforeseeable future, to accomplish DoE HPC CCE goals.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "HPC Cluster Modeler and CoLaboration Platform",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hpc/hpc-collab",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

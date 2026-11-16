@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-12-18",
+        "metadataLastUpdated": "2018-12-19"
+    },
+    "description": "The Replicative Assessment of Spectroscopic Equipment (RASE) methodology is a semi-empirical approach to generating synthetic gamma-ray spectra for injection into a radionuclide identification algorithm of a vendor-provided detection system. RASE facilitates studies of the spectroscopic device performance and a quantitative assessment of its capabilities to correctly distinguish and identify isotopes of interest in realistic scenarios.",
+    "laborHours": 4088.8,
+    "languages": [],
+    "name": "RASE OSS",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/RASE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

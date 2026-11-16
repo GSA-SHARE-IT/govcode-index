@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "burtscher@txstate.edu"
+    },
+    "date": {
+        "created": "2024-01-08",
+        "metadataLastUpdated": "2024-01-08"
+    },
+    "description": "LICO is a fast lossless image compressor. It takes BMP files (in 24-bit BMP3 format) as input.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "burtscher/LICO",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/burtscher/LICO",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

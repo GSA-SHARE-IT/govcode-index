@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "PcapDB is a packet capture system designed to optimize the captured data for fast search in the typical (network incident response) use case. The technology involved in this software has been submitted via the IDEAS system and has been filed as a provisional patent. It includes the following primary components: capture: The capture component utilizes existing capture libraries to retrieve packets from network interfaces. Once retrieved the packets are passed to additional threads for sorting into flows and indexing. The sorted flows and indexes are passed to other threads so that they can be written to disk. These components are written in the C programming language. search: The search components provide a means to find relevant flows and the associated packets. A search query is parsed and represented as a search tree. Various search commands, written in C, are then used resolve this tree into a set of search results. The tree generation and search execution management components are written in python. interface: The PcapDB web interface is written in Python on the Django framework. It provides a series of pages, API's, and asynchronous tasks that allow the user to manage the capture system, perform searches, and retrieve results. Web page components are written in HTML,CSS and Javascript.",
+    "laborHours": 194301.6,
+    "name": "PcapDB: Search Optimized Packet Capture, Version 0.1.0.0",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dirtbags/pcapdb",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

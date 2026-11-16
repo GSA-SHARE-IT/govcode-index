@@ -1,0 +1,37 @@
+{
+    "organization": "FSA",
+    "name": "fsa-design-system",
+    "description": "Design System site for USDA Farm Service Agency digital products",
+    "tags": [],
+    "contact": {
+        "email": "source.code@ocio.usda.gov"
+    },
+    "status": "Production",
+    "vcs": "git",
+    "downloadURL": "https://github.com/USDA-FSA/fsa-design-system/archive/master.zip",
+    "repositoryURL": "https://github.com/USDA-FSA/fsa-design-system",
+    "homepageURL": "http://usda-fsa.github.io/fsa-design-system",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://github.com/USDA-FSA/fsa-design-system/blob/gh-pages/LICENSE.md",
+                "name": "CC0"
+            },
+            {
+                "URL": "http://scripts.sil.org/OFL",
+                "name": "SIL Open Font License"
+            },
+            {
+                "URL": "https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "laborHours": 0,
+    "date": {
+        "lastModified": "2019-05-01",
+        "metadataLastUpdated": "2019-06-06"
+    },
+    "disclaimerURL": "https://github.com/USDA-FSA/fsa-design-system/blob/gh-pages/CONTRIBUTING.md"
+}

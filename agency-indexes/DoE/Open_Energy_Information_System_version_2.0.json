@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "OpenEIS was created to provide standard methods for authoring, sharing, testing, using, and improving algorithms for operational building energy efficiency with building managers and building owners. OpenEIS is designed as a no-cost/low-cost solution that will propagate the fault detection and diagnostic (FDD) solutions into the marketplace by providing state- of- the-art analytical and diagnostic algorithms. As OpenEIS penetrates the market, demand by control system manufacturers and integrators serving small and medium commercial customers will help push these types of commercial software tool offerings into the broader marketplace.",
+    "laborHours": 1036123.2,
+    "name": "Open Energy Information System version 2.0",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/VOLTTRON/openeis/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/VOLTTRON/openeis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

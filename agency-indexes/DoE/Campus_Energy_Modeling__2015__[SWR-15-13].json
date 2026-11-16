@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2024-01-25",
+        "metadataLastUpdated": "2024-01-25"
+    },
+    "description": "NREL's Campus Energy Modeling project provides a suite of simulation tools for integrated, data driven energy modeling of commercial buildings and campuses using Simulink. The tools enable development of fully interconnected models for commercial campus energy infrastructure, including electrical distribution systems, district heating and cooling, onsite generation (both conventional and renewable), building loads, energy storage, and control systems.",
+    "laborHours": 3024.8,
+    "languages": [
+        "Java",
+        "MATLAB",
+        "HTML"
+    ],
+    "name": "Campus Energy Modeling (2015) [SWR-15-13]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/CampusEnergyModeling",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "0.2.1"
+}

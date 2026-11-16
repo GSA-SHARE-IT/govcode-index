@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-09",
+        "metadataLastUpdated": "2021-06-15"
+    },
+    "description": "SSHProxy is a service that generates and manages ssh keys. This service can be used to allow a user to create an sshkey and then use that for a period of time defined by a configuration file. The service also supports custom \"scopes\" that can be used to allow longer lived keys under certain conditions. The service also supports using SSH certificates for signing the keys.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SSH Proxy (sshproxy) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/nersc/sshproxy",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "v1.0"
+}

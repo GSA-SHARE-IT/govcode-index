@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "velliquettet@ornl.gov"
+    },
+    "date": {
+        "created": "2020-11-03",
+        "metadataLastUpdated": "2021-02-08"
+    },
+    "description": "The File-level Metadata (FLMD) parser is a lightweight python script that can produce a summary of fields based on column headers within a Comma-separated Values (CSV) file. The script enables a way to extract certain metadata fields from CSV data files. An optional configuration file can be used to select specific column headers to extract a smaller subset of values. The script can be used on a single file, or it can be given a directory to process groups of files in bulk. The FLMD parser outputs the metadata as a JSON and can be configured to updated the source file or produce an external companion file.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "ESS-DIVE File Level Metadata Extractor",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://code.ornl.gov/ngee-arctic/ess-dive-meta",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/ngee-arctic/ess-dive-meta",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ndbrook@sandia.gov"
+    },
+    "date": {
+        "created": "2018-04-12",
+        "metadataLastUpdated": "2020-11-02"
+    },
+    "description": "ExaMiniMD is a proxy application for Molecular Dynamics (MD) codes such as LAMMPS. Its intend is to facilitate research and development on MD algorithms in particular in the context of CoDesign efforts with hardware vendors. Currently, ExaMiniMD implements a basic Lennard Jones two body potential as well as the SNAP many body potential, both of which are available in LAMMPS. It also includes basic neighbor list builds as well as constant energy integration as found in LAMMPS and other MD codes. A feature not generally available in other MD codes is a set of statistical correctness checks which will help other developers judge whether changes to the code still give correct answers. ExaMiniMD is using the Kokkos programming model to achieve performance portability and is able to run across all major HPC platforms (GPUs, ManyCore, CPUs).",
+    "laborHours": 3389.6,
+    "languages": [],
+    "name": "ECP-copa/ExaMiniMD",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ecp-copa/examinimd",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

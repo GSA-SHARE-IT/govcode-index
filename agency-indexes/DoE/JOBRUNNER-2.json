@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2023-08-18",
+        "metadataLastUpdated": "2023-08-21"
+    },
+    "description": "SF-23-071\nJobrunner is a command line tool to manage and deploy computing jobs, organize complex workloads, and enforce a\ndirectory based hierarchy to enable reuse of files and bash scripts within a project. Organization details of a directory\ntree are encoded in Jobfiles which serve as an index of files/scripts, and indicate their purpose when deploying or\nsetting up a job. It is a flexible tool that allows users to design 16 their own directory structure, perserve their design,\nand maintain 17 consistency with increase in complexity of the project.\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "JOBRUNNER",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/akashdhruv/Jobrunner",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

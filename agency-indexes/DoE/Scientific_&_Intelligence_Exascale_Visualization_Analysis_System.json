@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "SIEVAS provides an immersive visualization framework for connecting multiple systems in real time for data science. SIEVAS provides the ability to connect multiple COTS and GOTS products in a seamless fashion for data fusion, data analysis, and viewing. It provides this capability by using a combination of micro services, real time messaging, and web service compliant back-end system.",
+    "laborHours": 15929.6,
+    "languages": [],
+    "name": "Scientific & Intelligence Exascale Visualization Analysis System",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/SIEVAS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

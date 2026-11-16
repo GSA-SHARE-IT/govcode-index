@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "RECONCILE is a noun phrase conference resolution system: it identifies noun phrases in a text document and determines which subsets refer to each real world entity referenced in the text. The heart of the system is a combination of supervised and unsupervised machine learning systems. It uses a machine learning algorithm (chosen from an extensive suite, including Weka) for training noun phrase coreference classifier models and implements a variety of clustering algorithms to coordinate the pairwise classifications. A number of features have been implemented, including all of the features employed in Ng & Cardie [2002].",
+    "laborHours": 144856.0,
+    "name": "RECONCILE: a machine-learning coreference resolution system",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/davidbuttler/reconcile",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

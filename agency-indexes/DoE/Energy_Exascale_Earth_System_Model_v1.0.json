@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jacob@anl.gov"
+    },
+    "date": {
+        "created": "2018-04-18",
+        "metadataLastUpdated": "2020-08-25"
+    },
+    "description": "\nE3SM is a state-of-the-art fully coupled model of the Earth's climate including important biogeochemical and cryospheric processes. It is intended to address the most challenging and demanding climate-change research problems and DOE mission needs while efficiently using DOE Leadership Computing Facilities. ",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "C",
+        "Fortran"
+    ],
+    "name": "Energy Exascale Earth System Model v1.0",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/E3SM/releases/tag/v1.0.0",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git",
+    "version": "v1.0"
+}

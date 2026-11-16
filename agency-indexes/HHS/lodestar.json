@@ -1,0 +1,41 @@
+{
+    "name": "lodestar",
+    "description": "Linked Data explorer and SPARQL endpoint",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache License 2.0"
+            }
+        ]
+    },
+    "organization": "Department of Health and Human Services",
+    "homepageURL": "https://github.com/HHS/lodestar",
+    "downloadURL": "https://api.github.com/repos/HHS/lodestar/downloads",
+    "repositoryURL": "https://github.com/HHS/lodestar.git",
+    "vcs": "git",
+    "laborHours": 0.0,
+    "languages": [
+        "JavaScript",
+        "Java",
+        "CSS",
+        "HTML",
+        "Dockerfile"
+    ],
+    "date": {
+        "created": "2014-09-19",
+        "lastModified": "2021-12-21",
+        "metadataLastUpdated": "2022-03-22"
+    },
+    "tags": [
+        "explorer",
+        "SPARQL",
+        "endpoint"
+    ],
+    "contact": {
+        "email": "HHS_GitHub_Service_Desk@hhs.gov",
+        "name": "U.S. Department of Health & Human Services"
+    }
+}

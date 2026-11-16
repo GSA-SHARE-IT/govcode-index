@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "CoMet is an application for finding epistatic and pleiotropic relationships from large quantities of genomic data. It solves these large combinatorial problems on GPU-accelerated systems with thousands of compute nodes.  Its methods include the 2-way Proportional Similarity method, the Custom Correlation Coefficient and the DUO method.  CoMet was developed at the Oak Ridge Leadership Computing Facility in collaboration with the Computational Biology and Bioinformatics Group at Oak Ridge National Laboratory.",
+    "laborHours": 18361.6,
+    "languages": [
+        "GNU C++, NVIDIA NVCC"
+    ],
+    "name": "CoMet",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/wdj/comet",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

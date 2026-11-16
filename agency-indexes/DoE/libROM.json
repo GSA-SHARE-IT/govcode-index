@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-04-08",
+        "metadataLastUpdated": "2019-04-08"
+    },
+    "description": "libROM is a collection of C++ classes that compute reduced order models and hyperreduced order models for systems of ordinary differential equations. libROM includes parallel, adaptive methods for proper orthogonal decomposition, and parallel, non-adaptive methods for hyperreduction using the discrete empirical interpolation method.",
+    "laborHours": 16887.2,
+    "languages": [],
+    "name": "libROM",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/libROM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

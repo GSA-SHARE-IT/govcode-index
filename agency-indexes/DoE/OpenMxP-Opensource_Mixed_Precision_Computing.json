@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "luh1@ornl.gov"
+    },
+    "date": {
+        "created": "2023-03-15",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "This is an opensource library for benchmarking the system's GPU mixed precision capabilities. The software calculates solution of the system of linear equation in 64bit accuracy using mixed precision techniques and iterative refinement. Original benchmark designed is done by ICL, and it is name HPL-MxP (HPL-AI)",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "C"
+    ],
+    "name": "OpenMxP-Opensource Mixed Precision Computing",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/at-aaims/openMxP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

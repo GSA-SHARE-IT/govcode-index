@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-02-14",
+        "lastModified": "2025-01-14"
+    },
+    "description": "Bash script to help folks update git remote URLs when a GitHub organization changes names",
+    "downloadURL": "https://api.github.com/repos/cisagov/github_org_name_change/downloads",
+    "homepageURL": "https://github.com/cisagov/github_org_name_change",
+    "laborHours": 63.7,
+    "languages": [
+        "Shell"
+    ],
+    "name": "github_org_name_change",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/github_org_name_change.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

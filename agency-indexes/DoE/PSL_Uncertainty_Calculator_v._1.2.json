@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-01-14",
+        "metadataLastUpdated": "2019-01-14"
+    },
+    "description": "The PSL Uncertainty Calculator can be used to determine the total uncertainty of a measurement system. In many measurement applications, the quantity of interest is not measured directly, but computed from a combination of several measured values. While the uncertainty of each measurand is typically straightforward to determine, total uncertainty of the output value requires calculation. This software calculates uncertainty using the framework provided by the Guide to Expression of Uncertainty in Measurements, JCGM100-2008E (GUM), and a Monte Carlo simulation as described by Supplement 1 to the GUM, by providing an easy to use graphical user interface and a Python package for running the calculations.",
+    "laborHours": 19228.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "PSL Uncertainty Calculator v. 1.2",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.1",
+                "name": "GPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/SandiaPSL/SandiaPSL.github.io",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 1.2"
+}

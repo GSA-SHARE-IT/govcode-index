@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2023-04-05",
+        "lastModified": "2026-09-03"
+    },
+    "description": "Ansible Role to install the Admiral for Certificate Transparency scanning",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-admiral/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-admiral",
+    "laborHours": 781.8,
+    "languages": [
+        "Shell",
+        "Python",
+        "Jinja"
+    ],
+    "name": "ansible-role-admiral",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-admiral.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

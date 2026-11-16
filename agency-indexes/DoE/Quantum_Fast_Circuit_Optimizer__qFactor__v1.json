@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-09",
+        "metadataLastUpdated": "2021-06-15"
+    },
+    "description": "Quantum programs are represented as circuits, or sequences of gates. A common problem during quantum compilation to find a circuit that implements a target program. This is an optimizer, it optimizes a circuit's distance to the target by solving for the best fit gates. It is not a standard optimizer, it only optimizes circuits. It is not a compiler or synthesizer, it cannot build circuits, but given a circuit structure, it will solve for the gates. Quantum compilers (qsearch, qfast) use standard numerical optimizers. This has advantages over those general-purpose optimizers since it is domain-specific.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Quantum Fast Circuit Optimizer (qFactor) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/edyounis/qFactor",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

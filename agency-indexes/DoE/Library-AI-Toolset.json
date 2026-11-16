@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-12-13",
+        "metadataLastUpdated": "2024-12-13"
+    },
+    "description": "Collection of tools designed to parse documents, such as PDFs, and extract structured elements including URLs, citation contexts, tables, formulas, and figures. This toolset leverages  AI-based text extraction and classification methods, providing robust solutions for various scholarly resources  processing needs.",
+    "laborHours": 1520.0,
+    "languages": [],
+    "name": "Library-AI-Toolset",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Library-AI-Toolset",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

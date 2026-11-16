@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2023-05-25",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Evaluates the reserve requirements for power system balancing areas based on variability and uncertainty of load as well as wind and solar generation scenarios. The tool uses minute‐by‐minute site‐specific generation and load information, as well as information from generation and load forecasting algorithms used in the balancing areas. The Balancing‐Plan Tool can be used directly by utility planners and operators to aid in the integration of intermittent renewable resources. The tool provides reserve requirements of various kinds, such as day‐ahead, load following and regulation, as well as estimates the capacity of the generation fleet to provide the require reserves.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GRAF-Plan for Vietnam",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

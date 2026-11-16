@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "GridOPTICS Software System (GOSS) is a middleware that facilitates creation of new, modular and flexible operational and planning platforms that can meet the challenges of the next generation power grid. GOSS enables Department of Energy, power system utilities, and vendors to build better tools faster. GOSS makes it possible to integrate Future Power Grid Initiative software products/prototypes into existing power grid software systems, including the PNNL PowerNet and EIOC environments. GOSS is designed to allow power grid applications developed for different underlying software platforms installed in different utilities to communicate with ease. This can be done in compliance with existing security and data sharing policies between the utilities. GOSS not only supports one-to-one data transfer between applications, but also publisher/subscriber scheme. To support interoperability requirements of future EMS, GOSS is designed for CIM compliance. In addition to this, it supports authentication and authorization capabilities to protect the system from cyber threats. In summary, the contributions of the GOSS middleware are as follows: A platform to support future EMS development. A middleware that promotes interoperability between power grid applications. A distributed architecture that separates data sources from power grid applications. Support for data exchange with either one-to-one or publisher/subscriber interfaces. An authentication and authorization scheme for limiting the access to data between utilities.",
+    "laborHours": 27724.8,
+    "name": "GridOPTICS Software System",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/craig8/GOSS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

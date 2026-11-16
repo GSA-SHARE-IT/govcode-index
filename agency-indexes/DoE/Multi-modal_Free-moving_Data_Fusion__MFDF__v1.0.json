@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-07-01",
+        "metadataLastUpdated": "2021-07-08"
+    },
+    "description": "Multi-modal Free-moving Data Fusion (MFDF) is a python package that implements low and high-level functionality for performing qualitative and quantitative gamma-ray imaging analyses. Such analyses enable the use of gamma-ray spectrometers and/or imagers to estimate the distribution and quantity of radiological materials in an environment. Free-moving 3D imaging requires additional information about the 3D trajectory and orientation of the system, however all of these methods can be applied to 2D static gamma-ray imaging as well. The package includes methods (MLEM and MAP) for distributed source reconstruction, methods (PSL) for point source reconstruction, the ability to ingest and utilize quantitative detector response functions (for absolute analyses), and the ability to perform 3D estimation of dose-rates from quantitative reconstructions.",
+    "homepageURL": "https://ipo.lbl.gov/multimodal-free-moving-data-fusion-for-gamma-ray-imaging-analysis",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Multi-modal Free-moving Data Fusion (MFDF) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/multimodal-free-moving-data-fusion-for-gamma-ray-imaging-analysis",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/multimodal-free-moving-data-fusion-for-gamma-ray-imaging-analysis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

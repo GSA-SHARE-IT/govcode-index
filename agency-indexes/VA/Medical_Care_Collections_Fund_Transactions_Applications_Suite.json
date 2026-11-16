@@ -1,0 +1,54 @@
+{
+    "id": 2137,
+    "name": "Medical Care Collections Fund Transactions Applications Suite",
+    "organization": "OIT DSO",
+    "version": "PRCA_4.5_367, IB_2.0_670 (ePayments release 15, v10)",
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/Redacted-Public-Release-MCCF-EDI-TAS-P3-ePayments-R15-PRCA_4.5_367-IB_2.0_670-Aug-2020",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "MCCF EDI TAS",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "CosmosDB Emulator",
+        "Red Hat Enterprise Linux",
+        "Tableau Server",
+        "Express.js",
+        "Ansible",
+        "Nexus",
+        "Embedded JavaScript Templating (EJS)",
+        "Node.JS",
+        "AngularJS",
+        "jQuery",
+        "Jenkins Continuous Integration Server",
+        "Windows Server",
+        "Apache Tomcat"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-28",
+        "lastModified": "2020-10-05",
+        "metadataLastUpdated": "2020-10-05"
+    },
+    "description": "Repository containing the CIF submission for Medical Care Collections Fund (MCCF) EDI Transaction Applications Suite (TAS) Phase 3 ePayments release 15, version 10, PRCA*4.5*367 and IB*2.0*670 rec Aug 2020."
+}

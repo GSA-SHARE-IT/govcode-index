@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-09-16",
+        "metadataLastUpdated": "2020-09-17"
+    },
+    "description": "The National Renewable Energy Laboratory (NREL) has developed the Road Grade Inference Tool, \"GradeIT\". This tool is a modular Python package the leverages the United States Geological Survey’s (USGS) 1/3 arc-second Digital Elevation Model (DEM), an open and free public dataset. Roadway gradient (slope) has a strong influence on vehicle energy consumption behavior and longitudinal dynamics. Therefore, any tools, models, or analyses that consider vehicle energy consumption or driving profiles is incomplete without accurate elevation and grade information. Despite the acute need for this data, it is rarely collected alongside GPS (latitude and longitude) data, and tools to post-process GPS data to append elevation and grade are difficult to come by. GradeIT satisfies this significant need in the research community. \n\nUtilization of the USGS DEM makes the underlying data available to any potential user and ensures continuous data anywhere in the continental United States. The USGS DEM is a great resource; however, in order to be useful for automotive and traffic engineering applications, significant interpolation and filtering is required to achieve an accurate representation of gradient on the roadway. GradeIT employs a two-dimensional interpolation to approximate elevation at a point on the road from the nearest nodes in the DEM. Then, GradeIT applies multiple filtering techniques to smooth the elevation profile to a realistic road topology. Finally, road grade is derived from the elevation profile and returned as the primary output.",
+    "laborHours": 288.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "GradeIT (Road Grade Inference Tool)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/gradeit",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

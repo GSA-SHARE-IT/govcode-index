@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-11-01",
+        "metadataLastUpdated": "2024-11-01"
+    },
+    "description": "This package contains R&D python codes that can nowcast >2 MeV electron distributions in the Earth's outer radiation belt, using LANL's GPS electron data (publicly available) as the primary driver. Functions of this PreMevE-MEO model has been described with details in a manuscript titled \"PreMevE-MEO: Predicting Ultra-relativistic Electrons Using Observations from GPS Satellites\" (LA-UR-24-23843), which has been submitted to Space Weather Journal.",
+    "laborHours": 2568.8,
+    "languages": [],
+    "name": "cheny-lanl/PreMevE-MEO-2024",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cheny-lanl/PreMevE-MEO-2024",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

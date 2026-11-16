@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Time-lapse ERT imaging for monitoring both natural and engineered subsurface processes has advanced rapidly over the past 15-20 years. However, imaging results generally required a significant amount of manual and computational effort, and therefore were not available while the process was occurring. Although the value of real-time imaging was recognized, several obstacles prevented it's implementation. E4D_RT addresses these obstacles by 1) providing specialized algorithms that negate the need for user intervention, thereby automating the time-lapse data processing steps, 2) linking field data collection systems with parallel supercomputing systems via wireless data transfer link, and 3) addressing the computational burdens by utilizing distributed memory supercomputing resources, thereby enabling rapid data processing and imaging results.",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "E4D_RT",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/pnnl/E4D/blob/master/E4D_LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/E4D",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

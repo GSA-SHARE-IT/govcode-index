@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "craigca@ornl.gov"
+    },
+    "date": {
+        "created": "2022-01-07",
+        "metadataLastUpdated": "2022-01-07"
+    },
+    "description": "A tool to quickly perform recon in the init process of a given firmware.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "initAnalysis",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Codeman655/initAnalysis",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

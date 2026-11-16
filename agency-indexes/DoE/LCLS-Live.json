@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-07-11",
+        "metadataLastUpdated": "2022-07-11"
+    },
+    "description": "The LCLS accelerator complex consists of multiple electron sources and multiple beam paths. Live models are computer simulation programs that continuously execute with inputs taken from the machine, and serve physics predictions of the beam behavior. LCLS-Live is a Python package with related tools and data to help in translating machine settings to simulation models.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LCLS-Live",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/lcls-live",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

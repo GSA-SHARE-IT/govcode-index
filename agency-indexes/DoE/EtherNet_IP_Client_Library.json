@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "kasemirk@ornl.gov"
+    },
+    "date": {
+        "created": "2021-10-12",
+        "metadataLastUpdated": "2021-10-12"
+    },
+    "description": "Java library for reading and writing tags via the Ethernet/IP network protocol as used by AllenBradley ControlLogix and Compact Logix PLCs.\n\nPart of ORNL-EPICS. ",
+    "laborHours": 0.0,
+    "languages": [
+        "Java"
+    ],
+    "name": "EtherNet IP Client Library",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/epl-1.0",
+                "name": "EPL-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ornl-epics/etherip",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "dewittsj@ornl.gov"
+    },
+    "date": {
+        "created": "2024-06-04",
+        "metadataLastUpdated": "2024-06-04"
+    },
+    "description": "Many computationally unintensive models for material process-structure-property connections exist in the literature (e.g. journal articles and textbooks). However, to our knowledge there is no existing compilation of these models in one package. Many industrially and research relevant workflows involve combinations of many of these models and if the models have inconsistent interfaces, building these workflows can be challenging.\n\nRamen provides a collection of computationally unintensive models for calculating material process-structure-property relationships from the literature, as well as related tools (e.g. for plotting results). These models use a consistent interface structure and all leverage material data files and data structures from the Mist library (also developed at ORNL).\n\nRamen provides a structured package for combining many standard models in one place, with a standardized interface. This approach makes combining models in long/complex chains easy and straightforward.",
+    "laborHours": 228.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Ramen",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-MDF/ramen",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

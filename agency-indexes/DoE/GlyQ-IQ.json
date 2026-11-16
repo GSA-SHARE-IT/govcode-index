@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "GlyQ-IQ is a program that performs a targeted, chromatographic centric search of mass spectral data for glycans.  It is designed for high resolution LC-MS datasets.  The software uses a list of glycan targets to search for expected features in MS1 spectra. Features are characterized by monoisotopic mass, elution time, and isotopic fit score. Features are annotated by glycan family relationships and optionally by in-source fragmentation patterns.",
+    "laborHours": 321601.6,
+    "languages": [],
+    "name": "GlyQ-IQ",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/GlyQ-IQ",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

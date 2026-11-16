@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "The RAJA Performance Suite is designed to evaluate performance of the RAJA performance portability library on a wide variety of important high performance computing (HPC) algorithmic lulmels. These kernels assess compiler  optimizations and various parallel programming model backends accessible  through RAJA, such as OpenMP, CUDA, etc. The Initial version of the suite  contains 25 computational kernels, each of which appears in 6 variants: Baseline SequcntiaJ, RAJA SequentiaJ, Baseline OpenMP, RAJA OpenMP, Baseline  CUDA, RAJA CUDA. All variants of each kernel perform essentially the same mathematical operations and the loop body code for each kernel is identical across all variants. There are a few kernels, such as those that contain reduction  operations, that require CUDA-specific coding for their CUDA variants. ActuaJ computer instructions executed and how they run in parallel differs depending on the parallel programming model backend used and which optimizations are  perfonned by the compiler used to build the Perfonnance Suite executable.  The Suite will be used primarily by RAJA developers to perform regular  assessments of RAJA performance across a range of hardware platforms and  compilers as RAJA features are being developed. It will also be used by LLNL hardware and software vendor panners for new defining requirements for future computing platform procurements and acceptance testing. In particular, the RAJA Performance Suite will be used for compiler acceptance testing of the upcoming CORAUSierra machine {initial LLNL delivery expected in late-2017/early 2018) and the CORAL-2 procurement. The Suite will aJso be used to generate concise source code reproducers of compiler and runtime issues we uncover so that we may provide them to relevant vendors to be fixed.",
+    "laborHours": 12813.6,
+    "languages": [
+        "CC++ I I standard required"
+    ],
+    "name": "RAJA Performance Suite",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/RAJAPerf",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-08-08",
+        "metadataLastUpdated": "2024-08-26"
+    },
+    "description": "The Django Query Logger (DQL) is a tool that allows developers of Django web applications to stream the raw database queries that are being executed in real-time from any Django application for review, profiling, filtering, formatting, and analysis.\n\nReference herein to any specific commercial products, process, or service by trade name, trademark, manufacturer, or otherwise, does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or Alliance for Sustainable Energy, LLC. The views and opinions of authors expressed in the available or referenced documents do not necessarily state or reflect those of the United States Government or Alliance.",
+    "laborHours": 562.4,
+    "languages": [
+        "TypeScript",
+        "SCSS",
+        "HTML"
+    ],
+    "name": "DQL (Django Query Logger) [SWR-24-96]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/django-query-logger",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Our work is aimed at providing a data store for system-level events and presenting a flexible query interface to those events. The work extends the functinality provided by the open source Request Tracker (RT) (http://www.bestpractical.com/rt) project witht the Asset Tracker (AT) addon (http://atwiki.chaka.net). We have developed an Event Tracker add-on to RT and an interface for gathering, dispatching, and inserting system events into Event Tracker. Data sources include data from all components of the system. Data is initially sent to a defined set of data filters. The data filters are capable of discarding specified data, throttling input, handling context-sensitive input, passing data through an external shell pipe command, and compressing multiple data enteries into a single event. The filters then pass the data on to an event dispatch engine. The dispatcher can print events to the screen as they happen, track them in the database, forward them on, or pass them on to an external command. By collecting all of the data into a single database, we are able to leverage the Query Builder interface supplied by RT to create, save, and restore almost any kind of query imaginable.",
+    "homepageURL": "https://sourceforge.net/projects/rasilience",
+    "laborHours": 0.0,
+    "name": "Reliability Availability Serviceability",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sourceforge.net/projects/rasilience",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

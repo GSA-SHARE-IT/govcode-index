@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2018-05-30",
+        "metadataLastUpdated": "2018-05-30"
+    },
+    "description": "Python module for control of LCLS beamlines-By abstracting individual devices into larger collections of paths, operators can quickly guide beam to experimental end stations. Instead of dealing with the individual interfaces for each device, devices are summarized in states. This allows operators to quickly view and manipulate large sections of the beamline when the goal is to simply handle beam delivery.\n",
+    "laborHours": 1915.2,
+    "languages": [],
+    "name": "LCLS Lightpath",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/pcdshub/lightpath/blob/master/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/lightpath",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "klaskyhb@ornl.gov"
+    },
+    "date": {
+        "created": "2024-07-30",
+        "metadataLastUpdated": "2024-07-30"
+    },
+    "description": "The program summarizer.py is the product of the 'Automating Data Collection with Large Language Models (LLMs): Summarization and CSV Generation' project. This project aims to automate data collection from Internet content using LLMs. This project integrates zero-shot learning concepts, as the agents were not previously trained on the particular subjects of the inputted sources, and Retrieval Augmented Generation (RAG).\nThis summarizer program summarizes characteristics of the URL sources which are specified by the user. As written, the program identifies six characteristics of the inputs: source_name, source_creator, source_url, source_overview, source_data, and number_of_datapoints. However, this program is designed to be highly generalizable, so throughout the code, docstrings specify what parameters and variables should be changed for the user to utilize this program on their own inputs and characteristics. This repository contains example outputs for two datasets: one on the health effects of air pollutions and one on congenital heart defects.",
+    "laborHours": 258.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "Automating Data Collection with Large Language Models: Summarization and CSV Generation",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/summer_2024/summarization",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "version": "Summer 2024"
+}

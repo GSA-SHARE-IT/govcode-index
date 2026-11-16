@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-11-29",
+        "metadataLastUpdated": "2018-11-29"
+    },
+    "description": "The Hierarchical Engine for Large-scale Infrastructure Co-Simulation (HELICS) is a co-simulation platform that is currently under development as part of a GMLC project. The High Level Architecture (HLA) is a co-simulation standard, various implementations of which have been widely used for co-simulations for several years, particularly in the defense community. The objective of developing the HELICS-HLA interface is to provide the ability of making software connected with HLA implementations to work with software connected with HELICS. Since each HLA federation is dependent on the RTI being used, the HELICS-HLA interface developed here uses an implementation of the HLA, the Universal CPS Environment for Federation (UCEF), to create this interface. Both HELICS and UCEF are open source software. UCEF-gateway that enables the integration of HELICS and UCEF is also an open source software.",
+    "laborHours": 1109.6,
+    "languages": [],
+    "name": "HELICS-HLA",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/GMLC-TDC/HELICS-HLA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "Phoenix is a Java Virtual Machine (JVM) based library for performing mathematical and astrodynamics calculations. It consists of two primary sub-modules, phoenix-math and phoenix-astrodynamics.   The mathematics package has a variety of mathematical classes for performing 3D transformations, geometric reasoning, and numerical analysis.  The astrodynamics package has various classes and methods for computing locations, attitudes, accesses, and other values useful for general satellite modeling and simulation. Methods for computing celestial locations, such as the location of the Sun and Moon, are also included.  Phoenix is meant to be used as a library within the context of a larger application. For example, it could be used for a web service, desktop client, or to compute simple values in a scripting environment.",
+    "laborHours": 7721.6,
+    "languages": [
+        "Scala/scalac/2.11"
+    ],
+    "name": "Phoenix v. 1.0-SNAPSHOT",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/phoenix/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/phoenix",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

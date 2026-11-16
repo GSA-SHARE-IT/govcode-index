@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-04-19",
+        "metadataLastUpdated": "2024-04-19"
+    },
+    "description": "Supports characterization of explosive events by providing estimates of device parameters such as yield, height of burst/depth of burial, geolocation, and event time with uncertainty quantification.",
+    "laborHours": 16932.8,
+    "languages": [],
+    "name": "MultiPEM Toolbox",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/MultiPEM_Toolbox",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

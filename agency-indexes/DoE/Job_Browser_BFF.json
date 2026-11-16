@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-10",
+        "metadataLastUpdated": "2020-09-10"
+    },
+    "description": "This is a KBase dynamic service module dedicated to providing a JSONRPC 2.0 service for accessing jobs via the KBase Job browser. It is a \"Back End for Front End\" (BFF) service, meaning that it is dedicated to serving a specific front end web app, in this case the Job Browser.",
+    "laborHours": 7721.6,
+    "languages": [],
+    "name": "Job Browser BFF",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseapps/kbase-sdk-module-job-browser-bff",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-02-24",
+        "metadataLastUpdated": "2023-02-24"
+    },
+    "description": "WAVES is a computational workflow tool that integrates parametric studies with traditional software build systems. In addition to the parametric study Python package and command line utilities, WAVES also includes task definitions for common computational software used by model simulation (modsim) repositories. The tutorial simulations in this project use SCons as the automated build system and translate software build system concepts in the language of simulation and analysis. This project includes a template WAVES modsim repository which is used for the tutorials and for integration and regression testing of the WAVES extensions to SCons.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "WAVES: WAVES Analysis for Verified Engineering Simulatio",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/waves",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

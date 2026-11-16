@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2022-02-16",
+        "metadataLastUpdated": "2024-12-19"
+    },
+    "description": "This is a novel data-driven model that can identify power system model impedance for local utilities. The model builds a multi-category logistic regression that is trained on local utility secondary system partial GIS data, and then the model can be used to predict the conductor types/impedance for the local utilities secondary models.",
+    "laborHours": 0.0,
+    "languages": [
+        "jupyter"
+    ],
+    "name": "ConductorIdentification [SWR-21-58]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/ConductorIdentification",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

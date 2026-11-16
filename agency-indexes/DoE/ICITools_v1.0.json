@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2020-01-28",
+        "metadataLastUpdated": "2020-01-28"
+    },
+    "description": "Identification of cell state based on objective metrics is a fundamental problem in developmental biology. With the advent of fluorescent activated cell sorting (FACS), transcriptomics, and (more recently) single-cell RNA sequencing, it has become possible to profile mRNA abundance of all genes in individual cells or cell types. This transcriptomic information for cell types is often characteristic, and can be used to classify cell types for cells with unknown identity. Previously, an algorithm was developed using a Bayesian method to derive specificity scores for all genes across all known cell types, and then to use these scores to assign the most likely cell type for a new transcriptomic profile. ICITools implements this Index of Cell Identity algorithm as an R package, making the method more easily distributed. In addition, this package implements slight improvements on the previous implementation by adding parallelization, small enhancements in speed, and the ability to customize some aspects of the specificity score computation method. The package does not alter the underlying algorithm, nor the overall functionality of the original methods.",
+    "laborHours": 380.0,
+    "languages": [],
+    "name": "ICITools v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/b-coli/ICITools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

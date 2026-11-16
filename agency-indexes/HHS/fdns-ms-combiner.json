@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/CDCgov",
+        "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+        "created": "2018-04-03",
+        "lastModified": "2020-03-10"
+    },
+    "description": "This is the repository with the Combiner service to combine JSON files into a single CSV or XLSX file.",
+    "downloadURL": "https://api.github.com/repos/CDCgov/fdns-ms-combiner/downloads",
+    "homepageURL": "https://github.com/CDCgov/fdns-ms-combiner",
+    "laborHours": 0,
+    "languages": [
+        "Java",
+        "HTML",
+        "Dockerfile",
+        "Makefile",
+        "Shell"
+    ],
+    "name": "fdns-ms-combiner",
+    "organization": "Centers for Disease Control and Prevention",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "git://github.com/CDCgov/fdns-ms-combiner.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

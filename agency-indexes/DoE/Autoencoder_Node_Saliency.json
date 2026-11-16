@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-31",
+        "metadataLastUpdated": "2018-07-31"
+    },
+    "description": "Autoencoder node saliency (ANS) is a novel method intended to explain the lenrning tasks perfonned in the hidden layer of an autoencoder. ANS ranks the hidden nodes based on their ability to perfonn a given learning task. It identifies the hidden node that best distinguishes between two classes of data points. The weights from the identified hidden nodes correspond to original features that contribute to the data differentiation.",
+    "laborHours": 106.4,
+    "languages": [],
+    "name": "Autoencoder Node Saliency",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ANS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-03-24",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "We have developed a deep learning based method to decode the protein-ligand interactions and predict their probability of binding. We use 3-Dimensional structure of proteins and ligand molecules with the ligand docked to the receptor and use the information at the interaction region to assess the binding of the protein-ligand complex.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PNNL-CompBio/pf-gnn_pli",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-CompBio/pf-gnn_pli",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

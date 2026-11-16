@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jgoodall@ornl.gov"
+    },
+    "date": {
+        "created": "2021-11-17",
+        "metadataLastUpdated": "2021-11-17"
+    },
+    "description": "Capture packet data from a computer's network interface in a scalable manner and making it available to search and filter across the most commonly used fields",
+    "laborHours": 0.0,
+    "languages": [
+        "Go"
+    ],
+    "name": "jgoodall/mercury",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jgoodall/mercury",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "v1.0.0"
+}

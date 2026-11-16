@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2021-11-10",
+        "metadataLastUpdated": "2024-03-11"
+    },
+    "description": "NREL's PowerGridworld provides a modular simulation environment for training heterogenous, grid-aware, multi-agent reinforcement learning (RL) policies at scale. The package enables the user to create component gym environments that can be composed into more complex agents. For example, a grid interactive building environment can be created by composing together component environments each encapsulating the building, PV, and battery physics. These multi-component environments can then be combined into multi-agent simulation where each agent's power consumption/injection becomes an input for solving the optimal power flow on a distribution feeder modeled in OpenDSS. Information from OpenDSS, such as bus voltages and line flows, can be included in the agents' observation spaces to enable grid-aware rewards. The default API for the PowerGridworld simulator conforms to RLLib's MultiAgent API and thus enables distributed training using HPC and cloud resources.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PowerGridworld: A Framework for Multi-Agent Reinforcement Learning in Power Systems [SWR-22-07]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/PowerGridworld",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

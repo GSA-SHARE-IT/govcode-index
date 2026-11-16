@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2025-03-07",
+        "metadataLastUpdated": "2025-03-12"
+    },
+    "description": "Software, Documentation, Tutorials, Testing data, Example data for processing, analysis, filtering, querying, visualization and otherwise transforming genomic data for scientific analysis and discovery.",
+    "laborHours": 45.6,
+    "languages": [],
+    "name": "epicsuite(EAS)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/epicsuite/epicsuite-readthedocs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

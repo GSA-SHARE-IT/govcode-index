@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-02",
+        "metadataLastUpdated": "2018-07-02"
+    },
+    "description": "FastBit is a library of search functions supported by compressed bitmap indexes. Similarly to other database management systems, Fastbit treats user data in a column-oriented manner but it is designed to accelerate user's data selection tasks. ",
+    "homepageURL": "https://sdm.lbl.gov/fastbit",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "FastBit",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://sdm.lbl.gov/fastbit/src/license.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sdm.lbl.gov/fastbit",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ]
+}

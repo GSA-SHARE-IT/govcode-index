@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-06-21",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "Active learning algorithms based on surrogate models to solve black-box optimization problems and other scientific applications.",
+    "laborHours": 4332.0,
+    "languages": [
+        "Jupyter Notebook",
+        "R",
+        "Python"
+    ],
+    "name": "BBOpt (Black-Box Opt) [SWR-24-57]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/bbopt",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "0.4.1"
+}

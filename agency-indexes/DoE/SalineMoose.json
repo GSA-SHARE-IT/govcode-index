@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "salkork@ornl.gov"
+    },
+    "date": {
+        "created": "2022-11-08",
+        "metadataLastUpdated": "2022-11-08"
+    },
+    "description": "SalineMoose is a MOOSE wrapper for the open-source Saline code, which is an interface for fluid property databsae files.  This code is meant to provide access to Saline, which can easily be integrated into MOOSE-based codes that need access to the fluid thermophysical properties that Saline can provide.  Wrapping Saline in SalineMoose allows MOOSE codes to use the native MOOSE build system for linking Saline to their MOOSE application.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "SalineMoose",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://code.ornl.gov/neams/saline_moose/-/blob/main/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/neams/saline_moose",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

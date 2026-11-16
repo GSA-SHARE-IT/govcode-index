@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2024-10-07",
+        "metadataLastUpdated": "2024-10-07"
+    },
+    "description": "The DeepLynx DAG repository will contain several Airflow DAGs (Directed Acyclic Graphs) which will be used in the context of DeepLynx's deployed Apache Airflow instance. These DAGs will be used for multiple data management tasks for DeepLynx data, including but not limited to:\n- bringing data from various sources and tools into DeepLynx\n- managing sequential data workflows, such as running Python scripts on data to perform analysis and returning the results to DeepLynx\n- performing any necessary transformation or pre-processing on data coming into DeepLynx from external sources or out of DeepLynx to go to external applications",
+    "laborHours": 258.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "Deeplynx Dag Repository",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/DLDAGS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-06-09",
+        "metadataLastUpdated": "2023-04-24"
+    },
+    "description": "SHIFT is a light weight software package that allows user to to build synthetic feeders around any locations in India. It uses open street data such as roads and buildings and distribution system design principles to generate distribution system model aka feeder model.",
+    "laborHours": 0.0,
+    "languages": [
+        "PYTHON"
+    ],
+    "name": "SHIFT (Simple Synthetic Distribution Feeder Generation Tool) [SWR-22-52]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/shift",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

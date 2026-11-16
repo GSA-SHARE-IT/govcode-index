@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-12",
+        "metadataLastUpdated": "2018-07-12"
+    },
+    "description": "Isorropia performs combinatorial scientific computing, with focus on partitioning and load balancing, but also supports coloring and ordering of sparse matrices. Isorropia provides an object-oriented interface to Zoltan using the Epetra linear algebra services. To access the Isorropia package, please refer to the packages directory within the main Trilinos GitHub repository. \n",
+    "laborHours": 8344830.4,
+    "languages": [],
+    "name": "Trilinos/Isorropia",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://trilinos.org/download/license",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

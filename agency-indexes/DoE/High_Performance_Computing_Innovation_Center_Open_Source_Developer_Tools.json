@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-03-02",
+        "metadataLastUpdated": "2023-03-03"
+    },
+    "description": "The High Performance Computing Innovation Center (HPCIC) aims to ease the transition for developers to use open source software provided by the lab. HPCIC Developer Tools is a collection of software, containers, cloud configurations, and associated documentation that make it easy to deploy tutorials or small apps to demonstrate lab-developed software. For example, building a tutorial container that includes lab software and interactive interfaces; a command line or web-based tool that accepts user preferences for the tutorial; supporting tools and software development kits (SDKs) for developer interactions or productivity in different languages embraced by the larger developer community such as Go, Rust, and Python; and automation in version control to support continued update of software and associated resources. These tools are best developed in an open source environment such as GitHub, not only to champion the lab's open source software, but for purposes of branding and demonstrating the lab's leadership in open source. Such an effort that brings in more developers to use and contribute to lab software can further improve the quality of the software, and developer experience at the lab. ",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "High Performance Computing Innovation Center Open Source Developer Tools",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/converged-computing/playground",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

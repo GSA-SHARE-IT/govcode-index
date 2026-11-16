@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "Power system operation requires maintaining a continuous balance between system demand and generation within certain constraints. Traditionally, the balancing processes are based on deterministic models, which do not consider possible random deviations of system generation and load from their predicted values. With the increasing penetration of the renewable generation, unexpected balancing problems can happen due to the deviations. This can result in serious risks to system reliability and efficiency. When the available balancing reserve is not enough to cover the predicted net load range with uncertainty, deficiency of balancing needs occurs. In this case, it is necessary to commit or de-commit additional conventional generators to achieve the desired confidence level for the balancing needs. The framework is built for solving this problem. The ramping tool engine is used to predict additional balancing requirements caused by the variability and uncertainty of the renewable energy, under the constraints of the generation ramping capability and interchange schedule. The web browser- based GUI is used to visualize the data in web-environment, which provides flexibility to allow user to see the ramping outputs in any platform. The GOSS structure provides strong support to allow easy communication between ramping engine, and system inputs, as well as the GUI.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "Java 8.x"
+    ],
+    "name": "A Framework to Support Generator Ramping Uncertainty Analysis and Visualization",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

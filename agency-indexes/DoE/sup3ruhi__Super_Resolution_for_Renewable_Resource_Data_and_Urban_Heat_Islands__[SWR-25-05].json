@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2025-03-26",
+        "metadataLastUpdated": "2025-03-26"
+    },
+    "description": "Urban heat is a growing concern, particularly in dense metropolitan areas where high temperatures increase the risk of heat-related illness and drive energy expenses for cooling. Estimating the effects of urban heat remains a challenge due to limitations in describing the built environment, computational constraints, and the need for high-resolution data. This software presents open-source, computationally efficient machine learning methods that enhance the accuracy of urban temperature estimates compared to historical reanalysis data. Models trained using this software have been applied to urban microclimates in Los Angeles and Seattle showing greater accuracy and less bias when compared to low-resolution reanalysis datasets like ERA5 and even when compared to high-resolution mesoscale numerical weather models like WRF with an urban canopy model. Initial findings highlight how machine learning can support urban heat resilience planning by enabling improved assessments of local heat islands, mitigation strategies, and their energy implications.\n\nThis software is an extension of (sup3r).\n\nThis software supports the following publication:\n\nBuster, Grant, et al. Tackling Extreme Urban Heat: A Machine Learning Approach to Assess the Impacts of Climate Change and the Efficacy of Climate Adaptation Strategies in Urban Microclimates. arXiv:2411.05952, arXiv, 8 Nov. 2024. arXiv.org, https://doi.org/10.48550/arXiv.2411.05952.\n\nAnd has related public data records available at:\n\nBuster, Grant, Cox, Jordan, Benton, Brandon, and King, Ryan. Super-Resolution for Renewable Resource Data and Urban Heat Islands (Sup3rUHI). United States: N.p., 16 Oct, 2024. Web. https://data.openei.org/submissions/6220.",
+    "laborHours": 775.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "sup3ruhi (Super Resolution for Renewable Resource Data and Urban Heat Islands) [SWR-25-05]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/sup3ruhi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

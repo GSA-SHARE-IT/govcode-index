@@ -1,0 +1,27 @@
+{
+    "name": "DCE-Document Conversion Engine",
+    "repositoryURL": "https://github.com/SSAgov/dce-web",
+    "description": "DCE UI is a modern web architecture using .NET WebApi2 and React Application acting as an independent front end. DCE UI is a single page web app using ReactJS, React-Router for URL routing, React-Form API for the conversion forms, Fetch API to make calls to the DCE-WebAPI, and Gulp to automate deployments to our DEV environments.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "www.apache.org/licenses/LICENSE-2.0",
+                "name": "Apache"
+            }
+        ],
+        "usageType": "openSource",
+        "exemptionText": ""
+    },
+    "laborHours": 1140,
+    "tags": [
+        "DCE",
+        "Conversion",
+        "Document",
+        "Document Conversion",
+        "Document Conversion Engine"
+    ],
+    "contact": {
+        "email": "Open.Source@ssa.gov",
+        "name": "Open Source Administrator"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-12-13"
+    },
+    "description": "This OpenFabrics Alliance (OFA) OpenSM routing engine module provides credit-loop-free routing while supporting two quality of service (QoS) levels for an InfiniBand fabric with a 3D torus topology. In addition it is able to route around multiple failed fabric links or a single failed fabric switch without introducing credit loops, and without changing path Service Level (SL) values granted before the failure.This OFA OpenSM routing engine module improves the operational characteristics of a parallel computer built using an InfiniBand fabric with a 3D torus topology. By providing two QoS levels, it allows system administrators to prevent application interprocess communication and file system communication from impacting each other. By providing the capability to route traffic around failed fabric components, it enables repair of failed components without impacting jobs running on the computer system.",
+    "homepageURL": "http://downloads.openfabrics.org/OFED",
+    "laborHours": 0.0,
+    "name": "3D Torus Routing Engine Module for OFA OpenSM v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://downloads.openfabrics.org/OFED/README.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://downloads.openfabrics.org/OFED",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2023-03-14",
+        "metadataLastUpdated": "2023-03-14"
+    },
+    "description": "SF-22-121 Graph convolutional neural networks (GCNN) are powerful machine learning models that apply a message-passing algorithm on adjacent nodes in a graph. Due to the natural representation of molecules via discrete graphs (where nodes encode atoms and edges encode bonds), GCNNs are an intuitive machine learning model chemical space informatics, including the prediction of polymer properties. Here, molecules are represented in feature and adjacency matrices where they are directly used as inputs to a GCNN.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GRAPH CONVOLUTIONAL NEURAL NETWORK (GCNN)FOR POLYMER PROPERTY PREDICTION",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AI4Plastics/AI4Plastics",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

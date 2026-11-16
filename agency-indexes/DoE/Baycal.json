@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2023-01-25",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "Bayesian Model Calibration (BayCal) toolkit is a software plugin for Risk Analysis Virtual Environment (RAVEN) framework, arming at inversely quantifying the uncertainties associated with simulation model parameters based on available experiment data. BayCal seeks statistical inference of the uncertain input parameters that are consistent with the available measurement data or observed data. The unique feature of BayCal is the capability to be linked with RAVEN to build corresponding calibration workflows for complex multi-physics simulations. In addition to be able to use the machine learning capability of RAVEN to significantly reduce the computational cost of expensive simulation models, another distinctive feature of BayCal is the capability to deal with high-dimensional correlated model outputs, such as time series observations at multiple locations, via principal component analysis (PCA) technique.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Baycal",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/BayCal",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

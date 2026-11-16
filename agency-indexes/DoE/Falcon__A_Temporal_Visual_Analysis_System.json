@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Flexible visible exploration of long, high-resolution time series from multiple sensor streams is a challenge in several domains. Falcon is a visual analytics approach that helps researchers acquire a deep understanding of patterns in log and imagery data. Falcon allows users to interactively explore large, time-oriented data sets from multiple linked perspectives. Falcon provides overviews, detailed views, and unique segmented time series visualizations with multiple levels of detail. These capabilities are applicable to the analysis of any quantitative time series.",
+    "laborHours": 0.0,
+    "name": "Falcon: A Temporal Visual Analysis System",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/csteed/falcon",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

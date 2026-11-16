@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Sandia's Lightweight Distributed Metric Service (LDMS) is a data collection and transport system used at Livermore Computing to gather performance data across the center. While Sandia has a set of plugins available, they do not include all the data we need to capture. The ECAC plugin that we have developed enables collection of the Error Detection and Correction (EDAC) counters.",
+    "laborHours": 98252.8,
+    "name": "Error Detection and Correction LDMS Plugin Version 1.0",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ovis-hpc/ovis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

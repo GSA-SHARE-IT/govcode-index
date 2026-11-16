@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-03-17",
+        "metadataLastUpdated": "2022-03-17"
+    },
+    "description": "The CMEC module manager package is designed install and update CMEC modules (https://cmec.llnl.gov/). CMEC modules are independent climate model analysis packages. Individual scripts are provided in the module manager that outline the installation process for each module in a robust way, and a wrapper python script is provided that lets users install a chosen CMEC package with a single command.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "CMEC Module Manager",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cmecmetrics/cmec-module-man",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

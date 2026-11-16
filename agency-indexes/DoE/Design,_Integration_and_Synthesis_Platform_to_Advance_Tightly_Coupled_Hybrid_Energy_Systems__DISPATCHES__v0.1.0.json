@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-10-28",
+        "metadataLastUpdated": "2021-10-28"
+    },
+    "description": "The DISPATCHES software will enable the design and optimization of Integrated Energy Systems (IES). The platform will support hybridizing existing generation facilities (such as nuclear and coal plants) as well as greenfield hybrid designs that incorporate advanced technologies (such as Advanced Modular Reactors and Coal FIRST), and it will enable the consideration of multiple technology options with different time constants. The design of the IES will be optimized for operation within the bulk power system via energy market signals (day ahead, real-time, and ancillary services) obtained from a production cost model. The goal of DISPATCHES is to identify flexible, dynamic designs that are responsive to grid market signals resulting in highly efficient, cost effective tightly coupled hybrid energy systems that can act as a \"black box\" to the grid to provide increased flexibility and resiliency.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Design, Integration and Synthesis Platform to Advance Tightly Coupled Hybrid Energy Systems (DISPATCHES) v0.1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/gmlc-dispatches/dispatches",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

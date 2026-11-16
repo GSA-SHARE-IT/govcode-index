@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-09-17",
+        "metadataLastUpdated": "2018-09-17"
+    },
+    "description": "The Gas Reliability Analysis Integrated Library (GRAIL) is a prototype computational tool for solving a class of intra-day model-predictive control problems for a simplified network model of midstream natural gas pipeline systems. The model accurately resolves dynamic gas flows through long pipes using a non-ideal gas equation of state. It can be used to provide optimal intra-day flow schedules as well as spatiotemporal economic values of natural gas while ensuring that pipeline hydraulic limitations, compressor station constraints, operational factors, and pre-existing shipping contracts are satisfied. The inputs to the code are a model of the pipeline system as well as time-series data that specify boundary conditions on the network and time-dependent constraints on the optimal control problem. The outputs are time-series data that provide an approximately optimal solution of flows, pressures, compressor settings, and sensitivities to the objective function.",
+    "laborHours": 1976.0,
+    "languages": [],
+    "name": "Gas Reliability Analysis Integrated Library (GRAIL)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl-ansi/grail",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

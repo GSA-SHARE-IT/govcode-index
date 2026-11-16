@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-02-19",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "The software is a list of Abaqus User MATerial subroutines (VUMAT) for modeling granular flow physics. It includes (1) density dependent Mohr-Coulomb model, (2) density dependent Drager-Prager\\Cap model, (3)Gudehus-Bauer hypoplastic model, and (4) critical state-based NorSand model.",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "Granular Flow Constitutive Model Add-ons For Abaqus",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/GranularFlowModels",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

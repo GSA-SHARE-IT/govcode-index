@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2018-06-05",
+        "metadataLastUpdated": "2018-06-05"
+    },
+    "description": "This module performs abstractions for the CXI detector stands in order to manipulate them as rigid bodies. By first manipulating pairs of motors as joints, and then the stand as a collection of three unieque joints, higher level functions such as translate and rotate are created to help the operator quickly adjust the stand.\n",
+    "laborHours": 820.8,
+    "languages": [],
+    "name": "detrot",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/detrot/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/detrot",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

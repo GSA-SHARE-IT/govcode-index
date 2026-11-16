@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-12-03",
+        "metadataLastUpdated": "2023-10-11"
+    },
+    "description": "CatCost™ enables catalyst researchers to develop comprehensive estimates of the cost to produce pre-commercial catalysts early in the catalyst development process. It includes both web browser and Excel-based tools, each with distinct strengths. The web tool includes powerful visualization capabilities, while the Excel tool allows for high degrees of control and customization by power users. The CatCost™ Python Data Tools are designed to facilitate the transfer of data from the Excel tool to the web tool, so that users can take advantage of both the powerful visualization in the web tool and the higher degree of customization available in the excel tool. Rather than painstakingly copying entries from estimates, the materials, equipment, and spent catalyst libraries from Excel to a JSON format for the web tool, the CatCost™ Data Tools provide an intuitive applet which allows them to simply choose which library or estimate they wish to transfer, and then returns files that integrate smoothly with the web version of the tool.",
+    "laborHours": 1824.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "CatCost™ Data Tools [SWR-20-59]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/catcost-data-tools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-20",
+        "metadataLastUpdated": "2018-07-20"
+    },
+    "description": "AXL provides a common C interface to many vendor-specific NVM technologies. In addition, AXL provides a synchronous transfer method. We expect this component to be reused by the VeloC and SCR software packages. ",
+    "laborHours": 1276.8,
+    "languages": [],
+    "name": "Asynchronous Transfer Library",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ECP-VeloC/AXL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

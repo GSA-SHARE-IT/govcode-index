@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The code to be released is a new addition to the LAMMPS molecular dynamics code. LAMMPS is developed and maintained by Sandia, is publicly available, and is used widely by both natioanl laboratories and academics. The new addition to be released enables LAMMPS to perform molecular dynamics simulations of shock waves using the Multi-scale Shock Simulation Technique (MSST) which we have developed and has been previously published. This technique enables molecular dynamics simulations of shock waves in materials for orders of magnitude longer timescales than the direct, commonly employed approach.",
+    "laborHours": 1281025.6,
+    "name": "Multi-scale Shock Technique",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lammps/lammps",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

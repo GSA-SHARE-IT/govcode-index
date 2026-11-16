@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-10-12",
+        "metadataLastUpdated": "2019-09-24"
+    },
+    "description": "\tThe BubbleCluster algorithm was developed to help address the limitations of traditional genetic mapping tools when presented with large amounts of data. The BubbleCluster software is a tool for the initial stage in the genetic mapping pipeline -- clustering genetic markers into linkage groups. BubbleCluster was designed to tackle large genetic marker data sets, and has been tested on input of up to 1.6M markers. Input format is identical to that of the popular MSTMap package, aiding useability.",
+    "laborHours": 395.2,
+    "languages": [],
+    "name": "BubbleCluster v4",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/vstrnadova/BubbleCluster",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

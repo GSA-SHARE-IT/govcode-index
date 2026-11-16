@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2024-06-20",
+        "metadataLastUpdated": "2024-06-26"
+    },
+    "description": "Complex engineering systems such as nuclear power plants (NPPs) generate and collect large amounts of equipment reliability (ER) data elements that contain information on the status of components, assets, and systems. Some of this information is textual in form and can be found in documents such as incident reports (IRs) and work orders (WOs). Analyses of textual data in current NPPs-using natural language processing (NLP) methods-have been expanded over the last decade, and it is only recently that the true potential of such analyses has emerged. So far, applications of NLP methods have mostly been limited to classification and prediction, the goal being to identify the nature of the textual element (e.g., safety or non-safety related). Here, we target a more complex problem: automatically extracting knowledge from a textual element in order to assist system engineers in conducting system health assessments. Knowledge extraction is a very broad concept, and its definition may vary depending on the application context. Our methods are a blend of both rule-based and machine learning (ML) algorithms. For our purposes, knowledge extraction means identifying the systems or assets mentioned in a given textual element, as well as the type of event described (e.g., component failure or maintenance activity). In addition, we want to capture details such as measured quantities and the temporal/cause-effect relations between events. In this tool, we also demonstrate how textual data elements are preprocessed in order to handle typos, acronyms, and abbreviations. One main feature of these methods is that they are not based solely on data, but are in fact model-based. In other words, they also rely on MBSE models that are designed to capture-from a functional point of view-the architecture of the systems/assets under consideration. The main purpose of such models is to digitally emulate system engineers' knowledge of system and asset architecture and to identify dependencies among systems, assets, and components. Provided these models, analyses of textual and numeric ER data can be performed by first identifying the OPM model elements to which the ER data elements are referring. The relationships between ER data elements are then identified by checking for any temporal or logical dependencies.",
+    "laborHours": 7265.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "Digital Analytics, Causal Knowledge Acquisition and Reasoning for Technical Language Processing",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/DACKAR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

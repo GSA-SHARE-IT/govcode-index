@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The main purpose of the xSDKTrilinos package is to provide an interoperability layer that enables easy installation and combined usage of the IDEAS libraries, including PETSc, Hypre, and SuperLU. The package can be used for any project that uses or will use different libraries, such as Trilinos, PETSc, HYPRE and SuperLU, together. One particular example is AMANZI code from Los Alamos National Laboratories, that uses PETSc and Trilinos at the same time.",
+    "laborHours": 3739.2,
+    "name": "xSDKTrilinos v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/xSDKTrilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

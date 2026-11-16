@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2023-11-15",
+        "metadataLastUpdated": "2023-11-15"
+    },
+    "description": "Open OnDemand is a software tool that is used to access HPC resources. It provides a framework for organizations to create apps and other additional functionality that may be useful to the organization. This code expands upon the pre-existing INL applications, including the NEAMS Workbench application, MOOSE Herd applications, and others. These changes significantly expand upon the functionality originally provided. Due to the extensive functionality that we added, these changes would not be added to the original application but would function as a standalone application that other organizations would be able to utilize on their own systems.",
+    "laborHours": 0.0,
+    "languages": [
+        "Bash",
+        "JavaScript",
+        "Ruby",
+        "HTML",
+        "CSS",
+        "yml"
+    ],
+    "name": "Inl Open Ondemand Applications",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/HPC_OOD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "awander@sandia.gov"
+    },
+    "date": {
+        "created": "2018-08-24",
+        "metadataLastUpdated": "2018-09-06"
+    },
+    "description": "KinBot 2.0 searches for chemical reaction pathways for gas-phase systems containing C, H, and O atoms. It determines the structure of key intermediates and products, characterizes their molecular structure and related properties, and creates an output that can be conveniently used to calculate rate coefficients by other codes.",
+    "laborHours": 6961.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "KinBot",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/zadorlab/KinBot",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

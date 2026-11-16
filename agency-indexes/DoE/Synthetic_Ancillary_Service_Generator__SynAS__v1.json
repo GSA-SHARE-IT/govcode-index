@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-02",
+        "metadataLastUpdated": "2021-03-02"
+    },
+    "description": "The balance of demand and supply in the electric power grid is a crucial element to grid reliability. While balancing is typically provided by conventional power plants, with spinning generators, distributed energy resources (DER) and especially electric vehicles (EVs) pose a great potential to provide such service. This project conducted a field demonstration at the Los Angeles Air Force Base (LA-AFB) where a fleet of mixed-use bi-directional EVs were actively participating in the California Independent System Operator (CAISO) market for frequency regulation. While participation in regulation markets is promising, a major drawback in designing control systems and assessing potential revenue is the lack of example frequency regulation signals. This project introduces an open-source dataset for 143 days of four-second regulation data, and the SynAS Python module to synthetically generate frequency regulation signals of arbitrary length.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Synthetic Ancillary Service Generator (SynAS) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/SynAS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

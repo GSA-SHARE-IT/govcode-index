@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-09-22",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "DM-Sim: Quantum Simulator on GPU Cluster using Density Matrix: a new simulation approach that significantly reduces communication overhead.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/DM-Sim",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/DM-Sim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

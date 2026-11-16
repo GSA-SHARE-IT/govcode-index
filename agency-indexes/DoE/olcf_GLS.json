@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "wynnejr@ornl.gov"
+    },
+    "date": {
+        "created": "2022-12-14",
+        "metadataLastUpdated": "2022-12-14"
+    },
+    "description": "Clone of ls that includes file annotation based upon GPFS extended attributes",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "Go"
+    ],
+    "name": "olcf/GLS",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/olcf/GLS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

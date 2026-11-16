@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2020-06-11",
+        "metadataLastUpdated": "2020-06-11"
+    },
+    "description": "ScienceSearch-MI is a framework that generates metadata from scientific artifacts (papers, proposals, images) that is used to enable search.",
+    "laborHours": 11202.4,
+    "languages": [],
+    "name": "ScienceSearch Metadata Infrastructure (ScienceSearch-MI) v1.2",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/sciencesearch/sciencesearch-mi/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

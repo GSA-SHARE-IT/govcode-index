@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-03-11",
+        "metadataLastUpdated": "2022-03-11"
+    },
+    "description": "Data assimilation methods are algorithms that incorporate observational data into models in order to improve their forecast and predictability. This library contains a number of version of the Kalman filter methods, such as the ensemble Kalman filter, transform Kalman filter, and the localized transformed Kalman filter. It is meant to be easy to use and flexible for implementation into toy problems, as well as large-scale problems. There are a number of toy problem examples for the use of some of the Kalman filter methods. The code is written in Fortran and includes Python wrappers.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Data Assimilation Library",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

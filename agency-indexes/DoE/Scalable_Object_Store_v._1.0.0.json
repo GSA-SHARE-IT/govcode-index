@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "SOS is software that stores data values in a set of structured flat files. The data is organized in the files based upon functions specified by the user in order to enable fast insertion and retrieval of data.",
+    "laborHours": 54036.0,
+    "languages": [
+        "C",
+        "Roff",
+        "RPC",
+        "Cython",
+        "M4",
+        "Python"
+    ],
+    "name": "Scalable Object Store v. 1.0.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ovis-hpc/sos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

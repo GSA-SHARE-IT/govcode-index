@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2022-01-21",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "The Deep Lynx UNC is a small utility written in Python that uses only basic Python libraries and the Deep Lynx Python Software Development Kit (SDK). It queries Deep Lynx for tasks that indicate some data to be run in the UNC's environment. Once a task is acquired, the UNC retrieves the associated data and provides it to some other application for processing, waits for output, and sends the output from the other application to Deep Lynx. As data flows only from the UNC to Deep Lynx, this software solves the problem of connecting Deep Lynx with applications and resources that exist in a network where the network can reach Deep Lynx, but Deep Lynx cannot reach that network (unidirectional network).",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Deep Lynx Unidirectional Network Connector",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/Deep-Lynx-UNC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

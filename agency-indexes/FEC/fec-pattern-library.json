@@ -1,0 +1,47 @@
+{
+    "organization": "Federal Election Commission",
+    "contact": {
+        "URL": "https://github.com/fecgov/fec/issues",
+        "email": "opensource@fec.gov"
+    },
+    "date": {
+        "created": "2016-10-29",
+        "lastModified": "2020-09-29",
+        "metadataLastUpdated": "2020-10-06"
+    },
+    "description": "Pattern Library for FEC.gov",
+    "downloadURL": "https://api.github.com/repos/fecgov/fec-pattern-library/downloads",
+    "homepageURL": "https://fec-pattern-library.app.cloud.gov/",
+    "laborHours": 11110.6,
+    "languages": [
+        "HTML",
+        "JavaScript",
+        "SCSS",
+        "Shell"
+    ],
+    "name": "fec-pattern-library",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/fecgov/fec-pattern-library/blob/master/LICENSE.md",
+                "name": "CC0"
+            }
+        ]
+    },
+    "repositoryURL": "https://github.com/fecgov/fec-pattern-library",
+    "relatedCode": [
+        {
+            "name": "U.S. Web Design System",
+            "URL": "https://github.com/uswds/uswds"
+        }
+    ],
+    "status": "Production",
+    "tags": [
+        "FEC",
+        "github",
+        "styles",
+        "design patterns"
+    ],
+    "vcs": "git"
+}

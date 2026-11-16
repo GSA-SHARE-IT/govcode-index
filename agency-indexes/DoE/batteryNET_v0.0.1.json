@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-30",
+        "metadataLastUpdated": "2024-07-30"
+    },
+    "description": "Code to organize, prepare, and segment multi-scan, larger-than-memory, volumetric dataset. Deep learning segmentation uses pytorch-lightning for code organization, logging and metrics, and multi-GPU parallelization of training and prediction. Also uses moani for volumetric data augmentation and model implementation (currently U-Net++). Training can be done slice-by-slice with 2D models trained on 2D patches either aligned with or perpendicular to the electrode plane, or with 3D models on 3D patches. Sparse labels can be used to minimize required hand-labeling -- less than 0.1% of the entire dataset was labeled. Also includes code for data preparation (alignment/cropping/patching).",
+    "laborHours": 714.4,
+    "languages": [],
+    "name": "batteryNET v0.0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbl-camera/batteryNET",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

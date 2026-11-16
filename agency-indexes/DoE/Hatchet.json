@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-06-03",
+        "metadataLastUpdated": "2020-06-03"
+    },
+    "description": "Hatchet is a Python-based library to analyze performance data that has a tree hierarchy (calling context\ntrees, call graphs, callpath traces, nested regions' timers, etc.).",
+    "laborHours": 29062.4,
+    "languages": [],
+    "name": "Hatchet",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/hatchet",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

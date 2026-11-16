@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-02",
+        "metadataLastUpdated": "2021-07-02"
+    },
+    "description": "singularity-eos is a library that provides a unified interface and performance portable implementations of equations of state (EOS).  The library includes a set of simple analytic models that are all published in the open literature and generic tabulated EOS capabilities that build on a generic table interpolation library that is being released under a separate disclosure.  However, absolutely no tabulated data for material EOS is included in singularity-eos.  Instead, users of singularity-eos need to provide the tabulated data.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "singularity-eos",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/singularity-eos",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

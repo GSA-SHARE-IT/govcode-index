@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-12-12",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The first step toward the design of good error detection/correction techniques involves an understanding of an application’s vulnerability to soft errors.\nTo study the behavior of iterative methods in the presence of soft errors, we inject errors during the execution of these methods. In particular, we study the impact of one error (single- or multi-bit) on the execution of iterative methods. We use real life datasets from the SuiteSparse Matrix Collection (https://sparse.tamu.edu) and widely used iterative solver library (Iterative Methods Library, IML++ v1.2a). We instrument the iterative solver implementations so that our error injection methodology can control the iteration, vector, position, number of bits and position of the bits of the error injection. We employed 6 solvers and 28 datasets, performed a total of 1,744,800 error injection runs and collected more than 2.5TB data.",
+    "laborHours": 60.8,
+    "languages": [],
+    "name": "pnnl/IMIC",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/IMIC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

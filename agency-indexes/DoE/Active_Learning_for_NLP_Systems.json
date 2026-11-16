@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2020-01-28",
+        "metadataLastUpdated": "2020-01-28"
+    },
+    "description": "This software implements an active learning framework for Natural Language Processing (NLP) systems.\n\nIt is intended to be applied on scenarios where limited amount of labeled data is available to train a machine learning-based NLP classification system, but a large set of unlabeled documents exist. \n\nThis software will point, from the set of unlabeled documents, which ones we should label next so that the overall performance of the classifier is improved.",
+    "laborHours": 1064.0,
+    "languages": [],
+    "name": "Active Learning for NLP Systems",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/AL_NLP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

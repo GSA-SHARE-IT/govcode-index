@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-09-25",
+        "metadataLastUpdated": "2025-02-10"
+    },
+    "description": "This software provides a collection of algorithms, an API, and a functional Web UI for the Distributed Wind’s WindWatts project. DW WindWatts is a DOE WETO-funded project aimed at the development of tools to supporting the distributed wind  industry, particularly with respect to siting and resource assessment. The computational framework and the back-end API are powering the easy to use front-end services available at: https://windwatts.nrel.gov.\n\nhttps://github.com/NREL/dw-tap-api; https://github.com/NREL/dw-tap; https://github.com/NREL/windwatts-data\n\nFor reference, this software was previously known as DW TAP Computational Framework.",
+    "laborHours": 9895.2,
+    "languages": [
+        "JavaScript",
+        "Python"
+    ],
+    "name": "WindWatts Computational Framework and Web UI [SWR-20-100]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/dw-tap-api",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

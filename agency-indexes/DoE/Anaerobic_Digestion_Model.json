@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-02",
+        "metadataLastUpdated": "2021-07-02"
+    },
+    "description": "Anaerobic Digestion Model No 1 (ADM1) is a mathematical model used by researchers to simulate the anaerobic digestion process that converts organic matter into biogas. The reduction of biosolids during anaerobic digestion reduces the solids handling cost while the biogas produced can be used to generate heat and electricity to offset the cost of heat and electricity at water resource recovery facilities. The original version of the ADM1 developed by the International Water Associations Task Group for Mathematical Modelling of Anaerobic Digestion Processes was created to describe the kinetics and stoichiometry of the primary biochemical processes in anaerobic digestion. The EES-16 team modified the ADM1 by adding mathematical terms which separate the solids retention time from hydraulic retention time to simulate novel AD technologies, integrating the model into one package in C++ language, introducing sophisticated implicit solvers by linking it to the PETSc package which allows fast and scalable (parallel) solution for the system of differential equations in the ADM1. Also, we created an easy-to-navigate interface with tutorial examples documented in the ipython notebook allowing customization of the operating conditions and reactor configurations for the simulation of the model.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Anaerobic Digestion Model",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/ADM1F",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

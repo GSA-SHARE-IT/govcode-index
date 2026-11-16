@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "WEC-Sim (Wave Energy Converter SIMulator) is a code developed by Sandia National Laboratories and the National Renewable Energy Laboratory to model wave energy converters (WECs) when they are subject to operational waves. The code is a time-domain modeling tool developed in MATLAB/Simulink using the multi-body dynamics solver SimMechanics. In WEC-Sim, WECs are modeled by connecting rigid bodies to one another with joint or constraint blocks from the WEC-Sim library. WEC-Sim is a publicly available, open-source code to model WECs.",
+    "laborHours": 3131.2,
+    "name": "WEC-Sim (Wave Energy Converter - SIMulator)",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/WEC-Sim/WEC-Sim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

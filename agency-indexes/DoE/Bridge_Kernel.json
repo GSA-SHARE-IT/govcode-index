@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-07-15",
+        "metadataLastUpdated": "2019-07-16"
+    },
+    "description": "The Bridge Kernel is a Jupyter Kernel for connecting to compute backends that implement the bridge kernel (bk) protocol. The bk protocol is a client-server protocol that emphasizes minimal dependencies, easy embedding with MPI, secure connections + authentication, and non-local backends with automatic\ntunneling.",
+    "laborHours": 562.4,
+    "languages": [],
+    "name": "Bridge Kernel",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/bridge-kernel",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

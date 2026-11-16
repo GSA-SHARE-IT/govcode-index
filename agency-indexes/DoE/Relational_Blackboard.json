@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "The Relational Blackboard (RBB) is an extension of the H2 Relational Database to support discrete events and timeseries data. The original motivation for RBB is as a knowledge base for cognitive systems and simulations. It is useful wherever there is a need for persistent storage of timeseries (i.e. samples of a continuous process generating numerical data) and semantic labels for the data. The RBB is an extension to the H2 Relational Database, which is open-source. RBB is a set of stored procedures for H2 allowing data to be labeled, queried, and resampled.",
+    "laborHours": 62107.2,
+    "languages": [
+        "Java",
+        "HTML"
+    ],
+    "name": "Relational Blackboard",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/RelationalBlackboard",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.1"
+}

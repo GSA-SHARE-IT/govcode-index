@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "Electrical resistivity tomography ERT is a method of imaging the electrical conductivity of the subsurface. Electrical conductivity is a useful metric for understanding the subsurface because it is governed by geomechanical and geochemical properties that drive subsurface systems. ERT works by injecting current into the subsurface across a pair of electrodes, and measuring the corresponding electrical potential response across another pair of electrodes. Many such measurements are strategically taken across an array of electrodes to produce an ERT data set. These data are then processed through a computationally demanding process known as inversion to produce an image of the subsurface conductivity structure that gave rise to the measurements. Data can be inverted to provide 2D images, 3D images, or in the case of time-lapse 3D imaging, 4D images. ERT is generally not well suited for environments with buried electrically conductive infrastructure such as pipes, tanks, or well casings, because these features tend to dominate and degrade ERT images. This reduces or eliminates the utility of ERT imaging where it would otherwise be highly useful for, for example, imaging fluid migration from leaking pipes, imaging soil contamination beneath leaking subsurface tanks, and monitoring contaminant migration in locations with dense network of metal cased monitoring wells. The location and dimension of buried metallic infrastructure is often known. If so, then the effects of the infrastructure can be explicitly modeled within the ERT imaging algorithm, and thereby removed from the corresponding ERT image. However, there are a number of obstacles limiting this application. 1) Metallic infrastructure cannot be accurately modeled with standard codes because of the large contrast in conductivity between the metal and host material. 2) Modeling infrastructure in true dimension requires the computational mesh to be highly refined near the metal inclusions, which increases computational demands. 3) The ERT imaging algorithm requires specialized modifications to accommodate high conductivity inclusions within the computational mesh. The solution to each of these challenges was implemented within E4D (formerly FERM3D), which is a parallel ERT imaging code developed at PNNL (IPID #30249). The infrastructure modeling module implement in E4D uses a method of decoupling the model at the metallic interface(s) boundaries, into several well posed sub-problems (one for each distinct metallic inclusion) that are subsequently solved and recombined to form the global solution. The approach is based on the immersed interface method, with has been applied for similar problems in other fields (e.g. semiconductor industry). Comparisons to analytic solutions have shown the results to be very accurate, addressing item 1 above. The solution is implemented about an unstructured mesh, which enables arbitrary shapes to be efficiently modelled, thereby addressing item 2 above. In addition, the algorithm is written in parallel and shows excellent scalability, which also addresses equation 2 above. Finally, because only the boundaries of metallic inclusions are modeled, there are no high conductivity cells within the modeling mesh, and the problem described by item 3 above is no longer applicable.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "gfortran/intel"
+    ],
+    "name": "Parallel Infrastructure Modeling and Inversion Module for E4D",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

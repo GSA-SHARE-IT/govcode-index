@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-12",
+        "metadataLastUpdated": "2024-07-12"
+    },
+    "description": "This Python package implements a high-level interface to access the data published by the Particle Data Group (PDG) in the Review of Particle Physics (the \"Review\").\n\nThe Particle Data Group is an international collaboration led by the PDG group at LBNL. The PDG summarizes the established knowledge in the field of particle physics in a single publication, the Review of Particle Physics. The Review is published and updated online (see https://pdg.lbl.gov) each year, and published in a scientific journal every other year. It is currently licensed under a CC BY-NC 4.0 license. In 2021 PDG was designated by the Office of Science as a SC PuRe Data Resource. The Review is one of the most highly cited publications in the field of particle physics.\n\nThe PDG Python API is part of PDG's efforts to make all data provided in the Review available in machine-readable format. This data includes the PDG world averages (or best limits) on particle masses, widths or lifetimes, branching fractions, magnetic moments, form factors, coupling constant ratios, and searches, as well as particle quantum numbers. It also includes detailed information on how PDG arrived at its averages, such as e.g. tables of published measurements with comments and footnotes, information on the consistency of published measurements, and detailed fit information.",
+    "laborHours": 988.0,
+    "languages": [],
+    "name": "Python package for machine-readable access to PDG data (PDG Python API) v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/particledatagroup/api",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

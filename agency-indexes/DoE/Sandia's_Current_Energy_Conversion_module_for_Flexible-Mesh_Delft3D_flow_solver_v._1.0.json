@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "awander@sandia.gov"
+    },
+    "date": {
+        "created": "2018-09-10",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "The DOE has funded Sandia National Labs (SNL) to develop an open-source modeling tool to guide the design and layout of marine hydrokinetic (MHK) arrays to maximize power production while minimizing environmental effects. This modeling framework simulates flows through and around a MHK arrays while quantifying environmental responses. As an augmented version of the Dutch company, Deltares’s, environmental hydrodynamics code, Delft3D, SNL-Delft3D-CEC-FM includes a new module that simulates energy conversion (momentum withdrawal) by MHK current energy conversion devices with commensurate changes in the turbulent kinetic energy and its dissipation rate. SNL-Delft3D-CEC-FM modified the Delft3D flexible mesh flow solver, DFlowFM. The Following is a description of Deltares’s open-source code Delft3D from which Delft3D-CEC is built upon. “Delft3D is a world leading 3D modeling suite to investigate hydrodynamics, sediment transport and morphology and water quality for fluvial, estuarine and coastal environments. As per 1 January 2011, the Delft3D flow (FLOW), morphology (MOR) and waves (WAVE) modules are available in open source. The software is used and has proven his capabilities on many places around the world, like the Netherlands, USA, Hong Kong, Singapore, Australia, Venice, etc. The software is continuously improved and developed with innovating advanced modelling techniques as consequence of the research work of our institute and to stay world leading. The FLOW module is the heart of Delft3D and is a multi-dimensional (2D or 3D) hydrodynamic (and transport) simulation program which calculates non-steady flow and transport phenomena resulting from tidal and meteorological forcing on a curvilinear, boundary fitted grid or spherical coordinates. In 3D simulations, the vertical grid is defined following the so-called sigma coordinate approach or Z-layer approach. The MOR module computes sediment transport (both suspended and bed total load) and morphological changes for an arbitrary number of cohesive and non-cohesive fractions. Both currents and waves act as driving forces and a wide variety of transport formulae have been incorporated. For the suspended load this module connects to the 2D or 3D advection-diffusion solver of the FLOW module; density effects may be taken into account. An essential feature of the MOR module is the dynamic feedback with the FLOW and WAVE modules, which allow the flows and waves to adjust themselves to the local bathymetry and allows for simulations on any time scale from days (storm impact) to centuries (system dynamics). It can keep track of the bed composition to build up a stratigraphic record. The MOR module may be extended to include extensive features to simulate dredging and dumping scenarios. For over 30 years Deltares has been in the forefront of these types of combined morphological simulation techniques.”",
+    "laborHours": 1149545.6,
+    "languages": [
+        "Fortran",
+        "C++",
+        "Shell",
+        "C",
+        "MATLAB",
+        "Makefile"
+    ],
+    "name": "Sandia's Current Energy Conversion module for Flexible-Mesh Delft3D flow solver v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/SNL-Delft3D-FM-CEC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-18",
+        "metadataLastUpdated": "2020-05-18"
+    },
+    "description": "A simple viewer that displays a single or multiple Cinema databases. These must be image-based Cinema databases following the current CSV-based specification. Cinema:View is is easily customizable to include other elements through direct editing of the html or json.",
+    "laborHours": 273.6,
+    "languages": [],
+    "name": "Cinema View",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/cinemascience/cinema_view/blob/master/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cinemascience/cinema_view",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

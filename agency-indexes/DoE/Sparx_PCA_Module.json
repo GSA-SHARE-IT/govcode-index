@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Sparx, a new environment for Cryo-EM image processing; Cryo-EM, Single particle reconstruction, principal component analysis; Hardware Req.: PC, MAC, Supercomputer, Mainframe, Multiplatform, Workstation. Software Req.: operating system is Unix; Compiler C++; type of files: source code, object library, executable modules, compilation instructions; sample problem input data. Location/transmission: http://sparx-em.org; User manual & paper: http://sparx-em.org;",
+    "homepageURL": "http://sparx-em.org",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Sparx PCA Module",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://sparx-em.org/sparxwiki/license",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://sparx-em.org",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

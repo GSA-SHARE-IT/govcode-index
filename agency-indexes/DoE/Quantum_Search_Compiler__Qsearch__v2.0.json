@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-07",
+        "metadataLastUpdated": "2021-03-07"
+    },
+    "description": "Quantum Gate Synthesis is the process of taking a desired quantum gate operation, in this case specified as a unitary matrix, and decomposing it into a list of operations that can actually be performed on a quantum computer.\n\nQsearch is an implementation of a quantum synthesis algorithm based on combining A* search with numerical optimization. It is designed to minimize CNOT count at the expense of having a long runtime. It produces particularly efficient quantum circuits in terms of CNOT count, up until about 4 qubits. It is generally impractical to run Qsearch on circuits with more than 4 qubits, but it can be used as a subroutine in algorithms designed to work with these larger circuits.\n\nQsearch takes the form of a Python package, taking advantage of Numpy and Scipy, with part of the package written in Rust and taking advantage of OpenBLAS, NLOPT, and Google Ceres for faster runtime.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Quantum Search Compiler (Qsearch) v2.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BQSKit/qsearch",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "v2.0"
+}

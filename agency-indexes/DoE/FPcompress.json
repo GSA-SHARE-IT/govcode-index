@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "burtscher@txstate.edu"
+    },
+    "date": {
+        "created": "2025-03-14",
+        "metadataLastUpdated": "2025-03-14"
+    },
+    "description": "This repository contains the code and related scripts for 4 high-performance lossless compression algorithms for single- and double-precision floating-point data. They are named  SPratio, SPspeed, DPratio, and DPspeed. The compressors work on CPUs and GPUs and deliver state-of-the-art throughputs and compression ratios.",
+    "laborHours": 4453.6,
+    "languages": [],
+    "name": "FPcompress",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/burtscher/FPcompress",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

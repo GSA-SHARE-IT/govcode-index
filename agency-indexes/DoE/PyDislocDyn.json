@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-06-19",
+        "metadataLastUpdated": "2018-06-19"
+    },
+    "description": "PyDislocDyn is a suite of python programs designed to perform various calculations for basic research in dislocation dynamics in metals with simple crystal symmetries in the continuum limit. In particular, one of its main purposes is to calculate dislocation drag from phonon wind (i.e. the friction coefficient of a moving crystal defect called a “dislocation” due to its interaction with crystal lattice vibrations or phonons). Additional features include the averaging of elastic constants for polycrystals, the calculation of the dislocation field and the calculation of dislocation self-energy and line tension. ",
+    "laborHours": 1352.8,
+    "languages": [],
+    "name": "PyDislocDyn",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dblaschke-LANL/PyDislocDyn",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

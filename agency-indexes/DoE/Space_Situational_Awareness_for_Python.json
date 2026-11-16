@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-04-17",
+        "metadataLastUpdated": "2024-04-17"
+    },
+    "description": "SSAPy is a python package allowing for fast and precise orbital modeling. SSAPy is designed with speed\nand accuracy in mind and offers the following capabilities:\n- A variety of integrators, including Runge-Kutta, SciPy, SGP4, etc.\n- Customizable force propagation models, including a variety of Earth gravity models, lunar gravity,\nradiation pressure, etc.\n- Multiple-hypothesis tracking (MHT) UCT linker\n- Vectorized computations\n- Short arc probabilistic orbit determination\n- Conjunction probability estimation\n- Uncertainty quantification\n- Monte Carlo data fusion\n- Support for multiple coordinate frames (with coordinate frame conversions)",
+    "laborHours": 6976.8,
+    "languages": [],
+    "name": "Space Situational Awareness for Python",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/SSAPy",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-11",
+        "metadataLastUpdated": "2021-03-11"
+    },
+    "description": "In this work we present a 2D distributed memory algorithm for overlap detection and introduce a novel design and implementation for layout simplification where we perform a transitive reduction from overlap graph to string graph in the context of de novo genome assembly.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "\tdiBELLA 2D: Parallel String Graph Construction and Transitive Reduction for De Novo Assembly (diBELLA 2D) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PASSIONLab/diBELLA.2D",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-28"
+    },
+    "description": "The ExaSAT framework automates the extraction of parameterized performance models directly from source code using compiler analysis. Its parameterized analytic model enables quantitative evaluation of a broad range of hardware design trade-offs and software optimizations on a variety of different performance metrics, with a primary focus on data movement as a metric. ExaSAT analysis provides insights in the hardware and software tradeoffs and lays the groundwork for exploring a more targeted set of design points using cycle-accurate architectural simulators and emulators.",
+    "laborHours": 0.0,
+    "languages": [
+        "NA"
+    ],
+    "name": "ExaSat: An Exascale Static Analysis Tool (ExaSat) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/LBL-CoDEx/exasat/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBL-CoDEx/exasat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

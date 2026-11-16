@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-11-11",
+        "metadataLastUpdated": "2019-11-11"
+    },
+    "description": "This project simplifies the registration and authentication of a Gitlab runner. \n\nThis allows administrators to create a set of static configuration files from which this script will build the appropriate, host-specific config needed to communicate with and accept jobs from Gitlab.",
+    "laborHours": 182.4,
+    "languages": [],
+    "name": "Gitlab Runner Auth",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/gitlab-runner-auth",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0.1"
+}

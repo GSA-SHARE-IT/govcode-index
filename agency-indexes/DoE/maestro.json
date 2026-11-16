@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-09-25",
+        "metadataLastUpdated": "2022-09-27"
+    },
+    "description": "MÆSTRO stands for Multi-fidelity Adaptive Ensemble Stochastic Trust Region Optimization and it is a plug n play derivate fee stochastic optimization solver. The problem being considered in MÆSTRO involves fitting Monte Carlo simulations that describe complex phenomena to experiments. This is done by finding parameters of the resource intensive and noisy simulation that yield the least squares objective function value to the noisy experimental data. This problem is solved using a stochastic trust-region optimization algorithm where in each iteration, a local approximation of the simulation signal and of the simulation noise is constructed over data, which is obtained by running the simulation at strategically placed design points within the trust-region around the current iterate. Then the simulation components of the objective are replaced by their approximations and this analytical and closed-form optimization problem is solved to find the next iterate within the trust-region. Then the trust region is moved and the iterations continue until a satisfactory convergence criteria is met.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "maestro",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/HEPonHPC/maestro",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

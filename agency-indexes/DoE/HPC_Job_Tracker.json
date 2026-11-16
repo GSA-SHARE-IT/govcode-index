@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2018-04-24",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "HPC job tracker is a wrapper script which will allow some of the resources a HPC application consumes to be tracked for the duration of the job.",
+    "laborHours": 456.0,
+    "languages": [],
+    "name": "HPC_Job_Tracker",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mpl-2.0",
+                "name": "MPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/HPC_Job_Tracker",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

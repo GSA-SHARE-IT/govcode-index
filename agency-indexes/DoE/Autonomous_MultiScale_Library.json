@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2023-07-21",
+        "metadataLastUpdated": "2023-07-25"
+    },
+    "description": "AMSLib provides infrastructure to tightly couple multi-scale physics simulation code with ML surrogate\nmodel inference. It provides a wholistic runtime execution paradigm to supports uncertainty quantification,\nsurrogate model inference, persistent data storing throughout the execution of a simulation.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Autonomous MultiScale Library",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/AMS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0.0.alpha"
+}

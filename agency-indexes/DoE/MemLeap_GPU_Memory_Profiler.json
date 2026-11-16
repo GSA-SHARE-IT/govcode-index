@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-08-30",
+        "metadataLastUpdated": "2023-09-13"
+    },
+    "description": "MemLeap is a GPU Memory Profiler built atop Nvbit (NVidia Binary Instrumentation Tool) framework. It\nanalyzes memory accesses to memory objects in GPU memory, including Unified Memory, to optimize\nmemory usage and reveal performance bottlenecks.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MemLeap GPU Memory Profiler",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IBPeng/memleap",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

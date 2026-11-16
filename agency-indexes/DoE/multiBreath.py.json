@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2025-04-22",
+        "metadataLastUpdated": "2025-04-22"
+    },
+    "description": "This is a research code which is intended to be made available to researchers to the password-protected simtk.org\nwebsite which hosts the lung deposition simulation project \"In-silico LADDER: Lung Aerosol Dosimetry for Drug and\nEnvironmental Research\" headed by NIH PI Prof. Chantal Darquenne (UCSD). Industrial applications are more accurate\ndeposition predictions of medical aerosols, including potentially subject-specific exposures.\nAccessing the code requires registration.",
+    "homepageURL": "https://simtk.org/projects/insilico_ladder",
+    "laborHours": 851.2,
+    "languages": [],
+    "name": "multiBreath.py",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://simtk.org/projects/insilico_ladder",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

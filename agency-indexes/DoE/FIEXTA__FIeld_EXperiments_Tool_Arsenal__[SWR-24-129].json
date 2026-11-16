@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2025-04-22",
+        "metadataLastUpdated": "2025-04-22"
+    },
+    "description": "Code repository to assist the planning, management, and data analysis of experiment field campaigns including atmospheric sensors, remote sensing devices, and renewable energy plants.",
+    "laborHours": 1839.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "FIEXTA (FIeld EXperiments Tool Arsenal) [SWR-24-129]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/agpl-3.0",
+                "name": "AGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/FIEXTA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

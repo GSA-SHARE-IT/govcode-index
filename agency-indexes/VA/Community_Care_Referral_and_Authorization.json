@@ -1,0 +1,46 @@
+{
+    "id": 2198,
+    "name": "Community Care Referral and Authorization",
+    "organization": "OIT DSO",
+    "version": "R10.0.29.2, PI 2 S6",
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/Redacted-Public-Release-CCRA-R10.0.29.2-Sep-2020",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "CCRA",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "HealthShare",
+        "Apache Web Server binary",
+        "Alert Logic Universal Agent",
+        "GlusterFS",
+        "Red Hat Enterprise Linux"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2021-01-26",
+        "lastModified": "2021-01-26",
+        "metadataLastUpdated": "2021-01-26"
+    },
+    "description": "Repository containing the Code in Flight submission for Community Care Program 2 - Referrals and Authorizations R10.0.29.2 received Sep 2020."
+}

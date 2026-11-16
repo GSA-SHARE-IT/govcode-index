@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-09-08",
+        "metadataLastUpdated": "2021-09-08"
+    },
+    "description": "pyMSDtorch is a python implementation of the MSDNet developed by Sethian and Pelt [1] for image analyses, using the pytorch framework. The availability these networks in mainstream ML packages makes it easier to attach standard expansions and other approaches to make it more flexible and user friendly.",
+    "homepageURL": "https://pymsdtorch.readthedocs.io/en/latest",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pyMSDtorch v0.1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://bitbucket.org/berkeleylab/pymsdtorch/src/main/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://pymsdtorch.readthedocs.io/en/latest",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

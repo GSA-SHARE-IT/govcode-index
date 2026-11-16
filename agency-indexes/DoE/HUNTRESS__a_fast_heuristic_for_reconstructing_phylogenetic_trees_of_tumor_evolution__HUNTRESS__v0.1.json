@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-16"
+    },
+    "description": "We introduce HUNTRESS (Histogrammed UNion Tree REconStruction heuriStic), a computational method for tumor phylogeny reconstruction from noisy genotype matrices derived from single-cell sequencing data, whose running time is linear with the number of cells and quadratic with the number of mutations. Provided that the input genotype matrix includes no false positives, each cellular subpopulation is at least a user defined fraction of the total number of cells, and the number of cells are much bigger than the number of mutations considered, HUNTRESS computes the ground truth tumor phylogeny with high probability. On simulated data HUNTRESS is faster than available alternatives with comparable or better accuracy. Additionally, the phylogenies reconstructed by HUNTRESS on two single-cell sequencing data sets agree with the best known evolutionary scenarios for the associated tumors.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "HUNTRESS: a fast heuristic for reconstructing phylogenetic trees of tumor evolution (HUNTRESS) v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PASSIONLab/HUNTRESS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

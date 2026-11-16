@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "These Drupal Modules extend the functionality of Drupal by including specific styles for dates and tabs, publishing options for scheduled and immediate publication of content modes, field visibility in content forms, keyword block filters (taxonomy based), adding content nodes to a specified queue for display in views, and status display of workflow settings.",
+    "laborHours": 0.0,
+    "languages": [
+        "PHP (99%)",
+        "JavaScript (1%)"
+    ],
+    "name": "Drupal Contributed Modules",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://git.drupalcode.org/project/field_visibility",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

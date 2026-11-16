@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-09-22",
+        "metadataLastUpdated": "2024-08-27"
+    },
+    "description": "This repository contains a python package of neural network interpretability techniques (interpretability) and a keras callback to easily compute and capture data related to these techniques (values metrics) during training. It was developed to be used with NREL's BUTTER Deep Learning Experimental Framework, but does not depend on this framework and may be useful to projects outside of this framework.\n\nThe vision for this codebase is to collect algorithms for explainable artificial intelligence (XAI) in a single framework that is easy to use, easy to read, and can be expand upon. Here, we package XAI algorithms into a module called \"metrics\", which are implemented as python functions. The return type of a metric is typically a dictionary holding data of multiple data types, such as real values and numpy matrices. Callbacks and any other connector code is provided as necessary in a separate module to make these metrics more easily usable. This project depends on Tensorflow's Keras API, although it would be nice to try and support multiple backends one day.\n\nRelated to: https://github.com/NREL/BUTTER-Empirical-Deep-Learning-Experimental-Framework",
+    "laborHours": 167.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "BUTTER-Clarifier [SWR-23-61]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/BUTTER-Clarifier",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

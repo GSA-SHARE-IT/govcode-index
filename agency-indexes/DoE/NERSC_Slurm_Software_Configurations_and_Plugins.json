@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-11-23",
+        "metadataLastUpdated": "2021-11-23"
+    },
+    "description": "This software can be used to tune the HPC operations of a Cray system running Slurm workload manager software. This includes many of the customizations that NERSC has made over the past three years. In particular these customizations allow for complex site-local policies to be implemented and managed in a scalable way, or add unique capabilities to slurm via our plugins, including: * performance software integration and compute node staging * temporary directory/dynamic user content management automation * software defined networking integration",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "NERSC Slurm Software Configurations and Plugins",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/NERSC/nersc-slurm-contrib",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2018-06-21",
+        "metadataLastUpdated": "2018-06-21"
+    },
+    "description": "Securely and quickly copy data from source to target. bbcp is a point-to-point network file copy application. It is capable of transferring files at approaching line speeds in the WAN.\n",
+    "laborHours": 7919.2,
+    "languages": [],
+    "name": "bbcp",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://www.slac.stanford.edu/~abh/bbcp/#_Toc392015168",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/bbcp",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

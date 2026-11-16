@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "AMG is a parallel algebraic multigrid solver for linear systems arising from problems on unstructured grids. It has been derived directly from the BoomerAMG solver in the hypre library, a large linear solvers library that is being developed in the Center for Applied Scientific Computing (CASC) at LLNL and is very similar to the AMG2013 benchmark with additional optimizations. The driver provided in the benchmark can build various test problems. The default problem is a Laplace type problem with a 27-point stencil, which can be scaled up and is designed to solve a very large problem. A second problem simulates a time dependent problem, in which successively various smnllcr systems are solved.",
+    "laborHours": 44414.4,
+    "name": "Algebraic Multigrid Benchmark",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/AMG",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

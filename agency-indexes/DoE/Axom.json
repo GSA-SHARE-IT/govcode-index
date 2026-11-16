@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-10-27",
+        "metadataLastUpdated": "2020-10-29"
+    },
+    "description": "The Axom library consists of n collection of software components that provide core computer science infrastructure capabilities that can be shared by diverse high performance computing (HPC) applications. The current set of capabilities that Axom provides includes:   Customizable support for error/warning and diagnostic message reporting and coordination among components of integrated applications (e.g., physics packages, libraries, etc.); Scalable parallel aggregation and filtering of message logging; In memory datastore for hierarchical, mesh-aware simulation data. The datastore supports data description, allocation, deallocation. parallel l/0, etc; Mesh data model abstractions that enable the development of mesh-based computational algorithms that work with many diverse, application· specific mesh types; and Computational geometry primitives for developing high performance parallel algorithms based on spatial geometry and meshes, e.g., spatial acceleration data structures, sets, maps, relations, etc.",
+    "laborHours": 229945.6,
+    "languages": [
+        "C++ 11, Fortran 03 standards"
+    ],
+    "name": "Axom",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/axom",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-07-29",
+        "metadataLastUpdated": "2022-07-29"
+    },
+    "description": "WORM (Write One, Run Many) is an easy to use, cross platform, embedded and extensible, functional programming language designed to facilitate the creation of input-decks for computer codes that use standard ASCII text files for input. WORM makes it easy to create generic (yet, complex and powerful) reusable models. Additionally its nature allows for complex calculations and routines to be coded once and easily reused, further simplifying the creation of input decks. WORM (Write One, Run Many) is a powerful and versatile tool designed to improve the efficiency of today’s criticality safety analyst by allowing: + input decks for parametric studies to be created quickly and easily, + calculations and variables to be imbedded into any input deck, thus allowing for meaningful parameter specifications, + problems to be specified using any combination of units, and + complex mathematically defined models to be created. A very simple syntax is employed, and therefore the WORM is easy to learn. A WORM model is essentially a standard input deck with some of its numerical values replaced by WORM code. WORM code may include and evaluate the following mathematical operators and functions: addition, subtraction, multiplication, division, exponentiation, modulus, sine, cosine, tangent, arcsine, arccosine, arctangent, the natural logarithm, logarithm base 10, integer truncation, absolute value, and random number. Several common constants, e.g., pi, e, and Avogadros’s Number (both as 6.022e23 and 0.6022), are predefined in WORM. Additionally, many unit conversion factors are also predefined: millimeters, meters, inches, feet, yards, and mils to centimeters; kilograms, pounds, and ounces to grams; liters, milliliters, gallons, and fluid ounces to cubic centimeters; and angular degrees to radians. For parametric studies, WORM supports various shorthand list specifications: the explicit step size, linear interpolation, and logarithmic interpolation. The list notation sequentially assigns multiple values to a name. WORM creates an input deck for each value of the name. If multiple lists are used, WORM steps through each list individually, i.e., WORM creates input decks corresponding to each and every permutation of the list values. Additionally, a library of standard material definitions and Perl subroutines are included. Any one of these files can be incorporated into the subject model with a simple WORM read command. WORM is completely written in Perl, the Practical Extraction and Reporting Language. Perl is one of the most portable programming languages available today. As such, the WORM works on practically any computer platform.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "WORM (Write One, Read Many)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/rsartor-lanl/worm-1.7.0",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

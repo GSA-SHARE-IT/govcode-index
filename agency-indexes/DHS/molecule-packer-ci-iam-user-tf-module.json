@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-06-25",
+        "lastModified": "2023-07-26"
+    },
+    "description": "A Terraform module that creates an AWS IAM user that can build AMIs via packer and/or access SSM parameters",
+    "downloadURL": "https://api.github.com/repos/cisagov/molecule-packer-ci-iam-user-tf-module/downloads",
+    "homepageURL": "https://github.com/cisagov/molecule-packer-ci-iam-user-tf-module",
+    "laborHours": 246.4,
+    "languages": [
+        "HCL"
+    ],
+    "name": "molecule-packer-ci-iam-user-tf-module",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/molecule-packer-ci-iam-user-tf-module.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

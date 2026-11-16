@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-07-31",
+        "metadataLastUpdated": "2019-07-31"
+    },
+    "description": "Derivatives are required in many contexts: optimization, sensitivity analysis, uncertainty analysis, and parameter estimation. The radolc package is an interface to ADOL-C == a C++ library that facilitates the computation of first and higher derivatives of vector functions that are defined by computer programs. ADOL-C can compute gradients, the Jacobian matrix, the Hessian matrix, Jacobian vector products and Hessian vector products.",
+    "laborHours": 24852.0,
+    "languages": [],
+    "name": "radolc",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sriharikrishna/radolc",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

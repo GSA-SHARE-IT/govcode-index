@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "The statistical code, STEPWISE, evaluates variable importance by developing regression models between the observed response and input variables using either a forward, backward, or stepwise regression procedure on the raw or ranked data. The software will be used for performing sensitivity analysis on probabilistic results. Stepwise creates linear (or monotonic) regression of the output of interest using a set of input data in a stepwise fashion (i.e., adding one variable at a time). The program estimates parameters such as regression and standardized regressions coefficients for each selected input variables as well as the coefficient of determination of the resulting model",
+    "laborHours": 0.0,
+    "languages": [
+        "FORTRAN"
+    ],
+    "name": "Stepwise v. 2.21",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/stepwise",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "2.21"
+}

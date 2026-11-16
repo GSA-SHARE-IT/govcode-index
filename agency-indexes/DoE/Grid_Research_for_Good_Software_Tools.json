@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-10-28",
+        "metadataLastUpdated": "2021-10-28"
+    },
+    "description": "The Grid Research for Good Software Tools includes a variety of software packages for working with electric power systems data. It includes: parsers for Matpower, PSS/E, and GRG data files; translators between these formats; and validation routines for network structure and component parameters.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Grid Research for Good Software Tools",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl-ansi/grg-grgdata",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

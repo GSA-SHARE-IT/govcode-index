@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-05-09",
+        "metadataLastUpdated": "2018-05-09"
+    },
+    "description": "The forms and workflow developed were designed to collect additional statistical information not normally available in out of- the-box implementations of the Remedy Action Request System designed by BMC Software. This workflow is used to  collect additional information about users accessing the Remedy application, such as operating system and browser type. This information along with frequency of user logins, number of emails sent and received, and overall license usage help provide Remedy Administrators a better overview of the application they support. These custom forms and workflow work heavily with existing out-of-the-box forms in Remedy, and display the collected data to users through the product BMC’s companion product Smart Reporting. ",
+    "laborHours": 60420.0,
+    "name": "Remedy Application Statistics",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Remedy-Application-Statistics",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

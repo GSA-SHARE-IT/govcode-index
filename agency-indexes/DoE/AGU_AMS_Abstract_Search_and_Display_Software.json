@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "devarakondar@ornl.gov"
+    },
+    "date": {
+        "created": "2021-08-11",
+        "metadataLastUpdated": "2021-08-11"
+    },
+    "description": "The AGU/AMS Abstract Search and Display Software is a standalone web application which enables the searching, storing, and displaying of abstracts featured at the annual American Geophysical Union (AGU) and American Meteorological Society (AMS) meetings. This application is designed for those who wish to host a standalone web application and feature a select subset of posters and talks scheduled for the AGU/AMS meetings. Please read the entirety of this README.md file before attempting to download and use the application. There are three views available via the UI: Lookup - enables searching and submitting posters for displaying on the summary view Manual Submission - allows individual manual submission of posters given a poster ID Summary - displays all posters submitted by users from the lookup view",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "AGU/AMS Abstract Search and Display Software",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/arm-data-science-integration/poster-api-wrapper",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

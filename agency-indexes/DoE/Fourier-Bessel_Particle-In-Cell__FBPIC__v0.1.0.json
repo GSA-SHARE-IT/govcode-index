@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "The Fourier-Bessel Particle-In-Cell code is a scientific simulation software for relativistic plasma physics. It is a Particle-In-Cell code whose distinctive feature is to use a spectral decomposition in cylindrical geometry.\r\n\r\nThis decomposition allows to combine the advantages of spectral 3D Cartesian PIC codes (high accuracy and stability) and those of finite-difference cylindrical PIC codes with azimuthal decomposition (orders-of-magnitude speedup when compared to 3D simulations).\r\n\r\nThe code is built on Python and can run both on CPU and GPU (the GPU runs being typically 1 or 2 orders of magnitude faster than the corresponding CPU runs.)\r\n\r\nThe code has the exact same output format as the open-source PIC codes Warp and PIConGPU (openPMD format: openpmd.org) and has a very similar input format as Warp (Python script with many similarities). There is therefore tight interoperability between Warp and FBPIC, and this interoperability will increase even more in the future.",
+    "laborHours": 16233.6,
+    "languages": [
+        "None"
+    ],
+    "name": "Fourier-Bessel Particle-In-Cell (FBPIC) v0.1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/fbpic/fbpic",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

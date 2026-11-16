@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-22",
+        "metadataLastUpdated": "2021-12-22"
+    },
+    "description": "CUDAMicroBench is a collection of fourteen microbenchmarks that demonstrate performance challenges in CUDA programming and techniques to optimize the CUDA programs to address these challenges. It also includes examples and techniques for using advanced CUDA features such as data shuffling between threads, dynamic parallelism, etc that can help users optimize the CUDA program for performance.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "CUDAMicroBench",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/CUDAMicroBench",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

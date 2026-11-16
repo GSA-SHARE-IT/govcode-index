@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-04-10",
+        "metadataLastUpdated": "2019-04-11"
+    },
+    "description": "MPI Usage is a python program that gathers statistics of MPI usage in MPI programs. It reports the MPI routines used in the program among other statistics, such as, the number of lines and languages used in the program (e.g., C, C++, Fortran, CUDA and OpenMP).",
+    "laborHours": 6900.8,
+    "languages": [],
+    "name": "MPI Usage",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/MPI-Usage",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

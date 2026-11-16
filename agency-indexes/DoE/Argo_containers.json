@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-19",
+        "metadataLastUpdated": "2020-05-19"
+    },
+    "description": "Argo Containers are a resource isolation facility built on top of the cgroup interface of the Linux kernel.These are not your typical containers. We do not support namespaces, chroot or any of the usual \"virtualization\" facilities regularly associated with\ncontainers. Instead, we focus on the ability to limit how a group of process can access the cpu, memory and other resources of the system.",
+    "laborHours": 3572.0,
+    "languages": [],
+    "name": "Argo containers",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://xgitlab.cels.anl.gov/argo/containers",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "awander@sandia.gov"
+    },
+    "date": {
+        "created": "2018-08-24",
+        "metadataLastUpdated": "2018-10-23"
+    },
+    "description": "HALucinator enables execution of firmware on a generic system emulation through interception of hardware abstraction library functions.  This enables it to intercept the execution of functions that would interact with external hardware and to model the external hardware at a high-level of abstraction while maintaining correct firmware behavior. ",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "HALucinator v. 0.1 Beta",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

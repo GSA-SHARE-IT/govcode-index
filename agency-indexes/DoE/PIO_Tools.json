@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-01-06",
+        "metadataLastUpdated": "2022-01-06"
+    },
+    "description": "This is a set of utilities for reading and manipulating PIO files written in python and C++. These files are intended to be building blocks for other scripts / programs that will use them to do great things. The PIO format itself is described in LA-UR-05-7425 at page 102 and embodied in code LA-CC-05-052. In addition to reading the raw PIO files, the bundled utilities will expand variable that use a compressed sparse row notation",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PIO Tools",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/piotools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2021-04-19",
+        "metadataLastUpdated": "2024-07-01"
+    },
+    "description": "The Fast All-sky Radiation Model for Solar applications (FARMS) is used to compute cloudy irradiance.  Radiative transfer (RT) models simulating broadband solar radiation have been widely used by atmospheric scientists to model solar resources for various energy applications such as operational forecasting. Due to the complexity of solving the RT equation, the computation under cloudy conditions can be extremely time consuming though many approximations (e.g. two-stream approach and delta-M truncation scheme) have been utilized. Thus, a more efficient RT model is crucial for model developers as a new option for approximating solar radiation at the land surface with minimal loss of accuracy. We have developed a fast all-sky radiation model for solar applications (FARMS) using the simplified clear-sky RT model, REST2, and simulated cloud transmittances and reflectances from the Rapid Radiation Transfer Model (RRTM) with a sixteen-stream Discrete Ordinates Radiative Transfer (DISORT). Simulated lookup tables (LUTs) of cloud transmittances and reflectances were created by varying cloud optical thicknesses, cloud particle sizes, and solar zenith angles. Equations with optimized parameters were fitted to the cloud transmittances and reflectances to develop the model. Using this model the all-sky solar irradiance at the land surface can be computed rapidly by combining REST2 with the cloud transmittances and reflectances. This new RT model is more than 1000 times faster than those currently utilized in solar resource assessment and forecasting since it does not explicitly solve the RT equation for each individual cloud condition. Our results indicate the accuracy of the fast radiative transfer model is comparable to or better than two-stream approximation in term of computing cloud transmittance and solar radiation.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "Python"
+    ],
+    "name": "Fast All-sky Radiation Model for Solar applications (FARMS) [SWR-16-18]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/farms",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

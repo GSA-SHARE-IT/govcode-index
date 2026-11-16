@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2024-07-26"
+    },
+    "description": "PuLP/XtraPulp is software for partitioning graphs from several real-world problems. Graphs occur in several places in real world from road networks, social networks and scientific simulations. For efficient parallel processing these graphs have to be partitioned (split) with respect to metrics such as computation and communication costs. Our software allows such partitioning for massive graphs.",
+    "laborHours": 11795.2,
+    "languages": [
+        "C++",
+        "C"
+    ],
+    "name": "PuLP/XtraPuLP : Partitioning Tools for Extreme-Scale Graphs",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/PuLP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

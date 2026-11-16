@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-01-28",
+        "metadataLastUpdated": "2022-01-28"
+    },
+    "description": "Sonata is a Mochi service for JSON document storage. It is based on UnQLite and Thallium.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Sonata",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/mochi-hpc/mochi-sonata/blob/main/COPYRIGHT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mochi-hpc/mochi-sonata",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-10-30",
+        "metadataLastUpdated": "2019-10-30"
+    },
+    "description": "This package includes a variety of simulation models for distributed energy resources (i.e. photovoltacis, storage, inverter, controls, grid) in the language Modelica.",
+    "laborHours": 15.2,
+    "languages": [],
+    "name": "Smart Control of Distributed Energy Resources (SCooDER) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/SCooDER",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

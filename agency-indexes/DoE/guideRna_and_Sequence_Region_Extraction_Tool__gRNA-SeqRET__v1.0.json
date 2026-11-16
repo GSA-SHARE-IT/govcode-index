@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2020-06-11",
+        "metadataLastUpdated": "2020-06-11"
+    },
+    "description": "The JGI's gRNA Designer software is a a web application for doing whole genome guide RNA selection. It uses open source software, CCTop to identify potential guide RNA sequences, but adds value.",
+    "laborHours": 4408.0,
+    "languages": [],
+    "name": "guideRna and Sequence Region Extraction Tool (gRNA-SeqRET) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/grnadesigner/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

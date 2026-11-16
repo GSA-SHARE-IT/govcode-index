@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-04-29",
+        "metadataLastUpdated": "2024-04-29"
+    },
+    "description": "This code solves for the one-dimensional concentration and temperature distribution within a carbon\ncapture column using a homogenized absorber model. These solutions are compared to experimental\ndata.",
+    "laborHours": 927.2,
+    "languages": [],
+    "name": "DynamicSimCCS",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/DynamicSimCCS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.01"
+}

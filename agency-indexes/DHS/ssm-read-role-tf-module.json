@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-09-19",
+        "lastModified": "2026-04-09"
+    },
+    "description": "A Terraform role to create an AWS IAM role for reading SSM parameters",
+    "downloadURL": "https://api.github.com/repos/cisagov/ssm-read-role-tf-module/downloads",
+    "homepageURL": "https://github.com/cisagov/ssm-read-role-tf-module",
+    "laborHours": 704.1,
+    "languages": [
+        "Shell",
+        "HCL"
+    ],
+    "name": "ssm-read-role-tf-module",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ssm-read-role-tf-module.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-10-27",
+        "metadataLastUpdated": "2020-10-29"
+    },
+    "description": "The PRESTA MPI Benchmark software is a project that is used to evaluate the network communication performance of computer systmes using the Message Passing Interface (MPI) communication library.",
+    "laborHours": 2705.6,
+    "languages": [],
+    "name": "PRESTA MPI Benchmark",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/phloem",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

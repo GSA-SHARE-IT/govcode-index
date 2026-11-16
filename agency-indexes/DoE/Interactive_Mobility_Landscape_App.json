@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2021-07-28",
+        "metadataLastUpdated": "2021-09-13"
+    },
+    "description": "This is the companion repository to NREL's Interactive Mobility Data Landscape (SEE: DOE Code ID 61284. NREL SWR-21-09). \n\nThe landscapeapp is an upstream NPM module that supports building interactive landscape websites such as the CNCF Cloud Native Landscape (source) and the LF Artificial Intelligence Landscape (source). The application is managed by Dan Kohn of CNCF and is under active development by Andrey Kozlov (who did most of the development to date, 9/13/2021) and Jordi Noguera.",
+    "laborHours": 0.0,
+    "languages": [
+        "JavaScript"
+    ],
+    "name": "Interactive Mobility Landscape App",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/mobility_landscapeapp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2020-08-20",
+        "metadataLastUpdated": "2020-08-20"
+    },
+    "description": "The Splash database and portal, also under development (https://lbl.wellspringsoftware.net/kms/invention/detail/3980/), ingests experimental data and references to datasets from a variety of sources, primarily lightsource beamlines. After deployment, it will contain a great deal of metadata and references to data from which many insights can be extracted.",
+    "laborHours": 668.8,
+    "languages": [],
+    "name": "Splash-ML v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/als-computing/splash-ml",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

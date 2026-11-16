@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-02",
+        "metadataLastUpdated": "2021-07-02"
+    },
+    "description": "The Geppetto application, developed in collaboration between Los Alamos National Laboratory and the DARPA MediFor program, provides an analysis platform for deepfake video detection. Geppetto provides a web interface and backend software that orchestrates the upload and analysis processes for a set of videos. This disclosure covers the user interface for Geppetto. ",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Geppetto User Interface (UI)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/geppetto-ui",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

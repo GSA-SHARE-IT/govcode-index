@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-15"
+    },
+    "description": "GJOIN is a two- or three-dimensional mesh combination program. GJOIN combines two or more meshes written in the GENESIS mesh database format into a single GENESIS mesh. Selected nodes in the two meshes that are closer than a specified distance can be combined. The geometry of the mesh databases can be modified by scaling, offsetting, revolving, nd mirroring. The combined meshes can be further modified by deleting, renaming, or combining material blocks, sideset identifications, or nodeset identifications.",
+    "laborHours": 692284.0,
+    "languages": [
+        "C++",
+        "HTML",
+        "C",
+        "CMake",
+        "Fortran",
+        "Python"
+    ],
+    "name": "GJOIN",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/seacas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-01-29",
+        "metadataLastUpdated": "2018-01-29"
+    },
+    "description": "The Fast Equilibration of Ocean Tracers Software (FEOTS) is a set of Fortran modules and programs for post-processing output from LANL's Parallel Ocean Program (POP). However, it is written so that it can be extended for use with other General Circulation Models. Tools are provided for aiding in the diagnosis of sparse matrices that capture advection and diffusion operators that are consistent with General Circulation Model discretizations. FEOTS additionally offers tools to make use of the diagnosed operators to run offline tracer models in forward or equilibration modes.",
+    "laborHours": 4119.2,
+    "name": "Fast Equilibration of Ocean Tracers Software",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/FEOTS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

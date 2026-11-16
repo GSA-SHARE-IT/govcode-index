@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2021-08-18",
+        "metadataLastUpdated": "2023-07-21"
+    },
+    "description": "As the size of turbulent flow simulations continues to grow, in situ data compression is becoming increasingly important for visualization, analysis, and restart checkpointing. For these applications, single-pass compression techniques with low computational and communication overhead are crucial. In this paper we present a deep-learning approach to in situ compression using an autoencoder architecture that is customized for three-dimensional turbulent flows and is well suited for contemporary heterogeneous computing resources. The autoencoder is compared against a recently introduced randomized single-pass singular value decomposition (SVD) for three different canonical turbulent flows: decaying homogeneous isotropic turbulence, a Taylor-Green vortex, and turbulent channel flow. Our proposed fully convolutional autoencoder architecture compresses turbulent flow snapshots by a factor of 64 with a single pass, allows for arbitrarily sized input fields, is cheaper to compute than the randomized single-pass SVD for typical simulation sizes, performs well on unseen flow configurations, and has been made publicly available. The results reported here show that the autoencoder dramatically outperforms a randomized single-pass SVD with similar compression ratio and yields comparable performance to a higher-rank decomposition with an order of magnitude less compression in regard to preserving a number of important statistical quantities such as turbulent kinetic energy, enstrophy, and Reynolds stresses.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "AEflow (Autoencoder fluid flow compression network) [SWR-22-29]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/AEflow",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

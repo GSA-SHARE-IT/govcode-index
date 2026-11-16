@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-09-18",
+        "metadataLastUpdated": "2024-09-18"
+    },
+    "description": "R2X is a tool that allows modeler to convert input/output models to other input/out models (e.g., ReEDS™ to Plexos). This is tools is built as a parser of inputs that uses infrasys to create a network representation that then is used to create custom files as input for other models.",
+    "laborHours": 6672.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "R2X (ReEDS™ to X) [SWR-24-91]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/R2X",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

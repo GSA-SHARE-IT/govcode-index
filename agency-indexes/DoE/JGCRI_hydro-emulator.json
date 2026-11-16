@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-05-01",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The hydrological emulator (HE) was built to mimic complex global hydrological models (GHMs) at a range of spatial scales. The HE was written in MATLAB and utilizes a genetic algorithm to calibrate the a, b, c, d, m parameters from the ABCD runoff algorithm to observed runoff from GHMs when forced by the same climate data. The HE employs two methods to choose from when processing basin data: lumped (by basin) and distributed (gridded). Both methods can be evaluated using the built-in Kling-Gupta efficiency as a measure of model performance when compared to the outputs from the more complex GHM. Testing shows that the HE is 7 orders of magnitude faster then the widely used Variable Infiltration Capacity (VIC) GHM.",
+    "laborHours": 2067.2,
+    "languages": [],
+    "name": "JGCRI/hydro-emulator",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/JGCRI/hydro-emulator",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

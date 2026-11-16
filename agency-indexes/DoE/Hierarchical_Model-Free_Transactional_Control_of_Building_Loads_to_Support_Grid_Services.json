@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "olamahussemm@ornl.gov"
+    },
+    "date": {
+        "created": "2022-11-21",
+        "metadataLastUpdated": "2022-11-21"
+    },
+    "description": "A transition from generation on demand to consumption on demand is one of the solutions to overcome the many limitations associated with the higher penetration of renewable energy sources. Such a transition, however, requires a considerable amount of load flexibility in the demand side. Demand response (DR) programs can reveal and utilize this demand flexibility by enabling the participation of a large number of grid-interactive efficient buildings (GEB). Existing approaches on DR require significant modelling or training efforts, are computationally expensive, and do not guarantee the satisfaction of end users. To address the aforementioned limitations, this software code considers a scalable hierarchical model-free transactional control approach that incorporates elements of virtual battery, game theory, and model-free control (MFC) mechanisms. The developed approach separates the control mechanism into upper and lower levels. The MFC modulates the flexible GEB in the lower level with guaranteed thermal comfort of end users in response to the optimal pricing and power signals determined in the upper layer using a Stackelberg game integrated with aggregate virtual battery constraints. Additionally, the usage of MFC necessitates less burdensome computational and communication requirements, thus, it is easily deployable even on small, embedded devices. This software code enables the use of residential and small-size commercial buildings to offer a potentially substantial source of ancillary grid services that are currently underutilized. A hierarchical, model-free transactive building control provides a smooth interface between the grid service requests of utilities and the reliable control required by participating buildings. Model-free control, which supports distributed control architecture, will be a more scalable solution that can be deployed in neighborhood-size systems as well as individual buildings. The proposed approach contributes to the body of knowledge on two main aspects. First, it couples the MFC with the game-theoretic control and proposes a scalable model-free transactive control approach. MFC does not require any modeling effort or model training for the various building loads. This is very beneficial since deriving an accurate model for every single unit participating in DR programs and obtaining all the parameters about the units (e.g., thermal coefficients, standby losses) are infeasible. Also, MFC is computationally efficient, easily deployable even on small, embedded devices, and can be implemented in real time. Second, it integrates the concept of virtual battery into DR via the Stackelberg game. The concept of virtual battery enables efficient coordination and aggregation of a large number of flexible GEB with guaranteed thermal comfort of end users.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Hierarchical Model-Free Transactional Control of Building Loads to Support Grid Services",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/aulama2000/HMFC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

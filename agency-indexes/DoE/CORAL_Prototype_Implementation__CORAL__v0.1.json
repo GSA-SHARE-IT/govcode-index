@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-25",
+        "metadataLastUpdated": "2021-03-30"
+    },
+    "description": "This is prototype code that implements many of the concepts in our invention, \"The CORAL Framework for FAIR Data Management and Analysis\" (ROI 2019-123, attached). The code includes a back end module that interfaces with third party open source software (ArangoDB), and a front end user interface (UI) that allows user interaction with the software through a web interface.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "CORAL Prototype Implementation (CORAL) v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/agpl-3.0",
+                "name": "AGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jmchandonia/CORAL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

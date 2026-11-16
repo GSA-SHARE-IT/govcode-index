@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-26"
+    },
+    "description": "NuMAD helps to enable efficient creation and use of high fidelity wind turbine blade models for structural and aerodynamic analysis. NuMAD is a GUI-based tool used to manage the specific geometry and materials inputs required to fully describe a wind turbine blade.",
+    "laborHours": 34321.6,
+    "languages": [
+        "MATLAB",
+        "HTML"
+    ],
+    "name": "Numerical Manufacturing And Design tool",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/NuMAD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

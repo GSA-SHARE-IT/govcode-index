@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-03-17",
+        "metadataLastUpdated": "2024-02-26"
+    },
+    "description": "Flash-X is a highly composable multiphysics software system that can be used to simulate physical phenomena in several scientific domains. It is derived from FLASH, which has been a community code for several communities over the last 20 years. The Flash-X architecture has been redesigned to be compatible with increasingly heterogeneous hardware platforms. A part of the redesign is a utilizing a newly designed performance portability layer that is language agnostic.",
+    "homepageURL": "https://flash-x.org",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "C",
+        "Fortran",
+        "Python"
+    ],
+    "name": "Flash-X",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://flash-x.org",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

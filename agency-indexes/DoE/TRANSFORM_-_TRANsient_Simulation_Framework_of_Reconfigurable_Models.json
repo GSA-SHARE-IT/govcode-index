@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2019-03-28"
+    },
+    "description": "A Modelica based library for modeling thermal hydraulic energy systems and other multi-physics systems. \n\nExisting development tools for early stage design and scoping of energy systems are often time consuming to use, proprietary, and do not contain the necessary function to model complete systems (i.e., controls, primary, and secondary systems) in a common platform. The Modelica programming language based TRANSFORM tool (1) provides a standardized, common simulation environment for early design of energy systems (i.e., power plants), (2) provides a library of baseline component modules to be assembled into full plant models using available geometry, design, and thermal-hydraulic data, (3) defines modeling conventions for interconnecting component models, and (4) establishes user interfaces and support tools to facilitate simulation development (i.e., configuration and parameterization), execution, and results display and capture.",
+    "laborHours": 1732.8,
+    "languages": [],
+    "name": "TRANSFORM - TRANsient Simulation Framework of Reconfigurable Models",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ORNL-Modelica/TRANSFORM-Library/blob/master/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-Modelica/TRANSFORM-Library",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

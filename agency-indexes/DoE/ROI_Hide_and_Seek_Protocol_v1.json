@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-08-11",
+        "metadataLastUpdated": "2021-08-13"
+    },
+    "description": "1. Segmentation We provide scripts for the model definition of the U-net architecture adapted from: https://github.com/jvanvugt/pytorch-unet/blob/master/unet.py We developed scripts for preparing the lung segmentation data set. We developed scripts for training the U-Net architecture. We developed scripts for applying the trained U-Net model to perform the ROI Hide and Seek protocol on the classification dataset to create the modified dataset. 2. Classification We provide scripts for the training of the COVID-Net models provided by Linda Wang, this code is adapted from her github repository: https://github.com/lindawangg/COVID-Net/tree/d7b36831d854f57de5bc7557217f5439e86e016f. These scripts were modified to save training log information as well as to load the provided models in their github repo. We developed scripts for training standard Neural Network Models (resnet 50, vgg 11, Alexnet) on the COVID datsets along with the ROI Hide and Seek altered datasets.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ROI Hide and Seek Protocol v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/agpl-3.0",
+                "name": "AGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Electro1111/COVID_19_CXR_CLASSIFICATION",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

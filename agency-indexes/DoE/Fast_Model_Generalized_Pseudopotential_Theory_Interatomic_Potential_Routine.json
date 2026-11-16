@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "MGPT is an unclassified source code for the fast evaluation and application of quantum-based MGPT interatomic potentials for mrtals. The present version of MGPT has been developed entirely at LLNL, but is specifically designed for implementation in the open-source molecular0dynamics code LAMMPS maintained by Sandia National Laboratories. Using MGPT in LAMMPS, with separate input potential data, one can perform large-scale atomistic simulations of the structural, thermodynamic, defeat and mechanical properties of transition metals with quantum-mechanical realism.",
+    "homepageURL": "http://lammps.sandia.gov/download.html",
+    "laborHours": 0.0,
+    "name": "Fast Model Generalized Pseudopotential Theory Interatomic Potential Routine",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://lammps.sandia.gov/download.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

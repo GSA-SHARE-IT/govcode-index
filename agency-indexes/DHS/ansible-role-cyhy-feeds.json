@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-05-16",
+        "lastModified": "2026-09-02"
+    },
+    "description": "An Ansible role for installing cisagov/cyhy-feeds.",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-cyhy-feeds/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-cyhy-feeds",
+    "laborHours": 769.4,
+    "languages": [
+        "Shell",
+        "Python",
+        "Jinja"
+    ],
+    "name": "ansible-role-cyhy-feeds",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-cyhy-feeds.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "ansible-role",
+        "cyhy",
+        "cyhy-feeds"
+    ],
+    "vcs": "git"
+}

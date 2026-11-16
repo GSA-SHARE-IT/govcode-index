@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "gilmorem@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-19",
+        "metadataLastUpdated": "2024-05-07"
+    },
+    "description": "SERA is a simulation environment for planning three-dimensional neutron capture therapy. SERA can allows creating models of the geometry of the tumor and surrounding tissue from CT or MRI data, and then planning and simulating the treatment of the tumor with Boron Neutron Capture Therapy. Boron Neutron Capture Therapy uses the combination of a boron containing drug and a neutron source to treat a tumor.",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "Fortran"
+    ],
+    "name": "Simulation Environment For Radiotherapy Applications",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabUnsupported/SERA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

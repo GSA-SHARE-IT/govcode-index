@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-08",
+        "metadataLastUpdated": "2021-04-08"
+    },
+    "description": "The Building Performance Database (BPD) is the largest publicly-available source of measured energy performance data for buildings in the United States. It contains information about the building's energy use, location, and physical and operational characteristics. The BPD can be used by building owners, operators, architects and engineers to compare a building's energy efficiency against customized peer groups, identify energy efficiency opportunities, and set energy efficiency targets. It can also be used by energy efficiency program implementers and policymakers to analyze energy efficiency features and trends in the building stock. The BPD compiles data from various data sources, converts it into a standard format, cleanses and quality checks the data, and provides users with access to the data in a way that maintains anonymity for data providers. This software is the database and the Application Programming Interface (API). Users can utilize the BPD's data to develop their own applications using the API. Version 2.1 included a major update for multiple years of data and refactoring of code for faster queries.",
+    "homepageURL": "https://buildings.lbl.gov/cbs/bpd",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Building Performance Database API (BPD API) v2.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://buildings.lbl.gov/cbs/bpd",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-06-19",
+        "metadataLastUpdated": "2018-06-19"
+    },
+    "description": "Kappa and BioNetGen (BNGL) are prominent rule-based modeling languages for representing complex biochemical reaction networks. Each language is distributed with a distinct software suite and modelers may wish to take advantage of both toolsets. This application, TRuML, translates models written in either Kappa or BNGL into the other language. While similar in many respects, key differences between the two languages makes translation sufficiently complex that automation becomes a useful tool. TRuML accommodates the languages' complexities and produces a semantically equivalent model in the alternate language of the input model when possible, and an approximate model in certain other cases.",
+    "laborHours": 1565.6,
+    "languages": [],
+    "name": "TRuML",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/TRuML",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

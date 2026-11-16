@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2024-12-19",
+        "metadataLastUpdated": "2024-12-19"
+    },
+    "description": "deer is an application based on the MOOSE framework (https://mooseframework.org/) developed at Idaho National\nLaboratory. The application extends the framework to handle structural problems with a consistent large deformation\nframework as well as adding miscellaneous utility routines we have found useful in our work on high temperature\nstructural design.\n(Provide additional information if necessary in Supplemental section below.)\nYear code",
+    "laborHours": 10503.2,
+    "languages": [],
+    "name": "SF-19-055 deer",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Argonne-National-Laboratory/deer",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

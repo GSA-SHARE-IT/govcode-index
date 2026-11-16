@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2018-02-14",
+        "metadataLastUpdated": "2018-03-14"
+    },
+    "description": "Happi is a database to hold generic information for devices along the LCLS photon beamline. LCLS endstations deal with dynamic sets of instrumentation. Information like ports, triggers and aliases are all important for operation, but hard to manage when spread across a multitude of applications. Happi solves this problem by creating a single access point for all the metadata required to interface with LCLS instrumentation. Using a flexible container based system Happi allows the enforcement of specific conventions while still permitting flexible data entry where required.",
+    "laborHours": 1641.6,
+    "name": "Heuristic Access to Positions of Photon Instruments (HAPPI)",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/happi/blob/master/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/happi",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

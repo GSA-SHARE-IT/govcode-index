@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "cwang@renci.org"
+    },
+    "date": {
+        "created": "2024-08-18",
+        "metadataLastUpdated": "2024-08-20"
+    },
+    "description": "The repo that provides data archive for DOE PoSeiDon project. It also contains scripts and instructions to parse the data.",
+    "laborHours": 349.6,
+    "languages": [],
+    "name": "FlowBench Raw Data Archive",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PoSeiDon-Workflows/FlowBench-Raw-Workflow-Data",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

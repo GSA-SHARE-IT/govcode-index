@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-01-11",
+        "metadataLastUpdated": "2023-03-29"
+    },
+    "description": "The Beam Characterization System (BCS) is an image-processing tool for estimating heliostat tracking errors. A large mirror, or heliostat, reflects the sun onto a distant target. A carefully calibrated camera then takes an image of this target to capture the shape of the reflected beam. The software kit hosts a series of scripts to identify key features and run analysis on the captured images.",
+    "laborHours": 0.0,
+    "languages": [
+        "Jupyter Notebook"
+    ],
+    "name": "BCS (CSP Beam Characterization System) [SWR-23-13]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/NREL-Beam-Characterization",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

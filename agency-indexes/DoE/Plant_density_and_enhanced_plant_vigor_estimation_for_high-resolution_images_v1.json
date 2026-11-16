@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-12-08",
+        "metadataLastUpdated": "2021-12-20"
+    },
+    "description": "The package contains algorithms for the estimation of sprout/plant density and the corresponding enhanced plant vigor from remotely sensed (RS) images. These algorithms aim to improve the plant characterization and monitoring in the early season when the soil component is significant compared to the plant spatial coverage. In such a scenario, the identification of sprouts (or plants) and the estimation of plant vegetation indexes can be performed only using UAV-acquired images. Additionally, because of the extremely high resolution, gridding becomes necessary to improve visualization and provide more informative maps. However, to capture the real range of values of the VIs, it is important to avoid the inclusion of those pixels belonging to the soil component. The sprout/plant density estimation algorithm takes in input a classification map and uses the vegetation class to estimates the plant density within a user-defined grid using a floating window. Similarly, the enhanced plant vigor algorithm takes in input the vegetation index and the classification map. The enhanced vegetation index is computed for each pixel as the average value among those pixels that belong to the vegetation class within a floating window. The software is developed for the MATLAB environment.",
+    "homepageURL": "https://ipo.lbl.gov/plant-density-and-enhanced-plant-vigor-estimation-algorithms-for-high-resolution-images-2019-179",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Plant density and enhanced plant vigor estimation for high-resolution images v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/plant-density-and-enhanced-plant-vigor-estimation-algorithms-for-high-resolution-images-2019-179",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/plant-density-and-enhanced-plant-vigor-estimation-algorithms-for-high-resolution-images-2019-179",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

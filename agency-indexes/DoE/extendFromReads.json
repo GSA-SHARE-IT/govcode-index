@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "This package assists in genome assembly. extendFromReads takes as input a set of Illumina (eg, MiSeq) DNA sequencing reads, a query seed sequence and a direction to extend the seed. The algorithm collects all seed-- ]matching reads (flipping reverse-- ]orientation hits), trims off the seed and additional sequence in the other direction, sorts the remaining sequences alphabetically, and prints them aligned without gaps from the point of seed trimming. This produces a visual display distinguishing the flanks of multi- ]copy seeds. A companion script hitMates.pl collects the mates of seed-- ]hi]ng reads, whose alignment reveals longer extensions from the seed. The collect/trim/sort strategy was made iterative and scaled up in the script denovo.pl, for de novo contig assembly. An index is pre-- ]built using indexReads.pl that for each unique 21-- ]mer found in all the reads, records its gfate h of extension (whether extendable, blocked by low coverage, or blocked by branching after a duplicated sequence) and other characteristics. Importantly, denovo.pl records all branchings that follow a branching contig endpoint, providing contig- ]extension information",
+    "laborHours": 30.4,
+    "languages": [
+        "perl"
+    ],
+    "name": "extendFromReads",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/extendFromReads",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

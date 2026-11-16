@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-01-16",
+        "lastModified": "2026-05-15"
+    },
+    "description": "Ansible role for installing and configuring logrotate",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-logrotate/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-logrotate",
+    "laborHours": 762.2,
+    "languages": [
+        "Shell",
+        "Python",
+        "Jinja"
+    ],
+    "name": "ansible-role-logrotate",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-logrotate.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "ansible-role",
+        "logrotate",
+        "hacktoberfest"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "pieper@ameslab.gov"
+    },
+    "date": {
+        "created": "2022-11-15",
+        "metadataLastUpdated": "2022-11-15"
+    },
+    "description": "INTERFACES is a program that uses NMR REDOR and RESPDOR data in addition to constraints to determine the three-dimensional structures of surface-supported molecules using distance geometry and a brute force structure search.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "g++11"
+    ],
+    "name": "fperras/INTERFACES",
+    "organization": "Ames Laboratory (AMES)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/fperras/INTERFACES",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Ames Laboratory (AMES)"
+    ],
+    "vcs": "git"
+}

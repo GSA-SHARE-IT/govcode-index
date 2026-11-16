@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-07-30",
+        "metadataLastUpdated": "2021-07-30"
+    },
+    "description": "This software converts XML files created by the Netfabb software to the XML format used by the Intelligent Feed Forward (IFF) tools developed at LLNL.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Netfabb to IFF XML converter",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CLDruzgalski/AM_fileConverters",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

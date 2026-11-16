@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-07-25",
+        "metadataLastUpdated": "2023-11-13"
+    },
+    "description": "The Wind Farm Wake Comparison Framework (Wcomp) is a software tool to facilitate the comparison of a specific collection of wind farm wake modeling tools: Python-based, steady-state, analytical wake modeling utilities. Wcomp integrates another software project, windIO, to create a consistent method for describing a wind farm flow control problem. Additionally, a data structure is included to represent the outputs a wind farm flow control simulation. Well-described interfaces allow existing wake modeling tools to plug into this framework.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Wcomp (Wind Farm Wake Comparison Framework) [SWR-23-72]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/nrel/wcomp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

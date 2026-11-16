@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "lioukaihsin@utexas.edu"
+    },
+    "date": {
+        "created": "2021-06-27",
+        "metadataLastUpdated": "2021-06-27"
+    },
+    "description": "PARSEC is a computer code that solves the Kohn-Sham equations by expressing electron wave-functions directly in real space, without the use of explicit basis sets. It uses norm-conserving pseudopotentials (Troullier-Martins and other varieties). It is designed for ab initio quantum-mechanical calculations of the electronic structure of matter, within density-functional theory.\nPARSEC is optimized for massively parallel computing environment, but it is also compatible with serial machines. A finite-difference approach is used for the calculation of spatial derivatives. Owing to the sparsity of the Hamiltonian matrix, the Kohn-Sham equations are solved by direct diagonalization, with the use of extremely efficient sparse-matrix eigensolvers. Some of its features are: Choice of boundary conditions: periodic (on all three directions), or confined. Structural relaxation. Simulated annealing. Langevin molecular dynamics. Polarizability calculations (confined-system boundary conditions only). Spin-orbit coupling. Non-collinear magnetism.",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran",
+        "Python"
+    ],
+    "name": "Pseudopotential Algorithm for Real-Space Electronic Structure Calculations",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/real-space/parsec",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "version": "1.4"
+}

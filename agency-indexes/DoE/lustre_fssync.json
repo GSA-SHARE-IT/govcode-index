@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2023-06-23",
+        "metadataLastUpdated": "2023-06-30"
+    },
+    "description": "lustre_fssync is a tool used to sync an entire Lustre file system from one cluster to another. It uses Lustre user quotas, parallel I/O utilities and the SLURM resource manager to balance and synchronize all contents between systems.",
+    "laborHours": 1033.6,
+    "languages": [],
+    "name": "lustre_fssync",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/lustre-tools-llnl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

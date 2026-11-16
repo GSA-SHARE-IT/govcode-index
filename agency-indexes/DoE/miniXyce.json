@@ -1,0 +1,40 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-25"
+    },
+    "description": "miniXyce uses a modified nodal analysis to approximate the governing differential algebraic equations (DAEs) for electronic devices and their coupling via a network and Kirchoff's conservation laws. The resulting nonlinear problem is solved iteratively using a fully coupled Newton method,which in turn results in a linear system that is solved using an iterative method.",
+    "laborHours": 1748.0,
+    "languages": [
+        "C++",
+        "Shell",
+        "C",
+        "Makefile",
+        "Perl",
+        "MATLAB",
+        "Python"
+    ],
+    "name": "miniXyce",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/miniXyce",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

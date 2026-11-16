@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-07-29",
+        "metadataLastUpdated": "2019-07-29"
+    },
+    "description": "OpenADR 2.0 a/b Virtual End Node (VEN) node for Node-Red.",
+    "laborHours": 1930.4,
+    "languages": [],
+    "name": "node-red-contrib-oadr-ven",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Argonne-National-Laboratory/node-red-contrib-oadr-ven",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

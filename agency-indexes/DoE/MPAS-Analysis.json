@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-07-26",
+        "metadataLastUpdated": "2018-08-03"
+    },
+    "description": "MPAS-Analysis is a software package designed to process and analyze output data of the Model for Prediction Across Scales (MPAS) Ocean, Sea-Ice and Land-Ice model components. It is built primarily on the python language, with remapping of model unstructured-grid fields onto regular grids performed through the ESMF package, and with the computation of climatologies performed through the NCO package. The main purpose of MPAS-Analysis is to analyze the MPAS simulations in terms of ocean and ice metrics, in comparison with available observations, and therefore provide an accurate model evaluation and simulation assessment.",
+    "laborHours": 20489.6,
+    "languages": [],
+    "name": "MPAS-Analysis",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/MPAS-Dev/MPAS-Analysis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

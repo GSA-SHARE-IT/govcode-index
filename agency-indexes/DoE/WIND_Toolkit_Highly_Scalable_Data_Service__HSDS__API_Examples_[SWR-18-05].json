@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-04-19",
+        "metadataLastUpdated": "2025-03-03"
+    },
+    "description": "The WIND Toolkit  Highly Scalable Data Service (HSDS) API examples provide example python software notebooks (software) and a javascript visualization that demonstrate use of the HDF Group's HSDS API utilizing data for NREL's WIND Toolkit.",
+    "laborHours": 699.2,
+    "languages": [
+        "Jupyter Notebook"
+    ],
+    "name": "WIND Toolkit Highly Scalable Data Service (HSDS) API Examples [SWR-18-05]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/nrel/hsds-examples",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

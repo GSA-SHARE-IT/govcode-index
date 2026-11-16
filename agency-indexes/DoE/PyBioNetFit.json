@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-11-26",
+        "metadataLastUpdated": "2018-11-27"
+    },
+    "description": "Systems biology models written in the BioNetGen language often contain parameters that must be fit based on experimental data. PyBioNetFit is a software tool designed to fit parameters of BioNetGen models. The user is expected to provide a BioNetGen model that contains unknown parameters, along with one or more text files containing experimental data. PyBioNetFit will perform a series of calls to the BioNetGen simulator using different parameter sets, to identify the parameter set that best fits the data. The parameter search is dictated by the user's choice of one of several metaheuristic optimization algorithms, including differential evolution, particle swarm optimization, scatter search, and simulated annealing. The software supports parallelized computing on multi-core computers and on computing clusters. We expect this software to be a useful tool for researchers designing BioNetGen models in collaboration with experimentalists.",
+    "laborHours": 24715.2,
+    "languages": [],
+    "name": "PyBioNetFit",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/PyBNF",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

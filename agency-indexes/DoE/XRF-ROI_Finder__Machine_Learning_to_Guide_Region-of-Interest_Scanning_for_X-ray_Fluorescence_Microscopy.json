@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-03-29",
+        "metadataLastUpdated": "2022-04-01"
+    },
+    "description": "The ROI-finder software is being developed for use by several Microscopy Group beamlines at Argonne National Laboratory, including 2-ID microprobes and 9-ID-B Bionanoprobe which use multi-scale scanning fluorescence microscopy to acquire elemental maps (multi-modal image data). Microscopy experiments require scan of samples at a coarse resolution followed by ROI identification using feature detection based on domain expertise. Finer resolution scans are then conducted based on identified ROI. The decision-making process based on domain expertise will be difficult to perform for faster data rates and much larger sampling volumes anticipated after APS-U necessitating the need for the ROI-finder software. The ROI- finder detects regions of interest through a continuous learning process, starting with a unsupervised representation learning and improving its recommendations through supervised learning and an interactive tool for user annotation. The scope of ongoing development efforts includes the integration of image registration module to correlate optical and X-ray images, extraction of feature morphology as well as elemental signatures in the image space and incorporation of beamtime streaming data by the scanning probe via EPICS.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "XRF-ROI Finder: Machine Learning to Guide Region-of-Interest Scanning for X-ray Fluorescence Microscopy",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/arshadzahangirchowdhury/ROI-Finder",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

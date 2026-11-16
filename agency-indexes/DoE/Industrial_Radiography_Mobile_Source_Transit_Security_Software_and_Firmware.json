@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-07-26",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The Industrial Radiography Mobile Source Transit Security (IR-MSTS) Software and Firmware Applications and Components described here are part of a system developed under NNSA funding to track mobile radioactive sources used in the industrial radiography service industry. The individual software applications and libraries, and firmware executables work together and in conjunction with the electronic hardware components to provide situational awareness of the radioactive sources as they are transported from the home base of operations to a job site and back again. Industrial radiography devices are equipped with IR-MSTS components to provide near real time source location information. A Global Positioning System (GPS) is used to track the geographic location of the transport vehicle. Various sensors are used to detect and report tamper of the IR-MSTS components.  Base Station application software, IR Dashboard, allows qualified personnel to track alarms, device information and locations and provides contact info of individuals that need to be notified should anomalous conditions be detected.  Firmware for Industrial Radiography 31602 IR Cloud Services for Industrial Radiography 31600 PM-Mat Firmware for Industrial Radiography 31599 IR Dashboard for Industrial Radiography 31598 PM-Box Firmware for Industrial Radiography 31597 PM-Tag Firmware for Industrial Radiography 31596 VCU Firmware for Industrial Radiography 31595",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Industrial Radiography Mobile Source Transit Security Software and Firmware",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

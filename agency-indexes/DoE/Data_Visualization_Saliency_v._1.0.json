@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-03-12",
+        "metadataLastUpdated": "2019-03-12"
+    },
+    "description": "Evaluating the effectiveness of data visualizations is a challenging undertaking and often relies on one-off human subject studies that test a visualization in the context of one specific task. Researchers across the fields of data science, visualization, and human-computer interaction are calling for foundational tools and principles that could be applied to assessing the effectiveness of data visualizations in a more rapid and generalizable manner. The visual saliency model for data visualizations described here addresses this need for evaluation tools. Visual saliency models assess the visual features (e.g. color, contrast, edges) of an image to predict which areas of that image will draw a viewer’s attention.  Providing predictions of where viewers will look in a visualization based on the saliency of the various regions and elements in that image could help designers to assess whether or not their design will draw the viewer’s attention as intended. The Data Visualization Saliency model, a saliency model for data visualizations, consists of two parts: a text saliency map and a modified version of the Itti, Koch and Niebur model [1]. The final saliency map is a linear combination of the two. The text saliency map is created from an algorithm that computes the likelihood of belonging to a text region for each pixel of an input visualization image. The modified Itti model transforms the original input image to a representation in CIE LAB color space, which provides an accurate representation of perceptual color opponency.\n\nFor a given input data visualization image, the Data Visualization Saliency model computes and returns the visualization saliency map highlighting areas of the data visualization that will draw a viewer’s attention. It also returns the lower level saliency maps for text and the modified Itti model.\n\n",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 1869.6,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "Data Visualization Saliency v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "version": "v. 1.0"
+}

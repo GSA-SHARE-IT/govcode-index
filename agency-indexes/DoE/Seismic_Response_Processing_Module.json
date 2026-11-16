@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-10-30",
+        "metadataLastUpdated": "2023-10-30"
+    },
+    "description": "The seismic response processing module is a Java based library that provides support for removing\ninstrument response signals from seismic recordings. The response module provides support for\nEvalResp, PZF, PAZ, FAP, PAZFIR, PAZFAP, FIRFAP, and CSS response types and parallel processing\nsupport for transfer operations. Additionally, the response module uses the JSR-363 units of\nmeasurement specification to allow for transfer to and from a wide range of units types to represent the\ntime-series.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Seismic Response Processing Module",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/response",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

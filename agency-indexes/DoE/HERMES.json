@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-04-19",
+        "metadataLastUpdated": "2024-04-19"
+    },
+    "description": "HERMES - High-speed Event Retrieval and Management for Enhanced Spectral imaging code. \nThis code is meant to unpack and process neutron imaging data from the TPX3Cam made by Amsterdam Scientific Instruments. The TPX3Cam utilizes the Timepix3 chip in a single photon counting mode of image acquisition. The photon counting data streaming off the TPX3Cam needs to be process and analyzed in order to create final images. Therefore we are developing both python and cpp codes to allow for users of the TPX3Cam to efficiently analyze data and create images.",
+    "laborHours": 1261.6,
+    "languages": [],
+    "name": "HERMES",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/hermes",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

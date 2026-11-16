@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "olattjv@ornl.gov"
+    },
+    "date": {
+        "created": "2024-08-20",
+        "metadataLastUpdated": "2024-08-20"
+    },
+    "description": "The J1939 Decoder package is a set of scripts that will allow one to decode J1939 messages.",
+    "laborHours": 15.2,
+    "languages": [],
+    "name": "J1939 Decoder",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/joornl/J1939-Decoder",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

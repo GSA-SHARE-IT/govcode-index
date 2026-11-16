@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "The PPMV is used to validate generator model using disturbance recordings. The PPMV tool contains a collection of power plant models and model validation studies, as well as disturbance recordings from a number of historic grid events. The user can import data from a new disturbance into the database, which converts PMU and SCADA data into GE PSLF format, and then run the tool to validate (or invalidate) the model for a specific power plant against its actual performance. The PNNL PPMV tool enables the automation of the process of power plant model validation using disturbance recordings. The tool uses PMU and SCADA measurements as input information. The tool automatically adjusts all required EPCL scripts and interacts with GE PSLF in the batch mode. The main tool features includes: The tool interacts with GE PSLF; The tool uses GE PSLF Play-In Function for generator model validation; Database of projects (model validation studies); Database of the historic events; Database of the power plant; The tool has advanced visualization capabilities; and the tool automatically generates reports.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "EPCL"
+    ],
+    "name": "Power Plant Model Validation Tool",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

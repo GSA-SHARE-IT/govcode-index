@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The intent of the software is eventually to become a middleware library to provide a cross platform interface for creating and managing a ramdisk. Eventually it will cover many platforms (*nix, Windows, Mac), and have the library written in several languages. At this point, the library is a functional python library for managing a Mac ramdisk. Some code is also included in how to use the library. Initial intended uses for the library: archive deleteone.sql elink_2017_10_20.json file.json fix_on_records.sh just-doi-it.sh onrecords postfile.sh postit.sh solr-delete testrepos.sh wipe.postgresql Provide a throw-away filesystem for unit testing filesystem related functionality. archive deleteone.sql elink_2017_10_20.json file.json fix_on_records.sh just-doi-it.sh onrecords postfile.sh postit.sh solr-delete testrepos.sh wipe.postgresql Improve compile time when building software.",
+    "laborHours": 3754.4,
+    "name": "ramdisk, Version 0.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/csd-dev-tools/ramdisk",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

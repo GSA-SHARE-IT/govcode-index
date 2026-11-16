@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "vowelll@osti.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "\"The soft costs of solar — costs not associated with hardware — remain stubbornly high. Among the biggest soft costs are those associated with inefficiencies in local permitting and inspection. A study by the National Renewable Energy Laboratory and Lawrence Berkeley National Laboratory estimates that these costs add an average of $0.22/W per residential installation. This project helps reduce non-hardware/balance of system (BOS) costs by creating and maintaining a free and available site of permitting requirements and solar system verification software that installers can use to reduce time, capital, and resource investments in tracking permitting requirements. Software tools to identify best permitting practices can enable government stakeholders to optimize their permitting process and remove superfluous costs and requirements. Like \"\"a Wikipedia for solar permitting\"\", users can add, edit, delete, and update information for a given jurisdiction. We incentivize this crowdsourcing approach by recognizing users for their contributions in the form of SEO benefits to their company or organization by linking back to users' websites.\"",
+    "laborHours": 113817.6,
+    "name": "The National Solar Permitting Database",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/solarpermit/solarpermit",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

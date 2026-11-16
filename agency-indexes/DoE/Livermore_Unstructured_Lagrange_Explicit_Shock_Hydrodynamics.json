@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-09-30",
+        "metadataLastUpdated": "2020-09-30"
+    },
+    "description": "LULESH v1.0 is a 3D unstructured Lagrange hydrodynamics simulation written specifically to solve a standard analytical test problem, known as the Sedov problem. In this problem, a quantum of energy is deposited into a gas and propagates through the gas over time.",
+    "laborHours": 2933.6,
+    "languages": [
+        "None"
+    ],
+    "name": "Livermore Unstructured Lagrange Explicit Shock Hydrodynamics",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/lulesh",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

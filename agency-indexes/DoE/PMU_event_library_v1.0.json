@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-10-30",
+        "metadataLastUpdated": "2019-10-30"
+    },
+    "description": "This is a library of 27 abnormal (electrical) grid events recorded at LBNL campus. Each event lasts for about 1 second. The library is published for other researchers to develop control algorithms.",
+    "laborHours": 45.6,
+    "languages": [],
+    "name": "PMU event library v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/pmu_event_library",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

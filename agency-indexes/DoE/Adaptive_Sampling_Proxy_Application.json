@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "ASPA is an implementation of an adaptive sampling algorithm [1-3], which is used to reduce the computational expense of computer simulations that couple disparate physical scales. The purpose of ASPA is to encapsulate the algorithms required for adaptive sampling independently from any specific application, so that alternative algorithms and programming models for exascale computers can be investigated more easily.",
+    "laborHours": 19167.2,
+    "name": "Adaptive Sampling Proxy Application",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/exmatex/aspa",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-16",
+        "metadataLastUpdated": "2024-07-16"
+    },
+    "description": "This software helps the user mathematically determine the losses in a boost converter they are designing. They can enter the component parasitic values from their component datasheets, and the software will calculate exactly where the losses are coming from. This can help the designer target and reduce specific sources of loss. It also helps system engineers compare the losses between AC and DC versions of the boost converter. Finally, it establishes a set of mathematical equations to help academics study loss theoretically.",
+    "laborHours": 562.4,
+    "languages": [],
+    "name": "Boost Converter Loss Analysis v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dgerb/Boost-Converter-Loss-Analysis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2018-06-05",
+        "metadataLastUpdated": "2018-06-05"
+    },
+    "description": "A general repository of useful information for programming across the lab. This repository is oriented around tools, education, best practices, and general knowledge around programming and software development across the lab. We hope it will empower anyone who writes softare at the lab, whether it's analysis scripts in python, firmware for daq systems, web apps for communications, or just simple bash scripts.\n",
+    "laborHours": 60.8,
+    "languages": [],
+    "name": "Programming at SLAC",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/programming/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/programming",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

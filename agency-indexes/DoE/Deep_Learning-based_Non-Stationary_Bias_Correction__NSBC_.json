@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2025-02-10",
+        "metadataLastUpdated": "2025-02-10"
+    },
+    "description": "This work develops the NSBC (non-stationary bias correction) methodology to correct temperature\nprojection bias from E3SM.\nThe NSBC deep learning framework consists of a three-part architecture: an auto-encoder for\ncompressing the spatial information, an LSTM for predicting annual temperature mean, and a U-Net for\ncapturing the residual bias in temperature. The non-stationary bias correction (NSBC) framework can\ncorrect the non-stationarity of the biases of the climate models, which significantly improves the accuracy\nof future temperature prediction and improves the overestimation of extreme high temperatures that many\nexisting bias correction methods suffer from.\nGetting started\n1. Obtain the historical climate simulation and observation data.\nThe E3SM simulation data are available through https://aims2.llnl.gov/search/cmip6/.\nThe pseudo observations, the Geophysical Fluid Dynamics Laboratory (GFDL)-ESM4 model (Krasting et\nal., 2018) are available through https://aims2.llnl.gov/search/cmip6/.\nThe spatial resolution of E3SM and pseudo observation datasets are both regridded to a common 1°\nresolution grid using conservative interpolation. The regridded E3SM and pseudo observation with 1°\nresolution can be found throught ./data/.\n2. Train the Auto-encoder model.\nPython 0-autoencoder.py\n3. Train the LSTM\nPython 1-LSTM.py\n4. Generate the annual mean temperature based on trained LSTM\nPython 2-generate_annual_mean_LSTM.py\n5. Train the U-Net.\nPython 3-unet.py\n6. Evaluation and compared with the baseline\nPython 4_evaluation.py\nIs there a deadline approaching that requires the release of yo",
+    "laborHours": 684.0,
+    "languages": [],
+    "name": "Deep Learning-based Non-Stationary Bias Correction (NSBC)",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/NSBC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

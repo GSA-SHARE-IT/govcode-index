@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-01-13",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "This software produces general location descriptions from time-series location data collected from mobile devices that record global positioning system (GPS) coordinates over time. The purpose of this software is to convert detailed location history data, which is considered personally identifiable information (PII), into non-traceable, anonymized, generic information that is useful to researchers but does not contain PII. The software is specifically designed for use with trigger-based data that describe the parked locations and dwell times of automobiles.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Location Generalizer",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/Location-Generalizer",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

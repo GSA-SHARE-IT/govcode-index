@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "MultiSpeaker is a software application that parses wsdl and xsd files that define the MultiSpeak protocol. The MultiSpeak protocol (www.multispeak.org) is a SOA-based integration architecture that defines the complex communications between various endpoints of a utility company. MultiSpeaker parses the files and presents an easy to read and understand representation of the underlying protocol. The user may then use visual clues to know what message elements are required, descriptions for the elements along with valid entries. The user may then edit or modify the payload of the actual messages. MultiSpeaker also provides a mechanism for scheduling multiple modified protocol messages.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "Qt"
+    ],
+    "name": "Multispeaker",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

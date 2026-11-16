@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-11-05",
+        "metadataLastUpdated": "2021-11-05"
+    },
+    "description": "The micron level generalized defect dynamics code is a numerical tool predicting the overall mechanical response and microstructure evolutions of metals deforming by dislocation glide, cross slip and climb and point defect diffusion and clustering. The tool relies on the use of a Fast Fourier Transform mechanical solver allowing for the computation of mechanical fields resulting from the presence of dislocations, grain boundaries and second phases. The code leverages both field defect mechanics and cluster dynamics modeling framework.\n\n\tThe primary intent of this tool is to validate and calibrate mathematical constitutive models used to describe the mechanical response and microstructure evolutions of metals. This is achieved by tracking the evolution of an ensemble of dislocations and of points defects subjected to mechanical loading. The code can simulate complex microstructures and physical phenomena associated with plasticity. As such, it can be applied to metals with any crystal symmetry (face centered cubic, body centered cubic, hexagonal closed packed).  Further, the model can be applied to single crystalline and to polycrystalline aggregates. Simulation volumes can be subjected to mixed boundary conditions (i.e. stress and strain) and the effect of free surfaces can also be accounted for such as to mimic plasticity in thin films and in micropillars.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Generalized defect dynamics",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

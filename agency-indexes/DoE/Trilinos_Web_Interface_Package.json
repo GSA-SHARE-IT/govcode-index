@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-24"
+    },
+    "description": "WebTrilinos is a scientific portal, a web-based environment to use several Trilinos packages through the web. If you are a teaching sparse linear algebra, you can use WebTrilinos to present code snippets and simple scripts, and let the students execute them from their browsers. If you want to test linear algebra solvers, you can use the MatrixPortal module, and you just have to select problems and options, then plot the results in nice graphs.",
+    "laborHours": 2705.6,
+    "languages": [],
+    "name": "Trilinos Web Interface Package",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/WebTrilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

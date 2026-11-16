@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-09-29",
+        "metadataLastUpdated": "2021-09-29"
+    },
+    "description": "LibPressioOpt provides a plugin for libpressio that provides optimization routines to configure compressors",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LibPressio-Opt",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/robertu94/libpressio_opt/blob/develop/COPYRIGHT.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/robertu94/libpressio_opt",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

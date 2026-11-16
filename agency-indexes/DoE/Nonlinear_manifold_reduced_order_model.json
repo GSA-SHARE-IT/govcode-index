@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-09-04",
+        "metadataLastUpdated": "2024-09-19"
+    },
+    "description": "Traditional linear subspace reduced order models (LS-ROMs) are able to accelerate physical simulations\nin which the intrinsic solution space falls into a subspace with a small dimension, i.e., the solution space\nhas a small Kolmogorov n-width. However, for physical phenomena not of this type, e.g., any advection-dominated\nflow phenomena such as in traffic flow, atmospheric flows, and air flow over vehicles, a lowdimensional\nlinear subspace poorly approximates the solution. To address cases such as these, we have\ndeveloped a fast and accurate physics-informed neural network ROM, namely nonlinear manifold ROM\n(NM-ROM), which can better approximate high-fidelity model solutions with a smaller latent space\ndimension than the LS-ROMs. Our software takes advantage of the existing numerical methods that are\nused to solve the corresponding full order models. The efficiency is achieved by developing a hyper-reduction\ntechnique in the context of the NM-ROM. Numerical results show that neural networks can learn\na more efficient latent space representation on advection-dominated data from 1D and 2D Burgers'\nequations. A speedup of up to 2.6 for 1D Burgers' and a speedup of 11.7 for 2D Burgers' equations are\nachieved with an appropriate treatment of the nonlinear terms through a hyper-reduction technique.",
+    "laborHours": 20170.4,
+    "languages": [],
+    "name": "Nonlinear manifold reduced order model",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/NM-ROM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

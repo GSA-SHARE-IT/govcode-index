@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2018-10-25",
+        "metadataLastUpdated": "2018-10-26"
+    },
+    "description": "The software decomposes n-component time-series data into persistence vectors and provide visualizations of various summaries of this information. Persistence vectors are a type of vector, based on multidimensional persistent homology theory, which have magnitudes and directions that reflect dominant trends in the multi-component data. The software is a collection of MATLAB scripts, and thus MATLAB runs the scripts. The master script that calls other scripts is called Snorri. The purpose is thus analysis of time-series data to extract dominant trends or events and to classify the type of event. The software produces characteristic vectors (an average of the persistence vectors), which can have directions that reflect the overall dominant trend in a time-series data set. The MATLAB scripts have been partially converted to the PYTHON language and no do not have the full functionality of the MATLAB and are not fully tested; the python scripts are to be covered under this copyright assertion. Two versions of the PYTHON scripts are included, called: mph25.py and mph38.py, each with their own main.py file.",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 1444.0,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "Snorri Version 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "version": "v. 1.0"
+}

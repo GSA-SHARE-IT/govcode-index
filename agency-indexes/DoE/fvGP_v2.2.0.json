@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-07",
+        "metadataLastUpdated": "2021-03-15"
+    },
+    "description": "fvGP is a flexible Gaussian process API that enables gpCAM, a software recently submitted, to do uncertainty quantification and steer data acquisition autonomously. In short, given a bunch of data, fvGP can find the most likely model creating the data and the model's uncertainty.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "fvGP v2.2.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/MarcusMichaelNoack/fvgp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "version": "v2.2.0"
+}

@@ -1,0 +1,49 @@
+{
+    "id": 1130,
+    "name": "Compensation and Pension Record Interchange",
+    "organization": "OIT DSO",
+    "version": "v1, DVBA*2.7*223",
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/Redacted-Public-Release-CAPRI-Migration-P2-v1-DVBA_2.7_223-Sep-2020",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "CAPRI",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Windows Server",
+        "WebLogic Server",
+        "OpenVMS",
+        "Rapid Application Development (RAD) Studio",
+        "Microsoft Visual Studio",
+        "Cache",
+        "Cache Studio",
+        "Micro Focus Content Manager"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2021-01-26",
+        "lastModified": "2021-01-26",
+        "metadataLastUpdated": "2021-01-26"
+    },
+    "description": "Repository containing the Code in Flight submission for Compensation and Pension Record Interchange (CAPRI) Migration Phase 2, v1, DVBA*2.7*223 received Sep 2020."
+}

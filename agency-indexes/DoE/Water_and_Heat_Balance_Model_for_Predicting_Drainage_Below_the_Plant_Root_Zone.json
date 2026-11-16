@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "gilmorem@osti.gov"
+    },
+    "date": {
+        "created": "2018-06-19",
+        "metadataLastUpdated": "2022-11-10"
+    },
+    "description": "UNSAT-H Version 2.0 is a one-dimensional model that simulates the dynamic processes of infiltration, drainage, redistribution, surface evaporation, and the uptake of water from soil by plants. The model was developed for assessing the water dynamics of arid sites used or proposed for near-surface waste disposal. In particular, the model is used for simulating the water balance of cover systems over buried waste and for estimating the recharge rate (i.e., the drainage rate beneath the plant root zone when a sizable vadose zone is present). The mathematical base of the model are Richards'' equation for water flow, Ficks'' law for vapor diffusion, and Fouriers law for heat flow. The simulated profile can be homogeneous or layered. The boundary conditions can be controlled as either constant (potential or temperature) or flux conditions to reflect actual conditions at a given site.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Water and Heat Balance Model for Predicting Drainage Below the Plant Root Zone",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ]
+}

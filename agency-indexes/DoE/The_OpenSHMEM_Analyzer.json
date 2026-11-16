@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-10"
+    },
+    "description": "The OpenSHMEM Analyzer is a compiler-based tool that can help users detect errors and provide useful analyses about their OpenSHMEM applications. The tool is built on top of the OpenUH compiler (a branch of Open64 compiler) and presents OpenSHMEM information as feedback to the user. Some of the analyses it provides include checks for correct usage of symmetric variables in OpenSHMEM calls, out-of-bounds checks for symmetric data, checks for the correct initialization of pointers to symmetric data, and symmetric data alias information.",
+    "homepageURL": "http://www.openshmem.org/site/OSA",
+    "laborHours": 0.0,
+    "languages": [
+        "C, C++ / GCC / 4.3.4"
+    ],
+    "name": "The OpenSHMEM Analyzer",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://www.openshmem.org/site/node/58",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://www.openshmem.org/site/OSA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

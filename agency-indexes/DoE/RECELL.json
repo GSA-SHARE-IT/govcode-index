@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2018-08-23",
+        "metadataLastUpdated": "2019-12-19"
+    },
+    "description": "A Microsoft Excel based closed-loop cycle model that analyses the entire life-cycle of batteries and other systems with a predominate focus on cost, energy and environment impact",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "RECELL",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.osti.gov/qdai/everbatt.git",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

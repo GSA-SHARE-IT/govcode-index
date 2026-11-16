@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2023-03-14",
+        "metadataLastUpdated": "2023-03-14"
+    },
+    "description": "GSAS-II is a comprehensive data analysis and simulation software package for determining atomistic structures from single-crystal and powder diffraction data. X-ray, neutron and electron data may be used. Constant-wavelength, time-of-flight and pink-beam sources may be employed and analyses may combine different types of data. The package is oriented towards materials characterization problems, but protein crystallography, pair-distribution function analysis, small-angle scattering and reflectometry analysis are all included. GSAS-II provides tools for indexing and solving structures from powder diffraction data, in addition to structure, data and results visualization tools",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GSAS-II (GENERAL STRUCTURE AND ALAYSIS SYSTEM-II)",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://subversion.xray.aps.anl.gov/pyGSAS/trunk",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

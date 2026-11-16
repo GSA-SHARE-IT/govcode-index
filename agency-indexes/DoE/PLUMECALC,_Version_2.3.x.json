@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-12-05",
+        "metadataLastUpdated": "2018-12-06"
+    },
+    "description": "PLUMECALC is a post processor to random walk particle tracking simulations of subsurface solute transport. PLUMECALC takes results of a single particle tracking run without retention processes and incorporates the effects of matrix diffusion or other retention processes for a user-specified solute source.",
+    "laborHours": 3511.2,
+    "languages": [],
+    "name": "PLUMECALC, Version 2.3.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/PLUMECALC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

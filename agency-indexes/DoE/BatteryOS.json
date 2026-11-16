@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "tancw@stanford.edu"
+    },
+    "date": {
+        "created": "2025-04-28",
+        "metadataLastUpdated": "2025-04-28"
+    },
+    "description": "BatteryOS is a software package for software virtualization of batteries, particularly grid-attached batteries in homes and home battery/solar installations. BatteryOS allows users to aggregate and partition batteries and supports a simple driver interface for connecting it to physical batteries. BatteryOS was developed as part of the TrustDER: Trusted, Private and Scalable Coordination of Distributed Energy Resources project at Stanford University, funded by the Department of Energy in Agreement DE-OE0000919. The project concluded in the summer of 2024.\n\nThe BatteryOS (BOS) package is consisted of software and drivers for creating and managing virtual batteries. It includes support for private battery aggregation. BatteryOSv1 was the first Python implementation; BatteryOSv2 was the first C++ implementation; BatteryOSv3 is the final, cleaned-up C++ implementation.",
+    "laborHours": 12859.2,
+    "languages": [],
+    "name": "BatteryOS",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/unlicense",
+                "name": "Unlicense"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Stanford-New-Energy-Systems/BatteryOS",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

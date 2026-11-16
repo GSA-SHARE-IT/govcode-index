@@ -1,0 +1,53 @@
+{
+    "name": "OCC_Childcare.gov",
+    "description": "ACF's Childcare.gov website",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GNU General Public License v2.0"
+            }
+        ]
+    },
+    "organization": "Department of Health and Human Services",
+    "homepageURL": "https://github.com/HHS/OCC_Childcare.gov",
+    "downloadURL": "https://api.github.com/repos/HHS/OCC_Childcare.gov/downloads",
+    "repositoryURL": "https://github.com/HHS/OCC_Childcare.gov.git",
+    "vcs": "git",
+    "laborHours": 0.0,
+    "languages": [
+        "PHP",
+        "JavaScript",
+        "CSS",
+        "Twig",
+        "HTML",
+        "SCSS",
+        "Shell",
+        "Ruby",
+        "EJS",
+        "Smarty",
+        "Sass",
+        "Gherkin",
+        "CoffeeScript",
+        "Less",
+        "Slim",
+        "Makefile",
+        "Mustache"
+    ],
+    "date": {
+        "created": "2021-09-15",
+        "lastModified": "2021-10-21",
+        "metadataLastUpdated": "2022-03-22"
+    },
+    "tags": [
+        "ACF's",
+        "Childcare",
+        "website"
+    ],
+    "contact": {
+        "email": "HHS_GitHub_Service_Desk@hhs.gov",
+        "name": "U.S. Department of Health & Human Services"
+    }
+}

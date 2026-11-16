@@ -1,0 +1,29 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "SSCA1-K1 is a parallel implementation of kernel 1 of the SSCA1 benchmark suite released by the DARPA HPCS program. This kernel is able to run in parallel on a distributed shared memory system at extreme scales using OpenSHMEM.",
+    "laborHours": 775.2,
+    "name": "SSCA1-K1",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/MattBBaker/ssca1",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

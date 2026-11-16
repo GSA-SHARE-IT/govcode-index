@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/CDCgov",
+        "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+        "created": "2020-12-10",
+        "lastModified": "2020-12-21"
+    },
+    "description": "HIE Automation testing framework - OpenMRS, OpenHIM, OpenSHR, HAPI-FHIR, OpenEMPI",
+    "downloadURL": "https://api.github.com/repos/CDCgov/hie-automation-tests/downloads",
+    "homepageURL": "https://github.com/CDCgov/hie-automation-tests",
+    "laborHours": 0,
+    "languages": [
+        "Python",
+        "Gherkin"
+    ],
+    "name": "hie-automation-tests",
+    "organization": "Centers for Disease Control and Prevention",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "git://github.com/CDCgov/hie-automation-tests.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

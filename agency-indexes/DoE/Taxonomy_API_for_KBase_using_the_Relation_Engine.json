@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-07-30",
+        "metadataLastUpdated": "2020-07-31"
+    },
+    "description": "This is an API for taxonomy data (updated from taxon_api) that queries the relation engine. This service is a registered as a KBase dynamic service under the module name taxonomy_re_api.",
+    "laborHours": 820.8,
+    "languages": [],
+    "name": "Taxonomy API for KBase using the Relation Engine",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/taxonomy_re_api",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

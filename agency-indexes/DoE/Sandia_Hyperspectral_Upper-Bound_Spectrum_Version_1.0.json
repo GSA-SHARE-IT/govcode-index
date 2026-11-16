@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2024-07-24"
+    },
+    "description": "The Sandia hyperspectral upper-bound spectrum algorithm (hyper-UBS) is a cosmic ray despiking algorithm for hyperspectral data sets. When naturally-occurring, high-energy (gigaelectronvolt) cosmic rays impact the earth’s atmosphere, they create an avalanche of secondary particles which will register as a large, positive spike on any spectroscopic detector they hit. Cosmic ray spikes are therefore an unavoidable spectroscopic contaminant which can interfere with subsequent analysis. A variety of cosmic ray despiking algorithms already exist and can potentially be applied to hyperspectral data matrices, most notably the upper-bound spectrum data matrices (UBS-DM) algorithm by Dongmao Zhang and Dor Ben-Amotz which served as the basis for the hyper-UBS algorithm. However, the existing algorithms either cannot be applied to hyperspectral data, require information that is not always available, introduce undesired spectral bias, or have otherwise limited effectiveness for some experimentally relevant conditions. Hyper-UBS is more effective at removing a wider variety of cosmic ray spikes from hyperspectral data without introducing undesired spectral bias.  In addition to the core algorithm the Sandia hyper-UBS software package includes additional source code useful in evaluating the effectiveness of the hyper-UBS algorithm. The accompanying source code includes code to generate simulated hyperspectral data contaminated by cosmic ray spikes, several existing despiking algorithms, and code to evaluate the performance of the despiking algorithms on simulated data.",
+    "laborHours": 0.0,
+    "languages": [
+        "Mathworks Matlab R2015b"
+    ],
+    "name": "Sandia Hyperspectral Upper-Bound Spectrum Version 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/Hyper-UBS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

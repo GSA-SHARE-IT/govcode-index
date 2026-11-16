@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2021-07-30",
+        "metadataLastUpdated": "2022-06-16"
+    },
+    "description": "The Ubiquitous Traffic Volume Estimation System uses Machine Learning (ML) algorithms to provide accurate estimates of number vehicles on the roadway (ubiquitous traffic volume) based on inputs such as commercial probe traffic data that includes average vehicle speed and probe counts, roadway characteristics, weather, time of day, and day of week, and reference volume counts from a limited number of automatic traffic recorder stations. The Ubiquitous Traffic Volume Estimation System estimates traffic volumes 24 hours a day, 7 days a week, and 365 days a year on all major corridors and freeways in Denver metropolitan area and is being expanded to the whole state of Colorado. The methodology and code developed in this effort can be easily customized to other states and cities where similar data is available.",
+    "laborHours": 0.0,
+    "languages": [
+        "R",
+        "Jupyter Notebook"
+    ],
+    "name": "Ubiquitous Traffic Volume Estimation System",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/TrafficVolumeEstimation",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

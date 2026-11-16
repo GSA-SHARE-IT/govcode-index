@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-05-17",
+        "metadataLastUpdated": "2021-05-19"
+    },
+    "description": "UnitCommitment.jl is an optimization package for the Security-Constrained Unit Commitment Problem (SCUC), afundamental optimization problem in power systems used, for example, to clear the day-ahead electricity markets. The package provides a Julia/JuMP implementation of state-of-the-art mixed-integer programming formulations and algorithms to solve the problem.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "UnitCommitment.jl",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ANL-CEEESA/UnitCommitment.jl",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

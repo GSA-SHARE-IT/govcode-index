@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-11-05",
+        "metadataLastUpdated": "2021-11-05"
+    },
+    "description": "This is software that will be used to do data analytics in experimental workflows for x-ray mesoscale science. This tool set will provide a mechanism for supporting experiments in many ways, from collecting calibration information and raw data, to managing and viewing data to extracting crystallographic and physical parameters. It will eventually include development of a fully automated workflow that will include statistical information and prediction capabilities to support the scientists in decision-making and replanning their experiments when necessary.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Mesoscale Science Data Analytics",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/fiteos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

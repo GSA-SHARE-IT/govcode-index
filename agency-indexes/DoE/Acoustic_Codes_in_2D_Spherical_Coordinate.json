@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-09-25",
+        "metadataLastUpdated": "2023-09-28"
+    },
+    "description": "Finite-difference methods are widely used to simulate infrasound propagation in the atmosphere.\nFlexibility of finite-difference scheme allows implementation of highly heterogeneous media for sound\npropagation as well as complex source models for sound generation. While full 3-D finite-difference\nmethods have been utilized for local infrasound propagation with pronounced topography, 2-D modeling\napproach has been preferred for regional and global propagation as full 3-D methods generally require\nenormous computational resources. Infrasound propagation is often simulated with a second-order finite difference\nscheme. This lowest-order finite-difference scheme is robust and straightforward to implement\ncomplex boundary conditions, but the solution includes large error with numerical dispersion and\ndissipation. This large numerical error may make the second-order finite-difference not optimal for long range\ninfrasound propagation modeling as the numerical dispersion degrades the accuracy of the solution\nunacceptably. Here, we developed a high-order finite-difference solver for long-range infrasound\nsimulation. The high-order scheme is particularly popular for linear wave modeling in aeroacoustics\nowing to its low-dispersive and low-dissipative behavior. We develop and evaluate a high-order finite difference\nscheme in 2-D axisymmetric coordinates. The axisymmetry allows to approximate 3-D\nspherical sound propagation and amplitude attenuation by a 2-D method. AC2Dr is developed to simulate\ninfrasound propagation in realistic atmosphere, but can be used for linear acoustic waves in general\nmaterials with background flow. AC2Dr in an axisymmetric coordinates allows for spherical radiation of\nacoustic waves from compact sources.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Acoustic Codes in 2D Spherical Coordinate",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/AC2Dr",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

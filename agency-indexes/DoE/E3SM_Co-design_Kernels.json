@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "sarat@ornl.gov"
+    },
+    "date": {
+        "created": "2021-08-06",
+        "metadataLastUpdated": "2021-08-06"
+    },
+    "description": "Climate kernels for Co-design These kernels originate from the Energy Exascale Earth System Model (E3SM). They are intended for sharing with interested parties for co-design purposes.",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "E3SM Co-design Kernels",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/codesign-kernels",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

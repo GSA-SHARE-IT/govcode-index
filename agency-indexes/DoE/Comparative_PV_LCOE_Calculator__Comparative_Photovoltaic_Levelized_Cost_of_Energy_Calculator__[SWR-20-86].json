@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-07-31",
+        "metadataLastUpdated": "2024-12-19"
+    },
+    "description": "The calculator calculates levelized cost of energy (LCOE) for photovoltaic (PV) systems based on cost, performance, and reliability inputs for a baseline and a proposed technology. The user can choose inputs and watch the effect on LCOE to determine whether a proposed technology is cost-effective, perform trade-off analysis among different technology options, and do break-even analysis of cost or performance.",
+    "laborHours": 26204.8,
+    "languages": [
+        "JavaScript"
+    ],
+    "name": "Comparative PV LCOE Calculator (Comparative Photovoltaic Levelized Cost of Energy Calculator) [SWR-20-86]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/PVLCOE",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

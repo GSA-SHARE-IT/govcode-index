@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-06-12",
+        "metadataLastUpdated": "2025-04-14"
+    },
+    "description": "SRS is a web-based and mobile toolkit for information visualization and collaboration.  It includes server-side components in the form of web services that provide analytical functions such as data clustering and temporal analysis.  The SRS client is accessed via a web browser and uses asynchronous javascript and XML (AJAX) to interact with and visualize the results of these web services.  Users of SRS can query data sources that are connected to the SRS backend, and query results are presented in the form of coordinated visual displays in a web browser that depict temporal, topical, and spatial relationships in the results.  SRS also includes an early stage graphical reasoning diagram interface that helps analysts express and test hypotheses.  \nThis software was developed with funding from the Science and Technology Directorate of the U.S. Department of Homeland Security.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 35112.0,
+    "languages": [],
+    "name": "Scalable Reasoning System (SRS)",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "version": "2.x"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "giridhar.nandipati@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-08-25",
+        "metadataLastUpdated": "2020-08-26"
+    },
+    "description": "\"Kinetic simulations of microstructural evolution\" (KSOME) is an object Kinetic Monte Carlo (OMKC) simulation code.  It is developed to simulate microstructural evolution in materials during irradiation.  KSOME is developed from ground up with priority given to the flexibility, ease of upgradability, and computation efficiency, in that order. With previously developed simulation codes, various processes (more precisely, the diffusion-reaction processes) that can occur in a system were hardwired into the code. Hence, to perform higher fidelity simulations, a significant coding effort was required every time to incorporate either a more accurate description of existing processes or new processes. With KSOME, the necessity for frequent code upgrades whenever there is a need to perform higher fidelity simulations is either eliminated or reduced significantly.  In KSOME, the categories of various diffusion-reaction processes and the data-management system are hardwired, while the execution of the diffusion-reaction processes specific to a system is specified via input files. In the present version of KSOME, the analytical expression required to calculate defect interaction radii are inputted via a text file. However, the ability to parse mathematical expressions from a text file can be extended to input the analytical expression to calculate other defect properties; including the expressions to calculate the change in the migration barriers of mobile defects due to long-range interaction with extended defects ",
+    "laborHours": 8968.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Kinetic Simulations of Microstructural Evolution (KSOME)",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.osti.gov/giridharnandipati/ksome",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

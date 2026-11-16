@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "Sandia National Laboratories has modified Simulating WAves Nearshore (SWAN), the Delft University of Technology code,, to include functionality to better model wave energy converters (WECs). The code modified by SNL has been named SNL-SWAN. SNL-SWAN includes a frequency dependent WEC Module that builds upon the traditional obstacle module in SWAN. In SNL-SWAN, a frequency dependent transmission coefficient is calculated to model power absorbed by WEC devices. The power transmission coefficients are calculated based on the WEC's power performance, which is defined by the user in the input text files. Two methods of defining WEC power performance have been implemented: a user-specified power matrix, and a user-specified relative capture width. These methods allow the user to define the WEC's frequency dependent energy absorption as a function of period and/or wave height. SWAN test cases were run to verify the compiled code's functionality, and verification of the frequency dependent WEC Module in SNL-SWAN has also been performed. SNL-SWAN code is will be released as open source code and will be made publicly available.",
+    "laborHours": 23985.6,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "SNL-SWAN",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/SNL-SWAN",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

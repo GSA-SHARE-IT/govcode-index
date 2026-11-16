@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-10-21",
+        "metadataLastUpdated": "2019-10-21"
+    },
+    "description": "This is a software utility for calculating pooling volumes and graphing quality control data of next generation sequencing libraries amplified with fluorescent intercalating agents and monitored by real-time quantitative PCR (qPCR). The tool is used to calculate pooling volumes of individual next generation sequencing libraries based on experimentally determined fluorescence values. To do this, fluorescent values are used as a proxy for relative concentration to determine the ratio of transfer volumes. The output is a \"transfer file\" that specifies the transfer volume and destination well of a given library. The tool can also be used to assess the quality of individual next generation sequencing libraries by melting curve analysis. The output are small-multiples graphs of the melting curves of individual sequencing libraries according to the specified plate layout.",
+    "laborHours": 152.0,
+    "languages": [],
+    "name": "Fluorescent Amplification of Next Generation Sequencing Libraries Tools (FA-NGS tools) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AgileBioFoundry/FA-NGS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "Lab experiments involving digital signal processing tend to capture heterogeneous data that is binned into individual files. The structure of the whole experiment tends to get lost in this process, generating a \"mess\" of data that is difficult to summarize, and even more difficult to analyze in a consistent way. DataXray is a set of python routines that wraps publicly available open-source codes to create a consistent workflow for data and experiments, involving imaging, spectral and hyperspectral data. Routines are provided for data translation, slicing, visualization, multivariate statistics, integral transforms, feature extraction and reporting in the form of publication-grade figures.",
+    "laborHours": 2173.6,
+    "languages": [
+        "Python 3.5"
+    ],
+    "name": "DataXray",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/glacio/data-xray/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

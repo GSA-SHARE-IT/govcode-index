@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-12-16",
+        "metadataLastUpdated": "2019-12-16"
+    },
+    "description": "The software developed is a library for the Modelica language. The library includes different extremum seeking control algorithms and examples of possible usecases. It is also intended to export the models as so called Functional Mock-up Units, which are models supported by any kind of software which supports the Functional Mock-up Interface standard.",
+    "laborHours": 15.2,
+    "languages": [],
+    "name": "Extremum Seeking Library (ESL) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/ESL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

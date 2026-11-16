@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-30",
+        "metadataLastUpdated": "2024-08-30"
+    },
+    "description": "The software contains only one perl script that take advantage of a module published 8 years ago from the public domain (https://github.com/dongyingwu/TreeOTU) . It take a phylogenetic tree, and select a give number (user defined) of taxa that represent the maximize phylogenetic diversity from the tree.",
+    "laborHours": 577.6,
+    "languages": [],
+    "name": "maximize phylogenetic diversity taxa selection script (maxPD.pl) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/maxpd/src/master",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-04",
+        "metadataLastUpdated": "2021-06-07"
+    },
+    "description": "As high-performance computing reaches exascale, data analysis and visualization will need to shift from a predominantly post hoc approach to an in situ paradigm – running while the simulation is running. Memory and I/O bandwidth growth is expected to lag behind concurrency growth by orders of magnitude. This will require new in situ algorithms and tools that can leverage emerging accelerator technology to sufficiently decrease the volume of data moved on the machine and amount saved to persistent storage. As part of the Department of Energy’s Exascale Computing Project (ECP), the ALPINE and team at Los Alamos National Laboratory (LANL) is collaboratively developing open source solutions with DOE leadership laboratories, universities, and industry partners to address these challenges. The ECP ALPINE project is developing filters and algorithms to support the in situ analysis and visualization goals of ECP application codes. Prototypes of the filters and algorithms are written in C++ and Python while production versions are written in VTK or VTK-m. These filters and algorithms will be available in commonly used visualization tools and infrastructures such as ParaView, VisIt, and Ascent and will be deployed on exascale machines at the DOE Leadership Computing Facilities. The primary users of these projects will be both at Los Alamos National Laboratory and will include application codes at institutions across the Exascale Computing Project (https://www.exascaleproject.org/).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ECP Collaborative Software Development for In Situ Data Analysis and Visualization",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/alpine-lanl",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

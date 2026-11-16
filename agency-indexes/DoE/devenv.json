@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "lyon@fnal.gov"
+    },
+    "date": {
+        "created": "2019-12-13",
+        "metadataLastUpdated": "2019-12-13"
+    },
+    "description": "Linux style development, like what we do for particle physics experiments at Fermilab, is becoming more difficult on the Mac. Apple is moving to its own style of development that is often incompatible. For example,\n\n* System Integrity Protection (SIP) prevents using DYLD_LIBRARY_PATH, breaking the mechanism used by our development environment system, ups.\n\n* Mac headers and system libraries are not always compatible with those on Linux, necessitating platform dependent code.\n\n* XCode is more focused on Swift, Objective-C, and Mac or iOS-style development. XCode does not understand CMake builds natively.\n\nThe differences that Mac and XCode introduce are difficult to manage and many experiments have stopped making Mac builds. Despite these problems, Mac laptops remain powerful machines and the MacOS environment is advantageous in many other areas. Therefore, mitigating the problems with Linux style development is motivated.\n\nThis package contains a configuration for docker containers along with instructions for integrating with the Mac that make for an effective and efficient development platform for Linux style development of physics code. Instructions for using CLion for C++ development in this environment are given in the documentation for running CLion within the linux container or from the Mac host.\n\nNote that the containers and techniques here may also work on Windows. You will have to adapt the instructions for that platform.",
+    "laborHours": 410.4,
+    "languages": [
+        "Bash",
+        "docker"
+    ],
+    "name": "devenv",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lyon-fnal/devenv",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ],
+    "vcs": "git"
+}

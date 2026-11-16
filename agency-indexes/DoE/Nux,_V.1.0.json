@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "aespiritu@lbl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Nux is an open-source Java XML toolset geared towards embed:,ed use in high-throughput XML messaging middleware such as large- scale Peer-to-Peer infrastructures, message queues, publish- subscribe and matchmaking systems for Blogs/newsfeeds, text chat, data acquisition and distribution systems, application level routers firewalls, classifiers, etc. It is not an XML database, and does not attempt to be one. Features include: archive deleteone.sql elink_2017_10_20.json file.json fix_on_records.sh just-doi-it.sh onrecords postfile.sh postit.sh solr-delete testrepos.sh wipe.postgresql Seamless W3C XQuery and XPath support for XOM. archive deleteone.sql elink_2017_10_20.json file.json fix_on_records.sh just-doi-it.sh onrecords postfile.sh postit.sh solr-delete testrepos.sh wipe.postgresql Full-text search (fuzzy similarity queries) for on-the-fly matchmaking in realtime streaming applications combining structured and unstructured queries. archive deleteone.sql elink_2017_10_20.json file.json fix_on_records.sh just-doi-it.sh onrecords postfile.sh postit.sh solr-delete testrepos.sh wipe.postgresql Efficient and flexible pools and factories for documents, XQueries, XSL Transforms, as well as document Builders that validate against various schema languages, including W3C XML Schemas, DTDs, RELAX NG, Schematron, etc. archive deleteone.sql elink_2017_10_20.json file.json fix_on_records.sh just-doi-it.sh onrecords postfile.sh postit.sh solr-delete testrepos.sh wipe.postgresql Optional serialization and deserialization of XOM XML documents to and from an efficient and compact custom binary XML data format (bnux format), without loss or change of any information.",
+    "laborHours": 997621.6,
+    "name": "Nux, V.1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/er1c/nux/blob/master/doc/license.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/er1c/nux",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

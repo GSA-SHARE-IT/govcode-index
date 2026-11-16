@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-26",
+        "metadataLastUpdated": "2020-08-26"
+    },
+    "description": "Callable service that provides access to a homolog database that covers prokaryotes, eukaryotes and metagenomes.  It can be used for navigation between sequences as well as for computation on protein families defined on the homologs.",
+    "laborHours": 1064.0,
+    "languages": [],
+    "name": "homology_service",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/homology_service",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

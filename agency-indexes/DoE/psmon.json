@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2018-02-14",
+        "metadataLastUpdated": "2018-03-14"
+    },
+    "description": "Remote data visualization tool used at LCLS for online analysis/monitoring. psmon is a remote and local data visualization tool used at LCLS for online analysis/monitoring developed originally to work with LCLS psana analysis framework. ZeroMQ is used as the data trasport layer and it provides two different rendering clients based on matplotlib and pyqtgraph.",
+    "laborHours": 1535.2,
+    "name": "psmon",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/psmon/blob/master/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/psmon",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

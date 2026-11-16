@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jacob@anl.gov"
+    },
+    "date": {
+        "created": "2020-08-25",
+        "metadataLastUpdated": "2020-08-25"
+    },
+    "description": "Second release of E3SM v1.1\n\nThis update to v1.1.0 includes additional output variables and small changes to the\nECA configurations. In particular, the following changes/additions are included:\n\nELM:  add new diagnostic variables, Add diagnostic CNP flux from plant to CWD,\nUpdate land use case file for CBGC 20TR compsets, Update the constant CO2\noverride value to be CMIP6-compliant\n\nall:  fix bug preventing reading of v1.0 restarts,  update BGC compset names in tests,\nadd short names for ECA compsets with ocean BGC off, Change the names of PI control\ncases to use the string \"CNTL\", Fix 20th-century transient BGC use case specification\n\nThis tag is used for the E3SM v1 BGC simulations using the ECA biogeochemistry configuration.",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "C",
+        "Fortran"
+    ],
+    "name": "Energy Exascale Earth System Model v1.1.1",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/E3SM/releases/tag/v1.1.1",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git",
+    "version": "v1.1.1"
+}

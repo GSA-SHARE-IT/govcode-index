@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "Liquid Chromatography-Ion Mobility-time of Flight Instrument Control and Data Visualization software is designed to control instrument voltages for the Ion Mobility drift tube. It collects and stores information collected from the Agilent TOF instrument and analyses/displays the ion intensity information acquired. The software interface can be split into 3 categories -- Instrument Settings/Controls, Data Acquisition, and Viewer. The Instrument Settings/Controls prepares the instrument for Data Acquisition. The Viewer contains common objects that are used by Instrument Settings/Controls and Data Acquisition. Intensity information is collected in 1 nanosec bins and separated by TOF pulses called scans. A collection of scans are stored side by side making up an accumulation. In order for the computer to keep up with the stream of data, 30-50 accumulations are commonly summed into a single frame. A collection of frames makes up an experiment. The Viewer software then takes the experiment and presents the data in several possible ways, each frame can be viewed in TOF bins or m/z (mass to charge ratio). The experiment can be viewed frame by frame, merging several frames, or by viewing the peak chromatogram. The user can zoom into the data, export data, and/or animate frames. Additional features include calibration of the data and even post-processing multiplexed data.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "C#, C++"
+    ],
+    "name": "LC-IM-TOF Instrument Control & Data Visualization Software",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

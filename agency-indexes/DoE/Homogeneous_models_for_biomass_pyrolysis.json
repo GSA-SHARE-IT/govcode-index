@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "albertop@iastate.edu"
+    },
+    "date": {
+        "created": "2022-03-30",
+        "metadataLastUpdated": "2022-03-31"
+    },
+    "description": "Implementation of homogeneous models (PFR and PaSR for applications to biomass pyrolysis.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Homogeneous models for biomass pyrolysis",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Biomass-Autothermal-Pyrolysis/HomogeneousModels",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

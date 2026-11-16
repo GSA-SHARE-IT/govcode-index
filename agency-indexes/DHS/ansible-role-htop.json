@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2018-11-04",
+        "lastModified": "2026-05-18"
+    },
+    "description": "Ansible role for installing and configuring htop",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-htop/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-htop",
+    "laborHours": 729.2,
+    "languages": [
+        "Shell",
+        "Python",
+        "Jinja"
+    ],
+    "name": "ansible-role-htop",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-htop.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "ansible-role",
+        "htop"
+    ],
+    "vcs": "git"
+}

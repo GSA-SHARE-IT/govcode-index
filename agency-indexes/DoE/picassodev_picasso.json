@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "slatterysr@ornl.gov"
+    },
+    "date": {
+        "created": "2021-02-17",
+        "metadataLastUpdated": "2021-02-17"
+    },
+    "description": "Picasso is a C++ template library for the development of exascale-class particle-in-cell methods. It contains data structures for particle and grid management using the ECP Kokkos and Cabana libraries, abstractions for particle and grid discretizations, and tools for interface tracking and reconstruction with particles.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "picassodev/picasso",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/picassodev/picasso",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

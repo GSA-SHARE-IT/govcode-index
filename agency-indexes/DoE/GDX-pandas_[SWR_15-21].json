@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-01"
+    },
+    "description": "This is a Python package to translate between gdx (GAMS data) and pandas. \n\nThere are two main ways to use gdxpds. The first use case is the one that was initially supported: direct conversion between GDX files on disk and pandas DataFrames or a csv version thereof. Starting with the Version 1.0.0 rewrite, there is now a second style of use which involves interfacing with GDX files and symbols via the `gdxpds.gdx.GdxFile` and `gdxpds.gdx.GdxSymbol` classes.\n\nPlease visit https://nrel.github.io/gdx-pandas for the latest documentation.",
+    "laborHours": 972.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "GDX-pandas [SWR 15-21]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/gdx-pandas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "1.3.0"
+}

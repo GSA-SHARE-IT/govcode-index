@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2024-03-07",
+        "metadataLastUpdated": "2024-10-28"
+    },
+    "description": "T3CO (Transportation Technology Total Cost of Ownership), is open source software for modeling total cost of ownership for commercial vehicles with advanced powertrains.\n\nT3CO is a modeling framework for determining geospatially and temporally optimized total cost of ownership (TCO) for vehicle powertrain technologies. T3CO runs NREL's FASTSim™ software for a representative set of operating conditions to minimize TCO based on vehicle parameters that affect purchase and operating costs (e.g., fuel/electricity consumption, asset depreciation, opportunity costs associated with charging time) while simultaneously ensuring that firm performance constraints (e.g. zero-to-sixty time, gradeability) are satisfied. T3CO will enable the user to control which powertrain parameters are used in optimizing TCO, and these parameters will be modified by a multi-objective optimization (MOO) algorithm to identify a Pareto-optimal solution set. The optimization algorithm will be modular so that users can choose from many different MOO options or insert their own user-defined optimization tool.\n\nNREL T3CO Homepage: https://www.nrel.gov/transportation/t3co.html\nPyPI package: https://pypi.org/project/t3co/",
+    "laborHours": 5289.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "T3CO (Transportation Technology Total Cost of Ownership) Open Source [SWR-21-54]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/T3CO",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

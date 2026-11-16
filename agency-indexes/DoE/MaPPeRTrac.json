@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-08-20",
+        "metadataLastUpdated": "2021-08-20"
+    },
+    "description": "Massively Parallel, Portable, and Reproducible Tractography (MaPPeRTrac) is a brain tractography workflow for high performance computing. It incorporates novel technologies to simplify and accelerate neuroimaging research.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MaPPeRTrac",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/MaPPeRTrac",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

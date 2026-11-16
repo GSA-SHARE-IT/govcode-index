@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-18"
+    },
+    "description": "The National Renewable Energy Laboratory Wind Analysis Library (NRWAL) contains --A library of wind cost equations, --Dynamic Python tools for intuitive equation handling, --Ready-to-use configs for basic users, and --Easy equation manipulation without editing source code.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "Python"
+    ],
+    "name": "NREL Wind Analysis Library (NRWAL)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/NRWAL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

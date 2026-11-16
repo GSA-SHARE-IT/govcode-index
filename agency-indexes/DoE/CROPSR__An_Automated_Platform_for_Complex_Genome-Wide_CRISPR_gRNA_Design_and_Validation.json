@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "lensor@illinois.edu"
+    },
+    "date": {
+        "created": "2024-09-18",
+        "metadataLastUpdated": "2024-09-19"
+    },
+    "description": "CROPSR is a python tool designed for genome-wide gRNA design and evaluation for CRISPR experiments, with special focus on complex genomes such as those found in energy-producing crops. CROPSR is a product of the DOE Center for Advanced Bioenergy and Bioproducts Innovation (CABBI).",
+    "laborHours": 486.4,
+    "languages": [],
+    "name": "CROPSR: An Automated Platform for Complex Genome-Wide CRISPR gRNA Design and Validation",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/H2muller/CROPSR",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

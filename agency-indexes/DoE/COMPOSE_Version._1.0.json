@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-04-11",
+        "metadataLastUpdated": "2019-04-12"
+    },
+    "description": "COMPOSE is scientific software to help to solve tracer transport equations, which are partial differential equations that model how chemical species move when carried by a fluid. It will be used in a future version of the open-source DOE Energy Exascale Earth System Model (E3SM) to help model the movement of chemical species in Earth’s atmosphere as part of simulating the climate. In particular, COMPOSE help to implement semi-Lagrangian tracer transport and, more generally, property preserving remap of tracer fields. Logical components include Communication-Efficient Constrained Density Reconstructors (COMPOSE-CEDR) and Spherical Polygon Intersection and Quadrature with Kokkos (COMPOSE-SIQK).",
+    "laborHours": 3374.4,
+    "languages": [
+        "C++"
+    ],
+    "name": "COMPOSE Version. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/COMPOSE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 1.0"
+}

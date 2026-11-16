@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-04-11",
+        "metadataLastUpdated": "2024-04-11"
+    },
+    "description": "A workflow is a series of dependent computations which are executed to\nyield an experimental result, much like sheet music describes a musical\nperformance. Dynamic workflows are like improvisational jazz, in which\nthe musicians create unique, situation-driven, collaborative variations\non themes. Dynamic workflows can potentially yield better results, save\ncomputation, and/or save human decision-making effort versus pre-specified\nor manual workflows, as they need not run the exhaustive set of studies\nwhich might be required in a pre-specified set, and they make their own\nexperimental design decisions at run time. If you have an existing\nMaestro study where you would like to save computation and/or human time,\nImprov is for you.\nImprov provides core capabilities for creating a simple, hierarchical structure over Maestro studies,\nallowing you to connect ``experimental'' Maestro strudies with decision-making code to select parameters\nand run corresponding studies.",
+    "laborHours": 2492.8,
+    "languages": [],
+    "name": "Improv Dynamic Workflows",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/improvwf",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

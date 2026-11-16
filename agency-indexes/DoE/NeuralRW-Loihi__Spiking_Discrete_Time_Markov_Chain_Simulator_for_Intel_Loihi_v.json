@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2024-03-20",
+        "metadataLastUpdated": "2024-09-10"
+    },
+    "description": "SAND2024-01302O\nNeuralRW-Loihi: Spiking Discrete Time Markov Chain Simulator for Intel Loihi is a neuromorphic script that generates a random walk simulation of a discrete-time Markov Chain for the Loihi neuromorphic hardware. The code was used to produce the paper \"Neuromorphic scaling advantages for energy-efficient random walk computations\" by Smith et al., 2021. It was published in Nature Electronics. \n\nThe software provides code for implementing the discrete time Markov chain random walks on Intel's Loihi Neuromorphic platform. In addition, it provides an example problem through a mini app.",
+    "laborHours": 1352.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "NeuralRW-Loihi: Spiking Discrete Time Markov Chain Simulator for Intel Loihi v",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/Neural-Random-Walker",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

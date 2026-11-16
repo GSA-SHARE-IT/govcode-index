@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-07-29",
+        "metadataLastUpdated": "2024-07-29"
+    },
+    "description": "Lack of harmonic rich datasets limits the ability to have fine grained load models at grid edge. We aim to develop\nmathematical models for power electronic based load combinations at grid edge to help replicate current and future\nevolving load conditions",
+    "laborHours": 30.4,
+    "languages": [],
+    "name": "Continual Load Modelling",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/Continual-Load-Modelling-HELM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

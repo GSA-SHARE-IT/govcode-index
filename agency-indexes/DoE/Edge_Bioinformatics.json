@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Edge Bioinformatics is a developmental bioinformatics and data management platform which seeks to supply laboratories with bioinformatics pipelines for analyzing data associated with common samples case goals. Edge Bioinformatics enables sequencing as a solution and forward-deployed situations where human-resources, space, bandwidth, and time are limited. The Edge bioinformatics pipeline was designed based on following USE CASES and specific to illumina sequencing reads. 1. Assay performance adjudication (PCR): Analysis of an existing PCR assay in a genomic context, and automated design of a new assay to resolve conflicting results; 2. Clinical presentation with extreme symptoms: Characterization of a known pathogen or co-infection with a. Novel emerging disease outbreak or b. Environmental surveillance",
+    "laborHours": 155587.2,
+    "name": "Edge Bioinformatics",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/losalamos/edge",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

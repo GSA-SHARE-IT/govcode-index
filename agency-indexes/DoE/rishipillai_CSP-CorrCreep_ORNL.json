@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "pillairr@ornl.gov"
+    },
+    "date": {
+        "created": "2022-03-28",
+        "metadataLastUpdated": "2022-03-28"
+    },
+    "description": "The modeling tool developed in the current project provides lifetime assessment of three candidate materials 740H, 282 and 625 for sCO2/molten salts heat exchanger. The tool incorporated physics-based models that accounted for all relevant underlying degradation mechanisms (creep and corrosion). Reduced-order models enabled rapid simulations of realistic component lifetimes (~100kh) while still retaining the fidelity of the complex models.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "rishipillai/CSP-CorrCreep_ORNL",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/rishipillai/CSP-CorrCreep_ORNL",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

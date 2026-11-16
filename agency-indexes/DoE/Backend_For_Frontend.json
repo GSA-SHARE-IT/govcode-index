@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-09",
+        "metadataLastUpdated": "2020-09-09"
+    },
+    "description": "Backend for Frontend was developed to shift API calls and data wrangling within browser script to server script to aim faster loading, quicker data structure modification to fit UI development needs, and to provide reusable data structures.",
+    "laborHours": 243.2,
+    "languages": [],
+    "name": "Backend For Frontend",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseapps/user-profile-ui-bff",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2023-03-16"
+    },
+    "description": "Teuchos is designed to provide portable, object-oriented tools for Trillnos developers and users. This includes templated wrappers to BLAS/LAPACK, a serial dense matrix class, a parameter list, XML parsing utilities, reference counted pointer (smart pointer) utilities, and more. These tools are designed to run on both serial and parallel computers.",
+    "laborHours": 8344830.4,
+    "languages": [],
+    "name": "Teuchos Utility Package",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

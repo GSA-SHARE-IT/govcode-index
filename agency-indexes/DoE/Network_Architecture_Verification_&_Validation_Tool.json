@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-09-01",
+        "metadataLastUpdated": "2023-03-13"
+    },
+    "description": "The NAVV Tool is an automation of Linux commands run Zeek IDS software on a packet capture to create a Microsoft Excel spreadsheet table breaking down network traffic observed. The tool automates the Zeek software analysis, the collation of logs, and then the dissection of the Conn.log and DNS.logs to create a summary table within a Excel. This spreadsheet can then be updated with network segments using CIDR formatting and labels along with inventory information including name and IP address. Using the tool again will integrate these label and color coding into the existing analysis table to aid in conducting an evaluation of the network traffic.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Network Architecture Verification & Validation Tool",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/NAVV",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git",
+    "version": "3"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-06-02",
+        "metadataLastUpdated": "2023-06-02"
+    },
+    "description": "Ume is an open-source collection of data structures for unstructured computational meshes and some simple algorithms that operate on them. These algorithms mimic the memory access patterns of a common class of operations found in several of the computational physics simulation codes developed at Los Alamos National Laboratory.  The intent is that Ume can be used by hardware vendors to understand the memory traffic created by complex codes in a simplified environment, and to explore new means of optimization for that traffic.  Ume is provided as a source-code C++ library and includes several applications that demonstrate the use of that library.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Ume: Unstructured Mesh Explorations",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/UME",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

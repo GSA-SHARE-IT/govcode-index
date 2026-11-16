@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The purpose of this software is to interpret and analyze data taken using the NI PXIe-5171R digitizer based data acquisition system for the UCNB and Nab experiments. The detection and data acquisition systems are identical for the 2 experiments, with some differences in analysis requirements. The software converts raw binary files produced by the NI DAQ into ROOT TTree format, performs waveform analysis using trapezoidal filter algorithms, pulse fitting, and noise analysis routines, and applies variable criteria to identify valid events in the data stream. The software will be used to perform analysis of the events for multi-channel coincidences, timing and energy studies, and event rates under different experimental conditions.",
+    "laborHours": 5456.8,
+    "name": "UCNB_Analyzer",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/losalamos/UCNB_Analyzer",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

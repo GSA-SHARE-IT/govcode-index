@@ -1,0 +1,33 @@
+{
+    "name": "USEPA/CIP-service",
+    "organization": "usepa",
+    "description": "Updated version of Catchment Index Processing (CIP) Service to provide an API where outside users can index their own GIS data to NHDPlus hydrography",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/CIP-service/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/CIP-service",
+    "downloadURL": "https://github.com/USEPA/CIP-service/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/CIP-service/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/CIP-service.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2022-10-26T17:31:36Z",
+        "lastModified": "2026-11-02T18:31:16Z",
+        "metadataLastUpdated": "2026-11-16T06:39:58.593Z"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "youngsr@ornl.gov"
+    },
+    "date": {
+        "created": "2022-03-18",
+        "metadataLastUpdated": "2022-03-18"
+    },
+    "description": "A Julia library for training neural networks with privacy.",
+    "laborHours": 0.0,
+    "languages": [
+        "Julia"
+    ],
+    "name": "ORNLJulia/Privacy.jl",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNLJulia/Privacy.jl",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

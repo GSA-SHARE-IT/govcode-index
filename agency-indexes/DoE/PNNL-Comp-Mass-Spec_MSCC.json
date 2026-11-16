@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-04-30",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Multidimensional Stoichiometric Compound Classification\nThis R code provides a quick access to the Multidimensional Stoichiometric Compound Classification (MSCC) constraints as published in Rivas-Ubach et al., 2018 Analytical Chemistry (DOI: 10.1021/acs.analchem.8b00529).",
+    "laborHours": 91.2,
+    "languages": [],
+    "name": "PNNL-Comp-Mass-Spec/MSCC",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/MSCC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

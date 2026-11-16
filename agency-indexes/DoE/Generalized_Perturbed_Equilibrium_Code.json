@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "nlogan@pppl.gov"
+    },
+    "date": {
+        "created": "2019-02-07",
+        "metadataLastUpdated": "2019-02-12"
+    },
+    "description": "The Generalized Perturbed Equilibrium Code (GPEC) package contains a suite of non-axisymmetric stability and perturbed equilibrium force balance codes including DCON/RDCON/STRIDE (stability), GPEC (driven plasma response), and PENTRC (NTV torque). The perturbation calculations can optionally use ideal MHD throughout, kinetic MHD throughout, or a mix of ideal MHD outer layer and resistive MHD inner layer physics at the rational surfaces. \n\nEarlier versions of this software contained only the ideal MHD model, and results were published under the name of the Ideal Perturbed Equilibrium Code (IPEC).\n\nPrimary journal citations can be found on the landing page.",
+    "homepageURL": "http://princetonuniversity.github.io/GPEC",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "Generalized Perturbed Equilibrium Code",
+    "organization": "Princeton Plasma Physics Laboratory (PPPL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "http://princetonuniversity.github.io/GPEC",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "http://princetonuniversity.github.io/GPEC",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Princeton Plasma Physics Laboratory (PPPL)"
+    ],
+    "version": "1.2"
+}

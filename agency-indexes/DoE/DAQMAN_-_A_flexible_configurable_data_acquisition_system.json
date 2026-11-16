@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "pgarvey@bnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "DAQMAN is a flexible configurable interface that allows the user to build and operate a VME-based data acquisition system on a Linux workstation. It consists of two parts: a Java-based Graphical User Interface to configure the system, and a C-based utility that reads out the data and creates the output ASCII data file, with two levels of diagnostic tools. The data acquisition system requires a CAEN CONET-VME Bridge to communicate between the hardware in the VME crate and the Linux workstation. Data acquisition modules, such as ADCs, TDC, Scalers, can be loaded into the system, or removed easily. The GUI allows users to activate modules, and channels within modules by clicking on icons. Running configurations are stored; data are collected and can be viewed either as raw numbers, or by charts and histograms that update as the data are accumulated. Data files are written to disk in ASCII format, with a date and time stamp.",
+    "homepageURL": "https://www.bnl.gov/nsrl/userguide/data-aquisition.php",
+    "laborHours": 0.0,
+    "name": "DAQMAN - A flexible configurable data acquisition system",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.bnl.gov/nsrl/userguide/data-aquisition.php",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.bnl.gov/nsrl/userguide/data-aquisition.php",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The SST provides a parallel framework to perform system simulation of computer architectures to determine their performance and power consumption. Additionally, the SST contains basic models of a computer processor, and interconnect and can connect to an external memory simulator (DRAMSim II). The SST framework provides a simple interface by which other computer simulation models can be combined under a common parallel discrete event-based simulation environment. This allows design exploration of future architectures, analysis of how current computer programs will function on future architectures. The SST provides a parallel discrete event simulation framework, including partitioning and object distribution over MPI. It also provides a mechanism by which components can report their power consumption for analysis.",
+    "laborHours": 25384.0,
+    "name": "Structural Simluation Toolkit (SST) V 2.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sstsimulator/sst-core",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

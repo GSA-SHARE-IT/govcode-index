@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The purpose of the Project Grandmaster Application is to allow individuals to opt-in and give the application access to data sources about their activities on social media sites. The application will cross-reference these data sources to build up a picture of each individual activities they discuss, either at present or in the past, and place this picture in reference to groups of all participants. The goal is to allow an individual to place themselves in the collective and to understand how their behavior patterns fit with the group and potentially find changes to make, such as activities they weren't already aware of or different groups of interest they might want to follow.",
+    "laborHours": 3967.2,
+    "name": "Project Grandmaster",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/grandmaster",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

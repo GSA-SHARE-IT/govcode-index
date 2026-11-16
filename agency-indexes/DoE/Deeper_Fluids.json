@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-08",
+        "metadataLastUpdated": "2021-12-08"
+    },
+    "description": "A framework for building and training neural network surrogates for CFD simulation, with a focus on quickly simulating volume fraction dynamics for carbon capture efficiency prediction. Augments the Deep Fluids (Kim et al., 2019) approach as described in our paper \"Latent Space Simulation for Carbon Capture Design Optimization\" (Bartoldson et al., 2021).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Deeper Fluids",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CCSI-Toolset/DeeperFluids",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

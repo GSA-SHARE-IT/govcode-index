@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-11-30",
+        "metadataLastUpdated": "2020-11-30"
+    },
+    "description": "The software titled \"nccd\" is used for running residual neural networks (ResNets) on images of nuclear canisters. The software provides only the code for the implementation (based on the fastai library), but it does not share the image data.  The compute code allows the use of residual nets (and more generally of other deep learning models) for classifying images from nuclear canisters as corroded. or intact. An image is considered to be corroded if it contains pitting or stress corrosion cracks. The code trains ResNets on image tiles extracted from original images from nuclear canisters, and then implements a classification rule, which can be applied to a validation set to decide if each original image is corroded or intact.  The software automates the process of using images taken from nuclear canisters to detect corrosion. It provides also scope for future research directions on the basis of the existing research and code.",
+    "laborHours": 486.4,
+    "languages": [
+        "Python (v3.6 onwards)"
+    ],
+    "name": "Nuclear Canister Corrosion Detection",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/papamarkou/nccd",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

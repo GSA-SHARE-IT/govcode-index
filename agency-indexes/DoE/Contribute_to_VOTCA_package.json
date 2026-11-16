@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-02",
+        "metadataLastUpdated": "2021-07-06"
+    },
+    "description": "Versatile Object-oriented Toolkit for Coarse-graining Applications (VOTCA) is a Coarse-grained modeling package, which focuses on the analysis of molecular dynamics data, the development of systematic coarse-graining techniques as well as methods used for simulating microscopic charge (and exciton) transport in disordered semiconductors. It was originally developed at the Max Planck Institute for Polymer Research. VOTCA has 2 major parts, the Coarse-graining toolkit (VOTCA-CSG) and the Excitation Transport Toolkit (VOTCA-XTP). All of them are based on the VOTCA Tools library, which implements shared procedures. Coarse-graining toolkit (VOTCA-CSG) VOTCA-CSG supports a variety of different coarse-graining methods, incl. (iterative) Boltzmann Inversion, Inverse Monte Carlo, Force Matching (also known as the multiscale coarse-graining method) and the Relative entropy method and hybrid combinations of those as well as optimization-driven approaches, like simplex and CMA. To gather statistics VOTCA-CSG can use multiple molecular dynamics package incl. GROMACS, DL_POLY, ESPResSo, ESPResSo++, LAMMPS and HOOMD-blue for sampling. Excitation Transport toolkit (VOTCA-XTP) VOTCA-XTP allows to simulate excitation transport and properties. Therefore, it provides its own implementation of GW-BSE and a basic DFT implementation, employing localized basis sets. Polarized QM/MM calculations for excited states are provided in the Thole framework. It features interfaces to more external Quantum Chemistry packages (Gaussian, NWChem and ORCA) for large scale production runs.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Contribute to VOTCA package",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/votca/votca",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

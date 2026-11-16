@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2025-05-29",
+        "lastModified": "2025-05-29"
+    },
+    "description": "Terraform Module to run ansible playbooks",
+    "downloadURL": "https://api.github.com/repos/cisagov/terraform-null-ansible/downloads",
+    "homepageURL": "https://github.com/cisagov/terraform-null-ansible",
+    "laborHours": 267.9,
+    "languages": [
+        "HCL",
+        "Makefile"
+    ],
+    "name": "terraform-null-ansible",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/terraform-null-ansible.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

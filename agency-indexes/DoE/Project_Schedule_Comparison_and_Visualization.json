@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-03-25",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Project Schedule Comparison and Visualization allows project schedules to be compared across time scales. It also allows for visualization of schedules in the form of a network graph. This compliments Gantt chart view in major project risk management software.  The software mimics complex networks and makes it easy to visualize tasks and links. It produces a list with differences between snapshots. Selecting these differences renders a view focused on these changes in the network.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Project Schedule Comparison and Visualization",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

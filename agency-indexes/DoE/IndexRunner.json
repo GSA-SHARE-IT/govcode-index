@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-18",
+        "metadataLastUpdated": "2020-08-18"
+    },
+    "description": "This is an index runner. It watches a Kafka topic and can trigger indexing using indexers written with the SDK. The results go into ElasticSearch.",
+    "laborHours": 2401.6,
+    "languages": [],
+    "name": "IndexRunner",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/IndexRunner",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

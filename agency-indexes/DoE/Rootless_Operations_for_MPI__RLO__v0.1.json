@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-09-19",
+        "metadataLastUpdated": "2019-10-02"
+    },
+    "description": "Flexible communication routines that enable high-performance computing (HPC) applications to operate with less synchronization are a great benefit to application algorithm creation and developer productivity. Further, communication operations that reduce synchronization in HPC applications while continuing to scale well are critical to application performance in the exascale era. We have implemented mechanisms that allow an application to scalably execute bcast/iAllReduce from any MPI rank without specifying the origin of the message in advance, demonstrating application development flexibility, highly scalable operation, and reduced application synchronization.",
+    "laborHours": 11536.8,
+    "languages": [],
+    "name": "Rootless Operations for MPI (RLO) v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/tonylbl/rootless-operations",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2021-07-28"
+    },
+    "description": "Electric grid transformation with the proliferation of distributed energy resources (DER), such as solar photovoltaic (PV), wind, advanced energy storage technologies, and electric vehicles, and the growing use of communication technologies in both transmission and distribution systems are increasing the need to capture the interactions among these systems. Advanced modeling, control, and simulation tools that can perform co-simulation of electric power systems with other domains become indispensable to accurately model these interactions. To address this need, we have developed a codebase that integrates an electric power distribution system simulator, DER models, and DER controls. The codebase is based on OpenDSS, a distribution system simulator, and an existing open source co-simulation framework called HELICS. The contribution and uniqueness of the proposed codebase is that it tailors the generic HELICS framework specifically for distribution grid-related applications. The codebase includes an OpenDSS wrapper that controls the simulation, implements advanced DER controls, and extracts power flows, voltages, and other power system element information from the the distribution network modeled in OpenDSS. Sample HELICS federates, including a federate for OpenDSS, are provided that can communicate messages through the HELICS interface. Sample federates can be modified and additional HELICS federates can be added by the user depending on their use case requirements. SEE ALSO: https://github.com/NREL/dss-cosim",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "OpenDSS-wrapper (Distribution System Co-simulator with Distributed Energy Resource Controls)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/OpenDSS-wrapper",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

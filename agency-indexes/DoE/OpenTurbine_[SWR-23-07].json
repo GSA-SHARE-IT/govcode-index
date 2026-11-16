@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-11-29",
+        "metadataLastUpdated": "2023-01-10"
+    },
+    "description": "OpenTurbine is an open-source code designed for the simulation of wind turbine structural dynamics. It is a flexible multi-body dynamics solver wherein the wind turbine is modeled as a collection of beam finite elements, rigid bodies, and constraints. OpenTurbine is equipped with an application programming interface primarily designed for coupling to computational fluid dynamics codes, but it is also suited for coupling to aerodynamics solvers based on blade element momentum theory.",
+    "laborHours": 0.0,
+    "languages": [
+        "CMake",
+        "C++"
+    ],
+    "name": "OpenTurbine [SWR-23-07]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/exawind/openturbine",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-07-27",
+        "metadataLastUpdated": "2023-05-16"
+    },
+    "description": "Risk Informed Timelines (RIT) is a more modern and holistic method for understanding how access delay timelines are developed and utilized in physical security system evaluations. The software utilizes Bayesian methods to combine subject matter expert judgement and small performance test datasets in a consistent and defensible way. It allows a more holistic view of delay performance that provides distributions of task times and task success probabilities to account for tasks that, if failed, would result in failure of the attack. The RIT methodology is meant to enable security risk managers to begin the transition into more comprehensive delay timeline analysis. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525. SAND2021-8294 O",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 0.0,
+    "languages": [
+        "C#",
+        "C++",
+        "C#"
+    ],
+    "name": "Risk Informed Timelines (RIT) v.1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "version": "1.0"
+}

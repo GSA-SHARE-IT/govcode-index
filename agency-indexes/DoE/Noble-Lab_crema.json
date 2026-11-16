@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2023-05-22",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Confidence Estimation for Mass Spectrometry Proteomics. Crema is an open-source Python tool that estimates the false discovery rate (FDR) of a set of peptide-spectrum matches\nthat result from proteomics data analysis. Crema implements standard FDR estimation methods that are widely used within\nthe field. This package is meant to be simple, easy to use, stand-along, and easy to maintain.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Noble-Lab/crema",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Noble-Lab/crema",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

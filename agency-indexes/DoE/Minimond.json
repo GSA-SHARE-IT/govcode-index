@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "minomond is a simple software package built to unobtrrusively collect large amounts of trending data on computer systems, and send that data to one or more external trending data aggregation services. The goal is to enable ongoing recording of many metrics from many nodes in order to identify historical patterns and provide historical visibility into systems problems. minimond is intended to replace large collections of ad hoc scripts that are commonly used for this purpose. minomond is built with an emphasis on simplicity and extensibility, and is intended to supplement, not replace, other availability and trending data monitoring systems.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Minimond",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NERSC/minimond/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NERSC/minimond",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

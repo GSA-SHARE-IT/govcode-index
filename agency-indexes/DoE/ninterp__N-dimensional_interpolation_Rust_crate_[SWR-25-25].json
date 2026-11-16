@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-11-26",
+        "metadataLastUpdated": "2024-12-11"
+    },
+    "description": "The ninterp crate provides multivariate interpolation over a regular, sorted, nonrepeating grid of any dimensionality. A variety of interpolation strategies are implemented, however more are likely to be added. Extrapolation beyond the range of the supplied coordinates is supported for 1-D linear interpolators, using the slope of the nearby points.\n\nThere are hard-coded interpolators for lower dimensionalities (up to N = 3) for better runtime performance.\n\nAll interpolation is handled through instances of the Interpolator enum, with the selected tuple variant containing relevant data. Interpolation is executed by calling Interpolator::interpolate.",
+    "laborHours": 820.8,
+    "languages": [
+        "Rust"
+    ],
+    "name": "ninterp: N-dimensional interpolation Rust crate [SWR-25-25]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/ninterp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

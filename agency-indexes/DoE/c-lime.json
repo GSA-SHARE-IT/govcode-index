@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "bjoo@jlab.org"
+    },
+    "date": {
+        "created": "2018-05-08",
+        "metadataLastUpdated": "2018-05-08"
+    },
+    "description": "A library to read LIME files. LIME is a record oriented file format allowing binary and textual records to be kept in the same file. It is based on a proposed Internet standard by Microsoft called DIME which is now part of the .NET framework.",
+    "laborHours": 1869.6,
+    "name": "c-lime",
+    "organization": "Thomas Jefferson National Accelerator Facility (TJNAF)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://raw.githubusercontent.com/usqcd-software/c-lime/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/usqcd-software/c-lime",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Thomas Jefferson National Accelerator Facility (TJNAF)"
+    ],
+    "vcs": "git"
+}

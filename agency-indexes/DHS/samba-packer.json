@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2021-09-23",
+        "lastModified": "2026-08-06"
+    },
+    "description": "Build a Samba-enabled AWS EC2 AMI.",
+    "downloadURL": "https://api.github.com/repos/cisagov/samba-packer/downloads",
+    "homepageURL": "https://github.com/cisagov/samba-packer",
+    "laborHours": 1336.0,
+    "languages": [
+        "HCL",
+        "Shell",
+        "Python"
+    ],
+    "name": "samba-packer",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/samba-packer.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

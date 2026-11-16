@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-03-07",
+        "metadataLastUpdated": "2024-04-16"
+    },
+    "description": "GRAVI (GRid Analysis and Visualization Interface) is a web application for viewing and analyzing nodal Production Cost Model (PCM) and Capacity Expansion Model (CEM) simulations. The web application provides the ability to animate geospatially coupled timeseries data in an agnostic way regardless of the underlying simulation tool used to generate the data. GRAVI also provides capabilities to animate non-geospatial data relevant to a PCM or CEM model. Furthermore, this web application can be tailored as an real-time operational tool to better understand a live grid.",
+    "laborHours": 1535.2,
+    "languages": [
+        "TypeScript",
+        "CSS",
+        "JavaScript",
+        "Python"
+    ],
+    "name": "GRid Analysis and Visualization Interface (GRAVI) [SWR-24-16]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/GRAVI",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

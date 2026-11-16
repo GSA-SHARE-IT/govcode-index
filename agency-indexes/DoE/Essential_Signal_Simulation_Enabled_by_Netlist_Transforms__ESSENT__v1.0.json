@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-10-29",
+        "metadataLastUpdated": "2019-10-29"
+    },
+    "description": "Hardware simulation is an indispensable tool for designing chips as well as researching future architectures. Unfortunately, the slow rate of simulation can often bottleneck the design process, as designers must wait to see the results of a simulation before changing the design and starting a new simulation. The Essential Signal Simulation Enabled by Netlist Transforms (ESSENT) is a tool designed to accelerate hardware simulations. ESSENT takes in a design, uses graph algorithms to identify opportunities for conditional execution, and generates a simulator that leverages these opportunities. The generated simulator produces the exact same simulation results that would be returned by an unoptimized simulator, but in substantially less time. For input, ESSENT takes in designs formatted in FIRRTL (an open format).",
+    "laborHours": 1717.6,
+    "languages": [],
+    "name": "Essential Signal Simulation Enabled by Netlist Transforms (ESSENT) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ucsc-vama/essent",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

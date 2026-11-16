@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-07-31",
+        "metadataLastUpdated": "2018-07-31"
+    },
+    "description": "The Stream-Processing Architecture for Real-time Cyber-physical Security is a generalized framework for extracting power-related sensor information from sensors, optionally analyzing that data on computing platforms local to the sensors, transmitting that information to a central location, storing that information, running centralized analytics on the information, and providing both API and visual access to that information.",
+    "laborHours": 25444.8,
+    "languages": [],
+    "name": "Stream-Processing Architecture for Real-time Cyber-physical Security (SPARCS) v0.9",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbnl-cybersecurity/sparcs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

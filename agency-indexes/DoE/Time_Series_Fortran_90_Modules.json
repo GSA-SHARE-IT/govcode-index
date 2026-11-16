@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-22",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This provides several Fortran for consistent handling of time series data. These are used by PNNL's MASS1 and MASS2 codes.",
+    "laborHours": 2994.4,
+    "languages": [],
+    "name": "Time Series Fortran 90 Modules",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/pnnl/time_series/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/time_series",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2023-06-23",
+        "metadataLastUpdated": "2023-06-23"
+    },
+    "description": "Tribol is a modular interface physics library featuring Lagrangian contact algorithms for explicit and implicit solid mechanics applications. More broadly, Tribol supports the research, development, and\nimplementation of numerical methods for interface physics.\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Tribol Interface Physics Library",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/Tribol",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

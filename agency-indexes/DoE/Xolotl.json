@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "bernholdtde@ornl.gov"
+    },
+    "date": {
+        "created": "2021-09-05",
+        "metadataLastUpdated": "2021-09-07"
+    },
+    "description": "Xolotl is a continuum simulator under development within two DOE SciDAC project. It is a high-performance computing code using advection-reaction-diffusion (ADR) kinetic rate theory to model the time evolution of the divertor material in next generation tokamaks like ITER, as well as nuclear fuel in fission reactors.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Xolotl",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-Fusion/xolotl",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

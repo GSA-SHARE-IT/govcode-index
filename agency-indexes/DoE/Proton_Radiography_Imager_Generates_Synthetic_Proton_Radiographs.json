@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "ProRad is a computer program that is used to generate synthetic images of proton (or other charged particles) radiographs. The proton radiographs arc images that arc obtained by sending energetic protons (or electrons or positrons, for example) through 11 plasma where electric and/or magnetic fields alter the particles trajectory, Dnd the variations me imaged on RC film, image plate, or equivalent",
+    "laborHours": 988.0,
+    "name": "Proton Radiography Imager:Generates Synthetic Proton Radiographs",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/LLNL/prorad/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/prorad",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

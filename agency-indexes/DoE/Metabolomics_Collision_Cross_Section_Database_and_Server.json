@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This is a the code and data for a website created to display collision cross section data for metabolites and small molecules. This repository hosts two things. First is the source code (js) for a website created to display collision cross section data for metabolites and other small molecules. The second is the underlying CCS dataset. The growing interest in metabolomic and exposomic studies is also inciting a need for new techniques to analyze these diverse molecules. Mass spectrometry-based studies are often preferred for the confident identification of small molecules. Ion mobility spectrometry (IMS) is capable of separating molecules that have the same m/z but different conformational arrangements, which is very useful in metabolomic and exposomic analyses. As the desire for IMS measurements of metabolites continues to grow, so does the need for high quality collision cross section (CCS) values.",
+    "laborHours": 57425.6,
+    "languages": [],
+    "name": "Metabolomics Collision Cross Section Database and Server",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/MetabolomicsCCS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

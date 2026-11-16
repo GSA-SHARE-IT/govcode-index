@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "ISPH code is developed to solve multi-physics meso-scale flow problems using implicit SPH method. In particular, the code can provides solutions for incompressible, multi phase flow and electro-kinetic flows.",
+    "laborHours": 19425.6,
+    "languages": [
+        "C++",
+        "MATLAB"
+    ],
+    "name": "Implicit SPH v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/implicit-sph",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

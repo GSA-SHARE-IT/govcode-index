@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "LIQUID (Lipid Informed Quantitation and Identification) is a software program that has been developed to enable users to conduct both informed and high-throughput global liquid chromatography-tandem mass spectrometry (LC-MS/MS)-based lipidomics analysis. This newly designed desktop application can quickly identify and quantify lipids from LC-MS/MS datasets while providing a friendly graphical user interface for users to fully explore the data. Informed data analysis simply involves the user specifying an electrospray ionization mode, lipid common name (i.e. PE(16:0/18:2)), and associated charge carrier. A stemplot of the isotopic profile and a line plot of the extracted ion chromatogram are also provided to show the MS-level evidence of the identified lipid. In addition to plots, other information such as intensity, mass measurement error, and elution time are also provided. Typically, a global analysis for 15,000 lipid targets.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "C#"
+    ],
+    "name": "Lipid Informed Quantitation and Identification",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

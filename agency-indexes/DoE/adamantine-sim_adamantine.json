@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "turcksinbr@ornl.gov"
+    },
+    "date": {
+        "created": "2021-11-29",
+        "metadataLastUpdated": "2021-11-29"
+    },
+    "description": "Thermal field simulation of the additive manufacturing process enhanced using data assimilation.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "adamantine-sim/adamantine",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/adamantine-sim/adamantine",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

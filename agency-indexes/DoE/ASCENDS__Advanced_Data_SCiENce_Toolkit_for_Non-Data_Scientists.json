@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-11-30",
+        "metadataLastUpdated": "2020-11-30"
+    },
+    "description": "Data science capabilities are becoming important more and more. Even though there exist many data science and machine learning tools, they are not intuitive for many traditional scientists who are not familiar with programming. ASCENDS provides easy and intuitive interfaces (command-line interface, graphical user interface) to users so they can use data science capabilities without having to understand programming language. ASCENDS performs data visualization, machine learning model training, storing and prediction (regression problem), automatic hyperparameter tuning, and supports various machine learning models including random forest, kernel ridge, nearest neighbor, neural network, etc. Users can use standard CSV (comma separated values) format data set and investigate the feature columns that are highly correlated to a target column; further, they can learn ML models, then store and use them for predictions. The tool is supposed to be generically applicable so that it can be used for many different applications.",
+    "laborHours": 101414.4,
+    "languages": [
+        "Python 3.7"
+    ],
+    "name": "ASCENDS: Advanced Data SCiENce Toolkit for Non-Data Scientists",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ornlpmcp/ASCENDS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

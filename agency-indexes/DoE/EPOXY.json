@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "EPOXY is a LLVM base compiler that applies security protections to bare-metal programs on ARM Cortex-M series micro-controllers. This includes privilege overlaying, wherein operations requiring privileged execution are identified and only these operations execute in privileged mode. It also applies code integrity, control-flow hijacking defenses, stack protections, and fine-grained randomization schemes. All of its protections work within the constraints of bare-metal systems.",
+    "laborHours": 263081.6,
+    "languages": [
+        "C++",
+        "HTML",
+        "C",
+        "Makefile",
+        "Assembly",
+        "Rich Text Format"
+    ],
+    "name": "EPOXY",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/EPOXY?tab=License-1-ov-file#readme",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/EPOXY",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

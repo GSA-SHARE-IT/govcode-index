@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-10",
+        "metadataLastUpdated": "2020-08-10"
+    },
+    "description": "A KBase service for dynamically listing and accessing specifications and documentation for Narrative methods, apps, types, and categories of methods/apps. The Narrative Interface loads available methods/apps from this service.",
+    "laborHours": 12844.0,
+    "languages": [],
+    "name": "Narrative Method Store",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/narrative_method_store",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

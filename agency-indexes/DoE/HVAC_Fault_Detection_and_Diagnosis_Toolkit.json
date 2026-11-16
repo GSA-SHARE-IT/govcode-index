@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-05-25"
+    },
+    "description": "This toolkit supports component-level model-based fault detection methods in commercial building HVAC systems. The toolbox consists of five basic modules: a parameter estimator for model calibration, a preprocessor, an AHU model simulator, a steady-state detector, and a comparator. Each of these modules and the fuzzy logic rules for fault diagnosis are described in detail. The toolbox is written in C++ and also invokes the SPARK simulation program.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "HVAC Fault Detection and Diagnosis Toolkit",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

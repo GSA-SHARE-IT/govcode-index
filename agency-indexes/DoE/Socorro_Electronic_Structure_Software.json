@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-24"
+    },
+    "description": "Socorro can be used to compute the ground-state electron density for a periodically repeated simulation cell in which the external potential is obtained from norm-conserving pseudopotentials or projector-augmented-wave functions. The ground-state electron density is computed by summation over one-electron orbitals which are obtained using the Kohn-Sham formulation of density-functional theory and which are expanded in a plane-wave basis. Various quantities can be computed from the ground-state solution, including atomic forces which can be used to optimize atom positions in the simulation cell and to perform molecular dynamics simulations.",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "Fortran"
+    ],
+    "name": "Socorro Electronic Structure Software",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/socorro",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

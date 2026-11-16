@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-08-06"
+    },
+    "description": "Amesos is the Direct Sparse Solver Package in Trilinos. The goal of Amesos is to make AX=S as easy as it sounds, at least for direct methods. Amesos provides interfaces to a number of third party sparse direct solvers, including SuperLU, SuperLU MPI, DSCPACK, UMFPACK and KLU. Amesos provides a common object oriented interface to the best sparse direct solvers in the world. A sparse direct solver solves for x in Ax = b. where A is a matrix and x and b are vectors (or multi-vectors). A sparse direct solver flrst factors A into trinagular matrices L and U such that A = LU via gaussian elimination and then solves LU x = b. Switching amongst solvers in Amesos roquires a change to a single parameter. Yet, no solver needs to be linked it, unless it is used. All conversions between the matrices provided by the user and the format required by the underlying solver is performed by Amesos. As new sparse direct solvers are created, they will be incorporated into Amesos, allowing the user to simpty link with the new solver, change a single parameter in the calling sequence, and use the new solver. Amesos allows users to specify whether the matrix has changed. Amesos can be used anywhere that any sparse direct solver is needed.",
+    "laborHours": 8344830.4,
+    "languages": [],
+    "name": "Amesos Solver Package",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

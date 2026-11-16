@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-19",
+        "metadataLastUpdated": "2020-05-19"
+    },
+    "description": "DARMA/vt => Virtual Transport. vt is an active messaging layer that utilizes C++ object virtualization to manage virtual endpoints with automatic location management. vt is directly built on top of MPI to provide efficient portability across different machine architectures. Empowered with virtualization, vt can automatically perform dynamic load balancing to schedule scientific applications across diverse platforms with minimal user input.",
+    "laborHours": 155085.6,
+    "languages": [],
+    "name": "DARMA/vt",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/DARMA-tasking/vt/blob/develop/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/DARMA-tasking/vt",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

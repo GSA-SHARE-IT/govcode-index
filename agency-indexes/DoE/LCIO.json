@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "georgea@ornl.gov"
+    },
+    "date": {
+        "created": "2023-08-29",
+        "metadataLastUpdated": "2023-08-30"
+    },
+    "description": "Performance of file systems shift during their life cycles. Evaluating this performance change over time is not trivial. Complexity arises in the interplay between external (i.e. application I/O workloads) and internal (i.e. the filesystem state) factors. Many benchmarks can test how a filesystem performs at the current snapshot state, but to observe the change over time necessitates that the filesystem state mutate (age) between benchmark runs. For a large-scale HPC parallel filesystem, the sheer scale and amount of interacting components during I/O operations magnify these challenges. LCIO addresses the question - how will the filesystem perform at different stages of its life cycle? LCIO is a synthetic benchmark, which provides the file system aging process to increase the amount of information that existing benchmarks like IOR and MDTest yield, as well as provide additional points of data that will be useful to system architects and engineers.",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "Python"
+    ],
+    "name": "LCIO",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/olcf/lcio/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/olcf/lcio",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2018-07-11",
+        "metadataLastUpdated": "2019-04-17"
+    },
+    "description": "BigData Express is a high-performance data transfer service for big data. It has several salient features:\n•\tBigData Express WebPortal is a distributed web application designed to support BigData Express services and functions. All BDE web portals use a common single-point sign-on service – Cilogon service – to obtain X.509 user certificates for secure access to BDE sites.\n•\tBigData Express scheduler co-schedules Data Transfer Node(s), network, and storage resources for data transfer to achieve optimum performance.\n•\tBigData Express AmoebaNet is a SDN-enabled network service that provide “Application-aware” network. It allows application to program network at run-time for optimum performance. \n",
+    "homepageURL": "https://bigdataexpress.fnal.gov",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "C++",
+        "Java",
+        "JavaScript",
+        "Python"
+    ],
+    "name": "BigData Express",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bigdataexpress.fnal.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ]
+}

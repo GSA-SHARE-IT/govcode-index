@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "rogersdm@ornl.gov"
+    },
+    "date": {
+        "created": "2022-02-28",
+        "metadataLastUpdated": "2022-02-28"
+    },
+    "description": "This package represents remote datasets.  It provides a context object that acts as a proxy to an [mpi_list](https://pypi.org/project/mpi-list/) context running on a remote server.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "MPI Remote",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/99R/mpi-remote",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "version": "1.0.0"
+}

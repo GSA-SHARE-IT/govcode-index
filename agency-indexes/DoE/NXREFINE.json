@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-11-11",
+        "metadataLastUpdated": "2022-11-14"
+    },
+    "description": "NXRefine implements a complete workflow for both data acquisition and reduction of single crystal diffuse x-ray scattering collected as a series of area detector frames during continuous sample rotation. The data are stored in HDF5 files, which conform to the NeXus data format standard. These files contain a comprehensive set of metadata, including the incident wavelength, powder calibration scans used to define detector distances, beam centers, and yaw, pitch, and roll corrections. Automated peak searches of the three-dimensional data arrays define a set of Bragg peaks that are used to define an orientation matrix, defined according to Busing and Levy, which is then used to transform the data from angular coordinates to reciprocal space coordinates using the CCTW program. Multiple rotations at different detector translations and offset rotation axes are combined to ensure that there are no gaps in the reconstructed data, and allow the construction of masks to eliminate detector artifacts due to Compton scattering within the sensor layers. Finally, the data can be transformed into 3D-ΔPDF maps using the punch-and-fill method after symmetrization.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "NXREFINE",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/axmas-anl/nxrefine",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

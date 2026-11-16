@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "Geryon is intended to be a simple library for managing the CUDA Runtime, CUDA Driver, and OpenCL APIs with a consistent interface archive deleteone.sql elink_2017_10_20.json file.json fix_on_records.sh just-doi-it.sh onrecords postfile.sh postit.sh solr-delete testrepos.sh wipe.postgresql Change from one API to another by simply changing the namespace archive deleteone.sql elink_2017_10_20.json file.json fix_on_records.sh just-doi-it.sh onrecords postfile.sh postit.sh solr-delete testrepos.sh wipe.postgresql Use multiple APIs in the same code archive deleteone.sql elink_2017_10_20.json file.json fix_on_records.sh just-doi-it.sh onrecords postfile.sh postit.sh solr-delete testrepos.sh wipe.postgresql Lightweight (only include files no build required) archive deleteone.sql elink_2017_10_20.json file.json fix_on_records.sh just-doi-it.sh onrecords postfile.sh postit.sh solr-delete testrepos.sh wipe.postgresql Manage device query and selection archive deleteone.sql elink_2017_10_20.json file.json fix_on_records.sh just-doi-it.sh onrecords postfile.sh postit.sh solr-delete testrepos.sh wipe.postgresql Simple vector and matrix containers archive deleteone.sql elink_2017_10_20.json file.json fix_on_records.sh just-doi-it.sh onrecords postfile.sh postit.sh solr-delete testrepos.sh wipe.postgresql Simple routines for data copy and type casting archive deleteone.sql elink_2017_10_20.json file.json fix_on_records.sh just-doi-it.sh onrecords postfile.sh postit.sh solr-delete testrepos.sh wipe.postgresql Simple routines for data I/O archive deleteone.sql elink_2017_10_20.json file.json fix_on_records.sh just-doi-it.sh onrecords postfile.sh postit.sh solr-delete testrepos.sh wipe.postgresql Simple classes for managing device timing archive deleteone.sql elink_2017_10_20.json file.json fix_on_records.sh just-doi-it.sh onrecords postfile.sh postit.sh solr-delete testrepos.sh wipe.postgresql Simple classes for managing kernel compilation and execution The primary application is to facilitate writing a single code that can be compiled using the CUDA Runtime API, the CUDA Driver API, or OpenCL.",
+    "laborHours": 7569.6,
+    "languages": [
+        "C++",
+        "C"
+    ],
+    "name": "geryon v. 0.1",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/geryon?tab=License-1-ov-file#readme",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/geryon",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

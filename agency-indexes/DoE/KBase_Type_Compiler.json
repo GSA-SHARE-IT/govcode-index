@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-28",
+        "metadataLastUpdated": "2020-08-28"
+    },
+    "description": "The KBase Type Compiler consumes a type-document and produces a server and implementation libraries in one languages and client libraries in multiple supported languages.",
+    "laborHours": 2401.6,
+    "languages": [],
+    "name": "KBase Type Compiler",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/typecomp",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

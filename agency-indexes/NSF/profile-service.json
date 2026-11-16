@@ -1,0 +1,41 @@
+{
+    "name": "profile-service",
+    "description": "Capability in MyNSF to allow MyNSF Program Staff to associate themselves to a Program Element. At this point UPM shall still be used to assign POs for a particular PEC.",
+    "tags": [
+        "java",
+        "government",
+        "microservice",
+        "nsf",
+        "mynsf",
+        "features",
+        "shared"
+    ],
+    "contact": {
+        "email": "esivagna@nsf.gov",
+        "name": "Elanchezhian Sivagnanam",
+        "phone": "7032928088"
+    },
+    "languages": [
+        "Java"
+    ],
+    "repositoryURL": "http://www.nsf.gov",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://www.nsf.gov/digitalstrategy/Alternative_Analysis_Report_Template_Process.pdf",
+                "name": "NSF"
+            }
+        ],
+        "usageType": "exemptByAgencySystem",
+        "exemptionText": "Internal system not suitable for open source. For example, database queries are stored in external stored procedures."
+    },
+    "laborHours": 688,
+    "date": {
+        "created": "2016-08-02",
+        "lastModified": "2018-08-14",
+        "metadataLastUpdated": "2019-03-14"
+    },
+    "vcs": "",
+    "disclaimerText": "",
+    "disclaimerURL": "https://www.nsf.gov/digitalstrategy/Alternative_Analysis_Report_Template_Process.pdf"
+}

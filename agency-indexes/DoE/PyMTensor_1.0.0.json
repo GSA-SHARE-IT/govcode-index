@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-02-15",
+        "metadataLastUpdated": "2024-09-10"
+    },
+    "description": "SAND2021-1654 O\nThe Python Material Tensor code (PyMTensor) applies crystal symmetries to arbitrary material tensors. It uses symbolic algebra to exactly determine the zero tensor components and the relationships between the nonzero components for all crystallographic point groups. It is capable of computing components of higher-order material tensors needed when treating nonlinear effects. It has a simple and flexible interface for inputting tensor rank information and any known symmetries between tensor indices.Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 562.4,
+    "languages": [
+        "Python",
+        "Sage"
+    ],
+    "name": "PyMTensor 1.0.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/pymtensor",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

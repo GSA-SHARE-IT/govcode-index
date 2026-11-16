@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "dzander@sandia.gov"
+    },
+    "date": {
+        "created": "2020-03-12",
+        "metadataLastUpdated": "2021-03-05"
+    },
+    "description": "Shadow is a PyTorch based library for semi-supervised machine learning via consistency regularization.",
+    "laborHours": 820.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "shadow-ssml",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/shadow",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

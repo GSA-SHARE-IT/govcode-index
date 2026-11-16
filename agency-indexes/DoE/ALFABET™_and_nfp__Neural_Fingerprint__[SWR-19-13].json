@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-01-04",
+        "metadataLastUpdated": "2023-11-02"
+    },
+    "description": "Keras layers for end-to-end learning on molecular structure. Based on Keras, Tensorflow, and RDKit. Source code used in the study Message-passing neural networks for high-throughput polymer screening. SEE ALSO https://github.com/NREL/alfabet",
+    "laborHours": 866.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "ALFABET™ and nfp (Neural Fingerprint) [SWR-19-13]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/nfp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

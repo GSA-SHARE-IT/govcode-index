@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-08-09",
+        "metadataLastUpdated": "2024-08-09"
+    },
+    "description": "This software contains the code for a machine learning-based pipeline for creating persistent waterbody databases used in hydrologic routing. It consists of three components, 1) a PyTorch library (TorchWBType) for classifying/labeling arbitrary waterbodies into lakes and non-lakes, 2) a batch processing orchestrator (wbextractor) for delineating waterbodies from remote sensing imagery, and 3) graphing/analysis scripts for reproducing the plots in an associated journal article (LA-UR-24-22590).",
+    "laborHours": 1140.0,
+    "languages": [],
+    "name": "High resolution hydrologic routing with machine learning assisted waterbody classification",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/VeinsOfTheEarth/waterbody_classification_ms",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

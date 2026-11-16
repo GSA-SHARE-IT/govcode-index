@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-08-01",
+        "metadataLastUpdated": "2019-08-01"
+    },
+    "description": "This software couples commercial and existing transmission system simulation software PSSE and distribution system simulation software OpenDSS to enable transmission and distribution (T&D) co-simulation. This tool is capable of both steady-state and dynamic T&D co-simulation. It is written in Python. It also integrates dynamic distributed energy resource (DER) models (Python-based standalone models developed under an EERE project) into OpenDSS to involve dynamics of DER. This tool allows transmission system entities to understand the full spectrum impact of DER on the bulk electric system (BES) and assists in ensuring secure and reliable grid planning and operations. ",
+    "laborHours": 4848.8,
+    "languages": [],
+    "name": "TDcosim - Transmission and Distribution System Co-simulation Tool",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/tdcosim/TDcoSim",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

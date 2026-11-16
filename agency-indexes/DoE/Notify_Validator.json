@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-03-22",
+        "metadataLastUpdated": "2024-03-22"
+    },
+    "description": "The Notify Validator software represents a web service that supports implementers of the COAR Notify protocol.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Notify Validator",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jepowell-LANL/coar-notify-validator-inbox",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

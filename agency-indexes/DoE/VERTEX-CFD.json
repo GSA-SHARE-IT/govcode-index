@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "delchinimg@ornl.gov"
+    },
+    "date": {
+        "created": "2024-09-30",
+        "metadataLastUpdated": "2024-10-01"
+    },
+    "description": "VERTEX-CFD is primary used for safety analysis and design optimization of fusion blankets. VERTEX-CFD has a highly flexible code structure that facilitates the addition of new features such as equations, boundary conditions, and source terms. VERTEX-CFD is designed to run on CPU- and GPU-enabled high-performance computing (HPC) platforms by relying on Kokkos. The code architecture supports a plug-and-play approach allowing equations to be coupled by selecting the correct set of input parameters in the XML format input file. A set of verification and validation problems were run to test VERTEX-CFD solver. VERTEX-CFD implements the incompressible Navier-Stokes equations coupled to a temperature equation and magneto-hydrodynamic equations. This code is being developed for fusion applications.",
+    "laborHours": 34792.8,
+    "languages": [
+        "C++",
+        "Python",
+        "CUDA"
+    ],
+    "name": "VERTEX-CFD",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/delcmo/Vertex-CFD",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "Version 1.0"
+}

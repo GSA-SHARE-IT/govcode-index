@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "ostrouchovg@ornl.gov"
+    },
+    "date": {
+        "created": "2021-11-20",
+        "metadataLastUpdated": "2021-11-23"
+    },
+    "description": "Clusters medical trajectories (unequally spaced and unequal length time series) aligned by an intervention time. Performs k-means clustering, where each mean is a thin plate spline fit to all points in a cluster. Distance is MSE across trajectory points to cluster spline. Provides silhouette plots and Adjusted Rand Index evaluations of the number of clusters. Scales well to large data with multicore parallelism available to speed computation.",
+    "homepageURL": "https://cran.r-project.org/package=clustra",
+    "laborHours": 0.0,
+    "languages": [
+        "R"
+    ],
+    "name": "clustra",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://cran.r-project.org/package=clustra",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "version": "0.1.5"
+}

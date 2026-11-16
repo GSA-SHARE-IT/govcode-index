@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-11-30",
+        "metadataLastUpdated": "2020-11-30"
+    },
+    "description": "There is a need to easily and uniformly capture, access, enrich, organize, search, and collaborate on working scientific data sets across geographically distributed experiment, computation, and data analytics facilities. DataFed provides a set of services and applications enabling simple and uniform cross-facility scientific data management with federated (distributed) data repositories.  This solution greatly reduces effort required by scientist to organize and/or move data between facilities/institutes,  Reduces likelihood of misidentification and subsequent misuse of data, and improves scientific reproducibility through deep, domain-specific context and provenance capture.",
+    "laborHours": 83797.6,
+    "languages": [
+        "C++11 GCC 5.x or grerater; Python 3"
+    ],
+    "name": "DataFed",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/DataFed",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

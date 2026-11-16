@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2021-09-06",
+        "lastModified": "2024-01-24"
+    },
+    "description": "Python package to import assessment data from an S3 bucket into a database.",
+    "downloadURL": "https://api.github.com/repos/cisagov/assessment-data-import/downloads",
+    "homepageURL": "https://github.com/cisagov/assessment-data-import",
+    "laborHours": 564.1,
+    "languages": [
+        "Python",
+        "Shell",
+        "Dockerfile"
+    ],
+    "name": "assessment-data-import",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/assessment-data-import.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

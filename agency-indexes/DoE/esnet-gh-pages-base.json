@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-06-19",
+        "metadataLastUpdated": "2019-06-19"
+    },
+    "description": "Base templates for ESnet's GitHub pages. These pages are created using the Sphinx documentation package using the sphinx-bootstrap-theme with some pages. This repo is meant to be included into a project using git subtree and provides the overrides and customizations to the base theme.",
+    "laborHours": 152.0,
+    "languages": [],
+    "name": "esnet-gh-pages-base",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/esnet/esnet-gh-pages-base",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

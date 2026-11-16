@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "Domi (Greek for \"structure\") is a Trilinos package that provides support for multi-dimensional data arrays distributed over multiple processors of a high performance computing system. The software supports data arrays of arbitrary number of dimensions mapped to a multi-dimensional grid of processors. Domi provides local access to the data, as well as the ability to compute global quantities such as norms, maxima and minima. Data arrays can be constructed with boundary and communication padding, necessary for finite difference algorithms, and provides high-level methods for communicating data between processors to update these buffers. The distributed maps and vectors in Domi can be converted to the equivalent data structures in Epetra and Tpetra (both of which assume unstructured data), using view semantics when appropriate, for use with other Trilinos solvers.",
+    "laborHours": 10336.0,
+    "languages": [
+        "CMake",
+        "C++"
+    ],
+    "name": "Domi",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/trilinos/Domi/blob/main/Copyright.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Domi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2023-06-30",
+        "metadataLastUpdated": "2023-06-30"
+    },
+    "description": "edit-initramfs.sh is a simple script to extract, edit, and rebuild an initramfs image. This makes it easy to quickly make edits to the contents of an initramfs.\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "edit-initramfs.sh",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/tonyhutter/edit-initramfs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

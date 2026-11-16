@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "edoardo.apra@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-06-13",
+        "metadataLastUpdated": "2024-06-17"
+    },
+    "description": "NWChem is a computational chemistry software package which includes quantum chemical and molecular dynamics functionality. It aims to be scalable both in its ability to treat large problems efficiently, and in its usage of available parallel computing resources.",
+    "laborHours": 5977217.6,
+    "languages": [
+        "C",
+        "Fortran",
+        "Python"
+    ],
+    "name": "NWChem",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/nwchemgit/nwchem/blob/master/LICENSE.TXT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/nwchemgit/nwchem",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git",
+    "version": "7.2.2"
+}

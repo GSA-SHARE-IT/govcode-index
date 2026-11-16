@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-04-15",
+        "metadataLastUpdated": "2024-04-15"
+    },
+    "description": "A python package that helps with working with MSI Windows installers, by providing a library and utilities\nto read information from the file, extract embedded files, and update/write MSI files. Functionality is\nsimilar to https://wiki.gnome.org/msitools and https://github.com/mdsteele/rust-msi but written in pure\nPython so that it can easily be installed and used on a wider variety of systems.",
+    "laborHours": 288.8,
+    "languages": [],
+    "name": "PyMSI",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/nightlark/pymsi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0.0"
+}

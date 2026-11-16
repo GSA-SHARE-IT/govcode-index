@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-01-04",
+        "metadataLastUpdated": "2023-01-04"
+    },
+    "description": "The Orthogonal Diffusion Discretizations (ODD) library is a collection of low order (Diffusion, P1, Ray Tracing, and Variable Eddington Factor (VEF)) thermal radiation solvers for orthogonal structured grids driven by an application programing interface (API).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ODD (Version 0.X)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/ODD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

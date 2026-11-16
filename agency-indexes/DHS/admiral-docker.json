@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2023-01-31",
+        "lastModified": "2026-11-06"
+    },
+    "description": "Docker components for the dreaded Rear Admiral",
+    "downloadURL": "https://api.github.com/repos/cisagov/admiral-docker/downloads",
+    "homepageURL": "https://github.com/cisagov/admiral-docker",
+    "laborHours": 961.4,
+    "languages": [
+        "Shell",
+        "Python",
+        "Dockerfile"
+    ],
+    "name": "admiral-docker",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/admiral-docker.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "certificate-transparency",
+        "docker"
+    ],
+    "vcs": "git"
+}

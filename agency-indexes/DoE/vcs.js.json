@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-05-29",
+        "metadataLastUpdated": "2020-05-29"
+    },
+    "description": "VCS is a general purpose visualization library,  optimized for climate data which is part of the UV-CDAT system. It provides Python API for drawing 2D plots such as lineplots, scatter plots, Taylor diagrams, map data colored by scalar values, vector glyphs, isocontours and map projections.\nVcs.js is the corresponding JavaScript API, designed to be as close as possible to the original VCS Python API and to provide similar functionality for the Web. \nVcs.js includes additional functionality when compared with VCS. This additional API is used to introspect data files available on the server and variables available in a data file. Next we are going to provide a high level description of the APIs provided by Vcs.js including session management, data introspection and subsetting and plotting.\n",
+    "laborHours": 17176.0,
+    "languages": [],
+    "name": "vcs.js",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CDAT/vcs-js",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

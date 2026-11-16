@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-02-15",
+        "metadataLastUpdated": "2023-02-15"
+    },
+    "description": "Hermes-3 is a plasma simulation model built on BOUT++, developed as part of research studies of the edge and divertor regions of magnetically confined fusion plasmas such as tokamaks. The main purpose of this model is multi-species simulation of plasmas containing a mixture of deuterium, tritium, helium and other plasma and neutral gas species.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Hermes-3",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/bendudson/hermes-3",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-08-09",
+        "metadataLastUpdated": "2025-02-24"
+    },
+    "description": "This algorithm can process small or large (>1000 curves) batches of data and output arrays with the reduction peak start,\nend, halfway point, and area in each curve in a file of the user's choice",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 532.0,
+    "languages": [],
+    "name": "Automated Quantification of Cyclic Voltammetry Reactions",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "version": "1"
+}

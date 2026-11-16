@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-01-08",
+        "metadataLastUpdated": "2024-01-08"
+    },
+    "description": "This project provides a tool to compute LCOM metrics for important Ada abstraction mechanisms (e.g.,\npackages, protected objects). It analyzes data accesses and routine calls to compute an abstract\nrepresentation of an Ada package (or some other abstraction). Different LCOM metrics (1-5) are\ncomputed from the abstract representation. The project also provides support for representing the\nabstraction graphically (via graphviz). The LCOM tool requires an existing ROSE installation configured\nwith the GNAT 2019 compiler.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ROSE LCOM Tools",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ROSE-LCOM-Tools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.5"
+}

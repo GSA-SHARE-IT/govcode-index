@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-10"
+    },
+    "description": "Typically environmental management problems require analysis of large and complex data sets originating from concurrent data streams with different data collection frequencies and pedigree. These big data sets require on-the-fly integration into a series of models with different complexity for various types of model analyses where the data are applied as soft and hard model constraints. This is needed to provide fast iterative model analyses based on the latest available data to guide decision-making. Furthermore, the data and model are associated with uncertainties. The uncertainties are probabilistic (e.g. measurement errors) and non-probabilistic (unknowns, e.g. alternative conceptual models characterizing site conditions). To address all of these issues, we have developed an integrated framework for real-time data and model analyses for environmental decision-making called ZEM. The framework allows for seamless and on-the-fly integration of data and modeling results for robust and scientifically-defensible decision-making applying advanced decision analyses tools such as Bayesian- Information-Gap Decision Theory (BIG-DT). The framework also includes advanced methods for optimization that are capable of dealing with a large number of unknown model parameters, and surrogate (reduced order) modeling capabilities based on support vector regression techniques. The framework is coded in Julia, a state-of-the-art high-performance programing language (http://julialang.org). The ZEM framework is open-source and can be applied to any environmental management site. The framework will be open-source and released under GPL V3 license.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "laborHours": 0.0,
+    "languages": [
+        "Julia"
+    ],
+    "name": "Advanced Computational Framework for Environmental Management ZEM, Version 1.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

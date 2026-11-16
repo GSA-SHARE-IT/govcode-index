@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "joiner@ameslab.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "ParFit is a flexible and extendable framework and library of classes for fitting force-field parameters to data from high-level ab-initio calculations on the basis of deterministic and stochastic algorithms. Currently, the code is fitting MM3 and Merck force-field parameters but could easily extend to other force-field types.",
+    "laborHours": 31874.4,
+    "name": "Force-Field Parameter Fitter",
+    "organization": "Ames Laboratory (AMES)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/fzahari/ParFit",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Ames Laboratory (AMES)"
+    ],
+    "vcs": "git"
+}

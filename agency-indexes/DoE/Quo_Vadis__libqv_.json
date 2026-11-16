@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-02-11",
+        "metadataLastUpdated": "2022-02-11"
+    },
+    "description": "Quo Vadis (libqv) is a next-generation, machine-independent coordination layer to arbitrate computer resource access among multiple runtime components and map tasks efficiently to heterogeneous computer architectures.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Quo Vadis (libqv)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hpc/quo-vadis",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

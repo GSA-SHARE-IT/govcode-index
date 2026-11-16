@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-05-02",
+        "metadataLastUpdated": "2023-05-02"
+    },
+    "description": "The Coda Envelope Ratio Tool (CERT) allows for calculating seismic envelopes from waveforms and measuring the amplitude ratios for multiple events against each other to invert for seismic source information. The methodology is based on Walter, W. R., Yoo, S.-H., Mayeda, K., and Gök, R. (2017), Earthquake stress via event ratio levels: Application to the 2011 and 2016 Oklahoma seismic sequences, Geophys. Res. Lett., 3147- 3155, 44, doi:10.1002/2016GL072348.",
+    "laborHours": 47712.8,
+    "languages": [],
+    "name": "Coda Envelope Ratio Tool",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/coda-calibration-tool",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.19"
+}

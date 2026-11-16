@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-08-06"
+    },
+    "description": "Mapvar is designed to transfer solution results from one finite element mesh to another. Mapvar draws heavily from the structure and coding of MERLIN II, but it employs a new finite element data base. Exodus II, and offers enhanced speed and new capabilities not available in MERLIN II.",
+    "laborHours": 692284.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "MAPVAR V1.9",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/seacas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

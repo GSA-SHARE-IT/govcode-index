@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-04-26",
+        "metadataLastUpdated": "2023-04-26"
+    },
+    "description": "shasta wrapper was written as an interface with which to manage clusters running CSM (Cray System Management) with the purpose being: * Showcase the shortcomings of the provided Cray System Management software to the vendor * Provide practical and easy to use tool to manage a clsuter running Cray System Management",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Shasta Wrapper",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hpc/shasta_wrapper",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

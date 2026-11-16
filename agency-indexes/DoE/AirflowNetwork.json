@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "degrawjw@ornl.gov"
+    },
+    "date": {
+        "created": "2022-06-16",
+        "metadataLastUpdated": "2022-10-10"
+    },
+    "description": "AirflowNetwork is a C++ implementation of the pressure network approach to bulk air movement and contaminant transport, primarily in the context of buildings. It is a descendant of NIST AIRNET (the precursor to NIST's CONTAM) and COMIS. This modeling technique divides the building's total volume up into a set of well-mixed zones that communicate via airflows through openings that are part of the building. Parts of this code have been extracted from EnergyPlus (U.S. DOE's whole building energy simulation program) and other parts are new development.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "AirflowNetwork",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/building-performance-modeling/AirflowNetwork",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

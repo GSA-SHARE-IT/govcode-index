@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-03-22",
+        "metadataLastUpdated": "2024-03-22"
+    },
+    "description": "MATLAB code that executes a numerical simulation in the open-source software, SPINACH, which is written for MATLAB. The simulation was used as data in our published paper (https://doi.org/10.1016/j.jmr.2023.107540).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Earth's Field NMR SPINACH Simulation Code",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/EFNMR_LANL",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

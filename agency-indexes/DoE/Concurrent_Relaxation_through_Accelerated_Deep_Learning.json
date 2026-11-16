@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-12-16",
+        "metadataLastUpdated": "2020-12-16"
+    },
+    "description": "CRADL captures performance metrics of machine learning algorithms operating on mesh data from multiphysics\ncodes This proxy application is a tool to explore scalability of inference on HPC platforms, and also gather performance metrics for inference on new machine learning specific hardware. CRADL is designed to give users as fine a control as possible over an inference simulation. Users may\nselect the number of cycles, amount of data, and batch size to pass to the accelerator of choice. Additionally the user may select a number of performance optimization libraries and flags. CRADL comes packaged with a repository of anonymized multi-physics simulation data, as well as a\npretrained model for inference. The code allows a user to load their own pre-trained model and data if they wish. The code can operate in multiple parallelization schemes, with performance enhancing options such as half-precision libraries, PyTorch benchmarking, and pinned memory with non-blocking data transfers.\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Concurrent Relaxation through Accelerated Deep Learning",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/CRADL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

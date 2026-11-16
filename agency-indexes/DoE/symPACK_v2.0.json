@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-06",
+        "metadataLastUpdated": "2021-04-06"
+    },
+    "description": "SymPACK is a parallel direct solver for sparse symmetric systems of linear equations. SymPACK is implemented for large- scale distributed-memory platforms. It employs several innovative ideas, including the use of an asynchronous task paradigm, one-sided communication, and dynamic scheduling.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "symPACK v2.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/symPACK/symPACK",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "v2.0"
+}

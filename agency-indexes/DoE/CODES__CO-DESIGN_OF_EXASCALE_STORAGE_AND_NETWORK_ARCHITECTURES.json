@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-06-25",
+        "metadataLastUpdated": "2019-06-25"
+    },
+    "description": "The goal of the CODES project is use highly parallel simulation to explore the design of exascale \nstorage architectures and distributed data-intensive science facilities. Our simulations build upon \nthe Rensselaer Optimistic Simulation System (ROSS), a discrete event simulation framework that \nallows simulations to be run in parallel, decreasing the simulation run time of massive simulations \nto hours. We are using ROSS to explore topics including large-scale storage systems, I/O workloads, \nHPC network fabrics, distributed science systems, and data-intensive computation environments. The \nCODES project is a collaboration between the Mathematics and Computer Science department at Argonne National Laboratory and Rensselaer Polytechnic Institute.  We also collaborate with Lawrence Livermore National Laboratory for modeling HPC interconnect systems",
+    "laborHours": 49278.4,
+    "languages": [],
+    "name": "CODES( CO-DESIGN OF EXASCALE STORAGE AND NETWORK ARCHITECTURES",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://xgitlab.cels.anl.gov/codes/codes.git",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

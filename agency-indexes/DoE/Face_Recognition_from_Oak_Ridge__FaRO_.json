@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "Many universities have published highly accurate open source face recognition algorithms, but configuring and using those algorithms can be very difficult due to poor documentation and challenges with installing the right software and libraries. Comparing research results is also a problem due to uncontrolled research methods. Provide baseline face recognition implementations that can be used for evaluating algorithm accuracy. The software provides a consistent web service interface to face recognition algorithms that can be used to support research in biometrics. The software uses protobuf and grpc services to publish standardized interfaces to the algorithms. The software also provides Docker container support which allows services to be easily started and configured on new machines. Reproducible baseline configurations are provided to serve as bench marks for publications in this area.",
+    "laborHours": 35613.6,
+    "languages": [
+        "Python 3"
+    ],
+    "name": "Face Recognition from Oak Ridge (FaRO)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/faro",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

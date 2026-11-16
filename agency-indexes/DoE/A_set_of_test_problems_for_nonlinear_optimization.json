@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-05-17",
+        "metadataLastUpdated": "2024-05-17"
+    },
+    "description": "The software is a set of test problems for nonlinear optimization algorithms, including subroutines such as linear algebra routines and automatic differentiation algorithms. The test problems come from chemical engineering open literature, and describe optimization tasks related to the design and operation of processes such as carbon capture, Hydrogen production, heat exchange, and distillation.",
+    "laborHours": 167.2,
+    "languages": [],
+    "name": "A set of test problems for nonlinear optimization",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Robbybp/pselib",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

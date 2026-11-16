@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-03-04",
+        "metadataLastUpdated": "2023-05-31"
+    },
+    "description": "reVX is a complementary toolset that enables the extraction, translation, and loading (ETL) of reV results into formats required by downstream models, such as RPM, ReEDS, and PLEXOS.\n\nSEE ALSO: https://github.com/NREL/revruns",
+    "laborHours": 12737.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "reVX (The Renewable Energy Potential Exchange Tool) [SWR-20-19]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/reVX",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

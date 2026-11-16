@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Memory size has long limited large-scale applications on high-performance computing (HPC) systems. Increasing core counts per chip and power density constraints, which limit the number of DIMMs per node, have exacerbated this problem. Mechanisms to manage memory usage - preferably transparently - more efficiently could increase effective DRAM capacity and, thus, the benefit of multicore similarity. These data regions occupy multiple physical locations within a multicore node and thus offer a potential savings in memory capacity. These data, primarily residing in heap, are quite dynamic, which makes them difficult to manage statically. SBLLmalloc is a memory allocation library that automatically identifies the replicated memory blocks and merges them into a single copy. SBLLmalloc does not require application or OS changes since we implement it as a user-level library that can be linked at runtime. SBLLmalloc provides the capability to run larger problems using the same hardware configuration in multicore nodes. SBLLmalloc has been implemented for Linux clusters.",
+    "laborHours": 4681.6,
+    "name": "SBLLmalloc V1.0",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/SBLLmalloc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

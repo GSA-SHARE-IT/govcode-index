@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-13",
+        "metadataLastUpdated": "2020-08-13"
+    },
+    "description": "Basic java client for the Shock service. Supports node creation, deletion and retrieval of a subset of node data, streaming file up/download, viewing ACLs, and limited ACL modification.",
+    "laborHours": 1520.0,
+    "languages": [],
+    "name": "shock_java_client",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/shock_java_client",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

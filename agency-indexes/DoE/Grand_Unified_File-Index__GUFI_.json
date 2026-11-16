@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-19",
+        "metadataLastUpdated": "2020-05-19"
+    },
+    "description": "The Grand Unified File Index (GUFI) is an index that holds file-system metadata (i.e. filenames, access and creation dates, file attributes, extended attributes, etc.) pulled from huge file/data storage-systems using full and incremental index update, allowing rapid searches that don’t have to impact the file-systems themselves, supporting both users and system/data managers.  GUFI is a very fast software solution that offers speed and security, while minimizing impact on supercomputing resources. ",
+    "laborHours": 18787.2,
+    "languages": [],
+    "name": "Grand Unified File-Index (GUFI)",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/mar-file-system/GUFI/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mar-file-system/GUFI",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

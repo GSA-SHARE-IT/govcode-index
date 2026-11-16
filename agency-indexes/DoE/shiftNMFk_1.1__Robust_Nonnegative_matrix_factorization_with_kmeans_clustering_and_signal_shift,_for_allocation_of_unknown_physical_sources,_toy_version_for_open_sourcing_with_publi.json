@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This code is a toy (short) version of CODE-2016-83. From a general perspective, the code represents an unsupervised adaptive machine learning algorithm that allows efficient and high performance de-mixing and feature extraction of a multitude of non-negative signals mixed and recorded by a network of uncorrelated sensor arrays. The code identifies the number of the mixed original signals and their locations. Further, the code also allows deciphering of signals that have been delayed in regards to the mixing process in each sensor. This code is high customizable and it can be efficiently used for a fast macro-analyses of data. The code is applicable to a plethora of distinct problems: chemical decomposition, pressure transient decomposition, unknown sources/signal allocation, EM signal decomposition. An additional procedure for allocation of the unknown sources is incorporated in the code.",
+    "laborHours": 1960.8,
+    "name": "shiftNMFk 1.1: Robust Nonnegative matrix factorization with kmeans clustering and signal shift, for allocation of unknown physical sources, toy version for open sourcing with publications",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/rNMF/ShiftNMFk.jl/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/rNMF/ShiftNMFk.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

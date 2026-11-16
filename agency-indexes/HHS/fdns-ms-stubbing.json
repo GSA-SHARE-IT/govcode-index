@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/CDCgov",
+        "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+        "created": "2018-12-07",
+        "lastModified": "2020-03-10"
+    },
+    "description": "A stubbing service for testing against the various endpoints of the FDNS Microservices without running the full microservices in the background.",
+    "downloadURL": "https://api.github.com/repos/CDCgov/fdns-ms-stubbing/downloads",
+    "homepageURL": "https://github.com/CDCgov/fdns-ms-stubbing",
+    "laborHours": 0,
+    "languages": [
+        "JavaScript",
+        "Makefile",
+        "Dockerfile"
+    ],
+    "name": "fdns-ms-stubbing",
+    "organization": "Centers for Disease Control and Prevention",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "git://github.com/CDCgov/fdns-ms-stubbing.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

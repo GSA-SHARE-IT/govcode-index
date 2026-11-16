@@ -1,0 +1,29 @@
+{
+    "contact": {
+        "email": "aespiritu@lbl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Small Python package to compute tomographic reconstructions using a reconstruction method published in: Pelt, D.M., & De Andrade, V. (2017). Improved tomographic reconstruction of large-scale real-world data by filter optimization. Advanced Structural and Chemical Imaging 2: 17; and Pelt, D. M., & Batenburg, K. J. (2015). Accurately approximating algebraic tomographic reconstruction by filtered backprojection. In Proceedings of The 13th International Meeting on Fully Three-Dimensional Image Reconstruction in Radiology and Nuclear Medicine (pp. 158-161).",
+    "laborHours": 395.2,
+    "name": "SIRT-FILTER v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://gitlab.com/dmpelt/sirtfilter/blob/master/license.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/dmpelt/sirtfilter",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

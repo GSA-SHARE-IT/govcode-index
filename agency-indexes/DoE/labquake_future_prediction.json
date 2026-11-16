@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-09-15",
+        "metadataLastUpdated": "2022-09-15"
+    },
+    "description": "The labquake_future_prediction code is a collection of python modules and scripts that serves as supporting information for the article “Predicting future laboratory fault friction through deep learning” for publication in the journal of “Geophysical Research Letters”. It is designed to predict laboratory fault slips in the immediate future by scanning continuous acoustic emission (AE) waveforms recorded in laboratory biaxial shear experiments. The predictions are made with a deep learning model based on convolutional encoder-decoder (CED) models and the Transformer model primarily developed for Natural Language Processing (NLP). The deep learning model is trained with the tensorflow package using publicly available laboratory data sets in standard binary file format in numpy. The utility functions for reading data files, configuring model hyperparameters, constructing the CED and Transformer models, training and testing of the models are defined in python module files. The workflow of training the models for labquake future predictions and the multiple GPU’s rapid model hyperparameter optimization as described in the journal article, are demonstrated in accompanying python script files and Jupyter notebooks.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "labquake_future_prediction",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cjohnson-LANL/labquake_future_prediction",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

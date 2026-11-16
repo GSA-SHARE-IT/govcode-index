@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-06-13",
+        "metadataLastUpdated": "2024-06-13"
+    },
+    "description": "This package includes three parts, (1) gov.llnl.math, (2)gov.llnl.utility and (3)gov.llnl.rtk, which are utilized\nin the development of Radiation Detector Simulator (RadSim) project. RadSim is being developed to\nprovide the capability to: (1) simulate radiation source emissions, (2) interpolate results from radiation\ntransport tools into a common format to prepare incident flux, and (3) model radiation detector response\nto rapidly produce synthetic radiation measurement templates. RadSim is targeted for open-source\nrelease, which will enable researchers and industry partners to model gamma-ray detectors response to\nsimulated flux from the transport tool of their choice. The techniques and implementation will be entirely\ntransparent, which will allow for improvements and boutique modifications by future researchers beyond\nthe lifespan of this specific project.\nThe first tool of the package, gov.llnl.math, includes classes and functions to define and perform basic\nmath operations. Some of the example features available in the package include defining statistical\ndistributions and performing algebra and matrix operations, all of which are already accessible on publicly\navailable software packages such as MATLAB and ROOT. The second package gov.llnl.utility includes\ntools commonly used to enable optimization and readability of various data structures such as Java lists\nand external xml files. Lastly, the gov.llnl.rtk package includes classes and functions to implement\nmethods commonly used in radiation physics, such as data structures to represent and characterize\nphoton spectra and tools to apply well-defined and published methods to calibrate a given spectra.",
+    "laborHours": 93373.6,
+    "languages": [],
+    "name": "RadSim: Math, Utility & RTK",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/RadSim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

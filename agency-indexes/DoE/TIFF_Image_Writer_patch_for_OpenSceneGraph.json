@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "This software consists of code modifications to the open-source OpenSceneGraph software package to enable the creation of TlFF images containing 16 bit unsigned data. They also allow the user to disable compression and set the DPI tags in the resulting TIFF Images. Some image analysis programs require uncompressed, 16 bit unsigned input data. These code modifications allow programs based on OpenSceneGraph to write out such images, improving connectivity between applications.",
+    "laborHours": 367292.8,
+    "languages": [
+        "Objective-C",
+        "C++",
+        "HTML",
+        "C",
+        "CMake",
+        "Objective-C++"
+    ],
+    "name": "TIFF Image Writer patch for OpenSceneGraph",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.1",
+                "name": "GPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/OpenSceneGraph",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

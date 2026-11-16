@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-11-15",
+        "metadataLastUpdated": "2021-11-16"
+    },
+    "description": "Optvis is a web application to visualize control flow graphs, call graphs, disassembly code from a binary or executable. The main use case is visualizing the compiler optimizations in binary code.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Optvis",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/CcNav",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

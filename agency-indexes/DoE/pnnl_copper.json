@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-28",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Performance curve generator for building energy simulation. Copper is a tool in the form of Python package that can be used to generate metric specific performance curves for\nbuilding energy simulations.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/copper",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/copper",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

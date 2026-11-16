@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2021-08-06",
+        "metadataLastUpdated": "2024-08-19"
+    },
+    "description": "This repository contains data ingestion, feature extraction, and analysis code used in NREL Technical report \"Clustering Analysis of Commercial Vehicles Using Automatically Extracted Features from Time Series Data.\" The code is written in Python. The ETL and feature extraction code must be run in a Spark context. The analysis code can be run without Spark, provided you have pre-computed features in a CSV file. Analysis code related to the NREL Technical Report NREL/TP-2C00-74212. Includes PySpark functions to perform trip segmentation and feature extraction over big time series data in Apache Spark. Includes \"domain specific\" features such as Aerodynamic Speed (ft/s), Characteristic Acceleration (ft/s2), Percent Below 55 (%), Percent Zero (%), Stops Per Mile, Average Speed (mph), Maximum Speed (mph), and Speed Standard Deviation (mph). Includes Pyspark UDF to compute \"domain agnostic\" features using the TSFresh library. This software record also includes the analysis notebooks and code to generate the results in the previously mentioned technical report.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Code Artifact for: Clustering Analysis of Commercial Vehicles Using Automatically Extracted Features from Time Series Data [SWR-21-96]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/clustering-analysis-domain-agnostic-features-2018",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

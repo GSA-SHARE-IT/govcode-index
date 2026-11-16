@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "CACTUS is a code that calculates the performance and aero/hydrodynamic loads of a wind or water turbine. The turbine may be either a vertical-axis or a horizontal-axis machine, and may consist of one or more blade curved or straight blades. The performance model is based on a lifting-line free wake formulation that calculates rotor power and blade loads in the time domain. The rotor is treated as a rotating rigid body, such that structural dynamical motions are not modeled. The turbine is assumed to operate within a steady, but possibly sheared, wind or current velocity. For marine hydrokinetic energy applications, the presence of a river/tidal channel bed and water surface boundaries may be modeled.",
+    "laborHours": 3587.2,
+    "languages": [
+        "CMake",
+        "MATLAB",
+        "Fortran",
+        "GLSL",
+        "Python"
+    ],
+    "name": "Code for Axial and Crossflow Turbine Simulation",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/CACTUS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.1"
+}

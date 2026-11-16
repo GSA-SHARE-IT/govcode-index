@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-07-03",
+        "metadataLastUpdated": "2022-08-09"
+    },
+    "description": "ErgoEASER is a computer based program that provides training and analysis tools on potential ergonomic hazards in the workplace. This version incorporates training on ergonomic issues in office environments and those associated with hand tool design and use. These training modules complement the ergonomic analysis tools (for lifting tasks and Video Display Terminal workstations comprising Version 1 (copyrighted under the name, ErgoAnalyze) ErgoEASER2.0 includes the entire analysis tool/training package. It provides multiple levels of support through its interactive components. Getting started reviews background information on occupational ergonomics. Awareness and reporting presents examples and photographs of potentially hazardous postures and practices, enabling users to assess their work environments. This component provides a modest level of education and training on occupational ergonomics. Lifting analysis this component enables users to input key dimensions and variables that apply to lifting tasks, then adjust the values and view results in a simulated display depicting the human postures, practices, and associated strains. VDT analysis this component enables users to input key dimensions and variables that apply to video display terminal workstation tasks, then adjust the values and view results in a simulated display depicting the human postures, practices, and associated strains. Ergonomics computer based training this component presents two computer based training lessons, one on office ergonomics and the other on hand tools. Each lesson includes four topics: ergonomics, risk factors, symptoms and signs, and a mastery exercise that assesses the students overall comprehension of the material and preparedness to use ErgoEASER's analysis components.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Ergonomics Education, Awareness System Evaluation and Recording",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.osti.gov/osti-public/ergoeaser2",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

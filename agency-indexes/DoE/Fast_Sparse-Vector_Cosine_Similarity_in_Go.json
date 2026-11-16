@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "shiversrm@ornl.gov"
+    },
+    "date": {
+        "created": "2022-09-27",
+        "metadataLastUpdated": "2022-09-28"
+    },
+    "description": "This software provides a fast way to perform efficient sparse matrix multiplication followed by top-n multiplication result selection. Functionality for performing matrix multiplication / cosine similarity separately is included in this package as well. This package is a pure Go port of a Python package developed by ING Bank (https://github.com/ing-bank/sparse_dot_topn) which uses Cython to execute the matrix multiplication in C++. Instructions for compiling bindings which can be called from Python are included with this package as well.",
+    "laborHours": 0.0,
+    "languages": [
+        "Go",
+        "Python"
+    ],
+    "name": "Fast Sparse-Vector Cosine Similarity in Go",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/sparse-gosine-similarity",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

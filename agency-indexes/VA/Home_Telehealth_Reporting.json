@@ -1,0 +1,49 @@
+{
+    "id": 1359,
+    "name": "Home Telehealth Reporting",
+    "organization": "OIT DSO",
+    "version": "16.5",
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/Redacted-Public-Release-HTR-P4-v16.5-iter-3-WEBi-build-16.5.0.00301-Jun-2020",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "HTRE",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Apache Hypertext Transfer Protocol (HTTP) Server",
+        "JavaScript",
+        "Microsoft Structured Query Language (SQL) Server",
+        "Red Hat Enterprise Linux",
+        "WebLogic Server",
+        "Microsoft Internet Information Services (IIS)",
+        "Windows Server",
+        "JDK - Oracle Java Standard Edition (SE) Development Kit"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-28",
+        "lastModified": "2020-10-05",
+        "metadataLastUpdated": "2020-10-05"
+    },
+    "description": "Repository containing the CIF submission for Home Telehealth Reporting (HTR) Phase 4 v16.5, iter 3, WEBi*, build 16.5.0.00301 rec Jun 2020."
+}

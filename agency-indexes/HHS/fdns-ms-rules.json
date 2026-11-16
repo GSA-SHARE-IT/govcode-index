@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "URL": "https://github.com/CDCgov",
+        "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+        "created": "2018-04-03",
+        "lastModified": "2020-08-29"
+    },
+    "description": "This is the repository with the Business Rules Engine for ingesting and validating JSON files.",
+    "downloadURL": "https://api.github.com/repos/CDCgov/fdns-ms-rules/downloads",
+    "homepageURL": "https://github.com/CDCgov/fdns-ms-rules",
+    "laborHours": 0,
+    "languages": [
+        "Java",
+        "HTML",
+        "Dockerfile",
+        "Makefile"
+    ],
+    "name": "fdns-ms-rules",
+    "organization": "Centers for Disease Control and Prevention",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "git://github.com/CDCgov/fdns-ms-rules.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

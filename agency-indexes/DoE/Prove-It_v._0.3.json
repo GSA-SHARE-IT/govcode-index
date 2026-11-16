@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "Prove-It is a tool for proving and organizing general theorems using Python.",
+    "laborHours": 70953.6,
+    "languages": [
+        "Python",
+        "Smarty",
+        "CSS",
+        "HTML",
+        "Jupyter Notebook",
+        "TeX"
+    ],
+    "name": "Prove-It v. 0.3",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/Prove-It",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "0.3"
+}

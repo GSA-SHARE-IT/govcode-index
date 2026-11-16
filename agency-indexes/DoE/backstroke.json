@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-18",
+        "metadataLastUpdated": "2018-07-18"
+    },
+    "description": "Backstroke is a tool for reversible computation and supports C++11. It is a command line tool for generating reversible C++ source code and is distributed with a runtime library that can maintain all data necessary to support reversibility. The runtime library implements a so called Runtime State Store (RTSS) and is called rtss library. Backstroke implements a technique for incremental state saving (also called incremental check-pointing). Backstroke supports the simulator ROSS for parallel discrete event simulation (PDES) and can establish automatically the reversibility of ROSS models.\n",
+    "laborHours": 5031.2,
+    "languages": [],
+    "name": "backstroke",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/backstroke",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

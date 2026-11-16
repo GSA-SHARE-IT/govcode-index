@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-04-12",
+        "metadataLastUpdated": "2022-04-12"
+    },
+    "description": "BinFPE is a tool that detects floating-point exceptions (NaN, infinity, and subnormal quantities) in NVIDIA GPU applications using binary instrumentation. It requires no re-compilation of the application and can analyze libraries. The tool extends NVBit (https://github.com/NVlabs/NVBit), which is provided by NVIDIA Labs to analyze binaries. When the tool detects a floating-point exception it reports to the user the location of the exception (file and line number).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "BinFPE",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/BinFPE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

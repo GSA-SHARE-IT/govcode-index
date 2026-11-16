@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "DataMover-Lite (DML) is a client program whose purpose is to automatically manage multi-file transfers to clients. It expects as its input a transfer-instruction file, and a local target directory where the files will be moved to. The input file contains the Logical File Names (LFNs) and the transfer URLs (TURLs) of files that need to be transferred. The TURLs can have various protocols depending on the server that manages the files, including gridftp, ftp, https, and srm. Given a multi-file request for a large number of files, the DML can issue concurrently a number of transfers in order to get the files. The number of transfers it can issue is set as a parameter and is usually less than 10. For example, if the multi-file is for 100 files, the DML may keep active only 5 transfers at any one time. When any of the 5 transfers completes it will initiate another transfer. It is not necessary for a single request to contain files whose TURLs have same protocol. If the request to the DML contains TURLs with various protocols, the DML will contact the various servers on different threads according to each TURL's protocol. The DMK take care if scheduling the transfers, monitoring their progress, releasing the files, and getting the authorization for each file to be transferred.",
+    "homepageURL": "https://sdm.lbl.gov/dml",
+    "laborHours": 0.0,
+    "languages": [
+        "java 1.5.0{sub minus}x or above"
+    ],
+    "name": "DataMover-Lite",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://sdm.lbl.gov/dml/DMLLicense.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sdm.lbl.gov/dml",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2021-07-12",
+        "metadataLastUpdated": "2021-07-12"
+    },
+    "description": "Distributed energy resource management systems (DERMS) are being deployed in feeders with high distributed energy resource (DER) penetration to provide visibility of DERs and enable DER control strategies for grid operators. DERMS can support centralized grid controls by aggregating individual DER information into a single virtual DER model. This codebase creates algorithms for a DERMS platform that are able to aggregate a set of DERs that can be modeled as batteries, create a virtual battery model for centralized grid controls, and dispatch power setpoints to the individual DERs based on a desired virtual power setpoint received from the centralized grid control. It integrates with existing co-simulation frameworks and models for buildings, DERs, and distribution systems. While the DERMS is designed to work with batteries, it can be used with any DER that can be defined by a generalized battery model.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Virtual Battery Aggregator (Virtual Battery Aggregator for Distributed Energy Resource Management Systems)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/virtual-battery-aggregator",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

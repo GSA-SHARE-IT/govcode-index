@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2024-12-19"
+    },
+    "description": "CoolCalc simulates energy used for climate control in truck cabs and assesses the impact of thermal load-reduction technologies. Researchers can calculate the potential benefits of thermal load reduction options in a range of use and weather scenarios. CoolCalc is built on NREL's original OpenStudio development and is a plug-in extension of Trimble's SketchUp software. DOE's EnergyPlus program is used as the heat transfer equation solver. The tool's graphical user interface makes it possible for industry partners to quickly determine the impact of thermal load-reduction strategies. CoolCalc allows parametric trade-off studies to rapidly evaluate the impact of design factors (such as insulation thickness, material properties, and geometries) on HVAC loads. For more information on how to become a CoolCalc partner and access the tool download, contact Jason Lustbader.",
+    "homepageURL": "https://www.nrel.gov/transportation/vtm-models-tools.html",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "CoolCalc [SWR-09-39]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.nrel.gov/transportation/vtm-models-tools.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.nrel.gov/transportation/vtm-models-tools.html",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ]
+}

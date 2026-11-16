@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-12-17",
+        "metadataLastUpdated": "2019-09-23"
+    },
+    "description": "This software implements a new algorithm and its shared-memory parallelization for computing maximum cardinality matchings in bipartite graphs. The algorithm searches for augmenting paths via specialized breadth-first searches (BFS) from multiple source vertices, hence creating more parallelism than single source algorithms.",
+    "laborHours": 1003.2,
+    "languages": [],
+    "name": "Parallel Maximum Cardinality Matchings via Tree-Grafting",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/azadcse/ms-bfs-graft/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

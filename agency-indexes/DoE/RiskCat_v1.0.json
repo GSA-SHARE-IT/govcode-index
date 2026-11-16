@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2020-06-10",
+        "metadataLastUpdated": "2020-06-10"
+    },
+    "description": "RiskCat is designed to calculate probabilistic seismic hazard and risk at specified locations on the Earth's surface. The express purpose of the code is to account for non-stationarity in earthquake occurrence in time.",
+    "laborHours": 2955655.2,
+    "languages": [],
+    "name": "RiskCat v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/NRAP/RiskCat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

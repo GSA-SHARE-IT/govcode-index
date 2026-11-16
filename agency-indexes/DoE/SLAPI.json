@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-05-13",
+        "metadataLastUpdated": "2019-05-13"
+    },
+    "description": "SLAPI is a command line tool that communicates with Spectra Logic tape libraries using their XML command reference.  This provides a simple way to administer and monitor Spectra Logic tape libraries in large data centers.",
+    "laborHours": 2264.8,
+    "languages": [],
+    "name": "SLAPI",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/slapi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

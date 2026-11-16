@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-12-14",
+        "metadataLastUpdated": "2020-12-14"
+    },
+    "description": "MIAMI was designed for Pin 2. Unfortunately, Pin 2 is deprecated and no longer runs on modern versions of Linux. For example, it does not work on RHEL 7.x. In particular, Pin 2 requires a C++ ABI <= GCC 4.4.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MIAMI-NW",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.pnnl.gov/perf-lab-hub/palm/miami-nw",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "version": "1"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "npablant@pppl.gov"
+    },
+    "date": {
+        "created": "2021-04-22",
+        "metadataLastUpdated": "2021-04-22"
+    },
+    "description": "XICSRT is a general purpose, photon based, raytracing code intended for both optical and x-ray raytracing.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "xicsrt",
+    "organization": "Princeton Plasma Physics Laboratory (PPPL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PrincetonUniversity/xicsrt",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Princeton Plasma Physics Laboratory (PPPL)"
+    ],
+    "vcs": "git"
+}

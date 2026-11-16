@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-09-15",
+        "metadataLastUpdated": "2022-09-15"
+    },
+    "description": "The Data Analytics Application Profiling (DAAP) utility is a software program comprised of a library and scripts to provide basic instrumenting of parallel scientific software applications while they are running on an HPC cluster, and transmit this data over a secure connection as individual records to aggregators. When used in conjunction with additional open source software components (Telegraf, FluentD, and RabbitMQ), the data collected by DAAP can be transmitted off-cluster to an analytics system of the user’s choice for further analysis.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "DAAP (Data Analytics Application Profiling)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/daap-log",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

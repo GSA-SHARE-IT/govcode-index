@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-08-27",
+        "metadataLastUpdated": "2021-08-27"
+    },
+    "description": "The tool inputs cryo electron microscopy (cryo-EM) 3-D reconstructions and an accompanying 3-D atomistic model of a molecular complex. It uses molecular simulation to guide the atomistic model into the 3-D reconstruction, making the atomistic model more consistent with the 3-D reconstruction. This will not be distributed by LANL. This was designed with the intention of being open to the public.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Cryo electron microscopy fitting ",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

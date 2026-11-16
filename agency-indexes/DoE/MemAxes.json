@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-17",
+        "metadataLastUpdated": "2018-07-17"
+    },
+    "description": "MemAxes is a tool for visualizing memory access samples acquired by load/store sampling mechanisms like Intel PEBS or AMD IBS. It allows a user to view the data projected into various domains; specifically, the layout of the hardware resources, the code/variables, the dataset domain, and parallel coordinates.\n",
+    "laborHours": 5198.4,
+    "languages": [],
+    "name": "MemAxes",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/MemAxes",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

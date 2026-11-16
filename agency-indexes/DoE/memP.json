@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-10-27",
+        "metadataLastUpdated": "2020-10-29"
+    },
+    "description": "The lightweight heap profiling tool memP Version 1 provides a library that can be used with MPI applications that make use of heap memory allocations to provide profile data based on the per-task high-water-mark of heap allocation. The memP output is generated as a text report that can present summary information or specific detail of the allocation call site data for each task The memP library source code is based on teh mpiP MPI profiling library (http://mpip.sourceforge.net), but is substantially different in functionality and organization.",
+    "homepageURL": "https://sourceforge.net/projects/memp",
+    "laborHours": 9226.4,
+    "languages": [],
+    "name": "memP",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sourceforge.net/projects/memp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

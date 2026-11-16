@@ -1,0 +1,29 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "VTK is a software library used for scientific visualization tasks. My specific contribution is a new class that improves the I/O performance when reading certain input files.",
+    "laborHours": 3149576.8,
+    "name": "vtkPNetCDFPOPReader: a new C++ class for Visualization Toolkit (VTK)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://www.vtk.org/licensing",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.kitware.com/vtk/vtk",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

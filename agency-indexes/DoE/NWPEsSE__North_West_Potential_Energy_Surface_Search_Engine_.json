@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-03-16",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This development was conceived to help solve the problem of the large number of chemical structures that result from a large number of atoms. This includes large surface models, functionalized surfaces, or supported clusters, relevant to many chemical problems in Separations and Catalysis. The program was developed to address these issues, and also solve the problem associated with the need to know the large number of structures that are energetically close. Knowing\nhow many structures are similar allows us to develop better starting models for large scale simulations.",
+    "homepageURL": "https://store.pnnl.gov/content/north-west-potential-energy-surface-search-engine-nwpesse",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "NWPEsSE (North West Potential Energy Surface Search Engine)",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://store.pnnl.gov/content/north-west-potential-energy-surface-search-engine-nwpesse",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

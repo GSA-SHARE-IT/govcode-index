@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2021-06-15",
+        "metadataLastUpdated": "2021-06-16"
+    },
+    "description": "Heliostat Aimpoint and Layout Optimization Software (HALOS) is an open-source software package that allows users to explore solar field layout optimization, aimpoint strategy optimization, and performance characterization of concentrating solar power tower plants. Users interface with the tool through python, and results are reported in time series tables, plots, runtime logs, and flat-file outputs. Users choose from a list of variables such as tower height, receiver capacity, flux limits, design-point irradiance, etc., and specify information about the system using a small collection of flat files. The software can then optimize the specified variables (e.g., aimpoints for each heliostat) to maximize the thermal energy delivered to the receiver while adhering to flux limits. HALOS is implemented to be flexible with respect to flux characterization methods, but includes a direct connection to NREL's SolarPILOT™ software via its python API so that users can utilize high-fidelity flux simulation methods that have already been developed.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "HALOS (Heliostat Aimpoint and Layout Optimization Software)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/HALOS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

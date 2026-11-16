@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Singularity is a container solution designed to facilitate mobility of compute across systems and HPC infrastructures. It does this by creating minimal containers that are defined by a specfile and files from the host system are used to build the container. The resulting container can then be launched by any Linux computer with Singularity installed regardless if the programs inside the container are present on the target system, or if they are a different version, or even incompatible versions. Singularity achieves extreme portability without sacrificing usability thus solving the need of mobility of compute. Singularity containers can be executed within a normal/standard command line process flow.",
+    "laborHours": 0.0,
+    "languages": [
+        "ANY C COMPLIER"
+    ],
+    "name": "Singularity v1.x",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hpcng/singularity",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

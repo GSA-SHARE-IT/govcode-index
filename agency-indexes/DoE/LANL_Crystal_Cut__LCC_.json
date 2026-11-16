@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-07-29",
+        "metadataLastUpdated": "2022-07-29"
+    },
+    "description": "Computes the atomic positions in cleaved crystal lattices. The current version of the code allows to cleave the lattices with different planes that are readily available. The cleavages can be performed on any type of lattices. The code constructs a slab that can be used to study surface properties.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LANL Crystal Cut (LCC)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/LCC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

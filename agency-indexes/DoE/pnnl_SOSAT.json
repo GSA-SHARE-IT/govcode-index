@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-09-13",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "State of Stress Analysis Tool (for carbon sequestration). The SOSAT tool provides value during GCS site screening and characterization phases to target collection of specific additional data to constrain uncertainties in geomechanical risk and to help operators to make informed decisions during the operational phase (Appriou et al., 2019). The capability represented in SOSAT, therefore, helps build stakeholder confidence that geomechanical risks are understood and manageable",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/SOSAT",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/SOSAT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

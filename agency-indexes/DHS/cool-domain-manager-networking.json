@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2021-03-12",
+        "lastModified": "2024-01-08"
+    },
+    "description": "Terraform code to create the COOL Domain Manager networking infrastructure in AWS.",
+    "downloadURL": "https://api.github.com/repos/cisagov/cool-domain-manager-networking/downloads",
+    "homepageURL": "https://github.com/cisagov/cool-domain-manager-networking",
+    "laborHours": 650.0,
+    "languages": [
+        "HCL",
+        "Shell"
+    ],
+    "name": "cool-domain-manager-networking",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/cool-domain-manager-networking.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

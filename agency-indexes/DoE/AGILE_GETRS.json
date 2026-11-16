@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "hahnse@ornl.gov"
+    },
+    "date": {
+        "created": "2024-06-04",
+        "metadataLastUpdated": "2024-06-05"
+    },
+    "description": "AGILE GETRS provides an optimized implementation of DETRS that is faster than vendor optimized libraries for small (< 4000) problem sizes. These small problems sizes are of interest to researchers in the Grid Research Integration and Deployment Center (GRID-C) researching real-time power electronics simulations.\n\nIn addition to our implementation of DETRS, this code provides a test using Google Benchmark which generates matrices of various sizes, fills them with random numbers, runs GETRS, verifies the solution is correct and reports average runtime and other performance metrics.",
+    "laborHours": 288.8,
+    "languages": [
+        "C++"
+    ],
+    "name": "AGILE GETRS",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/ldrd_intersect_agile/agile_getrs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "version": "v0.1.0"
+}

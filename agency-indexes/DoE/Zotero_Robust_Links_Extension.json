@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-30",
+        "metadataLastUpdated": "2021-08-19"
+    },
+    "description": "The Zotero Robust Links extension automatically creates an archival copy (memento) of the URI of an item ingested into a Zotero library. The extension can also manually be triggered to create mementos. The software also contains a \"translator\" that enables the export of \"robustified\" items with Robust Links-enhanced HTML code.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Zotero Robust Links Extension",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Zotero-Robust-Links-Extension",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

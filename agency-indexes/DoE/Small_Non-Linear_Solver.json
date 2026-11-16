@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-12-17",
+        "metadataLastUpdated": "2018-12-18"
+    },
+    "description": "SNLS (small non-linear solver) is a C++ library for solving non-linear systems. The emphasis is on small systems on equations for which direct factorization of the Jacobian is appropriate. The systems of equations may be numerically ill-conditioned. Implementation is amenable to GPU usage, with the idea that class instantiate would occur within device functions.",
+    "laborHours": 699.2,
+    "languages": [],
+    "name": "Small Non-Linear Solver",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/SNLS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

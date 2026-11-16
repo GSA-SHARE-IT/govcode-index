@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2020-05-27",
+        "metadataLastUpdated": "2021-07-07"
+    },
+    "description": "TF-MoE is a software that employs a mixture of experts (MoE) approach to bifurcate high-dimensional tabulated flamelet (TF) data into simpler manifolds. It employs a divide-and-conquer competitive approach, where different zones in the manifold are assigned to various neural networks for inference. It consists of two classes of neural networks, namely, a gating network which is a neural network classifier, and a number of experts which are neural network regressors. The software bifurcates the manifold by having different neural networks compete for each input signal. The gating network rewards the best predictors with stronger signals during subsequent training episodes and feeds poor-performing networks with weaker signals. The gating network and experts are trained using a standard backpropagation approach. The TF-MoE software enhances predictive modeling via machine learning by improves accuracy within lower inference time.",
+    "laborHours": 45.6,
+    "languages": [],
+    "name": "TF-MoE",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/owoyeleope/TFM-MoE",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

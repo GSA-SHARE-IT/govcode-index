@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "johnsonsr@ornl.gov"
+    },
+    "date": {
+        "created": "2022-10-11",
+        "metadataLastUpdated": "2022-10-26"
+    },
+    "description": "Celeritas is a new Monte Carlo transport code designed for high-performance simulation of high-energy physics detectors.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "CUDA"
+    ],
+    "name": "Celeritas",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            },
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/celeritas-project/celeritas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

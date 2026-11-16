@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2024-12-20",
+        "lastModified": "2026-10-17"
+    },
+    "description": "Zeek Omron FINS Parser - CISA ICSNPP",
+    "downloadURL": "https://api.github.com/repos/cisagov/icsnpp-omron-fins/downloads",
+    "homepageURL": "https://github.com/cisagov/icsnpp-omron-fins",
+    "laborHours": 350.6,
+    "languages": [
+        "Zeek",
+        "Python",
+        "CMake",
+        "Shell",
+        "C++"
+    ],
+    "name": "icsnpp-omron-fins",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/icsnpp-omron-fins.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

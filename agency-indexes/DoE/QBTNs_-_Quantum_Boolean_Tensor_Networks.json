@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-30",
+        "metadataLastUpdated": "2021-07-30"
+    },
+    "description": "We develop algorithms and software that uses the D-Wave 2000Q quantum annealer to solve several  types of Boolean tensor factorization problems. Boolean tensor factorization refers to the problem of representing a high-dimensional tensor filled with Boolean values as a product of smaller Boolean core tensors and Boolean matrices. We consider different tensor factorization models, including Boolean Tensor Train, Boolean Tucker, and Boolean Hierarchical Tucker. As an exact decomposition of a given type may not  exist in the general case, the objective is to minimize the difference  between the input high-dimensional tensor and the product of the lower-dimensional tensors of the proposed factorization,  using a specified tensor norm. In our approach, we reduce the Boolean tensor factorization problem to a sequence of quadratic unconstrained binary optimization problems suitable for the D-Wave 2000Q quantum annealer. Although current quantum technology is still fairly restricted in the problems it can tackle, we show that complex tensor  factorization problems as the ones addressed by us can be solved efficiently and accurately.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "QBTNs - Quantum Boolean Tensor Networks",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/pyQBTNs",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

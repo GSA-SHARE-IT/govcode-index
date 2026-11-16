@@ -1,0 +1,43 @@
+{
+    "contact": {
+        "email": "thavappiragm@ornl.gov"
+    },
+    "date": {
+        "created": "2022-03-11",
+        "metadataLastUpdated": "2022-03-11"
+    },
+    "description": "A molecular docking mini-app, GPU-accelerated particle-grid based protein ligand docking programs  that can be used for virtual drug discovery compound screens based on a molecular recognition model, that analysis a three-dimensional model of an interaction between a protein and a small molecule (ligand). The miniMDock is developed using multiple programming models/APIs and can be used to evaluate performance portability of molecular docking applications over different heterogeneous systems.",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "C++",
+        "C",
+        "C++",
+        "Cuda",
+        "Hip"
+    ],
+    "name": "miniMDock",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            },
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-PE/miniMDock",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

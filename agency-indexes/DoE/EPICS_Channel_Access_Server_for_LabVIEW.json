@@ -1,0 +1,29 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "It can be challenging to interface National Instruments LabVIEW (http://www.ni.com/labview/) with EPICS (http://www.aps.anl.gov/epics/). Such interface is required when an instrument control program was developed in LabVIEW but it also has to be part of global control system. This is frequently useful in big accelerator facilities. The Channel Access Server is written in LabVIEW, so it works on any hardware/software platform where LabVIEW is available. It provides full server functionality, so any EPICS client can communicate with it.",
+    "laborHours": 243.2,
+    "name": "EPICS Channel Access Server for LabVIEW",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://code.ornl.gov/az9/LVCA/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/az9/LVCA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

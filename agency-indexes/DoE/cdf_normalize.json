@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-09",
+        "metadataLastUpdated": "2021-12-09"
+    },
+    "description": "The code performs image intensity normalization. A new intensity normalization method is presented, which works well with images whose pixel intensity distribution follow a Gamma Probability Distribution. Some examples are provided to show the normalization effect. This new intensity normalization method is also compared to some other well-established intensity normalization methods.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "cdf_normalize",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/xiaotingzhong/image_intensity_gamma_normalization",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

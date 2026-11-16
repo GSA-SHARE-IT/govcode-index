@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2020-01-06",
+        "metadataLastUpdated": "2020-01-06"
+    },
+    "description": "DiHydrogen is the second version of the Hydrogen fork of the well-known distributed linear algebra library, Elemental. \n\nDiHydrogen is a GPU-accelerated distributed multilinear algebra interface with a particular emphasis on the needs of the scalable distributed deep learning training and inference.  \n\nDiHydrogen is part of the Livermore Big Artificial Neural Network (LBANN) software stack.",
+    "laborHours": 38456.0,
+    "languages": [],
+    "name": "DiHydrogen",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/dihydrogen",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

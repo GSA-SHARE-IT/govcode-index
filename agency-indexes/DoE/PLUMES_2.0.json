@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-10-29",
+        "metadataLastUpdated": "2024-10-29"
+    },
+    "description": "PLUMES2.0 is a revived version of the Visual Plumes model that was developed by Dr. Walter Frick at USEPA. PLUMES2.0\nand Visual Plumes are codes that compute initial and far-field dilution of buoyant discharges into receiving fresh or marine\nenvironments.",
+    "laborHours": 15.2,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "PLUMES 2.0",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ssmc-uw/PLUMES2.0",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-12",
+        "metadataLastUpdated": "2021-05-14"
+    },
+    "description": "TOGA (TOUGH Oil, Gas, Aqueous) is a numerical reservoir simulator for modeling non-isothermal flow and transport of water, CO2, multicomponent oil, and related gas components for applications including CO2-enhanced oil recovery (CO2-EOR) and geologic carbon sequestration in depleted oil and gas reservoirs. TOGA uses an approach based on the Peng-Robinson equation of state (PR-EOS) to calculate the thermophysical properties of the gas and oil phases including the gas/oil components dissolved in the aqueous phase, and uses a mixing model to estimate the thermophysical properties of the aqueous phase.",
+    "homepageURL": "https://tough.lbl.gov/licensing-download/tough-related-codes-licensing-download",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "TOGA: A TOUGH code for modeling three-phase, multi-component, and non-isothermal processes involved in CO2-based Enhanced Oil Recovery (TOGA) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://marketplace.lbl.gov/search?q=toga",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://tough.lbl.gov/licensing-download/tough-related-codes-licensing-download",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

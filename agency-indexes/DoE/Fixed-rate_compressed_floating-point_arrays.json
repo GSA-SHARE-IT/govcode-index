@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2020-05-27"
+    },
+    "description": "ZFP is a library for lossy compression of single- and double-precision floating-point data. One of the unique features of ZFP is its support for fixed-rate compression, which enables random read and write access at the granularity of small blocks of values. Using a C++ interface, this allows declaring compressed arrays (1D, 2D, and 3D arrays are supported) that through operator overloading can be treated just like conventional, uncompressed arrays, but which allow the user to specify the exact number of bits to allocate to the array. ZFP also has variable-rate fixed-precision and fixed-accuracy modes, which allow the user to specify a tolerance on the relative or absolute error.",
+    "laborHours": 9272.0,
+    "languages": [],
+    "name": "Fixed-rate compressed floating-point arrays",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/LLNL/zfp/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ZFP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

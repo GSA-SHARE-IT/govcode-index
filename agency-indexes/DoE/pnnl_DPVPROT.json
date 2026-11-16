@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-09-23",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Distributed photovoltaics protection software toolkit The code package includes several important functions for design and analysis of new grid protection schemes, for scenarios of distributed photovoltaic (DPV) generation approaching 100% of the peak feeder load, i.e., high-penetration DPV. Convert distribution feeder models, used by planning engineers, to electromagnetic transient (EMT) models that produce waveforms for advanced relay algorithms. Visualize the results of protection scheme operation. Tools to determine distance relay settings on distribution systems. Tools to predict the performance of time-domain, incremental distance relay algorithms",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/DPVPROT",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/DPVPROT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

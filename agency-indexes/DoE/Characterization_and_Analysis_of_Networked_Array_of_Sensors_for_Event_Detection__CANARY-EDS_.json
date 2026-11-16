@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "CANARY -EDS provides probabilistic event detection based on analysis of time-series data from water quality or other sensors. CANARY also can compare patterns against a library of previously seen data to indicate that a certain pattern has reoccurred, suppressing what would otherwise be considered an event. CANARY can be configured to analyze previously recorded data from files or databases, or it can be configured to run in real-time mode directory from a database, or through the US EPA EDDIES software.",
+    "homepageURL": "https://software.sandia.gov/trac/canary",
+    "laborHours": 0.0,
+    "name": "Characterization and Analysis of Networked Array of Sensors for Event Detection (CANARY-EDS)",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://software.sandia.gov/trac/canary",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

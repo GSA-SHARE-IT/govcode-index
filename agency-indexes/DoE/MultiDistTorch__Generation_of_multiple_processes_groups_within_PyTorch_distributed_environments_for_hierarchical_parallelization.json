@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "lupopasinim@ornl.gov"
+    },
+    "date": {
+        "created": "2024-03-26",
+        "metadataLastUpdated": "2024-03-26"
+    },
+    "description": "This repository provide capabilities to generate multiple process groups within the PyTorch distributed environment. \n\nThe partitions of processes into groups allows to generate multiple independent version of distributed data parallelism (DDP) in order to perform scalable ensemble learning (EL) and hyperparameter optimization (HPO).",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "MultiDistTorch: Generation of multiple processes groups within PyTorch distributed environments for hierarchical parallelization",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/MultiDistTorch",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

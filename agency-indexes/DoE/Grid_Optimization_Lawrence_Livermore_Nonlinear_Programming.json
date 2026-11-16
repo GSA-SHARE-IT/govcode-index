@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-06-21",
+        "metadataLastUpdated": "2024-06-21"
+    },
+    "description": "Modelling and solution library for security-constrained AC optimal power flow problems that uses nonlinear programming methods (interior-point methods) and solvers (Ipopt, HiOp). The code is written in C++ and provides parallel computing capabilities in the form of task parallelism (solving contingency problems in parallel). Code can run on a variety of commodity high-performance computing.",
+    "laborHours": 11886.4,
+    "languages": [],
+    "name": "Grid Optimization Lawrence Livermore Nonlinear Programming",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/gollnlp/gollnlp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

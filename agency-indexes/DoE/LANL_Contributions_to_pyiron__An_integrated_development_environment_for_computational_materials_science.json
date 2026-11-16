@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-01-06",
+        "metadataLastUpdated": "2022-01-06"
+    },
+    "description": "To support and accelerate the development of simulation protocols in atomistic modelling, we introduce an integrated development environment (IDE) for computational materials science called pyiron (http://pyiron.org). The pyiron IDE combines a web based source code editor, a job management system for build automation, and a hierarchical data management solution. The core components of the pyiron IDE are pyiron objects based on an abstract class, which links application structures such as atomistic structures, projects, jobs, simulation protocols and computing resources with persistent storage and an interactive user environment. The simulation protocols within the pyiron IDE are constructed using the Python programming language. To highlight key concepts of this tool as well as to demonstrate its ability to simplify the implementation and testing of simulation protocols we discuss two applications. In these examples we show how pyiron supports the whole life cycle of a typical simulation, seamlessly combines ab initio with empirical potential calculations, and how complex feedback loops can be implemented. While originally developed with focus on ab initio thermodynamics simulations, the concepts and implementation of pyiron are general thus allowing to employ it for a wide range of simulation topics.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LANL Contributions to pyiron: An integrated development environment for computational materials science",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pyiron/pyiron_contrib",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This library is an implementation of the Sparse Approximate Matrix Multiplication (SpAMM) algorithm introduced. It provides a matrix data type, and an approximate matrix product, which exhibits linear scaling computational complexity for matrices with decay. The product error and the performance of the multiply can be tuned by choosing an appropriate tolerance. The library can be compiled for serial execution or parallel execution on shared memory systems with an OpenMP capable compiler",
+    "laborHours": 588726.4,
+    "name": "spammpack, Version 2013-06-18",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/FreeON/spammpack",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

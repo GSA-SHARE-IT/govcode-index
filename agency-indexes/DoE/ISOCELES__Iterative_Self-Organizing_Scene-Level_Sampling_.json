@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "swanbt@ornl.gov"
+    },
+    "date": {
+        "created": "2022-01-27",
+        "metadataLastUpdated": "2022-01-27"
+    },
+    "description": "ISOSCLES (Iterative Self-Organizing SCene LEvel Sampling) is a hierarchical, unsupervised method for obtaining a set of image chips for training convolutional neural networks. ISOSCELES operates at two levels, first selecting representative images from a full image domain and then performing unsupervised clustering of potential samples from each of those scenes to obtain a final set of sample chips that then can be labelled or used for unsupervised training. This technique was first designed to support building extraction tasks using Maxar 4-band imagery from WorldView-2, WorldView-3, Quickbird-2, or GeoEye, but can be modified to work with other image sources.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "ISOCELES (Iterative Self-Organizing Scene-Level Sampling)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/btswan87/isosceles",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

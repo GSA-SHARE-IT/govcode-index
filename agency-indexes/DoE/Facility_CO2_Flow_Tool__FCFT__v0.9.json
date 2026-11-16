@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-06",
+        "metadataLastUpdated": "2024-08-13"
+    },
+    "description": "Facility CO2 Flow Tool assists facilities and entities to visualize their CO2 flows for accounting and decarbonization purposes. To do so, the suite offers two components – an MS Excel-based input workbook and a web-based visualization tool. The workbook serves as the input sheet, utilizing the user-provided process and equipment-level energy consumption data to calculate the corresponding CO2 emissions. The web-based tool utilizes the data from this workbook to generate a Sankey diagram. This diagram visually represents the CO2 flow originating from the fuel and electricity consumption within the facility/entity boundary.",
+    "laborHours": 881.6,
+    "languages": [],
+    "name": "Facility CO2 Flow Tool (FCFT) v0.9",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IACDecarb/IAC-Decarb-Tools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

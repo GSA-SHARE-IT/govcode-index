@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Climate Data Analysis Tools (CDAT) is a software infrastructure that uses an object-oriented scripting language to link together separate software subsystems and packages thus forming an integrated environment for solving model diagnosis problems, The power of the system comes from Python and its ability to seamlissly interconnect software. Python provides a general purpose and full-featured scripting language with a variety of user interfaces including command-line interaction, stand-alone scripts (applications) and fraphical user interfaces (GUI). The CDAT subsystems, implemented as modules, provide access to and management of gridded data (Climate Data Management Systems or CDMS); large-array numerical operations (Numerical Python); and visualization (Visualization and Control System or VCS).",
+    "laborHours": 78644.8,
+    "name": "Climate Data Analysis Tools",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/UV-CDAT/uvcdat/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/UV-CDAT/uvcdat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

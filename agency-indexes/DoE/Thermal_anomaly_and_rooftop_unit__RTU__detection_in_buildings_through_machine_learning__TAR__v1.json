@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-19",
+        "metadataLastUpdated": "2024-08-19"
+    },
+    "description": "This work applies thermography (Thermal infrared imaging) on building images to identify defects inside of them. The objective is to segment the defect area from the non-defect area automatically without human intervention—a machine vision approach.",
+    "laborHours": 471.2,
+    "languages": [],
+    "name": "Thermal anomaly and rooftop unit (RTU) detection in buildings through machine learning (TAR) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/TAR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

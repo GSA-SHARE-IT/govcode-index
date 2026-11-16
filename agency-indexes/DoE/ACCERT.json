@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2024-06-01",
+        "metadataLastUpdated": "2024-06-06"
+    },
+    "description": "The main function of ACCERT (The Algorithm for the Capital Cost Estimation of Reactor Technologies) is to provide an item-by-item estimate of the cost of a facility, at present a nuclear reactor complex, primarily nuclear power stations. The core of ACCERT is the large number of algorithms that have been developed and will continue to be developed. ACCERT is also a general methodology \nfor identifying and organizing the individual items that are estimated using the ACCERT algorithms. \nACCERT also summarize status and results; to save results and pull information from previous analyses; and to provide an interactive dynamic graphical user interface for a wide range of functions and visualizations.",
+    "laborHours": 16340.0,
+    "languages": [],
+    "name": "ACCERT",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/accert-dev/ACCERT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

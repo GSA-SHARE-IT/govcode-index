@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2022-03-21",
+        "metadataLastUpdated": "2023-09-11"
+    },
+    "description": "The Photovoltaic Dynamic Material Flow Assessment (PV DMFA) model (also referred to here as “The model”) is a computational framework written in Python based on utility-scale PV electricity generation to quantify time-series stocks and flows of PV materials primarily in crystalline silicon PV technologies. The model evaluates cradle-to-cradle life cycle of utility-scale solar PV systems in the United States in the period 2000-2100. PV DMFA serves as a sustainability analysis tool to assess the impacts of different material circularity practices (i.e., reduce, reuse/refurbish, remanufacture, and recycle), PV module design shifts and sensitivity of material processing and technology related parameters to material installations, waste creation and raw material depletion in PV material supply chains. This tool enables advanced planning for future material needs and informs sustainable pathways for PV material management in the circular economy. This tool could be helpful to a wide range of stakeholders; Particularly, researchers and manufacturers looking for technoeconomic and/or environmental life cycle analysis (LCA) feedback for renewable energy (RE) systems.",
+    "laborHours": 0.0,
+    "languages": [
+        "Jupyter Notebook"
+    ],
+    "name": "PV DMFA [SWR-21-105]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/PV-DMFA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

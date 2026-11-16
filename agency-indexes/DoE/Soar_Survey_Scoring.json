@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "weberb@ornl.gov"
+    },
+    "date": {
+        "created": "2021-12-10",
+        "metadataLastUpdated": "2021-12-10"
+    },
+    "description": "ORNL conducted an experiment to test COTS (commercial off the shelf) SOAR tools. Vendors interested in entering their tool into the experiment were asked to submit information videos about their tool for phase 1 to down-select which tools should make it through to the testing phase. SOC operators were assigned to watch a subset of the videos such that each video was assigned to the same number of operators. After watching all the videos, operators completed surveys which asked them to grade basic aspects about the tool as best as they could based on the provided video, and asked them to rank the order of their interest in the vendors they were assigned to watch videos on. The problem solved was how do we aggregate the results of the surveys and each of the operator's ranked lists into an overall ranking of all the tools. In addition, it was desirable to be able to work on this code before final results were collected from operators, so code to generate fake data was developed to output in the same output as the survey results.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Soar Survey Scoring",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/soar_survey_scoring",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

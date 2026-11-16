@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-07-08",
+        "metadataLastUpdated": "2023-06-13"
+    },
+    "description": "The BEopt™ (Building Energy Optimization Tool) software provides capabilities to evaluate residential building designs and identify cost-optimal efficiency packages at various levels of whole-house energy savings along the path to zero net energy. BEopt can be used to analyze both new construction and existing home retrofits, as well as single-family detached and multi-family buildings, through evaluation of single building designs, parametric sweeps, and cost-based optimizations. BEopt provides detailed simulation-based analysis based on specific house characteristics, such as size, architecture, occupancy, vintage, location, and utility rates. Discrete envelope and equipment options, reflecting realistic construction materials and practices, are evaluated. BEopt uses EnergyPlus, the Department of Energy's flagship simulation engine. Simulation assumptions are based on the Building America Housing Simulation Protocols. The sequential search optimization technique used by BEopt: Finds minimum-cost building designs at different target energy-savings levels, Identifies multiple near-optimal designs along the path, allowing for equivalent solutions based on builder or contractor preference. BEopt has been developed by the National Renewable Energy Laboratory in support of the U. S. Department of Energy Building America program goal to develop market-ready energy solutions for new and existing homes.",
+    "homepageURL": "https://beopt.nrel.gov/home",
+    "laborHours": 657962.4,
+    "languages": [],
+    "name": "BEopt™ (Building Energy Optimization Tool) [SWR-05-41]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://beopt.nrel.gov/BEopt_setup_2.8.0.0",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://beopt.nrel.gov/home",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "version": "2.8.0.0"
+}

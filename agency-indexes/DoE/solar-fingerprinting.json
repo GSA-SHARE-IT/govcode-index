@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-09-09",
+        "metadataLastUpdated": "2022-09-12"
+    },
+    "description": "An algorithm for creating a low-dimensional representation (fingerprint) of daily photovoltaic solar power generation signals.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "solar-fingerprinting",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slacgismo/solar-fingerprinting",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

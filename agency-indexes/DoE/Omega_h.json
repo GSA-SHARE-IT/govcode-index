@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "daibane@sandia.gov"
+    },
+    "date": {
+        "created": "2018-03-01",
+        "metadataLastUpdated": "2020-09-01"
+    },
+    "description": "Omega_h is a C++11 library that implements tetrahedron and triangle mesh adaptativity, with a focus on scalable HPC performance using (optionally) MPI, OpenMP, or CUDA. It is intended to provided adaptive functionality to existing simulation codes. Mesh adaptivity allows one to minimize both discretization error and number of degrees of freedom live during the simulation, as well as enabling moving object and evolving geometry simulations. Omega_h will do this for you in a way that is fast, memory-efficient, and portable across many different architectures, including NVIDIA GPUs.",
+    "laborHours": 35826.4,
+    "languages": [],
+    "name": "Omega_h",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/SNLComputation/omega_h",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

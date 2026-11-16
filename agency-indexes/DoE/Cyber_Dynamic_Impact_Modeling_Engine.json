@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "joiner@ameslab.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "As the rate, sophistication, and potential damage of cyber attacks continue to grow, the latency of human-speed analysis and response is becoming increasingly costly. Intelligent response to detected attacks and other malicious activity requires both knowledge of the characteristics of the attack as well as how resources involved in the attack related to the mission of the organization. Cydime fills this need by estimating a key component of intrusion detection and response automation: the relationship type and strength between the target organization and the potential attacker.",
+    "laborHours": 15762.4,
+    "name": "Cyber Dynamic Impact Modeling Engine",
+    "organization": "Ames Laboratory (AMES)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Ames-Laboratory-Cyber-Group/Cydime",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Ames Laboratory (AMES)"
+    ],
+    "vcs": "git"
+}

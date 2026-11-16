@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "bridgesra@ornl.gov"
+    },
+    "date": {
+        "created": "2022-08-22",
+        "metadataLastUpdated": "2022-08-23"
+    },
+    "description": "Contains anonymized and obfuscated data from the SOAR (AI ATAC 3) user study and code to produce correlation plots. The experiment, data, and our results are found in our paper https://arxiv.org/abs/2208.06075. Please cite our paper when using this data or code. @article{bridges2022testing, title={Testing SOAR Tools in Use}, author={Bridges, Robert A and Rice, Ashley E and Oesch, Sean and Nichols, Jeff A and Watson, Cory and Spakes, Kevin and Norem, Savannah and Huettel, Mike and Jewell, Brian and Weber, Brian and others}, journal={arXiv preprint arXiv:2208.06075}, year={2022} } file: anonymized_obfuscated_data.csv The data in this table is not the \"raw\" data. It has been user- and SOAR-tool anonymized; SOAR tool names have been removed, as have participant user ids. Probabilistic techniques to obfuscate the data by adding noise while retaining its characteristics have been performed. To ensure utility of the anonymized data, we provide code to reproduce the Subcategory Average Correlation heatmap, found in the publication. While the SOAR tool names have been removed, a binary indicator for if the test data per row is from a SOAR tool or from a baseline environment (full SOC tool suite but no SOAR tool). The likert columns correspond to questions posed to the users (participants) during and after working investigations with a SOAR tool or in a baseline environment (full SOC tool stack but with no SOAR tool). Sentiment columns correspond to answers given by analysts to free response questions. Transcriptions of their responses are quantified with sentiment analysis. The ticket columns report quality and completion of tickets from the test investigations based on percent of correctness according to a gold standard (rubric). The window swapping and time columns report the number of times the participant changed windows in an investigation (quantifying context switching), and the duration of the investigation (quantifying efficiency), respectively. User identification information has been removed. There are four columns of user/participant demographics documenting their familiarity with SOAR tools, job role (SOC analyst or other), number of years working in their security-related job role, and the number of different security operation centers (SOCs) they have supported. These have all been converted to binary variables. Descriptions of all algorithms reside in the paper, along with comments at top of each script and in each function.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "Python"
+    ],
+    "name": "SOAR experiment data and code",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/bridgesra/soar_experiment_data_code/releases/tag/ipo",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "pi"
+}

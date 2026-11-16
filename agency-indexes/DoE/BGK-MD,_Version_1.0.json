@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The software implements a heterogeneous multiscale method (HMM), which involves solving a classical molecular dynamics (MD) problem and then computes the entropy production in order to compute the relaxation times towards equilibrium for use in a Bhatnagar-Gross-Krook (BGK) solver.",
+    "laborHours": 1900.0,
+    "name": "BGK-MD, Version 1.0",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/gilshohet/plasma-bgkmd/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/gilshohet/plasma-bgkmd",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

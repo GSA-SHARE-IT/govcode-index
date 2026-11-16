@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2023-07-12",
+        "metadataLastUpdated": "2023-07-12"
+    },
+    "description": "This code provides natural language annotation and labels for multiple activities in high performance. The purpose is to enable machine learning for natural language processing algorithms with high performance computing systems. ",
+    "laborHours": 0.0,
+    "languages": [
+        "python3",
+        "yml"
+    ],
+    "name": "Hpc Natural Language Understanding (nlu) Dataset",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/HPC_Natural_Language_Understanding_-NLU-_Dataset",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

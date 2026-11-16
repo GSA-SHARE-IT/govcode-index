@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "DAMPI is a dynamic testing/verification tool that scalably covers non-deterministic interactions of MPI (e.g., sildcard-receives).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "The Dynamic Analyzer for MPI: the first dynamic analyzer of MPI",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.osti.gov/osti-public/the-dynamic-analyzer-for-mpi-the-first-dynamic-analyzer-of-mpi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "The SPARTA package is software for simulating low-density fluids via the Direct Simulation Monte Carlo (DSMC) method, which is a particle-based method for tracking particle trajectories and collisions as a model of a multi-species gas. The main component of SPARTA is a simulation code which allows the user to specify a simulation domain, populate it with particles, embed triangulated surfaces as boundary conditions for the flow, overlay a grid for finding pairs of collision partners, and evolve the system in time via explicit timestepping. The package also includes various pre- and post-processing tools, useful for setting up simulations and analyzing the results. The simulation code runs either in serial on a single processor or desktop machine, or can be run in parallel using the MPI message-passing library, to enable faster performance on large problems.",
+    "laborHours": 267930.4,
+    "languages": [
+        "C++",
+        "Shell",
+        "C",
+        "Roff",
+        "CMake",
+        "Python"
+    ],
+    "name": "Stochastic PArallel Rarefied-gas Time-accurate Analyzer",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sparta/sparta",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

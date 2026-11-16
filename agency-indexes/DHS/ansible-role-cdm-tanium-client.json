@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2021-02-15",
+        "lastModified": "2025-05-02"
+    },
+    "description": "An Ansible role for installing Tanium for the CISA CDM environment.",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-cdm-tanium-client/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-cdm-tanium-client",
+    "laborHours": 774.1,
+    "languages": [
+        "HCL",
+        "Shell",
+        "Python"
+    ],
+    "name": "ansible-role-cdm-tanium-client",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-cdm-tanium-client.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "cisa",
+        "tanium-client",
+        "tanium"
+    ],
+    "vcs": "git"
+}

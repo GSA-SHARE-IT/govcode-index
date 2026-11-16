@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-09-24",
+        "metadataLastUpdated": "2021-09-24"
+    },
+    "description": "Software developed by ASC personnel and that includes physics which aims to understand astrophysics-only applications. \n\nThis provides a list of concrete code types allowed within this Blanket, but here I offer more detail about what each of those types entail.\n- Galactic Chemical Evolution: Uses prescriptions to define the synthesis of heavy elements from various astrophysical objects (stars, supernovae, novae, big bang), and then represents the rate at which these astrophysical objects occur within our galaxy.  The convolution of the rate of incidence with the material released by each instance gives a prediction for the chemical evolution of the galaxy.\n- Stellar Population Synthesis:  Uses prescriptions for the rate of occurrence of various properties or events in the life of a star (its initial mass, whether it has a binary companion, its binary distance separation, etc) to model what happens to the stars as they evolve.  Gives a sense of what a population of stars should look like statistically speaking.  Useful for predicting, for example, how many binary stars will merge in our galaxy in the next 1 million years, or how many supernovae do we expect to see with current telescopes.\n- Hydrostatic equilibrium, time-implicit, stellar evolution codes:  Uses equilibrium equations to show how the structure of a star must change throughout its life.  Assumes that gravity is equally balanced by stellar pressure at all times.  Includes nucleosynthesis network for calculating energy generation from nuclear burning in the star.  This energy generation holds the star up against the gravitational forces trying to collapse the star.  Hydrodynamic timescales are not resolved, only hydrostatic is considered. \n- Astrophysical nuclear / astrophysical chemical network codes:  Solves a system of rate equations that describe the network of elements involved in nuclear or chemical evolution for astrophysical events (e.g. supernovae, stars, big bang, protostars, interstellar medium).  These codes are designed for use in post-process, which means that the density and temperature conditions in a fluid element are defined versus time and fed into these codes.  Then, these codes report back how the nuclear or chemical makeup of the fluid element would evolve based on those conditions.  There is no feedback from the energy released by that evolution on the fluid element’s conditions.\n-Astrophysical orbital dynamics codes: Calculates the orbits of a set of point masses according to the laws of gravity (e.g. planetary systems, solar system asteroids, extra-solar planet orbits…).",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ASC Blanket Disclosure 4",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

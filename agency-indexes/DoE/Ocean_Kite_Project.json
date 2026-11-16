@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcreed2@ncsu.edu"
+    },
+    "date": {
+        "created": "2023-02-07",
+        "metadataLastUpdated": "2023-02-08"
+    },
+    "description": "This project is a code base for a tethered energy-harvesting kite system, that is able to operate in both a water or wind environment. The project is broken into: Classes - containing classes for things such as the kite, the environment, the flight controller, the tethers, ect. Compositions - contains simulink block diagrams for using instances of the classes, for things such as the kite, the environment, the flight controller, the tethers, ect. Units - basically Simulink library files used in many places to perform fundamental operations Master Simulink model - where all the compositions are run together Test scripts - scripts to run the master Simulink model under various conditions The key components of the model are the kite vehicle, the tethers, the ground station, the environment, the flight controller, and high level controllers.",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB",
+        "Simulink"
+    ],
+    "name": "Ocean Kite Project",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NCSUCORE/DoEOceanKiteProject/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NCSUCORE/DoEOceanKiteProject.git",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

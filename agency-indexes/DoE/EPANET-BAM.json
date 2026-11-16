@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "EPANET-BAM 1.0 is an augmented version of EPANET 2.00.10, open-source software distributed by the US Environmental Protection Agency that models flow and contaminant transport through water distribution pipe networks. EPANET-BAM uses a new Bulk advective Mixing (BAM) model to predict concentrations of an aqueous solute at the outlets of cross junctions in a water quality simulation.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "EPANET-BAM",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/EPANET-BAM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

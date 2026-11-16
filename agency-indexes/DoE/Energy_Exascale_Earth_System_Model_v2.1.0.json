@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jacob@anl.gov"
+    },
+    "date": {
+        "created": "2023-01-10",
+        "metadataLastUpdated": "2023-01-12"
+    },
+    "description": "First release of version 2.1 of the Energy Exascale Earth System Model. [ATM] The atmosphere component remains EAM. There are no major changes in the default configuration since 2.0. New features include: A semi-lagrangian tracer transport for theta-l dycore, a new algorithm for finding the tropopause, new RRM mesh configurations. Add and update SSP370 and SSP585 cases. Restore the FIDEAL case. [LAND] The land component is ELM. There are no major changes in the default configuration since 2.0. Several option features have been added including: implementation of topography-based subgrid structure (topounits) and accompanying parameterizations and atmospheric forcing downscaling methods; a new plant hydraulics scheme; two-way land-river hydrological coupling through the infiltration of floodplain water; an implementation of perennial crops; updates to the SNICAR-AD snow radiative transfer model; and implementation of soil erosion and sediment yield in ELM-Erosion. Each of these new changes is modular in design and can be turned on or off as the user specifies; they are currently being tested in different “BGC” configurations. [OCEAN] The ocean component remains MPAS-Ocean. Major change since version 2.0 include the addition of the Fox-Kemper et al. 2011 parameterization for submesocale eddies, a correction for barotropic thickness consistency that reduces divergence noise, and the addition of an ocean carbon conservation analysis member. [SEAICE] The sea-ice component remains MPAS-Seaice. Major changes since version 2.0 include: A correction to how shortwave parameters are interpolated in the snicar-ad 5-band radiation scheme, the addition of a sea ice carbon conservation analysis member, updates to the default sea ice biogeochemistry namelist parameters to be consistent with version 2.0 improvements to nitrogen cycling and a correction in the ice-ocean dissolved organic nitrogen coupling. [LAND ICE] The land-ice component remains MPAS-Albany-landIce (MALI). Major changes since 2.0 include an update to the MALI version and the Greenland mesh.[RIVER] The river model is MOSART. There are no major changes in the default configuration since 2.0. A major new optional feature is two-way river-ocean hydrological coupling between MOSART and MPAS-O. This change can be turned on or off as the user specifies, and is being tested in different configurations. [COUPLER] The coupler remains cpl7/MCT. Major changes since version 2.0 include: Carbon budget calculated when heat/water budgets active. Fix a bug in land-atm fluxes for tri-grid configurations. [OTHER] a small bug in the zenith angle calculation was fixed in the data models.",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "C",
+        "Fortran"
+    ],
+    "name": "Energy Exascale Earth System Model v2.1.0",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/E3SM/releases/tag/v2.1.0",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git",
+    "version": "v2.1.0"
+}

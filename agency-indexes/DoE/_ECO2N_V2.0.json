@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-09-27",
+        "metadataLastUpdated": "2019-09-24"
+    },
+    "description": "ECO2N V2.0 is a fluid property module for the TOUGH2 simulator (Version 2.1) that was designed for applications to geologic sequestration of CO2 in saline aquifers and enhanced geothermal reservoirs. ECO2N V2.0 is an enhanced version of the previous ECO2N V1.0 module (Pruess, 2005). It expands the temperature range up to about 300oC whereas V1.0 can only be used for temperatures below about 110oC. V2.0 includes a comprehensive description of the thermodynamic and thermophysical properties of H2O - NaCl - CO2 mixtures, that reproduces fluid properties largely within experimental error for the temperature, pressure and salinity conditions 10 °C < T < 300 °C, P < 600 bar, and salinity up to halite saturation. This includes density, viscosity, and specific enthalpy of fluid phases as functions of temperature, pressure, and composition, as well as partitioning of mass components H2O, NaCl and CO2 among the different phases. In particular, V2.0 accounts for the effects of water on the thermophysical properties of the CO2-rich phase, which was ignored in V1.0, using a model consistent with the solubility models developed by Spycher and Pruess (2005, 2010). In terms of solubility models, V2.0 uses the same model for partitioning of mass components among the different phases (Spycher and Pruess, 2005) as V1.0 for the low temperature range (<99oC) but uses a new model (Spycher and Pruess, 2010) for the high temperature range (>109oC). In the transition range (99-109oC), a smooth interpolation is applied to estimate the partitioning as a function of the temperature. Flow processes can be modeled isothermally or non-isothermally, and phase conditions represented may include a single (aqueous or CO2-rich) phase, as well as two-phase (brine-CO2) mixtures. Fluid phases may appear or disappear in the course of a simulation, and solid salt may precipitate or dissolve. Note that the model cannot be applied to subcritical conditions that involves both liquid and gaseous CO2 unless thermol process is ignored (i.e.,isothermal run). For those cases, a user may use the fluid property module ECO2M (Pruess, 2011) instead.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "\tECO2N V2.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

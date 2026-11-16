@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-08-18",
+        "metadataLastUpdated": "2021-08-18"
+    },
+    "description": "Pilgrim is a profiling tool for MPI applications. It tracks the communication activities in an MPI application and records them as logs for further analysis. It allows users to have a better insight into the execution of their application and identify potential performance bottlenecks.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PILGRIM",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pmodels/pilgrim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

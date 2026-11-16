@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "SpokeDarts software produces sample distributions with blue noise characteristics over arbitrary-dimensional spaces. More generally, spoke darts enable efficient searches and tailored distributions over high dimensional spaces. The software includes underlying geometric routines which are useful in their own right, such as efficient neighbor searches, random points on a sphere, and line-sphere intersections.",
+    "laborHours": 5000.8,
+    "languages": [
+        "CMake",
+        "C++"
+    ],
+    "name": "SpokeDarts",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/SpokeDartsPublic?tab=License-1-ov-file#readme",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/SpokeDartsPublic",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

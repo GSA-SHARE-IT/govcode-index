@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-09-17",
+        "metadataLastUpdated": "2021-09-20"
+    },
+    "description": "DASSA (Parallel DAS Data Storage and Analysis) provides a data storage engine and analysis engine for data from distributed acoustic sensing and other methods. It supports various data analysis operations, from FFT , signal filter, cross-correlation, compression, stacking etc.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "DASSA v0.0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/dbin_sdm/dassa/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

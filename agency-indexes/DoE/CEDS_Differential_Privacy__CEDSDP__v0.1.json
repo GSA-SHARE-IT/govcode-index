@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-11",
+        "metadataLastUpdated": "2024-07-11"
+    },
+    "description": "A Python package that provides differentially private queries optimized for energy systems' data. It may be used to publish queries such as clustering, averaging, metadata inference, etc. that are useful for a variety of grid-related analytics, including cyberattack detection.",
+    "laborHours": 410.4,
+    "languages": [],
+    "name": "CEDS Differential Privacy (CEDSDP) v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbnl-cybersecurity/CEDSKMeans",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

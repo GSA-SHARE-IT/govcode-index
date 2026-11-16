@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "brownjm@ornl.gov"
+    },
+    "date": {
+        "created": "2023-04-27",
+        "metadataLastUpdated": "2023-04-27"
+    },
+    "description": "Julia language version of the SAMMY R-matrix code",
+    "laborHours": 0.0,
+    "languages": [
+        "Julia"
+    ],
+    "name": "Jammy",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/brownjm1968/Jammy",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

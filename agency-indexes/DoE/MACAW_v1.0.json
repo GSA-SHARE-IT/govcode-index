@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-12-08",
+        "metadataLastUpdated": "2021-12-21"
+    },
+    "description": "The ability to embed molecules in a numeric space is essential in order to build mathematical and machine-learning models describing molecular properties or other processes affected by molecules. MACAW is a cheminformatic tool that allows embedding small molecules into a multidimensional numeric space. In the embedding, each molecule is assigned a numeric vector that captures information of the molecule in relation to other molecules, and that vector can be used as input to mathematical models. Molecules that are more similar to each other are embedded closer in this numeric space, whereas molecules that are more different are embedded further away. One advantage of the MACAW embedding technology compared to established alterantives is that it is fast and does not require extensive computational resources or expertise. In particular, MACAW embeddings can be used as input to mathematical models without the need for variable cleaning or feature selection, saving time and simplifying their use. On the other hand, MACAW also contains methods to generate new molecules and to recommend new molecules satisfying a desired molecular property. The generation of new molecules can be biased based on an input set of molecules, effectively generating molecular diversity around it. In its turn, MACAW's molecular recommendation tool is a novel method for evolving molecules in silico towards a desired molecular specification. In this method, the biased molecular generator tool is applied iteratively in combination with a molecular selection step. As a result, in each iteration the molecules selected by the software are increasingly closer to the desired specification. Both the molecular generation and the molecular recommendation tools are very fast, efficient, and intuitive to use.",
+    "homepageURL": "https://sites.google.com/lbl.gov/2021-187/landing-page",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MACAW v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://sites.google.com/lbl.gov/2021-187/landing-page",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://sites.google.com/lbl.gov/2021-187/landing-page",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

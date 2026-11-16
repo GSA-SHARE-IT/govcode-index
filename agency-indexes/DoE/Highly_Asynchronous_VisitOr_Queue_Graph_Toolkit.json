@@ -1,0 +1,29 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "HAVOQGT is a C++ framework that can be used to create highly parallel graph traversal algorithms. The framework stores the graph and algorithmic data structures on external memory that is typically mapped to high performance locally attached NAND FLASH arrays. The framework supports a vertex-centered visitor programming model. The frameworkd has been used to implement breadth first search, connected components, and single source shortest path.",
+    "laborHours": 15139.2,
+    "name": "Highly Asynchronous VisitOr Queue Graph Toolkit",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/PerMA/havoqgt",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

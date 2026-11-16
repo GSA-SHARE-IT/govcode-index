@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2018-07-25",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "The IGCAPT allows electric utility personnel to perform a static analysis of their communications network supporting smart grid architectures from a network utilization and performance standpoint. IGCAPT is meant to be a \"first order\" planning tool - the tool will accommodate estimates and best available data alongside default settings, which the user can then improve over time.",
+    "laborHours": 0.0,
+    "languages": [
+        "Java"
+    ],
+    "name": "IGCAPT",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabUnsupported/IGCAPT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

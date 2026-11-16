@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "aespiritu@lbl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The software is designed for efficiently integrating large-size of multi-scale environmental data using the Bayesian framework. Suppose we need to estimate the spatial distribution of variable X with high spatial resolution. The available data include (1) direct measurements Z of the unknowns with high resolution in a subset of the spatial domain (small spatial coverage), (2) measurements C of the unknowns at the median scale, and (3) measurements A of the unknowns at the coarsest scale but with large spatial coverage. The goal is to estimate the unknowns at the fine grids by conditioning to all the available data. We first consider all the unknowns as random variables and estimate conditional probability distribution of those variables by conditioning to the limited high-resolution observations (Z). We then treat the estimated probability distribution as the prior distribution. Within the Bayesian framework, we combine the median and large-scale measurements (C and A) through likelihood functions. Since we assume that all the relevant multivariate distributions are Gaussian, the resulting posterior distribution is a multivariate Gaussian distribution. The developed software provides numerical solutions of the posterior probability distribution. The software can be extended in several different ways to solve more general multi-scale data integration problems.",
+    "laborHours": 684.0,
+    "name": "Bayesian Integration of multiscale environmental data",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/jschen83/Multiscale-Bayesian-Integration/blob/master/license.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jschen83/Multiscale-Bayesian-Integration",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

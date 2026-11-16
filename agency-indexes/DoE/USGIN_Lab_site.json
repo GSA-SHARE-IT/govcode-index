@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "vowelll@osti.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This web site provides information related to service profiles and implementation in development for the US Geoscience information network (USGIN). It is meant to be a site where developers can learn about the standard in use, the objectives of the application profiles being developed, software being used or tested for implementation of services, and details about particular implementations. Forums are provided for asking questions about the services, profiles, and implemenation issues.",
+    "laborHours": 268842.4,
+    "name": "USGIN Lab site",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/usgin/lab-usgin-site",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

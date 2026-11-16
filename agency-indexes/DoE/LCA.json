@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2023-03-16",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The Locally Competitive Algorithm (LCA) is a dynamical sparse solver that uses only local computations, allowing for massively parallel implementations on compatible neuromorphic architectures such as Intel's Loihi research chip. In this invention, we show how unsupervised dictionary learning with spiking LCA can be implemented on GPUs and Intel's Loihi research chip.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LCA",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/LCA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-07-22",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "PyGSTi is a Python package for modeling and characterizing noise (errors) in small quantum information processors. In addition to being a basic framework for describing quantum circuits and noise models, it implements mainstream quantum characterization, verification, and validation (QCVV) protocols such as Gate Set Tomography (GST), Randomized Benchmarking (RB), Robust Phase Estimation, and Idle Tomography. It also implements prototype protocols used for timeseries analysis and crosstalk detection, all of which have the goal of better understanding the noise found in existing as-built experimental devices. The central protocol of pyGSTi (from where it derives its name) is Gate Set Tomography. GST is a theory and protocol for simultaneously estimating the state preparation, gate operations, and measurement effects of a physical system of one or many quantum bits (qubits). These estimates are based entirely on the statistics of experimental measurements, and their interpretation and analysis can provide a detailed understanding of the types of errors/imperfections in the physical system. In this way, GST provides not only a means of certifying the “goodness” of qubits but also a means of debugging (i.e.\nimproving) them. The other protocols follow this similar pattern in that they use statistical inference and analysis of experimental data to estimate one or more properties of the noise in a\ndevice.",
+    "laborHours": 317619.2,
+    "languages": [
+        "C++",
+        "CSS",
+        "HTML",
+        "Jupyter Notebook",
+        "Cython",
+        "Python"
+    ],
+    "name": "Python GST Implementation (PyGSTi) v. 0.9",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/pyGSTi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "0.9.12"
+}

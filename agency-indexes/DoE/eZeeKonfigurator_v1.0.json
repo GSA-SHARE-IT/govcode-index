@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-10-02",
+        "metadataLastUpdated": "2019-10-02"
+    },
+    "description": "eZeeKonfigurator is a web application and supporting tools for configuring Zeek (formerly Bro) systems.\n\nZeek is an open-source tool developed at LBNL that's used to secure computer networks. A recent version of Zeek introduced the configuration framework, where changes can be made while the system is running. However, the provided method is difficult to operationalize, as it requires a set of text files to be deployed and updated across all the Zeek systems.\n\neZeeKonfigurator provides an easy-to-use web interface to this. Users can view and modify options in a web application, and then those changes are deployed to the desired Zeek systems. Additionally, users benefit from additional features, such as:\n\n* Logging and auditing, to determine who made what change and when\n* Automated expiration of changes (e.g. an exception is added for 2 weeks, after which time it will be removed)\n* Validation of changes and verification that the change has been applied\n* Fine-grained role-based access",
+    "laborHours": 1991.2,
+    "languages": [],
+    "name": "eZeeKonfigurator v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/esnet/eZeeKonfigurator",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

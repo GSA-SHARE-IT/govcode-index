@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-08-19"
+    },
+    "description": "This repository has been archived by the owner on Jun 19, 2020. It is now read-only. \n\nTurbine_CostsSE is a set of models for assessing the costs of a wind turbine. The first model is a new version of NREL's turbine Cost and Scaling Model that uses 2015 survey data to compute component mass properties from key turbine parameters such as rotor diameter, rated power and hub height. A second model is a new mass-to-cost model which takes the individual component masses as inputs to estimate each component costs with additional cost factors for assembly, overhead, and profits.",
+    "laborHours": 2340.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "Turbine_CostSE (Turbine Cost Systems Engineering Model) DEPRECATED [SWR-13-30]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/wisdem/turbine_costsse",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

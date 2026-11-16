@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "miskowiecaj@ornl.gov"
+    },
+    "date": {
+        "created": "2019-09-04",
+        "metadataLastUpdated": "2019-09-04"
+    },
+    "description": "A graphical user interface for multipeak fitting Raman spectra, strongly based on lmfit.",
+    "laborHours": 380.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "PeakFitGUI",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/gxm/peakfitgui",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

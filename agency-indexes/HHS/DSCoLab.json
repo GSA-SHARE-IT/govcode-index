@@ -1,0 +1,38 @@
+{
+    "name": "DSCoLab",
+    "description": "An information sharing repository for the HHS Data Science CoLab",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/unlicense",
+                "name": "The Unlicense"
+            }
+        ]
+    },
+    "organization": "Department of Health and Human Services",
+    "homepageURL": "https://github.com/HHS/DSCoLab",
+    "downloadURL": "https://api.github.com/repos/HHS/DSCoLab/downloads",
+    "repositoryURL": "https://github.com/HHS/DSCoLab.git",
+    "vcs": "git",
+    "laborHours": 0.0,
+    "languages": [],
+    "date": {
+        "created": "2018-04-23",
+        "lastModified": "2018-06-05",
+        "metadataLastUpdated": "2022-03-22"
+    },
+    "tags": [
+        "information",
+        "sharing",
+        "repository",
+        "HHS",
+        "Science",
+        "CoLab"
+    ],
+    "contact": {
+        "email": "HHS_GitHub_Service_Desk@hhs.gov",
+        "name": "U.S. Department of Health & Human Services"
+    }
+}

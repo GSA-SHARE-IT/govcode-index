@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-08-05",
+        "metadataLastUpdated": "2021-08-06"
+    },
+    "description": "Fast Free Fermion Compiler (F3C) is an application-specific quantum circuit compiler for time-evolution circuits of spin Hamiltonian systems that can be mapped to free fermions. F3C is the Matlab software version and the related F3C++ is the C++ software version.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "F3C v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/QuantumComputingLab/f3c",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The LK scripting language is a simple and fast computer programming language designed for easy integration with existing software to enable automation of tasks. The LK language is used by NREL’s System Advisor Model (SAM), the SAM Software Development Kit (SDK), and SolTrace products. LK is easy extensible and adaptable to new software due to its small footprint and is designed to be statically linked into other software. It is written in standard C++, is cross-platform (Windows, Linux, and OSX), and includes optional portions that enable direct integration with graphical user interfaces written in the open source C++ wxWidgets Version 3.0+ toolkit.",
+    "laborHours": 111248.8,
+    "name": "LK Scripting Language",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NREL/lk/blob/develop/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/lk",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

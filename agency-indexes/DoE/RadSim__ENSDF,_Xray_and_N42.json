@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-06-21",
+        "metadataLastUpdated": "2024-06-21"
+    },
+    "description": "This package includes three parts, (1) gov.bnl.nndc.ensdf, (2) gov.nist.xray and (3) gov.nist.physics.n42, which are utilized in the development of Radiation Detector Simulator (RadSim) project. RadSim is being developed to provide the capability to: (1) simulate radiation source emissions, (2) interpolate results from radiation transport tools into a common format to prepare incident flux, and (3) model radiation detector response to rapidly produce synthetic radiation measurement templates. RadSim is targeted for open-source release, which will enable researchers and industry partners to model gamma-ray detectors response to simulated flux from the transport tool of their choice. The first tool of the package, gov.bnl.nndc.ensdf, includes functionality to parse and split publicly available decay records in ENSDF format, and pull the relevant information from ENSDF libraries. The second tool, gov.nist.xray, provides Xray information using the public NIST database. Lastly, gov.nist.physics.n42, is a tool used to convert an N42 xml file into a Java object that can be interfaced within a Java program.",
+    "laborHours": 93373.6,
+    "languages": [],
+    "name": "RadSim: ENSDF, Xray and N42",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/RadSim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The four-dimensional scattering function S(Q,w) obtained by inelastic neutron scattering measurements provides unique \"dynamical fingerprints\" of the spin state and interactions present in complex magnetic materials. Extracting this information however is currently a slow and complex process that may take an expert -depending on the complexity of the system- up to several weeks of painstaking work to complete. Spin Wave Genie was created to abstract and automate this process. It strives to both reduce the time to complete this analysis and make these calculations more accessible to a broader group of scientists and engineers.",
+    "laborHours": 11658.4,
+    "name": "Spin Wave Genie",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/SpinWaveGenie/SpinWaveGenie",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

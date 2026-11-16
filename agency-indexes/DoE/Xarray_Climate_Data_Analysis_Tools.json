@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2023-03-31",
+        "metadataLastUpdated": "2023-03-31"
+    },
+    "description": "xCDAT is an extension of xarray for climate data analysis on structured grids. It serves as a modern successor to the Community Data Analysis Tools (CDAT) library. Xarray is an \"open source project and Python package that introduces labels in the form of dimensions, coordinates, and attributes on top of raw NumPy-like arrays, which allows for more intuitive, more concise, and less error-prone user experience. Xarray includes a large and growing library of domain-agnostic functions for advanced analytics and visualization with these data structures\" (source: https://xarray.dev/). The goal of xCDAT is to provide generalizable features and utilities for simple and robust analysis of climate data. xCDAT's design philosophy is focused on reducing the overhead required to accomplish certain tasks in xarray. Some key xCDAT features are inspired by or ported from the core CDAT library, while others leverage powerful libraries in the xarray ecosystem (e.g., xESMF and cf_xarray) to deliver robust APIs.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Xarray Climate Data Analysis Tools",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/xCDAT/xcdat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.5.0"
+}

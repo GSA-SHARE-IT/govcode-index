@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-03-22",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The Behind-the-meter Infrastructure Costs for Electrification Progression (BICEP) model quantifies the behind-the-meter (BTM) electrical upgrades required for decarbonization through electrification by comparing the expected change in capacity requirements from the electrification technologies to the existing capacity in distributed energy resources (DER) stock (including buildings).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Behind-the-meter Infrastructure Costs for Electrification Progression (BICEP) Model",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/BICEP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

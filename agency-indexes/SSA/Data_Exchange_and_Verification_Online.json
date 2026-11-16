@@ -1,0 +1,20 @@
+{
+    "name": "Data Exchange and Verification Online",
+    "repositoryURL": "",
+    "description": "DEVO is the back-end application for processing SSN verifications and data exchanges. DEVO uses modern technology for parameter driven processing of both batch and real time requests. DEVO provides the capability for SSA to accurately and rapidly respond to customized requests, legislative mandates, and court orders. Legacy verification and data exchange applications (Enumeration Verification System (EVS), Numident Online Verification Utility (NOVU), State Verification Exchange System (SVES), and State Online Query System (SOLQ)) are methodically being reengineered into DEVO, which will make use of reusable, flexible software. DEVO interfaces with the Verification Account Management System (VAMS) to determine account status, obtain processing parameters, and store transaction counts for Management Information (MI).",
+    "permissions": {
+        "licenses": [],
+        "usageType": "exemptByAgencySystem",
+        "exemptionText": ""
+    },
+    "laborHours": 0,
+    "tags": [
+        "Administrative",
+        "Verification",
+        "Data Exchange"
+    ],
+    "contact": {
+        "email": "Open.Source@ssa.gov",
+        "name": "Open Source Administrator"
+    }
+}

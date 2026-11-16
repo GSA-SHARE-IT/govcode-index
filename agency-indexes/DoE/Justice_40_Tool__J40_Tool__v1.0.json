@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-10-03",
+        "metadataLastUpdated": "2023-10-03"
+    },
+    "description": "The Justice 40 tool provides a quantitative framework to support decision-making around equitable energy interventions at the community level. The tool calculates the optimal portfolio of policy interventions that explicitly mitigates energy insecurity of an eligible population, by reducing its disproportionate energy burden. The place-based analysis assumes a spatial census tract-level resolution and distinguishes different sociodemographic groups within each tract.\n\nInstead of focusing on a specific technology, the underlying J40 model captures the combined effect of a set of policy interventions, currently including weatherization, rooftop solar, community solar and community wind. For each tract, the model chooses the optimal (least cost) combination of interventions to address the disproportionate burden, considering the specific population demographics and techno-economic potentials of technologies. Mathematically, this problem is formalized as an optimization model and formulated as a linear program.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Justice 40 Tool (J40 Tool) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNLgrid/j40model",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2019-03-20"
+    },
+    "description": "CONEX is a code for joining sequentially in time multiple exodusll database files which all represent the same base mesh topology and geometry. It is used to create a single results or restart file from multiple results or restart files which typically arise as the result of multiple restarted analyses. CONEX is used to postprocess the results from a series of finite element analyses. It can join sequentially the data from multiple results databases into a single database which makes it easier to postprocess the results data.",
+    "laborHours": 2002235.2,
+    "languages": [],
+    "name": "Finite Element Analysis Code - CONEX",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/gsjaardema/seacas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

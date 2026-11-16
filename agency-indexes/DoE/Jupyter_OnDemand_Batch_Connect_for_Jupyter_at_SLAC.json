@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-07-26",
+        "metadataLastUpdated": "2022-07-26"
+    },
+    "description": "This contains the deployment the OnDemand Jupyter that is used at SLAC.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Jupyter OnDemand Batch Connect for Jupyter at SLAC",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/slac-ood-jupyter",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-20",
+        "metadataLastUpdated": "2024-06-20"
+    },
+    "description": "REMORA (previously known as ROMS-X) is a GPU-enabled regional ocean modeling code with the same core capabilities as the Regional Ocean Modeling System (ROMS) code.",
+    "laborHours": 11187.2,
+    "languages": [],
+    "name": "REMORA v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/seahorce-scidac/REMORA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

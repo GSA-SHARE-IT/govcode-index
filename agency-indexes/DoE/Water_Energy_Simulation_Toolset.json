@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "The Water-Energy Simulation Toolset (WEST) is an interactive simulation model that helps visualize impacts of different stakeholders on water quantity and quality of a watershed. The case study is applied for the Snake River Basin with the fictional name Cutthroat River Basin. There are four groups of stakeholders of interest: hydropower, agriculture, flood control, and environmental protection. Currently, the quality component depicts nitrogen-nitrate contaminant. Users can easily interact with the model by changing certain inputs (climate change, fertilizer inputs, etc.) to observe the change over the entire system. Users can also change certain parameters to test their management policy.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Water Energy Simulation Toolset",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabUnsupported/WEST",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

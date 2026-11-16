@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-30",
+        "metadataLastUpdated": "2024-09-16"
+    },
+    "description": "PyCIGAR is a python software package that merges off-the-shelf reinforcement learning libraries (RLLib and Ray) with electric power distribution system simulation tools (OpenDSS and a custom power flow solver built by LBL). PyCIGAR enables the training of neural networks to optimize the behavior of different components in the electric distribution grid, such as control systems in photovoltaic rooftop solar inverters and electric battery storage systems. The software package has been used to train neural networks to update settings in photovoltaic rooftop solar inverter control systems to mitigate cyber attacks on other solar photovoltaic rooftop devices.",
+    "laborHours": 13391.2,
+    "languages": [],
+    "name": "Reinforcement Learning for Distribution Grid Optimization (PyCIGAR) v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbnl-cybersecurity/ceds-cigar",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

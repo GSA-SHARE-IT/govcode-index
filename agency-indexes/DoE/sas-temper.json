@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "hellerwt@ornl.gov"
+    },
+    "date": {
+        "created": "2021-08-19",
+        "metadataLastUpdated": "2021-08-19"
+    },
+    "description": "Modeling remains a considerable challenge for practitioners of SAXS and SANS because the materials being studied are not highly ordered, the length scales being studied are large, and the information content of the data is low. Data analysis is both challenging and time consuming. Novices often rely on the assistance of an expert, such as the instrument scientist who supported them at the facility where the experiment was performed, to analyze their data. The high flux provided by modern facilities makes it possible to study dozens of samples or sample conditions during a single trip. Ultimately, the high throughput of modern instruments limits access to instrument scientists. A bottleneck in the research effort results that reduces facility productivity. Sas-temper seeks to address this problem, as well as the intrinsic difficulties of being confident in non-linear least squared fitting of data, by providing tools that automate much of the manual process of initial data fitting and refinement, as well as by providing tools for characterizing the nature of the parameter space that fits the measured data. The tools provided by sas-temper help small-angle scattering practitioners transition data into results.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "sas-temper",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/wt3/sas_temper",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

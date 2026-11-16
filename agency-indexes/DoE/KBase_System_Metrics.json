@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-07-24",
+        "metadataLastUpdated": "2020-07-31"
+    },
+    "description": "This repository contains code for gathering and uploading KBase system metrics from Condor API such as memory, disk and cpu usage, as well as job and queue information. This repository is run every hour through a cron job. The main function of the this repo is the 'get_system_report' function located in the 'get_system_reports' file. This function calls 'get_report machines' and 'get_report_jobs', because System Metrics is composed of information for Condor jobs - running and idle - and KBase machine information. The 'get_report_jobs' function calls a job function 'get_job_info' from the file 'calculate_queue_resources'. Within the queue resources file the 'get_job_info' function is main.",
+    "laborHours": 334.4,
+    "languages": [],
+    "name": "KBase System Metrics",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/SystemMetrics",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

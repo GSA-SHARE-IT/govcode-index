@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-02-11",
+        "metadataLastUpdated": "2022-02-11"
+    },
+    "description": "High Performance Computing clusters require a diverse set of methods to verify that they meet their intended performance, stability, and functional design objectives.  One method, testing, takes place over the entire life-cycle of a system with an emphasis on testing before, and after it's shipped to the customer and after significant system changes. To efficiently use a set of tests that may have very different setup, user interface, and result footprints a framework is needed that can control and bundle all these tests and quickly produce a common set of interpretable results. This software, called Pavilion, is such a framework.  \nPavilion was originally developed as a replacement for the similar, scheduler specific framework. Pavilion 1.0 (and its predecessor) were heavily reliant on hand written build and run scripts for each test in order to handle to handle the complexities of real computing environments and the output the test itself. Pavilion 2.0 provides a rich configuration system that allows for automatically generating build and run scripts and dynamically handling the differences between clusters. The vast majority of the system is now pluggable, giving users the ability to modify Pavilion's operation via easy to write plugins. This includes plugins for gathering system data for each test, adding support for additional schedulers, and much more. In addition, Pavilion 2.0 provides a dynamic system for gathering test results and converting them into a format that can be easily read and analyzed. ",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Pavilion 2.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://github.com/hpc/pavilion2",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

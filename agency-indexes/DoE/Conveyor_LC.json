@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-03-07",
+        "metadataLastUpdated": "2018-03-20"
+    },
+    "description": "ConveyorLC is a high throughput virtual screening pipeline for in-silico screening of virtual compound databases using high performance computing. The pipeline mainly includes four modules: receptor/target preparation, ligand preparation, VinaLC docking calculation, and molecular mechanics/generalized Born surface area rescoring.",
+    "laborHours": 68932.0,
+    "name": "Conveyor LC",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/XiaohuaZhangLLNL/conveyorlc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

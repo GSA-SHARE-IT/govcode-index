@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-04-11",
+        "metadataLastUpdated": "2024-04-11"
+    },
+    "description": "Train and use machine learning models; select protein sequences for simulation and laboratory testing.\nCode implements key decision steps in this process. Provided for review purposes and public release.",
+    "laborHours": 2736.0,
+    "languages": [],
+    "name": "Review materials for Computationally Restoring the Potency of a Clinical Antibody",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/CRPCA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "v2"
+}

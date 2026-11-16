@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-29",
+        "metadataLastUpdated": "2021-04-29"
+    },
+    "description": "A predictive, stable, and interpretable machine learning tool: the iterative random forest algorithm (iRF). iRF discovers high-order interactions among variables with the same order of computational cost as random forests (RF). We have demonstrated the utility of iRF in several applications in the biological and environmental sciences. It is a general purpose machine learning framework for building \"explainable\" predictive engines.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "iRF v2.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/karlkumbier/iRF2.0",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

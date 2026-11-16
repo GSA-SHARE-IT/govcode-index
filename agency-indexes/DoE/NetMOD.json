@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-26"
+    },
+    "description": "NetMOD is a tool to model the performance of global ground-based explosion monitoring systems. The initial version of the software supports the simulation of seismic detection capability. The tool provides a user interface to execute simulations based upon a hypothetical definition of the monitoring system configuration, geophysical properties of the Earth, and detection analysis criteria.",
+    "laborHours": 15.2,
+    "languages": [
+        "Java"
+    ],
+    "name": "NetMOD",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/netmod",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

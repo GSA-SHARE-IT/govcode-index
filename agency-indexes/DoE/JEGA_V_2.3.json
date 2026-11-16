@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-09-30",
+        "metadataLastUpdated": "2020-11-05"
+    },
+    "description": "JEGA is a software package that implements a multi-objective genetic algorithm (MOGA) for solution to multi-objective optimization problems (MOPS) and a single objective genetic algorithm (SOGA) for solution to single objective optimization problems (SOPS).  JEGA is highly configurable and provides a rich set of algorithmic components for tailored optimization.  It has been used successfully on many problems by users both internal and external to Sandia.  By employing object-oriented design to implement abstractions of the key components making up the algorithms, JEGA provides a flexible and extensible problem-solving environment for design and performance analysis of computational models.",
+    "homepageURL": "https://dakota.sandia.gov",
+    "laborHours": 3988282.4,
+    "languages": [
+        "C++ compiler"
+    ],
+    "name": "JEGA V 2.3",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://dakota.sandia.gov/license.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://dakota.sandia.gov",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

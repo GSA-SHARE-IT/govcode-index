@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-10-07",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The current scripts utilize a well-known cluster analysis algorithm, called ordering points to identify the clustering structures (OPTICS), and an automatic cluster extraction algorithm for clustering analysis of 3D spatial data, specifically for the Atom Probe Tomography data. A hierarchical clustering scheme, together with density-based clustering, were implemented.",
+    "laborHours": 1778.4,
+    "languages": [],
+    "name": "pnnl/apt",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/apt",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

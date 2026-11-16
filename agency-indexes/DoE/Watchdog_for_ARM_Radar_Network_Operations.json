@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "WARNO is a software system designed to monitor the radars in the ARM Radar Network. It allows real time monitoring and tracking of instrument state and condition. It provides a web portal on the front end to interact with users, a REST API webpoint for interactions with third party systems, and an internal distributed architecture to allow it to be deployed at multiple sites.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Watchdog for ARM Radar Network Operations",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ARM-DOE/warno/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ARM-DOE/warno",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

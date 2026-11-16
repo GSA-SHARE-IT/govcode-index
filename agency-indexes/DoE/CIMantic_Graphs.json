@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-05-07",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "CIMantic Graphs (aka CIM-Graph) is a new python library developed by PNNL to reduce the burden of working with the\nCommon Information Model. CIMantic Graphs takes a novel approach of building in-memory labeled property graphs for\ncreating, parsing, and editing CIM power system models.",
+    "laborHours": 38729.6,
+    "languages": [],
+    "name": "CIMantic Graphs",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-CIM-Tools/CIM-Graph",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-01-14",
+        "metadataLastUpdated": "2022-01-14"
+    },
+    "description": "To date, quantitative prediction on CPUs has been limited to laborious `white-box' methods; and learning has been limited to special cases such as best-case (throughput) performance. We present Qualm, a method for learning quantitative performance of optimized latency",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Qualm",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.pnnl.gov/perf-lab/qualm/qualm",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "version": "1"
+}

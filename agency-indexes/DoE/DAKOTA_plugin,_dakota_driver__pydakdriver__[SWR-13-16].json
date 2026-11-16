@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-09-12",
+        "metadataLastUpdated": "2024-07-01"
+    },
+    "description": "This directory tree contains the materials for the initial version of an openMDAO \"Driver\" object that wraps Sandia Lab's \"DAKOTA\" optimization and analysis code.",
+    "laborHours": 1048.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "DAKOTA_plugin, dakota_driver (pydakdriver) [SWR-13-16]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/DAKOTA_plugin",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

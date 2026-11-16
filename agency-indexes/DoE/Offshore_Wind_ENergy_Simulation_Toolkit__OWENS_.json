@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2024-10-09",
+        "metadataLastUpdated": "2024-10-09"
+    },
+    "description": "SAND2021-2751 O\nThe Offshore Wind ENergy Simulation Toolkit (OWENS) is a collection of aerodynamic, structural, hydrodynamic, drivetrain, controls, composite structure and mesh preprocessing, and data postprocessing. OWENS is primarily an ontology, or glue code, pulling together many open-source and Sandia-developed libraries to model the aero-servo-hydro-elastic physics of wind and marine energy turbines. The toolkit’s intended use is for arbitrary aeroelastic rotor configurations analysis including vertical-axis wind turbines, horizontal-axis wind turbines, and analogous marine energy applications for fixed-bottom and floating configurations. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525",
+    "laborHours": 11962.4,
+    "languages": [
+        "Julia",
+        "Fortran"
+    ],
+    "name": "Offshore Wind ENergy Simulation Toolkit (OWENS)",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/OWENS.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.00"
+}

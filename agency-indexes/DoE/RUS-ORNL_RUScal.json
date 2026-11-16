@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "hermannrp@ornl.gov"
+    },
+    "date": {
+        "created": "2022-02-01",
+        "metadataLastUpdated": "2022-02-01"
+    },
+    "description": "Software to analyze resonant ultrasound spectroscopy measurements.",
+    "laborHours": 0.0,
+    "languages": [
+        "C"
+    ],
+    "name": "RUS-ORNL/RUScal",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/RUS-ORNL/RUScal",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

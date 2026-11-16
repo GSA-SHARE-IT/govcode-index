@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-11-17",
+        "metadataLastUpdated": "2023-11-21"
+    },
+    "description": "This disclosure is for version 2.x of a mesoscale model called Phase Field Dislocation Dynamics (PFDD). PFDD is used for investigating deformation in nanoscale (grain sizes of ~300 nm and less) materials, such as metals and alloys. This approach models the motion and interaction of individual defects, namely dislocations, in the material using scalar-valued phase field variables, also called order parameters. The system is evolved through energy minimization thus the model calculates the total energy density in terms of the phase field variables. The energy minimization is completed using the Ginzburg-Landau equation, and is implemented with explicit time integration. The total system energy can be comprised of several terms, including the strain energy (which describes dislocation-dislocation interactions), the energy due to an applied stress (dislocation interactions with the applied stress), and a core/lattice (perfect dislocations) or generalized stacking fault (partial dislocations) energy (described the dislocation core structure).  The latter term in particular may vary based on the crystal structure being modeled and is typically informed using lower length scale (e.g., atomistic) approaches, although no such (atomistic) calculations are completed within the PFDD algorithm. This basic formulation was previously reviewed by Los Alamos National Laboratory and released under license number C17113.  This previously reviewed version we will henceforth refer to as PFDD v1.0. \n\nPFDD v1.0 consisted of 2 codes (one parallel and one serial) plus input files, all written in the C language. This new disclosure is addressing the next versions of the PFDD, versions 2.x.  There have been several enhancements of PFDD v1.0, which are described here and included in the attached code, which we will refer to as PFDD v2.0. There are also several new features described here that are either planned or already in process and are expected to be subsequent releases, i.e., v2.1, v2.2, ...v2.x.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Phase Field Dislocation Dynamics (PFDD) version 2.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Phase-Field-Dislocation-Dynamics-PFDD-2.x",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

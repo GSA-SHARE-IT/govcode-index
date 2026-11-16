@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-06-24",
+        "metadataLastUpdated": "2021-06-24"
+    },
+    "description": "H5bench benchmark suite contains a list of applications that are used to measure the HDF5 I/O performance from various aspects.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "H5bench: a benchmark suite for parallel HDF5 (H5bench) v0.6",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hpc-io/h5bench",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

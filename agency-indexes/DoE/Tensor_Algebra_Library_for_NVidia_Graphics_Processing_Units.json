@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2022-03-28"
+    },
+    "description": "This is a general purpose math library implementing basic tensor algebra operations on NVidia GPU accelerators. This software is a tensor algebra library that can perform basic tensor algebra operations, including tensor contractions, tensor products, tensor additions, etc., on NVidia GPU accelerators, asynchronously with respect to the CPU host. It supports a simultaneous use of multiple NVidia GPUs. Each asynchronous API function returns a handle which can later be used for querying the completion of the corresponding tensor algebra operation on a specific GPU. The tensors participating in a particular tensor operation are assumed to be stored in local RAM of a node or GPU RAM. The main research area where this library can be utilized is the quantum many-body theory (e.g., in electronic structure theory).",
+    "laborHours": 19258.4,
+    "languages": [],
+    "name": "Tensor Algebra Library for NVidia Graphics Processing Units",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/DmitryLyakh/TAL_SH",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

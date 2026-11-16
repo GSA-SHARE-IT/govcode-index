@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "The code titled “eBPF Community ID Calculation” allows easy correlation of monitoring logs with existing network forensics logs on high-performance computing (HPC) systems.  This code implements the Community ID Flow Hashing standard to calculate community ID Flow identifiers. These identifiers will be used to correlate host forensics logs with network forensics logs.  The correlation provides valuable insight and the ability to easily pivot between disparate data sources.  The computer code removes the libpcap dependency from the code base.",
+    "laborHours": 167.2,
+    "languages": [
+        "Golang. 1.13"
+    ],
+    "name": "eBPF Community ID Calculation",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/stefanmaerz/eBPF_communityID",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-11-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This software is a plugin/installer for existing software. Composer (https://getcomposer.org) is a dependency manager for\nPHP. Installer plugins can be created through Composer's plugin API (https://getcomposer.org/doc/articles/custominstallers.\nmd) allowing certain types of packages to be automatically installed to specific paths. Plugins like this exist for\nseveral different frameworks: https://packagist.org/search/?q=installer&type=composer-plugin\nThis software is a plugin to install Drupal modules (https://www.drupal.org/). Drupal has begun supporting Composer as a means of installing and maintaining modules, but requires specific paths for it's various components. These paths can be\nmanually specified in the \"composer.json\" file, or can be automatically determined with a plugin. Currently an installer\nplugin does not exist for Drupal.",
+    "laborHours": 273.6,
+    "languages": [],
+    "name": "Drupal Installer",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/drupal-installer",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

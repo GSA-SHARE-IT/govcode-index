@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-20",
+        "metadataLastUpdated": "2024-06-20"
+    },
+    "description": "The Many-Body Adaptive Configuration Interaction Suite (MACIS) is a modern C++ software infrastructure for the development of selected-configuration interaction (sCI) methods for the fermionic many-body problem in quantum chemistry and materials science. MACIS provides a high-performance, parallel implementation of the Adaptive Sampling Configuration Interaction (ASCI) method as related solvers such as self-consistent orbital optimization and the evaluation of excited states and spectral functions. Unlike existing sCI software, MACIS is developed as a modular software infrastructure which allows it to exist both as a standalone sCI solver and as a library to integrate into existing many-body codes. This modularity allows MACIS to be quickly extensible, including its integration with other sCI methods and high-performance solvers.",
+    "laborHours": 18696.0,
+    "languages": [],
+    "name": "Many-Body Adaptive Configuration Interaction Suite (MACIS) v0.1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/wavefunction91/MACIS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

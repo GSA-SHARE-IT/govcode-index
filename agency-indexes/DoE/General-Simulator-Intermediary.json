@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2023-01-03",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "This application allows parallel development of simulator screens for the Human System Simulation Laboratory and connection of the backend simulators for various power plants",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "General-Simulator-Intermediary",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/General-Simulator-Intermediary",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-27"
+    },
+    "description": "The Berkeley Quantitative Genome Browser provides graphical browsing functionality for genomic data organized, at a minimum, by sequence and position. While supporting the annotation browsing features typical of many other genomic browsers, additional emphasis is placed on viewing and utilizing quantitative data. Data may be read from GFF, SGR, FASTA or any column delimited format. Once the data has been read into the browser's buffer, it may be searched. filtered or subjected to mathematical transformation. The browser also supplies some graphical design manipulation functionality geared towards preparing figures for presentations or publication. A plug-in mechanism enables development outside the core functionality that adds more advanced or esoteric analysis capabilities. BBrowse's development and distribution is open-source and has been built to run on Linux, OSX and MS Windows operating systems.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [
+        "g++ 4.2.0 or later"
+    ],
+    "name": "Berkeley Quantitative Genome Browser",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

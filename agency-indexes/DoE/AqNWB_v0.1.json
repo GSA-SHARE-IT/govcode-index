@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-30",
+        "metadataLastUpdated": "2024-07-30"
+    },
+    "description": "This is a C ++ acquisition API for neurophysiological data in the NeurodataWithoutBorders (NWB) data standard.",
+    "laborHours": 1869.6,
+    "languages": [],
+    "name": "AqNWB v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NeurodataWithoutBorders/aqnwb",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

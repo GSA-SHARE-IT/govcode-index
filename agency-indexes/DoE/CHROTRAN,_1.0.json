@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "CHROTRAN is a fork of the widely-used PFLOTRAN flow and reactive transport numerical simulation code. It implements custom physics and chemistry appropriate to the design of in-situ reduction of heavy metals such as Cr(VI) in groundwater. CHROTRAN includes full dynamics for five species: the metal to be remediated, an electron donor, biofilm, a nontoxic conservative bio-inhibitor, and a biocide. Direct abiotic reduction by donor-metal interaction as well as donor-driven biomass growth and bio-reduction are modeled, along with crucial processes such as donor sorption, and biofilm inactivation. The software implementation handles heterogeneous flow fields, arbitrarily many chemical species and amendment injection points, and features full coupling between flow and reactive transport, allowing for assessment of the effect of bio-fouling.",
+    "laborHours": 173325.6,
+    "name": "CHROTRAN, 1.0",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/scottkalevhansen/CHROTRAN-release",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

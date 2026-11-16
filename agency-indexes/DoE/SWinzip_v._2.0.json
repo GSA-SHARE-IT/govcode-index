@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-07-30",
+        "metadataLastUpdated": "2024-08-07"
+    },
+    "description": "SWinzip is a Matlab and C++ library for scientific lossy data compression and reconstruction using compressed sensing and tree-wavelets transforms. These methods are known for their large compression and usefulness in data analytics such as features extraction. Compressed sensing and wavelets methods rely heavily on sparse and dense linear algebra operations implemented through the Boost codes in our library. SWinzip accommodates data represented on both regular grids (e.g. image data) and point-clouds (e.g. unstructured meshes).\n\nIn SWinzip v2.0, there is more focus on wavelet compression and the following\nfeatures are added:\n\n- The matrix-free (direct) wavelet transform is implemented in both C++ and Matlab. A threshold-based compression can now be used. Examples for distributed compression are also added.\n- Python implementation of Alpert wavelet transforms\n- Field data comparison using wavelets in Matlab with global and local metrics",
+    "laborHours": 13740.8,
+    "languages": [
+        "C++",
+        "C",
+        "MATLAB",
+        "Makefile",
+        "Python"
+    ],
+    "name": "SWinzip v. 2.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/SWinzip",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 2.0"
+}

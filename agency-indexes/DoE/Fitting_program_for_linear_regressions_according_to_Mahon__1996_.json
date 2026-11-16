@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "This program takes the users' Input data and fits a linear regression to it using the prescription presented by Mahon (1996). Compared to the commonly used York fit, this method has the correct prescription for measurement error \r\npropagation. This software should facilitate the proper fitting of measurements with a simple Interface.",
+    "laborHours": 304.0,
+    "languages": [
+        "Python 2.7 (100%)"
+    ],
+    "name": "Fitting program for linear regressions according to Mahon (1996)",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/MahonFitting",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

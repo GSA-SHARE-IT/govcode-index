@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-10-28",
+        "metadataLastUpdated": "2021-10-28"
+    },
+    "description": "sbang lets users run scripts with very long shebang (#!) lines. Many operating systems limit the length and number of possible arguments in shebang lines, making it hard to use interpreters that are deep in the directory hierarchy or require special arguments. To use it, a user puts the long shebang on the second line of their script, and makes sbang the interpreter, like this: #!/bin/sh /path/to/sbang #!/long/path/to/real/interpreter with arguments. sbang will run the real interpreter with the script as its argument.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "sbang",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            },
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/spack/sbang",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-06-02",
+        "metadataLastUpdated": "2023-06-05"
+    },
+    "description": "The scientific and public health communities responded to the COVID-19 pandemic with\nsample acquisition and genome sequencing on a scale that eclipsed all prior sequencing\nefforts. While this can only be characterized as a resounding success story that has\ncemented the use of genomics for epidemiological investigations for any future infectious\ndisease outbreak, several retrospective studies are cataloging an array of lessons learned\nand issues that have yet to be addressed in order to realize the full potential of genomics as\na routine biosurveillance tool. We have been both developing methods to accurately assess\nSARS-CoV-2 genomes from complex samples, and analyzing the large volumes of\ninternational data, both at the consensus level and the raw sequencing data. During the\ncourse of our investigations and similar to other groups, we have examined COVID-19\nsamples with signatures from multiple lineages of SARS-CoV-2 and will describe some of\nour findings during the development of a novel workflow that incorporates detection and\nreporting of potential co-infection within samples and also highlights any evidence of\nwithin-host recombination.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Recombinant And Mix-Infection Finder for SARS-CoV-2 sample",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/ramifi",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-01-09",
+        "metadataLastUpdated": "2020-01-09"
+    },
+    "description": "This code is a simply python module that allows the user to read in the solar system value from a\nprovided database. It simply reads in the database, and calculates ratios with various values. Currently,\nthe solar system values from Lodders et al. (2009) are solely included. The tool is designed to assist a\nastrophysics / cosmochemist user in their daily life of calculating those ratios for programs and was\nwritten by the author to simplify his own life. A setup.py routine has been written as well. Release is\nanticipated via github as well as in the form of a pypi package.",
+    "laborHours": 121.6,
+    "languages": [],
+    "name": "Solar System Initial Abundnace Reader",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/iniabu",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

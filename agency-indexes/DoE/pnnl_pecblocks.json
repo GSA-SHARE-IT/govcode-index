@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-09-23",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "ConverterBlocks uses the output of detailed electromagnetic transient (EMT) simulations to produce generalized block diagram models of power electronic systems. The process uses deep learning with customized block architectures. The outputs are reduced-order models that meet specified accuracy requirements, while providing important advantages over the original EMT models: ConverterBlock models have fewer nodes and can take longer time steps, resulting in shorter simulation times ConverterBlock models are continuously differentiable, making them compatible with control design methodsGeneralized block diagram modeling of power electronic converters for grid solar and storage applications.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/pecblocks",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/pecblocks",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "klaskyhb@ornl.gov"
+    },
+    "date": {
+        "created": "2024-07-30",
+        "metadataLastUpdated": "2024-07-30"
+    },
+    "description": "Given the text files of LLM outputs for specific variables about numerous databases and the reference Excel sheets to compare the LLM outputs to, this program will generate Excel sheets and CSV files of evaluations to describe the LLMs' performances. When the program is executed, these files can be located in ./evals. All folders within ./evals are named by the time which the program finished.\nThe main focus of this pipeline is to evaluate the database descriptions using BERTScore, SacreBLEU, and MoverScore. However, multiple different types of metadata aside from descriptions.",
+    "laborHours": 410.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "Large Language Model Output Evaluator",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/summer_2024/llm_output_evaluation",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "version": "Summer 2024"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2023-07-03",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "PTM-Psi is a Python 3 package that combines several capabilities to streamline the workflow to interrogate the impact of\nPTMs on proteins using well-established software packages. The workflow of the PTM-Psi software package includes\ninput files and launch instances from standard packages such as AlphaFold, NWChem, GROMACS, and the Autodock\nSuite",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/PTMPSI",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/ptmpsi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

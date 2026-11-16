@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2023-08-07",
+        "metadataLastUpdated": "2023-08-07"
+    },
+    "description": "SAND2023-11957O\nSDynPy software can be used in digital signal processing, modal analysis, and geometry algorithms that are available in open literature, specifically the Synthesize Modes and Correlate and polynomial-based multiple reference modal fitters. This software can be used to perform structural dynamic testing and analysis. \nSandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "SDynPy: A Structural Dynamics Python Library",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/sdynpy",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": " v.0.6.0"
+}

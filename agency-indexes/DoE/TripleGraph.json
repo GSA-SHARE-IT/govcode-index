@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "RDF triplestores are great tools for online graph analytic processing (i.e., graph pattern query processing), but they do not provide graph mining capabilities (e.g., PageRank, connected-component analysis, node eccentricity, etc.).  The software title “TripleGraph” is a graph analysis toolkit, which uses an RDF triplestore as its backend for creating, manipulating, mining, and programming with large scale property graphs. It allows users to run various graph mining algorithms easily.  User can import edgelist-formatted (homogeneous graph) or JSON-formatted graph (property graph) into the RDF triplestore using the provided tool and perform various analysis such as (1) Node/edge retrieval and manipulation, (2) Pathfinding between two given nodes, (3) Running graph mining algorithms (PageRank/Personalized PageRank, Single Source Shortest Path/Multi-Source Shortest Path, Connected Component, Node Eccentricity, Peer Pressure Clustering). It supports standard graph data format and works with a standard SPARQL endpoint like Jena Fuseki.  It allows users to perform online graph analytic processing and graph mining on the same platform (a triplestore).",
+    "laborHours": 380.0,
+    "languages": [
+        "Python 2.7"
+    ],
+    "name": "TripleGraph",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/liza183/TripleGraph",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

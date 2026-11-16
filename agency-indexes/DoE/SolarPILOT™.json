@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-05-22",
+        "metadataLastUpdated": "2018-05-22"
+    },
+    "description": "SolarPILOT™advances the analytical flux image Hermite series approximation used in DELSOL3 by applying it to individual heliostat images rather than \"zones\", allowing characterization of a wide variety of heliostat field layouts. SolarPILOT also integrates the SolTrace Monte-Carlo ray tracing engine, providing improved receiver optical modeling capability, a user-friendly front end for geometry definition, and side-by-side validation of the analytical algorithms. The tool and source code are publicly available and are designed for third-party modification and extendability. The software is intended as a replacement for the more antiquated DELSOL3 algorithm originally developed at Sandia National Laboratory. The software will be used at NREL for power tower component design analysis and may be used at other laboratories, in academia, or as a third-party validation tool by some industry groups.",
+    "laborHours": 28743.2,
+    "languages": [],
+    "name": "SolarPILOT™",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/SolarPILOT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

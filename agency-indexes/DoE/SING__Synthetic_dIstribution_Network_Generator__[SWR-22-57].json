@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-05-25",
+        "metadataLastUpdated": "2023-04-12"
+    },
+    "description": "Synthetic dIstribution Network Generator is a standalone python module that is able to create synthetic distribution models for OpenDSS using GIS datasets. The software uses road and building information from OpenStreetMaps to generate these synthetic models.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "SING (Synthetic dIstribution Network Generator) [SWR-22-57]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/SING",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

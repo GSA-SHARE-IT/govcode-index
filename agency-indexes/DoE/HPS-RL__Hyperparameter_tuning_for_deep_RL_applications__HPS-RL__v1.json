@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-23",
+        "metadataLastUpdated": "2024-08-23"
+    },
+    "description": "Genetic Algorithms meets Deep RL for Hyperparameters Hyperparameter optimization and architecture search can easily become cumbersome and finding the right hyperparameters can seriously impact the robustness of the deep RL application being developed.\n\nWe use genetic algorithms to evolve optimum deep RL architectures in a scalable manner.\n\nHPS-RL is designed to work with multiple gym enviornments, allow users to test their own optimization functions and tune multi-objective parameters in multiple deep RL algorithms. HPS-RL uses multi-threading and is being extended with mpipy for distributed processing on HPC.\n\nhttps://arxiv.org/abs/2201.11182",
+    "laborHours": 1915.2,
+    "languages": [],
+    "name": "HPS-RL: Hyperparameter tuning for deep RL applications (HPS-RL) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/SelfDrivingNetworkLab/hps-rl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

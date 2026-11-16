@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "baej@ornl.gov"
+    },
+    "date": {
+        "created": "2025-04-14",
+        "metadataLastUpdated": "2025-04-14"
+    },
+    "description": "This tool is a suite of optimization algorithms along with a structure that allows users to optimize and process result.\n\nGenerally, the optimization algorithm samples an input set from a user-defined range, runs it through simulation, extracts results (scores) from function, and iterates into an optimized solution.",
+    "laborHours": 1079.2,
+    "languages": [],
+    "name": "Metaheuristic Optimization Tool (MOT)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jbae11/mot",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

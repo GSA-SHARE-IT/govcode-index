@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The RMD_RUNS function will log10 transform peptide peak intensity, that is, peptide abundance data and determine if any LC-MS analyses (ie,runs) in a N x P peptide data set are statistical outliers. The statistical analysis is based on summarizing each LC-MS run as a vector of q=5 summary statistics which describe the peptide abundance distribution for a specific run; a N x q matrix is then analyzed using robust PCA to compute a robust estimate of the covariance matrix used in a the calculation of a robut Mahalanobis distance.",
+    "laborHours": 243.2,
+    "languages": [],
+    "name": "rmd-runs",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/rmd-runs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

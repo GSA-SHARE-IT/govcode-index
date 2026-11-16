@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2024-01-15",
+        "metadataLastUpdated": "2024-01-15"
+    },
+    "description": "AcCCS is a collection of scripts that leverage open-source code, off-the-shelf hardware, and published protocol specifications to create a flexible and inexpensive test and evaluation device for the Electric Vehicle industry.  AcCCS is capable of emulating either an Electric Vehicle (EV) or Electric Vehicle Supply Equipment (EVSE).  It provides a flexible set of Python scripts to test and evaluate the various communication protocols between the Electric Vehicle Communication Controller (EVCC) and Supply Equipment Communication Controller (SECC). This capability is useful for cybersecurity researchers, automotive OEMs, and EVSE manufactures.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Access Capabilities Through Ccs Communications Protocol (acccs)",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/AcCCS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

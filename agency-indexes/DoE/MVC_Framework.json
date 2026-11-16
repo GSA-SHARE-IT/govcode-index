@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Provides a reusable model-view-controller application programming interface (API) for use in the rapid development of graphical user interface applications in the .NET 2.0 framework. This includes a mechanism for adding new data stores, data sources, data analyses, and visualizations in the form of plugins.] The MVC Framework is implemented in C# as a .NET 2.0 framework that can then be built against when developing applications. The infrastructure allows for presenting application specific views (visualizations) to the user to interact with. Based on the interactions the user makes with a view, requests are generated which in turn are handled by the central controller facility. The controller handles the request in an application specific manner by routing the request to appropriate data stores, data accessors or data analyzers. Retrieved or processed data is published to subscribed components for further processing or for presentation to the user.",
+    "homepageURL": "http://www.codeplex.com/mvcframework",
+    "laborHours": 0.0,
+    "languages": [
+        ".NET Framework 2.0"
+    ],
+    "name": "MVC Framework",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://www.codeplex.com/mvcframework",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

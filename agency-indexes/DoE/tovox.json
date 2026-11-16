@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "nutarojj@ornl.gov"
+    },
+    "date": {
+        "created": "2023-01-19",
+        "metadataLastUpdated": "2023-01-19"
+    },
+    "description": "Convert Collada 3D model files to a voxel model.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "tovox",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/1qn/tovox",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

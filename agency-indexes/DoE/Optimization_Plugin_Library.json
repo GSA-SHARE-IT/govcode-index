@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-02-28",
+        "metadataLastUpdated": "2022-02-28"
+    },
+    "description": "The Optimization Plugin library (\"op\") is a lightweight general optimization solver interface. The primary purpose of op is to simplify the process of integrating different optimization solvers (serial or parallel) with scalable parallel physics engines. By design it has several features that help make this a reality. The core abstraction interface was developed to encompass a large class of optimization problems in an optimizer-agnostic way. This enables us to describe the optimization problem once and then use a variety of supported \"op\" optimizers with ideally no code-changes. The abstraction interface is made up of lightweight wrappers that make it easy to integrate with existing simulation codes. This makes integration less intrusive and should minimize changes to existing physics codes. The \"op\" interface includes an assortment of utility methods that help specify parallel communication patterns as well as methods to convert from optimization-specific interfaces to the more general \"op\" interface. Lastly a dynamic library linking interface is provided to allow for use of proprietary optimization engines without explicit reference in the source code, along with standard shared library interfaces for opensource engines.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Optimization Plugin Library",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/op",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

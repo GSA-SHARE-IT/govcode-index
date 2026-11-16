@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-05-22",
+        "metadataLastUpdated": "2019-05-22"
+    },
+    "description": "Clean energy systems including the future power grid are enabled via the development, analysis and application of advanced simulation of complex systems based on large datasets.  The ability to handle and enable the simulation of complex systems allows researchers and analysts to address significant problems with greater confidence and greater levels of integrity.  Parallel execution of complex systems is paramount to addressing increasing complexity.  Programmatic interfaces for software configuration and parallel execution enable handling greater complexity and improving simulation integrity.  The Class Object Attribute Data (COAD) software is written as a programmatic interface to the PLEXOS dataset that enables the decomposition of the dataset in time and execution in parallel without loss of integrity.  COAD also enable the recomposition of solution datasets that are the output of distributed parallel execution of the core simulator.  ",
+    "laborHours": 4836533.6,
+    "languages": [],
+    "name": "plexos-coad (Plexos Class-Object-Attribute Data manipulation tool)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Computational-Energy/plexos-coad",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-12-15",
+        "metadataLastUpdated": "2023-12-15"
+    },
+    "description": "This is code associated with the publication “Nonparametric Multi-shape Modeling with Uncertainty Quantification,” authored by Hengrui Luo (Lawrence Berkeley National Laboratory) and Justin Strait (Los Alamos National Laboratory).  The code is used to fit multiple-output Gaussian process (GP) models of planar closed curves to collections of ordered point sets, allowing for flexible nonlinear prediction of the underlying curve under dense or sparse point set samplings and with or without noise, as well as tractable uncertainty quantification.  To do this, we employ use of a periodic kernel to account for the nonlinear input space of closed curves, and combine with coregionalization models to account for dependence both (i) between curve coordinates, and (ii) between pairs of curves.  Functions in the code are capable of fitting these models, as well as performing additional tasks with the fitted curves such as (a) shape registration and alignment, (b) shape averaging, and (c) fitting for curve sub-populations / clusters.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Code for multi-shape Gaussian process (GP) fitting with uncertainty quantification (UQ)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/multishapeGP",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

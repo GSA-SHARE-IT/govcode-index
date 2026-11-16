@@ -1,0 +1,49 @@
+{
+    "id": 1113,
+    "name": "Clinical Case Registries",
+    "organization": "OIT DSO",
+    "version": null,
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/foia-ror-clinical-registries",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "CCR",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Massachusetts General Hospital Utility Multi-Programming System (MUMPS)",
+        "Oracle Database",
+        "Solaris",
+        "Unix",
+        "Cache",
+        "JDK - Oracle Java Standard Edition (SE) Development Kit",
+        "Veritas InfoScale Suite",
+        "Java Enterprise Edition (Java EE)"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-28",
+        "lastModified": "2021-01-26",
+        "metadataLastUpdated": "2021-01-26"
+    },
+    "description": "Repository containing the FOIA Releases for Clinical Case Registries"
+}

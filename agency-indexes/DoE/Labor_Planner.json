@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-07-22",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Plan and visualize staff labor allocation.  This package produces outputs in spreadsheet form that are easily navigable and informative. Outputs include staff-level individual summaries detailing project commitment monthly, project-level summaries highlighting the number of staff and hours per project within an organization, a staff overview summary containing funding probability considerations and visualization, all staff rundown of monthly commitments tied to visual indicators for over- and under-commitment, and overall summary charts and data for all staff and all project and their interrelation. labor_planner was designed for extension and reuse and the authors encourage continued community development.",
+    "laborHours": 668.8,
+    "languages": [],
+    "name": "Labor_Planner",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/crvernon/labor_planner",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

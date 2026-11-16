@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2023-11-13",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This is a repository for work conducted in our research paper we would like to make open source. The main features are\nthat we forked another open source library and added functionality that enabled us to compute neural-kernel objects using\nrandom vector projection software for both computer vision and large language text models. The new features are\nspecifically code that enables the calculation of objects we define and refer to as the projection pseudo neural tangent\nkernel and the projection trace neural tangent kernel; both of which are approximations of the empirical neural tangent\nkernel. The software that computes the projections themselves are not part of the invention, but are necessarily tied to our\nsoftware and licensed via MIT license, and BSD 2 license.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/projection_ntk",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            },
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/projection_ntk",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

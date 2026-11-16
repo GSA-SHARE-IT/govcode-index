@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-07-07",
+        "metadataLastUpdated": "2022-07-07"
+    },
+    "description": "The “Common Platform Software” is a package which facilitates communication with common platform firmware. It is intended to provide basic access to firmware features while hiding details of the communication protocols involved. CPSW implements abstractions for entities like registers and devices and hides low-level details such as addressing or routing information, byte-order etc.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "CPSW: Common Platform Software",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/cpsw/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/cpsw",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2020-07-09",
+        "metadataLastUpdated": "2022-08-08"
+    },
+    "description": "The EPXMLPreprocessor is a computer program that reads an abstract description of a building and writes a complete, fully-functional EnergyPlus™ input file. The building xml model is the text input file to the Preprocessor which contains a minimal set of high-level parameters to describe the building type, geometry, loads, and systems. The Preprocessor constructs the resulting EnergyPlus building model by automatically generating and connecting all of the required EnergyPlus objects based on a set of built-in modeling assumptions. This software is no longer supported and users may use at their own risk.",
+    "laborHours": 90972.0,
+    "languages": [
+        "Pascal"
+    ],
+    "name": "EPXMLPreprocessor",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/EPXMLPreprocessor",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

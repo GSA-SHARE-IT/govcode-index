@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-03-29",
+        "metadataLastUpdated": "2023-07-27"
+    },
+    "description": "Model predictive control (MPC) is a system or process control technique for making decisions under uncertainty via rolling look-ahead optimizations at each control step where only the current step decisions are applied, and the rest are discarded. In this work, we developed an MPC for a critical load restoration (CLR) in power distribution systems to recover system service (electricity delivery) following an extreme event-triggered substation outage. The method considers the problem of controlling distributed energy resources (DERs) of the distribution system with the objective of achieving maximum load pick up while satisfying distribution network flow and voltage constraints. A linearized optimal power flow (OPF) model is employed to represent the physics of the network. The problem formulation is augmented with a ramping (up) reserve product for the DERs to ensure improved and upward monotonic load restoration as time evolves. Simulation analysis and performance tests are performed using a modified IEEE 13-bus test feeder integrated with wind, solar, microturbine, and energy storage battery. The software is developed using various software packages in Julia and Python. The MPC model is implemented using the JuMP optimization language in Julia while the data analytics including renewable generation and load demand forecasts, running the MPC simulation and visualizations is performed in Python.",
+    "laborHours": 0.0,
+    "languages": [
+        "Julia",
+        "Python"
+    ],
+    "name": "MPC4CLR (Model-Predictive-Control-for-Critical-Load-Restoration-in-Power-Distribution-Systems) [SWR-22-24]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/mpc4clr",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

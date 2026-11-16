@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-05-06",
+        "metadataLastUpdated": "2019-10-04"
+    },
+    "description": "This package is a set of tools in the Python language for preprocessing GPS trajectory data gathered from consumer devices, to detect and flag potentially erroneous data.",
+    "laborHours": 1048.8,
+    "languages": [],
+    "name": "TraVerSE: Trajectory Veracity for Simple Errors",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/bgerke/traverse",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

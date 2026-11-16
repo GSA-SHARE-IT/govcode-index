@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-07-26",
+        "metadataLastUpdated": "2024-07-26"
+    },
+    "description": "system2atoms is a suite of models that can simulate the performance of hydrogen\ninfrastructure across multiple scales. Examples of the different scale levels include:\n1. System Scale - techno-economic analysis for hydrogen applications,\nintegration of hydrogen infrastructure with the electrical grid,\nand supply and demand constraints across applications\n2. Component Scale - continuous-flow catalyst beds, electrochemical conversion\nunits, gas-phase separators, pumps, compressors, storage tanks, evaporators,\nheaters, and coolers\n3. Material Scale - surface reactions, degradation mechanisms, and catalyst\npoisoning",
+    "laborHours": 20079.2,
+    "languages": [],
+    "name": "system2atoms",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/systems2atoms",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

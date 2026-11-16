@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-04-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The Ruleset Checking Tool (RCT) will be a tool for verifying implementation of a ruleset (such as ASHRAE Standard 90.1 Appendix G) in building performance modeling (BPM) tools.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/ruleset-checking-tool",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/ruleset-checking-tool",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

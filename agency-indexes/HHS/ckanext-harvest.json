@@ -1,0 +1,36 @@
+{
+    "name": "ckanext-harvest",
+    "description": "CKAN Remote Harvesting Extension",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": null
+    },
+    "organization": "Department of Health and Human Services",
+    "homepageURL": "https://github.com/HHS/ckanext-harvest",
+    "downloadURL": "https://api.github.com/repos/HHS/ckanext-harvest/downloads",
+    "repositoryURL": "https://github.com/HHS/ckanext-harvest.git",
+    "vcs": "git",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "date": {
+        "created": "2015-02-06",
+        "lastModified": "2017-11-08",
+        "metadataLastUpdated": "2022-03-22"
+    },
+    "tags": [
+        "CKAN",
+        "Remote",
+        "Harvesting",
+        "Extension"
+    ],
+    "contact": {
+        "email": "HHS_GitHub_Service_Desk@hhs.gov",
+        "name": "U.S. Department of Health & Human Services"
+    }
+}

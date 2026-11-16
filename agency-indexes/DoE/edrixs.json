@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "pgarvey@bnl.gov"
+    },
+    "date": {
+        "created": "2019-07-01",
+        "metadataLastUpdated": "2019-07-01"
+    },
+    "description": "An open source toolkit for simulating RIXS spectra based on exact diagonalization (ED) for strongly correlated materials. It is developed as part of COMSCOPE project in the Center for Computational Material Spectroscopy and Design, Brookhaven National Laboratory.",
+    "laborHours": 9363.2,
+    "languages": [],
+    "name": "edrixs",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NSLS-II/edrixs",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-01-17",
+        "metadataLastUpdated": "2024-01-31"
+    },
+    "description": "The Bayesian Estimator of Protein-Protein Association Probabilities (BEPro3) is a software tool for estimating probabilities of protein-protein association between bait and prey protein pairs using data from multiple-bait, multiple-replicate, protein LC-MS/MS affinity isolation experiments. BEPro3 is public domain software, has been tested on Windows XP and version 10.4 or newer of the Mac OS 10.4, and is freely available. A user guide, example dataset with analysis and additional documentation are included with the BEPro3 download.",
+    "homepageURL": "http://www.pnl.gov/statistics/BEPro3",
+    "laborHours": 0.0,
+    "languages": [
+        "R, JAVA"
+    ],
+    "name": "Bayesian Estimator of Protein-Protein Association Probabilities",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "http://www.pnl.gov/statistics/BEPro3",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "http://www.pnl.gov/statistics/BEPro3",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

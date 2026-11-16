@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-02",
+        "metadataLastUpdated": "2021-07-02"
+    },
+    "description": "Analysis scripts associated with “Hydraulically-vulnerable trees survive on deep-water access in a tropical forest community”\n\nThis dataset contains R scripts for all the analyses to reproduce the manuscript, “Chitra-Tarak, Rutuja, Chonggang Xu, Kristina Anderson-Teixeira, Jeff Chambers, Matteo Detto, Boris Faybishenko, Rosie Fisher, Ryan Knox, Charlie Koven, Lara Kueppers, Nobert Kunert, Stefan J. Kupers, Nathan G. McDowell, Brent Newman, Steve Paton, Laurent Ruiz, Lawren Sack, Jeffrey Warren, Brett Wolfe, Cynthia Wright, S. Joseph Wright, Joseph Zailaa, Sean M. McMahon. Hydraulically-vulnerable trees survive on deep-water access in a tropical forest community. To be submitted”. These scripts are divided into two parts: the first set of scripts prepare files for running and processing simulations from the model, Energy Exascale Earth System Land Model-Functionally Assembled Advanced Terrestrial simulator (ELM-FATES) to obtain soil water availability by depth at BCI, Panama, and the second set of scripts are associated with all the analyses related to the inverse modeling for tree rooting depths at BCI. ",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Analysis scripts associated with manuscript, “Hydraulically-vulnerable trees survive on deep-water access during droughts in a tropical forest”",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/bci.elm.fates.hydrology",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

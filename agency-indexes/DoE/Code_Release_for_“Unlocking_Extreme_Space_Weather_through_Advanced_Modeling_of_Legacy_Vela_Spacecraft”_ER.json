@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2025-03-07",
+        "metadataLastUpdated": "2025-03-07"
+    },
+    "description": "The software being developed for this project has two mains aims.  First, a Bayesian Model Calibration (BMC) procedure is being developed to calibrate a spallation model that simulates protons hitting a spacecraft orbiting earth to real data.  The procedure will be developed for general data (there is no data release requested as part of this code release).  Second, an inverse physics modeling task is being undertaken to map the number of resulting neutrons observed from this process to the expected number of protons that hit the model.  This second task is of statistical interest; to publish on it, the code will need to be open source.",
+    "laborHours": 197.6,
+    "languages": [],
+    "name": "Code Release for “Unlocking Extreme Space Weather through Advanced Modeling of Legacy Vela Spacecraft” ER",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/vela_sep",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "For testing and demonstration purposes, it is often necessary to replay saved network and log data. This library facilitates replaying these saved data streams. This module will take in a stream of JSON strings, read their specified timestamp field, and output according to the given criteria. This can include restricting output to a certain time range, and/or outputting the items with some delay based on their timestamp.",
+    "laborHours": 40736.0,
+    "name": "Replay-Stream",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ornl-sava/replay-stream",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

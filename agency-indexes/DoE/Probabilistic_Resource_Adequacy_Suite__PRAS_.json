@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "gord.stephen@nrel.gov"
+    },
+    "date": {
+        "created": "2019-08-13",
+        "metadataLastUpdated": "2019-08-16"
+    },
+    "description": "The Probabilistic Resource Adequacy Suite (PRAS) provides an open-source, research-oriented collection of tools for analysing the resource adequacy of a bulk power system. The simulation methods offered support everything from classical convolution-based analytical techniques through to high-performance sequential Monte Carlo methods supporting multi-region composite reliability assessment, including simulation of energy-limited resources such as storage.",
+    "laborHours": 76.0,
+    "languages": [
+        "Julia"
+    ],
+    "name": "Probabilistic Resource Adequacy Suite (PRAS)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/PRAS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

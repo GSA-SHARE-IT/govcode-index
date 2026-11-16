@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2021-02-02",
+        "lastModified": "2026-04-07"
+    },
+    "description": "Terraform code to create a site-to-site VPN tunnel between the COOL and the CISA CDM (Continuous Diagnostics and Mitigation) environment, as well as some related resources to feed COOL logging data to CDM.",
+    "downloadURL": "https://api.github.com/repos/cisagov/cool-sharedservices-cdm/downloads",
+    "homepageURL": "https://github.com/cisagov/cool-sharedservices-cdm",
+    "laborHours": 971.9,
+    "languages": [
+        "HCL",
+        "Shell"
+    ],
+    "name": "cool-sharedservices-cdm",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/cool-sharedservices-cdm.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "cisa",
+        "cdm",
+        "security"
+    ],
+    "vcs": "git"
+}

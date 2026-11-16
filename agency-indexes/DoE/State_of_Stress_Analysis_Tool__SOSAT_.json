@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-05-14",
+        "metadataLastUpdated": "2019-05-14"
+    },
+    "description": "The State of Stress Assessment Tool (SOSAT) is a set of routines that take in information about a geologic carbon storage reservoir and generates a probability distribution for the state of stress in the reservoir before and during injection. As part of this, the tool reports the estimated probability of a critically-oriented fault becoming activated as a result of the injection. The tool also allows a storage site operator to evaluate the likely value of different types of characterization on the knowledge of the geomechanical conditions and probability of induced seismicity. ",
+    "homepageURL": "https://edx.netl.doe.gov/dataset/state-of-stress-analysis-tool",
+    "laborHours": 334.4,
+    "languages": [],
+    "name": "State of Stress Analysis Tool (SOSAT)",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://edx.netl.doe.gov/dataset/state-of-stress-analysis-tool",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

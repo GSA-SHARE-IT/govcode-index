@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "The Transport version 3 (T3) system uses the Network News Transfer Protocol (NNTP) to move data from sources to a Data Repository (DR). Interested recipients subscribe to newsgroups to retrieve data. Data in transport is protected by AES-256 and RSA cryptographic services provided by the external OpenSSL cryptographic libraries.",
+    "homepageURL": "https://svn.pnl.gov/transport",
+    "laborHours": 0.0,
+    "languages": [
+        "Python and Perl"
+    ],
+    "name": "Transport Version 3",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://svn.pnl.gov/transport",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://svn.pnl.gov/transport",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

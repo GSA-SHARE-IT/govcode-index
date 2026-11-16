@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2022-07-20",
+        "lastModified": "2026-09-02"
+    },
+    "description": "Terraform code to deploy cisagov/publish-egress-ip-lambda and related resources",
+    "downloadURL": "https://api.github.com/repos/cisagov/publish-egress-ip-terraform/downloads",
+    "homepageURL": "https://github.com/cisagov/publish-egress-ip-terraform",
+    "laborHours": 983.5,
+    "languages": [
+        "HCL",
+        "Shell",
+        "JavaScript"
+    ],
+    "name": "publish-egress-ip-terraform",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/publish-egress-ip-terraform.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-10-05",
+        "metadataLastUpdated": "2024-02-09"
+    },
+    "description": "The Legacy OpenStudio® SketchUp Plug-in makes it easy to create and edit the building geometry in EnergyPlus® input files. This free plug-in also allows you to launch EnergyPlus simulations and view the results without leaving the SketchUp 3D drawing program.\n\nNote that active OpenStudio development has moved from the Legacy OpenStudio Plug-in to the more comprehensive OpenStudio suite of tools and libraries found here: https://github.com/NREL/OpenStudio. More information can be found at http://openstudio.net.\n\nThe OpenStudio Legacy Plug-in has been relaunched as Euclid by Big Ladder Software, the project's new homepage is http://bigladdersoftware.com/projects/euclid/.\n\nThe Legacy OpenStudio Plug-in was created by the National Renewable Energy Laboratory for the U.S. Department of Energy as an interface to the EnergyPlus simulation engine. Refer to the EnergyPlus webpage at energyplus.gov for an overview of the concept and features.\n\nUser support is available via the community moderated question and answer resource unmethours.com.",
+    "laborHours": 17571.2,
+    "languages": [
+        "Ruby",
+        "HTML",
+        "JavaScript"
+    ],
+    "name": "Legacy OpenStudio® SketchUp Plug-in [SWR-07-40]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/legacy-openstudio",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.14"
+}

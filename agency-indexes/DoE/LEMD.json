@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "nsu@lifeeusa.com"
+    },
+    "date": {
+        "created": "2020-02-18",
+        "metadataLastUpdated": "2020-09-09"
+    },
+    "description": "Deep neural network-based force field enables researchers to study materials systems of large size and/or time scale efficiently with comparable accuracy to DFT-based methods. However, such force fields, if improperly trained or mistakenly selected, could result in ill-conditioned results. This SBIR Phase I project has explored the possibility to characterize and index force fields in Deep potential theme by quantizing local atomic environments of atoms in a simulation system. This project has also demonstrated the feasibility of building a public accessible web infrastructure providing high quality machine learning algorithm-based force field for next generation materials modeling and simulation to accelerate the study and discovery of new energy-related materials.",
+    "laborHours": 638.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "LEMD",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mogudaxia/LEMD.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

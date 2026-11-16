@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-07-27",
+        "metadataLastUpdated": "2020-07-27"
+    },
+    "description": "ddcMD is a general purpose molecular dynamics (MD) code that supports MPI parallelism. MD codes are\nused for simulation of particles systems and capture all the many-body effects of the underlying particle\npotential that defines the physical system. Though MD can be used to model systems from the\nsubatomic to astrological length scales ddcMD is mainly focused on the atomic scale length scale, In\nthis release of ddcMD the support will be mainly for systems using the coarse-grain Martini potential, a\nparticle potential for biological systems.",
+    "laborHours": 38197.6,
+    "languages": [],
+    "name": "ddcMD.os",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ddcMD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

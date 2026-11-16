@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-07-12",
+        "metadataLastUpdated": "2025-01-30"
+    },
+    "description": "Tardigrade-examples is a repository of computational workflows that exercise the Tardigrade software package. The Tardigrade software package is an implementation of Eringen’s micromorphic continuum theory with capabilities to support multiscale material modeling. These capabilities include homogenization through the Micromorphic Filter, calibration of micromorphic material models, and macroscale simulation in Tardigrade-MOOSE. This repository investigates continuum upscaling of various direct numerical simulations (DNS) conducted in Abaqus finite element (FE), Ratel FE, and GEOS material point method (MPM) software. Verification of the upscaling workflow is first investigated by considering DNS of trivial stress states for homogeneous materials, results of which indicate that classical continuum behavior is recovered as expected. DNS of heterogeneous materials are then considered.",
+    "laborHours": 10579.2,
+    "languages": [],
+    "name": "Tardigrade-examples V0.1.0",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Tardigrade-examples",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

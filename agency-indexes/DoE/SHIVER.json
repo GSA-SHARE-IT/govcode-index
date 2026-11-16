@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-30",
+        "metadataLastUpdated": "2021-07-30"
+    },
+    "description": "SHIVER (SARS CoV-2 Historically Identified Variants in Epitope Regions) analyzes and summarizes the historical record of amino acid sequences for the Spike protein of the SARS Cov-2 virus.  The analysis is focused on the N-terminal domain (NTD) and Receptor Binding domain (RBD) epitope regions, and aims to choose a set of variant forms that collectively cover a large fraction of the sequences in the alignment as a whole (globally) but also that cover large fractions of sequences collected on the different continents.  The software provides a set of Spike protein sequences in a standard (fasta) sequence format.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SHIVER",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

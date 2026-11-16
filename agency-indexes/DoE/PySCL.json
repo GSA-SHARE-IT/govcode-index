@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-11-30",
+        "metadataLastUpdated": "2020-11-30"
+    },
+    "description": "The PySCL (Python Standard Composition Library) is a library that provides a standard and consistent method of specifying the material mixtures for a given problem. The library enables software to use standard nuclide names and convenient naturally occurring composition and elemental abundances.",
+    "laborHours": 22055.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "PySCL",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/neams-workbench/PySCL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "organization": "ARS",
+    "name": "Automated Water Supply Model (AWSM)",
+    "description": "Automated Water Supply Model (AWSM) was developed at the USDA Agricultural Research Service (ARS) in Boise, ID. AWSM was designed to streamline the work flow used by the ARS to forecast the water supply of multiple water basins. AWSM standardizes the steps needed to distribute weather station data with SMRF, run an energy and mass balance with iSnobal, and process the results, while maintaining the flexibility of each program.",
+    "tags": [
+        "Northwest Watershed Research Center",
+        "watershed",
+        "hydrology",
+        "awsm",
+        "forecast",
+        "modeling",
+        "water",
+        "snow",
+        "usg-artificial-intelligence"
+    ],
+    "contact": {
+        "email": "source.code@ocio.usda.gov",
+        "name": ""
+    },
+    "status": "Production",
+    "vcs": "git",
+    "languages": [
+        "python"
+    ],
+    "repositoryURL": "https://github.com/USDA-ARS-NWRC/awsm.git",
+    "homepageURL": "https://github.com/USDA-ARS-NWRC/awsm",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://github.com/USDA-ARS-NWRC/awsm/blob/master/LICENSE.md",
+                "name": "CC0"
+            }
+        ],
+        "usageType": "openSource",
+        "exemptionText": null
+    },
+    "laborHours": 0,
+    "date": {
+        "created": "2017-01-18",
+        "lastModified": "2020-03-24",
+        "metadataLastUpdated": "2020-05-03"
+    }
+}

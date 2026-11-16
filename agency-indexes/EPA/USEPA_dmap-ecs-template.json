@@ -1,0 +1,33 @@
+{
+    "name": "USEPA/dmap-ecs-template",
+    "organization": "usepa",
+    "description": "A template showcasing automated deployment to DMAP using GitHub actions",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/dmap-ecs-template/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/dmap-ecs-template",
+    "downloadURL": "https://github.com/USEPA/dmap-ecs-template/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/dmap-ecs-template/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/dmap-ecs-template.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2023-05-15T14:13:18Z",
+        "lastModified": "2023-09-03T12:48:03Z",
+        "metadataLastUpdated": "2026-11-16T06:39:58.609Z"
+    }
+}

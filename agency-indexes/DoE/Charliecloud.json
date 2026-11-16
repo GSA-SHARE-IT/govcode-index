@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Charliecloud is a set of scripts to let users run a virtual cluster of virtual machines (VMs) on a desktop or supercomputer. Key functions include: 1. Creating (typically by installing an operating system from vendor media) and updating VM images; 2. Running a single VM; 3. Running multiple VMs in a virtual cluster. The virtual machines can talk to one another over the network and (in some cases) the outside world. This is accomplished by calling external programs such as QEMU and the Virtual Distributed Ethernet (VDE) suite. The goal is to let users have a virtual cluster containing nodes where they have privileged access, while isolating that privilege within the virtual cluster so it cannot affect the physical compute resources. Host configuration enforces security; this is not included in Charliecloud, though security guidelines are included in its documentation and Charliecloud is designed to facilitate such configuration. Charliecloud manages passing information from host computers into and out of the virtual machines, such as parameters of the virtual cluster, input data specified by the user, output data from virtual compute jobs, VM console display, and network connections (e.g., SSH or X11). Parameters for the virtual cluster (number of VMs, RAM and disk per VM, etc.) are specified by the user or gathered from the environment (e.g., SLURM environment variables). Example job scripts are included. These include computation examples (such as a \"hello world\" MPI job) as well as performance tests. They also include a security test script to verify that the virtual cluster is appropriately sandboxed. Tests include: 1. Pinging hosts inside and outside the virtual cluster to explore connectivity; 2. Port scans (again inside and outside) to see what services are available; 3. Sniffing tests to see what traffic is visible to running VMs; 4. IP address spoofing to test network functionality in this case; 5. File access tests to make sure host access permissions are enforced. This test script is not a comprehensive scanner and does not test for specific vulnerabilities. Importantly, no information about physical hosts or network topology is included in this script (or any of Charliecloud); while part of a sensible test, such information is specified by the user when the test is run. That is, one cannot learn anything about the LANL network or computing infrastructure by examining Charliecloud code.",
+    "laborHours": 4879.2,
+    "name": "Charliecloud",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hpc/charliecloud",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

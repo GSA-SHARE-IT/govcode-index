@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "kincaidkc@ornl.gov"
+    },
+    "date": {
+        "created": "2025-04-21",
+        "metadataLastUpdated": "2025-04-21"
+    },
+    "description": "CaptureFOAM provides utilities for fast and accurate direct air capture (DAC) contactor simulations, based on the OpenFOAM framework. At the core, CaptureFOAM is a suite of mass transfer and chemistry models built upon the OpenFOAM thin film model, which allows coarser mesh resolution and less constrictive time step requirements when compared to a traditional volume of fluid approach. This allows CaptureFOAM to conduct device-scale simulations for complex geometries including commercial packing materials and novel contactor shapes, matching experimental results in a wide variety of applications.",
+    "laborHours": 1200.8,
+    "languages": [
+        "C++"
+    ],
+    "name": "CaptureFOAM",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/CaptureFOAM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "mtatonett@bnl.gov"
+    },
+    "date": {
+        "created": "2025-03-13",
+        "metadataLastUpdated": "2025-03-13"
+    },
+    "description": "It is a pre-trained model for processing blurred and noisy tomographic reconstruction taken from a fast fly-scan.",
+    "laborHours": 167.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "ultra_fast_tomo",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/gmysage/ultra_fast_tomo",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "Web Operational Status Boards (WebOSB)is a web-based application designed to acquire, display, and update highly dynamic status information between multiple users and jurisdictions. WebOSB is able to disseminate real-time status information support the timely sharing of information with constant, dynamic updates via personal computers and the Internet between emergency operations centers (EOCs), incident command centers, and to users outside the EOC who need to know the information (hospitals, shelters, schools). The WebOSB application far exceeds outdated information-sharing methods used by emergency workers: whiteboards, Word and Excel documents, or even locality-specific Web sites. WebOSB's capabilities include the following elements: - Secure access. Multiple users can access information on WebOSB from any personal computer with Internet access and a secure ID. Privileges are use to control access and distribution of status information and to identify users who are authorized to add or edit information. - Simultaneous update. WebOSB provides options for users to add, display, and update dynamic information simultaneously at all locations involved in the emergency management effort, A single status board can be updated from multiple locations enabling shelters and hospitals to post bed availability or list decontamination capability. - On-the-fly modification. Allowing the definition of an existing status board to be modified on-the-fly can be an asset during an emergency, where information requirements can change quickly. The status board designer feature allows an administrator to quickly define, modi,, add to, and implement new status boards in minutes without needing the help of Web designers and computer programmers. - Publisher/subscriber notification. As a subscriber, each user automatically receives notification of any new information relating to specific status boards. The publisher/subscriber feature automatically notified each user of any new information relating to specific status boards. WebOSB can be installed to fit the specific needs of an emergency management community. Because it was originally developed to concurrently support multiple EOCs at the local, county, and state level, it can also support multi-user environments for other types of projects.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Web Operational Status Boards",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

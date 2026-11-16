@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-09-18",
+        "metadataLastUpdated": "2024-09-18"
+    },
+    "description": "Python scripts for physics informed machine learning for time-dependent problems. The code implements\nhard constrained sequential physics-informed neural networks (HCSPINNs) using JAX library. The details\nof the method and implementation can be found in the following paper:\nRoy, P., & Castonguay, S. (2024). Exact Enforcement of Temporal Continuity in Sequential Physics-\nInformed Neural Networks. arXiv preprint arXiv:2403.03223. (https://arxiv.org/abs/2403.03223)",
+    "laborHours": 1444.0,
+    "languages": [],
+    "name": "PhyML",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/PhyML",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

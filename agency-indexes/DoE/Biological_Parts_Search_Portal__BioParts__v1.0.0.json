@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-23",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "BioParts is a web based search portal for biological parts available in the public domain. It combines the ease and convenience of modern web search engines with the capabilities of bioinformatics search tools such as BLAST. This portal, available at bioparts.org, allows anyone to search for publicly accessible biological part information (e.g., NCBI, iGEM, SynBioHub, Addgene), including parts publicly accessible through ICE Registries. Additionally, the portal offers a REST API that enables third-party applications and tools to access the portal's functionality programmatically. While there are several standalone biological part repositories, there doesn't exist an application that indexes these publicly available parts and enables features such as keyword and BLAST searches along with automatic sequence annotation.",
+    "laborHours": 27694.4,
+    "languages": [],
+    "name": "Biological Parts Search Portal (BioParts) v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/JBEI/BioParts",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

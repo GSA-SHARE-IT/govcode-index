@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2021-06-17"
+    },
+    "description": "From a single data description file, this package generates a simple but complete RESTful web interface to a relational database, in the form of containers that run in a Docker environment. This initial version produces containers that are intended for use on the NERSC Spin platform. It was developed as a foundation for the smart catalog created for LDRD FY20 ACTS: Accelerating COVID-19 Testing with Screening.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "REST Interface Generator (RESTInG) v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dani-lbnl/resting.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-08-18",
+        "metadataLastUpdated": "2021-08-19"
+    },
+    "description": "This package is a set of extensions to MOOSE (https://moose.inl.gov) adding anisotropic graphite material models for irradiation creep and swelling. The goal of the package is to provide a framework to model graphite components for use in future high temperature nuclear reactors.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GOOSE (GRAPHITE OBJECT-ORIENTED SIMULATION ENVIRONMENT)",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Argonne-National-Laboratory/goose",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

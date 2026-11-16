@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-08-14",
+        "metadataLastUpdated": "2019-08-15"
+    },
+    "description": "A Python library and GUI for doing comparisons of EnergyPlus® builds. EPRT is almost exclusively a developer tool for members of the EnergyPlus® development team to ensure that code changes are not impacting the test suite.",
+    "laborHours": 16856.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "EnergyPlus® Regression Tool (EPRT)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/EnergyPlusRegressionTool",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

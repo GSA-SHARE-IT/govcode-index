@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-10-25",
+        "metadataLastUpdated": "2019-10-25"
+    },
+    "description": "Web-based Interface for the N-Dimensional Data Analysis and Visualization System.",
+    "laborHours": 10913.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "NDDAV",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/NDDAV",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

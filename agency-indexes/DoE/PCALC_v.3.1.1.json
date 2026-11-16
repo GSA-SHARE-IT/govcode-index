@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "awander@sandia.gov"
+    },
+    "date": {
+        "created": "2018-08-24",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "PCalc is software to interrogate models of the seismic compressional and shear wave velocity distribution in the Earth and to compute predictions of seismic source-receiver travel time through such models.",
+    "laborHours": 291095.2,
+    "languages": [
+        "Java",
+        "HTML"
+    ],
+    "name": "PCALC v.3.1.1",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/Salsa3DSoftware?tab=License-1-ov-file#readme",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/Salsa3DSoftware",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "3.1.1"
+}

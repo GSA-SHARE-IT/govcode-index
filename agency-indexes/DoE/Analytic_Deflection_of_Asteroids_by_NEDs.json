@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-08-28",
+        "metadataLastUpdated": "2023-08-28"
+    },
+    "description": "This package evaluates an analytic formula for the change in velocity imparted to an asteroid by a 1 or 2\nkeV black body source given the radius of the asteroid, the standoff distance, the x-ray yield, the density\nof the asteroid, and the fit coefficients for the 1 or 2 keV black body source (provided in the module).\nThree variations of the formula are given; the \"original\" form, the \"modified\" form that accounts for the\nangle of incidence in calculating the melt depth, and a form based on an \"impulse\" model.\nEach formula is fit to simulations of spherical asteroids of uniform composition illuminated by black body\nx-rays.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Analytic_Deflection_of_Asteroids_by_NEDs",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/Analytic_Deflection_of_Asteroids_by_NEDs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

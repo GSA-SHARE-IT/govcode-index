@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-07-29",
+        "metadataLastUpdated": "2022-07-29"
+    },
+    "description": "The BPP package contains R code to perform Bayesian projection pursuit regression under various regression settings. Bayesian projection pursuit regression learns the functional relationship between inputs and outputs by considering a sum of functions of one dimensional projections of the inputs. This is useful as a general machine learning software.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "BPP R package",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/gqcollins/BayesPPR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

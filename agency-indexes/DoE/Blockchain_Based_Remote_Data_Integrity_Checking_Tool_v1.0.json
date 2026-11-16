@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-09-30",
+        "metadataLastUpdated": "2019-10-01"
+    },
+    "description": "Computer System Security: The software is used to perform remote data integrity checking without relying on a single third party. In order to remove the trusted third party our tool uses distributed ledger (Blockchain) technology. The ledger is used to store evidences (in the form of hash values). These values are used as an input in the integrity checking process.",
+    "laborHours": 1003.2,
+    "languages": [],
+    "name": "Blockchain Based Remote Data Integrity Checking Tool v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbnl-cybersecurity/hpc_data_integrity_code",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

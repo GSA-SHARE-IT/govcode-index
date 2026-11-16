@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "The purpose of this model was to facilitate the design of a control system that uses fine grained control of residential and small commercial HVAC loads to counterbalance voltage swings caused by intermittent solar power sources (e.g., rooftop panels) installed in that distribution circuit. Included is the source code and pre-compiled 64 bit dll for adding building HVAC loads to an OpenDSS distribution circuit. As written, the Makefile assumes you are using the Microsoft C++ development tools.",
+    "homepageURL": "https://sourceforge.net/projects/sunlamp",
+    "laborHours": 1246.4,
+    "languages": [
+        "Visual Studio 2015"
+    ],
+    "name": "Sunlamp",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://sourceforge.net/p/sunlamp/code/ci/master/tree/copyright.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sourceforge.net/projects/sunlamp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

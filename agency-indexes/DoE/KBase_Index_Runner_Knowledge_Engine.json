@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-07-23",
+        "metadataLastUpdated": "2020-07-31"
+    },
+    "description": "Creates indexes for Elasticsearch and ArangoDB from genomic data on KBase. This is a background service that listens to events from the KBase Workspace and automatically generates graph data and search indexes to enrich the workspace object data. It consumes event from a Kafka topic and sends data into ArangoDB and Elasticsearch. It is designed to have the service replicated in Rancher. Be sure to partition the topic to at least the number of running workers.",
+    "laborHours": 541758.4,
+    "languages": [],
+    "name": "KBase Index Runner/Knowledge Engine",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/index_runner_deluxe",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

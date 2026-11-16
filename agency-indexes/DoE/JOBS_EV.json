@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-12-30",
+        "metadataLastUpdated": "2021-12-30"
+    },
+    "description": "JOBS EV estimates economic impact associated with deploying electric vehicle supply equipment.  It is a derivative of the other JOBS models available at the ES website.",
+    "homepageURL": "https://jobsfc.es.anl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "JOBS EV",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://jobsfc.es.anl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-01-10",
+        "metadataLastUpdated": "2024-03-11"
+    },
+    "description": "PowerSystems.jl is a package to organize and manipulate data for the study of energy systems with diverse modeling requirements. This software serves two main purposes: to reduce the burden of large power system data set development, and to promote reproducible research and simulation. PowerSystems.jl implements an abstract hierarchy to represent and customize power systems data and includes data containers for quasi-static and dynamic simulation applications. Key features include efficient management of large quantities of time series data, optimized serialization, and comprehensive validation capabilities.\n\nFor further information regarding the Sienna modeling framework at NREL, see: https://www.nrel.gov/analysis/sienna.html",
+    "laborHours": 0.0,
+    "languages": [
+        "Julia"
+    ],
+    "name": "PSY (PowerSystems.jl) [SWR-23-105]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL-Sienna/PowerSystems.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "v3.2.2"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "pieper@ameslab.gov"
+    },
+    "date": {
+        "created": "2023-09-29",
+        "metadataLastUpdated": "2023-09-29"
+    },
+    "description": "CMakePPLang is an object-oriented extension to the CMake language written entirely using the original CMake language, with the goal of making projects built on CMake easier to create and maintain.",
+    "laborHours": 0.0,
+    "languages": [
+        "CMake"
+    ],
+    "name": "CMakePP/CMakePPLang",
+    "organization": "Ames Laboratory (AMES)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CMakePP/CMakePPLang",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Ames Laboratory (AMES)"
+    ],
+    "vcs": "git"
+}

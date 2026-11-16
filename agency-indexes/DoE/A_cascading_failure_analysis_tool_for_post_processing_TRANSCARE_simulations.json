@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "This is a MATLAB-based tool to post process simulation results in the EPRI software TRANSCARE, for massive cascading failure analysis following severe disturbances. There are a few key modules available in this tool, including: 1. automatically creating a contingency list to run TRANSCARE simulations, including substation outages above a certain kV threshold, N-k (1, 2 or 3) generator outages and branch outages; 2. read in and analyze a CKO file of PCG definition, an initiating event list, and a CDN file; 3. post process all the simulation results saved in a CDN file and perform critical event corridor analysis; 4. provide a summary of TRANSCARE simulations; 5. Identify the most frequently occurring event corridors in the system; and 6. Rank the contingencies using a user defined security index to quantify consequences in terms of total load loss, total number of cascades, etc.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "Matlab"
+    ],
+    "name": "A cascading failure analysis tool for post processing TRANSCARE simulations",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

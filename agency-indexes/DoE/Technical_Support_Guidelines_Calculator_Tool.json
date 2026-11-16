@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "awander@sandia.gov"
+    },
+    "date": {
+        "created": "2018-08-24",
+        "metadataLastUpdated": "2018-10-23"
+    },
+    "description": "Sandia National Laboratories has taken a set of calculation aids from the Boiling Water Reactor Owners’ Group (BWROG) Technical Support Guidelines (TSG), which assist operators and engineers using Emergency Operating Procedures and Severe Accident Management Guidelines, and integrated them into a user-friendly Java-based software.  This effort has begun the conversion of these TSG calculations into a Java application format from the original Excel spreadsheets.  The original set of Excel spreadsheet calculation aids do not provide the same level of integration, usability, intuitiveness, and speed as a well-designed Java-based application. Achieving the best combination of these characteristics is highly important in an emergency response tool to mitigate a high stress situation and allow a faster, more robust response. Integration in a Java-based application allows for data to be better organized and communicated during the incident.",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 0.0,
+    "languages": [
+        "Java"
+    ],
+    "name": "Technical Support Guidelines Calculator Tool",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

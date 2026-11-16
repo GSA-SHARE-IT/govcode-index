@@ -203,7 +203,7 @@
             },
             "date": {
                 "created": "2017-12-18",
-                "lastModified": "2026-09-02"
+                "lastModified": "2026-11-06"
             },
             "description": "Automated pshtt, trustymail, and sslyze scanning",
             "downloadURL": "https://api.github.com/repos/cisagov/scanner/downloads",
@@ -757,7 +757,7 @@
             },
             "date": {
                 "created": "2018-08-13",
-                "lastModified": "2026-10-14"
+                "lastModified": "2026-11-06"
             },
             "description": "Code to generate Cyber Hygiene (CyHy) reports",
             "downloadURL": "https://api.github.com/repos/cisagov/cyhy-reports/downloads",
@@ -2001,7 +2001,7 @@
             },
             "date": {
                 "created": "2019-04-12",
-                "lastModified": "2025-11-17"
+                "lastModified": "2026-11-06"
             },
             "description": "No description available...",
             "downloadURL": "https://api.github.com/repos/cisagov/client-cert-update/downloads",
@@ -2773,7 +2773,7 @@
             },
             "date": {
                 "created": "2019-05-13",
-                "lastModified": "2026-11-05"
+                "lastModified": "2026-11-12"
             },
             "description": "Malcolm is a powerful, easily deployable network traffic analysis tool suite for full packet capture artifacts (PCAP files), Zeek logs and Suricata alerts.",
             "downloadURL": "https://api.github.com/repos/cisagov/Malcolm/downloads",
@@ -3018,6 +3018,55 @@
                 "ansible-role",
                 "cyhy",
                 "cyhy-archive"
+            ],
+            "vcs": "git"
+        },
+        {
+            "contact": {
+                "URL": "https://github.com/cisagov",
+                "email": "do_not_email_just_use_github@dhs.gov"
+            },
+            "date": {
+                "created": "2019-05-15",
+                "lastModified": "2026-11-07"
+            },
+            "description": "Cybersecurity Evaluation Tool",
+            "downloadURL": "https://api.github.com/repos/cisagov/cset/downloads",
+            "homepageURL": "https://github.com/cisagov/cset",
+            "laborHours": 0.0,
+            "languages": [
+                "TSQL",
+                "JavaScript",
+                "HTML",
+                "C#",
+                "TypeScript",
+                "SCSS",
+                "CSS",
+                "Java",
+                "Shell",
+                "Python",
+                "PowerShell",
+                "Sass",
+                "Dockerfile",
+                "Batchfile"
+            ],
+            "name": "cset",
+            "organization": "Cybersecurity and Infrastructure Security Agency",
+            "permissions": {
+                "licenses": [
+                    {
+                        "URL": "https://api.github.com/licenses/mit",
+                        "name": "MIT"
+                    }
+                ],
+                "usageType": "openSource"
+            },
+            "repositoryURL": "https://github.com/cisagov/cset.git",
+            "status": "Development",
+            "tags": [
+                "github",
+                "cset",
+                "security-audit"
             ],
             "vcs": "git"
         },
@@ -3341,7 +3390,7 @@
             },
             "date": {
                 "created": "2019-05-31",
-                "lastModified": "2026-10-28"
+                "lastModified": "2026-11-06"
             },
             "description": "Docker container with a postfix server designed for use during phishing campaigns",
             "downloadURL": "https://api.github.com/repos/cisagov/postfix-docker/downloads",
@@ -3377,7 +3426,7 @@
             },
             "date": {
                 "created": "2019-05-31",
-                "lastModified": "2026-05-07"
+                "lastModified": "2026-11-06"
             },
             "description": "Docker container for the gophish phishing framework.",
             "downloadURL": "https://api.github.com/repos/cisagov/gophish-docker/downloads",
@@ -3563,7 +3612,7 @@
             },
             "date": {
                 "created": "2019-06-06",
-                "lastModified": "2026-08-31"
+                "lastModified": "2026-11-06"
             },
             "description": "A skeleton project for quickly getting a new cisagov Docker container started.",
             "downloadURL": "https://api.github.com/repos/cisagov/skeleton-docker/downloads",
@@ -3753,7 +3802,7 @@
             },
             "date": {
                 "created": "2019-06-17",
-                "lastModified": "2026-11-05"
+                "lastModified": "2026-11-12"
             },
             "description": "A set of guidelines and best practices for an awesome engineering team",
             "downloadURL": "https://api.github.com/repos/cisagov/development-guide/downloads",
@@ -3900,7 +3949,7 @@
             },
             "date": {
                 "created": "2019-06-20",
-                "lastModified": "2026-08-31"
+                "lastModified": "2026-11-06"
             },
             "description": "A skeleton project for quickly getting a new cisagov packer project started.",
             "downloadURL": "https://api.github.com/repos/cisagov/skeleton-packer/downloads",
@@ -4128,7 +4177,7 @@
             "description": "Create a Fedora-based AMI with FreeIPA server installed.",
             "downloadURL": "https://api.github.com/repos/cisagov/freeipa-server-packer/downloads",
             "homepageURL": "https://github.com/cisagov/freeipa-server-packer",
-            "laborHours": 1469.0,
+            "laborHours": 1469.5,
             "languages": [
                 "HCL",
                 "Shell",
@@ -4566,7 +4615,7 @@
             },
             "date": {
                 "created": "2019-08-06",
-                "lastModified": "2026-11-05"
+                "lastModified": "2026-11-06"
             },
             "description": "Certbot container that stores its configuration in an AWS S3 bucket",
             "downloadURL": "https://api.github.com/repos/cisagov/certboto-docker/downloads",
@@ -5187,12 +5236,12 @@
             },
             "date": {
                 "created": "2019-10-25",
-                "lastModified": "2026-10-13"
+                "lastModified": "2026-11-06"
             },
             "description": "Set up a standard environment used by cisagov GitHub action workflows",
             "downloadURL": "https://api.github.com/repos/cisagov/setup-env-github-action/downloads",
             "homepageURL": "https://github.com/cisagov/setup-env-github-action",
-            "laborHours": 16066.6,
+            "laborHours": 16076.1,
             "languages": [
                 "Shell",
                 "JavaScript"
@@ -5334,7 +5383,7 @@
             },
             "date": {
                 "created": "2019-12-11",
-                "lastModified": "2026-09-29"
+                "lastModified": "2026-11-06"
             },
             "description": "Distributed certificate transparency log harvester",
             "downloadURL": "https://api.github.com/repos/cisagov/admiral/downloads",
@@ -7180,7 +7229,7 @@
             },
             "date": {
                 "created": "2020-06-24",
-                "lastModified": "2026-10-30"
+                "lastModified": "2026-11-06"
             },
             "description": "External monitoring for organization assets",
             "downloadURL": "https://api.github.com/repos/cisagov/crossfeed/downloads",
@@ -7366,7 +7415,7 @@
             },
             "date": {
                 "created": "2020-07-24",
-                "lastModified": "2026-10-13"
+                "lastModified": "2026-11-12"
             },
             "description": "President's Cup Cybersecurity Competition Challenges",
             "downloadURL": "https://api.github.com/repos/cisagov/prescup-challenges/downloads",
@@ -7473,7 +7522,7 @@
             },
             "date": {
                 "created": "2020-07-27",
-                "lastModified": "2026-04-08"
+                "lastModified": "2026-11-06"
             },
             "description": "Flask API for Domain Manager",
             "downloadURL": "https://api.github.com/repos/cisagov/domain-manager-api/downloads",
@@ -7778,7 +7827,7 @@
             },
             "date": {
                 "created": "2020-08-13",
-                "lastModified": "2026-05-15"
+                "lastModified": "2026-11-06"
             },
             "description": "A skeleton project for quickly getting a new cisagov Ansible role started when that role requires an AWS test user.",
             "downloadURL": "https://api.github.com/repos/cisagov/skeleton-ansible-role-with-test-user/downloads",
@@ -8497,7 +8546,7 @@
             },
             "date": {
                 "created": "2020-12-25",
-                "lastModified": "2026-11-01"
+                "lastModified": "2026-11-06"
             },
             "description": "Sparrow.ps1 was created by CISA's Cloud Forensics team to help detect possible compromised accounts and applications in the Azure/m365 environment.",
             "downloadURL": "https://api.github.com/repos/cisagov/Sparrow/downloads",
@@ -8604,7 +8653,7 @@
             },
             "date": {
                 "created": "2021-01-05",
-                "lastModified": "2026-10-22"
+                "lastModified": "2026-11-10"
             },
             "description": "Industrial Control Systems Network Protocol Parsers",
             "downloadURL": "https://api.github.com/repos/cisagov/ICSNPP/downloads",
@@ -8636,12 +8685,12 @@
             },
             "date": {
                 "created": "2021-01-19",
-                "lastModified": "2026-10-17"
+                "lastModified": "2026-11-12"
             },
             "description": "Zeek BACnet Parser - CISA ICSNPP",
             "downloadURL": "https://api.github.com/repos/cisagov/icsnpp-bacnet/downloads",
             "homepageURL": "https://github.com/cisagov/icsnpp-bacnet",
-            "laborHours": 2214.4,
+            "laborHours": 2222.4,
             "languages": [
                 "JavaScript",
                 "Zeek",
@@ -9422,7 +9471,7 @@
             },
             "date": {
                 "created": "2021-02-22",
-                "lastModified": "2025-04-04"
+                "lastModified": "2026-11-06"
             },
             "description": "Docker image to run VDP scanning.",
             "downloadURL": "https://api.github.com/repos/cisagov/vdp-scanner-docker/downloads",
@@ -9848,7 +9897,7 @@
             },
             "date": {
                 "created": "2021-04-19",
-                "lastModified": "2026-03-03"
+                "lastModified": "2026-11-06"
             },
             "description": "Zeek BSAP Parser - CISA ICSNPP",
             "downloadURL": "https://api.github.com/repos/cisagov/icsnpp-bsap/downloads",
@@ -10035,12 +10084,12 @@
             },
             "date": {
                 "created": "2021-04-29",
-                "lastModified": "2026-11-05"
+                "lastModified": "2026-11-12"
             },
             "description": "Official list of .gov domains and related data",
             "downloadURL": "https://api.github.com/repos/cisagov/dotgov-data/downloads",
             "homepageURL": "https://github.com/cisagov/dotgov-data",
-            "laborHours": 292914.2,
+            "laborHours": 293025.6,
             "languages": [
                 "HTML",
                 "Shell"
@@ -11505,7 +11554,7 @@
             },
             "date": {
                 "created": "2022-01-18",
-                "lastModified": "2026-10-17"
+                "lastModified": "2026-11-09"
             },
             "description": "Zeek OPCUA Binary Parser - CISA ICSNPP",
             "downloadURL": "https://api.github.com/repos/cisagov/icsnpp-opcua-binary/downloads",
@@ -12378,12 +12427,12 @@
             },
             "date": {
                 "created": "2022-07-21",
-                "lastModified": "2026-11-05"
+                "lastModified": "2026-11-12"
             },
             "description": "Automation to assess the state of your M365 tenant against CISA's baselines",
             "downloadURL": "https://api.github.com/repos/cisagov/ScubaGear/downloads",
             "homepageURL": "https://github.com/cisagov/ScubaGear",
-            "laborHours": 187198.3,
+            "laborHours": 187211.0,
             "languages": [
                 "PowerShell",
                 "HTML",
@@ -12429,12 +12478,12 @@
             },
             "date": {
                 "created": "2022-08-01",
-                "lastModified": "2026-11-05"
+                "lastModified": "2026-11-10"
             },
             "description": "A Django-based domain name registrar that interfaces with an EPP registry",
             "downloadURL": "https://api.github.com/repos/cisagov/manage.get.gov/downloads",
             "homepageURL": "https://github.com/cisagov/manage.get.gov",
-            "laborHours": 94244.2,
+            "laborHours": 93697.5,
             "languages": [
                 "Python",
                 "JavaScript",
@@ -12653,7 +12702,7 @@
             },
             "date": {
                 "created": "2022-10-03",
-                "lastModified": "2026-11-04"
+                "lastModified": "2026-11-09"
             },
             "description": "RedEye is a visual analytic tool supporting Red & Blue Team operations",
             "downloadURL": "https://api.github.com/repos/cisagov/RedEye/downloads",
@@ -13002,12 +13051,12 @@
             },
             "date": {
                 "created": "2023-01-03",
-                "lastModified": "2026-11-04"
+                "lastModified": "2026-11-06"
             },
             "description": "The website for the .gov registry",
             "downloadURL": "https://api.github.com/repos/cisagov/get.gov/downloads",
             "homepageURL": "https://github.com/cisagov/get.gov",
-            "laborHours": 13221.5,
+            "laborHours": 13222.2,
             "languages": [
                 "HTML",
                 "SCSS",
@@ -13038,7 +13087,7 @@
             },
             "date": {
                 "created": "2023-01-04",
-                "lastModified": "2026-11-05"
+                "lastModified": "2026-11-11"
             },
             "description": "Git scraping BIA's Tribal Leaders Directory for .gov registry awareness",
             "downloadURL": "https://api.github.com/repos/cisagov/flat-tribal-leaders/downloads",
@@ -13207,7 +13256,7 @@
             },
             "date": {
                 "created": "2023-01-31",
-                "lastModified": "2026-09-03"
+                "lastModified": "2026-11-06"
             },
             "description": "Docker components for the dreaded Rear Admiral",
             "downloadURL": "https://api.github.com/repos/cisagov/admiral-docker/downloads",
@@ -13382,7 +13431,7 @@
             },
             "date": {
                 "created": "2023-02-15",
-                "lastModified": "2026-11-04"
+                "lastModified": "2026-11-06"
             },
             "description": "A web application that assists network defenders, analysts, and researchers in the process of mapping adversary behaviors to the MITRE ATT&CK® framework.",
             "downloadURL": "https://api.github.com/repos/cisagov/decider/downloads",
@@ -13626,7 +13675,7 @@
             },
             "date": {
                 "created": "2023-03-22",
-                "lastModified": "2026-11-03"
+                "lastModified": "2026-11-06"
             },
             "description": "Untitled Goose Tool is a robust and flexible hunt and incident response tool that adds novel authentication and data gathering methods in order to run a full investigation against a customer\u2019s Azure Active Directory (AzureAD), Azure, and M365 environments.",
             "downloadURL": "https://api.github.com/repos/cisagov/untitledgoosetool/downloads",
@@ -13953,7 +14002,7 @@
             },
             "date": {
                 "created": "2023-06-12",
-                "lastModified": "2026-05-02"
+                "lastModified": "2026-11-06"
             },
             "description": "Process to build and distribute Technical Phishing Test (TPT) reports",
             "downloadURL": "https://api.github.com/repos/cisagov/tpt-reports/downloads",
@@ -14023,12 +14072,12 @@
             },
             "date": {
                 "created": "2023-06-20",
-                "lastModified": "2026-11-03"
+                "lastModified": "2026-11-08"
             },
             "description": "Snaffler reimplementation in Python - https://github.com/SnaffCon/Snaffler ",
             "downloadURL": "https://api.github.com/repos/cisagov/snafflepy/downloads",
             "homepageURL": "https://github.com/cisagov/snafflepy",
-            "laborHours": 1342.5,
+            "laborHours": 1394.7,
             "languages": [
                 "Python",
                 "Shell"
@@ -14117,7 +14166,7 @@
             },
             "date": {
                 "created": "2023-07-06",
-                "lastModified": "2025-10-08"
+                "lastModified": "2026-11-06"
             },
             "description": "Automated process to collect data for the Posture and Exposure (P&E) reports.",
             "downloadURL": "https://api.github.com/repos/cisagov/pe-source/downloads",
@@ -14213,12 +14262,12 @@
             },
             "date": {
                 "created": "2023-07-24",
-                "lastModified": "2026-11-05"
+                "lastModified": "2026-11-12"
             },
             "description": "SCuBA Secure Configuration Baselines and assessment tool for Google Workspace ",
             "downloadURL": "https://api.github.com/repos/cisagov/ScubaGoggles/downloads",
             "homepageURL": "https://github.com/cisagov/ScubaGoggles",
-            "laborHours": 369027.5,
+            "laborHours": 369418.7,
             "languages": [
                 "Python",
                 "Open Policy Agent",
@@ -14301,12 +14350,12 @@
             },
             "date": {
                 "created": "2023-08-16",
-                "lastModified": "2026-11-05"
+                "lastModified": "2026-11-12"
             },
             "description": "CISA CSAF Security Advisories",
             "downloadURL": "https://api.github.com/repos/cisagov/CSAF/downloads",
             "homepageURL": "https://github.com/cisagov/CSAF",
-            "laborHours": 2774984.3,
+            "laborHours": 2781609.9,
             "languages": [
                 "Python"
             ],
@@ -14470,7 +14519,7 @@
             },
             "date": {
                 "created": "2023-10-06",
-                "lastModified": "2026-11-05"
+                "lastModified": "2026-11-11"
             },
             "description": "Logging Made Easy (LME) is a no cost, open source platform that centralizes log collection, enhances threat detection, and enables real-time alerting, helping small to medium-sized organizations secure their infrastructure. LME Docs can be found at https://cisagov.github.io/lme-docs/docs/",
             "downloadURL": "https://api.github.com/repos/cisagov/LME/downloads",
@@ -14661,12 +14710,12 @@
             },
             "date": {
                 "created": "2024-01-03",
-                "lastModified": "2026-11-05"
+                "lastModified": "2026-11-12"
             },
             "description": "CyHy Dashboard",
             "downloadURL": "https://api.github.com/repos/cisagov/XFD/downloads",
             "homepageURL": "https://github.com/cisagov/XFD",
-            "laborHours": 216339.8,
+            "laborHours": 218083.5,
             "languages": [
                 "Python",
                 "TypeScript",
@@ -15265,12 +15314,12 @@
             },
             "date": {
                 "created": "2024-04-24",
-                "lastModified": "2026-11-05"
+                "lastModified": "2026-11-12"
             },
             "description": "A repo to conduct vulnerability enrichment.",
             "downloadURL": "https://api.github.com/repos/cisagov/vulnrichment/downloads",
             "homepageURL": "https://github.com/cisagov/vulnrichment",
-            "laborHours": 54293046.5,
+            "laborHours": 57784720.6,
             "languages": [],
             "name": "vulnrichment",
             "organization": "Cybersecurity and Infrastructure Security Agency",
@@ -15926,12 +15975,12 @@
             },
             "date": {
                 "created": "2025-01-27",
-                "lastModified": "2026-11-05"
+                "lastModified": "2026-11-12"
             },
             "description": "Mirror of cisa.gov/kev data files",
             "downloadURL": "https://api.github.com/repos/cisagov/kev-data/downloads",
             "homepageURL": "https://github.com/cisagov/kev-data",
-            "laborHours": 19305.2,
+            "laborHours": 19437.3,
             "languages": [
                 "HTML"
             ],
@@ -16302,7 +16351,7 @@
             },
             "date": {
                 "created": "2025-03-24",
-                "lastModified": "2025-05-01"
+                "lastModified": "2026-11-09"
             },
             "description": "No description available...",
             "downloadURL": "https://api.github.com/repos/cisagov/unite-framework/downloads",
@@ -16369,7 +16418,7 @@
             },
             "date": {
                 "created": "2025-04-16",
-                "lastModified": "2026-11-04"
+                "lastModified": "2026-11-06"
             },
             "description": "A scalable file analysis and data generation platform that allows users to easily orchestrate arbitrary docker/vm/shell tools at scale.",
             "downloadURL": "https://api.github.com/repos/cisagov/thorium/downloads",
@@ -16418,17 +16467,31 @@
             },
             "date": {
                 "created": "2025-04-24",
-                "lastModified": "2026-11-05"
+                "lastModified": "2026-11-06"
             },
             "description": "Validated Architecture Design Review assessment automation tool",
             "downloadURL": "https://api.github.com/repos/cisagov/eleVADR/downloads",
             "homepageURL": "https://github.com/cisagov/eleVADR",
-            "laborHours": 1.3,
-            "languages": [],
+            "laborHours": 111246.2,
+            "languages": [
+                "TypeScript",
+                "Python",
+                "CSS",
+                "JavaScript",
+                "Batchfile",
+                "HTML",
+                "Zeek",
+                "Dockerfile"
+            ],
             "name": "eleVADR",
             "organization": "Cybersecurity and Infrastructure Security Agency",
             "permissions": {
-                "licenses": null,
+                "licenses": [
+                    {
+                        "URL": "https://api.github.com/licenses/cc0-1.0",
+                        "name": "CC0-1.0"
+                    }
+                ],
                 "usageType": "openSource"
             },
             "repositoryURL": "https://github.com/cisagov/eleVADR.git",
@@ -16946,12 +17009,12 @@
             },
             "date": {
                 "created": "2025-10-27",
-                "lastModified": "2026-11-05"
+                "lastModified": "2026-11-12"
             },
             "description": "Test area for dotgov-data",
             "downloadURL": "https://api.github.com/repos/cisagov/dotgov-data-staging/downloads",
             "homepageURL": "https://github.com/cisagov/dotgov-data-staging",
-            "laborHours": 263220.7,
+            "laborHours": 263254.0,
             "languages": [
                 "HTML",
                 "Shell"
@@ -17327,7 +17390,7 @@
             },
             "date": {
                 "created": "2026-05-20",
-                "lastModified": "2026-10-13"
+                "lastModified": "2026-11-07"
             },
             "description": "VINCE-NT documentation and issue tracking",
             "downloadURL": "https://api.github.com/repos/cisagov/VINCE-NT/downloads",
@@ -17354,12 +17417,12 @@
             },
             "date": {
                 "created": "2026-07-24",
-                "lastModified": "2026-11-05"
+                "lastModified": "2026-11-06"
             },
             "description": "No description available...",
             "downloadURL": "https://api.github.com/repos/cisagov/IMX/downloads",
             "homepageURL": "https://github.com/cisagov/IMX",
-            "laborHours": 196629.0,
+            "laborHours": 196652.1,
             "languages": [
                 "TypeScript",
                 "HTML",
@@ -17423,12 +17486,12 @@
             },
             "date": {
                 "created": "2026-08-03",
-                "lastModified": "2026-11-04"
+                "lastModified": "2026-11-06"
             },
             "description": "No description available...",
             "downloadURL": "https://api.github.com/repos/cisagov/IMX-TAXII-Server/downloads",
             "homepageURL": "https://github.com/cisagov/IMX-TAXII-Server",
-            "laborHours": 35695.8,
+            "laborHours": 35747.0,
             "languages": [
                 "Java",
                 "HTML",
@@ -17606,12 +17669,12 @@
             },
             "date": {
                 "created": "2026-09-30",
-                "lastModified": "2026-11-04"
+                "lastModified": "2026-11-09"
             },
             "description": "A collection of Sigma detection rules for SIEM platforms to identify malicious or suspicious activity and potential threats. Modify the rules as needed to align with your organization\u2019s environment and specific hunt objectives. These rules support threat detection, threat hunting, incident response, and related cybersecurity activities.",
             "downloadURL": "https://api.github.com/repos/cisagov/SIGMA_Rules/downloads",
             "homepageURL": "https://github.com/cisagov/SIGMA_Rules",
-            "laborHours": 181.6,
+            "laborHours": 284.4,
             "languages": [],
             "name": "SIGMA_Rules",
             "organization": "Cybersecurity and Infrastructure Security Agency",
@@ -17810,12 +17873,12 @@
             },
             "date": {
                 "created": "2026-11-02",
-                "lastModified": "2026-11-04"
+                "lastModified": "2026-11-06"
             },
             "description": "CISA CSAF Aggregator Repository",
             "downloadURL": "https://api.github.com/repos/cisagov/CSAF-Aggregator/downloads",
             "homepageURL": "https://github.com/cisagov/CSAF-Aggregator",
-            "laborHours": 3913227.4,
+            "laborHours": 3914141.8,
             "languages": [],
             "name": "CSAF-Aggregator",
             "organization": "Cybersecurity and Infrastructure Security Agency",
@@ -17841,345 +17904,13 @@
                 "email": "do_not_email_just_use_github@dhs.gov"
             },
             "date": {
-                "created": "2016-07-05",
-                "lastModified": "2025-09-29"
-            },
-            "description": "UI Theme for U.S. Customs and Border Protection web applications",
-            "downloadURL": "https://api.github.com/repos/US-CBP/cbp-theme/downloads",
-            "homepageURL": "https://github.com/US-CBP/cbp-theme",
-            "laborHours": 84552.7,
-            "languages": [
-                "JavaScript",
-                "HTML",
-                "SCSS",
-                "Swift",
-                "CSS",
-                "Objective-C",
-                "Shell"
-            ],
-            "name": "cbp-theme",
-            "organization": "U.S. Customs and Border Protection",
-            "permissions": {
-                "licenses": [
-                    {
-                        "name": "NOASSERTION"
-                    }
-                ],
-                "usageType": "openSource"
-            },
-            "repositoryURL": "https://github.com/US-CBP/cbp-theme.git",
-            "status": "Development",
-            "tags": [
-                "github",
-                "cbp-theme",
-                "cbp",
-                "ui-theme",
-                "design-system"
-            ],
-            "vcs": "git"
-        },
-        {
-            "contact": {
-                "URL": "https://github.com/US-CBP",
-                "email": "do_not_email_just_use_github@dhs.gov"
-            },
-            "date": {
-                "created": "2016-07-06",
-                "lastModified": "2025-09-29"
-            },
-            "description": "This repository contains the official Open Source Policy of U.S. Customs and Border Protection",
-            "downloadURL": "https://api.github.com/repos/US-CBP/open-source-policy/downloads",
-            "homepageURL": "https://github.com/US-CBP/open-source-policy",
-            "laborHours": 49.4,
-            "languages": [],
-            "name": "open-source-policy",
-            "organization": "U.S. Customs and Border Protection",
-            "permissions": {
-                "licenses": [
-                    {
-                        "name": "NOASSERTION"
-                    }
-                ],
-                "usageType": "openSource"
-            },
-            "repositoryURL": "https://github.com/US-CBP/open-source-policy.git",
-            "status": "Development",
-            "tags": [
-                "github"
-            ],
-            "vcs": "git"
-        },
-        {
-            "contact": {
-                "URL": "https://github.com/US-CBP",
-                "email": "do_not_email_just_use_github@dhs.gov"
-            },
-            "date": {
-                "created": "2016-08-01",
-                "lastModified": "2020-05-18"
-            },
-            "description": "The CBP Style Guide to compliment the CBP Theme.  The style guide describes CBP theme components and patterns and how to use them.",
-            "downloadURL": "https://api.github.com/repos/US-CBP/cbp-style-guide/downloads",
-            "homepageURL": "https://github.com/US-CBP/cbp-style-guide",
-            "laborHours": 42305.3,
-            "languages": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "Shell"
-            ],
-            "name": "cbp-style-guide",
-            "organization": "U.S. Customs and Border Protection",
-            "permissions": {
-                "licenses": [
-                    {
-                        "name": "NOASSERTION"
-                    }
-                ],
-                "usageType": "openSource"
-            },
-            "repositoryURL": "https://github.com/US-CBP/cbp-style-guide.git",
-            "status": "Development",
-            "tags": [
-                "github",
-                "cbp-theme",
-                "jekyll",
-                "style-guide"
-            ],
-            "vcs": "git"
-        },
-        {
-            "contact": {
-                "URL": "https://github.com/US-CBP",
-                "email": "do_not_email_just_use_github@dhs.gov"
-            },
-            "date": {
-                "created": "2016-10-20",
-                "lastModified": "2025-09-29"
-            },
-            "description": "Angular2 Library to get CBP-theme wrap up as components",
-            "downloadURL": "https://api.github.com/repos/US-CBP/ng2-cbp-cf/downloads",
-            "homepageURL": "https://github.com/US-CBP/ng2-cbp-cf",
-            "laborHours": 12588.2,
-            "languages": [
-                "TypeScript",
-                "CSS",
-                "HTML",
-                "JavaScript"
-            ],
-            "name": "ng2-cbp-cf",
-            "organization": "U.S. Customs and Border Protection",
-            "permissions": {
-                "licenses": [
-                    {
-                        "name": "NOASSERTION"
-                    }
-                ],
-                "usageType": "openSource"
-            },
-            "repositoryURL": "https://github.com/US-CBP/ng2-cbp-cf.git",
-            "status": "Development",
-            "tags": [
-                "github"
-            ],
-            "vcs": "git"
-        },
-        {
-            "contact": {
-                "URL": "https://github.com/US-CBP",
-                "email": "do_not_email_just_use_github@dhs.gov"
-            },
-            "date": {
-                "created": "2016-10-20",
-                "lastModified": "2025-09-29"
-            },
-            "description": "A quick start application to use the ng2-cbp-cf library",
-            "downloadURL": "https://api.github.com/repos/US-CBP/ng2-cbp-quickStart/downloads",
-            "homepageURL": "https://github.com/US-CBP/ng2-cbp-quickStart",
-            "laborHours": 3296.9,
-            "languages": [
-                "TypeScript",
-                "HTML",
-                "JavaScript",
-                "CSS"
-            ],
-            "name": "ng2-cbp-quickStart",
-            "organization": "U.S. Customs and Border Protection",
-            "permissions": {
-                "licenses": [
-                    {
-                        "URL": "https://api.github.com/licenses/mit",
-                        "name": "MIT"
-                    }
-                ],
-                "usageType": "openSource"
-            },
-            "repositoryURL": "https://github.com/US-CBP/ng2-cbp-quickStart.git",
-            "status": "Development",
-            "tags": [
-                "github"
-            ],
-            "vcs": "git"
-        },
-        {
-            "contact": {
-                "URL": "https://github.com/US-CBP",
-                "email": "do_not_email_just_use_github@dhs.gov"
-            },
-            "date": {
-                "created": "2017-03-10",
-                "lastModified": "2025-09-29"
-            },
-            "description": "BEMS React Start App ",
-            "downloadURL": "https://api.github.com/repos/US-CBP/bems-theme-react-starter/downloads",
-            "homepageURL": "https://github.com/US-CBP/bems-theme-react-starter",
-            "laborHours": 12413.4,
-            "languages": [
-                "JavaScript",
-                "CSS",
-                "HTML",
-                "Batchfile"
-            ],
-            "name": "bems-theme-react-starter",
-            "organization": "U.S. Customs and Border Protection",
-            "permissions": {
-                "licenses": null,
-                "usageType": "openSource"
-            },
-            "repositoryURL": "https://github.com/US-CBP/bems-theme-react-starter.git",
-            "status": "Development",
-            "tags": [
-                "github"
-            ],
-            "vcs": "git"
-        },
-        {
-            "contact": {
-                "URL": "https://github.com/US-CBP",
-                "email": "do_not_email_just_use_github@dhs.gov"
-            },
-            "date": {
-                "created": "2017-08-30",
-                "lastModified": "2025-09-29"
-            },
-            "description": "Angular 5/6/7 library based on the CBP Theme",
-            "downloadURL": "https://api.github.com/repos/US-CBP/ngx-cbp-theme/downloads",
-            "homepageURL": "https://github.com/US-CBP/ngx-cbp-theme",
-            "laborHours": 10617.7,
-            "languages": [
-                "TypeScript",
-                "HTML",
-                "SCSS",
-                "JavaScript"
-            ],
-            "name": "ngx-cbp-theme",
-            "organization": "U.S. Customs and Border Protection",
-            "permissions": {
-                "licenses": [
-                    {
-                        "URL": "https://api.github.com/licenses/cc0-1.0",
-                        "name": "CC0-1.0"
-                    }
-                ],
-                "usageType": "openSource"
-            },
-            "repositoryURL": "https://github.com/US-CBP/ngx-cbp-theme.git",
-            "status": "Development",
-            "tags": [
-                "github",
-                "angular-cli",
-                "cbp-theme",
-                "material2",
-                "cbp",
-                "scss",
-                "angular",
-                "material",
-                "typescript",
-                "angular6",
-                "angular7",
-                "angular-cbp-applications",
-                "angular-native-components"
-            ],
-            "vcs": "git"
-        },
-        {
-            "contact": {
-                "URL": "https://github.com/US-CBP",
-                "email": "do_not_email_just_use_github@dhs.gov"
-            },
-            "date": {
-                "created": "2018-11-19",
-                "lastModified": "2025-09-29"
-            },
-            "description": "No description available...",
-            "downloadURL": "https://api.github.com/repos/US-CBP/MQ-Bridge/downloads",
-            "homepageURL": "https://github.com/US-CBP/MQ-Bridge",
-            "laborHours": 2653.9,
-            "languages": [
-                "Java",
-                "Dockerfile"
-            ],
-            "name": "MQ-Bridge",
-            "organization": "U.S. Customs and Border Protection",
-            "permissions": {
-                "licenses": [
-                    {
-                        "name": "NOASSERTION"
-                    }
-                ],
-                "usageType": "openSource"
-            },
-            "repositoryURL": "https://github.com/US-CBP/MQ-Bridge.git",
-            "status": "Development",
-            "tags": [
-                "github"
-            ],
-            "vcs": "git"
-        },
-        {
-            "contact": {
-                "URL": "https://github.com/US-CBP",
-                "email": "do_not_email_just_use_github@dhs.gov"
-            },
-            "date": {
-                "created": "2020-04-10",
-                "lastModified": "2025-09-29"
-            },
-            "description": "No description available...",
-            "downloadURL": "https://api.github.com/repos/US-CBP/base-images/downloads",
-            "homepageURL": "https://github.com/US-CBP/base-images",
-            "laborHours": 201.7,
-            "languages": [
-                "Shell",
-                "Dockerfile",
-                "Go"
-            ],
-            "name": "base-images",
-            "organization": "U.S. Customs and Border Protection",
-            "permissions": {
-                "licenses": null,
-                "usageType": "openSource"
-            },
-            "repositoryURL": "https://github.com/US-CBP/base-images.git",
-            "status": "Development",
-            "tags": [
-                "github"
-            ],
-            "vcs": "git"
-        },
-        {
-            "contact": {
-                "URL": "https://github.com/US-CBP",
-                "email": "do_not_email_just_use_github@dhs.gov"
-            },
-            "date": {
                 "created": "2023-01-19",
-                "lastModified": "2026-11-04"
+                "lastModified": "2026-11-12"
             },
             "description": "The CBP Design System aims to provide a unifying user experience and reduce redundant front-end code within applications and websites.",
             "downloadURL": "https://api.github.com/repos/US-CBP/design-system/downloads",
             "homepageURL": "https://github.com/US-CBP/design-system",
-            "laborHours": 62841.4,
+            "laborHours": 62885.3,
             "languages": [
                 "TypeScript",
                 "SCSS",
@@ -18200,33 +17931,6 @@
                 "usageType": "openSource"
             },
             "repositoryURL": "https://github.com/US-CBP/design-system.git",
-            "status": "Development",
-            "tags": [
-                "github"
-            ],
-            "vcs": "git"
-        },
-        {
-            "contact": {
-                "URL": "https://github.com/US-CBP",
-                "email": "do_not_email_just_use_github@dhs.gov"
-            },
-            "date": {
-                "created": "2023-09-25",
-                "lastModified": "2025-11-18"
-            },
-            "description": "CBP Design System - for Designers",
-            "downloadURL": "https://api.github.com/repos/US-CBP/cbp-ds-for-designers/downloads",
-            "homepageURL": "https://github.com/US-CBP/cbp-ds-for-designers",
-            "laborHours": 42.2,
-            "languages": [],
-            "name": "cbp-ds-for-designers",
-            "organization": "U.S. Customs and Border Protection",
-            "permissions": {
-                "licenses": null,
-                "usageType": "openSource"
-            },
-            "repositoryURL": "https://github.com/US-CBP/cbp-ds-for-designers.git",
             "status": "Development",
             "tags": [
                 "github"

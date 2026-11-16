@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-09-19"
+    },
+    "description": "Genomic islands are key mobile DNA elements in bacterial evolution, that can distinguish pathogenic strains from each other, or distinguish pathogenic strains from non-pathogenic strains. Their detection in genomes is a challenging problem. We present 3 main software components that attack the island detection problem on two different bases: 1) the preference of islands to insert in chromosomal tRNA or tmRNA genes (islander.pl), and 2) islands' sporadic occurrence among closely related strains. The latter principle is employed in both an algorithm (learnedPhyloblocks.pl) and a visualization method (panGenome.pl). Component islander.pl finds islands based on their preference for a particular target gene type. We annotate each tRNA and tmRNA gene, find fragments of each such gene as candidates for the distal ends of islands, and filter candidates to remove false positives. Component learnedPhyloblocks.pl uses islands found by islander.pl and other methods as a training set to find new islands. Reference genomes are aligned using mugsy, then the \"phylotypes\" or patterns of occurrence in the reference set are determined for each position in the target genome, and those phylotypes most enriched in the training set of islands are followed to detect yet more islands. Component panGenome.pl produces a big-data visualization of the chromosomally-ordered \"pan-genome\", that includes every gene of every reference genome (x-axis, pan-genome order; y-axis, reference genomes; color-coding, gene presence/absence etc.), islands appearing as dark patches.",
+    "laborHours": 18027.2,
+    "languages": [
+        "Perl",
+        "C",
+        "Python"
+    ],
+    "name": "Genomic Island Identification Software v 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/TIGER",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

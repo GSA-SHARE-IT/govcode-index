@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-05-17",
+        "metadataLastUpdated": "2023-05-17"
+    },
+    "description": "\toptimas is a Python library that can coordinate a large number of numerical simulations on high-performance computing resources, with the aim of optimizing a given simulation result.\nMore specifically, this library is currently used for design optimization of laser-plasma particle accelerators. In this context, the performance of particle accelerator designs are often evaluated with large-scale simulation codes, and many separate simulations need to be run - with different design parameters - in order to find the most performant design. optimas facilitates this process by providing a convenient interface to advanced optimizers (e.g. Bayesian optimization), and by coordinating the execution of the different simulations on HPC resources. (This is done by leveraging the library libensemble.)\n\nCompared to other open-source optimization libraries (e.g. Ax), optimas is more tailored towards execution on DOE HPC resources (e.g. Perlmutter, Summit, etc.) and is specialized for the type of simulation codes and workflows that are used in the community of laser-plasma acceleration.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "optimas v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/optimas-org/optimas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

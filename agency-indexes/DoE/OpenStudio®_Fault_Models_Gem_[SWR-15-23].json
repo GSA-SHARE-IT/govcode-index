@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-03-04"
+    },
+    "description": "Overview of the OpenStudio® Fault Models Gem: Creating a comprehensive library of OpenStudio® fault models.\nFeatures:\n - Physics-based fault impact simulation within the capability of EnergyPlus®/OpenStudio®\n- Fault intensity implementation simulating how severe faults are (e.g., how much portion is fouled in the condenser heat exchanger) and estimating the impact of a fault in different fault intensities. \n- Fault evolution implementation simulating evolving/increasing fault intensity through certain period of time. \nFuture goals:\n- what are common/typical faults in different sample spaces (e.g., HVAC system type, building operation type, building location etc.)? \n- how often (e.g., incidence and prevalence) faults occur in different sample spaces (e.g., HVAC system type, building operation type, building location etc.)?",
+    "laborHours": 0.0,
+    "languages": [
+        "Ruby",
+        "HTML"
+    ],
+    "name": "OpenStudio® Fault Models Gem [SWR-15-23]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NREL/OpenStudio-fault-measure-gem/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/OpenStudio-fault-measure-gem",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-03-20",
+        "metadataLastUpdated": "2018-03-20"
+    },
+    "description": "VinaLC is based on a very popular PC-based molecular docking program, AutoDock Vina. The original Vina docking program was modified and parallelized, using an MPI and multithreading hybrid scheme, and potentially can be used in the future on exascale machines, without sacrificing accuracy.",
+    "laborHours": 4727.2,
+    "name": "VinaLC: Parallel Molecular Docking Program",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/XiaohuaZhangLLNL/VinaLC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

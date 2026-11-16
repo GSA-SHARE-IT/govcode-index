@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-07-15",
+        "metadataLastUpdated": "2022-07-15"
+    },
+    "description": "A small python package to fit Gaussian processes using Jax and leveraging the automatic differentiation in Jax to predict arbitrary derivatives from the GP. This package is meant to supplement the scientific community use of Gaussian process prediction with derivatives. The package is designed to smoothly work standalone or be used with the numpyro probabilistic programming language.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "dfdjaxGP",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/dfdjaxGP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

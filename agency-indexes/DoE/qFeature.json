@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This package contains statistical routines for extracting features from multivariate time-series data which can then be used for subsequent multivariate statistical analysis to identify patterns and anomalous behavior. It calculates local linear or quadratic regression model fits to moving windows for each series and then summarizes the model coefficients across user-defined time intervals for each series. These methods are domain agnostic-but they have been successfully applied to a variety of domains, including commercial aviation and electric power grid data.",
+    "laborHours": 988.0,
+    "name": "qFeature",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/pnnl/qFeature/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL/qFeature",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "lees4@ornl.gov"
+    },
+    "date": {
+        "created": "2023-08-23",
+        "metadataLastUpdated": "2023-08-28"
+    },
+    "description": "Atomistic simulation with artificial intelligence (AI) is an emerging tool for understanding materials' properties and behaviors and predicting novel materials with optimized/targeted properties. Neural network potentials (NNPs) are outstanding in this field as they have shown a comparable accuracy to ab initio electronic structure calculations for reproducing potential energy surfaces while being several orders of magnitude faster. However, such NNPs can perform poorly outside of their training domain and typically fail catastrophically in the prediction of rare events in molecular dynamics (MD) simulations. For effective AL loops to distinguish the informative data from enhanced sampled configurations, we developed a decision engine by configurational similarity and uncertainty quantification (UQ) with data augmentation.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "AL-ASMR: Active Learning of Atomistic Surrogate Models for Rare Events",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ORNL/al-asmr/blob/master/license.pdf",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/al-asmr",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

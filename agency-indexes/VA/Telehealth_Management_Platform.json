@@ -1,0 +1,43 @@
+{
+    "id": 2063,
+    "name": "Telehealth Management Platform",
+    "organization": "OIT DSO",
+    "version": "TMP 4.8.0",
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/Redacted-Public-Release-TMP-P3-TMP-4.8.0-Jun-2020",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "TMP/CVT-TSS",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Microsoft Dynamics 365",
+        "Microsoft Structured Query Language (SQL) Server"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-28",
+        "lastModified": "2020-08-20",
+        "metadataLastUpdated": "2020-08-20"
+    },
+    "description": "Repository containing the CIF submission for Telehealth Management Platform Phase 3 TMP 4.8.0 rec Jun 2020."
+}

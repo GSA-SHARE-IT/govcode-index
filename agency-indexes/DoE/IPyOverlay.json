@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "martindalena@ornl.gov"
+    },
+    "date": {
+        "created": "2024-05-30",
+        "metadataLastUpdated": "2024-05-30"
+    },
+    "description": "IPyOverlay is a Python library that provides several IPyWidget components for use within the Jupyter software ecosystem. These components add novel UI capabilities to enable details-on-demand interaction paradigms by providing the ability to render widgets on top of other widgets with arbitrary and controllable positioning. This capability enables adding click-and-draggable overlay windows containing other widgets, right-click context menus, and more complex tooltip functionality.",
+    "laborHours": 820.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "IPyOverlay",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ornl/ipyoverlay",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

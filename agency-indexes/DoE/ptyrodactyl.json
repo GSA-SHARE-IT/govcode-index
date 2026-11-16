@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "mukherjeed@ornl.gov"
+    },
+    "date": {
+        "created": "2024-11-24",
+        "metadataLastUpdated": "2024-11-24"
+    },
+    "description": "Ptychography through Differentiable Programming\nThe aim of this project is to write the forward problem: aka writing the microscope data generation, both for electron and optical microscopes in JAX so that it's end to end differentiable and using this differentiability to run modern optimizers such as Adam and Adagrad to solve for the inverse problem - which is ptychography in our case.",
+    "laborHours": 577.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "ptyrodactyl",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/intersect-em/pterodactyl",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "version": "2024.08.26"
+}

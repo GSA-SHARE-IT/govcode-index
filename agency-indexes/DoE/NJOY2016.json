@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "NJOY2016 is used to convert evaluations in the Evaluated Nuclear Data Files (ENDF) format into forms useful for practical applications such as fission and fusion reactor analysis, criticality safety, radiation shielding, nuclear waste management, nuclear medicine procedures, and more. It begins with the generation of pointwise libraries, including reaction and resonance reconstruction, Doppler broadening, radiation heating and damage, thermal scattering data, unresolved resonance data, and gas production. It reviews the production of libraries for the continuous-energy Monte Carlo code MCNP, multigroup neutron, photon, and particle cross sections and matrices, and photon interaction data. Uncertainty information for ENDF data is processed, including the capability for calculating covariances of resonance data, angular distributions, energy distributions, and radioactive nuclide production. NJOY can prepare and process thermal scattering data evaluations into application libraries. It can also plot cross sections, angular distributions and secondary emission spectra.",
+    "laborHours": 1945.6,
+    "name": "NJOY2016",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/njoy/NJOY21/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/njoy/NJOY21.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

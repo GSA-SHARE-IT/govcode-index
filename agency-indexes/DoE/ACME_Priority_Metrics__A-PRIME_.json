@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-11-20",
+        "metadataLastUpdated": "2020-11-30"
+    },
+    "description": "A-PRIME, is a collection of scripts designed to provide Accelerated Climate Model for Energy (ACME) model developers and analysts with a variety of analysis of the model needed to determine if the model is producing the desired results, depending on the goals of the simulation. The software is csh scripts based at the top level to enable scientist to provide the input parameters. Within the scripts, the csh scripts calls code to perform the postprocessing of the raw data analysis and create plots for visual assessment.",
+    "laborHours": 5107.2,
+    "languages": [
+        "Csh; python/2.7.3; bash; ncl/6.3.0; nco/4.6.4"
+    ],
+    "name": "ACME Priority Metrics (A-PRIME)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/a-prime",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

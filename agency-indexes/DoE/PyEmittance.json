@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-06-16",
+        "metadataLastUpdated": "2022-06-16"
+    },
+    "description": "PyEmittance is a tool for the adaptive measurement of beam emittance (e.g. of an electron beam at OTR/YAG beam profile monitors) using a single quadrupole scan developed at SLAC National Accelerator Laboratory. The Twiss parameters and the 'Bmag' match parameter can also be obtained. It can be used in different beamlines/machines by defining machine-specific configuration files.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PyEmittance",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/PyEmittance",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

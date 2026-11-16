@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-09-24",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The tool is designed to read, process, analyze, and report on data produced by phasor measurement units (PMUs). It has\nthree main functions:\nData ingestion and processing\nForced oscillation detection\nEvent tracking\nResult writing\nAmbient oscillation baselining\nSpectral analysis and event detection\nDominant mode identification\nResult writing\nData ingestion involves reading PMU data from CSV files, concatenating it, and applying standard signal processing\ntechniques to prepare the data for analysis.\nThe forced oscillation detection portion of the tool examines the data for evidence of a particular dynamic phenomenon in\npower systems known as forced oscillations. It is implemented with a periodogram-based method that was developed at\nPNNL. Forced oscillation events are tracked across time. Results are written to CSV files.\nThe ambient oscillation baselining portion of the tool is based on the Robust Modified Daniell-Welch (RMDW) spectral\nestimator, which was developed at PNNL. It produces estimates of the signal's ambient spectrum while detecting large\npower system events. The ambient spectrum is analyzed to identify the most observable (dominant) mode frequency. At\nthe end of each day, the tool applies the k-means clustering algorithm to distinguish between dominant system modes.\nResults are written to CSV files.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov/default.aspx",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Eastern Interconnection Situational Awareness Monitoring System (ESAMS) Oscillation Tool",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov/default.aspx",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov/default.aspx",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

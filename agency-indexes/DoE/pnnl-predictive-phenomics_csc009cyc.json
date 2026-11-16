@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2025-03-24",
+        "metadataLastUpdated": "2025-03-24"
+    },
+    "description": "Using the genome annotation as input, Pathway-tools generates a database containing all the information that can be\ninferred from the genome. The Pathway/Genome database (PGDB) can subsequently be curated manually.\nLicensed under the CC-BY-4.0 license",
+    "laborHours": 76.0,
+    "languages": [],
+    "name": "pnnl-predictive-phenomics/csc009cyc",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/pnnl-predictive-phenomics/csc009cyc",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl-predictive-phenomics/csc009cyc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

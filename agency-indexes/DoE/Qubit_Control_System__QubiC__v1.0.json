@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-13",
+        "metadataLastUpdated": "2021-04-13"
+    },
+    "description": "We design a modular FPGA (field-programmable gate array) based system called QubiC to control and measure a superconducting quantum processing unit. The system includes room temperature electronics hardware, FPGA gateware, and engineering software.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Qubit Control System (QubiC) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/LBL-QubiC/qubic",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

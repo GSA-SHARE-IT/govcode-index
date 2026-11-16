@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2017-12-13",
+        "metadataLastUpdated": "2018-05-02"
+    },
+    "description": "CodeVision (formerly MassAV) is a malware analysis workflow system and repository. It began as a simple tool for analyzing a large malware corpus using multiple COTS antivirus engines in parallel. It has since evolved into a unified interface for collecting, storing and analyzing malicious executable code using a variety of COTS and GOTS backends.  Not only can CodeVision receive samples from users via its command-line and web interfaces, but it can also operate on continuous network data feeds (e.g., perimeter e-mail attachments, HTTP downloads). The modular analysis  framework and simple API give developers the ability to integrate custom and off-the-shelf analysis tools with ease. The system manages scheduling and dependencies, allowing modules to be chained together into analysis-driven workflows. The system is designed as a distributed, load-balanced web service, an architecture that allows it to scale horizontally by adding additional nodes.",
+    "homepageURL": "http://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "laborHours": 7676.0,
+    "name": "Codevision 0.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "http://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "http://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

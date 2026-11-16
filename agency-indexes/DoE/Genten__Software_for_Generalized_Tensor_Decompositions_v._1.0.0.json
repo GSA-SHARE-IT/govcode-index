@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "Tensors, or multidimensional arrays, are a powerful mathematical means of describing multiway data. This software provides computational means for decomposing or approximating a given tensor in terms of smaller tensors of lower dimension, focusing on decomposition of large, sparse tensors. These techniques have applications in many scientific areas, including signal processing, linear algebra, computer vision, numerical analysis, data mining, graph analysis, neuroscience and more. The software is designed to take advantage of parallelism present emerging computer architectures such has multi-core CPUs, many-core accelerators such as the Intel Xeon Phi, and computation-oriented GPUs to enable efficient processing of large tensors.",
+    "laborHours": 606784.0,
+    "languages": [
+        "C++",
+        "Shell",
+        "C",
+        "CMake",
+        "Makefile",
+        "Python"
+    ],
+    "name": "Genten: Software for Generalized Tensor Decompositions v. 1.0.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/GenTen?tab=License-1-ov-file#readme",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/GenTen",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

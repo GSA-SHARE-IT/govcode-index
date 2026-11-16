@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-12-19",
+        "metadataLastUpdated": "2019-12-19"
+    },
+    "description": "fpzip is a C/C++ library for lossless and lossy compression of 1D, 2D, and 3D single- and double-precision floating-point arrays. \n\nAlthough designed for lossless compression, the user may optionally request lossy compression by specifying how many bits of precision per floating-point value to retain.\n\nFpzip supports streaming compression and decompression with either a memory buffer or a file as source or destination. \n\nIn addition to a simple C interface, fpzip comes with an executable for (de)compressing binary files.",
+    "laborHours": 1322.4,
+    "languages": [],
+    "name": "FPZIP",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/fpzip",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.2.0"
+}

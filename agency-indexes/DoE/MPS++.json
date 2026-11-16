@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The MPS++ computer code simulates models of strongly correlated quantum lattice systems. The algorithm used is the density-matrix renormalization method formulated in the matrix product states language. These models and methods are used to obtain ground state, dynamic, finite temperature and time evolution properties of the underlying materials that are simulated. These materials are usually one- and quasi-one dimensional strongly correlated electronic systems, such as high temperature superconductors, manganites, and other transition metal oxides. This code is (mostly) an implementation of the paper \"The density-matrix renormalization group in the age of matrix product states\" by U. Schollwoeck, and references therein, found at http://arxiv.org/abs/1008.3477v2 , and that was also published in Annals of Physics 326,96 (2011).",
+    "laborHours": 1656.8,
+    "name": "MPS++",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/g1257/mpspp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

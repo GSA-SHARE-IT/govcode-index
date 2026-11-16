@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "qians@ornl.gov"
+    },
+    "date": {
+        "created": "2022-03-28",
+        "metadataLastUpdated": "2022-03-29"
+    },
+    "description": "It takes multiple data sets from small-angle neutron scattering experiment at different contrast conditions to synthetically use DENSS algorithm (https://www.nature.com/articles/nmeth.4581) to combine all the information from each data set. As the multiple data set contains more information than a single data, all information in the multiple data set are collectively contribute to the final single synthetic structure that represents a molecular particle structure.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "DENSS-Multiple",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/q3n/denss-multiple",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

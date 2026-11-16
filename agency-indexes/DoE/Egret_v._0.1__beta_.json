@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-03-11",
+        "metadataLastUpdated": "2019-03-12"
+    },
+    "description": "Egret is a package that provides tools for building electric grid optimization models. This software includes objects and functions for parsing, storing, and managing electric grid data. Egret also includes the following electric grid models:\n- ACOPF (alternating current optimal power flow)\n- DCOPF – a linearized transmission model\n- ACOPF relaxations\n- Unit commitment\n- Economic dispatch",
+    "laborHours": 7174.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "Egret v. 0.1 (beta)",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/grid-parity-exchange/Egret",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 0.1 (beta)"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-12",
+        "metadataLastUpdated": "2024-06-12"
+    },
+    "description": "Axolotl is a Python library for scalable distributed genome and metagenome data analysis. Existing tools and systems that we rely on are struggling to keep up with the rapid explosion of genomic data. Compounding this issue, developing scalable solutions require a steep learning curve in parallel programming, which presents a barrier to academic researchers. While we do have scalable solutions for specific tasks, we lack comprehensive, end-to-end solutions. It's this gap in our toolkit that we aim to address with Axolotl. The Axolotl library is built for easy parallel processing, efficiently handling multiple tasks or large datasets simultaneously, and scaling up to meet the demands of extensive genomic data analysis.",
+    "laborHours": 2158.4,
+    "languages": [],
+    "name": "Axolotl: a scalable genomics library based on Apache Spark (Axolotl) v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/JGI-Bioinformatics/axolotl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

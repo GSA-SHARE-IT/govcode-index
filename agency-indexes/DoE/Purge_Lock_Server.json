@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-08"
+    },
+    "description": "The software provides a simple web api to allow users to request a time window where a file will not be removed from cache. HPSS provides the concept of a \"purge lock\". When a purge lock is set on a file, the file will not be removed from disk, entering tape only state. A lot of network file protocols assume a file is on disk so it is good to purge lock a file before transferring using one of those protocols. HPSS's purge lock system is very coarse grained though. A file is either purge locked or not. Nothing enforces quotas, timely unlocking of purge locks, or managing the races inherent with multiple users wanting to lock/unlock the same file. The Purge Lock Server lets you, through a simple REST API, specify a list of files to purge lock and an expire time, and the system will ensure things happen properly.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "PHP"
+    ],
+    "name": "Purge Lock Server",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

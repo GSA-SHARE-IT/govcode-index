@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2020-06-01"
+    },
+    "description": "The Kitten Lightweight Kernel is a simplified OS (operating system) kernel that is intended to manage a compute node's hardware resources. It provides a set of mechanisms to user-level applications for utilizing hardware resources (e.g., allocating memory, creating processes, accessing the network). Kitten is much simpler than general-purpose OS kernels, such as Linux or Windows, but includes all of the esssential functionality needed to support HPC (high-performance computing) MPI, PGAS and OpenMP applications. Kitten provides unique capabilities such as physically contiguous application memory, transparent large page support, and noise-free tick-less operation, which enable HPC applications to obtain greater efficiency and scalability than with general purpose OS kernels.",
+    "laborHours": 409913.6,
+    "languages": [],
+    "name": "KITTEN Lightweight Kernel 0.1 Beta",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/HobbesOSR/kitten",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

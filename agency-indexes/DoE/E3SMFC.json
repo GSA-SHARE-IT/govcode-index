@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2025-02-06",
+        "metadataLastUpdated": "2025-02-06"
+    },
+    "description": "SAND2025-01123O\nE3SMFC is a software tool that integrates a feedback controller algorithm into the E3SM climate model to regulate sulfur dioxide injection, aiming to achieve specific climate outcomes. The program uses proportional-integral-derivative feedback control to adjusts sulfur dioxide levels in both spatial and temporal dimensions. It will only operate on computers that can run the DOE climate model E3SM. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy's National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 1769751.2,
+    "languages": [
+        "Fortran",
+        "Python"
+    ],
+    "name": "E3SMFC",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/E3SMFC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "pgarvey@bnl.gov"
+    },
+    "date": {
+        "created": "2019-07-02",
+        "metadataLastUpdated": "2019-07-02"
+    },
+    "description": "This repository contains a cookiecutter template for generating a scientific Python project complete with CI testing and documentation. Separately, beside the cookiecutter template, it contains tutorial documentation on how to use this template to organize scientific Python code into a package and use popular tools for testing, documentation, and maintenance.",
+    "laborHours": 1322.4,
+    "languages": [],
+    "name": "Scientific Python Cookiecutter",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NSLS-II/scientific-python-cookiecutter/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NSLS-II/scientific-python-cookiecutter",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

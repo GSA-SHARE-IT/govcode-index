@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-07-18",
+        "metadataLastUpdated": "2019-04-22"
+    },
+    "description": "The software is a research tool for improving the reproducibility of simulations. It does this by keeping a log file of the input file and the input parameters; it also helps with running the same simulations on different computers such as desktops and clusters. It's should be useful for anyone who runs many simulations with input files that are kept in a git repository.",
+    "laborHours": 395.2,
+    "languages": [],
+    "name": "berkeleylab/reproducible",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/reproducible",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

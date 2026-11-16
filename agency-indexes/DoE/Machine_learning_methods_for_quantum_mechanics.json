@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-03-22",
+        "metadataLastUpdated": "2024-03-22"
+    },
+    "description": "Exploratory implementations of possible algorithms for simulating small quantum mechanical systems on a classical computer.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Machine learning methods for quantum mechanics",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/MLQM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

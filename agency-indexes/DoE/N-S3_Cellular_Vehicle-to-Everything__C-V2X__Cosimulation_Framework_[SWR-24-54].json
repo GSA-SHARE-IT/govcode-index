@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-04-08",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "This is a vehicular networking simulator designed to enable synchronized network simulation with vehicle traffic simulation software. The communications model is based on the 3GPP LTE-V2X Mode 4 protocol, but includes several other wireless network protocol models as well. This simulator includes both a V2X network simulation implemented in ns-3 as well as an interface to automatically configure, run, and interact with a set of ns-3 instances based on network size and available hardware. This software has been tested with Aimsun NEXT 2.0 simulator (with V2X SDK), but uses a generic interface for compatibility with any comparable vehicle traffic simulator across the HELICS co-simulation framework. This software is intended as a generalized extension to vehicle traffic simulation, and does not model any vehicle traffic on its own.",
+    "laborHours": 755713.6,
+    "languages": [
+        "C++",
+        "Python"
+    ],
+    "name": "N-S3 Cellular Vehicle-to-Everything (C-V2X) Cosimulation Framework [SWR-24-54]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/NS3-C-V2X-Cosimulation-Framework",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

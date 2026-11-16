@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-06-04",
+        "lastModified": "2026-05-27"
+    },
+    "description": "An Ansible role for installing the server setup script passed down by the RVA folks.",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-server-setup/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-server-setup",
+    "laborHours": 1107.7,
+    "languages": [
+        "Shell",
+        "Python",
+        "Jinja"
+    ],
+    "name": "ansible-role-server-setup",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-server-setup.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "ansible-role"
+    ],
+    "vcs": "git"
+}

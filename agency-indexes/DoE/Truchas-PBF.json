@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2021-07-12"
+    },
+    "description": "Truchas-PBF is a specialization of LANL's open source Truchas software (LA-CC-15-097) that is designed to simulate the powder bed fusion (PBF) additive manufacturing process for metal materials. The software uses physics-based continuum models of heat conduction, phase change, fluid flow, and solid mechanics to simulate the detailed dynamics of the traveling liquid melt pool to predict the extent of the fusion zone, solidification microstructure, and resulting residual stress in the fused material.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Truchas-PBF",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/truchas-pbf/truchas-pbf",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

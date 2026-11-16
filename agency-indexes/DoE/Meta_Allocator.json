@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-04-10",
+        "metadataLastUpdated": "2019-04-10"
+    },
+    "description": "Metall provides simplified memory allocation interfaces for out-of-core applications that use block-addressable persistent memory devices to extend the capacity of main memory and to persistently store data on such devices. Using Metall, users can dynamically allocate memory in persistent memory devices just as in main-memory. In order to store data persistently and reload the data easily, Metall also provides a key-value store like interface. Metall offers APIs to allocate contiguous memory regions like malloc(3) does and to construct C++ objects, including STL-like containers. Metall has a similar APIs to\nBoost.Interprocess (BIP).",
+    "laborHours": 5943.2,
+    "languages": [],
+    "name": "Meta Allocator",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/metall",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

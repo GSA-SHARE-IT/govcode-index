@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-10"
+    },
+    "description": "NIMROD uses a combination of semi-implicit and implicit time-stepping algorithms to advance the equations of extended magnetohydrodynamics. It uses 2D spectral elements and Fourier series for the third periodic direction.",
+    "homepageURL": "https://www.tibbartech.com/technology",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran 90"
+    ],
+    "name": "NIMROD magnetohydrodynamics code",
+    "organization": "USDOE Advanced Research Projects Agency – Energy (ARPA-E) (United States) (ARPA-E)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.tibbartech.com/technology",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.tibbartech.com/technology",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "USDOE Advanced Research Projects Agency – Energy (ARPA-E) (United States) (ARPA-E)"
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "id": 1792,
+    "name": "Emergency Department Integration System",
+    "organization": "OIT DSO",
+    "version": null,
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/foia-edp-emergency-department-integrated-software",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "EDIS",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "JDK - Oracle Java Standard Edition (SE) Development Kit",
+        "Cache",
+        "Red Hat Enterprise Linux",
+        "Massachusetts General Hospital Utility Multi-Programming System (MUMPS)",
+        "Unix",
+        "Oracle Database",
+        "CA Spectrum",
+        "Adobe Acrobat",
+        "WebLogic Server",
+        "CA Application Performance Management (APM)",
+        "Java Enterprise Edition (Java EE)",
+        "Adobe Flash Player"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-28",
+        "lastModified": "2021-01-26",
+        "metadataLastUpdated": "2021-01-26"
+    },
+    "description": "Repository containing the FOIA Releases for Emergency Department Integration System"
+}

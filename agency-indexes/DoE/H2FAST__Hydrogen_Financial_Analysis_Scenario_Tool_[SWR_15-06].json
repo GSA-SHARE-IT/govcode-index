@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2023-05-11",
+        "metadataLastUpdated": "2023-05-22"
+    },
+    "description": "The Hydrogen Financial Analysis Scenario Tool, H2FAST, provides a quick and convenient in-depth financial analysis for hydrogen and nonhydrogen systems and services.\n\nH2FAST is available as a downloadable Excel spreadsheet. The model uses a generally accepted accounting principles analysis framework and provides annual projections of income statements, cash flow statements, and balance sheets. H2FAST allows users to generate a side-by-side scenario analysis, where a base system can be tested by varying key operating or financing parameters. Detailed capital structure, taxation, and incentives are included. The model has built-in risk analysis allowing impact assessment of parameters bearing user-specified uncertainty ranges. Financial articulation is presented in graphical and tabular format for the user-specified analysis period. The model is self-documented, with embedded help functions and annotation of input parameters.\n\nNote: The model is also flexible for providing analysis for International Financial Reporting Standards by adjusting inputs for compliance with their rules.\n\nThe H2FAST framework has been used for analysis of a variety of systems, e.g., retail hydrogen refueling stations with incentives analysis, ammonia production, methane pyrolysis, seasonal energy storage, hydrogen fleet operations, electric vehicle charging with time of use rate structures, combined heat and power systems, hydrogen production pathways, and hydrogen transmission and distribution. The example cases available for download are intended to demonstrate model functionality and should be populated with user-specific analysis values such as CapEx, OpEx, and capital structure.",
+    "homepageURL": "https://www.nrel.gov/hydrogen/h2fast.html",
+    "laborHours": 0.0,
+    "languages": [
+        "Excel"
+    ],
+    "name": "H2FAST: Hydrogen Financial Analysis Scenario Tool [SWR 15-06]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.nrel.gov/hydrogen/assets/pdfs/h2fast_spreadsheet_user_manual.pdf",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.nrel.gov/hydrogen/h2fast.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ]
+}

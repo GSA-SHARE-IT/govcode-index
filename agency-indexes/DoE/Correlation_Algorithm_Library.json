@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "CorAL is a software Library designed to aid in the analysis of femtoscipic data. Femtoscopic data are a class of measured quantities used in heavy-ion collisions to characterize particle emitting source sizes. The most common type of this data is two-particle correleations induced by the Hanbury-Brown/Twiss (HBT) Effect, but can also include correlations induced by final-state interactions between pairs of emitted particles in a heavy-ion collision. Because heavy-ion collisions are complex many particle systems, modeling hydrodynamical models or hybrid techniques. Using the CRAB module, CorAL can turn the output from these models into something that can be directley compared to experimental data. CorAL can also take the raw experimentally measured correlation functions and image them by inverting the Koonin-Pratt equation to extract the space-time emission profile of the particle emitting source. This source function can be further analyzed or directly compared to theoretical calculations.",
+    "homepageURL": "https://asc.llnl.gov/CORAL-benchmarks",
+    "laborHours": 0.0,
+    "languages": [
+        "C++, Python"
+    ],
+    "name": "Correlation Algorithm Library",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://asc.llnl.gov/CORAL-benchmarks",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://asc.llnl.gov/CORAL-benchmarks",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

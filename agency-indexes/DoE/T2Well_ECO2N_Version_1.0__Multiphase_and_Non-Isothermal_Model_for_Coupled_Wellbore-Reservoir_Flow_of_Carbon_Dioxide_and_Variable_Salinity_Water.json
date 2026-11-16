@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-09-19",
+        "metadataLastUpdated": "2018-09-20"
+    },
+    "description": "T2Well/ECO2N is a coupled wellbore and reservoir model for simulating the dynamics of CO2 injection and leakage through wellbores. It can be seen as an extension to standard TOUGH/ECO2N V2.0, and can be applied to situations relevant to geologic CO2 storage involving upward flow (e.g., leakage) and downward flow (injection). The new simulator integrates a wellbore-reservoir system by assigning the wellbore and reservoir to two different sub-domains in which flow is controlled by appropriate physical laws. In the reservoir, we model flow using a standard multiphase Darcy flow approach. In the wellbores, we use the Drift-Flux Model and related conservation equations for describing transient two-phase non-isothermal wellbore flow of CO2-water mixtures. The mass and thermal energy balance equations are solved numerically by a finite difference scheme with wellbore heat transmission to the surrounding rock handled either semi-analytically or numerically. The momentum balance equation for the flow in the wellbore is solved numerically with a semi-explicit scheme.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 7904.0,
+    "languages": [],
+    "name": "T2Well/ECO2N Version 1.0: Multiphase and Non-Isothermal Model for Coupled Wellbore-Reservoir Flow of Carbon Dioxide and Variable Salinity Water",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

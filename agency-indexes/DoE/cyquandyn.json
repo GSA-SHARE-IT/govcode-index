@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "pieper@ameslab.gov"
+    },
+    "date": {
+        "created": "2023-08-14",
+        "metadataLastUpdated": "2023-08-15"
+    },
+    "description": "CyQuanDyn is a collection of codes developed for modelling the phonon-induced carrier pumping in ZrTe5 system. Codes in the collection include 1) TLS: time-dependent two-orbital spinless fermion Bogoliubov-de Gennes Hamiltonian simulation, 2) TDSE: ab initio time-dependent Schrödinger equation simulation of the ZrTe5 system under the periodic modulation of A1g Raman mode. Associated publication is T. Jiang, P. P. Orth, L. Luo, L.-L. Wang, F. Zhang, C.-Z. Wang, J. Zhao, K.-M. Ho, J. Wang, and Y.-X. Yao, Ab-Initio Simulations of Coherent Phonon-Induced Pumping of Carriers in ZrTe5. [arXiv:2304.08449 (2023).](https://arxiv.org/abs/2304.08449)",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "cyquandyn",
+    "organization": "Ames Laboratory (AMES)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/lmqc/cyquandyn",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Ames Laboratory (AMES)"
+    ],
+    "version": "3.8"
+}

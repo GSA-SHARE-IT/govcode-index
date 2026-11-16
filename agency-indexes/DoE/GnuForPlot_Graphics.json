@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "bobby.kitchens@srnl.doe.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Gnuforplot Graphics is a Fortran90 program designed to generate two and three dimensional plots of data on a personal computer. The program uses calls to the open source code Gnuplot to generate the plots. Two Fortran90 programs have been written to use the Gnuplot graphics capabilities. The first program, named Plotsetup.f90 reads data from output files created by either the Stadium or LeachXS/Orchestra modeling codes and saves the data in arrays for plotting. This program then calls Gnuforplot which takes the data array along with user specified parameters to set plot specifications and issues Gnuplot commands that generate the screen plots. The user can view the plots and optionally save copies in jpeg format.",
+    "homepageURL": "http://sti.srs.gov/fulltext/Software/gnuforplot_rev_11-4-15.zip",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran90"
+    ],
+    "name": "GnuForPlot Graphics",
+    "organization": "Savannah River Site (SRS)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://sti.srs.gov/fulltext/Software/gnuforplot_rev_11-4-15.zip",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://sti.srs.gov/fulltext/Software/gnuforplot_rev_11-4-15.zip",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Savannah River Site (SRS)"
+    ]
+}

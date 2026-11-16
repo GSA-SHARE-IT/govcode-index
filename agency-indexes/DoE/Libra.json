@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2025-03-07",
+        "metadataLastUpdated": "2025-03-07"
+    },
+    "description": "Libra is a Python package that extends support of its parent package, SQLAlchemy. Libra’s primary functionality supports the dynamic creation of object-oriented analogs of SQL tables from a variety of user-defined, text-based schema definition formats and provides quality control and analysis tools and methods",
+    "laborHours": 501.6,
+    "languages": [],
+    "name": "Libra",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LANL-Seismoacoustics/libra",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

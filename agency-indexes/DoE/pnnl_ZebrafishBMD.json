@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-09-25",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "ZebrafishBMD: A software tool to perform benchmark dose calculations using toxicity screening data of high-throughput zebrafish assays.\nHigh-content imaging of larval zebrafish behavior can be used as a screening approach to rapidly evaluate the relative potential for chemicals to cause toxicity. However, most statistical methods applied to these data transform movement values to incidence-based “hits” and calculate lowest effect levels (LELs), which loses individual fish resolution of behavior and defies hazard ranking due to reliance on applied dose levels. We developed a parallelizable workflow to calculate benchmark dose (BMD) values from dynamic, high-content zebrafish behavior data that scales for high throughput chemical screening. To capture the zebrafish movement response from light to dark stimulus, we summarized time-dependent data using both area under the curve and the immediate change at the transition point into two novel metrics that characterized abnormal behavior as a function of chemical concentration. The BMD workflow was applied to calculate BMD10 values of 1,060 ToxCast chemicals for 24 zebrafish endpoints, including behavior, mortality and morphology.\nZebrafishBMD implements the BMD workflow and provides Matlab scripts to read the data (stored in a specific structure) from a .mat file, to calculate the behavioral endpoint values from movement versus time data, to construct concentrationresponse\ncurves, to perform curve-fitting, and to calculate BMD10 values.",
+    "laborHours": 15.2,
+    "languages": [],
+    "name": "pnnl/ZebrafishBMD",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/ZebrafishBMD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

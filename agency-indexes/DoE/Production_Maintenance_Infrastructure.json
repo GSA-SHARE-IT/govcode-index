@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-05-25"
+    },
+    "description": "PMI is a XML framework for formulating tests of software and software environments which operate in a relatively push button manner, i.e., can be automated, and that provide results that are readily consumable/publishable via RSS. Insofar as possible the tests are carried out in manner congruent with real usage. PMI drives shell scripts via a perl program which is charge of timing, validating each test, and controlling the flow through sets of tests. Testing in PMI is built up hierarchically. A suite of tests may start by testing basic functionalities (file system is writable, compiler is found and functions, shell environment behaves as expected, etc.) and work up to large more complicated activities (execution of parallel code, file transfers, etc.) At each step in this hierarchy a failure leads to generation of a text message or RSS that can be tagged as to who should be notified of the failure. There are two functionalities that PMI has been directed at. 1) regular and automated testing of multi user environments and 2) version-wise testing of new software releases prior to their deployment in a production mode.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [
+        "C, Fortran"
+    ],
+    "name": "Production Maintenance Infrastructure",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

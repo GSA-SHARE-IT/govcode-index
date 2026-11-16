@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2025-01-08",
+        "metadataLastUpdated": "2025-01-08"
+    },
+    "description": "A wind farm optimization suite for wind energy that is built for modular, gradient-enabled multi-disciplinary and multi-fidelity optimizations.\n\nDig into wind farm design.\n\nAn ard is a type of simple and lightweight plow, used through the single-digit centuries to prepare a farm for planting. The intent of Ard is to be a modular, full-stack multi-disciplinary optimization tool for wind farms.\n\nThe problem with wind farms is that they are complicated, multi-disciplinary objects. They are aerodynamic machines, with complicated control systems, power electronic devices, social and political objects, and the core value (and cost) of complicated financial instruments. Moreover, the design of one of these aspects affects all the rest!\n\nArd seeks to make plant-level design choices that can incorporate these different aspects and their interactions to make wind energy projects more successful.",
+    "laborHours": 1504.8,
+    "languages": [
+        "Python",
+        "Jupyter Notebook",
+        "Shell"
+    ],
+    "name": "Ard [SWR-25-18]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/WISDEM/Ard",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

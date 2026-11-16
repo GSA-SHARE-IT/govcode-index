@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-03-20",
+        "lastModified": "2026-04-09"
+    },
+    "description": "A Terraform module for creating an IAM user that can build Amazon Machine Images (AMIs).",
+    "downloadURL": "https://api.github.com/repos/cisagov/ami-build-iam-user-tf-module/downloads",
+    "homepageURL": "https://github.com/cisagov/ami-build-iam-user-tf-module",
+    "laborHours": 730.3,
+    "languages": [
+        "Shell",
+        "HCL"
+    ],
+    "name": "ami-build-iam-user-tf-module",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ami-build-iam-user-tf-module.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

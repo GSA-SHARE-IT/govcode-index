@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-07-29",
+        "metadataLastUpdated": "2021-07-29"
+    },
+    "description": "The BETTER API allows advanced users and developers to access BETTER's analytical functionalities via HTTP requests from their own software platform without using the BETTER web-interface. API users prepare the input data and analysis configurations in a JSON format and send it to the web application via an HTTP request. The web application runs the analytical workflow on the back end and returns an HTTP response in JSON format. The user can then decide to render the results or further process it.",
+    "homepageURL": "https://sites.google.com/lbl.gov/2021-128/landing-page",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Building Efficiency Targeting Tool for Energy Retrofits (BETTER) Application Programing Interface (API) (BETTER API) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://sites.google.com/lbl.gov/2021-128/landing-page",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://sites.google.com/lbl.gov/2021-128/landing-page",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

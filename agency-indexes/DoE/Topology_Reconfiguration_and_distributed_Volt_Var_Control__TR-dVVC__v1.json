@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-09-19",
+        "metadataLastUpdated": "2019-10-01"
+    },
+    "description": "Topology Reconfiguation is a simple algorithm to choose a network configuration with the least losses in a system with high penetration of renewable energy. It uses a linearized optimal power flow algorithm to identify the optimal setpoints of PV in a system, then performs an exhaustive search of switch configurations to find the loss minimizing solution, it repeats this process until convergence. At the end, the operator has a switch schedule for a 24 hour period that should minimize losses. VVC is a distributed algorithm in which PV units drive voltage at points within the network to 1 per unit through reactive power control. The VVC algorithm relies on extremum seeking control to provide the control. The software package is a simulation of VVC on a standard IEEE 34 bus three phase network.",
+    "laborHours": 1231.2,
+    "languages": [],
+    "name": "Topology Reconfiguration and distributed Volt Var Control (TR-dVVC) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/jsmacdonald/tr-dvvc_energise/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "marc.day@nrel.gov"
+    },
+    "date": {
+        "created": "2021-04-14",
+        "metadataLastUpdated": "2021-04-14"
+    },
+    "description": "An adaptive mesh hydrodynamics simulation code for low Mach number reacting flows",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "PeleLM",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AMReX-Combustion/PeleLM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "v1.0.0"
+}

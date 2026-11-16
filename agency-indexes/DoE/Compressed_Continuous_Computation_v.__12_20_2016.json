@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "A library for performing numerical computation with low-rank functions. The (C3) library enables performing continuous linear and multilinear algebra with multidimensional functions. Common tasks include taking \"matrix\" decompositions of vector- or matrix-valued functions, approximating multidimensional functions in low-rank format, adding or multiplying functions together, integrating multidimensional functions.",
+    "laborHours": 1999271.2,
+    "languages": [
+        "C",
+        "HTML",
+        "SWIG",
+        "CMake",
+        "Tex",
+        "Python"
+    ],
+    "name": "Compressed Continuous Computation v.  12/20/2016",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/compressed-continuous-computation?tab=License-1-ov-file#readme",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/compressed-continuous-computation",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

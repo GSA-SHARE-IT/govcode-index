@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-06-24",
+        "metadataLastUpdated": "2021-06-24"
+    },
+    "description": "KSSOLV is a MATLAB toolbox for solving Kohn-Sham density functional theory based electronic structure eigenvalue problems. It uses an object oriented features of MATLAB to represent atom, molecules, wavefunctions and Hamiltonians and their operations. It is designed to make it easier for users to prototype and test new algorithms for solving the Kohn-Sham problem. KSSOLV2.0 contains significant improvement over the original KSSOLV described in a paper published in ACM Transaction on Mathematical Software (attached). In addition to performing ground state calculation for small molecules, it can also perform geometry optimization for both molecules and solids. It uses standard pseudopotentials and implements local density approximation, generalized gradient approximation and hybrid functionals. Future releases will also include time-dependent DFT and post DFT calculations such as the GW quasi-particle energy calculation and Bethe-Salpeter equation solver for optical absorption.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Kohn-Sham Solver (KSSOLV) v2.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/kssolv2.0/src/release",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

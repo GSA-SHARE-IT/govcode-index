@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-09-28",
+        "metadataLastUpdated": "2021-09-28"
+    },
+    "description": "ChiSIM is a framework for implementing agent-based models that simulate the mixing of a synthetic population. In a ChiSIM based model, each agent, that is, each person in the simulated population, resides in a place (a household, dormitory or retirement home/long term care facility, for example), and moves among other places such as workplaces, homes, clinics, and community resources. Agents typically move between places according to their domain specific activity profile, such that each agent has a profile that determines at what times throughout the day they occupy a particular location. Once in a place, an agent mixes with other agents in some model or domain-specific way. For example, an agent may expose other agents to a disease in an epidemiological model.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "The Chicago Social Interaction Model (ChiSIM)",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Repast/chiSim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

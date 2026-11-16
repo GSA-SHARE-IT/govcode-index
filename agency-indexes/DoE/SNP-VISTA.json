@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-29"
+    },
+    "description": "SNP-VISTA aids in analyses of the following types of data: A. Large-scale re-sequence data of disease-related genes for discovery of associated and/or causative alleles (GeneSNP-VISTA). B. Massive amounts of ecogenomics data for studying homologous recombination in microbial populations (EcoSNP-VISTA). The main features and capabilities of SNP-VISTA are: 1) Mapping of SNPs to gene structure; 2) classification of SNPs, based on their location in the gene, frequency of occurrence in samples and allele composition; 3) clustering, based on user-defined subsets of SNPs, highlighting haplotypes as well as recombinant sequences; 4) integration of protein conservation visualization; and 5) display of automatically calculated recombination points that are user-editable. The main strength of SNP-VISTA is its graphical interface and use of visual representations, which support interactive exploration and hence better understanding of large-scale SNPs data.",
+    "homepageURL": "http://genome.lbl.gov/vista/snpvista",
+    "laborHours": 0.0,
+    "languages": [
+        "GNU C++compiler"
+    ],
+    "name": "SNP-VISTA",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://genome.lbl.gov/vista/contact.shtml",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://genome.lbl.gov/vista/snpvista",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

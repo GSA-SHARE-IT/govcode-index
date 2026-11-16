@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2022-11-30",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "The purpose of this code is to disassemble potentially malicious code into benign pieces that can safely be transported via any number of traditional methods without fear of infection.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "idaholab/DaRT",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/DaRT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

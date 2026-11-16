@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-07-15",
+        "metadataLastUpdated": "2019-07-16"
+    },
+    "description": "The numericalFunction C library is designed to handle point-wise interpolative data representing a mathematical function. The library currently handles 1-d functions (i.e., functions of the format f(x)). \n\nThe main object is the ptwXYPoints C struct that holds list of x,y pairs sorted by ascending x-values with an interpolation rule. That is, it contains the 1-d function f(x) = y(x). \n\nFunctions are included that support common unitary and binary operations (e.g., negation, addition, multiplication). \n\nAs example, if f(x) and g(x) are two ptwXYPoints instances, then routines to calculate f(x) + g(x) and f(x) * g(x) are included.\n\nThe library support storage of data with lin-lin, lin-log, log-lin, log-log and flat (or histogram) interpolation.\n\nFunctions to convert any of the supported interpolation to lin-lin are included. However, many of the binary functions only support lin-lin interpolation.\n\nThe library also contains a C struct for storing a Legendre series representation of a 1-d function, and functions to convert Legendre series to and from a ptwXYPoints instance.\n\nA python interface to the library is included, with the ptwXYPoints C struct treated as a class. This class has many of the standard python math methods (e.g., __add__, __mul__).",
+    "laborHours": 60359.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "numericalFunctions",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/gidiplus",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "2.0"
+}

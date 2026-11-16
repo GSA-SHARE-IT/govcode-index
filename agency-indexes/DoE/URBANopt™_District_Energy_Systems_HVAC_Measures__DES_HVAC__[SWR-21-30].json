@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2021-01-27",
+        "metadataLastUpdated": "2024-03-04"
+    },
+    "description": "DES_HVAC is a repository of a Parametric Analysis Tool (PAT) project and for scripts related to modeling of different HVAC systems for buildings in a district served by a district thermal energy system.\n\nThe Measures directory contains the new measures developed to extract data from the simulations. Update these measures and not the measures in the Test Suite measures directory. PAT should be used to update the measures in the Test Suite project.\n\nThe Test directory contains a PAT project for testing the functionality of the measures. The PAT project is named HVAC_Test and can be opened in PAT > 3.x.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "URBANopt™ District Energy Systems HVAC Measures (DES_HVAC) [SWR-21-30]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/urbanopt/DES_HVAC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

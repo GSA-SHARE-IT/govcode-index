@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-09-02",
+        "metadataLastUpdated": "2021-09-02"
+    },
+    "description": "GALATIC is a CUDA template library for performing Sparse Matrix - Sparse Matrix multiplication (SpGEMM) over arbitrary semirings on the GPU. This work generalizes AC-SpGEMM, a modern GPU accelerated SpGEMM implementation that supports single and double-precision floating-point formats.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GALATIC: GPU Accelerated Sparse Matrix Multiplication over Arbitrary Semirings (GALATIC) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/richardlett/GALATIC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

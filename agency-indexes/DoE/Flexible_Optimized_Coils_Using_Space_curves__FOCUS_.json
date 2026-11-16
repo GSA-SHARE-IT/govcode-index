@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "czhu@pppl.gov"
+    },
+    "date": {
+        "created": "2018-06-27",
+        "metadataLastUpdated": "2018-06-27"
+    },
+    "description": "FOCUS uses 3D curves to represent coils in fusion devices, mainly for toroidal devices including stellarators and tokamaks. For a given configuration, FOCUS can find optimal coils, which can produced the required magnetic field for confining the plasma meeting the user-specified physics and engineering constraints.",
+    "homepageURL": "https://princetonuniversity.github.io/FOCUS",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "Flexible Optimized Coils Using Space curves (FOCUS)",
+    "organization": "Princeton Plasma Physics Laboratory (PPPL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://princetonuniversity.github.io/FOCUS",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Princeton Plasma Physics Laboratory (PPPL)"
+    ],
+    "version": "0.3.1"
+}

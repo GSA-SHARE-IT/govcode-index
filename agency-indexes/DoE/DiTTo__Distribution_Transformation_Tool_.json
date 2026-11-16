@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-11-29",
+        "metadataLastUpdated": "2019-07-10"
+    },
+    "description": "The Distribution Transformation Tool (DiTTo) provides a framework for converting between and modifying several different types of distribution model formats . These include commercial formats such as CYME, Synergi, DEW, ePHASORSIM as well as open source formats such as OpenDSS and GridLAB-D. DiTTo consists of an API which represents electrical equipment, configurations, settings and timeseries data. This API acts as an intermediary between different distribution model formats. Several modules for reading and writing the models connect to this API to facilitate easy conversion between formats. Once feeder models are converted into the intermediate API, analysis can be done on the feeder using a network module. The modification module allows changes to be made to the model in the intermediate API. This allows a clear workflow that supports reading a model from one format, performing analysis, making modifications and writing the model to a different format.",
+    "laborHours": 62639.2,
+    "languages": [
+        "Python",
+        "Python"
+    ],
+    "name": "DiTTo (Distribution Transformation Tool)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/ditto",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-08-30",
+        "metadataLastUpdated": "2024-08-30"
+    },
+    "description": "This package contains the code for the paper Evaluating Physics Informed Neural Network Performance\nfor Seismic Discrimination Between Earthquake published at Seismological Research Letters. There are\none Jupyter notebook and demo data so that the audience can run build a machine learning model with\nthe P/S ratios as a physics loss in addition to the data driven loss.t",
+    "laborHours": 106.4,
+    "languages": [],
+    "name": "Evaluating Physics Informed Neural Network Performance for Seismic Discrimination Between Earthquake",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/qingkaikong/PhysicsML-PINN-EmpiricalRelationship",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

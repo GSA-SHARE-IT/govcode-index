@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-04-15",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Wind and solar generation is increasing rapidly in the USA and around the world and has the potential to replace carbon emitting generation. However, at high penetration, intermittent generation can present significant challenges because of increasing system variability and uncertainty. To manage these challenges, operation and planning procedures should incorporate additional analysis tools and methodologies. Particularly, tools are needed to help plan and operate the power system for maintaining intra‐day and intra‐hour balance between generation and load in power system’s balancing authorities. This tool addresses this problem by providing a way to plan for adequate amounts of balancing reserves for future years or seasons for expected wind and solar generation.  This is a user friendly tool to calculate ahead monthly required balancing reserves and the flexibility of scheduled\ngeneration to meet such requirements. This tool calculates reserves requirements of various types, such as day‐ahead, load following and regulation, as well as estimates the capacity of the generation fleet to provide the required reserves. The estimations are based on utilities’ operational practices (such as forecasting, timeframe of reserve deployment), and it incorporates detailed synchronized variable and uncertain data from renewable generation and load. This tool uses a methodology that has been previously tested and applied to several systems: California Independent System Operator Corp., Columbia Grid, Northwest Power Pool, the Western Interconnection of the United States, and internationally in Honduras, Guatemala, El Salvador, Nicaragua, Costa Rica, and Panama.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov/default.aspx",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GRAF-Plan",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov/default.aspx",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov/default.aspx",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

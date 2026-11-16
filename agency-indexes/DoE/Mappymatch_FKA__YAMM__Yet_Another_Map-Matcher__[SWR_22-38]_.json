@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-04-12",
+        "metadataLastUpdated": "2023-08-17"
+    },
+    "description": "A surprisingly non-trivial technical challenge is to associate points in space (e.g., GPS data) with specific segments of a road network or map. The software package ( allows users to match GPS point data to a road network (commonly known as \"map matching\"). The software is designed such that a user could match a set of GPS points to a variety of different road network representations using a variety of map matching algorithms. There are currently several \"built-in\" road networks and map matching algorithms but the software has been designed to enable new ones to be added with minimal overhead.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Mappymatch FKA: YAMM (Yet Another Map-Matcher) [SWR 22-38] ",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/yamm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

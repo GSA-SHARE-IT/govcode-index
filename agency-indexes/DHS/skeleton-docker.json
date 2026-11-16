@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-06-06",
+        "lastModified": "2026-11-06"
+    },
+    "description": "A skeleton project for quickly getting a new cisagov Docker container started.",
+    "downloadURL": "https://api.github.com/repos/cisagov/skeleton-docker/downloads",
+    "homepageURL": "https://github.com/cisagov/skeleton-docker",
+    "laborHours": 956.1,
+    "languages": [
+        "Shell",
+        "Python",
+        "Dockerfile"
+    ],
+    "name": "skeleton-docker",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/skeleton-docker.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "skeleton",
+        "docker"
+    ],
+    "vcs": "git"
+}

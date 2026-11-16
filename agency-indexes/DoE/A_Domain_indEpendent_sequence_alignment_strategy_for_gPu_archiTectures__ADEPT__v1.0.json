@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-12-23",
+        "metadataLastUpdated": "2021-07-22"
+    },
+    "description": "GPU-BSW is a version of Smith-Waterman alignment algorithm which has been optimized to perform large number of sequence alignments on GPUs.",
+    "laborHours": 851.2,
+    "languages": [],
+    "name": "A Domain indEpendent sequence alignment strategy for gPu archiTectures (ADEPT) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/m-gul/GPU-BSW",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

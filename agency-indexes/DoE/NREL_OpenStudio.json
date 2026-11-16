@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-05-18",
+        "metadataLastUpdated": "2018-05-18"
+    },
+    "description": "OpenStudio is a cross-platform collection of software tools to support whole building energy modeling using EnergyPlus and advanced daylight analysis using Radiance.\n\nThis disclosure includes two OpenStudio measures: (1) data center prototype models, and (2) occupant schedule generator. The data center models cover two sizes (small computer server rooms, stand-alone large data centers) and two IT load densities (average and high).",
+    "laborHours": 4456883.2,
+    "languages": [],
+    "name": "NREL/OpenStudio",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/OpenStudio",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

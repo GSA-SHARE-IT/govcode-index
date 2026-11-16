@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "georgea@ornl.gov"
+    },
+    "date": {
+        "created": "2024-04-03",
+        "metadataLastUpdated": "2024-04-18"
+    },
+    "description": "We present MLEC-Sim, a sophisticated simulator for Multi-Level Erasure Coding (MLEC), developed in approximately 13 KLOC. The simulator is engineered to analyze the impact of various system configurations and erasure coding policies on system durability and network overhead. It supports a comprehensive range of parameters including disk capacity, disk I/O bandwidth, failure rates, network bandwidth, and system scale, accommodating various erasure coding approaches such as Single-Level Erasure Coding (SLEC), Multi-Level Erasure Coding (MLEC), and Local Reconstruction Codes (LRC).\n\nMLEC-Sim provides support for multiple chunk placement policies, including clustered parity and declustered parity, and encompasses a variety of repair methods like Repair-ALL, Repair-FCO, Repair-HYB, and Repair-MIN. It is capable of simulating disk failures through a variety of means, including distribution-based or trace-based mechanisms, and can handle complex multi-level (de)clustered placements and repair processes.\n\nA key feature of MLEC-Sim is its adoption of the splitting simulation method for evaluating system durabilities at extremely high levels, which are challenging to assess with traditional simulation approaches. This feature allows for a detailed evaluation of system resilience under a range of conditions, aiding in the selection of appropriate erasure coding solutions for enhancing system durability.\n\nMLEC-Sim contributes to the field of data storage and reliability by providing a tool for the detailed evaluation of the durability and efficiency of erasure coding configurations, intended for use by researchers and practitioners in the design and optimization of storage systems.",
+    "laborHours": 15078.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "MLEC-Sim: A Simulator for Evaluating Multi-Level Erasure Coding",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ucare-uchicago/mlec-sim/blob/main/LICENSE.rtf",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ucare-uchicago/mlec-sim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

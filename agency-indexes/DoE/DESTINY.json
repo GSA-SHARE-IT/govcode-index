@@ -1,0 +1,29 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "DESTINY is a comprehensive tool for modeling 3D and 2D cache designs using SRAM,embedded DRAM (eDRAM), spin transfer torque RAM (STT-RAM), resistive RAM (ReRAM), and phase change RAM (PCN). In its purpose, it is similar to CACTI, CACTI-3DD or NVSim. DESTINY is very useful for performing design-space exploration across several dimensions, such as optimizing for a target (e.g. latency, area or energy-delay product) for agiven memory technology, choosing the suitable memory technology or fabrication method (i.e. 2D v/s 3D) for a given optimization target, etc. DESTINY has been validated against several cache prototypes. DESTINY is expected to boost studies of next-generation memory architectures used in systems ranging from mobile devices to extreme-scale supercomputers.",
+    "laborHours": 6292.8,
+    "name": "DESTINY",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://code.ornl.gov/3d_cache_modeling_tool/destiny/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/3d_cache_modeling_tool/destiny",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

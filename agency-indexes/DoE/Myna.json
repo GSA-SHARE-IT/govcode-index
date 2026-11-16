@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "knappgl@ornl.gov"
+    },
+    "date": {
+        "created": "2024-08-20",
+        "metadataLastUpdated": "2024-08-20"
+    },
+    "description": "The additive manufacturing (AM) community has been developing digital factory tools over the past decade to better leverage the multi-modal process data coming out of the advanced manufacturing process. As a result, numerous databases of additive manufacturing process data exist in the literature and in the archival storage of disparate research groups. While some efforts have been made to create a standard ontology for storing and sharing AM data, in practice a variety of data structures are used to store AM build data, even within a single institution. This causes many problems for maintainability and extensibility when attempting to integrate computational modeling tools with experimental data to either validate models or to provide further insight into results and trends.\n\nMyna is a Python-based framework that aims to decrease the effort needed to connect individual computational models to the variety of AM process data that exist in different research groups and institutions. This type of software is sometimes referred to as \"middleware\" or “glueware,” in that it connects disparate databases and applications into a single computational ecosystem. Instead of maintaining unique interfaces between each application and each database, developers can create a single interface from each application to Myna and thereby gain access to the implemented database connections. Similarly, developing a database connection in Myna provides access to the developed simulation applications. This framework greatly simplifies the maintainability of model applications that rely on experimental data. Using external simulation tools, users will also be able to run pre-configured workflows using the built-in workflow manager. Several examples of input files are provided with Myna for different workflows, including melt pool geometry predictions and detailed melt pool and solidification microstructure predictions.",
+    "laborHours": 4043.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "Myna",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-MDF/Myna",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

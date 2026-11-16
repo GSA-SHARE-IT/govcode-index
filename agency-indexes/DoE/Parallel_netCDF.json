@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-18",
+        "metadataLastUpdated": "2020-05-18"
+    },
+    "description": "PnetCDF is a parallel I/O library for accessing Unidata's NetCDF files in classic formats. The software development is a collaborative work of Northwestern University and Argonne National Laboratory.",
+    "laborHours": 150312.8,
+    "languages": [],
+    "name": "Parallel netCDF",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/Parallel-NetCDF/PnetCDF/blob/master/COPYRIGHT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Parallel-NetCDF/PnetCDF",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

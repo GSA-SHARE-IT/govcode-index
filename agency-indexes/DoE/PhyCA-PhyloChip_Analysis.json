@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-01-28",
+        "metadataLastUpdated": "2019-01-29"
+    },
+    "description": "PhyCA allows interpretation of a PhyloChip assay. It takes as input, a text file containing the fluorescent intensity from each feature on the microarray surface. PhyCA will determine the background and noise levels, compare probes against controls and determine response scores for each probe pair. It then summarizes a set of probe pair results to determine presence of an operational taxonomic unit as well as its abundance. The PhyCA software is novel from other microarray interpretation software from the following reasons: 1) It leverages spiked-in Quantitative Standards and non-spike-in Negative Controls to build a per-chip model of positive and non-positive responses. 2) It allows a refinement of Presence/Absence calls by evaluating each responding probe against a putative cross-hybridization network. 3) It can be used with phylogenetic microarrays designed for Bacteria, Archaea or Eukaryotes. Hardware req.: PC, MAC; Software req.: OS: Windows, Mac, Linux; Types of files: source code, control information; user guide. The software depends on other software to be installed on the same machine as PhyCA.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 1352.8,
+    "languages": [],
+    "name": "PhyCA-PhyloChip Analysis",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

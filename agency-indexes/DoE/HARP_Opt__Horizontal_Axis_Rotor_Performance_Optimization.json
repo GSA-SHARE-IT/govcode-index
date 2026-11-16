@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-09-12",
+        "metadataLastUpdated": "2018-09-12"
+    },
+    "description": "HARP_Opt (Horizontal Axis Rotor Performance Optimization) utilizes MATLAB's optimization algorithms and the National Renewable Energy Laboratory's (NREL) WT-Perf blade element momentum (BEM) code to design axial-flow wind and water (i.e. hydrokinetic) turbine rotors. The code optimizes a rotor's performance for steady and uniform flows (no sheared or yawed flows). A variety of rotor control configurations can be designed using HARP_Opt, including fixed or variable rotor speed and fixed or variable blade pitch configuration. Blades with circular or non-circular roots are also supported.\n",
+    "laborHours": 5396.0,
+    "languages": [],
+    "name": "HARP_Opt: Horizontal Axis Rotor Performance Optimization",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/HARP_Opt",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-09-21",
+        "metadataLastUpdated": "2021-09-21"
+    },
+    "description": "Occupant schedules at room level are crucial information to building energy modeling which quantifies occupant-related energy efficiency technologies and controls for new building design as well as existing building retrofits to reduce energy use and GHG emissions in buildings. The Occupancy Simulator Solver is an executable software component that simulates the stochastic behavior of occupant presence and movement in a building using the Markov-chain model. Occupancy Simulator Solver is the calculation engine of the web App Occupancy Simulator, which takes high level input on occupants, spaces and events, then calls the Solver to simulate occupant movement and generate occupant schedules for each space. The generated schedules capture diversity and stochastic nature of occupant activities (e.g., in office, meetings, breaks, lunch). These schedules are stored in CSV files and can be downloaded from the App and used for building performance simulation.",
+    "homepageURL": "https://sites.google.com/lbl.gov/2019-163/landing-page",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Occupancy Simulator Solver v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://sites.google.com/lbl.gov/2019-163/landing-page",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://sites.google.com/lbl.gov/2019-163/landing-page",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

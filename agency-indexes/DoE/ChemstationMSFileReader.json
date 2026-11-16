@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-20",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Allows for reading Agilent Chemstation .D folders using Dot.NET. The ChemstationMSFileReader provides C# or VB.NET access to reading Agilent Chemstation .D dataset folders, for example, from an Agilent single quadrupole GC-MS instrument.",
+    "laborHours": 942.4,
+    "languages": [],
+    "name": "ChemstationMSFileReader",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/ChemstationMSFileReader",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

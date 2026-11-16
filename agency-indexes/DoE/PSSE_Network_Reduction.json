@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2021-05-11",
+        "metadataLastUpdated": "2021-05-11"
+    },
+    "description": "This code can reduce power system network models in PSSE. The user selects single-port or two-port subnetworks for reduction, and the software reduces the subnetwork as described in the paper \"Power System Network Reduction for Power Hardware-in-the-Loop Simulation\" (submitted).",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "PSSE Network Reduction",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/PSSE_Network_Reduction",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

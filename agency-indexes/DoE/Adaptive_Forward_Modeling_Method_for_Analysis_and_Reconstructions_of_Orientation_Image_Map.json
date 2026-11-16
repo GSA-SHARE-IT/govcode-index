@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "IceNine is a MPI-parallel orientation reconstruction and microstructure analysis code. It's primary purpose is to reconstruct a spatially resolved orientation map given a set of diffraction images from a high energy x-ray diffraction microscopy (HEDM) experiment (1). In particular, IceNine implements the adaptive version of the forward modeling method (2, 3). Part of IceNine is a library used to for conbined analysis of the microstructure with the experimentally measured diffraction signal. The libraries is also designed for tapid prototyping of new reconstruction and analysis algorithms. IceNine is also built with a simulator of diffraction images with an input microstructure.",
+    "laborHours": 20778.4,
+    "name": "Adaptive Forward Modeling Method for Analysis and Reconstructions of Orientation Image Map",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/FrankieLi/IceNine/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/FrankieLi/IceNine",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

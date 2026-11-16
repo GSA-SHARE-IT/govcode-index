@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "MADSpython (Model analysis and decision support tools in Python) is a code in Python that streamlines the process of using data and models for analysis and decision support using the code MADS. MADS is open-source code developed at LANL and written in C/C++ (MADS; http://mads.lanl.gov; LA-CC-11-035). MADS can work with external models of arbitrary complexity as well as built-in models of flow and transport in porous media. The Python scripts in MADSpython facilitate the generation of input and output file needed by MADS as wells as the external simulators which include FEHM and PFLOTRAN. MADSpython enables a number of data- and model-based analyses including model calibration, sensitivity analysis, uncertainty quantification, and decision analysis. MADSpython will be released under GPL V3 license. MADSpython will be distributed as a Git repo at gitlab.com and github.com. MADSpython manual and documentation will be posted at http://madspy.lanl.gov.",
+    "laborHours": 182.4,
+    "name": "MADSpython 1.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/losalamos/madspython",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

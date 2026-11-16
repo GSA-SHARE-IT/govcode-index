@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-08-05",
+        "metadataLastUpdated": "2019-10-03"
+    },
+    "description": "BASIN-3D (Broker for Assimilation, Synthesis and Integration of eNvironmental Diverse, Distributed Datasets) uses a data brokering approach to synthesize diverse earth science data from a variety of remote sources in real-time without the need for additional storage. BASIN-3D is an extendable Django web framework application using a generalized data synthesis model that makes the synthesized data available via REpresentational State Transfer (REST) Application Programming Interface (API). We have currently implemented our data synthesis model to represent sensor-based time series earth science observations across a hierarchy of spatial locations. Supporting our data synthesis model is a plugin framework that allows developers to map data sources of interest to the BASIN-3D synthesis model\n",
+    "laborHours": 2143.2,
+    "languages": [],
+    "name": "Broker for Assimilation, Synthesis and Integration of eNvironmental Diverse, Distributed Datasets v1.1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Watershed-Function-SFA/BASIN-3D",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

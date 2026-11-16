@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2018-03-26",
+        "metadataLastUpdated": "2019-04-17"
+    },
+    "description": "Simsee is a program for generating artificial seeing data for simulations of astronomical surveys. It includes a jupyter notebook for deriving model parameters from Dual Image Motion Monitor (DIMM) data, and a program that reads these model parameters and creates a data file suitable for use by survey strategy simulation code (which is outside the scope of this package). It is specifically designed to provide input data for LSST’s opsim4 survey simulator, but may be adapted for use with different simulators as well. The code is verified to work on a Linux workstation with an Intel Xeon E5-6980 CPU and 256GB or memory, but should work fine on systems with far more limited resources.",
+    "laborHours": 12479.2,
+    "languages": [],
+    "name": "simsee",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LSSTDESC/ObsStrat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-06-14",
+        "metadataLastUpdated": "2024-06-14"
+    },
+    "description": "This software provides functions to perform visual predicate estimation by leveraging the pre-trained\nvision-language model CLIP. In addition to training the prediction estimator with a labeled dataset, it also\nperforms performance evaluation and visualization of results.",
+    "laborHours": 927.2,
+    "languages": [],
+    "name": "CLIP Representation Enhanced Predicate Estimation",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/CREPE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

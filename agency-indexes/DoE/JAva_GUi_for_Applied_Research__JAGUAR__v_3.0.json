@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2024-07-24"
+    },
+    "description": "JAGUAR is a Java software tool for automatically rendering a graphical user interface (GUI) from a structured input specification. It is designed as a plug-in to the Eclipse workbench to enable users to create, edit, and externally execute analysis application input decks and then view the results. JAGUAR serves as a GUI for Sandia's DAKOTA software toolkit for optimization and uncertainty quantification. It will include problem (input deck)set-up, option specification, analysis execution, and results visualization. Through the use of wizards, templates, and views, JAGUAR helps uses navigate the complexity of DAKOTA's complete input specification. JAGUAR is implemented in Java, leveraging Eclipse extension points and Eclipse user interface. JAGUAR parses a DAKOTA NIDR input specification and presents the user with linked graphical and plain text representations of problem set-up and option specification for DAKOTA studies. After the data has been input by the user, JAGUAR generates one or more input files for DAKOTA, executes DAKOTA, and captures and interprets the results",
+    "laborHours": 0.0,
+    "languages": [
+        "Java"
+    ],
+    "name": "JAva GUi for Applied Research (JAGUAR) v 3.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/jaguar",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "3.0"
+}

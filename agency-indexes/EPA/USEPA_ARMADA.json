@@ -1,0 +1,33 @@
+{
+    "name": "USEPA/ARMADA",
+    "organization": "usepa",
+    "description": "ARMADA pulls statistical survey data from ATTAINS and displays the results.",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/ARMADA/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/ARMADA",
+    "downloadURL": "https://github.com/USEPA/ARMADA/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/ARMADA/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/ARMADA.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2023-11-29T20:10:14Z",
+        "lastModified": "2024-10-02T12:55:01Z",
+        "metadataLastUpdated": "2026-11-16T06:39:58.622Z"
+    }
+}

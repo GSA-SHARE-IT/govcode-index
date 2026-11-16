@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-03-07",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The Minos Computing Library (MCL) is a task-based programming language and runtime for extremely heterogeneous systems. MCL facilitates writing program for heterogeneous devices and porting applications across different systems and devices. MCL supports asynchronous execution of computing tasks on all available heterogeneous devices, including GPUs, FGPAs, fixed-point accelerators, and AI accelerators. MCL provides a high-level programming interface and automatically and autonomously performs resource management, load balancing, and locality-aware scheduling.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/mcl-runtime",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/mcl-runtime",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

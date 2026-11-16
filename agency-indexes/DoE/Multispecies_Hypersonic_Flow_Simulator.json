@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2020-02-07",
+        "metadataLastUpdated": "2020-02-07"
+    },
+    "description": "MHYSA is a conservative finite-difference code to solve the 1D, 2D, and 3D multispecies Navier-Stokes equations for hypersonic flow applications. \n\nIt supports Cartesian grids only and has the option of including immersed boundaries.\n- Solves 1D Euler and 2D and 3D Navier-Stokes equations.\n- Solves the PDEs over Cartesian grids.\n- Written entirely in C and uses the MPICH library. It also uses OpenMP threads but this is a work-inprogress.\n- Can be compiled with PETSc (http://www.mcs.anl.gov/petsc/), if available, where it can use PETSc's time integration module TS (http://www.mcs.anl.gov/petsc/petsc-current/src/ts/).\n- For 3-dimensional simulations, the immersed boundaries can be used to solve over non-Cartesian geometries.\n\nMHYSA has been developed to be scalable, and apart from the usual functionalities to solve a system of PDEs on distributed architectures, it provides scalable file I/O functions.\n",
+    "laborHours": 16704.8,
+    "languages": [],
+    "name": "Multispecies Hypersonic Flow Simulator",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/mhysa",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

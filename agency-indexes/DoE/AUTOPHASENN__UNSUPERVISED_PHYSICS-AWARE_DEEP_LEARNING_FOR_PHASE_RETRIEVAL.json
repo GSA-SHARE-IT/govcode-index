@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-01-03",
+        "metadataLastUpdated": "2022-01-05"
+    },
+    "description": "AutoPhaseNN is a deep learning (DL) based approach for solving the phase problem. By combining the 3D convolutional neural network (CNN) with the physics of the imaging technique, AutoPhaseNN is trained to learn the inversion from the measured intensity to the amplitude and phase images without labeled data. Once trained, AutoPhaseNN is ~100X faster than conventional iterative phase retrieval methods,",
+    "homepageURL": "https://www.anl.gov/partnerships/licensable-software",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "AUTOPHASENN: UNSUPERVISED PHYSICS-AWARE DEEP LEARNING FOR PHASE RETRIEVAL",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.anl.gov/partnerships/licensable-software",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

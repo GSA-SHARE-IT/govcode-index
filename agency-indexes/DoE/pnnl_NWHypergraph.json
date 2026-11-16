@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-06-01",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "NWHypergraph is a C++ hypergraph processing framework for shared-memory architecture. NWHypergraph provides\nefficient algorithms to construct s-line graphs, a lower-order approximation of a given hypergraph, and computes different\ngraph metrics of a s-line graph such as s-connected components, s-betweenness centrality, s-closeness centrality, etc. It\nalso provides Python APIs for s-line graph computation. The Python APIs are provided using Pybind11",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/NWHypergraph",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/NWHypergraph",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

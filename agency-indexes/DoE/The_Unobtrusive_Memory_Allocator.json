@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-19"
+    },
+    "description": "This library implements a memory allocator/manager which ask its host program or library for memory refions to manage rather than requesting them from the operating system. This allocator supports multiple distinct heaps within a single executable, each of which may grow either upward or downward in memory. The GNU mmalloc library has been modified in such a way that its allocation algorithms have been preserved, but the manner in which it obtains regions to manage has been changed to request memory from the host program or library. Additional modifications allow the allocator to manage each heap as either upward or downward-growing. By allowing the hosting program or library to determine what memory is managed, this package allows a greater degree of control than other memory allocation/management libraries. Additional distinguishing features include the ability to manage multiple distinct heaps with in a single executable, each of which may grow either upward or downward in memory. The most common use of this library is in conjunction with the Berkeley Unified Parallel C (UPC) Runtime Library. This package is a modified version of the LGPL-licensed \"mmalloc\" allocator from release 5.2 of the \"gdb\" debugger's source code.",
+    "laborHours": 0.0,
+    "languages": [
+        "Any ANSI C compiler."
+    ],
+    "name": "The Unobtrusive Memory Allocator",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/upc-runtime/src/master/umalloc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

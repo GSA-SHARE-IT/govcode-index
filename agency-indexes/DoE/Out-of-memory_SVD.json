@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2021-06-17"
+    },
+    "description": "Singular value decomposition (SVD) is a matrix factorization widely used for dimensionality reduction, data analytics, information retrieval and unsupervised learning. In the SVD's applications for big-data, usually, only the singular values are calculated. However, new methods, such as the tensor network factorization, require an accurate retrieval of a substantial number of singular vectors for truncated SVD. Also, many real-world datasets are too big to fit directly into the memory, which mandates the development of out-of-memory algorithms that work with data that is primarily on the disk. Here, building upon a previous work, we present a method for computation of the singular vectors of matrices that cannot fit into the memory. We also describe ways for reducing the communication during the computation of the left and right reflectors, needed to compute the singular vectors, and introduce a method for reducing the block-sizes, needed to hide communication on parallel file systems.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Out-of-memory SVD",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

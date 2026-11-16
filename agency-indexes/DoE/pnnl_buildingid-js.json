@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-11-30",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Unique Building Identification (UBID) for JavaScript\nThis is a line-for-line translation from the Python programming language to the JavaScript programming language of the UBID application programming interface (API): the \"encode\", \"decode\" and \"isValid\" UBID functions. No new functionality is introduced.",
+    "laborHours": 76.0,
+    "languages": [
+        "Java"
+    ],
+    "name": "pnnl/buildingid-js",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/buildingid-js",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

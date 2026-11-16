@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-08-17",
+        "metadataLastUpdated": "2022-08-17"
+    },
+    "description": "This docker image, named pysmurf contains pysmurf and additional tools used by the SMuRF project. It is based on the smurf-base docker image and contains Rogue.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "slaclab/pysmurf-docker",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/pysmurf-docker/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/pysmurf-docker",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

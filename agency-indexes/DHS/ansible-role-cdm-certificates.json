@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2021-02-03",
+        "lastModified": "2026-05-28"
+    },
+    "description": "An Ansible role to install some CA certificates necessary to function with the CISA CDM environment.",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-cdm-certificates/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-cdm-certificates",
+    "laborHours": 956.1,
+    "languages": [
+        "Shell",
+        "HCL",
+        "Python",
+        "Jinja"
+    ],
+    "name": "ansible-role-cdm-certificates",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-cdm-certificates.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "cisa"
+    ],
+    "vcs": "git"
+}

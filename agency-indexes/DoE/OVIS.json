@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "OVIS is a tool for intelligent, real-time monitoring of computational clusters. While current monitoring tools treat the cluster as singleton nodes, OVIS considers the cluster as comprised of comparative ensembles. OVIS provides a visual display of deterministic information about state variables and their aggregate statistics. Comparison to statistical quantities can be used for the automatic identification of abnormalities. OVIS collects and processes active data. OVIS can also process historical data files or database files.",
+    "laborHours": 98252.8,
+    "name": "OVIS",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ovis-hpc/ovis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

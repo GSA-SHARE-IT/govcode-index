@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-12-17",
+        "metadataLastUpdated": "2019-09-23"
+    },
+    "description": "Data Elavator allows extensive optimizations, such as overlapping read and write operations, choosing I/O modes, and aligning buffer boundaries. Is as much as 4.2X faster than Cray DataWarp, the start-of-art software for burst buffer, and 4X faster than directly writing to PFS.",
+    "laborHours": 53473.6,
+    "languages": [],
+    "name": "Data Elevator",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/sbyna/dataelevator",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

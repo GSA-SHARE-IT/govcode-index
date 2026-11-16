@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-11-10",
+        "metadataLastUpdated": "2020-11-10"
+    },
+    "description": "Software application: Sandia RPM Lane Simulator.\nSimulates Rapiscan radiation portal monitors and network cameras that are in use in the NNSA Nuclear Smuggling Detection and Deterrence (NSDD) program. SAND2019-3741 M\n\nSandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy's National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 28728.0,
+    "languages": [],
+    "name": "Sandia RPM Lane Simulator ",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/SRLS",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

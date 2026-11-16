@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-30",
+        "metadataLastUpdated": "2018-07-30"
+    },
+    "description": "This package includes several SLURM spank plugins developed at LLNL and used on production compute clusters onsite. A few of these plugins are only valid when used on LLNL's software stack (oom-detect.so, for example, requires LLNL-specific patches to track job's terminated by the OOM killer). However, the  source for all plugins is provided here in the hope that they might be useful to other plugin developers. The following is a short description of most of the plugins in this package.",
+    "laborHours": 8314.4,
+    "languages": [],
+    "name": "SLURM spank plugins",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/chaos/slurm-spank-plugins",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

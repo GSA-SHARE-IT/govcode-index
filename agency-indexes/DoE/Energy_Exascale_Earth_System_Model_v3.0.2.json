@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jacob@anl.gov"
+    },
+    "date": {
+        "created": "2024-12-16",
+        "metadataLastUpdated": "2024-12-18"
+    },
+    "description": "E3SM v3.0.2. Second patch release of v3.0.  The main purpose of this release is to fix the forcing specifications of single-forcing compsets introduced in v3.0.1\n[BUG FIXES] These compsets are changed:  WCYCL20TR-GHG, WCYCL20TR-aer, WCYCL20TR-xGHG-xaer, WCYCL20TR-xaer. Core to the changes is to separate the transient aerosol and chemical precursors for different single forcing compsets. New virtually transient forcing files are introduced to satisfy the unified data stream control for surface and elevated emissions. Historical evolution of stratospheric ozone is moved from the all-else configuration to the GHG only configuration.  Except for those compsets, the simulated climate is identical for compsets released in v3.0.0 and released/updated in v3.0.1.\n[ATM] fix output of r_lch4 and r_lco_h reaction rates.  Downstream merge from SCREAM repo.\n[LND] The precision of a few real variables is fixed during model initialization.  New parameterizations are added for the burial of shrubs by snow; however, these parameterizations are not on by default.\n[OCEAN] fix bug in data sub-glacial runoff. Add new SOwISC12to30E3r3 mesh.\n[SEA-ICE] Update BGC history fields.\n[LAND-ICE] Add ERA5r025 configurations for new IGERA5ELM_MLI compsets\n[WAVES] Change location of WW3 compilation, update wave developer test suite.\n[DATA-MODEL] Add support for new JRA forcing through year 2023.",
+    "laborHours": 1769751.2,
+    "languages": [
+        "C",
+        "C",
+        "Fortran"
+    ],
+    "name": "Energy Exascale Earth System Model v3.0.2",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/E3SM/releases/tag/v3.0.2",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git",
+    "version": "v3.0.2"
+}

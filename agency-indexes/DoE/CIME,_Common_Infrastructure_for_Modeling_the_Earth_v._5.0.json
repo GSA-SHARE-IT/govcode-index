@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "CIME is the software infrastructure for configuring, building, running, and testing an Earth system model. It can be developed and tested as stand-alone software, but its main role is to be integrating into the CESM and ACME Earth system models.",
+    "laborHours": 59827.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "CIME, Common Infrastructure for Modeling the Earth v. 5.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ESMCI/cime/blob/master/LICENSE.TXT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ESMCI/cime",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

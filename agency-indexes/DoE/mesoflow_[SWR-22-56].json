@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-05-25",
+        "metadataLastUpdated": "2023-04-24"
+    },
+    "description": "Mesoflow is a continuum scale simulation tool developed specifically for modeling transport and chemistry at the mesoscale. Our solver utilizes Cartesian block-structured adaptive mesh refinement to resolve complex surface morphologies (of catalysts/biomass particles among others) directly obtained from X-ray tomography data. An immersed boundary based formulation enables rapid representation of complex geometries prevalent in most mesoporous interfaces. The solver is developed on top of open-source performance portable library, AMReX, providing parallel execution capabilities on current and upcoming high-performance-computing (HPC) architectures. Our flexible software framework enables integration of complex chemical mechanisms at heterogenous interfaces and time-split algorithms for circumventing highly disparate reaction and flow time-scales. Our current studies indicate a ten-fold performance gain by using graphics-processing-units (GPU) compared to a single processor for representative problem sizes (2 million cell mesh).",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "mesoflow [SWR-22-56]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/mesoflow",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

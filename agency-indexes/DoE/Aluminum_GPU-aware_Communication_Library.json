@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-12-17",
+        "metadataLastUpdated": "2018-12-18"
+    },
+    "description": "Aluminum is an optimized GPU-aware communication library. It provides a generic Interface to high-performance allreduce algorithms, with support for additional collective operations in progress. Blocking and non-blocking algorithms and GPU-aware algorithms are supported. Aluminum contains custom Implementations and Interfaces to existing optimized communication libraries, exposed through a generic API. ",
+    "laborHours": 5578.4,
+    "languages": [],
+    "name": "Aluminum GPU-aware Communication Library",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/Aluminum",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

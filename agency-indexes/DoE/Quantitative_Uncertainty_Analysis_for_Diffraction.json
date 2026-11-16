@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "Current software uses a least squares statistical method. For each model parameter, current software yields a point estimate and estimated standard error for each point estimate. In contrast, we have employed a Bayesian approach with sampling algorithm to provide a full posterior probability density function on each model parameter. This yields a different type of solution (probabilistic) with better fidelity. The Quantitative Uncertainty Analysis for Diffraction (QUAD) package returns a matrix of affect model parameters as a function of iteration through the MCMC analysis. QUAD is a Python code that allows for analysis of X-ray and neutron diffraction data to infer the structure of materials with quantifiable certainty. The code uses Bayesian statistics and Markov chain sampling algorithms to create posterior probability distributions on all material structure parameters that are modeled by a researcher. The statistical packages use the open source GSASII project as a library to calculate model diffraction patterns.",
+    "laborHours": 653.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "Quantitative Uncertainty Analysis for Diffraction",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/rabroughton/QUAD/blob/master/license.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/rabroughton/QUAD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

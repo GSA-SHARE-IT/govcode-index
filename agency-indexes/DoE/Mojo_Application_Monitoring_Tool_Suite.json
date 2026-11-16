@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-29"
+    },
+    "description": "Mojo is a software tool suite that can be used to monitor the progress of compute jobs on Linux Clusters and other high-performance computing platforms. Mojo is designed to allow system administrators to monitor the health and progress of computing jobs, and to allow users to view the progress and status of their own jobs. The facilities provided include the ability to notify users of job \"hangs\", and to take an automated action (e.g killing the job) when something goes wrong. These operations can lead to a more efficient use of scarce resources.",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Mojo Application Monitoring Tool Suite",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

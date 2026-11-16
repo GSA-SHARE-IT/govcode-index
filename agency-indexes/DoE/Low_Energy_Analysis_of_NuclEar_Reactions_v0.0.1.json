@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-05-17",
+        "metadataLastUpdated": "2023-05-17"
+    },
+    "description": "This is a lightweight, easy to use Python analysis package for analyzing public low-energy nuclear reaction data relevant to understanding basic nuclear processes, often of relevance to Solar Fusion, to improve our theoretical understanding of them, and enable connections with input from lattice QCD. It performs the analysis in a Bayesian Framework and supports Bayesian Model Averaging to provide a robust uncertainty quantification.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Low Energy Analysis of NuclEar Reactions v0.0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/nrp-g/leaner",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

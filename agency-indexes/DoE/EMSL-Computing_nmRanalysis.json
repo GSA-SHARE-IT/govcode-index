@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-11-22",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "R package that serves as wrapper for rDolphin, an open-source R package that performs semiautomated quantification of metabolites represented within Nuclear Magnetic Resonance (NMR) spectral data",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "EMSL-Computing/nmRanalysis",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/EMSL-Computing/nmRanalysis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

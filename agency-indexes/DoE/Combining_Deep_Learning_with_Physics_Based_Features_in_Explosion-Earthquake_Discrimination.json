@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-06-20",
+        "metadataLastUpdated": "2022-06-20"
+    },
+    "description": "This package contains the code for the paper Combining Deep Learning with Physics Based Features in Explosion-Earthquake Discrimination published at Geophysical Research Letters. There are two Jupyter notebooks, one for building and training the two-branch model, and the other is visualizing the deep learning branch using GradCAM.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Combining Deep Learning with Physics Based Features in Explosion-Earthquake Discrimination",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/qingkaikong/PhysicsML-CombineFeatures",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

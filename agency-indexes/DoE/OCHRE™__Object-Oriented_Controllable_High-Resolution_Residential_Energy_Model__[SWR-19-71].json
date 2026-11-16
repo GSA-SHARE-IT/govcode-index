@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2021-12-09",
+        "metadataLastUpdated": "2023-09-11"
+    },
+    "description": "OCHRE™: Object-Oriented Controllable High-Resolution Residential Energy Model\n\nA high-fidelity, high-resolution residential building model with behind-the-meter DERs and flexible load models that integrates with controllers and distribution models in building-to-grid co-simulation platforms.\n\nThe full documentation for OCHRE can be found at https://ochre-docs-final.readthedocs.io/en/latest/",
+    "laborHours": 0.0,
+    "languages": [
+        "Jupyter Notebook",
+        "Python"
+    ],
+    "name": "OCHRE™ (Object-Oriented Controllable High-Resolution Residential Energy Model) [SWR-19-71]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/OCHRE",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "v0.8.3-beta"
+}

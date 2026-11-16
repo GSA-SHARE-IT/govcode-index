@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-19"
+    },
+    "description": "This package permits a scientist to perform computations using an arbitrarily high level of numeric precision (the equivalent of hundreds or even thousands of digits), by making only minor changes to conventional C++ or Fortran-90 soruce code. This software takes advantage of certain properties of IEEE floating-point arithmetic, together with advanced numeric algorithms, custom data types and operator overloading. Also included in this package is the \"Experimental Mathematician's Toolkit\", which incorporates many of these facilities into an easy-to-use interactive program.",
+    "homepageURL": "https://www.davidhbailey.com/dhbsoftware",
+    "laborHours": 0.0,
+    "languages": [
+        "C++ and F90 compilers"
+    ],
+    "name": "An Arbitrary Precision Computation Package",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.davidhbailey.com/dhbsoftware",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.davidhbailey.com/dhbsoftware",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

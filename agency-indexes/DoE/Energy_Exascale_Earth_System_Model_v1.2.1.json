@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jacob@anl.gov"
+    },
+    "date": {
+        "created": "2021-03-09",
+        "metadataLastUpdated": "2021-03-09"
+    },
+    "description": "v1.2.1 with 3D GM in ocean used for v1 Cryosphere campaign\n\nThis update to v1.2.0 does the following:  Add ne30_oARRM60to10 grid resolution. Add options for 3D varying GM bolus and 2d varying phase speed, Add GM bolus eddy stats, turn 3DGM on by default, add 3DGM namelist options, compute landIceMask using geometric_features, bug fixes for nonlocal source term in KPP, change all output to single precision and fix threading issue in GM.\n\nUpdate machine files on cori, anvil, and LANL machines.",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "C",
+        "Fortran"
+    ],
+    "name": "Energy Exascale Earth System Model v1.2.1",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/E3SM/releases/tag/v1.2.1",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git",
+    "version": "v1.2.1"
+}

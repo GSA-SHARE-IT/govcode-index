@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-07-13",
+        "metadataLastUpdated": "2023-07-13"
+    },
+    "description": "A software program for experimenting with holographic teleportation protocol on quantum computers. The code implements the protocol that was proposed in https://arxiv.org/abs/1911.06314.\n\nThe code is an end-to-end software solution that facilitates conducting the holographic teleportation experiments on state-of-the-art and emergent generations of QPUs supported by the Qiskit and tket SDKs. The code bundles all stages of an experiment as a single configurable workflow allowing faster development and experimentation cycles.\n\nFeatures:\n1. Easy switching between Qiskit and tket quantum compilers.\n2. Semi-automatic facilities for finding optimal compilation solutions beyond what Qiskit and tket provide by default.\n3. Experiment resolution scaling (based on automatic jobs' batching).\n4. Automatic experiment scaling over qubits.\n5. Automatic readout error mitigation.\n6. Automatic reproducibility analysis.\n7. Standalone error-mitigation tools (randomized compiling, mitigation with estimation circuits, zero-noise extrapolation)",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "QGLab v0.0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/ishapova/qglab",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

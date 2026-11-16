@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-19"
+    },
+    "description": "This package implements system-level checkpointing of scientific applications running on Linux clusters in a manner suitable for implementing preemption, migration and fault recovery by a batch scheduler The design includes documented interfaces for a cooperating application or library to implement extensions to the checkpoint system, such as consistent checkpointing of distributed MPI applications Using this package with an appropriate MPI implementation, the vast majority of scientific applications which use MPI for communication are checkpointable without any modifications to the application source code. Extending VMAdump code used in the bproc system, the BLCR kernel modules provide three additional features necessary for useful system-level checkpointing of scientific applications(installation of bproc is not required to use BLCR) First, this package provides the bookkeeping and coordination required for checkpointing and restoring multi-threaded and multi-process applications running on a single node Secondly, this package provides a system call interface allowing checkpoints to be requested by any authorized process, such as a batch scheduler. Thirdly, this package provides a system call interface allowing applications and/or application libraries to extend the checkpoint capabilities in user space, for instance to provide coordination of checkpoints of distributed MPI applications. The \"Iibcr\" library in this package implements a wrapper around the system call interface exported by the kernel modules, and maintains bookkeeping to allow registration of callbacks by runtime libraries This library also provides the necessary thread-safety and signal-safety mechanisms Thus, this library provides the means for applications and run-time libraries, such as MPI, to register callback functions to be run when a checkpoint is taken or when restarting from one. This library may also be used as a LD_PRELOAD to enable checkpointing of applications with development releases of BLCR (which cannot preempt unmodified applications otherwise). This package also includes simple command line utilities to request a checkpoint or restart of a process. These provide the means for a user, system administrator, or batch scheduler to use BLCR.",
+    "homepageURL": "https://crd.lbl.gov/departments/computer-science/class/research/past-projects/BLCR",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Berkeley Lab Checkpoint/Restart for Linux",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://crd.lbl.gov/departments/computer-science/class/research/past-projects/BLCR",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://crd.lbl.gov/departments/computer-science/class/research/past-projects/BLCR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

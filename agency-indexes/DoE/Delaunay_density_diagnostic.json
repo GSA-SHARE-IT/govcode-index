@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-03-24",
+        "metadataLastUpdated": "2022-03-24"
+    },
+    "description": "The Delaunay density diagnostic helps detect and assess geometric scales within unstructured numerical data sets. The algorithm was first introduced in the paper \"Data-driven geometric scale detection via Delaunay interpolation\" by Andrew Gillette and Eugene Kur, 2022. More details can be found in that paper, as well as the included README file.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Delaunay density diagnostic",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ddd",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

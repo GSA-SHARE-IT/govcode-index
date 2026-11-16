@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-10-25"
+    },
+    "description": "A blade element momentum method for analyzing wind turbine aerodynamic performance that is robust (guaranteed convergence), fast (superlinear convergence rate), and smooth (continuously differentiable). Analytic gradients are also (optionally) provided for the distributed loads, thrust, torque, and power with respect to design variables of interest.",
+    "laborHours": 3587.2,
+    "languages": [
+        "Meson",
+        "Fortran",
+        "Python"
+    ],
+    "name": "CCBlade (WISDEM®) [SWR-13-19]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/wisdem/ccblade",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "v1.3"
+}

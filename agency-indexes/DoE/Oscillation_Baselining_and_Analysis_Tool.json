@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-10"
+    },
+    "description": "PNNL developed a new tool for oscillation analysis and baselining. This tool has been developed under a new DOE Grid Modernization Laboratory Consortium (GMLC) Project (GM0072 - “Suite of open-source applications and models for advanced synchrophasor analysis”) and it is based on the open platform for PMU analysis. The Oscillation Baselining and Analysis Tool (OBAT) performs the oscillation analysis and identifies modes of oscillations (frequency, damping, energy, and shape). The tool also does oscillation event baselining (fining correlation between oscillations characteristics and system operating conditions).",
+    "homepageURL": "https://svn.pnl.gov/OBAT",
+    "laborHours": 0.0,
+    "languages": [
+        "VB.NET (MS Visual Studio 2012)"
+    ],
+    "name": "Oscillation Baselining and Analysis Tool",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://svn.pnl.gov/OBAT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://svn.pnl.gov/OBAT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

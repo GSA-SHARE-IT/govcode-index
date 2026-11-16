@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "PyGSTi is an implementation of Gate Set Tomography in the python programming language. Gate Set Tomography (GST) is a theory and protocol for simultaneously estimating the state preparation, gate operations, and measurement effects of a physical system of one or many quantum bits (qubits). These estimates are based entirely on the statistics of experimental measurements, and their interpretation and analysis can provide a detailed understanding of the types of errors/imperfections in the physical system. In this way, GST provides not only a means of certifying the \"goodness\" of qubits but also a means of debugging (i.e. improving) them.",
+    "laborHours": 95425.6,
+    "name": "Python GST Implementation v. 0.9 beta",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pyGSTio/pyGSTi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

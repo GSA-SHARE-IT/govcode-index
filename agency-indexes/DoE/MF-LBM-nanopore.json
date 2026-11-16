@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-08-12",
+        "metadataLastUpdated": "2021-08-12"
+    },
+    "description": "MF-LBM-nanopore is a high-performance lattice Boltzmann code for direct numerical simulation of flow in nano-porous media with confinement effects. The main features of the code include: 1) implemented with adsorption and slip modules that enable simulation of flow in nano-porous media with confinement effects; 2) extensively optimized for modern SIMD/SIMT processors/co-processors, such as GPU; 3) based on MPI-OpenACC/OpenMP hybrid programing model that enables high portability. The main application of the code is in modeling shale gas flow.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MF-LBM-nanopore",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

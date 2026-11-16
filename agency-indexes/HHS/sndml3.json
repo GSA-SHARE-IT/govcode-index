@@ -1,0 +1,41 @@
+{
+    "name": "sndml3",
+    "description": "ServiceNow Data Mart Loader: an application to load SQL databases from ServiceNow",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT License"
+            }
+        ]
+    },
+    "organization": "Department of Health and Human Services",
+    "homepageURL": "https://github.com/HHS/sndml3",
+    "downloadURL": "https://api.github.com/repos/HHS/sndml3/downloads",
+    "repositoryURL": "https://github.com/HHS/sndml3.git",
+    "vcs": "git",
+    "laborHours": 0.0,
+    "languages": [
+        "Java"
+    ],
+    "date": {
+        "created": "2019-04-15",
+        "lastModified": "2019-04-15",
+        "metadataLastUpdated": "2022-03-22"
+    },
+    "tags": [
+        "ServiceNow",
+        "Mart",
+        "Loader:",
+        "application",
+        "load",
+        "SQL",
+        "databases"
+    ],
+    "contact": {
+        "email": "HHS_GitHub_Service_Desk@hhs.gov",
+        "name": "U.S. Department of Health & Human Services"
+    }
+}

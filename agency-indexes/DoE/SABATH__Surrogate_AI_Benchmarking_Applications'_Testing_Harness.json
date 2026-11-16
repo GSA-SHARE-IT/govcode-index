@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "luszczek@icl.utk.edu"
+    },
+    "date": {
+        "created": "2023-07-30",
+        "metadataLastUpdated": "2023-07-30"
+    },
+    "description": "SABATH provides benchmarking infrastructure for evaluating scientific ML/AI models. It contains support for scientific machine learning surrogates from external repositories. The software dependences are explicitly exposed in the surrogate model definition, which allows the use of advanced optimization, communication, and hardware features.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "SABATH: Surrogate AI Benchmarking Applications' Testing Harness",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/icl-utk-edu/sabath.git",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

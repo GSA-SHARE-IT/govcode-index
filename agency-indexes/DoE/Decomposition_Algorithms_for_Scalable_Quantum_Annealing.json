@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-11-19",
+        "metadataLastUpdated": "2021-11-19"
+    },
+    "description": "The presented python code provides wrapper functions for two decomposition algorithms: One algorithm to decompose Maximum Clique problems and one to decompose Minimum Vertex Cover problems. The functions take as input a networkx graph object, and decompose either problem on the input graph recursively into subproblems such that the optimal solution can be constructed from the optimal solutions of both subproblems. The recursion ends as soon as the subproblems reach a pre-specified size limit by the user, and they can be solved using any method provided in advance by the user as external function. This includes exact solvers or an adiabatic quantum annealer.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Decomposition Algorithms for Scalable Quantum Annealing",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Decomposition-Algorithms-for-Scalable-Quantum-Annealing",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

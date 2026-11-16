@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jacob@anl.gov"
+    },
+    "date": {
+        "created": "2024-09-30",
+        "metadataLastUpdated": "2024-10-02"
+    },
+    "description": "E3SM v3.0.1. First patch release of v3.0.  The main purpose of this release is to introduce additional compsets used in v3 simulations and also fix some bugs found in compsets released with 3.0.0.  [BUG FIXES]  WCYCL20TR and F20TR have an updated landuse timeseries file. Those compsets and F2010 also have corrected nitrogen deposition and population density files for years after 1990. Except for those compsets, the simulated climate is identical for compsets released in v3.0.0.  [NEW COMPSETS] New fully coupled compsets, including WCYCLSSP245, WCYCLSSP370, and WCYCLSSP585, which simulate future climate scenarios based on different socio-economic pathways.  New single-forcing compsets like WCYCL20TR-GHG (greenhouse gases), and WCYCL20TR-aer (aerosols), allow simulations focusing on specific climate drivers.  Two fully coupled compsets with dynamic ice sheets are also available.  [GENERAL] Documentation for all components has been created at https://docs.e3sm.org/E3SM/ .  All components have new optional features but the defaults have not changed for v3.0.0 supported compsets.   The supported resolution is still a \"tri-grid\" as described in v3.0.0. [ATM] Add ability to calculate zonal mean quantities for QBO. Add new diagnostic to output CCN fields per mass of air. Add four new joint histograms to the MODIS simulator. Add alternative data stream control for SO2 species. Fix diagnostic output of in-cloud qc, nc, qi, and ni in P3. Created new User and Technical guide for EAM.   Restore ability to output variable along ship/flight tracks  Major update to PAM in EAM-MMF:  Add adaptive subcycling in driver and enable variance transport by default. Add compsets to facilitate the E3SM-MMF (and E3SM) contributions to phase 1 & 2 of the radiative-convective equilibrium model inter-comparison project (RCEMIP).  [LAND] Several fixes to C,N, P balance checks.  Optionally modify the ELM snowcapping routing scheme along with the snow and firn compaction schemes to include changes made by Schneider et al. (2022); optionally implement the new snow thermal conductivity calculation method introduced in Fourteau et al. (2021); introduce a new optional format for PFT physiology files (paramfile) that allows user to specify a flexible number of PFTs. Add a LULC file for 1850-2015 at r025; allow output of land fraction used in dust mobilization. [OCEAN] Modify SSS restoring to include under sea ice by default. Fix GOTM interface for vertical mixing. Assign alkalinity equals DIC in sea ice melt, switch ice-shelf melt fluxes to Paolo 2023. Add frazil to ice-shelf melt rates, add distinct passive tracer background vert diffusivity, add parametrized tidal mixing effects to ice shelf basal melt, and add subglacial discharge at grounding line. Improve checks for ocean conservation. [LAND-ICE] Add support for dynamic Greenland Ice sheet and Antarctic Ice Sheet meshes for MALI. Add MALI thermal solver bug fix and improved iceberg handling. Activate MALI thermal solver and update configuration to be relevant to both AIS and GIS grids. [SEA-ICE] Merged vertically resolved biogeochemistry and aerosols from the standard MPAS-Seaice column package into the Icepack library, enabling the option to use Icepack for active biogeochemistry and aerosol simulations. Added a namelist option to use a spatial field for dust-iron solubility rather than a constant. Added capability to read atmospheric dust fluxes and dust-iron solubility maps from an input file. \n[COUPLER] Add ability to robustly recover from failures during restart-file writing, and cryo fields to coupler budget accounting. [Included libraries] update SCORPIO to v1.6.5, Kokkos to 4.2, CIME to 6.1.18. SCORPIO 1.6.5 includes improved support for Perlmutter and Frontier. A new rearranger, PIO_REARR_ANY, was added that lets the library choose the appropriate data rearranger to use.The default I/O NetCDF format (for reading and writing) is changed from \"64-bit offset\" (NetCDF CDF2) to \"64bit-data\" (NetCDF CDF5).",
+    "laborHours": 1762470.4,
+    "languages": [
+        "C",
+        "C",
+        "Fortran"
+    ],
+    "name": "Energy Exascale Earth System Model v3.0.1",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/E3SM/releases/tag/v3.0.1",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git",
+    "version": "v3.0.1"
+}

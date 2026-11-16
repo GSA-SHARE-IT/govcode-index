@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Many simulation software produce data in the form of a set of field values or of a set of particle positions. (one such example is that of particle-in-cell codes, which produce data on the electromagnetic fields that they simulate.) However, each particular software uses its own particular format and layout, for the output data. This makes it difficult to compare the results of different simulation software, or to have a common visualization tool for these results. However, a standardized layout for fields and particles has recently been developed: the openPMD format ( HYPERLINK \"http://www.openpmd.org/\"www.openpmd.org) This format is open- source, and specifies a standard way in which field data and particle data should be written. The openPMD format is already implemented in the particle-in-cell code Warp (developed at LBL) and in PIConGPU (developed at HZDR, Germany). In this context, the proposed software (openPMD-viewer) is a Python package, which allows to access and visualize any data which has been formatted according to the openPMD standard. This package contains two main components: - a Python API, which allows to read and extract the data from a openPMD file, so as to be able to work with it within the Python environment. (e.g. plot the data and reprocess it with particular Python functions) - a graphical interface, which works with the ipython notebook, and allows to quickly visualize the data and browse through a set of openPMD files. The proposed software will be typically used when analyzing the results of numerical simulations. It will be useful to quickly extract scientific meaning from a set of numerical data.",
+    "laborHours": 1246.4,
+    "name": "openPMD-viewer",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/openPMD/openPMD-viewer/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/openPMD/openPMD-viewer",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

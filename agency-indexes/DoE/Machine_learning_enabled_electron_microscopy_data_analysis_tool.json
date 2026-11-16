@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-11-10",
+        "metadataLastUpdated": "2022-11-10"
+    },
+    "description": "This software is for materials image and spectral data analysis. It consists machine learning models that can segment a large amount of image data in a high-throughput way, and an interface for image data and spectral data analysis.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Machine learning enabled electron microscopy data analysis tool",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/xiaotingzhong/ML_microscopy_detection_segmentation",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

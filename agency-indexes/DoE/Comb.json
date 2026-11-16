@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-12-17",
+        "metadataLastUpdated": "2018-12-18"
+    },
+    "description": "Comb is a communication performance benchmarking tool. It is used to determine performance tradeoffs in implementing communication patterns on high performance computing (HPC) platforms. At its core comb runs combinations of communication patterns with execution patterns, and memory spaces. The current set of capabilities Comb provides includes:\no\tConfigurable structured mesh halo exchange communication.\no\tA variety of communication patterns based on grouping messages.\no\tA variety of execution patterns including serial, openmp threading, cuda, cuda batched kernels, and cuda persistent kernels.\no\tA variety of memory spaces including default system allocated memory, pinned host memory, cuda device memory, and cuda managed memory with different cuda memory advice.",
+    "laborHours": 8071.2,
+    "languages": [],
+    "name": "Comb",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/Comb",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

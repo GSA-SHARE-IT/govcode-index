@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-01-22",
+        "metadataLastUpdated": "2019-09-23"
+    },
+    "description": "This software contains numerical modules and application codes for studying the behavior of fluid dynamical systems where fluctuations play an important role in the dynamics. There is support for finite-volume/finite-difference solvers for partial differential equations, particle methods, and hybrid fluid-particle approaches.",
+    "laborHours": 40964.0,
+    "languages": [],
+    "name": "Stochastic Hybrid Models and Algorithms for Fluids (FHDeX) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AMReX-FHD/FHDeX.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-04",
+        "metadataLastUpdated": "2021-06-04"
+    },
+    "description": "Dendro-GRCA is a parallel and distributed partial differential equation solver to perform large scale simulations in general relativistic computational astrophysics problems such as merging black holes and neutron stars and also many other problems in computational astrophysics. This toolkit, the Dendro library is a large scale distributed memory adaptive octree framework. Dendro consists of efficient parallel data structures and algorithms to perform finite element methods and finite difference methods on 2:1 balanced arbitrary adaptive octrees. ",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Dendro-GRCA ver. 2.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Dendro-GRCA",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

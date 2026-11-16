@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2020-01-28",
+        "metadataLastUpdated": "2020-01-28"
+    },
+    "description": "The Detection Framework Testbed and Toolkit \n(DFTT) is a signal detection system that uses\nautomatically generated subspace and correlation detectors. \n\nDFTT is intended to facilitate the development and testing of algorithms for operating suites of such detectors. \n\nThe software is a generalization of the system described in Harris and Dodge (2011) and has been applied in contexts ranging from local borehole induced seismicity to large-scale teleseismic observations. \n\nThe software includes interactive applications for creating detection configurations, inspecting and \nediting templates, viewing detection statistics, viewing detected signals, classifying detectors and more.",
+    "laborHours": 102448.0,
+    "languages": [],
+    "name": "Detection Framework Testbed and Toolkit",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/DFTT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

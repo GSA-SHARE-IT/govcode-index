@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-03",
+        "metadataLastUpdated": "2021-03-03"
+    },
+    "description": "Intelligent Network Deployment Intent Renderer Application an interactive network assistant that will help us configure a data path between two scientific end-point groups (EPGs) to optimize the transfer of elephant data flows. This tool is able to talk to scientists gather network requirements and then convert to network programming code and automate the end-to-end provisioning.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Indira: intent-based networking and rendering for networks (Indira) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/esnet/indira_networkIntent.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "v1"
+}

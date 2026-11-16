@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2024-08-06"
+    },
+    "description": "The national Water, Energy and Carbon Sequestration Simulation Model (WECSsim) is an analysis tool that can be used at the local, regional and national scale to address a potentially combined system using a coal or natural gas-fired power plant, a geologic carbon sequestration system in saline formations, and water extraction and treatment. With this combined system for geologic storage of CO2 in saline formations, the treated saline formation water could be used as cooling water in the power plant. The key areas addressed in this tool include applying a data reduction process to existing NatCarb saline formation data to select the most viable formations for CO2 injection, water withdrawal and treatment metrics, and developing a national model to address the multiple combinations of power plants and saline formations. This model can be utilized by decision makers to understand the economic benefits and tradeoffs of this combined system. WECSsim allows for sensitivity analyses for capital costs, variables costs, CO2 sequestration and water treatment systems' costs. The main goal of the WECSsim model is to allow interested individuals or groups the ability to run custom power plant, CO2 sequestration and water use scenarios for different regions of the country and understand the associated economics, longevity and potential of the CO2 sequestration and water extraction systems.",
+    "laborHours": 0.0,
+    "languages": [
+        "PowerSim Studio 7"
+    ],
+    "name": "Water, Energy and Carbon Sequestration Model (WECSsim) v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/WECSSim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

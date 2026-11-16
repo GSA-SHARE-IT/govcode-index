@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-11-19",
+        "metadataLastUpdated": "2021-11-19"
+    },
+    "description": "This computer code uses the concept of the parallax to compute the x, y and z coordinates of points found using transmission electron microscopy (TEM), or any transmission imaging technique, using two images, each taken at a different perspective of the region containing the points. Points correspond, but are not limited, to the center of cavities or precipitates, positions of irradiation black dot damage, positions along a dislocation line, or positions along where an interface meets a free surface. Features can include dislocations, interfaces, cavities, precipitates, inclusions etc. The x, y and z coordinates of the points are output in a text file. The code also allows the user to visualize the features containing the points in three dimensions.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Obtain3D_open",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Obtain3D_open",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

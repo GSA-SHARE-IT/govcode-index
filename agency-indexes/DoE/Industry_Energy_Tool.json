@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-10-31",
+        "metadataLastUpdated": "2019-11-04"
+    },
+    "description": "The Industry Energy Tool (IET) is an open-source calculator tool designed for projecting energy and emissions impacts of industrial sector energy efficiency, material efficiency, and fuel switching. Projections are available at the county and Census Region levels. The IET is based on a detailed county-level energy data set for agriculture, mining, construction, and manufacturing industries. End use energy disaggregation is provided for manufacturing industries, and some agriculture and mining industries. Process temperature disaggregation is provided for most manufacturing industries.",
+    "laborHours": 2416.8,
+    "languages": [],
+    "name": "Industry Energy Tool",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/Industry-Energy-Tool",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

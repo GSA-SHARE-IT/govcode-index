@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "Single-Sided Messaging (SSM) is a portable, multitransport networking library that enables applications to leverage potential one-sided capabilities of underlying network transports. It also provides desirable semantics that services for highperformance, massively parallel computers can leverage, such as an explicit cancel operation for pending transmissions, as well as enhanced matching semantics favoring large numbers of buffers attached to a single match entry. This release supports TCP/IP, shared memory, and Infiniband.",
+    "laborHours": 37741.6,
+    "languages": [],
+    "name": "Single Sided Messaging v. 0.6.6",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/single-sided-messaging",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "0.6.6"
+}

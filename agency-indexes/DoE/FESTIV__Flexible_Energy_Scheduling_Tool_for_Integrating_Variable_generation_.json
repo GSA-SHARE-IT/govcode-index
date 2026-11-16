@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-04-03",
+        "metadataLastUpdated": "2019-04-03"
+    },
+    "description": "Flexible Energy Scheduling Tool for Integrating Variable generation (FESTIV) is a tool that simulates the realistic representation of steady-state power system operations and scheduling performed by an independent system operator, regional transmission organization, or a vertically integrated regulated utility. The tool integrates security-constrained unit commitment (SCUC), security-constrained economic dispatch (SCED), and automatic generation control (AGC) into one model. These are the three modes of power system scheduling that are used to meet the changing net demand. Each of these submodels have different time characteristics and are used to meet the changing demand at different time resolutions and horizons. This allows multiple timescales to be studied where FESTIV accounts for intertemporal coupling between each submodel and the submodels themselves. It does this while having different objectives between the submodels; commitment of resources, dispatch and reserve commitment, and finally control.",
+    "laborHours": 10488.0,
+    "languages": [],
+    "name": "FESTIV (Flexible Energy Scheduling Tool for Integrating Variable generation)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/FESTIV_MODEL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "fattebertj@ornl.gov"
+    },
+    "date": {
+        "created": "2018-04-20",
+        "metadataLastUpdated": "2018-04-20"
+    },
+    "description": "MGmol is a scalable O(N) First-Principles Molecular Dynamics code that is capable of performing large-scale electronics structure calculations and molecular dynamics simulations of atomistic systems.",
+    "laborHours": 62760.8,
+    "name": "LLNL/mgmol",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.1",
+                "name": "GPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/mgmol",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

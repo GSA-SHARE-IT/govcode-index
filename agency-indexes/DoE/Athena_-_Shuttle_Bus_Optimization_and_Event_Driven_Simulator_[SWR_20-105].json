@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2021-02-25",
+        "metadataLastUpdated": "2023-06-01"
+    },
+    "description": "The primary purpose of the software is to optimize shuttle routes to and from terminals, given some airport campus location like the rental car center. This code was developed as part of the DOE funded Athena project. One aspect of the Athena project was to investigate if the optimization of shuttle routes that move passengers to and from the five DFW terminals and the rental car center could result in lower energy consumption from the shuttle fleet while still maintaining an acceptable level of service to passengers. Hence, the optimization done by the code determines a set of shuttle routes, the type of shuttle on each route, and the number of shuttles servicing each route. The optimization aims to make these choices in a way that the energy consumption per hour by the fleet is minimized.\n\nAdditionally, the software can fast simulate airport shuttle operations with collected data. The simulation inputs are passenger arrival rates, shuttle routes and frequencies, and simulation configurations. The outputs include: time dependent shuttle energy level, time dependent charging station usage, time dependent number of passengers on each bus, time dependent number of passengers at each bus stop, history of number of passengers left at each bus stop, route history of fleet shuttle buses and on-demand buses, and time dependent bus distance traveled.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Athena - Shuttle Bus Optimization and Event Driven Simulator [SWR 20-105]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/athena-bus",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

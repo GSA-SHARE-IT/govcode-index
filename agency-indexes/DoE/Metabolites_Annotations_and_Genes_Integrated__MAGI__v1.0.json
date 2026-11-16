@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-02-08",
+        "metadataLastUpdated": "2019-02-19"
+    },
+    "description": "\tWith the benefit of hindsight, it is easy to see that the readout of the human genome, spectacular milestone that it was, represents only the beginning of the \"omics\" information explosion. The technical side of the 'omics explosion--enabling researchers to efficiently readout terabytes of information spelling out whole genomes, transcriptomes, proteomes and metabolomes, does not per se provide a clear picture of how life works. Nor does it show us how we can engineer biology to solve the grand challenges of the 21st century: feeding 10 billion people with declining per capita supplies of arable land and clean water, sustaining biological diversity and slowing the increase in greenhouse gas formation, primarily carbon dioxide and methane. \n\nThe 2017-063 invention--Metabolites and Genes Integration Technology--proposes an integrated approach to correcting and connecting the dots of the 'omics explosion: linking genes to proteins, proteins to pathways, pathways to biochemical reactions and metabolites. The '063 invention is potentially transformational in that it can generate testable hypotheses across thousands of genes to predict their chemical and metabolic products. It can also do the reverse; i.e., starting from chemical and metabolic products it can generate testable hypotheses about which genes and pathways those molecules are linked to. Since we know that genomic, transcriptomic, proteomic and metabolomic databases are chock full or erroneous information, MAGI also has the unique benefit of correcting these errors through its own independent pathway of bidirectional hypothesis generation (genes=>proteins=>metabolites + metabolites=>proteins=>genes). Perfectly amenable to high-throughput hypothesis generation and experimentation, MAGI can transform our understanding of human, animal, plant and microbial biology over several decades, laying the essential knowledge foundation to addressing the grand scientific challenges of the 21st century.",
+    "laborHours": 1352.8,
+    "languages": [],
+    "name": "Metabolites Annotations and Genes Integrated (MAGI) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/biorack/magi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

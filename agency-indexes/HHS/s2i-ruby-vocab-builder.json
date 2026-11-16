@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/CDCgov",
+        "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+        "created": "2019-03-07",
+        "lastModified": "2019-03-08"
+    },
+    "description": "Ruby Source-to-Image builder tailored to the needs of the SDP Vocabulary project.",
+    "downloadURL": "https://api.github.com/repos/CDCgov/s2i-ruby-vocab-builder/downloads",
+    "homepageURL": "https://github.com/CDCgov/s2i-ruby-vocab-builder",
+    "laborHours": 0,
+    "languages": [
+        "Shell",
+        "Roff",
+        "Dockerfile",
+        "Makefile",
+        "Ruby"
+    ],
+    "name": "s2i-ruby-vocab-builder",
+    "organization": "Centers for Disease Control and Prevention",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "git://github.com/CDCgov/s2i-ruby-vocab-builder.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

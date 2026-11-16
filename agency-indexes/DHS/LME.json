@@ -1,0 +1,51 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2023-10-06",
+        "lastModified": "2026-11-11"
+    },
+    "description": "Logging Made Easy (LME) is a no cost, open source platform that centralizes log collection, enhances threat detection, and enables real-time alerting, helping small to medium-sized organizations secure their infrastructure. LME Docs can be found at https://cisagov.github.io/lme-docs/docs/",
+    "downloadURL": "https://api.github.com/repos/cisagov/LME/downloads",
+    "homepageURL": "https://github.com/cisagov/LME",
+    "laborHours": 47337.2,
+    "languages": [
+        "Shell",
+        "Python",
+        "HTML",
+        "Jupyter Notebook",
+        "PowerShell",
+        "Dockerfile",
+        "Jinja",
+        "Go Template"
+    ],
+    "name": "LME",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "NOASSERTION"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/LME.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "cybersecurity",
+        "elastic",
+        "elasticsearch",
+        "elk",
+        "elk-stack",
+        "log",
+        "logging",
+        "network-analysis",
+        "security",
+        "security-tools",
+        "zeek"
+    ],
+    "vcs": "git"
+}

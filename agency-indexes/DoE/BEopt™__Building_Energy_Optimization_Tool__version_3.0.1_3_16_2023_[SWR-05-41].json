@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2023-08-14",
+        "metadataLastUpdated": "2023-08-14"
+    },
+    "description": "The BEopt™ (Building Energy Optimization Tool) software provides capabilities to evaluate residential building designs and identify cost-optimal efficiency packages at various levels of whole-house energy savings along the path to zero net energy.\n\nThe BEopt software can be used to analyze both new construction and existing home retrofits, as well as single-family detached and multi-family buildings, through evaluation of single building designs, parametric sweeps, and cost-based optimizations.\n\nThe BEopt software  provides detailed simulation-based analysis based on specific house characteristics, such as size, architecture, occupancy, vintage, location, and utility rates. Discrete envelope and equipment options, reflecting realistic construction materials and practices, are evaluated.\n\nThe BEopt software uses EnergyPlus®, the Department of Energy's flagship simulation engine. Simulation assumptions are based on ANSI/RESNET/ICC Standards and the Building America Housing Simulation Protocols.\n\nThe sequential search optimization technique used by the BEopt software:\n\nFinds minimum-cost building designs at different target energy-savings levels\nIdentifies multiple near-optimal designs along the path, allowing for equivalent solutions based on builder or contractor preference.\n\nDownload\n\nA BEopt™ Version 3.0.1 Beta release (Mar. 16, 2023) is now available. Download the BEopt 3.0.1 Beta setup file.",
+    "homepageURL": "https://www.nrel.gov/buildings/beopt.html?utm_medium=print&utm_source=buildings&utm_campaign=beopt",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "BEopt™ (Building Energy Optimization Tool) version 3.0.1 3/16/2023 [SWR-05-41]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://beopt.nrel.gov/BEopt_setup_2.8.0.0",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.nrel.gov/buildings/beopt.html?utm_medium=print&utm_source=buildings&utm_campaign=beopt",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "version": "3.0.1"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-05-17",
+        "metadataLastUpdated": "2024-05-17"
+    },
+    "description": "Hop-Decorate is a python code developed as part of the LDRD funded project: 20220063DR: Accelerated Dynamics Across Computational and Physical Scales with the aim of using molecular dynamics and statics techniques to generate atomistic databases of defect transport in chemically complex materials using automated energy barrier calculations.",
+    "laborHours": 1109.6,
+    "languages": [],
+    "name": "Hop Decorate",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Hop-Decorate",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

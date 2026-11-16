@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2024-09-02",
+        "metadataLastUpdated": "2024-09-17"
+    },
+    "description": "SF-24-077  Our software generates a circuit that prepares a specified target quantum state. It generates circuits with CNOT counts of O(mn), where m is the number of nonzero amplitudes of the state and n is the number of qubits. The method does not require ancillas. It is designed for sparse states, but works for any quantum state. Our method is based on the new perspective of dynamic continuous time quantum walks for quantum state preparation. This is an intuitive perspective where a graph is \nfirst constructed to traverse the basis states. The method works by 1.) construct a graph of the basis states, 2.) transform the graph into quantum walks, and 3.) construct the final gate based \ncircuit optimized with our control reduction method.",
+    "laborHours": 243.2,
+    "languages": [],
+    "name": "Arbitrary State Preparation via Quantum Walks Software",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/GaidaiIgor/quantum_walks",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

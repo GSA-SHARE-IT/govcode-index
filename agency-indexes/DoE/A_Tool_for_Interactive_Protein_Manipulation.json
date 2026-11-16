@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-27"
+    },
+    "description": "ProteinShop is a graphical environment that facilitates a solution to the protein prediction problem through a combination of unique features and capabilities. These include: 1. Helping researchers automatically generate 3D protein structures from scratch by using the sequence of amino acids and secondary structure specifications as input. 2. Enabling users to apply their accumulated biochemical knowledge and intuition during the interactive manipulation of structures. 3. Facilitating interactive comparison and analysis of alternative structures through visualization of free energy computed during modeling. 4. Accelerating discovery of low-energy configurations by applying local optimizations plug-in to user-selected protein structures. ProteinShop v.2.0 includes the following new features: - Visualizes multiple-domain structures - Automatically creates a user-specified number of beta-sheet configurations - Provides the interface and the libraries for energy visualization and local minimization of protein structures - Reads standard POB files without previous editing.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "A Tool for Interactive Protein Manipulation",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

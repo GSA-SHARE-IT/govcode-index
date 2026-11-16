@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-01-26",
+        "metadataLastUpdated": "2024-01-26"
+    },
+    "description": "SurFE-XD is a mesoscale finite element framework to model surface diffusion under mutliphysics environments. The code uses legacy C++ library dolphin wrapped with python in a FEniCS driven unified form language and just-in-time (JIT) compilation setting. The purpose of the release is to attract wide-ranging usage of the code along with publication supplementation to support reproducibility of scientific data. SurFE-XD has been originally conceived under the LDRD-DR funding for “High-Gradient (C-BAND) Breakdown tolerant accelerator materials project. Currently SrFE-XD support electrostatics and Thermo-elasticity driven surface diffusion kernels. Releasing the code will also enable to include contributions from other physical regimes e.g., plasticity and electrodynamics etc as well portability to GPU-based platforms.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SurFE-XD (Surface curvature-driven Finite Elements model for Diffusion under eXtreme conditions)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sbagchi-LANL/SurFE-XD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

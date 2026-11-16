@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Bulk Data Mover (BDM) is a high-level data transfer management tool. BDM handles the issue of large variance in file sizes and a big portion of small files by managing the file transfers with optimized transfer queue and concurrency management algorithms. For example, climate simulation data sets are characterized by large volume of files with extreme variance in file sizes. The BDN achieves high performance using a variety of techniques, including multi-threaded concurrent transfer connections, data channel caching, load balancing over multiple transfer servers, and storage i/o pre-fetching. Logging information from the BDM is collected and analyzed to study the effectiveness of the transfer management algorithms. The BDM can accept a request composed of multiple files or an entire directory. The request also contains the target site and directory where the replicated files will reside. If a directory is provided at the source, then the BDM will replicate the structure of the source directory at the target site. The BDM is capable of transferring multiple files concurrently as well as using parallel TCP streams. The optimal level of concurrency or parallel streams depends on the bandwidth capacity of the storage systems at both ends of the transfer as well as achievable bandwidth of the wide-area network. Hardware req.-PC, MAC, Multi-platform & Workstation; Software req.: Compile/version-Java 1.50_x or above; Type of files: source code, executable modules, installation instructions other, user guide; URL: http://sdm.lbl.gov/bdm/",
+    "homepageURL": "https://sdm.lbl.gov/bdm",
+    "laborHours": 0.0,
+    "languages": [
+        "java 1.50{sub minus}x or above"
+    ],
+    "name": "Bulk Data Mover",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://sdm.lbl.gov/bdm/License.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sdm.lbl.gov/bdm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

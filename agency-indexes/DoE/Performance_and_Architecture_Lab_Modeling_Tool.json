@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Analytical application performance models are critical for diagnosing performance-limiting resources, optimizing systems, and designing machines. Creating models, however, is difficult. Furthermore, models are frequently expressed in forms that are hard to distribute and validate. The Performance and Architecture Lab Modeling tool, or Palm, is a modeling tool designed to make application modeling easier. Palm provides a source code modeling annotation language. Not only does the modeling language divide the modeling task into sub problems, it formally links an application's source code with its model. This link is important because a model's purpose is to capture application behavior. Furthermore, this link makes it possible to define rules for generating models according to source code organization. Palm generates hierarchical models according to well-defined rules. Given an application, a set of annotations, and a representative execution environment, Palm will generate the same model. A generated model is a an executable program whose constituent parts directly correspond to the modeled application. Palm generates models by combining top-down (human-provided) semantic insight with bottom-up static and dynamic analysis. A model's hierarchy is defined by static and dynamic source code structure. Because Palm coordinates models and source code, Palm's models are 'first-class' and reproducible. Palm automates common modeling tasks. For instance, Palm incorporates measurements to focus attention, represent constant behavior, and validate models. Palm's workflow is as follows. The workflow's input is source code annotated with Palm modeling annotations. The most important annotation models an instance of a block of code. Given annotated source code, the Palm Compiler produces executables and the Palm Monitor collects a representative performance profile. The Palm Generator synthesizes a model based on the static and dynamic mapping of annotations to program behavior. The model -- an executable program -- is a hierarchical composition of annotation functions, synthesized functions, statistics for runtime values, and performance measurements.",
+    "laborHours": 0.0,
+    "languages": [
+        "C/C++ Language compiler"
+    ],
+    "name": "Performance and Architecture Lab Modeling Tool",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://gitlab.pnnl.gov/perf-lab-hub/palm/palm/-/blob/master/README-license.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.pnnl.gov/perf-lab-hub/palm/palm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

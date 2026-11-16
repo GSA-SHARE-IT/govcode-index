@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-04",
+        "metadataLastUpdated": "2021-06-04"
+    },
+    "description": "This code contains an implementation of Micromorphic continuum mechanics in the style of Eringen and Suhubi [1] developed during Nathan Miller's PhD thesis under the supervision of Richard Regueiro. The code is written in a finite deformation framework and contains micromoprhic constitutive models which can be used to simulate various solid mechanics problems. Interfaces to Abaqus and the Idaho National Laboratory code MOOSE are included as a part of the functionality with the possibility of extending to additional codes in the future.\n\n[1] A.Cemal Eringen, E.S. Suhubi, \"Nonlinear theory of simple micro-elastic solids—I\", International Journal of Engineering Science, Volume 2, Issue 2, 1964, Pages 189-20",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Tardigrade",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/tardigrade",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-10-29",
+        "metadataLastUpdated": "2019-10-29"
+    },
+    "description": "This package is developed as a backend for multi-layer and multi-time domain controller. One example are controller based on [Model Predictive Control] (MPC) where different modules with different time constants have to be coordinated to allow optimal control. In a simple example, the Weather Forecast must be acquired and processed, the MPC is computed, and finally the control is applied. All these modules typically run on the same time step (Time step: 5 minutes), but are different instances within the framework. The framework allows parallelization using the `multiprocessing` module. However, another real-time controller (Time step: 1 second) must be applied to react on instant system disturbances beyond the MPC time step. Last, a supervisory MPC controller (Time step: 1 hour) might be added to ensure global optimality.",
+    "laborHours": 501.6,
+    "languages": [],
+    "name": "Framework for Multi Layer Control in Python (FMLC) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/FMLC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

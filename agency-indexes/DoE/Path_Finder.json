@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "PathFinder is a graph search program, traversing a directed cyclic graph to find pathways between labeled nodes. Searches for paths through ordered sequences of labels are termed signatures. Determining the presence of signatures within one or more graphs is the primary function of Path Finder. Path Finder can work in either batch mode or interactively with an analyst. Results are limited to Path Finder whether or not a given signature is present in the graph(s).",
+    "laborHours": 7630.4,
+    "languages": [
+        "Standard ML",
+        "ABC",
+        "Python"
+    ],
+    "name": "Path Finder",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/PathFinder",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

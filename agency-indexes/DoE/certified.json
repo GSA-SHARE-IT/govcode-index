@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "rogersdm@ornl.gov"
+    },
+    "date": {
+        "created": "2024-10-02",
+        "metadataLastUpdated": "2024-10-02"
+    },
+    "description": "The missing certificate infrastructure for web APIs.",
+    "laborHours": 1383.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "certified",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/certified.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "This program implements a novel algorithm to obtain the density of state of a physical system, expanded in a chosen basis set. Unlike existing algorithms that return the density of states as a numerical array, this algorithm avoids binning of a continuous variable and is able to express the density of states in an analytical form. It is thus suitable for the study of the statistical mechanics and thermodynamic properties of physical systems where the density of a continuous state variable is of interest. The new algorithm presented here is a special reweighting method in classical Monte Carlo approaches. In particular, it can be regarded as a descendant and a hybrid method closely related to the multicanonical method and Wang--Landau sampling.",
+    "laborHours": 106.4,
+    "languages": [
+        "Python3"
+    ],
+    "name": "HistogramFreeMUCA",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/yingwaili/HistogramFreeMUCA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

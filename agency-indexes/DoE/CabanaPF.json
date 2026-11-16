@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "reevest@ornl.gov"
+    },
+    "date": {
+        "created": "2023-07-28",
+        "metadataLastUpdated": "2023-07-28"
+    },
+    "description": "Phase-field framework built on the Cabana particle library",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "CabanaPF",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/CabanaPF",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

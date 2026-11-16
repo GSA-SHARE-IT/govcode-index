@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2020-11-06"
+    },
+    "description": "VOLTTRON is an agent execution platform providing services to its agents that allow them to easily communicate with physical devices and other resources. VOLTTRON delivers an innovative distributed control and sensing software platform that supports modern control strategies, including agent-based and transaction-based controls. It enables mobile and stationary software agents to perform information gathering, processing, and control actions. VOLTTRON can independently manage a wide range of applications, such as HVAC systems, electric vehicles, distributed energy or entire building loads, leading to improved operational efficiency.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "VOLTTRON Version 5.0",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/VOLTTRON/volttron/blob/master/TERMS.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/VOLTTRON/volttron/releases/tag/5.0",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git",
+    "version": "5.0"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-07-25",
+        "metadataLastUpdated": "2019-07-25"
+    },
+    "description": "AnisWave2D is a 2D finite-difference code for simulating seismic wave propagation in fully anisotropic materials. The code is implemented to run in parallel over multiple processors and is fully portable. A mesh refinement algorithm has been utilized to allow the grid-spacing to be tailored to the velocity model, avoiding the over-sampling of high-velocity materials that usually occurs in fixed-grid schemes.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "AnisWave2D",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sainslie1966/AnisWave2D",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

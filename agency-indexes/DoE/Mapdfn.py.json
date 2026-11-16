@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-05-04",
+        "metadataLastUpdated": "2021-05-05"
+    },
+    "description": "SAND2021-4824 O mapdfn.py takes the output of dfnWorks describing a discrete fracture network (DFN) and converts the DFN to an equivalent porous medium representation. This is done by looping through cells in a 3-D model domain, tagging those intersected by fractures, and calculating effective properties. Coordinate transformations are imported from an open source script (transformations.py) developed at the University of California. An associated driver script, mapdfn2pflotran.py, calls the functions in mapdfn.py and writes the mapdfn.py output to hdf5 files for use with PFLOTRAN. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525. SAND2021-4824 O",
+    "laborHours": 0.0,
+    "languages": [
+        "Python3"
+    ],
+    "name": "Mapdfn.py",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/pflotran/mapdfn/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "version": "1.0"
+}

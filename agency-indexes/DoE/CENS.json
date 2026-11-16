@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-07",
+        "metadataLastUpdated": "2021-07-07"
+    },
+    "description": "The CENS code translates Evaluated Nuclear Structure Data File, ENSDF, into application-specific formats, such as\nReference Input Parameter Library, RIPL, as well as into a generic XML format. Although ENSDF contains the most updated\nnuclear structure information, its complex format and philosophy of purely experimental basis often prevent direct use in\npractical applications in fundamental and applied science. CENS reads the adopted discrete levels, their spin and parity,\nand gamma-ray branching ratios etc. compiled in ENSDF, and estimates some missing information as needed by\nconsidering the statistical properties of nuclear structure, then prints out the nuclear structure data in more readable\nformats. CENS is written in C++, about 5,000 lines in total. A user's manual is also provided in HTML in the same package.\n[LAUR 21-22523]",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "CENS",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/toshihikokawano/CENS",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

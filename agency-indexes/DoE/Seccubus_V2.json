@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-07-05",
+        "metadataLastUpdated": "2019-07-05"
+    },
+    "description": "Seccubus automates regular vulnerability scans with various tools and aids security people in the fast analysis of its output, both on the first scan and on repeated scans. On repeated scan delta reporting ensures that findings only need to be judged when they first appear in the scan results or when their output changes.",
+    "laborHours": 128333.6,
+    "languages": [],
+    "name": "Seccubus V2",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/esnet/Seccubus_v2",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

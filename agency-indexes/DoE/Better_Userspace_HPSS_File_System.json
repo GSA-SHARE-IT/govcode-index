@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-12-13"
+    },
+    "description": "BUHFS is a fuse-based POSIX compliant filesystem interface for HPSS. BUHFS was written to provide users with a stable, POSIX compliant interface to EMSL new HPSS based Scientific Data Archive, Aurora.",
+    "homepageURL": "https://svn.pnl.gov/esp/wiki/ReleasePage",
+    "laborHours": 0.0,
+    "name": "Better Userspace HPSS File System",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://svn.pnl.gov/esp/wiki/ReleasePage",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://svn.pnl.gov/esp/wiki/ReleasePage",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

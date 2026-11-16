@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2021-07-02"
+    },
+    "description": "Los Alamos National Laboratory has played key roles in the development of ParaView and the Visualization Toolkit (VTK). James Ahrens (Director, ISTI & Senior Staff Scientist, Data Science at Scale, CCS-7) is the founder and design lead of ParaView. With over a million downloads, ParaView is one of the leading data analysis and visualization applications and is widely used by scientific users within the Department of Energy Office of Science (SC) and the DOE National Nuclear Security Agency (NNSA). VTK is an open-source software visualization library based on C++ and includes interface layers for Python and Java. ParaView extensively uses the VTK libraries for its graphics and analysis. First open-sourced under LA_CC Number 99_44, this work has been continuously funded over the years under Department of Energy contracts. The goal of this software project is to continue the collaborative development of open-source general use case contributions to ParaView and VTK by LANL researchers. The developed software will provide open-source computer science algorithms, interfaces, filters, visualization approaches, and data analysis modules that will be merged into ParaView and VTK for general use by ParaView and VTK users. The primary users of these projects will include institutional users at Los Alamos National Laboratory, institutional users across the DOE complex and scientific users of VTK and ParaView as open-source tools for data analysis and visualization.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ParaView-VTK Collaborative Software Development for Data Analysis and Visualization",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/dav-pv-vtk",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

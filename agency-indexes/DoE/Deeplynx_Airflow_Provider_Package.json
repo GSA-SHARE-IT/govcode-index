@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2024-07-22",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "The DeepLynx Airflow Provider Package is a python package used to interact with the data warehouse DeepLynx when using the workflow orchestration tool Apache Airflow. This python package is packaged together using the airflow package standard so that it can be easily installed and used in any Apache Airflow environment. This package is meant to encapsulate the DeepLynx API for use in Airflow so that any interactions with DeepLynx that a user may want to use in their Airflow workflow can be easily accomplished using this provider package. This allows us to develop, implement, and test our DeepLynx-Airflow interactions in one provider package repository, and then easily install and use this package in any airflow instance. This DeepLynx Airflow Provider Package will be used extensively by the DeepLynx DAG repository.",
+    "laborHours": 1079.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "Deeplynx Airflow Provider Package",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/airflow-provider-deeplynx",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

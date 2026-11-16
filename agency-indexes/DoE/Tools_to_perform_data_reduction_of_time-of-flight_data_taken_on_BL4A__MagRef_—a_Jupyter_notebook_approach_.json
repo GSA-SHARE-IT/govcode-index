@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "fitzsimmonsm@ornl.gov"
+    },
+    "date": {
+        "created": "2020-07-31",
+        "metadataLastUpdated": "2020-07-31"
+    },
+    "description": "A collection of modules or tools to produce reflectivity profiles from data acquired with unpolarized and polarized neutron beams using the BL4A (MagRef) instrument at the Spallation Neutron Source.\n\nThe Jupyter notebook approach offers transparency to the user on what is done with the data, and once the event mode data are stored as NumPy binary files empowers the user to perform the steps from their own laptop without the need for Mantid. The notebook offers two options for background subtraction, applies corrections for the wavelength dependence of the polarizer and flipper efficiencies, accounts for Zeeman energy splitting of the spin-flip channels, Qz-bins the data along contours of constant Qz, propagates errors and writes results in text format suitable for analysis with tools such as GenX.",
+    "laborHours": 1687.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "Tools to perform data reduction of time-of-flight data taken on BL4A (MagRef)—a Jupyter notebook approach ",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mfitzsimmons44/BL4A_MagRef_Data_Reduction_Tools",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

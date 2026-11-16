@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2023-08-14",
+        "metadataLastUpdated": "2023-08-15"
+    },
+    "description": "Mappymatch is a pure-python package developed and open sourced by the National Renewable Energy Laboratory. It contains a collection of \"Matchers\" that enable matching a GPS trace (series of GPS coordinates) to a map.\n\nAs of 8/14/2023, The current matchers are:\n\nLCSSMatcher: A matcher that implements the LCSS algorithm described in this paper. Works best with high resolution GPS traces.\n\nOsrmMatcher: A light matcher that pings an OSRM server to request map matching results. See the official documentation for more info.\n\nValhallaMatcher: A matcher to ping a Valhalla server for map matching results.\nCurrently supported map formats are:\n\nOpen Street Maps\n\nNOTE: This software was formerly known as YAMM (Yet Another Map-Matcher)",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Mappymatch [SWR 22-38]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/mappymatch",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "v0.4.1"
+}

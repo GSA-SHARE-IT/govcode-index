@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-27",
+        "metadataLastUpdated": "2021-05-27"
+    },
+    "description": "The Functional Mock-up Interface - Machine Learning Center is a tool to interface the Python-Tensorflow library with building simulation models, to develop and train machine learning-based controls. In particular, this framework allows the use of reinforcement learning through the standardized Functional Mock-up Interface, an open industry standard for co-simulation. First application was the development of a controller for dynamic façade and heating ventilation and air conditioning (HVAC) systems.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Functional Mock-up Interface - Machine Learning Center (FMI-MLC) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/FMI-MLC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

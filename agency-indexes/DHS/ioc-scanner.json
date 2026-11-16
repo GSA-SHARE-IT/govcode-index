@@ -1,0 +1,41 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-05-21",
+        "lastModified": "2026-09-29"
+    },
+    "description": "Search a filesystem for indicators of compromise (IoC).",
+    "downloadURL": "https://api.github.com/repos/cisagov/ioc-scanner/downloads",
+    "homepageURL": "https://github.com/cisagov/ioc-scanner",
+    "laborHours": 1011.6,
+    "languages": [
+        "Shell",
+        "Python"
+    ],
+    "name": "ioc-scanner",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ioc-scanner.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "cybersecurity",
+        "ioc",
+        "scanner",
+        "md5",
+        "sha-1",
+        "sha-256"
+    ],
+    "vcs": "git"
+}

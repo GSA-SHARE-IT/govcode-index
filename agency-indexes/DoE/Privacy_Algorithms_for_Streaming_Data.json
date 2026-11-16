@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "kotevskao@ornl.gov"
+    },
+    "date": {
+        "created": "2022-02-17",
+        "metadataLastUpdated": "2023-11-30"
+    },
+    "description": "This repository encompasses local differential privacy algorithms designed for streaming applications. Each algorithm is tailored to safeguard sensitive data received in discrete chunks. The evaluation criteria include absolute relative error and privacy spending variables. The techniques are categorized based on their methodology and showcased using a smart meter dataset",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Privacy Algorithms for Streaming Data",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/OKotevska/PrivacyAlgorithms",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

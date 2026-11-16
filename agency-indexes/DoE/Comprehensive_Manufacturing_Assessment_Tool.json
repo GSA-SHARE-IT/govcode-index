@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2022-07-08",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "The CMAT software provides the user with a fully customizable decision support framework that analyzes the optimal supply chain configurations for a given industrial electronic waste (e-waste) recycling and refurbishment process. The software optimizes the logistics operations, helps to identify the best recycling process configuration, and generates valuable insights regarding the economic performance of different categories of e-waste. The ultimate purpose of the model is to provide insights on questions pertinent to the e-waste recycling industry including how to increase efficiency and reduce costs, energy consumption, and greenhouse gas emissions.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Comprehensive Manufacturing Assessment Tool",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/agpl-3.0",
+                "name": "AGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/CMAT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

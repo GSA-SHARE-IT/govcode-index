@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-06-20",
+        "metadataLastUpdated": "2019-06-20"
+    },
+    "description": "Pond.js is a library built on top of immutable.js and Typescript to provide time-based data structures, serialization and processing. For data structures it unifies the use of times, time ranges, events, collections and time series. For processing it provides a chained pipeline interface to aggregate, collect and process batches or streams of events. ",
+    "laborHours": 53169.6,
+    "languages": [],
+    "name": "Pond.js",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/esnet/pond/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/esnet/pond",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

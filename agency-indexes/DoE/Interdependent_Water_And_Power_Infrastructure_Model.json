@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2025-01-31",
+        "metadataLastUpdated": "2025-01-31"
+    },
+    "description": "The approach used is the Multi-Agent System (MAS) paradigms, where systems components are represented as agents, interacting both with each other, and with the environment in which they evolved. Agents behaviors correspond to components in the real Integrated Water-Power System.  The model simulate actions and interactions of these (autonomous) agents to analyze their effects on the overall system. \nAgents in the water system capture components of water collection, treatment, transportation, distribution and use (e.g. pipe, canal, pump, water demands for agriculture, etc.). Agents in the power system capture components of power generation, transportation, distribution and use (electricity demands, sources, etc.).",
+    "laborHours": 744.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "Interdependent Water And Power Infrastructure Model",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/Integrated_Water_Power_System",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

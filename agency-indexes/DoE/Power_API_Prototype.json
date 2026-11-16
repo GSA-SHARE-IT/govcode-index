@@ -1,0 +1,40 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "The software serves two purposes. The first purpose of the software is to prototype the Sandia High Performance Computing Power Application Programming Interface Specification effort. The specification can be found at http://powerapi.sandia.gov . Prototypes of the specification were developed in parallel with the development of the specification. Release of the prototype will be instructive to anyone who intends to implement the specification. More specifically, our vendor collaborators will benefit from the availability of the prototype. The second is in direct support of the PowerInsight power measurement device, which was co-developed with Penguin Computing. The software provides a cluster wide measurement capability enabled by the PowerInsight device. The software can be used by anyone who purchases a PowerInsight device. The software will allow the user to easily collect power and energy information of a node that is instrumented with PowerInsight. The software can also be used as an example prototype implementation of the High Performance Computing Power Application Programming Interface Specification.",
+    "laborHours": 40462.4,
+    "languages": [
+        "C++",
+        "Shell",
+        "C",
+        "SWIG",
+        "Makefile",
+        "M4",
+        "Roff"
+    ],
+    "name": "Power API Prototype",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/power-api",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

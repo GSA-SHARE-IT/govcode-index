@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "The PeakWorks software is designed to assist in the quantitative analysis of atom probe tomography (APT) generated mass spectra. Specifically, through an interactive user interface, mass peaks can be identified automatically (defined by a threshold) and/or identified manually. The software then provides a means to assign specific elemental isotopes (including more than one) to each peak. The software also provides a means for the user to choose background subtraction of each peak based on background fitting functions, the choice of which is left to the users discretion. Peak ranging (the mass range over which peaks are integrated) is also automated allowing the user to chose a quantitative range (e.g. full-widthhalf- maximum). The software then integrates all identified peaks, providing a background-subtracted composition, which also includes the deconvolution of peaks (i.e. those peaks that happen to have overlapping isotopic masses). The software is also able to output a 'range file' that can be used in other software packages, such as within IVAS. A range file lists the peak identities, the mass range of each identified peak, and a color code for the peak. The software is also able to generate 'dummy' peak ranges within an outputted range file that can be used within IVAS to provide a means for background subtracted proximity histogram analysis.",
+    "homepageURL": "https://store.pnnl.gov/content/peakworks",
+    "laborHours": 0.0,
+    "languages": [
+        "MatLab"
+    ],
+    "name": "PeakWorks",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://store.pnnl.gov/content/peakworks",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

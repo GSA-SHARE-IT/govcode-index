@@ -1,0 +1,44 @@
+{
+    "id": 1115,
+    "name": "Clinical Data Repository/Health Data Repository",
+    "organization": "OIT DSO",
+    "version": null,
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/foia-CHDR-CLINICAL_HEALTH_REPOSITORY",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "CHDR",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Oracle Database",
+        "Red Hat Enterprise Linux",
+        "Java Enterprise Edition (Java EE)"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-28",
+        "lastModified": "2021-01-26",
+        "metadataLastUpdated": "2021-01-26"
+    },
+    "description": "Repository containing the FOIA Releases for Clinical Data Repository/Health Data Repository"
+}

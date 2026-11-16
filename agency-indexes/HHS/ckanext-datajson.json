@@ -1,0 +1,33 @@
+{
+    "name": "ckanext-datajson",
+    "description": "Custom CKAN extension for Healthdata.gov",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": null
+    },
+    "organization": "Department of Health and Human Services",
+    "homepageURL": "https://github.com/HHS/ckanext-datajson",
+    "downloadURL": "https://api.github.com/repos/HHS/ckanext-datajson/downloads",
+    "repositoryURL": "https://github.com/HHS/ckanext-datajson.git",
+    "vcs": "git",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "date": {
+        "created": "2013-05-28",
+        "lastModified": "2020-04-23",
+        "metadataLastUpdated": "2022-03-22"
+    },
+    "tags": [
+        "Custom",
+        "CKAN",
+        "extension",
+        "Healthdata"
+    ],
+    "contact": {
+        "email": "HHS_GitHub_Service_Desk@hhs.gov",
+        "name": "U.S. Department of Health & Human Services"
+    }
+}

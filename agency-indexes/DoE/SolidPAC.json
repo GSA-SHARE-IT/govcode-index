@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "dixitmb@ornl.gov"
+    },
+    "date": {
+        "created": "2022-08-02",
+        "metadataLastUpdated": "2022-08-02"
+    },
+    "description": "SolidPAC: Solid-State Battery Performance Analyzer and Calculator SolidPAC is an interactive experimental toolkit developed at Oak Ridge National Laboratory to enable the design of a solid-state battery for user-specified application requirements. The toolkit is flexible enough to assist the battery community in quantifying the impact of materials chemistry and fractions, electrode thicknesses and loadings, and electron flows on cell energy density and cost, and to be able to utilize inverse engineering concepts to correlate cell energy density output to materials and cell design inputs. The toolkit allows users to assess and extrapolate the impact of battery design and choice of cell components on cell-level energy density of a solid-state battery. SolidPAC brings practicality to the design of solid-state batteries.",
+    "homepageURL": "https://www.ornl.gov/content/solidpac",
+    "laborHours": 0.0,
+    "languages": [
+        "LabVIEW"
+    ],
+    "name": "SolidPAC",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.ornl.gov/content/solidpac",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

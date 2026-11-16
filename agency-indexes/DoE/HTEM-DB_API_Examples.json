@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-04-19",
+        "metadataLastUpdated": "2018-04-19"
+    },
+    "description": "The HTEM DB is a public database and web application containing measurements of thin film materials collected using \"high throughput\" (combinatorial) synthesis and measurement processes. This software provides examples of utilizing the HTEM-DB API to access, plot and analyze the data contained therein.",
+    "laborHours": 364.8,
+    "name": "HTEM-DB API Examples",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/htem-api-examples",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

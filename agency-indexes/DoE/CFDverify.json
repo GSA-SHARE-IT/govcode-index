@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "weinmeistejr@ornl.gov"
+    },
+    "date": {
+        "created": "2025-01-23",
+        "metadataLastUpdated": "2025-01-24"
+    },
+    "description": "Estimating the discretization error of computational fluid dynamics (CFD) or other scientific codes as part of solution verification is often a non-trivial part of the analysis process. Methods can be complicated and may include assumptions/qualifications that need to be checked during analysis. CFD analysts, therefore, are likely to make errors when trying to conduct this necessary analysis on their own in not knowing about the best method for their problem, not correctly implementing a method, or in not have diagnostic tools to determine if the method was correctly applied.",
+    "laborHours": 486.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "CFDverify",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/cfd-verify",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0.1"
+}

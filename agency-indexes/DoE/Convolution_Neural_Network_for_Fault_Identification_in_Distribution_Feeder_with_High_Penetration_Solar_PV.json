@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-04-30",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Identification and zonal classification of the faults is a decisive factor in the relay’s decision to trip or not. Different types of\nfault like three-phase, line-to-line-to-ground and single-line-to-ground can occur at various locations in the feeder. These\nfaults are seen as the variation in the instantaneous values of three-phase voltages and currents, i.e., waveforms, that are\nmeasured at the relay location. The objective of this work is to develop a machine learning model that can\nidentify a fault and classify it to various protection zones based on measured waveforms. In this work, a data-driven relay\nbased on Convolutional Neural Network (CNN) is proposed for fault identification in distribution feeders with high\npenetration solar PV. The proposed CNN model takes local current and voltage waveforms as input and classify it into\nfault, no-fault or a capacitor switching. Further, the CNN also attempts to identify fault zones based on the images of\nwaveforms. The overall testing accuracy of the trained model exceeds 95%.",
+    "laborHours": 60.8,
+    "languages": [],
+    "name": "Convolution Neural Network for Fault Identification in Distribution Feeder with High Penetration Solar PV",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/DPVCNN",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

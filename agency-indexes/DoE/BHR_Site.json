@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-06-19",
+        "metadataLastUpdated": "2019-06-19"
+    },
+    "description": "This is the Blackhole Router Site/API endpoint. It does not make any policy decisions except for the block duration auto scaling. It basically acts as a message queue between bhr clients adding blocks, and bhr clients implementing blocks.\n\n",
+    "laborHours": 6034.4,
+    "languages": [],
+    "name": "BHR Site",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/esnet/bhr-site/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/esnet/bhr-site",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

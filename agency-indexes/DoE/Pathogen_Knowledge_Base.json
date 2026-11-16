@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-11-05",
+        "metadataLastUpdated": "2021-11-05"
+    },
+    "description": "   When faced with biological threats, our ability to provide early warning, situational awareness, and decision support will depend on whether we can rapidly and accurately detect threat pathogens in clinical and environmental samples. While next generation sequencing technology and advanced analytic methods provide the means to identify the organisms present in metagenomic samples from clinical and environmental sources, proper identification of pathogens in these samples requires a comprehensive resource providing in-depth knowledge of known pathogens. Because there are myriad species, including rare and uncommon taxa, in metagenomic samples, it is not always possible to recognize pathogens by name. As time will most likely be a critical factor in outbreak situations, it may not be possible to consult with subject matter experts for pathogen identification. \n     To effectively safeguard the security and safety of people, animals and plants, we must have detailed knowledge of the biological agents (pathogens), infectious diseases, and food-borne illnesses that could potentially cause harm. Prior to any mass event, relevant information must be identified, gathered together and integrated in ways that will make it most useful to the biosurveillence analysts in real-time during an actual event. This type of knowledge falls within the realm of a disease ontology, which integrates the various types of data associated with disease states. Having a comprehensive, curated, globally applicable disease ontology is critical to determine the severity of disease outbreaks, which in turn can inform predictive epidemiological models. For a disease ontology to be useful in biosurveillance applications, detailed information about the organisms that cause particular diseases (pathogens), as well as vectors that transmit the disease-causing pathogens, must be included in the ontology. \n     While various websites and publications provide lists of pathogens and a few relevant features that may be useful, there is currently no single resource that provides a comprehensive curated list of all known human, animal and agriculturally relevant pathogens.  To remedy this deficiency, we are developing a comprehensive pathogen knowledgebase, encompassing all known pathogens of humans, animals and plants. Having pathogen information already integrated into a usable knowledgebase will enable real-time analyses during an actual event, will facilitate the analysis of post-event data on pathogen-mediated disease outbreaks, and may contribute to improved predictive epidemiological models. ",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Pathogen Knowledge Base",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

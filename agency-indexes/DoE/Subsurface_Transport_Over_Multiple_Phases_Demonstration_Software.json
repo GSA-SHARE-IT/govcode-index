@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "The STOMP simulator is a suite of numerical simulators developed by Pacific Northwest National Laboratory for addressing problems involving coupled multifluid hydrologic, thermal, geochemical, and geomechanical processes in the subsurface. The simulator has been applied to problems concerning environmental remediation, environmental stewardship, carbon sequestration, conventional petroleum production, and the production of unconventional hydrocarbon fuels. The simulator is copyrighted by Battelle Memorial Institute, and is available outside of PNNL via use agreements. To promote the open exchange of scientific ideas the simulator is provided as source code. A demonstration version of the simulator has been developed, which will provide potential new users with an executable (not source code) implementation of the software royalty free. Demonstration versions will be offered via the STOMP website for all currently available operational modes of the simulator. The demonstration versions of the simulator will be configured with the direct banded linear system solver and have a limit of 1,000 active grid cells. This will provide potential new users with an opportunity to apply the code to simple problems, including many of the STOMP short course problems, without having to pay a license fee. Users will be required to register on the STOMP website prior to receiving an executable.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran 90"
+    ],
+    "name": "Subsurface Transport Over Multiple Phases Demonstration Software",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-18",
+        "metadataLastUpdated": "2018-07-18"
+    },
+    "description": "Repository containing vagrant configurations for how to properly install and harden common web servers, as well as configuration for meeting requirements for (e.g.) HTTPS and HSTS, as laid out in OMB M-15-13 / The HTTPS-Only Standard.\n",
+    "laborHours": 30.4,
+    "languages": [],
+    "name": "HTTPS Servers Cheat Sheet",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/hscs",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

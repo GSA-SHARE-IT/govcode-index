@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-07-30",
+        "metadataLastUpdated": "2019-07-30"
+    },
+    "description": "This IDL based GUI interface is for complete phase retrieval based on transport of intensity formalism. It provides routines for alignment of images, alignment of unflipped and flippped image stacks and finally various options for phase retrieval algorithm. ",
+    "laborHours": 1140.0,
+    "languages": [],
+    "name": "Full TIE Reconstruction",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cphatak/full_tie",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

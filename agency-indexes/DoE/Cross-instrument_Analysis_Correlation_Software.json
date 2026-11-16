@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "This program has been designed to assist with the tracking of a sample from one analytical instrument to another such as SEM, microscopes, micro x-ray diffraction and other instruments where particular positions/locations on the sample are examined, photographed, etc. The software is designed to easily enter the position of fiducials and locations of interest such that in a future session in the same of different instrument the positions of interest can be re-found through using the known location fiducials in the current and reference session to transform the point into the current sessions coordinate system. The software is dialog box driven guiding the user through the necessary data entry and program choices. Information is stored in a series of text based extensible markup language (XML) files.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Cross-instrument Analysis Correlation Software",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mpl-2.0",
+                "name": "MPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/CIACS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-11-04",
+        "metadataLastUpdated": "2024-11-04"
+    },
+    "description": "A simple tool allowing recording the execution of a GPU (CUDA) kernel and replaying that kernel as an\nindependent executable.\nThe tool operates in 3 phases. During compile time the user needs to apply a provided LLVM pass to\ninstrument the code. The pass detects all device global variables\nand device functions and stores this information with the respective LLVM-IR in the global device\nmemory. The compilation generates a record-able executable.\nThe second phase involves running the application executable with a desired input and using\nLD_PRELOAD to enable recording. When recording before invoking a device kernel\nthe pre-loaded library stores device memory in persistent storage and associates the memory with the\ndevice kernel and an LLVM IR file. At the end of the recorded execution\nthe pre-load library generates a database in the form of a JSON file containing information regarding the\nLLVM-IR files and the snapshots of device memory.\nDuring the third and last phase the user can replay the execution of an kernel as a separate independent\nexecutable. Besides executing it the user can modify the LLVM IR file and\nauto-tune parameters such as kernel launch-bounds or kernel runtime execution parameters (e.g. Kernel\nBlock and Grid Dimensions).\nIs",
+    "laborHours": 1687.2,
+    "languages": [],
+    "name": "Mneme",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Olympus-HPC/Mneme",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0.0.alpha"
+}

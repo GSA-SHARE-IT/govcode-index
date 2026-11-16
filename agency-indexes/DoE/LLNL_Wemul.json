@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "mohror1@llnl.gov"
+    },
+    "date": {
+        "created": "2020-11-01",
+        "metadataLastUpdated": "2020-11-01"
+    },
+    "description": "Workflow I/O Emulation Framework",
+    "laborHours": 4529.6,
+    "languages": [
+        "C",
+        "C++",
+        "Perl",
+        "C",
+        "python"
+    ],
+    "name": "LLNL/Wemul",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/wemul",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

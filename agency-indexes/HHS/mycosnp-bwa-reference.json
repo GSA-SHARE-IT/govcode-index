@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "URL": "https://github.com/CDCgov",
+        "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+        "created": "2021-02-22",
+        "lastModified": "2021-05-14"
+    },
+    "description": "This workflow prepares a reference index using BWA as part of the MycoSNP suite of workflows.",
+    "downloadURL": "https://api.github.com/repos/CDCgov/mycosnp-bwa-reference/downloads",
+    "homepageURL": "https://github.com/CDCgov/mycosnp-bwa-reference",
+    "laborHours": 0,
+    "languages": [],
+    "name": "mycosnp-bwa-reference",
+    "organization": "Centers for Disease Control and Prevention",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "git://github.com/CDCgov/mycosnp-bwa-reference.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

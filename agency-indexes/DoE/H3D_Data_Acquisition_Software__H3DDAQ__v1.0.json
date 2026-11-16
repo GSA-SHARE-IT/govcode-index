@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-11-03",
+        "metadataLastUpdated": "2024-11-03"
+    },
+    "description": "A python library to enable readout of data from commercial H3D gamma-ray detectors. This software perform readout of data and system status, as well as starting and stopping measurements, with either WebREST (HTTP), XML (N42.42), or Binary (FlatBuffers) interfaces.",
+    "laborHours": 1550.4,
+    "languages": [],
+    "name": "H3D Data Acquisition Software (H3DDAQ) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/lbl-anp/h3d_tools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

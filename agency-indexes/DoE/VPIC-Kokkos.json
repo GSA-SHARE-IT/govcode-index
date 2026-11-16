@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-05-09",
+        "metadataLastUpdated": "2022-05-09"
+    },
+    "description": "VPIC is a particle-in-cell (PIC) code that solves the Maxwell-Boltzmann system of equations and can be used to simulate a wide variety of plasmas, including those that are fully kinetic and relativistic. Utilizing the Kokkos performance-portable framework, VPIC achieves high performance on multiple CPU and GPU architectures and is adaptable to future platforms with minimal developer effort. VPIC features very powerful input decks, allowing insertion of arbitrary C++ code for custom diagnostics, boundary conditions, and additional physics models.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "VPIC-Kokkos",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/vpic-kokkos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

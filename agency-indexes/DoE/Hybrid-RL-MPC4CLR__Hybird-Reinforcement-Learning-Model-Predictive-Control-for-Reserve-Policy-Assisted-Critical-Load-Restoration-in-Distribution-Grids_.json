@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-03-29",
+        "metadataLastUpdated": "2022-09-19"
+    },
+    "description": "Hybrid-RL-MPC4CLR was developed as a hybrid controller for active distribution grid critical load restoration, combining deep reinforcement learning (RL) and model predictive control (MPC) aiming at maximizing total restored load following an extreme event. The RL determines a policy for quantifying operating reserve requirements, thereby hedging against uncertainty, while the MPC models grid operations incorporating the RL policy actions (i.e., reserve requirements), renewable (wind and solar) power predictions, and load demand forecasts. The developers formulated the reserve requirement determination problem as a sequential decision-making problem based on the Markov Decision Process (MDP) and design an RL learning environment based on the OpenAI Gym framework and MPC simulation. The RL agent reward and MPC objective function aim to maximize and monotonically increase total restored load and minimize load shedding and renewable power curtailment. The software is developed using various software packages in Python. The MPC's optimal power flow (OPF) model is implemented using the Pyomo package, the RL simulation environment is implemented using the MPC simulation with various scenarios of renewable energy and load demand profiles and power outage beginning times, based on the OpenAI Gym framework. The RL agent training is performed using the RLlib Ray package. The RL algorithm is trained offline using historical forecasts of renewable generation and load demand profiles. Simulation analysis and performance tests are conducted using a modified IEEE 13-bus distribution test feeder containing wind turbine, photovoltaic, microturbine, and battery.",
+    "laborHours": 0.0,
+    "languages": [
+        "Jupyter Notebook",
+        "python"
+    ],
+    "name": "Hybrid-RL-MPC4CLR (Hybird-Reinforcement-Learning-Model-Predictive-Control-for-Reserve-Policy-Assisted-Critical-Load-Restoration-in-Distribution-Grids)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/hybrid-rl-mpc4clr",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2022-04-11",
+        "metadataLastUpdated": "2022-04-11"
+    },
+    "description": "R3IT is a free and open-source web application that allows utilities to automate the processing of solar interconnection requests. It handles request submission, request review workflows, payment collection, signature collection, email notifications for any status changes, and optionally an automated engineering screening and approval process.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "R3IT: Rapid, Rural, Resilient Interconnection Toolkit",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dpinney/r3it",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-03-29",
+        "metadataLastUpdated": "2022-03-29"
+    },
+    "description": "The TargetID pipeline enables rapid identification and characterization of binding sites in SARS-CoV-2 proteins as well as the core chemical components with which these sites interact.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Drug Target and Chemotype Identification Pipeline",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/TargetID",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

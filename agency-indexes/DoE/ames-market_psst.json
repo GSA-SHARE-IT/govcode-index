@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-06-09",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Python version of the AMES Wholesale Power Market Test Bed; no GUI.  Previously hosted by Iowa State University; PNNL has assumed hosting. AMES existed in a non-version controlled and inconsistent form. PNNL added price-sensitive loads for transactive systems, with various other bug fixes and features.",
+    "laborHours": 2644.8,
+    "languages": [],
+    "name": "ames-market/psst",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ames-market/psst",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

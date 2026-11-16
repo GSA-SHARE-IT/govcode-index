@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-10-27",
+        "metadataLastUpdated": "2022-10-27"
+    },
+    "description": "TEE-ACM2 is a library that computes matrix chain multiplication efficiently on GPUs, using a blocking strategy to load data. The library will provide an energy efficient algorithm for chain Matrix Multiplication, by minimizing both computations and off chip data transfers on the GPUs.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "TEE-ACM2",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/TEE-ACM2",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

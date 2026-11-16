@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2021-07-02"
+    },
+    "description": "We develop a lightweight, easy-to-use plotting package based on Python and matplotlib for scalar data visualization. The package contains eight plotting functions that can efficiently and conveniently render one-dimensional (1D), two-dimensional (2D), and three-dimensional (3D) regular-grid scalar data into publication-quality figures of various formats. These plotting functions include plotting 1D scalar data as a curve or a set of colored scatter points, showing 2D regular-grid scalar data as an image, wiggles, or contours, and displaying 3D regular-grid scalar data as a volume or three orthogonal slices in the image or contour form. We develop this package to facilitate quick rendering of 1D, 2D and 3D scalar data into visually decent forms with simple commands and options. The package is also capable of rendering various fonts, subscripts, superscripts, and mathematical symbols on plots in a consistent manner. Example plots demonstrate the efficiency, convenience, and versatility of our plotting package in generating high-quality plots. We make our plotting package open-source at GitHub, a United States-based global company that provides hosting for software development version control.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Pymplot: An open-source, lightweight plotting package based on Python and matplotlib",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/pymplot",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

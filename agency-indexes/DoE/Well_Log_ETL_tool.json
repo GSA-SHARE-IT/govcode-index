@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "vowelll@osti.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This is an executable python script which offers two different conversions for well log data: 1) Conversion from a BoreholeLASLogData.xls model to a LAS version 2.0 formatted XML file. 2) Conversion from a LAS 2.0 formatted XML file to an entry in the WellLog Content Model. Example templates for BoreholeLASLogData.xls and WellLogsTemplate.xls can be found in the package after download.",
+    "laborHours": 228.0,
+    "name": "Well Log ETL tool",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/usgin/WellLogDataTools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

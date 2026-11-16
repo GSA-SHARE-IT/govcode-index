@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-03-12",
+        "metadataLastUpdated": "2019-03-13"
+    },
+    "description": "Stitch is a new IO library focused around supporting simulations where only a small portion of the simulation space changes at each timestep. It improves storage efficiency by only storing the changed data and constructs on request a view of an arbitrary region at a given time by stitching together parts of various outputs. This enables scaling from a single process to 100s of nodes.",
+    "laborHours": 113270.4,
+    "languages": [
+        "C",
+        "Python"
+    ],
+    "name": "Stitch v. 1.0 IO Library",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/gflofst/stitch-io",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 1.0"
+}

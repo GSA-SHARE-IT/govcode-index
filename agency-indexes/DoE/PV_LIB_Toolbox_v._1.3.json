@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "PV_LIB comprises a library of Matlab? code for modeling photovoltaic (PV) systems. Included are functions to compute solar position and to estimate irradiance in the PV system's plane of array, cell temperature, PV module electrical output, and conversion from DC to AC power. Also included are functions that aid in determining parameters for module performance models from module characterization testing. PV_LIB is open source code primarily intended for research and academic purposes. All algorithms are documented in openly available literature with the appropriate references included in comments within the code.",
+    "laborHours": 3359.2,
+    "name": "PV_LIB Toolbox v. 1.3",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/SandiaTestAccount/PVLIB_Matlab",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

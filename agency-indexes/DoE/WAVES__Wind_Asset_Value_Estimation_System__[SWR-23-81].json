@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-11-27",
+        "metadataLastUpdated": "2023-12-20"
+    },
+    "description": "The Wind Asset Value Estimation System (WAVES) model is a coupling framework for core NREL techno economic analysis software models to estimate capital expenditures (ORBIT), operational expenditures (WOMBAT), and energy production (FLORIS) for offshore wind power plants. Existing workflows to couple the three models for lifecycle performance and cost estimation require a large amount of manual and error-prone setup to combine both shared inputs and dependent outputs, as such WAVES's primary functionality is to wrap the core logic for running standard modeling workflows to ensure shared settings and entangled results are correctly and efficiently combined every time. SEE ALSO: https://pypi.org/project/WAVES/",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "WAVES (Wind Asset Value Estimation System) [SWR-23-81]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/WAVES",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "v0.5"
+}

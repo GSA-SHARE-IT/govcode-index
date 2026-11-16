@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "gureckywl@ornl.gov"
+    },
+    "date": {
+        "created": "2024-05-21",
+        "metadataLastUpdated": "2024-05-21"
+    },
+    "description": "The CORRLA-RS package provides a suite of statistical methods for sampling multidimensional distributions and to conduct sensitivity and correlation analysis of large scale data in the Rust programming language.  The software provides a unique solution to multidimensional constrained sampling problems utilizing a combination of parallelized Markov Chain Monte Carlo methods and traditional rejection sampling.  The sensitivity and correlation analysis methods are backed by a high performance randomized singular value decomposition implementation  which enables datasets larger than the random access memory (RAM) size to be analyzed.   Additionally, CORRLA-RS implements the active subspace identification method using a KD-Tree and the randomized singular value decomposition acting in concert.",
+    "laborHours": 1824.0,
+    "languages": [
+        "Rust"
+    ],
+    "name": "CORRLA-RS",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/wgurecky/CORRLA_RS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0.1"
+}

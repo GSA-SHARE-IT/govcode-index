@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2024-03-19",
+        "metadataLastUpdated": "2024-03-20"
+    },
+    "description": "SAND2024-01365O\nThe Graph Neural Networks and Applied Linear Algebra is companion software for the educational article with the same title. The software provides illustrative examples of graph neural networks in Matlab and Python. These stand-alone algorithms are for educational purposes. \n\nThe software also includes graph neural network-based algorithms for a trainable Jacobi iteration as well as diffusion coefficient estimation. The software provides human-interpretable implementations of Graph Neural Networks in Matlab and Python. These implementations are not optimized for performance and instead emphasize readability.  \nSandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB",
+        "Python"
+    ],
+    "name": "Graph Neural Networks and Applied Linear Algebra v.1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/gnn-applied-linear-algebra",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

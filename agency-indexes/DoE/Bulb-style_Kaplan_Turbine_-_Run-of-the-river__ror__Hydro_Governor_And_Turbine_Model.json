@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-10-20",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "This software package includes hydro governor and turbine models developed in Simulink (Mathworks Inc.) and RSCAD (RTDS Technologies) for low-head bulb-style Kaplan turbine hydropower plants. The model developed in Simulink has been designed and tuned to match the governor-turbine response for a real-world hydropower unit owned by Idaho Falls Power (IFP). The Simulink and RSCAD models enable real-time testing in a hardware-in-the-loop (HIL) implementation using OPAL-RT and RTDS digital real-time simulators, respectively. An automatic initialization for dynamic simulation has also been integrated to each model in both Simulink and RSCAD. The RSCAD initialization involves a novel python-based interfacing for automatic modification of the initial conditions in the model. The parameters of these models can be tuned to match other hydropower plants in this class.",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB",
+        "Python",
+        "Simulink"
+    ],
+    "name": "Bulb-style Kaplan Turbine - Run-of-the-river (ror) Hydro Governor And Turbine Model",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/Hydropower_Unit_Models",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-08-27",
+        "metadataLastUpdated": "2021-08-27"
+    },
+    "description": "The number of nucleic acid sequences in GenBank has been growing exponentially for almost 40 years. With the rapid adoption of high throughput, relatively inexpensive sequencing devices, the amount of available “raw”, unassembled sequence in the Sequence Read Archive (SRA) is significantly greater than the traditional GenBank “complete” and “WGS” sequence categories combined. The SRA is an invaluable data trove that contains sequence reads that reflect the enormous diversity of modern genomic science from “A” (aardvark gut metagenome) to “Z” (zebra finch auditory lobule RNA-seq). \n\nHowever, as a result of the explosive growth of the SRA traditional methods for querying sequence databases (e.g. BLAST) can no longer keep up. Instead of finding the list of best matching database sequences for a given search query (usually accompanied by pairwise sequence alignments), new search algorithms have been developed to identify the “samples” (i.e. collections of short, sequenced reads from a single biological sample) that are most “similar” to the query sequence. These search algorithms represent collections of sequences (both the query and the database entries) as mathematical sets of short, fixed-length sequences (“k-mers”) and then rank potential matches between the query set and each of the database sets using the fraction of k-mers that are shared between each pair of sets (e.g. the Jaccard distance).\n\nDue to the large amount of sequence data stored in the SRA, a naïve, “brute-force” approach that attempts to enumerate and store the k-mers associated with each biological sample in the SRA will quickly exhaust the available storage of most high-performance computing centers. Instead, the primary innovation of the new search algorithms is the application Bloom filters (and related computer science data structures) to the massive sequence search problem. A Bloom filter provides a pragmatic trade-off between “set size” and “match certainty”. By using one or more hash functions to map k-mers to a smaller set of numbers, the size of k-mers used to represent a collection of sequence reads can be dramatically reduced. This brings the added benefit that smaller set sizes can be computationally compared more quickly. However, there is no bioinformatic “free-lunch” – the similarity between two Bloom filters now only approximates the similarity between the underlying k-mer sets. Thanks to the properties of the hash functions used to build the Bloom filters, the approximation is “one-sided” – the Bloom filter-based similarity can be greater, but never less, than the true k-mer set similarity. This leads to a non-zero probability of false discovery, where a predicted database match to a query sequence is not actually similar to the query. Thankfully, the probability of a false negative (i.e. failing to report a database match that is actually similar to the query) is zero. In addition, there is practical statistics-based guidance that enables implementing a Bloom filter with a known, user-specified false discovery rate.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "KWAGE (FORMERLY BIGSI++)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LANL-Bioinformatics/KWAGE",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

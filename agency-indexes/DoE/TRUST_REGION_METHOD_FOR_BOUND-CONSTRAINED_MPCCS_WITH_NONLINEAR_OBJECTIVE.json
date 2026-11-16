@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-01-03",
+        "metadataLastUpdated": "2022-01-04"
+    },
+    "description": "The code is a python implementation of the optimization algorithm that is proposed in \"Sequential Linearization Method for Bound-Constrained Mathematical Programs with Complementarity Constraints\" (Apt# 163042). The code is not a general purpose optimization software but is designed to solve the specific class of optimization problems in the aforementioned article. To allow reproducibility it is implemented close to the theoretical framework that has been developed in the aforementioned article. It will be published without any third-party dependencies except for python and some popular and widespread python libraries.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "TRUST REGION METHOD FOR BOUND-CONSTRAINED MPCCS WITH NONLINEAR OBJECTIVE",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/paulmanns/slpcc",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

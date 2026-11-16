@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-05-04",
+        "metadataLastUpdated": "2022-05-11"
+    },
+    "description": "FLASC provides a rich suite of analysis tools for SCADA data filtering & analysis, wind farm model validation, field experiment design, and field experiment monitoring. The repository is centrally built around NRELs in-house floris wind farm model, available at https://github.com/nrel/floris. FLASC also largely relies on the energy ratio to, among others, quantify wake losses in synthetic and historical data, to perform turbine northing calibrations, and for model parameter estimation.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "FLASC (FLORIS-based Analysis for SCADA data)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/flasc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

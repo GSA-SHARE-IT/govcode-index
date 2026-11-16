@@ -1,0 +1,39 @@
+{
+    "name": "document-generation-service",
+    "description": "Contains routes that generate and concatenate documents from stored PSM data.",
+    "tags": [
+        "java",
+        "government",
+        "microservice",
+        "nsf",
+        "psm",
+        "external"
+    ],
+    "contact": {
+        "email": "esivagna@nsf.gov",
+        "name": "Elanchezhian Sivagnanam",
+        "phone": "7032928088"
+    },
+    "languages": [
+        "Java"
+    ],
+    "repositoryURL": "https://github.com/nsf-open/rest-service-document-generation",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://github.com/nsf-open/rest-service-document-generation/blob/master/LICENSE",
+                "name": "GPL.v3"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "laborHours": 1018,
+    "date": {
+        "created": "2018-10-03",
+        "lastModified": "2018-10-03",
+        "metadataLastUpdated": "2019-03-14"
+    },
+    "vcs": "",
+    "disclaimerText": "",
+    "disclaimerURL": "https://www.nsf.gov/digitalstrategy/Alternative_Analysis_Report_Template_Process.pdf"
+}

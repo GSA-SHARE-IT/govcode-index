@@ -1,0 +1,42 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-08-06",
+        "lastModified": "2026-11-06"
+    },
+    "description": "Certbot container that stores its configuration in an AWS S3 bucket",
+    "downloadURL": "https://api.github.com/repos/cisagov/certboto-docker/downloads",
+    "homepageURL": "https://github.com/cisagov/certboto-docker",
+    "laborHours": 1037.5,
+    "languages": [
+        "Shell",
+        "Python",
+        "Dockerfile"
+    ],
+    "name": "certboto-docker",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/certboto-docker.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "docker",
+        "certbot",
+        "s3",
+        "aws",
+        "boto",
+        "bucket"
+    ],
+    "vcs": "git"
+}

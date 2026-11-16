@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The DMS Update Manager is used to keep automated processing manager software up-to-date. Although it is part of PRISM (the Proteomics Research Information and Management System), it is a standalone program and does not contact any databases. The program compares the files on a central distribution share to files on the local computer, updating any files that are out of date. It supports rolling back local files to an older version and auto-deleting extra files.",
+    "laborHours": 2006.4,
+    "languages": [],
+    "name": "DMS Update Manager",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/DMS-Update-Manager",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

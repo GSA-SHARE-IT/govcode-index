@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2023-11-09",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Low precision-based nearest neighboring particle searching algorithm.This work introduces a computationally efficient Nearest Neighbor Particles Searching (NNPS) algorithm tailored for the\nmeshfree Smoothed Particle Hydrodynamics (SPH) method in large-deformation problems simulations. The innovation lies\nin the strategic use of low-precision float-point 16 (FP16) in NNPS for efficiency purpose.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/lpNNPS4SPH",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/lpNNPS4SPH",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

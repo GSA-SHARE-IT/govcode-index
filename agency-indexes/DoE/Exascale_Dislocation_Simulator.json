@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-04-22",
+        "metadataLastUpdated": "2024-04-22"
+    },
+    "description": "ExaDiS, or Exascale Dislocation Simulator, is a set of software modules written to enable numerical\nsimulations of large groups of moving and interacting dislocations, line defects in crystals responsible for\ncrystal plasticity. By tracking time evolution of sufficiently large dislocation ensembles, ExaDiS predicts\nplasticity response and plastic strength of crystalline materials. ExaDiS is built around a library of core\nfunctions for Discrete Dislocation Dynamics method specifically written to perform efficient computations\non GPUs.",
+    "laborHours": 8040.8,
+    "languages": [],
+    "name": "Exascale Dislocation Simulator",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/exadis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-14",
+        "metadataLastUpdated": "2021-12-16"
+    },
+    "description": "Massively Parallel and Portable Genomic Sequence Analysis (mappgene) is a sequencing analysis workflow for high performance computing. It incorporates novel technologies to simplify and accelerate genetics research.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Massively Parallel and Portable Genomic Sequence Analysis",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/mappgene",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

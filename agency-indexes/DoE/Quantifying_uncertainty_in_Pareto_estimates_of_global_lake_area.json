@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-02-24",
+        "metadataLastUpdated": "2023-02-24"
+    },
+    "description": "This software contains the code for Bayesian uncertainty analysis of global lake area. Computed uncertainties are compared against more conventional estimation using lake size-abundance distributions. Routines are included to explore sensitivity to observational errors and ad-hoc \"censoring\" strategies.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Quantifying uncertainty in Pareto estimates of global lake area",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/VeinsOfTheEarth/pareto_lake_area",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

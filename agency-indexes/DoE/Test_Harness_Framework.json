@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2022-09-07",
+        "metadataLastUpdated": "2023-03-13"
+    },
+    "description": "The code facilitates running tests and then validating the results. The tests are normally attacks on a system and the verification is normally to validate protection software detected the attack, however the framework can be used in any area.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Test Harness Framework",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabUnsupported/ATTAR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

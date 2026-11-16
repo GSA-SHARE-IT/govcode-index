@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "One major challenge in the field of shotgun metagenomics is the accurate identification of the organisms present within the community, based on classification of short sequence reads. Though microbial community profiling methods have emerged to attempt to rapidly classify the millions of reads output from contemporary sequencers, the combination of incomplete databases, similarity among otherwise divergent genomes, and the large volumes of sequencing data required for metagenome sequencing has led to unacceptably high false discovery rates (FDR). Here we present the application of a novel, gene-independent and signature-based metagenomic taxonomic profiling tool with significantly smaller FDR, which is also capable of classifying never-before seen genomes into the appropriate parent taxa.The algorithm is based upon three primary computational phases: (I) genomic decomposition into bit vectors, (II) bit vector intersections to identify shared regions, and (III) bit vector subtractions to remove shared regions and reveal unique, signature regions.In the Decomposition phase, genomic data is first masked to highlight only the valid (non-ambiguous) regions and then decomposed into overlapping 24-mers. The k-mers are sorted along with their start positions, de-replicated, and then prefixed, to minimize data duplication. The prefixes are indexed and an identical data structure is created for the start positions to mimic that of the k-mer data structure.During the Intersection phase -- which is the most computationally intensive phase -- as an all-vs-all comparison is made, the number of comparisons is first reduced by four methods: (a) Prefix restriction, (b) Overlap detection, (c) Overlap restriction, and (d) Result recording. In Prefix restriction, only k-mers of the same prefix are compared. Within that group, potential overlap of k-mer suffixes that would result in a non-empty set intersection are screened for. If such an overlap exists, the region which intersects is first reduced by performing a binary search of the boundary suffixes of the smaller set into the larger set, which defines the limits of the zipper-based intersection process. Rather than recording the actual k-mers of the intersection, another data structure of identical \"shape\" is created which consists of only bit vectors so that only a 1 or 0 will be stored in the location of the k-mer suffix that was found in the intersection. This reduces the amount of data generated and stored considerably.During the Subtraction phase, relevant intersection bitmasks are first unionized together to form a single bitmask which is then applied over the original genome to reveal only those regions of the genome that are unique. These regions are then exported to disk in FASTA format and used in the application of determining the constituents of an unknown metagenomic community.The DATABASE provided is the result of the algorithm described.",
+    "laborHours": 5168.0,
+    "name": "GOTTCHA Database, Version 1",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/losalamos/GOTTCHA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "vowelll@osti.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2018-03-28"
+    },
+    "description": "Sirepo is an open source framework for cloud computing. The graphical user interface (GUI) for Sirepo, also known as the client, executes in any HTML5 compliant web browser on any computing platform, including tablets. The client is built in JavaScript, making use of the following open source libraries: Bootstrap, which is fundamental for cross-platform web applications; AngularJS, which provides a model–view–controller (MVC) architecture and GUI components; and D3.js, which provides interactive plots and data-driven transformations. The Sirepo server is built on the following Python technologies: Flask, which is a lightweight framework for web development; Jinja, which is a secure and widely used templating language; and Werkzeug, a utility library that is compliant with the WSGI standard. We use Nginx as the HTTP server and proxy, which provides a scalable event-driven architecture. The physics codes supported by Sirepo execute inside a Docker container. One of the codes supported by Sirepo is the Synchrotron Radiation Workshop (SRW). SRW computes synchrotron radiation from relativistic electrons in arbitrary magnetic fields and propagates the radiation wavefronts through optical beamlines. SRW is open source and is primarily supported by Dr. Oleg Chubar of NSLS-II at Brookhaven National Laboratory.",
+    "laborHours": 158824.8,
+    "name": "Sirepo for Synchrotron Radiation Workshop",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/radiasoft/sirepo",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

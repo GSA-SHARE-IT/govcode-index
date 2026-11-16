@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-07-29",
+        "metadataLastUpdated": "2021-07-29"
+    },
+    "description": "The Building Efficiency Targeting Tool for Energy Retrofits (BETTER) V.1.0 web application identifies cost-saving energy and emissions reductions in buildings and portfolios, without site visits or complex modeling. With minimal data entry, BETTER benchmarks a building's or portfolio's energy use against peers; quantifies energy, cost, and greenhouse gas (GHG) reduction potential; and recommends energy efficiency measures for individual buildings or portfolios, targeting specific energy savings levels. The source code of BETTER's modular, cross-platform analytical engine has previously been disclosed (2019-001) and is available on GitHub and can be adopted, redeveloped, and redistributed freely under an open-source license, allowing users to incorporate BETTER's analytical capabilities into their own software platforms and tools. The BETTER V.1.0 web application, developed with the Django web-framework and the Model-View-Controller (MVC) architecture being disclosed here, provides a graphical user interface (GUI) for any user to view the software tutorials, download and upload a data entry template, configure and run the BETTER analyses, and view the final analytical reports.",
+    "homepageURL": "https://sites.google.com/lbl.gov/2021-127/landing-page",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Building Efficiency Targeting Tool for Energy Retrofits (BETTER) Web Application (BETTER Web App) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://sites.google.com/lbl.gov/2021-127/landing-page",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://sites.google.com/lbl.gov/2021-127/landing-page",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

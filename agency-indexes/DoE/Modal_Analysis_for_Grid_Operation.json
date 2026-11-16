@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "MANGO software is to provide a solution for improving small signal stability of power systems through adjusting operator-controllable variables using PMU measurement. System oscillation problems are one of the major threats to the grid stability and reliability in California and the Western Interconnection. These problems result in power fluctuations, lower grid operation efficiency, and may even lead to large-scale grid breakup and outages. This MANGO software aims to solve this problem by automatically generating recommended operation procedures termed Modal Analysis for Grid Operation (MANGO) to improve damping of inter-area oscillation modes. The MANGO procedure includes three steps: recognizing small signal stability problems, implementing operating point adjustment using modal sensitivity, and evaluating the effectiveness of the adjustment. The MANGO software package is designed to help implement the MANGO procedure.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "Matlab, Python script, batch script, PSAT Python script"
+    ],
+    "name": "Modal Analysis for Grid Operation",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

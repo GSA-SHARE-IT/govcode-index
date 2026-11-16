@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jayesh@mcs.anl.gov"
+    },
+    "date": {
+        "created": "2020-05-15",
+        "metadataLastUpdated": "2020-06-08"
+    },
+    "description": "The SCORPIO (Software for Caching Output and Reads for Parallel I/O) library provides a portable application programming interface (API) for describing, reading and storing array-oriented data that is distributed in memory across multiple processes.  It is used by all the model components in DOE's Energy Exascale Earth System Model (E3SM) for reading input data and writing model output. The library also supports rearranging data distributed across multiple processes before using low-level I/O libraries like PnetCDF, NetCDF, and ADIOS to write the data to the file system.  The library was derived from the Parallel I/O library.",
+    "laborHours": 142074.4,
+    "languages": [
+        "C",
+        "C++",
+        "Fortran"
+    ],
+    "name": "SCORPIO",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/scorpio",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

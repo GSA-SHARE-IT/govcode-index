@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-02",
+        "metadataLastUpdated": "2021-06-15"
+    },
+    "description": "A pipeline to estimate the limits of detection and resolution of transcription factor encoded biosensors",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Monte Carlo Markov Chain Biosensor Analysis (MCMCBA) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/JBEI/biosensor_characterization_public",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "v1.0"
+}

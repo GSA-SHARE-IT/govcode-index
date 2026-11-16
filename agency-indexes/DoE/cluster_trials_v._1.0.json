@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This software contains a set of python modules – input, search, cluster, analysis; these modules read input files containing spatial coordinates and associated attributes which can be used to perform nearest neighbor search (spatial indexing via kdtree), cluster analysis/identification, and calculation of spatial statistics for analysis.",
+    "homepageURL": "http://spparks.sandia.gov",
+    "laborHours": 0.0,
+    "name": "cluster trials v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://spparks.sandia.gov",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

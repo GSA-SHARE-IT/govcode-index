@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-07-30",
+        "metadataLastUpdated": "2020-07-31"
+    },
+    "description": "A kbase-ui plugin to allow a KBase user to view their Narrative jobs; and for job admins to manage all jobs. This plugin provides a single top level component designed to serve both regular users and administrators. It's primary purpose is to allow the user to view their current and past jobs. Administrative users can use it to inspect jobs for all users.",
+    "laborHours": 8056.0,
+    "languages": [],
+    "name": "kbase-ui-plugin-job-browser2",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/kbase-ui-plugin-job-browser2",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

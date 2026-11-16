@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-11-10",
+        "metadataLastUpdated": "2022-11-10"
+    },
+    "description": "LOKI is a simulation code that models weakly-coupled plasma evolution using Eulerian kinetic models in four phase space dimensions. The code is useful to understand basic plasma nonlinear plasma physics phenomena - in particular, wave-particle and wave-wave resonances that occur in laser plasma interactions. LOKI can simulate fundamental physical process in low-density plasmas on a scale of hundreds of light wavelengths. It does so by solving the relativistic Vlasov and Valsov-Fokker-Planck differential transport equations describing the collision less and low-collisionality evolution of charged particles in electromagnetic fields in two configuration space and two velocity space dimensions. Two principle electromagnetic models are provided: electrostatic (Poisson's Equation) and electromagnetic (Maxwell's equations).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LOKI",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/LOKI",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

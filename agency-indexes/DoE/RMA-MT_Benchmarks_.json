@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-05-09",
+        "metadataLastUpdated": "2018-05-09"
+    },
+    "description": "The RMA-MT benchmarks are a suite of performance tests for multi-threaded Message Passing Interface (MPI) Remote Memory Access (RMA) implementations. The suite includes tests for bandwidth and latency with any number of threads. This suite was originally developed and release by Sandia National Laboratory. LANL modifications to the suite include a complete re-write of much of the source code, bi-directional bandwidth, and message rate tests.",
+    "laborHours": 1155.2,
+    "name": "RMA-MT Benchmarks ",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hpc/rma-mt",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

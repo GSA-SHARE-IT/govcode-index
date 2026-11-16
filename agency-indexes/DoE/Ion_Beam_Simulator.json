@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "aespiritu@lbl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "IBSimu(Ion Beam Simulator) is a computer program for making two and three dimensional ion optical simulations. The program can solve electrostatic field in a rectangular mesh using Poisson equation using Finite Difference method (FDM). The mesh can consist of a coarse and a fine part so that the calculation accuracy can be increased in critical areas of the geometry, while most of the calculation is done quickly using the coarse mesh. IBSimu can launch ion beam trajectories into the simulation from an injection surface or fomo plasma. Ion beam space charge of time independent simulations can be taken in account using Viasov iteration. Plasma is calculated by compensating space charge with electrons having Boltzmann energy distribution. The simulation software can also be used to calculate time dependent cases if the space charge is not calculated. Software includes diagnostic tools for plotting the geometry, electric field, space charge map, ion beam trajectories, emittance data and beam profiles.",
+    "homepageURL": "https://sourceforge.net/projects/ibsimu",
+    "laborHours": 0.0,
+    "name": "Ion Beam Simulator",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sourceforge.net/projects/ibsimu",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

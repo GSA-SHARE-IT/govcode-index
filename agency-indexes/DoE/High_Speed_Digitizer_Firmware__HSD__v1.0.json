@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-07-06",
+        "metadataLastUpdated": "2023-07-06"
+    },
+    "description": "The High Speed Digitizer firmware is an FPGA gateware and embedded firmware that run on evaluation kits (either Xilinx ZCU111 or Xilinx ZCU208 ) that digitizes signals up to 4GSPS and 4GHz analog bandwidth, which can be synchronized to the accelerator timing system, providing synchronous sampling frequency/phase digitization. In addition to these capabilities, a proof of concept for a beam position monitor is also present, providing an envelope detection algorithm capable of determining the transverse beam position for an electron circular accelerator, such as ALS/ALS-U.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "High Speed Digitizer Firmware (HSD) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BerkeleyLab/LBNL-Digitizers",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

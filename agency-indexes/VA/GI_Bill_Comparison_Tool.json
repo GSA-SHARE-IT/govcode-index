@@ -1,0 +1,50 @@
+{
+    "id": 2010,
+    "name": "GI Bill Comparison Tool",
+    "organization": "OIT DSO",
+    "version": null,
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/gibct-data-service",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "GI Bill CT",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Json-schema",
+        "Ruby",
+        "Ruby on Rails",
+        "PostgreSQL",
+        "Docker",
+        "Github Enterprise",
+        "AWS (Amazon Web Services)-Shell",
+        "Jenkins Continuous Integration Server",
+        "React"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-28",
+        "lastModified": "2020-08-20",
+        "metadataLastUpdated": "2020-08-20"
+    },
+    "description": "Allows stakeholders to build a valid GIBCT database from various data sources and apis."
+}

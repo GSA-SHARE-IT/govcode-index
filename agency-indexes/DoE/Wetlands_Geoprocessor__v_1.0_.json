@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2024-06-07",
+        "metadataLastUpdated": "2024-06-07"
+    },
+    "description": "Wetlands have often been described as the “Earth’s kidneys” because wetlands have the ability filter pollutants and purify water. Based upon wetland storage capacity, average daily flow, and inflow nutrient loading this model estimates potential load reductions of nitrate and orthophosphate) from a constructed surface flow wetland (CW). The model relies upon equations, coefficients, and models provided by Cheng et al. 2020 and Cheng & Basu 2017.\nNitrogen (N) and phosphorus are important nutrients to ecosystems, but high concentrations can lead to water quality issues. Major sources of these nutrients come from agricultural areas where fertilizer is applied in large quantitates and/or animal waste is present. Excess nitrate and phosphorus may result in overgrowth of algae, which can decrease the dissolved oxygen in water, thereby harming and killing fish and other aquatic species. This model evaluates water purification results and estimates cost to install a surface flow constructed wetlands.",
+    "laborHours": 197.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "Wetlands Geoprocessor (v 1.0)",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabUnsupported/Wetlands_Geoprocessor",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

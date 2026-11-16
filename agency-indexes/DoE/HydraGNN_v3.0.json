@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "lupopasinim@ornl.gov"
+    },
+    "date": {
+        "created": "2024-01-31",
+        "metadataLastUpdated": "2024-01-31"
+    },
+    "description": "New or improved capabilities included in v3.0 release are as follows:\n\n1. Enhancement in message passing layers through generalization of the class inheritance to enable the inclusion of a broader set of message passing policies\nInclusion of equivariant message passing layers from the original implementations of:\nSchNet (https://pubs.aip.org/aip/jcp/article/148/24/241722/962591/SchNet-A-deep-learning-architecture-for-molecules); DimeNet++ (https://arxiv.org/abs/2011.14115); EGNN models (https://arxiv.org/pdf/2102.09844.pdf)\n2. Restructuring of class inheritance for data management\n3. Support of DDStore https://github.com/ORNL/DDStore capabilities for improved distributed data parallelism on large volumes of data that cannot fit on intra-node memory capacities\n4. Large-scale system support for OLCF-Crusher and OLCF-Frontier",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "HydraGNN v3.0",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/HydraGNN/releases/tag/v3.0",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "v3.0"
+}

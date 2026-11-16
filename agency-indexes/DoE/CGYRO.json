@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "sfiligoii@fusion.gat.com"
+    },
+    "date": {
+        "created": "2018-11-06",
+        "metadataLastUpdated": "2018-11-09"
+    },
+    "description": "CGYRO is a multi-species spectral gyrokinetic solver with sonic rotation capability. It is an Eulerian GK solver specifically designed and optimized for collisional, electromagnetic, multiscale simulation. A key algorithmic aspect of CGYRO is the radially spectral formulation used to reduce the complicated integral gyroaveraging kernel into a multiplication in wavenumber space, but retaining the ability to treat profile variation important for edge plasmas. This makes it suitable for\nnext-generation computational systems that require high levels of parallel concurrency.\n",
+    "homepageURL": "http://gafusion.github.io/doc/download.html",
+    "laborHours": 160496.8,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "CGYRO",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://gafusion.github.io/doc/license.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://gafusion.github.io/doc/download.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "version": "16.0"
+}

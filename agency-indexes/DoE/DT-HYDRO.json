@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "gureckywl@ornl.gov"
+    },
+    "date": {
+        "created": "2023-06-29",
+        "metadataLastUpdated": "2023-06-29"
+    },
+    "description": "The software solves the time dependent, one dimensional (1D) coupled mass and momentum balance equations governing the elastic flow of water through the penstock, turbine and draft tube in a hydroelectric facility using a high order finite volume based method. The numerical method is based on the Kurganov-Tadmor central method paired with the Monotonic Upstream-centered Scheme for Conservation Laws (MUSCL). This solution method accurately resolves the fast transient behavior of the flow, including water hammer. Additionally, the software estimates the full 3D flow field within the turbine chamber in real time, a feat that is made possible by leveraging pre-computed CFD results by utilizing a reduced order modeling method based on an efficient randomized singular value decomposition (SVD) driven proper orthogonal decomposition (POD) with POD-mode weight regression. The reduced order model of the 3D flow is directly coupled to the 1D elastic flow model so the entire flow field through the penstock and turbine system is resolved quickly and with high fidelity.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "DT-HYDRO",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/dt-hydro/dt-hydro-cfd",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "version": "0.0.1"
+}

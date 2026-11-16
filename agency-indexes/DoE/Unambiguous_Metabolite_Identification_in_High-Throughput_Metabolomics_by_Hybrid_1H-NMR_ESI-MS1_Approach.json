@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-10-05",
+        "metadataLastUpdated": "2020-10-05"
+    },
+    "description": "The invention improves accuracy of metabolite identification by combining direct infusion ESI-MS with one-dimensional 1H-NMR spectroscopy. First, we apply a standard 1H-NMR metabolite identification protocol by matching the chemical shift, J-coupling and intensity information of experimental NMR signals against the NMR signals of standard metabolites in a metabolomics reference libraries. This generates a list of candidate metabolites. The list contains both false positive and ambiguous identifications. The software tool (the invention) takes the list of candidate metabolites, generated from NMRbased metabolite identification, and then calculates, for each of the candidate metabolites, the monoisotopic mass-tocharge (m/z) ratios for each commonly observed ion, fragment and adduct feature. These are then used to assign m/z ratios in experimental ESI-MS spectra of the same sample. Detection of the signals of a given metabolite in both NMR and MS spectra resolves the ambiguities, and therefore, significantly improves the confidence of the identification.",
+    "laborHours": 15.2,
+    "languages": [
+        "Software is compiled and interpreted for the Java Virtual Machine (JVM) version 6 or higher."
+    ],
+    "name": "Unambiguous Metabolite Identification in High-Throughput Metabolomics by Hybrid 1H-NMR/ESI-MS1 Approach",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://store.pnnl.gov/content/unambiguous-metabolite-identification-hybrid-1d-1h-nmresi-ms1-approach",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/EMSL-NMR-EPR/MATLAB-1D_1H_NMR_ESI_MS1-WebApp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

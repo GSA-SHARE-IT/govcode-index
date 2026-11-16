@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-09-30",
+        "metadataLastUpdated": "2021-09-30"
+    },
+    "description": "Portably Performant Physical Algebra (P3A) is a C++ library that provides classes representing variables in a physical algebra equation. These equations are the fundamental way that physics models are written (\"f = ma\" for example). P3A provides a way to write in the C++ programming language similar to how one would do math on paper. P3A provides support tools for rapidly solving equations in a way that is common in scientific computing. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525. SAND2021-3183 O",
+    "laborHours": 0.0,
+    "languages": [
+        "C++ version 17"
+    ],
+    "name": "P3A",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/p3a",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

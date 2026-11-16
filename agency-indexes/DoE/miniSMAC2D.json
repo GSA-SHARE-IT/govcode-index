@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "In the drive to make exascale computing a reality, significant effort is being invested in efficiently implementing and improving current numerical algorithms on various vendors' newest testbeds acquired by DOE's Advanced Simulation and Computing program. Porting large-scale applications to these testbeds is prohibitive in labor and time. Instead, it is more advantageous to run small-scale programs that capture the essence of the large-scale application and that can be more easily modified, improved, and distributed to other collaborators focused on hardware/software co-design. These small-scale applications are called miniapps are are being developed under the aegis of the Mantevo project.",
+    "laborHours": 6490.4,
+    "languages": [
+        "C",
+        "Fortran",
+        "Python"
+    ],
+    "name": "miniSMAC2D",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/miniSMAC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

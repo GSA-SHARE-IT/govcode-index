@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-07-12",
+        "metadataLastUpdated": "2024-07-12"
+    },
+    "description": "We would like to create an open source repository in LANL's github on code written in Julia, in which we implement and extend the data-driven Mori-Zwanzig method for extracting large-scale spatio-temporal structures from data, which we call MZMD. This method is an extension of Dynamic Mode Decomposition (DMD) in which Mori-Zwanzig memory kernels are included into the associated companion matrix. In the code we would like to release, we apply MZMD to a flow over a cylinder with Reynolds number 100 rather than the much larger data set used in the associated manuscript.  DMD is used extensively in the fluid dynamics community mainly for extracting large scale spatio-temporal structures (patters) from flow data. This is useful for understanding the key mechanisms that generate certain complex dynamical process relevant in engineering design. In MZMD, we improve upon DMD by adding the Mori-Zwanzig memory kernels, and show this improvement is especially important in strongly nonlinear regions of the flow.",
+    "laborHours": 304.0,
+    "languages": [],
+    "name": "Code for the manuscript \"Mori-Zwanzig Modal Decomposition\"",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/MoriZwanzigModalDecomposition.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

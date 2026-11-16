@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Nanoindentation is a tool that allows the mechanical response of a variety of materials at the nano to micron length scale to be measured. Recent advances in spherical nanoindentation techniques have allowed for a more reliable and meaningful characterization of the mechanical response from nanoindentation experiments in the form on an indentation stress-strain curve. This code base, Spin, is written in MATLAB (The Mathworks, Inc.) and based on the analysis protocols developed by S.R. Kalidindi and S. Pathak [1, 2]. The inputs include the displacement, load, harmonic contact stiffness, harmonic displacement, and harmonic load from spherical nanoindentation tests in the form of an Excel (Microsoft) spreadsheet. The outputs include indentation stress-strain curves and indentation properties as well their variance due to the uncertainty of the zero-point correction in the form of MATLAB data (.mat) and figures (.png). [1] S. Pathak, S.R. Kalidindi. Spherical nanoindentation stress–strain curves, Mater. Sci. Eng R-Rep 91 (2015). [2] S.R. Kalidindi, S. Pathak. Determination of the effective zero-point and the extraction of spherical nanoindentation stress-strain curves, Acta Materialia 56 (2008) 3523-3532.",
+    "laborHours": 440.8,
+    "name": "Spherical nanoindentation stress-strain analysis, Version 1",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jsweaver/Spin",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

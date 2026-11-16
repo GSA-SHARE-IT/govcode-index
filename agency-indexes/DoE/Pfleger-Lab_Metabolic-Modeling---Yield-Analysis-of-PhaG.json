@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "krhodges@illinois.edu"
+    },
+    "date": {
+        "created": "2024-11-05",
+        "metadataLastUpdated": "2024-12-04"
+    },
+    "description": "Microbial lipid metabolism is an attractive route for producing oleochemicals. The predominant strategy centers on heterologous thioesterases to synthesize desired chain-length fatty acids. To convert acids to oleochemicals (e.g., fatty alcohols, ketones), the narrowed fatty acid pool needs to be reactivated as coenzyme A thioesters at cost of one ATP per reactivation – an expense that could be saved if the acyl-chain was directly transferred from ACP- to CoA-thioester. Here, we demonstrate such an alternative acyl-transferase strategy by heterologous expression of PhaG, an enzyme first identified in Pseudomonads, that transfers 3-hydroxy acyl-chains between acyl-carrier protein and coenzyme A thioester forms for creating polyhydroxyalkanoate monomers. We use it to create a pool of acyl-CoA’s that can be redirected to oleochemical products. Through bioprospecting, mutagenesis, and metabolic engineering, we develop three strains of Escherichia coli capable of producing over 1 g/L of medium-chain free fatty acids, fatty alcohols, and methyl ketones.",
+    "laborHours": 157304.8,
+    "languages": [],
+    "name": "Pfleger-Lab/Metabolic-Modeling---Yield-Analysis-of-PhaG",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Pfleger-Lab/Metabolic-Modeling---Yield-Analysis-of-PhaG",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-11-18",
+        "metadataLastUpdated": "2024-11-18"
+    },
+    "description": "You've found the official code repository for the paper \"SysCaps: Language Interfaces for Simulation Surrogates of Complex Systems,\" presented at the Foundation Models for Science: Progress, Opportunities, and Challenges workshop at NeurIPS 2024. Our paper conjectures that interfaces (both text templates as well as conversational) makes interacting with simulation surrogate models for complex systems more intuitive and accessible for both non-experts and experts. \"System captions\", or SysCaps, are text-based descriptions of systems based on information contained in simulation metadata. Our paper's goal is to train multimodal regression models that take text inputs (SysCaps) and timeseries inputs (exogenous system conditions such as hourly weather) and regress timeseries simulation outputs (e.g. hourly building energy consumption). The experiments in our paper with building and wind farm simulators, which can be reproduced using this codebase, aim to help us understand whether a) accurate regression in this setting is possible and b) if so, how well can we do it.\n\nPaper: https://arxiv.org/abs/2405.19653",
+    "laborHours": 4651.2,
+    "languages": [
+        "Python",
+        "Jupyter Notebook",
+        "Shell"
+    ],
+    "name": "SysCaps (Language Interfaces for Simulation Surrogates of Complex Systems) [SWR-24-97]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/SysCaps",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

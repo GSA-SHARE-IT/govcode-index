@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "sanderb@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2021-03-08",
+        "metadataLastUpdated": "2021-03-09"
+    },
+    "description": "This software package is used for the acute shortage ventilator developed to battle against the Covid crisis on a global scale. All information on the project can be found here:\nmedia announcements:\nhttps://www6.slac.stanford.edu/news/2020-08-13-slac-scientists-invent-low-cost-emergency-ventilator-and-share-design-free.aspx\nofficial paper:\nhttps://www.medrxiv.org/content/10.1101/2020.07.20.20158147v1\nTechnology:\nhttp://techfinder.stanford.edu/technologies/S20-256_acute-shortage-ventilator\nwebsite:\nhttps://www.slac-asv.net/",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Acute shortage ventilator software",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/pabv_control",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

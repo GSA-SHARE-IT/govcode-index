@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-12-20",
+        "metadataLastUpdated": "2023-12-20"
+    },
+    "description": "PECAN2, Pose Classification with 3D Atomic Network 2, presents an innovative approach to pose\nclassification in computational modeling, particularly in the context of molecular docking. Traditional\nmethods like docking, which rely on physics-based calculations, are prone to inaccuracies in predicting\nbinding poses during experimental testing. While machine learning (ML) approaches, such as ML-driven\npose classification, have been introduced to address these issues, they often depend on the availability of\ncrystal structure data.\nIn contrast, PECAN2 introduces a novel pose classification method that operates independently of crystal\nstructures. Instead, it utilizes a 3D atomic neural network with Point Cloud Network (PCN) to establish\ncorrelations between docking scores and experimental data. This approach marks a departure from\nprevious studies that heavily relied on crystal structures for labeling.\nThe key innovation lies in the ability of PECAN2 to enhance the performance of molecular docking by\nfiltering out false positives and false negatives through the correlation between docking scores and\nexperimental data.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PECAN2",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/PECAN2",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

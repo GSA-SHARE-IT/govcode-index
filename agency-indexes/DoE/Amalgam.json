@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Amalgam is a system that allows you to generate collections of files that work with conventional tools but take up minimal extra space on storage. If you already are archiving files in a file system and don't want to make multiple copies of whole files in order to ship the data somewhere then this system is for you. Amalgam consists of tools that allow you to create and get information about '.amalgam' files which contain just the metadata associated with a set of files. It also contains a fuse file system that, using amalgam files, will dynamically create traditional tar files. With this setup, you can see multiple orders of magnitude reduction in storage requirements for temporary data collections.",
+    "laborHours": 638.4,
+    "name": "Amalgam",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/EMSL-MSC/amalgam",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

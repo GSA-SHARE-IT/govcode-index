@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-07-12",
+        "metadataLastUpdated": "2024-07-12"
+    },
+    "description": "This Fortran code consists of multiple modules with a focus on simplifying array operations, image processing, and numerical computation especially for computational geophysics applications. We intend to use this code to demonstrate the application and usefulness of Fortran interface and templates for generic programming, especially for computational geophysics and seismology applications. The code has several notable features. Firstly, it is based on a modularized structure, where each module contains multiple functions but with a focus of functionality. Secondly, it heavily uses interfaces and templates for improving the genericness and convenience of the resulting code, where a same function interface can enclose a group of functions that perform the same functionality but with inputs/output variables of different data types. Thirdly, it includes a variety of generic functions with an emphasis on array operations, such as rotation, flipping, cropping, padding, fast Fourier transform, Gaussian blurring, interpolation, and so on. We name this package FLIP – a generic Fortran Library based on Interfaces and Templates.",
+    "laborHours": 33105.6,
+    "languages": [],
+    "name": "FLIT: A Generic Fortran Library based on Interfaces and Templates",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/flit",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

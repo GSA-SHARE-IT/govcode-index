@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The open-source PBCdlComm software is designed for data acquisition from PakBus-protocol based Campbell Data loggers by the Scientific Data Management team at Pacific Northwest National Laboratory (www.pnl.gov). This effort was funded by US Department of Energy's Atmospheric Radiation Measurement program (www.arm.gov). As an alternative for Campbell Scientific's Loggernet software, this is ideal for deploying with rugged field PCs that have limited processing resources and do not require a full-blown GUI module. The software is designed so that it can be extended to implement a new data storage mechanism, a customized post-processing module and/or integrated with web-services for sophisticated monitoring or reporting.",
+    "laborHours": 2553.6,
+    "name": "PbCdlComm",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sutanay/PbCdlComm/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sutanay/PbCdlComm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

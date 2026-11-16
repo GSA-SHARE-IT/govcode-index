@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Compare Gene Profiles (CGP) performs pairwise gene content comparisons among a relatively large set of related bacterial genomes. CGP performs pairwise BLAST among gene calls from a set of input genome and associated annotation files, and combines the results to generate lists of common genes, unique genes, homologs, and genes from each genome that differ substantially in length from corresponding genes in the other genomes. CGP is implemented in Python and runs in a Linux environment in serial or parallel mode.",
+    "laborHours": 1763.2,
+    "name": "Compare Gene Profiles",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/carolzhou/Genome",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

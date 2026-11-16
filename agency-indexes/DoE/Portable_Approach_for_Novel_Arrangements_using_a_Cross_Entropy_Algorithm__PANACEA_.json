@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-08-12",
+        "metadataLastUpdated": "2021-08-12"
+    },
+    "description": "PANACEA provides a means for generating unique configurations. The primary motivation for its development stems from the need to generate unique configurations for the purpose of training machine learned interatomic potentials. PANCEA is a C++ library with python and linux scripts. The C++ library is the engine which provides can be installed and used to measure the disorder/order of a system via the information entropy. The python and linux scripts provide useful helper functionality such as visualization of files that can be output from the library.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Portable Approach for Novel Arrangements using a Cross Entropy Algorithm (PANACEA)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

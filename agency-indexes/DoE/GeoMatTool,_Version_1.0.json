@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-06-15",
+        "metadataLastUpdated": "2018-06-18"
+    },
+    "description": "GeoMatTool support the estimation of parameter values for certain models of use in geomechanics modeling and simulation. The tool itself is a Java language script that functions principally as a database manager for data from certain geomechanical tests. The tool as a database manager allows the user to access, review and modify in limited ways the data. The tool then serves as an interface to plotting and statistical software packages to facilitate the evaluation of the data and parameter estimation.",
+    "homepageURL": "http://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GeoMatTool, Version 1.0",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "http://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "http://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

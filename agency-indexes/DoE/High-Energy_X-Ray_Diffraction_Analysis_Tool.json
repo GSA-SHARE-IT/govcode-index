@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The functionality of heRXD includes the following: distance and angular calibration and viewing flat-panel detector images used for X-ray diffraction; image (polar) rebinning or \"caking\"; line position fitting in powder diffraction images; image segmentation or \"blob finding\"; crystal orentation indesing; and lattice vector refinement. These functionalities encompass a critical set analyzing teh data for high-energy diffraction measurements that are currently performed at synchrotron sources such as the Advanced Photon Source (APS). The software design modular and open source under LGPL. The intent is to provide a common framework and graphical user interface that has the ability to utillize internal as well as external subroutines to provide various optins for performing the fuctionalities listed above. The software will initially be deployed at several national user facilities--including APS, ALS, and CHESS--and then made available for download using a hosting service such as sourceforge.",
+    "laborHours": 33865.6,
+    "name": "High-Energy X-Ray Diffraction Analysis Tool",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/praxes/hexrd",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-05-04"
+    },
+    "description": "A closed-loop proportional-integral (PI) control software is provided for fully mechanically controlled automated electron microscopic tomography. The software is developed based on Gatan DigitalMicrograph, and is compatible with Zeiss LIBRA 120 transmission electron microscope. However, it can be expanded to other TEM instrument with modification. The software consists of a graphical user interface, a digital PI controller, an image analyzing unit, and other drive units (i.e.: image acquire unit and goniometer drive unit). During a tomography data collection process, the image analyzing unit analyzes both the accumulated shift and defocus value of the latest acquired image, and provides the results to the digital PI controller. The digital PI control compares the results with the preset values and determines the optimum adjustments of the goniometer. The goniometer drive unit adjusts the spatial position of the specimen according to the instructions given by the digital PI controller for the next tilt angle and image acquisition. The goniometer drive unit achieves high precision positioning by using a backlash elimination method. The major benefits of the software are: 1) the goniometer drive unit keeps pre-aligned/optimized beam conditions unchanged and achieves position tracking solely through mechanical control; 2) the image analyzing unit relies on only historical data and therefore does not require additional images/exposures; 3) the PI controller enables the system to dynamically track the imaging target with extremely low system error.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "A Closed-Loop Proportional-Integral (PI) Control Software for Fully Mechanically Controlled Automated Electron Microscopic Tomography",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

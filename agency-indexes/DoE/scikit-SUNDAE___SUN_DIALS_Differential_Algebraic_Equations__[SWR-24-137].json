@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-11-04",
+        "metadataLastUpdated": "2024-11-19"
+    },
+    "description": "Scikit-SUNDAE provides Python bindings to SUNDIALS integrators. The implicit differential algebraic (IDA) solver and C-based variable-coefficient ordinary differential equations (CVODE) solver are both included.\n\nThe name SUNDAE combines (SUN)DIALS and DAE, which stands for differential algebraic equations. Solvers specific to DAE problems are not frequently available in Python. An ordinary differential equation (ODE) solver is also included for completeness. ODEs can be categorized as a subset of DAEs (i.e., DAEs with no algebraic constraints).\n\nhttps://pypi.org/project/scikit-sundae",
+    "laborHours": 8375.2,
+    "languages": [
+        "Makefile",
+        "C",
+        "Python",
+        "Cython"
+    ],
+    "name": "scikit-SUNDAE ((SUN)DIALS Differential Algebraic Equations) [SWR-24-137]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/scikit-sundae",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

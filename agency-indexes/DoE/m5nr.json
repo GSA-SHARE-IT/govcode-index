@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-28",
+        "metadataLastUpdated": "2020-08-28"
+    },
+    "description": "The m5nr is a MD5 based non-redundant sequence database that includes both protein and rRNA sequences. The m5nr allows rapid lookup of annotations from different public sources.",
+    "laborHours": 486.4,
+    "languages": [],
+    "name": "m5nr",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/m5nr",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

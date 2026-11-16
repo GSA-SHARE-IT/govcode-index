@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "reevest@ornl.gov"
+    },
+    "date": {
+        "created": "2022-11-22",
+        "metadataLastUpdated": "2022-11-22"
+    },
+    "description": "The PDMATLAB2D code is a meshfree peridynamics implementation in MATLAB suitable for simulation of two-dimensional fracture problems. The initial version implements bond-based brittle elastic peridynamics models and a critical stretch criterion for bond breaking. PDMATLAB2D provides an entry-level peridynamics computational tool for educational and training purposes. It also serves as an accessible and easily modifiable computational tool for peridynamics researchers who would like to adapt the code for a multitude of peridynamics simulations.",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "PDMATLAB2D",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/PDMATLAB2D",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

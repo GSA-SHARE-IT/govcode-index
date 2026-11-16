@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-05-07",
+        "lastModified": "2026-05-29"
+    },
+    "description": "An Ansible role for installing prerequisites for working with XFS file systems.",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-xfs/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-xfs",
+    "laborHours": 723.1,
+    "languages": [
+        "Shell",
+        "Jinja",
+        "Python"
+    ],
+    "name": "ansible-role-xfs",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-xfs.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "ansible-role",
+        "xfs"
+    ],
+    "vcs": "git"
+}

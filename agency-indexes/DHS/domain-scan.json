@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2022-12-05",
+        "lastModified": "2026-03-09"
+    },
+    "description": "A lightweight pipeline, locally or in Lambda, for scanning things like HTTPS, third party service use, and web accessibility.",
+    "downloadURL": "https://api.github.com/repos/cisagov/domain-scan/downloads",
+    "homepageURL": "https://github.com/cisagov/domain-scan",
+    "laborHours": 3161.1,
+    "languages": [
+        "Python",
+        "JavaScript",
+        "Shell",
+        "Dockerfile"
+    ],
+    "name": "domain-scan",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "NOASSERTION"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/domain-scan.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

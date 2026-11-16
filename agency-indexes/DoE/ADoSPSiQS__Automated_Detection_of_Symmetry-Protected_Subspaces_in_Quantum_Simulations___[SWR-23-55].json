@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-07-18",
+        "metadataLastUpdated": "2024-01-19"
+    },
+    "description": "Symmetry-protected subspaces in quantum systems are subspaces demarcated by a conserved quantity of that quantum system. We introduce two classical algorithms, which efficiently compute and elucidate features of these subspaces. The first algorithm explores the entire symmetry-protected subspace of an initial state in time complexity linear to the size of the subspace by closing local basis state-to-basis state transitions. The second algorithm determines, with bounded error, if a given measurement outcome of a dynamically-generated state is within the symmetry-protected subspace of the state in which the dynamical system is initialized. This software is paired with the paper of the same name at https://arxiv.org/pdf/2302.08586.pdf.",
+    "laborHours": 0.0,
+    "languages": [
+        "Jupyter Notebook",
+        "Python"
+    ],
+    "name": "ADoSPSiQS (Automated Detection of Symmetry-Protected Subspaces in Quantum Simulations ) [SWR-23-55]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/SymmetryDetectionForQuantumSim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

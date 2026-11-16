@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "roschliac@ornl.gov"
+    },
+    "date": {
+        "created": "2022-12-07",
+        "metadataLastUpdated": "2024-05-20"
+    },
+    "description": "ORNL Slicer 2 is a slicing program for additive manufacturing. It takes a solid body mesh object, typically as .STL file, and converts that into machine readable instructions, called g-code, that a 3D printer can use to build the object. The functionality includes loading and positioning an object, slicing it into layers, fitting toolpaths to the layers, and outputting g-code to construct the object. All of this is contained within a graphical user interface (GUI) that allows the user to define all of the settings specific to their machine and process, then preview the resultant g-code before starting the printing process.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "ORNL Slicer 2 - Open Source Copyright",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNLSlicer/Slicer-2",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "This is a Matlab toolbox for investigating the application of cluster ensembles to data classification, with the objective of improving the accuracy and/or speed of clustering. The toolbox divides the cluster ensemble problem into four areas, providing functionality for each. These include, (1) synthetic data generation, (2) clustering to generate individual data partitions and similarity matrices, (3) consensus function generation and final clustering to generate ensemble data partitioning, and (4) implementation of accuracy metrics. With regard to data generation, Gaussian data of arbitrary dimension can be generated. The kcenters algorithm can then be used to generate individual data partitions by either, (a) subsampling the data and clustering each subsample, or by (b) randomly initializing the algorithm and generating a clustering for each initialization. In either case an overall similarity matrix can be computed using a consensus function operating on the individual similarity matrices. A final clustering can be performed and performance metrics are provided for evaluation purposes.",
+    "homepageURL": "https://www.mathworks.com/matlabcentral/fileexchange/23941-matlab-cluster-ensemble-toolbox",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Matlab Cluster Ensemble Toolbox",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.mathworks.com/matlabcentral/fileexchange/23941-matlab-cluster-ensemble-toolbox",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.mathworks.com/matlabcentral/fileexchange/23941-matlab-cluster-ensemble-toolbox",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

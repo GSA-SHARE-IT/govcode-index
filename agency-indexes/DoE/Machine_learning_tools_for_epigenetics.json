@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-08-09",
+        "metadataLastUpdated": "2024-08-09"
+    },
+    "description": "The software provides machine learning analysis and visualization to detect patterns in epigenetic data, including conventional machine learning and statistical methods, and open-source packages like pyBigWig (https://github.com/deeptools/pyBigWig) for data processing. The software is written in python, it uses some python libraries.",
+    "laborHours": 1200.8,
+    "languages": [],
+    "name": "Machine learning tools for epigenetics",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/epigen",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

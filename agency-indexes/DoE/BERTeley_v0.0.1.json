@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-05-17",
+        "metadataLastUpdated": "2023-05-17"
+    },
+    "description": "This python package allows for the grouping of scientific articles based on their content, and generates topic words based on the groups. Overall this program can take in a large collection of articles and create a profile of them, displaying what disciplines and areas are covered in the collection. Researchers will be able to input another researcher's published works and get a summary of the kind of content available in the publications.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "BERTeley v0.0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbl-camera/berteley",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

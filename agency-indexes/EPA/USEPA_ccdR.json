@@ -1,0 +1,33 @@
+{
+    "name": "USEPA/ccdR",
+    "organization": "usepa",
+    "description": "Predecessor to ctxR. Utilities for Interacting with the CTX APIs in R without prior API knowledge. All data is also available on the CompTox Chemical Dashboard (CCD) https://comptox.epa.gov/dashboard/",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/ccdR/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/ccdR",
+    "downloadURL": "https://github.com/USEPA/ccdR/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/ccdR/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/ccdR.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2024-02-08T19:36:04Z",
+        "lastModified": "2024-07-17T16:49:09Z",
+        "metadataLastUpdated": "2026-11-16T06:39:58.632Z"
+    }
+}

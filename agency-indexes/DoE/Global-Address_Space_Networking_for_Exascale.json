@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-09-06",
+        "metadataLastUpdated": "2020-06-01"
+    },
+    "description": "GASNet-EX is a portable, open-source, high-performance communication library designed to efficiently support the networking requirements of Partitioned Global Address Space (PGAS) runtime systems and other alternative models in future exascale machines. The library is an evolution of the popular GASNet communication system, building upon over 15 years of lessons learned. \n\nGASNet is a language-independent, networking middleware layer that provides network-independent, high-performance communication primitives including Remote Memory Access (RMA) and Active Messages (AM). It has been used to implement parallel programming models and libraries such as UPC, Co-Array Fortran, Titanium, Legion, Chapel, and many others. The interface is primarily intended as a compilation target and for use by runtime library writers (as opposed to end users), and the primary goals are high performance, interface portability, and expressiveness. GASNet stands for \"Global-Address Space Networking\". \n",
+    "homepageURL": "http://gasnet.lbl.gov",
+    "laborHours": 235858.4,
+    "languages": [],
+    "name": "Global-Address Space Networking for Exascale",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://gasnet.lbl.gov",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

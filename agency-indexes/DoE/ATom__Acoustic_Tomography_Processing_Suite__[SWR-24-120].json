@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-10-24",
+        "metadataLastUpdated": "2025-01-08"
+    },
+    "description": "Acoustic tomography seeks the best-fit fluctuating velocity and temperature fields that explain a collection of signal travel times in a region of interest. This codebase defines an end-to-end framework for executing turbulent field retrievals from acoustic signals, acoustic signal design and processing tools for the physical array, and analysis tool that leverage virtual acoustic tomography arrays based on large-eddy simulations of the atmospheric boundary layer.",
+    "laborHours": 22739.2,
+    "languages": [
+        "CSS",
+        "HTML",
+        "TeX",
+        "JavaScript",
+        "Python"
+    ],
+    "name": "ATom (Acoustic Tomography Processing Suite) [SWR-24-120]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/ATom",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

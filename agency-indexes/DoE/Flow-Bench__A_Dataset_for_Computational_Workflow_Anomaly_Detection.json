@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "cwang@renci.org"
+    },
+    "date": {
+        "created": "2024-08-18",
+        "metadataLastUpdated": "2024-08-19"
+    },
+    "description": "Flow-Bench is a benchmark dataset for anomaly detection techniques in computational workflows. Flow-Bench contains workflow execution traces, executed on distributed infrastructure, that include systematically injected anomalies (labeled), and offers both the raw execution logs and a more compact parsed version. In this GitHub repository, apart from the logs and traces, you will find sample code to load and process the parsed data using pytorch, as well as, the code used to parse the raw logs and events.",
+    "laborHours": 14272.8,
+    "languages": [],
+    "name": "Flow-Bench: A Dataset for Computational Workflow Anomaly Detection",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PoSeiDon-Workflows/FlowBench",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "charles.tripp@nrel.gov"
+    },
+    "date": {
+        "created": "2021-03-26",
+        "metadataLastUpdated": "2022-08-22"
+    },
+    "description": "As part of NREL's Hybrid Energy Systems Research, this software assesses optimal designs for the deployment of utility-scale hybrid energy plants, particularly considering wind, solar and storage.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Hybrid Optimization and Performance Platform (HOPP)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/HOPP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "0.0.3"
+}

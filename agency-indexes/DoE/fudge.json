@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-07-15",
+        "metadataLastUpdated": "2019-07-15"
+    },
+    "description": "FUDGEFudge provides (Python based) tools to:\n• Store and modify nuclear data.\n• Convert ENDF-6 formatted nuclear data [1] into Generalized Nuclear\nData (GND) structure [2].\n• Convert LLNL’s ENDL formatted nuclear data [3] into GND.\n• Plot data from GND files.\n• Check for physics problems in GND files.\n• Process nuclear data for use by Monte Carlo and/or deterministic\ncodes. Fudge contains hooks for the future addition of nuclear data\nprocessing routines.\nThe Fudge release includes samples of published ENDF-6 formatted data that\ncan be converted to the new GND format.\nThis software is the next release in a series of releases that began with GND\nversion 0.1 [2].",
+    "laborHours": 84664.0,
+    "languages": [],
+    "name": "fudge",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/paulromano/fudge",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

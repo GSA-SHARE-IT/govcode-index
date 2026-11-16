@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2023-01-25",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "This code provides annotation and an interface to 10+ hours of video activities in a high performance datacenter with 20+ different types of anomalous activities. The purpose is to enable machine learning for video surveillance systems in high performance computing centers. This is the first code of this type addressing the space of high performance computing datacenters.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Anomalous And Normal High Performance Computing Datacenter Activities",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/HPCACT-2022",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

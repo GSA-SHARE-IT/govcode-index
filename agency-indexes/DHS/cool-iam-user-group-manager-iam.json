@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2023-11-01",
+        "lastModified": "2026-08-21"
+    },
+    "description": "Terraform for creating an IAM group for users who are allowed to manage IAM users and groups in the COOL",
+    "downloadURL": "https://api.github.com/repos/cisagov/cool-iam-user-group-manager-iam/downloads",
+    "homepageURL": "https://github.com/cisagov/cool-iam-user-group-manager-iam",
+    "laborHours": 750.3,
+    "languages": [
+        "Shell",
+        "HCL"
+    ],
+    "name": "cool-iam-user-group-manager-iam",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/cool-iam-user-group-manager-iam.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

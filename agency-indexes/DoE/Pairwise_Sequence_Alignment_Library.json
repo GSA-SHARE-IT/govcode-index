@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Vector extensions, such as SSE, have been part of the x86 CPU since the 1990s, with applications in graphics, signal processing, and scientific applications. Although many algorithms and applications can naturally benefit from automatic vectorization techniques, there are still many that are difficult to vectorize due to their dependence on irregular data structures, dense branch operations, or data dependencies. Sequence alignment, one of the most widely used operations in bioinformatics workflows, has a computational footprint that features complex data dependencies. The trend of widening vector registers adversely affects the state-of-the-art sequence alignment algorithm based on striped data layouts. Therefore, a novel SIMD implementation of a parallel scan-based sequence alignment algorithm that can better exploit wider SIMD units was implemented as part of the Parallel Sequence Alignment Library (parasail). Parasail features: Reference implementations of all known vectorized sequence alignment approaches. Implementations of Smith Waterman (SW), semi-global (SG), and Needleman Wunsch (NW) sequence alignment algorithms. Implementations across all modern CPU instruction sets including AVX2 and KNC. Language interfaces for C/C++ and Python.",
+    "laborHours": 589045.6,
+    "name": "Pairwise Sequence Alignment Library",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/jeffdaily/parasail/blob/master/COPYING",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jeffdaily/parasail",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

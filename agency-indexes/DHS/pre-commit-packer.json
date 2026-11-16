@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-12-19",
+        "lastModified": "2026-09-11"
+    },
+    "description": "Provides pre-commit hooks for Packer projects.",
+    "downloadURL": "https://api.github.com/repos/cisagov/pre-commit-packer/downloads",
+    "homepageURL": "https://github.com/cisagov/pre-commit-packer",
+    "laborHours": 627.7,
+    "languages": [
+        "Shell"
+    ],
+    "name": "pre-commit-packer",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/pre-commit-packer.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "git-hooks",
+        "pre-commit",
+        "packer"
+    ],
+    "vcs": "git"
+}

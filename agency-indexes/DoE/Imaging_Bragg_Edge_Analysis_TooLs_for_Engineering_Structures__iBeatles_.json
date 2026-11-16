@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "bilheuxjm@ornl.gov"
+    },
+    "date": {
+        "created": "2024-12-09",
+        "metadataLastUpdated": "2024-12-09"
+    },
+    "description": "The Spallation Neutron Source (SNS) at Oak Ridge National Laboratory (ORNL) provides pulsed neutrons with energies varying from epithermal to cold. In preparation for VENUS, the neutron imaging beamline to be located at beam port 10, we have performed a series of experiments focused on wavelength-dependent radiography and computed tomography for a broad range of applications, from materials science to biological tissues.One of the time-of-flight (TOF) techniques that is of interest to the scientific community is the 2-dimensional mapping of phases and average crystalline plane orientation in samples both ex-situ and during applied stresses such as tensile loading and heating. This technique is known as Bragg edgeimaging and relies on the identification of changes of transmission values, fitting of the edge to measure its displacement, and thus identify the shift in lattice parameter due to stresses. One of the challenges of TOF imaging measurements is the amount of data and the inability to observe Bragg edge shifts in real time during an experiment. Thus, we have been focusing on creating a Python-based interface that allows fast data processing and instantaneous mapping and fitting of the Bragg edges, and their evolution through time. Python libraries and Jupyter notebooks have been implemented to facilitate decision making during an experiment. The advantage of the notebooks is the possibility to guide an experiment as they can quickly process and display Bragg edge data. These notebooks can be used independently, or can be combined in a Python Graphical User Interface (GUI) tool called iBeatles. This interface permits visualization and fitting of the Bragg edges, and ultimately back-projects the fitting results onto the radiographs to display a strain map. Assuming data collection has sufficient statistics, the strain mapping analysis can be performed on a pixel-by-pixel basis. This development is a step forward toward a better user experience at the future VENUS beamline in terms of live feedback and productivity. Analysis that used to take days of switching between different applications can now be done in minutes within the",
+    "laborHours": 36449.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "Imaging Bragg Edge Analysis TooLs for Engineering Structures (iBeatles)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ornlneutronimaging/iBeatles",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

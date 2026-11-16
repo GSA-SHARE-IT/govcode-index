@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-08-09",
+        "metadataLastUpdated": "2022-08-09"
+    },
+    "description": "This project contains the tools for running the live online model for the lcls-cu injector. The model is served over EPICS and the client uses bokeh for web-based rendering.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "slaclab/lcls-cu-inj-live",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/lcls-cu-inj-live/blob/main/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/lcls-cu-inj-live",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-12-13"
+    },
+    "description": "Password management solutions exist, but few are designed for enterprise systems administrators sharing oncall rotations. Due to the Multi-Factor Level of Assurance 4 effort, DOE is now distributing PIV cards with cryptographically signed certificate and private key pairs to administrators and other security-significant users. We utilize this public key infrastructure (PKI) to encrypt passwords for other recipients in a secure way. This is cross platform (works on OSX and Linux systems), and has already been adopted internally by the NCCS systems administration staff to replace their old password book system.",
+    "laborHours": 1626.4,
+    "name": "PKPass",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/olcf/pkpass",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/olcf/pkpass",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2025-03-17",
+        "metadataLastUpdated": "2025-03-17"
+    },
+    "description": "FuelLib is a library that utilizes the group contribution method (GCM) for calculating thermodynamic properties of hydro-carbon jet fuels.\n\nFuelLib utilizes the tables and functions of the GCM as proposed by Constantinou and Gani (1994) and Constantinou, Gani and O'Connel (1995), with additional physical properties discussed in Govindaraju & Ihme (2016). The code is based on Pavan B. Govindaraju's Matlab implementation of the GCM, and has been expanded to include additional thermodynamic properties and mixture properties. The fuel library contains gas chromatography (GC x GC) data for a variety of fuels ranging from simple single component fuels to complex jet fuels. The GC x GC data for POSF jet fuels comes from Edwards (2020).",
+    "laborHours": 532.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "FuelLib (Fuel Library) [SWR-25-26]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/FuelLib",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "Designed for building energy managers, utilities and firms providing energy services, FEDS provides a comprehensive and user-friendly method for users to quickly and accurately identifying energy conversion and end-use technology improvements that offer maximum savings in energy usage and cost. FEDS enables the user to assess energy efficiency and consumption, identify retrofit opportunities, select minimum life cycle costs, determine payback, and prioritize investments in energy efficiency retrofit projects for multiple or single buildings across a particular site. As part of the life-cycle cost optimization it also considers several options for partial or complete abandonment of central energy plants including: individual technologies dropping off a thermal loop, a loop and all technologies dropping off a central plant, and all technologies and loops dropping off a central plant resulting in its complete abandonment. Improvements in release 7.0 include: FEDS 7.0 is now a full hourly simulation model (runs every hour of the year as opposed to the previous simplified hourly approach which ran 9 24-hour periods to represent each month). Enhanced building operation and occupancy modeling; New HVAC technology options (VAV, Economizers, Demand Controlled Ventilation, Terminal Reheat, Subcool Dehumidification); Additional chiller types; New lighting technologies (LED, Halogen, Induction, additional fluorescent options); Completely updated retrofit cost and performance data; Regional cost data tied to zip code (previously applied state level averages); Updated and enhanced reporting capabilities; and New pier floor model",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "C++, Microsoft Visual Studio"
+    ],
+    "name": "Facility Energy Decision System (FEDS) version 7.0",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-01-27",
+        "metadataLastUpdated": "2022-01-27"
+    },
+    "description": "SSG is a group membership microservice based on the Mercury RPC system. It provides mechanisms for bootstrapping sets of Mercury processes into logical groups and for managing the membership of these process groups over time. At a high-level, each group collectively maintains a group view, which is just a mapping from group member identifiers to Mercury address information. The initial group membership view is specified completely when the group is bootstrapped (created).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SSG (Scalable Service Groups)",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/mochi-hpc/mochi-ssg/blob/main/COPYRIGHT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mochi-hpc/mochi-ssg",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

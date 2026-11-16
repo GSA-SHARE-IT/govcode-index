@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "sundararajaa@ornl.gov"
+    },
+    "date": {
+        "created": "2024-12-04",
+        "metadataLastUpdated": "2025-01-06"
+    },
+    "description": "Existing frameworks to forecast time-series photovoltaic (PV) output power and consumer load for microgrid operations and controls assume a near-continuous availability of real-time input features from the field assets such as PV inverters, energy meters, and weather station. These incoming data points are used to periodically retrain models and update forecast snapshots over a moving horizon window, be it one hour-ahead, one-day ahead, or one-week ahead. However, such frameworks are not resilient to disruptions in data availability caused by losses in communications between the field sensors and data loggers. Hence, there is a need for programs that assume no availability of real-time microgrid asset data and still make reliable forecasts that can be used for decision-making. Such programs would be apt to function in extreme weather events such as hurricanes and would use lightweight recursive time-series models to independently forecast solar irradiance and ambient temperature, then compute PV power from those forecasts, as well as independently forecast consumer load.\n\n\tThe codebase performs forecasting for the scenario of when the microgrid does not have a reliable access to forecasts or real-time observations of solar irradiance (I) and ambient temperature (AT) and load (Load) to be able to adequately forecast, in real-time, the PV power production or a business' load. In this case, using historical values of PV power and load, a univariate forecasting of generation and consumption are respectively made. The use-case in particular has two sub-scenarios: one, a normal 7-day ahead forecast where the unavailability of real-time data is assumed due to infrastructure issues such as loss of communication or sensor maintenance or service downtimes. Whereas a hurricane-caused unavailability of real-time data requires a second model trained specifically on historical hurricane days to be able to capture the extreme day behavior of generation in particular, and load if applicable.\n\nA gradient boosted regression tree comprises an ensemble of additive models that map between the input of historical values (be it irradiance, temperature, or load) and their corresponding output forecasts of a given horizon such that the individual learner predictions are summed up over the total number of such learners in the ensemble to produce an aggregate forecast. A weighting mechanism is applied to the training data in each iteration, where actual and forecast values are compared to penalize incorrect forecasts by increasing the weight and reducing it to reward correct forecasts.\n\nThe code's benefits are that it: (a) accounts for a contingency where communication loss renders newly measured real-time data unavailable for model tuning and snapshot updates; (b) presents blind forecasting that recursively determines the next time-step value in a horizon using the forecast of the same attribute from a prior step; and (c) employs lightweight models that, once trained, can reliably generalize for different horizons, which make them suitable for enhancing the resilience of field microgrids prone to extreme events that encounter disruptions to data availability.",
+    "homepageURL": "https://code.ornl.gov/6a6/pv-and-load-forecasting-use-case-3.git",
+    "laborHours": 182.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "PV Generation and Load Forecasting for Adjuntas PR Community Microgrids",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            },
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/6a6/pv-and-load-forecasting-use-case-3.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "version": "1.0"
+}

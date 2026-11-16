@@ -1,0 +1,41 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2021-08-30",
+        "lastModified": "2026-10-30"
+    },
+    "description": "The NAVV (Network Architecture Verification and Validation) tool creates a spreadsheet for network traffic analysis from PCAP data and Zeek logs, automating Zeek analysis of PCAP files, the collation of Zeek logs and the dissection of conn.log and dns.log to create a summary or network traffic in an XLSX-formatted spreadsheet.",
+    "downloadURL": "https://api.github.com/repos/cisagov/network-architecture-verification-and-validation/downloads",
+    "homepageURL": "https://github.com/cisagov/network-architecture-verification-and-validation",
+    "laborHours": 342734.4,
+    "languages": [
+        "Python",
+        "Shell",
+        "HTML",
+        "CSS",
+        "Dockerfile",
+        "Zeek",
+        "JavaScript",
+        "Makefile"
+    ],
+    "name": "network-architecture-verification-and-validation",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/network-architecture-verification-and-validation.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

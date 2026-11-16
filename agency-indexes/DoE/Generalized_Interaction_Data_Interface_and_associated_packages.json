@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-07-15",
+        "metadataLastUpdated": "2019-07-16"
+    },
+    "description": "GIDIplus contains libraries for reading and using GNDS-formatted nuclear data.\n\nIt includes sub-packages\nGIDI, MCGIDI, PoPs, numerical Functions and status Message Reporting along with scripts for building and installing the entire library.",
+    "laborHours": 60359.2,
+    "languages": [],
+    "name": "Generalized Interaction Data Interface and associated packages",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/gidiplus",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-08-06"
+    },
+    "description": "This application can determine the performance and chemical behavior of batteries in 1D when they are cycled. With CanTrilBat, we are developing predictive phenomenological models for battery systems to predict operating performance and rate limiting steps in the performance of battery models. Particular attention is paid to primary and secondary chemistry mechanisms, such as the thermal runaway mechanisms experienced in secondary lithium ion batteries or self-discharge reaction mechanism that all batteries experience to one extent or another. The first application of this model has been for modeling the performance of thermal batteries. However, an implementation for secondary ion batteries is next. CanTrilBat applications solves transient problems involving batteries. It is a 1-D application that represents 3-D physical systems that can be reduced using the porous flow approximation for the anode, cathode, and separator. A control volume formulation is used to track conserved quantities. An operator-split approach is used to calculate the chemistry, diffusion and electronic transport that occurs within cathode and anode particles, allowing for the reduction in code complexity.",
+    "laborHours": 6177492.8,
+    "languages": [
+        "C++",
+        "Shell",
+        "C",
+        "Makefile",
+        "M4",
+        "Fortran"
+    ],
+    "name": "CanTrilBat",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/cantrilbat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

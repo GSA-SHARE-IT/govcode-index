@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-07-03",
+        "metadataLastUpdated": "2019-07-03"
+    },
+    "description": "This package predicts the minimum inhibitory concentration of a genome using a trained XGBoost model. A set of data files are stored in the data_files directory for use with the Klebsiella genus. A pkl model is also provided for testing purposes as well as a fasta file.",
+    "laborHours": 136.8,
+    "languages": [],
+    "name": "Software for Predicting Bacterial Minimum Inhibitory Concentrations From Genome Sequence Data",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PATRIC3/mic_prediction",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

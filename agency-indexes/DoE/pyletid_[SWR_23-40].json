@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-05-04",
+        "metadataLastUpdated": "2023-05-30"
+    },
+    "description": "A python library to aid in modeling and understanding light- and elevated temperature-induced degradation (LETID) and boron-oxygen light-induced degradation (B-O LID) in silicon solar cells and wafers\n\nhttps://github.com/NREL/PVDegradationTools/blob/main/pvdeg/letid.py\nhttps://github.com/NREL/PVDegradationTools/blob/main/pvdeg/collection.py",
+    "laborHours": 3617.6,
+    "languages": [
+        "PYTHON"
+    ],
+    "name": "pyletid [SWR 23-40]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/PVDegradationTools",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

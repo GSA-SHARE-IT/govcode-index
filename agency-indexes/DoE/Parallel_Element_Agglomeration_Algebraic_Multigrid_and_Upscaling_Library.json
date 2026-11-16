@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "ParFELAG is a parallel distributed memory C++ library for numerical upscaling of finite element discretizations. It provides optimal complesity algorithms ro build multilevel hierarchies and solvers that can be used for solving a wide class of partial differential equations (elliptic, hyperbolic, saddle point problems) on general unstructured mesh (under the assumption that the topology of the agglomerated entities is correct). Additionally, a novel multilevel solver for saddle point problems with divergence constraint is implemented.",
+    "laborHours": 31600.8,
+    "name": "Parallel Element Agglomeration Algebraic Multigrid and Upscaling Library",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/parelag",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

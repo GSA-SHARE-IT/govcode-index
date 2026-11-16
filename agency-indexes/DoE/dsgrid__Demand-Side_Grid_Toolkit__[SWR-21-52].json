@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2023-03-10",
+        "metadataLastUpdated": "2024-01-29"
+    },
+    "description": "The demand-side grid model harnesses decades of sector-specific energy modeling expertise to understand current and future U.S. electricity load for power systems analyses. The API provides tools for submitting datasets to dsgrid projects, validating individual datasets and project data as a whole, querying, analysis, and visualization.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "Jupyter Notebook",
+        "Shell"
+    ],
+    "name": "dsgrid (Demand-Side Grid Toolkit) [SWR-21-52]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dsgrid/dsgrid",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "0.4.0"
+}

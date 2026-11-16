@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-25",
+        "metadataLastUpdated": "2021-03-25"
+    },
+    "description": "This toolkit is composed of several modules for extracting buildings geometrical and thermal characteristics from RGB and thermal imagery captured using a drone.\n- Building 3D reconstruction module: leverage a photogrammetry software to construct a 3D point cloud from RGB drone imagery, which is then used in conjunction with image processing and geometric methods to extract building footprint and building height (i.e., 3D model of the building).\n- Windows to wall ratio estimation module: leverage deep learning semantic segmentation modeling to detect windows on 2D drone RGB images. The detected windows are then projected onto the extracted building 3D model (using building 3D reconstruction module) and their area is computed to obtain window to wall ratio estimation.\n- Thermal anomalies detection module: leverage image processing and machine learning algorithm to detect on 2D drone thermal images potential thermal anomalies within building's facades and roofs.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Aerial 3D Building Reconstruction from Drone Imagery (A3DBR) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/a3dbr",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "v1"
+}

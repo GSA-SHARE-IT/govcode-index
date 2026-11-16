@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2020-09-29",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "Field Landscape Decision Support (FieLDS) is a decision support tool that assists agricultural producers and farm managers in selecting parts of the field that can be converted to bioenergy plants, like perennial grasses, from the conventional use, like corn or soybean growth. That conversion of parts of the field is done based on the specific landscape properties and the agricultural producer’s priorities. The decision support tool generates a map of the field layout and spatially marks where to place each plant based on the spatial input from the user. Also, the user selects which priorities (sustainability indicators) are most relevant to them in their decision-making. By allowing the user to set the weights among the priorities, the tool empowers the user to generate field designs specific to their needs instead of imposing the developer’s set of priorities, and increases the transparency of the decision process.",
+    "laborHours": 152.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "FieLDS",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/FieLDS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

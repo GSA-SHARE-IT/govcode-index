@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-17",
+        "metadataLastUpdated": "2024-07-17"
+    },
+    "description": "This is a security automation tool heavily influenced by the tool written at NCSA https://github.com/ncsa/bhr-site.\n\nThe tool is a web interface that aims to centralize information on blocking malicious traffic. There is a list of currently blocked traffic, a place for other tools to automatically add traffic they deem malicious, as well as for human users to input blocks.\n\n* Logging and auditing, to determine who made what change and when\n* Automated expiration of changes (e.g. an exception is added for 2 weeks, after which time it will be removed)\n* Validation of changes and verification that the change has been applied\n* Fine-grained role-based access",
+    "laborHours": 2888.0,
+    "languages": [],
+    "name": "Security Catch and Release Automation Manager (SCRAM) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/esnet-security/scram",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

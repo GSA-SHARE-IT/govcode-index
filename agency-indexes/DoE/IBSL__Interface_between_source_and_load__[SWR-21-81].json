@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-03-11",
+        "metadataLastUpdated": "2023-07-07"
+    },
+    "description": "Interfacing voltage source with a load and a current source with a sink are challenging. The model developed under this software is used to interface voltage source with a sink and a current source with the sink.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "IBSL (Interface between source and load) [SWR-21-81]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/IBSL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

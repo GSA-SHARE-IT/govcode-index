@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-31",
+        "metadataLastUpdated": "2018-07-31"
+    },
+    "description": "This is the buildbot infrastructure used by the ZFS on Linux project. It's used to automate the process of testing new pull requests.",
+    "laborHours": 2325.6,
+    "languages": [],
+    "name": "zfs-buildbot",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/zfsonlinux/zfs-buildbot",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

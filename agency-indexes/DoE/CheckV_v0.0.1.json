@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2020-06-10",
+        "metadataLastUpdated": "2020-06-10"
+    },
+    "description": "CheckV is a command line python script which assesses the quality of viral genomes. It will be primarily (if not exclusively) used for academic applications and applied to viral genomes identified from environmental surveys.",
+    "laborHours": 1352.8,
+    "languages": [],
+    "name": "CheckV v0.0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/checkv",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

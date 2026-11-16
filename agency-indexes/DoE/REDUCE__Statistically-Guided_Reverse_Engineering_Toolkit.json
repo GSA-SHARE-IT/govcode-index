@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-01-09",
+        "metadataLastUpdated": "2018-01-10"
+    },
+    "description": "REDUCE is a software toolset enabling cyber security analysts to rapidly discover relationships between malware samples, to extract temporal threat intelligence, and to develop actionable signatures for known and emerging threats. REDUCE performs automated static code analysis and identifies similarities between malware samples in order to support knowledge sharing about related pieces of malware. By integrating with well-established reverse engineering tools, REDUCE speeds up both deep-dive reverse engineering efforts and custom signature generation.",
+    "homepageURL": "http://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "laborHours": 0.0,
+    "name": "REDUCE: Statistically-Guided Reverse Engineering Toolkit",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "http://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "http://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

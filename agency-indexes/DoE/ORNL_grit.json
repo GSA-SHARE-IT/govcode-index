@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "gew1@ornl.gov"
+    },
+    "date": {
+        "created": "2023-06-22",
+        "metadataLastUpdated": "2023-06-22"
+    },
+    "description": "Grit is a software library designed specifically for conducting particle-based Lagrangian simulations with CPU/GPUperformance portability. This library allows researchers and engineers to perform a wide range of simulations, including multiphase flow, and more. Grit employs Message Passing Interface (MPI) for distributed memory parallelism and Kokkos programming model for on-node shared memory parallelism with performance portability across different architectures of GPUs and multi-core/manycore CPUs. ",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "ORNL/grit",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ORNL/grit/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/grit",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-18",
+        "metadataLastUpdated": "2018-07-18"
+    },
+    "description": "Blockbuster is a movie player designed for playing movies in the \"Streaming Movie\" format on large power walls. It includes a Sidecar component for controlling the movie player from a remote workstation, and for executing \"movie cues\" to facilitate one-click execution of a planned series of movie transitions, window placements, and other actions that might occur during a presentation.\n",
+    "laborHours": 137377.6,
+    "languages": [],
+    "name": "blockbuster",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/blockbuster",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

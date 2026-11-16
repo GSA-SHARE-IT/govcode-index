@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-09-06"
+    },
+    "description": "The Simulation Toolkit for Renewable Energy and Advanced Materials Modeling (STREAMM) is a python package that generates structures and input files for quantum chemical and molecular dynamics codes. STREAMM does not directly conduct simulations rather it is meant to drive quantum chemical and molecular dynamics codes to allow for high-throughput computational analysis of materials. The STREAMM package is written for python2.7 (https://www.python.org/download/releases/2.7/) and incorporates some of the core modules from the pymatgen (http://pymatgen.org/) code.",
+    "laborHours": 12205.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "STREAMM-tools (Simulation Toolkit for Renewable Energy Advanced Materials Modeling) [SWR-15-29]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/streamm-tools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

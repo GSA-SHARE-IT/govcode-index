@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "foleymk@ornl.gov"
+    },
+    "date": {
+        "created": "2024-03-07",
+        "metadataLastUpdated": "2024-03-12"
+    },
+    "description": "The Hydropower Fleet Intelligence application can integrate hydropower facilities data sources to perform analyses on asset age, reliability and costs, as well as produce visualizations that combine time series data collected by mechanical component sensors with event history.",
+    "laborHours": 0.0,
+    "languages": [
+        "JavaScript",
+        "Python",
+        "TypeScript"
+    ],
+    "name": "Hydropower Fleet Intelligence",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ORNL/HydroFleetIntel/blob/main/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/HydroFleetIntel",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

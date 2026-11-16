@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-10"
+    },
+    "description": "The Dynamic Contingency Analysis Tool (DCAT) is an open-platform and publicly available methodology to help develop applications that aim to improve the capabilities of power system planning engineers to assess the impact and likelihood of extreme contingencies and potential cascading events across their systems and interconnections. Outputs from the DCAT will help find mitigation solutions to reduce the risk of cascading outages in technically sound and effective ways. The current prototype DCAT implementation has been developed as a Python code that accesses the simulation functions of the Siemens PSS/E planning tool (PSS/E). It has the following features: It uses a hybrid dynamic and steady-state approach to simulating the cascading outage sequences that includes fast dynamic and slower steady-state events. It integrates dynamic models with protection scheme models for generation, transmission, and load. It models special protection systems (SPSs)/remedial action schemes (RASs) and automatic and manual corrective actions. Overall, the DCAT attempts to bridge multiple gaps in cascading-outage analysis in a single, unique prototype tool capable of automatically simulating and analyzing cascading sequences in real systems using multiprocessor computers. While the DCAT has been implemented using PSS/E in Phase I of the study, other commercial software packages with similar capabilities can be used within the DCAT framework.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Dynamic Contingency Analysis Tool",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

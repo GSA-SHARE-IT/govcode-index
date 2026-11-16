@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-02-17",
+        "metadataLastUpdated": "2021-02-17"
+    },
+    "description": "The Omics Mock Generator (OMG) library is used to provide the synthetic multiomics data needed to test the computational tools for bioengineering metabolic models. Since experimental multiomics data is expensive and non-trivial to produce, OMG provides a quick and easy way to produce large amounts of multiomics data that are based on plausible metabolic assumptions.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Omics Mock Generator Library (OMG) v0.1.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AgileBioFoundry/multiomicspaper",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

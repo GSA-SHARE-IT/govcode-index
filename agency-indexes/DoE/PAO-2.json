@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-29",
+        "metadataLastUpdated": "2024-09-20"
+    },
+    "description": "PAO supports the formulation and analysis of mathematical models for complex optimization applications. This capability is commonly associated with algebraic modeling languages (AMLs), which support the description and analysis of mathematical models with a high-level language. PAO is derived from the Pyomo subpackage pyomo.bilevel, which has been deprecated. PAO supports the formulation and solution of optimization models that explicitly represent adversarial behavior.  This includes variances of bilevel programming, including methods that represent challenging problems with discrete decisions and uncertain model parameters.",
+    "laborHours": 12357.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "PAO",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/pao",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

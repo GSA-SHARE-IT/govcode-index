@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2025-04-21",
+        "metadataLastUpdated": "2025-04-21"
+    },
+    "description": "BHResist is a pure python library for computing thermal resistance within single-u, double-u, and coaxial grouted borehole heat exchangers. For single and double u-tube configurations, the methods use the 1st-order closed-form multipole approximations, which typically produces results with less than 1% error when compared to the 10th-order multipole method. Coaxial borehole methods apply a simple 1D resistance network method.\n\nThis is intended to be a lightweight library that can be easily imported into any other Python tool, with no bulky dependencies.",
+    "laborHours": 896.8,
+    "languages": [
+        "Python",
+        "Jupyter Notebook"
+    ],
+    "name": "BHResist [SWR-25-57]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/BHResist",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-04",
+        "metadataLastUpdated": "2022-09-15"
+    },
+    "description": "FIDUCIA: Filtered Diode Unfolder (using) Cubic-spline Algorithm Fiducia is a DANTE signal deconvolver based on the cubic splines method. Given time-resolved DANTE data across a number of K-edge filtered channels, this code can produce time-resolved x-ray spectra with coarse spectral resolution, as well as time-resolved x-ray flux and radiation temperature for a given source. The main application for this code is for diagnosing and constraining hohlraum drives on high energy density plasma physics experiments at the OMEGA Laser Facility and the National Ignition Facility. Spectral unfolds are created by assuming each DANTE channel provides information on the x-ray intensity in a particular photon energy band defined by its K-edge filter. The combination of multiple DANTE channels sensitive to different photon energies then provides coarse spectral information. The overall x-ray spectrum is approximated as a series of cubic splines corresponding to each energy band, which reduces the process of unfolding x-ray spectra from time-resolved DANTE channel data to a series of matrix operations folded with the DANTE response functions. By reducing the spectral deconvolution to a series of matrix operations, DANTE analysis is accelerated to the point where it could be feasibly used for on-the-fly characterization of hohlraum drives during experiments, with no additional assumptions about the shape of the x-ray spectrum.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Fiducia",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/fiducia",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

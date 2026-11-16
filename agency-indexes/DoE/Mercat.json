@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Mercat is a highly scalable property software package for robust of analysis of features in next-generation sequencing data and observed unique peptides from metaproteomic data. Mercat is offered in python 3.5/anaconda3, is multiparellel and is easily installed using bioconda/conda recipes. Mercat inputs include assembled contigs, raw sequence reads from any platform, and unique peptide files obtained from proteomics with feature abundance counts tables. Mercat is the only software available that allows for direct analysis of data properties without a data-dependent search tools such as BLAST or diamond for compositional analysis of whole community shotgun sequencing (e.g. metagenomes and/or metatranscriptomes) or metaproteomic data.",
+    "laborHours": 380.0,
+    "name": "Mercat",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/pnnl/mercat/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/mercat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

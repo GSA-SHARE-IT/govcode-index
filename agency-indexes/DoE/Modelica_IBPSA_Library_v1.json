@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-05-07",
+        "metadataLastUpdated": "2019-06-26"
+    },
+    "description": "The Modelica IBPSA library is a free open-source library with basic models that codify best practices for the implementation of models for building and community energy and control systems. \n\nThe development of the IBPSA library is organized through the IBPSA Project 1 (https://ibpsa.github.io/project1) of the International Building Performance Simulation Association (IBPSA). \n\nThis library is typically not used directly by end-users. Rather, it is integrated by developers of other Modelica libraries for building and community energy systems, who then distribute it to end-users as part of their respective library.",
+    "laborHours": 36328.0,
+    "languages": [],
+    "name": "Modelica IBPSA Library v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ibpsa/modelica-ibpsa",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

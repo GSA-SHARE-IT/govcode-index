@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "COMFEN supports the systematic evaluation of alternative fenestration systems for project-specific commercial building applications. COMFEN provides simplified Excel-based user interface that focuses attention on key variables in fenestration design. Under the hood in EnergyPlus, a sophisticated analysis engine that dynamically simulate the effects of these key fenestration variables on energy consumption, peak energy demand, and thermal and visual comfort. The results from the EnergyPlus simulation are presented in graphical and tabular format within the simplified user interface for up to four comparative fenestration design cases to help users move toward optimal fenestration design choices for their project.",
+    "homepageURL": "https://windows.lbl.gov/software/comfen",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "COMFEN",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://windows.lbl.gov/software/comfen",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://windows.lbl.gov/software/comfen",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

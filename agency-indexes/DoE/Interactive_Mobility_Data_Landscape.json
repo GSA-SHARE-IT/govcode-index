@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2021-07-28",
+        "metadataLastUpdated": "2021-09-13"
+    },
+    "description": "This is the companion repository to NREL's Interactive Mobility Landscape App (SEE: DOE Code ID 61291. NREL SWR-21-10). \n\nThe Interactive Mobility Data Landscape is a project intended as a map through the previously uncharted, growing mobility data science field. This attempts to categorize most of the data sources, specifications, and tools in the field of mobility. It has been built by the National Renewable Energy Laboratory's (NREL) Mobility, Behavior, and Advanced Powertrains (MBAP) research group.\n\nThe software for the interactive landscape is located at https://github.com/NREL/mobility_landscapeapp\nThis repo includes all of the data and images specific to the Interactive Mobility \nData Landscape.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Interactive Mobility Data Landscape",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/mobility_landscape",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

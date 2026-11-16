@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "obriense@ornl.gov"
+    },
+    "date": {
+        "created": "2022-02-16",
+        "metadataLastUpdated": "2022-02-16"
+    },
+    "description": "Analyzes list mode data in a common frame work from both measured waveform data and Monte Carlo simulated pulse history data. Allows for filtering, such as pulse shape discrimination, pile up rejection, and crosstalk removal, to be applied before analyzing the pulse stream for quantities such as multiplicity counting rates, die-away times, and detection efficiency. Several FNCL MCNP models, Am(Li) source holders, and neutron generators, are created in the GUI for several sources, including fuel assemblies, and ran to produce synthetic list mode data. The package unifies the analysis and simulation of the FNCL, from simulation and measurement, into one framework to ensure consistency. Implemented as a GUI for ease of use but also as an application program interface (API) for use in other software packages.",
+    "laborHours": 0.0,
+    "languages": [
+        "C#"
+    ],
+    "name": "FNCL Analysis and Simulation",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/multTMU/FNCL",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

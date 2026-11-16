@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2022-11-16"
+    },
+    "description": "EQ3/6 is a software package for modeling geochemical interactions between aqueous solution, solids, and gases, following principles of chemical thermodynamics and chemical kinetics. It is useful for interpreting aqueous solution chemical compositions and for calculating the consequences of reaction of such solutions with minerals, other solids, and gases. It is designed to run in a command line environment. EQPT is a thermodynamic data file preprocessor. EQ3NR is a speciation-solubility code. EQ6 is a reaction path code.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "EQ3/6 A Software Package for Geochemical Modeling",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/eq3_6",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-11-22",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "A graphical user interface (GUI) that helps analyze data from coincidence Doppler broadening positron annihilation spectroscopy. It is a quick tool to rapidly reduce large data and conveniently analyze multiple datasets.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Coincidence Doppler Broadening Analysis Program",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/CDB_Analysis_Program",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

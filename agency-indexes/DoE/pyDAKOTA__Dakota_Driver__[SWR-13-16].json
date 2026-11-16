@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-11"
+    },
+    "description": "pyDAKOTA is an interface to Sandia Laboratory's Design Analysis Kit for Optimization and Terascale Applications (DAKOTA) analysis suite.\n\nAllows for users to construct DAKOTA input, feed the input to DAKOTA, and for DAKOTA to call a python object with a \"dakota_callback\" function for function evaluations.\n\nThis allows for a light-weight custom python interface to DAKOTA.\n\nThis is intended to be used with the OpenMDAO dakota driver\n\nAuthor: NREL WISDEM Team",
+    "laborHours": 699.2,
+    "languages": [
+        "C++",
+        "Shell",
+        "CMake",
+        "Python"
+    ],
+    "name": "pyDAKOTA (Dakota Driver) [SWR-13-16]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/wisdem/pyDAKOTA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

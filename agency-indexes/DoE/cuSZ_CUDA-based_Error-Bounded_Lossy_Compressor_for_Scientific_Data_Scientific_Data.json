@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-08-24",
+        "metadataLastUpdated": "2021-08-24"
+    },
+    "description": "cuSZ is a CUDA implementation of the world-widely used SZ lossy compressor. It is the first error-bounded lossy compressor on GPUs for scientific data, which significantly improves SZ's throughput in GPU-based heterogeneous HPC systems.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "cuSZ:CUDA-based Error-Bounded Lossy Compressor for Scientific Data Scientific Data",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/szcompressor/cuSZ",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

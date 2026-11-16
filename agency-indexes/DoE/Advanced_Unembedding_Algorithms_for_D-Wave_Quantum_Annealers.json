@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-03-11",
+        "metadataLastUpdated": "2023-01-17"
+    },
+    "description": "The D-Wave quantum annealers make it possible to obtain high quality solutions of NP-hard problems by mapping a problem in a QUBO (quadratic unconstrained binary optimization) or Ising form to the physical qubit connectivity structure on the D-Wave chip. However, the latter is restricted in that only a fraction of all pairwise couplers between physical qubits exists. Modeling the connectivity structure of a given problem instance thus necessitates the computation of a minor embedding of the variables in the problem specification onto the logical qubits, which consist of several physical qubits \"chained\" together to act as a logical one. After annealing, it is however not guaranteed that all chained qubits get the same value (-1 or +1 for an Ising model, and 0 or 1 for a QUBO), and several approaches exist to assign a final value to each logical qubit (a process called \"unembedding\"). In this software, we develop tailored unembedding techniques for four important NP-hard problems: the Maximum Clique, Maximum Cut, Minimum Vertex Cover, and Graph Partitioning problems. Our techniques are simple and yet make use of structural properties of the problem being solved. Using Erd\\H{o}s-R\\'enyi random graphs as inputs, we compare our unembedding techniques to three popular ones (majority vote, random weighting, and minimize energy). We demonstrate that our proposed algorithms outperform the currently available ones in that they yield solutions of better quality, while being computationally equally efficient.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Advanced Unembedding Algorithms for D-Wave Quantum Annealers",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/custom-unembedding-algorithms-QA",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

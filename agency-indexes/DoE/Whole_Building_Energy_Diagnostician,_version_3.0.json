@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "The Whole Building Energy Diagnostician v. 3.x software detects anomalies in energy consumption of buildings and major building systems using metered energy-use data and measured values of driving variables (e.g., outdoor-air temperature, outdoor-air relative humidity, and building occupancy schedule). The software then provides alarms for anomalous consumption and information on energy and cost impacts. This version is intended to be implemented as a world wide web application and made accessible to end users by use of a Web browser and an Internet connection, but the web interface is not provided as part of the software - a web service provider must provide the web-based graphical user interface.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Whole Building Energy Diagnostician, version 3.0",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

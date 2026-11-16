@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-08-09",
+        "metadataLastUpdated": "2024-08-09"
+    },
+    "description": "This software is being developed to link infectious disease sequence data to epidemiological models to support forecasting efforts for public health impact. More specifically, this software will allow data analysis, feature extraction, data synthesis, inference, and forecasting of sequence data for infectious diseases (e.g., COVID, flu, dengue) and forecasting of public health outcomes (e.g., cases, hospitalizations, deaths).",
+    "laborHours": 638.4,
+    "languages": [],
+    "name": "Program Repository for Tools for Analyzing Infectious Disease Sequence Data and Forecasting Public Health Outcomes",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/precog",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

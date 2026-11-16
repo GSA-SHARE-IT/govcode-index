@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-01-03",
+        "metadataLastUpdated": "2022-01-05"
+    },
+    "description": "The software being disclosed is the Reference Governor plug-in for Risk Analysis Virtual Environment (RAVEN) developed in Idaho National Laboratory. This software is used as a part of the supervisory control system for integrated energy system project, which can receive the original control variable issued by the upstream control system, then adjust the control variable based on the system states and performance projection of the downstream power-generating systems, in order to keep the response of the downstream systems within all the thermal mechanical constraints.",
+    "homepageURL": "https://www.anl.gov/partnerships/licensable-software",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "REFERENCE GOVERNOR PLUG-IN FOR RAVEN",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.anl.gov/partnerships/licensable-software",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

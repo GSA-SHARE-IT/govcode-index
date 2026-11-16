@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-19"
+    },
+    "description": "The Berkeley Disk Resource Manager (B-DRM) is a middleware component whose function is to provide dynamic space allocation and file management of a shared disk system on the Grid. It provides space allocation and dynamic information on storage availability for the planning and execution of Grid jobs. The B-DRM manages two types of resources: space and files. Vi1en managing space, the B-DRM allocates space to the requesting client based on a default space quota, Then managing files, the B-DRM allocates space for files, invokes file transfer services to move files into the space, pins files for a certain lifetime, releases files upon the client's request, and uses file replacement policies to optimize the use of the shared space. The B-DRM is designed to provide effective sharing of files, by monitoring the activity of shared files, and making dynamic decisions on which files to replace when space is needed. In addition, the B-DRM performs automatic garbage collection of unused files when space is needed by removing selected files that were released by the client or whose lifetime has expired. The BDRM supports requests to get multiple files in a single call, manages a queue of the requested files, brings in as many files as the space quota permits, and continues to reuse the space when files are released to stream files to the client until the entire request is satisfied. Similarly, the B-DRM supports requests to put multiple files into its space, streaming files into the allocated space and reusing the space if necessary.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [
+        "gcc 2.9x"
+    ],
+    "name": "Berkeley Disk Resource Manager",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

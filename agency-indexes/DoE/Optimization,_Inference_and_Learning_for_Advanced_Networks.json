@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-04-10",
+        "metadataLastUpdated": "2018-04-10"
+    },
+    "description": "This piece of software aims at providing an implementation of methods to perform efficient optimization, probabilistic inference and model selection and learning for various type of networked systems. The software contains a suite of methods and functions that: 1) perform probabilistic inference and random sampling on networked models 2) select or learn networked models from data 3) solve optimization tasks with a networked structure Network models that are supported by these features include, but are not limited to, factor graphs and Markov random fields such as Ising models, Potts models, p-spins models, Gaussian random fields and restricted Boltzmann machine.",
+    "laborHours": 440.8,
+    "name": "Optimization, Inference and Learning for Advanced Networks",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl-ansi/GraphicalModelLearning.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

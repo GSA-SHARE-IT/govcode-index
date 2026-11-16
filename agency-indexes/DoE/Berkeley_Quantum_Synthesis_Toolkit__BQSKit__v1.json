@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-06-03",
+        "metadataLastUpdated": "2021-06-03"
+    },
+    "description": "The Berkeley Quantum Synthesis Toolkit (BQSKit) is an optimizing quantum compiler and research vehicle that combines ideas from several projects at LBNL into one easily accessible and quickly extensible software package. The ideas in the QFAST, QSearch, LEAP, and QFactor software tools (all licensed through ipo.lbl.gov) all build upon one another. By combining these into one package, we create symbiotic interactions between the tools. This means better results, better throughput, less to maintain, and greater surface area to the public. Additionally, the BQSKit tool will create a research platform for future work here at LBNL.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Berkeley Quantum Synthesis Toolkit (BQSKit) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BQSKit/bqskit",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

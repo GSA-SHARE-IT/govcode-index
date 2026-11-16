@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-12-17",
+        "metadataLastUpdated": "2025-01-08"
+    },
+    "description": "Open-source software package designed for the efficient training of Physics-Informed Neural Networks\n(PINNs) and their variants, integrating advanced methodologies such as adaptive weighting and adaptive sampling",
+    "laborHours": 3192.0,
+    "languages": [],
+    "name": "Efficient training of physics-informed neural networks",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/ET-PINN",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

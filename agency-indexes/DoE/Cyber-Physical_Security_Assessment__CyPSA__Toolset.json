@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "CyPSA seeks to organize and gain insight into the diverse sets of data that a critical infrastructure provider must manage. Specifically CyPSA inventories, manages, and analyzes assets and relations among those assets. A variety of interfaces are provided. CyPSA inventories assets (both cyber and physical). This may include the cataloging of assets through a common interface. Data sources used to generate a catalogue of assets include PowerWorld, NPView, NMap Scans, and device configurations. Depending upon the role of the person using the tool the types of assets accessed as well as the data sources through which asset information is accessed may vary. CyPSA allows practitioners to catalogue relations among assets and these may either be manually or programmatically generated. For example, some common relations among assets include the following: Topological Network Data: Which devices and assets are connected and how? Data sources for this kind of information include NMap scans, NPView topologies (via Firewall rule analysis). Security Metrics Outputs: The output of various security metrics such as overall exposure. Configure Assets:CyPSA may eventually include the ability to configure assets including relays and switches. For example, a system administrator would be able to configure and alter the state of a relay via the CyPSA interface. Annotate Assets: CyPSA also allows practitioners to manually and programmatically annotate assets. Sources of information with which to annotate assets include provenance metadata regarding the data source from which the asset was loaded, vulnerability information from vulnerability databases, configuration information, and the output of an analysis in general.",
+    "laborHours": 0.0,
+    "languages": [
+        "Java, Python"
+    ],
+    "name": "Cyber-Physical Security Assessment (CyPSA) Toolset",
+    "organization": "USDOE Advanced Research Projects Agency – Energy (ARPA-E) (United States) (ARPA-E)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/bigezy/Armadillo/blob/master/License.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/bigezy/Armadillo",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "USDOE Advanced Research Projects Agency – Energy (ARPA-E) (United States) (ARPA-E)"
+    ],
+    "vcs": "git"
+}

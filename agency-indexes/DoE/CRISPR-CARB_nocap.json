@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2025-02-18",
+        "metadataLastUpdated": "2025-02-18"
+    },
+    "description": "Network Optimization and Causal Analysis of Perturb-seq (NOCAP) is a software package for causal inference of gene\nregulation networks using data from perturb-seq.",
+    "laborHours": 1003.2,
+    "languages": [],
+    "name": "CRISPR-CARB/nocap",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/crispr-carb/nocap",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "vowelll@osti.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This Drupal metadata and documents capture and management system is a repository, used for maintenance of metadata which describe resources contributed to the AASG State Geothermal Data System. The repository also provides an archive for files that are not hosted by the agency contributing the resource. Data from all 50 state geological surveys is represented here, and is contributed in turn to the National Geothermal Data System.",
+    "laborHours": 6444.8,
+    "name": "AASG State Geothermal Data Repository for the National Geothermal Data System.",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/usgin/metadata-repository",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

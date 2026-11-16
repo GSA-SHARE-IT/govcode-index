@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "pcicilio@alaska.edu"
+    },
+    "date": {
+        "created": "2023-09-27",
+        "metadataLastUpdated": "2023-09-27"
+    },
+    "description": "WEC-GRID is an open-source Python library crafted to simulate the integration of Wave Energy Converters (WECs) and Current Energy Converters (CECs) into renowned power grid simulators like PSS®E & PyPSA.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "WEC-GRID",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/acep-uaf/WEC-GRID",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

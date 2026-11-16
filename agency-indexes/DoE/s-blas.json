@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-03-23",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This package includes the implementation for four sparse linear algebra kernels: Sparse-Matrix-Vector-Multiplication (SpMV), Sparse-Triangular-Solve (SpTRSV), Sparse-Matrix-Transposition (SpTrans) and Sparse-Matrix-Matrix-Multiplication (SpMM) for Single-node Multi-GPU (scale-up) platforms such as NVIDIA DGX-1 and DGX-2.",
+    "laborHours": 5715.2,
+    "languages": [],
+    "name": "s-blas",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/s-blas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

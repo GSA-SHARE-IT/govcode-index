@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-12-18",
+        "metadataLastUpdated": "2018-12-20"
+    },
+    "description": "4.Brief Description:\nThis is a LAMMPS extension (LAMMPS \"fix\") to capture electron-ion interaction. We use this extension mechanism to generalize the two­\ntemperature model to include electron-phonon coupling. The extension is flexible enough to represent cascades, laser heating and equilibration and study energy transport with realistic electron-phonon coupling. ",
+    "laborHours": 1444.0,
+    "languages": [],
+    "name": "Electron-phonon dynamics for LAMMPS ",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/USER-EPH",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

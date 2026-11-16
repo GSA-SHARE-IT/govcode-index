@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "Contingency analysis based approach for quantifying and examining the resiliency of a cyber system in respect to confidentiality, integrity and availability. A graph representing an organization's cyber system and related resources is used for the availability contingency analysis. The mission critical paths associated with an organization are used to determine the consequences of a potential contingency. A node (or combination of nodes) are removed from the graph to analyze a particular contingency. The value of all mission critical paths that are disrupted by that contingency are used to quantify its severity. A total severity score can be calculated based on the complete list of all these contingencies. A simple n1 analysis can be done in which only one node is removed at a time for the analysis. We can also compute nk analysis, where k is the number of nodes to simultaneously remove for analysis. A contingency risk score can also be computed, which takes the probability of the contingencies into account. In addition to availability, we can also quantify confidentiality and integrity scores for the system. These treat user accounts as potential contingencies. The amount (and type) of files that an account can read to is used to compute the confidentiality score. The amount (and type) of files that an account can write to is used to compute the integrity score. As with availability analysis, we can use this information to compute total severity scores in regards to confidentiality and integrity. We can also take probability into account to compute associated risk scores.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "C++11 QtCreator 5.3"
+    ],
+    "name": "Cyber Contingency Analysis version 1.x",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

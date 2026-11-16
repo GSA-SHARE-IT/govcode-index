@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2019-03-20"
+    },
+    "description": "MAPVAR-KD is designed to transfer solution results from one finite element mesh to another. MAPVAR-KD draws heavily from the structure and coding of MERLIN II, but it employs a new finite element data base, EXODUS II, and offers enhanced speed and new capabilities not available in MERLIN II. In keeping with the MERLIN II documentation, the computational algorithms used in MAPVAR-KD are described. User instructions are presented. Example problems are included to demonstrate the operation of the code and the effects of various input options. MAPVAR-KD is a modification of MAPVAR in which the search algorithm was replaced by a kd-tree-based search for better performance on large problems.",
+    "laborHours": 2002235.2,
+    "languages": [],
+    "name": "Finite Element Analysis Code - MAPVAR-KD",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/gsjaardema/seacas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

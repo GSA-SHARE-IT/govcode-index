@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "The Pacific Northwest National Laboratory (PNNL) has developed a prototype stream extraction algorithm that semi-automatically extracts and characterizes streams using a variety of multisensor imagery and digital terrain elevation data. The system is currently optimized for three types of single-band imagery: radar, visible, and thermal. Method of Solution: DRAGON: (1) classifies pixels into clumps of water objects based on the classification of water pixels by spectral signatures and neighborhood relationships, (2) uses the morphology operations (erosion and dilation) to separate out large lakes (or embayment), isolated lakes, ponds, wide rivers and narrow rivers, and (3) translates the river objects into vector objects. In detail, the process can be broken down into the following steps. A. Water pixels are initially identified using on the extend range and slope values (if an optional DEM file is available). B. Erode to the distance that defines a large water body and then dilate back. The resulting mask can be used to identify large lake and embayment objects that are then removed from the image. Since this operation be time consuming it is only performed if a simple test (i.e. a large box can be found somewhere in the image that contains only water pixels) that indicates a large water body is present. C. All water pixels are clumped (in Imagine terminology clumping is when pixels of a common classification that touch are connected) and clumps which do not contain pure water pixels (e.g. dark cloud shadows) are removed D. The resulting true water pixels are clumped and water objects which are too small (e.g. ponds) or isolated lakes (i.e. isolated objects with a small compactness ratio) are removed. Note that at this point lakes have been identified has a byproduct of the filtering process and can be output has vector layers if needed. E. At this point only river pixels are left in the image. To separate out wide rivers all objects in the image are eroded by the half width of narrow rivers. This causes all narrow rivers to be removed and leaves only the core of wide rivers. This core is dilated out by the same distance to create a mask that is used with the original river image to separate out rivers into two separate images of narrow rivers and wide rivers F. If in the image that contains wide rivers there are small isolated short (less than 300 meters if NGA criteria is used) segments these segments are transferred to the narrow river file in order to be treated has parts of single line rivers G. The narrow river file is optionally dilated and eroded. This closing has the effect of removing small islands, filling small gaps, and smoothing the outline. H. The user also has the option of closing objects in the wide river file. However, this depends on the degree to which the user wants to remove small islands in the large rivers. I. To make the translation from raster to single vector easier the objects in the narrow river image are reduced to a single center line (i.e. thinned) with binary morphology operations.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Drainage Algorithm for Geospatial Knowledge",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

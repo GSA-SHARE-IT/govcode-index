@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2022-01-13",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "ISOPOD (InverSe OPtimizatiOn and Design) will be a MOOSE (Multiphysics Object Oriented Simulation Environment)-based framework which will iteratively estimate the parameters by minimizing the difference between simulated and experimental observables. While inverse optimization has long been used for parameter estimation, the unique feature of ISOPOD is rapid solution of new inverse problems, leading to accelerated Research, Development and Demonstration (RD&D) for complex parameter estimation problems. This will be achieved by extending the software structure of MOOSE to inverse optimization, as well as building on the unique automatic differentiation feature of MOOSE.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Isopod (inverse Optimization And Design): Moose-based Application For Performing Inverse Optimization On Multiphysics Modeling And Simulation",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/isopod",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

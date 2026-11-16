@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-09-09",
+        "metadataLastUpdated": "2022-09-12"
+    },
+    "description": "Super-droplet method applied to modeling the formation and evolution of fallout post-detonation of a nuclear airburst.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Nuclear Fallout Super-Droplet Method",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/NFSDM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This program can calculate the molecular weight and percent composition of chemical formulas and amino acids, providing a graphical user interface to edit the formulas and parsing options.  It recognizes user-definable abbreviations, custom elemental isotopes, and can display up to 20 compounds simultaneously.  It also includes a Mole/Mass Converter, Formula Finder, Capillary Flow Modeller, Amino Acid Notation Converter, Peptide Sequence Fragmentation Modeler, Isotopic Distribution Calculator, and built-in calculator.  Full program documentation is available by pressing F1 during program operation.",
+    "laborHours": 30962.4,
+    "languages": [],
+    "name": "Molecular Weight Calculator",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/Molecular-Weight-Calculator",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

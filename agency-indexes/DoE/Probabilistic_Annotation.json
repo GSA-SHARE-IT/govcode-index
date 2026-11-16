@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-26",
+        "metadataLastUpdated": "2020-08-26"
+    },
+    "description": "The purpose of the Probabilistic Annotation service is to provide users with alternative annotations for genes, each attached to a likelihood score, and to translate these likelihood scores into likelihood scores for the existence of reactions in metabolic models.",
+    "laborHours": 3009.6,
+    "languages": [],
+    "name": "Probabilistic Annotation",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/probabilistic_annotation",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

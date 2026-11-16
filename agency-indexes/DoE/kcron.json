@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2018-07-10",
+        "metadataLastUpdated": "2019-04-17"
+    },
+    "description": "kcron is a new package for Fermilab’s Scientific Linux 7, which functions as a utility for getting Kerberos credentials in scheduled jobs. The code is written in BASH and C, and depends on Kerberos, POSIX syslog, and POSIX permissions. ",
+    "laborHours": 425.6,
+    "languages": [
+        "Bash",
+        "C"
+    ],
+    "name": "kcron",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/scientificlinux/kcron",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ],
+    "vcs": "git"
+}

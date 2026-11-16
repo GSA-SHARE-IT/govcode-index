@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-05-23",
+        "metadataLastUpdated": "2018-05-23"
+    },
+    "description": "ParELAGMC is a parallel distributed memory C++ library for multilevel Monte Carlo (MLMC) simulations with algebraically constructed coarse spaces for estimating statistical moments of a quantity of interest involving solutions of partial differential equations with uncertain coefficients. A primary focus of the library is the scalable generation of Gaussian random fields using a novel stochastic PDE (SPDE) sampling technique for large-scale simulations. A key feature in the SPDE sampling technique is a novel non-matching mesh embedding technique to mitigate artificial boundary artifacts that are inherent in the method. Example applications to uncertainty quantification of subsurface flow simulations in the mixed finite element setting are provided as well.",
+    "laborHours": 17905.6,
+    "languages": [],
+    "name": "Parallel Element Agglomeration Multilevel Monte Carlo Library (ParELAGMC)",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/parelagmc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

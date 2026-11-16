@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2025-04-24",
+        "metadataLastUpdated": "2025-04-24"
+    },
+    "description": "Code base to run Streamlit Value of Information App for binary decision with geothermal techno economics.\n\nAn open-source VOI app that models binary decisions (e.g. do something (drill) or walk away (do nothing)) and binary geothermal scenarios (positive or negative) has been developed. Users can input their anticipated economic values (profits or losses) directly into the value matrix to represent all four combinations of these actions and geothermal possibilities. VOI in general requires probabilities to be assigned for “probability of success”, or probability of experiencing a positive geothermal scenario versus negative. The users of the App can toggle this probability of success both in the demo problem and in the Value of Imperfect Information problem. The VOI App allows users to upload their own labeled data to evaluate how well it allows them to distinguish between positive versus negative sites. We have been using IGNENIOUS data to test and demonstrate; industry members have prepared their own labeled data, and have present their examples from diverse use cases at a conference workshop. \n\nThe VOI App is open to the public at: https://voigeothermalrising.streamlit.app",
+    "laborHours": 440.8,
+    "languages": [
+        "Jupyter Notebook",
+        "Python"
+    ],
+    "name": "Value of Information App (Value of Information App for Binary Geothermal Decisions and Binary Geothermal Possibilities) (Negative/Positive) [SWR-25-15]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/Value_of_Information_App",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

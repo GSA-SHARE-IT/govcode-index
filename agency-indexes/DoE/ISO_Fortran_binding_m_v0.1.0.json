@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-06",
+        "metadataLastUpdated": "2024-09-12"
+    },
+    "description": "The Fortran programming language standard defines a broad feature set supporting the interoperability of Fortran programs with program written according to the C programming language standard. Among Fortran's C-interoperability features is a a C header file \"ISO_Fortran_binding.h\" This header file defines the interface to various C data structures and functions that C programs may use to access Fortran data entities. The ISO_Fortran_binding_m software defines a native Fortran module that presents an interface to these same data structures and functions. ISO_Fortran_bind_m thus enables Fortran programs to access and manipulate Fortran entities in ways that precisely mirror what C programs can do using ISO_Fortran_binding.h. ISO_Fortran_binding_m facilitates writing portable standard-conforming Fortran programs that emulate non-interoperable features, e.g., dynamic polymorphism, in a standard-conforming interoperable way similar but broader than what is demonstrated in Berkeley Lab's Caffeine software [1]. ISO_Fortran_binding_m also enables a Fortran programmer to extend Fortran's capabilities to emulate certain C functionality such as memory address arithmetic or computing C's \"sizeof\" function.\n\n[1] https://github.com/BerkeleyLab/caffeine/blob/213e3df1c319f0663306354414f352acda42a24f/src/caffeine/collective_subroutines/co_reduce_s.f90#L88\n[2] https://github.com/BerkeleyLab/ISO_Fortran_binding_m/blob/0c585362bb4f2c72cf9049c800a7115b529ec533/src/iso_fortran_binding_m.F90#L196",
+    "laborHours": 167.2,
+    "languages": [],
+    "name": "ISO_Fortran_binding_m v0.1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BerkeleyLab/ISO_Fortran_binding_m",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

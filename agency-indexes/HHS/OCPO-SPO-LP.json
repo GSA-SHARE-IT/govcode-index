@@ -1,0 +1,39 @@
+{
+    "name": "OCPO-SPO-LP",
+    "description": "SPO deployment of MS Learning Pathways",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT License"
+            }
+        ]
+    },
+    "organization": "Department of Health and Human Services",
+    "homepageURL": "https://github.com/HHS/OCPO-SPO-LP",
+    "downloadURL": "https://api.github.com/repos/HHS/OCPO-SPO-LP/downloads",
+    "repositoryURL": "https://github.com/HHS/OCPO-SPO-LP.git",
+    "vcs": "git",
+    "laborHours": 0.0,
+    "languages": [
+        "PowerShell"
+    ],
+    "date": {
+        "created": "2020-05-11",
+        "lastModified": "2020-06-11",
+        "metadataLastUpdated": "2022-03-22"
+    },
+    "tags": [
+        "SPO",
+        "deployment",
+        "MS",
+        "Learning",
+        "Pathways"
+    ],
+    "contact": {
+        "email": "HHS_GitHub_Service_Desk@hhs.gov",
+        "name": "U.S. Department of Health & Human Services"
+    }
+}

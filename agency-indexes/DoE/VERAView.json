@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "In order to support engineering analysis of Virtual Environment for Reactor Analysis (VERA) model results, the Consortium for Advanced Simulation of Light Water Reactors (CASL) needs a tool that provides visualizations of HDF5 files that adhere to the VERAOUT specification. VERAView provides an interactive graphical interface for the visualization and engineering analyses of output data from VERA. The Python-based software provides instantaneous 2D and 3D images, 1D plots, and alphanumeric data from VERA multi-physics simulations.",
+    "laborHours": 21675.2,
+    "name": "VERAView",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CASL/VERAview",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

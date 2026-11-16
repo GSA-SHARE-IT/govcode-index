@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-05-15",
+        "metadataLastUpdated": "2019-05-15"
+    },
+    "description": "A unit library was needed to be able to represent units of a wide range of disciplines and be able to separate them from the numerical values for use in calculations. The main driver is converting units to a standardized unit set when dealing with user input and output. And be able to use the unit as a singular type that could contain any unit, and not introduce a huge number of types to represent all possible units. Because sometimes the unit type needs to be used inside virtual function calls which must strictly define a type. The libary also has its origin in power systems so support for per-unit operations was also lacking in the alternatives.",
+    "laborHours": 42985.6,
+    "languages": [],
+    "name": "units",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/units",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

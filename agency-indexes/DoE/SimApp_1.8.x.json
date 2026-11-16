@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "System for converting DESIRE (Direct Executing Simulation in Real Time) simulation models to executable code models (C# / C++). These converted models are used as the basis for 2 products, one of which is the focus of this review: an engineering design interface for Fissile Solution Systems. ModelConverter.exe (C#) converts DESIRE model inputs to a C++ plug-in subclass. SimApp.exe (C# / C++) has a C++ dll that is a numerical integration engine that the Converted models plug into. The engineering design interface is a C# GUI that calls on the C++ dll to execute a particular converted model. The GUI allows the user to specify the length of a simulation, run the simulation, view data plots and data tables. Stability plots may also be produced and manipulated. The engineering design interface will be released as source code and executable; the model converter source is also intended for release.",
+    "laborHours": 13710.4,
+    "name": "SimApp 1.8.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/determan/SimApp1.8x/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/determan/SimApp1.8x.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "Provides a tool with which create and characterize a very large set of matrix-based visual analogy problems that have properties that are similar to Raven's Progressive Matrices (RPMs)™. The software uses the same underlying patterns found in RPMs to generate large numbers of unique matrix problems using parameters chosen by the researcher. Specifically, the software is designed so that researchers can choose the type, direction, and number of relations in a problem and then create any number of unique matrices that share the same underlying structure (e.g. changes in numerosity in a diagonal pattern) but have different surface features (e.g. shapes, colors).Raven's Progressive Matrices (RPMs) ™ are a widely-used test for assessing intelligence and reasoning ability. Since the test is non-verbal, it can be applied to many different populations and has been used all over the world. However, there are relatively few matrices in the sets developed by Raven, which limits their use in experiments requiring large numbers of stimuli. This tool creates a matrix set in a systematic way that allows researchers to have a great deal of control over the underlying structure, surface features, and difficulty of the matrix problems while providing a large set of novel matrices with which to conduct experiments.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Sandia Generated Matrix Tool (SGMT) v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/Matrices",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

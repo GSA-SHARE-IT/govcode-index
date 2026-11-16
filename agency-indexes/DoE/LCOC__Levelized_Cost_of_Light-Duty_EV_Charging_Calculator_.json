@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2022-02-22",
+        "metadataLastUpdated": "2022-02-22"
+    },
+    "description": "This code was developed to calculate the levelized cost of light-duty electric vehicle (EV) charging (LCOC) for the paper \"Levelized Cost of Charging Electric Vehicles in the United States\" by Borlaug et al.(https://doi.org/10.1016/j.joule.2020.05.013). The calculation takes inputs from a variety of publicly available data sources (e.g., utility tariffs from the Utility Rate Database; EV charging station locations from the Alternative Fuels Data Center; energy price forecasts from the Energy Information Administration) and produces the current LCOC, considering when, where, and how light-duty EVs are recharged. In addition, the lifetime fuel cost savings (LFCS) calculation estimates the discounted fuel cost savings for a new battery EV (BEV) or plug-in hybrid EV (PHEV) over a 15-year time horizon using state-level gasoline price and LCOC projections.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "Jupyter Notebook",
+        "Python"
+    ],
+    "name": "LCOC (Levelized Cost of Light-Duty EV Charging Calculator)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/lcoc-ldevs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

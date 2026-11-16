@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-11-05",
+        "metadataLastUpdated": "2021-11-05"
+    },
+    "description": "We present PyOECP, a Python-based flexible open-source software for estimating and modeling the complex permittivity obtained from the open-ended coaxial probe (OECP) technique. The transformation of the measured reflection coefficient to complex permittivity is performed based on two different models, including the capacitance model and the antenna model. The software library contains dielectric spectra of common reference liquids, which can be used to transform the reflection coefficient into the dielectric spectra. Several Python routines that are commonly employed (e.g., SciPy and NumPy) are only required so that the users can alter the software structure depending on their needs. The modeling algorithm exploits the Markov chain Monte Carlo method for the data regression. The discrete relaxation models can be built by a proper combination of well-known relaxation models. In addition to these models, the electrode polarization, which is a common measurement artifact for interpreting the dielectric spectra, can be incorporated in the modeling algorithm. A continuous relaxation model, which solves the Fredholm integral equation of the first kind (a mathematically ill-posed problem) is also included.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PyOECP: A flexible open-source software for the measurement and modeling of the dielectric spectrum from the reflection coefficient",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/tyoon124/PyOECP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

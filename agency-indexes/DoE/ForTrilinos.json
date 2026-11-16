@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-18",
+        "metadataLastUpdated": "2020-10-29"
+    },
+    "description": "'ForTrilinos' is related to The Trilinos Project, which contains a large and growing collection of solver capabilities that can utilize next-generation platforms, in particular scalable multicore, manycore, accelerator and heterogeneous systems. Trilinos is primarily written in C++, including its user interfaces. While C++ is advantageous for gaining access to the latest programming environments, it limits Trilinos usage via Fortran. Sever ad hoc translation interfaces exist to enable Fortran usage of Trilinos, but none of these interfaces is general-purpose or written for reusable and sustainable external use. 'ForTrilinos' provides a seamless pathway for large and complex Fortran-based codes to access Trilinos without C/C++ interface code. This access includes Fortran versions of Kokkos abstractions for code execution and data management. ",
+    "laborHours": 165087.2,
+    "languages": [
+        "C++",
+        "Fortran"
+    ],
+    "name": "ForTrilinos",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/ForTrilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

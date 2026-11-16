@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "HEMLOCK (Heterogeneous Ensemble Machine Learning Open Classification Kit) is a software tool for constructing, evaluating, and applying heterogeneous ensemble data models for use in solving supervised machine learning problems. Specifically, the main class of problems targeted by HEMLOCK is the problem of multiple-class classification (also called labeling or categorization) of data with continuous or discrete features. HEMLOCK consists of various data readers, machine learning algorithms, model combination and comparison routines, evaluation methods for model performance testing, and interfaces to external, state-of-the-art machine learning software libraries.",
+    "laborHours": 2720.8,
+    "languages": [
+        "Java"
+    ],
+    "name": "HEMLOCK",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/HEMLOCK?tab=License-1-ov-file#readme",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/HEMLOCK",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

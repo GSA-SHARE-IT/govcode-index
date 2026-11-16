@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "PolyPole is a numerical algorithm for the calculation of intra-granular fission gas release. In particular, the algorithm solves the gas diffusion problem in a fuel grain in time-varying conditions. The program has been extensively tested. PolyPole combines a high accuracy with a high computational efficiency and is ideally suited for application in fuel performance codes.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Polypole Program For The Calculation Of Intra-granular Fission Gas Release",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mpl-2.0",
+                "name": "MPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabUnsupported/PolyPole",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

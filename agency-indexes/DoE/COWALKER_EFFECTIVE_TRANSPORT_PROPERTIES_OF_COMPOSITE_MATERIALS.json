@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2023-08-18",
+        "metadataLastUpdated": "2023-08-18"
+    },
+    "description": "SF-23-026   This software computes effective transport properties of composite materials involving fibers and nanoparticles using a\nrandom-walk algorithm that efficiently scales to an arbitrary number of processes and cores. Effective transport\nproperties (thermal, electrical) are key to bridge the microstructure of complex materials with its macroscopic behavior.\nTraditional approaches either use effective medium approximations (closed mathematical expressions that are\napproximation for certain conditions) or continuum simulation models such as finite element or finite volume, which\nrequire the generation of a mesh for each configuration explored. cowalker leverages the equivalence between laplacian\nor heat equation-based models and random walks to compute the asymptotic transport properties from an ensemble of\nfirst sojourn times of a random walker moving through the composite material. This allows us to directly define a\ncomposite material as a collection of particles and use algorithms developed for molecular dynamics to quickly compute\nthe intersection of the walker with the different interfaces in the material. cowalker is developed in C++, and it relies on\nthe GNU Scientific Library for random generation. cowalker is currently delivered as source code, so the GSL library is\nnot included in cowalker's distribution. A more userfriendly version, cowalker.jl is currently in development and will be\nreleased as part of cowalker.\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "COWALKER:EFFECTIVE TRANSPORT PROPERTIES OF COMPOSITE MATERIALS",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/spikingnn/spikingtorch",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2024-08-26",
+        "metadataLastUpdated": "2024-08-30"
+    },
+    "description": "SAND2024-08598O\nThe Quantum Instrumentation Control Kit Defect Arbitrary Waveform Generator (QICKDAWG) characterizes nitrogen-vacancy centers in diamond and other defects. It does this by using a radio frequency system-on-a-chip (RFSoC) field programmable gate array (FPGA). QICKDAWG synthesizes microwave pulses from the RFSoC to change the spin state of the defects. The software also allows for laser control using the RFSoC, which optically pumps defects. Ultimately, QICKDAWG supports the implementation of RFSoC FPGAs in defect characterization. This replaces the slow, expensive, traditional hardware, thus lowering the cost and time for defect characterization. \nSandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 144278.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "Quantum Instrumentation Control Kit Defect Arbitrary Waveform Generator (QICKDAWG) v.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/qick-dawg",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "0"
+}

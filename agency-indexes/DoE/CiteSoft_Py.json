@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "savaraa@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-30",
+        "metadataLastUpdated": "2020-10-30"
+    },
+    "description": "There is a need to provide a way for dev-users (Scientists, Engineers, and other Software Developers) to get credit (citations) when they contribute to an important software package - particularly a large package that is already established. Various solutions (including cross package) solutions do exist, but a simple standard format that can work between multiple packages and multiple languages in a modular way is not widely available. \n\nCiteSoft_py is a python implementation of CiteSoft. CiteSoft is a plain text standard consisting of a format and a protocol that exports the citations for the end-users for whichever softwares they have used. CiteSoft has been designed so that software dev-users can rely upon it regardless of coding language or platform, and even for cases where multiple codes are working in a coupled manner. The CiteSoft_py implementation includes python decorators to make wrappers for facile use.\n\nThe purpose is that when dev-users (scientists, engineers and professional programmers) contribute to a collaborative software project, that the appropriate citations (e.g., journal article, conference proceeding) are provided to the end-user. The end-user does not need to know how to use a command line interface, API, etc.  ",
+    "laborHours": 258.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "CiteSoft_Py",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AdityaSavara/CiteSoft_py",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

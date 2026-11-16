@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-11-08",
+        "metadataLastUpdated": "2024-11-08"
+    },
+    "description": "The code takes expert-labeled segmented images of irradiated and unirradiated pellets and trains DeepConvolutional\nNeural Networks to segment these images into defects, backgrounds, and boundaries. The code calculated qualitative\nmicrostructural information from these segmented images to facilitate the comparison of unirradiated and irradiated\npellets",
+    "laborHours": 3404.8,
+    "languages": [],
+    "name": "pnnl/defect_detection",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/defect_detection",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

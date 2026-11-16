@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-07-12",
+        "metadataLastUpdated": "2018-07-16"
+    },
+    "description": "Nuclear data provides descriptions of physical processes used by numerical simulation codes throughout the world. The data is provided in specified formats. Knowledge of the formats and what it represents is important for those that produce and read the data. Nuclear data is typically processed and made available to simulation codes at various temperatures applicable to the general class of problems that the simulation code is designed to model. These libraries are historically pre-processed and made available to the world. The libraries are based on fundamental physical data and are used by scientists and researchers.",
+    "laborHours": 820.8,
+    "languages": [
+        "C++",
+        "Fortran",
+        "Python",
+        "C++",
+        "LaTex",
+        "Python"
+    ],
+    "name": "Nuclear Data Specifications, Utilities, and Libraries",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NuclearData/ACEFormat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

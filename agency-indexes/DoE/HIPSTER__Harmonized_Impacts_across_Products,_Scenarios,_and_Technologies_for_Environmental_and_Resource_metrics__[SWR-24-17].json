@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-01-26",
+        "metadataLastUpdated": "2024-02-29"
+    },
+    "description": "Development of a prototype, code-based life cycle assessment framework, the Harmonized Impacts across Products, Scenarios, and Technologies for Environmental and Resource metrics (HIPSTER), to coherently assess outputs of prospective NREL models across environmental and resource use metrics. Eventually, HIPSTER is aimed to also cover socioeconomic and justice metrics. At present, NREL model scenario impact assessments are performed incoherently, as they as based on varying assumptions and inputs, specifically life cycle inventories, and cover different system boundaries. HIPSTER was created to align the assumptions and boundaries with those of cradle-to-grave life cycle assessment. In FY22, HIPSTER was successfully applied using scenarios from the ReEDS™ model, NREL's flagship capacity expansion model resulting in cradle-to-grace time-series life cycle impacts across LCA midpoints and resource use metrics.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "HIPSTER (Harmonized Impacts across Products, Scenarios, and Technologies for Environmental and Resource metrics) [SWR-24-17]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/HIPSTER",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "0.0.1 beta"
+}

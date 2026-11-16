@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-10",
+        "metadataLastUpdated": "2018-07-10"
+    },
+    "description": "OpenAD is a tool for automatic differentiation (AD) of C/C++ numerical computer programs. For the C/C++ side the entire pipeline is encapsulated in single binary. While the C/C++ tool incarnation shares components with OpenAD its development is a separate effort and it was decided to retain for it the name \"ADIC\" which goes back to the previous generation of tools. ",
+    "homepageURL": "http://www.mcs.anl.gov/OpenAD",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "OpenAD",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://mercurial.mcs.anl.gov/ad/OpenAD/file/tip/COPYRIGHT#l1",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://www.mcs.anl.gov/OpenAD",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-07-31",
+        "metadataLastUpdated": "2019-07-31"
+    },
+    "description": "ENRICO is a code to automate the workflow for iteratively solving neutral particle transport via the OpenMC code and fluid dynamics via the Nek5000 code. It establishes a mapping between the geometry representation of a model in OpenMC and the spectral element mesh used by Nek5000 so that the output of each code can be used as the input of the other. Heat generation rates as solved by OpenMC are used as heat sources in a Nek5000 simulation, and the temperature/density fields from Nek5000 are used as inputs for the OpenMC model. Both OpenMC and Nek5000 are open-source, community-developed, simulation codes.  ",
+    "laborHours": 34245.6,
+    "languages": [],
+    "name": "ENRICO: Exascale Nuclear Reactor Investigative Code ",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/enrico-dev/enrico",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

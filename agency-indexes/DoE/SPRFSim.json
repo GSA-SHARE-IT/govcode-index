@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2018-07-10",
+        "metadataLastUpdated": "2018-07-11"
+    },
+    "description": "SPRFSim is a code that performs RF/Beam interaction simulations for an ion LINAC. The input files can be constructed from scratch or parsed from PARMELA or TraceWin simulations. The code is written in Python, and relies on matplotlib and numpy. ",
+    "laborHours": 364.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "SPRFSim",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jeinstei/SPRFSim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ],
+    "vcs": "git"
+}

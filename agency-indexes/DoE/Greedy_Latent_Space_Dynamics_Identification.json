@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-03-21",
+        "metadataLastUpdated": "2023-03-21"
+    },
+    "description": "This is a variant of LaSDI where it minimizes both reconstruction loss terms of auto encoder and dynamics regression loss terms simultaneously. Plus, an active learning framework is adopted so that a physics-informed greedy sampling point can be added to enhance the performance of gLaSDI. It is written in python and several examples are included in this software.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Greedy Latent Space Dynamics Identification",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/gLaSDI",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

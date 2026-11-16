@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-10-21",
+        "metadataLastUpdated": "2021-10-21"
+    },
+    "description": "QPIXL++ is a software package to compile quantum circuits for compressed representation of images on quantum hardware.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Quantum Image Pixel Library (QPIXL++) v0.1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/LBL_TBI/autoct/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

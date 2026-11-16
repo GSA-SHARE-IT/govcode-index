@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "klaskyhb@ornl.gov"
+    },
+    "date": {
+        "created": "2024-07-30",
+        "metadataLastUpdated": "2024-07-30"
+    },
+    "description": "This project evaluates a set of prompts to test their performance on specific tasks for large language models (LLMs), in order to find the optimal prompt to enhance task performance.",
+    "laborHours": 1018.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "Complete Prompt Permutation",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/summer_2024/prompt_engineering/complete-prompt-permutation",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "version": "Summer 2024"
+}

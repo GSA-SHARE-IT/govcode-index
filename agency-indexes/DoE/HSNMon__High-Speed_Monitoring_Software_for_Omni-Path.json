@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-11-19",
+        "metadataLastUpdated": "2021-11-19"
+    },
+    "description": "HSNMon is a robust high speed network monitoring daemon that provides insight into network availability, hardware failure, and network performance for switches and network cards. HSNMon collects counters, forwarding tables, and error information at high resolution using publicly available Omni-Path Management APIs. The collected data can be forwarded into multiple logging infrastructures including syslog and message queuing systems. HSNMon is only the infrastructure for collecting the network data. It does not include any collected data or proprietary LANL information",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "HSNMon: High-Speed Monitoring Software for Omni-Path",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/hsnmon",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

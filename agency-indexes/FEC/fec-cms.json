@@ -1,0 +1,48 @@
+{
+    "organization": "Federal Election Commission",
+    "contact": {
+        "URL": "https://github.com/fecgov/fec/issues",
+        "email": "opensource@fec.gov"
+    },
+    "date": {
+        "created": "2015-08-16",
+        "lastModified": "2020-10-06",
+        "metadataLastUpdated": "2020-10-06"
+    },
+    "description": "The content management system (CMS) for the new Federal Election Commission website.",
+    "downloadURL": "https://api.github.com/repos/fecgov/fec-cms/downloads",
+    "homepageURL": "https://www.fec.gov",
+    "laborHours": 46696.0,
+    "languages": [
+        "HTML",
+        "JavaScript",
+        "Python",
+        "CSS",
+        "Shell"
+    ],
+    "name": "fec-cms",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/fecgov/fec-cms/blob/master/LICENSE.md",
+                "name": "CC0"
+            }
+        ]
+    },
+    "repositoryURL": "https://github.com/fecgov/fec-cms",
+    "relatedCode": [
+        {
+            "name": "U.S. Web Design System",
+            "URL": "https://github.com/uswds/uswds"
+        }
+    ],
+    "status": "Production",
+    "tags": [
+        "FEC",
+        "github",
+        "agency website",
+        "content"
+    ],
+    "vcs": "git"
+}

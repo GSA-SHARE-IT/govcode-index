@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2022-05-11",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "The Framework for Optimization of ResourCes and Economics is a collection of software tools, models, and datasets acquired and developed under the Integrated Energy Systems (IES) program to enable analysis of technical and economic viability of myriad IES configurations. FORCE is the consolidating interface and data repository for all the IES toolsets ranging from macro technoeconomic analysis to transient process modeling and experimental validation for integrated energy systems.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Framework For Optimization Of Resources And Economics Ecosystem",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/FORCE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git",
+    "version": "XML, Python, Modelica"
+}

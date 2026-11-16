@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-01-22",
+        "metadataLastUpdated": "2019-01-31"
+    },
+    "description": "The Berkeley PhyloChip Analysis Algorithm 2007 (BPAA-07) interprets the raw fluorescent intensity values collected from the PhyloChip surface and produces quantitative values corresponding to the abundance of each microbe within a PhyloChip sample. Additionally the algorithm produces a confidence score for the detection of each microbe.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 2219.2,
+    "languages": [],
+    "name": "Berkeley PhyloChip Analysis Algorithm 2007",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-05-15",
+        "metadataLastUpdated": "2018-05-15"
+    },
+    "description": "Mota is a library that provides several heuristics for mapping tasks to compute ranks (processes) on a networked computer cluster or supercomputer. It was originally designed for task placement of adaptive mesh refinement codes (AMR). It is multi-objective in the sense that it simultaneously balances (potentially multiple types of) computational load on each rank as well as the communication traffic between the boxes. The heuristics used for mapping include algorithms such as greedy list assignment and space-filling curves, as well as algorithms from graph analysis such as adjacency matrix bandwidth reduction, recursive bisection, and greedy graph placement.",
+    "laborHours": 1930.4,
+    "languages": [],
+    "name": "Mota Mapper: A Multi-Objective Topology-Aware Mapper Library",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBL-CoDEx/mota",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

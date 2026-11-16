@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "The software generates data tables for thermodynamic and transport properties of materials as described by a set of input models. For each input model parameterization, an associated table is created on an unstructured triangular grid. These grids all conform to the same topology. A statistical accuracy guarantee is provided for the tabular representation of the model. Details of the model and table specification are given in a XML input deck.",
+    "laborHours": 69798.4,
+    "languages": [
+        "lc/C++/FORTRAN"
+    ],
+    "name": "Sandia Unstructured Triangle Table Generator",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/SUTTG?tab=License-1-ov-file#readme",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/SUTTG",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-16",
+        "metadataLastUpdated": "2024-07-16"
+    },
+    "description": "The program is expected to be a useful tool during operation of a range of solar-driven electrochemical devices, such as PV-electrolyzers and photoelectrochemical (PEC) devices. It makes use of current-voltage data collected during operation, operation parameters that are easily accessible for many devices of interest. The program captures the time-dependence of loss mechanisms at play during PEC device operation and opens the door for real-time optimizations of operational parameters like the feed humidity to minimize performance losses. Currently, the program is useful for applications where the current-voltage polarization response of the photoabsorber and electrolyzer are pre-recorded, and changes over time can be estimated based on the pre-recorded current-voltage scans. More complicated scenarios that involve permanent degradation of the PV component or complex calculations of the electrolyzer current-voltage characteristics may be included in future versions of this software. Aside from the possibility of deconvoluting loss mechanisms, this software can also reveal possible performance benefits by convective PV cooling when the photoabsorber is integrated into the electrolysis cell. The latter can highlight why certain device architectures may be beneficial over others. No similar technologies are known to the developer.",
+    "laborHours": 927.2,
+    "languages": [],
+    "name": "Current-Voltage Analysis Tool for Solar Fuel Production (CATS) v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/MEG-LBNL/Current-Voltage-Analysis-Tool-for-Solar-Fuel-Production-CATS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

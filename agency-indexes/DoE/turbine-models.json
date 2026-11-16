@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2021-01-11",
+        "metadataLastUpdated": "2021-01-12"
+    },
+    "description": "The (wind) turbine-models GitHub repo hosts an archive/database of turbine models already in the public domain. This includes mainly tabular power and thrust (when available) curve data in .csv files, other technical data, as well as documentation and references built with Sphinx/GitHub Pages. There is a script called \"curve_parser.py\" to assist with the parsing of power and thrust curves, but this repo is mostly a central location for turbine model data.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "turbine-models",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/turbine-models",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

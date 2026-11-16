@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2025-02-18",
+        "metadataLastUpdated": "2025-02-18"
+    },
+    "description": "This product includes software developed by Members of the Geant4 Collaboration (http://cern.ch/geant4). The basic principle of ALFRED consists of a k-eigenvalue module in which all generated particles are tracked and all deposited energy is accounted for. An eigenvalue module updates the neutron source after each run based on the neutrons emitted at each fission in the previous run. As a result, the source distribution converges to the fundamental mode of the steady-state eigenvalue problem of the associated critical reactor. ALFRED leverages the High Precision neutron transport package.",
+    "laborHours": 1018.4,
+    "languages": [
+        "C++"
+    ],
+    "name": "All Particle In Fission Reactor - Energy Deposition",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/ALFRED",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

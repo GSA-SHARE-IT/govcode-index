@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-12-18",
+        "metadataLastUpdated": "2018-12-18"
+    },
+    "description": "MemSurfer is a software tool to compute bilayer membrane surfaces. These surfaces are found in the biophysical simulations, and generally analyzed using a set of python packages. MemSurfer offers new robust functionalities to compute the undulations in the surfaces, and relevant properties of the lipids *along* the surface, rather than along the projections, as done in many existing tools.",
+    "laborHours": 4088.8,
+    "languages": [],
+    "name": "MemSurfer",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/MemSurfer",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-24"
+    },
+    "description": "Sandia SPT is designed as software to accompany a book chapter being published a methods chapter which provides an introduction on how to label and track individual proteins. The Sandia Simple Particle Tracking code uses techniques common to the image processing community, where its value is that it facilitates implementing the methods described in the book chapter by providing the necessary open-source code. The code performs single particle spot detection (or segmentation and localization) followed by tracking (or connecting the detected particles into trajectories). The book chapter, which along with the headers in each file, constitutes the documentation for the code is: Anthony, S.M.; Carroll-Portillo, A.; Timlon, J.A., Dynamics and Interactions of Individual Proteins in the Membrane of Living Cells. In Anup K. Singh (Ed.) Single Cell Protein Analysis Methods in Molecular Biology. Springer",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "Sandia Simple Particle Tracking (Sandia SPT) v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/spt",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

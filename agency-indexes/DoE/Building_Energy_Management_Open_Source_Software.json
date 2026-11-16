@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "vowelll@osti.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This is the repository for Building Energy Management Open Source Software (BEMOSS), which is an open source operating system that is engineered to improve sensing and control of equipment in small- and medium-sized commercial buildings. BEMOSS offers the following key features: (1) Open source, open architecture – BEMOSS is an open source operating system that is built upon VOLTTRON – a distributed agent platform developed by Pacific Northwest National Laboratory (PNNL). BEMOSS was designed to make it easy for hardware manufacturers to seamlessly interface their devices with BEMOSS. Software developers can also contribute to adding additional BEMOSS functionalities and applications. (2) Plug & play – BEMOSS was designed to automatically discover supported load controllers (including smart thermostats, VAV/RTUs, lighting load controllers and plug load controllers) in commercial buildings. (3) Interoperability – BEMOSS was designed to work with load control devices form different manufacturers that operate on different communication technologies and data exchange protocols. (4) Cost effectiveness – Implementation of BEMOSS deemed to be cost-effective as it was built upon a robust open source platform that can operate on a low-cost single-board computer, such as Odroid. This feature could contribute to its rapid deployment in small- or medium-sized commercial buildings. (5) Scalability and ease of deployment – With its multi-node architecture, BEMOSS provides a distributed architecture where load controllers in a multi-floor and high occupancy building could be monitored and controlled by multiple single-board computers hosting BEMOSS. This makes it possible for a building engineer to deploy BEMOSS in one zone of a building, be comfortable with its operation, and later on expand the deployment to the entire building to make it more energy efficient. (6) Ability to provide local and remote monitoring – BEMOSS provides both local and remote monitoring ability with role-based access control. (7) Security – In addition to built-in security features provided by VOLTTRON, BEMOSS provides enhanced security features, including BEMOSS discovery approval process, encrypted core-to-node communication, thermostat anti-tampering feature and many more. (8) Support from the Advisory Committee – BEMOSS was developed in consultation with an advisory committee from the beginning of the project. BEMOSS advisory committee comprises representatives from 22 organizations from government and industry.",
+    "laborHours": 153185.6,
+    "name": "Building Energy Management Open Source Software",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/bemoss/BEMOSS3.5",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

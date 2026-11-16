@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "The battery storage evaluation tool developed at Pacific Northwest National Laboratory is used to run a one-year simulation to evaluate the benefits of battery storage for multiple grid applications, including energy arbitrage, balancing service, capacity value, distribution system equipment deferral, and outage mitigation. This tool is based on the optimal control strategies to capture multiple services from a single energy storage device. In this control strategy, at each hour, a lookahead optimization is first formulated and solved to determine the battery base operating point. The minute-by-minute simulation is then performed to simulate the actual battery operation.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "Matlab MCR"
+    ],
+    "name": "Battery Storage Evaluation Tool, version 1.x",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

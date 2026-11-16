@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "qinwu@bnl.gov"
+    },
+    "date": {
+        "created": "2022-12-23",
+        "metadataLastUpdated": "2022-12-23"
+    },
+    "description": "Kinetics of a reaction network that follows mass-action rate laws can be described with a system of ordinary differential equations (ODEs) with polynomial right-hand side. However, it is challenging to derive such kinetic differential equations from transient kinetic data without knowing the reaction network, especially when the data are incomplete due to experimental limitations. We introduce a program, PolyODENet, toward this goal. Based on the machine-learning method Neural ODE, PolyODENet defines a generative model and predicts concentrations at arbitrary time. As such, it is possible to include unmeasurable intermediate species in the kinetic equations. Importantly, we have implemented various measures to apply physical constraints and chemical knowledge in the training to regularize the solution space.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "PolyODENet",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ICKMod/PolyODENet/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ICKMod/PolyODENet",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

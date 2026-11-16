@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "simsdl@ornl.gov"
+    },
+    "date": {
+        "created": "2018-04-18",
+        "metadataLastUpdated": "2018-04-18"
+    },
+    "description": "Sabot is a quantum state simulator with a client-server architecture. This makes possible distributed simulations with many clients accessing a single instance of the simulator. This design is useful when more than one client wishes to access one quantum state. This occurs during quantum communication, for example. It is also possible to have users running on personal machines with the simulator running on a much more powerful machine.\n",
+    "laborHours": 1900.0,
+    "name": "Sabot",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-QCI/sabot",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

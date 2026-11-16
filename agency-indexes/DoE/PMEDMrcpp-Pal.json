@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "tuccillojv@ornl.gov"
+    },
+    "date": {
+        "created": "2025-03-20",
+        "metadataLastUpdated": "2025-03-20"
+    },
+    "description": "This package is part of the Likeness Python toolkit, which generates high-fidelity synthetic populations for human dynamics modeling. It primarily supports the PMEDM-Legacy package, which provides a Python interface for using the original implementation of Penalized-Maximum Entropy Dasymetric Modeling (P-MEDM) method, written in R/C++,  for statistically matching population survey data from the American Community Survey's Public-Use Microdata Sample (PUMS) to sub-county spatial scales. Model inputs specified in the Python environment are converted to R variables and passed to the PMEDMrcpp model with PMEDMrcppPal.",
+    "laborHours": 91.2,
+    "languages": [
+        "R"
+    ],
+    "name": "PMEDMrcpp-Pal",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/likeness-pop/pmedmrcpp-pal/blob/main/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/likeness-pop/pmedmrcpp-pal",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0.1"
+}

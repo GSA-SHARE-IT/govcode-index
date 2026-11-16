@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-07-13",
+        "metadataLastUpdated": "2023-07-13"
+    },
+    "description": "\tFusionML_RF consists of multiple codes and trained machine learning (ML) models that perform low-cost output modeling from the Genray-CQL3D. Three machine learning techniques (multilayer perceptron, random forest, and Gaussian process) provide fast surrogate models for lower hybrid current drive (LHCD) simulations. For example, completing a single GENRAY/CQL3D simulation without radial diffusion of fast electrons requires several minutes of wall-clock time. On the other hand, these ML models achieve ~ms of inference time with high accuracy across the input parameter space. This software collection consists of multiple components. (1) codes that use ML methods and precomputed Genray-CQL3D simulation output to build regression models that enable approximate computations of Genray-CLQ3D outputs from arbitrary but physically meaningful input parameters (surrogate modeling); (2) three trained models created by the team, using a database of 16,000+ GENRAY/CQL3D simulations, to study the performance of ML models for surrogate modeling; (3) codes that load the trained models and simulation data, and then compute mean squared error between the models' predictions and the ground truth of simulation output data. This collection is being made available in conjunction with a scientific publication about the work to promote reusability and provide an artifact of the scientific work.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Fusion RF Modeling Machine Learning (FusionML_RF) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/FusionRFModelingMachineLearning/genray-cql3d-ml",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

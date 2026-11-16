@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Sacado is an automatic differentiation package for C++ codes using operator overloading and C++ templating. Sacado provide forward, reverse, and Taylor polynomial automatic differentiation classes and utilities for incorporating these classes into C++ codes. Users can compute derivatives of computations arising in engineering and scientific applications, including nonlinear equation solving, time integration, sensitivity analysis, stability analysis, optimization and uncertainity quantification.",
+    "laborHours": 8344830.4,
+    "name": "Automatic Differentiation Package",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

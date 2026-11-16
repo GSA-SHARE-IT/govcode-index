@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2024-04-10",
+        "metadataLastUpdated": "2024-04-10"
+    },
+    "description": "Context-Aware Language Model for Science (CALMS) is designed to assist scientists with instrument operations and complex experimentation. CALMS consists of a large-language model (LLM) augmented with context and tool use abilities. With the ability to retrieve relevant information from facility documentation, CALMS can answer simple questions on scientific capabilities and other operational procedures. With the ability to interface with software tools and experimental hardware, CALMS can operate scientific instruments in a conversational manner.",
+    "laborHours": 67427.2,
+    "languages": [],
+    "name": "CALMS: CONTEXT-AWARE LANGUAGE MODEL FOR SCIENCE",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mcherukara/CALMS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

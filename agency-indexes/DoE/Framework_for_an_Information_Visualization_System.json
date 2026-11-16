@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "The Program is a suite of Windows-based software applications and services for ingesting, storing, and analyzing large quantities of disparate information. The software supports the ingestion and storage of any information that can be represented in eXtensible Markup Language (XML) format. Stored information can be subsequently retrieved via search operations, then \"visualized\" in multiple ways using a client application that supports a variety of analytical functions. Visualization capabilities include tools for depicting a variety of relationships that may be present in the information, including geospatial, temporal, topical, categorical, and network relationships.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "C++, Microsoft.net2003 7.1"
+    ],
+    "name": "Framework for an Information Visualization System",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

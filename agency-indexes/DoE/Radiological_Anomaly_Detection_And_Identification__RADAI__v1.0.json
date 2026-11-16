@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-09-21",
+        "metadataLastUpdated": "2021-09-21"
+    },
+    "description": "The Radiological Anomaly Detection and Identification (RADAI) software package is a python library for implementing, training, and storing algorithms that detect and identify anomalies in gamma-ray spectra. The library defines a general framework for implementing detection (binary) and identification (classification) algorithms, objects to encapsulate the results of analyses, a variety of temporal filtering tools that can be used in constructing algorithms, and conceptual design that allows easy reading and writing of algorithms (and their time dependent state). In addition to this framework, the library includes implementations of a variety of algorithms from the scientific literature including: gross-counts k-sigma, SPRT, N-SCRAD, Region of Interest, and Censored Energy Window. The implementation of these algorithms within the RADAI package was done to facilitate user-initiated training and configuration to by applied to different gamma-ray detector types. Finally, benchmarked and synthetic datasets will be made available for standardized algorithm characterization with corresponding utilities in the RADAI package for data access and processing.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Radiological Anomaly Detection And Identification (RADAI) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/lbl-anp/radai/radai",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

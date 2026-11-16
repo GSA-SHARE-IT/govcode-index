@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-11-29",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The Asset Score Preview API Test Harness is PHP code that will be made publicly accessible to software developers\nsupporting the DOE commercial energy scoring efforts. Asset Score is a DOE funded web-based application that enables cities to interactively describe commercial buildings, identify assets that would affect the energy footprint of the building, and use the Asset Score models (FEDS, Open Studio) to determine the approximate energy score.",
+    "homepageURL": "https://buildingenergyscore.energy.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Asset Score API",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://buildingenergyscore.energy.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

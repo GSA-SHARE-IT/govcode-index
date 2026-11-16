@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "brewerwh@ornl.gov"
+    },
+    "date": {
+        "created": "2024-06-04",
+        "metadataLastUpdated": "2024-06-28"
+    },
+    "description": "ExaDigiT is a framework for developing comprehensive digital twins of liquid-cooled supercomputers, which has three main modules: (1) a python-based Resource Allocator and Power Simulator (RAPS), (2) a Modelica-based Thermo-Fluidic cooling model, and (3) a C++-based augmented reality model built on Unreal Engine 5. RAPS either simulates workloads or replays historical workloads from system telemetry, and is able to predict dynamic energy consumption, as well as interact with the cooling model to predict cooling system behavior. Such a tool can be used together with reinforcement learning algorithms to provide an end-to-end optimization tool for data centers.",
+    "laborHours": 775.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "ExaDigiT/RAPS",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            },
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/exadigit/raps",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

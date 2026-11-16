@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-09-10",
+        "metadataLastUpdated": "2022-01-06"
+    },
+    "description": "The Generalized Spallation Model (GSM) event generator is an advanced, robust, and scalable Fortran code developed from an extended and improved version of the earlier event generator codes CEM03.03 and LAQGSM03.03. The GSM implements its algorithms within the context of cascade exciton, particle equilibration, particle evaporation, and particle disintegration models sampled via Monte-Carlo techniques. Coalescence of particles is also considered. The GSM assumes the incident particles has sufficient energy to satisfy the assumptions utilized in the GSM. The GSM calculates reactions induced by hadrons and nuclei incident on nuclear targets at incident energies ranging from ~20 MeV up to several TeV per nucleon. Usage of GSM is recommended however for particles with incident energies exceeding ~100 MeV to ensure model-assumptions are satisfied. The GSM additionally provides its clients with sub-model libraries to allow them to model desired physics within their own physical models.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "The Generalized Spallation Model",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/generalized-spallation-model",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

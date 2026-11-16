@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-07",
+        "metadataLastUpdated": "2021-03-07"
+    },
+    "description": "The concept for the AgileC2G Model is based on well-documented input-output methods first introduced by Wassily Leontief. These matrices are more commonly used to represent monetary inputs and outputs by sector. In contrast, the developers have constructed a model that uses a customized matrix consisting of key products and services (in place of sectors) that are directly and/or indirectly relevant to bioenergy systems (and energy systems more broadly). Their matrix tracks inputs and outputs based on physical units and uses prices only to complete the required calculations before converting total requirements back to physical units of interest.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Agile Cradle-to-Grave (Agile C2G) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/olgakavvada/biofuels_lca_tool/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "version": "v1"
+}

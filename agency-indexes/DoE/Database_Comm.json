@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-02-16",
+        "metadataLastUpdated": "2023-02-16"
+    },
+    "description": "dbComm is a module for integrating a Python codebase with MongoDB using the PyMongo library. The\nmethods contained are used to connect to a Mongo database and push/pull data.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Database Comm",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://opensource.org/license/pythonsoftfoundation-php",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/dbComm",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

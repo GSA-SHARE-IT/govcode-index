@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2025-01-02",
+        "metadataLastUpdated": "2025-01-02"
+    },
+    "description": "Swift is a fast Fourier transform based spectral solver based on the MOOSE framework. It supports GPU accelerated semi-implicit solves of partial differential equations, such as those used for phase field mesoscale microstructure evolution.",
+    "laborHours": 140736.8,
+    "languages": [
+        "C++"
+    ],
+    "name": "Swift",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/swift",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

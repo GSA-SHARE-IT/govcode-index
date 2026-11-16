@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Support Vector Machines (SVM) is a popular machine learning technique, which has been applied to a wide range of domains such as science, finance, and social networks for supervised learning. MaTEx undertakes the challenge of designing a scalable parallel SVM training algorithm for large scale systems, which includes commodity multi-core machines, tightly connected supercomputers and cloud computing systems. Several techniques are proposed for improved speed and memory space usage including adaptive and aggressive elimination of samples for faster convergence , and sparse format representation of data samples. Several heuristics for earliest possible to lazy elimination of non-contributing samples are considered in MaTEx. In many cases, where an early sample elimination might result in a false positive, low overhead mechanisms for reconstruction of key data structures are proposed. The proposed algorithm and heuristics are implemented and evaluated on various publicly available datasets",
+    "laborHours": 647474.4,
+    "name": "Machine Learning Toolkit for Extreme Scale",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/matex-org/matex/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/matex-org/matex",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

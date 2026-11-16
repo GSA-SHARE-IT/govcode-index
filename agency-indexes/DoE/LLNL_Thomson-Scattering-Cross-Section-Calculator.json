@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "swadling1@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-13",
+        "metadataLastUpdated": "2021-12-20"
+    },
+    "description": "MATLAB Functions for calculating the Thomson scattering cross-section",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "LLNL/Thomson-Scattering-Cross-Section-Calculator",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/Thomson-Scattering-Cross-Section-Calculator",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

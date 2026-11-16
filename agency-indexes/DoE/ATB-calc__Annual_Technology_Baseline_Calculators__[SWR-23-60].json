@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-08-15",
+        "metadataLastUpdated": "2023-09-14"
+    },
+    "description": "This software is a suite of Python files and Jupyter notebooks supporting the calculation of cost and financial parameters for the Annual Technology Baseline (ATB) electricity data, including capital expenditures, levelized cost of energy, and debt fractions using the ATB input data.",
+    "laborHours": 0.0,
+    "languages": [
+        "Jupyter Notebook",
+        "Python"
+    ],
+    "name": "ATB-calc (Annual Technology Baseline Calculators) [SWR-23-60]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/ATB-calc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

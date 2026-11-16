@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "heiseda@ornl.gov"
+    },
+    "date": {
+        "created": "2022-01-31",
+        "metadataLastUpdated": "2022-01-31"
+    },
+    "description": "A GitLab custom executor using Podman containers.",
+    "laborHours": 0.0,
+    "languages": [
+        "Bash"
+    ],
+    "name": "gitlab-executor-podman",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/daheise/gitlab-executor-podman",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

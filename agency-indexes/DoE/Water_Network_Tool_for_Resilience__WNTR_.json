@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "The Water Network Tool for Resilience (WNTR) is an open source Python package designed to simulate and analyze resilience of water distribution networks. The United States Environmental Protection Agency, in partnership with Sandia National Laboratories, developed WNTR to integrate critical aspects of resilience modeling for water distribution networks into a single software framework.\nThe software includes capability to:\n•\tGenerate water network models\n•\tModify network structure and operations\n•\tAssign fragility and survival curves to network components\n•\tModel disruptive events such as power outages, earthquakes, fires, pipe breaks, and contamination incidents\n•\tModel response and repair strategies\n•\tSimulate hydraulics and water quality\n•\tEvaluate resilience using a wide range of metrics\n•\tIntegrate dependency with other critical infrastructure and supply chains\n•\tAnalyze results and generate graphics\nSAND2019-450 M",
+    "laborHours": 147561.6,
+    "languages": [
+        "C++",
+        "C",
+        "Python"
+    ],
+    "name": "Water Network Tool for Resilience (WNTR)",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/WNTR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

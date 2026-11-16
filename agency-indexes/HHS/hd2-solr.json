@@ -1,0 +1,40 @@
+{
+    "name": "hd2-solr",
+    "description": "Healthdata.gov SOLR code (search support for CKAN and Drupal)",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": null
+    },
+    "organization": "Department of Health and Human Services",
+    "homepageURL": "https://github.com/HHS/hd2-solr",
+    "downloadURL": "https://api.github.com/repos/HHS/hd2-solr/downloads",
+    "repositoryURL": "https://github.com/HHS/hd2-solr.git",
+    "vcs": "git",
+    "laborHours": 0.0,
+    "languages": [
+        "Java",
+        "JavaScript",
+        "Shell",
+        "C",
+        "Groovy"
+    ],
+    "date": {
+        "created": "2012-03-21",
+        "lastModified": "2014-05-14",
+        "metadataLastUpdated": "2022-03-22"
+    },
+    "tags": [
+        "Healthdata",
+        "SOLR",
+        "code",
+        "search",
+        "support",
+        "CKAN",
+        "Drupal"
+    ],
+    "contact": {
+        "email": "HHS_GitHub_Service_Desk@hhs.gov",
+        "name": "U.S. Department of Health & Human Services"
+    }
+}

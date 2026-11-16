@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2023-07-14",
+        "metadataLastUpdated": "2023-07-14"
+    },
+    "description": "Surfactant is a tool to generate an SBOM for the files in a directory/system based on information contained in various file format, including but not limited to PE, ELF, Mach-O, Java classes, .NET\nassemblies, and various source code files/scripts. Gathered information can be output in a variety of different SBOM formats, and functionality is provided to manipulate and analyze SBOMs (merging, manual additions, querying info, etc). Users are able to add new features via a plugin system.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Surfactant",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/Surfactant",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

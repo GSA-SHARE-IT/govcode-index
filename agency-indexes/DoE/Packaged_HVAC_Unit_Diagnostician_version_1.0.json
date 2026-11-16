@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "The PHD automatically detects and diagnoses faults with respect to four major aspects of packaged heating, ventilating, and air conditioning (HVAC) unit operation: 1) air handling in which return-air and outdoor-air are mixed, then conditioned to appropriate temperature and humidity conditions, 2) vapor-compression refrigerant loop operation, 3) overall unit efficiency and its potential degradation over time, and 4) operation scheduling. When faults are detected, the software provides alarm codes corresponding to the detected problem(s). These alarms map into explanations of the faults, possible causes for them, and suggested actions to remedy the faults. For air handling, the software also estimates energy and cost impacts of faults. The software is intended for implementation on a hardware systems that includes sensors, sensor signal processing, micro-processor unit for running this software, and communication to a web server. Results are made available to users via the world wide web using a computer with Web browser and Internet connection for access. The graphical web-based interface must be provided by an application service provider (not part of this software).",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Packaged HVAC Unit Diagnostician version 1.0",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

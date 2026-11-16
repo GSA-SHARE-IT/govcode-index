@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The BOUT++ is a C++ framework for developing plasma fluid simulation codes, and has been developed by the University of York/UK and the LLNL Fusion Energy Program from the original 3D boundary turbulence 2-fluid edge simulation code BOUT. The aim of BOUT++ is to automate the common tasks needed for simulation codes, and to separate the complicated details such as differential geometry, parallel communication, and file input/output from the user-specified equations to be solved. The BOUT++ consists of BOUT++ library and physics modules. BOUT++ modules contains the coding for the specific set of physics equations and boundary conditions for particular physics problems using defined functions in BOUT++ library to perform standard differential operators.",
+    "laborHours": 77748.0,
+    "name": "BOUT++",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/boutproject/BOUT-2.0",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

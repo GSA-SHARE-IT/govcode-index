@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-14",
+        "metadataLastUpdated": "2020-05-14"
+    },
+    "description": "This suite contains a number of kernel operations, called Parallel Research Kernels, plus a simple build system intended for a Linux-compatible environment. Most of the code relies on open standard programming models and thus can be executed on many computing systems.",
+    "laborHours": 57562.4,
+    "languages": [],
+    "name": "kokkos/Kernels",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kokkos/Kernels",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

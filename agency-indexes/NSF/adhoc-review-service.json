@@ -1,0 +1,47 @@
+{
+    "name": "adhoc-review-service",
+    "description": "Contains the routes for creating, updating, and deleting proposal adhoc reviews.",
+    "tags": [
+        "java",
+        "government",
+        "microservice",
+        "nsf",
+        "mynsf",
+        "pars"
+    ],
+    "contact": {
+        "email": "esivagna@nsf.gov",
+        "name": "Elanchezhian Sivagnanam",
+        "phone": "7032928088"
+    },
+    "languages": [
+        "Java"
+    ],
+    "repositoryURL": "http://www.nsf.gov",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://www.nsf.gov/digitalstrategy/Alternative_Analysis_Report_Template_Process.pdf",
+                "name": "NSF"
+            }
+        ],
+        "usageType": "exemptByAgencySystem",
+        "exemptionText": "Internal system not suitable for open source. For example, database queries are stored in external stored procedures."
+    },
+    "laborHours": 1712,
+    "date": {
+        "created": "2016-12-08",
+        "lastModified": "2019-03-13",
+        "metadataLastUpdated": "2019-03-14"
+    },
+    "vcs": "",
+    "disclaimerText": "",
+    "disclaimerURL": "https://www.nsf.gov/digitalstrategy/Alternative_Analysis_Report_Template_Process.pdf",
+    "": [
+        {
+            "codeName": "",
+            "codeURL": "",
+            "isGovernmentRepo": true
+        }
+    ]
+}

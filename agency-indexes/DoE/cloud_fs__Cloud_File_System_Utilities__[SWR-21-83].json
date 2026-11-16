@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2021-06-24",
+        "metadataLastUpdated": "2024-07-01"
+    },
+    "description": "cloud-fs (Cloud File System Utilities) is a generalized file-system handler that will dynamically determine if files are local or on the cloud (currently AWS) and perform basic file-system operations.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "cloud_fs (Cloud File System Utilities) [SWR-21-83]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/cloud_fs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

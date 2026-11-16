@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2023-08-01",
+        "metadataLastUpdated": "2024-09-09"
+    },
+    "description": "SAND2022-3463 O\nThis code is intended to accompany the journal manuscript, “Sub-resolution modeling of the apparent mass loss in quantitative broadband X-ray radiography.\" The manuscript covers in detail how to improve the quantitative mass distribution measurements made for optical diagnostics of multiphase flows. The code contains four separate script files in MATLAB format to support the objective of improving mass measurements.\nSandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 349.6,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "Codes for sub-resolution modeling of the apparent mass loss in quantitative broadband X-ray radiography",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/X-ray-Imaging-Apparent-Mass-Loss-Error",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

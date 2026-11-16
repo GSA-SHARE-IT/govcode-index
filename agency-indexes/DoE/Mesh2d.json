@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "bobby.kitchens@srnl.doe.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Mesh2d is a Fortran90 program designed to generate two-dimensional structured grids of the form [x(i),y(i,j)] where [x,y] are grid coordinates identified by indices (i,j). The x(i) coordinates alone can be used to specify a one-dimensional grid. Because the x-coordinates vary only with the i index, a two-dimensional grid is composed in part of straight vertical lines. However, the nominally horizontal y(i,j0) coordinates along index i are permitted to undulate or otherwise vary. Mesh2d also assigns an integer material type to each grid cell, mtyp(i,j), in a user-specified manner. The complete grid is specified through three separate input files defining the x(i), y(i,j), and mtyp(i,j) variations.",
+    "homepageURL": "http://srnl.doe.gov/downloads/Mesh2d_distribution.zip",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran90 compiler / N/A"
+    ],
+    "name": "Mesh2d",
+    "organization": "Savannah River Site (SRS)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://srnl.doe.gov/downloads/Mesh2d_distribution.zip",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://srnl.doe.gov/downloads/Mesh2d_distribution.zip",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Savannah River Site (SRS)"
+    ]
+}

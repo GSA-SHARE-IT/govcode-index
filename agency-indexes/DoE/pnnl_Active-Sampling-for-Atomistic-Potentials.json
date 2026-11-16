@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This software contains a routine for active sampling of a DFT-generated dataset for training a neural network potential (SchNet). Major updates to the base SchNet code are also included to accommodate large systems (100s of atoms). We also provide code to apply the neural network potential in dynamic shear simulations.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/Active-Sampling-for-Atomistic-Potentials",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/Active-Sampling-for-Atomistic-Potentials",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-28",
+        "metadataLastUpdated": "2020-08-28"
+    },
+    "description": "This module provides a set of functions for work with regulatory motifs. These functions integrate capabilities of three predictive tools into KBase: MEME is a tool for discovering motifs in a group of related DNA or protein sequences; TOMTOM is a tool for comparison of an input DNA motif to the elements of a database of known motifs; MAST is a tool for searching biological sequence databases for occurencies of known motifs.",
+    "laborHours": 13239.2,
+    "languages": [],
+    "name": "Module MEME version 1.0",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/meme",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

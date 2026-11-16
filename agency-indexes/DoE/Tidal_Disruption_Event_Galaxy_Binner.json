@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-10-28",
+        "metadataLastUpdated": "2021-10-28"
+    },
+    "description": "This software simulates astronomical survey detections of tidal disruptions of stars by super-massive black holes. It begins with the synthetic galaxy catalogue described in van Velzen 2008 (https://arxiv.org/abs/1707.03458). The stellar disruption rate in each galaxy is estimated based on Stone & Metzger 2016 (https://arxiv.org/abs/1410.7772). Based on these rates, and the present-day stellar mass function in the galaxy, disruptions are randomly sampled, and the properties of the resulting flares are sampled based on empirical distributions. The code also accounts for obscuration by dust in the host galaxy. Finally, the survey selection effects are applied. The detectable simulated flares are stored in a database, allowing histograms of their properties to be created.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Tidal Disruption Event Galaxy Binner",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/nroth/tdegb",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

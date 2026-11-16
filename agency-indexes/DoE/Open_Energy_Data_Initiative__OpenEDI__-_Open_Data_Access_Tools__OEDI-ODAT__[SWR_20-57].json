@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-10-07",
+        "metadataLastUpdated": "2023-05-08"
+    },
+    "description": "Open Energy Data Initiative (OpenEDI): Advancing Analytics and Research Innovation through Improved Data Access. The Open Energy Data Initiative (OEDI) aims to improve and automate access of high-value energy data sets across the U.S. Department of Energy’s (DOE’s) programs, offices, and national laboratories. Sponsored by the DOE, this platform is being implemented by the National Renewable Energy Laboratory (NREL) to make data actionable and discoverable by researchers and industry to accelerate analysis and advance innovation. Partners at other national laboratories will help utilize the platform for analysis, can be directly involved in determining requirements, and will be resources for providing new datasets that can be shared with the public to expand innovation.",
+    "laborHours": 20322.4,
+    "languages": [
+        "Python",
+        "Dockerfile"
+    ],
+    "name": "Open Energy Data Initiative (OpenEDI) - Open Data Access Tools (OEDI-ODAT) [SWR 20-57]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/openEDI/open-data-access-tools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "v0.2.1"
+}

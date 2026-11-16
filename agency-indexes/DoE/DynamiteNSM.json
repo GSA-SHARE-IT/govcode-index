@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "oleg@dynamite.ai"
+    },
+    "date": {
+        "created": "2019-12-04",
+        "metadataLastUpdated": "2021-12-02"
+    },
+    "description": "DynamiteNSM is a free Network Security Monitor (NSM), built on top of several leading, enterprise-grade technologies. The tool provides network and cybersecurity operators with holistic insights into their networks while giving them the ability to deep-dive into lower-level activities. The solution presents powerful dashboards, giving comprehensive view into performance and threat-based metrics. Dynamite-NSM can be easily deployed in different environments including high-speed data centers, small-to-large enterprises, IoT & industrial networks, and even at home.\n\nDynamite-NSM handles massive volumes of network traffic through scalable ingestion and optimized network sensors. The solution includes two key components: the agent and the monitor. The agent analyzes and forwards network events, while the monitor processes incoming events and displays analytic information. The monitor component builds upon the OpenSearch stack and is coupled with network packet inspection by Zeek and Suricata. \n\nDynamite-NSM is designed to be deployed very quickly with minimal configuration. Unlike many other tools, it can be installed and managed with a standalone command-line utility. The system is inherently passive without disruption to the network. There is no need to install agents on every computer, perform network scans, or directly interact with network assets.",
+    "laborHours": 4620.8,
+    "languages": [],
+    "name": "DynamiteNSM",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/DynamiteAI/dynamite-nsm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

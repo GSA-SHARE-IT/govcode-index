@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2025-04-16",
+        "metadataLastUpdated": "2025-04-16"
+    },
+    "description": "This is the official code for the paper \"Double Visual Defense: Adversarial Pre-training and Instruction\nTuning for Improving Vision-Language Model Robustness\". This code can be used to produce vision\nlanguage models (VLMs), like LLaVA, with enhanced robustness to adversarial attacks (e.g. jailbreaks).",
+    "laborHours": 225188.0,
+    "languages": [],
+    "name": "Double Visual Defense",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/zw615/Double_Visual_Defense",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

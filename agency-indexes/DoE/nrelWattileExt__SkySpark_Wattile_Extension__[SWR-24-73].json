@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-06-14",
+        "metadataLastUpdated": "2024-09-16"
+    },
+    "description": "The NREL Wattile extension, nrelWattileExt, provides an interface between SkySpark, an energy management and analytics software, and Wattile, an NREL-developed Python package for probabilistic prediction of building energy consumption. Wattile models predict discrete quantiles of the probability distribution of a target quantity (typically energy consumption) using the historical time series data from one or more predictors (typically weather data). Within SkySpark, predictions from Wattile models can be used for measurement & verification of building performance, detection of energy anomalies, and fault detection.\n\nRelated to: https://github.com/NREL/Wattile",
+    "laborHours": 182.4,
+    "languages": [
+        "Dockerfile",
+        "Fantom"
+    ],
+    "name": "nrelWattileExt (SkySpark Wattile Extension) [SWR-24-73]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/nrelWattileExt",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

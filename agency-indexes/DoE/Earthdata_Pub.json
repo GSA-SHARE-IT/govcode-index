@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "wilsonbe@ornl.gov"
+    },
+    "date": {
+        "created": "2023-11-08",
+        "metadataLastUpdated": "2023-11-08"
+    },
+    "description": "Earthdata Pub is a toolset that provides forms and workflows so that a data producer can request archival of their NASA-funded data, NASA can determine which (if any) DAAC is appropriate to that data, and the selected DAAC can work with the data producer to get the data and metadata necessary for publication.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Earthdata Pub",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/eosdis-nasa/earthdata-pub",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

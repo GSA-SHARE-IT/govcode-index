@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "\"XTL Converter\" is a short Python script for electron microscopy simulation. The program takes an input crystal file in the VESTA *.XTL format and converts it to a text format readable by the multislice simulation program ìSTEM. The process of converting a crystal *.XTL file to the format used by the ìSTEM simulation program is quite tedious&#894; it generally requires the user to select dozens or hundreds of atoms, rearranging and reformatting their position. Header information must also be reformatted to a specific style to be read by ìSTEM. \"XTL Converter\" simplifies this process, saving the user time and allowing for easy batch processing of crystals.",
+    "laborHours": 136.8,
+    "name": "XTL Converter",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/stevenspurgeon/xtl-converter/blob/master/License",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/stevenspurgeon/xtl-converter",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

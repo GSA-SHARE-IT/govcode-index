@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2023-12-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "A multi-task neural network for the simultaneous identification of multiple compounds from XRD data obtained in a synchrotron-based hydrothermal fluid system. To enhance the alignment between the training and test datasets, random noise is introduced into the synthetic training dataset, and minor labeled experimental data is incorporated. Additionally, we employ a weighted cross-entropy loss function to address data imbalances and ensure smoother model training.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/mlxrd",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/mlxrd",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

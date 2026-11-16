@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2023-05-18",
+        "metadataLastUpdated": "2023-05-18"
+    },
+    "description": "The code is intended to take the data outputted by the MATPOWER OPF solver tools and restructures the data in a way that is best suited for machine learning. The variables are read and the desired values are taken and added to an array in the correct format. This array is then converted into a python array for future use. The code also utilizes MATPOWER's ability to construct different power flow scenarios and repeat them a chosen number of times. Each iteration will add a new line to the formatted array so that the final output is a matrix has a height equal to the number of repetition used.",
+    "laborHours": 0.0,
+    "languages": [
+        "Matlab Programming Language"
+    ],
+    "name": "Training Data Regarding Optimal Power Flow For Efficient Machine Learning",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/TROPFE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

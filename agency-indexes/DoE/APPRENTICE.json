@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-03-30",
+        "metadataLastUpdated": "2021-03-30"
+    },
+    "description": "SF-19-096 In this software, there are multiple approaches to compute approximations to multivariate functions. This includes: (a) an approach that builds on Stieltjes process to efficiently compute the coefficients of the rational approximation, (b) an approach that is based on an optimization formulation to get pole-free coefficients of the rational approximation and (c) approaches that finds the coefficients of rational and polynomial approximations by finding the linear \nleast-squares solution using singular value decomposition.\n\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "APPRENTICE",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/HEPonHPC/apprentice",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

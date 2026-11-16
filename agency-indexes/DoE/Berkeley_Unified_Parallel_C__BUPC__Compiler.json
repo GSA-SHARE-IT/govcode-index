@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-09-04",
+        "metadataLastUpdated": "2018-09-05"
+    },
+    "description": "This program is a portable, open-source, compiler for the UPC language. It is based on the Open64 framework and has extensive support for optimizations. This compiler operates by translating UPC into ANSI/ISO C for compilation by a native compiler and linking with the UPC Runtime Library. This design eases portability to both shared- and distributed-memory parallel architectures. For proper operation it requires the \"Berkeley Unified Parallel C (UPC) Runtime Library\" and its dependencies. \n",
+    "laborHours": 2197342.4,
+    "languages": [],
+    "name": "Berkeley Unified Parallel C (BUPC) Compiler",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/upc-translator",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

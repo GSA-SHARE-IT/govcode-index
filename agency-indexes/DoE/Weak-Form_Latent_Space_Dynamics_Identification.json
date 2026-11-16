@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-09-04",
+        "metadataLastUpdated": "2024-09-04"
+    },
+    "description": "This software showcases the enhanced capabilities of the Latent Space Dynamics Identification (LaSDI)\nalgorithm through the application of the weak form, resulting in WLaSDI. WLaSDI first compresses the\ndata, then projects it onto test functions, and subsequently learns the local latent space models. Notably,\nWLaSDI demonstrates significantly improved robustness to noise. Using weak-form equation learning\ntechniques, WLaSDI achieves local latent space modeling. Compared to the standard sparse\nidentification of nonlinear dynamics (SINDy) used in LaSDI, the variance reduction of the weak form\nensures robust and precise latent space recovery, enabling fast, robust, and accurate simulations.\nWe demonstrate the efficacy of WLaSDI against LaSDI using several common benchmark examples,\nincluding viscid and inviscid Burgers', radial advection, and heat conduction. For instance, in 1D inviscid\nBurgers' simulations with up to 100% Gaussian white noise, WLaSDI maintains relative errors\nconsistently below 6%, whereas LaSDI errors can exceed 10,000%. Similarly, in radial advection\nsimulations, WLaSDI keeps relative errors below 16%, compared to potential errors of up to 10,000% with\nLaSDI. Additionally, WLaSDI achieves significant speedups, such as a 140X speedup in 1D Burgers'\nsimulations compared to the corresponding full order model.",
+    "laborHours": 2690.4,
+    "languages": [],
+    "name": "Weak-Form Latent Space Dynamics Identification",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/MathBioCU/PyWLaSDI",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

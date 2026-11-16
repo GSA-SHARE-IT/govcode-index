@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-02",
+        "metadataLastUpdated": "2018-07-02"
+    },
+    "description": "Active Harmony provides software architecture that supports distributed execution of computational objects, and allows applications to be tuned with minimal changes to the application and library source code. It can be used to improve the performance of an application during execution taking into account observed performance. ",
+    "laborHours": 13619.2,
+    "languages": [],
+    "name": "Active Harmony",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ActiveHarmony/harmony",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

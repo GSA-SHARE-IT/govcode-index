@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-02",
+        "metadataLastUpdated": "2018-07-02"
+    },
+    "description": "ADIC is a tool for the automatic differentiation (AD) of programs written in ANSI C. Given the source code and a user's specification of dependent and independent variables, ADIC generates an augmented C code that computes the partial derivatives of all of the specified dependent variables with respect to all of the specified independent variables in addition to the original result. ",
+    "homepageURL": "http://www.mcs.anl.gov/research/projects/adic",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ADIC",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://www.mcs.anl.gov/research/projects/adic/register.htm",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://www.mcs.anl.gov/research/projects/adic",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ]
+}

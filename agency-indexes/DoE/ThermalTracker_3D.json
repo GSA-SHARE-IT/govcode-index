@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-04-07",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "ThermalTracker-3D is a stereo-vision solution for evaluating flight tracks of birds and bats around offshore wind turbines. Using a pair of thermal video cameras, the technology remotely senses movement of animals and objects, day and night, near critical assets. It generates motion tracks by collapsing a sequence of video frames from each camera into a single image that contains an entire flight track and then applies stereo-vision processing to transform the flight track into three dimensions. The approach allows tracking in near real time and automatically identifies moving objects based on features from the motion track and object size.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ThermalTracker 3D",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "version": "1"
+}

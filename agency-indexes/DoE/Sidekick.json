@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "oeschts@ornl.gov"
+    },
+    "date": {
+        "created": "2021-09-23",
+        "metadataLastUpdated": "2021-09-23"
+    },
+    "description": "To reduce hand/wrist pain from frequent computer use I decided to create a program that will convert voice to common keyboard/mouse actions in order to reduce clicks/keypresses. It is not intended to replace the keyboard and mouse, but rather to reduce their use, hence the name Sidekick. Sidekick handles transcription, mouse movement/click/wheel, and common commands.\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Sidekick",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/agpl-3.0",
+                "name": "AGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/oeschsec/Sidekick---voice-controlled-keyboard-and-mouse",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

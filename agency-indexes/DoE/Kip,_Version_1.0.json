@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-09-04",
+        "metadataLastUpdated": "2018-09-04"
+    },
+    "description": "This high-performance ray tracing library provides very fast rendering, compact code, type flexibility via C++ 'generic programming' techniques, and ease of use through an application programming interface (API) that functions independently of any GUI, on-screen display, or other enclosing application. Kip supports constructive solid geometry models based on any of several built-in shapes and operators and allows for new, user-defined shapes and operators. Additional features include basic texturing, input/output of models using a simple human-readable file format with full error checking and detailed diagnostics, and support for shared data parallelism. Kip is written in pure, ANSI Standard C++, is entirely platform independent, and is very easy to use, as it requires no build system, configuration or installation scripts, wizards, special preprocessing, makefiles, or external libraries.",
+    "laborHours": 10001.6,
+    "languages": [],
+    "name": "Kip, Version 1.0",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/staleyLANL/kip",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

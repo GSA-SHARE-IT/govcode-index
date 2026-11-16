@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "junghans@lanl.gov"
+    },
+    "date": {
+        "created": "2018-02-08",
+        "metadataLastUpdated": "2020-12-15"
+    },
+    "description": "set of computational science infrastructure tools designed to aid in the implementation of multi-physics application development",
+    "laborHours": 38668.8,
+    "languages": [],
+    "name": "flecsi",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/laristra/flecsi",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

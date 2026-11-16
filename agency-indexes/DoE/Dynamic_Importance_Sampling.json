@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-12-16",
+        "metadataLastUpdated": "2020-12-16"
+    },
+    "description": "Dynamic Importance (DynIm) Sampling is a new approach for importance sampling in high-dimensional space. DynIm has two key characteristics. (1) Importance sampling: The notion of importance of candidate samples is used to guide the sampling, where importance is defined based on the (dis)similarity from previously selected samples (via Euclidean distance metric). (2) Dynamic sampling: The sampling can be performed dynamically, as new candidates are generated and new samples must be selected.\nDynIm was developed as part of a machine learning based coupling of scales in large multiscale simulations and can be used for a variety of applications.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Dynamic Importance Sampling",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/dynim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

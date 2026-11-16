@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-10-01",
+        "metadataLastUpdated": "2019-10-02"
+    },
+    "description": "The BEDES Manager is a web-based application for archiving, searching, and editing BEDES terms and mapping them to terms in user applications. BEDES is a standard data dictionary for building energy related terms.\nThe BEDES Manager can be used in the following ways:\n- Search for BEDES terms, including composite terms.\n- Create new composite terms for use in application mappings.\n- Create, manage and export application mappings.",
+    "laborHours": 62335.2,
+    "languages": [],
+    "name": "BEDES Mapping Manager v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/BEDES-Manager",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

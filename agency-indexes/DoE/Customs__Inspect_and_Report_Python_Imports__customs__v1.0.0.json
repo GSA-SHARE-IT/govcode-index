@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-06",
+        "metadataLastUpdated": "2021-06-15"
+    },
+    "description": "We have developed a simple, minimally invasive monitoring framework that enables us to capture key metrics from Python user processes. This is part of a larger effort to collect data across our entire data-intensive science workload at NERSC. The approach for Python is inspired by a similar framework developed for Blue Waters at NCSA. Both frameworks leverage standard Python features, sitecustomize and atexit, to capture Python imports of interest and other job data. The customs package decomposes the information capture into separate inspection and reporting interfaces.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Customs: Inspect and Report Python Imports (customs) v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NERSC/customs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "v1"
+}

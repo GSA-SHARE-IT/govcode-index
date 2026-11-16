@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-12-23",
+        "lastModified": "2026-11-03"
+    },
+    "description": "An Ansible role for installing an assessment tool from an archive (zip or tar)",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-assessment-tool/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-assessment-tool",
+    "laborHours": 1233.2,
+    "languages": [
+        "Shell",
+        "Python",
+        "Jinja"
+    ],
+    "name": "ansible-role-assessment-tool",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-assessment-tool.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

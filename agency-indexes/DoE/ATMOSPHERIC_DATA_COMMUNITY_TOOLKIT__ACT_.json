@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-07-26",
+        "metadataLastUpdated": "2019-07-29"
+    },
+    "description": "The scientific community performs a lot of redundant work when working with data. Researches tend to write their own code to perform basic functions for reading, visualizing, and analyzing the data. This strategy is unnecessarily time consuming, and potentially costly, for the individual researcher (as well as for programs). Open-source software disrupts that process and moves the development effort toward capabilities that can be used by the broader scientific community. The broader scientific community can then, in turn, contribute to and collaborate on efforts to improve the process for the individual researcher and program. Researchers will be able to do more science with fewer resources without the burden of developing code from the ground up. For any software to be adopted by a community, it needs to have a solid framework that will be easy to use and provide clear benefit worthy of the investment in participating. In support of this goal, our Atmospheric Data Community Toolkit will leverage the knowledge gained from the successful adoption of the Python Atmospheric Radiation Measurement User Facility Radar Toolkit (Py-ART) to build that framework. The framework will provide the environment to enable collaboration in the research community. This environment will allow the development of tools for funded programs, as well as provide researchers in the scientific community with code for advancing their work. Research programs will also be able to adopt code provided by the scientific community without having to develop it from scratch. The final goal of this proposed effort is to have a framework on GitHub that has the basic features that the atmospheric research community needs to begin working with and adopting, including, but not limited to, reading and visualization. We expect future effort will be needed for Argonne scientists to demonstrate their specific capabilities within this framework. This project will provide an avenue for other proposed research to be demonstrated, such as the Global Oceans/Argonne proposed Atmospheric Instrumentation Suite; edge computing National Science Foundation proposed effort; and the Computing, Environment, and Life Sciences Directorate's strategic effort on the Southern Great Plains climate observation site relating to water across the surface interface. ",
+    "laborHours": 3784.8,
+    "languages": [],
+    "name": "ATMOSPHERIC DATA COMMUNITY TOOLKIT (ACT)",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ANL-DIGR/ACT",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

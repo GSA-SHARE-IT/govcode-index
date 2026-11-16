@@ -1,0 +1,33 @@
+{
+    "name": "USEPA/camd-eia-crosswalk",
+    "organization": "usepa",
+    "description": "A data crosswalk to integrate U.S. power sector emission and operation data from EPA to EIA",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/camd-eia-crosswalk/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/camd-eia-crosswalk",
+    "downloadURL": "https://github.com/USEPA/camd-eia-crosswalk/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/camd-eia-crosswalk/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/camd-eia-crosswalk.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2020-08-24T19:36:44Z",
+        "lastModified": "2025-10-09T14:10:06Z",
+        "metadataLastUpdated": "2026-11-16T06:39:58.533Z"
+    }
+}

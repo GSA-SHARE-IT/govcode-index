@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-09-10",
+        "metadataLastUpdated": "2021-09-24"
+    },
+    "description": "dbprocessing is a python framework for automating data processing pipelines. The dbprocessing package uses a configuration file to define the input, intermediate, and output data products for a particular data type as well as the processes that connect those data products. In addition, dbprocessing uses python scripts called inspectors to determine if a particular file matches a configured data product. If a particular data product is found, it is ingested into the dbprocessing database (sqlite3 or postgres) which then triggers all of the chained processes to the final data product. While the framework is written in python, it can run software in any language but may require a “wrapper” to translate the dbprocessing command line arguments to the form expected by the software.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "dbprocessing",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/dbprocessing",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

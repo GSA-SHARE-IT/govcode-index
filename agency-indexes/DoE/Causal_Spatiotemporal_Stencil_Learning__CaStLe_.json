@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2024-09-25",
+        "metadataLastUpdated": "2024-09-25"
+    },
+    "description": "SAND2024-12627O\nCausal Spatiotemporal Stencil Learning (CaStLe) is an algorithm for enabling spatiotemporal causal discovery of local dynamics on regularly gridded datasets. CaStLe computes causal graphs over a grid depicting local spatiotemporal causal dependence between neighboring grid cells. It first projects the given gridded spatiotemporal data to a 3x3 reduced coordinate space, in which each grid is represented by a time series that contains the generalized causal dependence between neighboring cells. Then, it augments a given causal discovery algorithm to identify the causal parents of the center cell in the reduced 3x3 space in the Parent Identification Phase (PIP). The result of the PIP is called a stencil. Finally, the algorithm expands the stencil to represent the original grid space.",
+    "homepageURL": "https://ip.sandia.gov",
+    "laborHours": 0.0,
+    "languages": [
+        "Python 3"
+    ],
+    "name": "Causal Spatiotemporal Stencil Learning (CaStLe)",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "version": "0.1"
+}

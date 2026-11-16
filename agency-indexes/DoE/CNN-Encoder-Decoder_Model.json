@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "tkonstant@bnl.gov"
+    },
+    "date": {
+        "created": "2021-07-04",
+        "metadataLastUpdated": "2021-07-05"
+    },
+    "description": "Code and data for training CNN-Encoder-Decoder model described in the publication 'Noise reduction in X-ray photon correlation spectroscopy with convolutional neural networks encoder-decoder models.'",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "CNN-Encoder-Decoder Model",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/bnl/CNN-Encoder-Decoder",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

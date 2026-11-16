@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "krhodges@illinois.edu"
+    },
+    "date": {
+        "created": "2024-11-14",
+        "metadataLastUpdated": "2024-11-14"
+    },
+    "description": "The parameterization of kinetic models requires measurement of fluxes and/or metabolite levels for a base strain and a few genetic perturbations thereof. Unlike stoichiometric models that are mostly invariant to the specific strain, it remains unclear whether kinetic models constructed for different strains of the same species have similar or significantly different kinetic parameters. This important question underpins the applicability range and prediction limits of kinetic reconstructions. To this end, herein we parameterize two separate large-scale kinetic models using K-FIT with genome-wide coverage corresponding to two distinct strains of Saccharomyces cerevisiae: CEN.PK 113-7D strain (model k-sacce306-CENPK), and growth-deficient BY4741 (isogenic to S288c; model k-sacce306-BY4741). The metabolic network for each model contains 306 reactions, 230 metabolites, and 119 substrate-level regulatory interactions. The two models (for CEN.PK and BY4741) recapitulate, within one standard deviation, 77% and 75% of the fitted dataset fluxes, respectively, determined by 13C metabolic flux analysis for wild-type and eight single-gene knockout mutants of each strain. Strain-specific kinetic parameterization results indicate that key enzymes in the TCA cycle, glycolysis, and arginine and proline metabolism drive the metabolic differences between these two strains of S. cerevisiae. Our results suggest that although kinetic models cannot be readily used across strains as stoichiometric models, they can capture species-specific information through the kinetic parameterization process.",
+    "laborHours": 24441.6,
+    "languages": [],
+    "name": "maranasgroup/yeastsMFA",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/maranasgroup/yeastsMFA",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

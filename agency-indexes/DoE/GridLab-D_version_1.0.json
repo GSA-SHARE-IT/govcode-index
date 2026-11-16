@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "A power system simulation that runs on all major platforms, provides open access to all functionality, and supports extended modeling of non-traditional components of the electric power system, such as buildings, distributed resources, and markets. GridLAB-D solution engine can determine the simultaneous state of millions of independent devices, each of which is described by multiple differential equations solved only locally for both state and time. The advantages of this algorithm over traditional finite difference-based simulators are: (1) it is much more accurate; (2) it can handle widely disparate time scales, ranging from sub-seconds to many years; and 3) it is easy to integrate with new modules and third-party systems. The advantage over traditional differential-based solvers is that it is not necessary to integrate all the device's behaviors into a single set of equations that must be solved.",
+    "laborHours": 252776.0,
+    "name": "GridLab-D version 1.0",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/gridlab-d/gridlab-d/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/gridlab-d/gridlab-d",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

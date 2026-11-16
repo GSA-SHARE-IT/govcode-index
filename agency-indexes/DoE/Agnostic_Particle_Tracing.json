@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-07-15",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "Ray tracing and ray casting have been extensively studied by the graphics and visualization community to create images. Many different algorithms as well as optimizations techniques have been developed to help speed up these two techniques and make best use of different hardware. However, ray tracing and ray casting can also be used for scientific purposes. While graphics applications focus on photon interactions, scientific application will also monitor the interaction of photons, electrons, neutrons, alpha particles, and other particles. For example, ray casting can be used in cosmology to study the re-ionization of the early universe where ultraviolet photons broke atoms apart and ray tracing of ions can be used to study mass spectography. For this project, the aim is to investigate how techniques, frameworks, algorithms, optimizations, ... developed by the graphics community could be modified and applied to solve scientific problems requiring the tracing of different particles.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Agnostic Particle Tracing",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

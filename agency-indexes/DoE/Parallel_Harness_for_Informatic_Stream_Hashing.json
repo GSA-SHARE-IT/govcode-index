@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "PHISH is a lightweight framework which a set of independent processes can use to exchange data as they run on the same desktop machine, on processors of a parallel machine, or on different machines across a network. This enables them to work in a coordinated parallel fashion to perform computations on either streaming, archived, or self-generated data. The PHISH distribution includes a simple, portable library for performing data exchanges in useful patterns either via MPI message-passing or ZMQ sockets. PHISH input scripts are used to describe a data-processing algorithm, and additional tools provided in the PHISH distribution convert the script into a form that can be launched as a parallel job.",
+    "laborHours": 6733.6,
+    "languages": [
+        "C++",
+        "C",
+        "CMake",
+        "Makefile",
+        "Ring",
+        "Edge",
+        "Python"
+    ],
+    "name": "Parallel Harness for Informatic Stream Hashing",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/phish",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

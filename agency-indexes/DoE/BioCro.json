@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "yunl68@illinois.edu"
+    },
+    "date": {
+        "created": "2020-09-29",
+        "metadataLastUpdated": "2020-09-29"
+    },
+    "description": "BioCro is a model that predicts plant growth over time given crop-specific parameters and environmental data as input.\n\nIt uses models of key physiological and biophysical processes underlying plant growth (Humphries and Long, 1995), and has previously been used for predicting biomass yield and leaf area index of switchgrass, miscanthus, sugarcane and willow (Miguez et al., 2009; Jaiswal et al. 2017).\n\nThe latest version has been redesigned to closely represent a dynamical system, which makes it easier to implement new crops  and provides more accurate simulations. Parameters to model energy sorghum have also been added.",
+    "laborHours": 10913.6,
+    "languages": [],
+    "name": "BioCro",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ebimodeling/biocro/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ebimodeling/biocro",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

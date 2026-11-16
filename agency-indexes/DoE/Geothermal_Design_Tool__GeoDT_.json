@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-03-11",
+        "metadataLastUpdated": "2022-03-11"
+    },
+    "description": "Advanced high-fidelity modelling capabilities are available to evaluate hydraulic fracture growth, fluid flow in fracture networks, fluid-rock heat and mass transfer, geomechanical coupling, geochemical coupling, and electrical power production. While all these components must be considered to design geothermal wells and well fields, as of yet, no models couple all these processes efficiently enough for timely making during ongoing projects. Here we present a new modelling tool to inform rapid decision making for well design, drilling, and operation in fracture-dominated geothermal systems. This new tool, which we call the Geothermal Design Tool (GeoDT), evaluates 3D well placement, natural and hydraulic fracture stimulation by fluid injection, induced seismicity risk, long term flow behavior, heat transfer to flowing fluid over time, and transient electrical power production. Instead of using only first-principles and the common simplifying assumptions that are typical of high-fidelity models, this model is based more on experiment derived scaling relations that, by their nature, include the effect of multi-scale complex effects. This approach helps to avoid misleading simplifications while, at the same time, including small-scale complexities that are often too cumbersome or ill-defined to directly include in higher-fidelity models. The final product is a tool that can model 20 years of dynamic geothermal fluid production from a stimulated fracture dominated systems in seconds using a desktop computer.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Geothermal Design Tool (GeoDT)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

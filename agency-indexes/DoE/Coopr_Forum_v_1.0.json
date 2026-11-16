@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "SNL Coopr Forum is a set of Python routines that provide extensions to the Coopr optimization software. This software augments the open-source Coopr project to provide a more comprehensive capability for formulating and solving optimization applications.Optimization is a common analysis tool used in engineering design and scientific discovery. The SNL Coopr Forum software augments the Coopr Forum open source project to provide extensions of the Coopr optimization framework. Specifically, Coopr Forum provides plugin tools that allow Coopr to apply different optimization solvers, manage optimization solvers in a distributed manner, and to process input and output files. Thus, Coopr Forum is comprised of a variety of distinct software components, each of which provides a different capability that can be used within Coopr.",
+    "laborHours": 314837.6,
+    "name": "Coopr Forum v 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Pyomo/pyomo",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-02",
+        "metadataLastUpdated": "2021-07-02"
+    },
+    "description": "Alignment of replicate time series can be useful for identifying shared but time-warps behavior in time series data such as monitoring temperature or network communication patterns for cyberphysical systems. This learning of common behavior is a first step for identifying abnormal behavior such as intrusion or anomalies. We developed the alignts R package to provide an R implementation of Listgarten (2004) with advancements described in Grosskopf (submitted 2021). The package is programmed in R and Fortran 95 with OpenMP support. The package includes functions for aligning a collection of nominally replicate time series, making forecast predictions of future states conditioned on the current data, and carrying out particle filtering for estimating uncertainty in the state of the system in an on-line data collection environment. ",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "alignts",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

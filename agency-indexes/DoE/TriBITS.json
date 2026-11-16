@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-18",
+        "metadataLastUpdated": "2020-05-18"
+    },
+    "description": "The Tribal Build, Integrate, and Test System (TriBITS) is a framework designed to handle large software development projects involving multiple independent development teams and multiple source repositories which is built on top of the open-source CMake set of tools. TriBITS also defines a complete software development, testing, and deployment system supporting processes consistent with modern agile software development best practices.",
+    "laborHours": 82703.2,
+    "languages": [],
+    "name": "TriBITS",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/TriBITSPub/TriBITS/blob/master/tribits/Copyright.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/tribitspub/tribits",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

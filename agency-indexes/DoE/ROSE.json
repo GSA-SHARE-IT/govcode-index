@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-13",
+        "metadataLastUpdated": "2020-06-01"
+    },
+    "description": "ROSE is a compiler infrastructure that builds source-to-source program transformation for a variety of programming languages. These transformations can be used for static analysis, program optimization, performance analysis, and cyber-security purposes. ",
+    "laborHours": 5605912.0,
+    "languages": [],
+    "name": "ROSE",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/rose-compiler/rose/blob/master/LicenseInformation/ROSE_BSD_License.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/rose-compiler/rose",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

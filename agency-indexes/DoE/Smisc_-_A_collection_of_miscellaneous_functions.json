@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "A collection of functions for statistical computing and data manipulation. These include routines for rapidly aggregating heterogeneous matrices, manipulating file names, loading R objects, sourcing multiple R files, formatting datetimes, multi-core parallel computing, stream editing, specialized plotting, etc. Smisc-package A collection of miscellaneous functions allMissing Identifies missing rows or columns in a data frame or matrix as.numericSilent Silent wrapper for coercing a vector to numeric comboList Produces all possible combinations of a set of linear model predictors cumMax Computes the maximum of the vector up to the current index cumsumNA Computes the cummulative sum of a vector without propogating NAs d2binom Probability functions for the sum of two independent binomials dataIn A flexible way to import data into R. dbb The Beta-Binomial Distribution df2list Row-wise conversion of a data frame to a list dfplapply Parallelized single row processing of a data frame dframeEquiv Examines the equivalence of two dataframes or matrices dkbinom Probability functions for the sum of k independent binomials factor2character Converts all factor variables in a dataframe to character variables findDepMat Identify linearly dependent rows or columns in a matrix formatDT Converts date or datetime strings into alternate formats getExtension Filename manipulations: remove the extension or path, extract the extension or path getPath Filename manipulations: remove the extension or path, extract the extension or path grabLast Filename manipulations: remove the extension or path, extract the extension or path ifelse1 Non-vectorized version of ifelse integ Simple numerical integration routine interactionPlot Two-way Interaction Plot with Error Bar linearMap Linear mapping of a numerical vector or scalar list2df Convert a list to a data frame loadObject Loads and returns the object(s) in an \".Rdata\" file more Display the contents of a file to the R terminal movAvg2 Calculate the moving average using a 2-sided window openDevice Opens a graphics device based on the filename extension p2binom Probability functions for the sum of two independent binomials padZero Pad a vector of numbers with zeros parseJob Parses a collection of elements into (almost) equal sized groups pbb The Beta-Binomial Distribution pcbinom A continuous version of the binomial cdf pkbinom Probability functions for the sum of k independent binomials plapply Simple parallelization of lapply plotFun Plot one or more functions on a single plot PowerData An example of power data pvar Prints the name and value of one or more objects qbb The Beta-Binomial Distribution rbb And numerous others (space limits reporting).",
+    "laborHours": 2568.8,
+    "name": "Smisc - A collection of miscellaneous functions",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/pnnl/Smisc/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/Smisc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

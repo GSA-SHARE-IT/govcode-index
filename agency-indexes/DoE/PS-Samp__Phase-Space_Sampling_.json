@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2021-11-10",
+        "metadataLastUpdated": "2022-01-28"
+    },
+    "description": "PS-Samp is a software that reduces a given dataset by pruning data. Data is downselected such that it uniformly spans the phase-space, thereby ensuring that the full dataset is correctly represented. The algorithm relies on estimating the probability map of the data and using it to construct an acceptance probability. The software is designed to handle very large data sets.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "PS-Samp (Phase-Space Sampling)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/Phase-space-sampling",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

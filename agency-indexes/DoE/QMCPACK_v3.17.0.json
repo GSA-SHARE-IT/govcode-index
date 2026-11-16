@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "kentpr@ornl.gov"
+    },
+    "date": {
+        "created": "2024-03-15",
+        "metadataLastUpdated": "2024-03-19"
+    },
+    "description": "QMCPACK is an open-source production level many-body ab initio Quantum Monte Carlo code for computing the electronic structure of atoms, molecules, and solids with full performance portable GPU support.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++17"
+    ],
+    "name": "QMCPACK v3.17.0",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/QMCPACK/qmcpack?tab=License-1-ov-file#readme",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/QMCPACK/qmcpack/releases/tag/v3.17.0",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "v3.17.0"
+}

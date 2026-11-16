@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-21",
+        "metadataLastUpdated": "2024-06-26"
+    },
+    "description": "The Inventory of Composable Elements (ICE) is an open source registry software platform for managing information about biological parts. It is capable of recording information about plasmids, microbial host strains and seeds, as well as DNA parts. Includes features such as DNA sequence visualization, editing and annotation, auto-aligning sequencing trace files against reference templates, SBOL XML/RDF support, and web-of-registries functionality. The web of registries functionality provides strong support for distributed interconnected use and enables sharing and transfer of biological parts across various independent ICE instances. ICE adopts modern software development principles, leveraging component-base frameworks, offering a REST API for convenient third-party integration and emphasizing scalability, security, and service integrations for dynamic content availability. The source code is hosted at https://github.com/JBEI/ice. A public instance is available at public-registry.jbei.org, where users can try out features, upload parts or simply use it for their projects.",
+    "laborHours": 45037.6,
+    "languages": [],
+    "name": "Inventory of Composable Elements (ICE) v6.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/JBEI/ice",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2018-01-23",
+        "metadataLastUpdated": "2019-07-30"
+    },
+    "description": "PIVAuth provides a key based OpenSSH authentication method for use with SmartCards, HSPD-12, PIV, CAC, and similar credentials that support PKCS11.  PIVAuth validates the x509 client certificate chain of trust and revocation status on each authenticiation attempt before converting he certificate into a format that Open SSH can make use of.  PIVAuth makes use of Bash shell code andi ndustry standard utilities like OpenSSL and OpenLDAP/  It aims to be audit friendly, and easily understood by any Linux administrator.",
+    "laborHours": 167.2,
+    "languages": [],
+    "name": "PIVAuth",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/bensallen/pivauth",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

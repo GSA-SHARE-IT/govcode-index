@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-10-30",
+        "metadataLastUpdated": "2019-10-30"
+    },
+    "description": "Pairwise sequence alignment is one of the most compute-intense challenges for the analysis of genomics data and it can account for more than 90% of the runtime depending on the application. Despite the effort to reduce the computational cost introducing heuristics such as banded and x-drop alignment, the performance of state-of-the-art software is often unsatisfactory for long sequences. Recent advances in single-molecule sequencing technologies keep increasing the length of the sequences to align at the cost of higher error rates b ranging from 5% to 15% b, emphasizing the need for fast and accurate software.\n\nOur long-read alignment software, named Xavier, computes high-performance x-drop adaptive banded pairwise alignment exploiting instruction-level parallelism via Single-Instruction-Multiple-Data (SIMD) operations. Xavier uses a narrow bandwidth that appreciably improves performance reducing the search space for the optimal alignment. In our experiment, the adaptive mechanism enables Xavier to find the optimal alignment between related sequences even when the error rate is as high as 50%. Xavier achieves speed-up up to 5X over competitor software when enabling the x-drop termination and up to 415X when disabling it, with negligible accuracy loss.",
+    "laborHours": 456.0,
+    "languages": [],
+    "name": "Xavier: High-Performance X-Drop Adaptive Banded Pairwise Alignment (Xavier) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/giuliaguidi/xavier",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-03-20",
+        "metadataLastUpdated": "2018-03-21"
+    },
+    "description": "AMPE is a phase-field code. It evolves in time the Allen-Cahn equations associated with a phase­field model, coupled with the time-evolution of a composition field (in an alloy) and a temperature field which are described by diffusion equations. It can also solve the elasticity equations assuming mechanical equilibrium at every time-step. Grain orientations are described by normalized quaternions which also evolve in time according to Allen-Cahn type equations. ",
+    "laborHours": 58976.0,
+    "name": "AMPE",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/AMPE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

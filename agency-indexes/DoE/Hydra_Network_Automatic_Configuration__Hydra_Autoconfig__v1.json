@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-08",
+        "metadataLastUpdated": "2021-05-13"
+    },
+    "description": "Hydra Autoconfig is an algorithm and software program to automatically configure a resilient network of independent ASICs that are capable of being connected as a Hydra network. The Hydra network itself is described in an invention disclosure titled: \"Ad-Hoc Networks of Readout ASICs for Reliable Detector Instrumentation\" (2020-091). The Hydra Autoconfig software works by first configuring a Hydra node. Then it recursively builds a Hydra network by attempting to link to each available upstream node in succession, keeping links that are verified. It then repeats on each newly generated node until no possible links remain. Once it is so configured, a reliable Hydra network of ASICs remains that can be reconfigured later to respond to damage or malfunction of one or more of the constituent ASICs.",
+    "homepageURL": "https://sites.google.com/lbl.gov/hydra2020-132/landing-page",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Hydra Network Automatic Configuration (Hydra Autoconfig) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://sites.google.com/lbl.gov/hydra2020-132/landing-page",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "krhodges@illinois.edu"
+    },
+    "date": {
+        "created": "2024-11-04",
+        "metadataLastUpdated": "2024-11-04"
+    },
+    "description": "A dynamic systems model of C4 photosynthesis was developed based on the previous NADP-ME metabolic model for maize (Wang et al., 2014 ab). The NADP-ME metabolic model is an ordinary differential equation model including all individual steps in C4 photosynthetic carbon metabolism. Here, the model is extended to include posttranslational regulation and temperature response of enzyme activities, dynamic stomata conductance, and leaf energy balance. This model is written in Matlab (R2019a)\n\nSteady-state and dynamic gas exchange data for maize (B73), sugarcane (CP88-1762) and sorghum (Tx430) were measured in a greenhouse in Urbana, IL from July 25, 2019 through August 8, 2019. Data include:\n\nCO2 response curves\nLight response curves\nPhotosynthetic induction curves measured in the transition from darkness to high light (1800 μmol m-2 s-1), data logged every 1 min.\nPhotosynthetic induction in the transition from darkness to high light (1800 μmol m-2 s-1) to determine the kinetics of rubisco activation in these C4 crops (τ_Rubisco), data logged every 10 s.\nGas exchange under fluctuating light. After dark adaptation, the leaves undergo three light change steps, light intensity was set as 1800 µmol m-2 s-1, 200 µmol m-2 s-1 and 1800 µmol m-2 s-1 for each 1800 s step.",
+    "laborHours": 1261.6,
+    "languages": [],
+    "name": "yuwangcn/C4_dynamic_model",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/yuwangcn/C4_dynamic_model",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

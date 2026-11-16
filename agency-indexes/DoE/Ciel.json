@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2023-05-08",
+        "metadataLastUpdated": "2023-05-08"
+    },
+    "description": "Compiler optimizations can alter the numerical results of scientific computing applications. When numerical results differ significantly between compilers, optimization levels, and floating-point hardware, these numerical inconsistencies can impact programming productivity. Ciel is a framework that helps programmers identify locations in the source code that are affected by compiler optimizations in CPU and GPU code. Ciel uses a floating-point precision enhancement strategy, guided by a recursive bisection search algorithm with increasing search granularity, to identify the program expressions that induce numerical inconsistencies due to compiler optimizations.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Ciel",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/Ciel",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

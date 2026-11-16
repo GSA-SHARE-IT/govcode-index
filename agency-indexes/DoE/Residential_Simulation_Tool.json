@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "Residential Simulation Tool was developed to understand the impact of residential load consumption on utilities including the role of demand response. This is complicated as many different residential loads exist and are utilized for different purposes. The tool models human behavior and contributes this to load utilization, which contributes to the electrical consumption prediction by the tool. The tool integrates a number of different databases from Department of Energy and other Government websites to support the load consumption prediction.",
+    "laborHours": 8694.4,
+    "languages": [
+        "Matlab"
+    ],
+    "name": "Residential Simulation Tool",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/starkemr/Residential-Simulation-Tool/blob/master/LICENSE.md/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/starkemr/Residential-Simulation-Tool",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

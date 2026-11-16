@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-10-28",
+        "metadataLastUpdated": "2021-10-28"
+    },
+    "description": "The Model for Prediction Across Scales-Seaice (MPAS-Seaice) is an unstructured-mesh sea ice model (sea ice is the frozen surface of the sea at high latitudes) capable of using enhanced horizontal resolution in selected regions of the sea-ice domain. The model has the capability to perform high-resolution regional simulations without the need for lateral boundary conditions. MPAS-Seaice solves equations describing both the dynamics and thermodynamics of sea ice. For dynamics, MPAS-Seaice solves a momentum equations describing the balance between air and ocean surface stresses, inertia, Coriolis and sea surface tilt forces, and ice internal stresses, to determine the sea-ice velocity. This velocity is used in a transport scheme to advect mass and tracer variables. In the vertical direction, among other processes, freezing of sea-water and ice and snow melt are determined, as is the internal temperature and salinity of the ice. As external forcing, MPAS-Seaice uses wind and ocean current velocities, air and ocean temperatures and atmospheric radiation fluxes.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Model for Prediction Across Scales - Sea ice (MPAS-Seaice)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/MPAS-Dev/MPAS-Model",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

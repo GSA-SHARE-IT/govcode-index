@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-11-11",
+        "metadataLastUpdated": "2024-08-07"
+    },
+    "description": "This work presents a method of performing PARAFAC2 factorization of a three-way data using a compact representation of the data.  The data are decomposed into a core matrix and sets of orthogonal loading matrices.  The algorithm is particularly useful for very large data sets and essentially permits imposition of nonnegativity in all three modes. SAND2019-10097 M\n\nSandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 91.2,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "CANDELINC2",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/CANDELINC2",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

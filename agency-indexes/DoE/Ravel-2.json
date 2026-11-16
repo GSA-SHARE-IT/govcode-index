@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-30",
+        "metadataLastUpdated": "2018-07-30"
+    },
+    "description": "Ravel is a trace visualization tool for MPI with recent experimental support for Charm++. Ravel is unique in that it shows not only physical timelines, but also logical ones structured to better capture the intended organization of communication operations. Ravel calculates logical structure from Open Trace Format or Charm++ Projections logs and presents the results using multiple coordinated views.\n",
+    "laborHours": 12555.2,
+    "languages": [],
+    "name": "Ravel",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ravel",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

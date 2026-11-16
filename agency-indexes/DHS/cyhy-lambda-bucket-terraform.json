@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2023-08-31",
+        "lastModified": "2026-04-09"
+    },
+    "description": "Terraform code to create an S3 bucket to store AWS Lambda deployment artifacts in a CyHy environment.",
+    "downloadURL": "https://api.github.com/repos/cisagov/cyhy-lambda-bucket-terraform/downloads",
+    "homepageURL": "https://github.com/cisagov/cyhy-lambda-bucket-terraform",
+    "laborHours": 639.9,
+    "languages": [
+        "Shell",
+        "HCL"
+    ],
+    "name": "cyhy-lambda-bucket-terraform",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/cyhy-lambda-bucket-terraform.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

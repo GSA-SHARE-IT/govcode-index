@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-09-25",
+        "metadataLastUpdated": "2020-09-25"
+    },
+    "description": "ATS is a Python-language program for automating test suites for software programs that do not interact with thier users, such as scripted scientific simulations. ATS features a decentralized approach especially suited to larger projects. In its multinode mode it can utilize many nodes of a cluster in order to do many test in parallel. It has features for submitting longer-running tests to a batch system and would have to be customized for use elsewhere.",
+    "homepageURL": "https://sourceforge.net/projects/ats-automatedtestingsystem",
+    "laborHours": 4544.8,
+    "languages": [
+        "None"
+    ],
+    "name": "Automated Testing System",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sourceforge.net/projects/ats-automatedtestingsystem",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

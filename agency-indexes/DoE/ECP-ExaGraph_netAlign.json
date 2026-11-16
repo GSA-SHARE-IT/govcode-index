@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-11-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "We investigate substituting a parallel, half-approximation for maximum weight matching instead of an exact computation. Our experiments show that the resulting difference in solution quality is negligible. We demonstrate almost a 20-fold speedup using 40 threads on an 8 processor Intel Xeon E7-8870 system and now solve real-world problems in 36 seconds instead of 10 minutes",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ECP-ExaGraph/netAlign",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ECP-ExaGraph/netAlign",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

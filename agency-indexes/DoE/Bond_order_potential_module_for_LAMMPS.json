@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "pair_bop is a module for performing energy calculations using the Bond Order Potential (BOP) for use in the parallel molecular dynamics code LAMMPS. The bop pair style computes BOP based upon quantum mechanical incorporating both sigma and pi bondings. By analytically deriving the BOP pair bop from quantum mechanical theory its transferability to different phases can approach that of quantum mechanical methods. This potential is extremely effective at modeling 111-V and II-VI compounds such as GaAs and CdTe. This potential is similar to the original BOP developed by Pettifor and later updated by Murdock et al. and Ward et al.",
+    "laborHours": 1281025.6,
+    "name": "Bond order potential module for LAMMPS",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lammps/lammps",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

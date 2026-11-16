@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "sku@pppl.gov"
+    },
+    "date": {
+        "created": "2018-06-27",
+        "metadataLastUpdated": "2021-04-13"
+    },
+    "description": "XGC (X-point included gyrokinetic code), Version 3 Primary Author: Seunghoe Ku (PPPL, sku@pppl.gov), Robert Hager (PPPL, rhager@pppl.gov) 31 July 2017 XGC is a gyrokinetic particle-in-cell code, which is sepeciallized in tokamak edge simulatin. The simulation domain can include the magnetic separatrix, magnetic axis and the biased material wall. XGC can run in full-f, total-delta-f, and conventional delta-f mode. The ion is kinetic always except ETG simulation. The electron can be adiabatic, fluid, drift kinetic, or gyrokinetic (for ETG). XGC is written in Fortran 90 and is designed for HPCs utilizing MPI, OpenMP, CUDA (GPU), OpenACC (GPU), and vectorization (Intel MIC-KNL). The weak scaling is roughly linear to the maximal nodes of leading HPCs in US. There several versions of XGCs for different purpose: XGC0 is earlist version of XGC0 which is designed for neoclassical transport in the tokamak edge. It uses full-f method, and 00-mode electrostatic field is solved only. RMP and current response can be calculated with coupling with M3D. XGC1 is for turbulence simulation with low parallel wavenumber. Piecewise field following coordinates are used to handle low k-parallel perturbation with small (~64) number of toroidal resolution. In total-delta-f method, it utilizes phase space grid in addition to particles, to handel non-maxwellian distribution in the tokamak edge. XGCa is axisymmetric version of XGC1 to simulate neoclassical transport. References: [1] S. Ku et al., Nuclear Fusion 49, 115021 (2009) [2] S. Ku, R. Hager, C.S. Chang et al., J. Comp. Physics, 315, 467 (2016) https://doi.org/10.1016/j.jcp.2016.03.062 [2] R. Hager. E.S. Yoon. S.Ku et al., J. Comp. Physics, 315, 644 (2016) https://doi.org/10.1016/j.jcp.2016.03.064 [3] R. Hager, J. Lang et al., Phys. Plasmas 24,054508 (2017) http://dx.doi.org/10.1063/1.4983320",
+    "homepageURL": "https://xgc.pppl.gov",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran",
+        "C++"
+    ],
+    "name": "XGC",
+    "organization": "Princeton Plasma Physics Laboratory (PPPL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://theory.pppl.gov/research/TheoryCodeLicenseReleaseForm.pdf",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://xgc.pppl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Princeton Plasma Physics Laboratory (PPPL)"
+    ]
+}

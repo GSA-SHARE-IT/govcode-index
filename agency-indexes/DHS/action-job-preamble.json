@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2025-02-21",
+        "lastModified": "2026-03-30"
+    },
+    "description": "A GitHub Action to apply cisagov's standard permissions monitoring and runner hardening. This Action is intended to be applied at the beginning of every GitHub Actions job.",
+    "downloadURL": "https://api.github.com/repos/cisagov/action-job-preamble/downloads",
+    "homepageURL": "https://github.com/cisagov/action-job-preamble",
+    "laborHours": 631.2,
+    "languages": [
+        "Shell"
+    ],
+    "name": "action-job-preamble",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/action-job-preamble.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "hardening",
+        "permissions",
+        "github-action"
+    ],
+    "vcs": "git"
+}

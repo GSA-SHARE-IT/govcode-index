@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "The Dax Toolkit enables the fine-grained concurrency for data analysis and visualization required to drive multi-core processors, many-core GPU accelerators, and emerging architectures for exascale computing. Dax simplifies the design of finely threaded algorithms by characterizing them in per element operations, which we call worklets. Worklets simplify design because they can behave as serial processes without the complications of memory clashes or other race conditions. Yet worklets can be scheduled on a practically unlimited number of threads, thereby making effective utilization of many processing cores. Operations coordinated across elements are encapsulated in a few versatile communicative operations that are adapted to the specifics of computing devices.",
+    "laborHours": 24396.0,
+    "languages": [
+        "C++",
+        "C",
+        "CMake",
+        "Cuda"
+    ],
+    "name": "Dax v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/DaxToolkit",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

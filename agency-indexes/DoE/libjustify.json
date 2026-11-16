@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2023-06-23",
+        "metadataLastUpdated": "2023-06-23"
+    },
+    "description": "The libjustify library allows dynamic justification of tabular data in native C. Existing formatting support requires a compile-time commitment to worst-case column widths or complex handcrafted solutions. With libjustify, tabular data is transformed from long, machine-readable format into a human-readable format.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "libjustify",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/libjustify",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

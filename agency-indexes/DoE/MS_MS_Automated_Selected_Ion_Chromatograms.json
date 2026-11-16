@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This program can be used to read a LC-MS/MS data file from either a Finnigan ion trap mass spectrometer (.Raw file) or an Agilent Ion Trap mass spectrometer (.MGF and .CDF files) and create a selected ion chromatogram (SIC) for each of the parent ion masses chosen for fragmentation. The largest peak in each SIC is also identified, with reported statistics including peak elution time, height, area, and signal to noise ratio. It creates several output files, including a base peak intensity (BPI) chromatogram for the survey scan, a BPI for the fragmentation scans, an XML file containing the SIC data for each parent ion, and a \"flat file\" (ready for import into a database) containing summaries of the SIC data statistics.",
+    "laborHours": 118225.6,
+    "name": "MS/MS Automated Selected Ion Chromatograms",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/MASIC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "luszczek@icl.utk.edu"
+    },
+    "date": {
+        "created": "2023-07-30",
+        "metadataLastUpdated": "2023-07-30"
+    },
+    "description": "SLIP (Surrogate Launching and Integration Platform) is a software ecosystem for downloading and running ML/AI benchmarks.\nSLIP automatically downloads and sets up the code and data running a benchmark. The large data sets and model code are cached locally with a specific ID within a designated cache directory.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "SLIP (Surrogate Launching and Integration Platform)",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/icl-utk-edu/slip.git",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

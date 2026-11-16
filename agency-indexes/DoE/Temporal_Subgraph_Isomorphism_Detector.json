@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-11-15",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Software for detecting matching subgraphs within a temporal network dataset, such that the chronology ordering of the edges is identical to the query graph. This can be used to find patterns of behavior in temporal graph data that may be of interest for a particular use case. The resulting matching nodes, edges and subgraphs are then output for the user, including the number of times a particular node was found to be associated with a temporal subgraph match. The number of times a node is associated with a match may indicate that node is more noteworthy for the given use case.",
+    "laborHours": 2249.6,
+    "languages": [],
+    "name": "Temporal Subgraph Isomorphism Detector",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/temporal_subgraph_isomorphism",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

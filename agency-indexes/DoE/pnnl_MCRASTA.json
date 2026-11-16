@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2025-01-30",
+        "metadataLastUpdated": "2025-02-04"
+    },
+    "description": "McRasta (Markov Chain Rate and State Analysis) was developed to estimate parameter uncertainty in constitutive friction\nmodels via Bayesian inverse and Markov Chain Monte Carlo (MCMC) methods.",
+    "laborHours": 912.0,
+    "languages": [],
+    "name": "pnnl/MCRASTA",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/MCRASTA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

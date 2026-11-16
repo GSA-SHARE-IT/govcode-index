@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Nalu is a Sierra ToolKit (STK) based application module, and it has provided a set of \"lessons learned\" for the STK transition effort through its early adoption of STK. It makes use of the open-sourced Trilinos/ Tpetra library. Through the investment of LORD and ASCR projects, the Nalu code module has been extended beyond prototype status. Physics capability includes low Mach, variable density turbulent flow. The ongoing objective for Nalu is to facilitate partnerships with external organizations in order to extend code capability and knowledge; however, it is not intended to support routine CFD analysis. The targeted usage of this module is for non-NW applications that support work-for-others in the multiphysics energy sector.",
+    "laborHours": 50388.0,
+    "name": "Nalu",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/spdomin/Nalu/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/spdomin/Nalu",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "cwang@renci.org"
+    },
+    "date": {
+        "created": "2024-08-19",
+        "metadataLastUpdated": "2024-08-20"
+    },
+    "description": "This repository provides a set of scripts and tools for conducting network research, including performance analysis, buffer status inspection, and RTT probing. It is designed to streamline network data collection and post-processing, primarily leveraging iperf and other network utilities. The primary goal of the RADT dataset is to provide researchers with detailed insights into the interactions between TCP Congestion Control Algorithms (CCAs) and Active Queue Management (AQM) algorithms under different network conditions, enabling the development of more advanced, AI-driven CCAs.",
+    "laborHours": 1368.0,
+    "languages": [],
+    "name": "RADT Scripts for Network Research",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PoSeiDon-Workflows/RADT_scripts_for_network_research",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

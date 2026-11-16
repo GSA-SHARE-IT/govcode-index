@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-08-26",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Use GrumPHP to ensure your files conform to the standards setup in your projects .editorconfig file. This plugin allows your Git pre-commit hooks to check your files for the proper file standards and reject a commit if any of your files don't conform.",
+    "laborHours": 136.8,
+    "languages": [],
+    "name": "GrumPHP Editor Config",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/editorconfig",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

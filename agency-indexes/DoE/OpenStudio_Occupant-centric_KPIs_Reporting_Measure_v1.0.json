@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-07",
+        "metadataLastUpdated": "2021-03-07"
+    },
+    "description": "This is an OpenStudio measure that calculates and reports the occupant-centric key performance indicators (KPIs) for evaluating building energy performance from occupant-centric perspectives. The measure automatically calculate the KPIs in the following categories: (1) visual & lighting, (2) thermal (3) air quality, and (4) others.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "OpenStudio Occupant-centric KPIs Reporting Measure v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/OpenStudio-Occupant-KPIs-Reporting",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "v1.0"
+}

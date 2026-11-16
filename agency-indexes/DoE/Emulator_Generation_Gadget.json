@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-04-19",
+        "metadataLastUpdated": "2018-04-19"
+    },
+    "description": "This software automates the production of standalone emulators for complex computer models. The end result of running the software is a piece of code called an emulator, a statistical approximation which predicts the output of complex computer simulation, but at a much faster speed. The emulator is built using a training set of inputs and outputs from the simulations. The input-output pairs are used in a Bayesian scheme to estimate the parameters of a Gaussian process based regression model that learns the input-output relationship. The estimated parameters are combined with a generic C skeleton to produce a compile-able instantiation of the emulator.",
+    "laborHours": 1854.4,
+    "name": "Emulator Generation Gadget",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/EGG",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

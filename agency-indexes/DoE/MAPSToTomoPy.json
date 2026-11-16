@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-08-16",
+        "metadataLastUpdated": "2019-08-16"
+    },
+    "description": "MAPSToTomoPy provides a graphical user interface (GUI) to control a work flow between MAPS and TomoPy, with tools for visualizing the sinograms of projection image sequences from particular elements and to use these to help correct misalignments of the rotation axis. The program also provides an integrated output of the 3D distribution of the detected elements for subsequent 3D visualization packages.",
+    "laborHours": 1535.2,
+    "languages": [],
+    "name": "MAPSToTomoPy",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AdvancedPhotonSource/MAPSToTomoPy",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-06-14",
+        "metadataLastUpdated": "2025-03-26"
+    },
+    "description": "The WETO Stack software is a collection of data, data analysis scripts, and website content produced through the Holistic Modeling Project’s Portfolio Coordination task. The purpose of the software is to characterize the collection of wind energy software projects supported by the U.S. Department of Energy’s Wind Energy Technologies Office. The included data contains characteristics of the actively funded software projects, and the data analysis scripts provide insights into the breadth, depth, and maturity of the collection of software projects. The website content presents the results of the analyses as well as reports from workshops and other events. It can be viewed at https://nrel.github.io/WETOStack/index.html.",
+    "homepageURL": "https://github.com/NREL/WETOStack",
+    "laborHours": 5076.8,
+    "languages": [
+        "Python",
+        "TeX",
+        "Makefile"
+    ],
+    "name": "WETO Stack [SWR-24-81]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://github.com/NREL/WETOStack",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-05-05",
+        "metadataLastUpdated": "2022-05-05"
+    },
+    "description": "lvnm Is a library for fitting latent variable network models within the R programming language. The code focuses on the Stochastic Block Model, Weighted Stochastic Block Model, and Dynamic Stochastic Block Model. Features include simulation methods, estimation methods, diagnostic plots and anomaly detection routines for network data.",
+    "laborHours": 0.0,
+    "languages": [
+        "R (55%), C++ (40%), Rmarkdown (5%)"
+    ],
+    "name": "Latent Variable Network Modeling",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/bdabbs13/lvnm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

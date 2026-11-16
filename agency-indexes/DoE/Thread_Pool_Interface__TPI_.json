@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Thread Pool Interface (TpI) provides a simple interface for running functions written in C or C++ in a thread-parallel mode. Application or library codes may need to perform operations thread-parallel on machines with multicore processors. the TPI library provides a simple mechanism for managing thread activation, deactivation, and thread-parallel execution of application-provided subprograms.",
+    "laborHours": 8344830.4,
+    "name": "Thread Pool Interface (TPI)",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2023-06-27",
+        "metadataLastUpdated": "2023-06-27"
+    },
+    "description": "This software offers methods and functions for training calibrated out-of-distribution detectors for medical\nimage classification tasks. It includes functionalities for training, synthesizing data augmentations,\ncalibration, and out-of-distribution detection. Developed using PyTorch, this software is compatible with\nstandard neural network architectures used for imaging data. Additionally, it provides capabilities to compute evaluation metrics for assessing the performance and quality of the detectors.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Know Your Space: Inlier and Outlier Construction for Calibrating Medical OOD Detectors",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/OODmedic",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

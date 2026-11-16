@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-06-15",
+        "metadataLastUpdated": "2023-06-15"
+    },
+    "description": "MetaBAT-LR is an extension to the metaBAT program, which adds functionalities to leverage various datasets (long-reads, Hi-C) to improve the completeness of metagenome binning while keeping contamination levels low. It trains a random forest model using the self-supervised training paradigm to predict linkage information among metagenome scaffolds, then uses this information to recruit unbinned scaffolds and merge incomplete bins that are from the same species.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MetaBAT-LR v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/project-metabat/metabat-lr",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

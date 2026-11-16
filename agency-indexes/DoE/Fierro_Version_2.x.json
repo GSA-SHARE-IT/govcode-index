@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-04-26",
+        "metadataLastUpdated": "2023-05-03"
+    },
+    "description": "FIERRO is a parallel C++ code designed to simulate fluid mechanics, heat transfer, and solid mechanics in two- and three-dimensional space. FIERRO is written to run on homogeneous (CPU) and heterogeneous (CPU+GPU) high performance computing machines. Fierro can aid a) modeling and design efforts that have historically relied on commercial implicit and explicit finite element codes, b) numerical methods research, c) manufacturing research, and d) computer science research. The code contains diverse numerical methods to solve the governing physics equations for both quasi-static and dynamic problems. Mathematical optimization solvers are coupled to the numerical methods to research topology and shape optimization that has application to additive manufacturing, and to create novel numerical approaches. Phase-field methods with micromechanical solvers are provided to simulate microstructure formation and evolution in manufacturing processes. The micromechanical solvers can also help research efforts create continuum-scale constitutive models for solids, as a function of the microstructure, in situ in a calculation or in a stand-alone manner. No physical data exists within the code.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Fierro Version 2.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Fierro",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git",
+    "version": "2.x"
+}

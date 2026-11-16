@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-30",
+        "metadataLastUpdated": "2018-07-30"
+    },
+    "description": "rquota provides drop-in replacements for the quota and repquota utilities on Linux and other UNIX-like operating systems. Its configuration file makes it possible to limit the file systems queried to only those of interest, and to alias them for human readability in quota output. Block counts are converted to human readable units. rquota supports remote NFS and, if configured --with-lustre, Lustre file systems. At this time it does not support quotas on local file systems.",
+    "laborHours": 1656.8,
+    "languages": [],
+    "name": "rquota",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/chaos/rquota",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

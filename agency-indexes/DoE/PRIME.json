@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-01-10",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The testbed “PRIME” is implemented as a typical end-to-end SCADA hierarchy, from the substation to the control center,\nusing a combination of a well-known power system simulator, power system control, hardware-in-the-loop (HIL) and\nindustry grade EMS software. Other cyber-physical testbeds have similar modularity. However, they lack flexibility in\nswapping out the software used for EMS, FEP, and the hardware used for RTU and relays as the computational\nsubsystems and the input/output (I/O) subsystems are tightly coupled and integrated. They tend to be tied to a single\nvendor. In our approach, the power system simulator and the hardware driver (analog output subsystems to drive HIL) are\ndecoupled and are interconnected through communication protocols as an interface. This provides an additional level of\nmodularity to the architecture creating an interoperable environment where power system simulators and hardware could\nbe interchanged as long as they support streaming of measurements/commands.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PRIME",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2023-12-11",
+        "metadataLastUpdated": "2024-02-09"
+    },
+    "description": "The Production Financial Analysis Scenario Tool (ProFAST) provides a quick and convenient in-depth financial analysis for production facilities. The model uses a generally accepted accounting principles analysis framework and provides annual projections of income statements, cash flow statements, and balance sheets. ProFAST allows users to calculate the levelized cost of the produced commodity by providing an expected financial performance, or on the other hand, calculate the financial performance based on an input price. Model inputs generally capital expenditures, operating expenditures, and financing structure. The programmatic approach of ProFAST allows users to easily perform large sensitivity analyses and integrates easily with other python tools.",
+    "homepageURL": "https://github.com/NREL/ProFAST",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "ProFAST (Production Financial Analysis Scenario Tool) [SWR-23-88]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://github.com/NREL/ProFAST/blob/main/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://github.com/NREL/ProFAST",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

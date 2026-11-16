@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-09-17"
+    },
+    "description": "eCo-PylotDB, written completely in Python, provides a script that parses incoming emails and prepares extracted data for submission to a database table. The script extracts the database server, the database table, the server password, and the server username all from the email address to which the email is sent. The database table is specified on the Subject line. Any text in the body of the email is extracted as user comments for the database table. Attached files are extracted as data files with each file submitted to a specified table field but in separate rows of the targeted database table. Other information such as sender, date, time, and machine from which the email was sent is extracted and submitted to the database table as well. An email is sent back to the user specifying whether the data from the initial email was accepted or rejected by the database server. If rejected, the return email includes details as to why.",
+    "laborHours": 64448.0,
+    "languages": [],
+    "name": "eCo-Pylot - A Python-Based Script for Sending Parsed Email Data to a Database",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/PYLOTDB",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

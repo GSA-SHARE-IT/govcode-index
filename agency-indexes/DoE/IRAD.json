@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "liny@ornl.gov"
+    },
+    "date": {
+        "created": "2024-03-04",
+        "metadataLastUpdated": "2024-03-04"
+    },
+    "description": "IRAD (Ion Irradiation and Radiation Damage) is an open-source GUI for SRIM-like vacancy production and implanted ion profile calculations. Using updated databases, IRAD is accessible at https://code.ornl.gov/liny/irad for Windows systems. It performs energy-corrected Iradina calculations, automatically determining dpa and implanted ion concentration, considering total ion fluence. Additional results like ion trajectories, final positions, stopping power distribution, etc., are available. Advanced settings permit customization of parameters such as stopping power database, incident ion angle, and 3D target simulations.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "IRAD",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/liny/irad",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "version": "1.0.0"
+}

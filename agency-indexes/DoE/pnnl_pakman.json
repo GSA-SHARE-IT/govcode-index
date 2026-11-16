@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-02-01",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "PaKman: A Scalable Algorithm for Generating Genomic Contigs on Distributed Memory Machines. PaKman presents a fully distributed method that tackles assembly of large genomes through the combinationof a novel data-structure (PaK-Graph) and algorithmic strategies to simplify communication and I/O footprint during the\nassembly process.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/pakman",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/pakman",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-02-17",
+        "metadataLastUpdated": "2021-02-17"
+    },
+    "description": "\tTransportation is the fastest-growing source of greenhouse gas (GHG) emissions and energy consumption globally. The convergence of shared mobility, vehicle automation, and electrification has the potential to drastically reduce transportation impacts, but requires careful integration with rapidly evolving electricity systems. We have developed the GEM Model (Grid-Integrated Electric Mobility) to examine these interactions with a U.S.-wide simulation framework encompassing private electric vehicles (EVs); shared automated EVs (SAEVs); charging infrastructure; controlled EV charging; and a grid economic dispatch model to simulate mobility futures exclusively using EVs. We find that an SAEV fleet 9% the size of today's active vehicles can satisfy trip demand with only 2.6 million chargers (0.2 per EV). Controlled EV charging can also reduce electricity demand variability, significantly reducing GHG emissions and decreasing solar curtailment by about one-third. While private EVs with uncontrolled charging would reduce GHG emissions by 53% compared to gasoline vehicles, SAEVs could achieve a 70% reduction.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Grid-Integrated Electric Mobility Model (GEM) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-UCB-STI/gem",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2023-10-11",
+        "metadataLastUpdated": "2023-10-11"
+    },
+    "description": "This software gathers irrigation data as well as evapotranspiration rates to understand the on field water balances and track water usage.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Irrigation Monitor",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabUnsupported/irrmon",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "GlobiPack contains a small collection of optimization globalization algorithms. These algorithms are used by optimization and various nonlinear equation solver algorithms.Used as the line-search procedure with Newton and Quasi-Newton optimization and nonlinear equation solver methods. These are standard published 1-D line search algorithms such as are described in the book Nocedal and Wright Numerical Optimization: 2nd edition, 2006. One set of algorithms were copied and refactored from the existing open-source Trilinos package MOOCHO where the linear search code is used to globalize SQP methods. This software is generic to any mathematical optimization problem where smooth derivatives exist. There is no specific connection or mention whatsoever to any specific application, period. You cannot find more general mathematical software.",
+    "laborHours": 8344830.4,
+    "name": "GlobiPack v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/trilinos/Trilinos/blob/master/packages/globipack/copyright_header.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

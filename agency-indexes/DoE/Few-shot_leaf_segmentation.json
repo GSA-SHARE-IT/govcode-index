@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "lagergrenjh@ornl.gov"
+    },
+    "date": {
+        "created": "2023-03-20",
+        "metadataLastUpdated": "2023-03-21"
+    },
+    "description": "In this work, we use few-shot learning to segment the body and vein architecture of Populus trichocarpa leaves from high-resolution scans obtained in the UC Davis common garden. Leaf and vein segmentation are formulated as separate tasks, in which convolutional neural networks (CNNs) are used to iteratively expand partial segmentations until reaching stopping criteria. Our leaf and vein segmentation approaches use just 50 and 8 manually traced images for training, respectively, and are applied to a set of 2,634 top and bottom leaf scans. We show that both methods achieve high segmentation accuracy, in some cases exceeding even human-level segmentation. The leaf and vein segmentations are subsequently used to extract 68 morphological traits using traditional open-source image processing tools, which are validated using real-world physical measurements. For a biological perspective, we perform a genome-wide association study using the \"vein density\" trait to discover novel genetic architectures associated with multiple physiological processes relating to leaf development and function. In addition to sharing all of the few-shot learning code, we are releasing all images, manual segmentations, model predictions, 68 extracted leaf phenotypes, and a new set of SNPs called against the v4 P. trichocarpa genome for 1,419 genotypes.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Few-shot leaf segmentation",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jlager/few-shot-leaf-segmentation",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

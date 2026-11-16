@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-02",
+        "metadataLastUpdated": "2021-07-02"
+    },
+    "description": "Two quantum graph algorithms (as python scripts) that run on the D-Wave Quantum Annealer are included for copyright. The Quantum Graph Partitioning software takes a graph as input and the number of partitions of equal size desired. This is transformed into a quadratic unconstrained binary optimization (QUBO) that is run as a quantum-classical algorithm using D-Wave/qbsolv. The Quantum Community Detection software takes a graph and the maximum number of communities/clusters desired. This is transformed into a quadratic unconstrained binary optimization (QUBO) that is run as a quantum-classical algorithm using D-Wave/qbsolv.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Quantum Graph Algorithms",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

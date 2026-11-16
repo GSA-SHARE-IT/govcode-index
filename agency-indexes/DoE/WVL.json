@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-17",
+        "metadataLastUpdated": "2018-07-17"
+    },
+    "description": "The software runs using the Priithon image analysis platform (https://github.com/sebhaase/priithon), which is part of this release. The version of this mac distribution is: Priithon_27_mac-20151127, which expands to a folder named Priithon_27_mac. The paper is the reference source for the wavelet algorithm in this distribution; \"A novel 3D wavelet-based filter for visualizing features in noisy biological data,\" J. Microsc. 219, 43-49 (2005). This distribution has been tested on Mac OS 10.9.5, 10.10.3, and 10.11.1\n",
+    "laborHours": 1069350.4,
+    "languages": [],
+    "name": "WVL",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/WVL",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

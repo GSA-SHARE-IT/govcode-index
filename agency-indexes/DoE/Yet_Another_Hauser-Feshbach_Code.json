@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-09",
+        "metadataLastUpdated": "2021-12-09"
+    },
+    "description": "Code framework to perform simulations of nuclear reactions with incident particles including gammas, protons, neutrons, deuterons, tritons, helium-3, and alphas to develop nuclear data libraries and study nuclear reaction phenomona. The code can model nuclear reactions or initial populations specified by the user. The decays principally follow the compound-nucleus hypothesis and the statistical decay of Hauser and Feshbach. The code models nuclear decays with a Monte Carlo process that tracks the decay of each state. Data libraries are produced that can be translated into GNDS (generalized Nuclear Data Structure). YAHFC can also be used as an event generator, with individual decays written to disk for offline analysis. Both serial and MPI versions are provided. YAHFC does NOT perform transport of nuclear reactions through materials, only the primary reaction with a target material.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Yet Another Hauser-Feshbach Code",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/Yet-Another-Hauser-Feshbach-Code",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

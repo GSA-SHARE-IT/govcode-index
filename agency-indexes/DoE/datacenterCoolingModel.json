@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "kumarv@ornl.gov"
+    },
+    "date": {
+        "created": "2024-06-28",
+        "metadataLastUpdated": "2025-03-31"
+    },
+    "description": "ExaDigiT is a framework for developing comprehensive digital twins of liquid-cooled supercomputers, which has three main modules: (1) a python-based Resource Allocator and Power Simulator (RAPS), (2) a Modelica-based Thermo-Fluidic cooling model, and (3) a C++-based augmented reality model built on Unreal Engine 5. The Modelica-based cooling model is primarily built-on the open-source Transient Simulation Framework\nof Reconfigurable Models (TRANSFORM) library and the open-source autocsm library.\nThe library follows the templating architecture developed in the TRANSFORM and the autocsm libraries. This tool can be easily extended to model other Frontier-like liquid cooled supercomputers.",
+    "laborHours": 395.2,
+    "languages": [],
+    "name": "datacenterCoolingModel",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            },
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/exadigit/datacenterCoolingModel",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

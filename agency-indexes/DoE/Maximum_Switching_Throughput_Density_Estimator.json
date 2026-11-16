@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2024-10-15",
+        "metadataLastUpdated": "2024-10-15"
+    },
+    "description": "SAND2024-11125O\nThe Maximum Switching Throughput Density Estimator software performs a simple analysis that estimates the maximum logic switching throughput density that’s achieved in various CMOS technology nodes on the International Roadmap for Devices and Systems. This software utilizes simple device models and optimization techniques, performing a simple sweep over a range of possible logic supply voltages, and analytically calculating the maximum switching frequency for the given logic voltage that meets the power density constraint. It does this by using simple models of power dissipation in conventional and fully adiabatic switching. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 167.2,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "Maximum Switching Throughput Density Estimator",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/max-cmos-throughput",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v.0.15w (beta) script version"
+}

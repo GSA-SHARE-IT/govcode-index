@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2024-04-15",
+        "metadataLastUpdated": "2024-04-15"
+    },
+    "description": "This tool, the Non-Powered Dam Hydropower Development and Ranking Opportunity Tool (NPD HYDRO), allows users to prioritize or rank NPD sites for future development based on user-defined priorities. Benefits can be evaluated in several categories: the grid, community, industry, and environment (represented by the GCIE impact scores in the tool. In addition, the tool provides the user with a qualitative measure for the feasibility of adding energy storage during NPD conversion, specifically battery, hydrogen electrolysis, and pumped-storage hydropower (PSH). By taking a holistic approach to the potential range of benefits provided by NPD conversions with results tailored to the user’s priorities, NPD HYDRO provides the opportunity for national-level screening and enables users to focus on the sites that are most closely aligned with their interests.",
+    "laborHours": 4696.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "NPD Hydro",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/NPD_Hydro",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

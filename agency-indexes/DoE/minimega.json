@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Minimega is a simple emulytics platform for creating testbeds of networked devices. The platform consists of easily deployable tools to facilitate bringing up large networks of virtual machines including Windows, Linux, and Android. Minimega attempts to allow experiments to be brought up quickly with nearly no configuration. Minimega also includes tools for simple cluster management, as well as tools for creating Linux based virtual machine images.",
+    "laborHours": 399334.4,
+    "name": "minimega",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandia-minimega/minimega",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

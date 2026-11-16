@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "The FireHose Streaming Benchmarks are a suite of stream-processing benchmarks defined to enable comparison of streaming software and hardware, both quantitatively vis-a-vis the rate at which they can process data, and qualitatively by judging the effort involved to implement and run the benchmarks. Each benchmark has two parts. The first is a generator which produces and outputs datums at a high rate in a specific format. The second is an analytic which reads the stream of datums and is required to perform a well-defined calculation on the collection of datums, typically to find anomalous datums that have been created in the stream by the generator. The FireHose suite provides code for the generators, sample code for the analytics (which users are free to re-implement in their own custom frameworks), and a precise definition of each benchmark calculation.",
+    "laborHours": 2964.0,
+    "languages": [
+        "C++",
+        "Shell",
+        "C",
+        "Makefile",
+        "Python"
+    ],
+    "name": "FireHose Streaming Benchmarks",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/firehose",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

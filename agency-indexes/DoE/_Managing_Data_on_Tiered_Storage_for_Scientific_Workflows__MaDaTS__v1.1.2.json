@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-05-18",
+        "metadataLastUpdated": "2018-05-21"
+    },
+    "description": "MaDaTS provides an integrated data management and workflow execution framework on multi-tiered storage systems. Users of MaDaTS can execute a workflow by either specifying the workflow stages in a YAML description file, or use the API to manage the workflow through a Virtual Data Space (VDS) abstraction.",
+    "laborHours": 4484.0,
+    "languages": [],
+    "name": "\tManaging Data on Tiered Storage for Scientific Workflows (MaDaTS) v1.1.2",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dghoshal-lbl/madats",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

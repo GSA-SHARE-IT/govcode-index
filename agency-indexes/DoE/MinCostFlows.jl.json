@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-09-11",
+        "metadataLastUpdated": "2019-09-11"
+    },
+    "description": "MinCostFlows.jl is a utility package in the Julia programming language for efficiently solving min-cost network flow problems through an implementation of the relaxation dual ascent method (Bertsekas, 1985, https://link.springer.com/article/10.1007/BF01586087). The use of a dual ascent method allows for warm-starting the solver with a solution from a previously-solved problem that need not be feasible for the new problem, providing computational performance benefits when repeatedly solving similar network flow problems. This approach is particularly useful for Monte Carlo power system resource adequacy models.",
+    "laborHours": 608.0,
+    "languages": [
+        "Julia"
+    ],
+    "name": "MinCostFlows.jl",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/MinCostFlows.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

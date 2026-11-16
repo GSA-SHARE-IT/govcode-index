@@ -1,0 +1,20 @@
+{
+    "name": "Returned Check Action",
+    "repositoryURL": "",
+    "description": "The program generates an electronic alert file to the servicing Processing Center (PC) when Title II benefit payments are returned, indicating the beneficiary is deceased. It will automatically send a call-in letter to each beneficiary indicating the stop payment and the reason why.",
+    "permissions": {
+        "licenses": [],
+        "usageType": "exemptByAgencyMission",
+        "exemptionText": ""
+    },
+    "laborHours": 0,
+    "tags": [
+        "Death",
+        "Title II",
+        "Processing Center"
+    ],
+    "contact": {
+        "email": "Open.Source@ssa.gov",
+        "name": "Open Source Administrator"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-01-03",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The Biological Performance Assessment (BioPA) version 3, uses computational fluid dynamics (CFD) and particle trajectory simulations of the hydro-turbine to quantify the exposure of passing fish to a set of known injury mechanisms. By appropriate sampling of the fluid domain, the BioPA assigns exposure probabilities to each mechanism. The exposure probabilities are combined with dose- response data from laboratory stress studies of fish to produce a set of biological BioPA Scores. These metrics provide an objective measure that can be used to compare competing turbines or to refine a new design.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Biological Performance Assessment (BioPA) Toolset version 3",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "version": "3"
+}

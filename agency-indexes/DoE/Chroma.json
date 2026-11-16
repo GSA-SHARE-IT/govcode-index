@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "edwards@jlab.org"
+    },
+    "date": {
+        "created": "2018-02-08",
+        "metadataLastUpdated": "2018-02-11"
+    },
+    "description": "The Chroma package supports data-parallel programming constructs for lattice field theory and in particular lattice QCD. It uses the SciDAC QDP++ data-parallel programming (in C++) that presents a single high-level code image to the user, but can generate highly optimized code for many architectural systems including single node workstations, multi and many-core nodes, clusters of nodes via QMP, and classic vector computers.",
+    "laborHours": 672037.6,
+    "name": "Chroma",
+    "organization": "Thomas Jefferson National Accelerator Facility (TJNAF)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/JeffersonLab/chroma",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Thomas Jefferson National Accelerator Facility (TJNAF)"
+    ],
+    "vcs": "git"
+}

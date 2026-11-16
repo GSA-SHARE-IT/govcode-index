@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-08-17",
+        "metadataLastUpdated": "2022-08-17"
+    },
+    "description": "This docker image, named smurf2mce contains smurf2mce, firmware files (mcs and pyrogue tarball) and default configuration files for stable firmware versions. It is based on the smurf2mce-base docker image.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "slaclab/smurf2mce-docker",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/smurf2mce-docker/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/smurf2mce-docker",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

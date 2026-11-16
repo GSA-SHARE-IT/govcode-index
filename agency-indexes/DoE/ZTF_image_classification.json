@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-22",
+        "metadataLastUpdated": "2021-12-22"
+    },
+    "description": "This repo demonstrates how to use the LLNL developed Gaussian process hyperparameter estimation method, MuyGPS, for image classification using Zwicky Transient Facility (ZTF) data.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ZTF_image_classification",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Kerianne28/ZTF_image_classification",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

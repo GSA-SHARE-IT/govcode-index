@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Hybrid programming models for beyond-CMOS technologies will prove critical for integrating new computing technologies alongside our existing infrastructure. Unfortunately the software infrastructure required to enable this is lacking or not available. XACC is a programming framework for extreme-scale, post-exascale accelerator architectures that integrates alongside existing conventional applications. It is a pluggable framework for programming languages developed for next-gen computing hardware architectures like quantum and neuromorphic computing. It lets computational scientists efficiently off-load classically intractable work to attached accelerators through user-friendly Kernel definitions. XACC makes post-exascale hybrid programming approachable for domain computational scientists.",
+    "laborHours": 454860.0,
+    "name": "XACC - eXtreme-scale Accelerator Programming Framework",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-QCI/xacc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

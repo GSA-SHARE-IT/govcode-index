@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-30"
+    },
+    "description": "Pike is a software library for coupling and solving multiphysics applications. It provides basic interfaces and utilities for performing code-to-code coupling. It provides simple \"black-box\" Picard iteration methods for solving the coupled system of equations including Jacobi and Gauss-Seidel solvers. Pike was developed originally to couple neutronics and thermal fluids codes to simulate a light water nuclear reactor for the Consortium for Simulation of Light-water Reactors (CASL) DOE Energy Innovation Hub. The Pike library contains no physics and just provides interfaces and utilities for coupling codes. It will be released open source under a BSD license as part of the Trilinos solver framework (trilinos.org) which is also BSD. This code provides capabilities similar to other open source multiphysics coupling libraries such as LIME, AMP, and MOOSE.",
+    "laborHours": 4043.2,
+    "languages": [
+        "CMake",
+        "C++",
+        "Shell"
+    ],
+    "name": "Physics Integration KErnels (PIKE)",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Pike",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-12",
+        "metadataLastUpdated": "2024-06-12"
+    },
+    "description": "RhizoNet is designed for the semantic segmentation of plant root scans, utilizing a sophisticated deep learning network known as Residual Unet. It specializes in processing color images of plants cultivated in a hydroponic EcoFAB system, captured using an Epson scanner. The core of the algorithm is based on Residual U-nets, which significantly improve prediction accuracy. This is achieved through the implementation of a convex hull operation, which effectively delineates the primary root component by leveraging spatio-temporal image data. This enables researchers to accurately assess predicted biomass and monitor plant growth over time.",
+    "laborHours": 608.0,
+    "languages": [],
+    "name": "RhizoNet: semantic segmentation of plant roots using CNN (RhizoNet) v0.0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbl-camera/rhizonet",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-29",
+        "metadataLastUpdated": "2021-07-14"
+    },
+    "description": "Pseudo random number generators (PRNGs) are crucial for nu- merous applications in HPC ranging from molecular dynamics to quantum chemistry, and hydrodynamics. Our optimized implementation generates the same random number sequence as the original well-characterized MRG8. MRG8-AVX512 achieves a substantial 69% improvement compared to Intel's MKL, and MRG8-GPU shows a maximum 3.36x speedup compared to NVIDIA's cuRAND library.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MRG8 Random Number Generator Library (MRG8) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kenmiura/mrg8",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

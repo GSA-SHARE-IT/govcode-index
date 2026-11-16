@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-09-22",
+        "metadataLastUpdated": "2023-09-22"
+    },
+    "description": "LEAD is a suite of scripts to enable rapid estimation of model parameters for damage models for ductile materials using machine learning. In its current version, the only supported damage model is TEPLA, though others are planned. The data we train on are comprised of free surface velocity data as well as porosity data. Some details about our method can be found in the preprint LA-UR-23-20468 (arxiv.org/abs/2301.07790)",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LEAD - LEArning Damage",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dblaschke-LANL/LEAD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

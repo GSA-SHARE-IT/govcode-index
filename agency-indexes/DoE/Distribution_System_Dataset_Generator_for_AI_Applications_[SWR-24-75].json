@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-11-19",
+        "metadataLastUpdated": "2024-11-19"
+    },
+    "description": "This software is a simple, light-weight python package to generate pytorch compatible machine learning graph dataset representing electric power distribution system. User is able to use these graph datasets to test their graph generation artificial intelligence (AI) models, link prediction AI models, graph classification AI models and so much more. This package uses grid-data-models (https://github.com/NREL-Distribution-Suites/grid-data-models) as input data format for power distribution system. NREL-Ditto (https://github.com/NREL-Distribution-Suites/ditto) tool can be leveraged to transform popular distribution system file formats such as opendss, cyme and synergi to grid-data-models.",
+    "laborHours": 187963.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "Distribution System Dataset Generator for AI Applications [SWR-24-75]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL-Distribution-Suites/gridai",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

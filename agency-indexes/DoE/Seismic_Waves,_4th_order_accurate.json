@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "SW4 is a program for simulating seismic wave propagation on parallel computers. SW4 colves the seismic wave equations in Cartesian corrdinates. It is therefore appropriate for regional simulations, where the curvature of the earth can be neglected. SW4 implements a free surface boundary condition on a realistic topography, absorbing super-grid conditions on the far-field boundaries, and a kinematic source model consisting of point force and/or point moment tensor source terms. SW4 supports a fully 3-D heterogeneous material model that can be specified in several formats. SW4 can output synthetic seismograms in an ASCII test format, or in the SAC finary format. It can also present simulation information as GMT scripts, whixh can be used to create annotated maps. Furthermore, SW4 can output the solution as well as the material model along 2-D grid planes.",
+    "laborHours": 75817.6,
+    "name": "Seismic Waves, 4th order accurate",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/geodynamics/sw4",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-10-30",
+        "metadataLastUpdated": "2024-04-05"
+    },
+    "description": "NREL conducted comprehensive field measurements of the atmospheric turbulent wind conditions and the resulting structural wind loads on parabolic troughs at the Nevada Solar One plant from October 2021 to June, 2023. The measurement set-up included meteorological masts and structural load sensors on four trough rows. Additionally, NREL commissioned a lidar scanning the horizontal plane over the trough field. The high-resolution data set, characterizing the complex flow field and resulting structural loads, is available at https://data.openei.org/submissions/5938. The processing routines published here were used to create the data from the instruments' raw data.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "NSO Processing Scripts (NSO wind loading data set processing scripts) [SWR-23-86]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/NSO_processing_scripts",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

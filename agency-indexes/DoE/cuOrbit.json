@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "gwright@pppl.gov"
+    },
+    "date": {
+        "created": "2020-01-16",
+        "metadataLastUpdated": "2020-02-25"
+    },
+    "description": "CUDA C Orbit Model\n\nNumerical guiding center code for toroidally confined plasma.",
+    "laborHours": 2812.0,
+    "languages": [
+        "C",
+        "C",
+        "CUDA"
+    ],
+    "name": "cuOrbit",
+    "organization": "Princeton Plasma Physics Laboratory (PPPL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PrincetonUniversity/cuOrbit",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Princeton Plasma Physics Laboratory (PPPL)"
+    ],
+    "vcs": "git",
+    "version": "validation-alpha-rc1"
+}

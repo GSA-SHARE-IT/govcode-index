@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-05-15",
+        "metadataLastUpdated": "2019-05-15"
+    },
+    "description": "The Application Reporting and Termination Utility for Windows (terminate.exe) is a simple diagnostics and recovery tool designed to help LANDesk system administrators manage hung client applications on Windows systems. Terminate can either report on (tag) or stop (kill) a specified process on computers on which it is run. If KILL is specified, all processes that match the specified name and have a start time older than the specified minutes will be force stopped.  If TAG is specified, all processes that match the name and have a start time older than the specified minutes will be reported to LANDesk inventory via the miniscan LANDesk client component.",
+    "laborHours": 364.8,
+    "languages": [],
+    "name": "Application Reporting and Termination Utility for Windows",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/david-frye/Terminate",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

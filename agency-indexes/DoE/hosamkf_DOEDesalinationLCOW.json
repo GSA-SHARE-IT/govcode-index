@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "cmmcguir@ncsu.edu"
+    },
+    "date": {
+        "created": "2025-01-29",
+        "metadataLastUpdated": "2025-01-29"
+    },
+    "description": "Simple code for computing levelized cost of desalinated water using a dual Markov representation of the financial reward as well as the cost of the desalination system, taking into account a (potentially stochastic) representation of system aging as a function of utilization and current age.",
+    "laborHours": 30.4,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "hosamkf/DOEDesalinationLCOW",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hosamkf/DOEDesalinationLCOW",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

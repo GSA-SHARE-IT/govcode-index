@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "semalek@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-12",
+        "metadataLastUpdated": "2024-06-17"
+    },
+    "description": "The proposed system is written in the hardware description language (HDL) verilog targeting an FPGA board. It is intended as a testbed to explore architecture tradeoffs in multi-tiled heterogeneous architectures. Although we target FPGAs, the system can be implemented as a monolithic SoC or a package comprised of many chiplets that are interconnected in the same package using a NoC. The proposed NoC is lightweight and follows an axi-lite interface. The endpoints of the NoC are a heterogeneous mix of \"tiles\" as endpoints that are general purpose processors, fixed function accelerators, and programmable accelerators. We assume that the network interfaces for the NoC endpoints are all addressable in a global name-space in that they represent an address range (for memory addresses) or a range of unique identifiers that are associated with each individual tile. This makes the functionality abstract from the standpoint of the NoC design details. Message queues offer a direct inter-processor interface between peer general purpose cores and diverse accelerators that comprise an SoC. Although they share the same NoC infrastructure for inter-tile communication within an SoC or SiP, the hardware message queues bypass the memory hierarchy and thus do not pollute the memory state or invoke the cache coherence mechanism.",
+    "laborHours": 39656.8,
+    "languages": [],
+    "name": "P38 heterogeneous multi-tiled system with support for message queues (MoSAIC) v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbnlcomputerarch/MoSAIC-P38",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

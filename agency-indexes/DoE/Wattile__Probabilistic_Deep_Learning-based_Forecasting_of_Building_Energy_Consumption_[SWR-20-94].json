@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-03-30",
+        "metadataLastUpdated": "2023-04-06"
+    },
+    "description": "Accurate energy forecasting is becoming critical due to many reasons: i ) optimal distributed energy resources operations and dispatch, ii) fault detection and diagnostics, and iii) meeting operational energy efficiency targets. Wattile uses deep learning (DL) for the building's short-term load forecasting application. Two specific types of neural networks called, Long Short Term Memory (LSTM) and Sequence-to-Sequence (S2S) models are used to make predictions. Forecasting models are trained using online historical weather and occupancy indicator data streams from the Intelligent Campus Program's data acquisition systems at the National Renewable Energy Laboratory (NREL) for main meters and sub-meters of multiple building types. These models use probabilistic methods to provide quantile-based forecasts in addition to nominal conditional median predictions of electricity consumption.",
+    "laborHours": 0.0,
+    "languages": [
+        "Jupyter Notebook"
+    ],
+    "name": "Wattile: Probabilistic Deep Learning-based Forecasting of Building Energy Consumption [SWR-20-94]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/Wattile",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-08-01",
+        "metadataLastUpdated": "2023-08-01"
+    },
+    "description": "HAMR is a library defining an accelerator technology agnostic memory model that bridges between accelerator technologies (CUDA, HIP, ROCm, OpenMP, Sycl, OpenCL, Kokos, etc) and traditional CPUs in heterogeneous computing environments. HAMR is light weight and implemented in modern C++. HAMR can be used to manage memory with in a single code or as a data model for coupling codes in a technologically agnostic way. HAMR provides a Python module for coupling C++ and Python codes which implements zero-copy data transfers to and from Python using the Numpy array interface and Numba CUDA array interface protocols.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "HAMR - Heterogeneous Accelerator Memory Resource (HAMR) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBL-EESA/HAMR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

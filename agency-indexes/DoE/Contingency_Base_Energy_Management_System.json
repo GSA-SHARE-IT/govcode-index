@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "CB-EMS is the latest implementation of DSOM (Decision Support for Operations and Maintenance), which was previously patented by PNNL. CB-EMS WAS specifically designed for contingency bases for the US Army. It is a software package that is designed to monitor energy consumption at an Army contingency base to alert the camp manager when the systems are wasting energy. It's main feature that separates it from DSOM is it's ability to add systems using a plug and play menu system.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "Java"
+    ],
+    "name": "Contingency Base Energy Management System",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

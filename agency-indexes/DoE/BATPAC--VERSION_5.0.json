@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-09-23",
+        "metadataLastUpdated": "2022-09-27"
+    },
+    "description": "Argonne National Laboratory has worked on electrochemical energy storage for several decades. The focus on lithium-ion chemistries started in the early 1990s, developing new materials, synthesis methods, and performance characterizations. Sponsored by the U.S. Department of Energy, Energy Efficiency and Renewable Energy, Vehicle Technologies Office (DOE-EERE-VTO), Argonne has led with many advances. The experimental activities were complemented with multi-scale modeling that ranged from the atomic to the system (manufacturing processes and automobiles) level. The Battery Performance and Cost (BatPaC) model is a calculation method based on Microsoft¿ Office Excel spreadsheets that have been developed at Argonne for estimating the performance and manufacturing cost of lithium-ion batteries for electric-drive vehicles including hybrid-electrics (HEV), plug-in hybrids (PHEV) and pure electrics. The effort is being funded by the Vehicle Technology Office (VTO), which is part of the Energy Efficiency and Renewable Energy (EERE) office of the U.S. Department of Energy (USDOE). BatPaC was first developed in 2007, was subsequently peer-reviewed, and it has served Argonne researchers and the greater battery community in studying the impact of material properties on performance at the pack level. With further developments, the model now allows the design of cells and battery packs for automotive applications, to meet performance requirements (power, energy, recharge time), and estimates the cost of manufacturing the designed batteries. Since the cost depends on the materials he design, and the manufacturing process, this bottom-up model/tool enables the user to study their effects. Designed or the lithium-ion cell and battery researcher, BatPaC helps answer many questions by being 1.Transparent in the assumptions made and the method of calculation 2.Capable of designing a battery specifically for the requirements of an application 3.Constrained by the physical limitations that govern battery performance 4. A bottom-up calculation approach to account for every cost factors. BatPaC predicts the impact of promising materials (and their properties) on the performance metrics relevant for the different applications. Researchers can use the specific capacities and the half-cell voltages of a particular set of electrode materials to calculate the mass and volume of a cell to develop a model incorporating the properties of all the other materials in the cell and the design of the cell enclosure. These calculations not only reveal the impact of an improved material but also enable researchers to calculate the material properties that would be needed to meet the performance criteria of a full battery pack. With this information, researchers can provide he battery industry with realistic expectations that will help it more successfully advance novel battery technologies an Applications.",
+    "homepageURL": "https://www.anl.gov/cse/batpac-model-software",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "BATPAC--VERSION 5.0",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.anl.gov/cse/batpac-model-software",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-02",
+        "metadataLastUpdated": "2021-07-02"
+    },
+    "description": "The SHIELDS Particle Tracing Model (PTM) is a large-scale particle tracing code, primarily intended for magnetospheric applications. It provides a fast, parallel computing-friendly, and versatile framework for tracing charged particles in arbitrary electric and magnetic fields. To support a broad range of test particle applications, full Lorentz motion can be modeled as well as guiding center motion. Switching strategies allow accurate and efficient test particle tracing across regions where the guiding center approximation may not be maintained. PTM supports tracing of particle motion both forwards and backwards in time. For backwards tracing, PTM can launch particles from a specified location and trace until stopping criteria are met. These stopping criteria can include crossing a surface in space, or a time limit. For forwards tracing particles can be launched from specified points or spatial regions. The code is designed to allow many applications without requiring recompilation, instead providing a rich, user-configurable interface that allows use of different modes at runtime. Model results are stored in user-selected format for post-processing including Liouville mapping of particle fluxes from source to target location. PTM includes pre-processing for field configurations, tools for setting up runs, and post-processing capabilities to enable scientific use. Sample applications include specifying the geosynchronous particle boundary for inner magnetosphere modeling, and determining access of solar energetic protons.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SHIELDS-PTM",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/SHIELDS-PTM",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

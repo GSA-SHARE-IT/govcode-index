@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2018-02-14",
+        "metadataLastUpdated": "2018-03-14"
+    },
+    "description": "paws stands for the Platform for Automated Workflows by SSRL. It was conceived to serve as a lean and modular workflow manager for image-like data. While there are many Python packages providing for a wide variety of processing tasks, we are often faced with a need to bring several packages together, and then to add some home-built scripts as well, to complete a data processing workflow. paws was designed to make this process easy, by providing interfaces to an ever-growing number of existing packages and providing easy ways for users to add their own operations. Occasionally, we have need of an operation that is not provided by a Python package that we know of. In these rare cases, we have developed original operations within PAWS, but such operations intend to live in a lower-level package as soon as they are mature.",
+    "laborHours": 1915.2,
+    "name": "Platform for Automated Workflows by SSRL (paws)",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/paws/blob/dev/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/paws",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

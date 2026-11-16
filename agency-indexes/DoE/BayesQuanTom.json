@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "lukensjm@ornl.gov"
+    },
+    "date": {
+        "created": "2021-03-12",
+        "metadataLastUpdated": "2021-03-12"
+    },
+    "description": "This code provides examples of a new, self-contained approach for Bayesian quantum state estimation which offers improved computational efficiency compared to previous approaches. Leveraging advances in machine learning and statistics, our formulation relies on highly efficient preconditioned Crank-Nicolson sampling and a pseudo-likelihood. Details of the theory behind it can be found in our paper https://doi.org/10.1088/1367-2630/ab8efa",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "BayesQuanTom",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jmlukens/BayesQuanTom",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

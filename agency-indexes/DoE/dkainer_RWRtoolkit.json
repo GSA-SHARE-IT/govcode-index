@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "kainerd@ornl.gov"
+    },
+    "date": {
+        "created": "2022-06-07",
+        "metadataLastUpdated": "2022-06-23"
+    },
+    "description": "a set of command-line and R tools for performing Random-walk with Restart analyses on multiplex networks in any species",
+    "laborHours": 0.0,
+    "languages": [
+        "R"
+    ],
+    "name": "dkainer/RWRtoolkit",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://github.com/dkainer/rwrtoolkit",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

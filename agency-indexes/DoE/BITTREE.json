@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-09-24",
+        "metadataLastUpdated": "2022-09-24"
+    },
+    "description": "The bittree is a memory efficient data structure for storing the entire structure of an octree AMR \nmesh. It also yields an efficient algorithm for mapping from a block's coordinates in the domain to \nits index along the space filling Morton curve.\n\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "BITTREE",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Flash-X/Bittree",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

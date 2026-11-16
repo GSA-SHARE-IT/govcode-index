@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-01",
+        "metadataLastUpdated": "2021-03-01"
+    },
+    "description": "CALAND is a system of algorithms (.r files) and data developed to quantify the impacts of various suites of California State-supported land use and land management strategies on landscape carbon and greenhouse gas emissions (CO2, CH4, and optional black carbon) relative to a baseline scenario for the Draft California 2030 Natural and Working Lands Climate Change Implementation Plan (2019).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "California Natural and Working Lands Carbon and Greenhouse Gas Model (CALAND) v3.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/aldivi/caland",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "v3.0.0"
+}

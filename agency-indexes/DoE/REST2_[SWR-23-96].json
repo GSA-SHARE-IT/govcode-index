@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-04-04",
+        "metadataLastUpdated": "2024-04-16"
+    },
+    "description": "REST2 is the high-performance solar radiation model for cloudless-sky irradiance, illuminance, and photosynthetically active radiation.",
+    "laborHours": 288.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "REST2 [SWR-23-96]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/rest2",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

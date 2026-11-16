@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wieselquiswa@ornl.gov"
+    },
+    "date": {
+        "created": "2024-02-12",
+        "metadataLastUpdated": "2024-02-15"
+    },
+    "description": "OLM focuses on managing the ORIGEN reactor library, which is a special collection of data that enables rapid spent fuel calculations with SCALE/ORIGAMI.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "ORIGEN Library Manager",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/scale/code/olm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-28",
+        "metadataLastUpdated": "2020-08-28"
+    },
+    "description": "This module provides a method for work with cMonkey biclustering tool from the Baliga Lab at the Institute for Systems Biology. cMonkey takes as input gene expression data, promoter sequences, and gene-gene functional association/physical interaction data to find biclusters of conditionally co-regulated genes.",
+    "laborHours": 15291.2,
+    "languages": [],
+    "name": "Module Cmonkey version 1.0",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/cmonkey",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-09-04",
+        "metadataLastUpdated": "2020-06-01"
+    },
+    "description": "There is a sea (mar is Spanish for sea) of data out there that needs to be handled efficiently. Object Stores are filling the hole of managing large amounts of data efficiently. However, in many cases, and our HPC case in particular, we need a traditional file (POSIX) interface to this data as HPC I/O models have not moved to object interfaces, such as Amazon S3, CDMI, etc.Eventually Object Store providers may deliver file interfaces to their object stores, but at this point those interfaces are not ready to do the job that we need done. MarFS will glue together two existing scalable components: a file system's scalable metadata component that provides the file interface; and existing scalable object stores (from one or more providers). There will be utilities to do work that is not critical to be done in real-time so that MarFS can manage the space used by objects and allocated to individual users.",
+    "laborHours": 10244.8,
+    "languages": [],
+    "name": "MarFS, Version 1",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mar-file-system/marfs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

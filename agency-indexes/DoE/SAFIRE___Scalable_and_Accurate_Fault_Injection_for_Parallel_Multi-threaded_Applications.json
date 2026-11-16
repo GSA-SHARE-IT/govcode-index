@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-11-14",
+        "metadataLastUpdated": "2019-11-14"
+    },
+    "description": "The software SAFIRE implements a fault injection tool to evaluate the impact of soft errors on parallel, multi-threaded applications.\n\nIt implements instruction-level fault models that emulate soft errors by flipping bits in the register operands of executed machine instructions.\n\nSAFIRE is based on the LLVM compiler and utilizes novel techniques to optimize instruction instrumentation and fault injection. \n\nBy detailed measurements, SAFIRE is multiple times faster than other state-of-the-art fault injection techniques, while having the same accuracy.",
+    "laborHours": 1362148.0,
+    "languages": [],
+    "name": "SAFIRE : Scalable and Accurate Fault Injection for Parallel Multi-threaded Applications",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/safire",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "v1"
+}

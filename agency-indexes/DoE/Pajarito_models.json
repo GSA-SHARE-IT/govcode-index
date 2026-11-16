@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-10-28",
+        "metadataLastUpdated": "2021-10-28"
+    },
+    "description": "Pajarito models are developed to perform various types of model analyses related to the LANL-site groundwater contamination problems. Pajarito models include several models representing the LANL Chromium (Cr) and RDX sites. Pajarito models also include a model that is at the scale of the Pajarito Plateau. The models are designed to perform model prediction of groundwater flow and contaminant transport. The models are bundled in repositories. The model repositories include scripts, input control files, and drivers. A detailed description of the various files included in the repositories is provided in electronic form within the repositories.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Pajarito models",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/LANL-EM/chrotran-cr-bio",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

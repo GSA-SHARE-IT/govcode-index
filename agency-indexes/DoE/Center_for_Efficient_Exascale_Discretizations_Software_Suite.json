@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "The CEED Software suite is a collection of generally applicable software tools focusing on the following computational motives: PDE discretizations on unstructured meshes, high-order finite element and spectral element methods and unstructured adaptive mesh refinement. All of this software is being developed as part of CEED, a co-design Center for Efficient Exascale Discretizations, within DOE's Exascale Computing Project (ECP) program.",
+    "homepageURL": "http://ceed.exascaleproject.org",
+    "laborHours": 0.0,
+    "languages": [
+        "C++, C, Fortran, Shell, Python"
+    ],
+    "name": "Center for Efficient Exascale Discretizations Software Suite",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ceed.exascaleproject.org/software",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://ceed.exascaleproject.org",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

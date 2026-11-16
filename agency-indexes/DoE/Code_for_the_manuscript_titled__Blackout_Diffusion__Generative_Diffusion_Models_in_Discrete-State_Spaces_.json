@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-07-28",
+        "metadataLastUpdated": "2023-07-28"
+    },
+    "description": "We would like to disclose two scripts, written in Jupyter notebook, in which we implement the \"Blackout Diffusion Process\" described in the manuscript \"Blackout Diffusion: Generative Diffusion Models in Discrete-State Spaces\" (LA-UR-23-20509), to be submitted to the International Conference of Machine Learning (ICML). The abstract of the manuscript is append below.   \n\n==\nTypical generative diffusion models rely on a Gaussian diffusion process for training the backward transformations, which can then be used generate samples from Gaussian noise. However, real world data often takes place in discrete-state spaces, which occur in many scientific applications.  Here, we develop a theoretical formulation for arbitrary discrete-state Markov processes in the forward diffusion process. We relate the theory to the existing continuous-state Gaussian diffusion and identify the corresponding reverse-time stochastic process and score function in the continuous-time setting, and the reverse-time mapping in the discrete-time setting. As an example of this framework, we introduce \"Blackout Diffusion\", which learns to produce samples from an empty image instead of from noise. Numerical experiments on the CIFAR-10 dataset confirm the feasibility of generative diffusion modeling in a discrete space. Generalizing from specific (Gaussian) forward processes to a more general framework also sheds light on how to interpret generative diffusion models and their mathematical structure, which we comment on.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Code for the manuscript titled \"Blackout Diffusion: Generative Diffusion Models in Discrete-State Spaces\"",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Blackout-Diffusion",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "The software implements the generative graph algorithm described in the following reference: T. G. Kolda, A. Pinar, T. Plantenga and C. Seshadhri. A Scalable Generative Graph Model with Community Structure, arXiv:1302.6636, March 2013, http:l/arxiv.org/abs/1302.6636. The software also implements the clustering coefficient algorithms described in C. Seshadhri, A. Pinar and T. G. Kolda. Triadic Measures on Graphs: The Power of Wedge Sampling, in Proc. 2013 SIAM International Conference on Data Mining {SDM), May 2013.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "FEASTPACK v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/feastpack",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

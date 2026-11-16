@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-05-04"
+    },
+    "description": "GEECS (Generalized Equipment and Experiment Control System) monitors and controls equipment distributed across a network, performs experiments by scanning input variables, and collects and stores various types of data synchronously from devices. Examples of devices include cameras, motors and pressure gauges. GEEKS is based upon LabView graphical object oriented programming (GOOP), allowing for a modular and scalable framework. Data is published for subscription of an arbitrary number of variables over TCP. A secondary framework allows easy development of graphical user interfaces for a combined control of any available devices on the control system without the need of programming knowledge. This allows for rapid integration of GEECS into a wide variety of systems. A database interface provides for devise and process configuration while allowing the user to save large quantities of data to local or network drives.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [
+        "LABVIEW 2011 OR LATER"
+    ],
+    "name": "GEECS (Generalized Equipment and Experiment Control System)",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

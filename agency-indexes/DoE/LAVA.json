@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-06-15",
+        "metadataLastUpdated": "2022-06-15"
+    },
+    "description": "We introduce LAVA, a general-purpose python toolkit to provide user-friendly and high throughput calculations for material properties using both LAMMPS and VASP. It contains a set of classes as well as pre-processing and post-processing functions to prepare, execute and extract information from LAMMPS/VASP simulations. An overview of the program structure is provided. The current version contains modules to calculate elastic and mechanical properties such as lattice constant, cohesive energy, cold curve, elastic constants, bulk and shear modulus, volume conserving/non-conserving deformation path, vacancy/interstitial formation energy, surface energy, stacking fault energy, melting point, radial distribution function, and thermal expansion.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LAVA",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/LAVA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2021-03-09",
+        "metadataLastUpdated": "2021-03-10"
+    },
+    "description": "Python utilities for working with data source types used by NREL's dsgrid (Demand-Side Grid Model) project  (i.e. AWS, PostgreSQL, and .parquet). https://www.nrel.gov/analysis/dsgrid.html",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "webspinner",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dsgrid/webspinner",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

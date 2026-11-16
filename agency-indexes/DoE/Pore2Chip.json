@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-08-02",
+        "metadataLastUpdated": "2024-12-13"
+    },
+    "description": "Pore2Chip is a Python module designed to streamline the process of analyzing X-ray computed tomography (XCT) images\nof soil and creating 2D micromodel designs based on that analysis.",
+    "laborHours": 11962.4,
+    "languages": [],
+    "name": "Pore2Chip",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/EMSL-Computing/Pore2Chip",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

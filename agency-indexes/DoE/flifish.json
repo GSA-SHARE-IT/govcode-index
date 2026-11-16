@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2023-08-14",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Identifying single molecules from fluorescence images obtained by a camera and obtain their location and intensity has\nmany applications. We have developed an efficient mathematical algorithm for this task and translate it into computer\nsoftware. Our algorithm are fast, stable and accurate comparing other programs to do the similar task. We have used our\nsoftware in several scientific research areas, such as tracking receptors in live cells, super resolution fluorescence\nmicroscopy, and counting mRNA copies in cells.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "flifish",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hudehong/flifish",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

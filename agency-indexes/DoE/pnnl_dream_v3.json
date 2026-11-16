@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-11-17",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The Designs for Risk Evaluation and Management (DREAM) tool was developed as part of the effort to quantify the risk of\ngeologic storage of carbon dioxide (CO2) under the U.S. Department of Energy’s National Risk Assessment Partnership\n(NRAP). DREAM is an optimization tool created to identify optimal monitoring schemes that minimize the time to first\ndetection of CO2 leakage from a subsurface storage formation. DREAM acts as a post-processer on user-provided output\nfrom subsurface leakage simulations. While DREAM was developed for CO2 leakage scenarios, it is applicable to any\nsubsurface leakage simulation of the same output format",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/dream_v3",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/dream_v3",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

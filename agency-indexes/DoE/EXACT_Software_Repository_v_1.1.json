@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2024-07-30"
+    },
+    "description": "The EXACT Software Repository contains a variety of software packages for describing, controlling, and analyzing computer experiments. The EXACT Python framework provides the experimentalist with convenient software tools to ease and organize the entire experimental process, including the description of factors and levels, the design of experiments, the control of experimental runs, the archiving of results, and analysis of results. The FAST package provides a Framework for Agile Software Testing. FAST manage the distributed execution of EXACT, as well as summaries of test results.",
+    "laborHours": 0.0,
+    "languages": [
+        "Perl",
+        "Python"
+    ],
+    "name": "EXACT Software Repository v 1.1",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/exact",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.1"
+}

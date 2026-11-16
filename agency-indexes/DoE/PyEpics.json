@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "pgarvey@bnl.gov"
+    },
+    "date": {
+        "created": "2019-07-02",
+        "metadataLastUpdated": "2019-07-02"
+    },
+    "description": "PyEpics is a Python interface to the EPICS Channel Access (CA) library for the EPICS control system. The PyEpics module includes both low-level (C-like) and higher-level access (with Python objects) to the EPICS Channel Access (CA) protocol. Python's ctypes library is used to wrap the basic CA functionality, with higher level objects on top of that basic interface. This approach has several advantages including no need for extension code written in C, better thread-safety, and easier installation on multiple platforms.",
+    "laborHours": 7736.8,
+    "languages": [],
+    "name": "PyEpics",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NSLS-II/pyepics/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NSLS-II/pyepics",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

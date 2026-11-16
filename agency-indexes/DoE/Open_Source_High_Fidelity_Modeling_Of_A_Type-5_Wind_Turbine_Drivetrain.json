@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2023-10-25",
+        "metadataLastUpdated": "2023-11-08"
+    },
+    "description": "The purpose of this code is to provide a high-fidelity model of Type-5 wind turbine drivetrain for grid integration and transient stability studies. The increasing integration of renewable energy resources in evolving bulk power system (BPS) is impacting the system’s inertia. Type-5 wind turbine generation has the potential to behave like a traditional synchronous generator and can help mitigate the aforementioned impact. A hydraulic torque converter (TC) and gearbox with torque limiting feature are integral parts of a Type-5 wind turbine unit. A generic and high-fidelity model of a Type-5 wind turbine drivetrain is not openly and widely available for grid integration and transient stability studies. This hinders appropriate assessment of Type-5 wind power plant's contribution to the BPS resilience. This work develops and validates a TC model based on those generally used in automobile's transmission system.",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "Open Source High Fidelity Modeling Of A Type-5 Wind Turbine Drivetrain",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/Type_5_Wind_Turbine_Drivetrain",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-06-02",
+        "metadataLastUpdated": "2023-06-02"
+    },
+    "description": "Dimension reduction techniques have long been an important topic in statistics, and active subspaces (AS) have received much attention this past decade in the computer experiments literature. The most common approach towards estimating the AS is to use Monte Carlo with numerical gradient evaluation. This software takes a new approach towards estimating the active subspace, in which Multivariate Adaptive Regression Splines (MARS) is used as a surrogate model, and relevant calculation are obtained analytically. Using a MARS surrogate has many advantages including improved scaling, better estimation of active subspaces in high dimensions and the ability to handle a large number of prior distributions in closed form. This software is also capable of conducting a so-called \"concordance analysis\", using a generalization of ASs which we refer to as \"Co-Active\" subspaces. ",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Concordance",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/knrumsey-lanl/concordance",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

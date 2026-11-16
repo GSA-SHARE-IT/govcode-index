@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-07-22",
+        "metadataLastUpdated": "2021-07-22"
+    },
+    "description": "Some different SYCL implementations of the reduction operation. The parallel reduction kernel aggregates vector elements into a single result. It consists of four ways to implement the reduction operation using two different data management strategies, which we could not find elsewhere as a single package.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "sycl-reduction benchmark v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/NERSC/nersc-proxies/sycl-reduction.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

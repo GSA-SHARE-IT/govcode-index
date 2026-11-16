@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2018-08-13",
+        "lastModified": "2026-10-29"
+    },
+    "description": "Provides functionality to process jobs pushed by cisagov/cyhy-commander to a scanner instance.",
+    "downloadURL": "https://api.github.com/repos/cisagov/cyhy-runner/downloads",
+    "homepageURL": "https://github.com/cisagov/cyhy-runner",
+    "laborHours": 867.5,
+    "languages": [
+        "Python",
+        "Shell"
+    ],
+    "name": "cyhy-runner",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/cyhy-runner.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

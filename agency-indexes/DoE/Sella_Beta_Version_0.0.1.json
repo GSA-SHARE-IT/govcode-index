@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-04-11",
+        "metadataLastUpdated": "2019-04-12"
+    },
+    "description": "Sella is a tool for locating and optimizing first order saddle points of arbitrary functions, with an emphasis on the potential energy surfaces of molecules. Sella uses ASE to interface with a variety of electronic structure theory packages. Sella can also be used to minimize functions, or find higher-order saddle points.",
+    "laborHours": 1869.6,
+    "languages": [],
+    "name": "Sella Beta Version 0.0.1",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/zadorlab/sella",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "Beta Version 0.0.1"
+}

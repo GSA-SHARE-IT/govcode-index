@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-02-26",
+        "metadataLastUpdated": "2024-05-08"
+    },
+    "description": "Co-optimized Machine-Learned Manifolds (CMLM) is a data-driven approach for developing reduced-order manifold models for high-dimensional chemically reacting systems. It involves a specially designed neural network, the training of which simultaneously optimizes linear combinations of species that define the manifold, nonlinear mapping to outputs of interest such as reaction rates, and (optionally) subfilter closure for large eddy simulation. This software package provides an implementation of the CMLM approach in Python using the PyTorch machine learning library. A few example cases are included, showing how the tool can be applied to different types of data from 0D and 1D reacting simulations performed using Cantera. The neural networks can be saved in a format that is readable by the Pele suite of combustion solvers for use in reacting computational fluid dynamics simulations.\n\nThis software repository contains several python scripts to perform various tasks associated with the Co-optimized Machine Learned Manifolds (CMLM) model, which is described in Perry, Henry de Frahan, and Yellapantula, CNF, 2022 (https://doi.org/10.1016/j.combustflame.2022.112286). This includes not only the code that defines the CMLM model, but also scripts to generate suitable training data, scripts to pre-process the data, scripts to train the CMLM model, and scripts to plot the output, as well as various other helper files. The scripts depend on several commonly used python libraries for data analysis and chemical reaction computations. The trained models that result from this tool are designed to work with the an interface being implemented in the Pele suite of reacting flow solvers (https://github.com/AMReX-Combustion).",
+    "laborHours": 1778.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "CMLM (Co-Optimized Machine-Learned Manifolds) [SWR-23-41]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/cmlm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

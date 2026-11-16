@@ -1,0 +1,41 @@
+{
+    "name": "email-service",
+    "description": "Send, Store and Search system generated emails.",
+    "tags": [
+        "java",
+        "government",
+        "microservice",
+        "nsf",
+        "mynsf",
+        "features",
+        "shared"
+    ],
+    "contact": {
+        "email": "esivagna@nsf.gov",
+        "name": "Elanchezhian Sivagnanam",
+        "phone": "7032928088"
+    },
+    "status": "Beta",
+    "vcs": "git",
+    "languages": [
+        "Java"
+    ],
+    "repositoryURL": "https://github.com/nsf-open/rest-service-email",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://github.com/nsf-open/rest-service-email/blob/master/LICENSE",
+                "name": "GPL.v3"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "laborHours": 1079,
+    "date": {
+        "created": "2018-08-18",
+        "lastModified": "2018-08-18",
+        "metadataLastUpdated": "2019-03-14"
+    },
+    "disclaimerText": "",
+    "disclaimerURL": "https://www.nsf.gov/digitalstrategy/Alternative_Analysis_Report_Template_Process.pdf"
+}

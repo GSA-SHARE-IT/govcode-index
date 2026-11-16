@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-10",
+        "metadataLastUpdated": "2021-12-10"
+    },
+    "description": "The code for regularized adversarial domain adaption is provided here. The RADA methodology is developed for correcting climate model biases using an adversarial learning strategy. The code here covers the data processing, the algorithm, the baseline models, and the evaluation.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "RADA",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/panbaoxiang/RADA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2025-02-20",
+        "metadataLastUpdated": "2025-02-20"
+    },
+    "description": "We propose a generalized framework which performs an optimal partitioning of a limited budget into various\norganizational sectors in order to improve the cybersecurity of a smart device or component in the Cyber Physical Energy\nSystem (CPS). The framework identifies the adversarial threats and possible attack sequences which can be performed to\nexploit cyber vulnerabilities of the component. Thereafter, we formulate an Mixed Integer Linear Programming (MILP)\noptimization problem which aims to evaluate the optimal budget partitions in order to minimize the number of highly likely\nattack sequences. Though we provide results for using the framework in CPES, the proposed methodology can be\nextended for multiple domains with a set of known adversarial and mitigation actions.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 3526.4,
+    "languages": [],
+    "name": "Optimal Mitigation Planning For Adversarial Scenarios",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

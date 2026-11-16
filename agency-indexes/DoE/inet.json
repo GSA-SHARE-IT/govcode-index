@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-05-25"
+    },
+    "description": "INET's was developed in the 80's when the Internet was in it's infancy and various vendors were attempting to get into the ball game with half baked code that indicated a lack of understanding about basic IP standards in the area of IP and ICMP. Various test applications were written to test conformance to the early Internet RFC's especially ICMP. The INET program allows the user to exercise various minor internet services provided by a specified service host. See the DDN Protocol Handbook, Volume Two, Section 8 for a detailed description of various minor applications which one might attempt to exercise. The unix network daemon \"inetd\" was the inspiration for the name \"inet\". A simple C library generated at the time was recently used to build a program called 'dp' shich GROK uses to transfer BAG session information to some backend data collector such as DISARM (LA-CC number 05-D47)",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "laborHours": 0.0,
+    "languages": [
+        "gcc 3.2.3 through gcc 4.0.3"
+    ],
+    "name": "inet",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

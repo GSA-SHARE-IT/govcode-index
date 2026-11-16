@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2023-05-16"
+    },
+    "description": "The Revenue, Operation, and Device Optimization (RODeO) model explores optimal system design and operation considering different levels of grid integration, equipment cost, operating limitations, financing, and credits and incentives. RODeO is a price-taker model formulated as a mixed-integer linear programming (MILP) model in the GAMS modeling platform. The objective is to maximizes the net revenue for a collection of equipment at a given site. The equipment includes generators (e.g., gas turbine, steam turbine, solar, wind, hydro, fuel cells, etc.), storage systems (batteries, pumped hydro, gas-fired compressed air energy storage, long-duration systems, hydrogen), and flexible loads (e.g., electric vehicles, electrolyzers, flexible building loads). The input data required by RODeO can be classified into three bins: 1) utility service data, which refers to retail utility rate information (meter cost, energy and demand charges), 2) electricity market data, which include energy and reserve prices, 3) other inputs, which refer to additional electrical demand, product output demand, technological assumptions, financial properties, and operational parameters.",
+    "laborHours": 0.0,
+    "languages": [
+        "GAMS",
+        "Batchfile",
+        "MATLAB",
+        "Python",
+        "Python"
+    ],
+    "name": "RODeO (Revenue Operation and Device Optimization Model) [SWR 20-67]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/RODeO",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

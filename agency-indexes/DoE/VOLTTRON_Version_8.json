@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-11-05",
+        "metadataLastUpdated": "2020-11-06"
+    },
+    "description": "VOLTTRON Distributed Control System Platform VOLTTRON™ delivers an innovative distributed control and sensing software platform that supports modern control strategies, including agent-based and transaction-based controls.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "VOLTTRON Version 8",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/VOLTTRON/volttron/releases/tag/8.0rc1",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git",
+    "version": "8"
+}

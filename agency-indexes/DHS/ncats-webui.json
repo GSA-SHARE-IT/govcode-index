@@ -1,0 +1,44 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2018-08-13",
+        "lastModified": "2026-08-06"
+    },
+    "description": "A web application for displaying CyHy Vulnerability Scanning data",
+    "downloadURL": "https://api.github.com/repos/cisagov/ncats-webui/downloads",
+    "homepageURL": "https://github.com/cisagov/ncats-webui",
+    "laborHours": 30578.5,
+    "languages": [
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Shell",
+        "JavaScript",
+        "Dockerfile",
+        "Makefile"
+    ],
+    "name": "ncats-webui",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ncats-webui.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "cyber",
+        "cyhy",
+        "dashboard",
+        "hygiene"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-11-12",
+        "lastModified": "2024-02-02"
+    },
+    "description": "Terraform code to configure PCA accounts for the COOL.",
+    "downloadURL": "https://api.github.com/repos/cisagov/cool-accounts-pca/downloads",
+    "homepageURL": "https://github.com/cisagov/cool-accounts-pca",
+    "laborHours": 384.9,
+    "languages": [
+        "Shell",
+        "HCL"
+    ],
+    "name": "cool-accounts-pca",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/cool-accounts-pca.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

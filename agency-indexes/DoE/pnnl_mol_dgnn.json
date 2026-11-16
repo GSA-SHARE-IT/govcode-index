@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-05-04",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Molecular dynamics simulations often rely on parameterized atomistic potentials, which can be inaccurate compared to ab initio simulation methods. However, dynamic ab initio simulations come with high computational cost. Deep learning techniques offer a method to obtain both high accuracy and low cost predictions of dynamics. Our method gives a prediction of the structural dynamics of a molecule accounting for the prior dynamics, giving high-accuracy predictions at low computational cost",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/mol_dgnn",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/mol_dgnn",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-03-09",
+        "lastModified": "2026-06-22"
+    },
+    "description": "A systemd-enabled Kali Linux Docker image, in the spirit of geerlingguy/docker-debian11-ansible.",
+    "downloadURL": "https://api.github.com/repos/cisagov/docker-kali-ansible/downloads",
+    "homepageURL": "https://github.com/cisagov/docker-kali-ansible",
+    "laborHours": 48.2,
+    "languages": [
+        "Dockerfile",
+        "Shell"
+    ],
+    "name": "docker-kali-ansible",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/docker-kali-ansible.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

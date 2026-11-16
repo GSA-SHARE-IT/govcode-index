@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "LinkShop is a software tool for applying the method of Linkography to the analysis time-sequence data. LinkShop provides command line, web, and application programming interfaces (API) for input and processing of time-sequence data, abstraction models, and ontologies. The software creates graph representations of the abstraction model, ontology, and derived linkograph. Finally, the tool allows the user to perform statistical measurements of the linkograph and refine the ontology through direct manipulation of the linkograph.",
+    "laborHours": 10503.2,
+    "languages": [
+        "Python 3, Javascript, C++"
+    ],
+    "name": "LinkShop v.1.0.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/linkshop",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

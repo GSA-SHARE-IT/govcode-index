@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "brownjm@ornl.gov"
+    },
+    "date": {
+        "created": "2024-02-27",
+        "metadataLastUpdated": "2024-07-01"
+    },
+    "description": "This is a collection of public data produced by AMPX or curated from quality sources that the SCALE code system relies on for user problem input.",
+    "laborHours": 15.2,
+    "languages": [],
+    "name": "SCALE/DB-Public",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://code.ornl.gov/scale/code/db-public/-/blob/main/LICENSE",
+                "name": "Other"
+            },
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/scale/data/db-public",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

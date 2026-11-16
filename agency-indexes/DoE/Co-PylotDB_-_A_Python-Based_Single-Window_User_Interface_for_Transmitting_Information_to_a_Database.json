@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-12-11"
+    },
+    "description": "Co-PylotDB, written completely in Python, provides a user interface (UI) with which to select user and data file(s), directories, and file content, and provide or capture various other information for sending data collected from running any computer program to a pre-formatted database table for persistent storage. The interface allows the user to select input, output, make, source, executable, and qsub files. It also provides fields for specifying the machine name on which the software was run, capturing compile and execution lines, and listing relevant user comments. Data automatically captured by Co-PylotDB and sent to the database are user, current directory, local hostname, current date, and time of send. The UI provides fields for logging into a local or remote database server, specifying a database and a table, and sending the information to the selected database table. If a server is not available, the UI provides for saving the command that would have saved the information to a database table for either later submission or for sending via email to a collaborator who has access to the desired database.",
+    "laborHours": 64448.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Co-PylotDB - A Python-Based Single-Window User Interface for Transmitting Information to a Database",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/PYLOTDB",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

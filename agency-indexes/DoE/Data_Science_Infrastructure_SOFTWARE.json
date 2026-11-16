@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-06-02",
+        "metadataLastUpdated": "2023-06-02"
+    },
+    "description": "LANL science workflows generate complex data sets and ensembles of data requiring significant compute and storage resources. The Data Science Infrastructure (DSI) project focuses on data-driven approaches to make data more readily available to LANL projects. DSI workflows leverage metadata stored in data-agnostic databases, supported by an abstraction layer API to simplify searching and accessing data across simulation runs, experimental runs, filesystems and environments. The abstraction layer API allows the user to query a range of data types: raw output, processed data, configuration data, machine learning models, performance data, etc. In addition to the abstraction backend API, the DSI project is developing client-driven query APIs and UIs to support specific user workflows.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Data Science Infrastructure SOFTWARE",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/dsi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

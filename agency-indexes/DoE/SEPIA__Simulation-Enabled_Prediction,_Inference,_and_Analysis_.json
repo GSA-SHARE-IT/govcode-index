@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2021-06-17"
+    },
+    "description": "SEPIA (Simulation-Enabled Prediction, Inference, and Analysis) is a Python port, with user interface enhancements, of GPMSA software. GPMSA is released as LACC-06-079. \nThe software performs analysis and uncertainty quantification, by comparing experimental observations to ensembles of computer simulations. \nThis software is based on the methodology of Higdon et.al 2008, https://doi.org/10.1198/016214507000000888 .",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SEPIA (Simulation-Enabled Prediction, Inference, and Analysis)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/SEPIA",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

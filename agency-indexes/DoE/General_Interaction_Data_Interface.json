@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-07-15",
+        "metadataLastUpdated": "2019-07-16"
+    },
+    "description": "The General Interaction Data Interface (GIDI) is a C++ API that reads and writes nuclear reaction data stored in the General Nuclear Data Structure (GNDS). GNDS is a new \"format\" for storing nuclear reaction data developed by the Working Party on Evaluation Co-operation (OECD/NEA/WPEC) Subgroup 38. \n\nGNDS can store evaluated nuclear data as well as nuclear data processed for deterministic (multi-group) and Monte Carlo transport. GIDI handles and provides accesses to all forms of the GNDS nuclear data.\n\nFor multi-group data, GIDI provides functions to sum the data over all reactions. It also has functions for collapsing multi-group data to a small subset of groups and can transport correct multi-group data using the Pendlebury/Underhill formalism.\n\nThe GNDS definition supports data for a PROjectile hitting a TARget for a given Evaluation. In GIDI this is called a PROTARE. For example, a neutron hitting O-16 from the ENDF/B-VIII.0 evaluation.\n\nTo support a collection of protares, GIDI adds a Map class. The map class reads in a \"map\" file which specifies a list of projectile/target/evalaution's and their associated protare files. \n\nWith a map instance, a user can request a specific projectile/target/evaluation and the map instance will return the requested protare.",
+    "laborHours": 60359.2,
+    "languages": [
+        "C++"
+    ],
+    "name": "General Interaction Data Interface",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/gidiplus",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "3.17"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2020-03-17",
+        "metadataLastUpdated": "2020-03-17"
+    },
+    "description": "nubhlight is a code for simulating disks of materials around black holes formed after the in-spiral and merger of two-black holes. It is based on the open-source code bhlight. nubhlight models all relevant physics required to solve the post-merger disk problem. This includes: general relativity in a static spacetime, neutrino and weak physics, relativistic magnetohydrodynamics, and the ability to use open-sourced tabulated equations of state provided by stellarcollapse.org.\n",
+    "laborHours": 27344.8,
+    "languages": [],
+    "name": "lanl/nubhlight",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/nubhlight",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

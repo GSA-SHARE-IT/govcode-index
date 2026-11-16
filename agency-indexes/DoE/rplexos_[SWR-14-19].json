@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-09-16"
+    },
+    "description": "rplexos is a R (statistical software framework; more? details below) package that processes and facilitates analysis of solution from PLEXOS. PLEXOS is a production cost model that is utilize to simulate the behavior of the power.systems and is developed and commercialized by Energy Exomplar. The intention is to make rptexos open-source so other PLEXOS users can utilize it.",
+    "laborHours": 2173.6,
+    "languages": [
+        "C++",
+        "R"
+    ],
+    "name": "rplexos [SWR-14-19]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NREL/rplexos/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/rplexos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "1.1.2"
+}

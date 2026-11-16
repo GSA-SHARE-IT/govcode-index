@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "stewartsl@ornl.gov"
+    },
+    "date": {
+        "created": "2021-01-29",
+        "metadataLastUpdated": "2022-02-08"
+    },
+    "description": "The Transformer eXplainability and eXploration library is intended to aid in the explorability and explainability of transformer classification networks, or transformer language models with sequence classification heads. The basic function of this library is to take a trained transformer and test/train dataset and produce an ipywidget dashboard which can be displayed in a jupyter notebook or in jupyter lab.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Transformer eXplainability and eXploration",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/tx2",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

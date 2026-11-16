@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "LBANN is a toolkit that is designed to train artificial neural networks efficiently on high performance computing architectures. It is optimized to take advantages of key High Performance Computing features to accelerate neural network training. Specifically it is optimized for low-latency, high bandwidth interconnects, node-local NVRAM, node-local GPU accelerators, and high bandwidth parallel file systems. It is built on top of the open source Elemental distributed-memory dense and spars-direct linear algebra and optimization library that is released under the BSD license. The algorithms contained within LBANN are drawn from the academic literature and implemented to work within a distributed-memory framework.",
+    "laborHours": 64919.2,
+    "name": "Livermore Big Artificial Neural Network Toolkit",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/LBANN",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

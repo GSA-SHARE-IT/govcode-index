@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-20",
+        "metadataLastUpdated": "2020-05-20"
+    },
+    "description": "'intercoolr' is a collection of APIs that allow userspace codes to directly monitor and control hardware features such as P-state.",
+    "laborHours": 486.4,
+    "languages": [],
+    "name": "intercoolr",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/coolr-hpc/intercoolr/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/coolr-hpc/intercoolr",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

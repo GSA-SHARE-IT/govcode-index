@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Phalanx is a software library to provide flexible dependency management for complex nonlinear partial differential equation operators. It breaks a complex set of equations into a manageable set of fields and evaluation routines. Users can flexibly swap evaluators to change the underlying dependency graph of the fields automatically. By constructing the dependency list, sensitivities can be calculated either analytically or by using embedded automatic differentiation software.",
+    "laborHours": 8344830.4,
+    "name": "Phalanx V1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/trilinos/Trilinos/blob/master/packages/phalanx/copyright.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

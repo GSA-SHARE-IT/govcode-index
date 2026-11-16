@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-12-04",
+        "metadataLastUpdated": "2019-12-04"
+    },
+    "description": "The National Energy Research Scientific Computing Center (NERSC) is the primary scientific computing facility for the Office of Science in the U.S. Department of Energy. NERSC houses top-ranked Cray supercomputers, and our staff works very closely with on-site Cray engineers, submitting 75 Cray cases per month on average. Until recently, submitting a Cray case was only possible by phone or email, and all subsequent updates were delivered manually. This process led to delays, errors during manual data entry, and greatly increased incident processing and resolution time. In 2018, NERSC deployed an API-based bidirectional integration that allowed to submit and update Cray cases directly from our Incident Management platform, thus streamlining our 24x7 operations and enhancing communication between our engineering teams. This solution is applicable to any Incident Management platform.",
+    "laborHours": 5532.8,
+    "languages": [],
+    "name": "ServiceNow/CrayPort Integration v2.1.5",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/crayport/crayport-app-code.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

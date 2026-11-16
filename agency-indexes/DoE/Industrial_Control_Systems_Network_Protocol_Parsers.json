@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-01-12",
+        "metadataLastUpdated": "2024-02-27"
+    },
+    "description": "Industrial Control Systems protocol parsers plugins for the Zeek network security monitoring framework. Currently we have four fully developed protocol parsers but we plan on adding more in the future. The protocol parsers we currently have developed are for BACnet, DNP3, Ethernet/IP, and Modbus.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Industrial Control Systems Network Protocol Parsers",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://github.com/cisagov/ICSNPP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

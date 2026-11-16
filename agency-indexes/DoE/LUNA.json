@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2021-06-17"
+    },
+    "description": "We have developed a mechanistic model of leaf utilization of nitrogen for assimilation (LUNA V1.0) to predict the photosynthetic capacity at the global scale under different environmental conditions. We adopt an optimality hypothesis to nitrogen allocation among light capture, electron transport, carboxylation, and respiration. The LUNA model is able to reasonably capture the measured spatial and temporal patterns of the photosynthetic capacity as it explains ~55% of the global variation in the observed values of  maximum carboxylation rate (Vc,max25) and ~65% of the variation in the observed values of  maximum electron transport rate (Jmax25).",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LUNA",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

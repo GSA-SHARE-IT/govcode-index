@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "EMTA is a stand-alone computer program that has been developed for the computation of elastic properties and thermal expansion coefficients (thermoelastic properties) of discontinuous fiber composites. EMTA stands for the Eshelby-Mori-Tanaka approach. It implements the standard and modified Mori-Tanaka models that use the Eshelby's equivalent inclusion method. EMTA carries out the Eshelby-Mori-Tanaka homogenization procedure accounting for the constituents (fiber and matrix) properties such as the elastic properties and thermal expansion coefficients (CTEs) of the fibers and of the matrix. It also accounts for the constituents features such as fiber length and orientation distributions, fiber curvature, and imperfect fiber/matrix interfaces. The outputs of an EMTA execution are the elastic properties (engineering constants) and CTEs of the as-formed composite in the defined material coordinate system. These results can readily be used in engineering applications and designs that require these properties.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Eshelby-Mori-Tanaka Approach",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

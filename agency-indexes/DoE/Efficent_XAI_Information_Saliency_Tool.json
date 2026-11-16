@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-05-13",
+        "metadataLastUpdated": "2020-05-13"
+    },
+    "description": "This software is an implementation which is described in: \"Efficient Saliency Maps for Explainable AI\"\n(https://openreview.net/forum?id=ryxf9CEKDr). The toolkit is located in:\nhttps://mybitbucket.llnl.gov/projects/SAL/repos/smoe_lovi/browse. It is a set of of PyTorch related python\nscripts for extracting the what parts of an image are most salient to a deep neural network in an efficient\nmanner. This source will allow one to replicate the results in the paper referenced above.\nIs there",
+    "laborHours": 1170.4,
+    "languages": [],
+    "name": "Efficent XAI Information Saliency Tool",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/fastcam",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

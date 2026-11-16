@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-09-23",
+        "metadataLastUpdated": "2023-03-14"
+    },
+    "description": "ParMOO is a Python library for solving multiobjective simulation optimization problems, while exploiting problem structure. ParMOO stands for \"parallel multiobjective optimization\".",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PARMOO",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/parmoo/parmoo",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-03-30",
+        "metadataLastUpdated": "2023-05-08"
+    },
+    "description": "Recently, numerous data-driven approaches to control an electric grid using machine learning techniques have been investigated. With the advancement of reinforcement learning (RL) based techniques, gradually the conventional optimization based solvers are being replaced with RL approach where there is uncertainty in the environment such as renewable generation or cyber system emulation. However, to train an agent efficiently, it requires numerous interactions with an environment to learn the best policies. There are numerous RL environments for the power systems based on some well-known simulators, similarly there are environment for communication domains. While majority of the cyber emulators are based in an UNIX environment, the power simulators are based in the Windows-based operating system, the generation of cyber-physical mixed domain RL environment has been challenging. Existing co-simulation methods are efficient but resource and time intensive to generate large scale data set for training RL agents. Hence, this software focuses on development and validation of a mixed domain RL environment using Open DSS for the physical side and leverages a discrete event simulator python package, SimPy, for cyber-side emulation which is Operating Systems agnostic. Further utilizing this software co-simulation and training RL agents for re-routing based resilient control for network reconfiguration and volt-var control in power distribution feeder are performed.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "DSS-SimPy-RL (Open-DSS and SimPy based Cyber-Physical RL environment) [SWR-23-29]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/DSS-SimPy-RL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

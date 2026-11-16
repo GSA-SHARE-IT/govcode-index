@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "dewittsj@ornl.gov"
+    },
+    "date": {
+        "created": "2024-01-10",
+        "metadataLastUpdated": "2024-01-10"
+    },
+    "description": "This repository contains example implementations of phase-field codes primarily for educational purposes. These codes demonstrate how a simple phase-field models can be implemented as an introduction for researchers new to the area (students, new staff, collaborators from different domains, etc.). \n\nThe computer code includes highly documented Jupyter notebooks that implement phase-field models and analyze the results.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Phase-Field Method Tutorial Codes",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/pf_tutorial_codes",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

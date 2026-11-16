@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2023-02-09",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "To more effectively and completely convert STIX1 data to STIX2.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Enhanced_STIX_Elevator",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/idaholab/Enhanced_STIX_Elevator/blob/main/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/Enhanced_STIX_Elevator",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

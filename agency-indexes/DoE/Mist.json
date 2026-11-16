@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "dewittsj@ornl.gov"
+    },
+    "date": {
+        "created": "2024-06-04",
+        "metadataLastUpdated": "2024-06-04"
+    },
+    "description": "Determining the appropriate material data is often a bottleneck for performing calculations/simulations of industrial/experimental processes and resulting material structures and properties. Beyond the time it takes to find the appropriate values in the literature, many judgement calls are involved in choosing the values. These judgement calls can lead to inconsistencies between steps in research workflow, where different material parameter values are used.\n\nMist solves this problem by providing a mechanism to store, share, and use material information in convenient human-readable and machine-readable formats. Mist has an extensible ontology for defining a wide variety of material information, currently focused on metal alloy applications. Examples include: alloy composition, density, liquidus temperature, and the coefficient of thermal expansion.\n\nMist converts between standardized machine-readable data formats (e.g. JSON), specialized input format for simulation tools, and human-readable documents (e.g. LaTeX, Markdown). For parameters defined by an equation (e.g. a polynomial function) or a list of tabulated values, Mist can evaluate parameter values at requested conditions. Mist also provides an API for direct usage of the Mist data structures in calculations, if supported.",
+    "laborHours": 410.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "Mist",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-MDF/mist",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

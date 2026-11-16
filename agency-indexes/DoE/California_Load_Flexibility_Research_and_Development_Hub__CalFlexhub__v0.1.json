@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-17",
+        "metadataLastUpdated": "2024-07-17"
+    },
+    "description": "This repository will host the software, data models and documentation developed as part of the California Energy Commission (CEC) funded California Load Flexibility Research and Development Hub (CalFlexHub) project. The main objectives of CalFlexHub are:\n- Identify, develop, evaluate, demonstrate and deploy cost-effective, scalable, building load-flexible (LF) technologies that are consistent with building energy efficiency, appliance, and load management standards.\n- Create a portfolio of LF RDD&D technology projects across various building types and sizes including single-family-residential, multi-family, commercial buildings and integrated campuses.\n- Deploy LF technologies to demonstrate the ability for 99% of the state's customers to receive the load management standards price and marginal GHG signals.",
+    "laborHours": 60.8,
+    "languages": [],
+    "name": "California Load Flexibility Research and Development Hub (CalFlexhub) v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/CalFlexHub",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

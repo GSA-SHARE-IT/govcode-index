@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2022-04-13",
+        "lastModified": "2026-04-09"
+    },
+    "description": "A Terraform module for setting up and configuring logging for AWS Session Manager access for an AWS account",
+    "downloadURL": "https://api.github.com/repos/cisagov/session-manager-tf-module/downloads",
+    "homepageURL": "https://github.com/cisagov/session-manager-tf-module",
+    "laborHours": 712.8,
+    "languages": [
+        "Shell",
+        "HCL"
+    ],
+    "name": "session-manager-tf-module",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/session-manager-tf-module.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

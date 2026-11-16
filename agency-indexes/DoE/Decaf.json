@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-07-30",
+        "metadataLastUpdated": "2019-07-30"
+    },
+    "description": "Decaf is a dataflow system for the parallel communication of coupled tasks in an HPC workflow and allows the user to allocate resources and execute custom code in the dataflow. The runtime for calling tasks is entirely message-driven. Such a message-driven runtime allows cyclic task dependencies in the workflow graph, for example, to enact computational steering based on the result of downstream tasks. Decaf can stand alone as a complete workflow system, or Decaf can also be used as the dataflow layer by one or more other workflow systems to form a heterogeneous task-based computing environment.",
+    "laborHours": 45372.0,
+    "languages": [],
+    "name": "Decaf",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/tpeterka/decaf",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

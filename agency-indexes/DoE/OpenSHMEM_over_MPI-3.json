@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "OpenSHMEM is a community effort to unifyt and standardize the SHMEM programming model. MPI (Message Passing Interface) is a well-known community standard for parallel programming using distributed memory. The most recen t release of MPI, version 3.0, was designed in part to support programming models like SHMEM.OSHMPI is an implementation of the OpenSHMEM standard using MPI-3 for the Linux operating system. It is the first implementation of SHMEM over MPI one-sided communication and has the potential to be widely adopted due to the portability and widely availability of Linux and MPI-3. OSHMPI has been tested on a variety of systems and implementations of MPI-3, includingInfiniBand clusters using MVAPICH2 and SGI shared-memory supercomputers using MPICH. Current support is limited to Linux but may be extended to Apple OSX if there is sufficient interest. The code is opensource via https://github.com/jeffhammond/oshmpi",
+    "laborHours": 15291.2,
+    "name": "OpenSHMEM over MPI-3",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jeffhammond/oshmpi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

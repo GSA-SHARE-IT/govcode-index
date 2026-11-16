@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "The qthread library provides a software mechanism for programs to execute a large number of run-to-completion threads at low cost. It provides the ability to perform lightweight synchronization on memory locations. Finally, modules within the library (\"futurelib\", \"qloop\", and \"qutil\") provide the optional ability to manage the number of threads created in C and C++ by providing parallel loop constructs.",
+    "laborHours": 47393.6,
+    "languages": [
+        "C++",
+        "C",
+        "HMTL",
+        "Makefile",
+        "Assembly",
+        "M4"
+    ],
+    "name": "Qthreads",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/qthreads?tab=License-1-ov-file#readme",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/qthreads",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

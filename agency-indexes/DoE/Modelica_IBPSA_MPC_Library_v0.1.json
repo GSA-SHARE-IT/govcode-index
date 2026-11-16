@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-11-25",
+        "metadataLastUpdated": "2019-11-25"
+    },
+    "description": "The Modelica IBPSA MPC Library is a free open-source library with basic models that codify best practices for the implementation of models to be used in Nonlinear Model Predictive Control of building and community energy systems.\n\nThe development of the Modelica IBPSA MPC Library is organized through the IBPSA Project 1 (https://ibpsa.github.io/project1) of the International Building Performance Simulation Association (IBPSA).",
+    "laborHours": 15.2,
+    "languages": [],
+    "name": "Modelica IBPSA MPC Library v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ibpsa/modelica-ibpsa-mpc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-11-25",
+        "metadataLastUpdated": "2024-08-23"
+    },
+    "description": "This code solves the Vlasov-Poisson equations in 6-dimensions without approximation. It uses sparse grid discretization to solve the high-dimensional PDEs. The code functions as a discontinuous Galerkin finite element solver. Advantages/benefits include no approximations, supports high-dimensionality, leadership-scale capability, and implicit time advance.",
+    "laborHours": 33029.6,
+    "languages": [
+        "C++17"
+    ],
+    "name": "Adaptive Sparse Grid Discretization (ASGarD)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/project-asgard/asgard/releases/tag/v0.5.0",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "v0.5.0"
+}

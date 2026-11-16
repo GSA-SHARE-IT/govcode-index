@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "gilmorem@osti.gov"
+    },
+    "date": {
+        "created": "2018-06-22",
+        "metadataLastUpdated": "2022-12-07"
+    },
+    "description": "SYSPLAN evaluates capital investment in customer side of the meter load leveling battery systems. Such systems reduce the customer's monthly electrical demand charge by reducing the maximum power load supplied by the utility during the customer's peak demand. System equipment consists of a large array of batteries, a current converter, and balance of plant equipment and facilities required to support the battery and converter system. The system is installed on the customer's side of the meter and controlled and operated by the customer. Its economic feasibility depends largely on the customer's load profile. Load shape requirements, utility rate structures, and battery equipment cost and performance data serve as bases for determining whether a load leveling battery system is economically feasible for a particular installation. Life-cycle costs for system hardware include all costs associated with the purchase, installation, and operation of battery, converter, and balance of plant facilities and equipment. The SYSPLAN spreadsheet software is specifically designed to evaluate these costs and the reduced demand charge benefits; it completes a 20 year period life cycle cost analysis based on the battery system description and cost data. A built-in sensitivity analysis routine is also included for key battery cost parameters. The life cycle cost analysis spreadsheet is augmented by a system sizing routine to help users identify load leveling system size requirements for their facilities. The optional XSIZE system sizing spreadsheet which is included can be used to identify a range of battery system sizes that might be economically attractive. XSIZE output consisting of system operating requirements can then be passed by the temporary file SIZE to the main SYSPLAN spreadsheet.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Load Leveling Battery System Costs",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ]
+}

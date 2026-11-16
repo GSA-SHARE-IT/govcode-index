@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "To address a pressing need to better understand the behavior and complex interaction of ice sheets within the global Earth system, significant development of continental-scale, dynamical ice-sheet models is underway. The associated verification and validation process of these models is being coordinated through a new, robust, python-based extensible software package, the Land Ice Verification and Validation toolkit (LIVV). This release provides robust and automated verification and a performance evaluation on LCF platforms. The performance V&V involves a comprehensive comparison of model performance relative to expected behavior on a given computing platform. LIVV operates on a set of benchmark and test data, and provides comparisons for a suite of community prioritized tests, including configuration and parameter variations, bit-4-bit evaluation, and plots of tests where differences occur.",
+    "laborHours": 4772.8,
+    "name": "Land Ice Verification and Validation Kit",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LIVVkit/LIVVkit",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

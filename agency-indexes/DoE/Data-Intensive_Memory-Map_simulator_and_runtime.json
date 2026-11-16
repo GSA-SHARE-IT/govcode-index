@@ -1,0 +1,29 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "DI-MMAP is a simulator for modeling the performance of next generation non-volatile random access memory technologies (NVRAM) and a high-perfromance memory-map runtime for the Linux operating system. It is implemented as a device driver for the Linux operating system. It will be used by algorithm designers to unserstand the impact of future NVRAM on their algorithms and will be used by application developers for high-performance access to NVRAM storage.",
+    "laborHours": 4894.4,
+    "name": "Data-Intensive Memory-Map simulator and runtime",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/vanessen/di-mmap",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

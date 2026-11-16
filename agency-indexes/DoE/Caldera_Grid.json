@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2023-01-03",
+        "metadataLastUpdated": "2023-05-17"
+    },
+    "description": "Caldera Grid is part of Caldera software platform, a suite of collective, open-source tools that was developed to improve the state of the art in modeling the impacts of Electric Vehicle (EV) charging on the grid. Caldera Grid is a co-simulation framework implemented using Hierarchical Engine for Large scale Infrastructure Co-Simulation (HELICS). The framework facilitates the co-simulation of EV charging and Smart Charge Management (SCM) strategies in Caldera Infrastructure Charge Model (ICM) with distribution level grid models in OpenDSS. Vehicle energy needs and charge session requirements generated using Caldera Charge Decision Module (CDM) are fed in as input to Caldera Grid. The EV charging models in Caldera ICM simulates both the uncontrolled charging loads as well as loads modified by the SCM strategies to develop distributed load profiles for each grid node hosting an Electric Vehicle Supply Equipment (EVSE) – also known as chargers. These loads were simulated in OpenDSS alongside existing distribution feeder loads. Each of these models are co-simulated in a HELICS federate. The HELICS co-simulation framework facilitates communication and synchronization between the federates. By co-simulating EV loads and distribution feeder loads, Caldera Grid can assess the potential grid impacts of EV charging on distribution feeders under various grid conditions. A control strategy federate is implemented with an interface where control strategies based on feedback from EV charging status and grid conditions can be developed and implemented. The platform can also support multiple control strategies in a single co-simulation.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Caldera_Grid",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/Caldera_Grid",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-07-30",
+        "metadataLastUpdated": "2019-07-30"
+    },
+    "description": "DeepHyper is a Python package and infrastructure that targets experimental research in DL search methods, scalability, and portability across high performance computing (HPC) systems. It comprises three modules: benchmarks, a collection of extensible and diverse DL hyperparameter search problems; search, a set of search algorithms for DL hyperparameter search; and evaluators, a common interface for evaluating hyperparameter configurations on HPC platforms. ",
+    "laborHours": 12388.0,
+    "languages": [],
+    "name": "DeepHyper: Scalable Asynchronous Neural Architecture and Hyperparameter Search for Deep Neural Networks",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/deephyper/deephyper",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

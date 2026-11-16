@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "The ESG-CET system consist of two major components: 1) Gateways that support portal services, which serve as interfaces to end-users who can search, discover, and request data and data products, and 2) Data Nodes where the data actually resides. The Data is \"published\" to the Data Node, which makes the data visible to a Gateway and enables its delivery to end-users. It is expected that Gateways will only be installed by a small number of centers devoted to serving data (e.g., LLNL/PCMDI, NCAR, GFDL, DADC, DKRZ, ANU, JAMSTEC), whereas it is hoped that most climate modeling centers will install the Data Node software through which they can serve their model output.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Earth System Grid (ESG) Data Node Software Stack",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.osti.gov/osti-public/earth-system-grid-esg-data-node-software-stack",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

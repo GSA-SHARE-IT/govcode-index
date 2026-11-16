@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "zulissi@andrew.cmu.edu"
+    },
+    "date": {
+        "created": "2022-11-18",
+        "metadataLastUpdated": "2022-11-18"
+    },
+    "description": "CatGym is a deep reinforcement learning (DRL) environment for predicting the thermal surface reconstruction pathways and their associated kinetic barriers in crystalline solids under reaction conditions. The DRL agent iteratively changes the positions of atoms in the near-surface region to generate kinetic pathways to accessible local minima involving changes in the surface compositions.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "catgym",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ulissigroup/catgym",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

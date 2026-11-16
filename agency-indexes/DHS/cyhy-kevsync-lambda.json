@@ -1,0 +1,40 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2023-04-14",
+        "lastModified": "2026-11-03"
+    },
+    "description": "A Lambda to import Known Exploited Vulnerabilities (KEV) data into a Cyber Hygiene database",
+    "downloadURL": "https://api.github.com/repos/cisagov/cyhy-kevsync-lambda/downloads",
+    "homepageURL": "https://github.com/cisagov/cyhy-kevsync-lambda",
+    "laborHours": 675.0,
+    "languages": [
+        "Shell",
+        "Python",
+        "Dockerfile"
+    ],
+    "name": "cyhy-kevsync-lambda",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/cyhy-kevsync-lambda.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "exploited",
+        "kev",
+        "vulnerabilities",
+        "vulnerability"
+    ],
+    "vcs": "git"
+}

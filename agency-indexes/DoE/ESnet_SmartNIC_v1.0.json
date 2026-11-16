@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-16",
+        "metadataLastUpdated": "2024-07-16"
+    },
+    "description": "The ESnet SmartNIC is a collection of Verilog based FPGA design software, as well as drivers to interact with the FPGA. It provides an infrastructure framework for FPGA based hardware acceleration of network packet use cases. Different research and production applications can be easily written for the SmartNIC. Its advantage is that it reduces the development time for new applications by providing a pre-existing shell library for common functions.",
+    "laborHours": 15838.4,
+    "languages": [],
+    "name": "ESnet SmartNIC v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/esnet/esnet-smartnic-hw",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

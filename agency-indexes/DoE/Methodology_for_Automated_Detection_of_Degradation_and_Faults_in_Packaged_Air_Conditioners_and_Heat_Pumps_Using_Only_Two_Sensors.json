@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "The software was created in the process of developing a system known as the Smart Monitoring and Diagnostic System (SMDS) for packaged air conditioners and heat pumps used on commercial buildings (known as RTUs). The SMDS provides automated remote monitoring and detection of performance degradation and faults in these RTUs and could increase the awareness by building owners and maintenance providers of the condition of the equipment, the cost of operating it in degraded condition, and the quality of maintenance and repair service when it is performed. The SMDS provides these capabilities and would enable conditioned-based maintenance rather than the reactive and schedule-based preventive maintenance commonly used today, when maintenance of RTUs is done at all. Improved maintenance would help ensure persistent peak operating efficiencies, reducing energy consumption by an estimated 10% to 30%.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "C#, C++, PHP, JavaScript, MSSQL query, .NET"
+    ],
+    "name": "Methodology for Automated Detection of Degradation and Faults in Packaged Air Conditioners and Heat Pumps Using Only Two Sensors",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

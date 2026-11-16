@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-05-02",
+        "metadataLastUpdated": "2022-06-21"
+    },
+    "description": "PeleLMeX is an adaptive-mesh low Mach number hydrodynamics code for reacting flows. PeleLMeX supports Embedded Boundary method to represent complex geometries and is parallelized with MPI + OpenMP for CPUs and MPI + CUDA or MPI + HIP for GPUs.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "PeleLMeX",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AMReX-Combustion/PeleLMeX",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Bayesloc is a statistical model of the multiple seismic location system, including event hypocenters, corrections to model-based travel time predictions, assessments precision for measurement phase arrival times, and phase lavels which indicate phase ray path.",
+    "homepageURL": "https://www-gs.llnl.gov/nuclear-threat-reduction/nuclear-explosion-monitoring/bayesloc",
+    "laborHours": 0.0,
+    "name": "Bayesian Mulitple-Event Location",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www-gs.llnl.gov/nuclear-threat-reduction/nuclear-explosion-monitoring/bayesloc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

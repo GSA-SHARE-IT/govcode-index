@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "laverdiereml@ornl.gov"
+    },
+    "date": {
+        "created": "2022-01-27",
+        "metadataLastUpdated": "2022-01-27"
+    },
+    "description": "Python script to automate the alignment of vector data to target, high-resolution images. Each feature of the vector dataset is iterated and compared to the target image. The pixels surrounding the feature in the target image are extracted and are converted to gray-scale, denoised, followed by line extraction. A cross-correlation is calculated between the original feature and the extracted lines. The pixel with the highest score is recorded and the offset between the location of the highest pixel and the feature centroid is calculated. This essentially calculates a displacement vector for each feature. This offset is then applied to the original feature geometry to properly align it with the target image.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Automated Registration of Vector Data to Overhead Imagery",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ChuckDoug/featureshift",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

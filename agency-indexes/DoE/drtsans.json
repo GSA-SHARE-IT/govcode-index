@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "borreguerojm@ornl.gov"
+    },
+    "date": {
+        "created": "2022-01-09",
+        "metadataLastUpdated": "2022-01-11"
+    },
+    "description": "drtsans is highly modular, allowing users to customize collected data as well as test hypothetical or simulated neutron events data. Instrument scientists can use the advance features of drtsans to calibrate their instruments and reduced large quantities of datasets in a streamlined mode. Users can correct the collected data with dark current subtraction and normalization by neutron flux, detector sensitivity, solid angle subtended by the detectors, and scaling to absolute units. Conversion from time-of-flight and/or wavelength to 1D or 2D momentum transfer renders the final scattering quantities amenable to analysis.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "drtsans",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/sns-hfir-scse/sans/sans-backend",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "version": "1.2.0"
+}

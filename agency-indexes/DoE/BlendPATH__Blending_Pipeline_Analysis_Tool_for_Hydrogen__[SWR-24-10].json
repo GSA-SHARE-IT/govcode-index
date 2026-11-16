@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-01-08",
+        "metadataLastUpdated": "2024-04-16"
+    },
+    "description": "BlendPATH provides case-by-case techno-economic analysis for potential projects where hydrogen is blended into a natural gas transmission pipeline. BlendPATH estimates 1) the transmission pipeline modifications and operating conditions necessary to blend hydrogen to a user specified volume faction of hydrogen in pipeline gas and 2) the incremental capital and operating expenses to prepare said transmission pipeline for hydrogen blending. BlendPATH is developed in Python and requires SAInt, a underlying commercial natural gas pipeline network modeling software, to run. Pipeline modification and operation condition estimation is guided by ASME B31.12. The intent of this software is to target application for projects in the initial project assessment stage and provide the user with the capability of assess promising opportunities before the use proceeds with further detailed pipeline evaluation based on a probable economic outcome.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "BlendPATH (Blending Pipeline Analysis Tool for Hydrogen) [SWR-24-10]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/BlendPATH",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

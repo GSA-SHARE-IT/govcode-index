@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-29",
+        "metadataLastUpdated": "2021-04-29"
+    },
+    "description": "Metabolomics, or the identification and cataloging of biologically relevant compounds, is required for the dynamic study of living systems. Plants, for instance, have thousands of compounds which may vary by tissue compartment, life cycle status, weather, soil and water. Even with the most advanced chemical detection systems at our disposal, the identification of metabolites is an exhaustive exercise and filled with uncertainty. What is different about LBNL #2019-106 is the use of machine learning and chemical spectra to add specificity to the provisional identification of a chemical species; e.g., chromatographic retention or the fragmentation spectrum of a selected ion. However, even under the best of circumstances, the provisional identification is associated with a very high level of uncertainty unless and until it is cross-referenced to similar compounds and other deductive approaches. Here, the inventors introduce a machine-learning which promises to enhance the productivity of post-mass spectrometry assessment.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "spectral processing (spectral_processing) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/biorack/simile",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

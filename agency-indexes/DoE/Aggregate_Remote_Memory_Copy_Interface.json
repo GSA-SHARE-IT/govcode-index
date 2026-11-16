@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-07"
+    },
+    "description": "The purpose of the Aggregate Remote Memory Copy (ARMCI) library is to provide a general- purpose, efficient, and Widely portable remote memory access (RMA) operations (one-sided communication) optimized for Contiguous and noncontiguous (strided, scatter/gather, I/O vector) data transfers. In addition, ARMCI includes a set of atomic and mutual exclusion operations. The development ARMCI is driven by the need to support the global-address space communication model in context of distributed regular or irregular distributed data structures, communication libraries, and compilers. ARMCI is a standalone system that could be used to support user-level libraries and applications that use MPI or PVM.",
+    "homepageURL": "https://hpc.pnl.gov/armci",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Aggregate Remote Memory Copy Interface",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://hpc.pnl.gov/armci",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://hpc.pnl.gov/armci",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

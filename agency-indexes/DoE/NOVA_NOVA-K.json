@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "ngorelen@pppl.gov"
+    },
+    "date": {
+        "created": "2018-07-27",
+        "metadataLastUpdated": "2018-07-27"
+    },
+    "description": "NOVA is a suite of codes including the linear ideal eigenmode solver to find the solutions of ideal magnetohydrodynamic (MHD) system of equations, including such effects as plasma compressibility and realistic tokamak geometry. The kinetic post-processor of the suite, NOVA-K, analyses those solutions to find their stability properties. NOVA-K evaluates the wave particle interaction of the eigenmodes such as Toroidal Alfvén Eigenmodes (TAEs) or Reversed Shear Alfvén Eigenmodes (RSAEs) by employing the quadratic form with the perturbed distribution function coming from the drift kinetic equations.  In computations of the hot ion contribution to the growth rate NOVA-K makes use of the constant of motion to represent the hot particle drift orbits. \nNOVA is routinely used for AE structure computations and comparisons with the experimentally observed instabilities [M. A. Van Zeeland et al., Phys. Rev. Lett. 97, 135001 (2006), G. J. Kramer, Phys. Plasmas 13, 056104 (2006)]. The main limitations of NOVA code are caused by neglecting thermal ion finite Larmor radius (FLR), toroidal rotation, and drift effects for the eigenmode computations. Therefore it can not describe accurately radiative damping for example. Finite element methods are used in radial direction and Fourier harmonics are used in poloidal and toroidal directions.\n\nNOVA-K is able to predict various kinetic growth and damping rates perturbatively, such as the phase space gradient drive from energetic particles, continuum damping, radiative damping, ion/electron Landau damping and trapped electron collisional damping. ",
+    "homepageURL": "https://theory.pppl.gov/research/research.php?rid=10#h45",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "NOVA/NOVA-K",
+    "organization": "Princeton Plasma Physics Laboratory (PPPL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://theory.pppl.gov/research/TheoryCodeLicenseReleaseForm.pdf",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://theory.pppl.gov/research/research.php?rid=10#h45",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Princeton Plasma Physics Laboratory (PPPL)"
+    ]
+}

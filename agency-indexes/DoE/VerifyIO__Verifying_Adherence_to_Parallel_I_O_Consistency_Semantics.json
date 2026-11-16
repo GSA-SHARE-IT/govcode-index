@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2025-03-07",
+        "metadataLastUpdated": "2025-03-07"
+    },
+    "description": "VerifyIO is a tool designed for verifying I/O consistency semantics in High-Performance Computing (HPC)\napplications. It addresses the challenges of ensuring correctness and portability across different I/O\nconsistency models, such as POSIX, Commit, Session, and MPI-IO. By analyzing execution traces,\ndetecting conflicts, and verifying synchronization adherence, VerifyIO provides actionable insights for both\napplication developers and I/O library designers.",
+    "laborHours": 760.0,
+    "languages": [],
+    "name": "VerifyIO: Verifying Adherence to Parallel I/O Consistency Semantics",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/wangvsa/VerifyIO",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

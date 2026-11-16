@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2020-02-07",
+        "metadataLastUpdated": "2020-02-07"
+    },
+    "description": "Bindee is a clang tool that outputs a simple pybind11 template given a C++ file for efficient generation of C++-Python bindings. \n\nBindee is intended to be a helper tool for minimizing initial user effort and\nsafeguarding against common runtime errors.\n\nBindee relies on two open-source software to produce bindings.\n\nClang's LibTooling enables bindee to traverse a C++ file's AST to pick out bindable variables and functions, or \"bindees.\"\n\nPyBind11 is templated, header-only library for generating C++-Python bindings for variables and functions.\n\nOperating purely in C++, bindee does not require learning any new API for accomplishing its task.\n\nAdditionally, picking the correct pybind11 API for a given bindable element is handled without interaction from the user. Any user input is denoted by '@TEXT@' string substitution.\n\nBindee is capable of generating modular bindings for public class methods, public class variables, enumerations, and free functions and variables. \n\nBindings for templates are also supported. \n\nFor those familiar with pybind11, bindee does not handle trampolines, C++ extensions through lambdas, or custom type casters.\n",
+    "laborHours": 1915.2,
+    "languages": [],
+    "name": "Bindee",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/bindee",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "2.0"
+}

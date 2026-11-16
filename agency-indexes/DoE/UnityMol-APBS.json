@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-02-14",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Virtual reality for biomolecular electrostatics UnityMol-APBS (NIH iEdison No. 0685901-19-0009, Grant No. GM069702)\nVisualization of molecular electrostatics on a two-dimensional screen greatly diminishes the associated depth component.\nUsing a virtual world to explore molecular electrostatics allows researchers to be immersed within their data.",
+    "laborHours": 15.2,
+    "languages": [],
+    "name": "UnityMol-APBS",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Electrostatics/VR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-11-25",
+        "metadataLastUpdated": "2020-11-30"
+    },
+    "description": "A collection of MATLAB scripts forming a toolbox for video (frame by frame) detection and tracking of beads imaged with fluorescence microscope for estimating bead flow and location tracks. Scripts accept tiff image stacks of video frames and provide bead locations and tracked positions over frames in stack. Various utility functions are also provided to assist in data I/O. A custom solution for specific data source - specifically, the software works well for noisy/out of focus florescence microscopy images.",
+    "laborHours": 7645.6,
+    "languages": [
+        "MATLAB/2018a"
+    ],
+    "name": "Bead-Tracking Toolbox for MATLAB",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dnbornl/beadtracking",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

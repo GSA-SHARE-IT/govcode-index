@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-05-13",
+        "metadataLastUpdated": "2019-05-13"
+    },
+    "description": "Polycubes are arrangements of unit cubes connected by their faces. This code generates all possible polycubes with a specified number of unit cubes that are unique under 3D rotation (the family of polycubes of size N) and also finds a globally and locally valid edge unfolding for either a single polycube or a specified family of polycubes.",
+    "laborHours": 608.0,
+    "languages": [],
+    "name": "Polycube Edge Unfolder",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/polycube",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

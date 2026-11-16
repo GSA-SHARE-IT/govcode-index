@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "broganjr@ornl.gov"
+    },
+    "date": {
+        "created": "2022-09-15",
+        "metadataLastUpdated": "2022-09-15"
+    },
+    "description": "The open-source biometrics API and SDK for the IARPA BRIAR program",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "Python"
+    ],
+    "name": "ORNL/briar-api",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://raw.githubusercontent.com/ORNL/briar-api/main/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/briar-api",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.3"
+}

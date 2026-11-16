@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2023-10-26",
+        "metadataLastUpdated": "2023-11-08"
+    },
+    "description": "The purpose of this software is to pull data from the Oracle Primavera P6 scheduling tool and bring it into the DeepLynx data warehouse.",
+    "laborHours": 0.0,
+    "languages": [
+        "Java"
+    ],
+    "name": "P6 Deeplynx Adapter",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/p6-deeplynx-adapter",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

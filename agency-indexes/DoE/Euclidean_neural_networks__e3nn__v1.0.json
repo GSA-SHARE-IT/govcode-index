@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-03",
+        "metadataLastUpdated": "2021-06-15"
+    },
+    "description": "E(3) is the Euclidean group in dimension 3. That is the group of rotations, translations and mirror. e3nn is a pytorch library that aims to create E(3) equivariant neural networks.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Euclidean neural networks (e3nn) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/e3nn/e3nn",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "v1.0"
+}

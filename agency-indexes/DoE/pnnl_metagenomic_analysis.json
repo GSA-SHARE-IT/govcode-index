@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-08-20",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Metagenomic analysis is a computationally intensive task, this problem is compounded when many hundreds of samples need to be analyzed. We needed a program that would process the metagenomic sequencing data, manage computing resources, and combine the results into a unified output.  We developed a script that prepares raw metagenomic sequencing data for analysis, configures analysis parameters, launches analysis jobs, keeps track of analysis progress, and combines analysis output. The analysis itself itself is done by the functionality provided by mothur (https://www.mothur.org/).",
+    "laborHours": 76.0,
+    "languages": [],
+    "name": "pnnl/metagenomic_analysis",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/metagenomic_analysis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

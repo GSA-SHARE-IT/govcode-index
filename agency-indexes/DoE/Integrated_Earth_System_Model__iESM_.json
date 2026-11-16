@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The iESM is a simulation code that represents the physical and biological aspects of Earth's climate system, and also includes the macro-economic and demographic properties of human societies. The human aspect of the simulation code is focused in particular on the effects of human activities on land use and land cover change, but also includes aspects such as energy economies. The time frame for predictions with iESM is approximately 1970 through 2100.",
+    "laborHours": 6406374.4,
+    "name": "Integrated Earth System Model (iESM)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ACME-Climate/iESM/blob/master/license.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ACME-Climate/iESM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

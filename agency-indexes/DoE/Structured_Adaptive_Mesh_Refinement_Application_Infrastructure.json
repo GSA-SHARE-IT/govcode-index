@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "SAMRAI is an object-oriented support library for structured adaptice mesh refinement (SAMR) simulation of computational science problems, modeled by systems of partial differential equations (PDEs). SAMRAI is developed and maintained in the Center for Applied Scientific Computing (CASC) under ASCI ITS and PSE support. SAMRAI is used in a variety of application research efforts at LLNL and in academia. These applications are developed in collaboration with SAMRAI development team members.",
+    "laborHours": 279938.4,
+    "name": "Structured Adaptive Mesh Refinement Application Infrastructure",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/SAMRAI",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

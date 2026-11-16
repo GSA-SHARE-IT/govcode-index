@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-11-29",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The ISDDD software program simulates a mathematical model, named ISD3 (\"ISDDD\"), developed for describing the time-, concentration- and particle size- dependent dissolution of particles, their delivery to cells, and the delivery and uptake of ions to cells in in vitro liquid test systems. The model is based on a specific formulation of the Population Balance Equation, derived for soluble particles. ISD3 solves for the size and spatial distribution of particle numbers, represented together as a particle number density (that is a function of particle location and diameter). From the number density, all other quantities, such as mass, concentration, size distribution and surface areas are derived. The model can be applied for any initial particle size distribution data by representing the data in terms of the number density. As a result, time dependent solutions can be obtained for all size ranges in a single run of the ISD3 simulation for a given particle type and\nmedia conditions. In the current implementation, particles are treated as spherical in shape and can be modeled as primary particles, agglomerates, or as primary particles coated with proteins. Ions are modeled as a lumped system with a uniform concentration in the liquid media. Particle transport is assumed to occur down the liquid column via diffusion and sedimentation (no fluid convection), and no aggregation/agglomeration, coagulation and break-up of the particles occur during transport. Cellular uptake kinetics of ions and particle dissolution kinetics are currently implemented using empirical models that were developed and calibrated for silver nanoparticles and ions. The ISD3 code is modular, allowing use of the existing equations for the dissolution model and ion uptake, but can be modified to include alternate models developed by the user. Application of ISD3 to another particle system would involve inputting parameters appropriate for the particles and model system. For particle uptake by cells, users have the option to use a no-flux or a perfectly absorbing ‘sticky’ boundary condition. For reactive boundary conditions, the user needs to modify a few lines of the code to express the desired form of the boundary condition (e.g., Robin type of boundary condition).",
+    "homepageURL": "http://nanodose.pnnl.gov/ModelDownload.aspx",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ISDDD",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://nanodose.pnnl.gov/ModelDownload.aspx",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

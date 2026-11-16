@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-01-31",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Make custom blueprint.css styles A framework for creating custom visual themes and styles for the Blueprintjs React component library: https://blueprintjs.com/docs/ Features create custom css themes and styles for Blueprintjs components visualize the effect of the custom styles during development publish an example application that includes all available themes: https://stash.pnnl.gov/pages/UXRSRC/blueprint-styler/master/browse/build/index.html publish the compiled theme to npm (or artifactory)",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/blueprint-styler",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/blueprint-styler",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

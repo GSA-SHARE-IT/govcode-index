@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2018-07-13"
+    },
+    "description": "IDAS is a general purpose (serial and parallel) solver for differential equation (ODE) systems with senstivity analysis capabilities. It provides both forward and adjoint sensitivity analysis options.",
+    "laborHours": 213088.8,
+    "languages": [],
+    "name": "Stiff DAE integrator with sensitivity analysis capabilities",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/LLNL/sundials/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/sundials",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

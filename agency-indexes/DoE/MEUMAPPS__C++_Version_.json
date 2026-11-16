@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "dewittsj@ornl.gov"
+    },
+    "date": {
+        "created": "2022-01-13",
+        "metadataLastUpdated": "2022-01-14"
+    },
+    "description": "Many materials, metal alloys in particular, have features on the on micrometer or nanometer scale that have a large impact on the properties of the material. These features are known as the microstructure of the material. Understanding why and how the microstructure forms in a material is of fundamental scientific interest as well as of significant technological interest. The capability to predict microstructure evolution in a material allows the intentional design of microstructures and hence the intentional design of material properties. The phase-field method is one of the leading methods for predicting microstructure evolution. One of the most significant problems for phase-field models is their computational expense. Even limited phase-field simulations can easily require thousands of CPU core-hours to complete, which significantly limits their use. This code provides both a general framework for creating scalable, GPU-accelerated phase-field model applications as well as several applications themselves. The code is capable of using hundreds of GPUs efficiently, which greatly reduces the time required to perform simulations. The code is written with an emphasis on performance portability, that is the ability for the code to run efficiently on a number of different computing architectures without modification of the source code. The performance portability of this code is primarily enabled through the use of two libraries, Kokkos (performance portable data structures and execution patterns) and heFFTe (performance portable distributed 3D fast Fourier transforms). The code consists of a core library, applications, and tests. The core library includes shared functionality between applications. This includes interfaces with fast Fourier transform (FFT) libraries such as heFFTe, data structures based on Kokkos, file input and output capabilities, and a solver for infinitesimal strain mechanical equilibrium problems. Five applications are included in the code. The flagship application is the MEUMAPPS-SS application, which implements the Kim-Kim-Suzuki phase-field model for precipitation for an arbitrary number of phases and components in a metal alloy. Five simpler applications are also included that solve the Eshelby inclusion problem, Allen-Cahn equation, the coupled Allen-Cahn and diffusion equations, and the Cahn-Hilliard equation. The code includes two applications to solve the Cahn-Hilliard equation, one with constant-step-size first-order time integration and the second with adaptive high-order time integration.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "MEUMAPPS (C++ Version)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://code.ornl.gov/meumapps/meumapps/-/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/meumapps/meumapps",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

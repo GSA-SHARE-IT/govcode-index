@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "The algorithm develops a single health score for office computers, today just Windows, but we plan to extend this to Apple computers. The score is derived from various parameters, including: CPU Utilization; Memory Utilization; Various Error logs; Disk Problems; and Disk write queue length. It then uses a weighting scheme to balance these parameters and provide an overall health score. By using these parameters, we are not just assessing the theoretical performance of the components of the computer, rather we are using actual performance metrics that are selected to be a more realistic representation of the experience of the person using the computer. This includes compensating for the nature of their use. If there are two identical computers and the user of one places heavy demands on their computer compared with the user of the second computer, the former will have a lower health score. This allows us to provide a 'fit for purpose' score tailored to the assigned user. This is very helpful data to inform the mangers when individual computers need to be replaced. Additionally it provides specific information that can facilitate the fixing of the computer, to extend it's useful lifetime. This presents direct financial savings, time savings for users transferring from one computer to the next, and better environmental stewardship.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "Multiple"
+    ],
+    "name": "Computer Health Score",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

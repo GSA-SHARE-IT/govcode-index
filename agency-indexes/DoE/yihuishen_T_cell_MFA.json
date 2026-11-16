@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "krhodges@illinois.edu"
+    },
+    "date": {
+        "created": "2024-11-14",
+        "metadataLastUpdated": "2024-11-14"
+    },
+    "description": "Metabolic efficiency profoundly influences organismal fitness. Heterotrophs, from yeast to mammals, derive usable energy primarily through glycolysis and respiration. While respiration is more energy-efficient, some cells favor glycolysis even when oxygen is available (aerobic glycolysis, Warburg effect). A leading explanation is that glycolysis is more efficient in terms of ATP production per unit mass of protein (i.e. faster). Through quantitative flux analysis and proteomics, we find however that mitochondrial respiration is actually more proteome-efficient than aerobic glycolysis. This is shown across yeasts, T cells, cancer cells, and tissues and tumors in vivo. Instead of aerobic glycolysis being valuable for fast ATP production, it correlates with high glycolytic protein expression, which is valuable for hypoxic growth. Aerobic glycolytic yeasts do not excel at aerobic growth, but outgrow respiratory cells in oxygen limitation. Thus, aerobic glycolysis emerges from cells maintaining a proteome conducive to both aerobic and hypoxic growth.",
+    "laborHours": 11415.2,
+    "languages": [],
+    "name": "yihuishen/T_cell_MFA",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/yihuishen/T_cell_MFA",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

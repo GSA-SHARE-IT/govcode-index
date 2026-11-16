@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "INPAGN_Launcher_v3.DLL is a preprocessor and postprocessor used to integrate the INPAG-N code (Monitor Scientific, LLC) with the GoldSimâ„¢ code (GoldSim Technology Group, LLC). The program is intended as a DLL for use with a GoldSimâ„¢ model file. The code is executed through a call from the GoldSim.exe during runtime. The code allocates parameters to memory to receive data from subsequent calls from goldsim.exe when the model is run. The goldsim.exe passes input values to the INPAGN_Launcher_v3.DLL during runtime, which comprise a single array of values (Appendix C, GoldSim Users Guide, GoldSim Technology Group, 2006). The DLL parses the GoldSim array in (*) into the allocated memory and then writes a new INPAG-N input file using the values passed by goldsim.exe. This software is used as part of a modeling package that consists of INPAGN.EXE, INPAGNH.EXE, INPAGNHI.EXE, INPAGNV2.EXE, INPAGNV21.EXE, GoldSimâ„¢, and INPAGN_Launcher_v3.DLL.",
+    "laborHours": 0.0,
+    "languages": [
+        "FORTRAN/DIGITAL Visual FORTRAN 6.0"
+    ],
+    "name": "INPAGN_Launcher_V3.DLL",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/INPAGN_Launcher",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "3.0"
+}

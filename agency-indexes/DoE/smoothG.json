@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "smoothG is a collection of parallel C++ classes/functions that algebraically constructs reduced models of different resolutions from a given high-fidelity graph model. In addition, smoothG also provides efficient linear solvers for the reduced models. Other than pure graph problem, the software finds its application in subsurface flow and power grid simulations in which graph Laplacians are found",
+    "laborHours": 9986.4,
+    "languages": [
+        "C++ (100%)"
+    ],
+    "name": "smoothG",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://github.com/LLNL/smoothG",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

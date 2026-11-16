@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2022-03-31",
+        "metadataLastUpdated": "2022-03-31"
+    },
+    "description": "densegranFoam is a dense granular material flow solver developed using the OpenFoam Computational Fluid Dynamics (CFD) tool. It is developed using Euler-Euler framework. The transport model is implemented using the shear rate dependant constitutive model. The primary focus of the solver is to simulate shear rate dependency on the dense granular flow bulk behavior.",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "C++",
+        "Python"
+    ],
+    "name": "densegranFoam",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/densegranFoam",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

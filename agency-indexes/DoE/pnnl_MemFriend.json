@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-09-11",
+        "metadataLastUpdated": "2024-10-25"
+    },
+    "description": "MemFriend was developed to focus on providing a comprehensive view of access patterns by analysing spatial-temporal\nlocality between pairs of memory locations. It is intended to aid in data layout optimizations, and data placement decisions.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/MemFriend",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/memgaze",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

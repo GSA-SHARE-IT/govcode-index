@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-09-02",
+        "metadataLastUpdated": "2020-09-02"
+    },
+    "description": "Simple JSON-RPC service without transport layer. This library is intended as an auxiliary library for easy an implementation of JSON-RPC services with Unix/TCP socket like transport protocols that do not have complex special requirements. You need to utilize some suitable transport protocol with this library to actually provide a working JSON-RPC service.",
+    "laborHours": 395.2,
+    "languages": [],
+    "name": "JSONRPCBase",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbaseIncubator/jsonrpcbase",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

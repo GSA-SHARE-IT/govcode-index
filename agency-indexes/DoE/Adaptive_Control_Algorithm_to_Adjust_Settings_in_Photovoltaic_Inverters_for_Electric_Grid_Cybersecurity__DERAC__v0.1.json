@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-28",
+        "metadataLastUpdated": "2024-08-29"
+    },
+    "description": "Volt-VAR and Volt-Watt functionality in photovoltaic (PV) smart inverters provide mechanisms to ensure system voltage magnitudes and power factors remain within acceptable limits. However, these control functions can become unstable, introducing oscillations in system voltages when not appropriately configured or maliciously altered during a cyberattack. In the event that Volt-VAR and Volt-Watt control functions in a portion of PV smart inverters in a distribution grid are unstable, the proposed adaptation scheme utilizes the remaining and stably-behaving PV smart inverters and other Distributed Energy Resources to mitigate the effect of the instability in real-time. The adaptation mechanism is entirely decentralized, model-free, communication-free, and requires virtually no external configuration. This repository provides code to simulate the algorithm in experiments on the IEEE 37 node test feeder.",
+    "laborHours": 1626.4,
+    "languages": [],
+    "name": "Adaptive Control Algorithm to Adjust Settings in Photovoltaic Inverters for Electric Grid Cybersecurity (DERAC) v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbnl-cybersecurity/smart-inverter-adaptive-control",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

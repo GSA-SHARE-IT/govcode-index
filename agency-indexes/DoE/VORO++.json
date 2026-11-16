@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Voro++ is a software library for the Computation of 3D Voronoi cells. It is primarily designed for applications in physics and materials science, where Voronoi cells can be a useful tool in the analysis of densely-packed particle systems. For a set of points in a space, the Voronoi cell of each particle is defined as the region which is closer to that particle than any other. Originally defined by Georgy Voronci [1], it has become a powerful tool in many scientific fields, whenever region of space must be divided between constituent points or particles [2]. Over the past twenty years, the algorithms for computing Voronoi cells have been well-studied, and several high-quality software packages are available. However, some (such as Triangle [3] are designed for the 2D case. Others, such as QHull [4], make use of algorithms for computing complete tessellations. This can offer limited flexibility, such as for handling complex boundary conditions, where direct cell-by-cell manipulation is beneficial. Voro++ is a library of C++ classes for direct computation of 3D Voronoi cells. The author believes this the first general purpose library that takes full advantage of the C++ class structure, making it simple to use, modify, and incorporate into other programs. The author has received considerable interest from other academic institutions about making use of the code. Features include: -- Rapid computation times, two to three times faster than Qhull in some typical cases -- Support for floating point inaccuracies and degenerate cases -- Support for curved and planar walls; periodic and non-periodic boundary conditions -- Support for radical Voronoi tessellations and neighbor list computations --Straightforward generalization to a parallel/ multicore architecture.",
+    "homepageURL": "http://math.lbl.gov/voro++",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "VORO++",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://math.lbl.gov/voro++/download",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://math.lbl.gov/voro++",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

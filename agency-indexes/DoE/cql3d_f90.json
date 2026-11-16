@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "gwright@pppl.gov"
+    },
+    "date": {
+        "created": "2020-02-14",
+        "metadataLastUpdated": "2020-02-19"
+    },
+    "description": "The CQL family are Relativistic Collisional/QuasiLinear Fokker-Planck codes.\n\ncql3d_f90 is a derived work of the CompX CQL3D Fortran IV/77 GNU code.  This F90 version uses derived types, modules, fixes several bugs, is distributed with a Centos7 (Docker) container, and includes automated CI tests.",
+    "homepageURL": "https://princetonuniversity.github.io/cql3d_f90",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "cql3d_f90",
+    "organization": "Princeton Plasma Physics Laboratory (PPPL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/agpl-3.0",
+                "name": "AGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://princetonuniversity.github.io/cql3d_f90",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Princeton Plasma Physics Laboratory (PPPL)"
+    ]
+}

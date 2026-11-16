@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2023-10-19",
+        "metadataLastUpdated": "2023-10-19"
+    },
+    "description": "In post-crash situations, passengers, bystanders, and first responders are exposed to the immediate safety risks of stranded energy in electric vehicle (EV) batteries. A potentially damaged battery with an unknown state of safety might go into a thermal runaway without proper handling, leading to potential loss of life and property damage. Therefore, it is imperative to develop methods, guidelines and tools to handle the post-crash EVs appropriately and minimize safety risks from immediately after an EV accident to final disposal or re-entry to the road. \nThis software tool:\n(1) provides quick access to EV specification,  \n(2) estimate stranded energy left in an EV after a crash specific to EVs in a user-friendly way, \n(3) inform EV structure/disconnect for appropriate quick post-crash handling,\n(4) perform the calculation for the first responder to decide on onsite or offsite discharge, and\n(5) feature appropriate battery disposal and education/lessons learned.\nThis software tool will directly help the emergency responders to handle EV post-crash situations effectively and safely.",
+    "laborHours": 0.0,
+    "languages": [
+        "JavaScript",
+        "Python",
+        "SQL"
+    ],
+    "name": "Ev Info And Incident Response Solutions",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/EVIRS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

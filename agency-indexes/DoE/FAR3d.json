@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "spongda@ornl.gov"
+    },
+    "date": {
+        "created": "2024-09-24",
+        "metadataLastUpdated": "2024-10-18"
+    },
+    "description": "The FAR3d model calculates the linear and nonlinear stability properties of energetic particle driven Alfven instabilities for both\ntokamak and stellarator plasma confinement devices using gyro-landau closure methods. This is an important fundamental\nphysics problem for existing fusion energy experiments and for future fusion reactors.",
+    "laborHours": 16492.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "FAR3d",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/DSfusion/FAR3d",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

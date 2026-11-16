@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-20",
+        "metadataLastUpdated": "2018-07-20"
+    },
+    "description": "VeloC: Very Low Overhead Transparent Multilevel Checkpoint/Restart. The VeloC software suite will be a multilevel checkpoint/restart interface and implementation for exascale applications. VeloC will have three major impacts. It will: (1) optimize checkpoint/restart perfonnance for applications and workflows (2) increase programmer productivity by dramatically reducing the difficulty of handling varied and complex storage architectures and the need for\nperformance/reliability optimizations. (3) benefit a wide community.\nVeloC is a collaboration between LLNL and ANL as part of the Exascale Computing Project. ",
+    "laborHours": 1276.8,
+    "languages": [],
+    "name": "Very Low Overhead Transparent Multilevel ",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ECP-VeloC/AXL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

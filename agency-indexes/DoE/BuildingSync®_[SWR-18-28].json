@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-10-05",
+        "metadataLastUpdated": "2024-09-19"
+    },
+    "description": "BuildingSync® is a standardized language for commercial building energy audit data that software developers can use to exchange data between audit tools. Taking the form of an XML schema, BuildingSync can be required by building owners and audit program managers to allow data analysis and aggregation across multiple buildings in order to evaluate program performance and analyze trends. BuildingSync was developed using the standard energy data terminology defined in the Building Energy Data Exchange Specification (BEDES). BuildingSync is one of the first implementations of BEDES Version 1.0, and it was developed in close collaboration with the BEDES working groups. BuildingSync standardizes the format of the energy audit data itself. It is not intended to standardize the calculations performed on these data by engineers, analysts, software packages, or other audit tools. For more, see:  https://buildingsync.net/",
+    "laborHours": 134793.6,
+    "languages": [
+        "R",
+        "HTML",
+        "Ruby",
+        "Python"
+    ],
+    "name": "BuildingSync® [SWR-18-28]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/BuildingSync/schema/blob/develop-v2/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BuildingSync/schema",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

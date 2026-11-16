@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-05-17",
+        "metadataLastUpdated": "2024-05-22"
+    },
+    "description": "DiscoFluxM is software for modeling the deformation behavior of crystalline materials within the third-party finite-element based software, MOOSE. The software enables full-field crystal plasticity finite element simulations of deformation processes of metals and other crystalline materials. DiscoFluxM is an implementation of the DiscoFlux theoretical and algorithmic framework for coupling single-crystal plasticity with dislocation transport. The \ncontinuum mesoscale modeling framework is founded upon a nonlocal dislocation-density based crystal plasticity theory. The nonlocal theory couples continuum dislocation transport with an otherwise spatially-local single-crystal model employing nonlinear thermoelasticity and crystallographic plasticity. Dislocation transport is modeled by enforcing dislocation conservation at a slip-system level through the solution of advection-diffusion equations. The configuration of geometrically necessary dislocation density gives rise to a back-stress that inhibits or accentuates the flow of dislocations.",
+    "laborHours": 1778.4,
+    "languages": [],
+    "name": "DiscoFluxM version 1.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/subhendu-LANL/DiscoFluxM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

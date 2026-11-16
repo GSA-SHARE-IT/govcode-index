@@ -1,0 +1,41 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-05-28",
+        "lastModified": "2026-09-27"
+    },
+    "description": "findCDN is a tool created to help accurately identify what CDN a domain is using.",
+    "downloadURL": "https://api.github.com/repos/cisagov/findcdn/downloads",
+    "homepageURL": "https://github.com/cisagov/findcdn",
+    "laborHours": 1004.1,
+    "languages": [
+        "Python",
+        "Shell"
+    ],
+    "name": "findcdn",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/findcdn.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "cdn",
+        "domain",
+        "scanner",
+        "enumeration",
+        "osint",
+        "content-distribution-network"
+    ],
+    "vcs": "git"
+}

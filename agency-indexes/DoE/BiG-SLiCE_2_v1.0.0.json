@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-14",
+        "metadataLastUpdated": "2024-08-14"
+    },
+    "description": "BiG-SLiCE was originally an open source Python-based command line bioinformatics software that offers a highly scalable clustering analysis on biosynthetic gene clusters (BGC) data. It allows a simultaneous analysis of millions of BGCs, exceeding the capability of other existing tools (around one hundred thousands). As a tradeoff, the clustering accuracy is relatively lower and sometimes fall short in corner cases and specific BGC classes such as the RiPPs (Ribosomally-translated, Post-translationally modified Peptides).\n\nIn BiG-SLiCE V2 (developed in LBNL), the clustering algorithm has been significantly improved to deliver a much accurate result even for RiPPs and other previous corner case classes. Moreover, the speed of the overall pipeline has been improved by 50-100%. Finally, additional features were implemented to support downstream analyses of BiG-SLiCE results, such as customized tabular (TSV/CSV) and columnar (Parquet) outputs.",
+    "laborHours": 29837.6,
+    "languages": [],
+    "name": "BiG-SLiCE 2 v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/agpl-3.0",
+                "name": "AGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.jgi.doe.gov/SAKautsar/bigslice_v2",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

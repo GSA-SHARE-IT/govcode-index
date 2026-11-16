@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-12-23",
+        "metadataLastUpdated": "2024-12-23"
+    },
+    "description": "EyeON: Eye on Operational technology\nSoftware Supply Chain attacks have risen drastically over the past few years, none more well-known and\nimpactful than the SolarWinds compromise. Criminal organizations inserted an attack vector into a\nspecific version of the source code, giving themselves an air of credibility. Once news broke on\nSolarWinds, identifying compromised sites was very difficult, even knowing the culprit update.\nSoftware Bills of Materials (SBOM) have been touted as the solution to reclaiming control of your software\nsupply chain. Deployment of SBOMs has been slow, however, due to conflicting standards, opaque\nstorage requirements, and vendor adoption. Additionally, the path from obtaining an SBOM and securing\nyour supply chain is unclear; how can an SBOM library be leveraged to provide insight to your attack\nsurface? The EyeON tool, sponsored by Department of Energy Cybersecurity, Energy Security, and\nEmergency Response (DoE CESER), aims to address these gaps by providing an encapsulated solution\nto tracking which updates have been installed in an enterprise, and alerting system administrators to\nvulnerabilities as they become known.\nSimilar to a virus scanner, EyeON is a command line tool to parse either a single file, nested directory\nstructure, or filesystem. It collects data such as signature (hashes), version information, VirusTotal tags,\ncompiler, compilation date, and code signing information. Users will anonymously submit scan data\nperiodically to DoE CESER, who will then compile a database of known software products employed by\nCritical Infrastructure and broadcast alerts based on discovered flaws as they arise.",
+    "laborHours": 1580.8,
+    "languages": [],
+    "name": "EyeON",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/pEyeON",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

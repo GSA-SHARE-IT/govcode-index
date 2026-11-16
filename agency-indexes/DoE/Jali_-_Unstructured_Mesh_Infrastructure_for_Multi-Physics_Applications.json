@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Jali is a parallel unstructured mesh infrastructure library designed for use by multi-physics simulations. It supports 2D and 3D arbitrary polyhedral meshes distributed over hundreds to thousands of nodes. Jali can read write Exodus II meshes along with fields and sets on the mesh and support for other formats is partially implemented or is (https://github.com/MeshToolkit/MSTK), an open source general purpose unstructured mesh infrastructure library from Los Alamos National Laboratory. While it has been made to work with other mesh frameworks such as MOAB and STKmesh in the past, support for maintaining the interface to these frameworks has been suspended for now. Jali supports distributed as well as on-node parallelism. Support of on-node parallelism is through direct use of the the mesh in multi-threaded constructs or through the use of \"tiles\" which are submeshes or sub-partitions of a partition destined for a compute node.",
+    "laborHours": 16841.6,
+    "name": "Jali - Unstructured Mesh Infrastructure for Multi-Physics Applications",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/jali",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

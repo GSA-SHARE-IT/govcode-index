@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "congg@ornl.gov"
+    },
+    "date": {
+        "created": "2025-03-17",
+        "metadataLastUpdated": "2025-03-17"
+    },
+    "description": "We propose TransPlatformer for translating toxicogenomics from one platform to another. Transcriptomic profiling has evolved through multiple generations of technology, from microarrays (e.g., Affymetrix, CodeLink) to more recent high-throughput sequencing and targeted panels such as S1500+. Microarrays, which dominated gene expression studies in the early 2000s, provided affordable and high-throughput transcript quantification but suffered from cross-hybridization issues and limited dynamic range . RNA-Seq, introduced in the late 2000s, revolutionized transcriptomics by enabling unbiased and comprehensive gene expression analysis, albeit at higher costs and computational demands .\n\nDespite advances, many studies rely on historical microarray data, necessitating the translation of legacy data into modern platforms to ensure continuity and comparability. This translation is complicated by factors such as platform-specific probe design, differences in transcript coverage, and batch effects . Existing methods for cross-platform mapping include statistical normalization, machine learning models, and biological anchoring approaches.\n\nThe ability to translate transcriptomic data between platforms has broad implications, including enhanced meta-analyses, improved toxicological modeling, and better integration of historical datasets with contemporary research. TransPlatformer seeks to contribute to this effort by evaluating translation methodologies and proposing novel strategies to improve cross-platform gene expression harmonization.\n\nIn this repository there are code examples for TransPlatformer implementation",
+    "laborHours": 592.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "TransPlatformer",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/goooopy/TransPlatformer",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

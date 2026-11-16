@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-08-25",
+        "metadataLastUpdated": "2023-08-25"
+    },
+    "description": "The duqling R package is a tool for facilitating reproducible research in UQ and ML by providing easy-to-use and consistent  access to a wide variety of popular (public) test functions",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "duqling",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/knrumsey/duqling",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

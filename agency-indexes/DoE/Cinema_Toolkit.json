@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-07-09",
+        "metadataLastUpdated": "2020-06-01"
+    },
+    "description": "Cinema is a workflow and toolkit for capturing, storing and exploring extreme scale scientific data. It is a highly interactive image-based approach to data analysis and exploration that promotes investigation of large scientific datasets, and is\neasily integrated into existing workflows through extensions to widely used open source tools. In short, many different images of the dataset are captured and stored in a database, along with metadata describing the images. This provides a method of exploration that is unlike other current methods. This novel approach supports interactive exploration of a wide range of results, while still significantly reducing data movement and storage. The Cinema toolkit includes database specifications and software such as database writers, database viewers, algorithms and other support software that enable a wide variety of applications to write, operate on, and view Cinema databases.",
+    "laborHours": 5836.8,
+    "languages": [
+        "C++",
+        "JavaScript",
+        "Python"
+    ],
+    "name": "Cinema Toolkit",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cinemascience/cinema",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

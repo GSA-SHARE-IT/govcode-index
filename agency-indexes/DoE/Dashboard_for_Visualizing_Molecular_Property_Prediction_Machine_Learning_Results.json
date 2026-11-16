@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-05-01",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This is a dashboard for exploring the results of machine learning models for predicting molecular properties from\nmolecular structure. It includes tools for:\n1. Modifying molecules to observe the change in predicted properties\n2. Exploring the relationship between molecular structure and predicted properties\n3. Recommending structurally similar molecules with improved properties\n4. Exploring the impact of data subsampling on model performance metrics",
+    "laborHours": 532.0,
+    "languages": [],
+    "name": "Dashboard for Visualizing Molecular Property Prediction Machine Learning Results",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/mol-ml-dashboard",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

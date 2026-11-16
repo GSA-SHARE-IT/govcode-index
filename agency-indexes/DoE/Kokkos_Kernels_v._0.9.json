@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-14",
+        "metadataLastUpdated": "2020-09-01"
+    },
+    "description": "Linear Algebra Kernels and Graph Kernels are foundational technologies for scientific simulations. These foundational kernels need to run on several computer platforms that are popular for scientific simulations. KokkosKernels provides an implementation of different kernels that is portable to different architectures.",
+    "laborHours": 187370.4,
+    "languages": [],
+    "name": "Kokkos Kernels v. 0.9",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kokkos/kokkos-kernels",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

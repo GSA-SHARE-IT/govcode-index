@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2023-08-07"
+    },
+    "description": "*** PUBLIC ARCHIVE*** THIS IS A READ-ONLY VERSION OF THE DEPRECATED VERSION. FOR THE CURRENT VERSION OF THE FLORIS SOFTWARE, SEE WWW.GITHUB.COM/NREL/FLORIS\n\nFLORIS is an engineering model of wind turbine wake interactions which accounts for the effects of turbines on the flow through the creation of wakes an accounting for both velocity deficit and wake redirection through yaw",
+    "laborHours": 1003.2,
+    "languages": [
+        "OpenEdge ABL",
+        "Python"
+    ],
+    "name": "FLORIS [SWR-14-20]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/WISDEM/FLORISSE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

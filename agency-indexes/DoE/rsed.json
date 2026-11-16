@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "\"rsed\" is an R package that contains tools for stream editing: manipulating text files by making insertions, replacements, deletions, substitutions, or commenting. It hails from the powerful Unix command, \"sed\". While the \"rsed\" package is not nearly as powerful as \"see\", it is much simpler to use. R programmers often write scripts that may require simple manipulation of text files. \"rsed\" addresses that need.",
+    "laborHours": 136.8,
+    "name": "rsed",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/pnnl/rsed/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/rsed",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

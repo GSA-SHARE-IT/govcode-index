@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-02-28",
+        "metadataLastUpdated": "2021-06-15"
+    },
+    "description": "PyFlot is a combination of python and C++ which aims at tuning floating point precision inside scientific applications. PyFloT uses link time interposition for portability and generality. The set of functions of interest are wrapped with code that enables either profiling or their lowering based on the classification criteria: SLOC (Source code LOCation) or backtrace. PyFloT implementation has only be validated using the GNU compiler toolchain.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PyFloT v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hbrunie/PyFloT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "v0.1"
+}

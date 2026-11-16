@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "A software library for parsing and manipulating frequency-domain data files that have been processed using the Bruker TopSpin NMR software package. In the context of NMR, the term \"processed\" indicates that the end-user of the Bruker TopSpin NMR software package has (a) Fourier transformed the raw, time-domain data (the Free Induction Decay) into the frequency-domain and (b) has extracted the list of NMR peaks.",
+    "laborHours": 0.0,
+    "languages": [
+        "Ruby"
+    ],
+    "name": "Software Library for Bruker TopSpin NMR Data Files",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/EMSL-NMR-EPR/Ruby-Bruker-TopSpin-Library/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/EMSL-NMR-EPR/Ruby-Bruker-TopSpin-Library",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

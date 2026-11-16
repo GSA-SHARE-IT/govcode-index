@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-08-08",
+        "metadataLastUpdated": "2024-08-08"
+    },
+    "description": "Global Pathway Selection (GPS) is an algorithm to effectively generates reduced (skeletal) chemistry\nmechanisms, which speeds up simulations and can be used as a systematic analytics tool to extract\ninsights from complex reacting system. This release is an extension of the original code to run in parallel\nand to use LLNL's Zero-RK solver for fast solution of chemical problems.",
+    "laborHours": 10351.2,
+    "languages": [],
+    "name": "Global Pathway Selection with Zero-RK",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/GPS-Z",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.4"
+}

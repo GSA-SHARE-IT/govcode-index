@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-08-25",
+        "metadataLastUpdated": "2023-08-25"
+    },
+    "description": "This software is being developed to support data analysis and simulation for the growing field of outer heliosphere physics.  In particular, this software will allow data analysis, inference, and simulation of physical mechanisms describing how energetic neutral atoms behave that originate from the solar system's boundary with the interstellar medium.  ",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Program Repository for Tools for Heliophysics Science (Theseus)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Theseus",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

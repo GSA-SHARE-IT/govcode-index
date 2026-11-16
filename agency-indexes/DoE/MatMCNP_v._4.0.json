@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-01-24",
+        "metadataLastUpdated": "2024-07-26"
+    },
+    "description": "https://www.osti.gov/doecMatMCNP is a code for generating material cards for the MCNP radiation transport code. The program allows for material specification as either atomic or weight percent (fractions). MatMCNP also permits the specification of enriched lithium, boron, and/or uranium. In addition to producing the material cards for MCNP, the code calculates the atomic (or number) density in atoms/barn-cm as well as the multiplier that should be used to convert neutron and gamma fluences into dose in the material specified.",
+    "laborHours": 4544.8,
+    "languages": [
+        "Fortran",
+        "Python"
+    ],
+    "name": "MatMCNP v. 4.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/MatMCNP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 4.0"
+}

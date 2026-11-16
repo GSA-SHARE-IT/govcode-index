@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-08-15",
+        "metadataLastUpdated": "2024-08-15"
+    },
+    "description": "PPO and Friends (PPOAF) is a pytorch implementation of proximal policy optimization for single- and\nmulti-agent reinforcement learning (the PPO), along with several optimizations and add-ons (the Friends)\nto enable efficient MPI-parallelized model training on HPC clusters.",
+    "laborHours": 6536.0,
+    "languages": [],
+    "name": "PPO And Friends",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ppo_and_friends",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-08-28",
+        "metadataLastUpdated": "2023-08-28"
+    },
+    "description": "In the event of a potentially catastrophic asteroid impact, with sufficient warning time, deploying a nuclear\ndevice remains a powerful option for planetary defense if a kinetic impactor proves insufficient. Predicting\nthe effectiveness of a potential nuclear deflection or disruption mission depends on accurate multiphysics\nsimulations of the device's x-ray energy deposition into the asteroid and the resulting material ablation.\nThese simulations span many orders of magnitude, require a variety of different complex physics\npackages, and are computationally expensive. Having an efficient and accurate way of modeling this\nsystem is necessary for exploring a mission's sensitivity to the asteroid's range of physical properties. To\nexpedite future simulations, we present a completed x-ray energy deposition model developed using the\nradiation-hydrodynamics code Kull which can be used to initiate a nuclear mitigation mission hydrocode.\nThe model spans a wide variety of possible mission initial conditions: four different asteroid-like materials\n(Silicon Dioxide, Forsterite, Iron, and Ice), two different source spectra (1 and 2 keV blackbodies), and\nthen a broad range of radiation fluences (0.0001 to 1 kt per square meter), source durations (10 to 100\nns), and asteroid porosities (0 to 80 percent). Using blowoff momentum as the primary metric, the modelinitiated\nsimulation results match the full radiation-hydrodynamics results to within 10 percent. Please\nreference the journal article: Burkey et al., X-Ray Energy Deposition Model for Simulating Asteroid\nResponse to a Nuclear Planetary Defense Mitigation Mission, Planetary Science Journal, (2023) for more\ninformation.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "NED_Asteroid_Energy_Deposition",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/NED_Asteroid_Energy_Deposition",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

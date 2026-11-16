@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-08-02",
+        "metadataLastUpdated": "2023-08-02"
+    },
+    "description": "This is a web service that allows users to request an identifier for a sequence in a specific database, given another identifier for the same sequence with respect to another given database. This process is called ID mapping. It's a minimalist service (fast, no database server) that will be significantly easier to use in a container environment.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Sequence ID Map (SeqIDMap) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.jgi.doe.gov/jgi-kbase/seqidmap",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

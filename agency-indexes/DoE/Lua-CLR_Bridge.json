@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "creinke@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2019-01-18"
+    },
+    "description": "LuaCLRBridge is a library which provides an interface for hosting Lua within .NET applications and facilitating interoperability between the two runtimes.",
+    "homepageURL": "https://bitbucket.org/luaclrbridge/luaclrbridge/src",
+    "laborHours": 20748.0,
+    "languages": [
+        "C#",
+        "C++/CLI"
+    ],
+    "name": "Lua-CLR Bridge",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mpl-2.0",
+                "name": "MPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/luaclrbridge/luaclrbridge/src",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

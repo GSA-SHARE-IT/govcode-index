@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-12-05",
+        "metadataLastUpdated": "2023-05-30"
+    },
+    "description": "Alfalfa is a web based software service that implements a virtual building control system using the EnergyPlus simulation as a backend. Conventional building energy simulation is non interactive, meaning that a simulation is started and run to completion without any user input during the simulation. Alfalfa allows a client to start a building simulation, then interactively read sensor locations and dynamically command actuators in realtime. The Alfalfa web service conforms to the Project Haystack standard, which is a specification adopted by many building control system vendors. The service enables Haystack compliant control system vendors to test their control modules and algorithms without the need for a physical building or modifying their hardware and software, enabling faster and cheaper development cycles. Alfalfa has use cases beyond control system testing. One example is building fault detection, where physical building performance can be compared to simulated values in realtime, indicating where there may be a problem in the building. Another use case is informing predictive control systems, where near future events are simulated to premptively guide control decisions in the real building. This software is web based and designed to be self service. Users of Alfalfa can upload an OpenStudio building model and begin communicating with the simulated building without any advanced setup or configuration, as if they were communicating a real building control system. Behind the scenes, Alfalfa makes extensive use of Amazon Web Services, in order to scale from a very small number of users and buildings, to extremely large numbers in a cost effective way.",
+    "laborHours": 31479.2,
+    "languages": [
+        "JavaScript",
+        "Python"
+    ],
+    "name": "Alfalfa [SWR 18-17]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/alfalfa",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "v0.5.1"
+}

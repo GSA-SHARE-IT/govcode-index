@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "westm@osti.gov"
+    },
+    "date": {
+        "created": "2017-10-31",
+        "metadataLastUpdated": "2019-08-09"
+    },
+    "description": "Main repo for managing the new DOE CODE site from the DOE Office of Scientific and Technical Information (OSTI).",
+    "laborHours": 2219.2,
+    "languages": [],
+    "name": "DOE CODE",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/doecode/doecode",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

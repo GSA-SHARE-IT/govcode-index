@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "maldonadopbp@ornl.gov"
+    },
+    "date": {
+        "created": "2021-08-29",
+        "metadataLastUpdated": "2021-08-29"
+    },
+    "description": "In this simulation study, cycle-to-cycle fuel control was used to reduce CCV by injecting additional fuel in operating conditions with sporadic misfires and partial burns. An optimal control policy was proposed that utilizes 1) a physics-based model that tracks in-cylinder gas composition and 2) a one-step-ahead prediction of the combustion efficiency based on a kernel density estimator. The optimal solution, however, presents a tradeoff between the reduction in combustion CCV and the increase in fuel injection quantity required to stabilize the charge. Such a tradeoff can be ad- just by a single parameter embedded in the cost function.",
+    "homepageURL": "https://codeocean.com/capsule/8130780/tree",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Next-Cycle Optimal Fuel Control for Cycle-to-Cycle Variability Reduction in EGR-Diluted Combustion",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://codeocean.com/capsule/8130780/tree",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "version": "1"
+}

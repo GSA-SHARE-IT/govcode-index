@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-06",
+        "metadataLastUpdated": "2024-08-06"
+    },
+    "description": "Julienne is a compiler-portable unit-testing framework for Fortran software projects, including those that use the parallel/accelerator-programming features of Fortran 2023. Julienne achieves portability across compilers through minimalism and isolation. The minimal design ensures that Julienne uses only features supported by the majority of Fortran compilers. The isolation through zero dependencies ensures that no other projects block Julienne from building with a particular compiler.\n\nJulienne also contains with additional services that support its unit-testing code. These include functions for manipulating strings, command lines and input/output format strings; and a user-defined collective subroutine for verifying that all processes pass a test in parallel testing.\n\nJulienne's name derives from the term for vegetables sliced into thin strings: julienne vegetables. Julienne captures the authors' most frequently used thin slice of the Veggies and Sourcery software repositories while avoiding certain compiler limitations of the those two packages.",
+    "laborHours": 972.8,
+    "languages": [],
+    "name": "Julienne v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BerkeleyLab/julienne",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

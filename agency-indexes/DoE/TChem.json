@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The TChem toolkit is a software library that enables numerical simulations using complex chemistry and facilitates the analysis of detailed kinetic models. The toolkit provide capabilities for thermodynamic properties based on NASA polynomials and species production and consumption rates. It incorporates methods that can selectively modify reaction parameters for sensitivity analysis and uncertainty quantification. The library also contains several functions that provide analytically computed Jacobian matrices necessary for the efficient time advancement and analysis of detailed kinetic models.",
+    "homepageURL": "http://www.sandia.gov/tchem",
+    "laborHours": 0.0,
+    "name": "TChem",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://www.sandia.gov/tchem",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

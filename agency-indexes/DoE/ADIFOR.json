@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-02",
+        "metadataLastUpdated": "2018-07-02"
+    },
+    "description": "ADIFOR is a tool for the automatic differentiation of Fortran 77 programs. Given a Fortran 77 source code and a user's specification of dependent and independent variables, ADIFOR will generate an augmented derivative code that computes the partial derivatives of all of the specified dependent variables with respect to all of the specified independent variables in addition to the original result. ",
+    "homepageURL": "http://www.mcs.anl.gov/research/projects/adifor",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ADIFOR",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://www.mcs.anl.gov/research/projects/adifor/AdiforGet.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://www.mcs.anl.gov/research/projects/adifor",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ]
+}

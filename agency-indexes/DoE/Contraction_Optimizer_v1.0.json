@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-10-15",
+        "metadataLastUpdated": "2019-10-15"
+    },
+    "description": "Code to perform operation count minimization for the evaluation of a large number of tensor contractions. A possible application is the efficient evaluation of correlation functions in lattice QCD calculations, where a reduction of computational complexity by an order of magnitude is achieved",
+    "laborHours": 364.8,
+    "languages": [],
+    "name": "Contraction Optimizer v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/laphnn/contraction_optimizer",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

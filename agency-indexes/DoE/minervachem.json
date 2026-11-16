@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-04-19",
+        "metadataLastUpdated": "2024-04-19"
+    },
+    "description": "Minervachem is a tool for cheminformatics and machine learning in chemistry. It includes both algorithms from existing literature and algorithms which we have developed. Its features center around two main themes: molecular representations and algorithms, both for molecular machine learning. It provides a scikit-learn transformer interface for molecular featurization and an estimator interface for machine learning algorithms. It also provides visualization tools for explaining machine learning predictions. We aim to continue developing this software to improve its performance and usability and expand its capabilities within the realm of molecular machine learning, cheminformatics, and visualization.",
+    "laborHours": 1398.4,
+    "languages": [],
+    "name": "minervachem",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/minervachem",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

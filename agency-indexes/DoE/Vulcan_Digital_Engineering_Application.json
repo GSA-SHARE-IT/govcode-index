@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-08-20",
+        "metadataLastUpdated": "2023-03-13"
+    },
+    "description": "The application is being developed with the goal of preventing the entropy of all the different single purpose applications. This application utilizes a framework that enables different file formats to be read and understood through plugins dynamically loaded to the main application containing the framework. The main application provides interoperability to all the different plugins, this allows each file format to convert to every other file format that has been read. There is no theoretical limit to the number of plugins that can be used by the application. Even though the plugins may be individually written and serve a purpose like single use scripts, the plugins can only be used with the main application, this forces the application and plugins to be linked. In theory this will force better data management, or at least the bundling of the main application with the plugins.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "JavaScript"
+    ],
+    "name": "Vulcan Digital Engineering Application",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/VDEA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

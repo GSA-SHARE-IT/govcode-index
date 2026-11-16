@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "awander@sandia.gov"
+    },
+    "date": {
+        "created": "2018-09-06",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "The Sandia Strehl Calculator is designed to calculate the Gibson and Lanni point spread function (PSF), Strehl ratio, and ensquared energy, allowing non-design immersion, coverslip, and sample layers. It also uses Abbe number calculations to determine the refractive index at specific wavelengths when given the refractive index at a different wavelength and the dispersion. The theory behind the code is all fully developed in standard optics references. The novelty of the code is packaging it in a format that is accessible to general microscope users, not limited to individuals with expertise in both optics and computer programming.",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "Sandia Strehl Calculator Version",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/Strehl",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

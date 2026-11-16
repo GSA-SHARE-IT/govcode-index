@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "joiner@ameslab.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This software is an efficient computational package of the Gutzwiller variational method. It solves the Gutzwiller variational problem for general multiband models with arbitrary on-site interaction in a fully self-consistent numerical approach. The underlying algorithm drastically reduces the problem of the high-dimensional Gutzwiller minimization by mapping it to a minimization only in the variational density matrix. For &#64257;xed density the Gutzwiller renormalization matrix is determined as a &#64257;x-point of a proper functional, whose evaluation requires only ground-state calculations of matrices de&#64257;ned in the Gutzwiller variational space. Furthermore, the package is able to account for the symmetries of the variational function in a controlled way, reducing the number of variational parameters. The software is highly ef&#64257;cient and robust, and is particularly suitable for &#64257;rst-principles studies (e.g., in combination with DFT) of many complex real materials, where the full intra-atomic interaction is important to obtain correct results.",
+    "laborHours": 167412.8,
+    "name": "CyGutz",
+    "organization": "Ames Laboratory (AMES)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/yaoyongxin/CyGutz",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Ames Laboratory (AMES)"
+    ],
+    "vcs": "git"
+}

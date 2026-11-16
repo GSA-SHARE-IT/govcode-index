@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-05-25"
+    },
+    "description": "Bag is a miniature pcap filter which takes pcap input (or input off the wire) using a bpf filter, if specified, and then writes the output to stdout or a file (in pcap format). It depends for some aspects of its functionality on a libpcap library which uses a shared memory packet capture ring bugger. There are two build in modules: chcksum and session. the build in chcksum modules is used to anonymize the ip addresses and repair any checksums in the stream. % bag -r /tmp/*.pcap -Cchucksum, 128.1 65: 10.10 The session module generates sessions which are defined as a series of packets that have two things in common. the first is a unique five-tuple composed oi an IP protocol, IP source address, IP source port, IP destination address, and IP destination port. The second is that if the originating packet is associated with a bi-directional service such as ftpltcp, characteristics and data will be kept for both flows involved with the service. The only protocols evaluated beyond the IP header are ICMP, TCP and UDP. A session can last for as long as bag is running. However, under normal conditions, sessions are generated every time they appear to have closed down. There is a man page included with the distribution which goes into more detail.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "BAG (Continuous Round Robin Packet Capture)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

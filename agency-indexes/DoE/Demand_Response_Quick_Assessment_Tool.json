@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-19"
+    },
+    "description": "DRQAT (Demand Response Quick Assessment Tool) is the tool for assessing demand response saving potentials for large commercial buildings. This tool is based on EnergyPlus simulations of prototypical buildings and HVAC equipment. The opportunities for demand reduction and cost savings with building demand responsive controls vary tremendously with building type and location. The assessment tools will predict the energy and demand savings, the economic savings, and the thermal comfort impact for various demand responsive strategies. Users of the tools will be asked to enter the basic building information such as types, square footage, building envelope, orientation, utility schedule, etc. The assessment tools will then use the prototypical simulation models to calculate the energy and demand reduction potential under certain demand responsive strategies, such as precooling, zonal temperature set up, and chilled water loop and air loop set points adjustment.",
+    "homepageURL": "https://buildings.lbl.gov/demand-response-quick-assessment-tool-drqat",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Demand Response Quick Assessment Tool",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://buildings.lbl.gov/demand-response-quick-assessment-tool-drqat",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://buildings.lbl.gov/demand-response-quick-assessment-tool-drqat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

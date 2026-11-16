@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-19",
+        "metadataLastUpdated": "2020-05-19"
+    },
+    "description": "Error-bounded Lossy Data Compressor (for floating-point/integer datasets).",
+    "laborHours": 115550.4,
+    "languages": [],
+    "name": "SZ: Error-bounded Lossy Compressor for HPC Data",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/disheng222/SZ/blob/master/copyright-and-BSD-license.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/disheng222/SZ",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

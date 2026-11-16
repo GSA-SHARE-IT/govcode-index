@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-05-17",
+        "metadataLastUpdated": "2024-05-17"
+    },
+    "description": "femtotime is a library for time tracking which uses 128 bit integers\nto allow tracking time with femtosecond resolution.\n\nThe API takes the form of a C++ class GPStime, which allows setting,\ngetting, manipulation, and conversion of time.  The conversion to and\nfrom UTC tracks leapseconds.",
+    "laborHours": 1033.6,
+    "languages": [],
+    "name": "femtotime",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/agpl-3.0",
+                "name": "AGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/femtotime",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

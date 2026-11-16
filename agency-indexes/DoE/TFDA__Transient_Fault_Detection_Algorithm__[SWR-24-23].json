@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-05-23",
+        "metadataLastUpdated": "2024-09-25"
+    },
+    "description": "The Transient Fault Detection Algorithm (TFDA) is an algorithm to detect the non-fault and transient fault conditions, and classify the fault types. This is part of OEDI-SI project (https://data.openei.org/search?q=oedi%20si).",
+    "laborHours": 45.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "TFDA (Transient Fault Detection Algorithm) [SWR-24-23]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/Transient-Fault-Detection",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

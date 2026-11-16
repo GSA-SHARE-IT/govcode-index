@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-14",
+        "metadataLastUpdated": "2020-05-14"
+    },
+    "description": "Binding utilities used for MPI, OpenMP and GPUs. A script to set the process mask, OMP environment variables and CUDA environment variables to sane values if possible. Uses hwloc and nvidia-smi if available. Will preserve the current process binding, so it is safe to use with a queuing system or mpiexec.",
+    "laborHours": 228.0,
+    "languages": [],
+    "name": "kokkos/hpcbind",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kokkos/hpcbind",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

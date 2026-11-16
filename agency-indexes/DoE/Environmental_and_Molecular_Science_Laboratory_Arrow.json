@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-10"
+    },
+    "description": "Arrows is a software package that combines NWChem, SQL and NOSQL databases, email, and social networks (e.g. Twitter, Tumblr) that simplifies molecular and materials modeling and makes these modeling capabilities accessible to all scientists and engineers. EMSL Arrows is very simple to use. The user just emails chemical reactions to arrows@emsl.pnnl.gov and then an email is sent back with thermodynamic, reaction pathway (kinetic), spectroscopy, and other results. EMSL Arrows parses the email and then searches the database for the compounds in the reactions. If a compound isn't there, an NWChem calculation is setup and submitted to calculate it. Once the calculation is finished the results are entered into the database and then results are emailed back.",
+    "homepageURL": "https://store.pnnl.gov/content/emsl-arrows",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Environmental and Molecular Science Laboratory Arrow",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://store.pnnl.gov/content/emsl-arrows",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://store.pnnl.gov/content/emsl-arrows",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

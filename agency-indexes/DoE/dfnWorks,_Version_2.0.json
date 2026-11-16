@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "DFNWorks is a suite of software for generating and solving flow and transport physics on a Discrete Fracture Network (DFN). The suite is composed of three components: DFNGen: Stochastic fracture generation, mesh generation, model setup; DFNFlow: Flow solution using PFLOTRAN or FEHM control volume formulation solver; DFNTrans: Particle tracking transport; DFNGen Algorithm Description: This is a workflow that uses C++ software version for fracture generation, Python scripts written by the authors and the LaGriT software to generate computational mesh. DFNFlow The solution of flow in porous media is accomplished by coupling DFNGen output with the existing software packages FEHM and PFLOTRAN. The DFNWorks workflow involves modules and scripts that translate DFNGen output to formats compatible with FEHM and PFLOTRAN input. FEHM LA-CC-2012-083 PFLOTRAN LA-CC-09-047 LaGriT LA-CC-07-38 DFNTrans Stand-alone particle tracking algorithm that takes FEHM/PFLOTRAN flow solution as output and computes velocity field and advects particles.",
+    "laborHours": 0.0,
+    "name": "dfnWorks, Version 2.0",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dfnWorks/dfnWorks-Version2.0",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

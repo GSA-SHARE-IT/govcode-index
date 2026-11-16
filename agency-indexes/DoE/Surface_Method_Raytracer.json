@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-05-28",
+        "metadataLastUpdated": "2024-05-28"
+    },
+    "description": "Matlab based experiments that implement multiple ray tracing methods for deterministic radiation\ntransport, including the Surface Method as described in the PhD Thesis, \"CONSERVATIVE FIRSTCOLLISION\nSOURCE TREATMENT FOR RAY EFFECT MITIGATION IN DISCRETE-ORDINATE\nRADIATION TRANSPORT SOLUTIONS\" by Alex Christensen.",
+    "laborHours": 1550.4,
+    "languages": [],
+    "name": "Surface Method Raytracer",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/abcbitz/First_Collision_Source_Treatment",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

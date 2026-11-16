@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "greenquistit@ornl.gov"
+    },
+    "date": {
+        "created": "2023-09-22",
+        "metadataLastUpdated": "2023-11-03"
+    },
+    "description": "This code is a wrapper for Python code so that it can be accessed by MOOSE and the two can pass variables back and forth.\n\nSince this code was developed by ORNL, it must be independently approved before being added to the MOOSE repository.",
+    "laborHours": 1085021.6,
+    "languages": [
+        "C++"
+    ],
+    "name": "MOOSE-Python Binder",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.1",
+                "name": "GPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/moose",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

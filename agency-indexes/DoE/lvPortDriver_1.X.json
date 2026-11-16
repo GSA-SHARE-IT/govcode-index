@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2021-06-17"
+    },
+    "description": "lvPortDriver and the lvPortDriver virtual library are functions that enable LabVIEW code to run an EPICS (Experimental Physics and\nIndustrial Control System) IOC (Input/Output Controller), and communicate with it.\nThe EPICS records interface just as they would with any other asynPortDriver device.\nlvPortDriver is an asynPortDriver class (asynPortDriver is written by Mark Rivers, University of Chicago) that stores parameters in the parameter library (inherits from the base class). Arrays functions have been overridden to store data in LabVIEW's (LabVIEW is developed by National Instruments) native format.\nC wrappers permit LabVIEW to call the C++ code necessary to read and write parameters, and to be notified of changes in parameters by asyn. This notification is achieved though a user event that provides LabVIEW with the new value and status.\nA LabVIEW virtual library includes VIs that call these wrapper functions. The LabVIEW code is responsible for initializing the driver, and creating all the parameters that will be used. Parameter names are stored as variant properties, so their indicies can be looked-up via an O(log(N)) mechanism.\nThe example code included consists of a queue-driven state machine that does a simulated diagnostic measurement (does a specified number of waits for a specified time, and records the actual time between steps). A caQtDM screen is used to control the example measurement and plot the results by interfacing via an EPICS IOC with the included database.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "lvPortDriver 1.X",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/lvPortDriver",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

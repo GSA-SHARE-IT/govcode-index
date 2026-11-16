@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "BOUT is a parallelized 3D nonlocal electromagnetic turbulence code. The principal calculations are the boundary plasma turbulence in a realistic magnetic geometry. BOUT uses fluid Braginskii equations for plasma vorticity, density, electron and ion temperature and Parallel mementum. With sources added in the core-edge region and sinks in the scrape-off-layer (SOL), BOUT follows the self-consistent profile evolution together with turbulence. BOUT also includes coupling to a magnetohyfrodynamic equlibrium (EFIT package) and a two-dimensional hydrodynamic edge transport model (UEDGE package).",
+    "laborHours": 3298.4,
+    "name": "BOUndary Plasma Turbulence",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/boutproject/hermes",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

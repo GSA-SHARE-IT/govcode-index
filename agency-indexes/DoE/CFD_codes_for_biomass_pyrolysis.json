@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "albertop@iastate.edu"
+    },
+    "date": {
+        "created": "2022-03-31",
+        "metadataLastUpdated": "2022-03-31"
+    },
+    "description": "Eulerian-Eulerian CFD models with bidisperse kinetic theory of the granular flow, and kinetics for biomass pyrolysis. The models were implemented in customized versions of OpenFOAM.",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "C++"
+    ],
+    "name": "CFD codes for biomass pyrolysis",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Biomass-Autothermal-Pyrolysis/CFDCodes",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

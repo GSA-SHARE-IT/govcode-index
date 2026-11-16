@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-24"
+    },
+    "description": "Matlab Toolbox for simulating the impact of solar energy on the distribution grid. The majority of the functions are useful for interfacing OpenDSS and MATLAB, and they are of generic use for commanding OpenDSS from MATLAB and retrieving GridPV Toolbox information from simulations. A set of functions is also included for modeling PV plant output and setting up the PV plant in the OpenDSS simulation. The toolbox contains functions for modeling the OpenDSS distribution feeder on satellite images with GPS coordinates. Finally, example simulations functions are included to show potential uses of the toolbox functions.",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB",
+        "OpenDSS"
+    ],
+    "name": "GridPV Toolbox",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/gridpv",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

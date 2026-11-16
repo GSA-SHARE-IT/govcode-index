@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "Toba is an extensible personal information retrieval system. It supports various plugins which the user uses to create and store bits of information. It comes configured to store meeting notes, task items, issue, and business development opportunities. Plugins could be written to support almost any kind of digital information. So with the right plugins, Toba could become a full fledged contact manager, project management application, programmer's toolkit, or almost any other type of data storage/search/retrieval application imaginable. Toba comes with a built in command line interface and via a plugin it has a fully scripting language (jython). The information stored can be searched by keyword or through SQL queries.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "TOBA",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/toba",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

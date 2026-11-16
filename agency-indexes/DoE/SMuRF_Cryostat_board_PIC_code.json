@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-07-27",
+        "metadataLastUpdated": "2022-07-27"
+    },
+    "description": "This is the original code for the SMuRF cryostat board. The board is bases on the microchip's microcontroller PIC32MX795F512L. The code was developed using Microchip's MPLAB X and the MPLAB Harmony Configuration (MHC) framework.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SMuRF Cryostat board PIC code",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/smurfc/blob/C04/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/smurfc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

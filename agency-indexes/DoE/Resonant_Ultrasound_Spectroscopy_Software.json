@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-01-29",
+        "metadataLastUpdated": "2018-01-29"
+    },
+    "description": "Software programs Red Pitaya to sweep frequency and records the in phase and quadrature response.",
+    "laborHours": 1489.6,
+    "name": "Resonant Ultrasound Spectroscopy Software",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ffb-LANL/resonant-ultrasound",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

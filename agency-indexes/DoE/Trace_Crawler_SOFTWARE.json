@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-06-15",
+        "metadataLastUpdated": "2022-06-15"
+    },
+    "description": "The trace crawler is a tool for selective web crawling to archive web resources with well-defined boundaries. The specific web navigation steps (or trace) are formulated for the families of webpages, where layout or HTML structure can be similar but the content is different, for example, GitHub, Slideshare, blogs, etc. The trace is recorded in a json file format.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Trace Crawler SOFTWARE",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/trace-crawler",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

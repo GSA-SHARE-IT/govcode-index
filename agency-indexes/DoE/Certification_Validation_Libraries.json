@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2022-05-06"
+    },
+    "description": "“The code “Certificate Validation Libraries” provides the ability to validate x509 certificates in python using a simple library. These libraries validate certificates in 3 ways: 1) validation that certificate has not expired. 2) validation that certificate has not been revoked and 3) validation of certificate's digital signature. The benefits of this code is that one can properly validate x509 certificates, thus strengthening the security of systems using these libraries.”",
+    "laborHours": 0.0,
+    "languages": [
+        "Python 3"
+    ],
+    "name": "Certification Validation Libraries",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.osti.gov/osti-public/certification-validation-libraries",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

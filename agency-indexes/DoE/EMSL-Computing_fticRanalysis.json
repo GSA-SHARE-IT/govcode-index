@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-01-23",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "fticRanalysis - a package to hand data formatting and storage of Fourier-transform ion cyclotron resonance (FTICR) data in a generalizable way. Additional functionality is available for manipulating and transforming the data, filtering the data based on different criteria, creating summary plots (e.g. Van Krevelen plots, Kendrick plots, etc.), summarizing group-level data, comparing treatment groups, and making complementary plotting functionality",
+    "laborHours": 38288.8,
+    "languages": [],
+    "name": "EMSL-Computing/fticRanalysis",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/EMSL-Computing/fticRanalysis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

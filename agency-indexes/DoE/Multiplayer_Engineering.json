@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2024-02-27",
+        "metadataLastUpdated": "2024-02-27"
+    },
+    "description": "INL engineers developed a special purpose software framework designed to establish real-time connections between multiple running Unity instances.\n\nThe framework is developed in Unity, a game engine development platform.  \n\nThis framework programmatically attaches functions to engineering models, enabling users to interact with, observe, and make changes to virtual models. These interactions are broadcasted through websocket connections, and received by other engineers in real-time.",
+    "laborHours": 0.0,
+    "languages": [
+        "C#"
+    ],
+    "name": "Multiplayer Engineering",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/Multiplayer_Engineering",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "accawigk@ornl.gov"
+    },
+    "date": {
+        "created": "2022-01-07",
+        "metadataLastUpdated": "2022-03-22"
+    },
+    "description": "MEASUR your energy savings with the free DOE MEASUR software The Department of Energy (DOE), with Oak Ridge National Laboratory (ORNL), released version 1.0 of their energy efficiency software tool MEASUR (Manufacturing Energy Assessment Software for Utility Reduction). MEASUR has been available for several years as a beta version, being tested by industry experts and real users, and will continue to be updated and improved in the coming years. It is an integrated suite of tools to aid manufacturers in improving the efficiency of energy systems and equipment within a plant, including motors, pumps, fans, process heating, steam, and compressed air. Additionally, there are modules for wastewater energy analysis and to help perform energy treasure hunts. Several calculators are also included, allowing users to independently perform smaller calculations and analyses (such as estimating pump head, performing a fan traverse analysis, estimating waste heat recovery potential, and cataloging compressed air leaks). The MEASUR modules are based on previous DOE software tools that have been used by industry since the early 2000s (such as MotorMaster, AirMaster+, PSAT, PHAST, and FSAT). The original tools only ran on Windows operating systems, and by Windows 10, most of them were inoperable. DOE started their energy efficiency software tool revitalization effort in 2016, first with PSAT (for pumps), then began to integrate the other tools and expand their functionality and utility. The new MEASUR suite provides an extensively more user-friendly, modern, and versatile set of tools. All the assessment modules and most of the calculators have several visual components and graphs and detailed help text for every user input. To help reach international users, the tool utilizes Google translate and users can easily change unit systems, even converting existing user inputs if desired. The assessment files can be organized within the internal file system and easily shared to other users, regardless of their operating system. The entire suite is free, open-source, and can be downloaded on Windows, Mac, or Linux operating systems.",
+    "laborHours": 0.0,
+    "languages": [
+        "TypeScript",
+        "CSS",
+        "HTML",
+        "Node.js",
+        "Angular8",
+        "Electron"
+    ],
+    "name": "MEASUR - Manufacturing Energy Assessment Software for Utility Reduction",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ORNL-AMO/AMO-Tools-Desktop/blob/develop/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-AMO/AMO-Tools-Desktop",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

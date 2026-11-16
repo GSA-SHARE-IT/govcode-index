@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2023-08-17",
+        "metadataLastUpdated": "2023-08-18"
+    },
+    "description": "SF-23-006 FAST (FAST AUTONOMOUS SCANNING TOOLKIT)The software is deployed on an edge computing device at the beamline computer attached to a \nscanning microscope. It iteratively analyzes the data collected, then identifies new scan positions \nto scan next and directs the positioners that move the sample (or probe beam) to these positions. \nOverall, it identifies a sparse set of scan positions that are sufficient to image the full sample. \nThis can reduce the scan time by >60%.\n\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "FAST (FAST AUTONOMOUS SCANNING TOOLKIT)",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/saugatkandel/fast_smart_scanning",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

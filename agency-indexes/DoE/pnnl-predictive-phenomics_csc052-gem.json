@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-12-23",
+        "metadataLastUpdated": "2024-12-23"
+    },
+    "description": "Genome-Scale Metabolic Model Continuous Validation with Memote for CarbStor Community Member Bacillus\nThese repositories contain the continuous validation environment for an organism-specific genome-scale metabolic model\n(GEM) using Memote. Memote is a software tool that provides a suite of tests to ensure the quality and consistency of\nmetabolic models. By integrating Memote into a continuous integration (CI) workflow, we can automatically validate\nupdates to the GEM, ensuring that model modifications improve or maintain the model's integrity.",
+    "laborHours": 159676.0,
+    "languages": [],
+    "name": "pnnl-predictive-phenomics/csc052-gem",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl-predictive-phenomics/csc052-GEM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

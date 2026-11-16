@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2020-01-27",
+        "metadataLastUpdated": "2020-01-27"
+    },
+    "description": "AutoParBench is a benchmark framework to evaluate compilers and tools designed to automatically insert\nOpenMP directives. \n\nThe goal is to generate actional information (bug reports and feature requests) for compiler and tool developers.\n\nWe also want to drive the research for automatic parallelization using OpenMP and make OpenMP more declarative to reduce the burdens on OpenMP users.",
+    "laborHours": 209866.4,
+    "languages": [],
+    "name": "AutoParBench",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/autoparbench",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.9"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-12-18",
+        "metadataLastUpdated": "2018-12-18"
+    },
+    "description": "VPIC I/O Utilities provide scalable input and output code for writing and reading HDF5 data by the Vector Particle-in-cell (VPIC) simulation codes. The I/O utility writes particle, field, and hydro data from VPIC to HDF5 files. The filed and hydro codes also write XDMF files, which can be used by visualization tools such as ParaView to read and visualize the HDF5 data written.",
+    "laborHours": 744.8,
+    "languages": [],
+    "name": "VPIC IO utilities",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/dbin_sdm/viou/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

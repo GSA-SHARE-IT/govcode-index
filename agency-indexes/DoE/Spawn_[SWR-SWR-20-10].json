@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2024-01-22"
+    },
+    "description": "Spawn is a next generation building simulation engine designed to build on the strengths of NREL's venerable EnergyPlus engine, and add new advanced HVAC and controls modeling capability by incorporating the Modelica equation based modeling language. In effect, Spawn is a hybrid of the existing EnergyPlus and Modelica software products, with some new software to provide glue between the components in order to provide a seamless end user experience.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "C"
+    ],
+    "name": "Spawn [SWR-SWR-20-10]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/Spawn",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

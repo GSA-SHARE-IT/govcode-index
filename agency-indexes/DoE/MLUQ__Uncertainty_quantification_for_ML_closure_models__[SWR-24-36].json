@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-02-22",
+        "metadataLastUpdated": "2024-04-01"
+    },
+    "description": "Data-based closure models are increasingly being used to replace physic-based closure models because of their flexibility and the growing availability of data. However, closure models are subject to uncertainty because of lack of data in parts of the input space (epistemic uncertainty) or because of noise in the data (aleatoric uncertainty). This software contains a toolbox for training bayesian neural nets that can estimate both uncertainties. A specific treatment is provided to ensure accuracy outside of the data distribution. A set of tools are provided to reduce the dimensionality of the uncertain parameter space, thereby enabling fast uncertainty propagation.",
+    "laborHours": 3328.8,
+    "languages": [
+        "PureBasic",
+        "Jupyter",
+        "Python",
+        "Shell"
+    ],
+    "name": "MLUQ (Uncertainty quantification for ML closure models) [SWR-24-36]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/mluq-prop",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

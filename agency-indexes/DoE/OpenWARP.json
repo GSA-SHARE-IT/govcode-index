@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-09-12",
+        "metadataLastUpdated": "2018-09-12"
+    },
+    "description": "OpenWARP is an open source boundary element simulation tool based on the NEMOH code. OpenWARP and NEMOH provide the ability to determine the frequency dependent added mass, radiation damping, and excitation coefficients that describe the behavior of a floating or submerged body in a wave field. These coefficients are widely used in conjunction with the Cummins equation to model the behavior of wave energy conversion devices, ships, offshore platforms, and other floating structures.\n",
+    "laborHours": 54872.0,
+    "languages": [],
+    "name": "OpenWARP",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/OpenWARP",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-07-16",
+        "metadataLastUpdated": "2019-07-17"
+    },
+    "description": "WaterSystems.jl is a Julia package for defining water delivery infrastructure system data and problem definitions. The WaterSystems.jl package enables parsing from the EPANET *.inp file format and the expression of data for WaterSimulations.jl models.  WaterSystems.jl defines a data schema for water infrastructure networks. ",
+    "laborHours": 167.2,
+    "languages": [
+        "julia"
+    ],
+    "name": "WaterSystems.jl",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/WaterSystems.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

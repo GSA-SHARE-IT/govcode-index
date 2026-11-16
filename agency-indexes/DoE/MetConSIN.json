@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-07-28",
+        "metadataLastUpdated": "2023-07-28"
+    },
+    "description": "Metabolic Context Species Interaction Networks (MetConSIN) generates microbe-metabolte and metabolite-metabolite interaction networks using constraint based metabolic modeling. To do this, MetConSIN simulates with the dynamic FBA system and saves the sequence of interaction networks implied by that system, as well as the time-average network.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MetConSIN",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/metconsin",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

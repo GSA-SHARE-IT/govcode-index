@@ -1,0 +1,75 @@
+{
+    "id": 1820,
+    "name": "My HealtheVet",
+    "organization": "OIT DSO",
+    "version": null,
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/foia-mhv-my-healthevet",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "MHV",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Apache ZooKeeper",
+        "Windows Server",
+        "New Atlanta ServletExec",
+        "Enterprise Security Application Programming Interface (ESAPI) for Java Enterpr",
+        "Java Enterprise Edition (Java EE)",
+        "Oracle Database",
+        "Red Hat Enterprise Linux",
+        "Spring Boot",
+        "Spring Framework",
+        "Microsoft Structured Query Language (SQL) Server",
+        "My Structured Query Language (MySQL) Database",
+        "Java Persistence Application Programming Interface (API) (JPA)",
+        "SAS/GRAPH",
+        "Apache Axis2",
+        "Apache CXF",
+        "Apache Tomcat",
+        "Liferay Portal",
+        "Salt",
+        "Spring Security",
+        "Velocity Engine",
+        "Ansible",
+        "Google GSON",
+        "HealthShare",
+        "Nexus",
+        "Health Level Seven (HL7) Application Programming Interface (HAPI)",
+        "Hibernate Object/Relational Mapping (ORM)",
+        "iText Core",
+        "JavaScript Object Notation (JSON) Sanitizer",
+        "JBoss Logging Tools",
+        "JFreeChart",
+        "Job Access With Speech (JAWS)",
+        "JUnit",
+        "Microsoft Internet Information Services (IIS)",
+        "Log4js"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-28",
+        "lastModified": "2021-01-26",
+        "metadataLastUpdated": "2021-01-26"
+    },
+    "description": "Repository containing the FOIA Releases for My HealtheVet"
+}

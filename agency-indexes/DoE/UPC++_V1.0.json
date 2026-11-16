@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-09-07",
+        "metadataLastUpdated": "2020-06-01"
+    },
+    "description": "UPC++ is a C++11 library providing classes and functions that support Partitioned \nGlobal Address Space (PGAS) programming. We are revising the library under the auspices  of the DOE's Exascale Computing Project, to meet the needs of applications requiring  PGAS support. UPC++ is intended for implementing elaborate distributed data structures where communication is irregular or fine-grained. The UPC++ interfaces for moving non-contiguous data and handling memories with different optimal access methods are composable and similar to those used in conventional C++. The UPC++ programmer can expect communication to run at close to hardware speeds. \n\nThe key facilities in UPC++ are global pointers, that enable the programmer to express \nownership information for improving locality, one-sided communication, both put/get and RPC, futures and continuations. Futures capture data readiness state, which is useful in making scheduling decisions, and continuations provide for completion handling via callbacks. Together, these enable the programmer to chain together a DAG of operations to execute asynchronously as high-latency dependencies become satisfied.\n",
+    "laborHours": 20702.4,
+    "languages": [],
+    "name": "UPC++ V1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/upcxx/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

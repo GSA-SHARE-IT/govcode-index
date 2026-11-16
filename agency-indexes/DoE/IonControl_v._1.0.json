@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-26"
+    },
+    "description": "The IonControl software is a set of python scripts and Field-Programmable-Gate-Array (FPGA) code designed to control a trapped ion research experiment. It enables one to generate the pulses (time resolution: 20ns) necessary to control the quantum states of trapped ions and allows one to collect and analyze measurement results from trapped ion systems.",
+    "laborHours": 228410.4,
+    "languages": [
+        "CSS",
+        "HTML",
+        "TeX",
+        "JavaScript",
+        "PostScript",
+        "Python"
+    ],
+    "name": "IonControl v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/IonControl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "The ShiftNMFk1.2 code, or as we call it, GreenNMFk, represents a hybrid algorithm combining unsupervised adaptive machine learning and Green's function inverse method. GreenNMFk allows an efficient and high performance de-mixing and feature extraction of a multitude of nonnegative signals that change their shape propagating through the medium. The signals are mixed and recorded by a network of uncorrelated sensors. The code couples Non-negative Matrix Factorization (NMF) and inverse-analysis Green's functions method. GreenNMF synergistically performs decomposition of the recorded mixtures, finds the number of the unknown sources and uses the Green's function of the governing partial differential equation to identify   the unknown sources and their charecteristics. GreenNMF can be applied directly to any problem controlled by a known partial-differential parabolic equation where mixtures of an unknown number of sources are measured at multiple locations. Full GreenNMFk method is a subject LANL U.S. Patent application S133364.000 August, 2017. The ShiftNMFk 1.2 version here is a toy version of this method that can work with a limited number of unknown sources (4 or less).",
+    "laborHours": 760.0,
+    "languages": [
+        "Matlab"
+    ],
+    "name": "ShiftNMFk 1.2",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/rNMF/HNMF/blob/master/License",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/rNMF/HNMF",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-19",
+        "metadataLastUpdated": "2020-05-19"
+    },
+    "description": "CVLIB is a library which provides a JavaScript API to Paraview Cinema databases for visualization in the Browser.\n\nIn contrast to other Cinema viewers this library is focusing on modular expandability. Most applications have additional viewer requirements such as specialized data visualizations, aggregations, interactions, and other features a generic all-in-one viewer can not provide. Hence, CVLIB provides functions to access Cinema databases, process queries, create viewer UI elements, render results, and interact with the visualization so that users can build their own custom viewer.",
+    "laborHours": 10366.4,
+    "languages": [],
+    "name": "CVLIB - Cinema Viewer Library",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/cinemascience/cvlib/blob/master/license.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cinemascience/cvlib",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-08-16",
+        "metadataLastUpdated": "2019-08-19"
+    },
+    "description": "ADUPROP is a scalable implementation for uncertainty propagation using the method of moments. The Taylor coefficients for the moments first (mean) and second moment (Covariance matrix) require the efficient computation of derivatives. ADUPROP leverages the technique of Automatic Differentiation (AD) to generate the implementation of derivative computations. ADUPROP solves a differential equation x' = f(x), where f(x) is a nonlinear function and the flow phi(x) of the differential equation is obtained using the usual discretization techniques: x_k+1 = phi(x_k). The user has only to provide f(x) and its Jacobian. For a given input mean and covariance matrix ADUPROP propagates this uncertainty information according to the method of moments. ",
+    "laborHours": 4940.0,
+    "languages": [],
+    "name": "ADUPROP",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/aduprop/aduprop",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

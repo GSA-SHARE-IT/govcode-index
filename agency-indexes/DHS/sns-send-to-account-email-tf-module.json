@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2022-03-07",
+        "lastModified": "2026-04-09"
+    },
+    "description": "A Terraform module to create an SNS topic and subscribe the account email to it.",
+    "downloadURL": "https://api.github.com/repos/cisagov/sns-send-to-account-email-tf-module/downloads",
+    "homepageURL": "https://github.com/cisagov/sns-send-to-account-email-tf-module",
+    "laborHours": 610.0,
+    "languages": [
+        "Shell",
+        "HCL"
+    ],
+    "name": "sns-send-to-account-email-tf-module",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/sns-send-to-account-email-tf-module.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

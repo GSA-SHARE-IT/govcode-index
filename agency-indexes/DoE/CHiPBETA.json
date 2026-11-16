@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-07-10",
+        "metadataLastUpdated": "2018-07-10"
+    },
+    "description": "High-accuracy water level data are needed to resolve the temporal and spatial hydraulic response to pumping in aquifers. However, the water-level data are typically affected by physical process unrelated to the aquifer pumping such as barometric pressure changes, tides, earthquakes, {\\etc}. We have developed a computational framework to correct for barometric and Earth tide effects using linear regression deconvolution, as an initial guess for a nonlinear residual minimization to account for pumping effects. The pumping effects are predicted using the Theis equation with initialization by Jacob's method. After minimizing the residuals between the observed data and Theis predicted pumping effects, the algorithm estimates storativity and transmissivity of the aquifer. The algorithm also provides   information about the measurement accuracy of the collected water-level data. The computational framework CHiPBETA is developed in Python and demonstrated to analyze synthetic and real data.",
+    "laborHours": 4605.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "CHiPBETA",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/zem/chipbeta",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

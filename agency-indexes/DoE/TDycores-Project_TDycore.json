@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-03-24",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The terrestrial dycores will solve tightly coupled conservation of water and energy equations. While the land dycore will simulate processes for a three-dimensional subsurface coupled to a one-dimensional plant’s vascular system, the river dycore will simulate two-dimensional processes in the river.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "TDycores-Project/TDycore",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/TDycores-Project/Tdycore",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

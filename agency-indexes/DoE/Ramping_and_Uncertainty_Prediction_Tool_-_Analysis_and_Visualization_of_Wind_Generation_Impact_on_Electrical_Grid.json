@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "RUT software is designed for use by the Balancing Authorities to predict and display additional requirements caused by the variability and uncertainty in load and generation. The prediction is made for the next operating hours as well as for the next day. The tool predicts possible deficiencies in generation capability and ramping capability. This deficiency of balancing resources can cause serious risks to power system stability and also impact real-time market energy prices. The tool dynamically and adaptively correlates changing system conditions with the additional balancing needs triggered by the interplay between forecasted and actual load and output of variable resources. The assessment is performed using a specially developed probabilistic algorithm incorporating multiple sources of uncertainty including wind, solar and load forecast errors. The tool evaluates required generation for a worst case scenario, with a user-specified confidence level.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "VB.NET"
+    ],
+    "name": "Ramping and Uncertainty Prediction Tool - Analysis and Visualization of Wind Generation Impact on Electrical Grid",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

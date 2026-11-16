@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "mcarbone@bnl.gov"
+    },
+    "date": {
+        "created": "2022-10-12",
+        "metadataLastUpdated": "2022-12-07"
+    },
+    "description": "All things Gaussian Process and Bayesian optimization, made easy",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "EasyBO",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/matthewcarbone/EasyBO",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

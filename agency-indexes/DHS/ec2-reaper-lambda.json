@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2026-10-22",
+        "lastModified": "2026-11-03"
+    },
+    "description": "An AWS Lambda function that terminates EC2 instances, in every enabled region of the account where it is deployed, that have existed longer than a maximum age",
+    "downloadURL": "https://api.github.com/repos/cisagov/ec2-reaper-lambda/downloads",
+    "homepageURL": "https://github.com/cisagov/ec2-reaper-lambda",
+    "laborHours": 1151.6,
+    "languages": [
+        "Python",
+        "Shell",
+        "Dockerfile"
+    ],
+    "name": "ec2-reaper-lambda",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ec2-reaper-lambda.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "ec2",
+        "lambda",
+        "reaper"
+    ],
+    "vcs": "git"
+}

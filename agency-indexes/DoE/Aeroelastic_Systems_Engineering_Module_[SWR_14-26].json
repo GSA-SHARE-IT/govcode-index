@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2023-05-22"
+    },
+    "description": "Small pieces of software that wraps the FAST model so that FAST can be integrated to WISDEM. NOTE: THIS REPOSITORY IS DEPRECATED AND WAS ARCHIVED (READ-ONLY) IN NOVEMBER 2019. NREL's WISDEM® software has moved to a single, integrated repository at https://github.com/wisdem/wisdem",
+    "laborHours": 11536.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "Aeroelastic Systems Engineering Module [SWR 14-26]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/wisdem/aeroelasticse",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

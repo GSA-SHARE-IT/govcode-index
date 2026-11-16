@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-12-13",
+        "metadataLastUpdated": "2022-12-13"
+    },
+    "description": "LLNL HPC systems run a custom version of RedHat's RHEL operating system known as TOSS. In 2022, after working with DISA, Livermore Computing staff completed the STIG (Security Technical Implementation Guide) for the TOSS 4 operating system. This software project contains the source code associated with that STIG and implements checks and remediations for configuring a system in compliance with that STIG.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "TOSS STIG",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/toss-stig",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-07-18",
+        "metadataLastUpdated": "2019-04-22"
+    },
+    "description": "A web-based residential energy calculator with APIs that run two LBNL websites: http://hes.lbl.gov and http://hespro.lbl.gov. Provide customized estimates of residential energy use, energy bills, and CO2 emissions, based on building description information provided by the user. Energy use is estimated by end-use and device, using engineering models developed at LBNL. Space heating and cooling use is based on the DOE-2.1 E building simulation model. Other end-uses (water heating, appliances, lighting, and miscellaneous equipment) are based on engineering models developed by LBNL. Users can estimate their household carbon footprint and compare it to average values for their neighborhood and other regions, displayed using the Google Maps API. Energy bills can be calculated using either average energy price data or actual utility tariffs. The HES software also includes extensive default input for required user inputs. Hardware req.: Multi-platform; Type of files: Source code, installation instructions other; programmer documentation; user manual; electronic format.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 181138.4,
+    "languages": [],
+    "name": "Home Energy Saver v3 (website) and APIs",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

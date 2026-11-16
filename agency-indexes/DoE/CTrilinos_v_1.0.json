@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "CTrilinos provides a C language interface to a subset of Trilinos. The interface hides the object-oriented nature of Trilinos by allowing these objects to be acted upon using a set of three integers that uniquely identify the object. No pointers to the underlying objects are made available for direct manipulation, protecting against segmentation faults. CTrilinos serves as a base layer over which the ForTrilinos linking layer operates, facilitating the use Trilinos from object-oriented Fortran.CTrilinos can be applied wherever the supported underlying Trilinos packages can be applied.",
+    "laborHours": 18164.0,
+    "name": "CTrilinos v 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/CTrilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

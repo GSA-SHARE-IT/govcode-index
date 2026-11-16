@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-09-26",
+        "metadataLastUpdated": "2022-09-26"
+    },
+    "description": "The Assured Timing Detector Status Display allows for Web browser hosted monitoring of system health and annunciation of timing anomaly alerts reported by the companion Assured Timing Detector software.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Assured Timing Detector - Status Display",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ATD-SD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

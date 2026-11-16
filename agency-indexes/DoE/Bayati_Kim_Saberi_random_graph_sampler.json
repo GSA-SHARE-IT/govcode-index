@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-16"
+    },
+    "description": "This software package implements the algorithm from a paper by Bayati, Kim, and Saberi (first reference below) to generate a uniformly random sample of a graph with a prescribed degree distribution.",
+    "laborHours": 1094.4,
+    "languages": [
+        "MATLAB",
+        "C++",
+        "C"
+    ],
+    "name": "Bayati Kim Saberi random graph sampler",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/bisquik",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

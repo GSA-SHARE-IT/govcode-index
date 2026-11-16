@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "fu@bnl.gov"
+    },
+    "date": {
+        "created": "2019-09-24",
+        "metadataLastUpdated": "2019-09-24"
+    },
+    "description": "A web based mobile application to show basic JACoW system conference information, paper information,  paper searching, paper status, paper author searching,  conference hotel map navigation,  and many other conference related information.  It works on all major web browsers on mobile devices (iOS based or Android based) and desk top devices. \n",
+    "homepageURL": "https://www.agsrhichome.bnl.gov/Controls/MACo/index.html",
+    "laborHours": 0.0,
+    "languages": [
+        "Java",
+        "JavaScript"
+    ],
+    "name": "Mobile Application For Conferences (MACo)",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.agsrhichome.bnl.gov/Controls/MACo/index.html",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ]
+}

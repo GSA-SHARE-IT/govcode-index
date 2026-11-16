@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-01-26",
+        "metadataLastUpdated": "2024-01-26"
+    },
+    "description": "Materials Analysis Using Diffraction (MAUD) is an open source Rietveld refinement program which fits diffraction models to\ndiffraction spectra allowing quantitative diffraction analysis. The scripting interface developed here using python facilitates the\nchoice of parameters to refine during the Rietveld fitting process and provides a simple MPI framework for running MAUD\ninstances in parallel. The scripting language facilitates batch, custom, and reproducible Rietveld refinements of large datasets.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MAUD Interface Tool Kit (MILK)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/MILK",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2025-02-05",
+        "metadataLastUpdated": "2025-02-05"
+    },
+    "description": "A plug and play techno-economic analysis (TEA) and lifecycle assessment (LCA) tool was built that could incorporate new projects into the California ARCHES LLC Hydrogen hub, and generate results for the project, as well as the overall hub on an annual basis. The model was first constructed in Microsoft Excel and ArcGIS, but required labor intensive updating and manual decision making regarding the matching of hydrogen supplier and offtaker and estimation of transportation distances and utility sources. The project team converted the Excel model used for the ARCHES LLC hub conceptualization into a highly flexible and nearly completely automated R code. The R code runs the TEA and LCA, as well as provides mapping capabilities that automatically link projects by latitude and longitude to nearby utilities.",
+    "laborHours": 4484.0,
+    "languages": [],
+    "name": "Hydrogen Hub Systems Analysis and Mapping Tool (ParaCraft) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/calgem/Paracraft",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

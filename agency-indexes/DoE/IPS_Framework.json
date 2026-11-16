@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "bernholdtde@ornl.gov"
+    },
+    "date": {
+        "created": "2021-09-26",
+        "metadataLastUpdated": "2021-09-28"
+    },
+    "description": "IPS is an environment to orchestrate complex coupled simulation workflows on parallel computers. The IPS is designed primarily for use in abatch-processing environment, with a batch job typically comprising a single invocation of the framework, calling the individual physics codesmany times as the simulation progresses.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "IPS Framework",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/HPC-SimTools/IPS-framework",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

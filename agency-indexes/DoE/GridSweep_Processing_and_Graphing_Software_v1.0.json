@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-09-28",
+        "metadataLastUpdated": "2023-09-28"
+    },
+    "description": "This software is used to process the raw data from the GridSweep instrument, a device developed under subcontract by McEachern Laboroatories for a DOE GMLC project. The software scrubbs, demodulates, and transforms point on wave voltage timeseries data into frequency/voltage amplitude/time data. It also has a GUI that allows for user selection of processed experimental data and graphing in heatmaps or 3-D plots. It was created alongside the GridSweep instrument as a part of the same project and is required to be open-source.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GridSweep Processing and Graphing Software v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/jsmacdonald/gridsweep-processing/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

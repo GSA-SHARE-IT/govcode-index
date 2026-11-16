@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-04-24",
+        "metadataLastUpdated": "2024-04-25"
+    },
+    "description": "The National Solar Radiation Database (NSRDB) is NREL’s flagship solar data resource. With over 20 years of high-resolution surface irradiance data covering most of the western hemisphere, the NSRDB is a crucial public data asset. A fundamental input to accurate surface irradiance in the NSRDB is high quality cloud property data. Cloud properties are used in radiative transfer calculations and are sourced from satellite imagery. Improving the accuracy of cloud property inputs is a tractable method for improving the accuracy of the irradiance data in the NSRDB. For example, in July of 2018, an average location in the Continental United States is missing cloud property data for nearly one quarter of all daylight cloudy timesteps. This project aims to improve the cloud data inputs to the NSRDB by using machine learning techniques to exploit the NSRDB’s massive data resources. More accurate cloud property input data will yield more accurate surface irradiance data in the NSRDB, providing direct benefit to researchers at NREL and to public data users everywhere.",
+    "laborHours": 1626.4,
+    "languages": [
+        "Python",
+        "Jupyter Notebook"
+    ],
+    "name": "MLClouds [SWR-24-24]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/mlclouds",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

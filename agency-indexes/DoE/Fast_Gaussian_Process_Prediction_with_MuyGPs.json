@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-03-01",
+        "metadataLastUpdated": "2023-03-01"
+    },
+    "description": "This code provides fast Gaussian process prediction algorithms based on the MuyGPs scalable hyperparameter optimization algorithm. This code is the companion to a research paper preprint soon to be made publicly available.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Fast Gaussian Process Prediction with MuyGPs",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/MuyGPyS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

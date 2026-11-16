@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-22",
+        "metadataLastUpdated": "2022-03-17"
+    },
+    "description": "krowkee is a toolkit for scalably and efficiently summarizing many data streams in distributed memory. krowkee is intended for applications where one needs to summarize huge loosely structured data, such as matrices or graphs, where individual components such rows/columns or vertex adjacency information are impractical to store and directly inspect. krowkee ingests these objects as data streams - unstructured, arbitrarily ordered lists of updates - and accumulates summaries thereof in the form of data sketches.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "krowkee",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/krowkee",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

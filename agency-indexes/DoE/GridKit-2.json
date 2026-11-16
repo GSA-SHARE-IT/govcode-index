@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "peless@ornl.gov"
+    },
+    "date": {
+        "created": "2025-03-10",
+        "metadataLastUpdated": "2025-03-10"
+    },
+    "description": "Modeling framework for power systems simulations and analysis.",
+    "laborHours": 10320.8,
+    "languages": [
+        "C++"
+    ],
+    "name": "GridKit",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/GridKit",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

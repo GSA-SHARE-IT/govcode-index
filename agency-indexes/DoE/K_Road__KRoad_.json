@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "charles.tripp@nrel.gov"
+    },
+    "date": {
+        "created": "2021-04-20",
+        "metadataLastUpdated": "2021-04-26"
+    },
+    "description": "KRoad is a 2-dimensional, lightweight, vehicle driver simulator that uses 3-dimensional vehicle driving model considerations, i.e. state-of-the-art friction models, and enables the driver to make control decisions with less computation time and programmer effort required than is with full-fidelity 3d simulators. KRoad is fully compatible with OpenAI gym, and contains a factored gym framework for composing gyms from various components (process, reward function, observation function, termination conditions, etc.). KRoad is additionally compatible with the RLlib distributed reinforcement learning environment, running under the Ray distributed python framework.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "K_Road (KRoad)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/K_Road",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

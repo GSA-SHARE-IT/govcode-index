@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "krhodges@illinois.edu"
+    },
+    "date": {
+        "created": "2024-11-11",
+        "metadataLastUpdated": "2024-11-11"
+    },
+    "description": "Hybridization brings together chromosome sets from two or more distinct progenitor species. Genome duplication associated with hybridization, or allopolyploidy, allows these chromosome sets to persist as distinct subgenomes during subsequent meioses. Here, we present a general method for identifying the subgenomes of a polyploid based on shared ancestry as revealed by the genomic distribution of repetitive elements that were active in the progenitors. This subgenome-enriched transposable element signal is intrinsic to the polyploid, allowing broader applicability than other approaches that depend on the availability of sequenced diploid relatives. We develop the statistical basis of the method, demonstrate its applicability in the well-studied cases of tobacco, cotton, and Brassica napus, and apply it to several cases: allotetraploid cyprinids, allohexaploid false flax, and allooctoploid strawberry. These analyses provide insight into the origins of these polyploids, revise the subgenome identities of strawberry, and provide perspective on subgenome dominance in higher polyploids.",
+    "laborHours": 91.2,
+    "languages": [],
+    "name": "amsession/Kmer-based-Subgenome-Mapping",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/amsession/Kmer-based-Subgenome-Mapping",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

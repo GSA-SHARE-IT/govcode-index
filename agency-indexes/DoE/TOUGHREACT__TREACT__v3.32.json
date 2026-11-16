@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-01-30",
+        "metadataLastUpdated": "2019-02-01"
+    },
+    "description": "TOUGHREACT V3.32 is a 3-D reactive transport code that handles to non-isothermal, multiphase/multicomponent fluid flow, heat transport, aqueous and gaseous species advection-diffusion, and equilibrium/kinetic water-gas-rock-biological reactions. TOUGHREACT V3.32 is based on TOUGHREACT V3.0-OMP, with several new features including temperature and species-dependent aqueous species diffusion coefficients, addition of the EWASG EOS module, a new generalized Monod kinetics function, time-dependent pressure-temperature boundary conditions, new VisIt-compatible tecplot-format output files (with new flux and velocity vector component outputs), new input and output options, and improved global water mass balance and coupling between flow, transport and reactive chemistry.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "TOUGHREACT (TREACT) v3.32",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-07-12",
+        "metadataLastUpdated": "2024-07-12"
+    },
+    "description": "PLEIADES: Python Libraries Extensions for Isotopic Analysis via Detailed Extraction of SAMMY. \n\nThis is a Python package that configures and executes the code SAMMY, which is an open sourced R-Matrix fitting code from ORNL. Additionally, PLEIADES includes python packages to analyze SAMMY results and process them into isotopic images.",
+    "laborHours": 1504.8,
+    "languages": [],
+    "name": "LANL contributions to PLEIADES",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/PLEIADES",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Ipmi-dcmi supports motherboards compliant to the Data Center Management Interface (DCMI) specification, DCMI features include asset management and power limit management.",
+    "homepageURL": "https://www.gnu.org/software/freeipmi/index.html",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ipmi-dcmi",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.gnu.org/software/freeipmi/index.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

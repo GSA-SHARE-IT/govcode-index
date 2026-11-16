@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-28"
+    },
+    "description": "The Biogeochemical Transport and Reaction Model (BeTR) is a F90 code that enables reactive transport modeling in land modules of earth system models (e.g. CESM, ACME). The code adopts the Objective-Oriented-Design, and allows users to plug in their own biogeochemical (BGC) formulations/codes, and compare them to other existing BGC codes in those ESMs. The code takes information of soil physics variables, such as variables, such as temperature, moisture, soil density profile; water flow, etc., from a land model to track the movement of different chemicals in presence of biogeochemical reactions.",
+    "laborHours": 0.0,
+    "languages": [
+        "N/A"
+    ],
+    "name": "Biogeochemical Transport and Reaction Model (BeTR) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/BeTR-biogeochemistry-modeling/sbetr/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BeTR-biogeochemistry-modeling/sbetr",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-12-13",
+        "metadataLastUpdated": "2019-09-23"
+    },
+    "description": "ButterflyPACK is a mathematical software for rapidly solving large-scale dense linear systems that exhibit off-diagonal rank-deficiency properties. These targeted systems are either matrices arising from discretized boundary integral equations, or frontal matrices in multi-frontal solvers for differential equations. ButterflyPACK relies on low-rank and butterfly formats under Hierarchical matrix, HODLR or HSS frameworks to compress, factor/precondition and solve the linear system in quasi-linear time. ButterflyPACK is particularly useful for large-scale ill-conditioned matrices arising from high-frequency wave equations involving multiple right-hand-sides. \n\nButterflyPACK is based on Fortran 2003, it also has interface written in C++. In addition, ButterflyPACK can be readily invoked from the software STRUMPACK. \n\nButterflyPACK supports hybrid MPI/OpenMP programming models.",
+    "laborHours": 25931.2,
+    "languages": [],
+    "name": "ButterflyPACK",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/liuyangzhuan/ButterflyPACK",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

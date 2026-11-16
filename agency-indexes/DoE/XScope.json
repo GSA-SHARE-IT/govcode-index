@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-06-27",
+        "metadataLastUpdated": "2022-06-27"
+    },
+    "description": "XScope finds inputs that trigger floating-point exceptions, such as NaN (not a number) and infinity, in CUDA functions using Bayesian optimization (BO). XScope assumes that the CUDA functions are a black box, i.e., the source code is not available. It searches the input space using several methods to guide BO into extreme cases. When an input is found to trigger an exception in the target CUDA function, the input is shown to the user.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "XScope",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/Xscope",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

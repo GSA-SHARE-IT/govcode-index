@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-08-18",
+        "metadataLastUpdated": "2021-08-18"
+    },
+    "description": "Real-time steering of time-resolved or in-situ X-ray tomography requires capturing changes in morphological descriptors in a sample (e.g., porosity, particle size, and crack width) during continuous data acquisition. Image segmentation (2D or3D) followed by quantitative measurement is the conventional method for tracking changes in these descriptors with respect to a previous time-step or a 3D search in a volume. However, image segmentation is expensive. As a faster and unsupervised alternative, a feature-extraction approach using a convolutional autoencoders was developed, where the latent space of the encoder responds to relative changes in morphology with-out prior knowledge of the morphological descriptors.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "TomoEncoders: 3D Autoencoders for feature extraction in X-ray tomography",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/aniketkt/TomoEncoders",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

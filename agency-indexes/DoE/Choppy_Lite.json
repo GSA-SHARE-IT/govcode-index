@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-11-30",
+        "metadataLastUpdated": "2020-11-30"
+    },
+    "description": "The existing methodologies for gathering and computing zonal statistics from the combination of a raster image and a shapefile either require advanced programming knowledge in at least one language or the use of proprietary software such as ArcGIS. The software “Choppy Lite” offers several solutions for acquiring zonal statistics that can be used without proprietary software or programming knowledge. This software provides a Docker-based ecosystem, allowing users of any experience level to simply run a single line command in a terminal prompt independent of the operating system. Intermediate to advanced users can import the class provided by the software package into their own Python scripts.",
+    "laborHours": 425.6,
+    "languages": [
+        "Python 3.8"
+    ],
+    "name": "Choppy Lite",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/nset-ornl/choppy",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

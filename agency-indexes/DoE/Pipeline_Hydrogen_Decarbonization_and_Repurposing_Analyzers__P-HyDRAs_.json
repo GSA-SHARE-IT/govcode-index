@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-05-17",
+        "metadataLastUpdated": "2024-05-17"
+    },
+    "description": "The Pipeline Hydrogen Decarbonization and Repurposing Analyzers (P-HyDRAs) are a set of prototype computational tools for simulating and optimizing midstream natural gas pipeline system operations subject to location and time-dependent hydrogen blending. The models can accurately resolve dynamic gas flows through large-scale pipeline networks using non-ideal gas equations of state. The codes can be used as decision support for planning and design decisions involving intra-day energy flow schedules as well as spatiotemporal economic values of natural gas, hydrogen, and net energy delivered to consumers while ensuring that pipeline hydraulic limitations, gas compressor station constraints, operational factors, and pre-existing shipping contracts are satisfied. The inputs to the codes are a model of the pipeline system as well as time-series data that specify boundary conditions on the network.  For optimization, the code module requires price and quantity offers for natural gas and hydrogen and price and quantity bids for energy, which are used as time-dependent constraints in an optimal control problem. The outputs are time-series data that provide a predictive simulation of gas flows, mass fractions, and pressures, or with additional degrees of freedom give an approximately optimal solution for gas injections/withdrawals, compressor settings, and sensitivities to the objective function that provide locational values of energy.",
+    "laborHours": 5198.4,
+    "languages": [],
+    "name": "Pipeline Hydrogen Decarbonization and Repurposing Analyzers (P-HyDRAs)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl-ansi/phydras",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

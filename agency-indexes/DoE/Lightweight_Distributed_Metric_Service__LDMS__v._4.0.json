@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2019-01-14"
+    },
+    "description": "LDMS is a framework for collection and transport of system monitoring data from computational clusters. It utilizes existing data sources on the cluster (e.g., temperature sensors, network traffic counters). The collection and transport mechanisms of LDMS are lightweight and do not significantly adversely impact the performance of concurrently running applications.",
+    "laborHours": 98252.8,
+    "languages": [
+        "Perl",
+        "C",
+        "Python"
+    ],
+    "name": "Lightweight Distributed Metric Service (LDMS) v. 4.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ovis-hpc/ovis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 4.0"
+}

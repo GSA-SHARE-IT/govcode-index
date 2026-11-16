@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-08-08",
+        "metadataLastUpdated": "2023-04-24"
+    },
+    "description": "Researchers at NREL have developed a novel real-time control architecture to optimize the operation of DERs at residential, commercial, and industrial levels. The real-time system enables (portions of) feeders to emulate virtual power plants providing services to the rest of the grid, while ensuring satisfaction of electrical limits and maximizing customers’ benefits. This system can be integrated with legacy hardware and/or new advanced systems to optimally manage both individually-controlled DERs and aggregations of DERs. By virtue of the proposed engineering approach, the DERs collectively regulate the powers at an electrical point to respond to grid dispatch signals such as an automatic generation control, a ramping signal, or a 5-minute dispatch. Overall, this architecture allows end customers to minimize their payments and partake in grid operations while guaranteeing power quality in the distribution network.",
+    "homepageURL": "https://www.labpartnering.org/p/lab-technologies/ce8d218e-4826-497d-aa9b-af23282648ec",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "Real-Time Optimization of Distribution-level Energy Resources [SWR-18-27]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.federallabs.org/technology/real-time-optimization-of-distribution-level-energy-resources",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.labpartnering.org/p/lab-technologies/ce8d218e-4826-497d-aa9b-af23282648ec",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ]
+}

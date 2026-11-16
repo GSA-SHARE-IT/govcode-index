@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-07-18",
+        "metadataLastUpdated": "2018-07-19"
+    },
+    "description": "smwflow imports and exports Cray system management configurations to and from git repositories. smwflow implements both the mechanism for this and, in combination with git, implements a systems engineering workflow that can be used to manage multiple systems, enable rational implementation of features, and add traceability to systems management activities.",
+    "laborHours": 836.0,
+    "languages": [
+        "SMW 8.0 / CLE 6.0"
+    ],
+    "name": "smwflow.v2018.05.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NERSC/smwflow",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

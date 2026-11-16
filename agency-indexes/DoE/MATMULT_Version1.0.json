@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "MATMULT is a benchmark computes the dense matrix multiply, C=A*B using the DotProd and column methods with various levels of inner loop unrolling. The performance is measured and result correctness is checked.",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran (48%), C(52%)"
+    ],
+    "name": "MATMULT Version1.0",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.osti.gov/osti-public/matmult-version1.0",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

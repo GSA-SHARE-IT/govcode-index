@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "pgarvey@bnl.gov"
+    },
+    "date": {
+        "created": "2019-07-02",
+        "metadataLastUpdated": "2019-07-02"
+    },
+    "description": "Integration of elasticsearch with databroker - databroker-elasticsearch provides export bridge of databroker records to Elasticsearch (ES). The package provides configurable mapping of databroker documents to ES records, filtering of permitted entries, facility to export all prior databroker records and a bluesky callback mechanism to export new measurements in real time.",
+    "laborHours": 957.6,
+    "languages": [],
+    "name": "databroker-elasticsearch",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NSLS-II/databroker-elasticsearch/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NSLS-II/databroker-elasticsearch",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

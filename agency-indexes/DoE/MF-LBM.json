@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-02",
+        "metadataLastUpdated": "2021-07-02"
+    },
+    "description": "MF-LBM is a high-performance lattice Boltzmann code for direct numerical simulation of three-dimensional multiphase flow in porous media. The main features of the code include: 1) implemented with advanced multiphase and wetting models that enable simulation of supercritical CO2 (scCO2) and brine displacement in real rock geometries; 2) extensively optimized for modern SIMD/SIMT processors/co-processors, such as GPU; 3) based on MPI-OpenACC/OpenMP hybrid programing model that enables high portability; 4) overlapped communication and computation that enables high scalability; 5) designed for flow simulations on digital rock images or complex microfluidic devices.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MF-LBM",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/MF-LBM",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

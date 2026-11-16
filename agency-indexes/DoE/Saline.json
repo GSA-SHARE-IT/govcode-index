@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "hendersonsc@ornl.gov"
+    },
+    "date": {
+        "created": "2022-03-14",
+        "metadataLastUpdated": "2022-03-21"
+    },
+    "description": "Saline is an Application Programming Interface (API) which provides a useful quality assured interface to data from thermo-physical property data models.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Saline",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/neams/saline",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

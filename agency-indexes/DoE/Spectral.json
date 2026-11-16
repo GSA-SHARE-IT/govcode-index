@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "zimmercj@ornl.gov"
+    },
+    "date": {
+        "created": "2022-03-02",
+        "metadataLastUpdated": "2022-03-02"
+    },
+    "description": "Spectral is a portable and transparent middleware library to enable use of the node-local burst buffers for accelerated application output on Summit and Frontier. It is used to enable large scientific applications to leverage the performance benefit of the in-node NVMe storage for periodic checkpoints without having to modify the application code. Spectral acheives this by intercepting write only file creates, redirecting the output, and then transfering the file to the original destination when the file is closed. Spectrals migration agent runs on the isolated core of each reserved node, so it does not occupy resources and based on some parameters the user could define which folder to be copied to the GPFS.",
+    "laborHours": 0.0,
+    "languages": [
+        "C"
+    ],
+    "name": "Spectral",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://code.ornl.gov/cz7/spectral-io/-/blob/main/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/cz7/spectral-io",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

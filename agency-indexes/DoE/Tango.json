@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-30",
+        "metadataLastUpdated": "2020-09-01"
+    },
+    "description": "Tango is a transport solver intended for coupling with codes that return turbulent fluxes. In many physics problems, including magnetically confined fusion plasmas such as a tokamak, a separation of timescales exists between the timescale of turbulence and the timescale for evolution of mean, macroscopic quantities such as density and temperature in response to turbulent fluxes. In the numerical simulation of such scenarios, it is desirable to efficiently exploit the separation of timescales. Furthermore, because in general the turbulent fluxes depend nonlinearly on the macroscopic quantities and their derivatives, certain numerical instabilities arise and special methods are required to handle them.\n",
+    "laborHours": 4438.4,
+    "languages": [],
+    "name": "Tango",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/tango",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

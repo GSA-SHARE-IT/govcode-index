@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-05-17",
+        "metadataLastUpdated": "2024-05-17"
+    },
+    "description": "RIDDL is a suite of software tools that enable AI/ML analysis of infrasound data.  Methods and capabilities include construction, evaluation, and application of models for infrasound signal analysis, construction of synthetic data useful for construction and evaluation, as well as various other advanced data science tools enabling infrasound signal detection and categorization as well as downstream analysis methods such as localization and characterization of detected sources.",
+    "laborHours": 760.0,
+    "languages": [],
+    "name": "Robust Infrasound Detection via Deep Learning (RIDDL)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LANL-Seismoacoustics/riddl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

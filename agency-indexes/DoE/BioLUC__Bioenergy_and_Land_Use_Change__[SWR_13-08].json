@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2023-08-17"
+    },
+    "description": "The National Renewable Energy Laboratory (NREL) has developed a new system dynamics global LUC model intended to examine LUC attributed to biofuel production. The BioLUC model represents major global, stocks, flows and produces results under different food and biofuel demand assumptions, with flexible regional divisions. This model is not intended to generate precise numerical estimates, but instead to provide insights into the drivers and dynamic interactions of LUC, population, dietary choices, and biofuel policy.",
+    "laborHours": 15.2,
+    "languages": [],
+    "name": "BioLUC (Bioenergy and Land Use Change) [SWR 13-08]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://creativecommons.org/licenses/by-sa/3.0/legalcode",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/bioluc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "v1.0.0"
+}

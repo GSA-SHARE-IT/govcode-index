@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-05-19",
+        "metadataLastUpdated": "2022-10-06"
+    },
+    "description": "The Machine Learning Pipeline (ML Pipeline) allows the user to fit a model to predict a dependent variable, y, based on a feature set, X. ML Pipeline gives the ability to automatically generate features with its Feature Engineering function, automatically select the most important features with its Feature Selection function, fit the model with its Fit function, and evaluate the model with its Evaluate function. ML Pipeline's functionality can not only help the user predict values for the desired variable it also gives the user a better understanding of which features are important and how effective the model is. ML Pipeline accomplishes all this, while remaining simple to use and interpret.",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "ML Pipeline (Machine Learning Pipeline) [SWR-22-35]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/Machine-Learning-Pipeline",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-11-23",
+        "metadataLastUpdated": "2021-11-23"
+    },
+    "description": "SoDa is an irradiance-based synthetic Solar Data generation tool to generate realistic sub-minute solar photovoltaic (PV) power time series, that emulate the weather pattern for a certain geographical location. Our tool relies on the National Solar Radiation Database (NSRDB) to obtain irradiance and weather data patterns for the site. Irradiance is mapped onto a PV model estimate of a solar plant's 30-min power output, based on the configuration of the panel. We use a stochastic model with a switching behavior due to different weather regimes as provided by the cloud type label in the NSRDB, with parameters for the cloudy states trained on the high-resolution solar power measurements from a Phasor Measurement Unit (PMU).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SoDa: An Irradiance-Based Synthetic Solar Data Generation Tool (SoDa) v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Ignacio-Losada/SoDa",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

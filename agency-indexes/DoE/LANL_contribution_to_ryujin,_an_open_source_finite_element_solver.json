@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-12-15",
+        "metadataLastUpdated": "2024-04-19"
+    },
+    "description": "Ryujin (https://github.com/conservation-laws/ryujin) is a high-performance finite-element software for solving mathematical partial differential equations (PDEs) with dominant hyperbolic structures. The author of this request, Eric Tovar, is using Ryujin as a high-performance tool for his Mark Kac postdoctoral fellowship research at LANL. Eric would like to contribute openly to the ryujin software without changing its core functionality. This includes: (i) bug fixes; (ii) re-organization of code for performance and syntactic updates including documentation; (iii) implementation of new PDE numerical methods that align with the core solver; (iv) implementation of new initial state configurations for target applications.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LANL contribution to ryujin, an open source finite element solver",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/EricTovar-LANL/ryujin-contribution.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

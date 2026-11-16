@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "fanchercm@ornl.gov"
+    },
+    "date": {
+        "created": "2022-01-06",
+        "metadataLastUpdated": "2022-01-06"
+    },
+    "description": "pyRS is a python software package that was designed to meet the data reduction and analysis needs of the neutron residual stress mapping user community at Oak Ridge National Laboratory (ORNL). pyRS incorporates separate modules that provide a streamlined workflow for reducing raw neutron events into 1D intensity vs. scattering angle and subsequent analysis to extract the interatomic spacing and intensity for residual stress and texture analysis. Users can access the modules through either a graphical or command-line interface. pyRS saves data into a single HDF5 file, in which the metadata, reduced diffraction data, and peak analysis results are passed between different modules.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Python Residual Stress Analysis (pyRS)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/neutrons/PyRS.git",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

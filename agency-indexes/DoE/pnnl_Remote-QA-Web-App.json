@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2023-05-03",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "set of data collection forms implemented as a web app to be used for quality assurance purposes by residential efficiency contractors during the installation process. There are data collection forms for several efficiency measures including heat pump, heat pump water heater, attic weatherization, and basement weatherization.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/Remote-QA-Web-App",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/Remote-QA-Web-App",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

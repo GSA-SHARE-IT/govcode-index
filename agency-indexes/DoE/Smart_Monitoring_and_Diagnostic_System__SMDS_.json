@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-02-26",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The SMDS detects RTU performance degradation and select operational faults and provides estimates of the accrued energy and cost impacts weekly after detection of a performance issue. It uses only two sensors per each RTU, outdoor-air temperature and total power demand, both collected at one-minute intervals. Software code based on the methodology and algorithms developed by PNNL in a collaborative develop effort with NorthWrite Inc. and Universal Devices implement the detection processes and estimation of energy and cost impacts. The methodology, algorithms and original prototype software were developed exclusively by PNNL. Two versions of the SMDS, the Hardware SMDS and the Cloud SMDS, have been prototyped and tested on buildings in the field and/or on data from buildings. Both versions use the same methodologies for detection of performance degradation and for detection of specific faults.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Smart Monitoring and Diagnostic System (SMDS)",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

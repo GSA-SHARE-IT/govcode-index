@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-16",
+        "metadataLastUpdated": "2024-11-06"
+    },
+    "description": "This software is a pipeline used to identify the distribution of user-specified sequences in oligo pools that have been sequenced on the MiSeq platform for quality control purposes. The software counts instances of user-specified sequences (inserts or spacers) identified in sequencing data, returning the distribution of sequences in each pool and the length distribution of all the sequences. Among other types similar types of projects, this can be used to assess the quality of a guideRNA library once it has been inserted into the vector of choice to ensure that there is an even distribution of all the individual protospacers in the pool.\n\nThis pipeline uses many freely available open source libraries, the value added is that in our application the steps of the pipeline are defined in Workflow Description Language (WDL) and run through the Cromwell workflow engine in Docker containers, for easy distribution and set up.",
+    "laborHours": 1960.8,
+    "languages": [],
+    "name": "SynBio QC-Library QC (LibQC) v2.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://code.jgi.doe.gov/jgi-synbio-public/synbioqc-libqc/-/blob/main/LICENSE?ref_type=heads",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.jgi.doe.gov/jgi-synbio-public/synbioqc-libqc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

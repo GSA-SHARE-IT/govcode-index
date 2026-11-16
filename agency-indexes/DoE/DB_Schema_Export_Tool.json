@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-20",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Exports Sql Server database objects as schema files. Exported objects include tables, views, stored procedures, and functions,plus also database properties including database roles and logins. The program can also export table data to create SQL files with an Insert Into statement for each row.",
+    "laborHours": 4620.8,
+    "languages": [],
+    "name": "DB Schema Export Tool",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/DB-Schema-Export-Tool",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

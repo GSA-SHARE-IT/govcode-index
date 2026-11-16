@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-08-31",
+        "metadataLastUpdated": "2023-04-24"
+    },
+    "description": "PolyID™ provides a framework for building, training, and predicting polymer properties using graph neural networks. The codes leverages Neural Fingerprint (nfp) (See DOE Code ID 22185) for building tensorflow-based message-passing neural networks, and Monomers to Polymers (m2p) (See DOE Code ID 44795) for building polymer structures. To understand and use the pipeline, the following examples have been provided: Building polymer structures: examples/example_generate_polymer_structures.ipynb Checking domain of validity: examples/example_determine_domain-of-validity.ipynb Training a graph neural network: examples/example_generate_and_train_models.ipynb Predicting with the trained model: examples/example_predict_with_trained_models.ipynb",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "PolyID™ (Polymer Inverse Design) [SWR-21-98]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/polyID",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

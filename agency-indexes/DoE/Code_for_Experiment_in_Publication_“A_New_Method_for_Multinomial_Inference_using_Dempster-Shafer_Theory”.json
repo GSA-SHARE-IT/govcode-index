@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-07-12",
+        "metadataLastUpdated": "2024-07-12"
+    },
+    "description": "This code compares the runtimes between the Dirichlet Dempster-Shafer Model (DSM) against the competition method, the Simplex DSM.  Besides the code used to implement the Dirichlet DSM, all code to be released implements existing methods that are not novel algorithms nor any major innovations to existing software.",
+    "laborHours": 547.2,
+    "languages": [],
+    "name": "Code for Experiment in Publication “A New Method for Multinomial Inference using Dempster-Shafer Theory”",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/dempster-shafer-multinomial",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

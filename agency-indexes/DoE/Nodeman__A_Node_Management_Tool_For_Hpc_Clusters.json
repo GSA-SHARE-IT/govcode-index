@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2025-02-20",
+        "metadataLastUpdated": "2025-02-20"
+    },
+    "description": "NodeMan is a command line tool to manage nodes in an HPC cluster.  At it's core, it is an extensible framework composed of bash scripting and GNU parallel.  HPC System Administrator will find it useful in that it encapsulates desired functions and allows them to be assembled in a way familiar to administrators - through pipes. In fact, NodeMan functions can work with common command line tools as long as they use stdin/stdout.  System Administrators can construct moderately complex logic and filtering on a compact command line that would normally require a substantial shell script.  In the spirit of clush and pdsh, it is able to run commands remotely on nodes.  Additionally, NodeMan is more flexible.  For example, it can interact with IPMI and naturally processes node lists for orchestrating different tools.  The library of useful pre-built functions is growing.  System administrators can easily create new functions and make it their own.",
+    "laborHours": 440.8,
+    "languages": [],
+    "name": "Nodeman: A Node Management Tool For Hpc Clusters",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/nodeman",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

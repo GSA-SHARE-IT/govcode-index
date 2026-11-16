@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-03-11",
+        "metadataLastUpdated": "2022-03-11"
+    },
+    "description": "We developed software which finds HGain schedules that can be used to encode initial solutions into a quantum annealer in a similar manner to the reveres annealing feature on the D-Wave 2000Q. With the newer generations of the D-Wave annealer, more advanced features are available which allow the user to have greater control of the anneal process. We study how such features can help in improving the quality of the solutions returned by the annealer. Specifically, we focus on two of these features: reverse annealing and h-gain. Reverse annealing (RA) was designed to allow refining a known solution by backward annealing from a classical state representing the solution to a mid-anneal point where a transverse field is present, followed by an ordinary forward anneal, which is hoped to improve on the previous solution.The h-gain (HG) feature stands for time-dependent gain in Hamiltonian linear ($h$) biases and was originally developed to help study freezeout times and phase transitions in spin glasses. Here we apply HG to bias the quantum state in the beginning of the annealing process towards the known solution as in the RA case, but using a different apparatus. We also investigate a hybrid reverse annealing/h-gain schedule, which has a backward phase resembling an RA step and whose forward phase uses the HG idea. To optimize the parameters of the schedules, we employ a Bayesian optimization framework. We test all techniques on a variety of input problems including the weighted Maximum Cut problem and the weighted Maximum Clique problem. Our results show that each technique may dominate the others depending on the input instance, and that the HG technique is a viable alternative to RA for some problems.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Encoding Initial Solutions using the HGain feature on D-Wave Quantum Annealers",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-06-08",
+        "metadataLastUpdated": "2018-06-14"
+    },
+    "description": "TaskAMR is a Cartesian Block Adaptive Mesh Refinement (AMR) code, written using the Regent/Legion parallel programming system, that solves Finite Volume calculations. We provide implementations for linear advection and gas dynamics.",
+    "laborHours": 380.0,
+    "languages": [],
+    "name": "TaskAMR",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/TaskAMR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

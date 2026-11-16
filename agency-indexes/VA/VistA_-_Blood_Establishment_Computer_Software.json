@@ -1,0 +1,61 @@
+{
+    "id": 1525,
+    "name": "VistA - Blood Establishment Computer Software",
+    "organization": "OIT DSO",
+    "version": null,
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/foia-vbec-vista-blood-bank",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "VBECS",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Microsoft .NET Framework",
+        "Microsoft Structured Query Language (SQL) Server",
+        "SafeNet eToken Minidriver",
+        "Windows Server",
+        "VMware vSphere",
+        "ActivClient",
+        "Background Information (BgInfo)",
+        "CA Systems Performance for Infrastructure Managers (SPIM)",
+        "CA Workload Automation",
+        "EnCase Agent",
+        "Adobe RoboHelp",
+        "Node Package Manager (NPM)",
+        "WebLogic Server",
+        "Microsoft Internet Explorer (IE)",
+        "Microsoft System Center Configuration Manager (SCCM)",
+        "Microsoft System Center Operations Manager (SCOM)",
+        "NetBackup",
+        "McAfee Host Intrusion Prevention",
+        "McAfee VirusScan Enterprise",
+        "International Business Machine (IBM) BigFix"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-28",
+        "lastModified": "2021-01-26",
+        "metadataLastUpdated": "2021-01-26"
+    },
+    "description": "Repository containing the FOIA Releases for VistA - Blood Establishment Computer Software"
+}

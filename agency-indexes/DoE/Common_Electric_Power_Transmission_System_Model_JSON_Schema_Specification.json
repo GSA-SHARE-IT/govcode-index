@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-09-09",
+        "metadataLastUpdated": "2024-09-19"
+    },
+    "description": "The Common Electric Power Transmission System Model (CTM) is an intuitive, extensible, language-agnostic,\nand error-resistant specification of electric power network components parameter names and\nunits, and relation between components, intended for use by the research community developing new\ncomputational methods for power systems operations and simulation. Power system datasets following\nthe CTM specification can be read as dictionaries and manipulated in that form in most programming\nlanguages (e.g., Python, Julia, C++). This standard data structure in CTM makes it easy to work in\nmultiple power systems domains (e.g., economic operation, reliability assessment, electricity markets,\nstability assessment, etc.) without requiring conversions between use-case-specific file formats with\ninformation loss in the process. This repository specifies CTM as a JSON Schema, provides\ndocumentation, derivate (code-generated) implementations of CTM, and example data and usage of the\nschema for important use cases.",
+    "laborHours": 1081616.8,
+    "languages": [],
+    "name": "Common Electric Power Transmission System Model JSON Schema Specification",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ctm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "v0.1-alpha"
+}

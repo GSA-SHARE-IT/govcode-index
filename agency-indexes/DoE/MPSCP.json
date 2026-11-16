@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-27"
+    },
+    "description": "Non-encrypted, TCP-streams, host-to-host file copy utility intended to enable greater transfer rates, while having the basic user-interface concept of BSD rcp. The underlying design provides the opportunity to maximize performance by allocating supplemental IP sockets as dedicated and optimizable data-channels, in a mode similar to FTP. Additionally, a parallel I/O scheme, based on the HPSS paradigm, is also employed, offering potentials for multiple-sockets over a single network connection (which, in many circumstances, especially those in involving heterogeneous host platforms, or large latency situations, can capture more bandwidth), and also the distribution of the sockets across a manifold of parallel IP network connections.",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MPSCP",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

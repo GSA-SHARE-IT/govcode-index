@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-07-22",
+        "metadataLastUpdated": "2020-06-15"
+    },
+    "description": "HyRAM is a software toolkit for conducting quantitative risk assessment (QRA) and consequence modeling for hydrogen infrastructure and transportation systems. HyRAM contains validated, simplified hydrogen behavior models, a standardized QRA approach, and engineering models and generic data relevant to hydrogen installations. HyRAM 1.0 was developed by Sandia National Laboratories for the U. S. Department of Energy.\nSAND2019-5270 M",
+    "laborHours": 21508.0,
+    "languages": [],
+    "name": "HyRAM (Hydrogen Risk Assessment Models) v. 2.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/hyram",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 2.0"
+}

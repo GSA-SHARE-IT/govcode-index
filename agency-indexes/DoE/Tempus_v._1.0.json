@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2024-09-17"
+    },
+    "description": "Tempus is a software framework for the time integration of ordinary differential equations (ODEs), partial differential equations (PDEs), and differential-algebraic equations (DAEs).  Examples of time-integration methods available are Forward Euler, Backward Euler, Explicit Runge-Kutta and Implicit Runge-Kutta methods.  Tempus can be used from small systems of equations (e.g., single ODEs for the time evolution of plasticity models) to large-scale transient simulations requiring exascale computing (e.g., flow fields around reentry vehicles and magneto-hydrodynamics).  Tempus will be released as part of Trilinos under a BSD open source license.",
+    "laborHours": 8344830.4,
+    "languages": [],
+    "name": "Tempus v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

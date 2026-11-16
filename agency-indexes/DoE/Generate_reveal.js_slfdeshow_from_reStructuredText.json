@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-20",
+        "metadataLastUpdated": "2018-07-20"
+    },
+    "description": "Rst2slldes Is a python extension package for the standard docuti!s documentation generation system. Docutlls translates a simple text markup language called reStructuredText Into a variety of formals, Including HTML and PDF. The reveal.Js presentation framework is a popular syslem klr displaying a specially prepared HTML file as a slldeshow. Because reStructuredText is far simpler to compose end read than HTML, rst2slldes is a useful tool for creating and maintaining technical presentations, which can be delivered to the audience using any web browser. Most of the functionality of rst2slldes, Including lhe ability to display equations written In LaTeX and to embed Images, Is Inherited from docutlls. Besides slightly modifying Ule HTML output to work with reveal.js, the features added by rst2slldes are the ability to embed video, and to set reveal.js configuration options.",
+    "laborHours": 456.0,
+    "languages": [],
+    "name": "Generate reveal.js slfdeshow from reStructuredText",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/rst2slides",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

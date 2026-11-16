@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Provides a basic collection of utility plugins for use in the MVC Shell or MVC Framework environment. The MVC PluginLib is implemented in C# as a collection of.NET 2.0 frameworks that implement MVC Framework and MVC Shell compatible plugins. Three plugins are provided at this time, with more to be added over time: ApplicationInfoPlugin - provides basic information about the running application IronPythonPlugin - provides an IronPython based interactive shell environment ProgressBarPlugin - provides a basic progress bar implementation.",
+    "homepageURL": "https://archive.codeplex.com/?p=mvcpluginlib",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MVC Plugin Lib",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://archive.codeplex.com/?p=mvcpluginlib",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

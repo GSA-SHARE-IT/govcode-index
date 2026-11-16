@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-19",
+        "metadataLastUpdated": "2020-05-19"
+    },
+    "description": "CVLIB-D is a javascript framework to facilitate the creation of viewer applications for Spec-D Advanced Cinema Databases.\n\nBecause of the wide variety of data that Spec-D can represent, viewers for Spec-D databases often have to be custom-built for viewing a specific kind of data. This CVLIB-D is a not a viewer itself, but a library which handles the connection between Sources, Displays and Input/Output Structures as outlined in the databases JSON file to allow for the very easy creation of highly-customizable viewer applications.",
+    "laborHours": 988.0,
+    "languages": [],
+    "name": "CVLIB-D",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/cinemascience/cvlibd/blob/master/license.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cinemascience/cvlibd",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

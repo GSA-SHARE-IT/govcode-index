@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "This algorithm processes high-rate 3-phase signals to identify the start time of each signal and estimate its envelope as data features. The start time and magnitude of each signal during the steady state is also extracted. The features can be used to detect abnormal signals. This algorithm is developed to analyze Exxeno's 3-phase voltage and current data recorded from refrigeration systems to detect device failure or degradation.",
+    "homepageURL": "https://store.pnnl.gov/content/data-feature-extraction-high-rate-3-phase-data",
+    "laborHours": 0.0,
+    "languages": [
+        "Algorithm"
+    ],
+    "name": "Data Feature Extraction for High-Rate 3-Phase Data",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://store.pnnl.gov/content/data-feature-extraction-high-rate-3-phase-data",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

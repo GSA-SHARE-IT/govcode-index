@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-07-06",
+        "metadataLastUpdated": "2023-07-06"
+    },
+    "description": "\tQuantitative Universal Option Prioritizer (QUOP) is a three-layer analytical hierarchy process (AHP) based multi-criteria decision-making option evaluation and prioritization tool. Decision-making often entails evaluation of options. Such competing options can either be mutual substitutes or cumulative means to achieve an objective. The options themselves can be methods, tools, technologies, processes, etc. Stakeholders involved in achieving the objective may view each option characteristic differently, depending on their needs and preferences. The QUOP tool enables a streamlined quantitative collaborative process of weighing the opinion of each stakeholder in evaluating the options. The evaluation may also be performed under different scenarios, for instance, various option potential estimates, prices, or end-user demand projections. The QUOP tool can find application in both public and private sectors, as well as on an individual level. The major advantage of using the QUOP decision-making tool is in documenting the quantified stakeholder opinion, therefore the background to each decision made, while simultaneously maintaining high transparency and stakeholder involvement. The tool is particularly suitable for decisions involving a high number of options and option characteristics, that is, aspects of each option that matter to the stakeholders",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Quantitative Universal Option Prioritizer (QUOP) v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/QUOP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

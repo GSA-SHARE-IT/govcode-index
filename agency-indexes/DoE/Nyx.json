@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "asalmgren@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-14",
+        "metadataLastUpdated": "2021-04-14"
+    },
+    "description": "Nyx is a highly parallel, adaptive mesh, finite-volume N-body compressible hydrodynamics solver for cosmological simulations. Nyx code solves equations of compressible hydrodynamics on an adaptive grid hierarchy coupled with an N-body treatment of dark matter. The gas dynamics in Nyx uses a finite volume methodology on a set of 3-D Eulerian grids; dark matter is represented as discrete particles moving under the influence of gravity. Particles are evolved via a particle-mesh method, using Cloud-in-Cell deposition/interpolation scheme. Both baryonic and dark matter contribute to the gravitational field. In addition, Nyx includes physics needed to accurately model the intergalactic medium: in optically thin limit and assuming ionization equilibrium, the code calculates heating and cooling processes of the primordial-composition gas in an ionizing ultraviolet background radiation field. Additional physics capabilities are under development.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "C++"
+    ],
+    "name": "Nyx",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AMReX-Astro/Nyx",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,38 @@
+{
+    "name": "X_ITBM",
+    "description": "Configuration of the IT Business Management application suite in ServiceNow.",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/unlicense",
+                "name": "The Unlicense"
+            }
+        ]
+    },
+    "organization": "Department of Health and Human Services",
+    "homepageURL": "https://github.com/HHS/X_ITBM",
+    "downloadURL": "https://api.github.com/repos/HHS/X_ITBM/downloads",
+    "repositoryURL": "https://github.com/HHS/X_ITBM.git",
+    "vcs": "git",
+    "laborHours": 0.0,
+    "languages": [],
+    "date": {
+        "created": "2018-08-14",
+        "lastModified": "2021-07-26",
+        "metadataLastUpdated": "2022-03-22"
+    },
+    "tags": [
+        "Configuration",
+        "Business",
+        "Management",
+        "application",
+        "suite",
+        "ServiceNow"
+    ],
+    "contact": {
+        "email": "HHS_GitHub_Service_Desk@hhs.gov",
+        "name": "U.S. Department of Health & Human Services"
+    }
+}

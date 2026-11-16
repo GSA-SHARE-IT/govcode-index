@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-12-11",
+        "metadataLastUpdated": "2019-12-11"
+    },
+    "description": "ompparser is a standalone and unified OpenMP parser, which is motivated by the facts that:\n\n1) The differences in terms of syntax and semantics of OpenMP constructs between C/C++ and Fortran\nare minor.\n\n2) Current OpenMP compilers often develop their own parsers, which represent redundant work.\n\nThe features of ompparser include:\n\n1) ompparser can be used standalone for static source code analysis, e.g. tools for semantics checking or similarity analysis between C/C++ and Fortran programs\n\n2) omppaser can be integrated into an OpenMP compiler implementation can reduce the development efforts, and there is no need to create and maintain two separate parsers for C/C++ and Fortran.\n\n3) ompparser provides a complete reference OpenMP grammar in the Backus-Naur Form that formally describes all the latest OpenMP language constructs.\n\nThis will help users understand the rules and restriction of the OpenMP standard, which no longer contains a reference grammar in its recent versions.\n",
+    "laborHours": 3769.6,
+    "languages": [],
+    "name": "Ompparser",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/passlab/ompparser",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.9"
+}

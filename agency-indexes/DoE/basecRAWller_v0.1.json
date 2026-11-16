@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-10-31",
+        "metadataLastUpdated": "2019-10-31"
+    },
+    "description": "This software implements the first base caller for nanopore data that calls bases directly from raw data. The basecRAWller algorithm has two major advantages over current nanopore base calling software: (1) streaming base calling and (2) base calling from information rich raw signal. The ability to perform truly streaming base calling as signal is received from the sequencer can be very powerful as this is one of the major advantages of this technology as compared to other sequencing technologies. As such enabling as much streaming potential as possible will be incredibly important as this technology continues to become more widely applied in biosciences. All other base callers currently employ the Viterbi algorithm which requires the whole sequence to employ the complete base calling procedure and thus precludes a natural streaming base calling procedure. The other major advantage of the basecRAWller algorithm is the prediction of bases from raw signal which contains much richer information than the segmented chunks that current algorithms employ. This leads to the potential for much more accurate base calls which would make this technology much more valuable to all of the growing user base for this technology.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 1976.0,
+    "languages": [],
+    "name": "basecRAWller v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

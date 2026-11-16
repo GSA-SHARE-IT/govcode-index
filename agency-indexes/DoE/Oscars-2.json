@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "The ESnet On-Demand Secure Circuits and Advance Reservation System (OSCARS) is a prototype service enabling advance reservation of guaranteed bandwidth secure virtual circuits. OSCARS operates within the Energy Sciences Network (ESnet), and has provisions for interoperation with other network domains. OSCARS utilizes the Web services model and standards to implement communication with the system and between domains, and for authentication, authorization, and auditing (AAA). The management and operation of end-to-end virtual circuits within the network is done at the layer 3 network level. Multi-Protocol Label Switching (MPLS) and the Resource Reservation Protocol (RSVP) are used to create the virtual circuits or Label Switched Paths (LSP's). Quality of Service (QoS) is used to provide bandwidth guarantees.",
+    "homepageURL": "https://www.es.net/engineering-services/oscars",
+    "laborHours": 0.0,
+    "languages": [
+        "None"
+    ],
+    "name": "Oscars",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.es.net/engineering-services/oscars",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

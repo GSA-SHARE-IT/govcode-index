@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-10-23",
+        "metadataLastUpdated": "2019-10-29"
+    },
+    "description": "Software package for R and Python for analysis of extremes in climate data. Functions for fitting GEV and POT (via point process fitting) models for extremes in climate data, providing return values, return probabilities, and return periods for stationary and nonstationary models. Also provides differences in return values and differences in log return probabilities for contrasts of covariate values. Functions for estimating risk ratios for event attribution analyses, including uncertainty. Under the hood, many of the functions use functions from 'extRemes', including for fitting the statistical models.",
+    "laborHours": 8679.2,
+    "languages": [],
+    "name": "climextremes v0.2.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/lbl-cascade/climextremes-dev",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

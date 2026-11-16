@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "parkerpg@ornl.gov"
+    },
+    "date": {
+        "created": "2020-05-13",
+        "metadataLastUpdated": "2023-04-13"
+    },
+    "description": "ONCat is used to store information about neutron experiment data at SNS / HFIR. ONCat consists of an API with which various software clients can communicate to gain access to that information, as well as a web site (see landing page) which offers a way for experiment teams and instrument staff to easily view the metadata relating to experiments using just a web browser. The code is currently private and closed-source. Please contact oncat-support@ornl.gov for more information.",
+    "homepageURL": "https://oncat.ornl.gov",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "TypeScript"
+    ],
+    "name": "ONCat (ORNL Neutron Catalog)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://oncat.ornl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://oncat.ornl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

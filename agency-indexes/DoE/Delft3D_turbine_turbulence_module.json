@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "The DOE has funded Sandia National Labs (SNL) to develop an open-source modeling tool to guide the design and layout of marine hydrokinetic (MHK) arrays to maximize power production while minimizing environmental effects. This modeling framework simulates flows through and around a MHK arrays while quantifying environmental responses. As an augmented version of the Dutch company, Deltares’s, environmental hydrodynamics code, Delft3D, SNL-Delft3D includes a new module that simulates energy conversion (momentum withdrawal) by MHK devices with commensurate changes in the turbulent kinetic energy and its dissipation rate.",
+    "laborHours": 801480.8,
+    "languages": [
+        "C++",
+        "Shell",
+        "HTML",
+        "C",
+        "MATLAB",
+        "Fortran"
+    ],
+    "name": "Delft3D turbine turbulence module",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/SNL-Delft3D-CEC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

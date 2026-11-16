@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "GraphLib is a support library used by other tools to create, manipulate, store, and export graphs. It provides a simple interface to specifS' arbitrary directed and undirected graphs by adding nodes and edges. Each node and edge can be associated with a set of attributes describing size, color, and shape. Once created, graphs can be manipulated using a set of graph analysis algorithms, including merge, prune, and path coloring operations. GraphLib also has the ability to export graphs into various open formats such as DOT and GML.",
+    "laborHours": 2340.8,
+    "name": "Graph Library",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/graphlib",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

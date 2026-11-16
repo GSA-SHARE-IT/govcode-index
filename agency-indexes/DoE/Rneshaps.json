@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-08"
+    },
+    "description": "This software is used to combine output files US EPA CAp88-PC software (http://www.epa.gov/radiation/assessment/CAP88/aboutcap88.html) and estimate input parameters for CAP88-PC. Also includes features for tabular and graphical review of results.",
+    "homepageURL": "http://rneshaps.r-forge.r-project.org",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Rneshaps",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://rneshaps.r-forge.r-project.org",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

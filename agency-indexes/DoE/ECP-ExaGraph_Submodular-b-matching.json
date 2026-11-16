@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-11-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "A b-MATCHING is a subset of edges M such that at most b(v) edges in M are incident on each vertex v, where b(v) is specified. We present a distributed-memory parallel algorithm, b-SUITOR, that computes a b-MATCHING with more than half the maximum weight in a graph with weights on the edges",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ECP-ExaGraph/Submodular-b-matching",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ECP-ExaGraph/Submodular-b-matching",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

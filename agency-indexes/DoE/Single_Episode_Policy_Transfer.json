@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2020-02-12",
+        "metadataLastUpdated": "2020-02-12"
+    },
+    "description": "Reinforcement learning (RL) aims to learn optimal strategies for control problems with complex, stochastic dynamics. \n\nStandard RL formulations assume that transition dynamics are the same across episodes. \n\nHowever, this is not the case for many real-world environments, e.g. a disease process in which each patient is unique. \n\nTransfer learning in RL aims to solve this problem; however, existing methods allow for multiple trials on a test episode.\n\nWe consider the \"single episode transfer\" setting in which a policy is evaluated on one and only one test episode; thus, any adaptation must occur during that episode. \n\nSingle episode policy transfer (SEPT) is a framework for finding optimal control policies in this setting. \n\nIn SEPT, a \"probe policy\" initially probes the environment to gain information about how that episode is unique. \n\nThen, the information gained from the probe becomes an additional input to the \"universal policy\" that controls the remainder of the episode. \n\nSEPT is a general algorithm and can be used with any existing RL algorithm, including in batch learning mode.\n",
+    "laborHours": 4058.4,
+    "languages": [],
+    "name": "Single Episode Policy Transfer",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/011235813/sept",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

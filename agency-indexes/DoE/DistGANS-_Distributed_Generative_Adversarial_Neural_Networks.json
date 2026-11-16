@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "lupopasinim@ornl.gov"
+    },
+    "date": {
+        "created": "2022-01-06",
+        "metadataLastUpdated": "2022-01-06"
+    },
+    "description": "DistGANs is a Python package to perform distributed training of conditional generative adversarial neural networks for multi-class labeled image data.\nDistGANs partitionins the training data according to data labels, and enhances scalability by performing a parallel training where multiple generators are concurrently trained, each one of them focusing on a single data label.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "DistGANS- Distributed Generative Adversarial Neural Networks",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/DistGANs",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0"
+}

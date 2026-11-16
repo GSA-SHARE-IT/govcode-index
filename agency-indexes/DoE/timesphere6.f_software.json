@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-11-20",
+        "metadataLastUpdated": "2018-11-20"
+    },
+    "description": "Solves the electromagnetic forward problem for a plane wave or magnetic dipole fields impingent on a set of spherical shells in a whole space of uniform resistivity, relative permeability , and relative permitivity for electric fields and magnetic fields of internal origin at nrcv receivers and nf frequencies. For receivers outside the largest sphere these are standard secondary fields. Results are given in either time or frequency domain. Time domain results allow modelling turn-on or turn-off step function transmitter wave forms, or square pulse and half sine pulse wave funcitons with arbitrary pulse length and repetition rate. Pulses may be either uni-modal or bi-modal (alternating sign each half period).",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 4848.8,
+    "languages": [],
+    "name": "timesphere6.f software",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

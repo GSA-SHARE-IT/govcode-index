@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-18"
+    },
+    "description": "LBC encompasses the source code and data to reproduce and extend results for a manuscript that compares demand responsive control schemes for multi-zone buildings. It includes examples of model predictive control (MPC), value function approximation via CVXPYLAYERS, and differentiable predictive control (DPC). The goal of the study is to evaluate state-of-the-art controllers and establish the efficacy (if any) of learning-based approaches that leverage deep neural networks in one way or another.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "Jupyter"
+    ],
+    "name": "LBC (Learning Building Control)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/learning-building-control",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

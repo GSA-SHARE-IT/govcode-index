@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2025-02-27",
+        "metadataLastUpdated": "2025-02-27"
+    },
+    "description": "Simple Julia scrips for solving AC power flow, AC optimal power flow, and security-constrained AC\noptimal power flow.\nThese scripts are intended for experimentation with different (possibly, new) methods, formulations, and\nsettings for solving these power system problem. Their implementation, therefore, intentionally avoids\nexcessive encapsulation, which makes other packages difficult to modify by non-developers.",
+    "laborHours": 1307.2,
+    "languages": [],
+    "name": "Exascale Julia Grid Optimization",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/exajugo",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

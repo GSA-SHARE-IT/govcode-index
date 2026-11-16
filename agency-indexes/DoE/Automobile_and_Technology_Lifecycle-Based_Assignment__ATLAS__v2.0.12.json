@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-18",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "ATLAS is a comprehensive vehicle transaction and technology adoption microsimulator. ATLAS evolves the fleet mix of individual households by simulating the transaction (vehicle addition, disposal, and replacement) and choice (vehicle type, vintage, powertrain, and tenure) decisions in response to the co-evolving demographics, land use, and vehicle technology simulations. Different from the existing vehicle models that are either static or aggregated (e.g. stock model), ATLAS is fully disaggregated and dynamic following a sequential and circumstantial decision-making trajectory. This fine-grained approach not only enhances the realism of the simulation but also provides a nuanced understanding of the dynamics inherent in vehicle fleet evolution. ATLAS outputs are fully compatible with subsequent agent-based transportation modeling system and can enable distributional effect analysis regarding the fleet turnover among heterogeneous populations. ATLAS expands the typical new sale focused vehicle choice modeling to including used vehicle transactions that are of increasing interests to understanding the vehicle adoption behavior among lower income households.",
+    "laborHours": 2173.6,
+    "languages": [],
+    "name": "Automobile and Technology Lifecycle-Based Assignment (ATLAS) v2.0.12",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbnl-science-it/atlas-release",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

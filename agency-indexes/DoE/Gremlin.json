@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "colettima@ornl.gov"
+    },
+    "date": {
+        "created": "2022-03-31",
+        "metadataLastUpdated": "2022-03-31"
+    },
+    "description": "Gremlin is an evolutionary algorithm that discovers weaknesses in machine learning models.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Gremlin",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/markcoletti/gremlin",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "v0.3"
+}

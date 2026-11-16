@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2021-06-17"
+    },
+    "description": "This software is an open-source Python library that provides a collection of advanced algorithms to address computational imaging and inverse problems arising in the analysis of scientific data. The main goal is to deliver a unified mathematical formulation that applies state-of-the art methods developed within the computational imaging community to inversion problems. This includes computational algorithms that are able to reconstruct the quantities of interest given specific collections of experimental data and enable the inversion even for cases where there are not enough measurements to uniquely specify the solution (ill-posed problems). The core of the library consists of optimization algorithms with the flexibility to incorporate explicit analytical priors, explicit regularization constraints, as well as implicit regularization models which can be learned offline via machine learning methods. The library will interface with well-known Python packages providing support for forward models relevant to tomographic imaging and coherent diffraction imaging, as well as Python libraries for machine learning. Supporting visualization and analysis of results will also be provided. The software will include thorough documentation and extensive application examples.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Scientific Computational Imaging COde (SCICO)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

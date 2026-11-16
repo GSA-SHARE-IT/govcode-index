@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-07-30",
+        "metadataLastUpdated": "2021-07-30"
+    },
+    "description": "An R programmatic interface for querying, handling, and summarizing AmeriFlux (https://ameriflux.lbl.gov/) data and metadata. The target users are those 1) who use data from many AmeriFlux sites, and 2) who handle data from multiple sources, e.g., AmeriFlux, PhenoCam, MODIS. The tentative features include 1) listing the sites with basic site general info, 2) querying how much data & metadata are available, 3) subsetting a target site list for download, 4) parsing data & metadata, 5) cleaning & summarizing data, 6) data visualization and 7) listing target sites' contacts & DOI.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "amerifluxr v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/chuhousen/amerifluxr",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

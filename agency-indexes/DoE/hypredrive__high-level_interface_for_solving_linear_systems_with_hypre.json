@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-03-20",
+        "metadataLastUpdated": "2024-04-22"
+    },
+    "description": "This software introduces a high-level interface designed to simplify solving linear systems using hypre, a\nrenowned library for such computational challenges. It is crafted to be accessible and user-friendly,\nmaking the powerful capabilities of hypre available to a broader audience without requiring in-depth\ntechnical knowledge. The interface is characterized by its use of YAML for input, a format celebrated for\nits structured yet straightforward readability. This choice ensures that users can easily configure the\nsoftware to meet their specific needs. Additionally, the software boasts an intuitive API that encapsulates\nhypre's functionalities, making it easier for users to interact with the process of solving linear systems. It is\nparticularly beneficial for prototyping, offering a quick and efficient means to test various solver and\npreconditioner configurations. Furthermore, the software allows for the creation of an offline testing\nframework in which predefined linear systems are read from files and benchmarked with user-defined\nsolution strategies. This makes it an invaluable tool for developers and researchers exploring and\nvalidating their computational models. Overall, the software serves as a bridge, bringing the advanced\ncomputational capabilities of hypre closer to users who may need more specialized technical expertise,\nthereby facilitating innovation and exploration in the field of numerical linear algebra.",
+    "laborHours": 3845.6,
+    "languages": [],
+    "name": "hypredrive: high-level interface for solving linear systems with hypre",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hypre-space/hypredrive",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

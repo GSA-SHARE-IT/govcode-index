@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-02-05",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "BuildingSyncRails is a library for the Ruby on Rails [1] web application development framework that leverages the Isomorphic library for the Ruby programming language (IPID Submission #11610) in order to provide BuildingSync [2] XML capabilities to Ruby on Rails applications. BuildingSyncRails provides the following capabilities:\nCapability to download the most recent version of the BuildingSync XML schema document from GitHub and to automatically convert said document into Ruby code.\nToolkit for constructing and manipulating Ruby objects that represent BuildingSync XML elements.\nBuildingSyncRails builds upon the capabilities of the Isomorphic library for the Ruby programming language; specializing the generic capabilities of the Isomorphic library for BuildingSync specifically, e.g., by providing a library of BuildingSyncfriendly methods to simplify the construction of BuildingSync XML documents.",
+    "laborHours": 304.0,
+    "languages": [],
+    "name": "pnnl/building_sync_rails",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/building_sync_rails",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

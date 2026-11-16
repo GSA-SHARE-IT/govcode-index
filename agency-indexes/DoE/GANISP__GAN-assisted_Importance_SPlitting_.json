@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2021-11-16",
+        "metadataLastUpdated": "2021-11-16"
+    },
+    "description": "Genealogical importance splitting marches towards a rare event by iteratively selecting and replicating realizations that are headed towards a rare event. The replication step is made difficult when applied to deterministic systems as the initial conditions of the offspring realizations need to be adjusted. Typically, a random perturbation is applied to the offspring. For some cases, this cloning technique may not be adequate and prevent variance reduction in the probability estimate. A GAN-based replication process is proposed to address this limitation. The perturbations applied to the clones are physically consistent instead of being randomly chosen. The proposed method allows reducing the variance in the probability estimation.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "GANISP (GAN-assisted Importance SPlitting)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/GANISP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

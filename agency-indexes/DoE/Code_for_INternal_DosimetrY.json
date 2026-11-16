@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "The Code for Internal Dosimetry Software Package (CINDY1.4) was developed to assist in the interpretation of bioassay data, provide bioassay projections, and evaluate committed and calendar-year doses from intake or bioassay measurement data. CINDY1.4 addresses the U.S. Department of Energy's (DOE) Order 5480.11 and the U.S. Nuclear Regulatory Commission's (NRC) 10 CFR 20 by providing the capabilities to calculate organ dose equivalents and effective dose equivalents using the International Commission on radiological Protection (ICRP) 30 approach. Biokinetic models, which allow user-modified parameter values, are used to estimate intakes based on bioassay data using weighted and unweighted least-squares regression between measured and expected bioassay values, to estimate organ burdens as well as urinary and fecal excretion rates from a given intake, and to determine organ doses for annual, 50-year, calendar year, or any other time point. Intakes to be considered may be either acute or chronic, and may consist of many combinations of intake routes, radionuclides, and physical and chemical forms. A four-compartment input model (with user defined parameters) is used for wounds and absorption. Direct injection can be simulated as direct absorption. Appropriate metabolic models for each radionuclide are selected by the user from menus. Metabolic models available in CINDY1.4 are the ICRP 30 lung model, ICRP 30 gastrointestinal model, ICRP 30 general systematic model, Johnson and Dunford tritium model, ICRP 30 tritium model, including the Johnson HT lung model, Johnson alkaline earth model, ICRP 54 iodine model, tellurium-iodine model, Jones excretion model, Durbin excretion model, ICRP 54 excretion models, Wrenn-Lipsztein uranium model, Fisher Modified Wrenn-Lipsztein uranium model, and the ICRP 30 carbon model. For Windows 95 or Windows NT an alternate CD is required.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Code for INternal DosimetrY",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

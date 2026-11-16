@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-01-08",
+        "metadataLastUpdated": "2021-08-05"
+    },
+    "description": "This is an open-source, empirical data-driven, virtual building energy analysis and retrofit targeting tool. The open-source tool will provide a fully-automated, \"no-cost/no-touch\" approach to screen large volumes of buildings for operational improvement and equipment upgrade opportunities and quantify associated potential energy and cost savings.",
+    "laborHours": 1292.0,
+    "languages": [],
+    "name": "Building Efficiency Targeting Tool for Energy Retrofits (BETTER) Analytical Engine",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-JCI-ICF/BETTER",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

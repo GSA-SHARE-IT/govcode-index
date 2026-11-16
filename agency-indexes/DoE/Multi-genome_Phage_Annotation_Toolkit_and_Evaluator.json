@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-10",
+        "metadataLastUpdated": "2021-12-14"
+    },
+    "description": "Summary: To address the need for improved tools for annotation and comparative genomics of bacteriophage genomes, we developed multiPhATE2. As an extension of the multiPhATE code, multiPhATE2 includes comparative genomics codes for gene matching among sets of input bacteriophage genomes, and scales well to large input data sets due to incorporation of multiprocessing in the functional annotation and comparative genomics subsystems. Furthermore, additional search algorithms and databases have been added to the functional annotation subsystem. MultiPhATE2 was implemented in Python 3.7, and runs as a command-line code under Linux or MAC-OS.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Multi-genome Phage Annotation Toolkit and Evaluator",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/carolzhou/multiPhATE2",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "2.0"
+}

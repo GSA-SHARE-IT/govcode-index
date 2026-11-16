@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "ndbrook@sandia.gov"
+    },
+    "date": {
+        "created": "2018-05-02",
+        "metadataLastUpdated": "2018-05-02"
+    },
+    "description": "LAPART is an artificial neural network algorithm written in the Python programming language.  The algorithm can learn patterns using multi-dimensional hyper boxes.  It can also perfrom regression and classification calculations based on learned associations.",
+    "laborHours": 258.4,
+    "name": "sandialabs/lapart-python",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/unlicense",
+                "name": "Unlicense"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/lapart-python",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

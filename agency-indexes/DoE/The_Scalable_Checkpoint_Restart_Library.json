@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2020-05-27"
+    },
+    "description": "The Scalable Checkpoint/Restart (SCR) library provides an interface that codes may use to worite our and read in application-level checkpoints in a scalable fashion. In the current implementation, checkpoint files are cached in local storage (hard disk or RAM disk) on the compute nodes. This technique provides scalable aggregate bandwidth and uses storage resources that are fully dedicated to the job. This approach addresses the two common drawbacks of checkpointing a large-scale application to a shared parallel file system, namely, limited bandwidth and file system contention. In fact, on current platforms, SCR scales linearly with the number of compute nodes. It has been benchmarked as high as 720GB/s on 1094 nodes of Atlas, which is nearly two orders of magnitude faster thanthe parallel file system.",
+    "laborHours": 24198.4,
+    "languages": [],
+    "name": "The Scalable Checkpoint/Restart Library",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/LLNL/scr/blob/master/LICENSE.TXT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/scr",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

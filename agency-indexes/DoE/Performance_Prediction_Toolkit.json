@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-09-04",
+        "metadataLastUpdated": "2018-09-04"
+    },
+    "description": "The Performance Prediction Toolkit (PPT), is a scalable co-design tool that contains the hardware and middle-ware models, which accept proxy applications as input in runtime prediction. PPT relies on Simian, a parallel discrete event simulation engine in Python or Lua, that uses the process concept, where each computing unit (host, node, core) is a Simian entity. Processes perform their task through message exchanges to remain active, sleep, wake-up, begin and end. ",
+    "laborHours": 45478.4,
+    "languages": [],
+    "name": "Performance Prediction Toolkit",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/PPT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

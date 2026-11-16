@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2018-07-13"
+    },
+    "description": "KINSOL is part of a software family called SUNDIALS: SUite of Nonlinear and Differential/Algebraic equation Solvers [1]. KINSOL is a general-purpose nonlinear system solver based on Newton-Krylov and fixed-point solver technologies [2].",
+    "laborHours": 213088.8,
+    "languages": [],
+    "name": "General purpose nonlinear system solver based on Newton-Krylov method",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/LLNL/sundials/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/sundials",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

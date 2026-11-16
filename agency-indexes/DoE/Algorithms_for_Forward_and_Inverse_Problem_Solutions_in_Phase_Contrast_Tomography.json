@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-05-08",
+        "metadataLastUpdated": "2023-05-09"
+    },
+    "description": "PhaseTorch is a python package that implements algorithms for forward and inverse problem solutions in X-ray phase contrast tomography (XPCT). XPCT is useful to reconstruct the 3D distribution of the refractive index decrement and absorption index of an imaged object. PhaseTorch implements algorithms for simulation, reconstruction, and analysis of XPCT data. PhaseTorch provides algorithms for simulation of XPCT data of an object with known refractive and absorption indices. It contains algorithms for reconstructing the projections of the absorption index and refractive index decrement. ",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Algorithms for Forward and Inverse Problem Solutions in Phase Contrast Tomography",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/phasetorch/phasetorch",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

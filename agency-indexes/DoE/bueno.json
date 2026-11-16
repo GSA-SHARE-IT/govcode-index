@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-11-05",
+        "metadataLastUpdated": "2021-11-05"
+    },
+    "description": "System benchmarking provides a means to compare or assess the performance of hardware or software against a point of reference. Because of the multitude of factors that ultimately influence a benchmark’s results, reproducibility is challenging. To aid in this, we present a software framework named bueno that provides mechanisms to automate many arduous, error-prone benchmarking tasks: environmental setup; program compilation/execution; data storage and analysis.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "bueno",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/bueno",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,42 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2017-06-28",
+        "lastModified": "2026-10-30"
+    },
+    "description": "Scan domains and return data based on trustworthy email best practices",
+    "downloadURL": "https://api.github.com/repos/cisagov/trustymail/downloads",
+    "homepageURL": "https://github.com/cisagov/trustymail",
+    "laborHours": 1411.1,
+    "languages": [
+        "Python",
+        "Shell",
+        "Dockerfile"
+    ],
+    "name": "trustymail",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/trustymail.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "us-federal-government",
+        "dmarc",
+        "spf",
+        "email-security",
+        "starttls",
+        "cisa-directives"
+    ],
+    "vcs": "git"
+}

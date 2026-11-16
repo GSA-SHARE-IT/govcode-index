@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "OLCF's ATlas 1 & 2 filesystems use disk drive controllers from a company named Data Direct Networks. The vendor-provided monitoring software is sufficient for a small number of controllers, but is ill-suited for simultaneous monitoring of all the controllers used by OLCF. This tool provides a means of gathering performance data from multiple controllers, collating it and storing it in a database for querying by other tools.",
+    "laborHours": 577.6,
+    "name": "DDNTool",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ORNL-TechInt/DDNTool_v2/blob/master/License.pdf",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-TechInt/DDNTool_v2",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

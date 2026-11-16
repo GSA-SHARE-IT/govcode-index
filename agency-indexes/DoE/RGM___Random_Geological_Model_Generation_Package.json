@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-08-09",
+        "metadataLastUpdated": "2024-08-09"
+    },
+    "description": "This Fortran code is to accompany a manuscript to be submitted to Computers & Geosciences, a high-impact, peer-reviewed journal in computer methods for geosciences research. \n\nThis Fortran code focuses on generation of synthetic geological models using a multi-randomization strategy. Generating high-fidelity synthetic geological models, including realistic seismic reflector migration images, faults, salt bodies, and relative geological time images, is the key for many supervised machine learning methods that aim to delineate faults and other geological properties of interest from seismic migration images. Our package contains two major functionalities: generating 2D synthetic random geological models and generating 3D synthetic random geological models. In each step of the generation process, we set random values for key properties of a geological model to improve the fidelity of the resulting geological model. The package also includes example codes on how to use the random geological model generation subroutines. We name this package RGM – Random Geological Model generation package.",
+    "laborHours": 2280.0,
+    "languages": [],
+    "name": "RGM:  Random Geological Model Generation Package",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/rgm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

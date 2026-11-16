@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-05-28",
+        "metadataLastUpdated": "2024-05-28"
+    },
+    "description": "Machine Learning script to predict groundwater ages based on auxiliary features in a publicly available\ndataset, based on publicly available software libraries. Code applied to data from the Groundwater\nAmbient Monitoring and Assessment (GAMA) program in California, including well location and\nconstruction information, chemical constituents and isotopic tracers, and land use metrics.",
+    "laborHours": 577.6,
+    "languages": [],
+    "name": "Ground Water Age Predictor",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/GWAP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

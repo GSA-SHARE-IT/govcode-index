@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "vowelll@osti.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "THE NGDS IS A USER-FRIENDLY, WEB-BASED APPLICATION TO SUPPORT FINDING, VISUALIZING, MAPPING, AND ACQUISITION OF DATA BY END-USERS. THIS APPLICATION ALLOWS USERS TO DISCOVER AND ACCESS RESOURCES MADE AVAILABLE ACROSS ALL NGDS NODES, AND TO SEARCH FOR DATA ACROSS THE SYSTEM BASED ON TOPIC, LOCATION, AND OR OTHER CRITERIA. STANDARDIZED METADATA DESCRIBING EACH DATASET PROVIDES THE USER WITH THE INFORMATION NECESSARY TO DETERMINE THE UTILITY OF THAT DATASET FOR THEIR PURPOSES. GEOGRAPHIC DATASETS CAN BE VISUALIZED THROUGH A MAP INTERFACE THAT ALLOWS USERS TO INSPECT THE DETAILS OF INDIVIDUAL DATA POINTS (E.G. WELLS, TEMPERATURE MEASUREMENTS, ETC.) FROM PROPERLY FORMATTED DATASETS. IN ADDITION TO VISUALIZATION WITHIN THE APPLICATION, THE INTERFACE PROVIDES THE INFORMATION NECESSARY FOR USERS TO ACCESS THE DATA FROM OTHER APPLICATIONS.",
+    "laborHours": 8816.0,
+    "name": "National Geothermal Database",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ngds/documents",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

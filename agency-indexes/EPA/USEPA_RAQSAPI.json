@@ -1,0 +1,33 @@
+{
+    "name": "USEPA/RAQSAPI",
+    "organization": "usepa",
+    "description": "A R extension to retrieve EPA Air Quality System Data via the AQS Data Mart API",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/RAQSAPI/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/RAQSAPI",
+    "downloadURL": "https://github.com/USEPA/RAQSAPI/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/RAQSAPI/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/RAQSAPI.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2021-02-16T20:34:45Z",
+        "lastModified": "2026-10-21T20:45:48Z",
+        "metadataLastUpdated": "2026-11-16T06:39:58.543Z"
+    }
+}

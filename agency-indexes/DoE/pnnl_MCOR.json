@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-01",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Microgrid Component Optimization for Resiliency Tool (MCOR) The MCOR tool provides several viable microgrid configurations that can meet the resilience goals of a site and maximize economic benefits.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/MCOR",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/MCOR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

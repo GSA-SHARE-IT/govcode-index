@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2024-11-06",
+        "metadataLastUpdated": "2024-11-06"
+    },
+    "description": "CH4ESE is an EXI conversion tool developed in Python3 that utilizes the open-source EXIficient implementation of the W3C EXI format specification. CH4ESE can be used to translate to and from EXI format using the command line with input data or using the web server for live-translation.",
+    "laborHours": 1580.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "Conversion Helper 4 Easy Serialization Of Exi (ch4ese)",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/CH4ESE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

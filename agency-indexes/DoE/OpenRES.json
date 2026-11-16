@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-04-10",
+        "metadataLastUpdated": "2019-04-10"
+    },
+    "description": "The OpenRES is an open-source library of intermittent energy resources developed in the JModelica.org platform, and provides capability for performing long-term power grid dynamic simulation with renewable ancillary services (e.g., load ramp, frequency and voltage regulation).",
+    "laborHours": 45.6,
+    "languages": [],
+    "name": "OpenRES",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/OpenRES",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-03-22",
+        "metadataLastUpdated": "2024-03-22"
+    },
+    "description": "The Vistransformers Explained library is a collection of python notebooks that demonstrate the internal mechanics and uses of visual-transformer (ViT) machine learning models. The code implements, with mild modifications, ViT models that have been made publicly available through publication and GitHub code. The value added by this code is in-depth explanations of the mathematics behind the sub-modules of the ViT models, including original figures. Additionally, the library contains the code necessary to implement and train the ViT models. The library does not include example training data for the models; instead, it would rely on users generating their own datasets. The code is based on the PyTorch python library. It does not include any files other than python scripts, modules, or notebooks.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Vistransformers Explained",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/vision_transformers_explained",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

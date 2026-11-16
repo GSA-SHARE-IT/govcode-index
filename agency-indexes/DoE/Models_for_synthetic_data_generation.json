@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-02-15",
+        "metadataLastUpdated": "2022-02-15"
+    },
+    "description": "The software includes a suite of probabilistic statistical/machine learning models that can generate discrete synthetic data. Each model is trained on a set of real (private) data and then it can be used to generate synthetic but statistically similar data. Once ready, the model can generate as many samples as we want. Finally, in addition to the actual models, the software includes code to process data, evaluate results (based on cross validation), and produce reports.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Models for synthetic data generation",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/SYNDATA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

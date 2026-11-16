@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "SolidSpheral is an extension of the Spheral open source meshless hydrodynamics method. SolidSpheral adds the capability to model solid materials using analytic equations of state, and a simple damage model to allow for the modeled materials to undergo dynamic damage evolution. SolidSpheral is a distributed parallel code employing MPI for the parallel framework.",
+    "homepageURL": "https://sourceforge.net/projects/spheral",
+    "laborHours": 0.0,
+    "name": "SolidShperal",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sourceforge.net/projects/spheral",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

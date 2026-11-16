@@ -1,0 +1,49 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2025-04-16",
+        "lastModified": "2026-11-06"
+    },
+    "description": "A scalable file analysis and data generation platform that allows users to easily orchestrate arbitrary docker/vm/shell tools at scale.",
+    "downloadURL": "https://api.github.com/repos/cisagov/thorium/downloads",
+    "homepageURL": "https://github.com/cisagov/thorium",
+    "laborHours": 250066.7,
+    "languages": [
+        "Rust",
+        "TypeScript",
+        "Jinja",
+        "Shell",
+        "Python",
+        "SCSS",
+        "Dockerfile",
+        "C",
+        "YARA",
+        "JavaScript",
+        "HTML"
+    ],
+    "name": "thorium",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "NOASSERTION"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/thorium.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "docker",
+        "kubernetes",
+        "malware-analysis",
+        "rust",
+        "rust-lang",
+        "scalability"
+    ],
+    "vcs": "git"
+}

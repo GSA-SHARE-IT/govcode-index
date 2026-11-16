@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-24",
+        "metadataLastUpdated": "2024-06-24"
+    },
+    "description": "This is a parallel variable population multi-objective optimizer with an adaptive unified differential evolution algorithm or a genetic algorithm.\nIt can also be used for single objective optimization.\nSome features of this code include:\n1) The population size varies from generation to generation to save the total # of objective function evaluations.\n2) The population is uniformly distributed to a number of parallel processors for simultaneous objective function evaluation.\n3) The objective function evaluation can be attained from an external simulation program with control variables in its input file and objectives calculated from its output files.\n4) The optimizer includes an adaptive unified differential evolution algorithm and a real value genetic algorithm. The parameters in the unified differential evolution algorithm can be chosen to attain any mutation schemes in the published literature.",
+    "laborHours": 836.0,
+    "languages": [],
+    "name": "Parallel Variable Population Multi-Objective Optimizer (pvpmoo) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/qianglbl/PVPmoo",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

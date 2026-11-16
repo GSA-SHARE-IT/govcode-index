@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "lakeje@ornl.gov"
+    },
+    "date": {
+        "created": "2022-01-28",
+        "metadataLastUpdated": "2022-01-28"
+    },
+    "description": "We introduce a deep learning architecture, the hierarchical self-attention network (HiSAN), that is specifically designed to overcome many of the difficulties associated with cancer pathology reports. HiSAN utilizes a hierarchical architecture similar to the hierarchical attention network models, but replaces the computationally expensive recurrent neural network layers with self-attention. HiSANs are superior to other machine learning and deep learning text classifiers in both accuracy and macro F-score across classification tasks of interest. Compared to the previous state-of-the-art, hierarchical attention networks and in our research, HiSANs not only are an order of magnitude faster to train, but also achieve about 1% better relative accuracy and 5% better relative macro F-score.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "The Hierarchical Self-Attention Network",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ECP-CANDLE/Benchmarks",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

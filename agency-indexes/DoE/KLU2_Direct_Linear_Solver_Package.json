@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-09-17"
+    },
+    "description": "KLU2 is a direct sparse solver for solving unsymmetric linear systems. It is related to the existing KLU solver, (in Amesos package and also as a stand-alone package from University of Florida) but provides template support for scalar and ordinal types. It uses a left looking LU factorization method.",
+    "laborHours": 8344830.4,
+    "languages": [],
+    "name": "KLU2 Direct Linear Solver Package",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

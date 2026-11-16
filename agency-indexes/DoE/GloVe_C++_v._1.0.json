@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "This code implements the GloVe algorithm for learning word vectors from a text corpus. It uses a modern C++ approach. This algorithm is described in the open literature in the referenced paper by Pennington, Jeffrey, Richard Socher, and Christopher D. Manning.",
+    "laborHours": 486.4,
+    "languages": [
+        "C++",
+        "Makefile"
+    ],
+    "name": "GloVe C++ v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/GloveCpp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

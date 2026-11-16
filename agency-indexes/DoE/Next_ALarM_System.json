@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-07-07",
+        "metadataLastUpdated": "2022-07-07"
+    },
+    "description": "NALMS is an alarm system application designed for availability, integrability, and extensibility. The NALMS development was driven by SLAC's efforts to replace the Alarm Handler, due for deprecation as a Motif-based application, and to introduce process improvements addressing hierarchy implementation overhead, limited operator engagement, and operator display integration.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Next ALarM System",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/nalms/blob/main/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/nalms",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

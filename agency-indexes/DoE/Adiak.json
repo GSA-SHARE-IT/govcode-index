@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-10-25",
+        "metadataLastUpdated": "2019-10-25"
+    },
+    "description": "Adiak is a computer science data management interface tool for collecting metadata about an application's runs and disseminating it to tools that subscribe to this data. Examples of this metadata could be what user is running an application, what systems it runs on, or application provided name/value pairs. \n\nAdiak's capabilities include automated reading of system-level metadata, and a generic type system for applications to register their own name/value metadata. \n\nAdiak is currently designed to provide a standard interface that can be integrated with MPI-based applications that run on high performance computing systems.\n\nExample tools that use Adiak metadata include performance analysis tools and workflow tools. By allowing the application to specify metadata to Adiak, which then disseminates it to tools, application developers do not have to write to tool-specific interfaces.\n\n",
+    "laborHours": 1170.4,
+    "languages": [],
+    "name": "Adiak",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/adiak",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

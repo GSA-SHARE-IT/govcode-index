@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "sabaua@ornl.gov"
+    },
+    "date": {
+        "created": "2024-01-12",
+        "metadataLastUpdated": "2024-01-30"
+    },
+    "description": "Code for modeling solidification microstructure based on the Cellular Automata method for binary/pseudo-binary alloys.\n\nThis code is derived from the open-source software uMatIC developed at the Imperial College London https://www.imperial.ac.uk/engineering-alloys/research/software",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "cmake"
+    ],
+    "name": "muMatScale",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lang-yuan/muMatScale",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

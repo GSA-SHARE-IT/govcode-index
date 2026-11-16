@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-13",
+        "metadataLastUpdated": "2024-06-17"
+    },
+    "description": "PILATES allows for flexibly and at-scale coupling of multiple models to allow for multi-scale and multi-resolution simulation of regional-scale transport networks. In particular, it couples the MATSim-derived transportation modeling framework for Behavior, Energy, Autonomy and Mobility (BEAM) with other models operating at different time scales. Rather than tightly coupling supply and demand models using shared agents and memory within the same software process, PILATES orchestrates different model runs in a containerized framework. This structure requires passing information from the demand models to BEAM in the format of a synthetic population and agent plans, and from BEAM to the demand models in terms or origin/destination tables (also known as \"skims\"). This allows it to take advantage of the behavioral sophistication of existing activity-based models as well as the reinforcement learning structure of MATSim replanning and adopted by BEAM, in a way that requires minimal changes to existing models. It also takes advantage of the computational performance of BEAM, which allows for simulations with millions of agents to complete in reasonable time as well as allowing for detailed mechanistic simulation of the operation of on-demand modes.",
+    "laborHours": 4894.4,
+    "languages": [],
+    "name": "Platform for Integrated Land use And Transportation Experiments and Simulation (PILATES) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-UCB-STI/PILATES",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

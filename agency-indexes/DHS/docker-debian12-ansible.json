@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2021-08-20",
+        "lastModified": "2023-08-20"
+    },
+    "description": "A systemd-enabled Debian 12 (Bookworm) Docker image, in the spirit of geerlingguy/docker-debian11-ansible. ",
+    "downloadURL": "https://api.github.com/repos/cisagov/docker-debian12-ansible/downloads",
+    "homepageURL": "https://github.com/cisagov/docker-debian12-ansible",
+    "laborHours": 42.6,
+    "languages": [
+        "Dockerfile",
+        "Shell"
+    ],
+    "name": "docker-debian12-ansible",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/docker-debian12-ansible.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

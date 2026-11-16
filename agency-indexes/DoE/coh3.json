@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-11-15",
+        "metadataLastUpdated": "2024-11-15"
+    },
+    "description": "CoH3 (CoH ver.3) is an optical model, exciton pre-equilibrium, and Hauser-Feshbach statistical model code, which calculates nuclear reaction cross sections for medium to heavy targets in the keV to MeV energy region. This program is written in standard C++, divided into approximately 200 source and header files. CoH solves the Schroedinger equation for optical potentials defined in the code, and calculates differential elastic scattering, reaction, and total cross sections, for neutron, proton, deuteron, triton, 3He, and alpha-particle. Deformed optical potentials are solved with the coupled-channels method, in which the ground state rotational band members, or vibrational phonon states are coupled. The optical model gives particle transmission coefficients that are fed into the statistical model calculations. CoH includes the pre-equilibrium model (exciton model), the direct/semidirect capture model, and the multi-stage Hauser-Feshbach statistical decay with width fluctuation correction based on the Gaussian orthogonal ensemble. For weakly coupled levels, the DWBA (distorted wave Born approximation) method is used to calculate the direct inelastic scattering process to the excited states.",
+    "laborHours": 31251.2,
+    "languages": [],
+    "name": "coh3",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/toshihikokawano/coh3",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

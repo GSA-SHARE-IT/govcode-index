@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-10-07",
+        "metadataLastUpdated": "2021-10-07"
+    },
+    "description": "Becquerel is a Python package for analyzing nuclear spectroscopic measurements. The core functionalities are reading and writing different spectrum file types, fitting spectral features, rebinning spectrum counts to different bin edges, performing detector calibrations and interpreting measurement results. It also includes tools for visualizing radiation spectra and fits of different spectral features, as well as convenient access to tabulated nuclear data both from remote servers and local caches. It relies heavily on the standard scientific Python stack of numpy, scipy, matplotlib, pandas, and numba. It is intended to be general-purpose enough that it can be useful to anyone from an undergraduate taking a laboratory course to the advanced",
+    "laborHours": 4757.6,
+    "languages": [],
+    "name": "becquerel (bq) v0.4.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbl-anp/becquerel",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

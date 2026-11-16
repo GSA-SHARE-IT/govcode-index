@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-06-13",
+        "lastModified": "2023-07-26"
+    },
+    "description": "An Ansible role for provisioning kali",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-kali/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-kali",
+    "laborHours": 609.5,
+    "languages": [
+        "HCL",
+        "Shell",
+        "Python"
+    ],
+    "name": "ansible-role-kali",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-kali.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "ansible-role",
+        "kali"
+    ],
+    "vcs": "git"
+}

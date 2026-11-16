@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "The code \"STEMDL\" provides highly-optimized multi-gpu implementations of DL models of applicability in electron microscopy via the use of mixed-precision arithmetic, native graph construction and evaluation in Tensorflow, and adaptive scaling of learning parameters to avoid numerical instabilities due to reduced precision. STEMDL also uses low-level methods from the Horovod library for gradient communication and reduction and adds an additional optimization by allowing the user to scheduling the gradient reduction operations based on their position within the layers of a neural net. STEMDL provides optimized I/O routines for data staging and data reading/writing in both Tensorflow and Pytorch using multi-processing and asynchronous transfer between host and device.\r\n.",
+    "laborHours": 147014.4,
+    "languages": [
+        "Python 2.7/3.x"
+    ],
+    "name": "STEMDL",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/disMultiABM/stemdl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

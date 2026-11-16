@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-09-09",
+        "metadataLastUpdated": "2024-09-19"
+    },
+    "description": "This program will generate random points for electrons within the dimensions given by a parameter input\nfile. Based on these randomly generated electron positions and the nuclear positions given by a position\ninput file it will generate a value for the total electronic energy of an isolated system. This total electronic\nenergy is calculated using the electronic Hamiltonian for a monoatomic system with atoms having the\nsame number of protons and neutrons. The size of the system is defined by the parameter input file. The\nprogram will do this many times to generate a distribution of theoretically possible electronic total energies\nof the system. A user can then compare the total electronic energy given by their electronic structure\nmethod to make sure it falls within the distribution of theoretically possible values.",
+    "laborHours": 243.2,
+    "languages": [],
+    "name": "Uncertainty Quantification for Electronic Hamiltonian",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/linyang-121/UQEH-p",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

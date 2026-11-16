@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-19",
+        "metadataLastUpdated": "2020-05-19"
+    },
+    "description": "DARMA/detector => Minimal C++ detection idiom. detector is a small library that implements static/compile-time type introspection in C++. With this code, we can check if a type has methods, type aliases, or members that are exactly matching or convertible to a particular interface. Because this library requires C++-14, it is separated from the other DARMA/* libraries.",
+    "laborHours": 212.8,
+    "languages": [],
+    "name": "DARMA-tasking/detector",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/DARMA-tasking/detector/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/DARMA-tasking/detector",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

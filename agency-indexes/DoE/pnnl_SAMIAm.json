@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-11-20",
+        "metadataLastUpdated": "2024-11-20"
+    },
+    "description": "We apply semantic\nboosting to the Segment Anything Model (SAM) to obtain microstructure segmentation for transmission electron\nmicroscopy. Our booster, SAM-I-Am, extracts geometric and textural features of various intermediate masks to perform\nmask removal and mask merging operations",
+    "laborHours": 1155.2,
+    "languages": [],
+    "name": "pnnl/SAMIAm",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/SAMIAm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

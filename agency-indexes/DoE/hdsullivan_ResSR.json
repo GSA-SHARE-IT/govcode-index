@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "sullivanhe@ornl.gov"
+    },
+    "date": {
+        "created": "2025-02-21",
+        "metadataLastUpdated": "2025-02-21"
+    },
+    "description": "This is the official implementation of ResSR [1]. ResSR is a computationally efficient MSI-SR method that achieves high-quality reconstructions by using a closed-form spectral decomposition along with a spatial residual correction. ResSR applies singular value decomposition to identify correlations across spectral bands, uses pixel-wise computation to upsample the MSI, and then applies a residual correction process to correct the high-spatial frequency components of the upsampled bands. While ResSR is formulated as the solution to a spatially-coupled optimization problem, we use pixel-wise regularization and derive an approximate closed-form solution, resulting in a pixel-wise algorithm with a dramatic reduction in computation that achieves state-of-the-art reconstructions.\n\n[1] Duba-Sullivan, H., Reid, E. J., Voisin, S., Bouman, C. A., & Buzzard, G. T. (2024). ResSR: A Computationally Efficient Residual Approach to Super-Resolving Multispectral Images. arXiv preprint arXiv:2408.13225.",
+    "laborHours": 532.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "hdsullivan/ResSR",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hdsullivan/ResSR",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

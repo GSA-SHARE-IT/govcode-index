@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-06",
+        "metadataLastUpdated": "2024-08-06"
+    },
+    "description": "The Mbin software, is a software toolkit that implements the IMG metagenome binning pipeline. The software allows the user to process input metagenome contigs, and produces metagenome assembled genomes (metagenome bins) and valuation metrics per bin including completion and contamination estimates, quality assignment, predicted lineage and eukaryotic potential. It is currently packed as a portable docker container and provides the advantage of running the process of binning and analysis of the bins generated, using a suite of tools run sequentially with controls in place to capture errors and optional arguments to run a modified version depending on individual needs and capabilities.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Mbin v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.jgi.doe.gov/metagenome-science-program/mbin-docker",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

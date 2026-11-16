@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-04-08",
+        "metadataLastUpdated": "2019-04-08"
+    },
+    "description": "H2OI95 is a stand-alone Fortran code for evaluating the IAPWS-95 equation-of-state model (Wagner and Pruss, 2002) for the thermodynamic properties of water. It further evaluates the corresponding thermochemical properties of water consistent with the CODATA recommendations (Cox et al., 1989). The IAPWS-95 model is based on a model equation for the dimensionless Helmholtz energy for which the primary variables are the inverse reduced temperature and reduced density. Here is the absolute temperature (K), is density (kg/m3), and the subscript refers to the critical point of water (647.096 K and 22.064 MPa pressure in this model, for which is 322 kg/m3). The code solves four basic types of problems, distinguished by the specified inputs: \n1, Temperature (K) and density (kg/m3) or reduced density\n2. Temperature (K) and pressure (MPa). \n3. Temperature (K) on the saturation (liquid-vapor equilibrium) curve \n4. Pressure (MPa) on the saturation curve\nEach type of problem is run using a corresponding input (text) file. All but the first type of problem require iteration. For example, to solve for desired temperature and pressure, the reduced density must be adjusted to give the desired pressure. Iteration is accomplished using the Newton-Raphson method, though the secant method is also used in solving the fourth type of problem. H2OI95 has been used to conduct numerical studies of convergence and the problem of multiple numerical solutions, only some of which correspond to valid results. Obtaining valid results depends mainly on appropriate choice of starting values. The default values in H2OI95 appear to consistently lead to generally desired results. With modification (not addressed here), H2OI95 can be used to support SUPCRT92 (Johnson et al., 1992) and similar codes that compute chemical thermodynamic properties of species and reactions over a wide range of temperature and pressure (273.16-1273K and 0-1000 MPa).\n",
+    "laborHours": 15.2,
+    "languages": [],
+    "name": "H2OI95: A Stand-Alone Fortran Code for Evaluating the IAPWS-95 Equation-of-State Model for Water",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/H2OI95",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

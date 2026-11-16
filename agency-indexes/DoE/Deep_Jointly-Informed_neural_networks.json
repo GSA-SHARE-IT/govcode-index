@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-24",
+        "metadataLastUpdated": "2018-07-24"
+    },
+    "description": "OJINN Is an easy-to-use deep neural network model that requires fewer user-specified hyper-parameters than traditional neural networks. The algorithm leverages decision trees trained on the data to determine an appropriate deep neural network architectures and weight Initializations. Optional functions also select the learning rate, batch size. and number of training Iterations necessary to create an accurate model.",
+    "laborHours": 562.4,
+    "languages": [],
+    "name": "Deep Jointly-Informed neural networks",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/DJINN",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

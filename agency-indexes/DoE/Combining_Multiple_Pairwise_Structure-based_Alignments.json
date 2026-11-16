@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "CombAlign is a new Python code that generates a gapped, one-to-many, multiple structure-based sequence alignment(MSSA) given a set of pairwise structure-based alignments. In order to better define regions of similarity among related protein structures, it is useful to detect the residue-residue correspondences among a set of pairwise structure alignments. Few codes exist for constructing a one-to-many, multiple sequence alignment derived from a set of structure alignments, and we perceived a need for creating a new tool for combing pairwise structure alignments that would allow for insertion of gaps in the reference structure.",
+    "laborHours": 243.2,
+    "name": "Combining Multiple Pairwise Structure-based Alignments",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/carolzhou/Protein",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

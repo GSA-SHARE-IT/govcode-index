@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "PERM is a C library for persistent heap management and is intended for use with a dynamic-memory allocator (e.g. malloc, free). The PERM memory allocator replaces the standard C dynamic memory allocation functions with compatible versions that provide persistent memory to application programs. Memory allocated with the PERM allocatory will persist between program invocations after a call to a checkpoint function. This function essentially saves the state of the heap and registered global variables to a file which may reside in flash memory or other node local storage. A few other functions are also provided by the library to manage checkpoint files. Global variables in an application can be marked persistent and be included in a checkpoint by using a compiler attribute defined as PERM. The PERM checkpoint methof is not dependent on the programming model ans works with distributed memory or shared memory programs.",
+    "homepageURL": "https://computation.llnl.gov/projects/memory-centric-architectures/download/perm-je-0.9.7.tgz",
+    "laborHours": 0.0,
+    "name": "Persistent heap Management library",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://computation.llnl.gov/projects/memory-centric-architectures/download/perm-je-0.9.7.tgz",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

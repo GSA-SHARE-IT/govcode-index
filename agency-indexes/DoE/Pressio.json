@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-11-10",
+        "metadataLastUpdated": "2021-06-10"
+    },
+    "description": "Reduced-order Models (ROMs). ROMs are \"compressed\" approximations of high-fidelity computational models. Implementing ROM methods in production codes is typically intrusive, i.e. the native codes must be adapted and modified, with individual ROM methods reimplemented in every application code. This clearly constitutes an obstacle to users who want to use ROMs. To address this, we have developed Pressio, which is a C++ header-only ROM library that can be used by an application code in a non-intrusive fashion. The main objectives behind the design of Pressio are: (a) support for general computational models (data structures, PDE types); (b) heterogeneous hardware (CPU, GPU); (c) performance; and (d) extensibility. Using metaprogramming techniques, Pressio detects and leverages the application?s native linear algebra data structures (e.g. vector and matrix) to run the ROM methods. The application only needs to expose the velocity vector and Jacobian matrix via an adapter class. Pressio checks at compile time that the target application meets the correct API. The library is structured in several modular packages including (a) non-linear least-square solvers (e.g. Gauss-Newton with and without line-search); (b) singular value decomposition (for the computation of the ROM generalized coordinates) and (c) algebraic hyper-reduction.SAND2019-5878 M",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 49354.4,
+    "languages": [
+        "C++"
+    ],
+    "name": "Pressio",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

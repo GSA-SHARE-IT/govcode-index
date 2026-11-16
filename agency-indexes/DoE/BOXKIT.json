@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2023-08-18",
+        "metadataLastUpdated": "2023-08-24"
+    },
+    "description": "SF-23-067\nBoxKit is a library that provides building blocks to parallelize and scale data science, high performance computing, and\nmachine learning applications for block-structured datasets. Spatial data from simulations and experiments can be\naccessed and managed using tools available in this library when working with more data analysis oriented packages like\nSciKit (https://github.com/scikit-learn/scikit-learn) and FlowNet (https://github.com/NVIDIA/flownet2-pytorch)",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "BOXKIT",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/akashdhruv/BoxKit",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

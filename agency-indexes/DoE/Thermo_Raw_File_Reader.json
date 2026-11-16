@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The Thermo Raw File Reader is a .NET DLL wrapper for Thermo's MS File Reader, which is accessible by creating an account at https://thermo.flexnetoperations.com/control/thmo/login then logging in and choosing \"Utility Software\". The Thermo Raw File Reader DLL provides several methods for parsing the information returned by MSFileReader, including: Determining the parent ion m/z and fragmentation mode in a given scan filter, determining the Ionization mode from a given scan filter, extracting MRM masses listed in a given scan filter, reporting the number of spectra in the .Raw file, returning details on a specific spectrum, and Obtaining the raw m/z and intensity values for a given spectrum.",
+    "laborHours": 3116.0,
+    "languages": [],
+    "name": "Thermo Raw File Reader",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/Thermo-Raw-File-Reader",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

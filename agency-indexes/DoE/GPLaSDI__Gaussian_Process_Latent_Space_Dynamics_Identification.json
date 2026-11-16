@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-07-31",
+        "metadataLastUpdated": "2023-07-31"
+    },
+    "description": "GPLaSDI is a software that introduces GPLaSDI, a novel LaSDI-based framework that relies on Gaussian\nprocess (GP) for latent space ODE interpolations. Using GPs offers two significant advantages. First, it\nenables the quantification of uncertainty over the reduced order model (ROM) predictions. Second,\nleveraging this prediction uncertainty allows for efficient adaptive training through a greedy selection of\nadditional training data points. This approach does not require prior knowledge of the underlying PDEs.\nConsequently, GPLaSDI is inherently non-intrusive and can be applied to problems without a known PDE\nor its residual. We demonstrate the effectiveness of our approach on the Burgers equation, Vlasov\nequation for plasma physics, and a rising thermal bubble problem. Our proposed method achieves\nbetween 200 and 100,000 times speed-up, with up to 7% relative error.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GPLaSDI: Gaussian Process Latent Space Dynamics Identification",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/GPLaSDI",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

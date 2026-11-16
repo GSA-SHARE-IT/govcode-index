@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "passarellals@ornl.gov"
+    },
+    "date": {
+        "created": "2023-02-06",
+        "metadataLastUpdated": "2023-02-06"
+    },
+    "description": "This model uses an unsupervised sentence encoder proposed by Liu et al. (2021) to create better sentence representations for the SPECTER transformer model.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "mirror-SPECTER",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/unlicense",
+                "name": "Unlicense"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://huggingface.co/Linseypass/mirror-SPECTER",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

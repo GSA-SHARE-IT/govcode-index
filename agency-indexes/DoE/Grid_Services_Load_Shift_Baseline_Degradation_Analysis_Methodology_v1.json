@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-18",
+        "metadataLastUpdated": "2024-07-18"
+    },
+    "description": "As demand flexibility becomes more common, the mix and frequency of a range of demand flexibility strategies will introduce potential biases into baselines, i.e., the time period immediately prior to a LS event may include other LS or DF events. Baseline degradation assessment provides an approach to quantify how these biases begin to compromise predictive accuracy. Heatmaps, based on each month of the year provides a granular view of a given model's predictive capability. However, for comparing multiple algorithms, separately for weekdays and weekends, aggregating results to seasons provides a simpler means of comparison while still allowing for review of variations by time of day and time of year",
+    "laborHours": 1398.4,
+    "languages": [],
+    "name": "Grid Services Load Shift Baseline Degradation Analysis Methodology v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sgfernandes/Loadshift",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

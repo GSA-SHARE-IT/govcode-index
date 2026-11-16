@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-09-03",
+        "metadataLastUpdated": "2021-09-03"
+    },
+    "description": "Extrachromosomal genetic elements or plasmids are an important driver of DNA exchange and genetic innovation in prokaryotes. The success of plasmids has been attributed to their independent replication from host cell chromosomes and their frequent self-transfer. In recent years, the Department of Energy has recognized the importance of plasmid DNA to the viability and success of microbial communities and JGI has responded with funding to support the research and development of new methods and tools for the efficient sequencing of plasmid DNA. LBNL #2019-037 is responsive to this call.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "DelPlasmid: Finding Plasmids with Deep Learning and Machine Learning v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/wandreopoulos/deeplasmid.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

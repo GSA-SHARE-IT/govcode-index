@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-08-18",
+        "metadataLastUpdated": "2021-08-18"
+    },
+    "description": "A digital twin for synchrotron-based tomography for generating synthetic datasets from ground-truth phantoms. The code outputs greyscale projection images / tomographic volumes with realistic artifacts such as noise and phase-contrast and emulates their dependence on the acquisition parameters defining the beam and detector configuration. Some ground-truth phantoms are included with the code.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "TomoTwin: A simple digital twin for synchrotron tomography",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/aniketkt/TomoTwin",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

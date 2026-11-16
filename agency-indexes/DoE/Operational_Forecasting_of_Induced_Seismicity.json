@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-03-07",
+        "metadataLastUpdated": "2023-10-20"
+    },
+    "description": "Operational Forecasting of Induced Seismicity (ORION) is an open-source toolkit developed as part of the US Department of Energy SMART and NRAP programs. ORION is designed to help both expert and non-expert users understand the seismic hazard at a site. This tool analyzes how the seismic hazard evolves during injection of fluid, and can be used to identify potential mitigation strategies for observed or forecasted seismic activity. ORION is built using Python, and has an optional GUI where users can easily configure model parameters, evaluate temporal and spatial forecasts, and inspect key data (seismicity, fluid injection, pressure models, etc.).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Operational Forecasting of Induced Seismicity",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/NRAP/orion",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "version": "0.5"
+}

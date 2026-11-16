@@ -1,0 +1,29 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The software comprises two algorithms designed to perform a 2D layout of a graph structure in time linear with respect to the vertices and edges in the graph, whereas most other layout algorithms have a running time that is quadratic with respect to the number of vertices or greater. Although these layout algorithms run in a fraction of the time as their competitors, they provide competitive results when applied to most real-world graphs. These algorithms also have a low constant running time and small memory footprint, making them useful for small to large graphs.",
+    "laborHours": 3149576.8,
+    "name": "Two linear time, low overhead algorithms for graph layout",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.kitware.com/vtk/vtk",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

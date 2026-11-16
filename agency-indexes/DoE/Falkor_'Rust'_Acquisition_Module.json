@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-02-15",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The acquisition of analog signal from a time of flight mass spectrometer requires robust, efficient, and fast software. Writing multi-threaded applications is inherently more challenging due to the potential for livelocks, deadlocks, and race conditions. Rust was identified as a \"safe\" language that has a compiler that statically checks the code for these potential problems and prevents compilation entirely if detected. Rust is a systems level language, on par with C / C++. However, it supports a thriving package management system similar to npm or NuGet and has other modern features which make it accessible for rapid prototyping and simplifies compilation procedures.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Falkor 'Rust' Acquisition Module",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/business/default.aspx?topic=Licensing_Guidelines",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

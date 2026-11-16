@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-30",
+        "metadataLastUpdated": "2024-08-30"
+    },
+    "description": "TOUGHREACT V4.12 is a 3-D reactive transport code that handles to non-isothermal, multiphase/multicomponent fluid flow, heat transport, aqueous and gaseous species advection-diffusion, and equilibrium/kinetic water-gas-rock-biological reactions.\n\nTOUGHREACT V4.12 is based on TOUGHREACT V3.3, with several new features including: an option to compute activity coefficients using the Pitzer ion interaction model; implementation of ECO2N V2.0 for temperatures up to 300 C; options to simulate forward and reverse osmosis, including 2D Poiseuille flow; addition of EOS8 and revisions for EOS5 and EWASG with H2(g); addition of gas species decay, various new output formats and time step control options; many bug fixes.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 39428.8,
+    "languages": [],
+    "name": "TOUGHREACT V4.12",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-03-29",
+        "metadataLastUpdated": "2022-09-19"
+    },
+    "description": "RLC4CLR demonstrates using a reinforcement learning controller (RLC) to solve a critical load restoration (CLR) problem, which improves the grid resilience after a substation outage event. RLC4CLR consists of two parts. (1) RL environment: This environment encapsulates the CLR problem to be solved and provides interfacing functions to follow the standard OpenAI Gym format. A power system simulator, i.e., OpenDSS, is included to provide the power flow solution. Controller inputs and outputs (RL state and action) as well as the reward are defined in this environment as well. In summary, the RL environment is the problem formulation from which the RL agent can learn. (2) RL training script: The training script enables the RL agent to learn its control policy by interacting with the RL environment. For RL training, an open-sourced RL library, i.e., RLlib, is leveraged which is based on a distributed computing framework (Ray). The training script is designed to be able to be run on both local machine or the NREL HPC system. Other components of RLC4CLR include input data, e.g., grid model (standard IEEE test feeders), and other files used for results analysis.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "RLC4CLR (Reinforcement Learning Controller for Critical Load Restoration Problems)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/rlc4clr",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

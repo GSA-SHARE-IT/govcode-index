@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-10-05",
+        "metadataLastUpdated": "2020-10-05"
+    },
+    "description": "The ILC algorithm prioritizes available loads for curtailment in large and small/medium size commercial buildings.",
+    "laborHours": 109880.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "Intelligent Load Control",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/VOLTTRON/volttron-applications",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

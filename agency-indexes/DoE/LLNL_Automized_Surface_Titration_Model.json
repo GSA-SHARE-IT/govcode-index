@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-10-30",
+        "metadataLastUpdated": "2023-10-30"
+    },
+    "description": "The LLNL Automized Surface Titration Model (L-ASTM) is a community data-driven surface complexation\nmodeling workflow for simulating potentiometric titration of mineral surfaces. The model accepts raw\nexperimental potentiometric titration data formatted in a findable, accessible, interoperable, and reusable\n(FAIR) structure. The workflow was coded in Python and coupled to PHREEQC for surface complexation\nmodeling and PEST for data fitting and parameter estimation.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LLNL Automized Surface Titration Model",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/LLNL-ASTM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

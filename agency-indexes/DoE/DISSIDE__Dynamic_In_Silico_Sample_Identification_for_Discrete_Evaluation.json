@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-07-12",
+        "metadataLastUpdated": "2024-07-12"
+    },
+    "description": "DISSIDE uses novel unsupervised learning to select samples that best represent the strongest a\npriori discrete pattern in a given data set. It further removes major outliers and \"noisy\" samples\nthat do not fit discrete patterns well or represent outliers in groups below a defined n value. It\nthen estimates the fit and strength of the a priori discrete pattern using both unconstrained and\nconstrained methods for raw and cleaned data",
+    "laborHours": 744.8,
+    "languages": [],
+    "name": "DISSIDE: Dynamic In Silico Sample Identification for Discrete Evaluation",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lebrun-LANL/DISSIDE-Dynamic-In-Silico-Sample-Identification-for-Discrete-Evaluation",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

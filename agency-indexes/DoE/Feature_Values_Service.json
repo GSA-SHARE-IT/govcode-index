@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-31",
+        "metadataLastUpdated": "2020-08-31"
+    },
+    "description": "This KBase service provides a set of methods for manipulation and visualization of expression values organized as two-dimentional matrix and assigned to genome features on one dimention and to different sorts conditions on second dimention.",
+    "laborHours": 10579.2,
+    "languages": [],
+    "name": "Feature Values Service",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/feature_values",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/CDCgov",
+        "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+        "created": "2019-10-07",
+        "lastModified": "2020-03-05"
+    },
+    "description": "This repository contains bioinformatics scripts and a Docker container to perform the in silico prediction of Legionella pneumophila serogroup from short read sequences using a supervised machine learning approach.",
+    "downloadURL": "https://api.github.com/repos/CDCgov/legionella_pneumophila_genomics/downloads",
+    "homepageURL": "https://github.com/CDCgov/legionella_pneumophila_genomics",
+    "laborHours": 0,
+    "languages": [
+        "Shell",
+        "Python",
+        "R"
+    ],
+    "name": "legionella_pneumophila_genomics",
+    "organization": "Centers for Disease Control and Prevention",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "repositoryURL": "git://github.com/CDCgov/legionella_pneumophila_genomics.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "cdc",
+        "docker-container",
+        "legionella-pneumophila",
+        "prediction",
+        "usg-artificial-intelligence"
+    ],
+    "vcs": "git"
+}

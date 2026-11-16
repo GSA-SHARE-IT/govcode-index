@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "FQCDB builds up existing open source software, FastQC, implementing a modern web interface for across parsed output of FastQC. In addition, FQCDB is extensible as a web service to include additional plots of type line, boxplot, or heatmap, across data formatted according to guidelines. The interface is also configurable via more readable JSON format, enabling customization by non-web programmers.",
+    "laborHours": 56376.8,
+    "name": "FASTQ quality control dashboard",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/brwnj/fqc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

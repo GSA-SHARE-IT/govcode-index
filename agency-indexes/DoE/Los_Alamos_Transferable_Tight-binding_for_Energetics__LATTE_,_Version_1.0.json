@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2019-06-18",
+        "metadataLastUpdated": "2019-06-19"
+    },
+    "description": "LATTE is a code used for computing the energy of, and forces acting on atoms in molecular materials using an implementation of the self-consistent charge tranfer tight-binding approximation. Advanced algorithms allow computational cost to scale linearly with the number of atoms, facilitating large-scale, long-duration molecular dynamics simulations of dynamic phenomena using an explicitly quantum mechanical method. Furthermore, these algorithms offer a straightforward path toward parallelization on multi-core/multi-processor and hybrid hardware architectures. Precise energy conservation in quantum-molecular dynamics is made possible via the extended Lagrangian Born-Oppenheimer molecular dynamics formalism. Medium and long-range interactions in molecular materials are described and bond-making and breaking events are tolerated via spin polarization. LATTE facilitates high-fidelity atomistic simulations of static and dynamic phenomena in condensed and gas phases where interatomic interactions are some combination of covalent, electrostatic, and van der Waals bonding. The main features of LATTE are implementation of concepts discussed in the scientific literature.",
+    "laborHours": 20839.2,
+    "languages": [],
+    "name": "Los Alamos Transferable Tight-binding for Energetics (LATTE), Version 1.0",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/LATTE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-02-04",
+        "metadataLastUpdated": "2019-02-05"
+    },
+    "description": "The Hydrogen Dispenser Test Apparatus (HDTA) is used to validate hydrogen fueling station performance.  This software takes the data generated from HDTA and compares it to fueling standards CSA HGV4.3 and SAE J2601.  The software generates plots and metrics for pressure, temperature and IR communications from the HDTA.",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "HDTADA",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/HDTADA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

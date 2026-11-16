@@ -1,0 +1,29 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This is an adaptation of the pre-existing Scimark benchmark code to a variety of Python and Lua implementations. It also measures performance of the Fparser expression parser and C and C++ code on a variety of simple scientific expressions.",
+    "laborHours": 5654.4,
+    "name": "Python/Lua Benchmarks",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://bitbucket.org/lebusby/splb/src/e1b801db07cbb8fd0eab2a50fdb3b1f25906fbef/Copyright",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/lebusby/splb",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

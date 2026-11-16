@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2023-08-15",
+        "metadataLastUpdated": "2023-08-15"
+    },
+    "description": "ORCA is a modeling toolset to accelerate real-time control and optimization of digital twins, including virtual models of facilities, physical facilities, and interconnections to allow optimal control of physical facilities using virtual models. ORCA is enabled by INL's RAVEN and DeepLynx software codes.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Optimization Of Real-time Capacity Allocation",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/ORCA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Intrepid is a library of interoperable tools for compatible discretizations of Partial Differential Equations (PDEs).Current version is intended primarily for application developers who want to reuse large parts of their existing code frameworks such as I/O, data structures, assembly routines, etc. while gaining access to advanced discretization capabilities provided by Intrepid. Intrepid2 is a performance portable version of Intrepid, that requires all input data types be Kokkos (performance-portability library from Trillions) multidimentional arrays. this restriction is needed for providing performance portability in Intrepid2 and break backward-compatibility of Intrepid.",
+    "laborHours": 8344830.4,
+    "name": "INteroperable Tools for Rapid dEveloPment of compatible Discretizations",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/trilinos/Trilinos/blob/master/packages/intrepid/Copyright.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This program is a graphical user interface for measuring and performing inter-active analysis of physical unclonable functions (PUFs). It is intended for demonstration and education purposes. See license.txt for license details. The program features a PUF visualization that demonstrates how signatures differ between PUFs and how they exhibit noise over repeated measurements. A similarity scoreboard shows the user how close the current measurement is to the closest chip signatures in the database. Other metrics such as average noise and inter-chip Hamming distances are presented to the user. Randomness tests published in NIST SP 800-22 can be computed and displayed. Noise and inter-chip histograms for the sample of PUFs and repeated PUF measurements can be drawn.",
+    "laborHours": 2082.4,
+    "name": "Sandia PUF Analysis Tool",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/spat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

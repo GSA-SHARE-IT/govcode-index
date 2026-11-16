@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-09-15",
+        "metadataLastUpdated": "2022-09-15"
+    },
+    "description": "This code scrapes global influenza data that are publicly provided by the World Health Organization (WHO) through an interface called FLUMART.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "WHO FLUMART scraper",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/WHO-FLUMART-scraper",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

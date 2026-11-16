@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "Moertel supplies capabilities for nonconforming mesh tying and contact formulations in 2 and 3 dimensions using Mortar methods. Motar methods are a type of Lagrange Multiplier constraints that can be used in contact formulations and in non-conforming or conforming mesh typing as well as in domain decomposition techniques. Suitable conditions at interfaces are formulated as weak continuity conditions in dual variables introducing Lagrange multiplers on the interface. By an appropriate choice of the function space of the Lagrange multipliers on an interface it is possible to locally condense Lagrange multipliers such that a sparse and definite system of equations can be formed which is equalivalent to the saddle point system resulting from the Lagrange multiplier formulation.",
+    "laborHours": 16020.8,
+    "languages": [
+        "C++"
+    ],
+    "name": "Moertel Fe Package",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Moertel",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2023-04-14",
+        "metadataLastUpdated": "2023-11-01"
+    },
+    "description": "The Xyce Parallel Electronic Simulator simulates electronic circuit behavior in DC, AC, HB, MPDE and transient mode using standard analog (DAE) and/or device (PDE) device models including several age and radiation aware devices. It supports a variety of computing platforms (both serial and parallel) computers. Lastly, it uses a variety of modern solution algorithms dynamic parallel load-balancing and iterative solvers.! ! Xyce is primarily used to simulate the voltage and current behavior of a circuit network (a network of electronic devices connected via a conductive network). As a tool, it is mainly used for the design and analysis of electronic circuits.! ! Kirchoff's conservation laws are enforced over a network using modified nodal analysis. This results in a set of differential algebraic equations (DAEs). The resulting nonlinear problem is solved iteratively using a fully coupled Newton method, which in turn results in a linear system that is solved by either a standard sparse-direct solver or iteratively using Trilinos linear solver packages, also developed at Sandia National Laboratories.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "Perl",
+        "Python"
+    ],
+    "name": "Xyce(™) Parallel Electronic Simulator v.7.6",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Xyce/Xyce",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "7.6"
+}

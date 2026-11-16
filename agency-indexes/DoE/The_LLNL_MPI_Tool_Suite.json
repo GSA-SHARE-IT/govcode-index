@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "MPI_T is an interface for tools introduced in the 3.0 version of MPI. The interface provides mechanisms for tools to access and set performance and control variables that are exposed by an MPI implementation. We have developed an MPI_T tool suite to provide a first set of tools exploiting the new interface and to get tool writers started on the path to more sophisticated support.",
+    "laborHours": 1033.6,
+    "name": "The LLNL MPI_Tool Suite",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.1",
+                "name": "GPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/mpi-tools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

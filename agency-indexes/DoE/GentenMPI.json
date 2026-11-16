@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-11-01",
+        "metadataLastUpdated": "2025-02-13"
+    },
+    "description": "GentenMPI is software to compute low-rank approximations of sparse data tensors.   These methods are often used for unsupervised machine learning to find significant properties of sparse, unstructured data sets.  GentenMPI uses the same algorithms that are available in Sandia's open-source codes TensorToolbox and Genten, but GentenMPI provides distributed memory implementations of these algorithms using infrastructure from Sandia's open-source Trilinos framework.  GentenMPI includes an implementation CP-ALS (canonical polyadic decomposition via alternating least squares optimization, first published in 1970 by Carroll & Chang and Harshman); its distributed memory implementation uses Trilinos' Map-based distribution of data to processors and Trilinos' communication operations designed for sparse matrix-vector multiplication.  Its performance is comparable to other open-source CP-ALS implementations (e.g., the SPLATT tool of Smith and Karypis).  GentenMPI also include a distributed memory implementation of GCP-SGD (generalized canonical polyadic decomposition via stochastic gradient descent, first published in 2019 by Hong, Kolda and Deursch); the implementation closely follows that in TensorToolbox, and exploits a block-based data distribution to perform sampling in parallel.  GentenMPI is written in C++ and relies on the MPI (Message Passing Interface) library available on most distributed memory computers. SAND2020-12648 M\n\nSandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy's National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 12448.8,
+    "languages": [
+        "C++",
+        "Cmake"
+    ],
+    "name": "GentenMPI",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/GentenMPI",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

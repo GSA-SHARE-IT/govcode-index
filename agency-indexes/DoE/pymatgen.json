@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "phuck@lbl.gov"
+    },
+    "date": {
+        "created": "2018-06-14",
+        "metadataLastUpdated": "2019-06-26"
+    },
+    "description": "Python Materials Genomics (pymatgen) is a robust materials analysis code that defines core object representations for structures and molecules with support for many electronic structure codes. It is currently the core analysis code powering the Materials Project.",
+    "laborHours": 1902280.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "pymatgen",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/materialsproject/pymatgen",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

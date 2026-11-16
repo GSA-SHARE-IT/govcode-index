@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-02",
+        "metadataLastUpdated": "2021-07-02"
+    },
+    "description": "ACD is a collection of python routines for detecting anomalous changes in pairs of images.  The images can be panchromatic or multispectral (even hyperspectral), and for most of the algorithms in the collection, the two images need not have the same number of spectral bands. The general idea is to distinguish anomalous changes, which are assumed to be rare, from pervasive differences, which are assumed to occur throughout large portions of the image.  The anomalous changes are candidates for actual, possibly interesting, changes on the ground, while the pervasive differences might for instance be due to different illumination or calibration during the acquisition of the two images.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ACD - Anomalous Change Detection software in python",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jt-lanl/acd",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-05-04"
+    },
+    "description": "Beam Instrumentation Development System (BIDS) is a collection of common support libraries and modules developed during a series of Low-Level Radio Frequency (LLRF) control and timing/synchronization projects. BIDS includes a collection of Hardware Description Language (HDL) libraries and software libraries. The BIDS can be used for the development of any FPGA-based system, such as LLRF controllers. HDL code in this library is generic and supports common Digital Signal Processing (DSP) functions, FPGA-specific drivers (high-speed serial link wrappers, clock generation, etc.), ADC/DAC drivers, Ethernet MAC implementation, etc.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [
+        "G++, ISE"
+    ],
+    "name": "Beam Instrument Development System",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

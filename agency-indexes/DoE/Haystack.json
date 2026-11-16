@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Haystack is a software agent platform for user emulation. We are leveraging python and the SPADE software packages to develop an architecture and platform where software agents can be sent actuation behaviors, configured with different behavior profiles (time based, event based, probability based, etc.), and controlled/monitored from a central control unit. The haystack agent platform provides the ability to model and simulate user behavior in cyber systems. This eliminates the need to fund real users to provide this interaction, provides control such that researchers can randomize, hold-steady, or model whatever behavior that want to study without running afoul of IRB requirements, and provides a documented truth that enables understanding what happened in and experiment and provides for repeatability.",
+    "laborHours": 364.8,
+    "name": "Haystack",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/haystack",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

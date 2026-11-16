@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-07"
+    },
+    "description": "The IRCD is an IRC server that was originally distributed by the IRCD Hybrid developer team for use as a server in IRC message over the public Internet. By supporting the IRC protocol defined in the IRC RFC, IRCD allows the users to create and join channels for group or one-to-one text-based instant messaging. It stores information about channels (e.g., whether it is public, secret, or invite-only, the topic set, membership) and users (who is online and what channels they are members of). It receives messages for a specific user or channel and forwards these messages to the targeted destination. Since server-to-server communication is also supported, these targeted destinations may be connected to different IRC servers. Messages are exchanged over TCP connections that remain open between the client and the server. The IRCD is being used within the Pervasive Computing Collaboration Environment (PCCE) as the 'chat server' for message exchange over public and private channels. After an LBNLSecureMessaging(PCCE chat) client has been authenticated, the client connects to IRCD with its assigned nickname or 'nick.' The client can then create or join channels for group discussions or one-to-one conversations. These channels can have an initial mode of public or invite-only and the mode may be changed after creation. If a channel is public, any one online can join the discussion; if a channel is invite-only, users can only join if existing members of the channel explicitly invite them. Users can be invited to any type of channel and users may be members of multiple channels simultaneously. For use with the PCCE environment, the IRCD application (which was written in C) was ported to Linux and has been tested and installed under Linux Redhat 7.2. The source code was also modified with SSL so that all messages exchanged over the network are encrypted. This modified IRC server also verifies with an authentication server that the client is who he or she claims to be and that this user is authorized to ain access to the IRCD.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Secure IRC Server",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

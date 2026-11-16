@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "LaunchMON is a tool infrastructure that allows a HPC tool to deploy tool daemons into the right remote nodes. It makes use of a target resource manager (RM)'s Automatic Process Acquisition Interface (APAI) to identify the remote nodes and processes of a parallel program, and also exploits the same RM's efficient MPI job launching capability on co-locating daemons with the job. To support a wide range of HPC tools that are inherently distributed software, LaunchMON provides the tool with distributed application programming interface sets: the front end (FE) API, the back end (BE) API and the middleware (MW) API. They each support a tool's front end, back end daemons and middleware communication daemons, respectively. Using those API sets, the tool can launch and initialize their remote daemons scalably.",
+    "laborHours": 17449.6,
+    "name": "LaunchMON: An Infrastructue for Large Scale Tool Daemon Launching",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/launchmon",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

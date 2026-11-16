@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2023-08-17",
+        "metadataLastUpdated": "2023-08-17"
+    },
+    "description": "SONICC computes density and velocity transfer functions for use in the initial conditions of \nmassive neutrino\ncosmological simulations. The transfer functions are backscaled using a scale-dependent growth \nfunction that produces self-consistent evolution for all three matter species (cold dark matter, \nbaryons, massive neutrinos) in the Newtonian forward model of cosmological simulations.\n\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "sf-23-021 SONICC (SCALE-DEPENDENT OMEGA FOR NEUTRINO INITIAL CONDITION CODES)",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://git.cels.anl.gov/hacc/sonicc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

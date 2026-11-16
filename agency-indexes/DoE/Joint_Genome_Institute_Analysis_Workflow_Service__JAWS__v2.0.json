@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2021-06-17"
+    },
+    "description": "The Joint Genome Institute (JGI) has developed JGI Analysis Workflow Service (JAWS) as a framework to run computational workflows. The purpose of JAWS is to improve the reusability and robustness of bioinformatic (or any) workflows in evolving and/or diverse high-performance computing (HPC), large cluster, and cloud environments. JAWS moves data and code to user-specified compute resources, executes computation, and returns results. JAWS implements Cromwell, developed at the Broad Institute, to make use of Workflow Description Language (WDL). Additionally, JAWS implements containers (compatible with Docker, Shifter, and Singularity) to ensure use of well-defined compute environments and workflow task codebases. To run the compute tasks, JAWS provides the JGI Task Manager (JTM), a compute task farming tool that manages workers on compute nodes and executes tasks on them.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Joint Genome Institute Analysis Workflow Service (JAWS) v2.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/JGI-Bioinformatics/jaws.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

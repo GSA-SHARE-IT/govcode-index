@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-12-05",
+        "metadataLastUpdated": "2023-12-05"
+    },
+    "description": "We present an open-source Python-based framework that can be used for objective evaluation of\nAtmospheric Rivers (ARs) in climate models. With a comprehensive pool of pre-defined metrics, this\npackage is useful for systematic AR evaluation across a range of model simulations, such as the MIPs in\nCMIP5/6 models and large ensemble experiments.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PCMDI PMP Interactive Visualization Web Page, Atmospheric River Metrics",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kristinchang3/peak_season_cmec",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

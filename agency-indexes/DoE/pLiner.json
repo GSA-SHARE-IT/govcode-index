@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-07-27",
+        "metadataLastUpdated": "2020-07-27"
+    },
+    "description": "Compiler optimizations can alter significantly the numerical results of scientific computing applications.\nWhen numerical results differ significantly between compilers, optimization levels, and floating-point\nhardware, these numerical inconsistencies can impact programming productivity. pLiner is a framework\nthat helps programmers identify locations in the source code that are highly affected by compiler\noptimizations. pLiner uses a novel approach to identify such code locations by enhancing the floatingpoint\nprecision of variables and expressions. Using a guided search to locate the most significant code\nregions, pLiner can report to users such locations at different granularities, file, function, and line of code.",
+    "laborHours": 18194.4,
+    "languages": [],
+    "name": "pLiner",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/pLiner",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2022-02-18",
+        "metadataLastUpdated": "2022-09-26"
+    },
+    "description": "The controller modules in SUMO use a stage-based control structure. A phase is defined as a stage of all allowed movements at a time instance. However, traffic signal controllers used in North America widely use National Electrical Manufacturers Association (NEMA) phase definition. A NEMA phase is defined by a certain flow movement at an intersection. At one time, more than one NEMA phase could happen together as long as they do not conflict with each other. We can visualize the NEMA phases and timings in Ring-and-Barrier structured NEMA diagrams. For one controller, only one phase from a ring can be activated at a time. Phases from different rings could be activated together as long as they are not from the different sides of a barrier. When a controller is operated in fixed-time control mode, we can model the NEMA phase timing as a corresponding stage-based control timing without any issues. When introducing actuation into the signal control, a Ring-and-Barrier structured traffic signal controller can be more flexible than stage-based controller by allowing different possible phase combinations. We made two efforts in modeling Ring-and-Barrier structured controllers in SUMO. One is to translate a NEMA phases timing into SUMO-readable phases and timings as an additional file for SUMO. This translation worked well for fixed-time control. To model actuated control and coordinated actuated control, we augmented the SUMO source code by adding a Ring-and-Barrier structured controller module. This module could implement traffic signal timing from controllers using NEMA phases. We also augmented TraCI to be able to set new NEMA phase timings during simulations. We examined the Ring-and-Barrier structured traffic signal controller module by both visually observing the simulation animations and the simulation records. The developed control module can model the generalized Ring-and-Barrier structured traffic signal timing that is used in North America. SEE: https://github.com/eclipse/sumo/blob/main/src/microsim/traffic_lights/NEMAController.cpp",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "C++"
+    ],
+    "name": "NEMA-Phase Compliant Traffic Signal Controller Module in SUMO",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/ATHENA-sumo",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

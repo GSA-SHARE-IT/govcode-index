@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Problem Solved: A novel technique for regression and sensitivity analysis of C1 function f problematic input dimension given observations (x_i, f(x_i), f'(x_i)). Solution Provided by the Code: Active Manifolds reduces the problem to analysis/regression of a 1 dimensional analogue by exploiting geometric properties of the function.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python 2.7"
+    ],
+    "name": "Active Manifolds ICML 2019 Paper Results Code",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/bridgesra/active-manifold-icml2019-code",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/bridgesra/active-manifold-icml2019-code",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

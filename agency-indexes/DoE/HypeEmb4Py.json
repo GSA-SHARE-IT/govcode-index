@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-09-04",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "This software performs parallel hyperbolic coordinate embedding of large scale undirected, fully connected graphs for quick and accurate computation of node pair distances.  Each node on the graph is mapped to a coordinate in hyperbolic space, after which node pair distances can be computed almost instantaneously. The embedding requires a training set of node pair distances between a small set of fixed landmark nodes (nodes with the highest degree) and all other nodes. An LBFGS quasi-newton optimization is performed to create the embedding. LBFGS quasi-newton optimization is performed to create the embedding.SAND2019-12114 M\n\nSandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy's National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 760.0,
+    "languages": [
+        "Python",
+        "Shell"
+    ],
+    "name": "HypeEmb4Py",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/HypeEmb4Py",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

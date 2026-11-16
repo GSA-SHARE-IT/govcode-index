@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-02-05",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "GridPACK is a software framework consisting of a set of modules designed to simplify the development of programs that model the power grid and run on parallel, high performance computing platforms. It also contains several fully developed applications, including powerflow, dynamic simulation, state estimation, Kalman filter analysis (dynamic state estimation), contingency analysis and real time path rating. These applications can be used either standalone or as components in more complicated workflows that combine several different types of application together. The framework modules are available as a combination of libraries and software templates and consist of components for setting up and distributing power grid networks, support for modeling the behavior of individual buses and branches in the network, converting the network models to the corresponding algebraic equations, and parallel routines for manipulating and solving large algebraic systems. The framework also contains a module for distributing tasks evenly amongst computing resources, even if individual tasks vary widely in their execution times. Additional modules support input and output, basic statistical analysis of contingency based calculations, distributed data structures, as well as basic profiling and error management.",
+    "laborHours": 217861.6,
+    "languages": [],
+    "name": "GridOPTICS/GridPACK",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/GridOPTICS/GridPACK",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

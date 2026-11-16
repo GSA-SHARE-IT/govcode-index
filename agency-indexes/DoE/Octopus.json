@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Octopus is a scientific program aimed at the ab initio virtual experimentation on a hopefully ever-increasing range of system types. Electrons are described quantum-mechanically within density-functional theory (DFT), in its time-dependent form (TDDFT) when doing simulations in time. Nuclei are described classically as point particles. Electron-nucleus interaction is described within the pseudopotential approximation.",
+    "laborHours": 3054820.0,
+    "languages": [],
+    "name": "Octopus",
+    "organization": "USDOE Advanced Research Projects Agency – Energy (ARPA-E) (United States) (ARPA-E)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://gitlab.com/octopus-code/octopus/blob/develop/COPYING",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/octopus-code/octopus",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "USDOE Advanced Research Projects Agency – Energy (ARPA-E) (United States) (ARPA-E)"
+    ]
+}

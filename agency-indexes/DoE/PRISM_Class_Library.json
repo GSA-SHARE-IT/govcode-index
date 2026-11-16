@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The PRISM Class Library (PRISM.dll) is a collection of routines used by many of the software tools that support the Proteomics Research Information and Management System (PRISM) at PNNL. Although written for use by PRISM tools, the methods in the PRISM class library are general utility methods, and are not dependent on any PNNL resources.",
+    "laborHours": 15549.6,
+    "languages": [],
+    "name": "PRISM Class Library",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/PRISM-Class-Library",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

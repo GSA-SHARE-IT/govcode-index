@@ -1,0 +1,48 @@
+{
+    "id": 1903,
+    "name": "Claims Processing & Eligibility System",
+    "organization": "OIT DSO",
+    "version": "9",
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/Redacted-Public-Release-CPE-P2-v9-build-PI-1-CPEACA-1.0-001-CPEACA-1.0-002-May-2020",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "CP&E",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Node Package Manager (NPM)",
+        "JDK - Oracle Java Standard Edition (SE) Development Kit",
+        "OpenVMS",
+        "Microsoft Structured Query Language (SQL) Server",
+        "Oracle Database",
+        "Talend Data Management Platform",
+        "Java Enterprise Edition (Java EE)"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-28",
+        "lastModified": "2020-08-20",
+        "metadataLastUpdated": "2020-08-20"
+    },
+    "description": "Repository containing the CIF submission for Claims Processing and Eligibility Phase 2, version 9, sprint 3, CPEACA*1.0*001 /CPEACA*1.0*002, build PI 1 rec May 2020."
+}

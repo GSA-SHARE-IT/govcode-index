@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2020-09-24",
+        "metadataLastUpdated": "2020-09-24"
+    },
+    "description": "This python toolkit has been developed to automate 3D segmentation of X-ray Computed Tomography (CT) data using convolutional neural networks - an AI methodology. Specifically, it binarizes CT scans with a focus on accurate surfaced Determination, with applications including but not limited to metrology of metallic components, surface characterization of manufactured components and porosity measurements in opaque media. In addition, subroutines for training with\nnew manually annotated data, including data augmentation methods have been provided. The toolkit operates on any arbitrarily sized CT volumes and is tested on up to sizes 3000^3 on a desktop workstation. In principle, this algorithm is scalable to larger CT volumes on GPU clusters. Briefly, the 3D segmentation algorithm is powered by a 2D convolutional\nneural network (CNN) and systematically slices, patches 3D data and feeds into the CNN. At the output end, the data is stitched back into a 3D segmented volume which is exactly aligned with the input volume. The 2D architecture offers\nlower GPU memory requirement while maintaining accuracy, which has been characterized on high-resolution CT scans\nof fuel injector nozzles. The package is built on top of TensorFlow / Keras and exploits CUDA-based GPU computing for\nthe CNN path and parallelization over CPU for the 2D-3D image processing operations.\n(",
+    "laborHours": 1793.6,
+    "languages": [],
+    "name": "CT SEGNET: AOMATED 3D SEGMENTATION WITH DEEP LEARNING",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/aniketkt/CTSegNet",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

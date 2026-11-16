@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2023-08-25",
+        "metadataLastUpdated": "2023-08-25"
+    },
+    "description": "The Renewable Energy Potential (reV) model is a first-of-its-kind detailed spatio-temporal modeling assessment tool that empowers users to calculate renewable energy capacity, generation, and cost based on geospatial intersection with grid infrastructure and land-use characteristics.\n\nThe National Renewable Energy Laboratory (NREL) developed the reV model to help utility planners, regional and national agencies, project and land developers, and researchers assess renewable energy resource potential. Available as open source since February 2020, the reV model currently supports photovoltaic, concentrating solar power, and wind turbine technologies. The tool can model a single site up to an entire continent at temporal resolutions ranging from five minutes to hourly, spanning a single year or multiple decades.\n\nBy automating access to resource data at unprecedented scale, fidelity, and flexibility, the reV model integrates formerly disparate analysis frameworks in the fields of resource modeling, technical potential, and renewable energy cost supply curves.\n\nThe reV model currently provides broad coverage across North America, South and Central Asia, the Middle East, South America, and South Africa to inform national- and international-scale analyses as well as regional infrastructure and deployment planning.",
+    "laborHours": 250526.4,
+    "languages": [
+        "Python",
+        "PowerBuilder"
+    ],
+    "name": "reV (The Renewable Energy Potential Model - Open Source) [SWR-21-59, SWR-20-20 and SWR-17-34]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/reV",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "0.8.0"
+}

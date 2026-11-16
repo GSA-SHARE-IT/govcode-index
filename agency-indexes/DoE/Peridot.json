@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "julia.dark@cfdrc.com"
+    },
+    "date": {
+        "created": "2019-11-18",
+        "metadataLastUpdated": "2019-11-18"
+    },
+    "description": "Peridot is a mesh free state-based peridynamics simulation developed using the Kokkos library for parallel execution. ",
+    "homepageURL": "https://www.cfd-research.com/products/peridot",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Peridot",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.cfd-research.com/products/peridot",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "version": "0.1.1"
+}

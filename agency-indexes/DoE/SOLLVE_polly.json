@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-18",
+        "metadataLastUpdated": "2021-01-29"
+    },
+    "description": "Polly uses a mathematical representation, the polyhedral model, to represent and transform loops and other control flow structures. Using an abstract\nrepresentation it is possible to reason about transformations in a more general way and to use highly optimized linear programming libraries to figure out the optimal loop structure. These transformations can be used to do constant\npropagation through arrays, remove dead loop iterations, optimize loops for cache locality, optimize arrays, apply advanced automatic parallelization, drive vectorization, or they can be used to do software pipelining.",
+    "homepageURL": "https://www.bnl.gov/compsci/projects/SOLLVE/software.php",
+    "laborHours": 229945.6,
+    "languages": [],
+    "name": "SOLLVE/polly",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.bnl.gov/compsci/projects/SOLLVE/software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ]
+}

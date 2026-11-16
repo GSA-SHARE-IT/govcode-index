@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-02",
+        "metadataLastUpdated": "2021-07-02"
+    },
+    "description": "The program “EMCCD Calibration” is software to provide accurate calibration of the gain and analogue-to-digital conversation factor for a variety of scientific imaging devices, such as electron-multiplying charge-coupled device (EMCCD) cameras, complementary metal-oxide semiconductor (sCMOS), and intensified charge coupled device (ICCD) cameras. The software implements new calibration methods that are described in a manuscript intended for publication under the title “From Noise to Harmony: Calibration Methods for Electron Multiplying CCD Cameras”. The software provides ready-to-use tools for researchers using EMCCD, sCMOS, or ICCD cameras.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "EMCCD Calibration",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ryand-LANL/EMCCD-calibration",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

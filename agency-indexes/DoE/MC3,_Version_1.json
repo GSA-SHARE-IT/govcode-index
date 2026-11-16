@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The MC3 code is used to perform Monte Carlo simulations in the isothermal-isobaric ensemble (constant number of particles, temperature, and pressure) on molecular crystals. The molecules within the periodic simulation cell are treated as rigid bodies, alleviating the requirement for a complex interatomic potential. Intermolecular interactions are described using generic, atom-centered pair potentials whose parameterization is taken from the literature [D. E. Williams, J. Comput. Chem., 22, 1154 (2001)] and electrostatic interactions arising from atom-centered, fixed, point partial charges. The primary uses of the MC3 code are the computation of i) the temperature and pressure dependence of lattice parameters and thermal expansion coefficients, ii) tensors of elastic constants and compliances via the Parrinello and Rahman’s fluctuation formula [M. Parrinello and A. Rahman, J. Chem. Phys., 76, 2662 (1982)], and iii) the investigation of polymorphic phase transformations. The MC3 code is written in Fortran90 and requires LAPACK and BLAS linear algebra libraries to be linked during compilation. Computationally expensive loops are accelerated using OpenMP.",
+    "laborHours": 0.0,
+    "name": "MC3, Version 1",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cawkwell/MC3",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

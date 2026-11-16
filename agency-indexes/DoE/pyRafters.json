@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "pgarvey@bnl.gov"
+    },
+    "date": {
+        "created": "2018-03-21",
+        "metadataLastUpdated": "2018-03-21"
+    },
+    "description": "Image processing tools for computed tomography. This is an non-functioning, incomplete, and abandoned project.",
+    "laborHours": 3891.2,
+    "name": "pyRafters",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BrookhavenNationalLaboratory/pyRafters",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-09-28",
+        "metadataLastUpdated": "2023-09-28"
+    },
+    "description": "SSGUI is a web-based application that integrates the integrative genomics browser (IGV) with upstream alignment pipelines enabling rapid analysis of a batch of next-generation sequencing (NGS) samples. The input to SSGUI is an NGS file system directory that is organized by experiment and reference sequence. The output is an online dashboard containing various sequencing statistics for each sample and an integrated IGV plugin enabling rapid analysis of aligned NGS reads.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SSGUI v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/JBEI/ssgui",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

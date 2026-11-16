@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "FABLE is a Fortran to C++ source-to-source conversion tool. This enables the continued development of new methods even while switching programming languages. FABLE is available under a nonrestrictive open source license. In FABLE the analysis of the Fortran source is separated from the generation of the C++ source. Therefore parts of FABLE could be reused for other target languages. Hardware req.: Multi-platform; types of files: source code, sample problem Input data, sample problem output, installation instructions, user guide.",
+    "laborHours": 0.0,
+    "languages": [
+        "fortran"
+    ],
+    "name": "FABLE - automatic Fortran to C++ conversion",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/cctbx/cctbx_project/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cctbx/cctbx_project",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2025-02-24",
+        "lastModified": "2026-09-04"
+    },
+    "description": "This is a generic skeleton project that can be used to quickly get a new cisagov GitHub composite Action project started.",
+    "downloadURL": "https://api.github.com/repos/cisagov/skeleton-action-composite/downloads",
+    "homepageURL": "https://github.com/cisagov/skeleton-action-composite",
+    "laborHours": 600.9,
+    "languages": [
+        "Shell"
+    ],
+    "name": "skeleton-action-composite",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/skeleton-action-composite.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "skeleton",
+        "github-actions"
+    ],
+    "vcs": "git"
+}

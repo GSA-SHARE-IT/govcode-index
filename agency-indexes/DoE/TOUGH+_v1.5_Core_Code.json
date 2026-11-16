@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-10-11",
+        "metadataLastUpdated": "2018-10-15"
+    },
+    "description": "TOUGH+ v1.5 is a numerical code for the simulation of multi-phase, multi-component flow and transport of mass and heat through porous and fractured media, and represents the third update of the code since its first release [Moridis et al., 2008]. TOUGH+ is a successor to the TOUGH2 [Pruess et al., 1991; 2012] family of codes for multi-component, multiphase ﬂuid and heat ﬂow developed at the Lawrence Berkeley National Laboratory. It is written in standard FORTRAN 95/2003, and can be run on any computational platform (workstations, PC, Macintosh). \n\nTOUGH+ v1.5 employs dynamic memory allocation, thus minimizing storage requirements. It has a completely modular structure, follows the tenets of Object-Oriented Programming (OOP), and involves the advanced features of FORTRAN 95/2003, i.e., modules, derived data types, the use of pointers, lists and trees, data encapsulation, defined operators and assignments, operator extension and overloading, use of generic procedures, and maximum use of the powerful intrinsic vector and matrix processing operations. \n\nTOUGH+ v1.5 is the core code for its family of applications, i.e., the part of the code that is common to all its applications. It provides a description of the underlying physics and thermodynamics of non-isothermal flow, of the mathematical and numerical approaches, as well as a detailed explanation of the general (common to all applications) input requirements, options, capabilities and output specifications. The core code cannot run by itself: it needs to be coupled with the code for the specific TOUGH+ application option that describes a particular type of problem. The additional input requirements specific to a particular TOUGH+ application options and related illustrative examples can be found in the corresponding User's Manual.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 8876.8,
+    "languages": [],
+    "name": "TOUGH+ v1.5 Core Code",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

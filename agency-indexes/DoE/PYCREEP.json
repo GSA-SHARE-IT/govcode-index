@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-09-23",
+        "metadataLastUpdated": "2022-09-27"
+    },
+    "description": "pycreep is a Python software package for modeling and correlating time-dependent material data like the results of creep rupture and creep deformation tests. The package provides a means to generate models for these test data which can be used to determine design material properties, like those used in the ASME Boiler and Pressure Vessel Code.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PYCREEP",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Argonne-National-Laboratory/pycreep",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

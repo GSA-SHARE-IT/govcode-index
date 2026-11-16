@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-22",
+        "metadataLastUpdated": "2021-12-22"
+    },
+    "description": "Source code for Brain Attend and Decode paper. Functional magnetic resonance imaging (fMRI) is a neuroimaging modality that captures the blood oxygen level in a subject's brain while the subject either rests or performs a variety of functional tasks under different conditions. Given fMRI data, the problem of inferring the task, known as task state decoding, is challenging due to the high dimensionality (hundreds of million sampling points per datum) and complex spatio-temporal blood flow patterns inherent in the data. In this work, we propose to tackle the fMRI task state decoding problem by casting it as a 4D spatiotemporal classification problem. We present a novel architecture called Brain Attend and Decode (BAnD), that uses residual convolutional neural networks for spatial feature extraction and self-attention mechanisms for temporal modeling. We achieve significant performance gain compared to previous works on a 7-task benchmark from the large-scale Human Connectome Project-Young Adult (HCP-YA) dataset. We also investigate the transferability of BAnD's extracted features on unseen HCP tasks, either by freezing the spatial feature extraction layers and retraining the temporal model, or finetuning the entire model. The pre-trained features from BAnD are useful on similar tasks while finetuning them yields competitive results on unseen tasks/conditions.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Attend and Decode: 4D fMRI Task State Decoding Using Attention Models",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/BAnD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1."
+}

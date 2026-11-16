@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "simsdl@ornl.gov"
+    },
+    "date": {
+        "created": "2018-04-18",
+        "metadataLastUpdated": "2018-04-18"
+    },
+    "description": "Armish-fireplace is a middleware container. It allows asynchronous rx and tx for the client implemented with a multithreaded buffer. It contains modules which organizes module-specific processing units. These processing units are the heart of the processing armish-fireplace does. A processing unit may be a hardware device driver or a hardware simulation driver. Processing units can be loaded/unloaded at runtime changing functionality.\n",
+    "laborHours": 1839.2,
+    "name": "armish-fireplace",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-QCI/armish-fireplace",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

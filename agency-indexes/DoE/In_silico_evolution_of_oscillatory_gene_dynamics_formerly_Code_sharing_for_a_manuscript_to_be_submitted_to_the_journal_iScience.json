@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-05-09",
+        "metadataLastUpdated": "2022-05-09"
+    },
+    "description": "The disclosure is about the numerical simulations and visualization implemented in general-purpose language Python and C++. The simulations were in-silico evolution of hypothetical gene circuits that potentially admit oscillatory dynamics. The aim of the study, which was invited to be submitted to a special issue \"Timekeeping, noise and development across kingdoms\" in the journal iScience, is to demonstrate that in contrast to common belief, noise in gene expression dynamics could significantly facilitate the evolutionary process for searching oscillatory dynamics, which are essential for developing circadian rhythm in living organisms.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "In silico evolution of oscillatory gene dynamics formerly Code sharing for a manuscript to be submitted to the journal iScience",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/In-Silico-Evolution-of-oscillatory-gene-dynamics",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-18",
+        "metadataLastUpdated": "2020-05-18"
+    },
+    "description": "Darshan is a lightweight I/O characterization tool that transparently captures I/O access pattern information from HPC applications. Darshan can be used to tune applications for increased scientific productivity or to gain insight into trends in large-scale computing systems.",
+    "laborHours": 29244.8,
+    "languages": [],
+    "name": "Darshan",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://xgitlab.cels.anl.gov/darshan/darshan/blob/master/COPYRIGHT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://xgitlab.cels.anl.gov/darshan/darshan",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ]
+}

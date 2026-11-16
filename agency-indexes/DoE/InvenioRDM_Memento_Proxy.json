@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-04-19",
+        "metadataLastUpdated": "2024-04-22"
+    },
+    "description": "The Memento Proxy software transforms Invenio systems on the web into repositories that are compliant with the Memento protocol.",
+    "laborHours": 425.6,
+    "languages": [],
+    "name": "InvenioRDM Memento Proxy",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/invenio-memento-proxy",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

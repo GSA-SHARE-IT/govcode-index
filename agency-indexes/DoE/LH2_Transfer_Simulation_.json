@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-04-09",
+        "metadataLastUpdated": "2018-04-09"
+    },
+    "description": "LH2TS enables to calculate the wasted H2 due to transfer and boil-off while using LH2 as a fuel for transportation. The supply chain from the liquefaction plant to the station can be modeled using real gas equations of state from REFPROP and heat transfer models. ",
+    "laborHours": 532.0,
+    "name": "LH2 Transfer Simulation ",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://opensource.org/licenses/NASA-1.3",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/LH2Transfer",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

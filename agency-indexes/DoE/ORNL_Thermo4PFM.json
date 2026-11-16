@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "fattebertj@ornl.gov"
+    },
+    "date": {
+        "created": "2021-12-02",
+        "metadataLastUpdated": "2021-12-02"
+    },
+    "description": "Library to compute equilibrium compositions and equal chemical potential compositions in binary and ternary alloys.\nThis library supports thermodynamic data formulated according to CALPHAD (Computer Coupling of Phase Diagrams and Thermochemistry) models, as well as dilute binary alloys.\nOne major aim is to solve the Kim-Kim-Suzuki (KKS) equations to obtain local compositions given a local mixture of two phases.\nThese quantities are then used to evaluate the phase-field model driving force (right handside of time-evolution equation), as well as the energy\ndensity",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "ORNL/Thermo4PFM",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/Thermo4PFM",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

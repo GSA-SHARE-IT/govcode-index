@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-03-11",
+        "metadataLastUpdated": "2022-03-11"
+    },
+    "description": "We developed software which optimizes the selection of spin reversal's on the D-Wave 2000Q for individual problems. Commercial quantum annealers from D-Wave Systems make it possible to obtain approximate solutions of high quality for certain NP-hard problems in nearly constant time. Before solving a problem on D-Wave, several pre-processing methods can be applied, one of them being the so-called spin reversal or gauge transform. The spin reversal transform flips the sign of selected variables and coefficients of the Ising or QUBO (quadratic unconstrained binary optimization) representation of the problem that D-Wave minimizes. The spin reversal transform leaves the ground state of the Ising model invariant, but can average out the biases induced through analog and systematic errors on the device, thus improving the quality of the solution that D-Wave returns. ",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Genetic Algorithms for Optimizing Spin Reversals on D-Wave Quantum Annealers",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

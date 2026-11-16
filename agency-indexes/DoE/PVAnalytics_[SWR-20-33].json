@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-05-04",
+        "metadataLastUpdated": "2023-05-05"
+    },
+    "description": "PVAnalytics inputs long term (multiple years) photovoltaic (PV) outdoor sensor data and completes autonomous quality assurance (QA) analysis on the data. Time series data from individual sensors such as electric meters, inverter outputs, irradiance, and temperature sensors are compared to physically expected outputs of these sensors under clear sky conditions based on the latitude, longitude, and orientation of the PV system. PVAnalytics outputs as QA pass or fail for each sensor, reasons determined for failure, time series flags identifying QA thresholds have been exceeded, flags for sunny days, the time zone found for the given sensor, sensor drift, time periods for passing data, and results of orientation checks.",
+    "laborHours": 0.0,
+    "languages": [
+        "python"
+    ],
+    "name": "PVAnalytics [SWR-20-33]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pvlib/pvanalytics",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.3"
+}

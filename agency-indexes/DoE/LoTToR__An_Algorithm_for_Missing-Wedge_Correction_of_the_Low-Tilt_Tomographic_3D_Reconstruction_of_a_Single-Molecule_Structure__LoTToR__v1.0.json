@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-11-22",
+        "metadataLastUpdated": "2021-11-22"
+    },
+    "description": "The low-tilt tomographic reconstruction (LoTToR) method is a post-processing method to correct the missing-wedge artifact, which contains a model-free iteration process under a set of constraints in real and reciprocal spaces. A proof of concept is conducted by using the LoTToR on a phantom, i.e., a simulated 3D reconstruction from a low-tilt series of images, including that within a tilt range of ±15°. The method is validated by using both negative-staining (NS) and cryo-electron tomography (cryo-ET) experimental data. A significantly reduced missing-wedge artifact verifies the capability of LoTToR, suggesting a new tool to support the future study of macromolecular dynamics, fluctuation and chemical activity from the viewpoint of single-molecule 3D structure determination. Moreover, the software can be used for hospital computer tomography (CT) to reduce the radiation damage to patients without reducing the CT image quality.",
+    "homepageURL": "https://rengroup.lbl.gov/page6/page6-LoTToR-download.html",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LoTToR: An Algorithm for Missing-Wedge Correction of the Low-Tilt Tomographic 3D Reconstruction of a Single-Molecule Structure (LoTToR) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://rengroup.lbl.gov/page6/page6-LoTToR-download.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

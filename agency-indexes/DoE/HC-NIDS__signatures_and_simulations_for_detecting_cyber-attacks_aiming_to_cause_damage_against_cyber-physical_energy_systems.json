@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "aespiritu@lbl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Physical device safety is typically implemented locally using embedded controllers, while operations safety is primarily performed in control centers. Safe operations can be enhanced by correct design of device-level control algorithms, and protocols, procedures and operator training at the control-room level, but all can fail. Moreover, these elements exchange data and issue commands via vulnerable communication layers. In order to secure these gaps and enhance operational safety, we believe monitoring of command sequences must be combined with an awareness of physical device limitations and automata models that capture safety mechanisms. One way of doing this is by leveraging specification-based intrusion detection to monitor for physical constraint violations. The method can also verify that physical infrastructure state is consistent with monitoring information and control commands exchanged between field devices and control centers. This additional security layer enhances protection from both outsider attacks and insider mistakes. We implemented specification-based SCADA command analyzers using physical constraint algorithms directly in the Bro framework and Broccoli APIs for three separate scenarios: a water heater, an automated distribution system, and an over-current protection scheme. To accomplish this, we added low-level analyzers capable of examining control system-specific protocol packets for both Modbus TCP and DNP3, and also higher-level analyzers able to interpret device command and data streams within the context of each device's physical capabilities and present operational state. Thus the software that we are making available includes the Bro/Broccoli scripts for these three scenarios, as well as simulators, written in C, of those scenarios that generate sample traffic that is monitored by the Bro/Broccoli scripts. In addition, we have also implemented systems to directly pull cyber-physical information from the OSIsoft PI historian system. We have included the Python scripts used to perform that monitoring.",
+    "laborHours": 43487.2,
+    "name": "HC-NIDS: signatures and simulations for detecting cyber-attacks aiming to cause damage against cyber-physical energy systems",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/lbnl-cybersecurity/LBNL_Physics_Based_IDS/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbnl-cybersecurity/LBNL_Physics_Based_IDS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

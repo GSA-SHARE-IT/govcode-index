@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-08"
+    },
+    "description": "This piece of software is a new feature implemented inside an existing open-source library. Specifically, it is a new implementation of a density functional (HSE, short for Heyd-Scuseria-Ernzerhof) for a repository of density functionals, the libxc library. It fixes some numerical problems with existing implementations, as outlined in a scientific paper recently submitted for publication. Density functionals are components of electronic structure simulations, which model properties of electrons inside molecules and crystals.",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 0.0,
+    "languages": [
+        "C, any up-to-date compiler should suffice"
+    ],
+    "name": "HSE12 implementation in libxc",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

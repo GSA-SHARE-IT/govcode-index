@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-06-03",
+        "metadataLastUpdated": "2021-06-04"
+    },
+    "description": "Five computationally expensive stencil evaluation routines from SW4(https://github.com/geodynamics/sw4 GPL license) have been extracted and packaged with a driver to create a mini-app for evaluating compiler and GPU performance. The kernels can executed on AMD and Nvidia GPUs with and without RAJA. The kernel driver generates synthetic inputs, checks for correctness and measures kernel run times. ",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SW4 Curvilinear Kernels",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/SW4CK",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

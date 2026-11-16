@@ -1,0 +1,48 @@
+{
+    "id": 2025,
+    "name": "VistA Integration Adapter",
+    "organization": "OIT DSO",
+    "version": null,
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/foia-viab-vista-integration-adaptor",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "VIA",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "ASP.NET Core",
+        "Red Hat Enterprise Linux",
+        "Microsoft .NET Framework",
+        "Oracle Database",
+        "WebLogic Server",
+        "Java Enterprise Edition (Java EE)",
+        "Java Runtime Environment (JRE) - Oracle"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-28",
+        "lastModified": "2021-01-26",
+        "metadataLastUpdated": "2021-01-26"
+    },
+    "description": "Repository containing the FOIA Releases for VistA Integration Adapter"
+}

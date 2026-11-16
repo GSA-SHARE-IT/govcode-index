@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-25"
+    },
+    "description": "HOPSPACK is open source software for solving optimization problems without derivatives. Application problems may have a fully nonlinear objective function, bound constraints, and linear and nonlinear constraints. Problem variables may be continuous, integer-valued, or a mixture of both. The software provides a framework that supports any derivative-free type of solver algorithm. Through the framework, solvers request parallel function evaluation, which may use MPI (multiple machines) or multithreading (multiple processors/cores on one machine). The framework provides a Cache and Pending Cache of saved evaluations that reduces execution time and facilitates restarts. Solvers can dynamically create other algorithms to solve subproblems, a useful technique for handling multiple start points and integer-valued variables. HOPSPACK ships with the Generating Set Search (GSS) algorithm, developed at Sandia as part of the APPSPACK open source software project.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Hybrid Optimization Parallel Search PACKage",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/hopspack",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

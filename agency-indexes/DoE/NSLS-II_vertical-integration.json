@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "pgarvey@bnl.gov"
+    },
+    "date": {
+        "created": "2019-09-25",
+        "metadataLastUpdated": "2019-09-25"
+    },
+    "description": "Vertical integration testing for the NSLS-II data stack. vertical-integration is a fake library that tricks travis into building the outer product of the NSLS-II data stack for master and the latest point releases for all of our libraries on python 2.7 and 3.4.",
+    "laborHours": 91.2,
+    "languages": [],
+    "name": "NSLS-II/vertical-integration",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NSLS-II/vertical-integration",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "vcs": "git"
+}

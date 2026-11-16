@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2023-01-11",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The molecular graphics program, PyMol, was employed to produce all images in the training/validation/testing datasets. A\nPyMol script identified the clusters of interest from a list of all proteins containing 1) Fe (III) and Fe (II) ion and 2) FeS,\nrespectively. A PyMol script and a Python webscraper were also used to classify [2Fe-2S] cofactors into three classes:\nstandard, Rieske, and other and to identify iron atoms with four cysteine residues. We also used the pyMol script to rotate\namino acids for training",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/mlprotein",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/mlprotein",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

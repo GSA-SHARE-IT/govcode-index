@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-08"
+    },
+    "description": "The raw computational power GPU Accelerators enables fast denoising of 3D MR images using bilateral filtering, anisotropic diffusion, and non-local means. This software addresses two facets of this promising application: what tuning is necessary to achieve optimal performance on a modern GPU? And what parameters yield the best denoising results in practice? To answer the first question, the software performs an autotuning step to empirically determine optimal memory blocking on the GPU. To answer the second, it performs a sweep of algorithm parameters to determine the combination that best reduces the mean squared error relative to a noiseless reference image.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GPU-Accelerated Denoising in 3D (GD3D)",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

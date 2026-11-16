@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-08-29",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The system allows for multiple people to \"crowdsource\" feature generation and also enables the system to use these features to suggest alternative features to the user. The user interacts with a \"canvas\", where they position icons representing pieces of data. A unique feature is that the data can be heterogeneous -- some of the icons can represent images, while others could be text, audio, etc. After the user positions items on the screen to their satisfaction, they press a button to commit the X/Y coordinates of each icon to a central database, where these positions are added as a latent feature to each item. The user also has the option to request new, untouched data be added to the canvas, and the system positions each new item according the pattern it has learned from the original data. Another unique feature is that the user can ask the system to refine their initial rough work. The system uses information theoretic measures to determine which features in the database best explain how the user positioned the icons on the screen. It then attempts to *incrementally* optimize the positions on the screen to best explain those features it isolated. The user can then adjust the positions to correct the system, or the user can request additional refinement to further optimize the positions. In this way, by incorporating user feedback and crowdsourced features, the system reduces the time required for a user to develop a rich classification scheme for large amounts of data.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "An Interactive System for Crowdsourcing Features Generation and Building Classifiers for Machine Learning (\"Sharkzor\")",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

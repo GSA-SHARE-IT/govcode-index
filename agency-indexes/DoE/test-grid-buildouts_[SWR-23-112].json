@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-03-08",
+        "metadataLastUpdated": "2025-04-03"
+    },
+    "description": "Test-grid-buildouts is a set of notebooks for creating buildouts of synthetic transmission grids with various levels of renewable energy. Workflows can be used to augment various test grid with varying levels of wind/solar generation. Aggregated renewable energy time series (actuals and scenarios) at grid buses can then be used for various transmission grid operation problems. Highly customizable workflow consists of parsing of synthetic grid files, setting up SAM & reV simulations, application of exclusion masks, creating of custom renewable generators on the grid, aggregating of power time series, and writing of modified grid description files.",
+    "laborHours": 6824.8,
+    "languages": [
+        "Jupyter Notebook"
+    ],
+    "name": "test-grid-buildouts [SWR-23-112]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/test-grid-buildouts",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

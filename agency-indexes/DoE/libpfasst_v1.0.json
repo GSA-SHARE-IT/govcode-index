@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-07-11",
+        "metadataLastUpdated": "2018-07-11"
+    },
+    "description": "This is a Fortran 95/2003 implementation of the Parallel Full Approximation Scheme in Space and Time (PFASST), which is a method for the time parallelization of ordinary and partial differential equations.",
+    "laborHours": 16476.8,
+    "languages": [],
+    "name": "libpfasst v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/libpfasst/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-07-12",
+        "metadataLastUpdated": "2024-07-12"
+    },
+    "description": "This library is a collection of python modules that define, train, and analyze vision-transformer (ViT) machine learning models. The code implements, with mild modifications, ViT models that have been made publicly available through publication and GitHub code. The training data for these models is hydrodynamic simulation output in the form of numpy arrays. This library contains code to train these ViT models on the hydrodynamic simulation output with a variety of hyperparameters, and to compare the results of such models. Furthermore, the library contains definitions of simple convolutional neural network (CNN) machine learning architectures which can be trained on the same hydrodynamic simulation output. These are included as a reference point to compare the ViT models to. Additionally, the library includes trained ViT and CNN models and example input data for demonstration purposes. The code is based on the PyTorch python library.",
+    "laborHours": 2006.4,
+    "languages": [],
+    "name": "Hyperparameter Studies for Vision Transformers Trained on High-Fidelity Simulations",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/CNN-T2TViT-comparison",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

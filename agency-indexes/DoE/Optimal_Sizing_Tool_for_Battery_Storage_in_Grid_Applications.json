@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "The battery storage sizing tool developed at Pacific Northwest National Laboratory can be used to evaluate economic performance and determine the optimal size of battery storage in different use cases considering multiple power system applications. The considered use cases include i) utility owned battery storage, and ii) battery storage behind customer meter. The power system applications from energy storage include energy arbitrage, balancing services, T&D deferral, outage mitigation, demand charge reduction etc. Most of existing solutions consider only one or two grid services simultaneously, such as balancing service and energy arbitrage. ES-select developed by Sandia and KEMA is able to consider multiple grid services but it stacks the grid services based on priorities instead of co-optimization. This tool is the first one that provides a co-optimization for systematic and local grid services.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Optimal Sizing Tool for Battery Storage in Grid Applications",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

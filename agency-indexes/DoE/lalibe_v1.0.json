@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-11-12",
+        "metadataLastUpdated": "2019-09-23"
+    },
+    "description": "This is top-level lattice QCD code developed by employees at LBNL and LLNL. It currently compiles on top of the USQCD Chroma software stack. This code contains high-performance routines that are used in our research, and we intend to release this code publicly to ensure reproducibility and to meet our obligations for complying with the DOE Digital Data rules.",
+    "laborHours": 10822.4,
+    "languages": [],
+    "name": "lalibe v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/callat-qcd/lalibe",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

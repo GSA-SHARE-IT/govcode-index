@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-04-19",
+        "metadataLastUpdated": "2024-04-19"
+    },
+    "description": "The ThunderBoltz application programming interface (API) code is written in Python and is comprised of a set of tools to facilitate compilation of the ThunderBoltz code, as well as fast assembly and formatting of input files for the ThunderBoltz code, post-processing tools of ThunderBoltz results, plotting tools, and runs/schedules the ThunderBoltz code executable for calculations. The ThunderBoltz API code is utilized for importing and manipulating input cross section sets, input conditions, and any other simulation settings made available within the ThunderBoltz input deck via user-defined settings or via automatic generation. The API comes with a set of plotting capabilities of input cross sections, results from ThunderBoltz, and post-processed results carried out with the API.",
+    "laborHours": 5502.4,
+    "languages": [],
+    "name": "ThunderBoltz API",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/ThunderBoltz",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

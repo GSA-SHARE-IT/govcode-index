@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "mcarbone@bnl.gov"
+    },
+    "date": {
+        "created": "2023-10-01",
+        "metadataLastUpdated": "2023-10-01"
+    },
+    "description": "A greatly abstracted machine learning suite built for ease of use, powered by Hydra + Lightning",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Crescendo",
+    "organization": "Brookhaven National Laboratory (BNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://GitHub.com/matthewcarbone/crescendo",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Brookhaven National Laboratory (BNL)"
+    ],
+    "version": "0.0.1"
+}

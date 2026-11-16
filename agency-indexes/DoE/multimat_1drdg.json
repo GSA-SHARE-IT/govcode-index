@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-04",
+        "metadataLastUpdated": "2021-06-04"
+    },
+    "description": "The multimat_1drdg code is a one-dimensional code which is used to prototype the numerical method published in “Pandare, A. K., Waltz, J., & Bakosi, J. (2019). A Reconstructed Discontinuous Galerkin method for Multi-Material Hydrodynamics with Sharp-Interfaces. International Journal for Numerical Methods in Fluids.” It solves the multi-fluid dynamics equations (arbitrary number of fluids) using the third-order Reconstructed Discontinuous Galerkin (rDG) method. A few academic test problems from previous published literature are included as initial setup options.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "multimat_1drdg",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/multimat_1drdg",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

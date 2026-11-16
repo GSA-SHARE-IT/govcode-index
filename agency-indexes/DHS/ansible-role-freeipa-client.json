@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-07-06",
+        "lastModified": "2026-05-29"
+    },
+    "description": "An Ansible role for installing the prerequisites for FreeIPA clients.",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-freeipa-client/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-freeipa-client",
+    "laborHours": 796.3,
+    "languages": [
+        "Shell",
+        "Python",
+        "Jinja"
+    ],
+    "name": "ansible-role-freeipa-client",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-freeipa-client.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "ansible-role",
+        "freeipa"
+    ],
+    "vcs": "git"
+}

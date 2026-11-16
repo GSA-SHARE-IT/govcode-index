@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "myoon@ornl.gov"
+    },
+    "date": {
+        "created": "2024-08-13",
+        "metadataLastUpdated": "2024-09-17"
+    },
+    "description": "In the field of first-principles calculations, the creation and modification of input geometry files is a fundamental step. These files are essential for defining the atomic structures used in simulations and come in a variety of formats such as CIF, POSCAR, and XYZ. Traditionally, editing these files for specific requirements has been done manually or through GUI-based tools such as VESTA.\n\nHowever, manual and GUI-based methods fall short in high-throughput scenarios, especially when running on high-performance computing (HPC) systems. There, the need for fast and automated batch processing of geometry files becomes apparent - a need that is not adequately addressed by existing methods.\n\nThe Atomic Simulation Environment (ASE) Python library provides a robust solution with its array of geometry modification functions and support for multiple file types. However, this robustness comes at the cost of complexity: effective use of ASE requires knowledge of Python programming, which can be a hurdle for users who are not well versed in programming.\n\nTo address this gap, we developed a utility that encapsulates the functionality of ASE in a more accessible interface. This tool solves the problem of requiring extensive programming knowledge to manipulate geometry files in high-throughput computations. It provides a command-line solution that allows batch processing without the need for direct code intervention.\n\nIn addition, our tool enhances customization through user-generated plug-in files. This allows for customized modifications that can evolve as users' needs change. By simplifying the process of converting and modifying geometry files, our utility significantly reduces the effort required to prepare simulations for HPC environments.",
+    "laborHours": 1079.2,
+    "languages": [],
+    "name": "CompMatORNL - aseconv",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CompMatORNL/aseconv",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

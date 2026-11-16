@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-04",
+        "metadataLastUpdated": "2021-06-04"
+    },
+    "description": "Dante is a probabilistic flu forecasting model. The methodology was developed to produce real-time flu forecasts in the U.S. The software to execute Dante is a collection of R scripts and JAGS files. It takes publicly available data from the US Centers for Disease Control and Prevention (CDC) as input. It runs R scrips and JAGS code to produce model output. ",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Dante",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Dante",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

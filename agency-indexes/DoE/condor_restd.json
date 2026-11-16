@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-10",
+        "metadataLastUpdated": "2020-08-10"
+    },
+    "description": "htcondor-restd fork with auth and dockerfile. REST-based API for HTCondor, using the Python bindings. Currently allows read-only queries for jobs (in-queue and historical), configuration, and machine status.",
+    "laborHours": 440.8,
+    "languages": [],
+    "name": "condor_restd",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/htcondor-restd",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

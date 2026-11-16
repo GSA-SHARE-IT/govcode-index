@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-12-16",
+        "metadataLastUpdated": "2020-12-16"
+    },
+    "description": "Software including a Bayesian multitask learning model. The pipeline includes functionality to process data, train, evaluate models, and generate reports.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Bayesian Multitask with Structure Learning",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/bmsl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

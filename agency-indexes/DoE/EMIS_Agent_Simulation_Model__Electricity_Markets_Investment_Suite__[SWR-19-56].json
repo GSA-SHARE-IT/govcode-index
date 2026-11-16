@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2020-10-26",
+        "metadataLastUpdated": "2023-04-24"
+    },
+    "description": "The Electricity Markets Investment Suite Agent-based Simulation (EMIS-AS) model is an agent-based model developed at NREL for simulating annual investment and retirement decisions of heterogeneous investors in the electricity sector. EMIS-AS is designed to capture the evolution of the electricity generation portfolio resulting from the interactions of heterogeneous investors under different policy and market designs. EMIS-AS not only allows end-users to customize market products and rules, but also to capture investors' heterogeneous financing parameters, technology preferences, beliefs about the future (forecasts), ability to update those forecasts, and risk preferences under uncertainty.",
+    "laborHours": 5046.4,
+    "languages": [
+        "Julia"
+    ],
+    "name": "EMIS Agent Simulation Model (Electricity Markets Investment Suite) [SWR-19-56]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/EMISAgentSimulation.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

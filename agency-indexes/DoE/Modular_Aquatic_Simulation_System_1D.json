@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "MASS1 simulates open channel hydrodynamics and transport in branched channel networks, using cross-section averaged forms of the continuity, momentum, and convection diffusion equations. Thermal energy transport (temperature), including meteorological influences is supported. The thermodynamics of total dissolved gas (TDG) can be directly simulated. MASS1 has been developed over the last 20 years. It is currently being used on DOE projects that require MASS1 to beopen source. Hence, the authors would like to distribute MASS1 in source form.",
+    "laborHours": 9910.4,
+    "name": "Modular Aquatic Simulation System 1D",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/pnnl/mass1/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/mass1",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

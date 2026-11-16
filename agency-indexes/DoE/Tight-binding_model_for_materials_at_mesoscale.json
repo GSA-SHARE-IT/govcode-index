@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "TBM3 is an open source package for computational simulations of quantum materials at multiple scales in length and time. The project originated to investigate the multiferroic behavior in transition-metal oxide heterostructures. The framework has also been designed to study emergent phemona in other quantum materials like 2-dimensional transition-metal dichalcogenides, graphene, topological insulators, and skyrmion in materials, etc. In the long term, we will enable the package for transport and time-resolved phenomena. TBM3 is currently a C++ based numerical tool package and framework for the design and construction of any kind of lattice structures with multi-orbital and spin degrees of freedom. The fortran based portion of the package will be added in the near future. The design of TBM3 is in a highly flexible and reusable framework and the tight-binding parameters can be modeled or informed by DFT calculations. It is currently GPU enabled and feature of CPU enabled MPI will be added in the future.",
+    "laborHours": 4286.4,
+    "name": "Tight-binding model for materials at mesoscale",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/TDIV/TBM3/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/TDIV/TBM3",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2021-08-16"
+    },
+    "description": "DICe is an open source digital image correlation (DIC) tool intended for use as a module in an external application or as a standalone analysis code. It's primary capability is computing full-field displacements and strains from sequences of digital These images are typically of a material sample undergoing a materials characterization experiment, but DICe is also useful for other applications (for example, trajectory tracking). DICe is machine portable (Windows, Linux and Mac) and can be effectively deployed on a high performance computing platform. Capabilities from DICe can be invoked through a library interface, via source code integration of DICe classes or through a graphical user interface.",
+    "laborHours": 45128.8,
+    "languages": [],
+    "name": "Digital Image Correlation Engine v.3.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dicengine/dice",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "3.0"
+}

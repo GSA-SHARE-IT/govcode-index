@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The code would be used in analyses of data from the LHC, to improve the sensitivity of their experiments to new exotic particles. The software minimizes a certain function, as defined in the above reference, for some input provided by the user. The output to the user is the global minimum of that function. The code finds the global minimum using the Nelder-Mead algorithm. All the codes for the minimization including the Nelder-Mead algorithm, is written by the author. The software is written in c++.",
+    "laborHours": 0.0,
+    "name": "Topness, Version 1",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/michaelgraesser/topness/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/michaelgraesser/topness",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

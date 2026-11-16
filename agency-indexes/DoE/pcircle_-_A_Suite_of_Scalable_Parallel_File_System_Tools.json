@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Most of the software related to file system are written for conventional local file system, they are serialized and can't take advantage of the benefit of a large scale parallel file system. \"pcircle\" software builds on top of ubiquitous MPI in cluster computing environment and \"work-stealing\" pattern to provide a scalable, high-performance suite of file system tools. In particular - it implemented parallel data copy and parallel data checksumming, with advanced features such as async progress report, checkpoint and restart, as well as integrity checking.",
+    "laborHours": 3085.6,
+    "name": "pcircle - A Suite of Scalable Parallel File System Tools",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-TechInt/pcircle",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

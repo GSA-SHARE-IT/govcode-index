@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2020-03-03",
+        "metadataLastUpdated": "2020-03-03"
+    },
+    "description": "This tool traces all memory accesses to stack (static allocation) and heap (dynamic allocation) on a trace run in a particular hardware and then estimates execution time on given arbitrary hardware configurations for hardware design space exploration.\n\nIt can also compute memory access statistics, such as reuse distance.",
+    "laborHours": 6353.6,
+    "languages": [],
+    "name": "Memory Analysis Tool",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/mat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0.1"
+}

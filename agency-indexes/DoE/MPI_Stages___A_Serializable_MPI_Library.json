@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-12-19",
+        "metadataLastUpdated": "2020-07-30"
+    },
+    "description": "MPI library that supports serializing (and check-pointing) its MPI Stages is a communication library that allows nodes and programs in a computer cluster to communicate via the Message-Passing Interface (MPI).\n\nThe internal data objects of the library are serializable, i.e., the user can convert the MPI state or objects, such as groups or communicators, into byte streams and save them into a checkpoint file. \n\nLater users can load the checkpoint file and de-serialize previous objects into the library. \n\nSerialization/de-serialization is useful in MPI applications to recover from node failures.",
+    "laborHours": 9636.8,
+    "languages": [],
+    "name": "MPI Stages : A Serializable MPI Library",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/mpi-stages",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.9.0"
+}

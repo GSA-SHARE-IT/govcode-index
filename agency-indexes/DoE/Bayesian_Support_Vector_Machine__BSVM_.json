@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "A machine learning based approach is developed to detect events that have rarely been seen in the historical data. The data can include building energy consumption, sensor data, environmental data and any data that may affect the building's energy consumption. The algorithm is a modified nonlinear Bayesian support vector machine, which examines daily energy consumption profile, detect the days with abnormal events, and diagnose the cause of the events.",
+    "homepageURL": "https://store.pnnl.gov/content/bayesian-support-vector-machine-bsvm",
+    "laborHours": 0.0,
+    "languages": [
+        "Matlab R2014a"
+    ],
+    "name": "Bayesian Support Vector Machine (BSVM)",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://store.pnnl.gov/content/bayesian-support-vector-machine-bsvm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

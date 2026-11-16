@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-08"
+    },
+    "description": "Software tool based on a structured methodology for conducting laboratory biosafety risk assessments by biosafety experts. Software is based upon an MCDA scheme and uses peer reviewed criteria and weights. The software was developed upon Microsoft's .net framework. The methodology defines likelihood and consequence of a laboratory exposure for thirteen unique scenarios and provides numerical relative risks for each of the relevant thirteen. The software produces 2-d graphs reflecting the relative risk and a sensitivity analysis which highlights the overall importance of each factor. The software works as a set of questions with absolute scales and uses a weighted additive model to calculate the likelihood and consequence.",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 0.0,
+    "languages": [
+        "Windows.NET"
+    ],
+    "name": "Biosafety Risk Assessment Model",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

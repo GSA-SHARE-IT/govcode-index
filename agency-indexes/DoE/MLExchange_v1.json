@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-08-05",
+        "metadataLastUpdated": "2021-08-05"
+    },
+    "description": "A Machine Learning Platform that connects beamline scientists and machine learning (ML) researchers so that the ML researchers can quickly distribute their ML models to beamline scientists, and beamline scientists can give feedback to help ML researchers improve their models.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MLExchange v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mlexchange/mlex",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

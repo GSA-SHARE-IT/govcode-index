@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-01-25",
+        "metadataLastUpdated": "2018-01-26"
+    },
+    "description": "Swiftbat is a set of Python library routines and command-line utilities that have been developed for the purpose of retrieving, analyzing, and displaying data from NASA's Swift spacecraft, especially the data from the Swift Burst Alert Telescope (BAT).",
+    "laborHours": 744.8,
+    "name": "Swiftbat Python Library",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/swiftbat_python",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

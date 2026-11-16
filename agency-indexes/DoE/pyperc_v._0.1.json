@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2018-12-03",
+        "metadataLastUpdated": "2018-12-04"
+    },
+    "description": "pyperc is a Python package for invasion percolation which models multiphase fluid migration in porous \nmedia.  The model accounts for capillary pressure, buoyancy, and gravity.  Regular and unstructured grids can be used.  A tuning parameter can be set to adjust the stochastic nature of the process.  Graphics depict fluid migration according to the invasion pressure.\n",
+    "laborHours": 410.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "pyperc v. 0.1",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/pyperc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 0.1"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "The AST software includes numeric methods to 1) adjust STA/LTA signal detector trigger level (TL) values and 2) filter detections for a network of sensors. AST adapts TL values to the current state of the environment by leveraging cooperation within a neighborhood of sensors. The key metric that guides the dynamic tuning is consistency of each sensor with its nearest neighbors: TL values are automatically adjusted on a per station basis to be more or less sensitive to produce consistent agreement of detections in its neighborhood. The AST algorithm adapts in near real-time to changing conditions in an attempt to automatically self-tune a signal detector to identify (detect) only signals from events of interest.",
+    "laborHours": 319.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "Adaptive Self Tuning",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/Adaptive-Self-Tuning?tab=readme-ov-file#readme",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/Adaptive-Self-Tuning",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

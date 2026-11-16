@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-05-09",
+        "metadataLastUpdated": "2022-05-09"
+    },
+    "description": "The catemis python package includes the analysis methods used in paper \"DARHT Axis-II Dispenser-Cathode Emissivity and Temperature\", which was presented at the 2021 Weapons Engineering Symposium and Journal (WESJ) hosted by Los Alamos National Laboratory. The paper (LA-UR-21-25647) and presentation (LA-UR-21-28231) report on a temperature and emissivity model that has been developed and applied to data from diagnostics used to measure the surface temperature of the DARHT Axis-II hot dispenser cathode over more than a decade of operation. The catemis package provides all the methods used in reporting these results along with the data files used to create the plots and tables in the paper. This includes methods for loading and processing FAR spectral pyrometer data along with methods for temperature calibration of cathode images.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Python catemis package for DARHT Axis-II Dispenser-Cathode Emissivity and Temperature Analysis",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/koglin-LANL/catemis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

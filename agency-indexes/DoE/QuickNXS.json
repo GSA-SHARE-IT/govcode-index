@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Data reduction software for the Oak Ridge National Laboratory Spallation Neutron Source's Magnetism Reflectometer beam line 4A, used to extract reflectivity, off-specular and GISANS scattering from raw data in NeXus file format. The package consists of a Python library for the extraction and a Qt4 based graphical user interface to work with the data.",
+    "laborHours": 31631.2,
+    "name": "QuickNXS",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/aglavic/quicknxs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

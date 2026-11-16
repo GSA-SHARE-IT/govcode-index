@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-08-07",
+        "metadataLastUpdated": "2024-12-11"
+    },
+    "description": "Via-wind is an open-source tool for conducting visual impact assessments for wind turbines.\n\nIt combines geographic information system (GIS) and 3D simulation methods to account for the key factors driving the visual impact of installed wind turbines, including distance, viewing angle, turbine orientation, visual exposure, and the cumulative effects of multiple turbines.\n\nThis software is optimized for use in high-performance computing environments to enable large scale (e.g., country-wide) analysis, but can also be run on a single server or personal computer.\n\nFor more information, please see the related journal article: https://www.sciencedirect.com/science/article/pii/S0306261924021846",
+    "laborHours": 1900.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "via-wind (A Visual Impact Assessment Tool for Wind Turbines) [SWR-24-87]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/via-wind",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.12"
+}

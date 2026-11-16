@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-17",
+        "metadataLastUpdated": "2018-07-17"
+    },
+    "description": "C++ PolyFit is a simple least-squares polynomial fitter (Polynomial Regression) for C++.  It can fit multidimensional polynomials up to 3 dimensions (ie F(x,y,z)), evaluate them, and get derivatives and evaluate those.  It has convenience functions for getting 1st, and second derivatives, including mixed derivatives, but it can be used to get higher derivatives as well just by rerunning the derivers.\n",
+    "laborHours": 206203.2,
+    "languages": [],
+    "name": "C++ PolyFit",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/CxxPolyFit",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

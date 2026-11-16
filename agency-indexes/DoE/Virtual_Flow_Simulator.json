@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "vowelll@osti.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Virtual Flow Simulator (VFS) is a state-of-the-art computational fluid mechanics (CFD) package that is capable of simulating multi-physics/multi-phase flows with the most advanced turbulence models (RANS, LES) over complex terrains. The flow solver is based on the Curvilinear Immersed Boundary (CURVIB) method to handle geometrically complex and moving domains. Different modules of the VFS package can provide different simulation capabilities for specific applications ranging from the fluid-structure interaction (FSI) of solid and deformable bodies, the two-phase free surface flow solver based on the level set method for ocean waves, sediment transport models in rivers and the large-scale models of wind farms based on actuator lines and surfaces. All numerical features of VFS package have been validated with known analytical and experimental data as reported in the related journal articles. VFS package is suitable for a broad range of engineering applications within different industries. VFS has been used in different projects with applications in wind and hydrokinetic energy, offshore and near-shore ocean studies, cardiovascular and biological flows, and natural streams and river morphodynamics. Over the last decade, the development of VFS has been supported and assisted with the help of various United States companies and federal agencies that are listed in the sponsor lists. In this version, VFS-Wind contains all the necessary modeling tools for wind energy applications, including land-based and offshore wind farms. VFS is highly scalable to run on either desktop computers or high performance clusters (up to 16,000 CPUs). This released version comes with a detailed user’s manual and a set of case studies designed to facilitate the learning of the various aspects of the code in a comprehensive manner. The included documentation and support material has been elaborated in a collaboration effort with Sandia National Labs under the contract DE-EE0005482. The VFS-Wind source code is distributed under the GNU General Public License (GPL 2.0), offering to the community the flexibility to use and expand the capabilities of the package. We note that future publications including academic journals that result from the use of VFS must be cited appropriately under the GPL v.2 license agreement.",
+    "laborHours": 31053.6,
+    "name": "Virtual Flow Simulator",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/SAFL-CFD-Lab/VFS-Wind",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

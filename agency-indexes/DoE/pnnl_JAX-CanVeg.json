@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-09-26",
+        "metadataLastUpdated": "2024-09-26"
+    },
+    "description": "Differentiable land surface model reimplementing an existing simulator, CANOAK, in JAX—a Google-developed Python package for high-performance machine learning research using automatic differentiation. The model's\npurpose is to perform hybrid land surface modeling that seamlessly couples process-based components with deep neural\nnetworks",
+    "laborHours": 18118.4,
+    "languages": [],
+    "name": "pnnl/JAX-CanVeg",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/JAX-CanVeg",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

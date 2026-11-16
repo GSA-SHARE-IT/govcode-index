@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2017-12-18",
+        "lastModified": "2026-11-06"
+    },
+    "description": "Automated pshtt, trustymail, and sslyze scanning",
+    "downloadURL": "https://api.github.com/repos/cisagov/scanner/downloads",
+    "homepageURL": "https://github.com/cisagov/scanner",
+    "laborHours": 914.6,
+    "languages": [
+        "Shell",
+        "Dockerfile",
+        "Python"
+    ],
+    "name": "scanner",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/scanner.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "cisa-directives"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-10-09",
+        "metadataLastUpdated": "2024-01-17"
+    },
+    "description": "RouteE Compass is an energy-aware routing engine for the NREL-developed RouteE ecosystem of software tools with the following key features:\n\n- Dynamic and extensible search objectives that allow customized blends of distance, time, cost, and energy (via RouteE Powertrain) at query-time\n\n- Core engine written in Rust for improved runtimes, parallel query execution, and the ability to load nation-sized road networks into memory\n\n-Rust, HTTP, and Python APIs for integration into different research pipelines and other software\n\nRouteE Compass is a part of the RouteE family of mobility tools created at the National Renewable Energy Laboratory (NREL).",
+    "laborHours": 0.0,
+    "languages": [
+        "Rust",
+        "Python"
+    ],
+    "name": "RouteE-Compass [SWR-23-95]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/routee-compass",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "v0.6.1"
+}

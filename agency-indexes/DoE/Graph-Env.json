@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-04-22",
+        "metadataLastUpdated": "2022-06-22"
+    },
+    "description": "The Graph-Env library provides a framework for adapting graph search problems into OpenAI Gym environments for reinforcement learning. In other words, Graph-Env enables reinforcement learning algorithms to be applied to graph search problems. Graph search problems include molecule and crystal structure design problems; route planning problems, including traveling salesperson problem; puzzles and games, such as chess and go; shortest path problems; minimum spanning tree; vehicle path generation; and others.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Graph-Env",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/graph-env",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

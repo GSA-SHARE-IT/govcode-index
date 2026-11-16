@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "The functionality of the software is to expand upon the concept of software defined anything/everything (SDX) and apply it to Federally Funded Research and Development Centers (FFRDCs).",
+    "laborHours": 60.8,
+    "languages": [
+        "Dockerfile",
+        "Shell"
+    ],
+    "name": "Federally Funded Research and Development Centers-as-Code V.1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/fac",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

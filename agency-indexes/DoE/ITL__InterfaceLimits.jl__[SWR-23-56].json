@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-06-21",
+        "metadataLastUpdated": "2023-07-06"
+    },
+    "description": "Network flow of electrical power is governed by Kirchhoff's laws which make calculating the power transfer capacity across interfaces connecting groups of nodes complex. This package leverages the capabilities of Sienna\\Data to build and solve interface limit calculation problems.",
+    "laborHours": 0.0,
+    "languages": [
+        "Julia"
+    ],
+    "name": "ITL (InterfaceLimits.jl) [SWR-23-56]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/nrel-sienna/InterfaceLimits.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

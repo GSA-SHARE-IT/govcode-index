@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "A hybrid demand response simulator is developed to test different control algorithms for centralized and distributed demand response (DR) programs in a small distribution power grid. The HDRS is designed to model a wide variety of DR services such as peak having, load shifting, arbitrage, spinning reserves, load following, regulation, emergency load shedding, etc. The HDRS does not model the dynamic behaviors of the loads, rather, it simulates the load scheduling and dispatch process. The load models include TCAs (water heaters, air conditioners, refrigerators, freezers, etc) and non-TCAs (lighting, washer, dishwasher, etc.) The ambient temperature changes, thermal resistance, capacitance, and the unit control logics can be modeled for TCA loads. The use patterns of the non-TCA can be modeled by probability of use and probabilistic durations. Some of the communication network characteristics, such as delays and errors, can also be modeled. Most importantly, because the simulator is modular and greatly simplified the thermal models for TCA loads, it is very easy and fast to be used to test and validate different control algorithms in a simulated environment.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "Matlab/Simlink"
+    ],
+    "name": "A Hybrid Demand Response Simulator Version 1.0",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

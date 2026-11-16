@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-11-14",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Transparent Asynchronous Zero-copy Remote I/O (TAZeR) is a framework built to facilitate grid computing by easing the memory movement and management across geographically separated computing resources. TAZeR employs a multiclient/\nmulti-server paradigm where data is stored at on a remote server. Users preload an interposing library which upon application start-up, stands up an ephemeral lightweight client. The client captures POSIX I/O calls to TAZeR meta-files which contains the IP address/port of the remote server, the location of the file on remote server, and additional meta-data.\nThe client connects to the server using this information and begins downloading the file in parts optionally compressing the data.",
+    "laborHours": 8648.8,
+    "languages": [],
+    "name": "Transparent Asynchronous Zero-copy Remote I/O (TAZeR)",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/tazer",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

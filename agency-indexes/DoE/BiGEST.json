@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2025-03-07",
+        "metadataLastUpdated": "2025-03-07"
+    },
+    "description": "Natural products have provided a rich reservoir of beneficial compounds in public health including antibiotics, therapeutics, and immunosuppressants. These natural products are synthesized by enzymes encoded by Biosynthetic Gene Clusters (BGCs), clusters of co-localized biosynthetic genes. Computational detection of BGCs has become a crucial step in natural product discovery. While this process has been facilitated in bacterial and fungal organisms thanks to the currently available tools (e.g., antiSMASH), a large spectrum of eukaryotic organisms have been neglected by these existing tools due to the scarcity and incompleteness of genome annotation resources. Here, we introduce Biosynthetic Gene cluster Extensive Search Tool (BiGEST) to provide an extensive annotation-free search for BGCs in diverse eukaryotic organisms. As a result, BiGEST uncovers eukaryotic BGCs that could be undetected by other BGC detection tools.",
+    "laborHours": 5639.2,
+    "languages": [],
+    "name": "BiGEST",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/BiGEST",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2025-03-31",
+        "metadataLastUpdated": "2025-03-31"
+    },
+    "description": "The Program for Climate Model Diagnosis & Intercomparison (PCMDI) Metrics Package (PMP) is used to\nprovide \"quick-look\" objective comparisons of Earth System Models (ESMs) with one another and\navailable observations. The PMP provides a diverse suite of analysis utilities each of which produce\nsummary statistics that gauge the consistency between climate model simulations and available\nobservations. The primary application of the PMP is to evaluate simulations from the Coupled Model\nIntercomparison Project (CMIP). It can also be used to provide objective performance summaries during\nthe model development process as well as selected research purposes.",
+    "laborHours": 173112.8,
+    "languages": [],
+    "name": "PCMDI Metrics Package",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PCMDI/pcmdi_metrics",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "3.8.2"
+}

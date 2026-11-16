@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-11-03",
+        "metadataLastUpdated": "2021-11-03"
+    },
+    "description": "HyRAM+ is a software toolkit for conducting quantitative risk assessment (QRA) and consequence modeling for hydrogen and other alternative fuels infrastructure and transportation systems. HyRAM+ contains validated, simplified release behavior models, a standardized QRA approach, and engineering models and generic data relevant to hydrogen installations. HyRAM (hydrogen-only) versions 1.0 to 3.1 were developed by Sandia for the U.S. Department of Energy (DOE) Hydrogen and Fuel Cell Technologies Office (HFTO). The U.S. DOE Vehicle Technologies Office (VTO) and U.S. Department of Transportation (DOT) Pipeline and Hazardous Material Safety Administration (PHMSA) contributed to the development of HyRAM+ version 4.0 regarding the addition of methane (natural gas) and propane models. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525. SAND2021-10862 O",
+    "laborHours": 21508.0,
+    "languages": [],
+    "name": "HyRAM+ (Hydrogen Plus Other Alternative Fuels Risk Assessment Models) v.4.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/hyram",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 4.0"
+}

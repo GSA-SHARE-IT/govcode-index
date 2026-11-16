@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-11-06",
+        "metadataLastUpdated": "2021-04-27"
+    },
+    "description": "Gear-SCouP is an analytical model for the rating analysis of articulated spline coupling designs. Articulated splines are commonly used in the planetary stage of wind turbine gearboxes as the means of transmitting the driving torque while also improving load sharing. Direct measurement of spline loads and performance is extremely challenging because of limited accessibility and spline design standards are limited. For a given torque and shaft misalignment, Gear-SCouP quickly yields physical insights into relationships between the spline design parameters and resulting loads, bending, contact, and shear stresses, and safety factors considering various heat treatment methods. Results of this analytical model are compared well against several computational approaches under moderate misalignment. The computational time of Gear-SCouP is significantly less than other FE-based tools.",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "Gear-SCouP",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/GEAR-SCouP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

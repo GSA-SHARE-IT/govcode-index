@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2019-08-23"
+    },
+    "description": "The TAO project focuses on the development of software for large scale optimization problems. TAO uses an object-oriented design to create a flexible toolkit with strong emphasis on the reuse of external tools where appropriate. Our design enables bi-directional connection to lower level linear algebra support (for example, parallel sparse matrix data structures) as well as higher level application frameworks. The Toolkist for Advanced Optimization (TAO) is aimed at teh solution of large-scale optimization problems on high-performance architectures. Our main goals are portability, performance, scalable parallelism, and an interface independent of the architecture. TAO is suitable for both single-processor and massively-parallel architectures. The current version of TAO has algorithms for unconstrained and bound-constrained optimization.",
+    "laborHours": 738613.6,
+    "languages": [],
+    "name": "TOOLKIT FOR ADVANCED OPTIMIZATION",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/petsc/petsc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

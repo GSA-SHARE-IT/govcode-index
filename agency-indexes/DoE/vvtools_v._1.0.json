@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "Vvtools is a suite of testing tools, with a focus on reproducible verification and validation. They are written in pure Python, and contain a test harness and an automated process management tool. Users of vvtools can develop suites of verification and validation tests and run them on small to large high performance computing resources in an automated and reproducible way. The test harness enables complex processes to be performed in each test and even supports a one-level parent/child dependency between tests. It includes a built in capability to manage workloads requiring multiple processors and platforms that use batch queueing systems.",
+    "laborHours": 26326.4,
+    "languages": [
+        "Python",
+        "Shell"
+    ],
+    "name": "vvtools v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/vvtest",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

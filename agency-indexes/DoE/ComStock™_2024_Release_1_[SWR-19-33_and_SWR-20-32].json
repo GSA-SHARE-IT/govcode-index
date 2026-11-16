@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2024-04-26",
+        "metadataLastUpdated": "2024-04-26"
+    },
+    "description": "ComStock™ is an NREL model of the U.S. commercial building stock. The model takes some building characteristics from the U.S. Department of Energy's (DOE's) Commercial Prototype Building Models and Commercial Reference Building. However, unlike many other building stock models, ComStock also combines these with a variety of additional public- and private-sector data sets. Collectively, this information provides high-fidelity building stock representation with a realistic diversity of building characteristics.\n\nThis repository contains the source code used to build and execute ComStock models, including upgrade scenarios. In addition, the sampling of buildings characteristics used for the initial ComStock (V1.0) release is provided. The ComStock model is under active calibration and development, which is publicly visible on this repository.\n\nExecution of the ComStock workflow is managed through the buildstockbatch repository, a shared asset of ResStock™  and ComStock™ , specifically developed to scale to execution of tens of millions of simulations through multiple infrastructure providers.\n\nThe dataset output from the initial ComStock (V1.0) release can be found at the accompanying ComStock data viewer website and additional information about ComStock found on the NREL Buildings Website. For more details about ongoing model development please consult the End Use Load Profiles website.\n\nComStock is a direct result of the NREL residential stock modeling tool ResStock™  (recipient of a R&D100 award) and was inspired by the high-fidelity solar & storage adoption model dGen™. Additionally, this tool would not be possible without the decades of work undertaken by the OpenStudio® and EnergyPlus® visionaries and contributors, significant funding, feedback and support from the Los Angeles Department of Water and Power, and the Department of Energy's Building Technology Office ongoing support of and investment in building energy modeling software.\n\n is an analytic methodology for modeling the energy usage of the commercial building stock within the United States of America. The commercial building stock is represented through a sampling of complex probabilistic distributions of various features of interest for modeling energy usage within commercial buildings. Each sample from these distributions is converted into a building energy model based on the features of that specific sample. Each building energy model can be simulated as is, but additional changes can be made to the model through addition of energy conservation measures, component faults, or other desired alterations. The results of the simulations are then processed to provide insights for various stakeholders, including but not limited to policy makers, engineers, and marketers.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "Ruby"
+    ],
+    "name": "ComStock™ 2024 Release 1 [SWR-19-33 and SWR-20-32]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/ComStock",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "2024 Release 1"
+}

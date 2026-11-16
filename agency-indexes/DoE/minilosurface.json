@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "awander@sandia.gov"
+    },
+    "date": {
+        "created": "2018-08-24",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "The miniIsosurface package provides a collection of reference implementations for finding a representation for a contour of a scalar field in a volume. Contouring is a well-studied algorithm in scientific visualization and there are many algorithm variations to solve it. The miniIsosurface package provides a convenient collection of the most popular variations of the contour algorithm and some variations to run in different parallel environments.",
+    "laborHours": 12737.6,
+    "languages": [
+        "C++",
+        "CMakefile",
+        "C",
+        "Makefile",
+        "Cuda"
+    ],
+    "name": "minilosurface",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/miniIsosurface",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

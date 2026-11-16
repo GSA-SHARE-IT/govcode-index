@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "pnorbert@ornl.gov"
+    },
+    "date": {
+        "created": "2022-07-05",
+        "metadataLastUpdated": "2022-07-07"
+    },
+    "description": "ADIOS 2: The Adaptable Input Output (I/O) System version 2 is an open-source framework that addresses scientific data management challenges, e.g. scalable parallel I/O, as we approach the exascale era in high-performance computing (HPC). ADIOS 2 bindings are available in C++, C, Fortran, Python and can be used on supercomputers, personal computers, and cloud systems running on Linux, macOS and Windows. ADIOS 2 has out-of-the-box support for MPI and serial environments.",
+    "laborHours": 428229.6,
+    "languages": [
+        "C++",
+        "C",
+        "C",
+        "Fortran",
+        "Python"
+    ],
+    "name": "ornladios/ADIOS2",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ornladios/ADIOS2",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "2.8.0"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2023-04-04",
+        "metadataLastUpdated": "2023-04-04"
+    },
+    "description": "The ezAlign is aimed at clustering coarse grain simulation to find common or uncommon occurrences and convert coarse (CG) grained coordinate and topology files to atomistic formats. We use a PointNet based approach to map individual frames of simulation to points in a latent space. These points are then clustered using a variety of clustering methods. Clusters are analyzed to associate them with states in the simulation. Frames can be chosen from these clusters based on proximity to cluster centers. ezAlign takes CG coordinate and topology files and converts and outputs their corresponding atomistic formats using an alignment and relaxation procedure. ezAlign is designed to convert complex, solvated biological systems including lipid membranes with drug-like molecules using GROMACS. A GROMACS checkpoint (.cpt) file is also outputted to enable continuation simulations that retain the equilibrated atomic velocities. Independent atomistic coordinates and topologies for every molecule must already be included in ezAlign/files. A number of commonly simulated biological molecules are currently provided.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ezAlign",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ezAlign",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2025-03-31",
+        "metadataLastUpdated": "2025-03-31"
+    },
+    "description": "This software provides methods and functions for training deep image classification models based on the\nprinciple of anchoring. It features a user-friendly PyTorch wrapper that facilitates the easy conversion of\nany model into an anchored model. The software supports various standard datasets and includes scripts\nfor conducting evaluations. Developed with PyTorch, it is compatible with common neural network\narchitectures used for image data. Additionally, it offers tools for computing evaluation metrics to assess\nmodel performance.",
+    "laborHours": 2872.8,
+    "languages": [],
+    "name": "Anchoring",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/anchoring",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

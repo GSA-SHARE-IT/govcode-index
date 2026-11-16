@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2023-08-28",
+        "metadataLastUpdated": "2023-08-28"
+    },
+    "description": "The Regional Energy Deployment System (ReEDS™) Model 2.0 is a free, open-access tool that empowers users to explore least-cost pathways for large-scale power sector transformation. NREL's flagship energy capacity planning model for the North American electricity system allows users to examine the interactions between policy, technology, economics, and the environment when integrating renewables onto the grid from now through 2050.\n\nThis GitHub repository contains the source code for NREL's ReEDS™ 2.0model. Users of this source code agree to the ReEDS licensing agreement: https://nrel.gov/analysis/reeds/request-access.html.\n\n The ReEDS 2.0 model source code is available at no cost from the National Renewable Energy Laboratory (NREL). The ReEDS 2.0 model can be downloaded or cloned from https://github.com/NREL/ReEDS_OpenAccess. New users must request access to the ReEDS repository through https://nrel.gov/analysis/reeds/request-access.html.\n\nA ReEDS training video (recorded in July 2020 and based on the 2019 version of ReEDS) is available on the NREL YouTube channel at https://youtu.be/Cdo27F18AZA. In addition, the Open-Access ReEDS Webinar from October 2019 gives an overview of the 2019 ReEDS model and how it works (https://www.youtube.com/watch?v=QpRtvs_0kkA).",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "R",
+        "GAMS",
+        "Jupyter Notebook"
+    ],
+    "name": "ReEDS™ 2.0 (Regional Energy Deployment System Model) Version 2.0 [SWR-20-36 and SWR-09-14]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/ReEDS-2.0",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "Version 2.0"
+}

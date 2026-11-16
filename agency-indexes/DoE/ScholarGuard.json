@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-12-13",
+        "metadataLastUpdated": "2024-12-13"
+    },
+    "description": "The ScholarGuard framework aims to address the gap in archiving and preservation efforts for scholarly artifacts beyond traditional research papers, such as software source code, datasets, presentation slides, workflows, protocols, videos, and more. It introduces a prototype system designed to automatically track researchers' outputs across various scholarly productivity portals on the open web, including platforms like GitHub, Slideshare, Figshare, and Wikipedia.\nThe system detects the availability of new scholarly artifacts and applies modern web archiving technology to create a durable archival record, including high-level metadata for each artifact. This metadata is displayed within the system, linking both to the live version and the archived version of the resource, ensuring long-term accessibility and preservation of diverse research outputs.\nThe software serves as a critical tool for preserving the broader spectrum of scholarly contributions, facilitating visibility, searchability, and long-term access to research artifacts beyond the traditional scope of journal publications.",
+    "laborHours": 52531.2,
+    "languages": [],
+    "name": "ScholarGuard",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/ScholarGuard",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

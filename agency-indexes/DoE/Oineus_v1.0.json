@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-07",
+        "metadataLastUpdated": "2021-04-07"
+    },
+    "description": "A library for multi-threaded computation of persistence diagrams. The algorithm for computing persistence diagrams in a lock-free manner was published in the 'Towards Lock-free Persistent Homology' (D. Morozov, A. Nigmetov, Brief Announcement: SPAA 2020); it scales better than the only other shared-memory parallel implementation of persistent homology computation PHAT. Library includes python bindings to compute persistence diagrams and their vectorizations for lower-star filtrations on grid data. It is intended to be used by scientists working on Topological Data Analysis and its applications in different areas.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Oineus v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/grey-narn/oineus",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

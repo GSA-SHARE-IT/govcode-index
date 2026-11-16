@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-09-15",
+        "metadataLastUpdated": "2022-09-15"
+    },
+    "description": "Learning Planar Ising Models is a software package written in Matlab for learning relationships among variable in a dataset using graphical models. The software package implements a generally-applicable algorithm for learning planar Ising models from any multivariate dataset. The code provides an algorithm for learning the best planar Ising model to approximate an arbitrary collection of binary random variables (possibly from sample data). Given the set of all pairwise correlations among variables, we select a planar graph and optimal planar Ising model defined on this graph to best approximate that set of correlations. The software includes demonstrations of the algorithm in simulations and for applications on publicly available datasets. Details of the algorithm, demonstration simulations, and applications are given in Johnson, et al; 2016. Reference: Johnson, J. K., Oyen, D., Chertkov, M., and Netrapalli, P. (2016). Learning planar Ising models. Journal of Machine Learning Research.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Learning Planar Ising Models Software",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/planar-ising",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

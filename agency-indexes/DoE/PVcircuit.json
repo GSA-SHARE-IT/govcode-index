@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-05-18",
+        "metadataLastUpdated": "2022-05-18"
+    },
+    "description": "The software contains objects that are building blocks for PV modeling and interactive data fitting based on: Optoelectronic models for tandem/multijunction solar cells including resistive and luminescent coupling; simulation of modules composed of 2T, 3T, and 4T tandem solar cells; and energy yield analysis of PV systems composed of tandem solar cells.",
+    "laborHours": 0.0,
+    "languages": [
+        "Jupyter Notebook",
+        "python"
+    ],
+    "name": "PVcircuit",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/PVcircuit",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

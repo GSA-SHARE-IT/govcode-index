@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2023-12-14"
+    },
+    "description": "pBEAM (Polynomial Beam Element Analysis Module) is a finite element method for beam-like structures.",
+    "laborHours": 75118.4,
+    "languages": [
+        "C++",
+        "C",
+        "Fortran",
+        "Python"
+    ],
+    "name": "pBEAM (Polynomial Beam Element Analysis Module) [SWR-13-20]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/wisdem/pbeam",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

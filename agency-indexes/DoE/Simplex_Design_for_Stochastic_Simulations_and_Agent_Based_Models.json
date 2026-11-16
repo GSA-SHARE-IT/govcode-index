@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-12-02",
+        "metadataLastUpdated": "2019-12-02"
+    },
+    "description": "Simplexdesign is a small collection of tools for the design of statistical experiments on Agent \nBased Models.\n\nIt includes a coordinate exchange algorithm for homogeneous agents, and more generally any simplex.  \n\nThere is also an optimization algorithm for the case with multiple classes of homogeneous agents.",
+    "laborHours": 136.8,
+    "languages": [],
+    "name": "Simplex Design for Stochastic Simulations and Agent Based Models",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/simplexdesign",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

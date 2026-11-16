@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Simple Ontology Format (SOFT) library and file format specification provides a set of simple tools for developing and maintaining ontologies. The library, implemented as a perl module, supports parsing and verification of the files in SOFt format, operations with ontologies (adding, removing, or filtering of entities), and converting of ontologies into other formats. SOFT allows users to quickly create ontologies using only a basic text editor, verify it, and portray it in a graph layout system using customized styles.",
+    "laborHours": 684.0,
+    "name": "Simple Ontology Format (SOFT)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sorokine/SOFT/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sorokine/SOFT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

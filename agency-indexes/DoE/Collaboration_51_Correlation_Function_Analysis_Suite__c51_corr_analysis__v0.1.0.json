@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-08-02",
+        "metadataLastUpdated": "2023-08-02"
+    },
+    "description": "This is a data analysis package designed for analyzing correlation functions generated with lattice QCD calculations. The purpose is to make a centralized software suite for use by all members of my collaboration, so that various members can spend less time developing their own analysis codes, and more time extracting the interesting physics from our calculations. There are also 3 independent collaborations that have expressed interest in using this code, so there is some expectation it will be used in the broader international lattice QCD community.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Collaboration 51 Correlation Function Analysis Suite (c51_corr_analysis) v0.1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/callat-qcd/c51_corr_analysis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

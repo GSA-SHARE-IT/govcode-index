@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The Ring current Atmosphere interactions Model with Self-Consistent magnetic field (B) is a unique code that combines a kinetic model of ring current plasma with a three dimensional force-balanced model of the terrestrial magnetic field. The kinetic portion, RAM, solves the kinetic equation to yield the bounce-averaged distribution function as a function of azimuth, radial distance, energy and pitch angle for three ion species (H+, He+, and O+) and, optionally, electrons. The domain is a circle in the Solar-Magnetic (SM) equatorial plane with a radial span of 2 to 6.5 RE. It has an energy range of approximately 100 eV to 500 KeV. The 3-D force balanced magnetic field model, SCB, balances the JxB force with the divergence of the general pressure tensor to calculate the magnetic field configuration within its domain. The domain ranges from near the Earth’s surface, where the field is assumed dipolar, to the shell created by field lines passing through the SM equatorial plane at a radial distance of 6.5 RE. The two codes work in tandem, with RAM providing anisotropic pressure to SCB and SCB returning the self-consistent magnetic field through which RAM plasma is advected.",
+    "laborHours": 81259.2,
+    "name": "Ring current Atmosphere interactions Model with Self-Consistent Magnetic field",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/lanl/RAM-SCB/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/RAM-SCB",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

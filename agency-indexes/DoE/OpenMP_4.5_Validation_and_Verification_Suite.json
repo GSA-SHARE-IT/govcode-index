@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "OpenMP, a directive-based programming API, introduce directives for accelerator devices that programmers are starting to use more frequently in production codes. To make sure OpenMP directives work correctly across architectures, it is critical to have a mechanism that tests for an implementation's conformance to the OpenMP standard. This testing process can uncover ambiguities in the OpenMP specification, which helps compiler developers and users make a better use of the standard. We fill this gap through our validation and verification test suite that focuses on the offload directives available in OpenMP 4.5.",
+    "laborHours": 12479.2,
+    "languages": [
+        "C/C++/Fortran"
+    ],
+    "name": "OpenMP 4.5 Validation and Verification Suite",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/crpl_cisc/sollve_vv",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-05-12",
+        "metadataLastUpdated": "2020-05-12"
+    },
+    "description": "A whole cell model (WCM) is a comprehensive multi-scale computational model representing all the\nknown biochemical processes in a cell. It relies on a variety of intracellular pathway models and omics\ndata.\nThis computational framework enables seamless integration of diverse simulation methods used in WCM\nsuch as stochastic simulation algorithm (SSA), ordinary differential equations (ODE), flux balance\nanalysis (FBA), and logic-based approaches. These methods run simultaneously, not only for whole\npathways but also for subsets of reactions. Furthermore, we aim to enable dynamic switching between\nthe methods when beneficial.\nIs",
+    "laborHours": 12084.0,
+    "languages": [],
+    "name": "Whole cell simulator",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/wcs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.4.0"
+}

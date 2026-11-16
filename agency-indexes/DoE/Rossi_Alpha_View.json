@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-11-05",
+        "metadataLastUpdated": "2021-11-05"
+    },
+    "description": "Rossi Alpha View (RAV) is a teaching aid for explaining what a Rossi-alpha distribution is and how it is generated. The software provides graphical user interface (GUI) in which a pulse train is shown from which a Rossi-alpha distribution is generated as pulses appear. The source strength, correlated fraction, and speed of the pulse train can be adjusted as well as the die-away time and efficiency of the hypothetical detector from which the pulses would be generated. Additionally, neutron coincidence counting principles are illustrated through the software by showing a reals plus accidentals (R+A) gate and an accidentals (A) gate with an adjustable pre-delay, gate width, and long delay.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Rossi Alpha View",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/RossiAlphaView",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "The CLOMP_TM benchmark was developed to measure the overheads of various mechanisms used to guarantee the generation of correct results in threaded code even when multiple threads might be accessing and/or updating the same memory location at the same time. This includes widely supported mechanisms like OpenMP Atomic and Open MP Critical as well as new mechanisms like Transactional Memory (TM) and Speculative Execution (SE) of threads. The CLOMP_TM benchmark is highly configurable to allow a variety of problem sizes, atomic update region sizes, and potential race condition opportunities to be studied. A wide variety of checks are done on the results to verify the expected answer was actually generated. Thus CLOMP_TM can be used both to measure the overhead for various mechanisms and to check the correctness of their implementation.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "CLOMP_TM",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.osti.gov/osti-public/clomp-tm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

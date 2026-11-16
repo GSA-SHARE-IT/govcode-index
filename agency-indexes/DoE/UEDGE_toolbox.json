@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2023-03-28",
+        "metadataLastUpdated": "2023-03-29"
+    },
+    "description": "The UEDGE Toolbox supplies an object-based interface and a wide array of tools used for running and analyzing UEDGE simulations. The toolbox provides routines for setting up UEDGE cases using YAML input files, shorthand commands for restoring converged solutions, as well as plotting profiles and surface plots of any of the parameters in UEDGE. Furthermore, the toolbox provides the necessary objects for compiling and analyzing parameter scans consisiting of several UEDGE simulations.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "UEDGE toolbox",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/UETOOLS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

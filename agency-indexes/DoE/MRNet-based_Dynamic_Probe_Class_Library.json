@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-09-22",
+        "metadataLastUpdated": "2020-10-02"
+    },
+    "description": "The Dynamic Probe Class Library (DPCL) is an API that allows for the modification of running code, or dynamic instrumentation. Dynamic instruction is an attractive technique for implementing performance analysis tools, debugging, or process steering because this method doesn't require the modification of the application's source code and hence avoids recompiling, re-linking, and restarting the application. The DPCL API is machine independent; hence DPCL-based tools built on one platform will work on another platform",
+    "homepageURL": "https://sourceforge.net/projects/dpcl/files",
+    "laborHours": 83296.0,
+    "languages": [
+        "C, C++"
+    ],
+    "name": "MRNet-based Dynamic Probe Class Library",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://opensource.org/licenses/IPL-1.0",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sourceforge.net/projects/dpcl/files",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

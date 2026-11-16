@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-06",
+        "metadataLastUpdated": "2020-06-01"
+    },
+    "description": "HPCToolkit is a suite of tools for measurement and analysis of program performance. It uses hardware counters to sample the execution of a multithreaded and/or multiprocess program, enabling fine-grain measurement without modifying the source code.\n",
+    "laborHours": 104697.6,
+    "languages": [],
+    "name": " HPCToolkit",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/HPCToolkit/hpctoolkit",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

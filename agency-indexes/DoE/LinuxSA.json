@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2018-08-28",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "Collection of Linux scripts and libraries to aid in common administration tasks and automation. Scripts are for LDAP, nagios, ansible, automatic emailing, license managers, and supporting functions",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LinuxSA",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholabUnsupported/LinuxSA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

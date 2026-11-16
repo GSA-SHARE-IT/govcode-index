@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "NREL_WISDEM is an integrated model for wind turbines and plants developed In python based on the open source software OpenMDAO. NREL_WISDEM is a set of wrappers for various wind turbine and models that integrate pre-existing models together into OpenMDAO. It is organized into groups each with their own repositories including Plant_CostSE. Plant_EnergySE, Turbine_CostSE and TurbineSE. The wrappers are designed for licensed and non-licensed models though in both cases, one has to have access to and install the individual models themselves before using them in the overall software platform.",
+    "laborHours": 229778.4,
+    "name": "NREL Wind Integrated System Design and Engineering Model",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/WISDEM/WISDEM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

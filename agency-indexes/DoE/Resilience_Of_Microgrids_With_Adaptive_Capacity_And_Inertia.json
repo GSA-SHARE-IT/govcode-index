@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2023-02-09",
+        "metadataLastUpdated": "2023-03-13"
+    },
+    "description": "Resilience of Microgrids with Adaptive capacity and Inertia calculates the maximum size of a disturbance a microgrid could withstand before frequency limits are violated. The results are based on power generation assets in the microgrid and its inertia.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Resilience Of Microgrids With Adaptive Capacity And Inertia",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/ReMAIn",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

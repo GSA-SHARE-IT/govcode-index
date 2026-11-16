@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "haunab@ornl.gov"
+    },
+    "date": {
+        "created": "2023-03-06",
+        "metadataLastUpdated": "2023-10-27"
+    },
+    "description": "Tools and scripts created to ease the packaging of Klippy (A component of Klipper, a GPL3 licensed project). // Note: This project interacts with/is based on Klipper; Klipper contributors are listed here: https://github.com/Klipper3d/klipper/graphs/contributors. // Note: This is being submitted to DOECODE as per instructions received after providing notification of creation of IP outside of work as part of a site-specific IP assignment agreement. This work was not funded by, nor was any work performed under any DOE contract.",
+    "laborHours": 0.0,
+    "languages": [
+        "Bash",
+        "C",
+        "Python"
+    ],
+    "name": "Klippy",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Laikulo/klippy-tooling",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0.11.0"
+}

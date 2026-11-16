@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-03-03",
+        "metadataLastUpdated": "2022-03-03"
+    },
+    "description": "Code for the paper Learning Interpretable Models Through Multi-Objective Neural Architecture Search by Zachariah Carmichael, Tim Moon, and Sam Ade Jacobs. Monumental advances in deep learning have led to unprecedented achievements across a multitude of domains. While the performance of deep neural networks is indubitable, the architectural design and interpretability of such models are nontrivial. Research has been introduced to automate the design of neural network architectures through neural architecture search (NAS). Recent progress has made these methods more pragmatic by exploiting distributed computation and novel optimization algorithms. However, there is little work in optimizing architectures for interpretability. To this end, we propose a multiobjective distributed NAS framework that optimizes for both task performance and introspection. We leverage the non-dominated sorting genetic algorithm (NSGA-II) and explainable AI (XAI) techniques to reward architectures that can be better comprehended by humans. The framework is evaluated on several image classification datasets. We demonstrate that jointly optimizing for introspection ability and task error leads to more disentangled architectures that perform within tolerable error.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Explainable Neural Architecture Search (XNAS)",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/XNAS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0"
+}

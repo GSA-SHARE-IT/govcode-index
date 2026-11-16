@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "Zonetool is a utility for managing signed DNS zones and managing DNSSEC keys. It maintains the state of managed DNS zones and uses the BIND utilities to actually perform key generation, zone signing, and validation. DNS administrators will use Zonetool to initially deploy and further maintain a signed DNS zone.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Zonetool",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/zonetool",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-29"
+    },
+    "description": "The software was developed to serve and curate arbitrarily large datasets comprising data acquired from various mobile platforms. The software is contained in a number of server and client libraries. The former manage the ingestion, indexing, querying, and serving of the data. The latter libraries are distributed for Linux, Mac OSX, and Windows and enable users to interact with data downloaded from the service either in the form of an HDF5 file or streamed in a BSON data chunk. Using the Berkeley Data Cloud, researchers from varying fields can collaborate, compare results and curate both their raw data and the derived products of their analysis.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Berkeley Nuclear Data Cloud (BDC) v2.3",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-08-05",
+        "metadataLastUpdated": "2021-08-05"
+    },
+    "description": "GPos is a software that was created to determine the properties of positron beams resulting from the interaction of the LBNL BELLA center PetaWatt laser-driven plasma-capillary accelerated electron beam and the atoms of a thin solid target. GPos is written in C++, easily compiled with cmake and the spack package manager, which allows for multi-thread and MPI parallel computing. Its functions expand on the Geant4 toolkit library and allow for propagation of the modelled particles through vacuum drift distances with a focusing element (thin lens approximation). Users can change beam-foil-drift-lens parameters - to adapt GPos to other particle sources and infrastructures - in a simple input file. The code particle data output format, openPMD, which is compatible, for example, with the input of the ECP WarpX project code used to explore the physics of particle acceleration in plasmas. Using GPos in conjunction to WarpX allowed us to test various configurations for designing a high-quality and high-energy positron source at BELLA -required for us to address positron acceleration challenges in the development of future linear colliders. GPos can also be advantageous when tackling the physics of muon sources for future muon colliders as well as for the investigation of positron sources in lower energy regimes for applications like annihilation spectroscopy and astrophysical gamma-ray-bursts.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Geant4 based positron beam source (GPos) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LDAmorim/GPos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

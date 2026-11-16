@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-11-05",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The Blockchain Applicability and Cybersecurity Frameworks is the implementation of an earlier invention disclosure and Provisional Patent Application:  S-146,805, Battelle IPID 31608-E.  —BAF walks a user (or an interested party) through ~100 controls to determine various factors, including:\n1. Does the application need a blockchain?\n2. If the application needs a blockchain, does it need a private blockchain or permissionless/public blockchain?\n3. What kind of consensus is most suitable for the application? The current version of BAF evaluates between four consensus mechanisms: proof-of-work, proof-of-stake, proof-of-burn, and proof-of-authority.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Blockchain Applicability and Cybersecurity Frameworks (BAF)",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "version": "1"
+}

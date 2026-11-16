@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-09-17",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "Procedure for reverse engineering binary files and storing the result in a graph database structure for later analysis. This is achieved through the use of Python, angr, and OrientDB Community Edition.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "DISCOverflow",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/idaholab/DISCOverflow/blob/main/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/DISCOverflow",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git",
+    "version": "3.6 and up"
+}

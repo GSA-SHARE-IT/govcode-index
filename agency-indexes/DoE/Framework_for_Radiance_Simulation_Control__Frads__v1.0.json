@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-11-13",
+        "metadataLastUpdated": "2019-11-13"
+    },
+    "description": "Radiance matrix algebraic methods enable efficient annual daylight simulation while preserving accuracy. The five sub-methods, 2 to 6 phase methods, enable scene components parameterization and separation of direct and diffuse flux transfer based on the user's need. However, the burden is on the user to figure out the which method, matrix basis, matrix resolution, simulation parameters to use to achieve the desired efficiency and accuracy to the end application. Several utility programs and an executive program (in-progress) were created to lower the entry barrier and to reduce human error when executing the simulation. This suite of programs should also reduce the burden of adopting Radiance matrix methods for third party software.",
+    "laborHours": 729.6,
+    "languages": [],
+    "name": "Framework for Radiance Simulation Control (Frads) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/frads",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

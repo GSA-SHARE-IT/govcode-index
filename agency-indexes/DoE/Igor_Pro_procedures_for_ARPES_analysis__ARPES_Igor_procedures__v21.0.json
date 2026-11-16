@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-09-17",
+        "metadataLastUpdated": "2021-09-21"
+    },
+    "description": "A suite of non-proprietary C-like procedures (code) that compile and run within the commercial Igor Pro data analysis program (wavemetrics.com) have been developed for the data file loading, plotting and analysis of Angle-Resolved Photoemission Spectroscopy (ARPES) data. The data file loading procedures are more specific to ARPES data acquisition and file formats at Advanced Light Source (ALS) beamlines, while plotting and analysis procedures are more generic to processing of 1D, 2D and higher dimensional dataset arrays with some specific tools tailored to the ARPES technique.",
+    "homepageURL": "https://sites.google.com/lbl.gov/2021-158/landing-page",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Igor Pro procedures for ARPES analysis (ARPES Igor procedures) v21.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://sites.google.com/lbl.gov/2021-158/landing-page",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

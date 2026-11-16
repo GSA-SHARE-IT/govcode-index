@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2021-05-26",
+        "metadataLastUpdated": "2021-09-13"
+    },
+    "description": "This tool helps utilities evaluate potential time of use price-plans and find effective hours for price plan on peak periods and the potential price-elastic demand response. An optimization model can be used to find tiered prices for the time of use tariffs and analyze the impact on load profiles, energy consumption, utility, and customer savings. The tool is equipped with an optimization model to determine the energy consumption of electric appliances that can leverage survey data containing information on the number of appliances owned by customers. Lastly, a statistical model can be used to predict system-level load based on exogenous parameters such as weather, time of day, month, type of day, and year. The tool is scripted in Python and uses the Pyomo python optimization language.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "EFFORT (EFFectiveness Of Rate sTructure for enabling demand response)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/EFFORT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

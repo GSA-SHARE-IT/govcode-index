@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2020-05-28",
+        "metadataLastUpdated": "2020-05-28"
+    },
+    "description": "Yaksa is a high-performance data-layout management library for noncontiguous data movement. It \nenables users to express noncontiguous data patterns and pack/unpack them to/from contiguous \nbuffers or to convert them to an IO vector describing a series of contiguous elements.\n\n\n\n",
+    "laborHours": 15975.2,
+    "languages": [],
+    "name": "YASKA",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pmodels/yaksa",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

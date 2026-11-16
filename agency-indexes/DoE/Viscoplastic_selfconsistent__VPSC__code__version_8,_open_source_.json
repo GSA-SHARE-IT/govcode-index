@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-11-03",
+        "metadataLastUpdated": "2023-11-08"
+    },
+    "description": "VPSC is a mean-field polycrystal plasticity code for the prediction of the mechanical response and microstructure evolution\nof polycrystalline aggregates. The VPSC code is the computational realization of the visco-plastic self-consistent theory of polycrystal deformation. Both the theory and details of its numerical implementation were originally reported by R.A.\nLebensohn and C.N. Tomé: \"A self-consistent approach for the simulation of plastic deformation and texture development\nof polycrystals: application to Zirconium alloys\", Acta Metallurgica et Materialia 41, 2611 (1993). Since then, the VPSC code\nhas experienced several improvements and extensions and it is nowadays extensively used to simulate plastic deformation\nof polycrystalline aggregates and to interpret experimental evidence on metals, minerals and polymers.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Viscoplastic selfconsistent (VPSC) code (version 8, open source)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/vpsc_code",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

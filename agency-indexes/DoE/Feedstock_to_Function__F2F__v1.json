@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-08-02",
+        "metadataLastUpdated": "2023-08-02"
+    },
+    "description": "\tThe Feedstock to Function (F2F) tool was designed to help scientists and companies explore viable biofuels and bioproducts early in the R&D cycle to support more productive experimentation, while reducing early-stage exploration from months/years to days/weeks (feedstock-to-function.lbl.gov). The tool focuses on using machine learning to predict biomass-derived molecule properties, while evaluating the cost, benefits, and risks of promising molecules for sustainable aviation fuels. The tool successfully predicts (within 15% of experimental values) high-throughput aviation properties for over 10,000 molecules while enabling users to explore new possibilities and opportunities rapidly and effortlessly. It also links to lightweight life-cycle analysis and techno-economic tools for cost and emissions analyses. Predicted molecule properties include melting point, boiling point, flash point, yield sooting index, and heat of combustion.\n\nTo date, F2F is more expansive and outperforms several other molecule property prediction models while enabling users (scientists, companies, and policy makers) to explore new possibilities and opportunities rapidly and effortlessly. F2F provides the foundation for developing an adaptive computational tool that predicts properties, cost, benefits, and risk of promising new and uncertified alternative jet fuel pathways and their blending effects.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Feedstock to Function (F2F) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/tylerhuntington/feedstock-to-function",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

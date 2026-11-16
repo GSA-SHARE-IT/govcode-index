@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-03-11",
+        "metadataLastUpdated": "2024-03-11"
+    },
+    "description": "This model provides a cost estimate for transporting CO2 via truck or rail in the United States using\ncommercially available equipment and technologies. The model includes an analysis of direct and indirect\nCO2 emissions to determine costs per net tonne of CO2 transported. Publicly available data and methods\npublished in the peer-reviewed literature are used to the extent possible; references are available at the\nbottom of the \"Calculations\" sheet. Upstream (i.e., liquefaction, buffer storage) and downstream (i.e.,\nbuffer storage, reconditioning) activities are included in the model of emissions and costs. All capital and\noperating expenditures are estimated in the \"Calculations\" sheet. The cost of financing the project is\ndetermined in the \"FINEX\" sheet. All user inputs are done via drop down menus in on the \"User Interface\"\nsheet. Summary results are also provided on the \"User Interface\" sheet.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Multimodal CO2 Transportation Cost Model",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/myers79/MuMo-CoCo",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0"
+}

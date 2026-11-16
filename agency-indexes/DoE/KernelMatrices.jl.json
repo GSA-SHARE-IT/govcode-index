@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2018-08-27",
+        "metadataLastUpdated": "2018-08-27"
+    },
+    "description": "A software suite for applying hierarchical matrices, specifically the \"hierarchically off-diagonal low rank\" (HODLR) format, to Gaussian process computing",
+    "laborHours": 1717.6,
+    "languages": [],
+    "name": "KernelMatrices.jl",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/cgeoga/kernelmatrices.jl",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

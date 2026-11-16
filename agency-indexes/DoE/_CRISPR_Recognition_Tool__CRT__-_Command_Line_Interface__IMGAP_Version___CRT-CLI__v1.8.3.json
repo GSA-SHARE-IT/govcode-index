@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-05-08",
+        "metadataLastUpdated": "2023-05-08"
+    },
+    "description": "\tThe CRT Command Line Interface is a software tool released as public domain software in 2007 by Charles Bland and can be downloaded under http://www.room220.com/crt/.\n\nThe last CRT-CLI release update was in 2008 and bumped up its version number to 1.2.\n\nWe used the CRT-CLI tool in our IMG Annotation Pipeline and over the years modified the original code based on suggestions made by our in-house experts to add more functionality, e.g. being able to detect truncated repeats at the edge of sequences or repeats containing Ns, additional output file options, and additional identity and similarity control parameters.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "\tCRISPR Recognition Tool (CRT) - Command Line Interface (IMGAP Version) (CRT-CLI) v1.8.3",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.jgi.doe.gov/img/img-pipelines/crt-cli-imgap-version",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

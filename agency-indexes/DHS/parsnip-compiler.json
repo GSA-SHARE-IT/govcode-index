@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2026-05-01",
+        "lastModified": "2026-05-01"
+    },
+    "description": "Submodule of cisagov/parsnip. Compile Parsnip IL files into Zeek/Spicy code",
+    "downloadURL": "https://api.github.com/repos/cisagov/parsnip-compiler/downloads",
+    "homepageURL": "https://github.com/cisagov/parsnip-compiler",
+    "laborHours": 1445.5,
+    "languages": [
+        "Python",
+        "CMake",
+        "Shell",
+        "Dockerfile"
+    ],
+    "name": "parsnip-compiler",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/parsnip-compiler.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

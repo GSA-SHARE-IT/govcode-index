@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-05-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Per sequence functional classification and Functional annotation in addition to linking those functions to taxonomic groups presents a challenge due to many established tools performing one task and not the other creating disparate downstream data. PerSeq aims to address these challenges by performing local alignments against a reference database annotated for both aspects, function and taxonomy, to annotate sequences individually. Downstream results are merged into count tables facilitating complex analyses based on observed function or functional potential in addition to being able to separate out function by taxonomic level to determine metabolic contributions by present organisms.",
+    "laborHours": 775.2,
+    "languages": [],
+    "name": "PNNL-CompBio/perseq",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-CompBio/perseq",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

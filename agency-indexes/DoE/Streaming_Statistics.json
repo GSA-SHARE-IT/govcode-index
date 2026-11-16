@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-03-24",
+        "metadataLastUpdated": "2022-03-24"
+    },
+    "description": "In the context of a larger effort for in situ data analytics, there is a need to calculate basic statistics metrics (e.g., count, mean, median) online as new data points become available. Originally, the code for such online, or in other words streaming, statistics was part of the TALASS (Topological Analysis of Large- Scale Simulations) library. We isolated the relevant code and created a standalone library from it called Streaming Statistics. We also added an ability to serialize and deserialize the statistics objects so that the library can be used in distributed, task-based processing. To use the Streaming Statistics library, the user chooses a statistic, constructs an object for it, and then \"adds\" values to it, which means the statistic is augmented.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Streaming Statistics",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/STREAMSTAT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

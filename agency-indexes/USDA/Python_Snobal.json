@@ -1,0 +1,39 @@
+{
+    "organization": "ARS",
+    "name": "Python Snobal",
+    "description": "Python implementation of the Snobal model applied at either a point or over and image (iSnobal). This package conatains the C libraries of Snobal in a python wrapper for more flexibility and ease of interaction.",
+    "tags": [
+        "Northwest Watershed Research Center",
+        "weather",
+        "usg-artificial-intelligence"
+    ],
+    "contact": {
+        "email": "source.code@ocio.usda.gov",
+        "name": ""
+    },
+    "status": "Production",
+    "vcs": "git",
+    "languages": [
+        "c++",
+        "c",
+        "python"
+    ],
+    "repositoryURL": "https://github.com/USDA-ARS-NWRC/pysnobal.git",
+    "homepageURL": "https://github.com/USDA-ARS-NWRC/pysnobal",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://github.com/USDA-ARS-NWRC/pysnobal/blob/master/LICENSE",
+                "name": "CC0"
+            }
+        ],
+        "usageType": "openSource",
+        "exemptionText": null
+    },
+    "laborHours": 0,
+    "date": {
+        "created": "2016-01-09",
+        "lastModified": "2020-05-01",
+        "metadataLastUpdated": "2020-05-03"
+    }
+}

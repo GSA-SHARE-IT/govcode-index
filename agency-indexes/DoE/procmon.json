@@ -1,0 +1,29 @@
+{
+    "contact": {
+        "email": "aespiritu@lbl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "procmon performs large-scale monitoring, data collection, and analysis of user processes running on Linux systems. It is intended to be used to aid in performing an automated workload analysis of very large scale systems, but may also be useful for live monitoring of the running processes on large scale systems.",
+    "laborHours": 17358.4,
+    "name": "procmon",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://bitbucket.org/berkeleylab/nersc-procmon/src/c6e67d63e7c9c24f85a46b6d8965b8c615097edc/LICENSE?at=master&fileviewer=file-view-default",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/nersc-procmon",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

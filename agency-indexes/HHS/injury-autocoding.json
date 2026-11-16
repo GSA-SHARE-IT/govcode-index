@@ -1,0 +1,41 @@
+{
+    "contact": {
+        "URL": "https://github.com/cdcai",
+        "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+        "created": "2019-10-08",
+        "lastModified": "2020-07-06"
+    },
+    "description": "An ensemble of BERTs for classifying injury narratives",
+    "downloadURL": "https://api.github.com/repos/cdcai/injury-autocoding/downloads",
+    "homepageURL": "https://github.com/cdcai/injury-autocoding",
+    "laborHours": 0,
+    "languages": [
+        "Python",
+        "Jupyter Notebook",
+        "Batchfile"
+    ],
+    "name": "injury-autocoding",
+    "organization": "Centers for Disease Control and Prevention",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "git://github.com/cdcai/injury-autocoding.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "usg-artificial-intelligence",
+        "usg-natural-language-processing",
+        "bert",
+        "text-classification",
+        "python"
+    ],
+    "vcs": "git"
+}

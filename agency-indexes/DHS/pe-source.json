@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2023-07-06",
+        "lastModified": "2026-11-06"
+    },
+    "description": "Automated process to collect data for the Posture and Exposure (P&E) reports.",
+    "downloadURL": "https://api.github.com/repos/cisagov/pe-source/downloads",
+    "homepageURL": "https://github.com/cisagov/pe-source",
+    "laborHours": 535.1,
+    "languages": [
+        "Python",
+        "Shell"
+    ],
+    "name": "pe-source",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/pe-source.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

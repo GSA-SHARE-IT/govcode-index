@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2024-07-24"
+    },
+    "description": "The KT3D GUI provides a graphic user interface to a public domain FORTRAN code (kt3d) that was developed at Stanford University in 1998 (see Deutsch and Journel, 1998). The kt3d software contains the implementation of several kriging algorithms that complete spatial estimation onto a grid or a set of points from a set of available data and using a variogram model to describe the spatial variation of the data. The variogram model is calculated and modeled using the GAM/GAMV GUI software described separately. The KT3D GUI software allows the user to set various parameters for the FORTRAN code by using dialog boxes, it provides some error checking as these parameters are set and then allows the user to run the calculation by calling the executable compiled from the previously developed FORTRAN software. The resulting output of the kt3d code can be visualized in the KT3D GUI in several ways. If a gridded estimation problem is selected, color maps of the estimated values and the kriging variance are displayed in side by side images. If either jackknifing or cross-validation options are selected, then a series of user-defined X-Y plots can be created.",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "KT3D GUI",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/GAM-GAMV-GUI-AND-K3TD?tab=readme-ov-file#readme",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/GAM-GAMV-GUI-AND-K3TD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

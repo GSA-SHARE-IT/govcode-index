@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-04-23",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Toolkit to implement and explore transfer learning-based strategies to address unsatisfactory accuracy of models for estimating building energy consumption when available field data for training is sparse or of unacceptable quality",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "transBEAM",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jainmilan/transBEAM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "mdelben@lbl.gov"
+    },
+    "date": {
+        "created": "2024-03-15",
+        "metadataLastUpdated": "2024-03-20"
+    },
+    "description": "BerkeleyGW is a versatile, massively parallel, GPU-enabled, modular software package for quantum many-body perturbation theory applied to study the excited state properties of electrons in materials. It employs the ab-initio GW and GW plus Bethe-Salpeter equation (GW-BSE) methods and beyond. It can be used to investigate a wide range of materials from bulk crystals to clusters and 2D/1D materials, adapting to insulating, metallic, and semi-metallic systems alike. Journal article: https://doi.org/10.1016/j.cpc.2011.12.006",
+    "homepageURL": "https://berkeleygw.org/download",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "BerkeleyGW",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://berkeleygw.org/download",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

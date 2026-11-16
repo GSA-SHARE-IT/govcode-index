@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2024-09-25",
+        "metadataLastUpdated": "2024-09-25"
+    },
+    "description": "SAND2024-11256O\nThe Code for BALDR Study 07.04 software reproduces results from the BALDR study concerning \"Multilabel Proportion Prediction and Out-of-Distribution Detection on Gamma Spectra of Short-Lived Fission Products.\" This code can reproduce a scientific study following the step numbers present in the file names. The scientific study uses synthetic and measured data to find the best model for the radioisotope proportion estimation task of interest and generates results. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 1577790.4,
+    "languages": [
+        "Python 3.8"
+    ],
+    "name": "Code for BALDR Study 07.04",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/BALDR-Study-07.04",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

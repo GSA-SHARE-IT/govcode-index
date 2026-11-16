@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-11-30",
+        "metadataLastUpdated": "2021-03-05"
+    },
+    "description": "Air dehumidification processes are important and significantly impact both the performance of building ventilation and air conditioning systems, and the health of occupants. In a membrane-based dehumidifier, a permselective membrane is adopted to separate the two flow streams at feed and permeate sides. The feed side is continuously supplied with humid air at atmospheric pressure, while the permeate side is connected to a vacuum pump to produce vacuum or a low permeate vapor pressure as a driving force for water vapor permeation. The software MBMS 1.0 enables modeling and simulation of the design and configuration optimization of a membrane-based air-to-air (A2A) or air-to-vapor (A2V) device. A first-order physical-constant model was developed to reasonably account for the fundamental heat and mass transfer processes involved.",
+    "laborHours": 1200.8,
+    "languages": [
+        "C",
+        "C++"
+    ],
+    "name": "MBMS1.0: An Open-Source Code for Modeling and Simulation of Membrane-Based Dehumidification and Energy Recovery",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/MBMS/C-CODE_FOR_MEMBRANE_BASED_MODEL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "MBMS. 1.0"
+}

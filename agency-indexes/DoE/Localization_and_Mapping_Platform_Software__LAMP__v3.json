@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-27",
+        "metadataLastUpdated": "2021-05-27"
+    },
+    "description": "The Localization and Mapping Platform (LAMP) software fuses radiation and contextual data to produce 3-D maps that locate and identify gamma-ray emitting sources in complex environments. It enables data collection, fusion, and processing onboard the LAMP system in handheld configurations, and enables near-real-time 3-D mapping from onboard an unmanned aerial system (UAS). This software enables a real-time 3-D gamma-ray mapping capability that is not available commercially.",
+    "homepageURL": "https://gitlab.com/lbl-anp/ipo/lamp",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Localization and Mapping Platform Software (LAMP) v3",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://gitlab.com/lbl-anp/ipo/lamp",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://gitlab.com/lbl-anp/ipo/lamp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "coonet@ornl.gov"
+    },
+    "date": {
+        "created": "2021-10-08",
+        "metadataLastUpdated": "2021-10-08"
+    },
+    "description": "Watershed Workflow aims to lower the bar on leveraging open data products in hyperresolution watershed hydrologic models. Integrated, distributed hydrologic models of watersheds require large amounts and complexity of data including meteorological forcing datasets; land cover datasets; watershed geometry, hydrogography, and elevation datasets; and subsurface soil and rock structural datasets. Increasingly open data products meeting this need are available through U.S. governmental and other agencies via APIs and other electronic means, but are not available in the same format, through the same API, or in the same coordinate system as one another, and present other challenges in manipulations across scales. This product automates the discovery, download, curation, and integration of these types of datasets into a common format for use with hydrologic models.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Watershed Workflow",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ecoon/watershed-workflow",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

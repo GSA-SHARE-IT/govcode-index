@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2024-09-12",
+        "metadataLastUpdated": "2024-09-12"
+    },
+    "description": "This is the repository for all code related to the AGN-201 Nuclear Reactor Digital Twin at Idaho State University. The goal of this code repository is to consolidate all pieces required to run the AGN-201 Digital Twin in the [DeepLynx](https://github.com/idaholab/Deep-Lynx) ecosystem. This is the first successfully launched digital twin of a fissile nuclear reactor that we are aware of. While the code is not complex, the problems of networking, policy, and initial groundwork were significant to overcome.",
+    "laborHours": 54461.6,
+    "languages": [
+        "Python",
+        "Rust"
+    ],
+    "name": "Agn-201 Digital Twin",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabUnsupported/agn201_Digital_Twin",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

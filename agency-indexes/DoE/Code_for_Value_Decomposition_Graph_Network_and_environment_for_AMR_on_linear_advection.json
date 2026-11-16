@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-08-15",
+        "metadataLastUpdated": "2023-08-15"
+    },
+    "description": "This is the code for the paper [Multi-Agent Reinforcement Learning for Adaptive Mesh\nRefinement](https://arxiv.org/abs/2211.00801), published at AAMAS 2023. It contains the implementation\nof a new algorithm, called Value Decomposition Graph Network (VDGN), for applying multi-agent\nreinforcement learning to the problem of adaptive mesh refinement (AMR). It also contains the\nimplementation of a multi-agent environment for AMR on a linear advection problem. VDGN is the first\nlearning algorithm to display anticipatory refinement behavior in AMR, and it outperforms local error\nthreshold-based heuristic strategies.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Code for Value Decomposition Graph Network and environment for AMR on linear advection",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/011235813/marl-amr",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

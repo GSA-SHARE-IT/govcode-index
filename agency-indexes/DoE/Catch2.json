@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2021-06-17"
+    },
+    "description": "The Catch2 library is an open-source unit-testing framework available on GitHub (https://github.com/catchorg/Catch2).  The Catch2 unit-testing framework currently lacks support for handling C-style assertions via the \"assert\" macro.  The source code being disclosed adds the ability to verify that C-style assertions are caught when expected and registered with the Catch2 framework by making direct additions to the Catch2 software.  This source code will be contributed back to the Catch2 project on Github and copyright will need to cover any alterations required by the project owners on Github including alterations to source code, documentation, testing, etc.  Ideally, the changes made herein will be released under the Boost Software License Version 1.0.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Catch2",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/catchorg/Catch2/blob/devel/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

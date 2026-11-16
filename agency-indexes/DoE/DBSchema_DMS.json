@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "PRISM Data Management System database schema. This is a collection of DDL files that define the database schema used by the Data Management System (DMS) component of the Pan-Omics Research  Information Storage and Management system (PRISM) at the Pacific Northwest  National Laboratory (PNNL).  PRISM incorporates a diverse set of analysis  tools and allows a wide range of operations to be incorporated, leveraing  a state machine that is accessible to independent, distributed computational  nodes. The system has scaled well as data volume has increased since 2002,  while allowing adaptability for incorporating new and improved data analysis  tools for more effective proteomics research.",
+    "laborHours": 462475.2,
+    "languages": [],
+    "name": "DBSchema_DMS",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/DBSchema_DMS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

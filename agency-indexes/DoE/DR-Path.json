@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-08-19",
+        "metadataLastUpdated": "2021-08-19"
+    },
+    "description": "This package estimates future potential for utility customers to provide various forms of demand response (DR) based on granular forecasts of energy demand by customer type and a database of DR-enabling technologies.",
+    "homepageURL": "https://buildings.lbl.gov/download-phase-3-dr-potential-study",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "DR-Path",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://buildings.lbl.gov/download-phase-3-dr-potential-study",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

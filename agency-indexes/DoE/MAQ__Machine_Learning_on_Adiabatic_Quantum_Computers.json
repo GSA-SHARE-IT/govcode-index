@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "datepa@ornl.gov"
+    },
+    "date": {
+        "created": "2024-03-07",
+        "metadataLastUpdated": "2024-03-07"
+    },
+    "description": "Machine Learning on Adiabatic Quantum Computers (MAQ) is a library of algorithms used to train machine learning models on adiabatic quantum computers.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "MAQ: Machine Learning on Adiabatic Quantum Computers",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/prasannadate/maq",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

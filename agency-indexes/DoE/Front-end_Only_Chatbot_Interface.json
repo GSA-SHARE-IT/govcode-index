@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2024-06-20",
+        "metadataLastUpdated": "2024-06-20"
+    },
+    "description": "This code is a web-based front-end only (HTML, CSS, JS) chatbot interface for any OpenAI compatible text completion API.",
+    "laborHours": 638.4,
+    "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+    ],
+    "name": "Front-end Only Chatbot Interface",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/HPC_OOD_Chat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

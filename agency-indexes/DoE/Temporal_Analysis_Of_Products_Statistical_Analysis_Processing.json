@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-09-17",
+        "metadataLastUpdated": "2023-03-13"
+    },
+    "description": "Temporal analysis of products statistical analysis package (tapsap) is a package for reading, cleaning, analyzing and making inference of temporal analysis of products (TAP) information. This package is designed with the intent for collaboration within the TAP community for advancing TAP analysis.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Temporal Analysis Of Products Statistical Analysis Processing",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/tapsap",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

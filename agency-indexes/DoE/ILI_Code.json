@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-10-27",
+        "metadataLastUpdated": "2022-10-27"
+    },
+    "description": "This R code consists of three scripts, described below.\n1. ILI_LHC_sample.R The first script generate 10,000 samples from the total\nparameter space formed by the ranges of the following five parameters inputted\ninto the ILI model: transmission rate (beta), per capita rate of progress from\nexposed to infectious state (gamma_1), per capita rate of progress through initial\ninfectious state (gamma_2), per capita rate of progress through hospitalized state\n(gamma_3), and per capita rate of progress through non-hospitalized infectious\nstate (gamma_4). The output is LHS_samples.csv, for input into the global\nsensitivity script, ILI_SEIR.\n2. ILI_SEIR.R The second script solves a standard Susceptible-Exposed-Infected-\nRecovered (SEIR) model (a system of Ordinary Differential Equations (ODEs)),\nruns global sensitivity analyses, and generates plots showing the impact of the\ninput variables on the response variables for each virus.\n3. virus_sims.R The third script solves a standard Susceptible-Exposed-Infected-\nRecovered (SEIR) model (a system of Ordinary Differential Equations (ODEs)),\naimed at modeling outbreaks for five common upper respiratory viruses within a\ncontained population. The output of this code is an epidemic curve to show\ntiming and magnitude of the epidemic peak for each virus.\nNote: for all three scripts, the parameter values must be hard-coded by the user or the\noutput will not be accurate.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ILI Code",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/ILI",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

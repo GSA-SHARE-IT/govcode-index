@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "katy.longfellow@inl.gov"
+    },
+    "date": {
+        "created": "2024-01-15",
+        "metadataLastUpdated": "2024-02-06"
+    },
+    "description": "This project brings together a multidisciplinary team to develop tools and analysis that will help U.S. industry accelerate deployment of floating PV on reservoirs and estuaries through producing:\n•\tA tool to assess potential environmental interactions of FPV on reservoirs and estuaries and thresholds for corresponding impacts.\n•\tA tailored FPV-specific techno-economic tool to guide users on financial performance and corresponding design considerations.\n•\tA synthesized tool, AquaPV, that combines the environmental and economic tools.\n•\tA set of case studies on an open-loop reservoir with a traditional hydropower plant (i.e., connected to a natural waterbody), closed-loop reservoir with a proposed pumped storage hydropower plant (i.e., manmade and disconnected from a natural waterbody), and a marine estuary (i.e., where a river meets the ocean), with an FPV system designed and modeled for each site.\n•\tA review of regulatory, environmental, and stakeholder opportunities and challenges to identify clear regulatory and environmental pathways to siting FPV on U.S. reservoirs.\n•\tA novel, high-fidelity geospatial resource assessment to estimate FPV technical potential on reservoirs in the United States.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Aquapv",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/AquaPV",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

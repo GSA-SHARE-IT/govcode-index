@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-09-17",
+        "metadataLastUpdated": "2021-09-17"
+    },
+    "description": "The Devastator runtime is a modern C++ implementation of optimistic parallel discrete event simulation methods. Devastator allows simulation application code to productively specify their component and event functionality with C++14 constructs. It utilizes GASNet-EX for distributed memory communication and includes parallel performance optimizations such as light-weight thread message queues and asynchronous GVT. Furthermore, it supports efficient event broadcasts and pause-rewind-resume functionality to support periodic load balancing and outer loop optimization algorithms.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Devastator Parallel Discrete Event Simulation Runtime (Devastator) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cychan-lbnl/devastator.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

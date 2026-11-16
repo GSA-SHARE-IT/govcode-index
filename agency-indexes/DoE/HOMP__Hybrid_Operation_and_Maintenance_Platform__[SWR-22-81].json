@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-01-06",
+        "metadataLastUpdated": "2023-05-16"
+    },
+    "description": "The HOMP software module is contained within NREL's Hybrid Optimization and Performance Platform (HOPP) at this URL: https://github.com/NREL/HOPP/tree/feature/HOMP. HOMP is a python-based software module which can be used concurrently with the Hybrid Optimization and Performance Platform (HOPP) to model, simulate, and optimize degradation, reliability, and operations and maintenance of hybrid power plant components. The program currently models lithium ion battery, PEM electrolyzer, wind turbine, and solar PV array components, which enables users to understand the design and operation tradeoffs of hybrid power plants. For instance, HOMP enables users to answer questions like: how large does a battery bank need to be to achieve optimal charge/discharge rates for performance and reliability? How does plant design change for different objectives (e.g., profit versus resilience)? Under what conditions is it better to produce electricity versus hydrogen? How do we optimally control hybrid power plants to reduce downtime and increase performance?",
+    "laborHours": 0.0,
+    "languages": [
+        "Jupyter Notebook",
+        "PowerBuilder",
+        "Python"
+    ],
+    "name": "HOMP (Hybrid Operation and Maintenance Platform) [SWR-22-81]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/HOPP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

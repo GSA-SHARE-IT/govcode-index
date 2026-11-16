@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "realsimxil@gmail.com"
+    },
+    "date": {
+        "created": "2023-07-27",
+        "metadataLastUpdated": "2023-07-28"
+    },
+    "description": "Real-Sim is a multi-resolution X-in-the-loop simulation framework to support inclusive testing and evaluation of CAVs before actual implementation in the real world. Real-Sim framework connects different simulation components and integrates various traffic and vehicle simulation tools, virtual environments, and XIL systems through a Flexible Interface for XIL Simulation (FIXS). Connections among different tools are transparent to users and handled by the interface behind the scenes. Co-simulation of various vehicle and traffic simulation tools with different XIL systems can be easily achieved and become a transparent \"plug-and-play\" process to users.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Real-Sim Flexible Interface for X-in-the-loop Simulation (FIXS)",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Real-Sim-XIL/FIXS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

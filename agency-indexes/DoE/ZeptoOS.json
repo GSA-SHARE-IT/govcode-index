@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-13",
+        "metadataLastUpdated": "2018-07-13"
+    },
+    "description": "ZeptoOS is a research project that focuses on operating systems for petascale architectures. It provides a complete software stack for Blue Gene/P, covering both compute and I/O nodes. ",
+    "laborHours": 448415.2,
+    "languages": [],
+    "name": "ZeptoOS",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://wiki.mcs.anl.gov/zeptoos/index.php/Licensing",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://svn.mcs.anl.gov/repos/ZeptoOS/trunk",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ]
+}

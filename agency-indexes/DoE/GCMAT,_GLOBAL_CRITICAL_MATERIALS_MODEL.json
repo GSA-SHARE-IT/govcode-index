@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2020-09-12",
+        "metadataLastUpdated": "2022-01-05"
+    },
+    "description": "Argonne's GCMat is an agent-based market model of critical material supply chains using Repast Simphony with Java. It provides capabilities to explore supply chain dynamics and uncertainty under scenarios of demand growth or shrinkage, technology adoption, supply disruptions, and trade policies, and mitigation strategies of new supply sources, product substitution, consumer thrifting, and stockpiling. Supply chain participants from mining through final demand are modeled as interacting agents who make market decisions independently as time progresses. The copyright would cover the code that defines the agent behaviors and how they interact, but not the input data that is used to run the model.",
+    "homepageURL": "https://www.anl.gov/partnerships/licensable-software",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GCMAT, GLOBAL CRITICAL MATERIALS MODEL",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.anl.gov/partnerships/licensable-software",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.anl.gov/partnerships/licensable-software",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

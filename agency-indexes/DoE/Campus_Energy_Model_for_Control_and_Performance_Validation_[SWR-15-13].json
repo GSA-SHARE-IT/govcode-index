@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-01-25"
+    },
+    "description": "The core of the modeling platform is an extensible block library for the MATLAB/Simulink software suite. The platform enables true co-simulation (interaction at each simulation time step) with NREL's state-of-the-art modeling tools and other energy modeling software.",
+    "laborHours": 3024.8,
+    "languages": [],
+    "name": "Campus Energy Model for Control and Performance Validation [SWR-15-13]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/CampusEnergyModeling",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

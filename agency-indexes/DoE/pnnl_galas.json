@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-09-13",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Codebase for analyzing large atomistic simulation results using graph analytics. Analysis of large molecular simulations is difficult due to size and memory constrains in commonly used analysis software. This code was developed to analyze an ~8 million atom polycrystalline Al system under shear, with a particular emphasis on identifying defect structures. This code applies graph theory to reduce the system to components of interest and applies associated algorithms to characterize these components.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/galas",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/galas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

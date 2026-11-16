@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-04-26",
+        "metadataLastUpdated": "2023-05-03"
+    },
+    "description": "Multiverse is a code repository for a set of tools for Bayesian model selection for neural networks. The goal of the tools is to provide capabilities for selecting among prior and model specifications for Bayesian neural networks. Multiverse will include tools for creating Bayesian neural networks, evaluating the Bayesian model evidence, and performing inference in Bayesian neural networks. These components are written in Python, a high-level programming language that takes advantage of the Python ecosystem of high-quality open-source packages for machine learning and signal processing.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Multiverse: Bayesian model selection for neural networks",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

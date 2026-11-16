@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "doakpw@ornl.gov"
+    },
+    "date": {
+        "created": "2019-06-03",
+        "metadataLastUpdated": "2020-09-25"
+    },
+    "description": "With the DCA++ project, we aim to gain insight into the fascinating physics of strongly correlated electron systems by employing modern quantum cluster methods. The DCA++ code provides a state of the art implementation of the dynamical cluster approximation (DCA) and its DCA+ extension. High scalability and portable performance allow to exploit today's leadership computing systems.",
+    "laborHours": 113255.2,
+    "languages": [
+        "C++"
+    ],
+    "name": "DCA++",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CompFUSE/DCA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.1"
+}

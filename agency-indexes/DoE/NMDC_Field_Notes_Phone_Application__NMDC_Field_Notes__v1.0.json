@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2024-05-09",
+        "metadataLastUpdated": "2024-05-09"
+    },
+    "description": "This software is for an application, designed for phones and/or tablets, to assist microbiome researchers collecting samples in the field to also collect metadata in a standardized and systematic way. The type of samples covered would be e.g. soil sample from a forest, sediment sample from a lake, or water sample in the ocean. The app allows users to collect sample information and metadata in an easy and intuitive way, and connects to the NMDC submission portal (https://data.microbiomedata.org/submission/home) a website from where users can review the samples they collected and add more information if necessary.",
+    "laborHours": 19076.0,
+    "languages": [],
+    "name": "NMDC Field Notes Phone Application (NMDC Field Notes) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/microbiomedata/nmdc-field-notes",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

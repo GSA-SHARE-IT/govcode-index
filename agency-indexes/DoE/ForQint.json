@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "ForQint is a Fortran software library to adaptively integrate multivariable functions versus well known probability distributions (e.g. normal, lognormal, etc.) using quadrature rules. Such integration is known to be more efficient and accurate especially when the function evaluation is expensive. The library also FQint enables the creation of both full and sparse anisotropic multi-dimensional quadrature rules. These latter encompass different such as Gauss-Hermite, Gauss-Legendre, etc. The functions Maher Salloum, Bert Debusschere, Kenny Chowdhary and subroutines rely on the C++ Stokhos package of Trilinos (trilinos.sandia.gov) where the appropriate classes were wrapped into Fortran.",
+    "laborHours": 699.2,
+    "languages": [
+        "Makefile",
+        "Fortran"
+    ],
+    "name": "ForQint",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/ForQint",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

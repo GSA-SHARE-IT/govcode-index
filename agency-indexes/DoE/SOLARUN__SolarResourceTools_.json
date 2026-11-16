@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-07-23",
+        "metadataLastUpdated": "2019-07-25"
+    },
+    "description": "A critical component of designing solar energy projects that will have long-term profitability is the availability and access to accurate “bankable data”, methodologies and tools to understand the uncertainties in the data. The current solar energy performance and economic models used to convert solar resource data to power generation do not factor in or provide adequate information regarding the uncertainty in the solar resource information. The Solar resource uncertainty (SOLARUN) application assists stakeholders to quantify solar resource measurement uncertainty from radiometers which ultimately support in the decision-making process, speeds up the acceptance and deployment of projects and reduces risk to the financiers and developers.",
+    "laborHours": 319.2,
+    "languages": [],
+    "name": "SOLARUN (SolarResourceTools)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/SolarResourceTools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

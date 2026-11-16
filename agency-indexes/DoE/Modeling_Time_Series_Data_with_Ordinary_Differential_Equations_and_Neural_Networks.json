@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-10-11",
+        "metadataLastUpdated": "2019-10-11"
+    },
+    "description": "This suite of code learns neural network models to emulate the dynamics of time series data. \n\nTo do so, it learns a set of \"neural shape functions\" that provide a common vocabulary for expressing the various dynamics operators. \n\nThe code is implemented in Python and TensorFlow.",
+    "laborHours": 152.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Modeling Time Series Data with Ordinary Differential Equations and Neural Networks",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/tadesautels/PSINN",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0.1"
+}

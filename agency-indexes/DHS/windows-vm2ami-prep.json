@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2021-11-06",
+        "lastModified": "2026-08-05"
+    },
+    "description": "PowerShell scripts to run to configure a Windows VM in preparation for conversion to an AWS AMI.",
+    "downloadURL": "https://api.github.com/repos/cisagov/windows-vm2ami-prep/downloads",
+    "homepageURL": "https://github.com/cisagov/windows-vm2ami-prep",
+    "laborHours": 554.1,
+    "languages": [
+        "Shell"
+    ],
+    "name": "windows-vm2ami-prep",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/windows-vm2ami-prep.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

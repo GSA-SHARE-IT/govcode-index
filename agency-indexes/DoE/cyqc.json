@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "pieper@ameslab.gov"
+    },
+    "date": {
+        "created": "2022-05-19",
+        "metadataLastUpdated": "2022-05-19"
+    },
+    "description": "A collection of codes which implement quantum algorithms for correlated materials simulations.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "cyqc",
+    "organization": "Ames Laboratory (AMES)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/gqce/cyqc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Ames Laboratory (AMES)"
+    ]
+}

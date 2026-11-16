@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-08-23",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This software tool implements a version of the N-SCRAD anomaly detection algorithm. This algorithm classifies a gamma-ray energy spectrum as either consistent or inconsistent with previously measured background and a set of predefined nuisance sources. N-SCRAD was originally developed for DOE/NNSA/NA-22 and has since been utilized in a variety of applications for various clients. The present software tool is intended to demonstrate the capabilities of N-SCRAD. The tool accepts input data as either text files or GADRAS binary files, and saves the output alarm metric as a text file. A separate parameter file allows advanced users to configure algorithm settings.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "N-SCRAD",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

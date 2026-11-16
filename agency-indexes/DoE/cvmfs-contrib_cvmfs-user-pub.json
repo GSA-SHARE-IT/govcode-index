@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2019-07-08",
+        "metadataLastUpdated": "2019-07-09"
+    },
+    "description": "Service for publishing user code tarballs in cvmfs repositories",
+    "laborHours": 288.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "cvmfs-contrib/cvmfs-user-pub",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cvmfs-contrib/cvmfs-user-pub",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ],
+    "vcs": "git"
+}

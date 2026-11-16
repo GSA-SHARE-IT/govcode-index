@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "villezk@ornl.gov"
+    },
+    "date": {
+        "created": "2023-08-02",
+        "metadataLastUpdated": "2023-11-21"
+    },
+    "description": "BOOTS is a package for optimal selection of candidate operating points in large-scale manufacturing applications. It is designed to optimally select operating points to maximize predicted values of product quality and resource efficiency according to a data-driven model. The package is based on the use of a multi-input multi-output (MIMO) Gaussian process model to describe the relationships between inputs (operating points) and outputs (product quality and resource efficiency). This package does not provide any site- or process-specific information.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "BOOTS: Bayesian Optimization for Optimal Test Selection",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/krisvillez/boots",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "version": "v1.0"
+}

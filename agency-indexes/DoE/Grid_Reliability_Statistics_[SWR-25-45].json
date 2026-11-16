@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2025-04-03",
+        "metadataLastUpdated": "2025-04-03"
+    },
+    "description": "This codebase houses a suite of statistical and descriptive analyses of NERC GADS data of interest to grid modelers and planners. This repository is envisioned to house a collection of statistical and descriptive summaries of NERC GADS data, particularly summaries that on their own might be insufficient to warrant publication. In addition, it is intended to disseminate results rather than to enable reproduction as GADS is non-public.",
+    "laborHours": 15.2,
+    "languages": [
+        "Jupyter Notebook"
+    ],
+    "name": "Grid Reliability Statistics [SWR-25-45]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/grid-reliability-statistics",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

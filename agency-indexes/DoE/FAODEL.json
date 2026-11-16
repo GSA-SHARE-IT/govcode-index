@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "ndbrook@sandia.gov"
+    },
+    "date": {
+        "created": "2018-04-12",
+        "metadataLastUpdated": "2021-08-16"
+    },
+    "description": "FAODEL is a collection of libraries for implementing data management services on high-performance computing (HPC) platforms. It is composed of several components: (1) an RDMA portability library called NNTI for transporting data, (2) an in-application, restful API service, (3) a memory management library for network memory named Lunasa, (4) an asynchronous communication engine, and (5) a distributed key/blob service names Kelpie. Application developers may use these libraries to move data between the distributed nodes of one job to another, as well as to distributed storage resources. FAODEL is different than other communication libraries in that it supports both intra- and inter-job communication, features event-driven mechanisms, and provides high-level primitives for developers to reason about a platform’s distributed resources.",
+    "laborHours": 108558.4,
+    "languages": [],
+    "name": "FAODEL",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/faodel/faodel",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.2108.1"
+}

@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-08-12",
+        "metadataLastUpdated": "2021-06-28"
+    },
+    "description": "The software is a web app to create semantic metadata models, namely, Haystack and Brick. The purpose of Hasty is to assist in the auditing of building mechanical systems and controls. The software is designed to capture mechanical system topology and important information regarding real world controls implementations. The tool is intended to output Brick / Haystack / ASHRAE 223 compliant models.",
+    "laborHours": 0.0,
+    "languages": [
+        "JavaScript",
+        "Python",
+        "CSS",
+        "HTML"
+    ],
+    "name": "Hasty",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/hasty",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

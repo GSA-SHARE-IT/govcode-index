@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "URL": "https://github.com/CDCgov",
+        "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+        "created": "2020-07-15",
+        "lastModified": "2021-05-17"
+    },
+    "description": "Contains functions for pulling publicly-available global COVID-19 case and testing data for analysis and populating a Power BI dashboard.",
+    "downloadURL": "https://api.github.com/repos/CDCgov/ITF_Power_BI/downloads",
+    "homepageURL": "https://github.com/CDCgov/ITF_Power_BI",
+    "laborHours": 0,
+    "languages": [
+        "R"
+    ],
+    "name": "ITF_Power_BI",
+    "organization": "Centers for Disease Control and Prevention",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "git://github.com/CDCgov/ITF_Power_BI.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "covid-19",
+        "global-health",
+        "viz",
+        "powerbi"
+    ],
+    "vcs": "git"
+}

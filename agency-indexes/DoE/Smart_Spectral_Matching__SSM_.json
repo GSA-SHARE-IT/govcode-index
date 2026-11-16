@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "mcdonnellmt@ornl.gov"
+    },
+    "date": {
+        "created": "2022-12-05",
+        "metadataLastUpdated": "2022-12-05"
+    },
+    "description": "Smart Spectral Matching (SSM) catalogs spectroscopic data and, within the platform, investigates subtle attributes of spectral signatures from Raman and infrared spectroscopic data and enables statistical identification of connections between underlying structural units and spectroscopic information, particularly in fuel cycle materials that are amorphous or a mixture of several phases. Catalogs spectroscopic data, provides UIs for machine learning training either via JupyterHub for notebooks or domain scientist-specific views, machine learning and catalog REST API Python client libraries, and ability to identify features in files uploaded using pre-trained machine learning models. This is a \"service-based\" architecture with multiple applications represented by each repository in the group https://github.com/smart-spectral-matching",
+    "laborHours": 0.0,
+    "languages": [
+        "Java",
+        "JavaScript",
+        "Python"
+    ],
+    "name": "Smart Spectral Matching (SSM)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/smart-spectral-matching/smart-spectral-matching.github.io",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

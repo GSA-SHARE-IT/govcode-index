@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-17",
+        "metadataLastUpdated": "2024-07-17"
+    },
+    "description": "The program extends the analysis capabilities of existing profilers through additional analysis to provide insights about communication computation overlap, communication modeling, and broad performance summaries of CPU, GPU and memory. This allows users to understand how their applications are spending time and where performance bottlenecks are.",
+    "laborHours": 410.4,
+    "languages": [],
+    "name": "NEthing v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/NERSC/nething",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "The Portals reference implementation is based on the Portals 4.X API, published by Sandia National Laboratories as a freely available public document. It is designed to be an implementation of the Portals Networking Application Programming Interface and is used by several other upper layer protocols like SHMEM, GASNet and MPI. It is implemented over existing networks, specifically Ethernet and InfiniBand networks. This implementation provides Portals networks functionality and serves as a software emulation of Portals compliant networking hardware. It can be used to develop software using the Portals API prior to the debut of Portals networking hardware, such as Bull’s BXI interconnect, as well as a substitute for portals hardware on development platforms that do not have Portals compliant hardware. The reference implementation provides new capabilities beyond that of a typical network, namely the ability to have messages matched in hardware in a way compatible with upper layer software such as MPI or SHMEM. It also offers methods of offloading network operations via triggered operations, which can be used to create offloaded collective operations. Specific details on the Portals API can be found at http://portals4.org.",
+    "laborHours": 65496.8,
+    "languages": [
+        "Makefile",
+        "C",
+        "M4"
+    ],
+    "name": "Portals Reference Implementation v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/portals4?tab=License-1-ov-file#readme",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/portals4",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

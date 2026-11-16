@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-08"
+    },
+    "description": "The ThreatView project is based on our prior work with the existing ParaView open-source scientific visualization application. Where ParaView provides a grapical client optimized scientific visualization over the VTK parallel client server architecture, ThreatView provides a client optimized for more generic visual analytics over the same architecture. Because ThreatView is based on the VTK parallel client-server architecture, data sources can reside on remote hosts, and processing and rendering can be performed in parallel. As seen in Fig. 1, ThreatView provides four main methods for visualizing data: Landscape View, which displays a graph using a landscape metaphor where clusters of graph nodes produce \"hills\" in the landscape; Graph View, which displays a graph using a traditional \"ball-and-stick\" style; Table View, which displays tabular data in a standard spreadsheet; and Attribute View, which displays a tabular \"histogram\" of input data - for a selected table column, the Attribute View displays each unique value within the column, and the number of times that value appears in the data. There are two supplemental view types: Text View, which displays tabular data one-record-at-a-time; and the Statistics View, which displays input metadata, such as the number of vertices and edges in a graph, the number of rows in a table, etc.",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ThreatView",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

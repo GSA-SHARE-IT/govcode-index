@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-09-13",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The PNNL Chemometric Toolbox is a software collection of common MATLAB scripts that implement core chemometric\nalgorithms for regression analysis. The three core regression techniques within this toolbox are classical least squares\n(CLS), principal component regression (PCR), and partial least squares (PLS). This is demonstrated using a supplied\ndataset of infrared (FTIR) spectral data with their corresponding concentrations",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/Chemometric_Toolbox",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/Chemometric_Toolbox",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

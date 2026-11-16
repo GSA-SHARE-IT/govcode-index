@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-26",
+        "metadataLastUpdated": "2020-08-26"
+    },
+    "description": "The mgrast_pipeline repository provides KBase release engineering tools for the deployment of the MG-RAST pipeline. The MG-RAST pipeline repository is included as a submodule in the mgrast_pipeline repository and is maintained at http://github.com/MG-RAST/pipeline.",
+    "laborHours": 15.2,
+    "languages": [],
+    "name": "mgrast_pipeline",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/mgrast_pipeline",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-08-27",
+        "metadataLastUpdated": "2024-08-27"
+    },
+    "description": "This software combines nonlinear-manifold reduced order models (NM-ROMs) with domain\ndecomposition (DD) techniques. NM-ROMs, which utilize a shallow, sparse autoencoder trained with full\norder model (FOM) snapshot data, approximate the FOM state on a nonlinear manifold. These models\noffer advantages over linear-subspace ROMs (LS-ROMs) particularly in scenarios with slowly decaying\nKolmogorov n-width. However, the training of NM-ROMs involves a number of parameters that scale with\nthe size of the FOM, and storing high-dimensional FOM snapshots can significantly increase the cost of\nROM training for extreme-scale problems.\nTo mitigate these costs, the software employs DD to partition the FOM into smaller subdomains,\ncomputes NM-ROMs for each, and then integrates these to form a global NM-ROM. This strategy offers\nmultiple benefits: it enables parallel training of subdomain NM-ROMs, reduces the number of parameters\nneeded, decreases the dimensional requirements of subdomain FOM training data, and allows for\ncustomization to the unique characteristics of each FOM subdomain. The use of a shallow, sparse\nautoencoder architecture in each subdomain NM-ROM facilitates the application of hyper-reduction (HR),\nsimplifying the nonlinear complexities and enhancing computational speed.\nThis software marks the inaugural application of NM-ROM combined with HR to a DD problem. It features\nan algebraic DD reformulation of the FOM, training of NM-ROMs with HR for each subdomain, and\nemploys a sequential quadratic programming (SQP) solver for the evaluation of the coupled global NMROM.\nThe effectiveness of the DD NM-ROM with HR is numerically demonstrated on the 2D steady-state\nBurgers' equation, showing an order of magnitude improvement in accuracy over the DD LS-ROM with\nHR.",
+    "laborHours": 3055.2,
+    "languages": [],
+    "name": "Domain-decomposition nonlinear manifold reduced order model",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/DD-NM-ROM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

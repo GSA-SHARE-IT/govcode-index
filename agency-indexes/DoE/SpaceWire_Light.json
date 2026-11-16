@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2022-08-10",
+        "metadataLastUpdated": "2022-08-10"
+    },
+    "description": "SpaceWire Light is a SpaceWire encoder-decoder. It is synthesizable for FPGA targets (up to 200 Mbit on Spartan-3). Application interfaces include a simple FIFO interface, as well as an AMBA bus interface for LEON3 system-on-chip designs.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SpaceWire Light",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/spacewire_light/blob/master/README.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/spacewire_light",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

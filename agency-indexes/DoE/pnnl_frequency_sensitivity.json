@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2023-04-13",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This research code base includes functions to compute statistics of image distributions in (spatial DFT) frequency space, train deep learning image classifiers on these distributions with variable depth and weight decay, and finally measure the sensitivity of the trained models to perturbations along (spatial DFT) frequency components.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/frequency_sensitivity",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/frequency_sensitivity",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

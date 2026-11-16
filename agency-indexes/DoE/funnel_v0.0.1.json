@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-10-16",
+        "metadataLastUpdated": "2018-10-17"
+    },
+    "description": "fcompare is a software package that applies for comparing two curves generated from datasets in csv format. A funnel is generated around the reference curve and the other curve is checked to verify if it is inside the funnel. The funnel can be reshaped by setting a tolerance. One potential application is to verify the development of building HVAC control sequence, in which it compares data curves from real operation with data curves from simulation using developed control sequences, to verify if the developed control sequences have been implemented correctly. In addition, it can be used for Modelica library developer to do the unit test that verifies new model developments.",
+    "laborHours": 1018.4,
+    "languages": [],
+    "name": "funnel v0.0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbl-srg/funnel",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

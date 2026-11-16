@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-07-29",
+        "metadataLastUpdated": "2019-07-29"
+    },
+    "description": "Calibrate high-pressure using Au or Ag powder diffraction. Designed to be used with spec files from the 4-ID-D beamline, Advanced Photon Source, Argonne National Laboratory. ",
+    "laborHours": 851.2,
+    "languages": [],
+    "name": "pypressxrd",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/gfabbris/pypressxrd",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

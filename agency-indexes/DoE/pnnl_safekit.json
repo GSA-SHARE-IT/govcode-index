@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-12-12",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Some of the most pressing machine learning applications such as cyber security and object recognition lack enough ground-truth training data to build a classifier. We solve this problem by using unsupervised deep learning techniques to determine when data were anomalous or deviated from the norm. Traditional methods require either specific context dependent expertise to construct models, or prior examples of events and large amounts of well-labeled data to perform machine learning. Some cutting-edge deep learning approaches have been used to characterize complex events, but these have not been applied to the streaming environment and require a great deal of data. We demonstrated the use of an autoencoder and relevant featurization techniques to both learn a feature space and then identify anomalous portions  without the aid of labeled data or domain knowledge. In this way, we demonstrated the detection of anomalous features without domain knowledge or tagged examples, and delivered these features to users.",
+    "laborHours": 40371.2,
+    "languages": [],
+    "name": "pnnl/safekit",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/safekit",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

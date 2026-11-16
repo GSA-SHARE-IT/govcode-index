@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2022-09-30",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "Binary Driller (BD) is a visualization tool which uses the data produced from the Troglodyte tool developed on the Deep Learning Malware project. Binary Driller performs function matching using the provided function embeddings (function representations), then displays the matches for each function in a layout that mimics the location of each function within the binary.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Binary Driller",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/BinDrill",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

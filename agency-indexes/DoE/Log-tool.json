@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "simsdl@ornl.gov"
+    },
+    "date": {
+        "created": "2018-04-18",
+        "metadataLastUpdated": "2018-04-18"
+    },
+    "description": "Log-tool is a framework for connecting and processing streams of data. It has a simple modular architecture, consisting of input streams, output streams, and \"parsers\". The \"parsers\" are both input and output streams, and they (generally) perform some operation on that data that passes through them. Many of these parsers can be combined in series to perform more complex operations.\n",
+    "laborHours": 40036.8,
+    "name": "Log-tool",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ornl-sava/log-tool",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

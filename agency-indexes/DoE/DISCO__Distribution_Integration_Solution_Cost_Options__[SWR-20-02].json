@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2022-03-10",
+        "metadataLastUpdated": "2024-01-04"
+    },
+    "description": "DISCO is a suite of software for configuring and parallelizing large numbers of distribution power flow simulations and analyzing the results.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "DISCO (Distribution Integration Solution Cost Options) [SWR-20-02]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/disco",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "0.2.1"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-09-07",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "A bloom filter is a binary data structure that is designed to be memory efficient and able to determine whether an element is present in a set. The bloom filter is a\nprobabilistic data structure. It can tell you whether an element, or set of elements, is likely to exist within a set. It can also tell you whether an element, or set of\nelements, does not exist within a set. So false positives are probable, but false negatives are not.\nOur novel approach utilizes the bloom filter to determine how many bigrams (two letter sequence) each value has in common. The resulting metric approximates the\nrelative similarity of two text values.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Bloom filter de-identifier",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "version": "1"
+}

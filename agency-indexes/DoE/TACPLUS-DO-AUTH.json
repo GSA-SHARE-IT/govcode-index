@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2023-08-21",
+        "metadataLastUpdated": "2023-08-21"
+    },
+    "description": "SF-23-084\nThis software provides enhanced authorization and access control support to be used in tandem with the open source\nTerminal Access Controller Access Control System (TACACS+) software tac_plus; providing Authentication,\nAuthorization and Auditing (AAA) capabilities for networking devices.\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "TACPLUS-DO-AUTH",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/argonne-lcf/tacplus-do-auth",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "datepa@ornl.gov"
+    },
+    "date": {
+        "created": "2023-03-22",
+        "metadataLastUpdated": "2023-03-28"
+    },
+    "description": "A matrix-based simulator for neuromorphic computing.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "ORNL/superneuro-mat",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/superneuromat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

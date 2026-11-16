@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-10-31",
+        "metadataLastUpdated": "2023-11-06"
+    },
+    "description": "Energy systems models typically take the form of complex partial differential equations which make multiple forward calculations prohibitively expensive. Fast and data-efficient construction of surrogate models is of utmost importance for applications that require parameter exploration such as design optimization and Bayesian calibration. In presence of a large number of parameters, surrogate models that capture correct dependencies may be difficult to construct with traditional techniques. The issue is addressed here with the formulation of the surrogate model constructed via Physics-Informed Neural Networks (PINN) which capture the dependence with respect to the parameters to estimate, while using a limited amount of data. Since forward evaluations of the surrogate model are cheap, parameter exploration is made inexpensive, even when considering a large number of parameters.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "PINNSTRIPES (Physics-Informed Neural Network SurrogaTe for Rapidly Identifying Parameters in Energy Systems) [SWR-22-12]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/PINNSTRIPES",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The Framework for Network Co-Simulation (FNCS) uses a federated approach to integrate simulations which may have differing time scales. Special consideration is given to integration with a communication network simulation such that inter-simulation messages may be optionally routed through and delayed by such a simulation. In addition, FNCS uses novel time synchronization algorithms to accelerate co-simulation including the application of speculative multithreading. FNCS accomplishes all of these improvements with minimal end user intervention. Simulations can be integrated using FNCS while maintaining their original model input files simply by linking with the FNCS library and making appropriate calls into the FNCS API.",
+    "laborHours": 38592.8,
+    "name": "Framework for Network Co-Simulation",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/FNCS/fncs/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/FNCS/fncs",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

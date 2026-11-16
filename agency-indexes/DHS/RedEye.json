@@ -1,0 +1,42 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2022-10-03",
+        "lastModified": "2026-11-09"
+    },
+    "description": "RedEye is a visual analytic tool supporting Red & Blue Team operations",
+    "downloadURL": "https://api.github.com/repos/cisagov/RedEye/downloads",
+    "homepageURL": "https://github.com/cisagov/RedEye",
+    "laborHours": 403886.6,
+    "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Shell",
+        "Dockerfile"
+    ],
+    "name": "RedEye",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/RedEye.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "blue-team",
+        "cybersecurity",
+        "red-team"
+    ],
+    "vcs": "git"
+}

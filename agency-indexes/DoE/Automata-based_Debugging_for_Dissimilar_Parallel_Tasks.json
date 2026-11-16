@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "AutomaDeD is a tool that automatically diagnoses performance and correctness faults in MPI applications. It creates time and control-flow models of processes in an MPI program, and when a failure occus, these models are analyzed probabilistically to find the origin of the failure. The output of the tool is MPI processes ranked by the abnormality degree and regions of code where faults are first manifested. The granularity of code region is an MPI call or a computation region between two MPI calls.",
+    "laborHours": 6308.0,
+    "name": "Automata-based Debugging for Dissimilar Parallel Tasks",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/automaDeD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

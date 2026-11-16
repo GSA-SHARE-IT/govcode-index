@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jewellbc@ornl.gov"
+    },
+    "date": {
+        "created": "2022-05-09",
+        "metadataLastUpdated": "2022-05-09"
+    },
+    "description": "Project for overlaying attacks onto existing PCAP data. The included scripts were originally a part of the training pipeline for the Oak Ridge Cyber Analytics (ORCA) project and have been distributed now under an open source license to facilitate the publication of PCAP datasets.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "ORNL/pcapmunger",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/pcapmunger",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

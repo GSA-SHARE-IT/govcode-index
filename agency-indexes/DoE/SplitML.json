@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-07-15",
+        "metadataLastUpdated": "2022-07-15"
+    },
+    "description": "SplitML (Signal Processing Library for Interference rejecTion by Machine Learning) is a code repository for a set of tools for interference rejection in complex time-domain signals. The goal of the tools is to provide machine learning modeling capabilities for rejecting interference. Recent related machine learning algorithms for signal processing have focused mostly on speech enhancement or multi-speaker speech separation; the tools in SplitML will extend these innovations to generic time-domain signals of interest. SplitML includes tools for generating synthetic noisy signals, code for customized machine learning models applicable to interference rejection, and tools for evaluating such algorithms against standard signal processing techniques. These components are written in Python, a high-level programming language that takes advantage of the Python ecosystem of high-quality open-source packages for machine learning and signal processing.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SplitML",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/SplitML",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

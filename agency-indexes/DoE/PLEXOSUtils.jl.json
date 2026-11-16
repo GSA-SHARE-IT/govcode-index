@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-08-12",
+        "metadataLastUpdated": "2021-10-29"
+    },
+    "description": "PLEXOSUtils.jl provides functionality for loading in PLEXOS result zipfiles on disk into in-memory Julia data structures. The data structures mirror the relationships defined in the original PLEXOS result XML and provide a convenient starting point for writing application-specific code.",
+    "laborHours": 0.0,
+    "languages": [
+        "Julia"
+    ],
+    "name": "PLEXOSUtils.jl",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/PLEXOSUtils.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

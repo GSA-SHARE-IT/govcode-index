@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "gounleyjp@ornl.gov"
+    },
+    "date": {
+        "created": "2022-05-19",
+        "metadataLastUpdated": "2022-05-19"
+    },
+    "description": "Many scientific problems, such as drug design, involve exploring chemical space to identify molecules with specific properties. However, current rule-based and machine learning models for this purpose are limited in how efficiently and effectively they can do this. In Masked Language Molecules (MLMol), we used masked language modeling from natural language processing to learn motifs of chemical sequences and how they relate to certain chemical properties.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Masked Language Molecules",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/candle/mlmol",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

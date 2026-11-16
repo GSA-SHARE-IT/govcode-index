@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2020-09-29",
+        "metadataLastUpdated": "2023-03-13"
+    },
+    "description": "WiiBin is a framework to determine architecture of an unknown binary and locate opcode sections within the same binary via supervised machine learning.",
+    "laborHours": 486.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "WiiBin",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/WiiBin",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

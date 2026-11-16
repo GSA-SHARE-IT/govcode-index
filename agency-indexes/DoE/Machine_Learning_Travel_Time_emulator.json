@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-02-08",
+        "metadataLastUpdated": "2024-02-20"
+    },
+    "description": "This notebook makes seismic phase travel time predictions using machine learning. There are 3 different\nmachine learning models corresponding to the three regimes: local, regional, and teleseismic. After\nreading in the test data and splitting into the 3 regimes, we use precomputed scalers to scale the input\nfeatures used to make the travel time predictions. We then load the machine learning models and use\nthem to predict travel times for test data.",
+    "homepageURL": "https://gdo-maltte.llnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Machine Learning Travel Time emulator",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gdo-maltte.llnl.gov",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "version": "1"
+}

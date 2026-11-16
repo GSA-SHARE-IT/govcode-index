@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-01",
+        "metadataLastUpdated": "2021-04-01"
+    },
+    "description": "TaskWorks is a portable, high-level, task engine designed for HPC workloads. Applications can create tasks and define dependencies between them with the task engine. Once the task is defined and submitted to TaskWorks, the TaskWorks engine will execute it according to the specified dependencies, without additional input from the application. TaskWorks has an integrated event manager monitors files, sockets, timers, and MPI operations, and these events can be used as task dependencies. TaskWorks is compatible with MPI and is designed to work efficiently with HPC applications that perform.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "TaskWorks v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hpc-io/taskworks",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

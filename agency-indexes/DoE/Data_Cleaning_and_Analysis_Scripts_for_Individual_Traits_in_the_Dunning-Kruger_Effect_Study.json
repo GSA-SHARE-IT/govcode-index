@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-04-01",
+        "metadataLastUpdated": "2024-09-10"
+    },
+    "description": "This code was built to recode and analyze survey data. The recoding script was built in Python while the data analysis script was built in R. The recoding script takes the raw survey data text and converts it to a numeric coding scheme. The data analysis script conducts analyses recommended by the American Psychological Association (APA) for data of this type. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525. SAND2021-3178 O",
+    "laborHours": 1322.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "Data Cleaning and Analysis Scripts for Individual Traits in the Dunning-Kruger Effect Study",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/DKE125/DKE-Scripts/blob/main/Copyright_Notice.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/DKE-Scripts",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

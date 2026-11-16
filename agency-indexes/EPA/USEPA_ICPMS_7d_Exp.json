@@ -1,0 +1,33 @@
+{
+    "name": "USEPA/ICPMS_7d_Exp",
+    "organization": "usepa",
+    "description": "Code for models used in predicting “ideal background” counts per second (CPS) @ m/z for ICP-MS",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/ICPMS_7d_Exp/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/ICPMS_7d_Exp",
+    "downloadURL": "https://github.com/USEPA/ICPMS_7d_Exp/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/ICPMS_7d_Exp/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/ICPMS_7d_Exp.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2023-05-11T16:32:43Z",
+        "lastModified": "2025-03-10T19:15:48Z",
+        "metadataLastUpdated": "2026-11-16T06:39:58.609Z"
+    }
+}

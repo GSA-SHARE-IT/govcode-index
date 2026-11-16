@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-17",
+        "metadataLastUpdated": "2018-07-17"
+    },
+    "description": "Symbolic Regression (SR) is a genetic programming algorithm for finding mathematical functions that match a given set of data. It works by evolving an approximation function from a set of primitives. This makes it able to discover the form of the function, in addition to it's coefficients. It has even been shown to be able to discover natural physical laws from experimental data. Given that SR is one of the biggest success stories in genetic programming, it's surprising that there doesn't seem to be an easy-to-use, open-source SR program available. SoRa attempts to fill that gap. With SoRa any user should easily be able to provide experimental data and write a simple configuration file such that SoRa can find a set of good mathematical functions to match the data.\n",
+    "laborHours": 1550.4,
+    "languages": [],
+    "name": "SoRa: Symbolic Regression in Python",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/SoRa",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

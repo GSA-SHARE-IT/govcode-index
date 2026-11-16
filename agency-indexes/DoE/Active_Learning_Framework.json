@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-11-03",
+        "metadataLastUpdated": "2023-11-03"
+    },
+    "description": "Machine learning (ML) of interatomic potentials show great promise to accelerate scientific simulation, e.g., by emulating expensive computations at a high accuracy but much reduced computational cost. Training datasets are calculated from computationally expensive ab initio quantum mechanics methods, density functional theory (DFT). Trained on this data, an ML model can be very successful in predicting energy and forces for new atomic configurations. A critical factor is the quality and diversity of the training dataset. Thus, a highly automated approach to dataset construction based on active learning framework is designed suitable for material physics.\n\nThe active learning scheme begins with fully randomized atomic configurations. Then, many Molecular Dynamics (MD) trajectories are simulated using current ML potentials, where each MD trajectory is initialized to a random disordered configuration. The temperature is varied in order to diversify the sampled configuration during these simulations. The variance of predictions for eight neural networks within an ensemble is analyzed to determine whether the model is operating as expected. This helps in determining whether collecting more data would be helpful to the model by checking the ensemble variance is greater than the threshold. In this case, the MD trajectory is terminated and the final atomic configuration is placed on a queue (SQL database) for DFT calculations and added to training dataset. Periodically, ML model is retrained to the updated training model. This Active Learning loop is iterated until the cost of MD simulations becomes prohibitively expensive. The MD simulations will hopefully be sufficiently robust to support nucleation after many active learning iterations. In this sense, active learning scheme must automatically discover the important low energy and nonequilibrium physics.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Active Learning Framework",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/alf",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

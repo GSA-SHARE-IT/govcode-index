@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "ExaSP2 is a reference implementation of typical linear algebra algorithms and workloads for a quantum molecular dynamics (QMD) electronic structure code. The algorithm is based on a recursive second-order Fermi-Operator expansion method (SP2) and is tailored for density functional based tight-binding calculations of material systems.",
+    "laborHours": 1048.8,
+    "languages": [
+        "C"
+    ],
+    "name": "ExaSP2",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ECP-copa/ExaSP2/blob/master/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ECP-copa/ExaSP2",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

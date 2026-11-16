@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-07-23",
+        "metadataLastUpdated": "2018-08-13"
+    },
+    "description": "This software performs multi-label segmentation of 2D/3D images. It is highly accurate, results rely on use of an Markov random field (MRF) formulation. It runs in both shared and distributed memory parallel modes. MRF algorithms are powerful tools in image analysis to explore contextual information of data.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Parallel Markov Random Fields for Image Segmentation (PMRF-IS) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/tperciano/PMRF-IS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

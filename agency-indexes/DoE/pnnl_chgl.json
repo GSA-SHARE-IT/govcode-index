@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-09-11",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "CHGL is a hypergraph computation library for Chapel. It's primary contributions are data structures for hypergraphs and the algorithms to operate on these data structures.",
+    "laborHours": 6414.4,
+    "languages": [],
+    "name": "pnnl/chgl",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/chgl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

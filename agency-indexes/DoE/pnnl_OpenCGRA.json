@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-12-15",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "OpenCGRA is an open-source framework for modeling, testing, and evaluating CGRAs. The first open-source integrated framework able to support the full top-to-bottom design flow for specializing and implementing CGRAs: modeling at different abstraction levels (functional level, cycle level, register-transfer level) with compiler support, verification at different granularities (unit testing, integration testing, property-based testing), simulation, generation of synthesizable Verilog, and characterization (area, power, and timing).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/OpenCGRA",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/OpenCGRA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

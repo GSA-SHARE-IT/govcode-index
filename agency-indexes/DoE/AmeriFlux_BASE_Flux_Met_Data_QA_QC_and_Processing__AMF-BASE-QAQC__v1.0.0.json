@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-06-07",
+        "metadataLastUpdated": "2023-06-07"
+    },
+    "description": "The AmeriFlux BASE Flux/Met Data QA/QC and Processing (AMF-BASE-QAQC) code provides tools to review and prepare continuous flux/met data submitted to the AmeriFlux Management Project for publication as the AmeriFlux BASE data product. The code provides 3 core functionalities: Format QA/QC assesses submitted data files for compliance with the required submission format; Data QA/QC assesses the data quality; BASE Publish prepares the data for publication.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "AmeriFlux BASE Flux/Met Data QA/QC and Processing (AMF-BASE-QAQC) v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/AMF-FLX/AMF-BASE-QAQC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

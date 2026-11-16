@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-04-15",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Biocellion is a software platform to accelerate modeling and simulation of multicellular biological systems. Biocellion integrates simulations of individual cell behaviors, short-distance intercellular biomechanics, and extracellular molecular transport to understand and predict multicellular biological system behaviors in their entirety. This software release (Biocellion 3.1) updates previous Biocellion 2.0. The main updates include support for ellipsoid based cell biomechanics modeling and layer based initialization of multi-layered multicellular biological systems in addition to performance improvements and various API updates. Through Biocellion SPC (https://biocellion.com), these updates have been used to investigate skin biomechanics under different conditions (e.g. humidity) for Procter and Gamble. This is the only discrete agent based solution to allow seamless integration of individual cell level knowledge and measurements to a whole skin model to the best of our knowledge.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov/default.aspx",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Biocellion 3.1",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov/default.aspx",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov/default.aspx",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The PNNL Biodiversity Plugin is a software tool for Skyline and is designed to allow pathway-centric browsing of peptides previously identified by LC-MS/MS. The plugin is designed to assist in SRM assay design or DIA data analysis. Users select an organism and biological pathway of interest, then the plugin shows information about the associated peptides.",
+    "laborHours": 282218.4,
+    "languages": [],
+    "name": "PNNL Biodiversity Library Plugin",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/PNNL-Biodiversity-Library-Plugin",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

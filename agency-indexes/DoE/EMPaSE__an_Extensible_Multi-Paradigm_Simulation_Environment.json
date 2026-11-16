@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-28"
+    },
+    "description": "EMPaSE is a hierarchical, extensible, modular modeling environment for developing and running hybrid simulations of sequential-modular, systems dynamics, discrete-event, and agent-based paradigms. It contains two principle components: a multi-paradigm simulation engine and a graphical user interface. EMPaSE models are defined through a hierarchically-defined set of computational modules that define the simulation logic. Inter-module communication occurs through two complimentary systems: pull-based \"ports\" for general computation patterns and push-based \"plugs\" for event processing. Entities (i.e. agents) within the simulation operate within an abstract multi-network environment. The EMPaSE simulation engine is designed around a flexible plug-in architecture, allowing simulations to import computational modules, engine customizations, and interfaces to external applications from independent plug-in libraries. The EMPaSE GUI environment provides an environment for graphically constructing, executing, and debugging EMPaSE models. As with the simulation engine, the GUI is constructed on top of an extensible architecture that supports rapid customization of the user experience through external plug-in libraries.",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 0.0,
+    "languages": [
+        "gcc&gt;=3.4.2 or Microsfot Visual Studio 2005"
+    ],
+    "name": "EMPaSE: an Extensible Multi-Paradigm Simulation Environment",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov/contact-form",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-11-17",
+        "metadataLastUpdated": "2023-11-17"
+    },
+    "description": "This software is an open-source Python library that provides tools for processing hyperspectral neutron time-of-flight radiography data. This type of data allows material decomposed reconstructions to be generated with the use of material characteristic spectral responses and the algorithms provided in this code library. The software library will contain tools for pre-processing the neutron measurement data, estimating measurement system parameters, reconstructing material decomposed radiographs, and computing material decomposed computed tomography (CT). Furthermore, it will have capability to generate and process simulated neutron time-of-flight data with the goal of benchmarking and demonstrating the tools that are provided. The software will include thorough documentation and application examples.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "TRINIDI (Time-of-Flight Resonance Imaging with Neutrons for Isotopic Density Inference)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/trinidi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

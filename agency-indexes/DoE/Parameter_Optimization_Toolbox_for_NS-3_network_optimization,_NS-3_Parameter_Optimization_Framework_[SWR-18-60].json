@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-07-02",
+        "metadataLastUpdated": "2024-03-11"
+    },
+    "description": "This simulation-based parameter optimization framework is proposed to tune parameters of different types of communication networks using ns-3 to achieve the optimal network performance. It consists of three main components:  an ns-3 packet reporting module; a sampler running simulations with all possible parameter sets for the input parameter variables by using a parallel executor at each generation; and a hybrid optimization algorithm for tuning configurable parameters of hybrid designs and application parameter variables. The proposed hybrid metaheuristic optimization algorithm combines an evolutionary algorithm with a gradient descent function to quickly achieve an approximate globally optimum solution.\n\nThis software is designed to be used in a multi-core processing Linux environment and run over a long duration of time. The execution time varies depending mainly upon the nature of the ns-3 configuration being simulated. This software includes a custom ns-3 QoS measurement application which must be included with the ns-3 source code during installation of the software.",
+    "laborHours": 1048.8,
+    "languages": [
+        "C++",
+        "Python",
+        "C++"
+    ],
+    "name": "Parameter Optimization Toolbox for NS-3 network optimization, NS-3 Parameter Optimization Framework [SWR-18-60]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NREL/ParaOptimizationNS3",
+                "name": "Other"
+            },
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/ParaOptimizationNS3",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

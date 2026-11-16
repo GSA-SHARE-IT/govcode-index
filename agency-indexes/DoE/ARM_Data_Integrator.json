@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The Atmospheric Radiation Measurement (ARM) Data Integrator (ADI) streamlines the development of scientific algorithms and analysis of time-series NetCDF data, and improves the content and consistency of the output data products produced by these algorithms. The framework automates the process of retrieving and preparing data for analysis, and allows users to design output data products through a graphical interface. It also provides a modular, flexible software development architecture that scientists can use to generate C, Python, and IDL source code templates that embed the pre and post processing logic allowing the scientist to focus on only their science. The input data, preprocessing, and output data specifications of algorithms are defined through a graphical interface and stored in a database. ADI implements workflow for data integration and supports user access to data through a library of software modules. Data preprocess capabilities supported include automated retrieval of data from input files, merging the retrieved data into appropriately sized chunks, and transformation of the data onto a common coordinate system grid. Through the graphical interface, users can view the details of both their data products and those in the ARM catalog and allows developers to use existing data product to build new data products. Views of the output data products include an overlay of how the design meets ARM archive's data standards providing the user with a visual cue indicating where their output violates an archive standard. The ADI libraries access the information provided through the GUI via a Postgres database. The ADI framework and its supporting components can significantly decrease the time and cost of implementing scientific algorithms while improving the ability of scientists to disseminate their results.",
+    "laborHours": 76.0,
+    "name": "ARM Data Integrator",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ARM-DOE/ADI/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ARM-DOE/ADI",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

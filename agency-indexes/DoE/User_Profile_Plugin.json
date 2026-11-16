@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-07-24",
+        "metadataLastUpdated": "2020-07-31"
+    },
+    "description": "This kbase-ui plugin is responsible for displaying a user profile - either the current user's profile if the path is #people or #user, or a given user profile if the path is #people/USERNAME or #user/USERNAME.",
+    "laborHours": 107737.6,
+    "languages": [],
+    "name": "User Profile Plugin",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/kbase-ui-plugin-user-profile",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

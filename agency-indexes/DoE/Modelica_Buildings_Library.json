@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-04-30",
+        "metadataLastUpdated": "2019-10-04"
+    },
+    "description": "The Building Informatics Environment is a modeling environment based on the Modelica language. The environment allows users to create a computer model of a building and its energy systems with various time scales and physical resolutions. The environment can be used for rapid development of e.g. demand controls algorithms new HVAC system solutions and new operational strategies. Models for building energy and control systems are made available in the environment. The models can be used as provided or they can be changed or linked with each other in order to model the effects that a particular user is interested in.",
+    "laborHours": 100122.4,
+    "languages": [],
+    "name": "Modelica Buildings Library",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbl-srg/modelica-buildings",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

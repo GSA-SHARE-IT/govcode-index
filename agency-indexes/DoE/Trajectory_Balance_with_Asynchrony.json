@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2025-04-10",
+        "metadataLastUpdated": "2025-04-10"
+    },
+    "description": "Finetune large language models (LLMs) quicker via parallelization. Specifically, this implements\nasynchronous reinforcement learning with a trajectory balance objective function",
+    "laborHours": 1596.0,
+    "languages": [],
+    "name": "Trajectory Balance with Asynchrony",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/bbartoldson/TBA",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

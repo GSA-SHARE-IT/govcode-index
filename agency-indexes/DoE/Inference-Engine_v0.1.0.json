@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-07-13",
+        "metadataLastUpdated": "2023-07-13"
+    },
+    "description": "Given a pre-trained neural network, Inference-Engine performs maps network inputs to outputs by executing the forward pass through the provided network. Although the predominant programming language for machine-learning is Python, most high-performance computing (HPC) applications are written in Fortran, C, or C++. Inference-Engine aims to support HPC programs and is written in Fortran, a language with a large feature set supporting interoperability with C. This software exposes concurrency in a portable way by using standard language features that some modern Fortran compilers can exploit with various optimizations, including offloading computation to a Graphics Processing Unit (GPU). In particular, this software makes extensive use of Fortran's \"do concurrent\" parallel loop construct, implicitly parallel array statements, and pure procedures that can be invoked inside \"do concurrent\" blocks. Inference-Engine also supports dynamic choice of inference methods at runtime. Two current options include one method that uses Fortran's \"dot_product\" intrinsic function inside \"do concurrent\" blocks and another method that instead uses Fortran' \"matmul\" array intrinsic function. We plan to investigate automatic compiler offloading of \"do concurrent\" calculations to GPUs and compile-time substitution of optimized libraries such as the Basic Linear Algebra Library (BLAS) for \"matmul\" invocations. We also envision the potential for the choice of which method to use could happen at program launch based on in situ performance measurements on any given platform.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Inference-Engine v0.1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BerkeleyLab/Inference-Engine",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

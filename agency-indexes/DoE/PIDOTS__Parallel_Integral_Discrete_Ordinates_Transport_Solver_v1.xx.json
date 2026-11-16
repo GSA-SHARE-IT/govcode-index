@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-04",
+        "metadataLastUpdated": "2021-06-04"
+    },
+    "description": "PIDOTS is a software application for studying an alternative iterative and parallel solution technique for linear, deterministic neutral-particle radiation transport. The code solves a very generic, simplified—i.e., dumb—form of the system of relevant system of equations. PIDOTS is less capable than the open source proxy application SNAP. Given limitations introduced by the equations as well as limitations in data and meshing, PIDOTS is incapable of performing real physics simulations or addressing actual physics questions for transport. Instead of using transport mesh sweeps that we see in many production codes (and SNAP), PIDOTS uses a Jacobi or Jacobi-like iterative scheme that updates the flux information between adjacent, decoupled subdomains. By completely decoupling subdomains, PIDOTS permits massively large-scale decomposition (i.e., tens of thousands of processes or more) of the spatial mesh, making it an interesting alternative to mesh sweeps, worth continued studying and development. ",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PIDOTS: Parallel Integral Discrete Ordinates Transport Solver v1.xx",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/pidots",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

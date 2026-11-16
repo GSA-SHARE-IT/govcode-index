@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-12-13",
+        "metadataLastUpdated": "2024-12-13"
+    },
+    "description": "This is a simple python code to calculate jet quenching for nuclear modification factors in relativistic\nheavy-ion collisions. This code can be used to generate all results specified in RR0010127, to be\nsubmitted to Physical Review C.",
+    "laborHours": 1124.8,
+    "languages": [],
+    "name": "A simple model for jet quenching in Heavy Ion Physics",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ez-Quench",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

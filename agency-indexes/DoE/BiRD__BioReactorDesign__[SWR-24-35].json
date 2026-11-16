@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-03-05",
+        "metadataLastUpdated": "2024-03-07"
+    },
+    "description": "Numerical simulations can accelerate scale up and optimization of bioreactors. This project provides a toolbox to facilitate such numerical simulations in OpenFOAM. The tool box contains 1) mesh generations tools for several typical bio reactor types in OpenFOAM 2) Inverse modeling tools to calibrate models using available experimental data 3) post processing tools that accelerate and streamline the analysis of the numerical simulations.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "Liquid"
+    ],
+    "name": "BiRD (BioReactorDesign) [SWR-24-35]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/BioReactorDesign",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

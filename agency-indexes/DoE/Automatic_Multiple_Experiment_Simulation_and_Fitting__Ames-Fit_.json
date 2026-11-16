@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "pieper@ameslab.gov"
+    },
+    "date": {
+        "created": "2024-06-11",
+        "metadataLastUpdated": "2024-06-17"
+    },
+    "description": "AMES-Fit is a program used to automatically fit the multi-field solid-state NMR spectra of half-integer quadrupolar nuclei. Due to the high dimensional space, gradient algorithms have failed to address the fitting of such data, which is at present done manually. AMES-Fit diverges from these approaches by using an adaptive step size random search algorithm to fit the NMR spectra to consistently find the global best fit parameters.",
+    "laborHours": 1140.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Automatic Multiple Experiment Simulation and Fitting (Ames-Fit)",
+    "organization": "Ames Laboratory (AMES)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/fperras/AMES-Fit",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Ames Laboratory (AMES)"
+    ],
+    "vcs": "git"
+}

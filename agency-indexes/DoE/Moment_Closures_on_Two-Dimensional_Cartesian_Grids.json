@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-12-13"
+    },
+    "description": "Some moment methods for kinetic equations are complicated and take time to develop. Over the course of a couple years, this software was developed to test different closures on standard test problems in the literature. With this software, researchers in the field of moment closures will be able to rapidly test new methods.",
+    "laborHours": 22298.4,
+    "name": "Moment Closures on Two-Dimensional Cartesian Grids",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/ckrisgarrett/closures-2d",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ckrisgarrett/closures-2d",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

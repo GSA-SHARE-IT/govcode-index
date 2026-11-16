@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-05-17",
+        "metadataLastUpdated": "2021-05-18"
+    },
+    "description": "This is a library to characterize the data and check the compression results of lossy compressors. For lossy compressor developers, Z-checker can be used to characterize critical properties (such as entropy, distribution, power spectrum, principal component analysis, and autocorrelation) of any data set to improve compression strategies. For lossy compression users, Z-checker can detect the compression quality (compression ratio and bit rate) and provide various global distortion analysis comparing the original data with the decompressed data (peak signal-to-noise ratio, normalized mean squared error, rate distortion, rate-compression error, spectral, distribution, and derivatives) and statistical analysis of the compression error (maximum, minimum, and average error; autocorrelation; and distribution of errors).Z-checker can perform the analysis with either coarse granularity (throughout the whole data set) or fine granularity (by user-defined blocks), such that the users and developers can select the best fit, adaptive compressors for different parts of the data set. Z-checker features a visualization interface displaying all analysis results in addition to some basic views of the data sets such as time series",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Z-CHECKER",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CODARcode/Z-checker",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

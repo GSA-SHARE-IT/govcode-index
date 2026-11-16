@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-07-29",
+        "metadataLastUpdated": "2022-07-29"
+    },
+    "description": "The Department of Energy and the National Cancer Institute have developed new software for conducting multi-scale simulations of complex systems. This software, called the Multiscale Machine-Learned Modeling Infrastructure (MuMMI), couples simulations on three spatial scales to study slow, large-scale reorganizations of biomolecular systems with the speed of continuum and coarse-grained models while revealing selected interactions at full atomic precision. In these simulations, coarse-to-fine model conversions are used to spawn relevant fine-scale simulations along chosen order parameters, and fine-to-coarse feedback is used to iteratively improve the accuracy and multi-scale consistency of coarse-scale and continuum simulations. The complete MuMMI framework will be reviewed and released as open-source software by Lawrence Livermore National Laboratory. This review covers a subset of the MuMMI components that were developed exclusively at the Los Alamos National Laboratory.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "components for the MuMMI software release",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cneale-LANL/MuMMI-C21095",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

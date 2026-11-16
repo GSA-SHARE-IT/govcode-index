@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Our application, the Omics Metadata Management Software (OMMS), answers both needs, empowering experimentalists to generate intuitive, consistent metadata, and to perform bioinformatics analyses and information management tasks via a simple and intuitive web-based interface. Several use cases with short-read sequence datasets are provided to showcase the full functionality of the OMMS, from metadata curation tasks, to bioinformatics analyses and results management and downloading. The OMMS can be implemented as a stand alone-package for individual laboratories, or can be configured for web-based deployment supporting geographically dispersed research teams. Our software was developed with open-source bundles, is flexible, extensible and easily installed and run by operators with general system administration and scripting language literacy.",
+    "homepageURL": "http://omms.sandia.gov",
+    "laborHours": 0.0,
+    "name": "Omics Metadata Management Software v. 1 (OMMS)",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://omms.sandia.gov",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

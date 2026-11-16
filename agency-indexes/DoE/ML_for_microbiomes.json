@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-11-03",
+        "metadataLastUpdated": "2023-11-03"
+    },
+    "description": "The software provides machine learning analysis and visualization to detect patterns in microbiome data, including topic modeling, probabilistic graphical modeling, conventional machine learning methods, and deep learning. The software is written in python and R, it uses some python and R libraries as well as big open-source libraries like sklearn, networkX, pytorch (python), pgmpy (python), and bnlearn (R). It also has a script to use for MALLET and DTM (open-source packages for topic modeling, written in Java).",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ML for microbiomes",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/ML-for-microbiomes",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

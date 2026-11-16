@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2021-10-13",
+        "lastModified": "2026-04-09"
+    },
+    "description": "Terraform code to provision an AWS account via Control Tower.",
+    "downloadURL": "https://api.github.com/repos/cisagov/provision-aws-account/downloads",
+    "homepageURL": "https://github.com/cisagov/provision-aws-account",
+    "laborHours": 636.3,
+    "languages": [
+        "Shell",
+        "HCL"
+    ],
+    "name": "provision-aws-account",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/provision-aws-account.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2021-11-01",
+        "metadataLastUpdated": "2024-07-01"
+    },
+    "description": "The Circular Economy Wind Agent-based Model (CEWAM) is an agent-based model built with the MESA python library. The tool enables studying various circular economy strategies by simulating actors decisions.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "CEWAM (Circular Economy Wind Agent-based Model) [SWR-21-120]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/CEWAM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-06-03",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Code and data for the SIEVE-Ub prediction algorithm for prediction of E3 ubiquitin ligase mimics\nThe SIEVEUb approach is a novel approach to determination of sequence similarity that retains flexibility in sequence via a reduced amino acid alphabet and does not require sequence alignment, a prohibitive step for many applications.",
+    "laborHours": 1094.4,
+    "languages": [],
+    "name": "biodataganache/SIEVE-Ub",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/biodataganache/SIEVE-Ub",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

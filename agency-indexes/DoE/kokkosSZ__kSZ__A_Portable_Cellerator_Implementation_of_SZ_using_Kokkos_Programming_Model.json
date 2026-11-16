@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-08-24",
+        "metadataLastUpdated": "2021-08-24"
+    },
+    "description": "kSZ is a Kokkos-based implementation of the world-widely used SZ lossy compressor. We use Kokkos because it provides abstractions for both parallel execution of code and data management, which can be used to support portable implementation across different accelerator technologies. Kokkos can support OpenMP/OpenMPTarget, oneAPI, Pthreads, and CUDA as backend programming models.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "kokkosSZ (kSZ) A Portable Cellerator Implementation of SZ using Kokkos Programming Model",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/szcompressor/kokkosSZ",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

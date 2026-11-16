@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-05-28",
+        "metadataLastUpdated": "2024-05-28"
+    },
+    "description": "This code allows us to generate a model to predict ground state electron densities directly from atomic\nstructure thereby bypassing the need to perform direct DFT calculations. It is based on many body\ncorrelation descriptors defined in https://arxiv.org/abs/2004.14442 (IM release numbers: LLNL-JRNL-\n808791 and LLNL-JRNL-840698). The code reads in electron densities, in CHGCAR format used by the\nDFT code VASP, calculates many-body correlation descriptors based on atoms surrounding a grid point\nand then uses linear regression to obtain the fitting parameters.",
+    "laborHours": 2508.0,
+    "languages": [],
+    "name": "Interpretable, Extensible Linear Regression Model for Electron Density Prediction",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/gopal-iyer/interpretable_ML_charge_density",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-14",
+        "metadataLastUpdated": "2021-12-14"
+    },
+    "description": "This code has been previous released as open source under LLNL-CODE-529294. The HEXRD program comprises a library of X-ray diffraction analysis tools and a stand-alone GUI application. While there are many software packages that provide similar capabilities, HEXRD was designed to provide an extremely flexible and extensible basis for describing a broad array of X-ray diffraction instruments; this includes both mono- and poly-chromatic modalities as well as poly- and single-crystal samples. The high-level objects include Material: an abstraction for defining crystalline materials, including unit cell parameters and anisotropic elastic moduli Imageseries: an interface for series of diffraction images containing one or more frames, including provisions for metadata. Instrument: an abstraction of an X-ray diffraction instrument including support for the definition of multiple detector elements as well as powder, Laue, and mono-chromatic single/multi-grain diffraction analysis modalities (including attendant calibration routines). The hexrdgui package is a standalone PySide2/Qt5 GUI built on top of hexrd. The 0.8.1 release includes various bug fixes as well as some new functionality in the GUI, including: o Enhancements to the import tools for LLNL diffraction instruemtns (PXRDIP and TARDIS) o The ability to save 1-d LeBail fits of integrated diffraction spectra.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Highly Extensible X-ray Diffraction Toolkit",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/HEXRD/hexrd",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.8.1"
+}

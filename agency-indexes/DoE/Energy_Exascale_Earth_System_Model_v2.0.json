@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jacob@anl.gov"
+    },
+    "date": {
+        "created": "2021-09-27",
+        "metadataLastUpdated": "2022-11-18"
+    },
+    "description": "First release of version 2 of the Energy Exascale Earth System Model. The atmosphere component remains EAM. Major changes since version 1 include: all column-physics parameterizations are computed on a separate grid that has approximately half the number of points of the dynamics grid, a new nonhydrostatic dynamical core (running in hydrostatic mode) with semi-Lagrangian tracer transport, CLUBB updated from v1 to v2, a new convective trigger (dCAPE/ULL) based on the dynamic Convective Available Potential Energy (CAPE) (dCAPE) and the Unrestricted Launch Level (ULL) concepts is used in ZM. minimum cloud droplet number changed, gravity wave drag energy conservation fixed and new tunings used, dust emission size distribution changed to emit more coarse dust particles The land component is still ELM. Major changes since version 1 include: using SNICAR-AD for radiation in snow to match the sea-ice model and fixing bugs in snow compaction and water state calculation. The ocean component remains MPAS-ocean. Major change since version 1 include: Redi isopycnal mixing has been updated, tested, and tuned in combination with the Gent-McWilliams parameterization, a sign error was fixed in the 3rd-order flux routines, the mesh used in low-resolution coupled cases was modified and the time steps adjusted, new regionally refined meshes were created, one focused on North America and another on the Southern Ocean, including ice shelf cavities. The sea-ice component remains MPAS-seaice. Major changes since version 1 include: A new heat- and freshwater-conserving coupling of frazil ice, turning off of SSH filtering, addition of SNICAR-AD and snow grain aging. The land-ice component remains MPAS-Albany-landIce (MALI) and is a static ice sheet. There is more out-of-the-box support for cryosphere configurations including the new regionally refined configuration around Antarctica with ice shelf cavities. The river model is MOSART. The half-degree river mesh was redone so it no longer treats Black and Caspian seas as ocean. The coupler remains cpl7/MCT. Major changes since version 1 include handling of ice shelf melt fluxes (heat / freshwater exchange with the ocean), and data icebergs. All components allow regional refinement of their meshes and two separate example of refinement, one in and around North America and one around Antarctica and the Southern Ocean, are provided.",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "C",
+        "Fortran"
+    ],
+    "name": "Energy Exascale Earth System Model v2.0",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/E3SM/releases/tag/v2.0.0",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git",
+    "version": "v2.0.0"
+}

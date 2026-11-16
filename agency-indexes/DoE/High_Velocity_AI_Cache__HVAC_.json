@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "khana@ornl.gov"
+    },
+    "date": {
+        "created": "2025-03-06",
+        "metadataLastUpdated": "2025-03-07"
+    },
+    "description": "HVAC is a high-performance caching system designed for large-scale AI training workloads.",
+    "laborHours": 684.0,
+    "languages": [
+        "C++",
+        "C"
+    ],
+    "name": "High Velocity AI Cache (HVAC)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/akhanaornl/hvac.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "v1"
+}

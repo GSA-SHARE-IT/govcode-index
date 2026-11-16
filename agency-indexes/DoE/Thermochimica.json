@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "radercd@ornl.gov"
+    },
+    "date": {
+        "created": "2018-02-01",
+        "metadataLastUpdated": "2020-09-24"
+    },
+    "description": "Thermochimica is a software library that determines a unique combination of phases and their compositions at thermochemical equilibrium. Thermochimica can be used for stand-alone calculations or it can be directly coupled to other codes. This release of the software does not have a graphical user interface (GUI) and it can be executed from the command line or from an Application Programming Interface (API). Also, it is not intended for thermodynamic model development or for constructing phase diagrams. The main purpose of the software is to be directly coupled with a multi-physics code to provide material properties and boundary conditions for various physical phenomena. Significant research efforts have been dedicated to enhance computational performance through advanced algorithm development, such as improved estimation techniques and non-linear solvers. Various useful parameters can be provided as output from Thermochimica, such as: determination of which phases are stable at equilibrium, the mass of solution species and phases at equilibrium, mole fractions of solution phase constituents, thermochemical activities (which are related to partial pressures for gaseous species), chemical potentials of solution species and phases, and integral Gibbs energy (referenced relative to standard state). The overall goal is to provide an open source computational tool to enhance the predictive capability of multi-physics codes without significantly impeding computational performance.",
+    "laborHours": 5654.4,
+    "languages": [],
+    "name": "Thermochimica",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-CEES/thermochimica",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

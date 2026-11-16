@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2024-07-25"
+    },
+    "description": "Tensors (also known as multidimensional arrays or N-way arrays) are used in a variety of applications ranging from chemometrics to network analysis. The Tensor Toolbox provides classes for manipulating dense, sparse, and structured tensors using MATLAB's object-oriented features. It also provides algorithms for tensor decomposition and factorization, algorithms for computing tensor eigenvalues, and methods for visualization of results.",
+    "laborHours": 21386.4,
+    "languages": [
+        "MATLAB",
+        "XSLT",
+        "C"
+    ],
+    "name": "Tensor Toolbox for MATLAB v. 3.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/tensor_toolbox",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "3.0"
+}

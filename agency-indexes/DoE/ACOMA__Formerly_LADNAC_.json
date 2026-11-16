@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2021-06-17"
+    },
+    "description": "Software for converting data to DNA. The purpose of the software is to convert binary data file(s) into a collection of DNA oligo descriptions that can be synthesized and provide long-term data storage. The software is designed to target the unique properties of DNA synthesis and sequencing and include error correction codes that can recover the data despite the high error rates of the current DNA state of the art techniques.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ACOMA (Formerly LADNAC)",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/adscodex",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

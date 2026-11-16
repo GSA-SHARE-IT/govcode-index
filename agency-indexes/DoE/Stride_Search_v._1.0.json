@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "Stride Search provides a flexible tool for detecting storms or other extreme climate events in high-resolution climate data sets saved on uniform latitude-longitude grids in standard NetCDF format. Users provide the software a quantitative description of a meteorological event they are interested in; the software searches a data set for locations in space and time that meet the user’s description. In its first stage, Stride Search performs a spatial search of the data set at each timestep by dividing a search domain into circular sectors of constant geodesic radius. Data from a netCDF file is read into memory for each circular search sector. If the data meet or exceed a set of storm identification criteria (defined by the user), a storm is recorded to a linked list. Finally, the linked list is examined and duplicate detections of the same storm are removed and the results are written to an output file. The first stage’s output file is read by a second program that builds storm. Additional identification criteria may be applied at this stage to further classify storms. Storm tracks are the software’s ultimate output and routines are provided for formatting that output for various external software libraries for plotting and tabulating data.",
+    "laborHours": 8116.8,
+    "languages": [
+        "C++",
+        "CMake",
+        "Fortran",
+        "Python"
+    ],
+    "name": "Stride Search v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/StrideSearch",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-09-14",
+        "metadataLastUpdated": "2022-09-14"
+    },
+    "description": "DYAD aims to help sharing data files between producer and consumer job elements, especially between co-scheduled jobs or within an ensemble. DYAD provides the service by two components: a FLUX module and a I/O wraper set. DYAD transparently synchronizes file I/O between producer and consumer, and transfers data from the producer location to the consumer location managed by the service. Users only need to use the file path that is under the directory managed by the service.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "DYnamic and Asynchronous Data Streamliner",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/flux-framework/dyad",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

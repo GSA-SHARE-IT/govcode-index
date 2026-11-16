@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-10-29",
+        "metadataLastUpdated": "2021-10-29"
+    },
+    "description": "The Analysing Scales of Precipitation (ASoP) package is being interfaced with the DOE Coordinated Model Evaluation Capabilities (CMEC) project. Users will be able to use the cmec-driver software to easily run ASoP and generate precipitation metrics as part of climate model evaluation workflows. These metrics provide information about the spatial and temporal patterns of precipitation at different timescales.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Analysing Scales of Precipitation",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/nick-klingaman/ASoP",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "The software “MEUMAPPS” is a h high-performance computing code used to simulate microstructure evolution associated with diffusional solid-state transformations in structural alloys. Understanding microstructure evolution during thermo-mechanical processing of structural alloys is the first step towards designing and processing alloys for specific applications by meeting property requirements demanded by the application. In this instance, the code is an important component in predicting processing-structure linkages during additive manufacturing of structural alloys as a function of processing parameters and alloy composition used in an additive manufacturing process.  The code provides a detailed three-dimensional distribution of different types of phases / constituents and their morphologies, as well as the compositions of these phases that make up the microstructure. The microstructure is simulated by solving the governing partial differential equations using a Fourier Spectral Method.",
+    "laborHours": 851.2,
+    "languages": [
+        "Fortran/PGI/19.9"
+    ],
+    "name": "MEUMAPPS (Microstructure Evolution Using Massively Parallel Phase-field Simulations)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/meumapps_ss",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

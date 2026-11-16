@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-07-26",
+        "metadataLastUpdated": "2024-09-19"
+    },
+    "description": "The Role-Based Access Control (RBAC) for Distributed Energy Resources (DER) software is an automated and transparent stack for RBAC administrators to interact with RBAC policy. The package includes demonstrations of centralized and decentralized RBAC implementation. Both include simulated DER entities that are stored automatically in a centralized Lightweight Directory Access Protocol (LDAP) server. It also includes a REST-API to serve the HTTP requests of the RBAC administrators. A complete front-end is included to serve the users' needs. This software may be used by industry (DER vendors/utilities) as well as the research community to determine if a centralized or decentralized solution fits better the needs of an RBAC model in a DER environment. Additionally, parts of this software may be useful for developing implementations for specific needs. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525. SAND2021-8292 O",
+    "laborHours": 87582.4,
+    "languages": [
+        "JavaScript",
+        "Vue",
+        "CSS",
+        "Python",
+        "Makerfile",
+        "SCSS"
+    ],
+    "name": "Role-Based Access Control for Distributed Energy Resources v.1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/RBAC_Centralized",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

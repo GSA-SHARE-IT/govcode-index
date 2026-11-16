@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "gunaratnecs@ornl.gov"
+    },
+    "date": {
+        "created": "2024-03-27",
+        "metadataLastUpdated": "2024-03-27"
+    },
+    "description": "SAGESim: Scalable Agent-based GPU-Enabled Simulator is a distributed GPU agent-based modeling framework in Python. SAGESim enables researchers to study complex adaptive systems at large scales on high-performance computing systems",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "SAGESim",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ornl/sagesim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0.0"
+}

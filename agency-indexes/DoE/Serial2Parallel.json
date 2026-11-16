@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "In the era of machine learning, we often need to run the same code/script many times with little or no variations (e.g., performance evaluation, data preprocessing, data generation, hyperparameter tuning, etc.). It is not a problem when you just need to do that a few times, but when the number of repetitions becomes very large, it can be a daunting task.  The code “Serial2Parallel” provides an easy way for users to be able to run many numbers of any serial code/scripts in a parallel manner across multiple nodes in an message passing interface (MPI) cluster.  The code includes the server program that deals with task pool management and client program that processes task. The server gets the tasks ready and waits for clients' connections. The client code pulls tasks from the server and processes them. The client code will run in parallel.",
+    "laborHours": 136.8,
+    "languages": [
+        "Python 3"
+    ],
+    "name": "Serial2Parallel",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/liza183/Serial2Parallel",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/liza183/Serial2Parallel",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

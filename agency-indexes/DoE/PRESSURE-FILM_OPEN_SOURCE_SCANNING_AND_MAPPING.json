@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2023-03-17",
+        "metadataLastUpdated": "2023-03-17"
+    },
+    "description": "SF-22-099 Pressure-film Open Source Scanning and Mapping (POSSM) is software that analyses images of pressure-film (scans or photographs). POSSM collects data from that analysis in order to produce a number of visual aides, including pressure maps, histograms, and 3d surface plots. POSSM is designed to be able to analyze an entire folder full of images, exporting numeric data as .csv files and visual graphics as .png files.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PRESSURE-FILM OPEN SOURCE SCANNING AND MAPPING",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PatrickGrider/POSSM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

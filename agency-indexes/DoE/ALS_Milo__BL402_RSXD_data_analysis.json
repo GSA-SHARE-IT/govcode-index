@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-11-12",
+        "metadataLastUpdated": "2019-05-28"
+    },
+    "description": "Suite of tools designed to simply data collection, extraction, reduction, and plotting for resonant soft x-ray scattering experiments performed at ALS beamline 4.0.2; speeds up the process of converting data into meaningful information for users to publish experimental results. \n\n* Python software routines for processing CCD images, including reciprocal space maps, diffraction peak alignment, resonant spectral profiles, line-cut comparisons, coordinate transforms, etc. \n* Scan file generator, optimized for typical uses cases, reduces burden on users by handling complex operations behind the scenes of a simplified user interface \n* Deployed at beamline endstation computers; packaged and deployable as standardized PyPI package \n* Under version control (git) and hosted on LBL-sponsored repository (bitbucket)",
+    "laborHours": 1991.2,
+    "languages": [],
+    "name": "ALS/Milo: BL402 RSXD data analysis",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/als.milo/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

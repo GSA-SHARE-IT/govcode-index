@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-03-05",
+        "metadataLastUpdated": "2024-03-14"
+    },
+    "description": "The interplay between energy, climate, and weather is becoming more complex as our changing climate continues to affect the weather we experience which in turn drives changes in the ever increasing share of renewable energy generation and energy demand. Energy system analyses commonly rely on meteorological inputs to estimate renewable energy generation and energy demand; however, these inputs rarely represent the estimated impacts of future climate change. Climate models and publicly available climate change datasets can be used for this purpose, but the selection of inputs from the myriad of available models and datasets is a nuanced and often subjective process. There is no single perfect climate model or dataset for all applications. In this repository, we include software and the corresponding assessments of various global climate models (GCMs) from the Coupled Model Intercomparison Project (CMIP6), evaluating their skills with respect to the historical climate and comparing of their future projections of climate change. We focus on variables that directly affect the energy system including the representation of extreme values that can drive grid resilience events. The objective of this repository is not to recommend the best climate model and dataset for a given analysis, but instead to provide a reference to facilitate the selection of climate models and datasets in subsequent work.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "Jupyter Notebook"
+    ],
+    "name": "gcm_eval (NREL Global Climate Model Evaluation) [SWR-24-37]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/gcm_eval",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

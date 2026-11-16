@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-03-11",
+        "metadataLastUpdated": "2022-03-11"
+    },
+    "description": "Colormapping in scientific visualization is one of the most common methods for scientists to gain insight into their data and communicate findings.  The utility of a visualization is highly linked to its colormap. A suboptimal colormap may hide information or introduce spurious artifacts. Empirical design guidelines—uniformity, discriminative power, order, and smoothness—are usually only applied ad hoc, guidelines are often contradictory, and theory is not sufficiently developed to use a purely algorithmic approach.\n\nWe write code to generate, edit, optimize, compare, and export colormaps that satisfy these design guidelines in a rigorous mathematical way making use of differential geometry.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Colormaps",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/color",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

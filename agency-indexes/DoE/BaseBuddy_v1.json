@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-15",
+        "metadataLastUpdated": "2024-09-16"
+    },
+    "description": "The software \"BaseBuddy\" (basebuddy.lbl.gov) is a user-friendly web app designed for codon optimization of heterologous genes. Codon optimization is a widely used technique to enhance the expression levels of non-native genes. Our app is built on the DNA Chisel Python library (Zulkower and Rosser, 2020), which offers highly customizable and transparent gene optimization. Unlike DNA Chisel, which is a command-line interface software with numerous optional functions, our web app simplifies the process for users. Additionally, while DNA Chisel relies on the outdated Kazusa codon usage database, our app introduces the option to utilize the most recent version of the CoCoPUTs database (Athey et al., 2017). By incorporating CoCoPUTs, we also expand the range of target organisms and maintain up-to-date sequencing data for more accurate codon optimization results.",
+    "laborHours": 167.2,
+    "languages": [],
+    "name": "BaseBuddy v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jbei/basebuddy",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "barno1@llnl.gov"
+    },
+    "date": {
+        "created": "2018-03-06",
+        "metadataLastUpdated": "2018-03-06"
+    },
+    "description": "Tool for calibrating 1D coda seismic models",
+    "laborHours": 47712.8,
+    "name": "LLNL/coda-calibration-tool",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/coda-calibration-tool",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

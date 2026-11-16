@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-05-14",
+        "metadataLastUpdated": "2020-05-14"
+    },
+    "description": "INQ is an engine for electronic structure calculations. INQ is implemented as a C++ library of components\ndesigned to build a parallel, portable code for electronic structure calculations, including ground state and\nexcited states. INQ is based on density functional theory (DFT). It can calculate ground state properties in\nDFT, and also excited states using time-dependent DFT (TDDFT) in real-time and linear-response. It\nimplements different approximations for the exchange and correlation part: semi-local functionals like\nLDAs, GGAs and metaGGAs, and hybrid functionals that are implemented through the ACE approach for\nfast execution.",
+    "laborHours": 92644.0,
+    "languages": [],
+    "name": "Electronic Structure Engine",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/inq",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

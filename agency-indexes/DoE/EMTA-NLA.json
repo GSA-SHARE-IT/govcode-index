@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "EMTA-NLA is a computer program for analyzing the nonlinear stiffness, strength, and thermo-elastic properties of discontinuous fiber composite materials. Discontinuous fiber composites are chopped-fiber reinforced polymer materials that are formed by injection molding or compression molding techniques. The fibers tend to align during forming as the composite flows and fills the mold. EMTA-NLA can read the fiber orientation data from the molding software, Autodesk Moldflow Plastics Insight, and calculate the local material properties for accurately analyzing the warpage, stiffness, and strength of the as-formed composite part using the commercial NLA software. Therefore, EMTA-NLA is a unique assembly of mathematical algorithms that provide a one-of-a-kind composites constitutive model that links these two powerful commercial software packages.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "EMTA-NLA",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

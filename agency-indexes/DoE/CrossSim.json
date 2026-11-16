@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2024-07-26"
+    },
+    "description": "CrossSim is a simulator for modeling neural-inspired machine learning algorithms on analog hardware, such as resistive memory crossbars. It includes noise models for reading and updating the resistances, which can be based on idealized equations or experimental data. It can also introduce noise and finite precision effects when converting values from digital to analog and vice versa. All of these effects can be turned on or off as an algorithm processes a data set and attempts to learn its salient attributes so that it can be categorized in the machine learning training/classification context. CrossSim thus allows the robustness, accuracy, and energy usage of a machine learning algorithm to be tested on simulated hardware.",
+    "laborHours": 7904.0,
+    "languages": [
+        "Python.",
+        "Jupyter Notebook",
+        "MATLAB"
+    ],
+    "name": "CrossSim",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/cross-sim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "3.0"
+}

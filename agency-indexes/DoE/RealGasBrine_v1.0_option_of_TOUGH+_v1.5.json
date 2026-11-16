@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-10-11",
+        "metadataLastUpdated": "2018-10-15"
+    },
+    "description": "RealGasBrine v1.0 is a numerical code that for the simulation of the behavior of gas-bearing porous and/fractured geologic media. It is an option of TOUGH+ v1.5 [Moridis, 2014], a successor to the TOUGH2 [Pruess et al., 1999; 2012] family of codes for multi-component, multiphase ﬂuid and heat ﬂow developed at the Lawrence Berkeley National Laboratory. RealGasBrine v1.0 needs the TOUGH+ v1.5 core code in order to compile and execute. It is written in standard FORTRAN 95/2003, and can be run on any computational platform (workstation, PC, Macintosh) for which such compilers are available. \nRealGasBrine v1.0 describes the non-isothermal two- (for pure water) or three-phase (for brine) flow of an aqueous phase and a real gas mixture in a gas-bearing medium, with a particular focus in ultra-tight (such as tight-sand and shale gas) systems. Up to 12 individual real gases can be tracked, and salt can precipitate as solid halite. The capabilities of the code include coupled flow and thermal effects, real gas behavior, Darcy and non-Darcy flow, several isotherm options of gas sorption onto the grains of the porous media, complex fracture descriptions, gas solubility into water, and geomechanical effects on flow properties. RealGasBrine v1.0 allows the study of flow and transport of fluids and heat over a wide range of time frames and spatial scales not only in gas reservoirs, but also in any problem involving the flow of gases in geologic media, including the geologic storage of greenhouse gas mixtures, the behavior of geothermal reservoirs with multi-component condensable (H2O and CO2) and non-condensable gas mixtures, the transport of water and released H2 in nuclear waste storage applications, etc.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 6414.4,
+    "languages": [],
+    "name": "RealGasBrine v1.0 option of TOUGH+ v1.5",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

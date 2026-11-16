@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Performs a cross-correlation calculation to align images. This is particularly useful for aligning frames of a movie so that an object of interest does not spatially drift. For in situ microscopy experiments. Movies are collected where an object changes with time. At the same time, the object usually drifts too. This shifts the movie frames so that the object is aligned from frame to frame. Then it is easy to see the object changes without the added complication of it moving too.",
+    "homepageURL": "http://freesourcecode.net/matlabprojects/57416/drifty-shifty-deluxe-in-matlab#.Wczt52hyKUk",
+    "laborHours": 0.0,
+    "name": "Drifty shifty deluxe.m",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://freesourcecode.net/matlabprojects/57416/drifty-shifty-deluxe-in-matlab#.Wczt52hyKUk",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

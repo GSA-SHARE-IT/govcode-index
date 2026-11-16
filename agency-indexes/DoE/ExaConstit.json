@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-10-24",
+        "metadataLastUpdated": "2019-10-24"
+    },
+    "description": "The principal purpose of this code is to determine bulk constitutive properties and response of polycrystalline materials. \n\nThis is a nonlinear quasi-static, implicit solid mechanics code built on the MFEM library based on an updated Lagrangian formulation (velocity based).\n\nWithin this context, there is flexibility in the type of constitutive model employed, with the code allowing for various UMATs to be interfaced within the code framework or for the use of the ExaCMech library.\n\nUsing crystal-mechanics-based constitutive models, the code can be used, for example, to compute homogenized response behavior over a polycrystal.\n",
+    "laborHours": 4180.0,
+    "languages": [],
+    "name": "ExaConstit",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ExaConstit",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.2.0"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-09-27",
+        "metadataLastUpdated": "2022-11-02"
+    },
+    "description": "The HIVE™ platform is a mobility services simulation platform developed to provide insight on the energy, infrastructure, service, and economic outcomes of various mobility as a service (MaaS) options. The HIVE platform takes a set of spatiotemporal travel origin-destination pairs and simulates the operation of a predefined mobility service fleet, incorporating request pooling, and various operational and charging behaviors. Hive specializes at modeling fleets of automated electric vehicles (AEVs) and can be used to site and size direct current fast charge (DCFC) stations and measure grid impacts of large-scale AEV fleets serving real-world MaaS trip demand (similar to taxis, Uber, Lyft, etc.). Potential outcomes from a Hive simulation include level of service, total vehicle miles traveled (VMT), deadheading (zero passenger) miles, simultaneous and total energy loads, average occupancy, and more. Hive is developed to generalize to new regions and can be customized to handle many scenarios and operating conditions.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "HIVE™ [SWR-19-36]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/hive",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

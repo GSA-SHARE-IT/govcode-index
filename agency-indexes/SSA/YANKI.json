@@ -1,0 +1,28 @@
+{
+    "name": "YANKI",
+    "repositoryURL": "https://github.com/SSAgov/YANKI",
+    "description": "When certain attributes are used improperly, they can cause issues with screen readers. YANKI can be used to 'yank' the attributes and allow a retest of the page with the attributes removed.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "www.apache.org/licenses/LICENSE-2.0",
+                "name": "Apache"
+            }
+        ],
+        "usageType": "openSource",
+        "exemptionText": ""
+    },
+    "laborHours": 456,
+    "tags": [
+        "YANKI",
+        "attribute",
+        "WAI-ARIA",
+        "favelet",
+        "tabindex",
+        "javascript"
+    ],
+    "contact": {
+        "email": "Open.Source@ssa.gov",
+        "name": "Open Source Administrator"
+    }
+}

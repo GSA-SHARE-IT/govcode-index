@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-07-16",
+        "metadataLastUpdated": "2024-09-30"
+    },
+    "description": "This software library serves as a Python wrapper for Geotab's Altitude API. It streamlines querying of the API, converts loosely structured API outputs into a standardized tabular data format, and enables analysis of the resulting data tables. It also includes example notebooks showing how to use the library.",
+    "laborHours": 668.8,
+    "languages": [
+        "Jupyter Notebook",
+        "Python"
+    ],
+    "name": "Python wrapper library and analysis functions for Geotab Altitude API [SWR-24-77]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/Geotab_Altitude_Wrapper",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

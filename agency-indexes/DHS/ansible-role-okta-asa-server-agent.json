@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2023-06-07",
+        "lastModified": "2026-06-02"
+    },
+    "description": "An Ansible role for installing the Advanced Server Access agent from Okta.",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-okta-asa-server-agent/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-okta-asa-server-agent",
+    "laborHours": 746.7,
+    "languages": [
+        "Shell",
+        "Python",
+        "Jinja"
+    ],
+    "name": "ansible-role-okta-asa-server-agent",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-okta-asa-server-agent.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

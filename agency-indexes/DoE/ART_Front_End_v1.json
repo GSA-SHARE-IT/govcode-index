@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-07-01",
+        "metadataLastUpdated": "2021-07-01"
+    },
+    "description": "Enhances accessibility of the Automated Recommendation Tool (ART), by adding on a graphical user interface, user authentication, and by exposing a REST API. Enables authenticated remote users and applications to interface with ART and to leverage remote computing resources to perform runs.",
+    "homepageURL": "https://sites.google.com/lbl.gov/art/home",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ART Front End v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://sites.google.com/lbl.gov/art/licensing-code",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://sites.google.com/lbl.gov/art/home",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

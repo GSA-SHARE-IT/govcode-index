@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2020-06-26",
+        "metadataLastUpdated": "2023-03-07"
+    },
+    "description": "STOTS (Structured Threat Observation Tool Set) is a collection of tools that allow users in a test environment to create STIX v2 observable objects.",
+    "laborHours": 1140.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Stots (structured Threat Observation Tool Set)",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/STOTS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "prokopenkoav@ornl.gov"
+    },
+    "date": {
+        "created": "2025-04-16",
+        "metadataLastUpdated": "2025-04-17"
+    },
+    "description": "ArborX library tackles a problem of efficiently finding geometric objects that are close in space. Variations of this problem, such as finding the nearest neighbors of a point, or finding all objects within a certain distance, are inherent components of applications in many fields. The data may be large so that solving the problem efficiently may require significant computational resources, such as multiple processors or accelerators such as general purpose GPUs. ArborX' main advantage in its ability to solve large problems efficiently utilizing a combination of distributed and on-node parallelism. ArborX can be run efficiently on a wide variety of hardware, including GPUs from different vendors, which distinguishes it from other available libraries which typically choose only few of these. The other advantage is that it supports both types of user problems: spatial problems (useful for intersections and finding objects within certain distance), and nearest neighbor problems. ArborX also supports flexible interface in its interaction with a user. Particularly, it allows a user to call user's own function on a positive match, a functionality not rarely available in other libraries. ArborX implements construction and traversal algorithms using efficient tree structures, such as bounding volume hierarchy (BVH). At its core, ArborX uses linear BVH for its low construction cost and sufficient quality. ArborX implements both spatial and nearest-neighbor traversal algorithms. ArborX also provides several clustering algorithms (minimum spanning tree, DBSCAN, HDBSCAN*), interpolation using minimum least squares and ray tracing. ArborX is written using C++, and is parallelized using the message passing interface (MPI) for the distributed communication, and the Kokkos library for on-node parallelism. This approach allows ArborX to be run on a wide variety of hardware, from common laptops and desktops to supercomputers while using the same codebase.",
+    "laborHours": 16492.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "ArborX 2.0",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/arborx/ArborX",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "2.0"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-11-05",
+        "metadataLastUpdated": "2021-11-05"
+    },
+    "description": "The TAIl Particle Solver (TaiPS) described in this abstract evaluates the fast ion and electron distribution for inertial confinement fusion applications (ICF). The code was developed under a Laboratory Directed Research and Development (LDRD) project. The code falls under the Los Alamos Plasma Simulation (LAPS) framework, though it operates as a stand alone code. We would like to make it open source in order to enable its use by the broader ICF community. TaiPS solves the non-relativistic Fokker-Planck equation in 1D-2V geometry for a fast particle tail. Up to four ion species are evolved along with the electron population. A suite of approximate collision operators is present: (i) a test particle collision operator, (ii) a linearized Fokker-Planck collision operator, and (iii) and a nonlinear Fokker-Planck collision operator. The tail solution is matched to a bulk distribution function, whose form is evaluated from a Braginskii closure [S. Braginskii, Reviews of plasma physics]. The code utilizes a Chang-Cooper discretization in energy [J. Chang and G. Cooper, Journal of Computational Physics 6, 1 (1970)], a Legendre expansion in the pitch coordinate, and finite different in configuration space. The code has mostly been used to evaluate steady state solutions, though time stepping can be done utilizing PETSc's suite of explicit and implicit schemes. The primary applications of the code are to take the fast ion or electron tail distribution and use them to evaluate the fusion reactivity or various diagnostic signals such as Bremsstrahlung radiation. A separate code has been written to evaluate the fusion reactivity, whereas Bremsstrahlung radiation is evaluated by codes developed by Grisha Kagan's collaborators. Publications that have utilized this code are contained in Refs. [X.-Z. Tang, H. Berk, Z. Guo, and C. McDevitt, Physics of Plasmas 21, 032707 (2014), X.-Z. Tang, C. McDevitt, Z. Guo, and H. Berk, EPL (Europhysics Letters) 105, 32001 (2014), X.-Z. Tang, C. McDevitt, Z. Guo, and H. Berk, Physics of Plasmas 21, 032706 (2014), C. McDevitt, X.-Z. Tang, Z. Guo, and H. Berk, Physics of Plasmas 21, 032708 (2014), C. J. McDevitt, X.-Z. Tang, and Z. Guo, Physics of Plasmas 24, 112702 (2017), C. J. McDevitt, X.-Z. Tang, and Z. Guo, Plasma Physics and Controlled Fusion 61, 025005 (2018), C. McDevitt, X.-Z. Tang, Z. Guo, and H. Berk, Physics of Plasmas 21, 102705 (2014)].",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "TaiPS",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2020-09-12",
+        "metadataLastUpdated": "2022-05-19"
+    },
+    "description": "The Argonne Nuclear Data Exploration Software (ANDES) is a collection of open-source C++ codes and ROOT scripts that enable the visualization of patterns emerging from nuclear data. From this global view, well-known phenomena such as major nuclear shell closures and pairing effects near N=Z nuclei, as well as more subtle features, such as quantum phase transition around the Zr isotopes or the charge radius staggering in the Hg isotopes, can be observed. This visualization tool apart from having pedagogic application can serve as a tool for discovering previously unknown phenomena in the nuclear chart.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ANDES (ARGONNE NUCLEAR DATA EXPLORATION SOFTWARE) - ndviz",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.phy.anl.gov/andes/ndviz",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

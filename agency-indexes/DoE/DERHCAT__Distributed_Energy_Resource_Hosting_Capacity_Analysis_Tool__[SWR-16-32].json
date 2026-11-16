@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2023-08-09",
+        "metadataLastUpdated": "2023-08-09"
+    },
+    "description": "NREL's advanced hosting capacity analysis and System Analysis Reports can help utilities, policymakers, and solar developers better understand the impact of adding new distributed photovoltaic (DPV) systems to the electrical distribution system.\nAdvanced hosting capacity analysis considers the thresholds at which new DPV systems will trigger upgrades or changes to the electrical distribution system and evaluates the cost of different options for expanding the hosting capacity.\n\nIt is one part of NREL's work to help stakeholders better understand the distribution system costs associated with integrating new DPV systems at different penetration levels.\n\nNREL's analysis uses a bottom-up methodology that involves simulating distribution systems. The analysis considers sequential increases in hosting capacity and corresponding upgrade costs from a baseline scenario with no DPV up to penetration levels greater than 100% of peak load.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "DERHCAT (Distributed Energy Resource Hosting Capacity Analysis Tool) [SWR-16-32]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/SystemsAnalysisReports",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

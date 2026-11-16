@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-08"
+    },
+    "description": "Conservative Remapper (CORE) is a C++ language software library for remapping cell masses and cell-averaged densities on unstructured two dimensional grids, maintaining conservation of total mass in the process. CORE contains implementation of two remapping algorithms: a new, efficient \"swept region\" algorithm, and a more traditional algorithm basedon the computation of cell intersections. Grids may be Cartesian or cylindrical, and cells may have three or more vertices, with no upper limit. CORE can run in serial and in parallel, but in order to achieve wide applicability, CORE used no particular parallel communication library. Instead it achieves parallel communication through strategically placed, user defined callbacks. Users can also provide callbacks to redefine different parts or subcomponents of the remapping process. CORE allows the use of different data types, e.g. single-, double-, and quadruple- precision floating-point numbers, through the use of C++ templates. Using CORE is simple, and requires no configuration scripts or makefiles.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "laborHours": 0.0,
+    "languages": [
+        "Any ANSI-compliant C++ compiler"
+    ],
+    "name": "Conservative Remapper",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/index.php",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

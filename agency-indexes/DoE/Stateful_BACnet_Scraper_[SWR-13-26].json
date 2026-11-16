@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-09-12",
+        "metadataLastUpdated": "2024-08-19"
+    },
+    "description": "This application works with the Building Agent BACnet library to provide stateful and modular control of device discovery, device OID lookup, and device polling/data scraping. Discovered devices and oids are persisted to a Mongo database, decoupling discovery from the polling process.",
+    "laborHours": 836.0,
+    "languages": [],
+    "name": "Stateful BACnet Scraper [SWR-13-26]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/agpl-3.0",
+                "name": "AGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/BACnet-state",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "1.1"
+}

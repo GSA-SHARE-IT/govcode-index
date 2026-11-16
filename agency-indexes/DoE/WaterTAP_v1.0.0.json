@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-27",
+        "metadataLastUpdated": "2022-06-13"
+    },
+    "description": "WaterTAP is a new open source library of water-specific models built on the IDAES Integrated Platform to support the design and optimization of integrated water treatment systems, improve existing systems and enable the analysis of new designs incorporating emerging technologies. WaterTAP enables advanced modeling and optimization for: conceptual and multiscale design, dynamics and model predictive control of water systems and networks.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "WaterTAP v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/watertap-org/watertap",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

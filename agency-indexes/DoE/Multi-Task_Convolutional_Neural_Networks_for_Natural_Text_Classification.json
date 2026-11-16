@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "Information extraction and coding of free-text pathology reports is an important activity for cancer registries to support national cancer surveillance. Cancer registrars must process high volumes of pathology reports on an annual basis. We investigated an automated approach using a convolutional neural networks (CNNs) for extracting the primary site, laterality, histology, behavior, and histological grade from unstructured cancer pathology text reports. Our multi-task learning (MTL) with hard parameter sharing approach is used to train a multi-task MT-CNN model for all the tasks. The performance of our proposed approach was compared against a state of-the-art CNN and the commonly used SVM classifier. We observed that the proposed model consistently outperformed the baseline models, especially for the less prevalent classes. Also, the results demonstrate the potential of the proposed method for handling class imbalance within each task.",
+    "laborHours": 273.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "Multi-Task Convolutional Neural Networks for Natural Text Classification",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/CBIIT/pilot3_MT-CNN_ORNL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

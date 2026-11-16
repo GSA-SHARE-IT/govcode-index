@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-08-05",
+        "metadataLastUpdated": "2024-08-05"
+    },
+    "description": "An R package built to match proteoform isotoping distributions to mass spectrum, quantitatively select\nmatches of high quality, and visualize those matches in a trelliscope display.",
+    "laborHours": 3085.6,
+    "languages": [],
+    "name": "IsoMatchMS",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-HubMAP-Proteoform-Suite/IsoMatchMS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

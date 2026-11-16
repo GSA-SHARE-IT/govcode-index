@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-12-15",
+        "lastModified": "2024-02-02"
+    },
+    "description": "Terraform code to create VPC and subnets for PCA and attach them to the COOL Transit Gateway.",
+    "downloadURL": "https://api.github.com/repos/cisagov/cool-pca-transitgateway-attachment/downloads",
+    "homepageURL": "https://github.com/cisagov/cool-pca-transitgateway-attachment",
+    "laborHours": 532.6,
+    "languages": [
+        "HCL",
+        "Shell"
+    ],
+    "name": "cool-pca-transitgateway-attachment",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/cool-pca-transitgateway-attachment.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

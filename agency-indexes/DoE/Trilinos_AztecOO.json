@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-10",
+        "metadataLastUpdated": "2018-07-12"
+    },
+    "description": "AztecOO provides an object-oriented interface the the well-known Aztec Krylov-space iterative solver library. Uses the Epetra linear algebra services to define vector and operator objects. To access the AztecOO package, please refer to the packages directory within the main Trilinos GitHub repository. \n",
+    "laborHours": 8344830.4,
+    "languages": [],
+    "name": "Trilinos/AztecOO",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/trilinos/Trilinos/tree/master/packages/aztecoo",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

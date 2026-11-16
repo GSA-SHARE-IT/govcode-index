@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jacob@anl.gov"
+    },
+    "date": {
+        "created": "2020-08-25",
+        "metadataLastUpdated": "2020-08-25"
+    },
+    "description": "First release of E3SM v1.1\n\nThis release includes scientifically-validated tunings of the E3SM Land Model (ELM) and E3SM Atmosphere Model (EAM) for coupled simulations with active land, ocean, and sea ice biogeochemistry, for ELM configurations using the CTC approach to representing nutrient competition.\n\nAdditional diagnostic variables have been made available as history variables from the ELM,\nand from the MPAS-Ocean and MPAS-Seaice biogeochemistry modules, in order to improve consistency with the output variable requests of the Coupled Climate Carbon Cycle Model Intercomparison\nProject (C4MIP), and to support improved analysis of the land, ocean, and sea ice carbon cycles.\n\nThe atmosphere models prognostic CO2 code has been updated to enable regridding of anthropogenic\nCO2 emission files to the E3SMs native spectral element grid. Note that (1) the prognostic CO2\nconfiguration of E3SM has not been scientifically validated, and (2) the regridding of emission\nfiles as currently implemented is not mass-conserving and is intended as a temporary workaround.\nWe do not advise using E3SMv1.1 for fully-coupled carbon cycle simulations where mass conservation\nis critical, but it is suitable for enabling use of the 3D CO2 tracer for diagnostic and testing purposes.\n\nSeveral bugs found after v1.0 have been fixed in this tag and changes made to default settings, including:\n    EAM: adding limiters to avoid bad extrapolation in RRTMG, fixing an error in the calculation of NIR\n    reflectance that affects cloud fields derived from MODIS simulator.\n    ELM: fixing surface water and lakes, increasing the land field name size, fixing a memory leak in\n    ELM CNStateType, fixing a snow compaction bug that was resulting in sporadic unphysical snow depths,\n    adding a water budget in the land model (and fixing a water conservation error)\n    MPAS-O: preventing thermo energy conservation errors by lowering the permitted surface flux error\n    in the mushy layer picard iteration to 0.9*ferrmax, fixing a small bug in marine BGC,\n    MPAS-SeaIce: Turning off mpas-seaice history files by default\n    MOSART: Replacing the low-res (half-degree) MOSART file\n\nIn addition, the budget output has been turned on by default for any fully coupled case, and CIME was\nmodified to remove a bad term from E3SM water budgets. The CCSM_CO2_PPMV is now set correctly in BGC cases. A bugfix for the IEFLX output is included and the timestep for the EC60to30 mesh has been\nupdated. Finally, a number of minor bugfixes and technical improvements have been introduced in the\nEAM, ELM and MPAS-Ocean models.\n\nMachine updates for cascade, edison, eos, cori are included.",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "C",
+        "Fortran"
+    ],
+    "name": "Energy Exascale Earth System Model v1.1",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/E3SM-Project/E3SM/releases/tag/v1.1.0",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git",
+    "version": "v1.1.0"
+}

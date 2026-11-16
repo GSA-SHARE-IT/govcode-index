@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2025-01-22",
+        "metadataLastUpdated": "2025-01-22"
+    },
+    "description": "The Tracer Analysis Toolbox (TAT) is a stand-alone executable software package that focuses on reservoir monitoring, using changes in concentration of thermally degrading tracers between and injection well and a production well to reflect the temperature-time histories along flow paths through the reservoir. By conducting such tests periodically, the thermal evolution of the flow paths connecting injection wells to production wells can be monitored. Because this approach is sensitive to temperature along the whole path, it can detect changes well before they occur at the distal end of the path (i.e., the production well). Thus, the thermally degrading tracer method provides early detection of thermal decline before it impacts that well.\nThe goal of TAT is to simplify planning of a reactive tracer monitoring campaign and interpretation of results by providing: (1) tracer test planning and analysis tools to define the necessary kinetic parameters, injection concentrations, and other tracer parameters that are suitable for the expected reservoir residence time and temperature, (2) identification of tracers with suitable characteristics (defined by (1)) and (3) a suite of analysis programs to analyze tracer test results.",
+    "laborHours": 2644.8,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "Computer Programs For Analysis Of Thermally Reactive Tracer Tests In Geothermal Reservoirs",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabUnsupported/Tracer_Analysis_Toolbox",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2024-03-20",
+        "metadataLastUpdated": "2024-03-21"
+    },
+    "description": "SAND2024-01324O\nMrHyDE, which stands for Multi-resolution Hybridized Differential Equations, is a general-purpose C++ package for the solution of coupled multiphysics and multiscale systems on massively parallel computing systems.  \n\nMrHyDE is designed to enable moving beyond forward simulation for multiscale applications which includes optimization, control, uncertainty quantification, and stochastic inversion. The framework provides interfaces to several packages within the Trilinos framework and leverages automatic differentiation to enable adjoint capabilities for large-scale, gradient-based optimization. MrHyDE provides automated multiscale capabilities through a subgrid model interface and multiscale Dirichlet-to-Neumann maps.  \n\nFor extreme-scale applications, MrHyDE provides in situ data-compression algorithms to reduce memory requirements while maintaining performance. MrHyDE is a general-purpose, computational framework for the solution of multiscale and multiphysics applications. It uses a combination of structure-preserving, physics-compatible discretizations, fully implicit methods, multi-resolution schemes, or fully explicit methods.  \nSandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "Python"
+    ],
+    "name": "MrHyDE v.1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/MrHyDE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

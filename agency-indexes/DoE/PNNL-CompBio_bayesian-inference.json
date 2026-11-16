@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-09-27",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Bayesian Metabolic Inference is a platform to integrate genome-scale multi-omics data into an iterative method to obtain optimized recommendations for optimal target compound production. This method uses a variational inference approach to approximate new posterior data to analyze in order to obtain useful correlations and control coefficients.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PNNL-CompBio/bayesian-inference",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-CompBio/bayesian-inference",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

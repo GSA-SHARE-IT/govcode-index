@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2023-01-10",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Protein-DNA Interaction Workflow (PDI Workflow), a pipeline that focuses on generating\nhigh-quality docking and molecular dynamics simulations for Protein-DNA complexes. This allows us to take DNA\nsequences with unknown tertiary structures, accurately predict their structure, dock them with the desired target protein,\nand then simulate their interactions using molecular dynamics simulations",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Auto_PDI",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

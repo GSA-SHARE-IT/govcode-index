@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2022-02-18",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "The Hydro + Storage Sizing Tool recommends battery sizes and configurations to maximize financial performance of a battery investment that is integrated with a hydropower plant for a facility participating in a competitive electricity market. While the tool is primarily designed for hydropower facilities, it also works with other forms of baseload and peaking generation.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Hydro + Storage Sizing Tool",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/Hydro_Hybrids",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

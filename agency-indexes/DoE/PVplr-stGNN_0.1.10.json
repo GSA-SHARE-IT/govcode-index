@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "xuanji.yu@case.edu"
+    },
+    "date": {
+        "created": "2023-04-29",
+        "metadataLastUpdated": "2023-04-29"
+    },
+    "description": "PV Performance Loss Rate Estimation using Spatio-temporal Graph Neural Networks\n\nPVplr-stGNN is a Python 3 package developed by the SDLE Research Center at Case Western Reserve University in Cleveland OH. This repository contains the full source PVplr-stGNN package. The package contains the PV-stGAE for missingness data detection and imputation and PV-DynGNN for PLR estimation.",
+    "homepageURL": "https://pypi.org/project/PVplr-stGNN",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "PVplr-stGNN 0.1.10",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://pypi.org/project/PVplr-stGNN",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "version": "0.1.10"
+}

@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "This code implements a variety of \"deep learning\" algorithms from openly published academic journals. These deep learning algorithms allow the user to train neural networks to do various tasks. Such tasks include predicting future values in a time sequence, categorizing images or compressing information. The code is mostly written in the easy to understand Matlab / GNU Octave language, which enables rapid prototyping and understanding for research and educational purposes.",
+    "laborHours": 2933.6,
+    "languages": [
+        "C++",
+        "C",
+        "MATLAB",
+        "M",
+        "Cuda"
+    ],
+    "name": "Cortexsys v. 3.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/Cortexsys",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "3.0"
+}

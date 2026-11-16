@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-11-01",
+        "metadataLastUpdated": "2025-04-24"
+    },
+    "description": "Temporally continuous snow depth estimates are vital for understanding changing snow patterns and impacts on permafrost in the Arctic. We train a random forest machine learning model to predict snow depth from variability in ground surface temperature. To our knowledge, this is the first time that small ground surface temperature sensors have been used to estimate snow depth. The model performs well at sites where the model was trained and at pan-arctic evaluation sites (RMSE <= 0.15 m). Small temperature sensors are cheap and easy-to-deploy, so this technique enables spatially distributed and temporally continuous snowpack monitoring to an extent previously infeasible. The model is flexible and can be applied to datasets retroactively to retrieve snow depth estimates at additional sites. This code package includes a *.joblib file of the trained random forest model and a *.ipynb file showing how to clean input data, train the random forest model, and apply the model.",
+    "laborHours": 45.6,
+    "languages": [],
+    "name": "Code Description for \"Brief Communication: Monitoring snow depth using small, cheap, and easy-to-deploy ground surface temperature sensors\"",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cbachand-LANL/iButton-SnowDepth-ML",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

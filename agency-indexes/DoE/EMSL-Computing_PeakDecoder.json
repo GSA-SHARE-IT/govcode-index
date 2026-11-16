@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-09-06",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "PeakDecoder is a machine learning (ML)-based metabolite identification algorithm for multidimensional mass spectrometry measurements incorporating liquid chromatography (LC) and ion mobility spectrometry (IM) separations, and collecting extensive fragmentation spectra with data-independent acquisition (DIA) methods: LC-IM-DIA-MS. The algorithm learns to distinguish true co-elution and co-mobility from raw data and calculates metabolite identification error rates.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "EMSL-Computing/PeakDecoder",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/EMSL-Computing/PeakDecoder",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

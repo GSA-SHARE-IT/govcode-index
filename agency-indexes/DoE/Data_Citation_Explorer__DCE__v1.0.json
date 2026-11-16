@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-28",
+        "metadataLastUpdated": "2024-06-28"
+    },
+    "description": "Increases in sequencing capacity, combined with rapid accumulation of publications and associated data resources, have increased the complexity of maintaining associations between literature and genomic data. As the volume of literature and data have exceeded the capacity of manual curation, automated approaches to maintaining and confirming associations among these resources have become necessary. Here we present the Data Citation Explorer (DCE), which discovers literature incorporating genomic data whether or not provenance was clearly indicated. This service provides advantages over manual curation methods including consistent resource coverage, metadata enrichment, documentation of new use cases, and identification of conflicting metadata. The service reduces labor costs associated with manual review, improves the quality of genome metadata maintained by the U.S. Department of Energy Joint Genome Institute (JGI), and increases the number of known publications that incorporate its data products. The DCE facilitates an understanding of JGI impact, improves credit attribution for data generators, and can encourage data sharing by allowing scientists to see how reuse amplifies the impact of their original studies.",
+    "laborHours": 16036.0,
+    "languages": [
+        "ABAP"
+    ],
+    "name": "Data Citation Explorer (DCE) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.jgi.doe.gov/data-citation-explorer/data-citation-explorer-core",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

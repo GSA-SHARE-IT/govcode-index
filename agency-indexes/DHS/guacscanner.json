@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2021-11-01",
+        "lastModified": "2026-08-05"
+    },
+    "description": "Scan for EC2 instances added (removed) from a VPC and create (destroy) the corresponding Guacamole connections.",
+    "downloadURL": "https://api.github.com/repos/cisagov/guacscanner/downloads",
+    "homepageURL": "https://github.com/cisagov/guacscanner",
+    "laborHours": 1393.1,
+    "languages": [
+        "Python",
+        "Shell"
+    ],
+    "name": "guacscanner",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/guacscanner.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "hacktoberfest"
+    ],
+    "vcs": "git"
+}

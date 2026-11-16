@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Qspp is an agent-based stochastic simulation model of the Poliovirus Sabin-to-Mahoney transition. This code simulates a cell-to-cell model of Poliovirus replication. The model tracks genotypes (virus genomes) as they are replicated in cells, and as the cells burst and release particles into the medium of a culture dish. An inoculum is then taken from the pool of virions and is used to inoculate cells on a new dish. This process repeats. The Sabin genotype comprises the initial inoculum. Nucleotide positions that match the Sabin1 (vaccine strain) and Mahoney (wild type) genotypes, as well as the neurovirulent phenotype (from the literature) are enumerated as constants.",
+    "laborHours": 1915.2,
+    "name": "Sabin-to-Mahoney Transition Model of Quasispecies Replication",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/carolzhou/Virus",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2025-04-15",
+        "metadataLastUpdated": "2025-04-15"
+    },
+    "description": "A domain-aware generative framework that takes 3D coordinates of the molecule and scaffold as an input\nand generates 3D coordinates of novel therapeutic candidates as an output while preserving the desired scaffolds. We\nshow that our model generates predominantly valid, unique, novel, and experimentally synthesizable molecules that have\ndrug-like properties similar to the molecules in the training set",
+    "laborHours": 2082.4,
+    "languages": [],
+    "name": "PNNL-CompBio/3D_Scaffold",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-CompBio/3D_Scaffold",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

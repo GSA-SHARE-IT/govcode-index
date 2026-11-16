@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2020-09-29",
+        "metadataLastUpdated": "2024-06-04"
+    },
+    "description": "HERON is a modeling toolset and plugin for RAVEN to accelerate stochastic technoeconomic assessment of the economic viability of various grid-energy system configurations, especially with application to electrical grids and integrated energy systems (IES). The frameworks enabling this toolset are INL's RAVEN and its TEAL plugin. The toolset includes automated RAVEN workflow generation tools for performing stochastic analysis and optimization driven by technoeconomic factors. The workflows generated employ RAVEN for parametric or optimizing study of grid component characteristics, and again for stochastic sampling of regulated and deregulated markets, load, and weather histories. The toolset further provides methods for economically-optimal dispatch of system components given the stochastic samples of market, load, and weather histories. The toolset allows assembling of existing and new models through the RAVEN interface to the Modelica process modeling language.",
+    "laborHours": 14272.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "HERON",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/HERON",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

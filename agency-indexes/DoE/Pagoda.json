@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Pagoda is a set of parallel tools as well as an application programmer interface for parallel data analysis of high-resolution climate data. Pagoda implements data parallel versions of some of the commonly used tools from the NetCDF Operators. These tools support data processing operations including subsetting, record and ensemble averages, binary operations, and interpolation. Pagoda also provides an application programmer interface for developing custom data analysis programs.",
+    "laborHours": 61392.8,
+    "name": "Pagoda",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/jeffdaily/pagoda/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jeffdaily/pagoda",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

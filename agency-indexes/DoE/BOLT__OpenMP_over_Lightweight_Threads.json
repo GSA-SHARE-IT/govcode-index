@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-05-14",
+        "metadataLastUpdated": "2020-05-14"
+    },
+    "description": "BOLT targets a high-performing OpenMP implementation, especially specialized for fine-grain parallelism. BOLT utilizes a lightweight threading model for its underlying threading mechanism. It currently adopts Argobots, a new holistic, low-level threading and tasking runtime, in order to overcome shortcomings of conventional OS-level threads. The current BOLT implementation is based on the OpenMP runtime in LLVM, and thus it can be used with LLVM/Clang, Intel OpenMP compiler, and GCC. More information about BOLT can be found at http://www.bolt-omp.org.",
+    "laborHours": 77763.2,
+    "languages": [],
+    "name": "BOLT: OpenMP over Lightweight Threads",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/pmodels/bolt/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pmodels/bolt",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

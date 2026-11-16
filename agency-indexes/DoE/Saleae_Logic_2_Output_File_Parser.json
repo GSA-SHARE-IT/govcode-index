@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2023-07-18",
+        "metadataLastUpdated": "2023-07-18"
+    },
+    "description": "A Python script that parsers Saleae Logic 2 output files into useful data sets.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Saleae Logic 2 Output File Parser",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/Saleae_Output_Parser",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

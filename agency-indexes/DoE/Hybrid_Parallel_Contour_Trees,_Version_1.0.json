@@ -1,0 +1,29 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "A common operation in scientific visualization is to compute and render a contour of a data set. Given a function of the form f : R^d -> R, a level set is defined as an inverse image f^-1(h) for an isovalue h, and a contour is a single connected component of a level set. The Reeb graph can then be defined to be the result of contracting each contour to a single point, and is well defined for Euclidean spaces or for general manifolds. For simple domains, the graph is guaranteed to be a tree, and is called the contour tree. Analysis can then be performed on the contour tree in order to identify isovalues of particular interest, based on various metrics, and render the corresponding contours, without having to know such isovalues a priori. This code is intended to be the first data-parallel algorithm for computing contour trees. Our implementation will use the portable data-parallel primitives provided by Nvidia’s Thrust library, allowing us to compile our same code for both GPUs and multi-core CPUs. Native OpenMP and purely serial versions of the code will likely also be included. It will also be extended to provide a hybrid data-parallel / distributed algorithm, allowing scaling beyond a single GPU or CPU.",
+    "laborHours": 204652.8,
+    "name": "Hybrid Parallel Contour Trees, Version 1.0",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://gitlab.kitware.com/vtk/vtk-m/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.kitware.com/vtk/vtk-m",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

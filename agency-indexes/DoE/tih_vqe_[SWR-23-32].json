@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-06-02",
+        "metadataLastUpdated": "2023-09-18"
+    },
+    "description": "This software supports the paper, \"Exploring the scaling limitations of the variational quantum eigensolver with the bond dissociation of hydride diatomic molecules,\" published in the International Journal of Quantum Chemistry, whose abstract is as follows: Materials simulations involving strongly correlated electrons pose fundamental challenges to state-of-the-art electronic structure methods but are hypothesized to be the ideal use case for quantum computing. To date, no quantum computer has simulated a molecule of a size and complexity relevant to real-world applications, despite the fact that the variational quantum eigensolver (VQE) algorithm can predict chemically accurate total energies. Nevertheless, because of the many applications of moderately-sized, strongly correlated systems, such as molecular catalysts, the successful use of the VQE stands as an important waypoint in the advancement toward useful chemical modeling on near-term quantum processors. In this paper, we take a significant step in this direction. We lay out the steps, write, and run parallel code for an (emulated) quantum computer to compute the bond dissociation curves of the TiH, LiH, NaH, and KH diatomic hydride molecules using VQE. TiH was chosen as a relatively simple chemical system that incorporates d orbitals and strong electron correlation. Because current VQE implementations on existing quantum hardware are limited by qubit error rates, the number of qubits available, and the allowable gate depth, recent studies have focused on chemical systems involving s and p block elements. Through VQE + UCCSD calculations of TiH, we evaluate the near-term feasibility of modeling a molecule with d-orbitals on real quantum hardware. We demonstrate that the inclusion of d-orbitals and the use of the UCCSD ansatz, which are both necessary to capture the correct TiH physics, dramatically increase the cost of this problem. We estimate the approximate error rates necessary to model TiH on current quantum computing hardware using VQE+UCCSD and show them to likely be prohibitive until significant improvements in hardware and error correction algorithms are available.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "tih_vqe [SWR-23-32]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/tih-vqe",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-01-26",
+        "metadataLastUpdated": "2024-01-29"
+    },
+    "description": "We seek to release SuperNu, Version 4.x, as a continuation of development for the open source SuperNu software.  The SuperNu, Version 3.x Monte Carlo radiative transfer code for astrophysical transients was released with GPLv3 copyright, asserted by LANL in 2015.  For the next release we have features planned for development , including: opacity implementation (including non-local thermodynamic equilibrium effects), generalized source implementation (e.g. for emulating shock heating in Type II supernovae), 3T (electron, ion, radiation) internal energy update, special relativity corrections through O(v^2/c^2), light polarization (e.g. for comparison to spectroplarimetry observations of supernovae and kilonovae), and infrastructure features (checkpoint and restart of simulations, and tools including setup and Slurm batch scripts and simulation post-processing/analysis scripts).   These features are intended to improve the fidelity and/or better understand uncertainty in supernova and kilonova light curve calculations.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SuperNu Version 4.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/SuperNu",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

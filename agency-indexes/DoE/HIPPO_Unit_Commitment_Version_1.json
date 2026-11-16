@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "Developed for the Midcontinent Independent System Operator, Inc. (MISO), HIPPO-Unit Commitment Version 1 is for solving security constrained unit commitment problem. The model was developed to solve MISO's cases. This version of codes includes I/O module to read in MISO's csv files, modules to create a state-based mixed integer programming formulation for solving MIP, and modules to test basic procedures to solve MIP via HPC.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "Python 2.7.7"
+    ],
+    "name": "HIPPO Unit Commitment Version 1",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

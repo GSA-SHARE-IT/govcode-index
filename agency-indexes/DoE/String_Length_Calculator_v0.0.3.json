@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-02-27",
+        "metadataLastUpdated": "2021-03-01"
+    },
+    "description": "The string length calculator simplifies the choice of string length for photovoltaic power plants. It uses open source tools to model the system open-circuit voltage over time based on established approaches used in the field by principal engineers and suggests a string length.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "String Length Calculator v0.0.3",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/toddkarin/vocmax",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

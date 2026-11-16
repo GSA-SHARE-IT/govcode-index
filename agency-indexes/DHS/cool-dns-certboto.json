@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-02-14",
+        "lastModified": "2026-04-09"
+    },
+    "description": "Terraform code to create the necessary resources to work with cisagov/certboto-docker in the DNS account.",
+    "downloadURL": "https://api.github.com/repos/cisagov/cool-dns-certboto/downloads",
+    "homepageURL": "https://github.com/cisagov/cool-dns-certboto",
+    "laborHours": 791.1,
+    "languages": [
+        "HCL",
+        "Shell"
+    ],
+    "name": "cool-dns-certboto",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/cool-dns-certboto.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

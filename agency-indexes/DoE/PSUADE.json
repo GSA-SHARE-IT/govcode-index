@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-02-02",
+        "metadataLastUpdated": "2023-02-07"
+    },
+    "description": "PSUADE (Problem Solving testbed for Uncertainty Analysis and Design Exploration) is a mathematical software useful for performing uncertainty quantification and sensitivity analysis.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PSUADE",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/psuade",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "2.1"
+}

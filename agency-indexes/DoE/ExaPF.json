@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2020-10-13",
+        "metadataLastUpdated": "2020-10-19"
+    },
+    "description": "ExaPF is a HPC package in Julia for solving power flow (PF) on a GPU.  It currently solves PF using the Newton-Raphson algorithm on NVIDA GPUs.",
+    "laborHours": 6080.0,
+    "languages": [],
+    "name": "ExaPF",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/exanauts/EXaPF.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

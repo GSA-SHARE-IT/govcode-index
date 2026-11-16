@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2024-11-18",
+        "metadataLastUpdated": "2024-11-18"
+    },
+    "description": "Faraday is a high-temperature electrolysis data visualization tool, which reveals the performance of various button cells under test conditions. These tests and the resulting analytics on their data constitute a state of the industry as the US Department of Energy pushes for the production of hydrogen.\n\nFaraday leverages the Idaho National Laboratory's DeepLynx data warehouse to standardize and query button cell data. Faraday programmatically accesses this data in DeepLynx by traversing the schema, represented by a custom ontology.\n\nThe user interface queries DeepLynx for timeseries data associated with specific button cells in the warehouse, and renders them using JavaScript charts. Additional charting and data analysis techniques are made possible by an auxiliary Python server.",
+    "laborHours": 4712.0,
+    "languages": [
+        "Python",
+        "TypeScript"
+    ],
+    "name": "Faraday: A High-temperature Electrolysis Data Explorer",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholabresearch/faraday",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

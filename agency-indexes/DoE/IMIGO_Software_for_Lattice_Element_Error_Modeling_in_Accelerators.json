@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2018-09-21",
+        "metadataLastUpdated": "2018-09-21"
+    },
+    "description": "This nonlinear program was developed from a nonlinear solver (called OASIS).   During Phase I work, it was applied on a number of nonlinear-solver benchmarking problems and a few SLAC accelerator problems.  By searching over only two optimization-control parameters, this Phase I work has enabled the development of a systematic procedure to facilitate the finding of a \"best-guessed\" global minimum solution for various types of problems with different size and complexity.   This set of rules has been codified and has led to a versatile nonlinear program IMIGO.",
+    "homepageURL": "http://www.slac.stanford.edu/doecode/IMIGO_2011",
+    "laborHours": 167.2,
+    "languages": [],
+    "name": "IMIGO Software for Lattice Element Error Modeling in Accelerators",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://www.slac.stanford.edu/doecode/IMIGO_2011",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://www.slac.stanford.edu/doecode/IMIGO_2011",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ]
+}

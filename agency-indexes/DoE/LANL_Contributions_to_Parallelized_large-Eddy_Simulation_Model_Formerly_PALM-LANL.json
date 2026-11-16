@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-09-24",
+        "metadataLastUpdated": "2021-09-24"
+    },
+    "description": "PALM-LANL is a model system for conducting large-eddy simulations, that is, simulations of turbulence that only resolve the largest turbulent eddies and rely on a turbulence closure scheme to represent the smallest turbulent eddies. PALM-LANL is based on PALM version 5.0 but it contains numerous modifications by LANL authors to add research capabilities. PALM is written for atmosphere and ocean turbulence; PALM-LANL includes modifications and additions to the ocean turbulence components, analysis, and data output capabilities. ",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LANL Contributions to Parallelized large-Eddy Simulation Model Formerly PALM-LANL",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/palm_lanl",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

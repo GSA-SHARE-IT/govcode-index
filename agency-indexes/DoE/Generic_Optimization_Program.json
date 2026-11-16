@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "GenOpt is a generic optimization program for nonlinear, constrained optimization. For evaluating the objective function, any simulation program that communicates over text files can be coupled to GenOpt without code modification. No analytic properties of the objective function are used by GenOpt. Optimization algorithms and numerical methods can be implemented in a library and shared among users. GenOpt offers an interlace between the optimization algorithm and its kernel to make the implementation of new algorithms fast and easy. Different algorithms of constrained and unconstrained minimization can be added to a library. Algorithms for approximation derivatives and performing line-search will be implemented. The objective function is evaluated as a black-box function by an external simulation program. The kernel of GenOpt deals with the data I/O, result storage and report, interlace to the external simulation program, and error handling. An abstract optimization class offers methods to interface the GenOpt kernel and the optimization algorithm library.",
+    "homepageURL": "http://simulationresearch.lbl.gov/GO",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Generic Optimization Program",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://simulationresearch.lbl.gov/GO/license.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://simulationresearch.lbl.gov/GO",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-03-16",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Flow routing using a hexagonal grid.",
+    "laborHours": 2158.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "pnnl/hexwatershed v2.0",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/hexwatershed",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git",
+    "version": "2.0"
+}

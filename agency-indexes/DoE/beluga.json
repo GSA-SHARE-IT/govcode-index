@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-11-11",
+        "metadataLastUpdated": "2020-11-18"
+    },
+    "description": "Submission-beluga is an open-source optimal control software that uses publicly available indirect methods to model inequality constraints at boundaries. This release of beluga introduces a method known as UTM, modified handling of constraints to support the UTM method, and includes bug fixes and related requirements changes.SAND2020-12847 M\n\nSandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy's National Nuclear Security Administration under contract DE-NA0003525.",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 20337.6,
+    "languages": [],
+    "name": "beluga",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

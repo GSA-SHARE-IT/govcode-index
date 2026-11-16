@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-08-09",
+        "metadataLastUpdated": "2024-08-09"
+    },
+    "description": "This code is a collection of python code that defines, trains, and tests Log-Additive Convolutional Neural Networks. The model components and training routine are based on the PyTorch python library. The code implements the Log-Additive Convolutional Neural Networks as described in Pagendam et al. 2023. In addition to the Log-Additive Convolutional Neural Networks, this library also defines the Log-Normal Density loss function as described in Pagendam et al. 2023. Code from this paper is not publicly available, so the Pytorch implementation of this type of model is unique to this library.",
+    "laborHours": 744.8,
+    "languages": [],
+    "name": "PyTorch Implementation of Log-Additive Convolutional Neural Networks",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/pagendam-callis-groundwaterML",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

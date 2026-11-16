@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2024-03-12",
+        "metadataLastUpdated": "2024-03-19"
+    },
+    "description": "This is a small kernel that was used to collect data for an upcoming paper. We would like to have the code be open source so that the reviewers (and then readers) of the paper can see the whole code, and can reproduce/verify our results. This is not a fully featured application, it cannot produce any useful simulation results, it just executes a small abstracted kernel using synthetic data. The purpose of the kernel is to understand the basic performance characteristics of an HPC kernel on novel AI accelerator architectures. The main kernel is written in the CSL coding language for use with the Cerebras WSE-2 AI accelerator. The kernel represented is the Monte Carlo cross section lookup kernel, which is a small kernel used by the Monte Carlo neutral particle transport algorithm. There is also a baseline kernel written in CUDA that we will include in the repository to form a basis for comparing the WSE-2 to GPU.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MONTE CARLO CROSS SECTION LOOKUP KERNEL FOR THE CEREBRAS WSE-2 IN CSL",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hpc-science/mc_on_accelerators",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

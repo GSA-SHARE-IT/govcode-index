@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-30",
+        "metadataLastUpdated": "2021-07-30"
+    },
+    "description": "Clustering methods are heavily dependent on the algorithm of choice, as well as the chosen hyperparameters of the algorithm and their sensitivity to data scales is largely unknown. In our software, we introduce a tensor clustering that relays on discrete wavelet transform to analyze the effects of course-graining on clustering of high-dimensional tensor data. Our method CGC allows us to understand how the different scales affect clustering. The scale of data is an important feature with regards to clustering. CGC calculates the normalized mutual information drop off at different length scales which illustrates certain resolutions are producing novel clusters. Consequently, in addition to running several clustering algorithms, it is also important to include several coarse-grain clusterings into a cluster ensemble.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "CGC",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

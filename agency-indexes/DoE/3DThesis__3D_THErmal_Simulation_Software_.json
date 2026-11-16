@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "radercd@ornl.gov"
+    },
+    "date": {
+        "created": "2019-06-13",
+        "metadataLastUpdated": "2020-09-09"
+    },
+    "description": "There is a need for a way to simulate the heat transfer conditions for the entire layer of a build (both temperature and solidification gradient and velocity). CFD models could do this but those may take months to finish a simulation. The solution is an adaptive integration scheme for a analytic, conduction-only approach for a volumetric Gaussian heat source. Because this is analytic, it also allows increased functionality as well. 3DThesis can simulate heat transfer conditions for a volumetric Gaussian heat source moving in an arbitrary path at a point in time. This allows for the calculation of discrete snapshots of the temperature field or even the final solidification gradients and velocities.",
+    "laborHours": 1611.2,
+    "languages": [
+        "C++(11)",
+        "GCC",
+        "Visual C++",
+        "Intel"
+    ],
+    "name": "3DThesis (3D THErmal Simulation Software)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/JamieStumpORNL/3DThesis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "version": "1.0"
+}

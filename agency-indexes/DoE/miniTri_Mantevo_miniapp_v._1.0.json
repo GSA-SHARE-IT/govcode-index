@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "miniTri is a miniapplication developed as part of the Mantevo project. Given a graph, miniTri enumerates all triangles in this graph and computes a metric for each triangle based on the triangle edge and vertex degree. The output of miniTri is a summary of this metric. miniTri mimics the computational requirements of an important set of data science applications. Several approaches to this problem are included in the miniTri software.",
+    "laborHours": 5791.2,
+    "languages": [
+        "C, C++",
+        "Makefile"
+    ],
+    "name": "miniTri Mantevo miniapp v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/sandialabs/miniTri?tab=License-1-ov-file#readme",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/miniTri",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

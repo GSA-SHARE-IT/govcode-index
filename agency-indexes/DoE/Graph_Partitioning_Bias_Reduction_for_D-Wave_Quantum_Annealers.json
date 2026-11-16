@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-03-11",
+        "metadataLastUpdated": "2022-03-11"
+    },
+    "description": "Quantum annealers offer an efficient way to compute high quality solutions of NP-hard problems when expressed in a QUBO (quadratic unconstrained binary optimization) or an Ising form. This is done by mapping a problem onto the physical qubits and couplers of the quantum chip, from which a solution is read after a process called quantum annealing. However, this process is subject to multiple sources of biases, including poor calibration, leakage between adjacent qubits, control biases, etc., which might negatively influence the quality of the annealing results. In this software, we aim at mitigating the effect of such biases for solving constrained optimization problems, by offering a two-step method, and apply it to Graph Partitioning. In the first step, we measure and reduce any biases that result from implementing the constraints of the problem. In the second, we add the objective function to the resulting bias-corrected implementation of the constraints, and send the problem to the quantum annealer. We apply this concept to Graph Partitioning, an important NP-hard problem, which asks to find a partition of the vertices of a graph that is balanced (the constraint) and minimizes the cut size (the objective). We develop methods for an iterative method to correct any such biases. We demonstrate that, after adding the objective, solving the resulting bias-corrected Ising problem on the quantum annealer results in a higher solution accuracy.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Graph Partitioning Bias Reduction for D-Wave Quantum Annealers",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

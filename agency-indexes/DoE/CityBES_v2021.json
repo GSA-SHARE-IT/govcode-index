@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-30",
+        "metadataLastUpdated": "2024-08-30"
+    },
+    "description": "City Buildings, Energy, and Sustainability (CityBES) is a web-based data and computing platform, focusing on energy modeling and analysis of a city's building stock to support district or city-scale building energy efficiency programs. CityBES uses an international open data standard, CityGML, to represent and exchange 3D city models. CityBES employs EnergyPlus to simulate building energy use and savings from energy efficient retrofits. Other CityBES features include energy benchmarking, district heating and cooling system modeling, rooftop PV analysis, building performance visualization, heat resilience modeling, as well as urban scale mapping of microclimate and heat vulnerability at census tract level. Different from other tools, CityBES uses integrated open and standard 3D city building data and models each individual building using EnergyPlus. CityBES can be used by urban planners, city energy managers, building owners, utilities, energy consultants and researchers.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 170468.0,
+    "languages": [],
+    "name": "CityBES v2021",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

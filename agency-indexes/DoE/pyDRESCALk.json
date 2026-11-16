@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-09-24",
+        "metadataLastUpdated": "2022-01-06"
+    },
+    "description": "Modern data scientists are tasked to analyze ever-growing data sets with increasingly complex relationships. Tensor decompositions have come to play a central role in identifying underlying latent structures in higher-order data. The problem of fitting tensor models to different distributions is complicated by the combinations of size, dimensionality, and sparsity present in real world data. The situation demands efficient algorithms designed for shared-memory and distributed systems. This work will present new research that tackles these challenges on several different fronts, leveraging optimizations in numerical algorithms and sparse tensor representations in heterogeneous high performance computing environments.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pyDRESCALk",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/pyDRESCALk",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

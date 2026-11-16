@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-07-29",
+        "metadataLastUpdated": "2019-07-29"
+    },
+    "description": "To the author's knowledge, VALENCE is the only implementation of the variational subspace valence bond (VSVB) method. At Argonne, VSVB was developed from the ground up with extreme scalability and high performance on emerging hardware paradigms in mind. Thus, VSVB is the only quantum chemistry method that promises high accuracy with cross-cutting applicability at the exascale. VSVB also offers unique opportunities for machine learning and stands to revolutionize many fields across materials science, chemistry, and biology. The existence of an open-source software implementation of VSVB is an essential step in its development and support for the benefit of the community. ",
+    "laborHours": 4924.8,
+    "languages": [],
+    "name": "VALENCE",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/gdfletcher/VALENCE",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

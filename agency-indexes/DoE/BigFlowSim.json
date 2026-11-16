@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-12-14",
+        "metadataLastUpdated": "2020-12-14"
+    },
+    "description": "BigFlowSim is a workflow I/O simulator that captures key implementation choices for remote I/O, including intensity, reuse, locality, access pattern, and data movement. With BigFlowSim, it is possible to generate synthetic benchmarks, and then perform sensitivity analyses to quantify the effects of the various I/O parameters. In addition to generating synthetic workflows, BigFlowSim is also able to replay traces (of I/O access) captured from execution of actual distributed scientific workflows.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "BigFlowSim",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.pnnl.gov/perf-lab-hub/tazer/tazer-bigflow-sim",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "version": "1"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-03",
+        "metadataLastUpdated": "2021-03-03"
+    },
+    "description": "GauXC is a modern, modular C++ library for the numerical exchange-correlation (XC) integration required for the Gaussian basis set discretization of Kohn-Sham density functional theory (DFT). The modular nature of GauXC allows for an extensible software design which enables performance portability on an array of CPU and GPU architectures.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GauXC v0.1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/wavefunction91/GauXC",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git",
+    "version": "v0.1.0"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-09-29",
+        "metadataLastUpdated": "2022-11-07"
+    },
+    "description": "NOODLES is a protocol specification for collaborative visualization. It allows software tools of any type to participate in an analysis or visualization session. Use cases include, but are not limited to, distributed analysis, workflow interoperability, computational steering, etc.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "NOODLES [SWR-22-78]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/InsightCenterNoodles/message_spec",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

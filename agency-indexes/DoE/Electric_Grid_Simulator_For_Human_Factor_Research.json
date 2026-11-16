@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2025-02-18",
+        "metadataLastUpdated": "2025-02-18"
+    },
+    "description": "The developed code simulates real-time monitor and control for west area of IEEE 118-bus system. The 24-hour load profile for each bus is derived by scaling the system’s rated load in the PSSE sav file according to the California Independent System Operator’s Day-ahead load forecast for May 1, 2024. This simulator performs several critical functions: (1) Calculating time-series power flow every 4 seconds; (2) Updating and dispatching AGC signals every minute; (3) Conducting N-1 contingency analysis every 5 minutes. Additionally, the simulator can trip lines and subsequently update and dispatch AGC signals, running power flow analysis after each tripping event.",
+    "laborHours": 197.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "Electric Grid Simulator For Human Factor Research",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabUnsupported/PSSE_for_Human_factor_research",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-12-10",
+        "metadataLastUpdated": "2021-12-10"
+    },
+    "description": "GLVis is a lightweight tool for accurate and flexible finite element visualization. GLVis uses OpenGL with interactive refinement to accurately represent curved high-order meshes and a wide variety of finite element grid functions defined on them.",
+    "laborHours": 17343.2,
+    "languages": [],
+    "name": "GL Visualization",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/glvis/glvis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "4.0"
+}

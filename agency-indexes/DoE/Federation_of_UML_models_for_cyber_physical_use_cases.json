@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-10"
+    },
+    "description": "This method employs the concept of federation, which is defined as the use of existing models that represent aspects of a system in specific domains (such as physical and cyber security domains) and building interfaces to link all of domain models. Federation seeks to build on existing bodies of work. Some examples include the Common Information Models (CIM) maintained by the International Electrotechnical Commission Technical Committee 57 (IEC TC 57) for the electric power industry. Another relevant model is the CIM maintained by the Distributed Management Task Force (DMTF)? this CIM defines a representation of the managed elements in an Information Technology (IT) environment. The power system is an example of a cyber-physical system, where the cyber systems, consisting of computing infrastructure such as networks and devices, play a critical role in the operation of the underlying physical electricity delivery system. Measurements from remote field devices are relayed to control centers through computer networks, and the data is processed to determine suitable control actions. Control decisions are then relayed back to field devices. It has been observed that threat actors may be able to successfully compromise this cyber layer in order to impact power system operation. Therefore, future control center applications must be wary of potentially compromised measurements coming from field devices. In order to ensure the integrity of the field measurements, these applications could make use of compromise indicators from alternate sources of information such as cyber security. Thus, modern control applications may require access to data from sources that are not defined in the local information model. In such cases, software application interfaces will require integration of data objects from cross-domain data models. When incorporating or federating different domains, it is important to have subject matter experts work together, recognizing that not everyone has the same knowledge, responsibilities, focus, or skill set.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Federation of UML models for cyber physical use cases",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "The software calculates the interior eigenstates of a nanosystem with a given Hamiltonian. This is used for nonselfconsistent calculations of electron and hole states for large (a few thousands to hundreds of thousands of atoms) nanostructures. The electron wave function is represented by a planewave basis set. FFT is used to transform the wavefunction from reciprocal space to real space to be applied to the potential. Nonlocal pseudopotentlals are used in the Hamiltonian and spin-orbit interactions are included. One primary approach to calculate the interior eigenstates in the code is to use the folded spectrum method. Several numerical algorithms are implemented in this package, including the conjugated gradient method, the Jacobi-Davidson method, and the LOPCG method. The user can select different algorithms based on their particular problem and number of wavefunctions needed to be solved.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran 90 and C"
+    ],
+    "name": "Pescan",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

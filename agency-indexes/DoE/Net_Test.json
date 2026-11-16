@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-05-25"
+    },
+    "description": "Nettest is a secure, real-time network utility. The nettest framework is designed to incorporate existing and new network tests, and be run as a daemon or an interactive process. Requests for network tests are received via a SSL connection or the user interface and are authorized using a ACL list (in the future authorization using Akenti will also be supported). For tests that require coordination between the two ends of the test, Nettest establishes an SSL connection to accomplish this coordination. A test between two remote computers can be requested via the user interlace if the Nettest daemon is running on both remote machines and the user is authorized. Authorization for the test is through a chain of trust estabtished by the nettest daemons. Nettest is responsible for determining if the test request is authorized, but it does nothing further to secure the test once the test is running. Currently the Nettest framework incorporates lperf-vl.2, a simple ping type test, and a tuned TCP test that uses a given required throughput and ping results to determine the round trip time to set a buffer size (based on the delay bandwidth product) and then performs an iperf TCP throughput test. Additional network test tools can be integrated into the Nettest framework in the future.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Net Test",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

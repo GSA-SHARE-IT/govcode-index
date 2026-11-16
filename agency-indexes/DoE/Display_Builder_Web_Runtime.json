@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "kasemirk@ornl.gov"
+    },
+    "date": {
+        "created": "2021-10-12",
+        "metadataLastUpdated": "2021-10-12"
+    },
+    "description": "A Web Runtime for the Display Builder. Can load and display most control system operator screens that have been created with the desktop version of the Control System Studio Display Builder, but presents them in a web browser without requiring any setup on the end-user's computer. Part of ORNL-EPICS.",
+    "laborHours": 0.0,
+    "languages": [
+        "Java",
+        "Java",
+        "Java",
+        "CSS",
+        "HTML",
+        "JavaScript"
+    ],
+    "name": "Display Builder Web Runtime",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ornl-epics/dbwr",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

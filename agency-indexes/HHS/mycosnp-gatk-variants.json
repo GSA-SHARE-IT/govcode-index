@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "URL": "https://github.com/CDCgov",
+        "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+        "created": "2021-02-24",
+        "lastModified": "2021-05-14"
+    },
+    "description": "This workflow calls variants for MycoSNP using GATK.",
+    "downloadURL": "https://api.github.com/repos/CDCgov/mycosnp-gatk-variants/downloads",
+    "homepageURL": "https://github.com/CDCgov/mycosnp-gatk-variants",
+    "laborHours": 0,
+    "languages": [],
+    "name": "mycosnp-gatk-variants",
+    "organization": "Centers for Disease Control and Prevention",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "git://github.com/CDCgov/mycosnp-gatk-variants.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

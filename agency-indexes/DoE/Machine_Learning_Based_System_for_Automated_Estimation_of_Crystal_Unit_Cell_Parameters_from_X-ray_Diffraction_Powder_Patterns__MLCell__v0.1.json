@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-30",
+        "metadataLastUpdated": "2024-08-30"
+    },
+    "description": "This software uses machine learning models to perform inference on X-ray diffraction powder patterns, output from a diffractometer, to estimate all 6 unit cell parameters of crystalline lattices. Novel aspects of this software originated from the incorporation of concepts from crystallography to an ML-based approach; The resulting method achieves new performance capabilities without significant loss of accuracy and with less computationally intensive models.",
+    "laborHours": 258.4,
+    "languages": [],
+    "name": "Machine Learning Based System for Automated Estimation of Crystal Unit Cell Parameters from X-ray Diffraction Powder Patterns (MLCell) v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cctbx-xfel/MLCell",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

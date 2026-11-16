@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-11-12",
+        "metadataLastUpdated": "2019-11-12"
+    },
+    "description": "User-defined elements in ANSYS enable programming of the finite element method to simulate the unique behavior of superconducting magnets. A set of electromagnetic and thermal user elements incorporate both quench and interfilament coupling current (IFCC) effects in a consistent manner, allowing for simulation of strongly coupled, multiphysics behavior typical of superconducting devices.",
+    "laborHours": 6870.4,
+    "languages": [],
+    "name": "SCPACK vR1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lnbrouwer/ANSYS_UEL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

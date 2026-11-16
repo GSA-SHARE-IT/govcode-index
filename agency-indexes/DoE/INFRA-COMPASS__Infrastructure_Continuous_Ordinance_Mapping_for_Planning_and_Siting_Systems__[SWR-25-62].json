@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2025-04-15",
+        "metadataLastUpdated": "2025-04-15"
+    },
+    "description": "INFRA-COMPASS is an innovative software tool that harnesses the power of Large Language Models (LLMs) to automate the compilation and continued maintenance of an inventory of state and local codes and ordinances pertaining to energy infrastructure.",
+    "laborHours": 5274.4,
+    "languages": [
+        "Python",
+        "Rust"
+    ],
+    "name": "INFRA-COMPASS (Infrastructure Continuous Ordinance Mapping for Planning and Siting Systems) [SWR-25-62]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/COMPASS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "v.0.3.0"
+}

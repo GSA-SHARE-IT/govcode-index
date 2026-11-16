@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-07-11",
+        "metadataLastUpdated": "2024-07-11"
+    },
+    "description": "LCUSS is a collection of scripts used to improve productivity on HPC systems for both administrators and\ngeneral users. It will include general scripts for user management, scripts for helping users interact with\nLC resource management software (e.g. SLURM and Flux), and scripts to automate common user\ncommand-line tasks on LC and other HPC machines. These scripts are intended to be made available to\nall LC users. Hosting them on GitHub will allow LC staff, users, and collaborators to work on them\ntogether.",
+    "laborHours": 60.8,
+    "languages": [],
+    "name": "Livermore Computing User and System Scripts",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/LCUSS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0"
+}

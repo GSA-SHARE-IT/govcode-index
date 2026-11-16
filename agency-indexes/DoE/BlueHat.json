@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-07-28",
+        "metadataLastUpdated": "2023-07-28"
+    },
+    "description": "\"Bluehat\" is a collection of python routines to facilitate the analysis of spectral (multispectral and hyperspectral) remote sensing\nimagery, with an emphasis on various kind of target detection.  The package provides collections of utilities that developers can use in producing algorithms for specific target detection scenarios.\n\nAlthough \"bluehat\" is mostly expected to be used for remote sensing imagery (which often comes from satellite sensors), and although early versions of \"bluehat\" were used to design algorithms that were then rewritten for onboard processing; \"bluehat\" itself  is not not specially designed for space and/or satellite application.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "BlueHat",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jt-lanl/bluehat",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

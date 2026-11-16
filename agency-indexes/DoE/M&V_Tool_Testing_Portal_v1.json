@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-09-10",
+        "metadataLastUpdated": "2018-09-13"
+    },
+    "description": "Software is an online self-service portal for testing M&V methods/tools using buildings' interval meter data. After registering as a user in the portal, that user can download test data files, run those test data files through their own M&V software, and then upload software modeling results to the online portal as a csv file. After the user has uploaded their modeling results the portal will develop statistical accuracy metrics for that M&V tool. The online portal will summarize test results for some or all of the submitted tests. This online portal has been developed by LBNL, and we have been collaborating with the Efficiency Valuation Organization (EVO) with the objective of EVO managing the portal as an ongoing service. Portal is currently posted at http://mvportal.evo-world.org/",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 3237.6,
+    "languages": [],
+    "name": "M&V Tool Testing Portal v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

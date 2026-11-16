@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-07-13",
+        "metadataLastUpdated": "2023-04-24"
+    },
+    "description": "RAFT is a Python code for frequency-domain analysis of floating wind turbines. RAFT works in the frequency domain to provide efficient computations of a floating wind system's response spectra accounting for platform hydrodynamics, quasi-static mooring reactions, rotor aerodynamics, and linearized control. It can be used to calculate response amplitude operators (RAO's), power spectral densities, mean/static properties, and response metrics based on mean and root-mean-square values of each output. RAFT serves as the Level 1 model in the WEIS (Wind Energy with Integrated Servo-control) toolkit, and features an OpenMDAO wrapper.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "roff"
+    ],
+    "name": "RAFT (Response Amplitudes of Floating Turbines) [SWR-22-40]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/WISDEM/RAFT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

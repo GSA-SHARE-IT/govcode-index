@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-03-22",
+        "metadataLastUpdated": "2024-03-22"
+    },
+    "description": "Following the Open Research requirements for AGU journals, we must release the code used to perform the experiment described in our recent publication, posted at (https://arxiv.org/abs/2312.04722).  This code fits a joint emulator to data from a Discrete Fracture Network (DFN) simulation, performed using the open-source software DFNworks (https://dfnworks.lanl.gov/).  All code to be released implements existing methods; there are no novel algorithms nor any major innovations to existing software.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Code for Experiment in Publication “Sensitivity Analysis in the Presence of Intrinsic Stochasticity for Discrete Fracture Network Simulations”",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/sa_for_dfns",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

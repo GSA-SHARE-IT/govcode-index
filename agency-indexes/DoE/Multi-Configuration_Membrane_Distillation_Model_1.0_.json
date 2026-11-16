@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "ndbrook@sandia.gov"
+    },
+    "date": {
+        "created": "2018-04-12",
+        "metadataLastUpdated": "2018-04-12"
+    },
+    "description": "The MCMD 1.0 model is used to quantify mass and heat transfer for both direct contact and air gap membrane distillation technologies.  The code is designed to be able to be extended to include many different membrane distillation configurations of which air-gap and direct contact are two examples that have already been implemented. ",
+    "laborHours": 6642.4,
+    "name": "Multi-Configuration Membrane Distillation Model 1.0 ",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/dlvilla/mcmd1",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

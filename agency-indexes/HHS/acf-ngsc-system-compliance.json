@@ -1,0 +1,42 @@
+{
+    "name": "acf-ngsc-system-compliance",
+    "description": "a project to produce DISA STIG compliance ami's for the operating systems supported by the NGSC",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": null
+    },
+    "organization": "Department of Health and Human Services",
+    "homepageURL": "https://github.com/HHS/acf-ngsc-system-compliance",
+    "downloadURL": "https://api.github.com/repos/HHS/acf-ngsc-system-compliance/downloads",
+    "repositoryURL": "https://github.com/HHS/acf-ngsc-system-compliance.git",
+    "vcs": "git",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "HCL",
+        "Shell",
+        "PowerShell"
+    ],
+    "date": {
+        "created": "2021-10-07",
+        "lastModified": "2021-11-10",
+        "metadataLastUpdated": "2022-03-22"
+    },
+    "tags": [
+        "project",
+        "produce",
+        "DISA",
+        "STIG",
+        "compliance",
+        "ami's",
+        "operating",
+        "systems",
+        "supported",
+        "NGSC"
+    ],
+    "contact": {
+        "email": "HHS_GitHub_Service_Desk@hhs.gov",
+        "name": "U.S. Department of Health & Human Services"
+    }
+}

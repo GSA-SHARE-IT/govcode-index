@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-26",
+        "metadataLastUpdated": "2020-08-26"
+    },
+    "description": "An implementation of binary transports and protocols for JavaScript Thrift library, as well as some modifications to generated Thrift code to create a better modern JavaScript API using the bluebird Promises library.",
+    "laborHours": 2021.6,
+    "languages": [],
+    "name": "Javascript clients for Apache Thrift",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/kbase-data-thrift-js",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

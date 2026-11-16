@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2025-02-07",
+        "metadataLastUpdated": "2025-02-07"
+    },
+    "description": "IdPP is a Python package that provides a framework for the curation and analysis of molecular properties from\nmultidimensional mass spectrometry (MS) measurements. The main components of the package are organized around a\nmolecular property database and identification probability analysis",
+    "laborHours": 349.6,
+    "languages": [],
+    "name": "pnnl/idpp_rtp",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/idpp_rtp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

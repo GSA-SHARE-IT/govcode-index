@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "HELICS is designed to support very-large-scale (100,000+ federates) cosimulations with off-the-shelf power-system, communication, market, and end-use tools. Other key features include cross platform operating system support, the integration of both event driven (e.g., packetized communication) and time-series (e.g., power flow) simulations, and the ability to co-iterate among federates to ensure physical model convergence at each time step.",
+    "laborHours": 265848.0,
+    "name": "Hierarchical Engine for Large-scale Infrastructure Co-Simulation",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/GMLC-TDC/HELICS-src/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/GMLC-TDC/HELICS-src",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

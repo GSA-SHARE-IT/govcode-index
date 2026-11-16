@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "krhodges@illinois.edu"
+    },
+    "date": {
+        "created": "2024-11-14",
+        "metadataLastUpdated": "2024-11-14"
+    },
+    "description": "BioSTEAM is a fast and flexible package for the design, simulation, and techno-economic analysis of biorefineries under uncertainty. BioSTEAM’s framework is built to streamline and automate early-stage technology evaluations and to enable rigorous sensitivity and uncertainty analyses. Complete biorefinery configurations are available at the Bioindustrial-Park GitHub repository, BioSTEAM’s premier repository for biorefinery models and results. The long-term growth and maintenance of BioSTEAM is supported through both community-led development and the research institutions invested in BioSTEAM. Through the open-source and community-lead platform, BioSTEAM aims to foster communication and transparency within the biorefinery research community for an integrated effort to expedite the evaluation of candidate biofuels and bioproducts.\n\nAdditionally, an agile life cycle assessment (LCA) platform has been designed to interface with BioSTEAM, BioSTEAM-LCA. This open-source, installable package allows users to perform streamlined LCAs of biorefineries. The focus of BioSTEAM-LCA is to streamline and automate early-stage environmental impact analyses of processes and technologies, and to enable rigorous sensitivity and uncertainty analyses linking process design, performance, economics, and environmental impacts.",
+    "laborHours": 23924.8,
+    "languages": [],
+    "name": "BioSTEAMDevelopmentGroup/biosteam",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/BioSTEAMDevelopmentGroup/biosteam?tab=License-1-ov-file#readme",
+                "name": "Other"
+            },
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BioSTEAMDevelopmentGroup/biosteam",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

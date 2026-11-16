@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Tusas is a general / flexible software framework for solving coupled systems of onlinear partial differential equations. Tusas was originally developed for phase-field simulation of solidification. In order for Tusas to be effective, the PDEs must be compatible with structured or unstructured Lagrange (nodal) finite element discretizations and explicit (Euler) or implicit (Euler, Trapezoid, BDF2) temporal discretizations.",
+    "laborHours": 10442.4,
+    "name": "Tusas, Version 1.0",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/chrisknewman/tusas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

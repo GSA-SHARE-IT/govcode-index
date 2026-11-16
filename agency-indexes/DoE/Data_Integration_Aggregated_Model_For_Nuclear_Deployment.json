@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2020-05-01",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "The data of a nuclear utility or plant are stored in various isolated forms in different systems. These data have different structures and tools and are, therefore, used independently. The integration of data sources is often needed and is performed manually and on an as-needed basis. The integration of the data would enable creating a data warehouse for a single nuclear power plant (NPP) or multiple plants. A data model contains objects that make up a given domain along with their attributes and relationships and could be used as a standard for exchange between applications for simple integration and data aggregation. After a survey of existing models, it was determined that a new model was required to meet the scope of this problem. DIAMOND has been developed in the form of an ontology to meet these needs. An ontology is simply a data model that also acts as a taxonomy for the domain, organizing the objects in a hierarchy with the most general objects at the top.",
+    "laborHours": 30.4,
+    "languages": [],
+    "name": "Data Integration Aggregated Model For Nuclear Deployment",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/DIAMOND",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-11-25",
+        "metadataLastUpdated": "2024-11-25"
+    },
+    "description": "The Dependency Analysis Project creates datasets from package management ecosystems to determine\nwhat package a file was likely installed by, and provides tools to recognize implicit dependencies when\nsource code is available for a variety of language ecosystems. The overarching goal is to help answer the\nquestion: what software does a system use?",
+    "laborHours": 182.4,
+    "languages": [],
+    "name": "Dependency Analysis Project",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/dapper",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-12-22",
+        "metadataLastUpdated": "2022-12-22"
+    },
+    "description": "TriPoll is software to perform surveys of triangles within large graphs containing metadata. In TriPoll, users define their own callback functions that get executed on the metadata of each triangle within a\ngraph as triangles are identified. This functionality makes it possible for users to perform advanced analyses and gather statistics about specific classes of triangles of interest.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "TriPoll",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/tripoll",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-03-20",
+        "lastModified": "2025-01-13"
+    },
+    "description": "A systemd-enabled Debian 11 (Bullseye) Docker image, in the spirit of geerlingguy/docker-debian10-ansible.",
+    "downloadURL": "https://api.github.com/repos/cisagov/docker-debian11-ansible/downloads",
+    "homepageURL": "https://github.com/cisagov/docker-debian11-ansible",
+    "laborHours": 41.8,
+    "languages": [
+        "Dockerfile",
+        "Shell"
+    ],
+    "name": "docker-debian11-ansible",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/docker-debian11-ansible.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

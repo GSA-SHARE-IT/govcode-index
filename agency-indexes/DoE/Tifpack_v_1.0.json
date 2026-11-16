@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "A package for computing and applying algebraic preconditioners in the context of preconditioned iterative methods. It is related to the existing Ifpack package in Trilinos but provides support for template scalar and ordinal types and explicitly relies on Tpetra and Kokkos instead of Epetra. Algebraic preconditioners are used by iterative solvers as solution method in engineering and scientific applications, including nonlinear equation solving, time integration, sensitivity analysis, stability analysis, optimization, and uncertainty quantification.",
+    "laborHours": 8344830.4,
+    "name": "Tifpack v 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

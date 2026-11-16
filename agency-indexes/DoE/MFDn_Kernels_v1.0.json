@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-10-21",
+        "metadataLastUpdated": "2021-10-21"
+    },
+    "description": "MFDn kernels is a collection of small subroutines designed to capture essential characteristics of the Many-Fermion Dynamics---nuclear (MFDn) application (DOI: 10.1016/j.procs.2010.04.012). It features multiple implementations with different programming models/languages of simplified routines analogous to those found in the full application. The main use is to explore the performance and utility of different programming models, languages and compilers.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MFDn Kernels v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/NERSC/nersc-proxies/mfdn-kernels",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

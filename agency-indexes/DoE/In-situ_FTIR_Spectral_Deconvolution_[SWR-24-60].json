@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-05-30",
+        "metadataLastUpdated": "2024-09-24"
+    },
+    "description": "In-situ FTIR Spectral Deconvolution contains scripts for the fitting of gaussians to convoluted FTIR spectra. It was specifically developed to handle a time-series of in situ ATR-FTIR spectra, split the spectra into its individual gaussians, and track those peaks as they shift in intensity and energy. Along with the actual fitting script, this repository contains several support scripts for data analysis and recall of prior fit results.",
+    "laborHours": 532.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "In-situ FTIR Spectral Deconvolution [SWR-24-60]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/In-Situ-FTIR-SpectralDeconvolution",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2018-11-26",
+        "metadataLastUpdated": "2018-12-04"
+    },
+    "description": "The md_viscoplastic software is a numerical implementation of the Munson-Dawson material model for rock salt.  One inputs a deformation increment, a temperature increment, and the current stress state to md_viscoplastic.  It returns the new stress state by numerically integrating ordinary differential equations.  ",
+    "homepageURL": "https://ip.sandia.gov/contact-form",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "md_viscoplastic v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://ip.sandia.gov/contact-form",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "version": "v. 1.0"
+}

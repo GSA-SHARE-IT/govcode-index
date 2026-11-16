@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-07-29",
+        "metadataLastUpdated": "2019-07-30"
+    },
+    "description": "X-ray ptychography imaging at synchrotron facilities like the Advanced Photon Source (APS) involves controlling instrument hardwares to collect a set of diffraction patterns from overlapping coherent illumination spots on extended samples, managing data storage, reconstructing ptychographic images from acquired diffraction patterns, and providing the visualization of results and feedback. This brings up the need to develop a flexible, robust and user friendly processing pipeline for ptychographic data analysis. Here we present a software framework including visualization and ptychographic data reconstruction for streaming data analysis and reconstruction. ",
+    "laborHours": 4666.4,
+    "languages": [],
+    "name": "ptychopy",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kyuepublic/ptychopy",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

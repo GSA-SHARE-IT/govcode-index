@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-06-02",
+        "metadataLastUpdated": "2023-06-02"
+    },
+    "description": "A new version of the verification tool ExactPack, 1.7.0, includes three new solvers: A Radshocks solver, Riemann solver and an Elastic-Plastic Piston problem solver. The code has been refactored to work with Python 3. All Fortran code has been removed and solvers implemented in Fortran have been re-implemented in Python where necessary. All unit tests have been converted to use the Pytest format and all the GUI, CLI and verification analysis code has been removed.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ExactPack",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/ExactPack",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

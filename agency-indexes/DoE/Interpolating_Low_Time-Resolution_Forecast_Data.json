@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "Methodology that interpolates low time-resolution data (e.g., hourly) to high time-resolution (e.g., minutely) with variability patterns extracted from historical records. Magnitude of the variability inserted into the low time resolution data can be adjusted according to the installed capacity represented by the low time-resolution data compared to that by historical records. This approach enables detailed analysis of the impacts from wind and solar on power system intra-hour operations and balancing reserve requirements even with only hourly data. It also allows convenient creation of high resolution wind or solar generation data with various degree of variability to investigate their operational impacts. The methodology comprises of the following steps: 1. Smooth the historical data (set A) with an appropriate window length l to get its trend (set B); l can be a fraction of an hour (e.g., 15 minutes) or longer than an hour, of which the length of the variability patterns will be; 2. Extract the variable component (set C) of historical data by subtracting the smooth trend from it, i.e. set C = set A - set B 3. For each window length l of the variable component data set, find the average value x (will call it base component) of the corresponding window of the historical data set; 4. Define a series of segments (set D) that the values of data will be grouped into, e.g. (0, 0.1), (0.1, 0.2), ..., (0.9, 1.0) after normalization; Link each variability pattern to a data segment based on its corresponding base component x; after this step, each data segment should be linked to multiple variability patterns after this step; 5. Use spline function to interpolate the low time-resolution forecast data (set E) to become a high time-resolution smooth curve (set F); 6. Based on the window length l , calculate the average value y in each window length of set F; find the data segment that y belongs to; then randomly select one of the variability patterns linked to this data segment; 7. Add the selected variability pattern in each window to set F to get the high time-resolution data (set G) with variability observed from historical data set A; a coefficient k can be multiplied to the selected variability pattern to reflect the potential difference in variability between forecast set E and historical data set A caused by installation capacity and other factors. 8. After set G is constructed, variability statistics can be checked for set A and set G for comparison. Adjust the coefficient k if necessary to achieve desired variability in the reconstructed data.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Interpolating Low Time-Resolution Forecast Data",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-08-26",
+        "metadataLastUpdated": "2024-08-26"
+    },
+    "description": "This tool provides codes to prune and quantize vision transformers (ViTs). The tool will allow developers and researchers to speed up inference of ViTs and deploy them on CPUs.",
+    "laborHours": 425.6,
+    "languages": [],
+    "name": "prune_quant_vit",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kshitij11/PQV-Mobile",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

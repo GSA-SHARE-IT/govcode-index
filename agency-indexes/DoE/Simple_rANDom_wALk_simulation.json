@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "SANDAL is a particle-mesh simulation mini-app. The simple simulated physics propagates a set of particles in a constant, 2D wind field with Gaussian turbulence. SANDAL demonstrates the feasibility of formulating a computational physics problem using an alternative, modern design. Specifically, it is implemented using relational tables and queries, rather than array-based data model. It also is implemented with functional language design and cloud deployment, Scala and Apache Spark, rather than Fortran and MPI+X.",
+    "laborHours": 456.0,
+    "name": "Simple rANDom wALk simulation",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/lanl/Sandal/blob/master/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/losalamos/Sandal",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

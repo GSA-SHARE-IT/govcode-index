@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-10-01",
+        "metadataLastUpdated": "2019-10-02"
+    },
+    "description": "Bedrock is a code set of firmware libraries written in Verilog used by LBNL for accelerator controls and other applications. A set of commonly used building blocks in DSP (Digital Signal Processing) are present such as a CORDIC implementation, CIC filters, etc. Other useful functions include an in-fabric Ethernet core implementation to communicate with FPGAs over the network and support drivers for components such as ADCs and DACs we have used in our designs. The code base is intended to serve as a support library for HDL designs.",
+    "laborHours": 35689.6,
+    "languages": [],
+    "name": "Bedrock v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BerkeleyLab/Bedrock",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

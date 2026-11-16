@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "wehart@sandia.gov"
+    },
+    "date": {
+        "created": "2024-01-02",
+        "metadataLastUpdated": "2024-01-02"
+    },
+    "description": "Pypm supports the analysis of time series data to identify patterns that reflect the execution of a known process. Pypm uses a process model to identify patterns, where the execution of a process is decomposed into a sequence of related activities. A process model describes the activities used in the process, dependencies between activities that constrain their execution, resources needed to execute each activity and information about the activities that are observable.\n\nPypm implements process matching algorithms that infer a schedule of the activities in a process model to maximize the alignement of the process with observational data. Pypm uses numerical optimization to search for a maximal match score. When data is labeled and associated with the resources in the process model, then integer programming methods are used to find an optimal match. For unlabeled data, tabu search methods are used to predict data labels, which can then be used by integer programming methods.\n\nPypm solvers address a variety of complicating concerns, including variable-duration process activities, gaps in activity execution, preferences for compact matches, and tailored methods that depend on data characteristics.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "pypm",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/pypm",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "2.0.0"
+}

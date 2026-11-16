@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-04-19",
+        "metadataLastUpdated": "2022-04-19"
+    },
+    "description": "This software implements a one-dimensional model of a supercapacitor and calibrates it to experimental data. A system of coupled partial differential equation models the salt concentration and the ionic and electronic potentials. The term in the equation modeling the capacitance contains a neural network, whose parameters are optimized to fit the provided experimental data. The software is written in python using the open-source library JAX to calculate the gradients needed for the optimization.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Neural Networks for Supercapacitor Modeling",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/neuralcap",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.01"
+}

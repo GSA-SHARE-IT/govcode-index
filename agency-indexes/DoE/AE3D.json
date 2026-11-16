@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "AE3D solves for the shear Alfven eigenmodes and eigenfrequencies in a torodal magnetic fusion confinement device. The configuration can be either 2D (e.g. tokamak, reversed field pinch) or 3D (e.g. stellarator, helical reversed field pinch, tokamak with ripple). The equations solved are based on a reduced MHD model and sound wave coupling effects are not currently included.",
+    "laborHours": 1428.8,
+    "name": "AE3D",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-Fusion/AE3D",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

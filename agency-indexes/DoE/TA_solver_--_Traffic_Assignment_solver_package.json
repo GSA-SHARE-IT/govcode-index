@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-10-30",
+        "metadataLastUpdated": "2019-09-23"
+    },
+    "description": "TA_solver is a modular software framework for solving user equilibrium traffic assignment problems, both static and dynamic, utilizing the OTM (Open Traffic Models) API to encode traffic scenarios. The design is based on the formulation of the problem as a variational inequality. Unlike most existing traffic assignment software which focus on specific traffic models, TA_solver accommodates various traffic models, but also enables using parallel computation in high performance computing environments to speed up large-scale equilibrium calculations.",
+    "laborHours": 39033.6,
+    "languages": [],
+    "name": "TA_solver -- Traffic Assignment solver package",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ugirumurera/TA_solver",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

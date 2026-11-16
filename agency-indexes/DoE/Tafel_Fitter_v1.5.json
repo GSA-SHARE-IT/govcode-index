@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-07-11",
+        "metadataLastUpdated": "2019-07-11"
+    },
+    "description": "This program a new physical insight regarding efforts to evaluate electrochemical catalysts being developed for electrochemical energy conversion and storage. In particular, we ask: The methodology described here offers a solution to the problem of how to conduct Tafel analysis, which is used in determining electrocatalyst performance, in a quantitative manner, rather than through the qualitative guesswork it currently requires. This enables the measurement of electrocatalyst Tafel slopes and their associated parameters in a way that avoids the introduction of researcher bias, a problem to which current methods of Tafel fitting are prone. This procedure should significantly improve the ability of researchers working in the field of electrochemical energy conversion to rate and compare the catalyst materials being developed, advancing the characterization toolkit available to experimental electrochemists. \n\nThis work is born out of our general hypothesis that it should be possible to determine the proper regions for unambiguously fitting Tafel data by applying some set of physical constraints that link aspects of a Tafel plot to its corresponding J-V polarization curve. This algorithm applies such constraints and achieves the extraction of Tafel slopes in a wholly quantifiable and reliable fashion. Verification of this approach is achieved by pairing the theory with experiment, as the algorithm was tested using experimentally acquired data of three distinct, electrochemical reactions: platinum hydrogen evolution, iridium-catalyzed oxygen evolution, and platinum-catalyzed dioxygen reduction. For each of these cases, the algorithm predicts the same Tafel slope as those reported in long-established bodies of electrochemical literature, results suggesting the general applicability of this method for determining electrocatalyst Tafel slopes.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Tafel Fitter v1.5",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/MEG-LBNL/Tafel_Fitter",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

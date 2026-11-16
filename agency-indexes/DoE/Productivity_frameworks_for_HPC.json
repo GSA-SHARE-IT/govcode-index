@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-03-27",
+        "metadataLastUpdated": "2023-03-27"
+    },
+    "description": "Productivity Frameworks for HPC will include container recipes, build recipes, continuous integration scripts, and other software aimed at testing the portability of containerized HPC software across platforms and interconnects. In particular, it tests the utility of bind-mounting at the MPI layer (rather than the underlying fabric layer) to leverage a standardized protocol and avoid various technical debt and vendor lock-in. Since MPIs are often ABI-incompatible, trampolines such as the open-source Wi4MPI will be tested when such cases arise.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Productivity frameworks for HPC",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/productivity-frameworks",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

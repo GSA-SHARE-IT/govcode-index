@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2025-01-27",
+        "metadataLastUpdated": "2025-03-11"
+    },
+    "description": "This repository features an Arduino-based GPS logger, called LLUDA, which uses the Adafruit Ultimate GPS FeatherWing with the Adafruit Feather M0 Adalogger, designed to capture and log GPS data in CSV format onto an SD card (embedded inside the Feather M0 Adalogger). The FeatherWing is powered through the vehicle's auxiliary power (from cigarette lighter) socket via a micro USB cable. The data it collects can be used to analyze vehicle operations and support vehicle modeling applications, helping to assess the potential for electrification.",
+    "laborHours": 136.8,
+    "languages": [
+        "C++"
+    ],
+    "name": "LLUDA (Low-cost Logging for Ubiquitous Decarbonization and Analysis) [SWR-24-131]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/Low-cost-Logging-for-Ubiquitous-Decarbonization-and-Analysis-LLUDA-",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

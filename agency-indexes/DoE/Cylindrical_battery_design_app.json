@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-09-22",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Software that delivers optimal design parameters and performance predictions for cylindrical cells, which can range in size from microbatteries to EV batteries, is developed. The software utilizes machine learning and includes a graphical user interface to enable rapid prototyping and to accelerate energy storage research, development, and manufacturing. The Cylindrical battery design V1.0 comprises of three types of cylindrical batteries, Microbattery (Primary), Microbattery (Secondary) and 18650/21700/xxxxx Cylindrical battery. The software was developed in MATLAB. The software has the capability to output the cell design with the capacity ranges from several mAh to several million Ah.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Cylindrical battery design app",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

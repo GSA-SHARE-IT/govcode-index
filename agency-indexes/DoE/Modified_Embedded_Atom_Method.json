@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Interatomic force and energy calculation subroutine to be used with the molecular dynamics simulation code LAMMPS (Ref a.). The code evaluated the total energy and atomic forces (energy gradient) according to a cubic spline-based variant (Ref b.) of the Modified Embedded Atom Method (MEAM) with a additional Stillinger-Weber (SW) contribution.",
+    "laborHours": 1281025.6,
+    "name": "Modified Embedded Atom Method",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lammps/lammps",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-30",
+        "metadataLastUpdated": "2024-07-23"
+    },
+    "description": "Spitfire is a Python and C++ code for solving canonical flame structure problems to build tabulated chemistry models for the simulation of large-scale fires. Spitfire is a modular software with performance critical code written in C++, abstract numerical methods provided in Python, and chemistry tabulation techniques made convenient for high-level use by non-expert users. It facilitates both high-level usage and novel research in tabulated chemistry approaches. SAND2019-11791 M\n\nSandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 60739.2,
+    "languages": [
+        "C++",
+        "Cython",
+        "Python"
+    ],
+    "name": "Spitfire",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/Spitfire",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

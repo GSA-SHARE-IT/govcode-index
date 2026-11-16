@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-01-04",
+        "metadataLastUpdated": "2023-01-04"
+    },
+    "description": "This software contains the code for a data-driven model to produce high-resolution (&lt; 1 km2) estimates of temperature, salinity, and turbidity over decadal time scales as required by next-generation Earth Systems Models. Our model fits daily MODIS Aqua reflectance data to surface observations (&lt; 1 m depth) from 2000-2021 in Chesapeake Bay, USA.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Geographically aware estimates of remotely sensed water properties for Chesapeake Bay",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/DOE-ICoM/geowq-chesapeake",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

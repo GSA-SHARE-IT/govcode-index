@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-11-30",
+        "metadataLastUpdated": "2022-02-15"
+    },
+    "description": "SLiDE (Scalable Linked Dynamic Equilibrium) replicates the blueNOTE (National Open source Tools for general Equilibrium analysis) datastream from the Wisconsin National Data Consortium. From there, it produces a recursive dynamic computable general equilibrium model of the US states and eventually the global/national economies. The datastream operations have been set up to allow for scalability of both regions and sectors represented. The model has the capability to flexibly define functional forms similar to other general equilibrium model construction software.",
+    "laborHours": 3724.0,
+    "languages": [
+        "Julia"
+    ],
+    "name": "Scalable Linked Dynamic Equilibrium (SLiDE)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/nrel/slide",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

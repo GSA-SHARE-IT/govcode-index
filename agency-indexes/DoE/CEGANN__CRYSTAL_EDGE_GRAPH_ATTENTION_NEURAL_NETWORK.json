@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2023-03-13",
+        "metadataLastUpdated": "2023-03-14"
+    },
+    "description": "SF-22-156 Machine learning (ML) models and applications in materials design and discovery typically involve the use of feature representations or descriptors followed by a learning algorithm that maps them to user desired properties of interest. Most popular mathematical formulation-based descriptors are not unique across atomic environments and suffer from transferability issues across different application domains and/or material classes. The CEGANN code provides a unified interface to facilitate material characterization across materials across multiple scales (from atomic to mesoscale) and diverse classes of materials ranging from metals oxides, non-metals, and even hierarchical materials such as zeolites and semi ordered materials such as mesophases. CEGANN implements a Graph Attention Network (GAT) type convolution architecture. The details of network architecture can be found in the paper https://doi.org/10.48550/arXiv.2207.10168. The software comes with pretrained examples and dataset for the classification of the following representative systems: (1) Structure-level representation such as space group (2) Structural dimensionality (e.g., bulk, 2D, clusters etc.) (3) Grain boundary identification (4) Nucleation and growth of a zeolite polymorph (5) Characterization of binary mesophases and their phase transitions (6) Growth of ice. The code is written in python programming language.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "CEGANN: CRYSTAL EDGE GRAPH ATTENTION NEURAL NETWORK",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sbanik2/CEGANN",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

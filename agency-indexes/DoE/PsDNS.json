@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-01-06",
+        "metadataLastUpdated": "2022-01-06"
+    },
+    "description": "PsDNS is a Python package which makes it easy to solve partial differential equation using a pseudo-spectral method. The code uses Python classes and Numpy-like arrays to provide a simple interface with which users can construct equations, integrators, and diagnostics. It also includes implementation for common problems, in particular, the incompressible Navier-Stokes equation in a periodic domain, which is commonly used as a benchmark problem for turbulence research. PsDNS uses MPI to allow massively parallel computation for large problems.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PsDNS",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/PsDNS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2021-07-15",
+        "lastModified": "2025-04-04"
+    },
+    "description": "Create an AMI with the Assessor Workbench and related tools.",
+    "downloadURL": "https://api.github.com/repos/cisagov/assessor-workbench-packer/downloads",
+    "homepageURL": "https://github.com/cisagov/assessor-workbench-packer",
+    "laborHours": 1152.1,
+    "languages": [
+        "HCL",
+        "Shell",
+        "Python"
+    ],
+    "name": "assessor-workbench-packer",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/assessor-workbench-packer.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

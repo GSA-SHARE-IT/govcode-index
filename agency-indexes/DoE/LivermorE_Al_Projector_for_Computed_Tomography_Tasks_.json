@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2023-06-22",
+        "metadataLastUpdated": "2023-06-22"
+    },
+    "description": "With recent computed tomography (CT) efforts using Artificial Intelligence (AI) and Deep Learning (DL)techniques, there is a strong need for differentiable forward projection models that can be integrated into existing DL frameworks. We developed a pytorch-based package library providing differentiable forward and back projection functions and classes to facilitate forward and back propagation of CT operations in\nthe training procedure. This forward projectors support three CT projection geometries: cone, parallel and modular beams. This package can be used with both CPU and GPU with CUDA.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LivermorE Al Projector for Computed Tomography Tasks ",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/leap",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

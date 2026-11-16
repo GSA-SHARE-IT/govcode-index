@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "velliquettet@ornl.gov"
+    },
+    "date": {
+        "created": "2019-07-31",
+        "metadataLastUpdated": "2019-09-19"
+    },
+    "description": "The Advanced Terrestrial Simulator (formerly sometimes known as the Arctic Terrestrial Simulator) is a code for solving ecosystem-based, integrated, distributed hydrology.  Capabilities are largely based on solving various forms of Richards equation coupled to a surface flow equation, along with the needed sources and sinks for ecosystem and climate models. This can (but need not) include thermal processes (especially ice for frozen soils), evapo-transpiration, albedo-driven surface energy balances, snow, biogeochemistry, plant dynamics, deformation, transport, and much more.\n\nPreferred citation (including correct author order):\nEthan Coon, Markus Berndt, Ahmad Jan, Daniil Svyatsky, Adam Atchley, Eugene Kikinzon, Dylan Harp, Gianmarco Manzini, Eitan Shelef, Konstantin Lipnikov, Rao Garimella, Chonggang Xu, David Moulton, Satish Karra, Scott Painter, Elchin Jafarov, and Sergi Molins. 2019. Advanced Terrestrial Simulator. Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA. Version [xxx]. DOI link: https://doi.org/10.11578/dc.20190911.1",
+    "laborHours": 58231.2,
+    "languages": [],
+    "name": "Advanced Terrestrial Simulator",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/amanzi/ats",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2018-12-18",
+        "metadataLastUpdated": "2019-04-17"
+    },
+    "description": "The QuarkNet Data Acquisition (DAQ) circuit board is provided in a kit that includes a power supply, GPS capability with temperature sensor and cabling, and a USB link to the user’s computer. The DAQ circuit board has 4 analog discriminator inputs and produces trigger time and pulse edge time data for 1- to 4-fold coincidence levels. The DAQ then checks for user-defined trigger multiplicity across the four inputs. If the pulses satisfy the trigger requirement, the DAQ encodes time information for each input. Timing on the DAQ is done with a local clock synchronized to GPS time (via local module) once per second. This gives local times of nearly one nanosecond precision recorded with the accuracy inherent in GPS time. The DAQ kit is equipped to measure ambient temperature and atmospheric pressure; it also can determine its latitude and longitude from the GPS unit. A laptop or desktop computer connects to the DAQ via USB for control and collection of formatted raw data. ",
+    "homepageURL": "http://quarknet.fnal.gov/toolkits/ati/fnaldet.html",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "VHDL"
+    ],
+    "name": "QuarkNet DAQ Kit",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "http://partnerships.fnal.gov/licensing",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "http://quarknet.fnal.gov/toolkits/ati/fnaldet.html",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ]
+}

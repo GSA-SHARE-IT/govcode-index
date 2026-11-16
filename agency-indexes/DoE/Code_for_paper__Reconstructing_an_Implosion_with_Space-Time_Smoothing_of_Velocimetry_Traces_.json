@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-07-29",
+        "metadataLastUpdated": "2022-07-29"
+    },
+    "description": "New diagnostics to obtain high-temporal resolution observation of surface velocity provide a rich collection of data from high-explosive (HE) experiments. Using this data to estimate the temporal evolution of an imploding, HE-driven surface is of great interest for validating simulation of the physical system and for design of future experiments. This is the code for a paper in which we propose a method for using a Gaussian process to estimate the surface position over time and provide uncertainty estimates on that reconstruction accounting for measurement error, uncertainty to sparse spatial sampling velocity data, and robustness to outlying observations. In the paper, the code is applied on data from a hemispherical HE implosion experiment. This code is for release with the paper for peer-review, replicating the results and making the figures from the paper.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Code for paper \"Reconstructing an Implosion with Space-Time Smoothing of Velocimetry Traces\"",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/PDV_Reconstruction",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2020-08-28",
+        "metadataLastUpdated": "2020-08-28"
+    },
+    "description": "The main functionality of ontology service is to allow the retrieval of ontology term distribution for a given a set of genes and additionally, identifies statistically overrepresented GO terms within given gene sets. Ontology term distribution and enrichment analysis are one of the main functions needed for the Plants Feb. Demo. Currently, this service provides GO annotation for 13 plant genomes (refer to documentation).",
+    "laborHours": 1322.4,
+    "languages": [],
+    "name": "Ontology Service",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/kbase/ontology_service",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

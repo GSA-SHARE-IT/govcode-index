@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-09-28",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "The Infrastructure Expression: Discovery Tools is a toolset that allows for the automated collection of various network, hardware, and software vulnerabilities and details to be collected from systems on a given network. These details are then converted into a STIX 2.1 format, allowing for easy viewing in existing applications as well as sharing and interfacing with tools that already use the STIX 2.1 format.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Infrastructure Expression: Discovery Tools",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/IX-DiscoveryTools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git",
+    "version": "3"
+}

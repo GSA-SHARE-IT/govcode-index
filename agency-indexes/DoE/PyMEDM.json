@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "tuccillojv@ornl.gov"
+    },
+    "date": {
+        "created": "2025-03-20",
+        "metadataLastUpdated": "2025-03-20"
+    },
+    "description": "The PyMEDM package is a Python-native port of Penalized-Maximum Entropy Dasymetric Modeling (P-MEDM) method. While the original implementation of P-MEDM consists of an R interface over a model written in C++, PyMEDM combines both capabilities in a common language that interfaces with other utilities in the Likeness stack. PyMEDM is also GPU-enabled via JAX , which supports High-Performance Computing (HPC) applications.",
+    "laborHours": 1580.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "PyMEDM",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/likeness-pop/pymedm/blob/main/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/likeness-pop/pymedm",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "2.2.3"
+}

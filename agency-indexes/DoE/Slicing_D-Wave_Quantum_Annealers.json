@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-03-11",
+        "metadataLastUpdated": "2022-03-11"
+    },
+    "description": "To solve an optimization problem using a commercial quantum annealer, one has to represent the problem of interest as an Ising or a quadratic unconstrained binary optimization (QUBO) problem and submit its coefficients to the annealer, which then returns a user-specified number of low-energy solutions. It would be useful to know what happens in the quantum processor during the anneal process so that one could design better algorithms or suggest improvements to the hardware. However, existing quantum annealers are not able to directly extract such information from the processor. Hence, in this work we develop methods to use advanced features of D-Wave 2000Q to indirectly infer information about the dynamics of the state evolution during the anneal process. Specifically, D-Wave 2000Q allows the user to customize the anneal schedule, that is, the schedule with which the anneal fraction is changed from the start to the end of the anneal. Using this feature, we design a set of modified anneal schedules whose outputs can be used to generate information about the states of the system at user-defined time points during a standard anneal. With this process, called slicing, we obtain approximate distributions of lowest-energy anneal solutions as the anneal time evolves. We use our technique to obtain a variety of insights into the annealer, such as the state evolution during annealing, when individual bits in an evolving solution flip during the anneal process and when they stabilize, and we introduce a technique to estimate the freeze-out point of both the system as well as of individual qubits. ",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Slicing D-Wave Quantum Annealers",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

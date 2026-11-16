@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "asauers@fnal.gov"
+    },
+    "date": {
+        "created": "2018-07-25",
+        "metadataLastUpdated": "2018-07-25"
+    },
+    "description": "Owsim is a tool for generating minor modifications to the reference results so some types of minor changes in strategy may be evaluated using the same tool (MAF) without the need to produce complete opsim simulations. The specific modification included in the initial version of owsim is for triggered follow-up of transient events, but the tool is general enough to support different kinds of modifications as well.",
+    "laborHours": 12479.2,
+    "languages": [
+        "Python"
+    ],
+    "name": "owsim",
+    "organization": "Fermi National Accelerator Laboratory (FNAL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LSSTDESC/ObsStrat",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Fermi National Accelerator Laboratory (FNAL)"
+    ],
+    "vcs": "git"
+}

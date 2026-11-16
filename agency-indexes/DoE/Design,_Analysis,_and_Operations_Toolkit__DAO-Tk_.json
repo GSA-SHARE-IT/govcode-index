@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-05-06",
+        "metadataLastUpdated": "2019-05-13"
+    },
+    "description": "The Design, Analysis, and Operations Toolkit (DAO-Tk) is a software package that allows users to explore design optimization, operations decision, and performance characterization of concentrating solar power tower plants. Users interface with the tool through a scripting language, and results are reported in time series tables, plots, runtime logs, and design outputs. Users choose from a list of variables such as tower height, solar multiple, design-point irradiance, thermal storage size, etc., and specify information about the system using a list of parameters. The software can then optimize the specified variables to reduce the cost of energy produced by the system while meeting certain production requirements, accounting for uncertain weather and electricity price forecasts, and correcting for equipment failures or repair time. The DAO-Tk software is the first comprehensive design tool of it's kind to incorporate all of these aspects while being deployed as open source. ",
+    "laborHours": 106536.8,
+    "languages": [],
+    "name": "Design, Analysis, and Operations Toolkit (DAO-Tk)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/dao-tk",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

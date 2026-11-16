@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-03-15",
+        "metadataLastUpdated": "2018-03-15"
+    },
+    "description": "XMOF2D is a library implementing the X-MOF (eXtended Moments of Fluid) interface reconstruction method on unstructured polygonal meshes with convex cells. Given a computational mesh with multi-material cells, for which volume fractions and centroids of contained materials are provided, piecewise linear material interfaces are constructed inside such cells using the Moment-of-Fluid (MOF) method. Additionally, a hierarchical mesh is created, where every multi-material cell of the computational mesh contains a local mesh with fully established local topology, as well as the parentage information to relate mesh entities from the local and the computational \nmeshes.",
+    "laborHours": 2082.4,
+    "name": "XMOF2D",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/laristra/XMOF2D",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

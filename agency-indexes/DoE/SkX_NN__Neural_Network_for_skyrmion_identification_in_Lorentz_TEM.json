@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-03-14",
+        "metadataLastUpdated": "2022-03-14"
+    },
+    "description": "A neural network for segmenting and processing Lorentz TEM images of skyrmion lattices. This software based on U-Net architecture is capable of identifying skyrmions in out-of-focus Lorentz TEM images based on training data. This isspecifically useful for analyzing large area data from in-situ experiments.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "SkX_NN: Neural Network for skyrmion identification in Lorentz TEM",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Art-MC/SkX_NN",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-08-19",
+        "metadataLastUpdated": "2021-08-19"
+    },
+    "description": "A deep neural network model plus automatic differentiation is developed for retrieving phase information from 3D coherent diffraction images. The model is implemented using Tensorflow and the training dataset is generated using physics-based atomistic simulations. Custom codes are written to handle the resampling of diffraction images to oversampling ratios appropriate for the neural network model.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "NEURAL NETWORK FOR COHERENT DIFFRACTION IMAGE INVERSION",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hyiprc/3D-CDI-NN",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

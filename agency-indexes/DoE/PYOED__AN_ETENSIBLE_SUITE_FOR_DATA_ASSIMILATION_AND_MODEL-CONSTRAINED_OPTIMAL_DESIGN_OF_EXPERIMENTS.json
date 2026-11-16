@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2023-03-13",
+        "metadataLastUpdated": "2023-03-13"
+    },
+    "description": "SF-23-005 PyOED is a highly extensible scientific package that enables developing and testing model-constrained optimal experimental design (OED) for inverse problems. Specifically, PyOED aims to be a comprehensive Python toolkit for model-constrained OED. The package targets scientists and researchers interested in understanding the details of OED formulations and approaches. It is also meant to enable researchers to experiment with standard and innovative OED technologies with a wide range of test problems (e.g., simulation models). OED, inverse problems (e.g., Bayesian inversion), and data assimilation (DA) are closely related research fields, and their formulations overlap significantly. Thus, PyOED is continuously being expanded with a plethora of Bayesian inversion, DA, and OED methods as well as new scientific simulation models, observation error models, and observation operators. These pieces are added such that they can be permuted to enable testing OED methods in various settings of varying complexities. The PyOED core is completely written in Python and utilizes the inherent object-oriented capabilities; however, PyOED is meant to be extensible rather than scalable. Specifically, PyOED is developed to ``enable rapid development and benchmarking of OED methods with minimal coding effort and to maximize code reutilization.'' PyOED will be continuously expanded with a plethora of Bayesian inversion, DA, and OED methods as well as new scientific simulation models, observation error models, and observation operators.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PYOED: AN ETENSIBLE SUITE FOR DATA ASSIMILATION AND MODEL-CONSTRAINED OPTIMAL DESIGN OF EXPERIMENTS",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/ahmedattia/pyoed",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

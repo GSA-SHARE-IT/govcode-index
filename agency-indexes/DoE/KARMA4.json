@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-05",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "KARMA4 is a C++ library for autoregressive moving average (ARMA) modeling and forecasting of time-series data while incorporating both process and observation error. KARMA4 is designed for fitting and forecasting of time-series data for predictive purposes.",
+    "laborHours": 471.2,
+    "languages": [
+        "C++",
+        "MATLAB",
+        "Makefile"
+    ],
+    "name": "KARMA4",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/KARMA4",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

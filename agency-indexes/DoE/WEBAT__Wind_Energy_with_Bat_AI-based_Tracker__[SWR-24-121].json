@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-11-19",
+        "metadataLastUpdated": "2024-12-12"
+    },
+    "description": "The WEBAT (Wind Energy with Bat AI-based Tracker) is a Python-based bat tracking software, integrating machine learning and computer vision with infrared thermal sensors to enhance the monitoring and protection of bats in proximity to wind turbines.",
+    "laborHours": 440.8,
+    "languages": [
+        "Python",
+        "Shell"
+    ],
+    "name": "WEBAT (Wind Energy with Bat AI-based Tracker) [SWR-24-121]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/WEBAT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

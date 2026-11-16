@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-02-24",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Software Vulnerabilities to Weakness Mapping. V2W-BERT optimizes the learnable parameters θ of Fθ in two steps. In the first step, the pre-trained BERT language model is further fine-tuned with CVE/CWE descriptions specific to cyber security. In the second step, the trained BERT model is employed in a Siamese network architecture to establish links between CVEs and CWEs. The architecture takes a specific CVE-CWE pair as input and predicts whether the CVE belongs to the CWE or not, with a confidence value. V2W-BERT includes a Mask Language Model (LM) based Reconstruction Decoder to ensure that the descriptions’ contexts are not changed too much during the training process.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Cybersecurity-Tools/V2W-BERT",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Cybersecurity-Tools/V2W-BERT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

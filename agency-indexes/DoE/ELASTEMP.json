@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2023-03-13",
+        "metadataLastUpdated": "2023-03-14"
+    },
+    "description": "SF-22-160 Elastemp is a software to obtain the quasi-harmonic temperature dependent elastic constants of material. Elastemp integrates with VASP quantum-mechanical simulation package and with Phonopy package to perform dynamic calculations. Elastemp is capable of creating symmetry dependent deformations, run static and dynamic calculations to obtain the helmholtz energies from which quasi-harmonic temperature dependent elastic constants are obtained.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ELASTEMP",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Karthik-Balas/elastemp",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-07-19",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Tools to construct a model for sources of radioactive backgrounds in a low radioactivity dertector system\nBackground explorer simplifies or automates many of the tedious and error-prone tasks involved in creating a detailed radioactivity budget for a low background detector system. The tool also provides a rich web interface allowing even nontechnical users to easily modify the model assumptions and drill-down into the model and result details.\nBackend: https://github.com/bloer/bgmodelbuilder Web application: https://github.com/bloer/bgexplorer \nDemo/user template: https://github.com/bloer/bgexplorer-demo",
+    "laborHours": 2325.6,
+    "languages": [],
+    "name": "Background Explorer",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/bloer/bgmodelbuilder",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

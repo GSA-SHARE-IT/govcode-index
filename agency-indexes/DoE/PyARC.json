@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2019-07-29",
+        "metadataLastUpdated": "2019-07-31"
+    },
+    "description": "PyARC is a wrapper script developed to integrate the Argonne Reactor Computation suite of neutronic codes into the NEAMS Workbench user interface. It contains the Workbench \"common input\" definition, handles some pre-processing, writes the native codes inputs, handles the runtime environment, and performs some post-processing. It was developed to facilitate access and utilization of the ARC codes, and facilitate transition to higher fidelity NEAMS codes.",
+    "laborHours": 21356.0,
+    "languages": [],
+    "name": "PyARC",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/neams-workbench/PyARC",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ]
+}

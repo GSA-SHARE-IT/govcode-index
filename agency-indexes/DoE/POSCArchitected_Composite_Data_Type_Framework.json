@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-09-28",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "With Exascale performance and its challenges in\nmind, one ubiquitous concern among architects is energy efficiency.\nPetascale systems projected to Exascale systems are\nunsustainable at current power consumption rates. One major\ncontributor to system-wide power consumption is the number of\nmemory operations leading to data movement and management\ntechniques applied by the runtime system. To address this\nproblem, we present the concept of the Architected Composite\nData Types (ACDT) framework. The framework is made aware of\ndata composites, assigning them a specific layout, transformations\nand operators. Data manipulation overhead is amortized over a\nlarger number of elements and program performance and power\nefficiency can be significantly improved.",
+    "homepageURL": "http://hpc.pnl.gov/projects/POCR",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "POSCArchitected Composite Data Type Framework",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://hpc.pnl.gov/projects/POCR",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

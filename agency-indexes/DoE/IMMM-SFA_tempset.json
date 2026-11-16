@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-10-22",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Generates new temperature set point schedules from base schedules. The software provides a systematic, automatic method to generate temperature setpoint schedules from a base schedule and a small set of modeling parameters. The software will be open-sourced, and can easily be accessed by energy modelers.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "IMMM-SFA/tempset",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IMMM-SFA/tempset",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

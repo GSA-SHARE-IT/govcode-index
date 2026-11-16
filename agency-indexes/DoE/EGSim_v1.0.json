@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2019-06-03",
+        "metadataLastUpdated": "2024-08-07"
+    },
+    "description": "EGSim contains tools aimed at simulating static load flow solutions for power grids. It implements models for loads, generators, and transmission lines. The static load flow solution is computed via gradient descent. \n\nSAND20019-4672 M",
+    "laborHours": 13968.8,
+    "languages": [
+        "C++",
+        "Fortran"
+    ],
+    "name": "EGSim v1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/EGSim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 1.0"
+}

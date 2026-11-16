@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-21",
+        "metadataLastUpdated": "2024-06-21"
+    },
+    "description": "SynthFirm is a large-scale agent-based freight demand model which generates a complete synthetic population of firms in the U.S. and the business-to-business commodity flows between them. Using publicly available data sources as inputs, SynthFirm simulates detailed firm and fleet characteristics, commodity production and consumption, formation of supply chains, and selection of shipping modes, all of which are essential drivers of commodity flow at a disaggregate level.",
+    "laborHours": 19456.0,
+    "languages": [],
+    "name": "Firm Synthesizer and Supply-chain Simulator (SynthFirm) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-UCB-STI/SynthFirm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

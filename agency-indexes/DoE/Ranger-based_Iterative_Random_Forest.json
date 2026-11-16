@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "Iterative Random Forest (iRF) is an improvement upon the classic Random Forest, using weighted iterations to distill the forests. Ranger is a C++ implementation of random forest or recursive partitioning, particularly suited for high dimensional data. Ranger-Based iRF uses Ranger as a base Random Forest codebase upon which iterative and scalability aspects have been added.",
+    "laborHours": 6976.8,
+    "languages": [
+        "C++/gnu-cmake"
+    ],
+    "name": "Ranger-based Iterative Random Forest",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Jromero1208/RangerBasediRF",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

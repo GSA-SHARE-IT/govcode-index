@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-09-24",
+        "metadataLastUpdated": "2021-09-24"
+    },
+    "description": "The \"Wrapper for the optimization of cross-section generation in OpenMC\" is Python-based software that runs the open-source Monte Carlo code OpenMC (https://docs.openmc.org/en/stable/ ) to generate cross-sections for any reactor geometry. The wrapper then optimizes those cross sections. The optimization aims to choose an energy group structure and a scattering representation that maximize accuracy with respect to continuous-energy results while avoiding significant computational expense. It then outputs these cross-sections in an ISOXML format readable by the Idaho National Lab code suite MOOSE (Olin William Calvin, Mark D DeHart, “Architecture for the Performance of Nuclear Fuel Depletion Calculations”, Idaho National Laboratory report, November 2019). The expected use-cases of this software include: -finding the best group structure and scattering representation for a specific reactor -testing the appropriateness of energy group structures for different reactor types -comparing energy group structures and scattering representations to each other -generating cross sections for use in deterministic codes, including ones found in the MOOSE suite The example reactor geometry included in this release is a generic reactor design, not based on any reactor in existence or in development. It was fabricated for the sole purpose of being a “testbed-geometry” upon which to develop this tool. Since the tool is designed to be generic, the nature of the test geometry is not very important, however, it is valuable to include as an example for users who are unfamiliar with developing reactor geometries for OpenMC.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Wrapper for the optimization of cross-section generation in OpenMC",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/TOGA.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-29"
+    },
+    "description": "The SERIQC1 subroutine performs quality assessment of one, two, or three-component solar radiation data (global horizontal, direct normal, and diffuse horizontal) obtained from one-minute to one-hour integrations. Included in the package is the QCFIT tool to derive expected values from historical data, and the SERIQC1 subroutine to assess the quality of measurement data.",
+    "laborHours": 319.2,
+    "languages": [],
+    "name": "Solar Radiation Empirical Quality Assessment",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/SolarResourceTools",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-07-30",
+        "metadataLastUpdated": "2018-07-30"
+    },
+    "description": "Melodee (Modular Expression Language for Ordinary Differential Equation Editing) is a new language for ODE modeling and development. It has been designed to make it easy for domain experts to write modular equation systems. Using a familiar Matlab-like syntax, modelers can describe their systems of interests and combine them in new and novel ways at run time. Existing models can easily be converted to MELODEE because of its familiar semantics and syntax.\n",
+    "laborHours": 2325.6,
+    "languages": [],
+    "name": "Melodee ",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/melodee",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

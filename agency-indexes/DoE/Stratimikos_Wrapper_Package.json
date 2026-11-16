@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Stratimikos is a small package of C++ wrappers for linear solver and preconditioning functionality exposed through Thyra interfaces. This package makes is possible to aggregate all of the general linear solver capability from the packages Amesos, AztecOO, Belos, lfpack, ML and others into a simple to use, parameter-list driven, interface to linear solvers. This initial version of Stratimikos contains just one utility class for building linear solvrs and preconditioners out of Epetra-based linear operators.",
+    "laborHours": 8344830.4,
+    "name": "Stratimikos Wrapper Package",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

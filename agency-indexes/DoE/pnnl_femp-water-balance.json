@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-12-13",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Analysis and reporting for water and irrigation usage\nPNNL developed the Water Balance Tool, which provides a method to determine potable water consumption, by end-use, of a campus. A water balance compares the total water supply to the volume of water consumed by water-using equipment and applications. The output of the tool provides the estimated potable water consumption by major end-use and compares the sum of the end-uses to the total potable water supplied to the campus.",
+    "laborHours": 6824.8,
+    "languages": [],
+    "name": "pnnl/femp-water-balance",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/femp-water-balance",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

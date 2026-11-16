@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-06-02",
+        "metadataLastUpdated": "2023-06-05"
+    },
+    "description": "The purpose of the current request is to enable LANL employees to contribute computer source code to the existing public repository of the MoDELib software package. This software implements discrete dislocation dynamics (DDD) and finite element (FEM) methods and is currently a vital component of an ongoing DR project at LANL, in collaboration with its original author and maintainer Giacomo Po. Contributions from LANL employees would aim to enhance the reliability, accuracy, and performance of MoDELib simulations using LANL's high performance computing platforms through bug fixes, algorithmic refinements, and parallelization.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Contributions to MoDELib SOFTWARE",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/nickjulian-LANL/MoDELib",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

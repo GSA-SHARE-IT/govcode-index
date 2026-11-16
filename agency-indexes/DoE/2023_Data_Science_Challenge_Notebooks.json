@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-05-25",
+        "metadataLastUpdated": "2023-05-25"
+    },
+    "description": "THE DATA SCIENCE INSTITUTE WILL BE INVITING STUDENTS FROM UC MERCED AND UC\nRIVERSIDE TO PARTICIPATE IN A DATA SCIENCE CHALLENGE AT LLNL. IN THE CHALLENGE,\nTHE STUDENTS WILL EXPLORE A DATA-DRIVEN APPROACH TO RECONSTRUCTING ELECTROANATOMICAL\nMAPS OF THE HEART AT CLINICALLY RELEVANT RESOLUTIONS, COMBINING\nINPUT FROM THE STANDARD 12-LEAD ECG WITH ADVANCED MACHINE LEARNING\nTECHNIQUES. THE DATA THE STUDENTS WILL HAVE ACCESS TO HAS BEEN IM REVIEWED FOR\nEXTERNAL RELEASE. (LLNL-MI-835833) THESE NOTEBOOKS WILL PROVIDE THE STUDENTS\nWITH INSTRUCTIONS OF HOW TO LOAD THE DATA AND WORK WITH THE DATA, ALONG WITH\nTUTORIALS TO DO BASIC MACHINE LEARNING TASKS LIKE LOGISTIC REGRESSION AND IMAGE\nCLASSIFICATION.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "2023 Data Science Challenge Notebooks",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/landajuela/cardiac_challenge",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

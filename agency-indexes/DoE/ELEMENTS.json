@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2021-06-17"
+    },
+    "description": "ELEMENTS is a C++ library of mathematical functions and computer routines to support a broad range of numerical methods on diverse element types including: a) serendipity linear, quadratic, and cubic elements; b) arbitrary order tensor-product space elements b) high-order spectral elements; and d) a linear space-time element. The ELEMENTS library can be used for research and development of both continuous and discontinuous finite element methods for solving a diverse range of partial differential equations. The library has functions for calculating quantities that are commonly used in continuous and discontinuous finite element methods such as the gradient of a basis function, the Jacobi matrix, the inverse Jacobi matrix, the determinant of the Jacobi matrix, and a physical position inside the element, to name a few examples.  The library supports both Gauss–Legendre and Gauss–Lobatto quadrature rules up to 8 quadrature points in each coordinate direction.  The library has a mesh class designed for unstructured meshes and supports sub-cell decomposition that is used with advanced discontinuous numerical methods.  Novel routines exist in the mesh class for connectivity across various mesh entities including: nodes, vertices, quadrature points, surfaces, elements, subcells, subcell-corners, and subcell-faces.  These routines have simple interfaces and are cleverly designed for computational performance.  The mesh class is designed to minimize memory usage.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ELEMENTS",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

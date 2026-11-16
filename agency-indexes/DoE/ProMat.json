@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-01-17",
+        "metadataLastUpdated": "2024-01-31"
+    },
+    "description": "ProMAT is a software tool for statistically analyzing data from enzyme-linked immunosorbent assay microarray experiments. The software estimates standard curves, sample protein concentrations and their uncertainties for multiple assays. ProMAT generates a set of comprehensive figures for assessing results and diagnosing process quality. The tool is available for Windows or Mac, and is distributed as open-source Java and R code.",
+    "homepageURL": "https://www.pnnl.gov/statistics/ProMAT",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ProMat",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/statistics/ProMAT",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/statistics/ProMAT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

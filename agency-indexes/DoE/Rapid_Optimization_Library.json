@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-09-17"
+    },
+    "description": "ROL provides interfaces to and implementations of algorithms for gradient-based unconstrained and constrained optimization. ROL can be used to optimize the response of any client simulation code that evaluates scalar-valued response functions. If the client code can provide gradient information for the response function, ROL will take advantage of it, resulting in faster runtimes. ROL's interfaces are matrix-free, in other words ROL only uses evaluations of scalar-valued and vector-valued functions. ROL can be used to solve optimal design problems and inverse problems based on a variety of simulation software.",
+    "laborHours": 8344830.4,
+    "languages": [],
+    "name": "Rapid Optimization Library",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

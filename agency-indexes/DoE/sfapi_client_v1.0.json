@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-05-17",
+        "metadataLastUpdated": "2023-05-17"
+    },
+    "description": "This software is a client designed to interact with the Superfacility API developed at NERSC. It allows users to easily access the api in python and programmatically interact with the compute resources available at NERSC. Other implementations are ad-hoc and made by our user base, the goal of the project is to encourage more users to adopt the API by making it easier to start building complex HPC workflows.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "sfapi_client v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NERSC/sfapi_client",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

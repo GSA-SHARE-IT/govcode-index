@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2025-04-14"
+    },
+    "description": "Few works exist that attempt to build predictive models for tweet deletion. Zhou et al. (2015) focus on a subset of deleted tweets – regrettable tweets. These are tweets that the authors believe to contain inappropriate content. Inappropriate can range from vulgar language to sharing private content such as a personal email address. The presence of inappropriate content doesn’t guarantee that a tweet will be deleted, however intuition dictates it can be in an important factor in the tweet being deleted. In their work, the authors create a predictive model for identifying regrettable tweets. It is important to note the authors focus on predicting regrettable tweets that are distinctly not spam and only written in English. Through manual investigation, the authors identify ten major topics including negative sentiment, cursing, and relationships that are prevalent in regrettable tweets. The authors then exploit WordNet and UrbanDictionary to create keyword lists related to the ten topics. Finally, using a combination of existing lexica and the topic keywords as features, the authors build classifiers to test the accuracy of their model. The authors complement 700 manually labeled regrettable tweets with 700 normal tweets to create their evaluation dataset. The authors’ best performance from 10-fold cross-validation was an f1 score of 0.85 using a J48 classifier on a balanced dataset of deleted and non-deleted tweets.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 684.0,
+    "languages": [
+        "Multiple possible"
+    ],
+    "name": "Methods for Determining Likelihood of Tweet Deletion",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

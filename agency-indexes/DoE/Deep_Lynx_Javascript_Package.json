@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-10-28",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "This software is a JavaScript package that interacts with the Application Programming Interface (API) suite provided by Deep Lynx. A JavaScript or TypeScript codebase may import this package in order to have access to these methods for communicating with a Deep Lynx instance.",
+    "laborHours": 0.0,
+    "languages": [
+        "JavaScript",
+        "TypeScript"
+    ],
+    "name": "Deep Lynx Javascript Package",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/Deep_Lynx_JS_SDK",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

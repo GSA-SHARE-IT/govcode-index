@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "laymancelk@ornl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "In most Home Energy Management Systems (HEMS) available in the market, different devices running different communication protocols cannot interact with each other and exchange information. As a result of this integration, the information about different devices running different communication protocol can be accessible by other agents and devices running on VOLTTRON platform. The integration process can be used by any HEMS available in the market regardless of the programming language they use. If the existing HEMS provides an Application Programming Interface (API) based on the RESTFul architecture, that API can be used for integration. Our candidate HEMS in this project is home-assistant (Hass). An agent is implemented which can communicate with the Hass API and receives information about the devices loaded on the API. The agent publishes the information it receives on the VOLTTRON message bus so other agents can have access to this information. On the other side, for each type of devices, an agent is implemented such as Climate Agent, Lock Agent, Switch Agent, Light Agent, etc. Each of these agents is subscribed to the messages published on the message bus about their associated devices. These agents can also change the status of the devices by sending appropriate service calls to the API. Other agents and services on the platform can also access this information and coordinate their decision-making process based on this information.",
+    "laborHours": 109880.8,
+    "name": "Home Energy Management System - VOLTTRON Integration",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/VOLTTRON/volttron-applications/blob/master/ornl/HomeAssistant-VOLTTRON-Integration-Agents/License",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/VOLTTRON/volttron-applications",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

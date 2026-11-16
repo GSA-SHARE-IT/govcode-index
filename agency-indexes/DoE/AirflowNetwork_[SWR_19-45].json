@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-07-10",
+        "metadataLastUpdated": "2023-05-26"
+    },
+    "description": "The AirflowNetwork software provides the ability to simulate air movement and the resulting transport of contaminants and other materials within a building. The performance of air distribution systems, including supply and return leaks, and multizone airflows driven by outdoor wind and forced air during HVAC system operation are simulated using a nodal network representation of the building. The pressure network model implemented here is based on George Walton's AIRNET and was modified for inclusion in the EnergyPlus building energy modeling software. The algorithm were then extracted from EnergyPlus into a stand-alone package to facility use without the building energy model and more extensive testing and validation of the underlying operations.",
+    "laborHours": 192158.4,
+    "languages": [
+        "C++"
+    ],
+    "name": "AirflowNetwork [SWR 19-45]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/AirflowNetwork",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

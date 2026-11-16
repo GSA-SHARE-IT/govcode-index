@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-07-05",
+        "metadataLastUpdated": "2019-07-05"
+    },
+    "description": "This repository contains reference Go implementations for gNMI. The implementations include:  client library implementation using gnmi.proto, CLI for interacting with gNMI service, and caching collector that connects to multiple gNMI targets and makes the data available over a single gNMI Subscribe RPC to clients.",
+    "laborHours": 12996.0,
+    "languages": [],
+    "name": "gNMI - gRPC Network Management Interface",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/esnet/gnmi",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

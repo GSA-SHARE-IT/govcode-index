@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-07-29",
+        "metadataLastUpdated": "2022-07-29"
+    },
+    "description": "This is a standalone Fortran code (mie_scat) that calculates the mie scattering cross sections, absorption cross sections, and efficiency coefficients of dust grains. It includes a separate file (miegrn) that functions as a wrapper function between PHOENIX (a proprietary radiative transfer code to model stellar atmospheres) and the mie scattering calculations. Miegrn works to determine the input parameters for mie_scat and then feeds the resultant data back into PHOENIX.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "mie_scat",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/mie_scat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

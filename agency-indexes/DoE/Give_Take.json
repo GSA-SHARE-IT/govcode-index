@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Give and Take are set of companion utilities that allow a secure transfer of files from one user to another without exposing the files to third parties. The named files are copied to a spool area. The reciever can retrieve the files by running the \"take\" program. Ownership of the files remains with the giver until they are taken. Certain users may be limited to take files only from specific givers. For these users, files may only be taken from givers who are members of the gt-uid-group where uid is the UNIX id of the limited user.",
+    "laborHours": 26934.4,
+    "name": "Give/Take",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/hpc/give",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

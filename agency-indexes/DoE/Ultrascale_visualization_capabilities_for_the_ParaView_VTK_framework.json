@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-25"
+    },
+    "description": "The software is a set of technologies developed by the SciDAC Institute for Ultrascale Visualization in order to address the visualization needs for petascale computing and beyond. These technologies include improved I/O performance, simulation co-processing, advanced rendering capabilities, and specialized visualization techniques developed for SciDAC applications.",
+    "laborHours": 82095.2,
+    "languages": [
+        "C++",
+        "C"
+    ],
+    "name": "Ultrascale visualization capabilities for the ParaView/VTK framework",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.kitware.com/paraview/catalyst",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

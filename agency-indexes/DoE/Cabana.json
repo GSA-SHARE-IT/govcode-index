@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "Physics simulations that use particles in their algorithms are ubiquitous on modern high performance computers. Cabana is a C++ library for developing particle-based simulations on heterogeneous high performance computing platforms. Cabana provides general data structures and algorithms for common particle operations in a way that is both performant and portable on HPC systems. This includes particle data structure allocatable and configurable on GPU and CPU architectures, and threaded and distributed algorithms for sorting particles, halo exchanges, neighbor list generation, and other basic particle operations.",
+    "laborHours": 32528.0,
+    "languages": [
+        "C++/clang,GCC,Intel,NVCC"
+    ],
+    "name": "Cabana",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ECP-copa/Cabana",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

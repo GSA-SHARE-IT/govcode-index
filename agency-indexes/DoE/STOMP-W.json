@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Fortran 90 source code, example problems, and output conversion scripts for the STOMP-W simulator. STOMP-W is a numerical simulator written in Fortran 90 for solving problems involving fluid flow and solute/species transport in variably saturated geologic media. The zipped file contains five directories: 1) src (the source code), 2) scripts (output conversion scripts written in perl, 3) prb-w-1 (example problem 1), 4) prb-w-2 (example problem 2), and 5) prb-w-3 (example problem 3). After downloading and unzipping the file, the user must create an executable from the files stored in the src directory. Generic instructions for compiling the source code is shown below as a UNIX/Linux command line, with f90 representing the user's Fortran 90 compiler.",
+    "laborHours": 73735.2,
+    "languages": [],
+    "name": "STOMP-W",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/STOMP-W",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

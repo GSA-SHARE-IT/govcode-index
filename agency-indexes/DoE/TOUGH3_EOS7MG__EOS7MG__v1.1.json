@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2024-05-09",
+        "metadataLastUpdated": "2024-05-15"
+    },
+    "description": "EOS7MG is a new TOUGH3 module for modeling water, brine, and multiple gas mixtures in the subsurface multiphase flow system. The module allows mixture of as more as three gas components selecting from a list of predefined gases (CH4, C2H6, C3H8, H2S, CO2, N2, NO2, H2, and AIR). EOS7MG was developed based on EOS7C and inherited the general modeling capabilities of the TOUGH3 platform. It uses cubic equation of states for gas density, viscosity, and enthalpy calculation. The module provides the selection options for Peng-Robinson, Redlich-Kwong, or Soave-Redlich-Kwong equations of state. The subsurface flow and transport of gas and aqueous phase mixtures over a wide range of pressures and temperatures is modeled with a multiphase Darcy's Law and an accurate chemical equilibrium approach as originally implemented in EOS7C is used for calculation of the solubilities of different mass components. EOS7MG was designed to allow flexible number of components based on the number of gases included in the model. The potential application of this module may include subsurface gas storage, energy storage, CCS, enhanced gas recovery, and more.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 36039.2,
+    "languages": [],
+    "name": "TOUGH3/EOS7MG (EOS7MG) v1.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://marketplace.lbl.gov/tough",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

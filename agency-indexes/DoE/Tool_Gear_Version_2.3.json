@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "Tool Gear Version 2 is an expanded collection of programs and software libraries that form the infrastructure on which software tools may be built. The software tools help application developers understand the performance of the programs or help them find programming errors. Tool Gear includes components for gathering data from target programs, either through direct instrumentations or by parsing the output of third-party tools, transmitting the data to a database, organizing and storing the data, presenting it through a variety of graphical interfaces. Tool Gear is designed to be an extensible system, so users can manage a variety of data and create new ways to present it. Tool Gear is designed to work with both sequential and parallel programs on multiple computer platforms",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Tool Gear Version 2.3",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.osti.gov/osti-public/tool-gear-version-2.3",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

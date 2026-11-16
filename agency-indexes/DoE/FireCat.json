@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2023-08-18",
+        "metadataLastUpdated": "2023-08-23"
+    },
+    "description": "FireCat performs multiscale simulations by coupling ab initio microkinetic simulations from CatMAP with two-dimensional continuum transport simulations from EchemFEM (Firedrake). This coupling is performed in an iterative fashion. The examples provided here are specific to electrochemical CO2 reduction to CO on Au electrodes.\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "FireCat",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/firecat",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.01"
+}

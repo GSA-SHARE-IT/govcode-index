@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-01-04",
+        "metadataLastUpdated": "2023-01-04"
+    },
+    "description": "Architector is a 3D chemical structure generation software package designed to take minimal 2D information about ligands and metal centers and generates chemically sensible 3D conformers and stereochemistry of the organometallic compounds. Architector is capable of high-throughput in-silico construction of s-, p-, d-, and f-block organometallic complexes. Architector represents a transformative step towards cross-periodic table computational design of metal complex chemistry.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Architector",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/Architector",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

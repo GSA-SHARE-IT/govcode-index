@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-05-13",
+        "metadataLastUpdated": "2020-05-13"
+    },
+    "description": "As power becomes an important resource to provision for modern HPC systems it becomes crucial to\nobtain deeper insights into application's power and thermal characteristics and to correlate application\ncontext with important system-level measurements. Existing profiling tools to monitor power and thermal\nmeasurements either operate at a granularity that is not fine enough to correlate with application-level\nevents that describe application context or are not equipped to sample application-level events\ntransparently. We introduce LibPowerMon, a lightweight, vendor-neutral user-level profiling framework to\nsimultaneously sample user-specified application events and system-level metrics at up to 1 kHz\nsampling intervals. At the application level, LibPowerMon provides a source-level phase markup interface\nto capture application context. At runtime level, LibPowerMon records MPI and OpenMP events and can\nbe extended to include other runtimes. At the system level, LibPowerMon samples power, thermal and\nrelevant metrics, and provides an extensible interface to system's control capabilities. In this release,\nLibPowerMon supports monitoring and control functionalities on the Intel, IBM Power9 and Nvidia Volta architectures.\n",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LibPowerMon: A vendor-neutral system monitoring library",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/LibPowerMon",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

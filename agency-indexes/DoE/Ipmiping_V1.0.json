@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "Ipmiping is a collection of two programs, impiping and rmcpping. Both ipmiping and rmcpping are similar to the Unix/Linux ping utility, except they use a different network protocol. Ipmiping uses Intelligent Platform Management Interface (IPMI) messages to discover if a remote destination supports IPMI. Rmcpping uses remote management control protocol (RMCP) messages to discover if a remote destination supports RMCP.",
+    "homepageURL": "https://www.gnu.org/software/freeipmi",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Ipmiping V1.0",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.gnu.org/software/freeipmi",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

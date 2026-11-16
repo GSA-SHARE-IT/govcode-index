@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "facklerpw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-11-17",
+        "metadataLastUpdated": "2020-11-17"
+    },
+    "description": "Custom spatial subdivision of N-dimensional lattice region in GPU memory. An extension of the method of a hyper-octree is used to allow for arbitrary subdivision ratios in each dimension. In addition, the decision to refine (or select) a given sub-region is based on a user-provided callback, allowing for arbitrary refinement domains to be expressed either geometrically or programmatically.",
+    "laborHours": 2432.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Parallel Lattice Subpaving Map (plsm)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-Fusion/plsm",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

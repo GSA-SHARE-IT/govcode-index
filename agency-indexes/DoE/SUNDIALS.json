@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "stooksburys@osti.gov"
+    },
+    "date": {
+        "created": "2018-07-10",
+        "metadataLastUpdated": "2020-06-01"
+    },
+    "description": "The SUite of Nonlinear and DIfferential/ALgebraic equation Solvers was implemented with the goal of providing robust time integrators and nonlinear solvers that can easily be incorporated into existing simulation codes. The primary design goals were to require minimal information from the user, allow users to easily supply their own data structures underneath the solvers, and allow for easy incorporation of user-supplied linear solvers and preconditioners. ",
+    "laborHours": 213088.8,
+    "languages": [],
+    "name": "SUNDIALS",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/LLNL/sundials/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/sundials",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ],
+    "vcs": "git"
+}

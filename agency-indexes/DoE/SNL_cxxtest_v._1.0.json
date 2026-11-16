@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "SNL cxxtest is a set of Python routines that support software testing for C++ codes. This software augments the open-source cxxtest project to provide a more comprehensive capability for software testing.",
+    "laborHours": 11552.0,
+    "languages": [
+        "Smarty",
+        "C++",
+        "Shell",
+        "C",
+        "CMake",
+        "Python"
+    ],
+    "name": "SNL cxxtest v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/cxxtest",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

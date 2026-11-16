@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Equilibrium thermodynamics underpins many of the technologies used throughout theoretical physics, yet verification of the various theoretical models in the open literature remains challenging. EOSlib provides a single, consistent, verifiable implementation of these models, in a single, easy-to-use software package. It consists of three parts: a software library implementing various published equation-of-state (EOS) models; a database of fitting parameters for various materials for these models; and a number of useful utility functions for simplifying thermodynamic calculations such as computing Hugoniot curves or Riemann problem solutions. Ready availability of this library will enable reliable code-to- code testing of equation-of-state implementations, as well as a starting point for more rigorous verification work. EOSlib also provides a single, consistent API for its analytic and tabular EOS models, which simplifies the process of comparing models for a particular application.",
+    "laborHours": 55753.6,
+    "name": "EOSlib, Version 3",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/lanl/EOSlib/blob/github/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/EOSlib",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

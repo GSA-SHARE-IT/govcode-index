@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "The function of the World Oil Market Model (WOMM) is to calculate a world oil price. SEDS will set start and end dates for the forecast period, and a time increment (assumed to be 1 year in the initial version). The WOMM will then randomly select an Annual Energy Outlook (AEO) oil price case and calibrate itself to that case. As it steps through each year, the WOMM will generate a stochastic supply shock to OPEC output and accept a new estimate of U.S. petroleum demand from SEDS. The WOMM will then calculate a new oil market equilibrium for the current year. The world oil price at the new equilibrium will be sent back to SEDS. When the end year is reached, the process will begin again with the selection of a new AEO forecast. Iterations over forecasts will continue until SEDS has completed all its simulation runs.",
+    "homepageURL": "https://www.nrel.gov/analysis/seds/oil-market-module.html",
+    "laborHours": 0.0,
+    "languages": [
+        "Lumina Decision System's Analytica version 4.3"
+    ],
+    "name": "Stochastic Energy Deployment System (SEDS) World Oil Model (WOM)",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://www.nrel.gov/analysis/seds/download-model.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.nrel.gov/analysis/seds/oil-market-module.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

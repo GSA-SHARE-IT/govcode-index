@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kbadura@lanl.gov"
+    },
+    "date": {
+        "created": "2018-03-15",
+        "metadataLastUpdated": "2018-03-15"
+    },
+    "description": "PetaVision is an open source, object oriented neural simulation toolbox optimized for high-performance multi-core, multi-node computer architectures. PetaVision is intended for computational neuroscientists who seek to apply neuromorphic models to hard signal processing problems; both to improve on the performance of existing algorithms and/or to gain insight into the computational mechanisms underlying biological neural processing. \n\nPlease note that this assertion and ESTSC deposit are only for the portions of PetaVision which have been funded and written by LANL developers.",
+    "laborHours": 69342.4,
+    "name": "PetaVision version 2.0",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/epl-1.0",
+                "name": "EPL-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PetaVision/OpenPV",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

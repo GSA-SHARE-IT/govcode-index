@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2020-06-09"
+    },
+    "description": "The DAKOTA (Design Analysis Kit for Optimization and Terascale Applications) toolkit provides a flexible and extensible interface between simulation codes (computational models) and iterative analysis methods. By employing object-oriented design to implement abstractions of the key components required for iterative systems analyses, the DAKOTA toolkit provides a flexible and extensible problem-solving environment for design and analysis of computational models on high performance computers.A user provides a set of DAKOTA commands in an input file and launches DAKOTA. DAKOTA invokes instances of the computational models, collects their results, and performs systems analyses. DAKOTA contains algorithms for optimization with gradient and nongradient-based methods; uncertainty quantification with sampling, reliability, polynomial chaos, stochastic collocation, and epistemic methods; parameter estimation with nonlinear least squares methods; and sensitivity/variance analysis with design of experiments and parameter study methods. These capabilities may be used on their own or as components within advanced strategies such as hybrid optimization, surrogate-based optimization, mixed integer nonlinear programming, or optimization under uncertainty. Services for parallel computing, simulation interfacing, approximation modeling, fault tolerance, restart, and graphics are also included.",
+    "homepageURL": "https://dakota.sandia.gov/sites/default/files/docs/6.0/html-dev/files.html",
+    "laborHours": 3812676.8,
+    "languages": [],
+    "name": "DAKOTA Design Analysis Kit for Optimization and Terascale",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://dakota.sandia.gov/sites/default/files/docs/6.0/html-dev/files.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

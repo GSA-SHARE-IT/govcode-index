@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-06-14",
+        "metadataLastUpdated": "2024-06-14"
+    },
+    "description": "These codes estimate effective diffusivity for species transport in materials and simultaneously fit multiple temperatures of measured isotherm and effective diffusivities for sorption transport of species through materials. Assumes triple-mode type sorption thermodynamics with mobile and immobile species in quasi-equilibrium.",
+    "laborHours": 349.6,
+    "languages": [],
+    "name": "FitIsoAndDeff and DeffCalculator Matlab Codes",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/foley352/polymer-diffusion",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "01"
+}

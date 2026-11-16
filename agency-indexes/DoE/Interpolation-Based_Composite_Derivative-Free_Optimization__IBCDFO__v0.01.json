@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-27",
+        "metadataLastUpdated": "2024-06-27"
+    },
+    "description": "ICDFO is python and matlab/octave code for a set of for interpolation-based optimization methods for composite derivative-free optimization. These methods are applicable when a user wishes to maximize or minimize a function that depends on some blackbox component/simulation for which derivatives with respect to the decision variables are not available. The methods include pounders and goombah.",
+    "laborHours": 3040.0,
+    "languages": [],
+    "name": "Interpolation-Based Composite Derivative-Free Optimization (IBCDFO) v0.01",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/POptUS/IBCDFO",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

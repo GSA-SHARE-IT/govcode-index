@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-03-10",
+        "metadataLastUpdated": "2021-03-10"
+    },
+    "description": "The Juqbox.jl package implements functionality for solving the quantum optimal control problem for realizing logical gates in closed quantum systems. The dynamics of the quantum system is modeled by Schroedinger's equation, which takes to form of a linear system of ordinary differential equations (ODE). Juqbox.jl solves this ODE by numerical time stepping and applies a gradient-based optimization technique to determine control pulses for driving an initial state to a final state, according to the desired logical gate transformation. To evaluate the gradient, Juqbox.jl applies the ``first discretize, then optimize'' approach based on a discrete adjoint time stepping\ntechnique. The actual optimization is performed by the open source Ipopt libaray. Juqbox.jl is written in the Julia programming language which, among many other features, provides a convenient interface to the Ipopt library.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Juqbox.jl",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/Juqbox.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

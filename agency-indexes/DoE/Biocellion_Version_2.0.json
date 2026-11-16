@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "This work extends Biocellion 1.0 to solve advection-reaction-diffusion and incompressible Navier-Stokes partial differential equations to model water/blood flow. Biocellion is a software framework to simulate a large number of cells using high-performance parallel computers. The version 1.0 allows software users to describe biological system behaviors as a set of rules describing how individual cells behave and how cells locally interact with neighboring cells or the surrounding micro-environment. However, the version 1.0 does not support users to incorporate water/blood flow into the model, which is important to properly capture long distance communications between distant cells. This extension (version 2.0) integrates two partial differential equation solvers to the Biocellion framework to solve this limitation. Navier-Stokes equation solvers (for incompressible flow) are added to compute flow rate, and advection-reaction-diffusion equation solvers are added to update molecular concentrations considering both advection (due to flow) and local diffusion.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "Biocellion Version 2.0",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

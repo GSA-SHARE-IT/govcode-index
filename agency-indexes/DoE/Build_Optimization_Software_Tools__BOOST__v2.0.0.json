@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-16",
+        "metadataLastUpdated": "2024-07-16"
+    },
+    "description": "Build Optimization Software Tools (BOOST) accelerate the design of DNA, RNA and protein sequences for their synthesis and assembly in an automated and scalable fashion.\n\nThe BOOST Juggler automates the following two design tasks:\n- Reverse-Translation of protein sequences into DNA sequences\n- Codon Juggling of DNA sequences\n\nThe BOOST Polisher provides the following design tasks:\n- The Verification of DNA sequences against DNA synthesis constraints\n- The Modification of DNA sequences in case they violate any DNA synthesis constraint\nIn addition, the BOOST Polisher can be instructed to verify and modify DNA sequences against sequence patterns, such as restriction sites.\n\nThe BOOST Partitioner supports both Gibson/chewback and Yeast assembly (also known as Transformation-Associated Recombination, or TAR) methods when performing the decomposition of large sequences that exceed the maximum length of DNA synthesis into synthesizable building blocks. The Partitioner can be instructed to find building blocks with appropriate overlap sequences, making their assembly into the complete construct more efficient.\n\nBOOST Workflows enable, in a customized fashion, the execution of the Juggler, Polisher, and Partitioner tools on a batch of sequences.",
+    "homepageURL": "https://marketplace.lbl.gov/biosciences/computational-biology/BOOST",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Build Optimization Software Tools (BOOST) v2.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/license-agreements-marketplace-licenses",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://marketplace.lbl.gov/biosciences/computational-biology/BOOST",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

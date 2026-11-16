@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-09-26",
+        "metadataLastUpdated": "2022-09-26"
+    },
+    "description": "The Assured Timing Detector software provides an implementation in C++ of an adaptable, model-based system for monitoring a timing signal for anomalies versus a reference time source ensemble",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Assured Timing Detector",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/ATD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

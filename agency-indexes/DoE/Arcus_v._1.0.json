@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "awander@sandia.gov"
+    },
+    "date": {
+        "created": "2018-09-06",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "Arcus is a library developed and used within an internally developed network configuration tool. Arcus is being open sourced not the configuration tool.",
+    "laborHours": 4301.6,
+    "languages": [
+        "C#",
+        "Powershell"
+    ],
+    "name": "Arcus v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/arcus",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "2.0"
+}

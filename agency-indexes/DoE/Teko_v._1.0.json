@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Teko is a C++ library for implementation of blocked and segregated preconditioners in the context of iterative solvers for linear systems. Capabilities for decomposing larger matrices into user defined sub blocks are also provided. Additional functionality for creating approximate inverse operators utilizing solver and preconditioning packages in the Trilinos framework has also been implemented. Teko's primary application is in multiphysics simulation environment where a decomposition of the linear system in to physically meaningful blocks can be utilized to enhance performance of an iterative solver. However, applicability may extend to other problem domains where matrices can be decomposed into meaningful blocks.",
+    "laborHours": 8344830.4,
+    "name": "Teko v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

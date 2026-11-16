@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-11-15",
+        "metadataLastUpdated": "2021-11-16"
+    },
+    "description": "Archparse is a Python package that holds the purpose and capability of converting the contents of a text file to a functioning neural network based on the Tensorflow 2.X framework. This is able to be done with minimal written Python code and next to no knowledge of how to build models with Tensorflow directly. More specifically Archparse parses a text file with extension \".arch\" which contains neural network architecture information that corresponds to either the Tensorflow 2.X API or custom code written with the Tensorflow 2.X API. Included in the initial version is the capacity to easily produce sequential autoencoders and sequential neural networks.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Archparse",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/EnderWiggin14/ARCHPARSE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

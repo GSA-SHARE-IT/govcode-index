@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2023-02-28",
+        "metadataLastUpdated": "2023-02-28"
+    },
+    "description": "Wintap is an extensible, general purpose agent framework for the Windows operating system. It provides an easy-to-use plugin architecture, an integrated streaming analytics engine, and real-time event subscriptions for host-based data. Wintap can support a wide variety of applications across production operations, cyber security operations, and cyber security research.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Wintap",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/Wintap",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "6.0"
+}

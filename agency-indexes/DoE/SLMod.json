@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "The software is a modular framework for controlling data acquisition systems (DAQs) for radiation detectors. Its capabilities include hardware configuration and control as well as data readout and storage. In addition to a generalized extensible framework for building DAQs, the package also includes specific implementations for a number of commercially available hardware devices commonly used in nuclear instrumentation (digitizers, high voltage controllers, etc.).",
+    "laborHours": 9667.2,
+    "languages": [
+        "Lua"
+    ],
+    "name": "SLMod",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/DCS-Slmod",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

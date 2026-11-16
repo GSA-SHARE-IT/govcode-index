@@ -1,0 +1,55 @@
+{
+    "id": 2157,
+    "name": "Community Care Reimbursement System",
+    "organization": "OIT DSO",
+    "version": "13.2",
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/Redacted-Public-Release-CC2-PPB-v13.1-Oct-2020",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "CCRS",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Java Enterprise Edition (Java EE)",
+        "FindBugs",
+        "AngularJS",
+        "Hibernate Object/Relational Mapping (ORM)",
+        "JDK - Oracle Java Standard Edition (SE) Development Kit",
+        "Jenkins Continuous Integration Server",
+        "Nexus",
+        "Simple Object Access Protocol (SOAP)",
+        "Spring Boot",
+        "Microsoft Structured Query Language (SQL) Server",
+        "jQuery",
+        "Red Hat Enterprise Linux",
+        "Windows Server",
+        "JavaScript"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-28",
+        "lastModified": "2021-01-26",
+        "metadataLastUpdated": "2021-01-26"
+    },
+    "description": "Repository containing the Code in Flight submission for Community Care Program 2 - Provider Payment Business v13.1 rec Oct 2020."
+}

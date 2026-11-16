@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-11-18",
+        "metadataLastUpdated": "2020-11-20"
+    },
+    "description": "SEEDling is intended to simplify the merging of multiple data sources prior to importing into the SEED platform.  Geographic information about buildings and taxlots is often obtained from various data sources, and the process of synthesizing this information for many buildings across a city can be burdensome for city data managers.  SEEDling uses GIS tools to automate and simplify this process, as well as apply criteria for SEED inclusion (ex: sqft > 50k) and assign UBIDs, to create records that can be easily imported into the SEED platform.",
+    "laborHours": 87628.0,
+    "languages": [],
+    "name": "SEEDling",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/SEED-platform/seedling",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

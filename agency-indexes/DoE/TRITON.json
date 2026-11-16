@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "TRITON is a 2D hydraulic, digital elevation model (DEM)-based model that accepts a variety of flow inputs including point-based inflow hydrographs, external boundary conditions, and runoff (i.e., excess rainfall). It provides information of flood maps and temporal evolution of water depth at each grid cell point at user-specified output time. Its unique feature is that TRITON can run on single or multiple CPUs and GPUs, proving to be very flexible in terms of system architecture.",
+    "laborHours": 5168.0,
+    "languages": [
+        "C++, CUDA"
+    ],
+    "name": "TRITON",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://code.ornl.gov/hydro/triton/-/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/hydro/triton",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

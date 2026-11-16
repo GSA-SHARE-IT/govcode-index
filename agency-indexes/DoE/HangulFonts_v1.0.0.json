@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2021-06-17"
+    },
+    "description": "The software creates the Hangul Fonts data set.The Hangul Fonts Datasets consists of all possible blocks for each font along with a set of labels and features for each block which are common across all fonts. We provide scripts to render each block and font into an image and store them together in an HDF5 file for each font and fontsize specified. Each font has 11,172 possible blocks and we have curated 35 fonts for a total of 391,020 possible images. The spoken consonants and vowel correspond to a set of \"initial\", \"medial\", and \"final\" labels for each block with 19, 21, and 28 classes respectively. In addition, each block can also be assigned a hierarchy label based on the block geometry. Finally, the individual glyphs (atoms) are composed across the initial, medial, and final locations along with potential scalings, translations, or rotations. These features of the data set make it uniquely positioned in the deep representation learning field because of its compositionally and hierarchical organization, while retaining diverse types of variation in the realizations.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "HangulFonts v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/BouchardLab/HangulFontsDatasetGenerator.git",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

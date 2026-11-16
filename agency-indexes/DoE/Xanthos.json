@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Xanthos is a Python package designed to quantify and analyze global water availability in history and in future at 0.5° × 0.5° spatial resolution and a monthly time step under a changing climate. Its performance was also tested through real applications. It is open-source, extendable and convenient to researchers who work on long-term climate data for studies of global water supply, and Global Change Assessment Model (GCAM). This package integrates inherent global gridded data maps, I/O modules, Water-Balance Model modules and diagnostics modules by user-defined configuration.",
+    "laborHours": 1656.8,
+    "name": "Xanthos",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/JGCRI/xanthos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-09-18",
+        "metadataLastUpdated": "2019-09-24"
+    },
+    "description": "iTOUGH2 (inverse TOUGH2) provides inverse modeling capabilities for TOUGH2, a simulator for multi-dimensional, multi-phase, multi-component, non-isothermal flow and transport in fractured porous media. \n\niTOUGH2 performs sensitivity analyses, data-worth analyses, parameter estimation, and uncertainty propagation analyses in geosciences and reservoir engineering and other application areas. \n\niTOUGH2 supports a number of different combinations of fluids and components (equation-of-state (EOS) modules). In addition, the optimization routines implemented in iTOUGH2 can also be used for sensitivity analysis, automatic model calibration, and uncertainty quantification of any external code that uses text-based input and output files using the PEST protocol. \n\niTOUGH2 solves the inverse problem by minimizing a non-linear objective function of the weighted differences between model output and the corresponding observations. Multiple minimization algorithms (derivative-free, gradient-based, and second-order; local and global) are available. iTOUGH2 also performs Latin Hypercube Monte Carlo simulations for uncertainty propagation analyses. A detailed residual and error analysis is provided. \n\nThis upgrade includes (a) global sensitivity analysis methods, (b) dynamic memory allocation (c) additional input features and output analyses, (d) increased forward simulation capabilities, (e) parallel execution on multicore PCs and Linux clusters, and (f) bug fixes. \n",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 74130.4,
+    "languages": [],
+    "name": "iTOUGH2 v7.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

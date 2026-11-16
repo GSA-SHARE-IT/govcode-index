@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-01-02",
+        "metadataLastUpdated": "2024-01-09"
+    },
+    "description": "This repository contains all of the methods for the NSRDB data processing pipeline. The NSRDB is a serially complete collection of hourly and half-hourly values of meteorological data and the three most common measurements of solar radiation: global horizontal, direct normal and diffuse horizontal irradiance.",
+    "laborHours": 0.0,
+    "languages": [
+        "HTML",
+        "C",
+        "Jupyter Notebook",
+        "Python"
+    ],
+    "name": "NSRDB (National Solar Radiation Database Software) [SWR-23-77]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/nsrdb",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "4.0.1"
+}

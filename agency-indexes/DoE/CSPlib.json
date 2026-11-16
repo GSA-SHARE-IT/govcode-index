@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2021-09-30",
+        "metadataLastUpdated": "2021-09-30"
+    },
+    "description": "This computational singular perturbation library (CSPlib) software is useful for analysis of chemical kinetic systems. The code is used to analyze and describe the dynamical landscape underlying the time evolution of a chemical system. Given a database of state vectors, it allows the analysis of the source term and Jacobian matrix of the chemical system, the identification and decoupling of fast and slow processes, and the analysis of cause-and-effect relationships in the coupled system dynamics. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525. SAND2021-2391 O",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "CSPlib",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/CSPlib",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

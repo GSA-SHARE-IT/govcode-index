@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "YADAS is a software system for statistical analysis using Markov chain Monte Carlo (MCMC). As such, it performs Monte Carlo integration of probability distributions and generates estimates of unknown quantities based on data and expert opinion if available. Its architecture makes it extensible enough to be helpful in the analysis of any statistical model, so it is particularly useful for statistic researchers. YADAS features a versatile scheme for defining models, and another versatile scheme for defining sampling algorithms that includes a default starting place for most analyses.",
+    "laborHours": 3222.4,
+    "name": "YADAS, Version 0",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/gertvv/yadas/blob/master/COPYING.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/gertvv/yadas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

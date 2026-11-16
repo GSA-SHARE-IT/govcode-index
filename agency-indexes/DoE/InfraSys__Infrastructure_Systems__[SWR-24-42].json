@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-04-08",
+        "metadataLastUpdated": "2024-04-25"
+    },
+    "description": "This package implements a data store for components and time series in support of Python-based modeling packages. While it is designed to support teams modeling transmission and distribution systems for electrical grids, it can be used by any package that needs to store components (e.g., generators and buses) that have quantities (e.g., power and voltage) which may vary over time.\n\nThe package was inspired by InfrastructureSystems.jl (https://github.com/NREL-Sienna/InfrastructureSystems.jl).",
+    "laborHours": 2021.6,
+    "languages": [
+        "Python"
+    ],
+    "name": "InfraSys (Infrastructure Systems) [SWR-24-42]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/infrasys",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "v0.0.3"
+}

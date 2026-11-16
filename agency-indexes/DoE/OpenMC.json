@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-09-28",
+        "metadataLastUpdated": "2021-09-28"
+    },
+    "description": "OpenMC is an open source, community-developed framework for performing Monte Carlo particle transport calculations.It is capable of simulating neutron and photon transport below ~50 MeV and also includes a model for bremsstrahlung\nproduction of photons by electrons/positrons. Fixed source, k-eigenvalue, and subcritical multiplication problems can be\nsolved. Problem geometries can be modeled either using constructive solid geometry or a CAD representation. A flexible and efficient tally system enables a wide variety of physical quantities to be tallied and analyzed. OpenMC can run in\nparallel using a hybrid MPI and OpenMP programming model and has been extensively tested on leadership class supercomputers. A built-in Bateman equation solver enables the modeling of material composition changes due to\nirradiation. One of the unique features of OpenMC is its rich, extensible Python and C/C++ programming interfaces that enable programming pre- and post-processing, multigroup cross section generation, workflow automation, multiphysics\ncoupling, and the visualization of geometry and tally results. In addition to the core Monte Carlo transport solver and associated APIs, OpenMC includes a Python-based nuclear data interface that enables power users to inspect, modify,and perform various types of nuclear data processing on ENDF, ACE, and OpenMC¿s native HDF5 files",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "OpenMC",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/openmc-dev/openmc",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2020-02-10",
+        "metadataLastUpdated": "2020-02-10"
+    },
+    "description": "This mini app is to measure performance of a kernel for computing the correlation energy of GAMESS (General Atomic and Molecular Electronic Structure System) application on multiple processor architectures.",
+    "laborHours": 760.0,
+    "languages": [],
+    "name": "GAMESS RI-MP2 MiniApp",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://opensource.org/licenses/NCSA",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jkwack/GAMESS_RI-MP2_MiniApp",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

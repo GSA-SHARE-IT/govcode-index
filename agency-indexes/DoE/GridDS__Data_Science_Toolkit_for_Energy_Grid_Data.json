@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2022-07-05",
+        "metadataLastUpdated": "2022-11-04"
+    },
+    "description": "According to the U.S. Energy Information Administration (EIA), the demand for energy is expected to increase 50% by the year 20501. While energy standards, such as the Institute of Electrical and Electronics Engineers (IEEE) Standard 1547, (Basso 2015) and monitoring with wide area management systems (WAMS) (Liu 2017, Zhou 2016) have enabled large scale data collection and storage, the application of this data in mitigating costs associated with increased consumer demand is an ongoing focus for energy research. This ubiquitous data collection presents a promising opportunity for machine learning and data science to improve efficiency of distributed energy resources (DERs). The GridDS software toolkit is designed to leverage advanced metering infrastructure (AMI), outage management systems data (OMS), Supervisory control Data Acquisition (SCADA), and geographic information systems (GIS) to forecast future energy demands and detect incipient grid failures. GridDS is a python software library designed to be modular and generalizable to data recorded by DERs. In adapting to disparate datasets recorded by various WAMS, GridDS provides a range of unique functionality not presently implemented in current WAMS which have highly specific software infrastructure by design. GridDS functionality ranges from data specification and preparation, to training and validation for state of the art machine learning, to interactive data visualization. For data intake, GridDS combines: Pandera: a library for creating data specifications. TimeScaleDB: a postgresSQL database infrastructure for efficient storage of timeseries data. Dataset class: A custom dataset class / interface that ensures modularity between a range of synthetic and live recorded datasets. Is",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GridDS: Data Science Toolkit for Energy Grid Data",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/gridds",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

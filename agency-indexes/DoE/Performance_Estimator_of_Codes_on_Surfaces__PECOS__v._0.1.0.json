@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2018-10-11",
+        "metadataLastUpdated": "2024-09-18"
+    },
+    "description": "PECOS is Python package that provides a framework for studying, developing, and evaluating quantum error-correcting codes. The primary focus is the simulation of lattice-surgery operations on topological stabilizer codes.",
+    "laborHours": 7052.8,
+    "languages": [
+        "Python",
+        "Cython",
+        "C++"
+    ],
+    "name": "Performance Estimator of Codes on Surfaces (PECOS) v. 0.1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/quantum-pecos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 0.1.0"
+}

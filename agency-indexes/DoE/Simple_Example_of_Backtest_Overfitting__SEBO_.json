@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-08"
+    },
+    "description": "In the field of mathematical finance, a \"backtest\" is the usage of historical market data to assess the performance of a proposed trading strategy. It is a relatively simple matter for a present-day computer system to explore thousands, millions or even billions of variations of a proposed strategy, and pick the best performing variant as the \"optimal\" strategy \"in sample\" (i.e., on the input dataset). Unfortunately, such an \"optimal\" strategy often performs very poorly \"out of sample\" (i.e. on another dataset), because the parameters of the invest strategy have been oversit to the in-sample data, a situation known as \"backtest overfitting\". While the mathematics of backtest overfitting has been examined in several recent theoretical studies, here we pursue a more tangible analysis of this problem, in the form of an online simulator tool. Given a input random walk time series, the tool develops an \"optimal\" variant of a simple strategy by exhaustively exploring all integer parameter values among a handful of parameters. That \"optimal\" strategy is overfit, since by definition a random walk is unpredictable. Then the tool tests the resulting \"optimal\" strategy on a second random walk time series. In most runs using our online tool, the \"optimal\" strategy derived from the first time series performs poorly on the second time series, demonstrating how hard it is not to overfit a backtest. We offer this online tool, \"Simple Example of Backtest Overfitting (SEBO)\", to facilitate further research in this area.",
+    "homepageURL": "http://datagrid.lbl.gov/backtest",
+    "laborHours": 0.0,
+    "languages": [
+        "Phython 2.7"
+    ],
+    "name": "Simple Example of Backtest Overfitting (SEBO)",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://datagrid.lbl.gov/backtest",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://datagrid.lbl.gov/backtest",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

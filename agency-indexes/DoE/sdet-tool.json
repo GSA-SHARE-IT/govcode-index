@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-08-30",
+        "metadataLastUpdated": "2018-08-30"
+    },
+    "description": "The SDET Tool is used to create open-access power\ngrid data sets and facilitate updates of these data\nsets by the community. Pacific Northwest National\nLaboratory (PNNL) and its power industry and\nsoftware vendor partners are developing an\ninnovative sustainable data evolution technology\n(SDET) to create open-access power grid datasets\nand facilitate updates to these datasets by the power\ngrid community. The objective is to make this a\nsustained effort within and beyond the ARPA-E\nGRID DATA program so that the datasets can evolve\nover time and meet the current and future needs for\npower grid optimization and potentially other\napplications in power grid operation and planning.",
+    "homepageURL": "https://egriddata.org/dataset/sdet-tool",
+    "laborHours": 152.0,
+    "languages": [],
+    "name": "sdet-tool",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://egriddata.org/dataset/sdet-tool",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

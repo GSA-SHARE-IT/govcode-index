@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-30",
+        "metadataLastUpdated": "2021-03-30"
+    },
+    "description": "Modern HPC systems are collecting large amounts of I/O performance data. The massive volume and heterogeneity of this data, however, have made timely performance of in-depth integrated analysis difficult. To overcome this difficulty and to allow users to identify the root causes of poor application I/O performance, we developed IOMiner, an I/O log analytics framework.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "IOMiner v0.3",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/iominer",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

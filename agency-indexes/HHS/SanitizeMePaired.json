@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/CDCgov",
+        "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+        "created": "2020-04-03",
+        "lastModified": "2020-05-11"
+    },
+    "description": "Remove Host Reads from Paired End Sequencing",
+    "downloadURL": "https://api.github.com/repos/CDCgov/SanitizeMePaired/downloads",
+    "homepageURL": "https://github.com/CDCgov/SanitizeMePaired",
+    "laborHours": 0,
+    "languages": [
+        "Python",
+        "Shell"
+    ],
+    "name": "SanitizeMePaired",
+    "organization": "Centers for Disease Control and Prevention",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "git://github.com/CDCgov/SanitizeMePaired.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

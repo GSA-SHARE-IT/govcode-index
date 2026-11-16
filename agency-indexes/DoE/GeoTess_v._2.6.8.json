@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-07-22"
+    },
+    "description": "GeoTess facilitates access to a multi-level triangular tessellation of a unit sphere, including find the index of the triangle in which an arbitrary position on the sphere resides and computing the interpolation coefficients that should be applied to data stored on the nodes of the tessellation that defines the triangle. It is very common for Earth scientists to store values of various Earth properties on a grid that spans the globe. For convenience, they almost always choose a grid which is evenly spaced in both latitude and longitude over the surface of the globe. While these grids are evenly spaced in latitude-longitude coordinates, they are in reality very unevenly spaced when cell size is evaluated in square km since lines of longitude converge at the poles. Tessellations consisting of a set of approximately equal area triangles that span the globe are much more efficient way to impose a grid onto the surface of a sphere. The GeoTess software facilitates interacting with a triangular tessellation of a sphere and could significantly increase the efficiency of Earth science software codes. The code can construct variable resolution triangular tessellations. It can also load a previously constructed tessellation from an input file and implements a \"walking triangle\" search algorithm to find the index of the triangle on the tessellation that contains a user specified point of interest. It also computes the interpolation coefficients that should be applied to data stored on the nodes of the containing triangle",
+    "laborHours": 135918.4,
+    "languages": [
+        "Java",
+        "HTML"
+    ],
+    "name": "GeoTess v. 2.6.8",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/GeoTessJava",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "2.6.8"
+}

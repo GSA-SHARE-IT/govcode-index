@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2022-01-12",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "There is a rising need for the measurement and understanding of hydrogen transport properties in materials for the energy and transportation industries. The Hydrogen Permeation Analysis Tool (HyPAT) provides a user friendly interface for batch analysis of dynamic hydrogen permeation data to calculate the transport properties permeability, solubility, and diffusivity. A built in literature database provides an easy comparison to known values. A common method for measuring these hydrogen transport properties is dynamic pressure rise permeation experiments, for example, those done in the Static Gas Absorption and Permeation (SGAP) experiment at INL. Most laboratories develop individual, in-house codes for data analysis. HyPAT provides a platform that can be adopted by other user groups for such experimental analysis and significantly reduce personnel time spent performing data analysis.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Hydrogen Permeation Analysis Tool",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/HyPAT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

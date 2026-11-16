@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2023-03-07"
+    },
+    "description": "PIKA is a MOOSE-based application for modeling micro-structure evolution of seasonal snow. The model will be useful for environmental, atmospheric, and climate scientists. Possible applications include application to energy balance models, ice sheet modeling, and avalanche forecasting. The model implements physics from published, peer-reviewed articles. The main purpose is to foster university and laboratory collaboration to build a larger multi-scale snow model using MOOSE. The main feature of the code is that it is implemented using the MOOSE framework, thus making features such as multiphysics coupling, adaptive mesh refinement, and parallel scalability native to the application. PIKA implements three equations: the phase-field equation for tracking the evolution of the ice-air interface within seasonal snow at the grain-scale; the heat equation for computing the temperature of both the ice and air within the snow; and the mass transport equation for monitoring the diffusion of water vapor in the pore space of the snow.",
+    "laborHours": 6840.0,
+    "languages": [],
+    "name": "Snow Micro-Structure Model",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/pika",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

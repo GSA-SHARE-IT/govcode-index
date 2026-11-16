@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-04-13",
+        "metadataLastUpdated": "2021-05-25"
+    },
+    "description": "Orchard is a collection of software that includes numerical models, enables model analysis, and seamlessly integrates numerical models machine learning tools. It is organized as a number of Julia packages. The primary packages are NonlinearEquations.jl and DPFEHM.jl. NonlinearEquations.jl enables automatic differentiation of numerical models, which is the component that enables seamless integration with machine learning tools. DPFEHM.jl is a numerical subsurface flow and transport model built using NonlinearEquations.jl. These packages integrate with other packages, including parts of Julia's open source ecosystem such as DifferentialEquations.jl, to demonstrate the value of the approach and enable modeling analysis such as inverse analysis, uncertainty quantification, and decision-support.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Orchard",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/DPFEHM.jl",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

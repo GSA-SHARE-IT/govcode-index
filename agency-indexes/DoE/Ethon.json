@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-17",
+        "metadataLastUpdated": "2021-07-02"
+    },
+    "description": "Ethon is a research code that implements well-known hydrodynamics methods (finite-volume and Discontinuous Galerkin) to solve the compressible Euler equations with a simple ideal gas equation of state and no additional physics using a block-based adaptive mesh refinement (AMR) infrastructure. Ethon uses the publicly available Kokkos library for performance portability between CPUs and GPUs. The purpose of Ethon is to evaluate the hydrodynamics methods using block-based AMR on different computing infrastructures.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Ethon",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/ethon",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

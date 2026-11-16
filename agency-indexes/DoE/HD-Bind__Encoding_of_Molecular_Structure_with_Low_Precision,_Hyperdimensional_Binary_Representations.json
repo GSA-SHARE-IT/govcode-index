@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-08-01",
+        "metadataLastUpdated": "2024-09-12"
+    },
+    "description": "Publicly available collections of drug-like molecules have grown to comprise tens of billions of compounds\ndue to advances in combinatorial chemistry. Traditional methods for identifying \"hit\" molecules from a\nlarge collection of potential drug-like candidates have relied on biophysical theory to compute\napproximations to the Gibbs free energy of the binding interaction between the drug and its protein target.\nThese approaches have the major drawback that they require exceptional computing capabilities for\neven relatively small collections of molecules.\nHyperdimensional Computing (HDC) is a recently-proposed learning paradigm that represents data with\nhigh-dimension binary vectors; this allows the use of low-precision binary vector arithmetic to create\nmodels of the data that can be learned without the need for the gradient-based optimization required in\nmany conventional machine learning and deep learning methods. This algorithmic simplicity allows for\nacceleration in hardware that has been previously demonstrated in a range of application areas. We\nconsider existing HDC approaches for molecular property classification and introduce two novel\nencodings of a commonly-used molecular representation, the extended connectivity fingerprint (ECFP).\nWe show that HDC-based inference methods are as much as 91 times more efficient than traditional\nmachine learning methods, and achieve an acceleration of nearly nine orders of magnitude compared to\nmolecular docking. Our results show that HDC accelerated methods retain competitive accuracy on a\nnumber of well-studied tasks such as molecular property predictions using the MoleculeNet dataset, and\nbind/no-bind activity classification using the DUD-E and LIT-PCBA datasets.\nOur work thus motivates further investigation into molecular representation learning to develop ultraefficient\npre-screening tools.",
+    "laborHours": 6064.8,
+    "languages": [],
+    "name": "HD-Bind: Encoding of Molecular Structure with Low Precision, Hyperdimensional Binary Representations",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/hdbind",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

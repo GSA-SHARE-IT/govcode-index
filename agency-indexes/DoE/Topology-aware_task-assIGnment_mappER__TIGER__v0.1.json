@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2019-07-03",
+        "metadataLastUpdated": "2019-07-03"
+    },
+    "description": "The general topology-aware task assignment problem is an NP-complete graph isomorphism problem. Existing task scheduling approaches are either heuristic or based on physical optimization algorithms, providing different speed and solution quality trade-offs. Physical Ising machines such as quantum and digital annealers have recently become available offering an alternative hardware solution to solve certain types of optimization problems. We propose an algorithm that allows expressing the problem in the compatible format. We present a domain specific partition strategy that enables to execute larger scale problems. TIGER - topology-aware task assignment mapper tool - implements the proposed algorithm and automatically integrates task- communication graph and an architecture graph into the quantum software environment.",
+    "laborHours": 380.0,
+    "languages": [],
+    "name": "Topology-aware task-assIGnment mappER (TIGER) v0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbnlcomputerarch/tiger",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

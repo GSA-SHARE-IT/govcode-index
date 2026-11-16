@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "Communities of uncultivated microbes are critical to ecosystem function and microorganism health, and a key objective of metagenomic studies is to analyze organism-specific metabolic pathways and reconstruct community interaction networks. This requires accurate assignment of genes to genomes, yet existing binning methods often fail to predict a reasonable number of genomes and report many bins of low quality and completeness. Furthermore, the performance of existing algorithms varies between samples and biotypes. Here, we present a dereplication, aggregation and scoring strategy, DAS Tool, that combines the strengths of a flexible set of established binning algorithms. DAS Tools applied to a constructed community generated more accurate bins than any automated method. Further, when applied to samples of different complexity, including soil, natural oil seeps, and the human gut, DAS Tool recovered substantially more near-complete genomes than any single binning method alone. Included were three genomes from a novel lineage . The ability to reconstruct many near-complete genomes from metagenomics data will greatly advance genome-centric analyses of ecosystems.",
+    "laborHours": 3344.0,
+    "languages": [
+        "NA"
+    ],
+    "name": "Dereplication, Aggregation and Scoring Tool (DAS Tool) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/cmks/DAS_Tool/blob/master/license.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cmks/DAS_Tool",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

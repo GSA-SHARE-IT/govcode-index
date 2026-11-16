@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-06-04",
+        "metadataLastUpdated": "2021-06-04"
+    },
+    "description": "Identifying nucleic acid sequences of interest in complex metagenomic samples is often likened to “finding a needle in haystack”. While the polymerase chain reaction (PCR) can provide unparalleled, selective enrichment of known sequences from complex metagenomic samples, traditional (endpoint and real-time) PCR assays only provide “yes” or “no” results and, more significantly, can be prone to database “overfitting”. Overfitting occurs during the computational PCR primer design process, which typically uses all of the available target and near-neighbor sequences to predict highly specific PCR primers. Even though the number of known sequences continues to grow exponentially, we have still only sequenced a small fraction of the sequence diversity that occurs in nature. As a result, PCR primers that appear to offer “perfect” target discrimination (i.e. no false positives or negatives) fail when experimentally tested against unsequenced targets and/or near-neighbors. These assay failures can also become apparent when PCR primers are computationally screened against sequences that were not included in the original design process. As a result, PCR assays are said to suffer from “signature erosion”. A useful strategy to overcome signature erosion is to not rely on single, or even a handful, of target-specific PCR primers, but instead use hundreds or thousands of different primer pairs in a single “multiplexed” (or even megaplex) PCR. In much the same way that financial index funds can outperform hand-picked individual stocks, an ensemble of primer pairs can tolerate the failure of many individual pairs and still provide robust target enrichment. Next generation sequencing enables a digital readout of all of the sequences (or “amplicons”) that are amplified during a successful PCR. This amplicon sequence information can be used by bioinformatics analysis programs to identify the most likely organisms, reject closely-related near-neighbors and uncover phenotypic (e.g. antibiotic resistance) and forensic (e.g. informative SNP) markers.\n\nHowever, it is still challenging to design a large set of primer pairs for multiplex PCR. These challenges include selecting individual primers that do not form hairpins, homo-dimers or hetero-dimers, as these unwanted reactions reduce the assay sensitivity by reducing the effective concentration of the effected primers. Primers must bind to their intended target sequences with similar affinities and produce similar length amplicons to ensure uniform amplicon enrichment. Amplicons that form stable secondary structures should be avoided to prevent any “stalling” of the DNA polymerase that could reduce the enrichment level. In addition, unintended PCR amplification, caused by primers that happen to bind in close proximity and in the correct orientation to non-target sequences, must be avoided to maintain a sufficient signal to noise level for target enrichment and detection. Finally, it is essential to experimentally test a multiplex PCR design strategy. Experiments can uncover software bugs and design flaws that would otherwise reduce the level of target enrichment. In particular, experimentally measuring assay performance on both known (sequenced) and unknown (unsequenced) targets and backgrounds will help bound the expected target enrichment levels for deployed assays.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PCRamp",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LANL-Bioinformatics/PCRamp",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

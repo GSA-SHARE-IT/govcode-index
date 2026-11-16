@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-04-01",
+        "metadataLastUpdated": "2024-04-01"
+    },
+    "description": "This code performs estimation of a mixture model involving heterogeneous data types. The resulting\nmodel can be used to calculate likelihoods of underlying model components.",
+    "laborHours": 273.6,
+    "languages": [],
+    "name": "Heterogeneous Data Type Mixture Model",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/alankaplan/HDTMM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

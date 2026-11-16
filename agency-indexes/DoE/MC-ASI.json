@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2021-09-28",
+        "metadataLastUpdated": "2021-09-30"
+    },
+    "description": "The software performs Monte Carlo simulations for artificial spin ice (ASI) structures. ASIs are composed of magnetic nano islands on varying lattice geometries. The software computes the dipolar energy of the neighboring islands and determines their ground state configuration. Various thermodynamic parameters are also calculated during the simulations. Flexibility is provided in terms of input of various types of lattice geometries.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "MC-ASI",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cphatak/mc_asi",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-19"
+    },
+    "description": "BMA-NIS is a package/library designed to be called by a script (e.g. Perl or Python). The software itself is written in the language of R. The software assists electric power delivery systems in planning resource availability and demand, based on historical data and current data variables. Net Interchange Schedule (NIS) is the algebraic sum of all energy scheduled to flow into or out of a balancing area during any interval. Accurate forecasts for NIS are important so that the Area Control Error (ACE) stays within an acceptable limit. To date, there are many approaches for forecasting NIS but all none of these are based on single models that can be sensitive to time of day and day of week effects.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [
+        "R"
+    ],
+    "name": "System for NIS Forecasting Based on Ensembles Analysis",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

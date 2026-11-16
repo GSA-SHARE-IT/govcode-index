@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-08-02",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Sub-Regional Nexus Modeling\nMetis provides a framework allowing analysis of dynamics across multiple sectors including energy, water, land and socioeconomics at variable spatial and temporal scales. It is designed to be a flexible tool which can take inputs from both global integrated assessment models (IAMs) which capture global dynamics as well as more detailed models which capture specific sub-regional and sectoral details at finer resolutions. Metis integrates across tools by sharing data in standardized formats.",
+    "laborHours": 14348.8,
+    "languages": [],
+    "name": "JGCRI/metis",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/JGCRI/metis",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

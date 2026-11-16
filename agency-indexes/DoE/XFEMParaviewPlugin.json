@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2018-09-05",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "The XFEMClipPartialElements tool is a plugin for the open-source Paraview visualization software to correctly visualize results with discontinuities represented using the extended finite element method (XFEM) in MOOSE-based codes.",
+    "laborHours": 182.4,
+    "languages": [],
+    "name": "XFEMParaviewPlugin",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/XFEMParaviewPlugin",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

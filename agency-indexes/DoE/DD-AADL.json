@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "lupopasinim@ornl.gov"
+    },
+    "date": {
+        "created": "2022-03-03",
+        "metadataLastUpdated": "2022-03-03"
+    },
+    "description": "Data Driven Anderson Acceleration for Physics Informed Neural Networks to solve high dimensional partial differential equations",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "Python"
+    ],
+    "name": "DD-AADL",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/DD-AADL",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

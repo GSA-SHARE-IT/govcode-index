@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "allenmr@ornl.gov"
+    },
+    "date": {
+        "created": "2022-08-03",
+        "metadataLastUpdated": "2022-08-04"
+    },
+    "description": "The Neighborhood Adaptive Tissues for Urban Resilience Futures tool (NATURF) is a Python workflow that generates les readable by the Weather Research and Forecasting (WRF) model. The NATURF Python modules use shapefiles containing building footprint and height data as input to calculate 132 building parameters at any resolution and converts the parameters into a binary file format.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "NATURF",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IMMM-SFA/naturf",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0"
+}

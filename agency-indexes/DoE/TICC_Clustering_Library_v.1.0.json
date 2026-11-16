@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2024-03-20",
+        "metadataLastUpdated": "2024-03-20"
+    },
+    "description": "SAND2024-01234O\nTICC is a clustering algorithm that labels a sequence of data points according to numerical properties. This library is a Python implementation of the algorithm described in \"Toeplitz Inverse Covariance-Based Clustering of Multivariate Time Series Data\" (Hallac et al. 2017). It includes documentation, performance improvements, examples, and test coverage. \n\nThis library allows users to automatically segment a series of multivariate data points according to their covariance—that is, the way the values at each data point are changing in relation to one another. This is useful for identifying periods in which a system is behaving. For example, if a sensor is measuring a car's velocity, steering wheel angle, braking and acceleration, TICC can determine when the car was stopped, beginning/exiting a turn, slowing or accelerating at an intersection, or driving on straight or curved roads. TICC can be applied to measure multiple quantities at known times.\nSandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "TICC Clustering Library v.1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/fast_ticc",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

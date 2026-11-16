@@ -1,0 +1,41 @@
+{
+    "name": "system-advisory-service",
+    "description": "The System Advisory Service is used to display System Advisories on the MyNSF system. This does not limit it to MyNSF. The Service itself is generic and allows for namespacing if other teams wish to use the service.",
+    "tags": [
+        "java",
+        "government",
+        "microservice",
+        "nsf",
+        "mynsf",
+        "features",
+        "shared"
+    ],
+    "contact": {
+        "email": "esivagna@nsf.gov",
+        "name": "Elanchezhian Sivagnanam",
+        "phone": "7032928088"
+    },
+    "status": "Beta",
+    "vcs": "git",
+    "languages": [
+        "Java"
+    ],
+    "repositoryURL": "https://github.com/nsf-open/rest-service-system-advisory",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://github.com/nsf-open/rest-service-system-advisory/blob/master/LICENSE",
+                "name": "GPL.v3"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "laborHours": 744,
+    "date": {
+        "created": "2015-08-10",
+        "lastModified": "2018-07-24",
+        "metadataLastUpdated": "2019-03-14"
+    },
+    "disclaimerText": "",
+    "disclaimerURL": "https://www.nsf.gov/digitalstrategy/Alternative_Analysis_Report_Template_Process.pdf"
+}

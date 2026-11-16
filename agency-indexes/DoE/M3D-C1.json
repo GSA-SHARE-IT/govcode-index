@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "nferraro@pppl.gov"
+    },
+    "date": {
+        "created": "2018-06-27",
+        "metadataLastUpdated": "2018-07-02"
+    },
+    "description": "M3D-C1 is a code for simulating magnetized plasmas using an extended-MHD model",
+    "homepageURL": "https://w3.pppl.gov/~nferraro/m3dc1.html",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "Fortran",
+        "IDL"
+    ],
+    "name": "M3D-C1",
+    "organization": "Princeton Plasma Physics Laboratory (PPPL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://w3.pppl.gov/~nferraro/m3dc1.html",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Princeton Plasma Physics Laboratory (PPPL)"
+    ]
+}

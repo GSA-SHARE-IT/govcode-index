@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-10-31",
+        "metadataLastUpdated": "2018-11-01"
+    },
+    "description": "Velo is the domain independent collaboration environment originally created as the basis of the Geological Sequestration Software Suite (GS3) under the Carbon Sequestration Initiative (CSI) LDRD program at PNNL. The enviroment supports teams in performing scientific research including setting up computational models, running simulations, and\nanalyzing/visualizing simulation output.",
+    "laborHours": 461517.6,
+    "languages": [],
+    "name": "pnnl/velo",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/velo",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

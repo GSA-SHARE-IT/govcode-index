@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-16",
+        "metadataLastUpdated": "2024-07-16"
+    },
+    "description": "We created a cloud-based application for running AlphaFold2 and related structural programs called Foldy. Foldy is built on Helm / Kubernetes, which enables a facile production deployment and a scalable backend. Once set up by an institution, Foldy requires no software expertise from its users. It can be used to predict the structure of large proteins (up to 3000 amino acids), to visualize Pfam and antiSMASH annotations, and to perform ligand docking with Autodock Vina.",
+    "laborHours": 32224.0,
+    "languages": [],
+    "name": "Foldy v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/JBEI/foldy",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

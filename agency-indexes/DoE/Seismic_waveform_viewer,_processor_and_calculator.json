@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-07-18",
+        "metadataLastUpdated": "2022-07-20"
+    },
+    "description": "SWIFT is a computer code that is designed to do research level signal analysis on seismic waveforms, including visualization, filtering and measurement. LLNL is using this code, amplitude and global tomography efforts.",
+    "laborHours": 0.0,
+    "languages": [
+        "JAVA 100%"
+    ],
+    "name": "Seismic waveform viewer, processor and calculator",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.osti.gov/osti-public/seismic-waveform-viewer-processor-and-calculator",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

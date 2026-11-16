@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "czhu@pppl.gov"
+    },
+    "date": {
+        "created": "2018-06-27",
+        "metadataLastUpdated": "2020-05-07"
+    },
+    "description": "The STELLOPT code is designed to optimize 3D MHD equilibria to a set of target physics parameters encompassing stellarator design and 3D equilibrium reconstructions.",
+    "laborHours": 173812.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "STELLOPT",
+    "organization": "Princeton Plasma Physics Laboratory (PPPL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PrincetonUniversity/STELLOPT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Princeton Plasma Physics Laboratory (PPPL)"
+    ],
+    "vcs": "git",
+    "version": "2.7.5"
+}

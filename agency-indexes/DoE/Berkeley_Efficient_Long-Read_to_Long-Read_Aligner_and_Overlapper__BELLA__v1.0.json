@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-08-30",
+        "metadataLastUpdated": "2018-08-31"
+    },
+    "description": "BELLA is a long-read overlapper and read-to-read aligner that exploits novel approaches for selecting reliable k-mer seeds for filtering and for detecting overlapping read pairs to reconstruct the whole genome. BELLA uses a sparse matrix-matrix multiplication for high-performance overlap detection and then performs pairwise alignment on the overlapping read pairs. BELLA can be built with different pre-existing aligners to use on each read pair, so precision rates are determined by those aligners. Our evaluations include real and synthetic datasets with varying size and complexity and include recall, precision, and running time. BELLA's overlap detection retains nearly all true alignments, with recall rates that exceed other aligners, yet it filters enough read pairs that the running time, including pairwise alignments, is closer to tools that only perform overlapping and is significantly faster than tools that also perform alignment",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Berkeley Efficient Long-Read to Long-Read Aligner and Overlapper (BELLA) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/aydozz/longreads",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

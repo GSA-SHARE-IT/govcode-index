@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "pearce8@llnl.gov"
+    },
+    "date": {
+        "created": "2024-09-25",
+        "metadataLastUpdated": "2024-09-25"
+    },
+    "description": "An open collaborative repository for reproducible specifications of HPC benchmarks and cross site benchmarking environments",
+    "laborHours": 7280.8,
+    "languages": [
+        "Python"
+    ],
+    "name": "LLNL/benchpark",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/benchpark",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "HPSim is a GPU-accelerated online multi-particle beam dynamics simulation tool for ion linacs. It was originally developed for use on the Los Alamos 800-MeV proton linac. It is a “z-code” that contains typical linac beam transport elements. The linac RF-gap transformation utilizes transit-time-factors to calculate the beam acceleration therein. The space-charge effects are computed using the 2D SCHEFF (Space CHarge EFFect) algorithm, which calculates the radial and longitudinal space charge forces for cylindrically symmetric beam distributions. Other space- charge routines to be incorporated include the 3D PICNIC and a 3D Poisson solver. HPSim can simulate beam dynamics in drift tube linacs (DTLs) and coupled cavity linacs (CCLs). Elliptical superconducting cavity (SC) structures will also be incorporated into the code. The computational core of the code is written in C++ and accelerated using the NVIDIA CUDA technology. Users access the core code, which is wrapped in Python/C APIs, via Pythons scripts that enable ease-of-use and automation of the simulations. The overall linac description including the EPICS PV machine control parameters is kept in an SQLite database that also contains calibration and conversion factors required to transform the machine set points into model values used in the simulation.",
+    "laborHours": 31661.6,
+    "name": "HPSim, Version 1.0",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/apphys/hpsim/blob/master/README.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/apphys/hpsim",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

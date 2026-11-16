@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-08-19",
+        "metadataLastUpdated": "2021-08-19"
+    },
+    "description": "This code is designed to reconstruct magnetic field deflections, and thus the path-integrated magnetic field, from sets of proton images at two distinct proton probe energies. A differential evolution (DE) algorithm is used to iteratively update a population of solution candidates of the magnetic deflections of the protons for reconstructing the input images, selecting improved candidates as they are discovered. This algorithm was written using MATLAB (R2019a) and makes use of the Image Processing and Parallel Processing Toolboxes.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Multi-Energy Differential Evolution Reconstruction (MEnDER 1D) for Proton Deflectometry",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/MEnDER-1D",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

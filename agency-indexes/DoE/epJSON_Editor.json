@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "degrawjw@ornl.gov"
+    },
+    "date": {
+        "created": "2022-10-10",
+        "metadataLastUpdated": "2022-10-20"
+    },
+    "description": "The software provides an interface to the EnergyPlus input file, providing similar functionality to the IdfEditor tool but written in Python and specifically targeting the JSON-formatted input file. This interface occupies (as IdfEditor did previously) the niche between directly editing the input file and use of a more full-featured graphical user interface, providing both advanced and novice users with a simple interface. An extensive effort was made to gather stakeholder feedback in order to avoid merely duplicating the features of IdfEditor and to build an interface that met the needs of users both now and into the future.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "epJSON Editor",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL-BTRIC/epJSON-Editor",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

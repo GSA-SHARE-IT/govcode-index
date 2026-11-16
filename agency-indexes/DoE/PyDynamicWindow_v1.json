@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-09",
+        "metadataLastUpdated": "2024-08-09"
+    },
+    "description": "This software is developed for researchers to evaluate the energy performance of of dynamic windows in the world-wide climate, and this first version focuses on thermochromic windows. We bring new indicators (necessity level and recommendation index) to the evaluation system for thermochromic windows. We estimate the majority users of this software tool will be non-commercial academic researchers. But commercial companies can also use it to optimize their products and estimate where their product has the most promising market.",
+    "laborHours": 258.4,
+    "languages": [],
+    "name": "PyDynamicWindow v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LBNL-ETA/PyDynamicWindow",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

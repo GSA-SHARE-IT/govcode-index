@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-06-18",
+        "lastModified": "2026-06-02"
+    },
+    "description": "An Ansible role for creating the joiner user, whose sole reason for existence is to join the FreeIPA domain.",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-joiner-user/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-joiner-user",
+    "laborHours": 741.1,
+    "languages": [
+        "Shell",
+        "Python",
+        "Jinja"
+    ],
+    "name": "ansible-role-joiner-user",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-joiner-user.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

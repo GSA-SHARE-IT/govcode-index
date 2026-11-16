@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "krhodges@illinois.edu"
+    },
+    "date": {
+        "created": "2024-10-31",
+        "metadataLastUpdated": "2024-10-31"
+    },
+    "description": "Untargeted metabolomics can detect more than 10 000 peaks in a single LC–MS run. The correspondence between these peaks and metabolites, however, remains unclear. Here, we introduce a Peak Annotation and Verification Engine (PAVE) for annotating untargeted microbial metabolomics data. The workflow involves growing cells in 13C and 15N isotope-labeled media to identify peaks from biological compounds and their carbon and nitrogen atom counts. Improved deisotoping and deadducting are enabled by algorithms that integrate positive mode, negative mode, and labeling data. To distinguish metabolites and their fragments, PAVE experimentally measures the response of each peak to weak in-source collision induced dissociation, which increases the peak intensity for fragments while decreasing it for their parent ions. The molecular formulas of the putative metabolites are then assigned based on database searching using both m/z and C/N atom counts. Application of this procedure to Saccharomyces cerevisiae and Escherichia coli revealed that more than 80% of peaks do not label, i.e., are environmental contaminants. More than 70% of the biological peaks are isotopic variants, adducts, fragments, or mass spectrometry artifacts yielding ∼2000 apparent metabolites across the two organisms. About 650 match to a known metabolite formula based on m/z and C/N atom counts, with 220 assigned structures based on MS/MS and/or retention time to match to authenticated standards. Thus, PAVE enables systematic annotation of LC–MS metabolomics data with only ∼4% of peaks annotated as apparent metabolites.",
+    "laborHours": 562.4,
+    "languages": [],
+    "name": "xxing9703/PAVE",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/xxing9703/PAVE",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

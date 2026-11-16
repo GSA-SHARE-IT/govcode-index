@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2018-11-07",
+        "metadataLastUpdated": "2018-11-07"
+    },
+    "description": "The miniGraphics package provides a collection of reference implementations for parallel rendering. In particular, miniGraphics is focused on sort-last parallel rendering, which is the rendering algorithm of choice for HPC rendering. The miniGraphics package provides a collection of simple serial rendering systems and a collection of parallel image compositing methods, which can be combined to test the behavior of parallel rendering under different conditions.",
+    "laborHours": 42423.2,
+    "languages": [
+        "C++"
+    ],
+    "name": "miniGraphics v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/miniGraphics",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 1.0"
+}

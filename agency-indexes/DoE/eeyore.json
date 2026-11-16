@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "garrettmw@ornl.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2020-10-01"
+    },
+    "description": "The software \"eeyore\" solves the problem of running Markov chain Monte Carlo (MCMC) algorithms on Bayesian neural networks. There is software for MCMC algorithms and software for neural network (such as PyTorch and TensorFlow), but there are limited solutions for combining the two. The main idea is to create a subclass of the 'torch.nn.Module' for defining Bayesian neural networks with the desired functionality required by MCMC taking the form of additional methods in that sub-class. This way, neural network functionality of PyTorch is exposed to the developer and user, allowing to develop MCMC methods on top of it through a simple API. The code implements Langevin Monte Carlo algorithms and population MCMC algorithms, as well as combinations of these, for Bayesian neural networks. This kind of functionality is not available elsewhere, to the best of the authors' knowledge. Moreover, a simple API is available that allows to implement new MCMC algorithms in the future.",
+    "laborHours": 2614.4,
+    "languages": [
+        "Python (v3.6 onwards)"
+    ],
+    "name": "eeyore",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/papamarkou/eeyore",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

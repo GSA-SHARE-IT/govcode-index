@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "The PeptideListToXML application reads a tab-delimited text file created by the Peptide Hit Results Processor (PHRP) and creates a PepXML with the appropriate information. The various _SeqInfo files created by PHRP must be present in the same folder as the text file. If the MASIC Scan Stats file is also present, then elution time information will be extracted and included in the PepXML file.  You should ideally also include the name of the parameter file used for the MS/MS search engine.",
+    "laborHours": 4104.0,
+    "languages": [],
+    "name": "PeptideListToXML",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/PeptideListToXML",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

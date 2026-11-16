@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-15",
+        "metadataLastUpdated": "2024-08-15"
+    },
+    "description": "We introduce a new encoder-decoder system that overcomes adaptability and scalability issues. We adapt multiple CNNs as encoders, allowing for the definition of multiple function parameter arguments to structure the models according to the targeted datasets and scientific problem.\n\nWe leverage the flexibility of the U-Net architecture to act as a scalable decoder. The CRF-RNN layer is integrated into the decoder as an optional final layer, keeping the entire system fully compatible with back-propagation.",
+    "laborHours": 1474.4,
+    "languages": [],
+    "name": "U-Net Decoder CRF v0.1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/mavaylon1/UNet_Decoder_CRF",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

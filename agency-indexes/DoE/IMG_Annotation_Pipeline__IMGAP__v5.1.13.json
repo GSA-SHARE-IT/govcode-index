@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-07-16",
+        "metadataLastUpdated": "2024-07-16"
+    },
+    "description": "The IMG Annotation Pipeline is a collection of Bash and Python scripts to control a workflow for structural and functional annotation of prokaryotic genomes, metagenomes, and metatranscriptomes. The bash scripts in general control the overall workflow and are wrappers around 3rd party executables (not included in repo) that predict features or functions. Whereas the Python scripts do post-processing of raw output in terms of filtering or format transformation and in some cases contain some logic for picking the correct predictions or resolving overlaps. The pipeline is tailored to produce results required by IMG (https://img.jgi.doe.gov/) and is executed on every dataset submitted to IMG via https://img.jgi.doe.gov/submit. These consist of internal genomes, metagenomes and metatranscriptomes sequenced and assembled at the JGI, as well as datasets submitted by external users (non-lab/JGI affiliates).",
+    "laborHours": 3556.8,
+    "languages": [],
+    "name": "IMG Annotation Pipeline (IMGAP) v5.1.13",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.jgi.doe.gov/img/img-pipelines/img-annotation-pipeline",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

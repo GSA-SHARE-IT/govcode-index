@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-12-13",
+        "metadataLastUpdated": "2024-12-13"
+    },
+    "description": "We develop a software called Physics-Preserved Graph Network (PPGN) to accurately locate faults at the node level with limited observability and labeled training data. PPGN has a unique two-stage graph neural network architecture. The first stage learns the graph embedding to represent the entire network using a few measured nodes. The second stage finds relations between the labeled and unlabeled data samples to further improve the location accuracy.",
+    "laborHours": 471.2,
+    "languages": [],
+    "name": "Physics-Preserved Graph Networks for Real-Time Fault Location",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/PPGN.git",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

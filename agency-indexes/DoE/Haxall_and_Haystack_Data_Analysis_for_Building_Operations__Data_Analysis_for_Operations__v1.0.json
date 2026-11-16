@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-08-14",
+        "metadataLastUpdated": "2024-08-14"
+    },
+    "description": "A library of Axon code and Trio files in active use at LBNL to analyze and display data related to the operation of buildings in the Haxall or SkySpark environment.",
+    "laborHours": 15.2,
+    "languages": [],
+    "name": "Haxall and Haystack Data Analysis for Building Operations (Data Analysis for Operations) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ralphou/data-analysis-operations",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

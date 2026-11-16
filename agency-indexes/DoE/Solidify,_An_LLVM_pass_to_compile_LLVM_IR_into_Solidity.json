@@ -1,0 +1,40 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "The software currently compiles LLVM IR into Solidity (Ethereum’s dominant programming language) using LLVM’s pass library. Specifically, his compiler allows us to convert an arbitrary DSL into Solidity. We focus specifically on converting Domain Specific Languages into Solidity due to their ease of use, and provable properties. By creating a toolchain to compile lightweight domain-specific languages into Ethereum's dominant language, Solidity, we allow non-specialists to effectively develop safe and useful smart contracts. For example lawyers from a certain firm can have a proprietary DSL that codifies basic laws safely converted to Solidity to be securely executed on the blockchain. In another example, a simple provenance tracking language can be compiled and securely executed on the blockchain.",
+    "laborHours": 4377.6,
+    "languages": [
+        "C++, build and test scripts written in bash",
+        "C++",
+        "C",
+        "ANTLR",
+        "CMake",
+        "Makefile",
+        "Python"
+    ],
+    "name": "Solidify, An LLVM pass to compile LLVM IR into Solidity",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/abhiramkothapalli/EthereumCompiler/blob/master/solidify/LICENSE.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/EthereumCompiler",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

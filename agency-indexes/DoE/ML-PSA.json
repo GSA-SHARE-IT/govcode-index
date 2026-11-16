@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "gureckywl@ornl.gov"
+    },
+    "date": {
+        "created": "2022-01-10",
+        "metadataLastUpdated": "2024-01-24"
+    },
+    "description": "The computer code uses a parallel simulated annealing framework with embedded machine learning components to solve multi-constrained optimization problems. The software automatically balances the execution of low and high fidelity physics models within the optimization procedure. The low fidelity model is used to rapidly explore the design space while the high fidelity physics model is executed sparingly to account for complex design constraints that are not resolved by the quickly executing low fidelity model.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "ML-PSA",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/ml-psa/ml-psa",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

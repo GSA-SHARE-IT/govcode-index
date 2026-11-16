@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2023-03-14",
+        "metadataLastUpdated": "2023-03-14"
+    },
+    "description": "SF-22-157 NEML2 is an extension of an earlier open source code developed at ANL (SF-xxxx) called NEML. These libraries provide tools for constructing and using models of engineering materials, with a focus on high temperature materials for nuclear reactor applications. The software include tools for setting up material models, calibrating models, storing models for later use in other simulations, and running simple \"material point\" simulations of the material behavior. The main difference between NEML and NEML2 is the new software has been complete restructured to run on GPUs and other accelerators in order to improve the performance of methods used to train constitutive models against data and to improve the performance of the final models in production environments, like finite element software. While over time we expect NEML2 to become more-or-less feature complete with NEML we are filing a new software disclosure because (1) the library has been complete restructured and (2) we want to host NEML2 in a separate repository.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "NEML2 - THE NEW ENGINEERING MATERIAL MODEL LIBRARY, VERSION 2",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/reverendbedford/neml2",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

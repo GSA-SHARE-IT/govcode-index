@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "parishcm@ornl.gov"
+    },
+    "date": {
+        "created": "2021-08-17",
+        "metadataLastUpdated": "2021-08-17"
+    },
+    "description": "Applies machine learning to analyze individual or sets of X-ray energy dispersive spectroscopy spectrum images acquired in the electron microscope.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "EDS Montage",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/nmp/eds_montage",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

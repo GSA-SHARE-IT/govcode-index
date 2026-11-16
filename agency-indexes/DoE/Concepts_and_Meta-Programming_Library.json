@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2018-09-19",
+        "metadataLastUpdated": "2018-09-19"
+    },
+    "description": "CAMP provides a portable optimized implementation of template meta-programming primitives. All capabilities found within are available in other open source \nprojects, including metal and mpl among others, but no other library we know of supports all compilers required by LLNL codes. CAMP serves as an efficient facility for writing portable compile-time operations in C++ codes. It was \ndeveloped as part of the RAJA project to facilitate more complex compile-time introspection and better error message delivery to users, but has since proven useful in Umpire, CHAI and other pre-release LLNL software projects and is thus being re-factored to stand alone. \n\nThe CAMP library uses portable C++ template mechanisms almost exclusively, with the exception of intrinsics provided for performance by some compilers such as clang and gee. There are no private or protected interfaces and no proprietary information included in the source.\n\nAny and all future versions will limit themselves to implementing commonly available and well known primitives for compile-time manipulation of types.\n \nA new public github repository will be created to host the code independent of its current location in the raja repository, likely at github.com/llnl/camp. \n \n",
+    "laborHours": 22708.8,
+    "languages": [],
+    "name": "Concepts and Meta-Programming Library",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/llnl/raja",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

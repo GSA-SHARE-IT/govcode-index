@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2024-01-25",
+        "lastModified": "2025-05-07"
+    },
+    "description": "Generates CISA Web Application Scanning reports from Qualys scanning data",
+    "downloadURL": "https://api.github.com/repos/cisagov/qualys-wasreport-generator/downloads",
+    "homepageURL": "https://github.com/cisagov/qualys-wasreport-generator",
+    "laborHours": 588.8,
+    "languages": [
+        "Python",
+        "Shell"
+    ],
+    "name": "qualys-wasreport-generator",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/qualys-wasreport-generator.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

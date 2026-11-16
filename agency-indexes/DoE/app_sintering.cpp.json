@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "This application simulates simple solid state sintering by incorporating all the active mechanisms, namely, curvature-driven gain growth, pore shaping and migration by surface diffusion, and creation, diffusion and annihilation of vacancies. It is an application developed for SPPARKS and has to be run within this framework.",
+    "homepageURL": "http://spparks.sandia.gov",
+    "laborHours": 0.0,
+    "name": "app_sintering.cpp",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://spparks.sandia.gov",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ]
+}

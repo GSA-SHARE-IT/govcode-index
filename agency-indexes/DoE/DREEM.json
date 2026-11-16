@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2018-07-30",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "A System Dynamics Model for Assessing Dynamic Rare Earth Production, Demand and U.S. Wind Energy Demand",
+    "laborHours": 15.2,
+    "languages": [
+        "Powersim Studio"
+    ],
+    "name": "DREEM",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IdahoLabResearch/DREEM",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

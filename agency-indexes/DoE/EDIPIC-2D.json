@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "apritch@pppl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-05-21"
+    },
+    "description": "EDIPIC codes were developed for simulation of kinetic effects in low-temperature plasmas. They can be used for simulation of plasmas in electrostatic approximation and include many atomistic and plasma-surface interaction processes needed for simulations of low temperature plasmas. These codes include a detailed model of secondary electron emission induced by electrons and ions. The Monte-Carlo model of electron-neutral collisions and the Langevin model of Coulomb collisions for electrons are also implemented.",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "EDIPIC-2D",
+    "organization": "Princeton Plasma Physics Laboratory (PPPL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PrincetonUniversity/EDIPIC-2D",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Princeton Plasma Physics Laboratory (PPPL)"
+    ],
+    "vcs": "git"
+}

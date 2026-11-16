@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "gelipauline@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-17",
+        "metadataLastUpdated": "2021-06-15"
+    },
+    "description": "The FasTensor implements the native array data programming mode namely SLOPE for modern data analysis tasks. It is designed to work in parallel on supercomputer and can handle terabyte data analysis tasks. It is thousand times faster than other data analysis systems such as Apache Spark and 38% faster than TensorFlow in dealing with large scale scientific data analysis. It has wide applications in image data analysis and mesh data analysis tasks in physical simulations and other fields.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "FasTensor (FT) v0.0.1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://bitbucket.org/berkeleylab/fastensor/src/master",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

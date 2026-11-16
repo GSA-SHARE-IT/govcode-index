@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-01-06",
+        "metadataLastUpdated": "2022-01-06"
+    },
+    "description": "One complication to infectious disease forecasting efforts is delay in reporting of cases, where real-time data often under-report the true disease burden. This pair of R scripts (1) provides example code demonstrating several strategies to account for the reporting delay and improve disease forecasts and (2) applies these methods using publicly-available data on dengue fever case reporting in Puerto Rico from 1990 to 2009.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Correcting for reporting delay: an example using dengue fever data",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lbeesleyBIOSTAT/Reporting_Delay_Example_Code",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

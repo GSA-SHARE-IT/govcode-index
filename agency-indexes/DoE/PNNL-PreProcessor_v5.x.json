@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2024-02-13",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "a new release of the software tool that includes newly developed algorithms housed along\npreviously released ones within a single user interface.\nThe new functionalities are:\nCCS raw data converter (iEdison No. 0685901-23-0100), IPID 32762-E.\nIM-MS-DDA converter and data format (iEdison No. 0685901-23-0099), IPID 32761-E.\nThe previously developed functionalities are:\nPNNL-PreProcessor, IPID 31727-E.\n2DLC-MS to LC-IM-MS data file converter, IPID 32136-E.\nIMS data file transformations, IPID 32137-E.\nRemarks about the PNNL-PreProcessor:\nDirectly reads Agilent MassHunter (.d) data files and generates new Agilent MassHunter (.d) data files with\nenhanced raw signal quality and/or transformed data. Can also process UIMF files.\nHas both command-line and graphical user interfaces.\nPNNL provides the software executable, freely available for download (https://pnnl-comp-massspec.github.io/PNNL-PreProcessor) and it can be utilized by Agilent customers for non-commercial use.\nThe source code is not publicly available, an internal source code repository is maintained at PNNL",
+    "homepageURL": "https://pnnl-comp-mass-spec.github.io/PNNL-PreProcessor",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "PNNL-PreProcessor v5.x",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://pnnl-comp-mass-spec.github.io/PNNL-PreProcessor",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://pnnl-comp-mass-spec.github.io/PNNL-PreProcessor",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "version": "5"
+}

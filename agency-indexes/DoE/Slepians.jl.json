@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-01-03",
+        "metadataLastUpdated": "2022-01-03"
+    },
+    "description": "Slepians.jl is a package that solves the concentration problem of Slepian, Landau and Pollak, numerically. Loosely speaking, we find a function that is both finite in extent and has a Fourier transform which lies in a certain domain. In a single dimension, with discrete sampling, the discrete prolate spheroidal sequences solve this optimization problem.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Slepians.jl",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lootie/Slepians.jl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

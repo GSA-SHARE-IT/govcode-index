@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2018-02-21",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "LIQUID is a software tool for identifying lipids in LC-MS/MS-based lipidomics data. It is described in publication LIQUID: an-open source software for identifying lipids in LC-MS/MS-based lipidomics data (doi: 10.1093/bioinformatics/btx046). LIQUID provides users with the capability to process high throughput data and contains a customizable target library and scoring model per project needs. The graphical user interface provides visualization of multiple lines of spectral evidence for each lipid identification, allowing rapid examination of data for making confident identifications of lipid molecular species.",
+    "laborHours": 76015.2,
+    "languages": [],
+    "name": "LIQUID",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/PNNL-Comp-Mass-Spec/LIQUID",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

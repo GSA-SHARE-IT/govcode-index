@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2018-09-26",
+        "metadataLastUpdated": "2019-09-24"
+    },
+    "description": "EOS7C is an equation of state module for the TOUGH2 program for CO2 or N2 in Methane (CH4) Reservoirs. In the present work, additions have been made to the EOS7C Version 1.0 module to include the Enhanced Coal Bed Methane (ECBM) modifications developed by Webb (2003). In addition, the Dusty Gas Model for gas-phase diffusion (Webb 2001) has been included. The ECBM modification to the EOS7C equation of state incorporate the extended Langmuir isothem for sorbing gases, including the change in porosity associated with the sorbed gas mass. Comparison to hand calculations for pure gas and binary mixture shows very good agreement. Application to a CO2 well injection problem by Law et al. (2002). The Dusty Model modification add options to calculate gas diffusion using the Dusty-Gas Model including separate and coupled approaches. Comparison to low-permeability pure gas diffusion data shows excellent agreement. The results from the DGM are compared to the Fick's Law behavior for diffusion across a capillary fringe. The differences between the models are small due to the relatively high permeability (10-11 m2) of the problem.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "EOS7C-ECBM Version 1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

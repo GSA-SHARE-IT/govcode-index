@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-10-01",
+        "metadataLastUpdated": "2024-07-19"
+    },
+    "description": "As parallel computing trends towards the exascale, scientific data produced by high-fidelity simulations are growing increasingly massive. For instance, a simulation on a three-dimensional spatial grid with 512 points per dimension that tracks 64 variables per grid point for 128 time steps yields 8 TB of data. By viewing the data as a dense five-way tensor, we can compute a Tucker decomposition to find inherent low-dimensional multilinear structure, achieving compression ratios of up to 10000 on real-world data sets with negligible loss in accuracy. So that we can operate on such massive data, we present the first-ever distributed-memory parallel implementation for the Tucker decomposition, whose key computations correspond to parallel linear algebra operations, albeit with nonstandard data layouts. Our approach specifies a data distribution for tensors that avoids any tensor data redistribution, either locally or in parallel. This software provides a method for compressing large-scale multiway data.",
+    "laborHours": 19364.8,
+    "languages": [
+        "C++",
+        "Shell",
+        "CMake",
+        "MATLAB",
+        "Makefile",
+        "Python"
+    ],
+    "name": "TuckerCompressMPI v. 1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/TuckerMPI",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

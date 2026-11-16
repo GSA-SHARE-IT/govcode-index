@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2024-09-02",
+        "metadataLastUpdated": "2024-09-17"
+    },
+    "description": "(SF-24-012)  Stopping power describes the rate that a material slows radiation particles passing through it and is useful in designing many technologies. Few organizations can perform new measurements, which require significant resources and rare equipment, and all others rely on coarse approximations \nrendered from pre-existing data. Methods for computing stopping power in new materials, such as time-dependent density functional theory (TD-DFT), have only recently (circa-2015) become available but are too computationally costly to use frequently enough to have a pronounced impact. We have created a method that opens a pathway to computing stopping power without any need for experimental \ndata by combining electronic structure computations and machine learning.",
+    "laborHours": 2979.2,
+    "languages": [],
+    "name": "Machine learning and TDDFT software for stopping power computation",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/globus-labs/stopping-power-ml",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

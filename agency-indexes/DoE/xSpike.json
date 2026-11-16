@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-08-12",
+        "metadataLastUpdated": "2021-08-12"
+    },
+    "description": "XSPIKE (eXplore the SPIKE protein) identifies sites of high variability (high entropy) in amino acid sequences of the Spike protein of the SARS CoV-2 virus.  Among these sites, it further identifies correlations between pairs of them, and provides both graphical and tabular display of that information.  It also provides a table of occurrences of co-occurring patterns found among natural sequences, featuring associations within those most highly variable sites to emphasize common covariation patterns; this table includes information about the number of sequences in which those patterns are seen, broken out by continent, and provides as context a list of mutations for each pattern that corresponds to the differences between the reference sequence (usually the Wuhan form) and the most common full sequence that exhibits that pattern.",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "xSpike",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

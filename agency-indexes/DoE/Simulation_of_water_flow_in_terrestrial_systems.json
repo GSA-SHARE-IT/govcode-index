@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "ParFlow is a parallel, variabley saturated groundwater flow code that is especially suitable for large scale problem. ParFlow simulates the three-dimensional saturated and variably saturated subsurface flow in heterogeneous porous media in three spatial dimensions. ParFlow's developemt and appkication has been on-ging for more than 10 uear. ParFlow has recently been extended to coupled surface-subsurface flow to enabel the simulation of hillslope runoff and channel routing in a truly integrated fashion. ParFlow simulates the three-dimensional varably saturated subsurface flow in strongly heterogeneous porous media in three spatial dimension.",
+    "laborHours": 138532.8,
+    "name": "Simulation of water flow in terrestrial systems",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/parflow/parflow",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2023-09-11",
+        "metadataLastUpdated": "2023-09-11"
+    },
+    "description": "Exawind-driver is a C++ code that is part of the ExaWind software stack.  It was designed to couple and drive hybrid-solver computational fluid dynamics (CFD) simulations where NREL's AMR-Wind (SWR-20-85) software and NREL's Nalu-Wind (SWR-20-27) CFD codes are run simultaneously and are two-way coupled via overset meshes and the TIOGA overset-mesh library.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++",
+        "CMake"
+    ],
+    "name": "exawind-driver [SWR-23-10]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/Exawind/exawind-driver",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

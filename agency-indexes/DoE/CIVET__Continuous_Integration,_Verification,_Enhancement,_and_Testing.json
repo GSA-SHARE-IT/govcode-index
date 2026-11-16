@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "A Git server (GitHub, GitLab, BitBucket) sends event notifications to the Civet server. These are either a \" Pull Request\" or a \"Push\" notification. Civet then checks the database to determine what tests need to be run and marks them as ready to run. Civet clients, running on dedicated machines, query the server for available jobs that are ready to run. When a client gets a job it executes the scripts attached to the job and report back to the server the output and exit status. When the client updates the server, the server will also update the Git server with the result of the job, as well as updating the main web page.",
+    "laborHours": 26615.2,
+    "languages": [],
+    "name": "CIVET: Continuous Integration, Verification, Enhancement, and Testing",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/civet",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

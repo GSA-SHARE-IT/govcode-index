@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "Tigres provides a programming library to compose and execute large-scale data-intensive scientific workflows from desktops to supercomputers. DOE User Facilities and large science collaborations are increasingly generating large enough data sets that it is no longer practical to download them to a desktop to operate on them. They are instead stored at centralized compute and storage resources such as high performance computing (HPC) centers. Analysis of this data requires an ability to run on these facilities, but with current technologies, scaling an analysis to an HPC center and to a large data set is difficult even for experts. Tigres is addressing the challenge of enabling collaborative analysis of DOE Science data through a new concept of reusable \"templates\" that enable scientists to easily compose, run and manage collaborative computational tasks. These templates define common computation patterns used in analyzing a data set.",
+    "homepageURL": "http://tigres.lbl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Template Interfaces for Agile Parallel Data-Intensive Science",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://dst.lbl.gov/ACSSoftware/tigres/docs/tigres-0.2.0/license_agreement.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://tigres.lbl.gov",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

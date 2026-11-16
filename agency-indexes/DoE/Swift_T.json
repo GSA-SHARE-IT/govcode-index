@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "woz@anl.gov"
+    },
+    "date": {
+        "created": "2021-03-05",
+        "metadataLastUpdated": "2021-05-06"
+    },
+    "description": "Swift/T is an MPI-oriented workflow language and runtime system that provides automatic parallelization via the dataflow paradigm.  It runs on any MPI-capable system, from laptops to the largest supercomputers.  Swift/T can orchestrate jobs that contain tasks written in C, C++, Fortran, Python, R, and other languages, including multi-process parallel tasks.",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "Java",
+        "Tcl"
+    ],
+    "name": "Swift/T",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/swift-lang/swift-t.git",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git",
+    "version": "1.4.3"
+}

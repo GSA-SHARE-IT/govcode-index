@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2022-04-14",
+        "metadataLastUpdated": "2022-04-27"
+    },
+    "description": "PCCE Project background: Our experience in building distributed collaboratories has shown us that there is a growing need for simple, non-intrusive, and flexible ways to stay in touch and work together. Towards this goal we are developing a Pervasive Collaborative Computing Environment (PCCE) within which participants can rendezvous and interact with each other. The PCCE aims to support continuous or ad hoc collaboration, target daily tasks and base connectivity, be easy to use and install across multiple platforms, leverage off of existing components when possible, use standards-based components, and leverage off of Grid services (e.g., security and directory services). A key concept for this work is \"incremental trust\", which allows the system's \"trust\" of a given user to change dynamically. PCCE Jabber client software: This leverages Jabber. an open Instant Messaging (IM) protocol and the related Internet Engineering Task Force (IETF) standards \"XMPP\" and \"XMPP-IM\" to allow collaborating parties to chat either one-on-one or in \"chat rooms\". Standard Jabber clients will work within this framework, but the software will also include extensions to a (multi-platform) GUI client (Gaim) for X.509-based security, search, and incremental trust. This software also includes Web interfaces for managing user registration to a Jabber server. PCCE Jabber server software: Extensions to the code, database, and configuration files for the dominant open-source Jabber server, \"jabberd\". Extensions for search, X.509 security, and incremental trust. Note that the jabberd software is not included as part of this software.",
+    "homepageURL": "https://dst.lbl.gov/ACSSoftware/pccejt/Home",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Pervasive Collaboratorive Computing Environment Jabber Toolkit",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://dst.lbl.gov/ACSSoftware/pccejt/Home/license.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://dst.lbl.gov/ACSSoftware/pccejt/Home",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

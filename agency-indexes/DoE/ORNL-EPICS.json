@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "hartmansm@ornl.gov"
+    },
+    "date": {
+        "created": "2021-10-11",
+        "metadataLastUpdated": "2021-10-12"
+    },
+    "description": "This collection of applications provides additional capabilities and features to the EPICS toolkit (https://epics-controls.org) for building distributed controls systems and data acquisition systems. They have been developed for a particle accelerator control system and the control and data acquisition systems for neutron scattering and neutron imaging instruments but can be integrated in EPICS-based control systems for other types of machines.",
+    "homepageURL": "https://github.com/ornl-epics",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "ORNL-EPICS",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://epics-controls.org/licensing",
+                "name": "Other"
+            },
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ornl-epics",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

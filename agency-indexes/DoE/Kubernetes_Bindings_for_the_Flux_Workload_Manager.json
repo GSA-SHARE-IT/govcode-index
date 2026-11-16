@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2022-09-30",
+        "metadataLastUpdated": "2022-09-30"
+    },
+    "description": "Flux is a framework for writing resource managers as well as a resource manager for HPC systems. It allows for hierarchical nesting and providing a portable interface for job scheduling across systems. The flux-k8s software provides an interface between Flux and Kubernetes so the two frameworks can use each other's functionality. The code is currently licensed under the LGPL-3.0 License, but we request to re-license the code to promote outside collaboration and community adoption.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Kubernetes Bindings for the Flux Workload Manager",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/flux-framework/flux-k8s",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1"
+}

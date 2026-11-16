@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "This software package provides tools for astrophysical experiments which record data in the form of individual time streams from discrete detectors. TOAST provides tools from meta-data manipulation and job set up, I/O operation, telescope pointing reconstruction, and map-making. It also provides tools for constructing simulated observations.",
+    "laborHours": 0.0,
+    "languages": [
+        "Any Standard C++ complier which supports the BOOST software package"
+    ],
+    "name": "Time Ordered Astrophysics Scalable Tools",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/tskisner/toast/blob/master/LICENSE",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/tskisner/TOAST",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

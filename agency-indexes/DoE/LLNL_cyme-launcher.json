@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "mast9@llnl.gov"
+    },
+    "date": {
+        "created": "2022-08-22",
+        "metadataLastUpdated": "2022-08-22"
+    },
+    "description": "Utility to help run CYME in an HPC environment. Ensures sufficient licenses are available for running CYME in as part of a batch job, and helps start CYME running under WINE on Linux.",
+    "laborHours": 0.0,
+    "languages": [
+        "Go",
+        "Go"
+    ],
+    "name": "LLNL/cyme-launcher",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/cyme-launcher",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

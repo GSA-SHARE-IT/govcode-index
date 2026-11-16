@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2024-09-25",
+        "metadataLastUpdated": "2024-09-25"
+    },
+    "description": "A data ontology defined using the W3C Web Ontology Language (OWL) format. It defines classes and attributes for objects directly implicated in manufacturing such as materials, preform geometries, and manufacturing processes and settings. It also includes classes to describe entities that are instrumental to making digital twins and performing predictive activities on manufacturing data such as designs of experiment and predictive models.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Advanced Manufacturing Basic Entity Relationships Ontology",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/AMBER",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

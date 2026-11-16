@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2024-01-26",
+        "metadataLastUpdated": "2024-01-29"
+    },
+    "description": "DeBoinR (Density Boxplots in R) takes in a set of Probability Density Functions (PDFs), calculates outliers based on several notions of distance, and visualizes these outliers via functional boxplots.  This code is written as a stand-along R package with the hopes of eventually submitting it to CRAN.  The package is written in generality; it would be useful to any researching looking to analyze a general ensemble of PDFs.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "DeBoinR: Density Boxplots in R",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/deboinr",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

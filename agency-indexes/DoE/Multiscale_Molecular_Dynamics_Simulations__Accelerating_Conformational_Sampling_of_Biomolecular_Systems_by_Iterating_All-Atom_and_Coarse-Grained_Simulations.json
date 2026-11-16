@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2025-03-07",
+        "metadataLastUpdated": "2025-03-07"
+    },
+    "description": "We developed the atomistic-coarse-grained multiscale MD simulation method in the OpenMM simulation package by iterating between the all-atom (AA) and coarse-grained (CG) MD simulations to enhance the sampling of biomolecular conformations. As the free energy surfaces are flattened during CG MD simulations, we can accelerate the transitions between different low-energy conformations. The AA-CG-AA cycles are repeated, facilitating the accelerated sampling of biomolecular conformations at a CG level, while the finer atomistic interactions are refined with AA simulators.",
+    "laborHours": 304.0,
+    "languages": [],
+    "name": "Multiscale Molecular Dynamics Simulations: Accelerating Conformational Sampling of Biomolecular Systems by Iterating All-Atom and Coarse-Grained Simulations",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/iMMD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

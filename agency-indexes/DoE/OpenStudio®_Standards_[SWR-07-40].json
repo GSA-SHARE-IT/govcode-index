@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-10-05",
+        "metadataLastUpdated": "2024-02-09"
+    },
+    "description": "OpenStudio® Standards is a Ruby Gem library that extends the OpenStudio SDK. It has four main use-cases:\n\nProvide higher level methods to help BEM users and developers to create OpenStudio models from existing geometry, or programmatically generated geometry\nCreate typical building models in OpenStudio format\nCreate a code baseline model from a proposed model\nCheck a model against a code/standard\nopenstudio-standards previously supported making the DOE/PNNL prototype buildings in OpenStudio format. This has since been deprecated, as the DOE/PNNL prototypes are intended for specific code comparisons under the Energy Policy Act and are not intended to accurately represent typical existing or new buildings. While openstudio-standards still creates typical buildings, these are not the same as the DOE/PNNL prototypes.",
+    "laborHours": 16303611.2,
+    "languages": [
+        "Ruby"
+    ],
+    "name": "OpenStudio® Standards [SWR-07-40]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/openstudio-standards",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "0.4.0"
+}

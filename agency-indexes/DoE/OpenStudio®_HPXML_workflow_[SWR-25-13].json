@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2024-11-25",
+        "metadataLastUpdated": "2024-11-25"
+    },
+    "description": "OpenStudio-HPXML allows running residential EnergyPlus™ simulations using an HPXML file for the building description. It is intended to be used by user interfaces or other automated software workflows that automatically produce the HPXML file.\n\nOpenStudio-HPXML can accommodate a wide range of different building technologies and geometries. End-to-end simulations typically run in 3-10 seconds, depending on complexity, computer platform and speed, etc.\n\nFor more information on running simulations, generating HPXML files with the appropriate inputs to run EnergyPlus, etc., please visit the documentation linked below.\n\nhttps://openstudio-hpxml.readthedocs.io/en/latest",
+    "laborHours": 418608.0,
+    "languages": [
+        "Python",
+        "Ruby"
+    ],
+    "name": "OpenStudio® HPXML workflow [SWR-25-13]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/OpenStudio-HPXML",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "1.9.0"
+}

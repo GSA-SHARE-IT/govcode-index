@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2024-01-22",
+        "metadataLastUpdated": "2024-01-22"
+    },
+    "description": "Spawn is a software package for performing co-simulations involving NREL's EnergyPlus™ tool and Modelica. This package bundles the following items in one self-contained package.\n\n1. A method for connecting EnergyPlus models to Modelica\n2. A Modelica compiler toolchain for compiling and running Modelica models\n3. Modelica libraries and content, including the Modelica Buildings Library (MBL) and the Modelica Standard Library.\n\nThe Spawn installation package is fully self-contained, and there are no external third-party dependencies. Together the capabilities in this package provide a single integrated environment for performing hybrid Modelica and EnergyPlus simulations. The primary entry point is the Spawn command line interface.",
+    "laborHours": 0.0,
+    "languages": [
+        "C",
+        "C++",
+        "CMake"
+    ],
+    "name": "Spawn v.0.5.0 Released 12.15.2023 [SWR-SWR-20-10]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/Spawn",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "0.5.0"
+}

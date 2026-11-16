@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2020-11-01",
+        "metadataLastUpdated": "2021-03-30"
+    },
+    "description": "WeightedAFL (WAFL) is an improvement to open source fuzzer, American Fuzzy Lop (AFL). Fuzzers modify input to target programs in order to produce crashes and other unintended output in those target programs. WAFL integrates directly with AFL to determine offsets within a buffer that will improve performance metrics. WAFL uses various machine learning techniques to learn these offsets. WAFL also provides a novel software engineering solution to integrate with AFL and allows contributors to quickly write and test algorithms in python. SAND2020-12546 O\n\nSandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy's National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "WeightedAFL",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://github.com/sandialabs/wafl",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "0.0.1"
+}

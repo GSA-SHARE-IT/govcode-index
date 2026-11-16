@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-04-16",
+        "metadataLastUpdated": "2021-04-20"
+    },
+    "description": "The PNNL Prony Ringdown graphical user interface is one analysis tool included in the Dynamic System Identification toolbox (DSI Toolbox). The Dynamic System Identification toolbox is a MATLAB-based collection of tools for parsing and analyzing phasor measurement unit data, especially in regards to small signal stability. It includes tools to read the data, preprocess it, and perform small signal analysis. 5. Method of Solution: The Dynamic System Identification Toolbox (DSI Toolbox) is designed to provide a research environment for examining phasor measurement unit data and performing small signal stability analysis. The software uses a series of text-driven menus to help guide users and organize the toolbox features. Methods for reading in populate phasor measurement unit data are provided, with appropriate preprocessing options for small-signal-stability analysis. The toolbox includes the Prony Ringdown GUI and basic algorithms to estimate information on oscillatory modes of the system, such as modal frequency and damping ratio.",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "Prony Ringdown GUI (CERTS Prony Ringdown, part of the DSI Tool Box)",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ftuffner/DSIToolbox",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

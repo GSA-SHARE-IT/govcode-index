@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "billingsjj@ornl.gov"
+    },
+    "date": {
+        "created": "2017-11-15",
+        "metadataLastUpdated": "2017-12-19"
+    },
+    "description": "Eclipse advanced visualization project",
+    "laborHours": 40052.0,
+    "name": "eclipse/eavp",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/epl-1.0",
+                "name": "EPL-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/eclipse/eavp",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

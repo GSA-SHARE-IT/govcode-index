@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "holdensanchez2@llnl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "MMA is a stand-alone memory management system for MPI clusters. It implements a shared Partitioned Global Address Space, where multiple MPI processes request objects from the allocator and the latter provides them with system-wide unique memory addresses for each object. It provides applications with an intuitive way of managing the memory system in a unified way, thus enabling easier writing of irregular application code.",
+    "homepageURL": "http://myrmics.com/download.php",
+    "laborHours": 0.0,
+    "name": "Myrmics Memory Allocator",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "http://myrmics.com/downloads/mma_license.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://myrmics.com/download.php",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ]
+}

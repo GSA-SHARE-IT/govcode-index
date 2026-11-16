@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2018-12-18",
+        "metadataLastUpdated": "2024-07-26"
+    },
+    "description": "Paracousti simulates 3-D acoustic wave propagation in fixed (non-moving) complex media.  It solves the linear acoustic equations of motion using the velocity-pressure system of first order linear differential equations on a finite-difference Cartesian grid using Newton’s law of motion and mass continuity equations.  It also has the ability to incorporate acoustic attenuation to simulate non-recoverable energy losses via the velocity-memory-pressure system of linear differential equations.  We assume stationary, non-heat conducting, adiabatic media (fluid) where the background sound speed and material density are fixed in time.  Capabilities include massively parallel design, optimization for high contrast media interfaces, inclusion of arbitrary pressure and force sources defined by the user, inclusion of arbitrary pressure and velocity receivers defined by the user, acoustic wavefield snapshots in time for visualization, and convolutional perfectly matched layers to minimize artificial grid boundary reflections.  Paracousti was built upon the foundational framework of TDAAPS (Time-Domain Atmospheric Acoustic Propagation Suite) by Neill Symons, Dave Aldridge, and Leiph Preston.",
+    "laborHours": 29488.0,
+    "languages": [
+        "C++",
+        "C",
+        "MATLAB",
+        "Makefile",
+        "JavaScript"
+    ],
+    "name": "Paracousti v. 2.0.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://ip.sandia.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/Paracousti",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "v. 2.0.0"
+}

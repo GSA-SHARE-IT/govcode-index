@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "noah.kobayashi@nrel.gov"
+    },
+    "date": {
+        "created": "2021-06-28",
+        "metadataLastUpdated": "2021-06-28"
+    },
+    "description": "Hybrid Power Plants (HPPs) have the potential to increase the value of renewable energy systems and decrease their costs through shared development (e.g., permitting) and infrastructure (e.g., collection system). Prior work has identified potential cost savings and technical and economic performance improvements for solar plus storage plants. However, additional research is needed to understand cost drivers that are specific to hybrid wind plants. Here we analyze the potential for shared infrastructure cost savings at one type of hybrid plant: wind plus solar photovoltaic (PV). To perform this analysis, we developed a new open-source, Python-based cost modeling tool: the Hybrid Balance-of-System (BOS) Systems Engineering model (HybridBOSSE). HybridBOSSE is an extension of NREL's LandBOSSE tool.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "HybridBOSSE (Hybrid Balance-of-System (BOS) Systems Engineering Model)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/HybridBOSSE",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

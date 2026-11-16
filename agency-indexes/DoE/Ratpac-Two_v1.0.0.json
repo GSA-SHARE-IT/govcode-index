@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "john.rinck@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-20",
+        "metadataLastUpdated": "2024-06-25"
+    },
+    "description": "Geant-4 based detector simulations in c++ which combines simulation and analysis into a single framework to precisely model detector components and analyze experimental data. Ratpac allows the user to easily build new detector geometries and configurations through both the source library and through configurable text files at runtime.",
+    "laborHours": 48883.2,
+    "languages": [],
+    "name": "Ratpac-Two v1.0.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/rat-pac/ratpac-two",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

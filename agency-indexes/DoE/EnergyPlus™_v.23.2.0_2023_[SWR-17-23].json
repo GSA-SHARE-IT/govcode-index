@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2024-02-27",
+        "metadataLastUpdated": "2024-06-05"
+    },
+    "description": "EnergyPlus™ is a whole building energy simulation program that engineers, architects, and researchers use to model both energy consumption and water use in buildings.\n\nThis is the EnergyPlus Development Repository.\n\nThe Department of Energy maintains a public website for EnergyPlus where you can find much more information about the program. https://energyplus.net/\n\nFor detailed developer information, consult the wiki. https://github.com/NREL/EnergyPlus/wiki\n\nMany users (and developers) of EnergyPlus are active on Unmet Hours, so that's a great place to start if you have a question about EnergyPlus or building simulation. https://unmethours.com/questions/\n\nFor more in-depth, developer-driven support, please utilize the EnergyPlus Helpdesk. https://energyplushelp.freshdesk.com/support/home",
+    "laborHours": 2335920.8,
+    "languages": [
+        "C++",
+        "Fortran",
+        "Python",
+        "Jupyter Notebook",
+        "Visual Basic 6.0",
+        "CMake"
+    ],
+    "name": "EnergyPlus™ v.23.2.0 2023 [SWR-17-23]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NREL/EnergyPlus?tab=License-1-ov-file#readme",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/EnergyPlus",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "23.2.0"
+}

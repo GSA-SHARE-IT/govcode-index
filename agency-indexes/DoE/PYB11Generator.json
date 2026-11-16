@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-02-27",
+        "metadataLastUpdated": "2019-02-27"
+    },
+    "description": "PYB11Generator is a code generator to simplify using the open-source pybind11 package for interoperability between C++ and Python.  PYB11Generator parses a description of the C++ code to be exposed to Python written in pure Python syntax, and generates the pybind11 C++ coding which can be compiled into a shared library allowing the C++ code to be used from Python.  The purpose of PYB11Generator is to simplify this process of binding together C++ and Python, removing much of the redundant code needed by pybind11 such as trampoline classes for providing virtual function overrides in Python.",
+    "laborHours": 1231.2,
+    "languages": [],
+    "name": "PYB11Generator",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/jmikeowen/pyb11generator",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

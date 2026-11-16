@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2022-07-28",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "This invention is a Ruby \"gem\" (library) that provides clients for ENERGY STAR Portfolio Manager (ESPM) Web Services,\nInventive features:\n100% coverage of version 18.0 of the ESPM API.\nAutomated mapping between ESPM XML schemas and Ruby objects.\nClients for both the \"live\" and \"test\" ESPM API environments.\nDebugging mode with HTTP request/response logging.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "pnnl/portfoliomanager-rb",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/portfoliomanager-rb",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

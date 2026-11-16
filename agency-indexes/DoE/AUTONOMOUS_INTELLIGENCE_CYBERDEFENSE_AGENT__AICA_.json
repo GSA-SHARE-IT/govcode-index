@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2022-09-23",
+        "metadataLastUpdated": "2022-09-27"
+    },
+    "description": "This is a prototype framework initially developed as part of an international consortium (aica-iwg.org/) for NATO ACT in 2021 under an LGPL license (Blakely/ANL did 100% of the coding). It is intended to serve as a reference model and collaborative project for researchers interested in working on self-defending software agents. It consists of a set of Docker containers that allow simulation of a network environment, including a manager agent that has capabilities for observing network activities, using automated decision making to select appropriate defensive/proactive actions, and putting those actions into practice. It is currently at an \"MVP\" level but we are continuing to add to this and have submitted a DHS S&T CAP proposal to build an open source community around it.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "AUTONOMOUS INTELLIGENCE CYBERDEFENSE AGENT (AICA)",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/aica-iwg/aica-agent",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

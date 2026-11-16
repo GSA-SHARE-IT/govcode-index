@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jhaemmerle@lbl.gov"
+    },
+    "date": {
+        "created": "2023-09-28",
+        "metadataLastUpdated": "2023-09-28"
+    },
+    "description": "MVP stands for Multi-choice Viromics Pipeline. It is a pipeline that utilizes a suite of state-of-art tools:\n\ngeNomad to identify viruses, proviruses, and plasmids in sequencing data,\n\nCheckV to assess the quality, and completeness of identified viral genomes, including identification of host contamination for integrated proviruses,\nA custom code for a rapid genome clustering based on pairwise ANI,\n\nBowtie2, Samtools, and CoverM to calculate coverage of individual viral genomes by read mapping,\nA custom code to create a vOTU table of abundance,\n\nMMseqs2 to compare viral proteins to multiple databases.\n\nIt provides a quick, and intuitive pipeline to get viral sequences and corresponding properties that can be used for downstream analyses.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Multi-choice Viromics Pipeline (MVP) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.com/ccoclet/mvp",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

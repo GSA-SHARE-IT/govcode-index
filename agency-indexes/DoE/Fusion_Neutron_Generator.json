@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "autumn.willard@inl.gov"
+    },
+    "date": {
+        "created": "2024-06-07",
+        "metadataLastUpdated": "2024-06-07"
+    },
+    "description": "The proposed code, named FROG (Fusion neutron Generator) is built upon the open-source particle transport Monte Carlo toolkit Geant4. Geant4 provides C++ classes that can be leveraged to build application-specific codes dealing with the transport of particles through matter. Geant4-based codes are applied in high-energy particle physics experiments, medical applications, shielding, and space applications for example.\n\nThe FROG code allows the user to define the geometry of a neutron converter device shaped as a hollow cylinder, where a neutron breeding material such as lithium deuteride (LiD) is cladded by two concentric cylinders. Such neutron converter is then placed inside a regular nuclear fission reactor, where thermal neutrons will react with the neutron breeder material (typically, Lithium 6), and through a series of reactions, will generate high-energy neutrons – neutrons whose kinetic energy are around 14 MeV. The hollowed central portion can hold a specimen that will be bombarded by high-energy neutrons created inside the neutron breeding material. Figuratively speaking, this type of device transforms neutrons from thermal (~0.625 eV) to fusion (~14 MeV) energies and is sometimes termed “fusion-to-thermal neutron converters” in the literature. \n\nThe code consists of C++ source file compiled and linked to generate an executable. The user can select the dimensions of the converter (radius, length, and thickness of the breeder material), the breeder material type, the cladding material, and the specimen material that will be activated or irradiated. As input, the neutron flux for a specific location inside a reactor, for instance, positions in ATR, is required. As output, the code predicts the number of high-energy neutrons produced, the total neutron flux and fluence as well as its detailed spectrum. \n\nThe physics involved in such device is very complex, as it requires modeling neutron transport, light-ion (tritons) transport, as well as fusion reactions. The Geant4 toolkit provides the required physical models.",
+    "laborHours": 1489.6,
+    "languages": [
+        "C++"
+    ],
+    "name": "Fusion Neutron Generator",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/thermal_to_fusion_converter",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

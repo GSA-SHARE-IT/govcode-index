@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2025-04-02",
+        "metadataLastUpdated": "2025-04-15"
+    },
+    "description": "This repository contains code and data for performing a siting analysis of long-duration energy storage (LDES) in the 5-bus and RTS systems using the Sienna suite developed by the National Renewable Energy Laboratory for production cost modeling (PCM). This analysis involves moving the LDES component to different buses in the system, running a simulation, and considering the production cost of the simulation. Different system configurations are also analyzed with these scripts (such as moving load or renewable dispatch generators to different buses) to observe the impacts the system configuration has on optimal siting. This repository contains three sub directories discussed below. Both the 5-bus and RTS systems have two different initial configurations for the renewable energy components in them, one that is predominantly PV-driven and one that is predominantly wind-driven.\n\nSienna suite can be found here: https://github.com/NREL-Sienna",
+    "laborHours": 30536.8,
+    "languages": [
+        "Julia"
+    ],
+    "name": "LDES-Sizing-and-siting-model (Power grid test cases for long-duration energy storage (LDES) siting) [SWR-25-75]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/LDES-Sizing-and-siting-model",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

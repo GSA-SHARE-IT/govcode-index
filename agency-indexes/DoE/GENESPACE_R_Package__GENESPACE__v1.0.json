@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-06-10",
+        "metadataLastUpdated": "2021-06-11"
+    },
+    "description": "In short, the GENESPACE pipeline conducts analysis of orthology networks, constrained within syntenic regions. Since analyses are limited to local tests conducted within syntenic blocks, GENESPACE is agnostic to ploidy, duplicated regions, inversions or other whole-genome chromosomal complexities that are common across many evolutionary lineages. This advantage allows for evolutionary tests in polyploids (e.g. switchgrass, manuscript in review), species with ancient, but retained whole-genome duplications (e.g. pecan, manuscript in prep), high levels of tandem array proliferation (e.g. eukalypts, manuscript in review) and many other factors that can confound comparative genomic analyses. The major advances of GENESPACE are three-fold: First, this is the first R package to integrate visualization and analysis of large-scale comparative genomics. R, which offers a high-level environment for graphical and statistical exploration of data, is often speed- and memory-limited and not used for computationally intensive tasks such as comparative genomics. The highly efficient C++ scripts used in GENESPACE (via data.table) permit a much faster and computationally lightweight implementation of comparative genomics than is currently available. Second, the pipeline itself is novel. To the best of our knowledge, no other program accomplishes synteny-constrained and ploidy-agnostic comparative genomics. Since nearly all plants and many animals have a history of whole-genome duplications, this is a major and necessary advance to the field. Third, GENESPACE offers high-level and intuitive multi-genome graphical outputs. The dotplots and 'riparian' plots produced herein, which are produced entirely through original R code, are publication-ready and easily customizable.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "GENESPACE R Package (GENESPACE) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.jgi.doe.gov/plant/genespace-r",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

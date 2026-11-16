@@ -1,0 +1,41 @@
+{
+    "name": "staff-assignment-service",
+    "description": "Service to assign an NSF staff to an NSF organization (e.g. directorate, division, section, program element).",
+    "tags": [
+        "java",
+        "government",
+        "microservice",
+        "nsf",
+        "mynsf",
+        "features",
+        "business"
+    ],
+    "contact": {
+        "email": "esivagna@nsf.gov",
+        "name": "Elanchezhian Sivagnanam",
+        "phone": "7032928088"
+    },
+    "languages": [
+        "Java"
+    ],
+    "repositoryURL": "http://www.nsf.gov",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://www.nsf.gov/digitalstrategy/Alternative_Analysis_Report_Template_Process.pdf",
+                "name": "NSF"
+            }
+        ],
+        "usageType": "exemptByAgencySystem",
+        "exemptionText": "Internal system not suitable for open source. For example, database queries are stored in external stored procedures."
+    },
+    "laborHours": 750,
+    "date": {
+        "created": "2018-06-18",
+        "lastModified": "2019-03-13",
+        "metadataLastUpdated": "2019-03-14"
+    },
+    "vcs": "",
+    "disclaimerText": "",
+    "disclaimerURL": "https://www.nsf.gov/digitalstrategy/Alternative_Analysis_Report_Template_Process.pdf"
+}

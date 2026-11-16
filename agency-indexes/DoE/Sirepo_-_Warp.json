@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "vowelll@osti.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Sirepo is an open source framework for cloud computing. The graphical user interface (GUI) for Sirepo, also known as the client, executes in any HTML5 compliant web browser on any computing platform, including tablets. The client is built in JavaScript, making use of the following open source libraries: Bootstrap, which is fundamental for cross-platform web applications; AngularJS, which provides a model–view–controller (MVC) architecture and GUI components; and D3.js, which provides interactive plots and data-driven transformations. The Sirepo server is built on the following Python technologies: Flask, which is a lightweight framework for web development; Jin-ja, which is a secure and widely used templating language; and Werkzeug, a utility library that is compliant with the WSGI standard. We use Nginx as the HTTP server and proxy, which provides a scalable event-driven architecture. The physics codes supported by Sirepo execute inside a Docker container. One of the codes supported by Sirepo is Warp. Warp is a particle-in-cell (PIC) code de-signed to simulate high-intensity charged particle beams and plasmas in both the electrostatic and electromagnetic regimes, with a wide variety of integrated physics models and diagnostics. At pre-sent, Sirepo supports a small subset of Warp’s capabilities. Warp is open source and is part of the Berkeley Lab Accelerator Simulation Toolkit.",
+    "laborHours": 158824.8,
+    "name": "Sirepo - Warp",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/radiasoft/sirepo",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

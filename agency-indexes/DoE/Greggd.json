@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "vossjm@ornl.gov"
+    },
+    "date": {
+        "created": "2020-08-07",
+        "metadataLastUpdated": "2020-09-08"
+    },
+    "description": "greg(g)d - Global runtime for eBPF-enabled gathering (w/ gumption) daemon\n\nRecently the linux kernel has added support for low-level kernel monitoring and\nprofiling through a in-kernel virtual machine. The tooling around these new\nfeatures (the extended Berkley Packet Filter or eBPF for short) is not mature\nand is difficult to use. Benefits from eBPF are especially hard to realize\nwhile trying to do large scale deployments and integrate with existing metric\nanalysis stacks. A tool was needed to enable loading and collecting data from\neBPF programs on large scale HPC systems.\n\nGiven the problems above it was obvious we needed some wrapper program to\ncompile, load, and collect data from eBPF programs running in the kernel. This\ntool needed to be lightweight without a heavy set of dependencies, relatively\nstable between different kernel versions, and integrate nicely with existing\nwidely used metric collection tools.\n\nWe wrote a program that wraps the eBPF tooling and sends data to our metric\ngathering tool. eBPF programs are either compiled using the host compiler\nstack, or loaded in the kernel directly from an object file. These programs are\nthen attached to the system calls that we want to profile. Whenever these\nsystem calls are run, the eBPF program collects information of interest and\nwrites that to memory. Our wrapper program polls these memory locations, reads\nand formats the data, then sends the information to a local unix socket. Our\nother monitoring tools are configured to read from that socket and send it to\nthe rest of our metric monitoring stack for analysis.",
+    "laborHours": 1033.6,
+    "languages": [
+        "Go"
+    ],
+    "name": "Greggd",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/olcf/greggd",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-05-08",
+        "metadataLastUpdated": "2020-05-08"
+    },
+    "description": "The Direct-FUSE framework supports multiple FUSE file systems as well as other, custom user-level file\nsystems in user space without the need to cross the user/kernel boundary into the FUSE kernel module.\nAll layers of Direct-FUSE are in user space, and applications can directly use pre-defined unified file\nsystem calls to interact with different user-defined file systems. Our performance results show that Direct-\nFUSE can outperform some native FUSE file systems by 11.9% on average and does not add significant\noverhead over backend file systems.\n",
+    "laborHours": 13588.8,
+    "languages": [],
+    "name": "Direct-FUSE",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/direct-fuse",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

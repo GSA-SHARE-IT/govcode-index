@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "zhangc@ornl.gov"
+    },
+    "date": {
+        "created": "2024-01-08",
+        "metadataLastUpdated": "2024-01-08"
+    },
+    "description": "Contains software that is used to process the raw tpx3 data into hit and events.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "ornlneutronimaging/mcpevent2hist",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ornlneutronimaging/mcpevent2hist",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "2.2.0"
+}

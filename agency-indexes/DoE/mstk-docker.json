@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2019-02-12",
+        "metadataLastUpdated": "2019-02-13"
+    },
+    "description": "Enable developers to run the Granta MI Scripting Toolkit (MSTK) within a docker container. Developers who work with the MSTK can use this tool to test their code on various operating systems, as well as load custom Python libraries as desired. This can help to replicate an environment as close to production as possible. The MSTK does not officially support macOS, as such this docker project allows macOS users to quickly spin up an environment to develop with the toolkit without the need to use a dedicated VM.",
+    "laborHours": 106.4,
+    "languages": [],
+    "name": "mstk-docker",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/mstk-docker",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

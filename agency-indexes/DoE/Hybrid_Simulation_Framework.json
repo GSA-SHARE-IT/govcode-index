@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "philip.gaskill@inl.gov"
+    },
+    "date": {
+        "created": "2021-04-02",
+        "metadataLastUpdated": "2023-03-08"
+    },
+    "description": "HYBRID is a modeling toolset to assess the economic viability of Nuclear-Renewable Integrated Energy Systems (N-R IES). The frameworks enabling this toolset are INL’s RAVEN, its CashFlow plugin and the Modelica language. The toolset includes sample RAVEN workflows performing economic assessments. These workflows consist of: generation of stochastic time series and application of probabilistic analysis and optimization algorithms (RAVEN); a library of Modelica models representing the physical behavior of N-R IES; and the CashFlow plugin mapping physical performance to economic performance. The toolset allows assembling existing and new models such as nuclear reactors, renewable energy sources, energy storage, gas turbines, industrial processes, etc. into an N-R IES. The toolset workflows evaluate the dynamics of the N-R IES responding to stochastic conditions (electricity demand, price, etc.) and optimize the dispatch economics as well as N-R IES capacity planning.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Hybrid Simulation Framework",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/HYBRID",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

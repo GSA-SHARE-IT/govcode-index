@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-09-17",
+        "metadataLastUpdated": "2021-09-17"
+    },
+    "description": "LW3D is code for modeling beam dynamics in particle accelerators including Lienard-Wiechert self-fields. It is similar to codes like IMPACT-T except that the Poisson solver is replaced by a Lienard-Wiechert solver. Along with space-charge effects, the code can model effects like coherent synchrotron radiation.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LW3D v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LienardWiechert/LW3D",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

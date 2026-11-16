@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "charles.tripp@nrel.gov"
+    },
+    "date": {
+        "created": "2021-09-03",
+        "metadataLastUpdated": "2021-11-30"
+    },
+    "description": "SSRS (Stochastic Soaring Raptor Simulator) is a generalizable, probabilistic, and predictive tool for wind energy developers, ecologists, wildlife managers and industry consultants to estimate the potential for soaring raptors to interact with operating wind turbines, without the need for site-specific data collection. Rapid expansion of wind energy development across the world has exposed the risk of turbine collisions for birds and bats. The risk to obligate soaring raptors such as golden eagles is of particular concern due to their small population and influence on ecological balance. Golden eagles rely heavily on updrafts to subsidize their flight, putting them in direct conflict with operational wind turbines that utilize the same wind resource. Understanding the behavior of soaring raptors with varying atmospheric conditions is crucial for predicting and mitigating the risk of turbine collision. This software contains a predictive movement model that simulates individual flight paths of golden eagles during updraft-subsidized long-distance flight, including migration. For a given set of atmospheric conditions, the model simulates thousands of eagles at turbine-scale spatial resolution (50m) to produce a relative presence density map. The simulated eagles rely on updrafts to pursue uninterrupted directional flight with minimal energy expenditure, following fluid-flow principles. The simulator includes a stochastic model of eagle behavior and a systematic method of accounting for spatiotemporal variations in atmospheric conditions. This framework only requires publicly available atmospheric data to estimate orographic and thermal updrafts, ensuring general usability.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "SSRS (Stochastic Soaring Raptor Simulator)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/SSRS",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

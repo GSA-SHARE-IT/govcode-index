@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-09-22",
+        "metadataLastUpdated": "2023-09-22"
+    },
+    "description": "This library builds a framework for defending ML models against adversarial attacks. The library will be developed at various stages leading to publication and software release at each stage. We employ tensor decomposition strategies as preprocessing stages for the first stage to provide robustness against the prominent adversarial noise. In the second stage, we develop a latent noise generator capable of generating novel adversarial noise that threatens the existing state-of-the-art defense strategy. In the third stage, we develop a UNSUP-GAN model, where the generator is trained to denoise against latent noise and most adversarial noises. This generator can provide a robust adversarial attack against any unseen attack.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "AdversarialTensors",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/AdversarialTensors",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

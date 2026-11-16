@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-03-16",
+        "metadataLastUpdated": "2021-03-22"
+    },
+    "description": "The ability to analyze network flow characteristics is critical to understand network patterns that can help us understand how our networks are behaving. Merope is a collection of many unsupervised learning approaches and visualizers to allow networks to be more visual and analytical.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Merope: Unsupervised Learning for Network Operations (Merope) v1",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/esnet/hylia_networkprediction",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

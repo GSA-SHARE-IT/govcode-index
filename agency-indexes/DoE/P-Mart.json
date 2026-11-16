@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2021-05-21",
+        "metadataLastUpdated": "2021-06-10"
+    },
+    "description": "P-Mart was designed specifically to allow cancer researchers to perform robust statistical processing of publicly available cancer proteomic datasets. To date an online statistical processing suite for proteomics does not exist. The P-Mart software is designed to allow statistical programmers to utilize these algorithms through packages in the R programming language as well as offering a web-based interface using the Azure cloud technology. The Azure cloud technology also allows the release of the software via Docker containers.",
+    "homepageURL": "https://pmart.labworks.org/index.html",
+    "laborHours": 0.0,
+    "languages": [
+        "Java"
+    ],
+    "name": "P-Mart",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://pmart.labworks.org/index.html",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://pmart.labworks.org/index.html",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

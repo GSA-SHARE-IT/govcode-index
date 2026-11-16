@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "maggiel@slac.stanford.edu"
+    },
+    "date": {
+        "created": "2018-02-14",
+        "metadataLastUpdated": "2018-03-14"
+    },
+    "description": "PyCA (Python Channel Access) is a module that offers lightweight bindings for Python applications to access EPICS PVs. It acts as a channel access client, much like pyepics. The intention of the module is to provide better performance for embedded applications, rather than to provide an interactive interface. The most significant gains will be found when monitoring large waveforms that need to be processed before exposing them the Python layer.",
+    "laborHours": 2021.6,
+    "name": "pyca",
+    "organization": "SLAC National Accelerator Laboratory (SLAC)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/slaclab/pyca/blob/master/LICENSE.md",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/slaclab/pyca",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "SLAC National Accelerator Laboratory (SLAC)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2018-12-03",
+        "metadataLastUpdated": "2018-12-03"
+    },
+    "description": "Code #1 solves the one-dimensional Poisson equation and outputs the band bending poteatial near a metal-semiconductor interface.\nCode #2 uses the output of code #1 and calculates the contact resistivity of the interface.\n",
+    "homepageURL": "http://www.sandia.gov/nanocarb/research.php",
+    "laborHours": 0.0,
+    "languages": [
+        "Fortran"
+    ],
+    "name": "Band Bending/Contact Resistivity Codes v. 1",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "http://www.sandia.gov/nanocarb/research.php",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "version": "v1"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "wasim1@llnl.gov"
+    },
+    "date": {
+        "created": "2024-07-01",
+        "metadataLastUpdated": "2024-07-01"
+    },
+    "description": "Artifact Description of the Cerebras TriLabs SC'24 conference paper. Include details and procedures for how to reproduce timing computations.",
+    "laborHours": 45.6,
+    "languages": [],
+    "name": "Cerebras TriLabs SC'24 paper Artifact Description",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/CerebrasTrilabs-SC24AD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1"
+}

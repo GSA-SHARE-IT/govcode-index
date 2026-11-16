@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-04-22",
+        "metadataLastUpdated": "2021-04-22"
+    },
+    "description": "This software package is a set of Python-based tools for forecasting future time series of electrical power demand for a granular set of customer types in California, based on historical data on individual customers' demand, combined with aggregate forecasts of demand growth.",
+    "homepageURL": "https://buildings.lbl.gov/download-phase-3-dr-potential-study",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "LBNL-Load",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://buildings.lbl.gov/download-phase-3-dr-potential-study",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

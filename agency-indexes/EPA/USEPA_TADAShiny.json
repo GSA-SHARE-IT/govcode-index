@@ -1,0 +1,33 @@
+{
+    "name": "USEPA/TADAShiny",
+    "organization": "usepa",
+    "description": "TADAShiny is a R Shiny application (link to web version below) built on top of the TADA R Package (https://github.com/USEPA/TADA). It provides a user friendly, web accessible interface.",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/TADAShiny/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/TADAShiny",
+    "downloadURL": "https://github.com/USEPA/TADAShiny/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/TADAShiny/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/TADAShiny.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2021-12-17T20:54:35Z",
+        "lastModified": "2026-11-02T23:45:18Z",
+        "metadataLastUpdated": "2026-11-16T06:39:58.568Z"
+    }
+}

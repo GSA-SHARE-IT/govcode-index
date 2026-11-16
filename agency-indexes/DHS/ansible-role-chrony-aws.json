@@ -1,0 +1,36 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-08-28",
+        "lastModified": "2026-05-29"
+    },
+    "description": "An Ansible role to install chrony and configure it to use Amazon Time Sync Service.",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-chrony-aws/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-chrony-aws",
+    "laborHours": 758.6,
+    "languages": [
+        "Shell",
+        "Python",
+        "Jinja"
+    ],
+    "name": "ansible-role-chrony-aws",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-chrony-aws.git",
+    "status": "Development",
+    "tags": [
+        "github"
+    ],
+    "vcs": "git"
+}

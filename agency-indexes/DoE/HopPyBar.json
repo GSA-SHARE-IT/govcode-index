@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2023-07-28",
+        "metadataLastUpdated": "2023-07-28"
+    },
+    "description": "HopPyBar is a python program to import, analyze, and export split-Hopkinson pressure bar (SHPB, also known as Kolsky bar) data. Traditional analysis offers a black box approach, where input data is converted to analyzed output by performing a series of calculations without user involvement. This program serves as a developmental platform to \"white box\" the data analysis process. Data streams can be captured (in-situ) to enable advanced or unconventional analyses, statistics, and comparisons. Additionally, the program is geared towards the standardized forms of input and output used at LANL to streamline analysis, but the open nature of the program makes additional input/output schemes straightforward to add. General workflow will import SHPB data in one of a number of formats, identify relevant portions of data signals, and convert to stress-strain-strain rate to show material behavior as a function of dynamic testing.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "HopPyBar",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/HopPyBar",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,37 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2019-05-07",
+        "lastModified": "2026-06-01"
+    },
+    "description": "An Ansible role for installing cisagov/code-gov-update.",
+    "downloadURL": "https://api.github.com/repos/cisagov/ansible-role-code-gov-update/downloads",
+    "homepageURL": "https://github.com/cisagov/ansible-role-code-gov-update",
+    "laborHours": 750.9,
+    "languages": [
+        "Shell",
+        "Python",
+        "Jinja"
+    ],
+    "name": "ansible-role-code-gov-update",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/ansible-role-code-gov-update.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "ansible-role"
+    ],
+    "vcs": "git"
+}

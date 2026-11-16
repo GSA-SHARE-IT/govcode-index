@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "gilmorem@osti.gov"
+    },
+    "date": {
+        "created": "2018-06-13",
+        "metadataLastUpdated": "2022-09-14"
+    },
+    "description": "COBRA-SFS (Spent Fuel Storage) is a code for thermal-hydraulic analysis of multi-assembly spent fuel storage and transportation systems. It uses a lumped parameter finite difference approach to predict flow and temperature distributions in spent fuel storage systems and fuel assemblies, under forced and natural convection heat transfer conditions. Derived from the COBRA family of codes, which have been extensively evaluated against in-pile and out-of-pile data, COBRA-SFS retains all the important features of the COBRA codes for single phase fluid analysis, and extends the range application to include problems with two-dimensional radiative and three-dimensional conductive heat transfer. COBRA-SFS has been used to analyze various single- and multi-assembly spent fuel storage systems containing unconsolidated and consolidated fuel rods, with a variety of fill media, including air, helium and vacuum. Cycle 0 of COBRA-SFS was released in 1986. Subsequent applications of the code led to development of additional capabilities, which resulted in the release of Cycle 1 in February 1989. Since then, the code has undergone an independent technical review as part of a submittal to the Nuclear Regulatory Commission for a generic license to apply the code to spent fuel storage system analysis. Modifications and improvements to the code have been combined to form Cycle 2. Cycle 3., the newest version of COBRA-SFS, has been validated and verified for transient applications, such as a storage cask thermal response to a pool fire.",
+    "homepageURL": "https://www.pnnl.gov/available-technologies",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Thermal Hydraulic Analysis of Spent Fuel Casks",
+    "organization": "Office of Scientific and Technical Information (OSTI)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://www.pnnl.gov/available-technologies",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://www.pnnl.gov/available-technologies",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Office of Scientific and Technical Information (OSTI)"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kms@lbl.gov"
+    },
+    "date": {
+        "created": "2021-07-14",
+        "metadataLastUpdated": "2021-07-14"
+    },
+    "description": "Intuitive GUI for manipulating microscope stages, allowing to align crystallographic data with stages, allowing to align crystallographic data with stage coordinates and microscope images. Simulates kinematic diffraction patterns and Kikuchi line patterns. Simulated patterns can be displayed as overlay to actually measured data, allowing manual fingerprinting and angular alignment. Crystallographic data is fed to the program in form of CIF (crystallographic information file) files, which are available from many databases and cover virtually all crystal structure ever reported in any journal. Actual goniometer scales can be linearized by lookup tables, program can be used with any microscope goniometer, double tilt and tilt-rotation type. Software requirements: Win32 platform (XP); Compiler/Version: Borland C++ Builder 5; Type of files: Executable modules; Hardware requirement: PC",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "KSpaceNavigator (KSN)",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.osti.gov/osti-public/kspacenavigator",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2022-06-15",
+        "metadataLastUpdated": "2022-06-15"
+    },
+    "description": "The software provides a framework to build a fast look up layer that reflects the holdings of an archive or database and operates between search/discovery system and disk storage. The software utilizes Bloom filter (BF) data structure. The discovery service powered by the Bloom filter layer comes with a very high level of accuracy yet space-saving, since BF compresses data to fit into RAM.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Bloom Filter framework for Web Archives",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/lanl/bloomfiltersforwebarchives",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

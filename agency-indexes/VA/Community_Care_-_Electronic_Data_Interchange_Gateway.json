@@ -1,0 +1,45 @@
+{
+    "id": 2455,
+    "name": "Community Care - Electronic Data Interchange Gateway",
+    "organization": "OIT DSO",
+    "version": "PI 1 S4",
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/Redacted-Public-Release-CC-EDI-P2-iter-PI-1-S4-Jun-2020",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "EDI GW",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Red Hat Enterprise Linux",
+        "HealthShare",
+        "MOVEit Transfer",
+        "MOVEit Automation"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-28",
+        "lastModified": "2020-10-05",
+        "metadataLastUpdated": "2020-10-05"
+    },
+    "description": "Repository containing the CIF submission for Community Care Electronic Data Interchange Phase 2 iter PI 1 S4 rec Jun 2020."
+}

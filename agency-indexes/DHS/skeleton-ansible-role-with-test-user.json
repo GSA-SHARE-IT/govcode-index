@@ -1,0 +1,39 @@
+{
+    "contact": {
+        "URL": "https://github.com/cisagov",
+        "email": "do_not_email_just_use_github@dhs.gov"
+    },
+    "date": {
+        "created": "2020-08-13",
+        "lastModified": "2026-11-06"
+    },
+    "description": "A skeleton project for quickly getting a new cisagov Ansible role started when that role requires an AWS test user.",
+    "downloadURL": "https://api.github.com/repos/cisagov/skeleton-ansible-role-with-test-user/downloads",
+    "homepageURL": "https://github.com/cisagov/skeleton-ansible-role-with-test-user",
+    "laborHours": 884.8,
+    "languages": [
+        "Shell",
+        "HCL",
+        "Jinja",
+        "Python"
+    ],
+    "name": "skeleton-ansible-role-with-test-user",
+    "organization": "Cybersecurity and Infrastructure Security Agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/cc0-1.0",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/cisagov/skeleton-ansible-role-with-test-user.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "ansible-role",
+        "skeleton"
+    ],
+    "vcs": "git"
+}

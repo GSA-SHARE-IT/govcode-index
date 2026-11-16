@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "gautama@ornl.gov"
+    },
+    "date": {
+        "created": "2025-03-26",
+        "metadataLastUpdated": "2025-03-26"
+    },
+    "description": "NeuroCoreX is an open-source codebase that enables the implementation of brain-inspired, energy-efficient neuromorphic computing models on FPGA hardware. Designed to support real-time learning, all-to-all neural connectivity, and flexible network architectures, NeuroCoreX offers a hands-on, accessible platform for exploring biologically inspired models of neural computation. It empowers researchers, students, and developers to implement and experiment with adaptive systems—bringing the power of neuromorphic computing to a broader community through a low-cost, scalable, and reconfigurable framework.",
+    "laborHours": 0.0,
+    "languages": [
+        "VHDL"
+    ],
+    "name": "NeuroCoreX: Brain-Inspired Computing from Code to Circuit",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/NeuroCoreX",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2020-05-13",
+        "metadataLastUpdated": "2020-09-11"
+    },
+    "description": "Modern processors offer a wide range of control and measurement features, such as performance\ncounters, power capping, and thermal control. These features are ultimately controlled through Model\nSpecific Registers (MSRs), which require elevated privileges for access. While this is often no problem on\nindividual workstations, it is a significant security risk on multi-user systems and large-scale compute\nclusters. The msr-safe kernel module provides controlled user-level access to MSRs through a\nwhitelisting mechanism.\nIs",
+    "laborHours": 2614.4,
+    "languages": [],
+    "name": "msr-safe",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-2.0",
+                "name": "GPL-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/msr-safe",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.4.0"
+}

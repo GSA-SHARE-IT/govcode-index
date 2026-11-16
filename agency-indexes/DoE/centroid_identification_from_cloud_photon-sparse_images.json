@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andreasv@uidaho.edu"
+    },
+    "date": {
+        "created": "2022-12-21",
+        "metadataLastUpdated": "2023-02-02"
+    },
+    "description": "A Matlab script that allows the computation of single-photon centroids from photon-sparse cloud images.",
+    "laborHours": 0.0,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "centroid identification from cloud photon-sparse images",
+    "organization": "Contractor (CONTR)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/aevasdekis/photon-sparse",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Contractor (CONTR)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-11-18",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Python package to be used when working with the DDAO method of visualizing phosphatase activity in the rhizosphere.  Includes a module with functions that generate figures for analysis of phosphatase levels in images of soil and root based on pixel intensity. These functions can be used on images with a single root or multiple roots. Figures include distance maps to show how phosphatase levels change as you move away from the root and along the roots themselves, line plots to show average phosphatase levels moving down the root and the soil surrounding the root, 2D histograms to show how phosphatase levels change moving away from the root, and 1D histograms to show overall differences in phosphatase distribution depending on whether a root was grown next to a phosphorus source or not.",
+    "laborHours": 273.6,
+    "languages": [],
+    "name": "pnnl/rhizo_phosph",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/rhizo_phosph",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}

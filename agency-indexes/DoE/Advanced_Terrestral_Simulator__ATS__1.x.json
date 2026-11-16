@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-08-12",
+        "metadataLastUpdated": "2021-08-12"
+    },
+    "description": "The Advanced Terrestrial Simulator (ATS) is a code for solving multiscale ecosystem-based, integrated, distributed hydrology.  It builds on the multi-physics framework and toolsets (mesh infrastructure, discretizations, solvers) provided by Amanzi (original release LA-CC-10-069, new release pending in FCI) and is a key driver of development of the flexible multiphysics framework Acros (LA-CC-14-053). Capabilities are largely based on solving various forms of variably saturated subsurface flow (e.g., Richards equation) coupled to a surface flow equation, along with the needed sources and sinks for ecosystem and climate models.  This can (but need not) include thermal processes (especially ice for frozen soils), evapo-transpiration, albedo-driven surface energy balances, snow, biogeochemistry, plant dynamics, deformation, solute and contaminant transport, erosion and sediment transport, and much more. It is unique in its thermal integrated hydrology capabilities, which include thermal energy with freeze/thaw processes in both the surface and subsurface water, and its reactive transport capabilities, which are also coupled in both surface and subsurface water. Like Amanzi, the ATS uses the Alquimia interface library to couple its transport capabilities with biogeochemical reaction engines (e.g., PFLOTRAN and CrunchFlow). The ATS has been used to explore how a wide range of ecosystems function under a variety of environmental drivers, including the evolution of polygonal permafrost in the warming arctic [1,2], the impact of forest fires on the water quality of streams in the Jaramillo watershed, and the impact of seawater intrusion on vegetation in salt water marshes on the Delaware. \n\n[1] Painter, S. L., E. T. Coon, A. L. Atchley, M. Berndt, R. Garimella, J. D. Moulton,D. Svyatskiy, and C. J. Wilson, Integrated surface/subsurface permafrost thermal hydrology: Model formulation and proof-of-concept simulations,Water Resour. Res.,52,6062–6077, 2016. https://doi.org/10.1002/2015WR018427\n[2] Jafarov, E. E., E. T. Coon, D. R. Harp, C. J. Wilson, S. L. Painter, A. L. Atchley, V. E. Romanovsky, Modeling the role of preferential snow accumulation in through talik development and hillslope groundwater flow in a transitional permafrost landscape, Environmental Research Letters, 13(10):105006, 2018. https://doi.org/10.1088/1748-9326/aadd30",
+    "homepageURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Advanced Terrestral Simulator (ATS) 1.x",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://www.lanl.gov/projects/feynman-center/deploying-innovation/intellectual-property/software-tools/open-source-software.php",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ]
+}

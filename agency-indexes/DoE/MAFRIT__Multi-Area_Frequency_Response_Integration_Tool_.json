@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-03-18",
+        "metadataLastUpdated": "2020-04-03"
+    },
+    "description": "The Multi-Area Frequency Response Integration Tool (MAFRIT) is the only software tool of its kind that integrates primary frequency response (turbine governor control) with secondary frequency response (automatic generation control). It simulates the power system dynamic response in full time spectrum with variable time steps from millisecond to minutes to hours and days. Capable of simulating both normal and event conditions, this tool can represent real power system operations and thus evaluate the primary and secondary reserves adequacy. This unique interaction of a turbine governor model and a novel automatic generation control model places special emphasis on electric power systems with high penetrations of renewable generation.",
+    "laborHours": 3967.2,
+    "languages": [
+        "MATLAB"
+    ],
+    "name": "MAFRIT (Multi-Area Frequency Response Integration Tool)",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/MAFRIT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

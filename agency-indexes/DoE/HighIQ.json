@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "dkrakowski@anl.gov"
+    },
+    "date": {
+        "created": "2020-05-27",
+        "metadataLastUpdated": "2020-09-18"
+    },
+    "description": "This software is for the processing of raw IQ data from radars and lidars that uses CUDA-compatible GPUs such as those in the Array of Things.",
+    "laborHours": 410.4,
+    "languages": [],
+    "name": "HighIQ",
+    "organization": "Argonne National Laboratory (ANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/openradar/HighIQ",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Argonne National Laboratory (ANL)"
+    ],
+    "vcs": "git"
+}

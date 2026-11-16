@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "leytonorteva@ornl.gov"
+    },
+    "date": {
+        "created": "2022-08-05",
+        "metadataLastUpdated": "2022-08-08"
+    },
+    "description": "This code creates the pulse structure of a given gate or quantum operation on the IBM superconducting quantum processors. The script constructs the pulse sequence for the gate inverse, not the mirror, that can be applied in a quantum circuit.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Quantum process inversion at the Pulse Level",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://gitlab.osti.gov/leytonorteva/gate-inversion-at-the-pulse-level.git",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ]
+}

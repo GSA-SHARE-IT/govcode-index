@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "chan@lanl.gov"
+    },
+    "date": {
+        "created": "2021-07-02",
+        "metadataLastUpdated": "2021-07-02"
+    },
+    "description": "I am submitting an umbrella/blanket disclosure because I am working on several inter-related projects in a fast-moving research area.  The general theme is statistical analysis and visualization of SARS-CoV-2 viral genetic sequence data in order to learn about epidemiology.  Examples of research questions are:  How do viral genetic relationships relate to contact tracing links?  How does viral genetics reflect signatures of transmission from one person to another?  Do some genetic variants have a consistent transmission advantage?",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Blanket Phylogenetic and genetic analyses of SARS-CoV-2 epidemiology",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/eeg-lanl/sarscov2-selection",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

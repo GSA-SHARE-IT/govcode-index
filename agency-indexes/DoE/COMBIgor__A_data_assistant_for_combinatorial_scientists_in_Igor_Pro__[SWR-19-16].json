@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2019-05-13",
+        "metadataLastUpdated": "2024-12-19"
+    },
+    "description": "Combinatorial materials science experiments involve synthesis and spatially-resolved characterization of thin film sample libraries. As a result, the modern combinatorial materials science laboratory produces large, diverse, and complex data sets, requiring automation of analysis and visualization techniques. COMBIgor is a software package aimed to assist a combinatorial material scientists with large volumes of experimental data. This package, written in Igor Pro, offers a systematic approach to the loading, processing, and visualizing combinatorial data sets. COMBIgor is designed to be expanded on a laboratory, group, or individual basis to adopt additional loading, processing and visualization capabilities. By utilizing COMBIgor software package the burden of data management in combinatorial materials science experiments can be significantly reduced.",
+    "laborHours": 13588.8,
+    "languages": [],
+    "name": "COMBIgor (A data assistant for combinatorial scientists in Igor Pro) [SWR-19-16]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/CombIgor",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

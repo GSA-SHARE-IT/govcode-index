@@ -1,0 +1,46 @@
+{
+    "id": 2037,
+    "name": "Multiple Sclerosis Surveillance Registry",
+    "organization": "OIT DSO",
+    "version": null,
+    "status": "Production",
+    "permissions": {
+        "usageType": "governmentWideReuse",
+        "licenses": [
+            {
+                "name": "",
+                "opRL": ""
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/department-of-veterans-affairs",
+    "downloadURL": "https://github.com/department-of-veterans-affairs",
+    "repositoryURL": "https://github.com/department-of-veterans-affairs/foia-roeg-ms-surveillance-registry",
+    "disclaimerText": "License information not currently available. Information forthcoming.",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+        "MSSR",
+        "Production",
+        "governmentWideReuse"
+    ],
+    "languages": [
+        "Microsoft Internet Information Services (IIS)",
+        "Microsoft Structured Query Language (SQL) Server",
+        "Windows Server",
+        "ASP.NET Core",
+        "Microsoft .NET Framework"
+    ],
+    "contact": {
+        "name": "DSO Code Sharing Services",
+        "email": "OSSOFT@va.gov",
+        "URL": "https://www.va.gov",
+        "phone": "844-698-2311"
+    },
+    "date": {
+        "created": "2020-04-28",
+        "lastModified": "2021-01-26",
+        "metadataLastUpdated": "2021-01-26"
+    },
+    "description": "Repository containing the FOIA Releases for Multiple Sclerosis Surveillance Registry"
+}

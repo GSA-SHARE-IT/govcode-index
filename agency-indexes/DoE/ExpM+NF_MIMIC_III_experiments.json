@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bridgesra@ornl.gov"
+    },
+    "date": {
+        "created": "2024-06-11",
+        "metadataLastUpdated": "2024-06-11"
+    },
+    "description": "This code allows reproduction of results in the paper\n\n\"Are Normalizing Flows the Key to Unlocking the Exponential Mechanism? \" https://arxiv.org/abs/2311.09200\n\nThe code here provides implementation of our experiments where we test if we can training models with ExpM+NF alongside and in comparison with DPSGD and non-private training.",
+    "laborHours": 21994.4,
+    "languages": [],
+    "name": "ExpM+NF MIMIC III experiments",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/bridgesra/expm_nf_mimic3_results_code",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

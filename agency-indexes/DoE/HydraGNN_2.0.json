@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "lupopasinim@ornl.gov"
+    },
+    "date": {
+        "created": "2023-05-01",
+        "metadataLastUpdated": "2023-05-01"
+    },
+    "description": "HydraGNN is an Oak Ridge National Laboratory (ORNL)-branded implementation of distributed multi-tasking graph neural networks that supports several scientific applications within the ORNL portfolio to support the US-DOE mission.\n\nNew or improved capabilities included in v2.0.0 release are as follows:\n\n1) Enhancement in message passing layers through class inheritance\n2) Adding transformation to ensure translation and rotation invariance\n3) Supporting various optimizers\n4) Atomic descriptors\n5) Integration with continuous CI test\n6) Distributed printouts and timers\n7) Profiling\n8) Support of ADIOS2 for scalable data loading\n9) Large-scale system support, including Summit (ORNL) and Perlmutter (NERSC)",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "HydraGNN 2.0",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/HydraGNN/releases/tag/v2.0.0",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "v2.0.0"
+}

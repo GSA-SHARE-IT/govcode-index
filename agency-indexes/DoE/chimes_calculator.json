@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-02-03",
+        "metadataLastUpdated": "2021-03-11"
+    },
+    "description": "The Chebyshev Interaction Model for Efficient Simulation (ChIMES) is a machine-learned interatomic potential targeting chemistry in condensed phase systems. ChIMES models are able to approach\nquantum-accuracy through a systematically improvable explicitly many-bodied basis comprised of linear combinations of Chebyshev polynomials. Though originally developed as to enable description of organic molecular materials, ChIMES has successfully been applied to systems spanning ambient water to molten carbon, and leveraged as correction for density functional based tight binding simulations. The\nChIMES calculator comprises a flexible toolset for evaluating ChIMES interactions (e.g. in simulations, single point calculations, etc). Users have the option of directly imbedding the ChIMES calculator within their codes, or evaluating interactions through the beginner-friendly serial interface, each of which have\nPython, C++, C, and Fortran API's.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "chimes_calculator",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-3.0",
+                "name": "LGPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/rk-lindsey/chimes_calculator",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git"
+}

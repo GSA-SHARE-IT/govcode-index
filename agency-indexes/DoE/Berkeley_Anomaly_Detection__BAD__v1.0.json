@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "svince@lbl.gov"
+    },
+    "date": {
+        "created": "2019-01-25",
+        "metadataLastUpdated": "2019-01-31"
+    },
+    "description": "The software is for detecting and identifying anomalies within gamma-ray spectra. The design enables quick implementation, testing, comparison, and deployment of different anomaly and identification algorithms. The software currently contains implementations of four algorithms, two of which are common place within the field, and two that novel research products from this effort.",
+    "homepageURL": "https://ipo.lbl.gov/marketplace",
+    "laborHours": 3815.2,
+    "languages": [],
+    "name": "Berkeley Anomaly Detection (BAD) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://ipo.lbl.gov/marketplace",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://ipo.lbl.gov/marketplace",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ]
+}

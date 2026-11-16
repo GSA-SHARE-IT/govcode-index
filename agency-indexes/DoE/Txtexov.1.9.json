@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2024-08-06"
+    },
+    "description": "Txtexo will convert a file in the structured text output format created by exotxt back to an exodusII database file. The text file must conform to the format written by the exotxt program but it can be modified as long as the data are consistent. Txtexo is used to convert the structured text file created by the exotxt code to a binary exodusII database.",
+    "laborHours": 692284.0,
+    "languages": [],
+    "name": "Txtexov.1.9",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/seacas",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.9"
+}

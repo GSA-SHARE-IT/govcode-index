@@ -1,0 +1,40 @@
+{
+    "contact": {
+        "URL": "https://github.com/CDCgov",
+        "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+        "created": "2020-04-15",
+        "lastModified": "2021-05-13"
+    },
+    "description": "GeneFlow: A Workflow Engine for Bioinformatics and Public Health Analytics",
+    "downloadURL": "https://api.github.com/repos/CDCgov/geneflow2/downloads",
+    "homepageURL": "https://github.com/CDCgov/geneflow2",
+    "laborHours": 0,
+    "languages": [
+        "Python",
+        "Shell",
+        "Jinja",
+        "Dockerfile"
+    ],
+    "name": "geneflow2",
+    "organization": "Centers for Disease Control and Prevention",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "git://github.com/CDCgov/geneflow2.git",
+    "status": "Development",
+    "tags": [
+        "github",
+        "bioinformatics",
+        "python",
+        "workflow"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "angela.hupp@nrel.gov"
+    },
+    "date": {
+        "created": "2022-05-06",
+        "metadataLastUpdated": "2023-10-25"
+    },
+    "description": "WPGNN is the graph neural network machine learning based surrogate model and software that provides a streamlined approximation of wind plant wake models. It can rapidly estimate the energy production of the plant and turbines for any arbitrarily sized wind plant and layout under any inflow condition. Associated tools include graphing and visualization capabilities as well as a wind plant generator capable of creating randomized realizations of canonical wind plant layouts. The WPGNN architecture and application is extendable to multiple wake models, turbine technologies and features, and supports downstream optimizations of wind plant layouts and control strategies. In addition to the WPGNN, we include the code for the plant layout generator (PLayGen) playgen.py. This generator can produce random realizations of realistic wind plant layouts from one of the four canonical styles: cluster, single string, multiple string, or parallel string. The PLayGen_demo.ipynb notebook provides a demonstration of how to use the generator tool.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python",
+        "Jupyter Notebook"
+    ],
+    "name": "WPGNN and PLayGen (Wind Plant Graph Neural Network and Plant Layout Generator) [SWR-21-90]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/apache-2.0",
+                "name": "Apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/WPGNN",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

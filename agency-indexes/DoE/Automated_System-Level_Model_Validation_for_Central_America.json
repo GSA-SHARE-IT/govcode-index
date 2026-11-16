@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2019-07-26",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "PNNL is developing an automated procedure to perform the system-level model validation for the Central America power grid, which includes six countries and one power system equivalent model for Mexico representation is also considered. The specific features for this invention are given as follows: 1) Automated case integration of Mexico equivalent model and Central America grid model; 2) Automated power system event replay based on system-level dynamic simulations; 3) Automated extraction and comparison of power flow conditions/measurements/quantities between SCADA/PMU data and simulated data for pre-event, during event and post-event stages; 4) One procedure to identify potential mismatch in power flow conditions and erroneous model parameters in power system dynamic models.",
+    "homepageURL": "https://availabletechnologies.pnnl.gov",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Automated System-Level Model Validation for Central America",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://availabletechnologies.pnnl.gov",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://availabletechnologies.pnnl.gov",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ]
+}

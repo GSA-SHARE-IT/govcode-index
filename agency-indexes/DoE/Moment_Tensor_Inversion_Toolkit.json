@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "cabrera11@llnl.gov"
+    },
+    "date": {
+        "created": "2024-09-20",
+        "metadataLastUpdated": "2024-09-20"
+    },
+    "description": "The MTINV toolkit (2002-present) is a collection of computer codes and applications written to invert for\nthe moment tensor of a seismic source given the three components of ground motion recorded at regional\nseismic stations (e.g., Ichinose et al., 2003). The computer codes and workflow are organized to\ngenerate moment tensor solutions for a range of source depths and origin times because of the trade-off\nbetween these two quantities. The metric used is the variance reduction and variance reduction\nmodulated by the percent double-couple to determine the best-fit moment-tensor solution. We can solve\nfor a deviatoric moment tensor with a constraint added for no isotropic component although this constraint\ncan be lifted for estimating the full moment tensor like mining collapses or explosion sources.",
+    "laborHours": 40325.6,
+    "languages": [],
+    "name": "Moment Tensor Inversion Toolkit",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/mtinv",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "4.0.2"
+}

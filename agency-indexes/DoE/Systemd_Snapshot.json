@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "huettelmr@ornl.gov"
+    },
+    "date": {
+        "created": "2024-04-26",
+        "metadataLastUpdated": "2024-04-26"
+    },
+    "description": "Systemd Snapshot is a static analysis tool for Linux systems that use systemd. It aims to enumerate, aggregate, and investigate systemd services without requiring an operational system. The tool produces a set of JSON files that consolidates not only systemd information, but additional forensic information associated with systemd artifacts. A graph is also produced based on the relationships and ordering defined in systemd unit files and the binaries they specify.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Systemd Snapshot",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/Systemd_Snapshot",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

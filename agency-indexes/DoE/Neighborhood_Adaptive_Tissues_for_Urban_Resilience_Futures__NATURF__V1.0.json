@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "allenmr@ornl.gov"
+    },
+    "date": {
+        "created": "2024-05-31",
+        "metadataLastUpdated": "2024-06-05"
+    },
+    "description": "This new version of NATURF, Version 1.0, builds on Version 0 by streamlining the code, decreasing its runtime and combining multiple modules into one convenient pip-installable package.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Neighborhood Adaptive Tissues for Urban Resilience Futures (NATURF) V1.0",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/IMMM-SFA/naturf",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

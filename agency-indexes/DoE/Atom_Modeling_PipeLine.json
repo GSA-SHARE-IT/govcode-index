@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "arroyo7@llnl.gov"
+    },
+    "date": {
+        "created": "2019-12-11",
+        "metadataLastUpdated": "2019-12-11"
+    },
+    "description": "This repository contains code for the computational framework to build ML models for drug discovery\npurposes. \n\nOur end-to-end pipeline extracts features from model-ready datasets and trains and saves the model to our model zoo or to disk.\n\nOur pipeline generates a variety of molecular features and both shallow and deep ML models.\n\nThe HPC-specific module we have developed conducts efficient parallelized search of the model hyperparameter space and reports the best-performing hyperparameters for each of these feature/model combinations.",
+    "laborHours": 34656.0,
+    "languages": [],
+    "name": "Atom Modeling PipeLine",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ATOMconsortium/AMPL",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

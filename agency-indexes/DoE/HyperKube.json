@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "martins@ornl.gov"
+    },
+    "date": {
+        "created": "2023-11-01",
+        "metadataLastUpdated": "2024-01-30"
+    },
+    "description": "A kubernetes based pipeline for analyzing hyperspectral data",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "HyperKube",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/gpl-3.0",
+                "name": "GPL-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/StantonMartin/hyperkube",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git"
+}

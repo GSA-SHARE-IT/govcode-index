@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "rogersdm@ornl.gov"
+    },
+    "date": {
+        "created": "2022-01-11",
+        "metadataLastUpdated": "2022-01-11"
+    },
+    "description": "This package provides a secure transport layer connecting mini-applications run as components of a server infrastructure.  The guiding principle is that mini-apps should be \"actors\" -- able to expose a set of API calls to the network and to have a shared trust model for knowing who is calling which API function and who takes\nresponsibility for the result.",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "Actor API",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/mit",
+                "name": "MIT"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://code.ornl.gov/99R/actor_api",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "yhuang@pppl.gov"
+    },
+    "date": {
+        "created": "2018-08-10",
+        "metadataLastUpdated": "2018-08-14"
+    },
+    "description": "HMHD is a massively parallel, general purpose 3D extended MHD code. HMHD is written in Fortran 90 and parallelized with MPI for domain decomposition, augmented with OpenMP for multi-threading in each domain.",
+    "homepageURL": "https://theory.pppl.gov/research/research.php?rid=10#h48",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "HMHD",
+    "organization": "Princeton Plasma Physics Laboratory (PPPL)",
+    "permissions": {
+        "exemptionText": "This source code is restricted by patent and / or intellectual property law.",
+        "licenses": [
+            {
+                "URL": "https://theory.pppl.gov/research/TheoryCodeLicenseReleaseForm.pdf",
+                "name": "Other"
+            }
+        ],
+        "usageType": "exemptByLaw"
+    },
+    "repositoryURL": "https://theory.pppl.gov/research/research.php?rid=10#h48",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Princeton Plasma Physics Laboratory (PPPL)"
+    ]
+}

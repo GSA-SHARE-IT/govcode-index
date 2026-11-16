@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "kathleen_m@lanl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "The contact control code is a generalized force control scheme meant to interface with a robotic arm being controlled using the Robot Operating System (ROS). The code allows the user to specify a control scheme for each control dimension in a way that many different control task controllers could be built from the same generalized controller. The input to the code includes maximum velocity, maximum force, maximum displacement, and a control law assigned to each direction and the output is a 6 degree of freedom velocity command that is sent to the robot controller.",
+    "laborHours": 7174.4,
+    "name": "Contact Control, Version 1",
+    "organization": "Los Alamos National Laboratory (LANL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/UTNuclearRoboticsPublic/contact_control/blob/master/License.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/UTNuclearRoboticsPublic/contact_control",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Los Alamos National Laboratory (LANL)"
+    ],
+    "vcs": "git"
+}

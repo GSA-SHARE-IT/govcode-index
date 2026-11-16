@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "email": "suzanne.hoffman@nrel.gov"
+    },
+    "date": {
+        "created": "2018-09-12",
+        "metadataLastUpdated": "2024-02-09"
+    },
+    "description": "OpenStudio® AWS uses the OpenStudio AWS ruby class to launch a server and multiple workers for doing OpenStudio®/EnergyPlus® Analyses using Amazon AWS/EC2.",
+    "laborHours": 1261.6,
+    "languages": [
+        "shell",
+        "Ruby"
+    ],
+    "name": "OpenStudio® AWS Gem [SWR-07-40]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://github.com/NREL/OpenStudio-aws-gem/blob/develop/License.txt",
+                "name": "Other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/OpenStudio-aws-gem",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.8"
+}

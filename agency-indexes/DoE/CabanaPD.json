@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "reevest@ornl.gov"
+    },
+    "date": {
+        "created": "2022-08-23",
+        "metadataLastUpdated": "2022-09-16"
+    },
+    "description": "CabanaPD is a meshfree peridynamics application built with Cabana and Kokkos. Kokkos enables performance portability across hardware architectures and Cabana provides particle capabilities including multi-node MPI support. The main components of CabanaPD are particle initialization, neighbor list generation, force and energy computation, time integration, and multi-node particle communication. In addition, options for creating pre-cracked regions and particle boundary conditions are available. CabanaPD currently enables two common force models: prototype microelastic brittle (PMB) and linear peridynamic solid (LPS). For both of these models, versions with and without fracture as well as linearized model options are available. CabanaPD is designed to be extensible for addition of more complex force models, boundary conditions, etc.",
+    "laborHours": 0.0,
+    "languages": [
+        "C++"
+    ],
+    "name": "CabanaPD",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/CabanaPD",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "0.1.0"
+}

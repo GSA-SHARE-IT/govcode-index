@@ -1,0 +1,33 @@
+{
+    "contact": {
+        "email": "andrew.hess@nrel.gov"
+    },
+    "date": {
+        "created": "2020-03-04",
+        "metadataLastUpdated": "2023-08-25"
+    },
+    "description": "The Renewable Energy Potential (reV) model is a platform for the detailed assessment of renewable energy resources and their geospatial intersection with grid infrastructure and land use characteristics. The reV model currently supports photovoltaic (PV), concentrating solar power (CSP), and land-based wind turbine technologies. Modules in the reV framework function at different spatial and temporal resolutions, allowing for the assessment of resource potential, technical potential, and supply curves at varying levels of detail. The platform runs on the National Renewable Energy Laboratory’s (NREL’s) high-performance computing system, providing scalable and efficient performance from a single location up to a continent, for a single year or decades of time-series resource data. Coupled with NREL’s System Advisor Model (SAM), reV supports resource assessments from 5-minute to hourly temporal resolutions and supports the analysis of long-term (i.e., year-on-year) variability of renewable generation (e.g., interannual variability and exceedance probabilities).",
+    "laborHours": 250526.4,
+    "languages": [
+        "Python"
+    ],
+    "name": "reV (The Renewable Energy Potential Model - Open Source) [SWR-21-59, SWR-20-20 and SWR-17-34]",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/NREL/reV",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "National Renewable Energy Laboratory (NREL)"
+    ],
+    "vcs": "git"
+}

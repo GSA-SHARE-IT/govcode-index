@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "lupopasinim@ornl.gov"
+    },
+    "date": {
+        "created": "2021-07-23",
+        "metadataLastUpdated": "2021-07-23"
+    },
+    "description": "We propose a stable, distributed approach to perform AA that accelerates the convergence rate of stochastic first-order optimizers to train neural networks.\nDifferently from previous works, we do not alter neither the scheme to perform AA nor the loss function minimized during the training. \nTo improve robustness against stagnation, we customize general guidelines that suggest to relax the frequency of AA corrections by performing AA only at the end of an entire training epoch. \nTo improve robustness of AA against the stochastic oscillations of first-order optimizers, we average the gradients computed on consecutive stochastic optimization updates. The improved regularity of the converging sequence and the reduced amplitude of stochastic oscillations across consecutive optimization steps allows AA to efficiently extrapolate an improved converging sequence, thereby overcoming limitations of existing approaches to perform AA on stochastic optimization.\n \n",
+    "laborHours": 0.0,
+    "languages": [
+        "Python"
+    ],
+    "name": "AADL: Anderson Accelerated Deep Learning",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/ORNL/AADL.git",
+    "status": "Development",
+    "tags": [
+        "DOE CODE",
+        "Oak Ridge National Laboratory (ORNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

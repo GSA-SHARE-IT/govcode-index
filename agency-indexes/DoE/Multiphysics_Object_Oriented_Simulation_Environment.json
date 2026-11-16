@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "christopher.kowalczyk@inl.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2023-03-15"
+    },
+    "description": "The Multiphysics Object Oriented Simulation Environment (MOOSE) software library developed at Idaho National Laboratory is a tool. MOOSE, like other tools, doesn't actually complete a task. Instead, MOOSE seeks to reduce the effort required to create engineering simulation applications. MOOSE itself is a software library: a blank canvas upon which you write equations and then MOOSE can help you solve them. MOOSE is comparable to a spreadsheet application. A spreadsheet, by itself, doesn't do anything. Only once equations are entered into it will a spreadsheet application compute anything. Such is the same for MOOSE. An engineer or scientist can utilize the equation solvers within MOOSE to solve equations related to their area of study. For instance, a geomechanical scientist can input equations related to water flow in underground reservoirs and MOOSE can solve those equations to give the scientist an idea of how water could move over time. An engineer might input equations related to the forces in steel beams in order to understand the load bearing capacity of a bridge. Because MOOSE is a blank canvas it can be useful in many scientific and engineering pursuits.",
+    "laborHours": 1085021.6,
+    "languages": [],
+    "name": "Multiphysics Object Oriented Simulation Environment",
+    "organization": "Idaho National Laboratory (INL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/idaholab/moose",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Idaho National Laboratory (INL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "email": "copyrightadmin@sandia.gov"
+    },
+    "date": {
+        "created": "2024-09-25",
+        "metadataLastUpdated": "2024-09-25"
+    },
+    "description": "SAND2024-11300O\nTChem-atm is a software library that was developed to solve complex kinetic models for atmospheric chemistry applications. TChem-atm interface employs a hierarchical parallelism design to exploit the massive parallelism available from modern computing platforms. It also supports gas atmospheric chemistry applications, e.g., the energy exascale earth system model. TChem can be used as a box model or coupled with a climate model to compute the time evolution of gas tracer species.  Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.",
+    "laborHours": 34519.2,
+    "languages": [
+        "C++"
+    ],
+    "name": "TChem-atm v1.0",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-2-clause",
+                "name": "BSD-2-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/TChem-atm",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "In the cyber security operations of a typical organization, data from multiple sources are monitored, and when certain conditions in the data are met, an alert is generated in an alert management system. Analysts inspect these alerts to decide if any deserve promotion to an event requiring further scrutiny. This triage process is manual, time-consuming, and detracts from the in-depth investigation of events. We have created a software system that uses supervised machine learning to automatically prioritize these alerts. In particular we utilize active learning to make efficient use of the pool of unlabeled alerts, thereby improving the performance of our ranking models over passive learning. We have demonstrated the effectiveness of our system on a large, real-world dataset of cyber security alerts.",
+    "laborHours": 2508.0,
+    "name": "Alert Triage v 0.1 beta",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/sandialabs/alert-triage",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "email": "jcrouch@sandia.gov"
+    },
+    "date": {
+        "created": "2017-10-25",
+        "metadataLastUpdated": "2017-10-25"
+    },
+    "description": "Pamgen creates, in parallel, hexahedral or quadrilateral (in 2D) finite element meshes of cubes, cylinders, and portions of cylinders. For some analysis applications it can obviate the normally serial analysis preparation steps of mesh generation and decomposition. Bypassing these serial steps allows construction of large element count (over a billion) meshes. When linked to an application as a library, it allows each process of a parallel simulation to generate its own finite element domain representation at execution time. As a stand-alone application it can produce the representation of the mesh for processor n of k possible processors. The Pamgen library and application are serial as the mesh generation proceeds without reliance on inter-processor communication.",
+    "laborHours": 8344830.4,
+    "name": "Pamgen",
+    "organization": "Sandia National Laboratories (SNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/lgpl-2.1",
+                "name": "LGPL-2.1"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/trilinos/Trilinos",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Sandia National Laboratories (SNL)"
+    ],
+    "vcs": "git"
+}

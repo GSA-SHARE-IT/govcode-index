@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "ntheodore@lbl.gov"
+    },
+    "date": {
+        "created": "2024-06-25",
+        "metadataLastUpdated": "2024-06-25"
+    },
+    "description": "It is a serial/parallel code for fast electron beam longitudinal\nforward or backward tracking through an electron linear accelerator.\n\nThis codes includes longitudinal space-charge effect, structure\nand resistive wall wakefields, and longitudinal coherent synchrotron radiation effect.\n\nTo use it as a parallel code, please comment out the \"use mpistub\" in BeamBunch.f90, rename mpif.h as mpif.hh,\nand use the Makefile_parallel as Makefile.",
+    "laborHours": 942.4,
+    "languages": [],
+    "name": "Electron Beam Longitudinal Tracking (EBLT) v1.0",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/qianglbl/EBLT",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Berkeley National Laboratory (LBNL)"
+    ],
+    "vcs": "git"
+}

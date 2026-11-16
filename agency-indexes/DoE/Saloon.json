@@ -1,0 +1,32 @@
+{
+    "contact": {
+        "email": "bledsoe2@llnl.gov"
+    },
+    "date": {
+        "created": "2021-02-24",
+        "metadataLastUpdated": "2021-02-24"
+    },
+    "description": "Saloon is a Vim plugin that simplifies Python code linter / fixer configuration and usage.\nSaloon's menu lets developers toggle which static analysis tools to use and delegates those changes to\nALE's (Asynchronous Lint Engine) API. Since prospector (python linter aggregate) already handles multiple tools, and is integrated with ALE, most of the actual linting will initially be handled via prospector calls.",
+    "laborHours": 0.0,
+    "languages": [],
+    "name": "Saloon",
+    "organization": "Lawrence Livermore National Laboratory (LLNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/LLNL/Saloon",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Lawrence Livermore National Laboratory (LLNL)"
+    ],
+    "vcs": "git",
+    "version": "1.0"
+}

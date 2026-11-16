@@ -1,0 +1,31 @@
+{
+    "contact": {
+        "email": "david.long@pnnl.gov"
+    },
+    "date": {
+        "created": "2020-05-01",
+        "metadataLastUpdated": "2024-06-18"
+    },
+    "description": "Automated Raabe table generationPyRaabe is a Python package to automate Raabe table -- a graph representation of airway geometry -- generation from a triangulated surface of an airway geometry. With a single command, it extracts a centerline from an input 3D surface mesh and subsequently computes the relevant attributes for the Raabe table, including length, diameter, bifurcation angle, and gravity angle. These can be used to inform downstream models, such as the Multiple-Path Particle Dosimetry (MPPD) model.",
+    "laborHours": 91.2,
+    "languages": [],
+    "name": "pnnl/pyraabe",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "permissions": {
+        "exemptionText": null,
+        "licenses": [
+            {
+                "URL": "https://api.github.com/licenses/bsd-3-clause",
+                "name": "BSD-3-Clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/pnnl/pyraabe",
+    "status": "Production",
+    "tags": [
+        "DOE CODE",
+        "Pacific Northwest National Laboratory (PNNL)"
+    ],
+    "vcs": "git"
+}
