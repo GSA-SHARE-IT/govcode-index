@@ -29,6 +29,7 @@ jobs:
 
       - name: Download agency indexes
         run: python scripts/pull_index_assets.py
+        continue-on-error: true
 
       - name: Commit updated indexes
         run: |

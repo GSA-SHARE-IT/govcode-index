@@ -23,5 +23,8 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
       - name: Run downloader tests
         run: python -m unittest discover -s tests -v
