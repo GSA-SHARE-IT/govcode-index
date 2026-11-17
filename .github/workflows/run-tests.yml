@@ -1,11 +1,11 @@
-name: Test agency index downloader
+name: Run Unit Tests
 
 on:
   pull_request:
     paths:
-      - "scripts/pull_index_assets.py"
+      - "scripts/**"
       - "tests/**"
-      - ".github/workflows/test-pull-index-assets.yml"
+      - ".github/workflows/run-tests.yml"
 
 permissions:
   contents: read
@@ -26,5 +26,5 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run downloader tests
+      - name: Run tests
         run: python -m unittest discover -s tests -v

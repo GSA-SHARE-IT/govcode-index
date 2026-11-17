@@ -12,7 +12,6 @@ logger = logging.getLogger(__name__)
 SCHEMA_VERSION = "1.0.0"
 SCHEMA_BASE_URL = "https://gsa-share-it.github.io/codejson-schemas/schemas/agency-index"
 
-
 def get_schema_url(version: str = SCHEMA_VERSION) -> str:
     """
     Get the full URL for a schema version.
@@ -179,42 +178,3 @@ def validate_agency_index(index: dict, version: str, agencies: set) -> tuple[boo
             errors.append(str(e.message))
         
         return False, errors
-
-
-def validate_agency_indexes(indexes: list, version: str, agencies: set) -> tuple[bool, list]:
-    """
-    Validate a list of agency indexes against schema requirements using jsonschema.
-    
-    Args:
-        indexes: List of agency index objects
-        version: Expected schema version
-        agencies: Set of valid agency acronyms
-        
-    Returns:
-        Tuple of (is_valid, list_of_error_messages)
-    """
-    all_errors = []
-    
-    # Validate that input is array
-    if not isinstance(indexes, list):
-        return False, [f"Input must be array, got {type(indexes).__name__}"]
-    
-    if len(indexes) == 0:
-        return False, ["No agency indexes to validate"]
-    
-    # Validate each agency index
-    for idx, agency_index in enumerate(indexes):
-        if not isinstance(agency_index, dict):
-            all_errors.append(f"Index {idx}: Expected object, got {type(agency_index).__name__}")
-            continue
-        
-        is_valid, errors = validate_agency_index(agency_index, version, agencies)
-        
-        if not is_valid:
-            agency_name = agency_index.get("agency", "UNKNOWN")
-            error_prefix = f"Index {idx} ({agency_name})"
-            all_errors.append(f"{error_prefix}: {len(errors)} validation error(s)")
-            for error in errors:
-                all_errors.append(f"  - {error}")
-    
-    return len(all_errors) == 0, all_errors

@@ -6,7 +6,6 @@ from .schema import (
     initialize_schema_config,
     get_schema_url,
     validate_agency_index,
-    validate_agency_indexes,
 )
 
 __all__ = [
@@ -15,5 +14,4 @@ __all__ = [
     "initialize_schema_config",
     "get_schema_url",
     "validate_agency_index",
-    "validate_agency_indexes",
 ]
