@@ -1,8 +1,6 @@
 """Comprehensive tests for normalization rules.
-
 Tests verify both structural (3a) and value (3b) normalization stages
 using realistic data similar to actual project records from agency-indexes.
-
 These tests ensure data integrity when normalizing code.json project objects.
 """
 
@@ -19,7 +17,7 @@ class StructuralNormalizationTests(unittest.TestCase):
     # =========================================================================
 
     def test_rename_legacy_id_to_identifier(self):
-        """Legacy 'id' field should be renamed to 'identifier'."""
+        """Legacy 'id' field should be renamed to 'identifier' and coerced to string."""
         project = {
             "id": 2294,
             "name": "Test Project",
@@ -31,9 +29,11 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertNotIn("id", normalized)
-        self.assertEqual(normalized.get("identifier"), 2294)
+        # Identifier should be coerced to string
+        self.assertEqual(normalized.get("identifier"), "2294")
+        self.assertIsInstance(normalized.get("identifier"), str)
 
     def test_rename_legacy_repository_to_repositoryURL(self):
         """Legacy 'repository' field should be renamed to 'repositoryURL'."""
@@ -48,7 +48,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertNotIn("repository", normalized)
         self.assertEqual(normalized.get("repositoryURL"), "https://github.com/test/repo")
 
@@ -66,7 +66,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertNotIn("homepage", normalized)
         self.assertEqual(normalized.get("homepageURL"), "https://example.com")
 
@@ -84,7 +84,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertEqual(normalized.get("identifier"), "schema-id")
 
     # =========================================================================
@@ -105,7 +105,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertNotIn("updated", normalized)
         self.assertEqual(normalized.get("date", {}).get("lastModified"), "2023-01-15T00:00:00Z")
 
@@ -123,12 +123,136 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertNotIn("exemptionText", normalized)
         self.assertEqual(
             normalized.get("permissions", {}).get("exemptionText"),
             "Classified information"
         )
+
+    def test_migrate_openSourceProject_to_usageType(self):
+        """Legacy 'openSourceProject' field with value 1 should migrate to usageType."""
+        project = {
+            "name": "Test Project",
+            "identifier": "test-123",
+            "organization": "Test Org",
+            "status": "Production",
+            "repositoryURL": "https://github.com/test/repo",
+            "openSourceProject": 1,
+            "repositoryVisibility": "public",
+            "maintenance": "internal",
+            "feedbackMechanism": "https://github.com/test/repo/issues",
+        }
+        normalized = normalize_project(project)
+
+        self.assertNotIn("openSourceProject", normalized)
+        self.assertIn("permissions", normalized)
+        self.assertIn("usageType", normalized["permissions"])
+        self.assertIn("openSource", normalized["permissions"]["usageType"])
+
+    def test_migrate_governmentWideReuseProject_to_usageType(self):
+        """Legacy 'governmentWideReuseProject' field with value 1 should migrate to usageType."""
+        project = {
+            "name": "Test Project",
+            "identifier": "test-123",
+            "organization": "Test Org",
+            "status": "Production",
+            "repositoryURL": "https://github.com/test/repo",
+            "governmentWideReuseProject": 1,
+            "repositoryVisibility": "public",
+            "maintenance": "internal",
+            "feedbackMechanism": "https://github.com/test/repo/issues",
+        }
+        normalized = normalize_project(project)
+
+        self.assertNotIn("governmentWideReuseProject", normalized)
+        self.assertIn("permissions", normalized)
+        self.assertIn("usageType", normalized["permissions"])
+        self.assertIn("governmentWideReuse", normalized["permissions"]["usageType"])
+
+    def test_migrate_both_project_fields_to_usageType(self):
+        """Both legacy project fields with value 1 should both be in usageType."""
+        project = {
+            "name": "Test Project",
+            "identifier": "test-123",
+            "organization": "Test Org",
+            "status": "Production",
+            "repositoryURL": "https://github.com/test/repo",
+            "openSourceProject": 1,
+            "governmentWideReuseProject": 1,
+            "repositoryVisibility": "public",
+            "maintenance": "internal",
+            "feedbackMechanism": "https://github.com/test/repo/issues",
+        }
+        normalized = normalize_project(project)
+
+        self.assertNotIn("openSourceProject", normalized)
+        self.assertNotIn("governmentWideReuseProject", normalized)
+        usage_type = normalized["permissions"]["usageType"]
+        self.assertIn("openSource", usage_type)
+        self.assertIn("governmentWideReuse", usage_type)
+        self.assertEqual(len(usage_type), 2)
+
+    def test_drop_project_fields_with_non_1_values(self):
+        """Legacy project fields with values other than 1 should be dropped."""
+        project = {
+            "name": "Test Project",
+            "identifier": "test-123",
+            "organization": "Test Org",
+            "status": "Production",
+            "repositoryURL": "https://github.com/test/repo",
+            "openSourceProject": 0,
+            "governmentWideReuseProject": 0,
+            "repositoryVisibility": "public",
+            "maintenance": "internal",
+            "feedbackMechanism": "https://github.com/test/repo/issues",
+        }
+        normalized = normalize_project(project)
+
+        self.assertNotIn("openSourceProject", normalized)
+        self.assertNotIn("governmentWideReuseProject", normalized)
+        # Should not have created permissions or usageType
+        self.assertNotIn("permissions", normalized)
+
+    def test_migrate_project_field_string_1(self):
+        """Legacy project field with string value '1' should also be migrated."""
+        project = {
+            "name": "Test Project",
+            "identifier": "test-123",
+            "organization": "Test Org",
+            "status": "Production",
+            "repositoryURL": "https://github.com/test/repo",
+            "openSourceProject": "1",
+            "repositoryVisibility": "public",
+            "maintenance": "internal",
+            "feedbackMechanism": "https://github.com/test/repo/issues",
+        }
+        normalized = normalize_project(project)
+
+        self.assertNotIn("openSourceProject", normalized)
+        self.assertIn("openSource", normalized["permissions"]["usageType"])
+
+    def test_migrate_project_field_preserves_existing_usageType(self):
+        """Legacy project field should be added to existing usageType, not replace it."""
+        project = {
+            "name": "Test Project",
+            "identifier": "test-123",
+            "organization": "Test Org",
+            "status": "Production",
+            "repositoryURL": "https://github.com/test/repo",
+            "permissions": {
+                "usageType": ["exemptByNationalSecurity"]
+            },
+            "openSourceProject": 1,
+            "repositoryVisibility": "public",
+            "maintenance": "internal",
+            "feedbackMechanism": "https://github.com/test/repo/issues",
+        }
+        normalized = normalize_project(project)
+
+        usage_type = normalized["permissions"]["usageType"]
+        self.assertIn("openSource", usage_type)
+        self.assertIn("exemptByNationalSecurity", usage_type)
 
     # =========================================================================
     # Required String Fields (trim, empty -> null)
@@ -147,7 +271,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "  https://github.com/test/repo/issues  ",
         }
         normalized = normalize_project(project)
-        
+
         self.assertEqual(normalized["name"], "Test Project")
         self.assertEqual(normalized["identifier"], "test-123")
         self.assertEqual(normalized["organization"], "Test Org")
@@ -166,7 +290,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertIsNone(normalized.get("name"))
 
     # =========================================================================
@@ -189,7 +313,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertNotIn("description", normalized)
         self.assertNotIn("homepageURL", normalized)
         self.assertNotIn("downloadURL", normalized)
@@ -208,7 +332,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertEqual(normalized["description"], "A test project")
 
     # =========================================================================
@@ -229,7 +353,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertEqual(normalized["version"], "7.2")
         self.assertIsInstance(normalized["version"], str)
 
@@ -247,7 +371,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertEqual(normalized["version"], "TMP 4.8.0")
 
     # =========================================================================
@@ -275,7 +399,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         licenses = normalized["permissions"]["licenses"]
         self.assertIsInstance(licenses, list)
         self.assertEqual(len(licenses), 1)
@@ -299,7 +423,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         usage = normalized["permissions"]["usageType"]
         self.assertIsInstance(usage, list)
 
@@ -320,7 +444,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertEqual(normalized["permissions"]["licenses"], [])
 
     # =========================================================================
@@ -341,7 +465,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertEqual(normalized["laborHours"], 152.5)
         self.assertIsInstance(normalized["laborHours"], (int, float))
 
@@ -368,7 +492,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         # Should have trimmed, removed empty, deduplicated
         self.assertIn("languages", normalized)
 
@@ -390,7 +514,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertIn("tags", normalized)
 
     # =========================================================================
@@ -415,7 +539,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         # Should wrap in array
         related = normalized.get("relatedCode")
         self.assertIsInstance(related, list)
@@ -445,7 +569,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         date_obj = normalized["date"]
         self.assertIn("created", date_obj)
         self.assertNotIn("extra_field", date_obj)
@@ -473,7 +597,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         contact = normalized["contact"]
         self.assertIn("name", contact)
         self.assertIn("email", contact)
@@ -498,7 +622,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertNotIn("contact", normalized)
 
     # =========================================================================
@@ -520,7 +644,7 @@ class StructuralNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertIn("customField", normalized)
         self.assertEqual(normalized["customField"], "extra-data")
         self.assertIn("anotherExtra", normalized)

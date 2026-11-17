@@ -1,39 +1,70 @@
 # Normalization Rules
 
 ## **STRUCTURAL NORMALIZATION RULES (Stage 3a)**
-*Fixes the SHAPE of records: renames, hoists, strips extra keys, coerces types, trims strings, handles empty values*
+
+_Fixes the SHAPE of records: renames, hoists, strips extra keys, coerces types, trims strings, handles empty values_
 
 ### **Key-Level Transformations**
 
 **1. Legacy Key Renames** (`rename_top_level`)
+
 - `repository` → `repositoryURL`
 - `homepage` → `homepageURL`
 - `id` → `identifier`
 - Conflict handling: Keep schema key if it exists and isn't empty
 
 **2. Nested Key Renames** (`rename_updated`)
+
 - `updated` (top-level) → `date.lastModified`
 - Creates `date` object if needed
 - Schema key wins on conflict
 
 **3. Field Hoisting** (`hoist_exemption_text`)
+
 - `exemptionText` (top-level) → `permissions.exemptionText`
 - Creates `permissions` object if needed
 - Schema key wins on conflict
 
+**4. Legacy Usage Fields Migration** (`struct_migrate_legacy_usage_fields`)
+
+- Migrates legacy boolean project-type fields to `permissions.usageType`
+- **openSourceProject:**
+  - If value is `1` or `"1"` → adds `"openSource"` to `permissions.usageType`
+  - Any other value → field is dropped
+- **governmentWideReuseProject:**
+  - If value is `1` or `"1"` → adds `"governmentWideReuse"` to `permissions.usageType`
+  - Any other value → field is dropped
+- **Behavior:**
+  - Both legacy fields are removed from the record after processing
+  - Creates `permissions` object if needed
+  - Adds to existing `usageType` array (doesn't replace)
+  - Avoids duplicates in `usageType`
+  - If neither field equals 1, `permissions` object is not created
+
 ---
 
 ### **Required String Fields** (`struct_clean_required_strings`)
-*Fields: name, identifier, organization, status, repositoryURL, repositoryVisibility, maintenance, feedbackMechanism*
 
-- **Trim whitespace** (both ends)
-- **Empty string → null** (if field is present)
-- **Non-string values**: Log unexpected type (keep as-is)
+_Fields: name, identifier, organization, status, repositoryURL, repositoryVisibility, maintenance, feedbackMechanism_
+
+- **String values:**
+  - Trim whitespace (both ends)
+  - Empty string → null
+
+- **Non-string values (Coercion):** ⭐ _Enhanced_
+  - Coerce to string using `str(value)`
+  - Trim whitespace after coercion
+  - Empty result after coercion → null
+  - Coercion failure → null
+  - Examples:
+    - Numeric identifier `2294` (int) → `"2294"` (string)
+    - Non-numeric types → attempted coercion with logging
 
 ---
 
 ### **Optional String Fields** (`struct_clean_optional_strings`)
-*Fields: description, homepageURL, downloadURL, disclaimerURL, disclaimerText, vcs, SBOM, AIUseCaseID*
+
+_Fields: description, homepageURL, downloadURL, disclaimerURL, disclaimerText, vcs, SBOM, AIUseCaseID_
 
 - **Trim whitespace**
 - **Empty string/null → omit field** (delete key)
@@ -42,6 +73,7 @@
 ---
 
 ### **Version Field** (`struct_clean_version`)
+
 - **Number types → string** (coerce int/float to string)
 - **Trim whitespace** if string
 - **Empty string/null → omit**
@@ -53,6 +85,7 @@
 ### **Permissions Object** (`struct_clean_permissions`)
 
 **Permissions structure:**
+
 - Strip unrecognized keys (keep only: `licenses`, `usageType`, `exemptionText`)
 - **`licenses` array:**
   - Null → empty list
@@ -60,11 +93,11 @@
   - Each item: strip to `{name, URL}` only
   - Empty values → null
   - Drop completely empty items
-  
+
 - **`usageType` array:**
   - Null → empty list
   - Ensure list type, trim strings
-  
+
 - **`exemptionText` field:**
   - Trim whitespace
   - Empty → null
@@ -72,7 +105,8 @@
 ---
 
 ### **Reuse Frequency** (`struct_clean_reuse_frequency`)
-*Object with optional fields: forks, clones, downloads*
+
+_Object with optional fields: forks, clones, downloads_
 
 - **Coerce to integers** (from strings/floats)
 - **Empty/null values → omit**
@@ -81,6 +115,7 @@
 ---
 
 ### **Labor Hours** (`struct_clean_labor_hours`)
+
 - **Coerce to number** (int or float, from strings)
 - **Empty/null/non-numeric → omit**
 
@@ -89,12 +124,14 @@
 ### **String Lists** (`struct_clean_string_lists`)
 
 **Languages array:**
+
 - Null → omit field
 - Ensure array type
 - Trim strings, remove empty items
 - Empty result → omit
 
 **Tags array:**
+
 - Null → omit field
 - Ensure array type
 - Trim strings, remove empty items
@@ -102,19 +139,22 @@
 ---
 
 ### **Object Lists** (`struct_clean_object_list`)
-*Applied to: relatedCode, reusedCode, partners*
+
+_Applied to: relatedCode, reusedCode, partners_
 
 **For each object in list:**
+
 - Strip to allowed keys only:
   - `relatedCode` / `reusedCode`: `{name, URL}`
   - `partners`: `{name, email}`
-  
+
 - **Trim string fields** (by allowed key)
 - **Keep isGovernmentRepo** as boolean (if present in relatedCode)
 - **Drop non-object items**
 - **Drop completely empty items** (all allowed fields empty)
 
 **List handling:**
+
 - Single object → wrap in array
 - Non-array type → log unexpected, skip
 - Empty result → omit field
@@ -122,7 +162,8 @@
 ---
 
 ### **Date Object** (`struct_clean_date`)
-*Object with optional fields: created, lastModified, metadataLastUpdated*
+
+_Object with optional fields: created, lastModified, metadataLastUpdated_
 
 - Strip unrecognized keys (keep only: `created`, `lastModified`, `metadataLastUpdated`)
 - **Trim string fields**
@@ -132,7 +173,8 @@
 ---
 
 ### **Contact Object** (`struct_clean_contact`)
-*Object with optional fields: email, name*
+
+_Object with optional fields: email, name_
 
 - Strip unrecognized keys (keep only: `email`, `name`)
 - **Trim string fields**
@@ -143,6 +185,7 @@
 ---
 
 ### **Strip Extra Keys**
+
 Applied throughout: Keep only schema-defined keys in nested objects
 
 ---
@@ -150,11 +193,34 @@ Applied throughout: Keep only schema-defined keys in nested objects
 ---
 
 ## **VALUE NORMALIZATION RULES (Stage 3b)**
-*Normalizes VALUES: validates, maps to enums, parses formats, canonicalizes*
+
+_Normalizes VALUES: validates, maps to enums, parses formats, canonicalizes_
+
+### **URL Parsing** (`parse_url`) ⭐ _Enhanced_
+
+**URL validation and normalization helper:**
+
+- **Scheme requirement**: URLs must have a scheme (http, https, etc.)
+- **Automatic HTTPS prefix fallback:** ⭐ _New_
+  - If URL lacks a scheme but has a netloc (e.g., `www.apache.org/licenses/LICENSE-2.0`)
+  - Automatically prepends `https://` and re-parses
+  - Examples:
+    - Input: `"www.apache.org/licenses/LICENSE-2.0"` → `"https://www.apache.org/licenses/LICENSE-2.0"`
+    - Input: `"github.com/user/repo"` → `"https://github.com/user/repo"`
+- **Invalid URLs remain invalid**
+  - URLs with invalid characters or structure are still rejected
+  - Whitespace in URLs causes rejection
+
+---
 
 ### **Repository URL** (`value_clean_repository_url`)
+
 - **Special case**: String "private" → keep as-is
 - **Invalid URL → null**
+  - Now includes URLs without scheme (unless https:// prefix fallback succeeds)
+  - Examples:
+    - `"www.example.com/licenses/LICENSE-2.0"` → `"https://www.example.com/licenses/LICENSE-2.0"` ✓ (via parse_url fallback)
+    - `"not a url"` → null
 - **Bare domain** (just domain, no path):
   - Move to `homepageURL` (if empty)
   - Set `repositoryURL` to null
@@ -170,6 +236,7 @@ Applied throughout: Keep only schema-defined keys in nested objects
 ### **Status** (`value_clean_status`)
 
 **Mapping (case-insensitive):**
+
 - `ideation` → `Ideation`
 - `development` → `Development`
 - `alpha` → `Alpha`
@@ -179,6 +246,7 @@ Applied throughout: Keep only schema-defined keys in nested objects
 - `archival` → `Archival`
 
 **Unmapped values:**
+
 - Check if starts with known prefix (`alpha`, `beta`, `release candidate`)
 - If no match → set to null
 - Recognized by exact match in enum: keep as-is
@@ -186,19 +254,23 @@ Applied throughout: Keep only schema-defined keys in nested objects
 ---
 
 ### **Dates** (`value_clean_dates`)
-*Fields: created, lastModified, metadataLastUpdated*
+
+_Fields: created, lastModified, metadataLastUpdated_
 
 **Date parsing (in order):**
+
 1. Try YYYY/MM/DD format → convert to YYYY-MM-DD
 2. Try ISO 8601 format (with optional time and timezone)
 3. Try text formats: `%B %d, %Y` / `%b %d, %Y` / `%d %B %Y` / `%d %b %Y`
 
 **Output format:** RFC 3339 string
+
 - Date-only → `YYYY-MM-DDTHH:MM:SSZ` (assume 00:00:00 UTC)
 - With time → preserve, normalize timezone to ±HH:MM or Z
 - Invalid → omit field
 
 **Flags logged:**
+
 - `date_only`: No time component provided
 - `added_seconds`: Seconds inferred as 00
 - `assumed_utc`: No timezone provided, assumed UTC
@@ -206,9 +278,11 @@ Applied throughout: Keep only schema-defined keys in nested objects
 ---
 
 ### **Licenses** (`value_clean_licenses`)
-*Inside permissions.licenses array*
+
+_Inside permissions.licenses array_
 
 **Per license object:**
+
 1. **Drop if no `name` field**
 2. **Map `name` to enum:**
    - Direct match in enum → keep
@@ -224,9 +298,11 @@ Applied throughout: Keep only schema-defined keys in nested objects
 ---
 
 ### **Usage Type** (`value_clean_usage_type`)
-*Inside permissions.usageType array*
+
+_Inside permissions.usageType array_
 
 **Per usage value:**
+
 1. **Case-insensitive fuzzy match** to enum
 2. **Recognized values kept** (recased to canonical form):
    - `openSource`, `governmentWideReuse`, `exemptByNationalSecurity`, etc.
@@ -240,11 +316,13 @@ Applied throughout: Keep only schema-defined keys in nested objects
 ### **Tags** (`value_clean_tags_and_lists`)
 
 **Tags normalization:**
+
 - **Normalize each tag**: Remove extra whitespace, lowercase
 - **Drop empty tags**
 - **Deduplicate** (preserve order, first occurrence kept)
 
 **Languages & contractNumber (if lists):**
+
 - **Deduplicate** (keep order)
 
 ---
@@ -252,6 +330,7 @@ Applied throughout: Keep only schema-defined keys in nested objects
 ### **Labor Hours** (`value_clean_labor_hours`)
 
 **Value validation:**
+
 - **Zero → omit field**
 - **Negative → omit field**
 - **Bool type → skip (don't process)**
@@ -262,15 +341,18 @@ Applied throughout: Keep only schema-defined keys in nested objects
 ### **Contact Email** (`value_clean_contact_email`)
 
 **Email validation:**
+
 - **Valid format** (simple regex: `^[^@\s]+@[^@\s]+\.[^@\s]+$`): Keep
 - **Malformed → null**
 
 ---
 
 ### **Enum Fields** (`value_clean_enum`)
-*Applied to: vcs, repositoryVisibility, maintenance*
+
+_Applied to: vcs, repositoryVisibility, maintenance_
 
 **Per field:**
+
 - **Non-string values → skip**
 - **Lowercase match to enum:**
   - If matches → lowercase the value
@@ -279,6 +361,7 @@ Applied throughout: Keep only schema-defined keys in nested objects
     - **Optional field** → omit field
 
 **Enum values:**
+
 - **vcs**: `git`, `hg`, `svn`, `rcs`, `bzr`, `none`
 - **repositoryVisibility** (required): `public`, `private`
 - **maintenance** (required): `internal`, `contract`, `community`, `none`
@@ -286,12 +369,20 @@ Applied throughout: Keep only schema-defined keys in nested objects
 ---
 
 ### **URL Fields** (`value_clean_url_field`)
-*Applied to: homepageURL, downloadURL, disclaimerURL, feedbackMechanism*
+
+_Applied to: homepageURL, downloadURL, disclaimerURL, feedbackMechanism_
 
 **Per URL:**
+
+- **Automatic HTTPS prefix fallback:** ⭐ _Enhanced_
+  - URLs without scheme (e.g., `www.apache.org/...`) automatically get `https://` prepended
+  - Prevents valid URLs from becoming null
+  - Examples:
+    - `"www.apache.org/licenses/LICENSE-2.0"` → `"https://www.apache.org/licenses/LICENSE-2.0"` ✓
+    - License URLs in nested objects now preserved
 - **Upgrade to HTTPS** if applicable (HTTP → HTTPS, same host/path)
 - **Canonicalize** (lowercase scheme and netloc, trim path)
-- **Invalid → null**
+- **Invalid → null** (only after fallback attempt fails)
 - **Required field (feedbackMechanism) → must have valid URL or null**
 - **Optional fields → omit if null/empty**
 
@@ -299,9 +390,38 @@ Applied throughout: Keep only schema-defined keys in nested objects
 
 ## **Summary of Transformations**
 
-| **Stage** | **Purpose** | **Key Operations** |
-|-----------|-----------|-------------------|
-| **3a: Structural** | Fix record shape | Rename keys, hoist fields, strip extras, coerce types, trim strings, handle empties |
-| **3b: Value** | Normalize content | Map to enums, parse dates, canonicalize URLs, validate formats, deduplicate |
+| **Stage**          | **Purpose**       | **Key Operations**                                                                               |
+| ------------------ | ----------------- | ------------------------------------------------------------------------------------------------ |
+| **3a: Structural** | Fix record shape  | Rename keys, hoist fields, strip extras, **coerce types** ⭐, trim strings, handle empties       |
+| **3b: Value**      | Normalize content | Map to enums, parse dates, **canonicalize URLs with fallback** ⭐, validate formats, deduplicate |
 
 Both stages are **idempotent**: running twice produces the same result as running once.
+
+---
+
+## **Recent Enhancements** ⭐
+
+### **Identifier Type Coercion** (Structural - 3a)
+
+**Function:** `struct_clean_required_strings`
+
+- **Change**: Now coerces non-string identifiers to strings
+- **Motivation**: Support legacy numeric IDs (e.g., VA project IDs: `2294` → `"2294"`)
+- **Benefit**: Ensures all required string fields comply with schema before validation
+
+### **URL Parsing with HTTPS Prefix Fallback** (Value - 3b)
+
+**Functions:** `parse_url`, `value_clean_url_field`, `value_clean_repository_url`
+
+- **Change**: Automatically prepends `https://` to URLs without scheme
+- **Motivation**: Prevent valid URLs (like `www.apache.org/...`) from becoming null
+- **Benefit**: Preserves license URLs and other external links; improves data quality
+
+### **Integration with Validation Layer**
+
+These enhancements work together with the new validation module (`scripts/utils/validate.py`) to ensure:
+
+- All required fields are present (even if filled with defaults)
+- All fields have correct types (strings are strings, etc.)
+- URLs are valid and usable
+- Legacy numeric IDs are properly formatted

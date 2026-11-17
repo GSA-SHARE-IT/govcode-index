@@ -1,20 +1,15 @@
 """Normalization of code.json project records.
-
 Two-stage normalization pipeline:
-
 Structural Normalization (apply_structural_normalization):
   - Fixes the SHAPE of records: renames legacy keys, hoists misplaced fields,
     strips forbidden nested keys, coerces types, trims strings, handles empty values.
   - Functions prefixed with struct_* focus on record structure and type coercion.
-
 Value Normalization (apply_value_normalization):
   - Normalizes VALUES: licenses, usageType, status, dates, URLs, tags, etc.
   - Canonicalizes URLs, validates emails, enforces enums, parses date formats.
   - Functions prefixed with value_* focus on value validation and mapping.
-
 Target schema: code.json 0.1.0. Standard library only. Reusable in any pipeline.
 Idempotent: normalizing twice produces identical results.
-
 Public API:
   - normalize_project(project): Normalize a single project dict.
   - normalize_record(src, ctx=None): Internal; normalize with optional context.
@@ -266,6 +261,55 @@ def hoist_exemption_text(ctx, rec):
         ctx.log("dropped_legacy_key_conflict:exemptionText")
 
 
+def struct_migrate_legacy_usage_fields(ctx, rec):
+    """Migrate legacy governmentWideReuseProject and openSourceProject fields to usageType.
+    
+    If openSourceProject == 1, adds "openSource" to permissions.usageType.
+    If governmentWideReuseProject == 1, adds "governmentWideReuse" to permissions.usageType.
+    Removes both legacy fields after migration.
+    """
+    has_open_source = False
+    has_gov_reuse = False
+
+    # Check for openSourceProject == 1
+    if "openSourceProject" in rec:
+        val = rec.pop("openSourceProject")
+        if val == 1 or val == "1":
+            has_open_source = True
+            ctx.log("migrated_legacy_field:openSourceProject->usageType")
+        else:
+            ctx.log("dropped_legacy_field:openSourceProject")
+
+    # Check for governmentWideReuseProject == 1
+    if "governmentWideReuseProject" in rec:
+        val = rec.pop("governmentWideReuseProject")
+        if val == 1 or val == "1":
+            has_gov_reuse = True
+            ctx.log("migrated_legacy_field:governmentWideReuseProject->usageType")
+        else:
+            ctx.log("dropped_legacy_field:governmentWideReuseProject")
+
+    # Only add to usageType if one of these fields was set to 1
+    if has_open_source or has_gov_reuse:
+        perms = rec.get("permissions")
+        if perms is None:
+            perms = rec["permissions"] = {}
+        if not isinstance(perms, dict):
+            ctx.log("skipped_migrate:usage_fields(permissions not an object)")
+            return
+
+        usage_type = perms.get("usageType", [])
+        if not isinstance(usage_type, list):
+            usage_type = []
+
+        if has_open_source and "openSource" not in usage_type:
+            usage_type.append("openSource")
+        if has_gov_reuse and "governmentWideReuse" not in usage_type:
+            usage_type.append("governmentWideReuse")
+
+        perms["usageType"] = usage_type
+
+
 def struct_clean_required_strings(ctx, rec):
     for k in REQUIRED_STRINGS:
         if k not in rec:
@@ -281,7 +325,21 @@ def struct_clean_required_strings(ctx, rec):
             else:
                 rec[k] = s
         elif v is not None:
-            ctx.log(f"unexpected_type:{k}")
+            # Coerce non-string values to string
+            try:
+                s = str(v).strip()
+                if s:
+                    rec[k] = s
+                    ctx.log(f"coerced_to_string:{k}")
+                else:
+                    rec[k] = None
+                    ctx.log(f"empty_to_null_after_coerce:{k}")
+            except Exception:
+                rec[k] = None
+                ctx.log(f"coercion_failed_to_null:{k}")
+        else:
+            # v is None, keep it as is
+            pass
 
 
 def struct_clean_optional_strings(ctx, rec):
@@ -552,6 +610,14 @@ def parse_url(value):
     except ValueError:
         return None
     if not p.scheme or not p.netloc:
+        # Try adding https:// prefix for URLs without scheme
+        if not p.scheme and not p.netloc and p.path:
+            try:
+                p = urlsplit("https://" + s)
+                if p.scheme and p.netloc:
+                    return p
+            except ValueError:
+                pass
         return None
     return p
 
@@ -879,6 +945,7 @@ def apply_structural_normalization(ctx, rec):
     rename_top_level(ctx, rec)
     rename_updated(ctx, rec)
     hoist_exemption_text(ctx, rec)
+    struct_migrate_legacy_usage_fields(ctx, rec)
 
     struct_clean_required_strings(ctx, rec)
     struct_clean_optional_strings(ctx, rec)
@@ -924,15 +991,15 @@ def normalize_record(src, ctx=None):
     """
     if ctx is None:
         ctx = Ctx()
-    
+
     rec = copy.deepcopy(src)
 
     # Apply structural normalization (stage 3a)
     apply_structural_normalization(ctx, rec)
-    
+
     # Apply value normalization (stage 3b)
     apply_value_normalization(ctx, rec)
-    
+
     return rec
 
 
