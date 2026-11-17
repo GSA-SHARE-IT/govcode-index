@@ -128,6 +128,7 @@ _Object with optional fields: forks, clones, downloads_
 - Null → omit field
 - Ensure array type
 - Trim strings, remove empty items
+- **Drop "None" string literals** (indicates no programming languages)
 - Empty result → omit
 
 **Tags array:**
@@ -399,24 +400,6 @@ Both stages are **idempotent**: running twice produces the same result as runnin
 
 ---
 
-## **Recent Enhancements** ⭐
-
-### **Identifier Type Coercion** (Structural - 3a)
-
-**Function:** `struct_clean_required_strings`
-
-- **Change**: Now coerces non-string identifiers to strings
-- **Motivation**: Support legacy numeric IDs (e.g., VA project IDs: `2294` → `"2294"`)
-- **Benefit**: Ensures all required string fields comply with schema before validation
-
-### **URL Parsing with HTTPS Prefix Fallback** (Value - 3b)
-
-**Functions:** `parse_url`, `value_clean_url_field`, `value_clean_repository_url`
-
-- **Change**: Automatically prepends `https://` to URLs without scheme
-- **Motivation**: Prevent valid URLs (like `www.apache.org/...`) from becoming null
-- **Benefit**: Preserves license URLs and other external links; improves data quality
-
 ### **Integration with Validation Layer**
 
 These enhancements work together with the new validation module (`scripts/utils/validate.py`) to ensure:
@@ -425,3 +408,4 @@ These enhancements work together with the new validation module (`scripts/utils/
 - All fields have correct types (strings are strings, etc.)
 - URLs are valid and usable
 - Legacy numeric IDs are properly formatted
+- Languages arrays contain only actual programming language values

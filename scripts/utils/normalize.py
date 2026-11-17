@@ -196,10 +196,12 @@ def clean_str_list(ctx, v, where):
     for item in v:
         if isinstance(item, str):
             s = item.strip()
-            if s:
+            if s and s != "None":
                 out.append(s)
                 if s != item:
                     ctx.log(f"trimmed:{where}[]")
+            elif s == "None":
+                ctx.log(f"dropped_none_literal:{where}")
             else:
                 ctx.log(f"dropped_empty_item:{where}")
         else:
