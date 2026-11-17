@@ -19,6 +19,7 @@ import sys
 from pathlib import Path
 
 from utils.schema import initialize_schema_config, validate_agency_index
+from utils.normalize import normalize_project
 
 # Configure logging
 logging.basicConfig(
@@ -42,6 +43,22 @@ def load_project_file(file_path: Path) -> dict | None:
     except Exception as e:
         logger.error(f"Error reading {file_path}: {e}")
         return None
+
+
+def normalize_project_file(project: dict, file_path: Path) -> dict | None:
+    """
+    Normalize a project object.
+    
+    Args:
+        project: The project object to normalize
+        file_path: Path to the project file (for logging)
+        
+    Returns:
+        The normalized project object
+    """
+    # Normalize the project structure and values (stages 3a and 3b)
+    normalized = normalize_project(project)
+    return normalized
 
 
 def create_agency_index(agency: str, releases: list) -> dict:
@@ -96,6 +113,7 @@ def consolidate_indexes(repo_root: Path) -> list:
             
             project = load_project_file(json_file)
             if project:
+                project = normalize_project_file(project, json_file)
                 releases.append(project)
                 file_count += 1
         
@@ -113,8 +131,7 @@ def consolidate_indexes(repo_root: Path) -> list:
             all_agency_indexes.append(agency_index)
             logger.info(f"{agency_name}: Loaded {file_count} projects")
         else:
-            logger.info(f"{agency_name}: No valid project files found")
-
+            logger.info(f"{agency_name}: No project files found")
         
     
     return all_agency_indexes
