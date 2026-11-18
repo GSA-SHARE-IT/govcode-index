@@ -1,58 +1,42 @@
-"""Schema fetching and validation utilities for agency index processing."""
+"""Schema fetching and validation utilities for agency index and project record processing."""
 
+import copy
 import json
 import logging
-import urllib.error
 import urllib.request
+
 from jsonschema import validate, ValidationError
 
 logger = logging.getLogger(__name__)
 
-# Schema configuration
-SCHEMA_VERSION = "1.0.0"
-SCHEMA_BASE_URL = "https://gsa-share-it.github.io/codejson-schemas/schemas/agency-index"
+# Schema caching
+_schema_cache = {}
 
-def get_schema_url(version: str = SCHEMA_VERSION) -> str:
+
+def fetch_schema(url: str) -> dict:
     """
-    Get the full URL for a schema version.
+    Fetch and cache a JSON schema from the given URL.
+    
+    Returns the cached schema if already fetched.
     
     Args:
-        version: Schema version (default: 1.0.0)
+        url: Full URL to the schema
         
     Returns:
-        Full URL to the schema
+        Parsed schema dictionary
     """
-    return f"{SCHEMA_BASE_URL}/schema-{version}.json"
-
-
-def fetch_schema(url: str) -> dict | None:
-    """
-    Fetch the JSON schema from the remote URL.
+    if url in _schema_cache:
+        return copy.deepcopy(_schema_cache[url])
     
-    Args:
-        url: URL to the schema
-        
-    Returns:
-        Parsed schema dictionary, or None if fetch fails
-    """
-    try:
-        logger.info(f"Fetching schema from {url}")
-        with urllib.request.urlopen(url, timeout=10) as response:
-            schema = json.loads(response.read().decode('utf-8'))
-        logger.info("Schema fetched successfully")
-        return schema
-    except urllib.error.URLError as e:
-        logger.error(f"Failed to fetch schema from {url}: {e}")
-        return None
-    except json.JSONDecodeError as e:
-        logger.error(f"Invalid JSON in schema: {e}")
-        return None
-    except Exception as e:
-        logger.error(f"Unexpected error fetching schema: {e}")
-        return None
+    logger.debug(f"Fetching schema from {url}")
+    with urllib.request.urlopen(url, timeout=10) as response:
+        schema = json.loads(response.read().decode('utf-8'))
+    
+    _schema_cache[url] = copy.deepcopy(schema)
+    return schema
 
 
-def extract_schema_config(schema: dict) -> tuple[str, set] | None:
+def extract_schema_config(schema: dict) -> tuple[str, set]:
     """
     Extract version and valid agencies from the schema.
     
@@ -60,67 +44,39 @@ def extract_schema_config(schema: dict) -> tuple[str, set] | None:
         schema: Parsed schema dictionary
         
     Returns:
-        Tuple of (version, valid_agencies_set), or None if extraction fails
+        Tuple of (version, valid_agencies_set)
     """
-    try:
-        # Extract version
-        version = schema.get('properties', {}).get('version', {}).get('type')
-        if not version:
-            version = SCHEMA_VERSION
-        
-        # Extract from the version description if available
-        version_desc = schema.get('properties', {}).get('version', {}).get('description', '')
-        # Try to parse version from description like "version of the metadata schema in use..."
-        if 'version' in version_desc.lower():
-            # Fallback to default if explicit version not found
-            version = SCHEMA_VERSION
-        
-        # Extract agency enum values
-        agency_enum = schema.get('properties', {}).get('agency', {}).get('enum', [])
-        
-        if not agency_enum:
-            logger.warning("Could not extract agency enum from schema")
-            return None
-        
-        valid_agencies = set(agency_enum)
-        logger.info(f"Schema version: {version}")
-        logger.info(f"Valid agencies found: {len(valid_agencies)}")
-        
-        return version, valid_agencies
-    except Exception as e:
-        logger.error(f"Error extracting schema configuration: {e}")
-        return None
+    # Extract version
+    version = schema.get('properties', {}).get('version', {}).get('type')
+    if not version:
+        version = AGENCY_INDEX_VERSION
+    
+    # Extract agency enum values
+    agency_enum = schema.get('properties', {}).get('agency', {}).get('enum', [])
+    valid_agencies = set(agency_enum)
+    
+    logger.info(f"Schema version: {version}, agencies: {len(valid_agencies)}")
+    
+    return version, valid_agencies
 
 
-def initialize_schema_config(url: str | None = None) -> tuple[str, set] | None:
+def initialize_schema_config(url: str) -> tuple[str, set]:
     """
     Fetch and extract schema configuration.
     
     Args:
-        url: Optional URL to schema. If not provided, uses get_schema_url()
+        url: URL to the agency index schema
         
     Returns:
-        Tuple of (version, valid_agencies), or None if initialization fails
+        Tuple of (version, valid_agencies)
     """
-    if url is None:
-        url = get_schema_url()
-    
     schema = fetch_schema(url)
-    if not schema:
-        logger.error("Failed to fetch schema. Please check your internet connection.")
-        return None
-    
-    result = extract_schema_config(schema)
-    if not result:
-        logger.error("Failed to extract configuration from schema")
-        return None
-    
-    return result
+    return extract_schema_config(schema)
 
 
 def validate_agency_index(index: dict, version: str, agencies: set) -> tuple[bool, list]:
     """
-    Validate an agency index object against schema requirements using jsonschema.
+    Validate an agency index object against schema requirements.
     
     Validates:
     - 'version' field is present and matches expected version
@@ -178,3 +134,10 @@ def validate_agency_index(index: dict, version: str, agencies: set) -> tuple[boo
             errors.append(str(e.message))
         
         return False, errors
+
+
+def clear_schema_cache():
+    """Clear the schema cache. Useful for testing or forcing a refresh."""
+    global _schema_cache
+    _schema_cache.clear()
+    logger.debug("Schema cache cleared")

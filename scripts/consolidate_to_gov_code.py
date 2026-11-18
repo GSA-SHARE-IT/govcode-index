@@ -18,19 +18,13 @@ import logging
 import sys
 from pathlib import Path
 
+from utils.validate import validate_record, fill_record
 from utils.schema import initialize_schema_config, validate_agency_index
 from utils.normalize import normalize_project
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(levelname)s: %(message)s'
-)
-logger = logging.getLogger(__name__)
 
-# These will be populated from the schema
-SCHEMA_VERSION = None
-VALID_AGENCIES = None
+AGENCY_INDEX_URL = "https://gsa-share-it.github.io/codejson-schemas/schemas/agency-index/schema-1.0.0.json"
+logger = logging.getLogger(__name__)
 
 def load_project_file(file_path: Path) -> dict | None:
     """Load and parse a project JSON file."""
@@ -45,20 +39,34 @@ def load_project_file(file_path: Path) -> dict | None:
         return None
 
 
-def normalize_project_file(project: dict, file_path: Path) -> dict | None:
+def normalize_project_file(project: dict, agency: str, file_path: Path) -> dict | None:
     """
-    Normalize a project object.
+    Normalize, validate, and fill a project object.
     
     Args:
         project: The project object to normalize
+        agency: The agency name (for filling derivation)
         file_path: Path to the project file (for logging)
         
     Returns:
-        The normalized project object
+        The filled and validated project object
     """
-    # Normalize the project structure and values (stages 3a and 3b)
+    # Stage 3: Normalize the project structure and values
     normalized = normalize_project(project)
-    return normalized
+    
+    # Stage 4: Validate (soft validation - non-blocking)
+    is_valid, errors, warnings = validate_record(normalized)
+    
+    # Log validation results
+    if errors:
+        logger.warning(f"{file_path.name}: Validation errors: {', '.join(errors[:3])}")
+    if warnings:
+        logger.debug(f"{file_path.name}: Validation warnings: {len(warnings)} found")
+    
+    # Stage 5: Fill required fields and standardize
+    filled, derivation = fill_record(agency, file_path.name, normalized)
+    
+    return filled
 
 
 def create_agency_index(agency: str, releases: list) -> dict:
@@ -113,9 +121,10 @@ def consolidate_indexes(repo_root: Path) -> list:
             
             project = load_project_file(json_file)
             if project:
-                project = normalize_project_file(project, json_file)
-                releases.append(project)
-                file_count += 1
+                project = normalize_project_file(project, agency_name, json_file)
+                if project:
+                    releases.append(project)
+                    file_count += 1
         
         if releases:
             agency_index = create_agency_index(agency_name, releases)
@@ -171,7 +180,7 @@ def main():
     
     # Initialize schema configuration from remote source
     logger.info("Initializing schema configuration from remote source")
-    result = initialize_schema_config()
+    result = initialize_schema_config(AGENCY_INDEX_URL)
     if not result:
         logger.error("Cannot proceed without schema configuration")
         return 1
