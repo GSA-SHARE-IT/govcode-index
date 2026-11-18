@@ -270,7 +270,11 @@ committed to the repository.
 | [`pull-index-assets.yml`](.github/workflows/pull-index-assets.yml) | Mondays 09:17 UTC, manual | Runs the downloader and commits any changes under `agency-indexes/` as `chore: update agency indexes`. |
 | [`run-tests.yml`](.github/workflows/run-tests.yml) | PRs touching `scripts/`, `tests/`, or the workflow | Installs `requirements.txt` and runs the unittest suite on Python 3.12. |
 | [`gitleaks.yml`](.github/workflows/gitleaks.yml) | Every push and PR | Scans for committed secrets. |
-| [`repoStructure.yml`](.github/workflows/repoStructure.yml) | Push to `main`, manual | Replaces a `<!--TREE START--><!--TREE END-->` marker in this README with `tree -d` output. The README does not use the marker, so the structure above is maintained by hand. |
+| [`repoStructure.yml`](.github/workflows/repoStructure.yml) | Push to `main`, manual | Replaces a `
+```plaintext
+.
+```
+` marker in this README with `tree -d` output. The README does not use the marker, so the structure above is maintained by hand. |
 
 The data refresh step uses `continue-on-error`, so successfully downloaded
 agencies are still committed when another agency fails. Check the run log for
