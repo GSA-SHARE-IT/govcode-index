@@ -31,13 +31,9 @@ import re
 from pathlib import Path
 from urllib.parse import urlsplit
 
-from .schema import fetch_schema
-
 logger = logging.getLogger(__name__)
 
-# --- Schema and constants ---
-
-SCHEMA_URL = "https://gsa-share-it.github.io/codejson-schemas/schemas/schema-0.1.0.json"
+# --- Constants ---
 
 REQUIRED_FIELDS = [
     "name", "identifier", "organization", "status",
@@ -109,10 +105,6 @@ STATUS_MAP = {
 
 STATUS_PREFIXES = [("alpha", "Alpha"), ("beta", "Beta"),
                    ("release candidate", "Release Candidate")]
-
-# Lazy-loaded schema and validator
-_schema = None
-_validator = None
 
 
 # --- Helper Functions ---
@@ -212,17 +204,13 @@ def standardize_status(original: str) -> tuple[str | None, bool]:
     return original, False
 
 
-def get_or_load_schema() -> dict:
-    """Load schema from cache or fetch from URL. Lazy-load on first call."""
-    global _schema
-    if _schema is None:
-        _schema = fetch_schema(SCHEMA_URL)
-    return _schema
-
-
 def validate_record(record: dict) -> tuple[bool, list, list]:
     """
-    Validate a record against code.json schema (soft validation, no strict enums).
+    Validate a record against code.json 0.1.0 schema requirements.
+    
+    Uses hard-coded validation rules (not fetched remote schema) for offline support
+    and explicit auditability. Performs type checking and required field validation.
+    Allows non-standard enum values with soft warnings (non-blocking).
     
     Returns:
         (is_valid, errors, warnings) where:

@@ -48,8 +48,6 @@ def extract_schema_config(schema: dict) -> tuple[str, set]:
     """
     # Extract version
     version = schema.get('properties', {}).get('version', {}).get('type')
-    if not version:
-        version = AGENCY_INDEX_VERSION
     
     # Extract agency enum values
     agency_enum = schema.get('properties', {}).get('agency', {}).get('enum', [])
