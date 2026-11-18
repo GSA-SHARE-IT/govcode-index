@@ -121,6 +121,7 @@ builds a schema-compliant agency index for each agency:
 │   ├── {AGENCY}-index.json      # Complete index as published by each agency
 │   └── {AGENCY}/                # One JSON file per project in that agency's releases
 ├── docs/
+│   ├── DATA_DICTIONARY.md       # Definitions of every field in the source data and gov-code.json
 │   ├── NORMALIZATION_RULES.md   # Every normalization rule applied during consolidation
 │   └── VALIDATION_RULES.md      # Validation checks and required-field filling rules
 ├── scripts/
@@ -219,6 +220,9 @@ script exits with status `1` if the schema cannot be fetched or no agency
 indexes are produced.
 
 ## Output Formats
+
+For definitions of every field, allowed values, and how each field changes in
+`gov-code.json`, see the [data dictionary](docs/DATA_DICTIONARY.md).
 
 ### `agency-indexes/{AGENCY}-index.json`
 
