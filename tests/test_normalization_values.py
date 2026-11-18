@@ -1,5 +1,4 @@
 """Value normalization tests (Part 2).
-
 Tests for Stage 3b: Value Normalization (enum mapping, date parsing, URL canonicalization, etc.)
 """
 
@@ -27,7 +26,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         # Should be lowercase, .git removed, trailing slash removed
         self.assertEqual(
             normalized["repositoryURL"],
@@ -47,7 +46,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertTrue(normalized["repositoryURL"].startswith("https://"))
 
     def test_bare_domain_repositoryURL_moves_to_homepage(self):
@@ -63,7 +62,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertIsNone(normalized["repositoryURL"])
         self.assertEqual(normalized["homepageURL"], "https://example.com")
 
@@ -80,7 +79,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertEqual(normalized["repositoryURL"], "private")
 
     def test_invalid_repositoryURL_to_null(self):
@@ -96,7 +95,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertIsNone(normalized["repositoryURL"])
 
     # =========================================================================
@@ -116,7 +115,7 @@ class ValueNormalizationTests(unittest.TestCase):
             ("release-candidate", "Release Candidate"),
             ("rc", "Release Candidate"),
         ]
-        
+
         for input_status, expected_status in test_cases:
             with self.subTest(input_status=input_status):
                 project = {
@@ -145,7 +144,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertIsNone(normalized["status"])
 
     # =========================================================================
@@ -169,7 +168,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         # Date-only should be converted to full timestamp
         self.assertEqual(normalized["date"]["created"], "2023-01-15T00:00:00Z")
         self.assertIn("2023-06-20", normalized["date"]["lastModified"])
@@ -190,7 +189,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         # Should be converted to dash format
         self.assertEqual(normalized["date"]["created"], "2023-01-15T00:00:00Z")
 
@@ -210,7 +209,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         # Should be converted to RFC3339
         self.assertEqual(normalized["date"]["created"], "2023-01-15T00:00:00Z")
 
@@ -231,7 +230,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertNotIn("created", normalized["date"])
         self.assertIn("lastModified", normalized["date"])
 
@@ -253,7 +252,7 @@ class ValueNormalizationTests(unittest.TestCase):
             ("cc0", "CC0-1.0"),
             ("public domain", "CC0-1.0"),
         ]
-        
+
         for input_license, expected_license in test_cases:
             with self.subTest(input_license=input_license):
                 project = {
@@ -276,7 +275,7 @@ class ValueNormalizationTests(unittest.TestCase):
                     "feedbackMechanism": "https://github.com/test/repo/issues",
                 }
                 normalized = normalize_project(project)
-                
+
                 licenses = normalized["permissions"]["licenses"]
                 if licenses:  # Only check if licenses exist after normalization
                     self.assertEqual(licenses[0]["name"], expected_license)
@@ -303,7 +302,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         licenses = normalized["permissions"]["licenses"]
         self.assertEqual(licenses[0]["name"], "Other")
 
@@ -333,7 +332,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         licenses = normalized["permissions"]["licenses"]
         # Only MIT should remain
         self.assertEqual(len(licenses), 1)
@@ -359,7 +358,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         usage = normalized["permissions"]["usageType"]
         # Should be canonicalized and deduplicated
         self.assertIn("openSource", usage)
@@ -380,7 +379,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         usage = normalized["permissions"]["usageType"]
         self.assertIn("openSource", usage)
         self.assertNotIn("unknownUsageType", usage)
@@ -407,7 +406,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         tags = normalized.get("tags", [])
         # Should be lowercased
         self.assertTrue(all(tag.islower() or "-" in tag for tag in tags))
@@ -430,7 +429,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         tags = normalized.get("tags", [])
         # Should have only one entry (after normalization)
         self.assertEqual(len(tags), 1)
@@ -453,7 +452,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertNotIn("laborHours", normalized)
 
     def test_omit_negative_laborHours(self):
@@ -470,7 +469,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertNotIn("laborHours", normalized)
 
     def test_keep_positive_laborHours(self):
@@ -487,7 +486,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertEqual(normalized["laborHours"], 152.5)
 
     # =========================================================================
@@ -511,7 +510,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertEqual(normalized["contact"]["email"], "test@example.com")
 
     def test_malformed_email_to_null(self):
@@ -531,7 +530,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertIsNone(normalized["contact"]["email"])
 
     # =========================================================================
@@ -541,7 +540,7 @@ class ValueNormalizationTests(unittest.TestCase):
     def test_vcs_enum_case_insensitive(self):
         """VCS should match enum case-insensitively."""
         test_values = ["git", "GIT", "Git", "hg", "svn"]
-        
+
         for vcs_value in test_values:
             with self.subTest(vcs=vcs_value):
                 project = {
@@ -556,7 +555,7 @@ class ValueNormalizationTests(unittest.TestCase):
                     "feedbackMechanism": "https://github.com/test/repo/issues",
                 }
                 normalized = normalize_project(project)
-                
+
                 # Should be lowercased
                 self.assertEqual(normalized["vcs"], vcs_value.lower())
 
@@ -573,7 +572,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertIsNone(normalized["repositoryVisibility"])
 
     def test_maintenance_enum_required(self):
@@ -589,7 +588,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         self.assertIsNone(normalized["maintenance"])
 
     # =========================================================================
@@ -611,7 +610,7 @@ class ValueNormalizationTests(unittest.TestCase):
             "feedbackMechanism": "https://github.com/test/repo/issues",
         }
         normalized = normalize_project(project)
-        
+
         # URLs should be lowercase and canonicalized
         self.assertTrue(normalized["homepageURL"].startswith("https://"))
 
@@ -654,9 +653,9 @@ class ValueNormalizationTests(unittest.TestCase):
             },
             "feedbackMechanism": "https://github.com/cisagov/ACID/issues"
         }
-        
+
         normalized = normalize_project(project)
-        
+
         # Verify normalizations
         self.assertEqual(normalized["status"], "Development")
         self.assertEqual(normalized["repositoryVisibility"], "public")
@@ -711,17 +710,18 @@ class ValueNormalizationTests(unittest.TestCase):
             "maintenance": "internal",
             "feedbackMechanism": "https://github.com/test/repo/issues"
         }
-        
+
         normalized = normalize_project(project)
-        
-        # Verify renames worked
-        self.assertEqual(normalized["identifier"], 2294)
+
+        # Verify renames worked - identifier should be coerced to string
+        self.assertEqual(normalized["identifier"], "2294")
+        self.assertIsInstance(normalized["identifier"], str)
         self.assertNotIn("id", normalized)
         self.assertEqual(normalized["repositoryURL"], "https://github.com/department-of-veterans-affairs/repo")
         self.assertNotIn("repository", normalized)
         self.assertEqual(normalized["homepageURL"], "https://github.com/department-of-veterans-affairs")
         self.assertNotIn("homepage", normalized)
-        
+
         # Verify contact stripping
         self.assertNotIn("URL", normalized["contact"])
         self.assertNotIn("phone", normalized["contact"])
