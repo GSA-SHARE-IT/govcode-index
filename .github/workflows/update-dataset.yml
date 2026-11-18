@@ -1,0 +1,97 @@
+name: Consolidate agency indexes to gov-code.json
+
+on:
+  schedule:
+    # Run after pull-index-assets.yml completes (which runs at 09:17 UTC on Mondays)
+    - cron: "30 10 * * 1" # Mondays at 10:30 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: consolidate-gov-code-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  consolidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Consolidate agency indexes
+        run: python scripts/consolidate_to_gov_code.py
+
+      - name: Verify gov-code.json was created
+        run: |
+          if [ -f gov-code.json ]; then
+            echo "✓ gov-code.json created successfully"
+            echo "File size: $(du -h gov-code.json | cut -f1)"
+            echo "Project count: $(python -c "import json; data=json.load(open('gov-code.json')); total=sum(len(a.get('releases', [])) for a in data); print(total)")"
+          else
+            echo "✗ gov-code.json not found"
+            exit 1
+          fi
+
+      - name: Commit consolidated dataset
+        run: |
+          git add gov-code.json
+          if git diff --cached --quiet; then
+            echo "Dataset is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update consolidated gov-code dataset"
+          git push
+
+      - name: Generate flattened CSV from gov-code.json
+        run: |
+          python scripts/gov_code_to_csv.py
+          if [ -f gov-code.csv ]; then
+            echo "✓ gov-code.csv generated successfully"
+            echo "File size: $(du -h gov-code.csv | cut -f1)"
+            echo "Row count: $(python -c "import csv; rows=list(csv.DictReader(open('gov-code.csv'))); print(len(rows))")"
+          else
+            echo "✗ gov-code.csv not found"
+            exit 1
+          fi
+
+      - name: Commit CSV dataset
+        run: |
+          git add gov-code.csv
+          if git diff --cached --quiet; then
+            echo "CSV dataset is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update flattened gov-code CSV dataset"
+          git push
+
+      - name: Upload gov-code.json artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gov-code-dataset
+          path: gov-code.json
+          retention-days: 30
+          if-no-files-found: ignore
+
+      - name: Upload gov-code.csv artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gov-code-csv
+          path: gov-code.csv
+          retention-days: 30
+          if-no-files-found: ignore
