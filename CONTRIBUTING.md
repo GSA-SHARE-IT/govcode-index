@@ -1,8 +1,4 @@
-<!--- # NOTE: Modify sections marked with `TODO` -->
-
 # How to Contribute
-
-<!-- Basic instructions about where to send patches, check out source code, and get development support.-->
 
 We're so thankful you're considering contributing to an [open source project of
 the U.S. government](https://code.gov/)! If you're unsure about anything, just
@@ -15,55 +11,142 @@ We encourage you to read this project's CONTRIBUTING policy (you are here), its
 
 ## Getting Started
 
-<!--- TODO: If you have 'good-first-issue' or 'easy' labels for newcomers, mention them here.-->
+Useful contributions include:
+
+- Adding or correcting an agency source in
+  [`sources/agency-index-sources.json`](sources/agency-index-sources.json).
+- Fixing a bug in the downloader, normalization, or validation scripts.
+- Adding a normalization rule for a messy value found in real agency data.
+- Improving tests or documentation.
+
+Look for open [issues](https://github.com/GSA-SHARE-IT/govcode-index/issues) or
+open a new one to discuss a change before starting larger work.
 
 ### Team Specific Guidelines
 
-<!-- TODO: This section helps contributors understand any team structure in the project (formal or informal.) Encouraged to point towards the COMMUNITY.md file for further details.-->
+Project roles and the people responsible for reviewing and merging changes are
+listed in [COMMUNITY.md](COMMUNITY.md). How decisions are made is described in
+[GOVERNANCE.md](GOVERNANCE.md).
 
 ### Building dependencies
 
-<!--- TODO: This step is often skipped, so don't forget to include the steps needed to install on your platform. If you project can be multi-platform, this is an excellent place for first time contributors to send patches!-->
+The project is plain Python with one third-party dependency (`jsonschema`).
+
+1. Install Python 3.12. The GitHub Actions workflows use 3.12, so keep code
+   compatible with it even if you develop on a newer version.
+2. Create a virtual environment and install the requirements:
+
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
+   ```
+
+`jsonschema` is needed for the test suite as well as the consolidation script,
+because the tests import `scripts.utils`, which imports the schema module.
 
 ### Building the Project
 
-<!--- TODO: Be sure to include build scripts and instructions, not just the source code itself! -->
+There is no build step. The scripts run directly from the repository root:
+
+| Command | What it does | Network | Writes |
+| :-- | :-- | :-- | :-- |
+| `python3 -m unittest discover -s tests -v` | Runs the offline test suite | No | Temporary directories only |
+| `python3 scripts/pull_index_assets.py` | Downloads every agency index and extracts project files | Yes | `agency-indexes/` |
+| `python3 scripts/consolidate_to_gov_code.py` | Normalizes, validates, and combines project files | Yes (schema) | `gov-code.json` |
+
+Paths are resolved relative to the repository, so the scripts can be run from
+any working directory.
 
 ### Workflow and Branching
 
-<!--- TODO: Workflow Example
-We follow the [GitHub Flow Workflow](https://guides.github.com/introduction/flow/)
+We follow the [GitHub Flow Workflow](https://guides.github.com/introduction/flow/):
 
-1.  Fork the project
-2.  Check out the `main` branch
-3.  Create a feature branch
-4.  Write code and tests for your change
-5.  From your branch, make a pull request against `{{ cookiecutter.project_org }}/{{ cookiecutter.project_repo_name }}/main`
-6.  Work with repo maintainers to get your change reviewed
-7.  Wait for your change to be pulled into `{{ cookiecutter.project_org }}/{{ cookiecutter.project_repo_name }}/main`
-8.  Delete your feature branch
--->
+1. Fork the project (external contributors) or create a branch (team members).
+2. Check out the `main` branch.
+3. Create a feature branch.
+4. Write code and tests for your change.
+5. From your branch, make a pull request against `GSA-SHARE-IT/govcode-index/main`.
+6. Work with repo maintainers to get your change reviewed.
+7. Wait for your change to be merged into `GSA-SHARE-IT/govcode-index/main`.
+8. Delete your feature branch.
+
+#### Code changes and data changes
+
+The files under `agency-indexes/` are generated outputs. The weekly
+[`pull-index-assets.yml`](.github/workflows/pull-index-assets.yml) workflow
+refreshes and commits them.
+
+- For code-only changes, **do not commit refreshed inventory files**. Test
+  against temporary fixtures instead. This keeps code review separate from
+  agency data churn.
+- Run a live download only when the change calls for a data refresh, such as
+  adding an agency. Mention in the pull request that it includes refreshed data.
+- Do not hand-edit project files to fix agency data. They are overwritten on the
+  next refresh. Fix the problem with a normalization rule, or report it to the
+  agency.
+- `gov-code.json` is generated locally and should not be committed.
 
 ### Testing Conventions
 
-<!--- TODO: Discuss where tests can be found, how they are run, and what kind of tests/coverage strategy and goals the project has. -->
+Tests live in [`tests/`](tests/) and use the standard library `unittest` module:
+
+| File | Covers |
+| :-- | :-- |
+| `test_pull_index_assets.py` | Downloading, data preservation, encoding fallback, filename sanitization and collisions, warnings, failure handling |
+| `test_normalization_values.py` | Value normalization rules (URLs, dates, licenses, enums) |
+| `test_normalization_comprehensive.py` | End-to-end normalization of real-world records, idempotency |
+| `test_validation.py` | Helpers, `validate_record`, `fill_record`, and standardization |
+
+Run them from the repository root:
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+Guidelines:
+
+- Add or update tests for every behavior change, and run the full suite before
+  opening a pull request.
+- Tests must not use the network. Mock `urlopen` (see
+  `test_pull_index_assets.py`) and use `tempfile.TemporaryDirectory()` for
+  output.
+- Tests must not read or modify the real files in `agency-indexes/`.
+- When a change affects them, cover data preservation (unknown fields and
+  original names survive), encoding, filename collisions and their warnings,
+  and continuing after an agency failure.
+- When you add a normalization or validation rule, also update
+  [docs/NORMALIZATION_RULES.md](docs/NORMALIZATION_RULES.md) or
+  [docs/VALIDATION_RULES.md](docs/VALIDATION_RULES.md).
+
+The [`run-tests.yml`](.github/workflows/run-tests.yml) workflow runs the suite
+on Python 3.12 for pull requests that change `scripts/`, `tests/`, or the
+workflow itself.
 
 ### Coding Style and Linters
 
-<!--- TODO: HIGHLY ENCOURAGED. Specific tools will vary between different languages/frameworks (e.g. Black for python, eslint for JavaScript, etc...)
+The project does not enforce a linter. Please:
 
-1. Mention any style guides you adhere to (e.g. pep8, etc...)
-2. Mention any linters your project uses (e.g. flake8, jslint, etc...)
-3. Mention any naming conventions your project uses (e.g. Semantic Versioning, CamelCasing, etc...)
-4. Mention any other content guidelines the project adheres to (e.g. plainlanguage.gov, etc...)
-
--->
+1. Follow [PEP 8](https://peps.python.org/pep-0008/) and match the style of the
+   surrounding code.
+2. Prefer the Python standard library. Add a dependency to `requirements.txt`
+   only when it is clearly worth it.
+3. Resolve data paths relative to the repository (see `ROOT` in
+   `pull_index_assets.py`), not the caller's working directory.
+4. Keep agency URLs in `sources/agency-index-sources.json` rather than in code.
+5. Preserve complete project objects in `agency-indexes/`. Filename cleanup must
+   never change values inside the JSON.
+6. Keep visible warnings for anything that changes how a project is saved
+   (sanitized, truncated, suffixed, or unnamed), including the original name,
+   final filename, and reason.
+7. One agency's failure must not stop the others. Report the error and return a
+   nonzero exit status.
 
 ### Writing Issues
 
-<!--- TODO: Example Issue Guides
-
-When creating an issue please try to adhere to the following format:
+Please file issues on
+[GitHub](https://github.com/GSA-SHARE-IT/govcode-index/issues) using this
+format:
 
     module-name: One line summary of the issue (less than 72 characters)
 
@@ -79,12 +162,13 @@ When creating an issue please try to adhere to the following format:
 
     List all relevant steps to reproduce the observed behavior.
 
-    see our .github/ISSUE_TEMPLATE.md for more examples.
--->
+For data problems, include the agency, the project name or filename, and the
+relevant `WARNING` or `Failed` line from the workflow log if there is one.
 
 ### Writing Pull Requests
 
-<!-- TODO: Make a brief statement about where to file pull/merge requests, and conventions for doing so. Link to PULL_REQUEST_TEMPLATE.md file.
+Open pull requests against `main` and fill out the
+[pull request template](.github/PULL_REQUEST_TEMPLATE.md).
 
 Comments should be formatted to a width no greater than 80 columns.
 
@@ -120,270 +204,48 @@ Some important notes regarding the summary line:
 * Do not end in a period — this is a title/subject
 * Prefix the subject with its scope
 
-    see our .github/PULL_REQUEST_TEMPLATE.md for more examples.
--->
+In the pull request, describe how you tested the change. Say which results came
+from the offline test suite and which came from a live download or a GitHub
+Actions run.
 
 ## Reviewing Pull Requests
 
-<!--- TODO: Make a brief statement about how pull-requests are reviewed, and who is doing the reviewing. Linking to COMMUNITY.md can help.
+Pull requests are reviewed by the maintainers and approvers listed in
+[COMMUNITY.md](COMMUNITY.md). Each pull request should get at least one
+approving review before it is merged. Reviewers check that:
 
-Code Review Example
+- The tests pass and new behavior has tests.
+- Generated data is not refreshed or rewritten by a code-only change.
+- Project data is preserved and filename warnings are kept.
+- Documentation is updated when commands, output layout, or processing behavior
+  change.
 
-The repository on GitHub is kept in sync with an internal repository at
-github.cms.gov. For the most part this process should be transparent to the
-project users, but it does have some implications for how pull requests are
-merged into the codebase.
-
-When you submit a pull request on GitHub, it will be reviewed by the project
-community (both inside and outside of github.cms.gov), and once the changes are
-approved, your commits will be brought into github.cms.gov's internal system for
-additional testing. Once the changes are merged internally, they will be pushed
-back to GitHub with the next sync.
-
-This process means that the pull request will not be merged in the usual way.
-Instead a member of the project team will post a message in the pull request
-thread when your changes have made their way back to GitHub, and the pull
-request will be closed.
-
-The changes in the pull request will be collapsed into a single commit, but the
-authorship metadata will be preserved.
-
--->
+External contributors cannot merge their own pull requests. A maintainer merges
+them once they are approved.
 
 ## Shipping Releases
 
-<!-- TODO: What cadence does your project ship new releases? (e.g. one-time, ad-hoc, periodically, upon merge of new patches) Who does so? Below is a sample template you can use to provide this information.
-
-{{ cookiecutter.project_repo_name }} will see regular updates and new releases. This section describes the general guidelines around how and when a new release is cut.
-
--->
-
-<!-- ### Table of Contents
-
-- [Versioning](#versioning)
-  - [Breaking vs. non-breaking changes](#breaking-vs-non-breaking-changes)
-  - [Ongoing version support](#ongoing-version-support)
-- [Release Process](#release-process)
-  - [Goals](#goals)
-  - [Schedule](#schedule)
-  - [Communication and Workflow](#communication-and-workflow)
-  - [Beta Features](#beta-features)
-- [Preparing a Release Candidate](#preparing-a-release-candidate)
-  - [Incorporating feedback from review](#incorporating-feedback-from-review)
-- [Making a Release](#making-a-release)
-- [Auto Changelog](#auto-changelog)
-- [Hotfix Releases](#hotfix-releases) -->
-
-<!-- ### Versioning
-
-{{ cookiecutter.project_repo_name }} uses [Semantic Versioning](https://semver.org/). Each release is associated with a [`git tag`](github.com/{{ cookiecutter.project_org }}/{{ cookiecutter.project_repo_name }}/tags) of the form `X.Y.Z`.
-
-Given a version number in the `MAJOR.MINOR.PATCH` (eg., `X.Y.Z`) format, here are the differences in these terms:
-
-- **MAJOR** version - make breaking/incompatible API changes
-- **MINOR** version - add functionality in a backwards compatible manner
-- **PATCH** version - make backwards compatible bug fixes -->
-
-<!-- ### Breaking vs. non-breaking changes
-
-TODO: Examples and protocol for breaking changes
-
-Definitions for breaking changes will vary depending on the use-case and project but generally speaking if changes break standard workflows in any way then they should be put in a major version update.
--->
-
-<!-- #### Ongoing version support
-
-TODO: Explanation of general thought process
-
-Explain the project’s thought process behind what versions will and won’t be supported in the future.
--->
-
-<!-- TODO: List of supported releases
-
-This section should make clear which versions of the project are considered actively supported.
--->
-
-<!-- ### Release Process
-
-The sections below define the release process itself, including timeline, roles, and communication best practices. -->
-
-<!-- #### Goals
-
-TODO: Explain the goals of your project’s release structure
-
-This should ideally be a bulleted list of what your regular releases will deliver to key users and stakeholders
--->
-
-<!-- #### Schedule
-
-TODO: Communicate the timing of the regular release structure
-
-For example, if you plan on creating regular releases on a weekly basis you should communicate that as well as the typical days upcoming releases will become tagged.
-
-You should also communicate special cases such as security updates or critical bugfixes and how they would likely be released earlier than what is usually scheduled.
--->
-
-<!-- #### Communication and Workflow
-
-TODO: Communicate proper channels to be notified about releases
-
-Communicate the slack channels, mailing lists, or other means of pushing out release notifications.
--->
-
-<!-- TODO: (OPTIONAL) Support beta feature testing
-## Beta Features
-
-When a new beta feature is created for a release, make sure to create a new Issue with a '[Feature Name] - Beta [X.X.x] - Feedback' title and a 'beta' label. Update the spec text for the beta feature with 'Beta feature: Yes (as of X.X.x). Leave feedback' with a link to the new feature Issue.
-
-Once an item is moved out of beta, close its Issue and change the text to say 'Beta feature: No (as of X.X.x)'.
--->
-
-<!-- ### Preparing a Release Candidate
-
-The following steps outline the process to prepare a Release Candidate of {{ cookiecutter.project_repo_name }}. This process makes public the intention and contents of an upcoming release, while allowing work on the next release to continue as usual in `dev`.
-
-1. Create a _Release branch_ from the tip of `dev` named `release-x.y.z`, where `x.y.z` is the intended version of the release. This branch will be used to prepare the Release Candidate. For example, to prepare a Release Candidate for `0.5.0`:
-
-   ```bash
-   git fetch
-   git checkout origin/dev
-   git checkout -b release-0.5.0
-   git push -u origin release-0.5.0
-   ```
-
-   Changes generated by the steps below should be committed to this branch later.
-
-2. Create a tag like `x.y.z-rcN` for this Release Candidate. For example, for the first `0.5.0` Release Candidate:
-
-   ```bash
-   git fetch
-   git checkout origin/release-0.5.0
-   git tag 0.5.0-rc1
-   git push --tags
-   ```
-
-3. Publish a [pre-Release in GitHub](proj-releases-new):
-
-   ```md
-   Tag version: [tag you just pushed]
-   Target: [release branch]
-   Release title: [X.Y.Z Release Candidate N]
-   Description: [copy in ReleaseNotes.md created earlier]
-   This is a pre-release: Check
-   ```
-
-4. Open a Pull Request to `main` from the release branch (eg. `0.5.0-rc1`). This pull request is where review comments and feedback will be collected.
-
-5. Conduct Review of the Pull Request that was opened. -->
-
-<!-- #### Incorporating feedback from review
-
-The review process may result in changes being necessary to the release candidate.
-
-For example, if the second Release Candidate for `0.5.0` is being prepared, after committing necessary changes, create a tag on the tip of the release branch like `0.5.0-rc2` and make a new [GitHub pre-Release](proj-releases-new) from there:
-
-```bash
-git fetch
-git checkout origin/release-0.5.0
-# more commits per OMF review
-git tag 0.5.0-rc2
-git push --tags
-```
-
-Repeat as-needed for subsequent Release Candidates. Note the release branch will be pushed to `dev` at key points in the approval process to ensure the community is working with the latest code. -->
-
-<!-- ### Making a Release
-
-The following steps describe how to make an approved [Release Candidate](#preparing-a-release-candidate) an official release of {{ cookiecutter.project_repo_name }}:
-
-1. **Approved**. Ensure review has been completed and approval granted.
-
-2. **Main**. Merge the Pull Request created during the Release Candidate process to `main` to make the release official.
-
-3. **Dev**. Open a Pull Request from the release branch to `dev`. Merge this PR to ensure any changes to the Release Candidate during the review process make their way back into `dev`.
-
-4. **Release**. Publish a [Release in GitHub](proj-releases-new) with the following information
-
-   - Tag version: [X.Y.Z] (note this will create the tag for the `main` branch code when you publish the release)
-   - Target: main
-   - Release title: [X.Y.Z]
-   - Description: copy in Release Notes created earlier
-   - This is a pre-release: DO NOT check
-
-5. **Branch**. Finally, keep the release branch and don't delete it. This allows easy access to a browsable spec. -->
-
-<!-- ### Auto Changelog
-
-It is recommended to use the provided auto changelog github workflow to populate the project’s CHANGELOG.md file:
-
-```yml
-name: Changelog
-on:
-  release:
-    types:
-      - created
-jobs:
-  changelog:
-    runs-on: ubuntu-latest
-    steps:
-      - name: "Auto Generate changelog"
-        uses: heinrichreimer/action-github-changelog-generator@v2.3
-        with:
-          token: ${{ '{{ secrets.GITHUB_TOKEN }}' }}
-```
-
-This provided workflow will automatically populate the CHANGELOG.md with all of the associated changes created since the last release that are included in the current release.
-
-This workflow will be triggered when a new release is created.
-
-If you do not wish to use automatic changelogs, you can delete the workflow and update the CHANGELOG.md file manually. Although, this is not recommended.
-
-For best practices on writing changelogs, see: https://keepachangelog.com/en/1.1.0/#how -->
-
-<!-- ### Hotfix Releases
-
-In rare cases, a hotfix for a prior release may be required out-of-phase with the normal release cycle. For example, if a critical bug is discovered in the `0.3.x` line after `0.4.0` has already been released.
-
-1. Create a _Support branch_ from the tag in `main` at which the hotfix is needed. For example if the bug was discovered in `0.3.2`, create a branch from this tag:
-
-   ```bash
-   git fetch
-   git checkout 0.3.2
-   git checkout -b 0.3.x
-   git push -u origin 0.3.x
-   ```
-
-2. Merge (or commit directly) the hotfix work into this branch.
-
-3. Tag the support branch with the hotfix version. For example if `0.3.2` is the version being hotfixed:
-
-   ```bash
-   git fetch
-   git checkout 0.3.x
-   git tag 0.3.3
-   git push --tags
-   ```
-
-4. Create a [GitHub Release](proj-releases-new) from this tag and the support branch. For example if `0.3.3` is the new hotfix version:
-
-   ```md
-   Tag version: 0.3.3
-   Target: 0.3.x
-   Release title: 0.3.3
-   Description: [copy in ReleaseNotes created earlier]
-   This is a pre-release: DO NOT check
-   ```
-
-[proj-releases-new]: https://github.com/{{ cookiecutter.project_org }}/{{ cookiecutter.project_repo_name }}/releases/new
--->
+govcode-index does not publish versioned releases. Changes to the scripts take
+effect when merged to `main`, and the data is refreshed every Monday by the
+[`pull-index-assets.yml`](.github/workflows/pull-index-assets.yml) workflow.
+Maintainers can start a refresh manually from the Actions tab with **Run
+workflow**.
 
 ## Documentation
 
-<!-- TODO: Documentation Example
+We welcome improvements to the project documentation. Please file an
+[issue](https://github.com/GSA-SHARE-IT/govcode-index/issues) or open a pull
+request.
 
-We also welcome improvements to the project documentation or to the existing
-docs. Please file an [issue](https://github.com/{{ cookiecutter.project_org }}/{{ cookiecutter.project_repo_name }}/issues).
--->
+When you change how the project behaves, update the matching documentation in
+the same pull request:
+
+| Change | Update |
+| :-- | :-- |
+| Commands, output layout, or downloader behavior | [README.md](README.md), [AGENTS.md](AGENTS.md) |
+| Normalization rules | [docs/NORMALIZATION_RULES.md](docs/NORMALIZATION_RULES.md) |
+| Validation or fill rules | [docs/VALIDATION_RULES.md](docs/VALIDATION_RULES.md) |
+| Development process | This file |
 
 ## Policies
 
