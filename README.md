@@ -1,107 +1,334 @@
-# {{ cookiecutter.project_name }}
+# govcode-index
 
-{{ cookiecutter.project_description }}
+A collection of federal agency software inventories (`code.json` files),
+refreshed weekly and split into one JSON file per project.
 
 ## About the Project
 
-**{project statement}**
+Federal agencies publish inventories of their custom-developed software as
+`code.json` files at the root of their websites (for example,
+`https://www.energy.gov/code.json`). Each inventory lists the agency's projects
+in a `releases` array.
 
-<!---
-### Project Vision
-**{project vision}** -->
+This repository:
 
-<!--
-### Project Mission
-**{project mission}** -->
+1. **Collects** each agency's inventory from the URLs in
+   [`sources/agency-index-sources.json`](sources/agency-index-sources.json) and
+   preserves the complete index as published.
+2. **Extracts** every project object from the `releases` array into its own
+   file, so individual projects can be browsed, diffed, and tracked over time.
+3. **Consolidates** the project files into a single `gov-code.json` dataset,
+   normalized and validated against the
+   [agency index schema](https://gsa-share-it.github.io/codejson-schemas/schemas/agency-index/schema-1.0.0.json).
 
-<!--
-### Agency Mission
-TODO: Good to include since this is an agency-led project -->
+The downloaded data is stored exactly as the agency publishes it. Normalization
+happens only in the consolidated `gov-code.json` output.
 
-<!--
-### Team Mission
-TODO: Good to include since this is an agency-led project -->
+## Table of Contents
 
-## Core Team
+- [How It Works](#how-it-works)
+- [Repository Structure](#repository-structure)
+- [Agency Sources](#agency-sources)
+- [Local Development](#local-development)
+- [Output Formats](#output-formats)
+- [Automation](#automation)
+- [Known Limitations](#known-limitations)
+- [Contributing](#contributing)
+- [Community](#community)
+- [Policies](#policies)
+- [Public domain](#public-domain)
 
-A list of core team members responsible for the code and documentation in this repository can be found in [COMMUNITY.md](COMMUNITY.md).
+## How It Works
+
+```plaintext
+sources/agency-index-sources.json
+        │
+        ▼
+scripts/pull_index_assets.py          (weekly, GitHub Actions)
+        │  download → parse JSON → save full index → split releases
+        ▼
+agency-indexes/{AGENCY}-index.json    complete index, as published
+agency-indexes/{AGENCY}/{project}.json one file per project, unmodified
+        │
+        ▼
+scripts/consolidate_to_gov_code.py    (run manually)
+        │  normalize → validate → fill required fields → schema-check
+        ▼
+gov-code.json                         consolidated dataset (not committed)
+```
+
+### Step 1: Download and extract (`pull_index_assets.py`)
+
+For each agency in the sources file, the downloader:
+
+- Requests the inventory with a 30-second timeout.
+- Parses the response as JSON **before** writing anything, so an HTML error page
+  cannot replace a good index. Responses that are not valid UTF-8 are decoded as
+  Windows-1252, converted to UTF-8, and logged.
+- Writes the complete index to `agency-indexes/{AGENCY}-index.json`.
+- Checks that the index has a `releases` array of objects, then writes each
+  project to `agency-indexes/{AGENCY}/{project-name}.json` as UTF-8 with the
+  complete project object (including unknown fields) left unchanged.
+- Continues with the remaining agencies if one fails, reports the error, and
+  exits with status `1` if any agency failed.
+
+Filenames are built from the project's `name`:
+
+| Situation | Behavior |
+| :-- | :-- |
+| Characters such as `/ \ ( ) < > : " \| ? *`, whitespace, or control characters | Replaced with `_`. Leading or trailing `.` and spaces are trimmed. |
+| Name longer than 180 UTF-8 bytes | Truncated to 180 bytes without splitting a character. |
+| Missing or empty name | Saved as `unnamed-project.json`. |
+| Two projects map to the same filename (case-insensitive) | Later ones get `-2`, `-3`, … suffixes, in release order. |
+
+Every case in the table prints a `WARNING` to stderr with the agency, the
+original name, the final filename, and the reason. Only the filename changes.
+The JSON content always keeps the original name.
+
+### Step 2: Consolidate (`consolidate_to_gov_code.py`)
+
+The consolidation script reads every project file under `agency-indexes/` and
+builds a schema-compliant agency index for each agency:
+
+1. **Schema configuration.** Fetches the agency index schema to get the list of
+   valid agency acronyms. Agency directories that are not in the schema's enum
+   (after upper-casing) are skipped.
+2. **Normalize** ([`scripts/utils/normalize.py`](scripts/utils/normalize.py)).
+   Fixes record structure (legacy key renames, type coercion, removal of
+   unexpected nested keys) and values (URLs, dates, licenses, `usageType`,
+   `status`, tags, emails). See
+   [docs/NORMALIZATION_RULES.md](docs/NORMALIZATION_RULES.md).
+3. **Validate** ([`scripts/utils/validate.py`](scripts/utils/validate.py)).
+   Checks required fields, types, and enum values. Validation is non-blocking:
+   problems are logged as warnings and the record is kept.
+4. **Fill** (`fill_record`). Derives missing required fields where possible:
+   `identifier`, `organization`, `repositoryVisibility`, `vcs`, and
+   `feedbackMechanism`. Enum fields such as `status` and `maintenance` are never
+   guessed. See [docs/VALIDATION_RULES.md](docs/VALIDATION_RULES.md).
+5. **Schema-check** each agency index (`version`, `agency`, `releases`) with
+   [`scripts/utils/schema.py`](scripts/utils/schema.py), then write all indexes
+   to `gov-code.json` at the repository root.
 
 ## Repository Structure
 
-<!-- TODO: Including the repository structure helps viewers quickly understand the project layout. Using the "tree -d" command can be a helpful way to generate this information, but, be sure to update it as the project evolves and changes over time. -->
-
 ```plaintext
 .
+├── .github/
+│   ├── ISSUE_TEMPLATE/          # Issue templates for access and code.json requests
+│   ├── codejson/                # Cookiecutter template for this repo's own code.json
+│   └── workflows/               # GitHub Actions (data refresh, tests, repo hygiene)
+├── agency-indexes/
+│   ├── {AGENCY}-index.json      # Complete index as published by each agency
+│   └── {AGENCY}/                # One JSON file per project in that agency's releases
+├── docs/
+│   ├── NORMALIZATION_RULES.md   # Every normalization rule applied during consolidation
+│   └── VALIDATION_RULES.md      # Validation checks and required-field filling rules
+├── scripts/
+│   ├── pull_index_assets.py     # Downloads indexes and extracts project files
+│   ├── consolidate_to_gov_code.py  # Builds gov-code.json from project files
+│   └── utils/
+│       ├── normalize.py         # Structural and value normalization of project records
+│       ├── validate.py          # Record validation and required-field filling
+│       └── schema.py            # Schema fetching and agency index validation
+├── sources/
+│   └── agency-index-sources.json  # Agency acronym → code.json URL
+├── tests/                       # Offline unittest suite (no network access)
+└── requirements.txt             # Python dependencies (jsonschema)
 ```
 
+### Top-level documents
 
-**{list directories and descriptions}**
+| File | Description |
+| :-- | :-- |
+| [README.md](README.md) | Project overview, usage, and structure (this file) |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to set up, test, and submit changes |
+| [COMMUNITY.md](COMMUNITY.md) | Project members, roles, and community guidelines |
+| [GOVERNANCE.md](GOVERNANCE.md) | How decisions are made |
+| [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Expected behavior in project spaces |
+| [SECURITY.md](SECURITY.md) | How to report vulnerabilities |
+| [AGENTS.md](AGENTS.md) | Guidance for AI coding agents working in this repository |
+| [LICENSE](LICENSE) | CC0 1.0 Universal public domain dedication |
 
-<!-- TODO: Add a 'table of contents" for your documentation. Tier 0/1 projects with simple README.md files without many sections may or may not need this, but it is still extremely helpful to provide "bookmark" or "anchor" links to specific sections of your file to be referenced in tickets, docs, or other communication channels. -->
+## Agency Sources
 
-**{list of .md at top directory and descriptions}**
+Agency URLs are kept in
+[`sources/agency-index-sources.json`](sources/agency-index-sources.json), not in
+code. The current sources are:
 
-# Development and Software Delivery Lifecycle
+| Agency | Source |
+| :-- | :-- |
+| USDA | https://usda.gov/code.json |
+| DoD | https://www.code.mil/code.json |
+| DoE | https://www.energy.gov/code.json |
+| HHS | https://www.hhs.gov/code.json |
+| DHS | https://www.dhs.gov/code.json |
+| VA | https://www.va.gov/code.json |
+| EPA | https://www.epa.gov/code.json |
+| NSF | https://www.nsf.gov/code.json |
+| SSA | https://www.ssa.gov/code.json |
+| FEC | https://www.fec.gov/code.json |
 
-The following guide is for members of the project team who have access to the repository as well as code contributors. The main difference between internal and external contributions is that external contributors will need to fork the project and will not be able to merge their own pull requests. For more information on contributing, see: [CONTRIBUTING.md](./CONTRIBUTING.md).
+To add an agency, add an `"ACRONYM": "URL"` entry to the sources file. The key
+becomes the output filename (`{ACRONYM}-index.json`) and directory name. For the
+agency to appear in `gov-code.json`, the upper-cased key must also be a valid
+agency in the agency index schema.
 
 ## Local Development
 
-<!--- TODO - with example below:
-This project is monorepo with several apps. Please see the [api](./api/README.md) and [frontend](./frontend/README.md) READMEs for information on spinning up those projects locally. Also see the project [documentation](./documentation) for more info.
--->
+### Prerequisites
 
-## Coding Style and Linters
+- Python 3.12 (the version the workflows use; newer versions also work)
+- `pip install -r requirements.txt` (installs `jsonschema`, which the
+  consolidation script and the test suite import)
 
-<!-- TODO - Add the repo's linting and code style guidelines -->
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
-Each application has its own linting and testing guidelines. Lint and code tests are run on each commit, so linters and tests should be run locally before committing.
+### Run the tests
 
-## Branching Model
+The tests are offline. They mock network responses and use temporary
+directories, so they never touch the real inventory files.
 
-<!--- TODO - with example below:
-This project follows [trunk-based development](https://trunkbaseddevelopment.com/), which means:
+```bash
+python3 -m unittest discover -s tests -v
+```
 
-* Make small changes in [short-lived feature branches](https://trunkbaseddevelopment.com/short-lived-feature-branches/) and merge to `main` frequently.
-* Be open to submitting multiple small pull requests for a single ticket (i.e. reference the same ticket across multiple pull requests).
-* Treat each change you merge to `main` as immediately deployable to production. Do not merge changes that depend on subsequent changes you plan to make, even if you plan to make those changes shortly.
-* Ticket any unfinished or partially finished work.
-* Tests should be written for changes introduced, and adhere to the text percentage threshold determined by the project.
+### Refresh the agency indexes
 
-This project uses **continuous deployment** using [Github Actions](https://github.com/features/actions) which is configured in the [./github/workflows](.github/workflows) directory.
+This downloads every inventory and **overwrites** files under
+`agency-indexes/`. Run it only when you intend to refresh the data.
 
-Pull-requests are merged to `main` and the changes are immediately deployed to the development environment. Releases are created to push changes to production.
--->
+```bash
+python3 scripts/pull_index_assets.py
+```
+
+### Build the consolidated dataset
+
+This needs network access to fetch the agency index schema. It writes
+`gov-code.json` to the repository root.
+
+```bash
+python3 scripts/consolidate_to_gov_code.py
+```
+
+Records that fail validation are logged as warnings and still included. The
+script exits with status `1` if the schema cannot be fetched or no agency
+indexes are produced.
+
+## Output Formats
+
+### `agency-indexes/{AGENCY}-index.json`
+
+The agency's inventory exactly as downloaded (re-encoded as UTF-8 only if the
+source was Windows-1252). Its structure follows whatever schema version the
+agency publishes, typically:
+
+```json
+{
+  "version": "2.0.0",
+  "agency": "DOE",
+  "measurementType": { "method": "projects" },
+  "releases": [ { "name": "...", "repositoryURL": "...", "...": "..." } ]
+}
+```
+
+### `agency-indexes/{AGENCY}/{project-name}.json`
+
+One object from `releases`, saved with four-space indentation and non-ASCII
+characters kept as-is. No fields are added, removed, or renamed.
+
+### `gov-code.json`
+
+A JSON array with one agency index object per agency:
+
+```json
+[
+  {
+    "version": "...",
+    "agency": "DHS",
+    "releases": [ { "name": "...", "identifier": "...", "...": "..." } ]
+  }
+]
+```
+
+Each release is normalized, then filled so that every required field is present.
+Required fields come first, in schema order. A required field is `null` when its
+value could not be derived. `gov-code.json` is generated locally and is not
+committed to the repository.
+
+## Automation
+
+| Workflow | Trigger | Purpose |
+| :-- | :-- | :-- |
+| [`pull-index-assets.yml`](.github/workflows/pull-index-assets.yml) | Mondays 09:17 UTC, manual | Runs the downloader and commits any changes under `agency-indexes/` as `chore: update agency indexes`. |
+| [`run-tests.yml`](.github/workflows/run-tests.yml) | PRs touching `scripts/`, `tests/`, or the workflow | Installs `requirements.txt` and runs the unittest suite on Python 3.12. |
+| [`gitleaks.yml`](.github/workflows/gitleaks.yml) | Every push and PR | Scans for committed secrets. |
+| [`repoStructure.yml`](.github/workflows/repoStructure.yml) | Push to `main`, manual | Replaces a `<!--TREE START--><!--TREE END-->` marker in this README with `tree -d` output. The README does not use the marker, so the structure above is maintained by hand. |
+
+The data refresh step uses `continue-on-error`, so successfully downloaded
+agencies are still committed when another agency fails. Check the run log for
+`Failed {AGENCY}` and `WARNING` lines.
+
+`auto-changelog.yml`, `contributors.yml`, `repoHygieneCheck.yml`, and
+`updateCodeJSON.yml` come from the repository template and currently fail to
+parse because they contain unrendered `{% raw %}` template tags.
+
+## Known Limitations
+
+- **Filenames come from project names.** Renaming a project in an agency's
+  inventory produces a new file, and the old file stays behind. Obsolete project
+  files are never deleted automatically.
+- **Collision suffixes depend on release order.** If an agency reorders its
+  releases, projects that share a name can swap `-2`/`-3` suffixes between runs.
+- **`releases` is validated after the full index is saved.** Invalid JSON never
+  overwrites an index, but a valid JSON response without a usable `releases`
+  array does replace `{AGENCY}-index.json` before the agency is reported as
+  failed.
+- **Stable project IDs are not used for filenames yet.** Switching would require
+  checking ID coverage and uniqueness per agency, a fallback for missing IDs,
+  and a migration of existing files.
+- **The consolidation script is not run in CI**, and its `INFO` progress messages
+  are not shown because logging is not configured. Validation warnings and
+  errors still print.
+- **`gov-code.json` has a placeholder `version`.** The script reads the schema's
+  `version` property type instead of a version number, so each agency index in
+  the output currently has `"version": "string"`.
 
 ## Contributing
 
-Thank you for considering contributing to an Open Source project of the US Government! For more information about our contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
+Thank you for considering contributing to an Open Source project of the US
+Government! For setup, testing, and pull request guidelines, see
+[CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Community
 
-The {{ cookiecutter.project_name }} team is taking a community-first and open source approach to the product development of this tool. We believe government software should be made in the open and be built and licensed such that anyone can download the code, run it themselves without paying money to third parties or using proprietary software, and use it as they will.
-
-We know that we can learn from a wide variety of communities, including those who will use or will be impacted by the tool, who are experts in technology, or who have experience with similar technologies deployed in other spaces. We are dedicated to creating forums for continuous conversation and feedback to help shape the design and development of the tool.
-
-We also recognize capacity building as a key part of involving a diverse open source community. We are doing our best to use accessible language, provide technical and process documents, and offer support to community members with a wide variety of backgrounds and skillsets.
+The govcode-index team is taking a community-first and open source approach to
+this project. We believe government software should be made in the open and be
+built and licensed such that anyone can download the code, run it themselves
+without paying money to third parties or using proprietary software, and use it
+as they will.
 
 ### Community Guidelines
 
-Principles and guidelines for participating in our open source community are can be found in [COMMUNITY.md](COMMUNITY.md). Please read them before joining or starting a conversation in this repo or one of the channels listed below. All community members and participants are expected to adhere to the community guidelines and code of conduct when participating in community spaces including: code repositories, communication channels and venues, and events.
+Principles and guidelines for participating in our open source community can be
+found in [COMMUNITY.md](COMMUNITY.md). All community members and participants
+are expected to adhere to the community guidelines and
+[code of conduct](CODE_OF_CONDUCT.md) when participating in community spaces,
+including code repositories, communication channels and venues, and events.
 
-<!--
-## Governance
-Information about how the {{ cookiecutter.project_name }} community is governed may be found in [GOVERNANCE.md](GOVERNANCE.md).
--->
+### Governance
+
+Information about how the govcode-index community is governed may be found in
+[GOVERNANCE.md](GOVERNANCE.md).
 
 ## Feedback
 
-If you have ideas for how we can improve or add to our capacity building efforts and methods for welcoming people into our community, please let us know at **{contact email}**. If you would like to comment on the tool itself, please let us know by filing an **issue on our GitHub repository.**
-
-<!--
-## Glossary
-Information about terminology and acronyms used in this documentation may be found in [GLOSSARY.md](GLOSSARY.md).
--->
+To report a problem with the data or the scripts, or to suggest an agency to
+add, please [file an issue](https://github.com/GSA-SHARE-IT/govcode-index/issues).
+Problems in an agency's source inventory should also be raised with that agency.
 
 ## Policies
 
@@ -113,20 +340,34 @@ questions, just [shoot us an email](mailto:opensource@cms.hhs.gov).
 
 ### Security and Responsible Disclosure Policy
 
-_Submit a vulnerability:_ Vulnerability reports can be submitted through [Bugcrowd](https://bugcrowd.com/cms-vdp). Reports may be submitted anonymously. If you share contact information, we will acknowledge receipt of your report within 3 business days.
+_Submit a vulnerability:_ Vulnerability reports can be submitted through
+[Bugcrowd](https://bugcrowd.com/cms-vdp). Reports may be submitted anonymously.
+If you share contact information, we will acknowledge receipt of your report
+within 3 business days.
 
-For more information about our Security, Vulnerability, and Responsible Disclosure Policies, see [SECURITY.md](SECURITY.md).
+For more information about our Security, Vulnerability, and Responsible
+Disclosure Policies, see [SECURITY.md](SECURITY.md).
 
 ### Software Bill of Materials (SBOM)
 
-A Software Bill of Materials (SBOM) is a formal record containing the details and supply chain relationships of various components used in building software.
+A Software Bill of Materials (SBOM) is a formal record containing the details
+and supply chain relationships of various components used in building software.
 
-In the spirit of [Executive Order 14028 - Improving the Nation’s Cyber Security](https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/information-technology-category/it-security/executive-order-14028), a SBOM for this repository is provided here: https://github.com/{{ cookiecutter.project_org }}/{{ cookiecutter.project_repo_name }}/network/dependencies.
+In the spirit of [Executive Order 14028 - Improving the Nation’s Cyber
+Security](https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/information-technology-category/it-security/executive-order-14028),
+a SBOM for this repository is provided here:
+https://github.com/GSA-SHARE-IT/govcode-index/network/dependencies.
 
 For more information and resources about SBOMs, visit: https://www.cisa.gov/sbom.
 
 ## Public domain
 
-This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/) as indicated in [LICENSE](LICENSE).
+This project is in the public domain within the United States, and copyright
+and related rights in the work worldwide are waived through the [CC0 1.0
+Universal public domain
+dedication](https://creativecommons.org/publicdomain/zero/1.0/) as indicated in
+[LICENSE](LICENSE).
 
-All contributions to this project will be released under the CC0 dedication. By submitting a pull request or issue, you are agreeing to comply with this waiver of copyright interest.
+All contributions to this project will be released under the CC0 dedication. By
+submitting a pull request or issue, you are agreeing to comply with this waiver
+of copyright interest.

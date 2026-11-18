@@ -1,63 +1,70 @@
 # COMMUNITY.md
 
-{{ cookiecutter.project_repo_name }} is supported by a dedicated team of individuals fulfilling various roles to ensure its success, security, and alignment with government standards and agency goals.
+govcode-index is supported by a dedicated team of individuals fulfilling various roles to ensure its success, security, and alignment with government standards and agency goals.
 
 ## Project Members
 
-<!-- TODO: Who are the points of contact in your project who are responsible/accountable for the project? This can often be an engineering or design manager or leader, who may or may not be the primary maintainers of the project.
+| Role          | Name    | Affiliation |
+| :------------ | :------ | :---------- |
+| Maintainer  | Remy DeCausemaker | CMS OSPO         |
+| Maintainer | Natalia Luzuriaga | CMS OSPO          |
+| Maintainer | Dinne Kopelevich | CMS OSPO          |
+| Maintainer | Sachin Panayil | CMS OSPO          |
 
-Roles to include, but not limited to: Project Owner, Technical Lead, Developers/Contributors, Community Manager, Security Team, Policy Advisor, Contracting Officer's Representative, Compliance Officer, Procurement Officer -->
+See [CODEOWNERS.md](.github/CODEOWNERS.md) for the people responsible for each
+part of this repository.
 
-| Role   | Name    | Affiliation    |
-| :----- | :------ | :------------- |
-| {role} | {names} | {affiliations} |
-
-<!-- TODO: A CODEOWNERS.md file is available in .github to define individuals responsible for specific parts of the codebase. Provide a reference to this file if used:
-
-See [CODEOWNERS.md](.github/CODEOWNERS.md) for a list of those responsible for the code and documentation in this repository.
--->
-
-See [Community Guidelines](#{{cookiecutter.project_name}}-open-source-community-guidelines) on principles and guidelines for participating in this open source project.
+See [Community Guidelines](#govcode-index-open-source-community-guidelines) on principles and guidelines for participating in this open source project.
 
 ## Roles & Responsibilities
 
-The members of {{ cookiecutter.project_repo_name }} community are responsible for guiding its development, ensuring quality standards, and fostering a collaborative environment. They play a vital role in making decisions about code contributions, handling releases, and ensuring the project meets its goals and objectives. Below is a list of the key members and their specific roles and responsibilities. We are eagerly seeking individuals who are interested in joining the community and helping shape and support these roles.
+The members of the govcode-index community are responsible for guiding its development, ensuring quality standards, and fostering a collaborative environment. They play a vital role in making decisions about code contributions, keeping the agency data refresh healthy, and ensuring the project meets its goals and objectives. Below is a list of the key members and their specific roles and responsibilities. We are eagerly seeking individuals who are interested in joining the community and helping shape and support these roles.
 
 ### Maintainers:
 
--
-
-<!-- TODO: List the individuals who are the maintainers. What groups/domains are maintainers a part of? Does your project have domains/areas that are maintained by specific people? List @USERNAMES directly, or any @ALIASES for groups/teams. -->
+- @decause-gov
+- @natalialuzuriaga
+- @DinneK
+- @sachin-panayil
 
 ### Approvers:
 
--
-
-<!-- TODO: Who are the project approvers? List out @USERNAMES where possible so they can be tagged in issues/PRs directly. -->
+- @decause-gov
+- @natalialuzuriaga
+- @DinneK
+- @sachin-panayil
 
 ### Reviewers:
 
--
-
-<!-- TODO: Who are the project reviewers? List out @USERNAMES where possible so they can be tagged in issues/PRs directly. -->
+- @decause-gov
+- @natalialuzuriaga
+- @DinneK
+- @sachin-panayil
 
 | Roles      | Responsibilities                               | Requirements                                                                      | Defined by                                                |
 | ---------- | :--------------------------------------------- | :-------------------------------------------------------------------------------- | :-------------------------------------------------------- |
-| member     | active contributor in the community            | multiple contributions to the project.                                            | PROJECT GitHub org Committer Team                         |
+| member     | active contributor in the community            | multiple contributions to the project.                                            | GSA-SHARE-IT GitHub org Committer Team                    |
 | reviewer   | review contributions from other members        | history of review and authorship in a sub-project                                 | COMMUNITY file reviewer entry, and GitHub Org Triage Team |
 | approver   | approve accepting contributions                | highly experienced and active reviewer + contributor to a sub-project             | COMMUNITY file approver entry and GitHub Triage Team      |
 | maintainer | set direction and priorities for a sub-project | demonstrated responsibility and excellent technical judgement for the sub-project | COMMUNITY file owner entry and GitHub Org Admin Team      |
 
-<!-- TODO: If the repository's release process is outlined in CONTRIBUTING.md, provide a reference to it:
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for more details on the release process.
--->
+Maintainers are also responsible for watching the weekly
+[agency index refresh](.github/workflows/pull-index-assets.yml) for failed
+agencies and filename warnings. See [CONTRIBUTING.md](CONTRIBUTING.md) for how
+changes are reviewed and how the data is refreshed.
 
 ## Contributors
 
-<!-- TODO: A list of CONTRIBUTORS is generated below using contributors.yml located in the workflows directory. In order to automatically update the COMMUNITY.md, you must enter a secret into your Secrets and Variables under Actions within your repository settings. The name of the secret must be PUSH_TO_PROTECTED_BRANCH and the value must be a Personal Access Token with specific permissions. Please follow [this link](https://github.com/CasperWA/push-protected?tab=readme-ov-file#notes-on-token-and-user-permissions) for more information. -->
+The list below is generated by the
+[`contributors.yml`](.github/workflows/contributors.yml) workflow. That workflow
+needs a `PUSH_TO_PROTECTED_BRANCH` secret containing a personal access token
+([details](https://github.com/CasperWA/push-protected?tab=readme-ov-file#notes-on-token-and-user-permissions)),
+and it currently fails to parse because of unrendered template tags (see the
+[README](README.md#automation)). Until it is fixed, the list may be empty. The
+[contributor graph](https://github.com/GSA-SHARE-IT/govcode-index/graphs/contributors)
+is always current.
 
-![](https://img.shields.io/github/contributors/{{ cookiecutter.project_org }}/{{ cookiecutter.project_repo_name }}?style=flat-square&label=Contributor%20Count(incl.%20bots)) 
+![](https://img.shields.io/github/contributors/GSA-SHARE-IT/govcode-index?style=flat-square&label=Contributor%20Count(incl.%20bots)) 
 
 <!-- readme: contributors -start -->
 <!-- readme: contributors -end -->
@@ -70,9 +77,9 @@ TODO: Who are the past maintainers or contributors who previously played signifi
 We'd like to acknowledge the following individuals for their past contributions of this project:
 -->
 
-## {{ cookiecutter.project_name }} Open Source Community Guidelines
+## govcode-index Open Source Community Guidelines
 
-This document contains principles and guidelines for participating in the {{ cookiecutter.project_name }} open source community.
+This document contains principles and guidelines for participating in the govcode-index open source community.
 
 ### Principles
 
@@ -92,12 +99,12 @@ All community members are expected to adhere to our [Code of Conduct](CODE_OF_CO
 
 Information on contributing to this repository is available in our [Contributing file](CONTRIBUTING.md).
 
-When participating in {{ cookiecutter.project_name }} open source community conversations and spaces, we ask individuals to follow the following guidelines:
+When participating in govcode-index open source community conversations and spaces, we ask individuals to follow the following guidelines:
 
 - When joining a conversation for the first time, please introduce yourself by providing a brief intro that includes:
   - your related organization (if applicable)
   - your pronouns
-  - your superpower, and how you hope to use it for {{ cookiecutter.project_name }}
+  - your superpower, and how you hope to use it for govcode-index
 - Embrace a culture of learning, and educate each other. We are all entering this conversation from different starting points and with different backgrounds. There are no dumb questions.
 - Take space and give space. We strive to create an equitable environment in which all are welcome and able to participate. We hope individuals feel comfortable voicing their opinions and providing contributions and will do our best to recognize and make space for individuals who may be struggling to find space here. Likewise, we expect individuals to recognize when they are taking up significant space and take a step back to allow room for others.
 <!-- TODO: Add if your repo has a community chat - Be present when joining synchronous conversations such as our community chat. Why be here if you're not going to _be here_? -->

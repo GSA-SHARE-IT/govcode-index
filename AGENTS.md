@@ -4,17 +4,24 @@
 
 This repository collects federal agency software inventories, preserving each
 agency's full JSON index and extracting individual project objects from its
-`releases` array.
+`releases` array. A separate script normalizes, validates, and combines those
+project files into a single `gov-code.json` dataset.
 
 - `sources/agency-index-sources.json`: agency names and source URLs.
 - `scripts/pull_index_assets.py`: downloads, validates, and saves inventories.
 - `agency-indexes/{AGENCY}-index.json`: complete agency indexes.
 - `agency-indexes/{AGENCY}/{project-name}.json`: individual project records.
-- `tests/test_pull_index_assets.py`: offline downloader and extraction tests.
+- `scripts/consolidate_to_gov_code.py`: builds `gov-code.json` (generated
+  locally, not committed) from the project files; fetches the agency index schema.
+- `scripts/utils/`: `normalize.py`, `validate.py`, and `schema.py` used by the
+  consolidation script. Their rules are documented in `docs/NORMALIZATION_RULES.md`
+  and `docs/VALIDATION_RULES.md`.
+- `tests/`: offline tests for the downloader, normalization, and validation.
 - `.github/workflows/pull-index-assets.yml`: weekly and manually triggered
-  refreshes; commits changed outputs after a successful run.
-- `.github/workflows/test-pull-index-assets.yml`: PR tests for changes to the
-  downloader, tests, or test workflow.
+  refreshes. The download step uses `continue-on-error`, so changed outputs are
+  committed even when some agencies fail.
+- `.github/workflows/run-tests.yml`: PR tests for changes to `scripts/`,
+  `tests/`, or the test workflow.
 
 Consult `README.md` and `CONTRIBUTING.md` for additional repository context.
 
@@ -69,8 +76,15 @@ Run a live refresh when needed:
 python3 scripts/pull_index_assets.py
 ```
 
+Build the consolidated dataset (needs network access for the schema):
+
+```bash
+python3 scripts/consolidate_to_gov_code.py
+```
+
 - Add or update relevant tests for behavior changes and run the suite before
-  completing Python changes. No additional test dependencies are required.
+  completing Python changes. Install `requirements.txt` first; the tests import
+  `scripts.utils`, which requires `jsonschema`.
 - Mock network responses and use temporary directories in tests. Tests must not
   depend on live agency availability or modify the real inventory files.
 - Cover data preservation, encoding, filename collisions and warnings, and failure
@@ -80,6 +94,7 @@ python3 scripts/pull_index_assets.py
 ## Documentation and handoff
 
 - Update documentation when commands, output layout, or processing behavior change.
+  Normalization and validation rule changes also belong in the matching `docs/` file.
 - Keep this file concise and focused on durable guidance. Use issues and PRs for
   future work and development history rather than copying session logs here.
 - Report what changed, what validation ran, and any remaining limitations. Distinguish
