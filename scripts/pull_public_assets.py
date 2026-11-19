@@ -23,9 +23,9 @@ def organization_repositories(generator, organization):
     yield from generator.github.get_organization(organization).get_repos(type="public")
 
 
-def project_records(record, agency):
-    """Unpack GSA inventory wrappers while leaving ordinary code.json objects intact."""
-    if agency == "GSA":
+def project_records(record, organization):
+    """Unpack inventory wrappers only for the configured GSA organization."""
+    if organization == "GSA":
         # Prefer the current schema when an inventory also includes legacy projects.
         field = next((key for key in ("releases", "projects") if key in record), None)
         if field is not None:
@@ -58,7 +58,7 @@ def collect_index(generator, organizations):
             record = generator.get_code_json(cached_repository)
             if not isinstance(record, dict):
                 raise ValueError(f"Unable to retrieve a code.json object from {repository.full_name}")
-            records = project_records(record, generator.index["agency"])
+            records = project_records(record, organization)
             for project in records:
                 # Nested entries describe their own projects, not the inventory repo.
                 fallback_name = repository.name if project is record else "unnamed-project"

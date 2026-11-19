@@ -11,6 +11,7 @@ import unittest
 from unittest.mock import Mock, patch
 
 from scripts import pull_public_assets as public
+from scripts import project_assets
 
 
 def project(name="example", date=None, url="https://github.com/org/repo"):
@@ -73,24 +74,24 @@ class PublicTests(unittest.TestCase):
         record = {"lastModified": "2023-01-01", "metadataLastUpdated": "bad",
                   "date": {"metadataLastUpdated": "2024-01-01T01:00:00+01:00",
                            "lastModified": "2024-01-02"}}
-        self.assertEqual(public.latest_timestamp(record).isoformat(), "2024-01-02T00:00:00+00:00")
-        for field in public.DATE_FIELDS:
+        self.assertEqual(project_assets.latest_timestamp(record).isoformat(), "2024-01-02T00:00:00+00:00")
+        for field in project_assets.DATE_FIELDS:
             for nested in (True, False):
                 with self.subTest(field=field, nested=nested):
                     value = {field: "2025-01-01T00:00:00Z"}
                     if nested:
                         value = {"date": value}
-                    self.assertEqual(public.latest_timestamp(value).year, 2025)
+                    self.assertEqual(project_assets.latest_timestamp(value).year, 2025)
         for value in (None, 4, "", "invalid", "2024-99-01"):
-            self.assertIsNone(public.latest_timestamp({"lastModified": value}))
+            self.assertIsNone(project_assets.latest_timestamp({"lastModified": value}))
 
     def test_unused_metadata_spellings_do_not_affect_recency(self):
         for field in ("lastUpdatedMetadata", "lastMetadataUpdated"):
             for record in ({field: "2026-01-01"}, {"date": {field: "2026-01-01"}}):
                 with self.subTest(record=record):
-                    self.assertIsNone(public.latest_timestamp(record))
+                    self.assertIsNone(project_assets.latest_timestamp(record))
                     record["lastModified"] = "2024-01-01"
-                    self.assertEqual(public.latest_timestamp(record).year, 2024)
+                    self.assertEqual(project_assets.latest_timestamp(record).year, 2024)
 
     def test_newest_record_wins_and_filename_is_retained(self):
         old = project(date="2024-01-01")
@@ -270,6 +271,24 @@ class PublicTests(unittest.TestCase):
             for field in ("releases", "projects"):
                 with self.subTest(field=field, invalid=invalid), self.assertRaises(ValueError):
                     public.project_records({field: invalid}, "GSA")
+
+    def test_other_gsa_agency_organizations_are_not_unpacked(self):
+        organizations = {
+            "GSA": [repository("inventory", {"releases": [project("unpacked")]})],
+            "GSA-TTS": [repository("tts", {"name": "tts", "projects": ["related-project"]})],
+            "18F": [repository("18f", {"name": "18f", "releases": [{"name": "nested"}]})],
+            "presidential-innovation-fellows": [repository("fellows", {"name": "fellows", "projects": []})],
+        }
+        factory = self.factory(organizations)
+        public.process_agency("GSA", {"organizations": list(organizations)}, self.output, None, factory)
+        index = json.loads((self.output / "GSA-public-index.json").read_text())
+        records = {record["name"]: record for record in index["releases"]}
+        self.assertEqual(set(records), {"unpacked", "tts", "18f", "fellows"})
+        self.assertEqual(records["tts"]["projects"], ["related-project"])
+        self.assertEqual(records["18f"]["releases"], [{"name": "nested"}])
+        self.assertEqual(records["fellows"]["projects"], [])
+        for name, record in records.items():
+            self.assertEqual(json.loads((self.output / "GSA" / (name + ".json")).read_text()), record)
 
     def test_malformed_gsa_inventory_preserves_previous_outputs(self):
         self.output.mkdir()
