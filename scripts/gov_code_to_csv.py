@@ -11,7 +11,7 @@ with the following transformations:
 
 Flattening strategy:
 - contact.* → contact_email, contact_name, contact_url, contact_phone
-- date.* → date_created, date_lastModified
+- date.* → date_created, date_lastModified, date_metadataLastUpdated
 - reuseFrequency.* → reuseFrequency_forks, reuseFrequency_clones, reuseFrequency_downloads
 - permissions.licenses[] → permissions_licenses (pipe-separated names)
 - permissions.usageType[] → permissions_usageType (pipe-separated values)
@@ -154,6 +154,7 @@ def flatten_project(project, agency):
     date_obj = project.get("date") or {}
     flat["date_created"] = normalize_string(date_obj.get("created")) if date_obj.get("created") else ""
     flat["date_lastModified"] = normalize_string(date_obj.get("lastModified")) if date_obj.get("lastModified") else ""
+    flat["date_metadataLastUpdated"] = normalize_string(date_obj.get("metadataLastUpdated")) if date_obj.get("metadataLastUpdated") else ""
     
     # reuseFrequency - nested dict
     reuse_freq = project.get("reuseFrequency") or {}
@@ -248,7 +249,7 @@ def convert_to_csv(input_file, output_file):
         # Contact
         "contact_email", "contact_name", "contact_url", "contact_phone",
         # Date
-        "date_created", "date_lastModified",
+        "date_created", "date_lastModified", "date_metadataLastUpdated",
         # Reuse frequency
         "reuseFrequency_forks", "reuseFrequency_clones", "reuseFrequency_downloads",
         # Code references
