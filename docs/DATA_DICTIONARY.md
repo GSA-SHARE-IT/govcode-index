@@ -1,6 +1,6 @@
 # Data Dictionary
 
-This document defines every field found in the data, at two levels:
+This document defines every field found in the data, at three levels:
 
 - **Source files** (`agency-indexes/`) are stored exactly as agencies publish
   them. Agencies publish the code.gov **code.json 2.0.0** metadata format, with
@@ -11,6 +11,9 @@ This document defines every field found in the data, at two levels:
   [agency index schema 1.0.0](https://gsa-share-it.github.io/codejson-schemas/schemas/agency-index/schema-1.0.0.json).
   It adds several required fields that 2.0.0 does not have.
 
+- **`gov-code.csv`** is the flattened export of `gov-code.json`, with one row
+  per project and 62 columns, including CMS fields and separate object subfields.
+
 **How to read the tables:**
 
 - **Req.** ✔ means the field is required by the 0.1.0 schema. `fill_record`
@@ -18,8 +21,9 @@ This document defines every field found in the data, at two levels:
   when no value can be derived.
 - **Source fill** is the share of the 8,045 project files under
   `agency-indexes/` where the field is present and not empty, as of the
-  2026-11-18 refresh. It changes with each weekly refresh. "New" means the
-  field is defined only in 0.1.0 and agencies do not currently publish it.
+  2026-11-18 refresh. These percentages are historical, not measurements of the current dataset.
+  "New" describes the older inventory snapshot; public collections now supply
+  some of these fields. Current CSV coverage is reported separately below.
 
 ## Contents
 
@@ -28,6 +32,8 @@ This document defines every field found in the data, at two levels:
 - [How `gov-code.json` changes each field](#how-gov-codejson-changes-each-field)
 - [Legacy and non-standard keys in source data](#legacy-and-non-standard-keys-in-source-data)
 - [Enumerations](#enumerations)
+- [CMS fields and CSV columns](#cms-fields-and-csv-columns)
+- [CSV review snapshot](#csv-review-snapshot)
 
 ## Agency index object
 
@@ -92,7 +98,7 @@ project record.
 
 | Field | Type | Req. | Description | Source fill |
 | :-- | :-- | :-: | :-- | --: |
-| `date` | object | | Dates describing the release. | 98% |
+| `date` | object or null | | Dates describing the release. | 98% |
 | `date.created` | date-time | | When the project was created. | 98% |
 | `date.lastModified` | date-time | | When the project was last modified. | 25% |
 | `date.metadataLastUpdated` | date-time | | When this metadata was last updated. | 91% |
@@ -127,7 +133,8 @@ Source dates are usually `YYYY-MM-DD`, and some use full ISO 8601 timestamps.
 
 ### Fields new in code.json 0.1.0
 
-Agencies do not currently publish these fields.
+These fields were introduced in 0.1.0. Some current public project records
+supply them; they are no longer universally absent from source data.
 
 | Field | Type | Req. | Description |
 | :-- | :-- | :-: | :-- |
@@ -148,12 +155,12 @@ output. The full rules are in
 
 | Field | Normalization and filling |
 | :-- | :-- |
-| All strings | Leading and trailing whitespace is trimmed. An empty optional string is removed. An empty required string becomes `null`. |
+| Recognized string fields | Leading and trailing whitespace is trimmed. An empty optional string is removed. An empty required string becomes `null`. |
 | `identifier` | Legacy `id` is renamed. Otherwise the value is derived from `repositoryURL` as lower-case `host/path` (for example `github.com/cisagov/acid`). Without a usable URL it becomes `{agency}:{name-slug}-{first 8 hex chars of SHA-1}`. |
 | `organization` | Missing values are filled with the agency acronym. |
 | `version` | Numbers are converted to strings. Empty or `null` values are removed. |
 | `status` | Known spellings are mapped to the enum, for example `rc` → `Release Candidate` and `Alpha v0.11 (Prototype)` → `Alpha`. Unmappable values become `null`. Missing values are never guessed. |
-| `maintenance` | Lower-cased if valid, otherwise `null`. Missing values are never guessed, so this is currently `null` for every record. |
+| `maintenance` | Lower-cased if valid, otherwise `null`. Missing values are never guessed; supplied valid values are retained. |
 | `vcs` | Lower-cased if valid. Invalid values (for example `zip`) are removed. Missing values become `git` when `repositoryURL` is a github.com repository. |
 | `repositoryURL` | `http` is upgraded to `https`, the host is lower-cased, and a trailing `/` or `.git` is removed. A bare domain with no path is moved to `homepageURL`. Invalid URLs become `null`. A missing URL on closed code becomes `"private"`. |
 | `repositoryVisibility` | Inferred: `private` when `repositoryURL` is `"private"`, `public` when it is a usable URL, otherwise `null`. |
@@ -280,3 +287,206 @@ defined by the United States Government Manual: `USDA`, `DOC`, `DOD`, `ED`,
 `CFPB`, `EPA`, `FEC`, `GSA`, `NARA`, `NASA`, `NRC`, `NSF`, `OPM`, `SBA`, `SSA`,
 `USAID`. An agency directory must match one of these (case-insensitive) to be
 included in `gov-code.json`.
+
+## CMS fields and CSV columns
+
+The exporter is [`scripts/gov_code_to_csv.py`](../scripts/gov_code_to_csv.py).
+Run `python3 scripts/gov_code_to_csv.py` to write `gov-code.csv`; optional
+positional arguments select the input and output files. All columns are emitted
+for every agency. CMS-style classification controls validation, not export.
+It does not establish that a record belongs to CMS.
+
+### Added columns
+
+Names below are the exact CSV headers. Unqualified source paths are top-level
+project properties. These 26 fields supplement the original export. `agency` comes first, followed by the 44 columns in
+our requested project-field order; remaining columns follow `AIUseCaseID`.
+Nested paths use underscore headers (for example, `date.created` becomes
+`date_created`). Separate subfield columns have also been added:
+`permissions_licenses_name`, `relatedCode_name`, `relatedCode_URL`,
+`reusedCode_name`, `reusedCode_URL`, `partners_name`, and `partners_email`.
+Each is pipe-separated and retains empty positions to align with sibling fields.
+`permissions_licenses_name` intentionally duplicates `permissions_licenses`,
+which retains its existing license-name representation. Existing combined
+related/reused-code and partner columns retain alternating member pairs.
+
+### CSV header order
+
+```text
+1. agency
+2. name
+3. identifier
+4. version
+5. description
+6. organization
+7. status
+8. permissions_licenses
+9. permissions_licenses_name
+10. permissions_licenses_URL
+11. permissions_usageType
+12. permissions_exemptionText
+13. reuseFrequency_forks
+14. reuseFrequency_clones
+15. reuseFrequency_downloads
+16. repositoryURL
+17. repositoryVisibility
+18. homepageURL
+19. downloadURL
+20. disclaimerURL
+21. disclaimerText
+22. vcs
+23. laborHours
+24. languages
+25. maintenance
+26. contractNumber
+27. SBOM
+28. relatedCode
+29. relatedCode_name
+30. relatedCode_URL
+31. relatedCode_isGovernmentRepo
+32. reusedCode
+33. reusedCode_name
+34. reusedCode_URL
+35. partners
+36. partners_name
+37. partners_email
+38. date_created
+39. date_lastModified
+40. date_metadataLastUpdated
+41. tags
+42. contact_email
+43. contact_name
+44. feedbackMechanism
+45. AIUseCaseID
+46. contact_url
+47. contact_phone
+48. longDescription
+49. group
+50. repositoryHost
+51. repositoryType
+52. softwareType
+53. fismaLevel
+54. platforms
+55. categories
+56. userType
+57. subsetInHealthcare
+58. projects
+59. systems
+60. localisation
+61. userInput
+62. maturityModelTier
+```
+
+
+| CSV column / source path | JSON type | Meaning and CSV representation |
+| :-- | :-- | :-- |
+| `version` | string | Software release version, not the parent agency-index schema version. |
+| `longDescription` | string | Extended project description; CMS expects 150–10,000 characters. Short supplied text is still exported. |
+| `maintenance` | string | Maintenance arrangement: `internal`, `contract`, `community`, or `none`. |
+| `group` | string | Associated department, organization, or group; distinct from owning `organization`. |
+| `repositoryHost` | string | Source hosting location/organization label; not necessarily a URL. CMS uses a restricted vocabulary. |
+| `repositoryType` | string | Repository purpose: `package`, `website`, `standards`, `libraries`, `data`, `application`, `tools`, or `APIs`. |
+| `softwareType` | string | `standalone/mobile`, `standalone/iot`, `standalone/desktop`, `standalone/web`, `standalone/backend`, `standalone/other`, `addon`, `library`, or `configurationFiles`. |
+| `fismaLevel` | string | Supplied security categorization: `low`, `moderate`, or `high`. No category is inferred. |
+| `SBOM` | string | SBOM/dependency link or literal `None`; the sentinel is not an empty cell. |
+| `AIUseCaseID` | string | AI inventory identifier; literal `0` means not listed and is preserved. |
+| `disclaimerText` | string | Disclaimer text. |
+| `disclaimerURL` | string | Link to disclaimer language. |
+| `platforms` | string array | Supported platforms, joined with pipes: `web`, `windows`, `mac`, `linux`, `ios`, `android`, `other`. |
+| `categories` | string array | Project categories, pipe-separated. The CMS schema does not enforce an item enum. |
+| `userType` | string array | `providers`, `patients`, `government`, `applicants`, `beneficiaries`, `enrollees`; pipe-separated. |
+| `subsetInHealthcare` | string array | `policy`, `operational`, `medicare`, `medicaid`, `SNAP`, `TANF`, `human-benefit-services`; pipe-separated. |
+| `projects` | string array | Related project names or supplied references, pipe-separated. |
+| `systems` | string array | Systems the project interfaces with or depends on, pipe-separated. |
+| `localisation` | boolean | Whether multiple languages are supported; lowercase `true` or `false`. |
+| `userInput` | boolean | Whether the software accepts user input; lowercase `true` or `false`. |
+| `maturityModelTier` | integer | CMS maturity tier 0–4. Zero is a populated value. |
+| `partners` | object array | Alternating agency-name/email values: `HHS\|person@example.org\|CDC\|`. Missing members retain empty positions. |
+| `date_metadataLastUpdated` ← `date.metadataLastUpdated` | date-time string | Metadata update timestamp, separate from project modification time. Null `date` exports as blank. |
+| `permissions_exemptionText` ← `permissions.exemptionText` | string or null | Supplied explanation of a usage exemption. |
+| `permissions_licenses_URL` ← `permissions.licenses[].URL` | string array | Pipe-separated license links, positionally aligned with `permissions_licenses`; missing links retain empty positions. |
+| `relatedCode_isGovernmentRepo` ← `relatedCode[].isGovernmentRepo` | boolean array | One pipe-separated `true`/`false`/blank value per exported related-code object, aligned with its name/URL pair. |
+
+Allowed values describe expectations, not guarantees: invalid supplied values
+can survive non-blocking validation and are exported unchanged. See
+[NORMALIZATION_RULES.md](NORMALIZATION_RULES.md) and
+[VALIDATION_RULES.md](VALIDATION_RULES.md) for CMS applicability and cleanup.
+
+### Original column mappings
+
+| CSV columns | Source and representation |
+| :-- | :-- |
+| `agency` | Parent agency index's acronym, repeated for each project. |
+| `name`, `identifier`, `organization`, `status`, `repositoryURL`, `repositoryVisibility`, `feedbackMechanism`, `downloadURL`, `homepageURL`, `vcs`, `description` | Corresponding top-level project strings. |
+| `laborHours` | Top-level number; zero is preserved if present in JSON. Existing consolidation can omit zero before export. |
+| `permissions_licenses` | License names in array order; empty positions align with the license URL column. |
+| `permissions_usageType` | `permissions.usageType`, pipe-separated. |
+| `contact_email`, `contact_name`, `contact_url`, `contact_phone` | `contact.email`, `contact.name`, `contact.URL`, `contact.phone`. The last two are normally removed during consolidation. |
+| `date_created`, `date_lastModified` | `date.created` and `date.lastModified`. |
+| `reuseFrequency_forks`, `reuseFrequency_clones`, `reuseFrequency_downloads` | Corresponding nested counts; numeric zero is preserved. |
+| `relatedCode`, `reusedCode` | Alternating name/URL pairs from each object, pipe-separated. Related-code entries containing only a government flag retain an empty name/URL pair. |
+| `languages`, `tags`, `contractNumber` | Corresponding string arrays, pipe-separated. Contract identifier strings retain leading zeros. |
+
+### Serialization and limitations
+
+- Missing/null scalar values and empty arrays become blank CSV cells. CSV does
+  not distinguish those forms of missingness. Actual false and zero values are
+  retained; they are not treated as missing.
+- Text newlines and tabs become spaces and repeated spaces are collapsed.
+  CSV quoting handles commas and double quotes; the file uses UTF-8.
+- Pipes delimit arrays and object-member pairs. Literal pipes inside members
+  are not escaped, so the flattened representation is not losslessly reversible.
+  Use JSON when exact structure or original whitespace matters.
+- Open CSV files with identifier/contract columns configured as text to prevent
+  spreadsheet software from converting numeric-looking strings or stripping zeros.
+- Unknown extension properties such as `repoType`, `feedbackMechanisms`,
+  `upstream`, and `projectURL` are not additional CSV columns.
+- Export does not deduplicate records or resolve source validation findings.
+
+## CSV review snapshot
+
+Reviewed on 2026-11-19 against the local `gov-code.json`, before the later
+column-order change and seven separate subfield additions (55 columns then,
+62 in the current exporter). These counts describe
+this generated snapshot and will change after refreshes; they are not live
+source availability checks.
+
+- 9,430 rows across 11 agencies; 55 unique column names.
+- Every row matches the current export transformation of the corresponding JSON
+  project, with no row-count, cell-value, or row-width discrepancies.
+- 93 HHS records are CMS-style. All have boolean `localisation` and `userInput`,
+  and integer maturity tiers 0–4. CSV contains 87 `false`/6 `true` localisation
+  values, 57 `false`/36 `true` user-input values, and eight maturity-tier zeros.
+- 69 of those 93 records have no supplied-field CMS findings. Remaining findings
+  include 18 short long descriptions, seven repository-host values and seven
+  repository-type values outside the vocabulary, three blank software types,
+  three null statuses, two blank FISMA levels, and one record each with platform,
+  maintenance, or license-URL findings. Counts overlap across records.
+- Four columns are entirely blank: `contact_url`, `contact_phone`,
+  `reuseFrequency_downloads`, and `partners`. Blank contact URL/phone columns
+  reflect existing consolidation rules, not an exporter failure.
+- There are 176 repeated `(agency, identifier)` groups, all in DOE, accounting
+  for 712 rows beyond the first occurrence per group. This is not proof that
+  entire records are duplicates; identifiers should not be assumed unique.
+- No literal pipe was found in a top-level string-array member in this snapshot.
+  The serialization ambiguity remains a format limitation for future values.
+
+Selected populated-cell counts (false and zero count as populated):
+
+| Column | Entire CSV | CMS-style HHS rows |
+| :-- | --: | --: |
+| `longDescription` | 93 | 88 |
+| `maintenance` | 109 | 92 |
+| `repositoryHost` | 94 | 91 |
+| `repositoryType` | 92 | 88 |
+| `SBOM` | 78 | 67 |
+| `AIUseCaseID` | 82 | 67 |
+| `projects` | 53 | 49 |
+| `systems` | 5 | 5 |
+| `date_metadataLastUpdated` | 7,407 | 87 |
+| `permissions_exemptionText` | 393 | 0 |
+| `permissions_licenses_URL` | 7,187 | 91 |
+| `relatedCode_isGovernmentRepo` | 7 | 2 |
+
+A populated cell is not necessarily valid or informative: a short placeholder
+description, `SBOM: None`, and `AIUseCaseID: 0` each count as populated.

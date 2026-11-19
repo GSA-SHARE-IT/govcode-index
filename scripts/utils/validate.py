@@ -323,6 +323,14 @@ def validate_record(record: dict) -> tuple[bool, list, list]:
     if "contractNumber" in record and record["contractNumber"] is not None:
         if not isinstance(record["contractNumber"], list):
             errors.append(f"Field 'contractNumber' must be array, got {type(record['contractNumber']).__name__}")
+        elif any(not isinstance(item, str) for item in record["contractNumber"]):
+            errors.append("Field 'contractNumber' items must be strings")
+
+    for field in ("description", "longDescription"):
+        if record.get(field) is not None and not isinstance(record[field], str):
+            errors.append(f"Field '{field}' must be string")
+    if record.get("date") is not None and not isinstance(record["date"], dict):
+        errors.append("Field 'date' must be object or null")
     
     if "contact" in record and record["contact"] is not None:
         if not isinstance(record["contact"], dict):
@@ -332,9 +340,6 @@ def validate_record(record: dict) -> tuple[bool, list, list]:
         if not isinstance(record["feedbackMechanism"], str):
             errors.append(f"Field 'feedbackMechanism' must be string, got {type(record['feedbackMechanism']).__name__}")
     
-    if "date" in record and not isinstance(record["date"], dict):
-        errors.append(f"Field 'date' must be object, got {type(record['date']).__name__}")
-
     # Return: is_valid is True regardless of warnings
     return True, errors, warnings
 

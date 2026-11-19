@@ -8,18 +8,23 @@ Value Normalization (apply_value_normalization):
   - Normalizes VALUES: licenses, usageType, status, dates, URLs, tags, etc.
   - Canonicalizes URLs, validates emails, enforces enums, parses date formats.
   - Functions prefixed with value_* focus on value validation and mapping.
-Target schema: code.json 0.1.0. Standard library only. Reusable in any pipeline.
+Target schema: code.json 0.1.0 with present-field CMS 2.2.0 extensions.
 Idempotent: normalizing twice produces identical results.
 Public API:
   - normalize_project(project): Normalize a single project dict.
   - normalize_record(src, ctx=None): Internal; normalize with optional context.
+  - cms_diagnostics(source, normalized, agency): Supplied-field CMS checks.
 """
 
 import copy
+import json
 import re
 from collections import Counter
 from datetime import datetime
+from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
+
+from jsonschema import Draft202012Validator, FormatChecker
 
 # --- schema knowledge (code.json 0.1.0) --------------------------------------
 
@@ -210,6 +215,129 @@ def clean_str_list(ctx, v, where):
     return out, was_str
 
 
+# --- CMS-style normalization and supplied-field diagnostics ------------------
+
+SCHEMA_PATH = Path(__file__).resolve().parents[1] / "schemas" / "cms-2.2.0.json"
+CMS_SCHEMA = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
+CMS_FIELDS = frozenset({
+    "localisation", "repositoryType", "repositoryHost", "userInput",
+    "fismaLevel", "group", "projects", "systems", "subsetInHealthcare",
+    "userType", "maturityModelTier", "platforms", "categories", "softwareType",
+    "longDescription",
+})
+BOOLEAN_VALUES = {"true": True, "yes": True, "false": False, "no": False}
+
+
+def uses_cms_metadata(project, agency):
+    """Presence, including null/empty values, establishes style, not ownership."""
+    return agency.strip().upper() == "HHS" and bool(CMS_FIELDS.intersection(project))
+
+
+def _clean_value(value, definition):
+    expected = definition.get("type")
+    if isinstance(value, str):
+        value = value.strip()
+    if expected == "boolean" and isinstance(value, str):
+        return BOOLEAN_VALUES.get(value.casefold(), value)
+    if expected == "integer" and isinstance(value, str):
+        if re.fullmatch(r"[+-]?[0-9]+", value):
+            return int(value)
+    if expected == "string" and isinstance(value, str):
+        choices = definition.get("enum", [])
+        lookup = {item.casefold(): item for item in choices if isinstance(item, str)}
+        return lookup.get(value.casefold(), value)
+    if expected == "array":
+        if isinstance(value, str):
+            value = [value]
+        if isinstance(value, list):
+            result = []
+            item_schema = definition.get("items", {})
+            for item in value:
+                # Split only when every token matches the controlled vocabulary.
+                pieces = [item]
+                if isinstance(item, str) and "," in item and "enum" in item_schema:
+                    tokens = [_clean_value(part, item_schema) for part in item.split(",")]
+                    if all(token in item_schema["enum"] for token in tokens):
+                        pieces = tokens
+                for piece in pieces:
+                    cleaned = _clean_value(piece, item_schema)
+                    if cleaned is None or cleaned == "":
+                        continue
+                    if cleaned not in result:
+                        result.append(cleaned)
+            return result
+    return value
+
+
+def normalize_cms_fields(ctx, record):
+    """Normalize present extension fields for every agency, without adding keys."""
+    for field in CMS_FIELDS.intersection(record):
+        original = record[field]
+        value = original
+        if field == "group" and isinstance(value, list) and len(value) == 1:
+            if isinstance(value[0], str):
+                value = value[0]
+        if field == "userType":
+            if isinstance(value, str):
+                value = [value]
+            if isinstance(value, list):
+                value = ["government" if isinstance(item, str)
+                         and item.strip().casefold() == "governemnt" else item
+                         for item in value]
+        value = _clean_value(value, CMS_SCHEMA["properties"][field])
+        if value != original or type(value) is not type(original):
+            ctx.log(f"normalized_cms_field:{field}")
+        record[field] = value
+    related = record.get("relatedCode")
+    if isinstance(related, list):
+        for item in related:
+            if isinstance(item, dict) and "isGovernmentRepo" in item:
+                original = item["isGovernmentRepo"]
+                item["isGovernmentRepo"] = _clean_value(original, {"type": "boolean"})
+                if item["isGovernmentRepo"] != original:
+                    ctx.log("normalized_cms_field:relatedCode[].isGovernmentRepo")
+
+
+def _supplied_only(schema):
+    """Remove presence/unknown-key requirements recursively, retain value rules."""
+    if isinstance(schema, dict):
+        return {key: _supplied_only(value) for key, value in schema.items()
+                if key not in {"required", "additionalProperties"}}
+    if isinstance(schema, list):
+        return [_supplied_only(value) for value in schema]
+    return schema
+
+
+_CHECK_SCHEMA = _supplied_only(CMS_SCHEMA)
+# Metadata style never establishes organizational identity.
+_CHECK_SCHEMA["properties"]["organization"].pop("enum")
+# Normalized placeholder dates explicitly represent an unknown date.
+_CHECK_SCHEMA["properties"]["date"]["type"] = ["object", "null"]
+# The schema's description explicitly permits this non-URI sentinel.
+_CHECK_SCHEMA["properties"]["repositoryURL"] = {
+    "anyOf": [{"const": "private"}, {"type": "string", "format": "uri"}]
+}
+_VALIDATOR = Draft202012Validator(_CHECK_SCHEMA, format_checker=FormatChecker())
+
+
+def cms_diagnostics(source, normalized, agency):
+    """Return a separate style marker and non-blocking supplied-field warnings.
+
+    Check before required-field filling. If existing normalization omitted a
+    supplied field, check its original value so invalid input is still visible.
+    """
+    marked = uses_cms_metadata(source, agency)
+    if not marked:
+        return {"cms_style": False, "warnings": []}
+    supplied = {key: copy.deepcopy(normalized.get(key, value))
+                for key, value in source.items()}
+    warnings = []
+    for error in _VALIDATOR.iter_errors(supplied):
+        path = ".".join(str(part) for part in error.absolute_path) or "record"
+        warnings.append(f"{path}: {error.message}")
+    return {"cms_style": True, "warnings": sorted(warnings)}
+
+
 # --- normalization functions ------------------------------------------------
 
 def rename_top_level(ctx, rec):
@@ -345,6 +473,51 @@ def struct_clean_required_strings(ctx, rec):
         else:
             # v is None, keep it as is
             pass
+
+
+def struct_flatten_description(ctx, rec):
+    """Move legacy English descriptions into the two flat text fields."""
+    value = rec.get("description")
+    if isinstance(value, dict):
+        english = value.get("en", value)
+        if not isinstance(english, dict):
+            english = {}
+        long_text = english.get("longDescription")
+        if is_empty(rec.get("longDescription")) and isinstance(long_text, str):
+            rec["longDescription"] = long_text
+        elif isinstance(long_text, str) and long_text != rec.get("longDescription"):
+            ctx.log("description_long_conflict_kept_top_level")
+        short_text = english.get("shortDescription")
+        rec["description"] = short_text if isinstance(short_text, str) else None
+        ctx.log("flattened:description")
+    for field in ("description", "longDescription"):
+        if field in rec and rec[field] is not None and not isinstance(rec[field], str):
+            rec[field] = None
+            ctx.log(f"invalid_description_to_null:{field}")
+
+
+def struct_clean_contract_number(ctx, rec):
+    """Keep contract identifiers as strings, including numeric zero."""
+    if "contractNumber" not in rec:
+        return
+    value = rec["contractNumber"]
+    items = value if isinstance(value, list) else [value]
+    result = []
+    for item in items:
+        if is_empty(item):
+            continue
+        if isinstance(item, str):
+            cleaned = item.strip()
+        elif isinstance(item, (int, float)) and not isinstance(item, bool):
+            cleaned = str(item)
+        else:
+            ctx.log("dropped_unexpected_type:contractNumber")
+            continue
+        if cleaned not in result:
+            result.append(cleaned)
+    if result != value:
+        ctx.log("normalized:contractNumber")
+    rec["contractNumber"] = result
 
 
 def struct_clean_optional_strings(ctx, rec):
@@ -606,9 +779,11 @@ def struct_clean_date(ctx, rec):
     if "date" not in rec:
         return
     dt = rec["date"]
-    if dt is None or (isinstance(dt, list) and not dt):
-        del rec["date"]
-        ctx.log("omitted_empty:date")
+    if dt is None:
+        return
+    if isinstance(dt, list) and all(is_empty(item) for item in dt):
+        rec["date"] = None
+        ctx.log("placeholder_array_to_null:date")
         return
     if isinstance(dt, list) and all(is_empty(item) for item in dt):
         del rec["date"]
@@ -992,6 +1167,7 @@ def apply_structural_normalization(ctx, rec):
     struct_drop_legacy_usage_fields(ctx, rec)
 
     struct_clean_required_strings(ctx, rec)
+    struct_flatten_description(ctx, rec)
     struct_clean_optional_strings(ctx, rec)
     struct_clean_version(ctx, rec)
     struct_clean_permissions(ctx, rec)
@@ -1044,6 +1220,8 @@ def normalize_record(src, ctx=None):
 
     # Apply value normalization (stage 3b)
     apply_value_normalization(ctx, rec)
+
+    normalize_cms_fields(ctx, rec)
 
     return rec
 

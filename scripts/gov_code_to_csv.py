@@ -7,7 +7,7 @@ with the following transformations:
 - Flattens nested objects (contact, date, permissions, reuseFrequency)
 - Concatenates arrays with pipe separator (|)
 - Handles null/empty values gracefully
-- Outputs to gov-code-flattened.csv
+- Outputs to gov-code.csv
 
 Flattening strategy:
 - contact.* → contact_email, contact_name, contact_url, contact_phone
@@ -24,6 +24,86 @@ import sys
 from pathlib import Path
 
 
+CMS_STRING_FIELDS = (
+    "version", "longDescription", "maintenance", "group", "repositoryHost",
+    "repositoryType", "softwareType", "fismaLevel", "SBOM", "AIUseCaseID",
+    "disclaimerText", "disclaimerURL",
+)
+CMS_ARRAY_FIELDS = (
+    "platforms", "categories", "userType", "subsetInHealthcare", "projects", "systems",
+)
+CMS_VALUE_FIELDS = ("localisation", "userInput", "maturityModelTier")
+CMS_COLUMNS = (*CMS_STRING_FIELDS, *CMS_ARRAY_FIELDS, *CMS_VALUE_FIELDS,
+               "partners", "date_metadataLastUpdated", "permissions_exemptionText",
+               "permissions_licenses_URL", "relatedCode_isGovernmentRepo")
+
+
+COLUMN_ORDER = (
+    'agency',
+    'name',
+    'identifier',
+    'version',
+    'description',
+    'organization',
+    'status',
+    'permissions_licenses',
+    'permissions_licenses_name',
+    'permissions_licenses_URL',
+    'permissions_usageType',
+    'permissions_exemptionText',
+    'reuseFrequency_forks',
+    'reuseFrequency_clones',
+    'reuseFrequency_downloads',
+    'repositoryURL',
+    'repositoryVisibility',
+    'homepageURL',
+    'downloadURL',
+    'disclaimerURL',
+    'disclaimerText',
+    'vcs',
+    'laborHours',
+    'languages',
+    'maintenance',
+    'contractNumber',
+    'SBOM',
+    'relatedCode',
+    'relatedCode_name',
+    'relatedCode_URL',
+    'relatedCode_isGovernmentRepo',
+    'reusedCode',
+    'reusedCode_name',
+    'reusedCode_URL',
+    'partners',
+    'partners_name',
+    'partners_email',
+    'date_created',
+    'date_lastModified',
+    'date_metadataLastUpdated',
+    'tags',
+    'contact_email',
+    'contact_name',
+    'feedbackMechanism',
+    'AIUseCaseID',
+    'contact_url',
+    'contact_phone',
+    'longDescription',
+    'group',
+    'repositoryHost',
+    'repositoryType',
+    'softwareType',
+    'fismaLevel',
+    'platforms',
+    'categories',
+    'userType',
+    'subsetInHealthcare',
+    'projects',
+    'systems',
+    'localisation',
+    'userInput',
+    'maturityModelTier',
+)
+
+
 def normalize_string(s):
     """Normalize a string by removing newlines and extra whitespace.
     
@@ -33,8 +113,10 @@ def normalize_string(s):
     Returns:
         Normalized string with newlines replaced by spaces
     """
-    if not s:
+    if s is None:
         return ""
+    if isinstance(s, bool):
+        return "true" if s else "false"
     # Replace newlines and tabs with spaces, strip, and collapse multiple spaces
     s = str(s).replace('\n', ' ').replace('\r', ' ').replace('\t', ' ')
     # Collapse multiple spaces into single space
@@ -76,10 +158,8 @@ def flatten_license_array(licenses, delimiter="|"):
     
     names = []
     for license_item in licenses:
-        if isinstance(license_item, dict) and "name" in license_item:
-            name = normalize_string(license_item["name"])
-            if name:
-                names.append(name)
+        if isinstance(license_item, dict):
+            names.append(normalize_string(license_item.get("name")))
     
     return delimiter.join(names)
 
@@ -102,11 +182,19 @@ def flatten_code_reference_array(items, delimiter="|"):
         if isinstance(item, dict):
             name = normalize_string(item.get("name", ""))
             url = normalize_string(item.get("URL", ""))
-            if name or url:
+            if name or url or "isGovernmentRepo" in item:
                 pairs.append(name if name else "")
                 pairs.append(url if url else "")
     
     return delimiter.join(pairs) if pairs else ""
+
+
+def flatten_object_fields(items, fields):
+    """Flatten object fields in order, retaining blanks to preserve alignment."""
+    if not isinstance(items, list):
+        return ""
+    return "|".join(normalize_string(item.get(field))
+                    for item in items if isinstance(item, dict) for field in fields)
 
 
 def flatten_project(project, agency):
@@ -158,7 +246,6 @@ def flatten_project(project, agency):
     
     # reuseFrequency - nested dict
     reuse_freq = project.get("reuseFrequency") or {}
-    # csv.DictWriter writes None as an empty cell while preserving numeric zero.
     flat["reuseFrequency_forks"] = reuse_freq.get("forks", "")
     flat["reuseFrequency_clones"] = reuse_freq.get("clones", "")
     flat["reuseFrequency_downloads"] = reuse_freq.get("downloads", "")
@@ -182,6 +269,35 @@ def flatten_project(project, agency):
         project.get("reusedCode"), delimiter="|"
     )
     
+    for field in (*CMS_STRING_FIELDS, *CMS_VALUE_FIELDS):
+        flat[field] = normalize_string(project.get(field))
+    for field in CMS_ARRAY_FIELDS:
+        flat[field] = flatten_array_to_string(project.get(field))
+    flat["partners"] = flatten_object_fields(project.get("partners"), ("name", "email"))
+    flat["date_metadataLastUpdated"] = normalize_string(date_obj.get("metadataLastUpdated"))
+    flat["permissions_exemptionText"] = normalize_string(permissions.get("exemptionText"))
+    flat["permissions_licenses_URL"] = flatten_object_fields(
+        permissions.get("licenses"), ("URL",))
+    # Match the entries included by flatten_code_reference_array, including flag-only objects.
+    related = project.get("relatedCode")
+    references = [item for item in related if isinstance(item, dict) and (
+        normalize_string(item.get("name")) or normalize_string(item.get("URL"))
+        or "isGovernmentRepo" in item)] if isinstance(related, list) else []
+    flat["relatedCode_isGovernmentRepo"] = flatten_object_fields(
+        references, ("isGovernmentRepo",))
+
+    flat["permissions_licenses_name"] = flat["permissions_licenses"]
+    for field in ("name", "URL"):
+        flat[f"relatedCode_{field}"] = flatten_object_fields(references, (field,))
+    reused = project.get("reusedCode")
+    reused_references = [item for item in reused if isinstance(item, dict) and (
+        normalize_string(item.get("name")) or normalize_string(item.get("URL"))
+        or "isGovernmentRepo" in item)] if isinstance(reused, list) else []
+    for field in ("name", "URL"):
+        flat[f"reusedCode_{field}"] = flatten_object_fields(reused_references, (field,))
+    for field in ("name", "email"):
+        flat[f"partners_{field}"] = flatten_object_fields(project.get("partners"), (field,))
+
     return flat
 
 
@@ -234,36 +350,11 @@ def convert_to_csv(input_file, output_file):
     
     print(f"  Flattened {total_projects} projects from {len(data)} agencies")
     
-    # Determine column order (consistent across all rows)
-    # Order: agency first, then core fields, then nested, then arrays
-    column_order = [
-        "agency",
-        # Core fields
-        "name", "identifier", "organization", "status",
-        # URLs
-        "repositoryURL", "repositoryVisibility", "feedbackMechanism",
-        "downloadURL", "homepageURL",
-        # VCS and other
-        "vcs", "laborHours", "description",
-        # Permissions
-        "permissions_licenses", "permissions_usageType",
-        # Contact
-        "contact_email", "contact_name", "contact_url", "contact_phone",
-        # Date
-        "date_created", "date_lastModified", "date_metadataLastUpdated",
-        # Reuse frequency
-        "reuseFrequency_forks", "reuseFrequency_clones", "reuseFrequency_downloads",
-        # Code references
-        "relatedCode", "reusedCode",
-        # Arrays
-        "languages", "tags", "contractNumber"
-    ]
-    
     # Write CSV
     print(f"Writing {output_file}...")
     try:
         with open(output_path, 'w', newline='', encoding='utf-8') as f:
-            writer = csv.DictWriter(f, fieldnames=column_order, restval="")
+            writer = csv.DictWriter(f, fieldnames=COLUMN_ORDER, restval="")
             writer.writeheader()
             writer.writerows(flattened_projects)
         

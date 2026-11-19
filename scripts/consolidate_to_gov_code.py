@@ -20,7 +20,7 @@ from pathlib import Path
 
 from utils.validate import validate_record, fill_record
 from utils.schema import initialize_schema_config, validate_agency_index
-from utils.normalize import normalize_project
+from utils.normalize import normalize_project, cms_diagnostics
 
 
 AGENCY_INDEX_URL = "https://gsa-share-it.github.io/codejson-schemas/schemas/agency-index/schema-1.0.0.json"
@@ -53,6 +53,12 @@ def normalize_project_file(project: dict, agency: str, file_path: Path) -> dict 
     """
     # Stage 3: Normalize the project structure and values
     normalized = normalize_project(project)
+
+    diagnostics = cms_diagnostics(project, normalized, agency)
+    if diagnostics["cms_style"]:
+        logger.info("%s: using CMS-style metadata (supplied fields only)", file_path.name)
+        for warning in diagnostics["warnings"]:
+            logger.warning("%s: CMS-style: %s", file_path.name, warning)
     
     # Stage 4: Validate (soft validation - non-blocking)
     is_valid, errors, warnings = validate_record(normalized)
