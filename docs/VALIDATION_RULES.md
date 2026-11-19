@@ -446,3 +446,39 @@ After all fills and derivations:
 | **2: Fill & Standardize** | Derive defaults & normalize | Infer org/vcs/feedback, standardize status/licenses, preserve unknowns |
 
 Both stages return an **audit trail** via error/warning lists or derivation dict, enabling full traceability of what changed and why.
+
+## HHS supplied-field CMS checks
+
+After normalization and before required-field filling, `cms_diagnostics` marks
+an HHS record as CMS-style when any field listed in the CMS-style normalization
+section is present in the original object, even if its value is null or empty.
+Agency comparison ignores case and surrounding whitespace. Other agencies and
+HHS records without those fields receive no CMS-specific checks.
+
+The marker is returned in diagnostics and logged at INFO; it is never inserted
+into project JSON. Each violation is logged at WARNING with filename and field
+path. Checks are non-blocking and do not drop projects.
+
+Validation uses the pinned CMS 2.2.0 schema, Draft 2020-12, and format checking
+(`jsonschema[format]`, installed via `scripts/requirements.txt`). It retains
+supplied-field types, enums, unique-item rules, bounds, description lengths, and
+URI/date-time/email formats. Required-key and additional-property restrictions
+are removed recursively: missing fields, missing nested fields, and extensions
+are not errors. The organization enum is removed to avoid identity inference.
+`repositoryURL: "private"` is accepted as explicitly allowed by the source
+schema's description despite its URI format declaration.
+
+Normalized values are checked; when existing cleanup removes a supplied
+top-level field, its original value is checked so its issue remains visible.
+Checks happen before filling to avoid validating inferred/default fields.
+The CMS repositoryHost enum is enforced only in this HHS diagnostic path.
+No full CMS conformance or ownership classification is performed. Existing
+base validation and filling remain independent and unchanged.
+
+### Structural metadata validation
+
+Contract number arrays must contain strings; description and longDescription
+must be strings when non-null; date must be an object or null. CMS supplied-field
+checks explicitly allow date null as the normalized representation of a
+placeholder date. This is a documented local exception to CMS 2.2.0, whose date
+property only permits objects. These checks remain non-blocking.

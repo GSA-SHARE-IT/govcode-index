@@ -409,3 +409,116 @@ These enhancements work together with the new validation module (`scripts/utils/
 - URLs are valid and usable
 - Legacy numeric IDs are properly formatted
 - Languages arrays contain only actual programming language values
+
+## CMS metadata and structural normalization
+
+These rules are implemented in [`scripts/utils/normalize.py`](../scripts/utils/normalize.py).
+They apply to recognized fields that are present, regardless of agency, and do
+not change organizational identity. Source inventory files remain untouched.
+CMS field cleanup runs after the existing structural and value stages.
+
+Definitions come from the pinned
+[CMS 2.2.0 schema](../scripts/schemas/cms-2.2.0.json), downloaded from the
+[official schema source](https://gsa-share-it.github.io/codejson-schemas/schemas/cms/schema-2.2.0.json).
+
+### CMS field types and values
+
+| Fields | Normalization | Example |
+| :-- | :-- | :-- |
+| `localisation`, `userInput`, `relatedCode[].isGovernmentRepo` | Trim strings and convert case-insensitive `true`/`yes` and `false`/`no` to booleans. Preserve actual booleans. | `"No"` → `false` |
+| `maturityModelTier` | Convert integer strings to integers. Preserve zero; do not round floats or convert booleans. Values outside 0–4 remain available for validation. | `"0"` → `0` |
+| `repositoryType`, `repositoryHost`, `softwareType`, `fismaLevel` | Trim strings and map case-insensitive enum matches to the exact schema spelling. Preserve unrecognized values. | `"apis"` → `"APIs"`; `"Low"` → `"low"` |
+| `platforms`, `categories`, `projects`, `systems`, `subsetInHealthcare`, `userType` | Wrap scalar strings in arrays, trim string items, remove blank/null items, and deduplicate in source order. | `"Government"` → `["government"]` for `userType` |
+| `platforms`, `subsetInHealthcare`, `userType` | Normalize enum spelling; split comma-packed items only when every token matches the enum. | `["windows,mac,linux"]` → `["windows", "mac", "linux"]` |
+| `userType` | Correct the explicitly recognized typo `Governemnt`. | `["Governemnt"]` → `["government"]` |
+| `group` | Trim strings and unwrap an array containing one string. Preserve ambiguous multi-item arrays. | `["CMS/CMMI"]` → `"CMS/CMMI"` |
+| `longDescription` | Trim strings; structural description cleanup below handles blanks and unsupported types. Do not generate or pad text to meet length limits. | `" Text "` → `"Text"` |
+
+Canonical spelling preserves `APIs`, `SNAP`, `TANF`, and `configurationFiles`.
+`categories`, `projects`, and `systems` have no item enum in this schema; their
+values are not automatically lowercased or split on commas.
+
+Missing CMS extension fields are not added. Unknown enum values, unsupported
+list items, and malformed CMS extension types are retained for review rather
+than guessed. Changed fields record `normalized_cms_field:<field>` in the
+normalization context.
+
+No new alias mappings are applied to `repoType`, `feedbackMechanisms`, `upstream`,
+or `projectURL`; these extension properties remain unchanged. Existing cleanup
+preserves the string sentinels `AIUseCaseID: "0"` and `SBOM: "None"`.
+
+### Contract numbers (`struct_clean_contract_number`)
+
+- Convert a scalar string or number to an array of strings.
+- Convert numeric array items to strings, including zero. Preserve leading
+  zeros already present in strings and do not split identifiers on punctuation.
+- Trim strings, remove blanks/nulls, and deduplicate while retaining order.
+- Convert a null field to `[]`. A missing field stays absent until filling.
+- Drop unsupported items, including booleans, objects, and nested arrays, with
+  `dropped_unexpected_type:contractNumber` recorded in the context.
+- Record changed values with `normalized:contractNumber`.
+
+Example: `[0, "0", " 00123 ", null, ""]` → `["0", "00123"]`.
+
+### Flat descriptions (`struct_flatten_description`)
+
+- Move `description.en.shortDescription` to string `description`.
+- Move `description.en.longDescription` to top-level `longDescription`.
+- Also recognize direct `description.shortDescription` and
+  `description.longDescription` when no `en` key is present.
+- Keep an existing nonblank top-level `longDescription` on conflict and record
+  `description_long_conflict_kept_top_level`.
+- Trim both text fields and omit blank/null or unsupported values. Never
+  stringify a description object. Missing short text does not prevent retaining
+  long text.
+- Unrecognized language variants and nested keys are not carried into the flat
+  fields; the original source inventory retains them. No text is generated.
+- Record flattening with `flattened:description`; unsupported field types record
+  `invalid_description_to_null:<field>` before optional-string cleanup omits them.
+
+Example:
+
+```json
+{
+  "description": {
+    "en": {
+      "shortDescription": "Short overview",
+      "longDescription": "Detailed overview"
+    }
+  }
+}
+```
+
+becomes:
+
+```json
+{
+  "description": "Short overview",
+  "longDescription": "Detailed overview"
+}
+```
+
+### Placeholder dates (`struct_clean_date`)
+
+- Arrays containing only blank strings or nulls become JSON `null`. Examples:
+  `[""]`, `[" ", null]`, and `[]`.
+- Existing null stays null through repeated normalization and filling.
+- Missing dates stay absent. Non-placeholder arrays remain available for
+  validation rather than being interpreted as timestamps.
+- Existing date-object cleanup is unchanged.
+- Record conversion with `placeholder_array_to_null:date`.
+
+### HHS applicability and diagnostics
+
+An HHS record is marked as using CMS-style metadata when its original object
+contains any of these fields, even if the value is empty or null:
+`localisation`, `repositoryType`, `repositoryHost`, `userInput`, `fismaLevel`,
+`group`, `projects`, `systems`, `subsetInHealthcare`, `userType`,
+`maturityModelTier`, `platforms`, `categories`, `softwareType`, `longDescription`.
+
+The marker belongs to diagnostics and logs, not the project JSON. Supplied-field
+checks run after normalization and before filling. They do not require missing
+CMS fields, reject extension keys, or enforce CMS organizational identity.
+CMS-specific constraints such as the repository-host enum apply only within
+these HHS checks. Null dates are an explicit local exception to the CMS schema.
+See [VALIDATION_RULES.md](VALIDATION_RULES.md) for validation details.
