@@ -39,7 +39,7 @@ REQUIRED_STRINGS = [
 ]
 # Optional string fields: empty / null -> key omitted. ("version" is separate.)
 OPTIONAL_STRINGS = [
-    "description", "homepageURL", "downloadURL", "disclaimerURL",
+    "description", "longDescription", "homepageURL", "downloadURL", "disclaimerURL",
     "disclaimerText", "vcs", "SBOM", "AIUseCaseID",
 ]
 
@@ -239,6 +239,31 @@ def rename_updated(ctx, rec):
         ctx.log("renamed:updated->date.lastModified")
     else:
         ctx.log("dropped_legacy_key_conflict:updated")
+
+
+def struct_flatten_description(ctx, rec):
+    """Flatten recognized English descriptions before optional-string cleanup."""
+    description = rec.get("description")
+    if not isinstance(description, dict):
+        return
+    english = description.get("en")
+    if not isinstance(english, dict) or not any(
+        key in english for key in ("shortDescription", "longDescription")
+    ):
+        ctx.log("skipped_flatten:description(no recognized English description)")
+        return
+    if "longDescription" in english:
+        if is_empty(rec.get("longDescription")):
+            rec["longDescription"] = english["longDescription"]
+            ctx.log("hoisted:description.en.longDescription->longDescription")
+        else:
+            ctx.log("dropped_legacy_key_conflict:description.en.longDescription")
+    if "shortDescription" in english:
+        rec["description"] = english["shortDescription"]
+        ctx.log("renamed:description.en.shortDescription->description")
+    else:
+        del rec["description"]
+        ctx.log("omitted_missing:description.en.shortDescription")
 
 
 def hoist_exemption_text(ctx, rec):
@@ -905,6 +930,7 @@ def apply_structural_normalization(ctx, rec):
 
     rename_top_level(ctx, rec)
     rename_updated(ctx, rec)
+    struct_flatten_description(ctx, rec)
     hoist_exemption_text(ctx, rec)
     struct_drop_legacy_usage_fields(ctx, rec)
 

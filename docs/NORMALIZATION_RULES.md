@@ -35,6 +35,28 @@ _Fixes the SHAPE of records: renames, hoists, strips extra keys, coerces types, 
 
 ---
 
+### **Nested English Description** (`struct_flatten_description`)
+
+- Runs before optional-string cleanup in Stage 3a.
+- For an object containing `description.en.shortDescription` or
+  `description.en.longDescription`:
+  - Replace `description` with the English `shortDescription`.
+  - Hoist the English `longDescription` to top-level `longDescription`.
+  - Keep an existing nonempty top-level `longDescription` on conflict.
+  - If `shortDescription` is absent, omit `description`.
+  - Replacing the nested object removes its other keys and language variants.
+- Existing string descriptions remain unchanged by this transformation.
+- Missing/non-object `en`, or `en` without either recognized key: leave the
+  description unchanged and log `skipped_flatten:description(no recognized English description)`.
+- Log successful moves as `renamed:description.en.shortDescription->description`
+  and `hoisted:description.en.longDescription->longDescription`; log conflicts as
+  `dropped_legacy_key_conflict:description.en.longDescription` and a missing short
+  description as `omitted_missing:description.en.shortDescription`.
+- Both output fields then receive optional-string cleanup: trim strings and
+  omit empty strings/nulls; log and preserve unexpected non-string values.
+
+---
+
 ### **Required String Fields** (`struct_clean_required_strings`)
 
 _Fields: name, identifier, organization, status, repositoryURL, repositoryVisibility, maintenance, feedbackMechanism_
@@ -56,11 +78,11 @@ _Fields: name, identifier, organization, status, repositoryURL, repositoryVisibi
 
 ### **Optional String Fields** (`struct_clean_optional_strings`)
 
-_Fields: description, homepageURL, downloadURL, disclaimerURL, disclaimerText, vcs, SBOM, AIUseCaseID_
+_Fields: description, longDescription, homepageURL, downloadURL, disclaimerURL, disclaimerText, vcs, SBOM, AIUseCaseID_
 
 - **Trim whitespace**
 - **Empty string/null → omit field** (delete key)
-- **Non-string values**: Log unexpected type, delete field
+- **Non-string values**: Log unexpected type, leave unchanged
 
 ---
 

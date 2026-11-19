@@ -7,15 +7,65 @@ These tests ensure data integrity when normalizing code.json project objects.
 import unittest
 from datetime import datetime
 from unittest.mock import Mock
+from copy import deepcopy
 from scripts.utils.normalize import (
     normalize_project,
     struct_clean_date,
+    struct_flatten_description,
     struct_drop_legacy_usage_fields,
 )
 
 
 class StructuralNormalizationTests(unittest.TestCase):
     """Tests for Stage 3a: Structural Normalization (shape, types, structure)"""
+
+    def test_flatten_english_description(self):
+        source = {"description": {"en": {
+            "shortDescription": "  Short description  ",
+            "longDescription": "  Longer description.  ",
+        }}}
+        original = deepcopy(source)
+        normalized = normalize_project(source)
+        self.assertEqual(normalized["description"], "Short description")
+        self.assertEqual(normalized["longDescription"], "Longer description.")
+        self.assertEqual(source, original)
+        self.assertEqual(normalize_project(normalized), normalized)
+        ctx = Mock()
+        struct_flatten_description(ctx, deepcopy(source))
+        ctx.log.assert_any_call("renamed:description.en.shortDescription->description")
+        ctx.log.assert_any_call("hoisted:description.en.longDescription->longDescription")
+
+    def test_description_long_conflicts_and_empty_defaults(self):
+        for existing in ("Existing", "", "  ", None):
+            with self.subTest(existing=existing):
+                source = {
+                    "description": {"en": {"longDescription": "Nested"}},
+                    "longDescription": existing,
+                }
+                normalized = normalize_project(source)
+                self.assertNotIn("description", normalized)
+                self.assertEqual(normalized["longDescription"],
+                                 "Existing" if existing == "Existing" else "Nested")
+
+    def test_description_missing_or_empty_parts(self):
+        for english in ({"shortDescription": "Short"},
+                        {"shortDescription": " ", "longDescription": None},
+                        {"shortDescription": None, "longDescription": " "}):
+            with self.subTest(english=english):
+                normalized = normalize_project({"description": {"en": english}})
+                self.assertNotIn("longDescription", normalized)
+                if english["shortDescription"] == "Short":
+                    self.assertEqual(normalized["description"], "Short")
+                else:
+                    self.assertNotIn("description", normalized)
+
+    def test_unrecognized_description_shapes_are_preserved(self):
+        for description in ("Plain text", {"fr": {"shortDescription": "Texte"}},
+                            {"en": None}, {"en": []}, {"en": {}},
+                            {"en": {"other": "Text"}}):
+            with self.subTest(description=description):
+                normalized = normalize_project({"description": description})
+                self.assertEqual(normalized["description"], description)
 
     # =========================================================================
     # Legacy Key Renames
