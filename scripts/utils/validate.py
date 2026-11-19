@@ -332,6 +332,9 @@ def validate_record(record: dict) -> tuple[bool, list, list]:
         if not isinstance(record["feedbackMechanism"], str):
             errors.append(f"Field 'feedbackMechanism' must be string, got {type(record['feedbackMechanism']).__name__}")
     
+    if "date" in record and not isinstance(record["date"], dict):
+        errors.append(f"Field 'date' must be object, got {type(record['date']).__name__}")
+
     # Return: is_valid is True regardless of warnings
     return True, errors, warnings
 

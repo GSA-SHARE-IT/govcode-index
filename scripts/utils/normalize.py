@@ -609,6 +609,10 @@ def struct_clean_date(ctx, rec):
         del rec["date"]
         ctx.log("omitted_empty:date")
         return
+    if isinstance(dt, list) and all(is_empty(item) for item in dt):
+        del rec["date"]
+        ctx.log("omitted_placeholder_array:date")
+        return
     if not isinstance(dt, dict):
         ctx.log("unexpected_type:date")
         return

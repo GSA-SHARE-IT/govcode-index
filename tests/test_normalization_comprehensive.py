@@ -626,8 +626,24 @@ class StructuralNormalizationTests(unittest.TestCase):
                 self.assertEqual(record, {"name": "Example"})
                 ctx.log.assert_called_once_with("omitted_empty:date")
 
+    def test_placeholder_date_arrays_are_omitted_and_logged(self):
+        for value in ([""], ["  "], [None], ["", None, " \t"]):
+            with self.subTest(value=value):
+                source = {"date": value, "name": "Example"}
+                original = deepcopy(source)
+                record = deepcopy(source)
+                ctx = Mock()
+                struct_clean_date(ctx, record)
+                self.assertEqual(record, {"name": "Example"})
+                ctx.log.assert_called_once_with("omitted_placeholder_array:date")
+                normalized = normalize_project(source)
+                self.assertNotIn("date", normalized)
+                self.assertEqual(source, original)
+                self.assertEqual(normalize_project(normalized), normalized)
+
     def test_other_non_object_dates_are_preserved_and_warned(self):
-        for value in (["2024-01-01"], "2024-01-01", 0, False):
+        for value in (["2024-01-01"], ["", "2024-01-01"], [{}], [0],
+                      [False], [[]], "2024-01-01", 0, False):
             with self.subTest(value=value):
                 record = {"date": value}
                 ctx = Mock()
