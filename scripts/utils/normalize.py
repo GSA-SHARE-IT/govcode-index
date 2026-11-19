@@ -92,6 +92,7 @@ LICENSE_MAP = {
     "apache 2.0": "Apache-2.0", "apache": "Apache-2.0",
     "apache license, version 2.0": "Apache-2.0",
     "cc0": "CC0-1.0", "cc0-1.0": "CC0-1.0", "cc0 1.0": "CC0-1.0",
+    "cc0 1.0 universal": "CC0-1.0",
     "public domain": "CC0-1.0",
     "gpl-2.0": "GPL-2.0-only", "gpl-2.0-only": "GPL-2.0-only",
     "gpl 2.0": "GPL-2.0-only", "gpl2": "GPL-2.0-only",
@@ -351,6 +352,24 @@ def rename_top_level(ctx, rec):
             ctx.log(f"dropped_legacy_key_conflict:{old}")
 
 
+def rename_nested_keys(ctx, rec):
+    """Preserve known nested aliases before forbidden-key cleanup."""
+    for parent, old, new in (
+        ("permissions", "license", "licenses"),
+        ("date", "metaDataLastUpdated", "metadataLastUpdated"),
+    ):
+        container = rec.get(parent)
+        if not isinstance(container, dict) or old not in container:
+            continue
+        value = container.pop(old)
+        canonical = container.get(new)
+        if is_empty(canonical) or (new == "licenses" and canonical == []):
+            container[new] = value
+            ctx.log(f"renamed:{parent}.{old}->{parent}.{new}")
+        else:
+            ctx.log(f"dropped_legacy_key_conflict:{parent}.{old}")
+
+
 def rename_updated(ctx, rec):
     """Legacy `updated` -> date.lastModified (schema key wins on conflict)."""
     if "updated" not in rec:
@@ -367,6 +386,31 @@ def rename_updated(ctx, rec):
         ctx.log("renamed:updated->date.lastModified")
     else:
         ctx.log("dropped_legacy_key_conflict:updated")
+
+
+def struct_flatten_description(ctx, rec):
+    """Flatten recognized English descriptions before optional-string cleanup."""
+    description = rec.get("description")
+    if not isinstance(description, dict):
+        return
+    english = description.get("en")
+    if not isinstance(english, dict) or not any(
+        key in english for key in ("shortDescription", "longDescription")
+    ):
+        ctx.log("skipped_flatten:description(no recognized English description)")
+        return
+    if "longDescription" in english:
+        if is_empty(rec.get("longDescription")):
+            rec["longDescription"] = english["longDescription"]
+            ctx.log("hoisted:description.en.longDescription->longDescription")
+        else:
+            ctx.log("dropped_legacy_key_conflict:description.en.longDescription")
+    if "shortDescription" in english:
+        rec["description"] = english["shortDescription"]
+        ctx.log("renamed:description.en.shortDescription->description")
+    else:
+        del rec["description"]
+        ctx.log("omitted_missing:description.en.shortDescription")
 
 
 def hoist_exemption_text(ctx, rec):
@@ -391,53 +435,12 @@ def hoist_exemption_text(ctx, rec):
         ctx.log("dropped_legacy_key_conflict:exemptionText")
 
 
-def struct_migrate_legacy_usage_fields(ctx, rec):
-    """Migrate legacy governmentWideReuseProject and openSourceProject fields to usageType.
-    
-    If openSourceProject == 1, adds "openSource" to permissions.usageType.
-    If governmentWideReuseProject == 1, adds "governmentWideReuse" to permissions.usageType.
-    Removes both legacy fields after migration.
-    """
-    has_open_source = False
-    has_gov_reuse = False
-
-    # Check for openSourceProject == 1
-    if "openSourceProject" in rec:
-        val = rec.pop("openSourceProject")
-        if val == 1 or val == "1":
-            has_open_source = True
-            ctx.log("migrated_legacy_field:openSourceProject->usageType")
-        else:
-            ctx.log("dropped_legacy_field:openSourceProject")
-
-    # Check for governmentWideReuseProject == 1
-    if "governmentWideReuseProject" in rec:
-        val = rec.pop("governmentWideReuseProject")
-        if val == 1 or val == "1":
-            has_gov_reuse = True
-            ctx.log("migrated_legacy_field:governmentWideReuseProject->usageType")
-        else:
-            ctx.log("dropped_legacy_field:governmentWideReuseProject")
-
-    # Only add to usageType if one of these fields was set to 1
-    if has_open_source or has_gov_reuse:
-        perms = rec.get("permissions")
-        if perms is None:
-            perms = rec["permissions"] = {}
-        if not isinstance(perms, dict):
-            ctx.log("skipped_migrate:usage_fields(permissions not an object)")
-            return
-
-        usage_type = perms.get("usageType", [])
-        if not isinstance(usage_type, list):
-            usage_type = []
-
-        if has_open_source and "openSource" not in usage_type:
-            usage_type.append("openSource")
-        if has_gov_reuse and "governmentWideReuse" not in usage_type:
-            usage_type.append("governmentWideReuse")
-
-        perms["usageType"] = usage_type
+def struct_drop_legacy_usage_fields(ctx, rec):
+    """Drop legacy project-type flags without changing permissions or usageType."""
+    for field in ("openSourceProject", "governmentWideReuseProject"):
+        if field in rec:
+            rec.pop(field)
+            ctx.log(f"dropped_legacy_field:{field}")
 
 
 def struct_clean_required_strings(ctx, rec):
@@ -627,6 +630,35 @@ def struct_clean_permissions(ctx, rec):
             ctx.log("unexpected_type:permissions.exemptionText")
 
 
+def struct_clean_contract_number(ctx, rec):
+    """Normalize populated contract numbers to an array of strings."""
+    value = rec.get("contractNumber")
+    if value is None:
+        return
+    if isinstance(value, list):
+        items = value
+    else:
+        items = [value]
+        ctx.log("wrapped_in_list:contractNumber")
+    out = []
+    for item in items:
+        if is_empty(item):
+            ctx.log("dropped_empty_item:contractNumber")
+            continue
+        if isinstance(item, str):
+            cleaned = item.strip()
+            if cleaned != item:
+                ctx.log("trimmed:contractNumber")
+        elif isinstance(item, (int, float)) and not isinstance(item, bool):
+            cleaned = str(item)
+            ctx.log("coerced_to_string:contractNumber")
+        else:
+            ctx.log("dropped_unexpected_type:contractNumber")
+            continue
+        out.append(cleaned)
+    rec["contractNumber"] = out
+
+
 def struct_clean_reuse_frequency(ctx, rec):
     rf = rec.get("reuseFrequency")
     if rf is None:
@@ -753,6 +785,10 @@ def struct_clean_date(ctx, rec):
         rec["date"] = None
         ctx.log("placeholder_array_to_null:date")
         return
+    if isinstance(dt, list) and all(is_empty(item) for item in dt):
+        del rec["date"]
+        ctx.log("omitted_placeholder_array:date")
+        return
     if not isinstance(dt, dict):
         ctx.log("unexpected_type:date")
         return
@@ -858,6 +894,10 @@ def value_clean_repository_url(ctx, rec):
         rec["repositoryURL"] = None
         ctx.log("invalid_url_to_null:repositoryURL")
         return
+
+    if p.scheme.lower() == "git" and p.netloc.lower() == "github.com":
+        p = p._replace(scheme="https")
+        ctx.log("github_git_to_https:repositoryURL")
 
     if is_bare_domain(p):
         # A homepage, not a repository: move it, null the repository URL.
@@ -1121,8 +1161,10 @@ def apply_structural_normalization(ctx, rec):
 
     rename_top_level(ctx, rec)
     rename_updated(ctx, rec)
+    rename_nested_keys(ctx, rec)
+    struct_flatten_description(ctx, rec)
     hoist_exemption_text(ctx, rec)
-    struct_migrate_legacy_usage_fields(ctx, rec)
+    struct_drop_legacy_usage_fields(ctx, rec)
 
     struct_clean_required_strings(ctx, rec)
     struct_flatten_description(ctx, rec)

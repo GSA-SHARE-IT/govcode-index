@@ -19,27 +19,57 @@ _Fixes the SHAPE of records: renames, hoists, strips extra keys, coerces types, 
 - Creates `date` object if needed
 - Schema key wins on conflict
 
+**Nested aliases** (`rename_nested_keys`)
+
+- `permissions.license` → `permissions.licenses`
+- `date.metaDataLastUpdated` → `date.metadataLastUpdated`
+- Runs in Stage 3a before permissions/date cleanup strips unrecognized keys.
+- Moves the entire value without changing its contents; subsequent structural
+  and value normalization handle license arrays, license values, and timestamps.
+- If the canonical key is absent, null, or an empty/whitespace-only string,
+  use the alias value. An empty `licenses` array also accepts the alias value.
+- Otherwise keep the canonical value; do not merge competing values.
+- Remove the alias in either case. Log successful renames as
+  `renamed:<parent>.<old>-><parent>.<new>` and conflicts as
+  `dropped_legacy_key_conflict:<parent>.<old>`.
+- Missing or non-object parent containers are left to existing cleanup and
+  validation rules; no container is created by these renames.
+
 **3. Field Hoisting** (`hoist_exemption_text`)
 
 - `exemptionText` (top-level) → `permissions.exemptionText`
 - Creates `permissions` object if needed
 - Schema key wins on conflict
 
-**4. Legacy Usage Fields Migration** (`struct_migrate_legacy_usage_fields`)
+**4. Legacy Usage Fields Removal** (`struct_drop_legacy_usage_fields`)
 
-- Migrates legacy boolean project-type fields to `permissions.usageType`
-- **openSourceProject:**
-  - If value is `1` or `"1"` → adds `"openSource"` to `permissions.usageType`
-  - Any other value → field is dropped
-- **governmentWideReuseProject:**
-  - If value is `1` or `"1"` → adds `"governmentWideReuse"` to `permissions.usageType`
-  - Any other value → field is dropped
-- **Behavior:**
-  - Both legacy fields are removed from the record after processing
-  - Creates `permissions` object if needed
-  - Adds to existing `usageType` array (doesn't replace)
-  - Avoids duplicates in `usageType`
-  - If neither field equals 1, `permissions` object is not created
+- Removes top-level `openSourceProject` and `governmentWideReuseProject` whenever
+  present, regardless of their values or the source agency.
+- Logs each removal as `dropped_legacy_field:<field>`.
+- Does not create or modify `permissions` or `permissions.usageType`.
+- Existing independent usage-type normalization rules remain unchanged.
+
+---
+
+### **Nested English Description** (`struct_flatten_description`)
+
+- Runs before optional-string cleanup in Stage 3a.
+- For an object containing `description.en.shortDescription` or
+  `description.en.longDescription`:
+  - Replace `description` with the English `shortDescription`.
+  - Hoist the English `longDescription` to top-level `longDescription`.
+  - Keep an existing nonempty top-level `longDescription` on conflict.
+  - If `shortDescription` is absent, omit `description`.
+  - Replacing the nested object removes its other keys and language variants.
+- Existing string descriptions remain unchanged by this transformation.
+- Missing/non-object `en`, or `en` without either recognized key: leave the
+  description unchanged and log `skipped_flatten:description(no recognized English description)`.
+- Log successful moves as `renamed:description.en.shortDescription->description`
+  and `hoisted:description.en.longDescription->longDescription`; log conflicts as
+  `dropped_legacy_key_conflict:description.en.longDescription` and a missing short
+  description as `omitted_missing:description.en.shortDescription`.
+- Both output fields then receive optional-string cleanup: trim strings and
+  omit empty strings/nulls; log and preserve unexpected non-string values.
 
 ---
 
@@ -64,11 +94,11 @@ _Fields: name, identifier, organization, status, repositoryURL, repositoryVisibi
 
 ### **Optional String Fields** (`struct_clean_optional_strings`)
 
-_Fields: description, homepageURL, downloadURL, disclaimerURL, disclaimerText, vcs, SBOM, AIUseCaseID_
+_Fields: description, longDescription, homepageURL, downloadURL, disclaimerURL, disclaimerText, vcs, SBOM, AIUseCaseID_
 
 - **Trim whitespace**
 - **Empty string/null → omit field** (delete key)
-- **Non-string values**: Log unexpected type, delete field
+- **Non-string values**: Log unexpected type, leave unchanged
 
 ---
 
@@ -121,6 +151,24 @@ _Object with optional fields: forks, clones, downloads_
 
 ---
 
+### **Contract Numbers** (`struct_clean_contract_number`)
+
+- Single string or number → wrap in an array.
+- Convert numeric values (integers/floats) to strings, including inside arrays.
+- Trim strings; preserve identifier formatting such as leading zeros and do not
+  split strings on punctuation.
+- Drop empty/whitespace-only strings and null array elements.
+- Drop unsupported values (including booleans, objects, and nested arrays),
+  logging `dropped_unexpected_type:contractNumber`; do not stringify them.
+- Keep an empty result as `[]`. Missing or null fields remain unchanged for the
+  validation fill stage to supply `[]`.
+- Log wrapping, coercion, trimming, and empty-item removal as
+  `wrapped_in_list:contractNumber`, `coerced_to_string:contractNumber`,
+  `trimmed:contractNumber`, and `dropped_empty_item:contractNumber`.
+- Preserve order and duplicates in Stage 3a; existing Stage 3b rules deduplicate.
+
+---
+
 ### **String Lists** (`struct_clean_string_lists`)
 
 **Languages array:**
@@ -166,6 +214,13 @@ _Applied to: relatedCode, reusedCode, partners_
 
 _Object with optional fields: created, lastModified, metadataLastUpdated_
 
+- **Null or empty array → omit entire date field**, logging `omitted_empty:date`
+- **Nonempty arrays containing only nulls or empty/whitespace-only strings → omit
+  the entire date field**, logging `omitted_placeholder_array:date`.
+  Examples: `[""]`, `[null]`, `["", null, "  "]`. No timestamp is inferred.
+- **Other non-object types → log `unexpected_type:date`, leave unchanged** for
+  validation to report. This includes arrays with any nonblank string, object,
+  nested array, number, or boolean, even if other items are empty placeholders.
 - Strip unrecognized keys (keep only: `created`, `lastModified`, `metadataLastUpdated`)
 - **Trim string fields**
 - **Empty values → omit field key**
@@ -216,6 +271,12 @@ _Normalizes VALUES: validates, maps to enums, parses formats, canonicalizes_
 
 ### **Repository URL** (`value_clean_repository_url`)
 
+- **GitHub Git protocol → HTTPS:** Convert a `git://github.com/` prefix to
+  `https://github.com/` (scheme and host matching is case-insensitive), logging
+  `github_git_to_https:repositoryURL`. Match the actual URL scheme and exact
+  authority, not text embedded in a path/query or another host. Other Git hosts
+  are unchanged. Existing `.git`/trailing-slash cleanup then applies, allowing
+  the filling stage's existing GitHub feedback inference to recognize the URL.
 - **Special case**: String "private" → keep as-is
 - **Invalid URL → null**
   - Now includes URLs without scheme (unless https:// prefix fallback succeeds)
@@ -287,7 +348,9 @@ _Inside permissions.licenses array_
 1. **Drop if no `name` field**
 2. **Map `name` to enum:**
    - Direct match in enum → keep
-   - Case-insensitive fuzzy match in LICENSE_MAP → map
+   - Match in LICENSE_MAP after collapsing whitespace and lowercasing → map
+   - `CC0 1.0 Universal` → `CC0-1.0`, including case and whitespace variants;
+     log `license_mapped`. The license URL continues through existing URL cleanup.
    - Unrecognized → `Other`
    - Special case `noassertion` → drop entire license
 3. **Validate URL field** (via `value_clean_url_field`)

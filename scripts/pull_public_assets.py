@@ -23,17 +23,19 @@ def organization_repositories(generator, organization):
     yield from generator.github.get_organization(organization).get_repos(type="public")
 
 
-def project_records(record, organization):
-    """Unpack inventory wrappers only for the configured GSA organization."""
-    if organization == "GSA":
-        # Prefer the current schema when an inventory also includes legacy projects.
-        field = next((key for key in ("releases", "projects") if key in record), None)
-        if field is not None:
-            projects = record[field]
-            if not isinstance(projects, list) or any(not isinstance(item, dict) for item in projects):
-                raise ValueError(f"GSA inventory {field} must be an array of project objects")
-            return projects
-    return [record]
+def is_agency_inventory(record):
+    """Recognize inventories without mistaking project relationship lists for them."""
+    if "releases" in record:
+        return True
+    # Legacy inventories use projects; ordinary records also use this key for
+    # related project names/URLs or an empty relationship list.
+    projects = record.get("projects")
+    return "projects" in record and (
+        "agency" in record or "measurementType" in record
+        or (isinstance(projects, list) and bool(projects)
+            and all(isinstance(item, dict) for item in projects))
+        or ("name" not in record and "repositoryURL" not in record)
+    )
 
 
 def collect_index(generator, organizations):
@@ -58,11 +60,15 @@ def collect_index(generator, organizations):
             record = generator.get_code_json(cached_repository)
             if not isinstance(record, dict):
                 raise ValueError(f"Unable to retrieve a code.json object from {repository.full_name}")
-            records = project_records(record, organization)
-            for project in records:
-                # Nested entries describe their own projects, not the inventory repo.
-                fallback_name = repository.name if project is record else "unnamed-project"
-                generator.update_index(generator.index, project, organization, fallback_name)
+            if is_agency_inventory(record):
+                print(
+                    f"WARNING [{organization}]: skipping {repository.full_name}/code.json: "
+                    "agency inventory, not an individual project",
+                    file=sys.stderr,
+                    flush=True,
+                )
+                continue
+            generator.update_index(generator.index, record, organization, repository.name)
 
 
 def process_agency(agency, configuration, output_dir, token, generator_factory):

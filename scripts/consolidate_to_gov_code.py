@@ -121,8 +121,12 @@ def consolidate_indexes(repo_root: Path) -> list:
         file_count = 0
         
         for json_file in json_files:
-            # Skip index files themselves
-            if json_file.name.endswith("-index.json"):
+            # Only reserved agency snapshot names are indexes; project names
+            # can legitimately end in "-index.json".
+            if json_file.name.casefold() in {
+                f"{agency_name.lower()}-index.json",
+                f"{agency_name.lower()}-public-index.json",
+            }:
                 continue
             
             project = load_project_file(json_file)

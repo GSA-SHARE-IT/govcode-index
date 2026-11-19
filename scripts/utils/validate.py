@@ -340,6 +340,9 @@ def validate_record(record: dict) -> tuple[bool, list, list]:
         if not isinstance(record["feedbackMechanism"], str):
             errors.append(f"Field 'feedbackMechanism' must be string, got {type(record['feedbackMechanism']).__name__}")
     
+    if "date" in record and not isinstance(record["date"], dict):
+        errors.append(f"Field 'date' must be object, got {type(record['date']).__name__}")
+
     # Return: is_valid is True regardless of warnings
     return True, errors, warnings
 
@@ -400,18 +403,15 @@ def fill_record(agency: str, filename: str, record: dict) -> tuple[dict, dict]:
             rec["repositoryURL"] = None
             derived["repositoryURL"] = "not provided, not closed code"
     
-    # --- repositoryVisibility (must infer) ---
+    # --- repositoryVisibility (only infer from an explicit private marker) ---
     if rec.get("repositoryVisibility") is None:
         url = rec.get("repositoryURL")
         if isinstance(url, str) and url.lower() == "private":
             rec["repositoryVisibility"] = "private"
             derived["repositoryVisibility"] = 'inferred from repositoryURL = "private"'
-        elif usable_url(url):
-            rec["repositoryVisibility"] = "public"
-            derived["repositoryVisibility"] = "inferred from public repository URL"
         else:
             rec["repositoryVisibility"] = None
-            derived["repositoryVisibility"] = "cannot infer: no URL or private URL"
+            derived["repositoryVisibility"] = "not provided; repository URL does not establish visibility"
     
     # --- identifier (must derive) ---
     if rec.get("identifier") is None:
