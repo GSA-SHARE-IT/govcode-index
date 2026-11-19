@@ -23,13 +23,17 @@ class ProjectTests(unittest.TestCase):
     def save(self, projects):
         return downloader.save_projects({"releases": projects}, self.directory)
 
-    def test_preserves_complete_project_and_overwrites_on_rerun(self):
-        project = {"name": "example", "description": "Café ®", "nested": {"tags": [1, None]}}
+    def test_preserves_complete_project_and_only_updates_when_newer(self):
+        project = {"name": "example", "description": "Café ®", "nested": {"tags": [1, None]},
+                   "repositoryURL": "https://github.com/org/example", "lastModified": "2024-01-01"}
         self.assertEqual(self.save([project]), 1)
         path = self.directory / "example.json"
         self.assertEqual(json.loads(path.read_text(encoding="utf-8")), project)
         project["description"] = "Updated"
-        self.save([project])
+        self.assertEqual(self.save([project]), 0)
+        self.assertEqual(json.loads(path.read_text())["description"], "Café ®")
+        project["lastModified"] = "2025-01-01"
+        self.assertEqual(self.save([project]), 1)
         self.assertEqual(json.loads(path.read_text()), project)
         self.assertEqual(self.stderr.getvalue(), "")
 
