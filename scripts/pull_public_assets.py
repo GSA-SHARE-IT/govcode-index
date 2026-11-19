@@ -77,7 +77,8 @@ def process_agency(agency, configuration, output_dir, token, generator_factory):
     agency_dir = output_dir / agency
     if agency_dir.is_symlink():
         raise ValueError(f"Agency directory cannot be a symlink: {agency_dir}")
-    generator = generator_factory(agency=agency, version=VERSION, token=token)
+    # TODO: Correct spelling upstream
+    generator = generator_factory(agency=agency, verison=VERSION, token=token)
     collect_index(generator, organizations)
     releases_from(generator.index)
     output_dir.mkdir(parents=True, exist_ok=True)
