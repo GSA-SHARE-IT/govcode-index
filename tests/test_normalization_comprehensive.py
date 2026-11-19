@@ -125,8 +125,7 @@ class StructuralNormalizationTests(unittest.TestCase):
         self.assertEqual(normalize_project(normalized), normalized)
         ctx = Mock()
         struct_flatten_description(ctx, deepcopy(source))
-        ctx.log.assert_any_call("renamed:description.en.shortDescription->description")
-        ctx.log.assert_any_call("hoisted:description.en.longDescription->longDescription")
+        ctx.log.assert_called_once_with("flattened:description")
 
     def test_description_long_conflicts_and_empty_defaults(self):
         for existing in ("Existing", "", "  ", None):
@@ -152,13 +151,19 @@ class StructuralNormalizationTests(unittest.TestCase):
                 else:
                     self.assertNotIn("description", normalized)
 
-    def test_unrecognized_description_shapes_are_preserved(self):
+    def test_unrecognized_description_shapes_are_omitted_without_mutating_source(self):
         for description in ("Plain text", {"fr": {"shortDescription": "Texte"}},
                             {"en": None}, {"en": []}, {"en": {}},
                             {"en": {"other": "Text"}}):
             with self.subTest(description=description):
-                normalized = normalize_project({"description": description})
-                self.assertEqual(normalized["description"], description)
+                source = {"description": description}
+                original = deepcopy(source)
+                normalized = normalize_project(source)
+                if isinstance(description, str):
+                    self.assertEqual(normalized["description"], description)
+                else:
+                    self.assertNotIn("description", normalized)
+                self.assertEqual(source, original)
 
     # =========================================================================
     # Legacy Key Renames
@@ -617,8 +622,8 @@ class StructuralNormalizationTests(unittest.TestCase):
     # Date Object (strip keys, trim strings)
     # =========================================================================
 
-    def test_empty_date_containers_are_omitted_and_logged(self):
-        for value in ([], {}, None):
+    def test_empty_date_objects_are_omitted_and_logged(self):
+        for value in ({},):
             with self.subTest(value=value):
                 record = {"date": value, "name": "Example"}
                 ctx = Mock()
@@ -626,20 +631,30 @@ class StructuralNormalizationTests(unittest.TestCase):
                 self.assertEqual(record, {"name": "Example"})
                 ctx.log.assert_called_once_with("omitted_empty:date")
 
-    def test_placeholder_date_arrays_are_omitted_and_logged(self):
-        for value in ([""], ["  "], [None], ["", None, " \t"]):
+    def test_placeholder_date_arrays_become_null_and_are_logged(self):
+        for value in ([], [""], ["  "], [None], ["", None, " \t"]):
             with self.subTest(value=value):
                 source = {"date": value, "name": "Example"}
                 original = deepcopy(source)
                 record = deepcopy(source)
                 ctx = Mock()
                 struct_clean_date(ctx, record)
-                self.assertEqual(record, {"name": "Example"})
-                ctx.log.assert_called_once_with("omitted_placeholder_array:date")
+                self.assertEqual(record, {"name": "Example", "date": None})
+                ctx.log.assert_called_once_with("placeholder_array_to_null:date")
                 normalized = normalize_project(source)
-                self.assertNotIn("date", normalized)
+                self.assertIsNone(normalized["date"])
                 self.assertEqual(source, original)
                 self.assertEqual(normalize_project(normalized), normalized)
+
+    def test_null_and_missing_dates_are_preserved_without_logging(self):
+        for source in ({"name": "Example"}, {"name": "Example", "date": None}):
+            with self.subTest(source=source):
+                record = deepcopy(source)
+                ctx = Mock()
+                struct_clean_date(ctx, record)
+                self.assertEqual(record, source)
+                ctx.log.assert_not_called()
+                self.assertEqual(normalize_project(source), source)
 
     def test_other_non_object_dates_are_preserved_and_warned(self):
         for value in (["2024-01-01"], ["", "2024-01-01"], [{}], [0],
@@ -654,7 +669,7 @@ class StructuralNormalizationTests(unittest.TestCase):
     def test_full_normalization_preserves_source_and_is_idempotent(self):
         source = {"name": "Example", "date": []}
         normalized = normalize_project(source)
-        self.assertNotIn("date", normalized)
+        self.assertIsNone(normalized["date"])
         self.assertEqual(source, {"name": "Example", "date": []})
         self.assertEqual(normalize_project(normalized), normalized)
 
