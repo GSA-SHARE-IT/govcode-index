@@ -1,4 +1,4 @@
-name: Update agency indexes
+name: Retrieve and update project records
 
 on:
   schedule:
@@ -25,10 +25,16 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.13"
 
-      - name: Download agency indexes
-        run: python scripts/pull_index_assets.py
+      - name: Install dependencies
+        run: python -m pip install -r scripts/requirements.txt
+
+      - name: Collect agency and public indexes
+        id: collect
+        env:
+          GITHUB_TOKEN: ${{ secrets.PUBLIC_ASSETS_TOKEN }}
+        run: python scripts/pull_all_assets.py
         continue-on-error: true
 
       - name: Commit updated indexes
@@ -42,3 +48,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore: update agency indexes"
           git push
+
+      - name: Report incomplete collection
+        if: ${{ always() && steps.collect.outcome == 'failure' }}
+        run: |
+          echo "One or more collectors failed; available updates were committed if possible."
+          exit 1
