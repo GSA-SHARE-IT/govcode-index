@@ -87,6 +87,7 @@ LICENSE_MAP = {
     "apache 2.0": "Apache-2.0", "apache": "Apache-2.0",
     "apache license, version 2.0": "Apache-2.0",
     "cc0": "CC0-1.0", "cc0-1.0": "CC0-1.0", "cc0 1.0": "CC0-1.0",
+    "cc0 1.0 universal": "CC0-1.0",
     "public domain": "CC0-1.0",
     "gpl-2.0": "GPL-2.0-only", "gpl-2.0-only": "GPL-2.0-only",
     "gpl 2.0": "GPL-2.0-only", "gpl2": "GPL-2.0-only",

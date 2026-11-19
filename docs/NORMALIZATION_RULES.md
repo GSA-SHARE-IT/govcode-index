@@ -348,7 +348,9 @@ _Inside permissions.licenses array_
 1. **Drop if no `name` field**
 2. **Map `name` to enum:**
    - Direct match in enum → keep
-   - Case-insensitive fuzzy match in LICENSE_MAP → map
+   - Match in LICENSE_MAP after collapsing whitespace and lowercasing → map
+   - `CC0 1.0 Universal` → `CC0-1.0`, including case and whitespace variants;
+     log `license_mapped`. The license URL continues through existing URL cleanup.
    - Unrecognized → `Other`
    - Special case `noassertion` → drop entire license
 3. **Validate URL field** (via `value_clean_url_field`)

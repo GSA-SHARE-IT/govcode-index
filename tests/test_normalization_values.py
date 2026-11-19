@@ -306,6 +306,20 @@ class ValueNormalizationTests(unittest.TestCase):
                 if licenses:  # Only check if licenses exist after normalization
                     self.assertEqual(licenses[0]["name"], expected_license)
 
+    def test_cc0_universal_mapping_preserves_license_and_source(self):
+        url = "https://creativecommons.org/publicdomain/zero/1.0/"
+        for name in ("CC0 1.0 Universal", "cc0 1.0 universal",
+                     "  CC0  1.0\tUNIVERSAL  "):
+            with self.subTest(name=name):
+                source = {"permissions": {"licenses": [{"name": name, "URL": url}]}}
+                ctx = Ctx()
+                normalized = normalize_record(source, ctx)
+                self.assertEqual(normalized["permissions"]["licenses"],
+                                 [{"name": "CC0-1.0", "URL": url}])
+                self.assertEqual(source["permissions"]["licenses"][0]["name"], name)
+                self.assertEqual(ctx.changes["license_mapped"], 1)
+                self.assertEqual(normalize_project(normalized), normalized)
+
     def test_unrecognized_license_to_Other(self):
         """Unrecognized license should map to 'Other'."""
         project = {
