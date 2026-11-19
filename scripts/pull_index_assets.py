@@ -2,67 +2,34 @@
 
 import json
 from pathlib import Path
-import re
 import sys
 from urllib.error import URLError
 from urllib.request import Request, urlopen
+
+
+try:
+    from .project_assets import plan_project_writes
+except ImportError:  # Direct script execution
+    from project_assets import plan_project_writes
 
 
 ROOT = Path(__file__).resolve().parent.parent
 
 
 def save_projects(index, agency_dir):
-    """Save each release intact, using filesystem-safe, unique project names."""
-
-    if not isinstance(index, dict) or not isinstance(index.get("releases"), list):
-        raise ValueError("Agency index must contain a releases array")
-    releases = index["releases"]
-    if any(not isinstance(project, dict) for project in releases):
-        raise ValueError("Each release must be a project object")
-
+    """Write new or newer projects, preserving existing filenames and records."""
+    writes = plan_project_writes(index, agency_dir)
     agency_dir.mkdir(parents=True, exist_ok=True)
-    used_names = set()
-
-    for project in releases:
-        # TODO: Consider stable project IDs for filenames after checking ID
-        # coverage and uniqueness within each agency, with a fallback for missing IDs.
-        reasons = []
-        original_name = project.get("name")
-        if not original_name:
-            reasons.append("missing or empty project name")
-        name = str(project.get("name") or "unnamed-project")
-        stem = re.sub(r'[/\\()<>:"|?*\s\x00-\x1f]', "_", name).strip(". ")
-        if stem != name:
-            reasons.append("filename characters replaced or trimmed")
-        
-        # Leave room for a duplicate suffix and the extension on common filesystems.
-        if len(stem.encode("utf-8")) > 180:
-            reasons.append("name truncated to 180 UTF-8 bytes")
-        stem = stem.encode("utf-8")[:180].decode("utf-8", errors="ignore")
-        stem = stem or "unnamed-project"
-        filename = f"{stem}.json"
-        suffix = 2
-        while filename.casefold() in used_names:
-            filename = f"{stem}-{suffix}.json"
-            suffix += 1
-        if suffix > 2:
-            reasons.append("duplicate filename (case-insensitive)")
-        used_names.add(filename.casefold())
-        if reasons:
-            print(
-                f"WARNING [{agency_dir.name}]: project {original_name!r} "
-                f"-> {filename!r}: {'; '.join(reasons)}",
-                file=sys.stderr,
-                flush=True,
-            )
+    for filename, project in writes.items():
         (agency_dir / filename).write_text(
             json.dumps(project, indent=4, ensure_ascii=False) + "\n",
             encoding="utf-8",
         )
-    return len(releases)
+    return len(writes)
 
 
-def main():
+def pull_index_assets():
+    """Collect inventories and return zero on success, or one on failure."""
     sources = json.loads((ROOT / "sources/agency-index-sources.json").read_text())
     output_dir = ROOT / "agency-indexes"
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -110,6 +77,10 @@ def main():
         print(f"Saved {count} projects in agency-indexes/{agency}/", flush=True)
 
     return 1 if failures else 0
+
+
+def main():
+    return pull_index_assets()
 
 
 if __name__ == "__main__":
