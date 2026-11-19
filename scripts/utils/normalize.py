@@ -223,6 +223,24 @@ def rename_top_level(ctx, rec):
             ctx.log(f"dropped_legacy_key_conflict:{old}")
 
 
+def rename_nested_keys(ctx, rec):
+    """Preserve known nested aliases before forbidden-key cleanup."""
+    for parent, old, new in (
+        ("permissions", "license", "licenses"),
+        ("date", "metaDataLastUpdated", "metadataLastUpdated"),
+    ):
+        container = rec.get(parent)
+        if not isinstance(container, dict) or old not in container:
+            continue
+        value = container.pop(old)
+        canonical = container.get(new)
+        if is_empty(canonical) or (new == "licenses" and canonical == []):
+            container[new] = value
+            ctx.log(f"renamed:{parent}.{old}->{parent}.{new}")
+        else:
+            ctx.log(f"dropped_legacy_key_conflict:{parent}.{old}")
+
+
 def rename_updated(ctx, rec):
     """Legacy `updated` -> date.lastModified (schema key wins on conflict)."""
     if "updated" not in rec:
@@ -959,6 +977,7 @@ def apply_structural_normalization(ctx, rec):
 
     rename_top_level(ctx, rec)
     rename_updated(ctx, rec)
+    rename_nested_keys(ctx, rec)
     struct_flatten_description(ctx, rec)
     hoist_exemption_text(ctx, rec)
     struct_drop_legacy_usage_fields(ctx, rec)

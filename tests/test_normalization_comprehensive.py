@@ -10,6 +10,7 @@ from unittest.mock import Mock
 from copy import deepcopy
 from scripts.utils.normalize import (
     normalize_project,
+    rename_nested_keys,
     struct_clean_date,
     struct_clean_contract_number,
     struct_flatten_description,
@@ -19,6 +20,53 @@ from scripts.utils.normalize import (
 
 class StructuralNormalizationTests(unittest.TestCase):
     """Tests for Stage 3a: Structural Normalization (shape, types, structure)"""
+
+    def test_nested_aliases_preserve_values_and_log_conflicts(self):
+        cases = [
+            ("permissions", "license", "licenses", [{"name": "MIT", "URL": "https://example.org/LICENSE"}]),
+            ("date", "metaDataLastUpdated", "metadataLastUpdated", "2025-04-08T00:00:00Z"),
+        ]
+        for parent, old, new, value in cases:
+            for empty in (None, "", "  ", *([[]] if new == "licenses" else [])):
+                with self.subTest(parent=parent, empty=empty):
+                    record = {parent: {old: deepcopy(value), new: empty}}
+                    ctx = Mock()
+                    rename_nested_keys(ctx, record)
+                    self.assertEqual(record, {parent: {new: value}})
+                    ctx.log.assert_called_once_with(f"renamed:{parent}.{old}->{parent}.{new}")
+            record = {parent: {old: deepcopy(value)}}
+            rename_nested_keys(Mock(), record)
+            self.assertEqual(record, {parent: {new: value}})
+            record = {parent: {old: "legacy", new: deepcopy(value)}}
+            ctx = Mock()
+            rename_nested_keys(ctx, record)
+            self.assertEqual(record, {parent: {new: value}})
+            ctx.log.assert_called_once_with(f"dropped_legacy_key_conflict:{parent}.{old}")
+
+    def test_nested_aliases_ignore_missing_or_non_object_parents(self):
+        for record in ({}, {"permissions": None, "date": []},
+                       {"permissions": "invalid", "date": "invalid"}):
+            original = deepcopy(record)
+            ctx = Mock()
+            rename_nested_keys(ctx, record)
+            self.assertEqual(record, original)
+            ctx.log.assert_not_called()
+
+    def test_nested_aliases_survive_full_normalization(self):
+        source = {
+            "permissions": {"license": {"name": "mit", "URL": "https://example.org/LICENSE"},
+                            "usageType": "openSource"},
+            "date": {"metaDataLastUpdated": "2025-04-08T00:00:00+0000"},
+        }
+        original = deepcopy(source)
+        normalized = normalize_project(source)
+        self.assertEqual(normalized["permissions"], {
+            "licenses": [{"name": "MIT", "URL": "https://example.org/LICENSE"}],
+            "usageType": ["openSource"],
+        })
+        self.assertEqual(normalized["date"], {"metadataLastUpdated": "2025-04-08T00:00:00+00:00"})
+        self.assertEqual(source, original)
+        self.assertEqual(normalize_project(normalized), normalized)
 
     def test_contract_number_structural_types(self):
         cases = [
