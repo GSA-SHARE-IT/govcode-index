@@ -255,12 +255,15 @@ If `repositoryVisibility` is missing or null:
 - **If repositoryURL is "private" (string, case-insensitive):**
   - Set to `"private"`
   - Derivation: `'inferred from repositoryURL = "private"'`
-- **Else if repositoryURL is a usable public URL** (http/https with netloc):
-  - Set to `"public"`
-  - Derivation: `"inferred from public repository URL"`
 - **Otherwise:**
   - Set to `null`
-  - Derivation: `"cannot infer: no URL or private URL"`
+  - Derivation: `"not provided; repository URL does not establish visibility"`
+
+An HTTP(S) URL, including a GitHub URL, does not establish public visibility.
+Existing non-null `repositoryVisibility` values are preserved by filling.
+Unknown visibility remains null and does not satisfy the schema's enum; it is
+not replaced with a guessed value. Identifier, VCS, and feedback inference are
+unaffected.
 
 ---
 

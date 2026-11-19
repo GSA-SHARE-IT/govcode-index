@@ -694,15 +694,28 @@ class FillRecordTests(unittest.TestCase):
         self.assertEqual(filled["repositoryVisibility"], "private")
         self.assertIn("inferred", derived["repositoryVisibility"])
 
-    def test_fill_repositoryVisibility_inferred_from_public_url(self):
-        """RepositoryVisibility should be 'public' if URL is public."""
-        record = {
-            "name": "Test",
-            "repositoryURL": "https://github.com/owner/repo"
-        }
-        filled, derived = fill_record("TEST_AGENCY", "file.json", record)
-        self.assertEqual(filled["repositoryVisibility"], "public")
-        self.assertIn("public", derived["repositoryVisibility"])
+    def test_fill_visibility_is_not_inferred_from_http_urls(self):
+        for url in ("https://github.com/owner/repo", "http://example.org/repo",
+                    "https://example.org/repo"):
+            for visibility in ({}, {"repositoryVisibility": None}):
+                with self.subTest(url=url, visibility=visibility):
+                    record = {"name": "Test", "repositoryURL": url, **visibility}
+                    filled, derived = fill_record("TEST_AGENCY", "file.json", record)
+                    self.assertIsNone(filled["repositoryVisibility"])
+                    self.assertEqual(derived["repositoryVisibility"],
+                                     "not provided; repository URL does not establish visibility")
+                    if "github.com" in url:
+                        self.assertEqual(filled["feedbackMechanism"], url + "/issues")
+                        self.assertEqual(filled["vcs"], "git")
+
+    def test_fill_preserves_explicit_repository_visibility(self):
+        for visibility in ("public", "private"):
+            with self.subTest(visibility=visibility):
+                record = {"repositoryURL": "https://github.com/owner/repo",
+                          "repositoryVisibility": visibility}
+                filled, derived = fill_record("TEST_AGENCY", "file.json", record)
+                self.assertEqual(filled["repositoryVisibility"], visibility)
+                self.assertNotIn("repositoryVisibility", derived)
 
     def test_fill_identifier_derived_from_github_url(self):
         """Identifier should be derived from GitHub URL."""
