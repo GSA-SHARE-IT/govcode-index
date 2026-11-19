@@ -135,6 +135,24 @@ _Object with optional fields: forks, clones, downloads_
 
 ---
 
+### **Contract Numbers** (`struct_clean_contract_number`)
+
+- Single string or number → wrap in an array.
+- Convert numeric values (integers/floats) to strings, including inside arrays.
+- Trim strings; preserve identifier formatting such as leading zeros and do not
+  split strings on punctuation.
+- Drop empty/whitespace-only strings and null array elements.
+- Drop unsupported values (including booleans, objects, and nested arrays),
+  logging `dropped_unexpected_type:contractNumber`; do not stringify them.
+- Keep an empty result as `[]`. Missing or null fields remain unchanged for the
+  validation fill stage to supply `[]`.
+- Log wrapping, coercion, trimming, and empty-item removal as
+  `wrapped_in_list:contractNumber`, `coerced_to_string:contractNumber`,
+  `trimmed:contractNumber`, and `dropped_empty_item:contractNumber`.
+- Preserve order and duplicates in Stage 3a; existing Stage 3b rules deduplicate.
+
+---
+
 ### **String Lists** (`struct_clean_string_lists`)
 
 **Languages array:**

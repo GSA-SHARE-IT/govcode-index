@@ -438,6 +438,35 @@ def struct_clean_permissions(ctx, rec):
             ctx.log("unexpected_type:permissions.exemptionText")
 
 
+def struct_clean_contract_number(ctx, rec):
+    """Normalize populated contract numbers to an array of strings."""
+    value = rec.get("contractNumber")
+    if value is None:
+        return
+    if isinstance(value, list):
+        items = value
+    else:
+        items = [value]
+        ctx.log("wrapped_in_list:contractNumber")
+    out = []
+    for item in items:
+        if is_empty(item):
+            ctx.log("dropped_empty_item:contractNumber")
+            continue
+        if isinstance(item, str):
+            cleaned = item.strip()
+            if cleaned != item:
+                ctx.log("trimmed:contractNumber")
+        elif isinstance(item, (int, float)) and not isinstance(item, bool):
+            cleaned = str(item)
+            ctx.log("coerced_to_string:contractNumber")
+        else:
+            ctx.log("dropped_unexpected_type:contractNumber")
+            continue
+        out.append(cleaned)
+    rec["contractNumber"] = out
+
+
 def struct_clean_reuse_frequency(ctx, rec):
     rf = rec.get("reuseFrequency")
     if rf is None:
@@ -941,6 +970,7 @@ def apply_structural_normalization(ctx, rec):
     struct_clean_reuse_frequency(ctx, rec)
     struct_clean_labor_hours(ctx, rec)
     struct_clean_string_lists(ctx, rec)
+    struct_clean_contract_number(ctx, rec)
     struct_clean_object_list(ctx, rec, "relatedCode", RELATED_KEYS)
     struct_clean_object_list(ctx, rec, "reusedCode", REUSED_KEYS)
     struct_clean_object_list(ctx, rec, "partners", PARTNER_KEYS)

@@ -11,6 +11,7 @@ from copy import deepcopy
 from scripts.utils.normalize import (
     normalize_project,
     struct_clean_date,
+    struct_clean_contract_number,
     struct_flatten_description,
     struct_drop_legacy_usage_fields,
 )
@@ -18,6 +19,50 @@ from scripts.utils.normalize import (
 
 class StructuralNormalizationTests(unittest.TestCase):
     """Tests for Stage 3a: Structural Normalization (shape, types, structure)"""
+
+    def test_contract_number_structural_types(self):
+        cases = [
+            ("  001-ABC  ", ["001-ABC"]),
+            (12345, ["12345"]),
+            (0, ["0"]),
+            (12.5, ["12.5"]),
+            ([" ABC ", 123, 0, 12.5, None, "", " ", True, {}, []],
+             ["ABC", "123", "0", "12.5"]),
+            ("ABC,DEF", ["ABC,DEF"]),
+            ([], []), ("", []), (False, []), ({"id": "ABC"}, []),
+            (["ABC", "ABC"], ["ABC", "ABC"]),
+        ]
+        for value, expected in cases:
+            with self.subTest(value=value):
+                record = {"contractNumber": value}
+                struct_clean_contract_number(Mock(), record)
+                self.assertEqual(record["contractNumber"], expected)
+
+    def test_contract_number_missing_and_null_are_left_for_filling(self):
+        for record in ({}, {"contractNumber": None}):
+            original = deepcopy(record)
+            ctx = Mock()
+            struct_clean_contract_number(ctx, record)
+            self.assertEqual(record, original)
+            ctx.log.assert_not_called()
+
+    def test_contract_number_cleanup_logs_changes(self):
+        ctx = Mock()
+        struct_clean_contract_number(ctx, {"contractNumber": 123})
+        ctx.log.assert_any_call("wrapped_in_list:contractNumber")
+        ctx.log.assert_any_call("coerced_to_string:contractNumber")
+        struct_clean_contract_number(ctx, {"contractNumber": [" ABC ", None, True]})
+        ctx.log.assert_any_call("trimmed:contractNumber")
+        ctx.log.assert_any_call("dropped_empty_item:contractNumber")
+        ctx.log.assert_any_call("dropped_unexpected_type:contractNumber")
+
+    def test_contract_number_pipeline_deduplicates_without_mutating_source(self):
+        source = {"contractNumber": [" ABC ", "ABC", 123, "123", None]}
+        original = deepcopy(source)
+        normalized = normalize_project(source)
+        self.assertEqual(normalized["contractNumber"], ["ABC", "123"])
+        self.assertEqual(source, original)
+        self.assertEqual(normalize_project(normalized), normalized)
 
     def test_flatten_english_description(self):
         source = {"description": {"en": {
