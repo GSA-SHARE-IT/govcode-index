@@ -719,6 +719,10 @@ def value_clean_repository_url(ctx, rec):
         ctx.log("invalid_url_to_null:repositoryURL")
         return
 
+    if p.scheme.lower() == "git" and p.netloc.lower() == "github.com":
+        p = p._replace(scheme="https")
+        ctx.log("github_git_to_https:repositoryURL")
+
     if is_bare_domain(p):
         # A homepage, not a repository: move it, null the repository URL.
         if rec.get("homepageURL") in (None, ""):

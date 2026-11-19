@@ -15,6 +15,28 @@ from scripts.utils.validate import (
 )
 
 
+class DateContainerValidationTests(unittest.TestCase):
+    def test_non_object_dates_report_errors_without_mutating_records(self):
+        from copy import deepcopy
+        for value in (None, [], [""], ["2025-04-08"], ["", "2025-04-08"],
+                      [{}], [0], [False], "2025-04-08", 0, False):
+            with self.subTest(value=value):
+                record = {"date": value}
+                original = deepcopy(record)
+                valid, errors, _ = validate_record(record)
+                self.assertTrue(valid)  # Existing non-blocking contract.
+                self.assertIn(f"Field 'date' must be object, got {type(value).__name__}", errors)
+                self.assertEqual(record, original)
+
+    def test_normalized_placeholders_and_date_objects_have_no_container_error(self):
+        from scripts.utils.normalize import normalize_project
+        for record in ({}, {"date": {}}, {"date": {"created": "2025-04-08T00:00:00Z"}},
+                       normalize_project({"date": ["", None, " "]})):
+            with self.subTest(record=record):
+                _, errors, _ = validate_record(record)
+                self.assertFalse(any("Field 'date'" in error for error in errors))
+
+
 class HelperFunctionTests(unittest.TestCase):
     """Tests for helper functions."""
 

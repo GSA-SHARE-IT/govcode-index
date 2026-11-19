@@ -19,6 +19,22 @@ _Fixes the SHAPE of records: renames, hoists, strips extra keys, coerces types, 
 - Creates `date` object if needed
 - Schema key wins on conflict
 
+**Nested aliases** (`rename_nested_keys`)
+
+- `permissions.license` → `permissions.licenses`
+- `date.metaDataLastUpdated` → `date.metadataLastUpdated`
+- Runs in Stage 3a before permissions/date cleanup strips unrecognized keys.
+- Moves the entire value without changing its contents; subsequent structural
+  and value normalization handle license arrays, license values, and timestamps.
+- If the canonical key is absent, null, or an empty/whitespace-only string,
+  use the alias value. An empty `licenses` array also accepts the alias value.
+- Otherwise keep the canonical value; do not merge competing values.
+- Remove the alias in either case. Log successful renames as
+  `renamed:<parent>.<old>-><parent>.<new>` and conflicts as
+  `dropped_legacy_key_conflict:<parent>.<old>`.
+- Missing or non-object parent containers are left to existing cleanup and
+  validation rules; no container is created by these renames.
+
 **3. Field Hoisting** (`hoist_exemption_text`)
 
 - `exemptionText` (top-level) → `permissions.exemptionText`
@@ -199,7 +215,12 @@ _Applied to: relatedCode, reusedCode, partners_
 _Object with optional fields: created, lastModified, metadataLastUpdated_
 
 - **Null or empty array → omit entire date field**, logging `omitted_empty:date`
-- **Other non-object types (including non-empty arrays) → log `unexpected_type:date`, leave unchanged**
+- **Nonempty arrays containing only nulls or empty/whitespace-only strings → omit
+  the entire date field**, logging `omitted_placeholder_array:date`.
+  Examples: `[""]`, `[null]`, `["", null, "  "]`. No timestamp is inferred.
+- **Other non-object types → log `unexpected_type:date`, leave unchanged** for
+  validation to report. This includes arrays with any nonblank string, object,
+  nested array, number, or boolean, even if other items are empty placeholders.
 - Strip unrecognized keys (keep only: `created`, `lastModified`, `metadataLastUpdated`)
 - **Trim string fields**
 - **Empty values → omit field key**
@@ -250,6 +271,12 @@ _Normalizes VALUES: validates, maps to enums, parses formats, canonicalizes_
 
 ### **Repository URL** (`value_clean_repository_url`)
 
+- **GitHub Git protocol → HTTPS:** Convert a `git://github.com/` prefix to
+  `https://github.com/` (scheme and host matching is case-insensitive), logging
+  `github_git_to_https:repositoryURL`. Match the actual URL scheme and exact
+  authority, not text embedded in a path/query or another host. Other Git hosts
+  are unchanged. Existing `.git`/trailing-slash cleanup then applies, allowing
+  the filling stage's existing GitHub feedback inference to recognize the URL.
 - **Special case**: String "private" → keep as-is
 - **Invalid URL → null**
   - Now includes URLs without scheme (unless https:// prefix fallback succeeds)

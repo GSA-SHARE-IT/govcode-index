@@ -61,6 +61,17 @@ If any required field is missing → **ERROR**
   - Must be object type
   - Non-object → **ERROR:** "Field '{name}' must be object, got {type}"
 
+#### **Optional Date Object**
+
+- `date` may be absent. If present, it must be an object, including when supplied
+  directly to validation without normalization.
+- Any non-object value (including null or an array) produces an error:
+  `Field 'date' must be object, got {type}`.
+- Stage 3a omits nulls, empty arrays, and placeholder-only arrays before validation.
+  Other malformed date containers remain available for this check to report.
+- This check does not change the value or block record retention, and does not
+  validate the date object's timestamp formats.
+
 #### **Array Fields** (required type: array)
 
 - **contractNumber** (array of strings)
