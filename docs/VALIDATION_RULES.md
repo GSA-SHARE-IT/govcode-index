@@ -61,6 +61,17 @@ If any required field is missing → **ERROR**
   - Must be object type
   - Non-object → **ERROR:** "Field '{name}' must be object, got {type}"
 
+#### **Optional Date Object**
+
+- `date` may be absent. If present, it must be an object, including when supplied
+  directly to validation without normalization.
+- Any non-object value (including null or an array) produces an error:
+  `Field 'date' must be object, got {type}`.
+- Stage 3a omits nulls, empty arrays, and placeholder-only arrays before validation.
+  Other malformed date containers remain available for this check to report.
+- This check does not change the value or block record retention, and does not
+  validate the date object's timestamp formats.
+
 #### **Array Fields** (required type: array)
 
 - **contractNumber** (array of strings)
@@ -244,12 +255,15 @@ If `repositoryVisibility` is missing or null:
 - **If repositoryURL is "private" (string, case-insensitive):**
   - Set to `"private"`
   - Derivation: `'inferred from repositoryURL = "private"'`
-- **Else if repositoryURL is a usable public URL** (http/https with netloc):
-  - Set to `"public"`
-  - Derivation: `"inferred from public repository URL"`
 - **Otherwise:**
   - Set to `null`
-  - Derivation: `"cannot infer: no URL or private URL"`
+  - Derivation: `"not provided; repository URL does not establish visibility"`
+
+An HTTP(S) URL, including a GitHub URL, does not establish public visibility.
+Existing non-null `repositoryVisibility` values are preserved by filling.
+Unknown visibility remains null and does not satisfy the schema's enum; it is
+not replaced with a guessed value. Identifier, VCS, and feedback inference are
+unaffected.
 
 ---
 

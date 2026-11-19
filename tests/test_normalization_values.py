@@ -3,11 +3,37 @@ Tests for Stage 3b: Value Normalization (enum mapping, date parsing, URL canonic
 """
 
 import unittest
-from scripts.utils.normalize import normalize_project
+from scripts.utils.normalize import normalize_project, normalize_record, Ctx
+from scripts.utils.validate import fill_record
 
 
 class ValueNormalizationTests(unittest.TestCase):
     """Tests for Stage 3b: Value Normalization (values, enums, dates, URLs)"""
+
+    def test_github_git_url_enables_feedback_inference(self):
+        for url in ("git://github.com/CDCgov/AlignmentViewer",
+                    "  GIT://GITHUB.COM/CDCgov/AlignmentViewer.git/  "):
+            with self.subTest(url=url):
+                source = {"name": "AlignmentViewer", "repositoryURL": url}
+                ctx = Ctx()
+                normalized = normalize_record(source, ctx)
+                expected = "https://github.com/CDCgov/AlignmentViewer"
+                self.assertEqual(normalized["repositoryURL"], expected)
+                self.assertEqual(ctx.changes["github_git_to_https:repositoryURL"], 1)
+                self.assertEqual(source["repositoryURL"], url)
+                self.assertEqual(normalize_project(normalized), normalized)
+                filled, _ = fill_record("HHS", "AlignmentViewer.json", normalized)
+                self.assertEqual(filled["feedbackMechanism"], expected + "/issues")
+
+    def test_git_protocol_conversion_is_scoped_to_exact_github_host(self):
+        for url in ("git://example.org/owner/repo", "git://github.com.example.org/owner/repo",
+                    "https://example.org/git://github.com/owner/repo",
+                    "https://example.org/repo?source=git://github.com/owner/repo"):
+            with self.subTest(url=url):
+                ctx = Ctx()
+                normalized = normalize_record({"repositoryURL": url}, ctx)
+                self.assertEqual(normalized["repositoryURL"], url)
+                self.assertNotIn("github_git_to_https:repositoryURL", ctx.changes)
 
     # =========================================================================
     # Repository URL Canonicalization
@@ -279,6 +305,20 @@ class ValueNormalizationTests(unittest.TestCase):
                 licenses = normalized["permissions"]["licenses"]
                 if licenses:  # Only check if licenses exist after normalization
                     self.assertEqual(licenses[0]["name"], expected_license)
+
+    def test_cc0_universal_mapping_preserves_license_and_source(self):
+        url = "https://creativecommons.org/publicdomain/zero/1.0/"
+        for name in ("CC0 1.0 Universal", "cc0 1.0 universal",
+                     "  CC0  1.0\tUNIVERSAL  "):
+            with self.subTest(name=name):
+                source = {"permissions": {"licenses": [{"name": name, "URL": url}]}}
+                ctx = Ctx()
+                normalized = normalize_record(source, ctx)
+                self.assertEqual(normalized["permissions"]["licenses"],
+                                 [{"name": "CC0-1.0", "URL": url}])
+                self.assertEqual(source["permissions"]["licenses"][0]["name"], name)
+                self.assertEqual(ctx.changes["license_mapped"], 1)
+                self.assertEqual(normalize_project(normalized), normalized)
 
     def test_unrecognized_license_to_Other(self):
         """Unrecognized license should map to 'Other'."""

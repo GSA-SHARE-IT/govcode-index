@@ -5,7 +5,7 @@ Converts the hierarchical `gov-code.json` file to a flattened CSV format for ana
 ## Overview
 
 **Input**: `gov-code.json` (12 MB, 10 federal agencies, 8,044 projects)
-**Output**: `gov-code-flattened.csv` (5.9 MB, 8,044 rows, 29 columns)
+**Output**: `gov-code-flattened.csv` (31 columns; size and row count depend on input)
 
 ## Flattening Strategy
 
@@ -20,7 +20,7 @@ Converts the hierarchical `gov-code.json` file to a flattened CSV format for ana
 | `permissions.licenses[]`  | `permissions_licenses`                                                      | Pipe-separated license names (e.g., "MIT\|Apache-2.0")            |
 | `permissions.usageType[]` | `permissions_usageType`                                                     | Pipe-separated values (e.g., "openSource\|governmentWideReuse")   |
 | `contact.*`               | `contact_email`, `contact_name`, `contact_url`, `contact_phone`             | Prefix pattern (empty if not present)                             |
-| `date.*`                  | `date_created`, `date_lastModified`                                         | ISO 8601 timestamps                                               |
+| `date.*`                  | `date_created`, `date_lastModified`, `date_metadataLastUpdated`              | ISO 8601 timestamps (empty if not present)                         |
 | `reuseFrequency.*`        | `reuseFrequency_forks`, `reuseFrequency_clones`, `reuseFrequency_downloads` | Numeric (empty if not present)                                    |
 | `relatedCode[]`           | `relatedCode`                                                               | Pipe-separated name\|URL pairs (e.g., "name1\|url1\|name2\|url2") |
 | `reusedCode[]`            | `reusedCode`                                                                | Pipe-separated name\|URL pairs                                    |
@@ -28,7 +28,7 @@ Converts the hierarchical `gov-code.json` file to a flattened CSV format for ana
 | `tags[]`                  | `tags`                                                                      | Pipe-separated list                                               |
 | `contractNumber[]`        | `contractNumber`                                                            | Pipe-separated list                                               |
 
-### Columns (29 total)
+### Columns (31 total)
 
 **Core Fields**:
 
@@ -46,7 +46,7 @@ Converts the hierarchical `gov-code.json` file to a flattened CSV format for ana
 
 - permissions_licenses, permissions_usageType
 - contact_email, contact_name, contact_url, contact_phone
-- date_created, date_lastModified
+- date_created, date_lastModified, date_metadataLastUpdated
 - reuseFrequency_forks, reuseFrequency_clones, reuseFrequency_downloads
 
 **Code References**:
@@ -90,6 +90,8 @@ python3 scripts/gov_code_to_csv.py ~/data/gov-code.json ~/exports/projects.csv
 ### Handling Special Cases
 
 - **Null values**: Converted to empty strings
+- **Numeric zeros**: Preserved as `0` in forks, clones, downloads, and labor hours;
+  missing or null values remain blank.
 - **Empty objects**: Represented as empty strings in flattened fields
 - **Empty arrays**: Represented as empty strings
 - **Quoted fields**: Fields with commas, quotes, or newlines are automatically quoted

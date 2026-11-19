@@ -244,62 +244,47 @@ class PublicTests(unittest.TestCase):
         self.assertEqual(json.loads((self.agency / "example.json").read_text()),
                          saved["releases"][0])
 
-    def test_gsa_inventory_arrays_are_extracted_as_individual_projects(self):
-        records = [project("first", "2025-01-01", "https://github.com/GSA/first"),
-                   project("second", "2025-01-02", "https://github.com/GSA/second")]
-        for field in ("releases", "projects"):
-            with self.subTest(field=field):
-                output = self.output / field
-                factory = self.factory({"GSA": [repository("inventory", {field: records})]})
-                public.process_agency("GSA", {"organizations": ["GSA"]}, output, None, factory)
-                index = json.loads((output / "GSA-public-index.json").read_text())
-                expected = [{"organization": "GSA", **record} for record in records]
-                self.assertEqual(index["releases"], expected)
-                self.assertFalse((output / "GSA/inventory.json").exists())
-                for record in expected:
-                    self.assertEqual(json.loads((output / "GSA" / (record["name"] + ".json")).read_text()), record)
+    def test_inventory_wrappers_are_skipped_for_all_organizations(self):
+        wrappers = [
+            {"releases": [project("nested")]},
+            {"name": "Source-Code-Inventory", "agency": "HHS", "releases": []},
+            {"releases": None}, {"releases": [None]},
+            {"projects": [project("nested")]}, {"projects": []},
+            {"name": "inventory", "agency": "HHS", "projects": []},
+            {"name": "inventory", "measurementType": {}, "projects": None},
+        ]
+        for org in ("HHS", "GSA", "18F"):
+            for i, wrapper in enumerate(wrappers):
+                with self.subTest(org=org, wrapper=wrapper):
+                    output = self.output / org / str(i)
+                    folder = output / org
+                    folder.mkdir(parents=True)
+                    existing = folder / "Source-Code-Inventory.json"
+                    original = json.dumps(project("Source-Code-Inventory"))
+                    existing.write_text(original)
+                    ordinary = project("ordinary", "2025-01-01", "https://github.com/org/ordinary")
+                    factory = self.factory({org: [
+                        repository("Source-Code-Inventory", wrapper),
+                        repository("ordinary", ordinary),
+                    ]})
+                    public.process_agency(org, {"organizations": [org]}, output, None, factory)
+                    index = json.loads((output / f"{org}-public-index.json").read_text())
+                    self.assertEqual(index["releases"], [{"organization": org, **ordinary}])
+                    self.assertEqual({p.name for p in folder.iterdir()},
+                                     {"Source-Code-Inventory.json", "ordinary.json"})
+                    self.assertEqual(existing.read_text(), original)
+        self.assertIn("org/Source-Code-Inventory/code.json", self.stderr.getvalue())
+        self.assertIn("agency inventory, not an individual project", self.stderr.getvalue())
 
-    def test_gsa_unpacking_is_scoped_and_preserves_project_objects(self):
-        ordinary = project()
-        wrapper = {"releases": [ordinary], "projects": [{"name": "legacy"}]}
-        self.assertEqual(public.project_records(wrapper, "GSA"), [ordinary])
-        self.assertEqual(public.project_records(wrapper, "HHS"), [wrapper])
-        self.assertEqual(public.project_records(ordinary, "GSA"), [ordinary])
-        self.assertEqual(public.project_records({"projects": []}, "GSA"), [])
-        self.assertEqual(public.project_records({"releases": [{}]}, "GSA"), [{}])
-        for invalid in (None, {}, "invalid", [None], [{"name": "valid"}, 1]):
-            for field in ("releases", "projects"):
-                with self.subTest(field=field, invalid=invalid), self.assertRaises(ValueError):
-                    public.project_records({field: invalid}, "GSA")
-
-    def test_other_gsa_agency_organizations_are_not_unpacked(self):
-        organizations = {
-            "GSA": [repository("inventory", {"releases": [project("unpacked")]})],
-            "GSA-TTS": [repository("tts", {"name": "tts", "projects": ["related-project"]})],
-            "18F": [repository("18f", {"name": "18f", "releases": [{"name": "nested"}]})],
-            "presidential-innovation-fellows": [repository("fellows", {"name": "fellows", "projects": []})],
-        }
-        factory = self.factory(organizations)
-        public.process_agency("GSA", {"organizations": list(organizations)}, self.output, None, factory)
+    def test_project_relationship_lists_are_preserved(self):
+        records = [dict(project(f"record-{i}", url=f"https://github.com/org/{i}"), projects=value)
+                   for i, value in enumerate(([], ["related-project"], ["https://github.com/org/related"]))]
+        factory = self.factory({"GSA": [repository(r["name"], r) for r in records]})
+        public.process_agency("GSA", {"organizations": ["GSA"]}, self.output, None, factory)
         index = json.loads((self.output / "GSA-public-index.json").read_text())
-        records = {record["name"]: record for record in index["releases"]}
-        self.assertEqual(set(records), {"unpacked", "tts", "18f", "fellows"})
-        self.assertEqual(records["tts"]["projects"], ["related-project"])
-        self.assertEqual(records["18f"]["releases"], [{"name": "nested"}])
-        self.assertEqual(records["fellows"]["projects"], [])
-        for name, record in records.items():
-            self.assertEqual(json.loads((self.output / "GSA" / (name + ".json")).read_text()), record)
-
-    def test_malformed_gsa_inventory_preserves_previous_outputs(self):
-        self.output.mkdir()
-        previous = self.output / "GSA-public-index.json"
-        previous.write_text('{"previous": true}')
-        factory = self.factory({"GSA": [repository("good", project()),
-                                        repository("bad", {"projects": [None]})]})
-        with self.assertRaises(ValueError):
-            public.process_agency("GSA", {"organizations": ["GSA"]}, self.output, None, factory)
-        self.assertEqual(previous.read_text(), '{"previous": true}')
-        self.assertFalse((self.output / "GSA").exists())
+        self.assertEqual(index["releases"], [{"organization": "GSA", **r} for r in records])
+        for record in index["releases"]:
+            self.assertEqual(json.loads((self.output / "GSA" / (record["name"] + ".json")).read_text()), record)
 
     def test_symlinked_output_is_rejected(self):
         self.output.mkdir()
