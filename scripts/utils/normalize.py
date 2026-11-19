@@ -533,7 +533,7 @@ def struct_clean_date(ctx, rec):
     if "date" not in rec:
         return
     dt = rec["date"]
-    if dt is None:
+    if dt is None or (isinstance(dt, list) and not dt):
         del rec["date"]
         ctx.log("omitted_empty:date")
         return

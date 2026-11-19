@@ -158,6 +158,8 @@ _Applied to: relatedCode, reusedCode, partners_
 
 _Object with optional fields: created, lastModified, metadataLastUpdated_
 
+- **Null or empty array → omit entire date field**, logging `omitted_empty:date`
+- **Other non-object types (including non-empty arrays) → log `unexpected_type:date`, leave unchanged**
 - Strip unrecognized keys (keep only: `created`, `lastModified`, `metadataLastUpdated`)
 - **Trim string fields**
 - **Empty values → omit field key**
