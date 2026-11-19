@@ -25,21 +25,13 @@ _Fixes the SHAPE of records: renames, hoists, strips extra keys, coerces types, 
 - Creates `permissions` object if needed
 - Schema key wins on conflict
 
-**4. Legacy Usage Fields Migration** (`struct_migrate_legacy_usage_fields`)
+**4. Legacy Usage Fields Removal** (`struct_drop_legacy_usage_fields`)
 
-- Migrates legacy boolean project-type fields to `permissions.usageType`
-- **openSourceProject:**
-  - If value is `1` or `"1"` → adds `"openSource"` to `permissions.usageType`
-  - Any other value → field is dropped
-- **governmentWideReuseProject:**
-  - If value is `1` or `"1"` → adds `"governmentWideReuse"` to `permissions.usageType`
-  - Any other value → field is dropped
-- **Behavior:**
-  - Both legacy fields are removed from the record after processing
-  - Creates `permissions` object if needed
-  - Adds to existing `usageType` array (doesn't replace)
-  - Avoids duplicates in `usageType`
-  - If neither field equals 1, `permissions` object is not created
+- Removes top-level `openSourceProject` and `governmentWideReuseProject` whenever
+  present, regardless of their values or the source agency.
+- Logs each removal as `dropped_legacy_field:<field>`.
+- Does not create or modify `permissions` or `permissions.usageType`.
+- Existing independent usage-type normalization rules remain unchanged.
 
 ---
 
