@@ -132,7 +132,7 @@ def flatten_project(project, agency):
         flat[field] = normalize_string(value) if value else ""
     
     # Numeric field
-    flat["laborHours"] = project.get("laborHours") or ""
+    flat["laborHours"] = project.get("laborHours", "")
     
     # permissions - nested dict
     permissions = project.get("permissions") or {}
@@ -158,9 +158,10 @@ def flatten_project(project, agency):
     
     # reuseFrequency - nested dict
     reuse_freq = project.get("reuseFrequency") or {}
-    flat["reuseFrequency_forks"] = reuse_freq.get("forks") or ""
-    flat["reuseFrequency_clones"] = reuse_freq.get("clones") or ""
-    flat["reuseFrequency_downloads"] = reuse_freq.get("downloads") or ""
+    # csv.DictWriter writes None as an empty cell while preserving numeric zero.
+    flat["reuseFrequency_forks"] = reuse_freq.get("forks", "")
+    flat["reuseFrequency_clones"] = reuse_freq.get("clones", "")
+    flat["reuseFrequency_downloads"] = reuse_freq.get("downloads", "")
     
     # Arrays - simple string arrays
     flat["languages"] = flatten_array_to_string(

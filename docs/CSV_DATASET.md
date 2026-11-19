@@ -90,6 +90,8 @@ python3 scripts/gov_code_to_csv.py ~/data/gov-code.json ~/exports/projects.csv
 ### Handling Special Cases
 
 - **Null values**: Converted to empty strings
+- **Numeric zeros**: Preserved as `0` in forks, clones, downloads, and labor hours;
+  missing or null values remain blank.
 - **Empty objects**: Represented as empty strings in flattened fields
 - **Empty arrays**: Represented as empty strings
 - **Quoted fields**: Fields with commas, quotes, or newlines are automatically quoted
