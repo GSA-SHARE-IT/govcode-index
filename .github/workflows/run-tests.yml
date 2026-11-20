@@ -3,6 +3,7 @@ name: Run Unit Tests
 on:
   pull_request:
     paths:
+      - "agency-indexes/**"
       - "scripts/**"
       - "tests/**"
       - ".github/workflows/run-tests.yml"
