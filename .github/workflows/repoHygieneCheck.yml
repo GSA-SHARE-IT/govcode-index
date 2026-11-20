@@ -62,5 +62,5 @@ jobs:
         with:
           config_file: "repolinter.json"
           output_type: "pull-request"
-          pull_request_labels: "repolinter-initialized, cms-oss, cms-gov"
+          pull_request_labels: "repolinter-initialized, oss, gov"
           token: ${{ secrets.REPOLINTER_AUTO_TOKEN }}
