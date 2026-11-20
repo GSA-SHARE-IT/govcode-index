@@ -91,7 +91,9 @@ def validate_agency_index(index: dict, version: str, agencies: set) -> tuple[boo
     """
     errors = []
     
-    # Create a minimal schema for required fields validation
+    # Local output contract extends agency metadata with permanent IDs and
+    # explicitly permits unknown agency identifiers. The fetched schema is
+    # currently used for version/agency configuration, not release validation.
     schema = {
         "type": "object",
         "required": ["version", "agency", "releases"],
@@ -105,7 +107,18 @@ def validate_agency_index(index: dict, version: str, agencies: set) -> tuple[boo
                 "enum": list(agencies)
             },
             "releases": {
-                "type": "array"
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "required": ["govcode_id", "identifier"],
+                    "properties": {
+                        "govcode_id": {
+                            "type": "string",
+                            "pattern": "^[0-9]{4}-[A-Z0-9][A-Z0-9_]*-[0-9]{6,}$"
+                        },
+                        "identifier": {"type": ["string", "null"]}
+                    }
+                }
             }
         }
     }
@@ -116,7 +129,7 @@ def validate_agency_index(index: dict, version: str, agencies: set) -> tuple[boo
     except ValidationError as e:
         # Format jsonschema ValidationError for readability
         if e.validator == "required":
-            missing = set(e.schema.get("required", [])) - set(index.keys())
+            missing = set(e.schema.get("required", [])) - set(e.instance.keys())
             for field in missing:
                 errors.append(f"Missing required field: '{field}'")
         elif e.validator == "const":

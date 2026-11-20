@@ -25,10 +25,8 @@ Public API:
 """
 
 import copy
-import hashlib
 import logging
 import re
-from pathlib import Path
 from urllib.parse import urlsplit
 
 logger = logging.getLogger(__name__)
@@ -139,17 +137,6 @@ def github_repo(url: str) -> tuple | None:
     if repo.endswith(".git"):
         repo = repo[:-4]
     return (path_parts[0], repo)
-
-
-def derive_identifier(agency: str, filename: str, rec: dict) -> str:
-    """Derive a stable identifier from URL or agency+name hash."""
-    url = rec.get("repositoryURL")
-    if usable_url(url):
-        p = urlsplit(url)
-        return (p.netloc + p.path).lower().rstrip("/")
-    name = rec.get("name") or Path(filename).stem
-    digest = hashlib.sha1(f"{agency}|{name}".encode("utf-8")).hexdigest()[:8]
-    return f"{agency.lower()}:{slugify(name)}-{digest}"
 
 
 def is_closed(rec: dict) -> bool:
@@ -410,10 +397,10 @@ def fill_record(agency: str, filename: str, record: dict) -> tuple[dict, dict]:
             rec["repositoryVisibility"] = None
             derived["repositoryVisibility"] = "not provided; repository URL does not establish visibility"
     
-    # --- identifier (must derive) ---
+    # --- identifier (agency-reported only) ---
     if rec.get("identifier") is None:
-        rec["identifier"] = derive_identifier(agency, filename, rec)
-        derived["identifier"] = "derived from repositoryURL or agency+name hash"
+        rec["identifier"] = None
+        derived["identifier"] = "not supplied by agency"
     
     # --- organization (must infer) ---
     if rec.get("organization") is None:
@@ -478,8 +465,9 @@ def fill_record(agency: str, filename: str, record: dict) -> tuple[dict, dict]:
             rec[key] = None
             derived[key] = "added as null (should not happen)"
     
-    # --- order: required fields first, then others ---
-    ordered = {k: rec[k] for k in REQUIRED_FIELDS}
+    # --- order: local ID, required fields, then others ---
+    ordered = {"govcode_id": rec["govcode_id"]} if "govcode_id" in rec else {}
+    ordered.update({k: rec[k] for k in REQUIRED_FIELDS})
     ordered.update({k: v for k, v in rec.items() if k not in ordered})
     
     return ordered, derived

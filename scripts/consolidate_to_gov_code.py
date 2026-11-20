@@ -18,9 +18,16 @@ import logging
 import sys
 from pathlib import Path
 
-from utils.validate import validate_record, fill_record
-from utils.schema import initialize_schema_config, validate_agency_index
-from utils.normalize import normalize_project, cms_diagnostics
+if __package__:
+    from .utils.validate import validate_record, fill_record
+    from .utils.schema import initialize_schema_config, validate_agency_index
+    from .utils.normalize import normalize_project, cms_diagnostics
+    from .govcode_ids import valid_id, validate_registry
+else:
+    from utils.validate import validate_record, fill_record
+    from utils.schema import initialize_schema_config, validate_agency_index
+    from utils.normalize import normalize_project, cms_diagnostics
+    from govcode_ids import valid_id, validate_registry
 
 
 AGENCY_INDEX_URL = "https://gsa-share-it.github.io/codejson-schemas/schemas/agency-index/schema-1.0.0.json"
@@ -97,10 +104,21 @@ def consolidate_indexes(repo_root: Path) -> list:
         logger.error(f"Directory not found: {agency_indexes_dir}")
         return []
     
+    # Never publish a dataset from a partially replayed collector transaction.
+    for registry in (agency_indexes_dir / ".govcode").glob("*.json"):
+        if registry.name == "matches.json":
+            continue
+        state = json.loads(registry.read_text(encoding="utf-8"))
+        validate_registry(state)
+        if state["pending"]:
+            raise ValueError(f"{registry}: incomplete collector transaction; rerun collection")
+
     all_agency_indexes = []
+    seen_ids = {}
     
     # Iterate through agency subdirectories
-    agency_dirs = sorted([d for d in agency_indexes_dir.iterdir() if d.is_dir()])
+    agency_dirs = sorted([d for d in agency_indexes_dir.iterdir()
+                          if d.is_dir() and not d.name.startswith(".")])
     
     for agency_dir in agency_dirs:
         # Directory names already follow schema (DHS, DOD, DOE, etc.)
@@ -130,6 +148,12 @@ def consolidate_indexes(repo_root: Path) -> list:
                 continue
             
             project = load_project_file(json_file)
+            if not isinstance(project, dict) or not valid_id(project.get("govcode_id")):
+                raise ValueError(f"{json_file}: missing or invalid govcode_id")
+            value = project["govcode_id"]
+            if value in seen_ids:
+                raise ValueError(f"Duplicate govcode_id {value}: {seen_ids[value]} and {json_file}")
+            seen_ids[value] = json_file
             if project:
                 project = normalize_project_file(project, agency_name, json_file)
                 if project:
@@ -145,7 +169,7 @@ def consolidate_indexes(repo_root: Path) -> list:
                 logger.error(f"{agency_name}: Schema validation failed")
                 for error in errors:
                     logger.error(f"  - {error}")
-                return 1
+                raise ValueError(f"{agency_name}: schema validation failed")
             
             all_agency_indexes.append(agency_index)
             logger.info(f"{agency_name}: Loaded {file_count} projects")
@@ -198,7 +222,11 @@ def main():
     SCHEMA_VERSION, VALID_AGENCIES = result
     
     # Consolidate all agency indexes
-    agency_indexes = consolidate_indexes(repo_root)
+    try:
+        agency_indexes = consolidate_indexes(repo_root)
+    except ValueError as exc:
+        logger.error("%s", exc)
+        return 1
     
     if not agency_indexes:
         logger.error("No agency indexes were created")

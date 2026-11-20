@@ -585,3 +585,10 @@ CMS fields, reject extension keys, or enforce CMS organizational identity.
 CMS-specific constraints such as the repository-host enum apply only within
 these HHS checks. Null dates are an explicit local exception to the CMS schema.
 See [VALIDATION_RULES.md](VALIDATION_RULES.md) for validation details.
+
+## Local project identity
+
+`govcode_id` is local metadata, preserved unchanged through normalization.
+Legacy `id` still maps to agency `identifier`; existing string cleanup still
+applies. Consolidation fills absent `identifier` with null, never an invented
+URL or hash. See [PROJECT_IDENTITY.md](PROJECT_IDENTITY.md).

@@ -8,24 +8,12 @@ from urllib.request import Request, urlopen
 
 
 try:
-    from .project_assets import plan_project_writes
+    from .govcode_ids import save_projects
 except ImportError:  # Direct script execution
-    from project_assets import plan_project_writes
+    from govcode_ids import save_projects
 
 
 ROOT = Path(__file__).resolve().parent.parent
-
-
-def save_projects(index, agency_dir):
-    """Write new or newer projects, preserving existing filenames and records."""
-    writes = plan_project_writes(index, agency_dir)
-    agency_dir.mkdir(parents=True, exist_ok=True)
-    for filename, project in writes.items():
-        (agency_dir / filename).write_text(
-            json.dumps(project, indent=4, ensure_ascii=False) + "\n",
-            encoding="utf-8",
-        )
-    return len(writes)
 
 
 def pull_index_assets():

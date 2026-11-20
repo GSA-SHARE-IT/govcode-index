@@ -21,8 +21,9 @@ This repository:
    normalized and validated against the
    [agency index schema](https://gsa-share-it.github.io/codejson-schemas/schemas/agency-index/schema-1.0.0.json).
 
-The downloaded data is stored exactly as the agency publishes it. Normalization
-happens only in the consolidated `gov-code.json` output.
+Complete downloaded indexes preserve agency data. Extracted project files add
+a permanent local `govcode_id`; other normalization happens only in the
+consolidated `gov-code.json` output. See [project identity rules](docs/PROJECT_IDENTITY.md).
 
 ## Table of Contents
 
@@ -48,7 +49,7 @@ scripts/pull_index_assets.py          (weekly, GitHub Actions)
         │  download → parse JSON → save full index → split releases
         ▼
 agency-indexes/{AGENCY}-index.json    complete index, as published
-agency-indexes/{AGENCY}/{project}.json one file per project, unmodified
+agency-indexes/{AGENCY}/{project}.json one file per project, plus govcode_id
         │
         ▼
 scripts/consolidate_to_gov_code.py    (run manually)
@@ -68,7 +69,12 @@ For each agency in the sources file, the downloader:
 - Writes the complete index to `agency-indexes/{AGENCY}-index.json`.
 - Checks that the index has a `releases` array of objects, then writes each
   project to `agency-indexes/{AGENCY}/{project-name}.json` as UTF-8 with the
-  complete project object (including unknown fields) left unchanged.
+  complete agency project object (including unknown fields) preserved, plus a
+  locally assigned `govcode_id`. Matched records update only when newer.
+  Repeated incoming identities collapse when identical, or select a uniquely
+  newest fully dated version with a warning. Unresolved duplicate groups are
+  skipped with warnings while other projects continue; existing records/IDs
+  remain intact and new conflicted projects are omitted until fixed upstream.
 - Continues with the remaining agencies if one fails, reports the error, and
   exits with status `1` if any agency failed.
 
@@ -102,7 +108,7 @@ builds a schema-compliant agency index for each agency:
    Checks required fields, types, and enum values. Validation is non-blocking:
    problems are logged as warnings and the record is kept.
 4. **Fill** (`fill_record`). Derives missing required fields where possible:
-   `identifier`, `organization`, `repositoryVisibility`, `vcs`, and
+   `organization`, `repositoryVisibility`, `vcs`, and
    `feedbackMechanism`. Enum fields such as `status` and `maintenance` are never
    guessed. See [docs/VALIDATION_RULES.md](docs/VALIDATION_RULES.md).
 5. **Schema-check** each agency index (`version`, `agency`, `releases`) with
@@ -242,7 +248,9 @@ agency publishes, typically:
 ### `agency-indexes/{AGENCY}/{project-name}.json`
 
 One object from `releases`, saved with four-space indentation and non-ASCII
-characters kept as-is. No fields are added, removed, or renamed.
+characters kept as-is. Agency fields are preserved and `govcode_id` is added.
+The committed `agency-indexes/.govcode/` registry retains ID allocation history
+and interrupted-write recovery state; never delete it after IDs are assigned.
 
 ### `gov-code.json`
 
@@ -259,7 +267,9 @@ A JSON array with one agency index object per agency:
 ```
 
 Each release is normalized, then filled so that every required field is present.
-Required fields come first, in schema order. A required field is `null` when its
+`govcode_id` is required and globally unique; invalid or missing IDs stop the
+build. Agency `identifier` values are no longer generated: missing values become
+`null`. `govcode_id` comes first, followed by required fields in schema order. A required field is `null` when its
 value could not be derived. `gov-code.json` is generated locally and is not
 committed to the repository.
 
@@ -286,11 +296,13 @@ parse because they contain unrendered `{% raw %}` template tags.
 
 ## Known Limitations
 
-- **Filenames come from project names.** Renaming a project in an agency's
-  inventory produces a new file, and the old file stays behind. Obsolete project
-  files are never deleted automatically.
-- **Collision suffixes depend on release order.** If an agency reorders its
-  releases, projects that share a name can swap `-2`/`-3` suffixes between runs.
+- **Matching requires name and URL agreement.** Partial matches require review;
+  a unique name fallback is available for missing/unusable URLs without conflict.
+  Existing filenames are retained. See [identity rules](docs/PROJECT_IDENTITY.md).
+- **Initial filename suffixes depend on release order.** Reordering later
+  refreshes does not rename matched files. Obsolete files are not deleted.
+- **Existing files without local IDs require the planned staged rebuild.**
+  Collectors refuse to silently assign IDs to unregistered existing files.
 - **`releases` is validated after the full index is saved.** Invalid JSON never
   overwrites an index, but a valid JSON response without a usable `releases`
   array does replace `{AGENCY}-index.json` before the agency is reported as
