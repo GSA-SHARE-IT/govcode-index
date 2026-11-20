@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-001026",
+    "name": "tts-brokerpak-clouddev",
+    "description": "A brokerpak that enables self-service provisioning a cloud-hosted developer environments",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/tts-brokerpak-clouddev",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Makefile",
+        "HCL",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

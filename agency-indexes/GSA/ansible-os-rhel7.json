@@ -1,0 +1,24 @@
+{
+    "govcode_id": "2026-GSA-001147",
+    "name": "ansible-os-rhel7",
+    "description": "ansible-os-rhel7",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/apache-2.0/",
+                "name": "apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ansible-os-rhel7",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

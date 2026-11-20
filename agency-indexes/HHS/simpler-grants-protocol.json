@@ -1,0 +1,78 @@
+{
+    "govcode_id": "2026-HHS-000682",
+    "organization": "HHS",
+    "name": "simpler-grants-protocol",
+    "version": "",
+    "description": "A common standard for sharing data in the grant ecosystem.",
+    "longDescription": "",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/HHS/simpler-grants-protocol/blob/main/LICENSE.md"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ]
+    },
+    "repositoryURL": "https://github.com/HHS/simpler-grants-protocol",
+    "repositoryHost": "github",
+    "repositoryVisibility": "public",
+    "homepageURL": "",
+    "downloadURL": "",
+    "disclaimerURL": "",
+    "disclaimerText": "",
+    "vcs": "git",
+    "laborHours": 16525,
+    "reuseFrequency": {
+        "forks": 13,
+        "clones": 0
+    },
+    "platforms": [],
+    "categories": [],
+    "softwareType": "",
+    "languages": [
+        "TypeScript",
+        "Python",
+        "MDX",
+        "TypeSpec",
+        "Astro",
+        "JavaScript",
+        "CSS",
+        "Shell",
+        "Makefile",
+        "Roff"
+    ],
+    "maintenance": "contract",
+    "contractNumber": [],
+    "SBOM": "https://github.com/HHS/simpler-grants-protocol/network/dependencies",
+    "relatedCode": [],
+    "reusedCode": [],
+    "partners": [],
+    "date": {
+        "created": "2024-12-19T21:14:35Z",
+        "lastModified": "2026-09-24T18:58:13Z",
+        "metadataLastUpdated": "2026-10-01T00:03:17.009Z"
+    },
+    "tags": [
+        "api",
+        "grants",
+        "standards"
+    ],
+    "contact": {
+        "email": "simpler@grants.gov"
+    },
+    "feedbackMechanism": "https://github.com/HHS/simpler-grants-protocol/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "",
+    "userInput": false,
+    "fismaLevel": "",
+    "group": "",
+    "projects": [],
+    "systems": [],
+    "subsetInHealthcare": [],
+    "userType": [],
+    "maturityModelTier": 0
+}

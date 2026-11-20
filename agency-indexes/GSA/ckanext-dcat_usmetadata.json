@@ -1,0 +1,32 @@
+{
+    "govcode_id": "2026-GSA-000768",
+    "name": "ckanext-dcat_usmetadata",
+    "description": "ckanext-dcat_usmetadata",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/agpl-3.0/",
+                "name": "agpl-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ckanext-dcat_usmetadata",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Python",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Dockerfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

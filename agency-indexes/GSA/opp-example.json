@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-000378",
+    "name": "opp-example",
+    "description": "opp-example",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/opp-example",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "HTML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

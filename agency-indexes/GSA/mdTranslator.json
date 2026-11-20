@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-001137",
+    "name": "mdTranslator",
+    "description": "Metadata translation tool built using Ruby",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/unlicense/",
+                "name": "unlicense"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/mdTranslator",
+    "homepageURL": "https://www.adiwg.org/mdTranslator/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "JavaScript",
+        "Ruby",
+        "CSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

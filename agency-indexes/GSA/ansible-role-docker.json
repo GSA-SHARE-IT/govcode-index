@@ -1,0 +1,25 @@
+{
+    "govcode_id": "2026-GSA-000788",
+    "name": "ansible-role-docker",
+    "description": "Ansible Role - Docker",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ansible-role-docker",
+    "homepageURL": "https://galaxy.ansible.com/geerlingguy/docker/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

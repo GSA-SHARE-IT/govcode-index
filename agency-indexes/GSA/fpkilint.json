@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000365",
+    "name": "fpkilint",
+    "description": "Federal PKI, X.509 certificate linter",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "pki",
+        "certificate",
+        "conformance",
+        "fpki",
+        "bridge-pki",
+        "common-policy",
+        "federal",
+        "x509"
+    ],
+    "repositoryURL": "https://github.com/GSA/fpkilint",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Procfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

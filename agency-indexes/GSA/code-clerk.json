@@ -1,0 +1,27 @@
+{
+    "govcode_id": "2026-GSA-000482",
+    "name": "code-clerk",
+    "description": "Harvests project metadata from GitHub repositories",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "code-gov"
+    ],
+    "repositoryURL": "https://github.com/GSA/code-clerk",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "JavaScript"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

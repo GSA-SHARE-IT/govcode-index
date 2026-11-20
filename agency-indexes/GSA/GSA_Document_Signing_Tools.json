@@ -1,0 +1,31 @@
+{
+    "govcode_id": "2026-GSA-000210",
+    "name": "GSA Document Signing Tools",
+    "description": "Tools used for digitally signing documents and files with Personal Identity Verification (PIV) credentials",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "piv",
+        "digital-signature"
+    ],
+    "repositoryURL": "https://github.com/GSA/gsa-doc-digital-signature",
+    "contact": {
+        "email": "icam@gsa.gov"
+    },
+    "languages": [
+        "Java"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "https://github.com/GSA/gsa-doc-digital-signature/blob/platforms/LICENSE.md",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

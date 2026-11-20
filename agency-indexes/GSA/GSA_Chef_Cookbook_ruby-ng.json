@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-000558",
+    "name": "GSA Chef Cookbook ruby-ng",
+    "description": "GSA maintained fork of chef-cookbook-ruby-ng",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA",
+        "search",
+        "search.gov",
+        "ruby",
+        "cookbooks",
+        "chef"
+    ],
+    "repositoryURL": "https://github.com/GSA/chef-cookbook-ruby-ng",
+    "contact": {
+        "email": "search@gsa.gov"
+    },
+    "languages": [
+        "Ruby"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": null,
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 0
+}

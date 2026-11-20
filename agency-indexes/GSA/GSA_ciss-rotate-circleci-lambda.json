@@ -1,0 +1,36 @@
+{
+    "govcode_id": "2026-GSA-000959",
+    "name": "GSA/ciss-rotate-circleci-lambda",
+    "description": "Implement the methodology for replication of secrets from the Secrets Manager within a particular AWS account to specified CircleCI project environment variables by a Lambda function",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "grace",
+        "devsecops"
+    ],
+    "repositoryURL": "https://github.com/GSA/ciss-rotate-circleci-lambda",
+    "contact": {
+        "email": "grace-staff@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Makefile",
+        "HCL",
+        "Go"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "cc0-1.0",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

@@ -1,0 +1,27 @@
+{
+    "govcode_id": "2026-GSA-001146",
+    "name": "msg_project_template",
+    "description": "This will be the template for a project. It is public since it will have no content.",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/msg_project_template",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "TeX",
+        "CSS",
+        "R",
+        "Python",
+        "Makefile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

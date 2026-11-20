@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-000664",
+    "name": "GSA/grace-inventory",
+    "description": "Lambda function to create an inventory report of AWS services as an Excel spreadsheet in an S3 bucket. Includes Terraform code to deploy it.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "grace",
+        "devsecops"
+    ],
+    "repositoryURL": "https://github.com/GSA/grace-inventory",
+    "contact": {
+        "email": "grace-staff@gsa.gov"
+    },
+    "languages": [
+        "Makefile",
+        "Go",
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "cc0-1.0",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

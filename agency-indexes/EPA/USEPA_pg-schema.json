@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000596",
+    "name": "USEPA/pg-schema",
+    "organization": "usepa",
+    "description": "This is a read only mirror of canonical source: https://github.com/Scr1ptcat/pg-schema. Please submit issues/PRs upstream.",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/pg-schema/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/pg-schema",
+    "downloadURL": "https://github.com/USEPA/pg-schema/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/pg-schema/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/pg-schema.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2025-10-01T22:56:17Z",
+        "lastModified": "2025-10-01T22:56:17Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.621Z"
+    }
+}

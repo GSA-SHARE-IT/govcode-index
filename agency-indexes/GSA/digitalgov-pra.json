@@ -1,0 +1,31 @@
+{
+    "govcode_id": "2026-GSA-000576",
+    "name": "digitalgov-pra",
+    "description": "A resource to help federal employees comply with the Paperwork Reduction Act (PRA)",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/digitalgov-pra",
+    "homepageURL": "https://pra.digital.gov/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "HTML",
+        "JavaScript",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-000470",
+    "name": "datagov-deploy-solr",
+    "description": "datagov-deploy-solr",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/datagov-deploy-solr",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Makefile",
+        "Python",
+        "HTML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

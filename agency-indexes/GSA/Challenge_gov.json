@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-000709",
+    "name": "Challenge_gov",
+    "description": "Challenge_gov",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/Challenge_gov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Elixir",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "SCSS",
+        "Dockerfile",
+        "Shell",
+        "Python",
+        "Procfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

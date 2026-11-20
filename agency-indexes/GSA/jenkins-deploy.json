@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-000312",
+    "name": "jenkins-deploy",
+    "description": "deploy Jenkins to AWS with Terraform and Ansible",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/jenkins-deploy",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Makefile",
+        "Groovy",
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,80 @@
+{
+    "govcode_id": "2026-HHS-000666",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "project-ticket-template",
+    "description": "Creates ticket templates within GitHub project boards.",
+    "longDescription": "This is a test repository for creating project tickets and adding them directly to a GitHub project. This repository is set to be archived because the action is no longer needed.",
+    "status": "Archival",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/DSACMS/project-ticket-template/blob/main/LICENSE"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ],
+        "exemptionText": ""
+    },
+    "repositoryURL": "https://github.com/DSACMS/project-ticket-template",
+    "homepageURL": "",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "vcs": "git",
+    "laborHours": 2854,
+    "reuseFrequency": {
+        "forks": 0,
+        "clones": 0
+    },
+    "platforms": [
+        "web"
+    ],
+    "categories": [
+        "project-organization",
+        "ticket-creation",
+        "tracking"
+    ],
+    "softwareType": "standalone/backend",
+    "languages": [
+        "Yml",
+        "Markdown",
+        "Python"
+    ],
+    "maintenance": "none",
+    "contractNumber": [
+        "0"
+    ],
+    "SBOM": "https://github.com/DSACMS/project-ticket-template/network/dependencies",
+    "date": {
+        "created": "2025-04-09T16:20:28Z",
+        "lastModified": "2025-04-09T17:30:40Z",
+        "metadataLastUpdated": "2025-11-13T15:28:34.920Z"
+    },
+    "tags": [
+        "GitHub Action",
+        "yml",
+        "test",
+        "ospo"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Program Office"
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/project-ticket-template/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "tools",
+    "userInput": false,
+    "fismaLevel": "low",
+    "group": "CMS/OA/DSAC/OSPO",
+    "projects": [],
+    "systems": [],
+    "subsetInHealthcare": [
+        "operational"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 1
+}

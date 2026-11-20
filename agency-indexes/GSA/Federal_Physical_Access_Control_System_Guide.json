@@ -1,0 +1,36 @@
+{
+    "govcode_id": "2026-GSA-000304",
+    "name": "Federal Physical Access Control System Guide",
+    "description": "PACS guidance for Federal agencies on analyzing risk and procuring solutions",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "pacs",
+        "physical",
+        "access"
+    ],
+    "repositoryURL": "https://github.com/GSA/ficam-pacs",
+    "homepageURL": "https://playbooks.idmanagement.gov/pacs/",
+    "contact": {
+        "email": "icam@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Ruby",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

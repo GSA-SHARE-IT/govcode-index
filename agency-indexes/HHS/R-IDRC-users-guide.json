@@ -1,0 +1,59 @@
+{
+    "govcode_id": "2026-HHS-000590",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "R-IDRC-users-guide",
+    "description": {
+        "en": {
+            "shortDescription": "R User Guide for Connecting to the CMS Integrated Data Repository Cloud (IRDC)",
+            "longDescription": "A longer description of the project."
+        }
+    },
+    "status": "release candidate",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "LICENSE",
+                "name": "CC0 1.0 Universal"
+            }
+        ],
+        "usageType": "governmentWideReuse"
+    },
+    "repositoryURL": "https://github.com/Q8GY/R-IDRC-users-guide",
+    "vcs": "git",
+    "laborHours": null,
+    "platforms": [
+        "web"
+    ],
+    "categories": [
+        "communications",
+        "cloud-management",
+        "digital-asset-management",
+        "remote-support"
+    ],
+    "softwareType": "standalone/web",
+    "languages": [
+        "R"
+    ],
+    "maintenance": "internal",
+    "date": {
+        "created": "2024-11-19T10:57:29-07:00",
+        "lastModified": "2024-11-19T18:18:01+0000",
+        "metadataLastUpdated": "2024-11-19T18:18:01+0000"
+    },
+    "tags": [
+        "documentation"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Program Office"
+    },
+    "localisation": "false",
+    "repoType": "Docs",
+    "userInput": "No",
+    "fismaLevel": "Low",
+    "group": "CMS",
+    "subsetInHealthcare": "Operational",
+    "userType": "Government",
+    "repositoryHost": "GitHub ENT",
+    "maturityModelTier": "1"
+}

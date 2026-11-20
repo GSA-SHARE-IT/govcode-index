@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000338",
+    "name": "ficam-scvp-testing",
+    "description": "Scripts, artifacts, and guidance for testing Server-Based Certificate Validation Protocol (SCVP) responders",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "scvp",
+        "pki",
+        "federal-pki",
+        "ficam"
+    ],
+    "repositoryURL": "https://github.com/GSA/ficam-scvp-testing",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "CMake",
+        "C++",
+        "Python",
+        "HTML",
+        "C",
+        "Perl",
+        "Tcl",
+        "Shell",
+        "Java"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

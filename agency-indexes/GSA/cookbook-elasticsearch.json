@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-000580",
+    "name": "cookbook-elasticsearch",
+    "description": "Chef cookbook for Elasticsearch",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/cookbook-elasticsearch",
+    "homepageURL": "https://www.elastic.co/blog/deploying-elasticsearch-200-with-chef",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "Shell",
+        "HTML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

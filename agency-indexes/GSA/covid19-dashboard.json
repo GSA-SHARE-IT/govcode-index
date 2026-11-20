@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000849",
+    "name": "covid19-dashboard",
+    "description": "covid19-dashboard",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/covid19-dashboard",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile",
+        "Python",
+        "CSS",
+        "SCSS",
+        "HTML",
+        "JavaScript",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

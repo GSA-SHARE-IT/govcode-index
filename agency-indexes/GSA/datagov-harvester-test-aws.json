@@ -1,0 +1,31 @@
+{
+    "govcode_id": "2026-GSA-001136",
+    "name": "datagov-harvester-test-aws",
+    "description": "Test App for Harvester 2.0 in AWS ",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/datagov-harvester-test-aws",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Makefile",
+        "Shell",
+        "HCL",
+        "Dockerfile",
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

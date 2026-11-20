@@ -1,0 +1,19 @@
+{
+    "govcode_id": "2026-GSA-000021",
+    "name": "digital-strategy-drupal-module",
+    "description": "Creates 3 page nodes for digital strategy progess on enable. Also creates menu callbacks which load the page nodes and output just the body with the appropriate content type headers.",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/digital-strategy-drupal-module",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

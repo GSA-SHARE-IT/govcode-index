@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000291",
+    "name": "USEPA/ProxTool",
+    "organization": "usepa",
+    "description": "A stand-alone population proximity application that produces some of the HEM Demographic Assessment outputs without the need for all the HEM machinery. This branch is using the Great Circle formula to compute distances between facility locations (lat/lon) and census block centroids (lat/lon).",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/ProxTool/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/ProxTool",
+    "downloadURL": "https://github.com/USEPA/ProxTool/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/ProxTool/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/ProxTool.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2025-10-17T13:47:28Z",
+        "lastModified": "2025-10-20T13:10:55Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.634Z"
+    }
+}

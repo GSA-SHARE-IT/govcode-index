@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000449",
+    "name": "USEPA/data_gathering",
+    "organization": "usepa",
+    "description": "Repository for scraping GHS and experimental toxicity/physicochemical property data and storing it in a common format",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/data_gathering/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/data_gathering",
+    "downloadURL": "https://github.com/USEPA/data_gathering/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/data_gathering/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/data_gathering.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2023-08-14T18:18:39Z",
+        "lastModified": "2026-11-17T21:39:29Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.232Z"
+    }
+}

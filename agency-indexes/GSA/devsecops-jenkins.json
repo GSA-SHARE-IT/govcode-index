@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-000391",
+    "name": "devsecops-jenkins",
+    "description": "Uses GSA's 1x4 DevSecOps design to deploy a standard GSA Jenkins instance",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/devsecops-jenkins",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Makefile",
+        "Groovy",
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-000802",
+    "name": "GSA/[ROLE_NAME]",
+    "description": "[ROLE_DESCRIPTION]",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "grace",
+        "devsecops",
+        "ansible"
+    ],
+    "repositoryURL": "https://github.com/GSA/ansible-endgame",
+    "contact": {
+        "email": "grace-staff@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Makefile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "cc0-1.0",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

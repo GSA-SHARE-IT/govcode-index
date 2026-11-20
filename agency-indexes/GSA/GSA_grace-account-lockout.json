@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-000607",
+    "name": "GSA/grace-account-lockout",
+    "description": "Account Lockout Lambda for NIST 800-53 AC-7: Unsuccessful Login Attempts",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "grace",
+        "devsecops"
+    ],
+    "repositoryURL": "https://github.com/GSA/grace-account-lockout",
+    "contact": {
+        "email": "devsecops-core@gsa.gov"
+    },
+    "languages": [
+        "Makefile",
+        "JavaScript",
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": null,
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

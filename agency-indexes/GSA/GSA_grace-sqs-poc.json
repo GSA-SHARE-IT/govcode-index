@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-000590",
+    "name": "GSA/grace-sqs-poc",
+    "description": "Proof-of-Concept for provisioning via Amazaon SQS",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "grace",
+        "devsecops"
+    ],
+    "repositoryURL": "https://github.com/GSA/grace-sqs-poc",
+    "contact": {
+        "email": "devsecops-core@gsa.gov"
+    },
+    "languages": [
+        "Go",
+        "JavaScript",
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": null,
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

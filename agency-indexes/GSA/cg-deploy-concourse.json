@@ -1,0 +1,27 @@
+{
+    "govcode_id": "2026-GSA-000220",
+    "name": "cg-deploy-concourse",
+    "description": "Manifests and pipeline for deploying Concourse.ci",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/cg-deploy-concourse",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

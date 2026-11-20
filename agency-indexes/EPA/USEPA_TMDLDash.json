@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000356",
+    "name": "USEPA/TMDLDash",
+    "organization": "usepa",
+    "description": "The ExpertQueryTMDLDashboard is an R Shiny application designed to summarize and count TMDLS based on user inputs to filters on various fields including state, region, pollutant, year, and addressed parameter. TMDL data from ATTAINS are downloaded via Expert Query web services and are refreshed weekly.",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/TMDLDash/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/TMDLDash",
+    "downloadURL": "https://github.com/USEPA/TMDLDash/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/TMDLDash/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/TMDLDash.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2025-04-18T18:12:40Z",
+        "lastModified": "2026-10-30T13:56:55Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.638Z"
+    }
+}

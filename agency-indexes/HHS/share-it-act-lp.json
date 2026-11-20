@@ -1,0 +1,98 @@
+{
+    "govcode_id": "2026-HHS-000672",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "share-it-act-lp",
+    "version": "",
+    "description": "Guide to the SHARE IT Act helping federal agencies comply with source code sharing requirements",
+    "longDescription": "The Source Code Harmonization And Reuse in Information Technology Act (SHARE IT Act) requires federal agencies to share custom-developed software code, including metadata about the project, with each other to eliminate duplicative government work. This website provides comprehensive documentation that goes more in depth into the SHARE IT Act and provides tooling and guidance to help users become compliant.",
+    "status": "Production",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ],
+        "exemptionText": ""
+    },
+    "repositoryURL": "https://github.com/DSACMS/share-it-act-lp",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "homepageURL": "https://dsacms.github.io/share-it-act-lp/",
+    "downloadURL": "",
+    "disclaimerURL": "",
+    "disclaimerText": "",
+    "vcs": "git",
+    "laborHours": 5442,
+    "reuseFrequency": {
+        "forks": 4,
+        "clones": 0
+    },
+    "platforms": [
+        "web"
+    ],
+    "categories": [
+        "it-development",
+        "it-documentation",
+        "compliance",
+        "government-services"
+    ],
+    "softwareType": "standalone/web",
+    "languages": [
+        "HTML",
+        "JavaScript",
+        "SCSS",
+        "Nunjucks"
+    ],
+    "maintenance": "internal",
+    "contractNumber": [],
+    "SBOM": "https://github.com/DSACMS/share-it-act-lp/network/dependencies",
+    "relatedCode": [],
+    "reusedCode": [
+        {
+            "name": "U.S. Web Design System (USWDS)",
+            "URL": "https://github.com/uswds/uswds"
+        }
+    ],
+    "partners": [],
+    "date": {
+        "created": "2025-04-08T14:25:37Z",
+        "lastModified": "2026-09-28T19:48:31Z",
+        "metadataLastUpdated": "2026-09-28T19:53:23.546Z"
+    },
+    "tags": [
+        "cms-ospo",
+        "codejson",
+        "featured",
+        "inventory",
+        "metadata",
+        "share-it-act"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Program Office"
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/share-it-act-lp/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "website",
+    "userInput": false,
+    "fismaLevel": "low",
+    "group": "CMS/OA/DSAC",
+    "projects": [
+        "share-it-act"
+    ],
+    "systems": [
+        ""
+    ],
+    "subsetInHealthcare": [
+        "operational"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 3
+}

@@ -1,0 +1,23 @@
+{
+    "govcode_id": "2026-GSA-000989",
+    "name": "vcrpm-server",
+    "description": "This is a server side GRPC application written in GO that in conjunction with vcrpm-cli to run remote processes in a synchronous (streaming) or async (polling) capability.  Allows for processes to run locally on resources across many nodes in a robust manner.",
+    "permissions": {
+        "licenses": null,
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/vcrpm-server",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Go",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

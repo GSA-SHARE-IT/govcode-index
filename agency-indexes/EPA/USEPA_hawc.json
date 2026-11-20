@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000522",
+    "name": "USEPA/hawc",
+    "organization": "usepa",
+    "description": "Captures key data for health assessment of chemicals and other environmental hazards",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/hawc/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/hawc",
+    "downloadURL": "https://github.com/USEPA/hawc/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/hawc/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/hawc.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2021-06-28T18:07:37Z",
+        "lastModified": "2026-11-17T19:23:12Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.185Z"
+    }
+}

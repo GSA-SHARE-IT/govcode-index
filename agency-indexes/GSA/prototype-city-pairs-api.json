@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000277",
+    "name": "prototype-city-pairs-api",
+    "description": "A prototype API using GSA City Pairs data. Not for production use. ",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "city-pairs",
+        "api",
+        "gsa-apis"
+    ],
+    "repositoryURL": "https://github.com/GSA/prototype-city-pairs-api",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "JavaScript",
+        "CSS",
+        "Shell",
+        "EJS",
+        "Less"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

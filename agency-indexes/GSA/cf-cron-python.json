@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-000539",
+    "name": "cf-cron-python",
+    "description": "Schedule a python script with cron on cloudfoundry",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/cf-cron-python",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python",
+        "Dockerfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

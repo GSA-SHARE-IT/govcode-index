@@ -1,0 +1,24 @@
+{
+    "govcode_id": "2026-GSA-000023",
+    "name": "Open311-Forms-Engine",
+    "description": "User interface and lightweight backend to build forms that can be served as Open311 GeoReport v2 compliant service definitions. Originally forked from https://github.com/botskonet/jquery.formbuilder - A jQuery plugin for building forms, loading form structure from json/xml, and saving back to the server.",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/Open311-Forms-Engine",
+    "homepageURL": "http://wiki.open311.org/GeoReport_v2#GET_Service_Definition",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "PHP",
+        "JavaScript"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,75 @@
+{
+    "govcode_id": "2026-HHS-000624",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "community-deprivation-index",
+    "description": "This data provides the Community Deprivation Index (CDI) Scores for all block groups in the nation.",
+    "longDescription": "This data provides the Community Deprivation Index (CDI) Scores for all block groups in the nation with the following fields:\n\n FIPS_CHAR: 13-character FIPS code for a given block group. Can be broken into codes for state (digits 1-2), county (digits 3-5), tract (digits 6-11), and block group (digit 12), prefixed by \"G\". CDI_NATRANK: Nationally ranked relative index score. Ranges from 1-100. Due to the unreliability of their data, certain block groups are suppressed with either GQ, PH, or GQ-PH.\n\n Suppression flags: GQ: High group quarters population PH: Low population and/or housing",
+    "status": "production",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "LICENSE",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource",
+        "exemptionText": ""
+    },
+    "repositoryURL": "https://github.cms.gov/DSAC/community-deprivation-index",
+    "repositoryHost": "github.cms.com/DSAC",
+    "repositoryVisibility": "public",
+    "vcs": "git",
+    "laborHours": [
+        ""
+    ],
+    "reuseFrequency": {
+        "forks": 0
+    },
+    "platforms": [
+        "web"
+    ],
+    "categories": [
+        "healthcare"
+    ],
+    "softwareType": "standalone/other",
+    "languages": [
+        "sas",
+        "python",
+        "markdown"
+    ],
+    "maintenance": "none",
+    "contractNumber": "0",
+    "date": [
+        ""
+    ],
+    "tags": [
+        "Deprivation Index",
+        "data",
+        "Docs",
+        "resource"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Program Office"
+    },
+    "feedbackMechanisms": [
+        "https://github.com/DSAC/community-deprivation-index/issues"
+    ],
+    "localisation": "false",
+    "repositoryType": "Docs",
+    "userInput": "No",
+    "fismaLevel": "Low",
+    "group": [
+        "CMS/CMMI"
+    ],
+    "projects": [],
+    "systems": [],
+    "upstream": [],
+    "subsetInHealthcare": [
+        "Operational"
+    ],
+    "userType": [
+        "Government"
+    ],
+    "maturityModelTier": 1
+}

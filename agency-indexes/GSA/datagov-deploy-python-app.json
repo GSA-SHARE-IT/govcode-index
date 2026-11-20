@@ -1,0 +1,27 @@
+{
+    "govcode_id": "2026-GSA-000588",
+    "name": "datagov-deploy-python-app",
+    "description": "Ansible role to deploy python based applications on the Data.gov Platform",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/datagov-deploy-python-app",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-000294",
+    "name": "GEAR2-NodeJS",
+    "description": "Integrating nodejs with the current GEAR project, as we transition to GEAR 2.0. Documentation available at: https://github.com/GSA/GEAR-Documentation. Production site: https://ea.gsa.gov",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/apache-2.0/",
+                "name": "apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/GEAR2-NodeJS",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Pug"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000561",
+    "name": "USEPA/micromap",
+    "organization": "usepa",
+    "description": "ORD for R micromap package development",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/micromap/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/micromap",
+    "downloadURL": "https://github.com/USEPA/micromap/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/micromap/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/micromap.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2014-07-31T15:13:07Z",
+        "lastModified": "2026-02-23T20:59:47Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.075Z"
+    }
+}

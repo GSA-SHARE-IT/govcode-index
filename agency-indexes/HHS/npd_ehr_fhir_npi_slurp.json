@@ -1,0 +1,86 @@
+{
+    "govcode_id": "2026-HHS-000655",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "npd_ehr_fhir_npi_slurp",
+    "version": "1.0.0",
+    "description": "Slurps metadata from the EHR FHIR endpoints listed in Lantern.",
+    "longDescription": "This project provides a full data processing pipeline for extracting, analyzing, validating, and normalizing EHR (Electronic Health Records) FHIR endpoint metadata sourced from healthcare providers listed in Lantern. It supports interoperability analysis, HTI-2 compliance assessments, and downstream structured data transformation, enabling consistent and secure integrations across provider systems. The tooling automates discovery, retrieval, normalization, and export of FHIR server metadata to better support federal interoperability requirements.",
+    "status": "Production",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/DSACMS/npd_ehr_fhir_npi_slurp/blob/main/LICENSE"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ],
+        "exemptionText": null
+    },
+    "repositoryURL": "https://github.com/DSACMS/npd_ehr_fhir_npi_slurp",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "homepageURL": "",
+    "downloadURL": "",
+    "disclaimerURL": "",
+    "disclaimerText": "",
+    "vcs": "git",
+    "laborHours": 96335,
+    "reuseFrequency": {
+        "forks": 0
+    },
+    "platforms": [
+        "windows",
+        "mac",
+        "linux"
+    ],
+    "categories": [
+        "application-development"
+    ],
+    "softwareType": "standalone/web",
+    "languages": [
+        "Python",
+        "Shell"
+    ],
+    "maintenance": "internal",
+    "contractNumber": [
+        "0"
+    ],
+    "SBOM": "https://github.com/DSACMS/npd_ehr_fhir_npi_slurp/network/dependencies",
+    "relatedCode": [],
+    "reusedCode": [],
+    "partners": [],
+    "date": {
+        "created": "2025-07-22T19:06:48Z",
+        "lastModified": "2025-07-28T13:04:36Z",
+        "metadataLastUpdated": "2025-07-30T14:47:55.124Z"
+    },
+    "tags": [
+        "EHR",
+        "FHIR",
+        "Data Pipeline"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "Remy DeCausemaker"
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/npd_ehr_fhir_npi_slurp/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "tools",
+    "userInput": true,
+    "fismaLevel": "low",
+    "group": "CMS/OA/DSAC",
+    "projects": [
+        "National Provider Directory"
+    ],
+    "systems": [],
+    "subsetInHealthcare": [
+        "operational"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 0
+}

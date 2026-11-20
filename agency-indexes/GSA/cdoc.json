@@ -1,0 +1,31 @@
+{
+    "govcode_id": "2026-GSA-000781",
+    "name": "cdoc",
+    "description": "cdoc",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/cdoc",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "Dockerfile",
+        "Ruby",
+        "JavaScript",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

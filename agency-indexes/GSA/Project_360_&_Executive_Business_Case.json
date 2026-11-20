@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-000766",
+    "name": "Project 360 & Executive Business Case",
+    "description": "Combined application to track project status and information as well as the creation, review, and management of Executive Business Cases.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://www.usa.gov/publicdomain/label/1.0/",
+                "name": "PD"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "salesforce",
+        "project-management"
+    ],
+    "repositoryURL": "https://github.com/GSA/Project-360-Executive-Business-Case",
+    "contact": {
+        "email": "gsalabs@gsa.gov"
+    },
+    "languages": [
+        "javascript",
+        "apex"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

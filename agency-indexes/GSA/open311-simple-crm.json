@@ -1,0 +1,36 @@
+{
+    "govcode_id": "2026-GSA-000010",
+    "name": "open311-simple-crm",
+    "description": "Open311 Simple CRM",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/open311-simple-crm",
+    "homepageURL": "https://labs.data.gov/crm",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ActionScript",
+        "Hack",
+        "TSQL",
+        "Dockerfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

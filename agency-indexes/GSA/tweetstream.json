@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-000948",
+    "name": "tweetstream",
+    "description": "GSA maintained fork of tweetstream",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA",
+        "Search.gov",
+        "search",
+        "twitter",
+        "gem"
+    ],
+    "repositoryURL": "https://github.com/GSA/tweetstream",
+    "homepageURL": "http://rdoc.info/github/tweetstream/tweetstream",
+    "contact": {
+        "email": "search@gsa.gov"
+    },
+    "languages": [
+        "Ruby"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": null,
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 0
+}

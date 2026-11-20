@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000208",
+    "name": "USEPA/HEDS",
+    "organization": "usepa",
+    "description": "",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/HEDS/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/HEDS",
+    "downloadURL": "https://github.com/USEPA/HEDS/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/HEDS/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/HEDS.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2017-01-27T15:45:08Z",
+        "lastModified": "2020-07-01T20:23:20Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.099Z"
+    }
+}

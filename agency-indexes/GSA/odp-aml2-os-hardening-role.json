@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-001027",
+    "name": "odp-aml2-os-hardening-role",
+    "description": "Amazon Linux 2 OS Hardening Role per GSA Guidance",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/odp-aml2-os-hardening-role",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "YAML",
+        "Jinja"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

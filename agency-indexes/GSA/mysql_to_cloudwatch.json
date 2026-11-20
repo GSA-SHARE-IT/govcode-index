@@ -1,0 +1,31 @@
+{
+    "govcode_id": "2026-GSA-000306",
+    "name": "mysql_to_cloudwatch",
+    "description": "Grab logs from MySQL and send them to CloudWatch Logs",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "mysql",
+        "rds",
+        "aws",
+        "cloudwatch-logs"
+    ],
+    "repositoryURL": "https://github.com/GSA/mysql_to_cloudwatch",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

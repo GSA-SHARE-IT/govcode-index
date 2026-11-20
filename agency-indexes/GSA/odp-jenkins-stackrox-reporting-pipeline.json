@@ -1,0 +1,24 @@
+{
+    "govcode_id": "2026-GSA-001021",
+    "name": "odp-jenkins-stackrox-reporting-pipeline",
+    "description": "Generates Stackrox Reports and Emails to the Tenants",
+    "permissions": {
+        "licenses": null,
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/odp-jenkins-stackrox-reporting-pipeline",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile",
+        "Python",
+        "Jinja"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

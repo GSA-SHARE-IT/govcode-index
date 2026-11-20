@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000239",
+    "name": "us-data-federation",
+    "description": "U.S. Data Federation website",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/us-data-federation",
+    "homepageURL": "https://federation.data.gov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Ruby",
+        "SCSS",
+        "Makefile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

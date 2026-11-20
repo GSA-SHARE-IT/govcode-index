@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-001052",
+    "name": "ckanext-saml2auth",
+    "description": "CKAN extension to enable Single Sign-On (SSO) for CKAN data portals via SAML2 Authentication.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/agpl-3.0/",
+                "name": "agpl-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ckanext-saml2auth",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Python",
+        "HTML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

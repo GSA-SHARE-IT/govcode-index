@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000046",
+    "name": "idm",
+    "description": "Identity Management for Data.gov and Related Systems",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/gpl-2.0/",
+                "name": "gpl-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/idm",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "ApacheConf",
+        "PHP",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Shell",
+        "Perl"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

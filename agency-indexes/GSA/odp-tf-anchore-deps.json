@@ -1,0 +1,22 @@
+{
+    "govcode_id": "2026-GSA-000892",
+    "name": "odp-tf-anchore-deps",
+    "description": "Terraform module that deploys IAM role in an AWS account that Anchore can assume for scanning repositories in ECR",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/odp-tf-anchore-deps",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

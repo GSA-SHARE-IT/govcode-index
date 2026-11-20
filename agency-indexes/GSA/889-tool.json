@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-001103",
+    "name": "889-tool",
+    "description": "Web service for determining 889 compliance of vendors",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/889-tool",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Procfile",
+        "Shell",
+        "Python",
+        "JavaScript",
+        "HTML",
+        "Vue",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

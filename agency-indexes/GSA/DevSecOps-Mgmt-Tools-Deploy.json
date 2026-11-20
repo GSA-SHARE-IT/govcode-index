@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-000367",
+    "name": "DevSecOps-Mgmt-Tools-Deploy",
+    "description": "Deploys MGMT tools for the DevSecOps infrastructure",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/DevSecOps-Mgmt-Tools-Deploy",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Makefile",
+        "Groovy",
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

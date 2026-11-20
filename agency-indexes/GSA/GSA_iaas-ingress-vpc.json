@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-000933",
+    "name": "GSA/iaas-ingress-vpc",
+    "description": "The IaaS Ingress VPC module creates the the network, alb, waf and associated resources required for a public facing IaaS Ingress VPC.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "IaaS",
+        "devsecops"
+    ],
+    "repositoryURL": "https://github.com/GSA/iaas-ingress-vpc",
+    "contact": {
+        "email": "bryan.alexander@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Makefile",
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "cc0-1.0",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

@@ -1,0 +1,22 @@
+{
+    "govcode_id": "2026-GSA-000975",
+    "name": "odp-ansible-bigfix",
+    "description": "Ansible playbook to install and configure BigFix",
+    "permissions": {
+        "licenses": null,
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/odp-ansible-bigfix",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Jinja"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

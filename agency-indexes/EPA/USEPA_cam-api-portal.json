@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000405",
+    "name": "USEPA/cam-api-portal",
+    "organization": "usepa",
+    "description": "Api for data collected to run programs designed to reduce air pollution from power plants",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/cam-api-portal/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/cam-api-portal",
+    "downloadURL": "https://github.com/USEPA/cam-api-portal/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/cam-api-portal/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/cam-api-portal.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2021-09-08T13:15:25Z",
+        "lastModified": "2026-03-31T01:45:32Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.188Z"
+    }
+}

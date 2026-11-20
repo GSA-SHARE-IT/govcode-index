@@ -1,0 +1,58 @@
+{
+    "govcode_id": "2026-HHS-000641",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "idrc_snowflake",
+    "description": {
+        "en": {
+            "shortDescription": "Sample queries and other information to access IDRC Snowflake",
+            "longDescription": "A longer description of the project."
+        }
+    },
+    "status": "release candidate",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "LICENSE",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "governmentWideReuse"
+    },
+    "repositoryURL": "https://github.com/ospo/idrc_snowflake",
+    "vcs": "git",
+    "laborHours": null,
+    "platforms": [
+        "web"
+    ],
+    "categories": [
+        "data-collection"
+    ],
+    "softwareType": "standalone/web",
+    "languages": [
+        "python"
+    ],
+    "maintenance": "internal",
+    "date": {
+        "created": "2025-02-25T13:37:11-07:00",
+        "lastModified": "2025-02-25T20:57:23+0000",
+        "metadataLastUpdated": "2025-02-25T20:57:23+0000"
+    },
+    "tags": [
+        "IDRC",
+        "repository",
+        "examples"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Program Office"
+    },
+    "localisation": "false",
+    "repoType": "Tools",
+    "userInput": "No",
+    "fismaLevel": "Low",
+    "group": "DSAC",
+    "subsetInHealthcare": "Operational",
+    "userType": "Government",
+    "repositoryHost": "GitHub ENT",
+    "maturityModelTier": "1"
+}

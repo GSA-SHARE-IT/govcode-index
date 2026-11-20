@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-000309",
+    "name": "apps-gsa-gov",
+    "description": "apps-gsa-gov",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/apps-gsa-gov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

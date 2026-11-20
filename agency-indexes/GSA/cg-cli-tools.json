@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-001141",
+    "name": "cg-cli-tools",
+    "description": "A Github action for using cf CLI tools while deploying and managing apps on cloud.gov",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/cg-cli-tools",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Dockerfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

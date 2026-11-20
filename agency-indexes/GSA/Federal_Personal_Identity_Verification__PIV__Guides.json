@@ -1,0 +1,40 @@
+{
+    "govcode_id": "2026-GSA-000214",
+    "name": "Federal Personal Identity Verification (PIV) Guides",
+    "description": "PIV implementation guidance for networks, operating systems and applications",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "pki",
+        "fpki",
+        "ficam",
+        "piv",
+        "federation",
+        "credentials",
+        "authentication"
+    ],
+    "repositoryURL": "https://github.com/GSA/piv-guides",
+    "homepageURL": "https://playbooks.idmanagement.gov/piv/",
+    "contact": {
+        "email": "icam@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000439",
+    "name": "christopher",
+    "description": "christopher - public repo with tech.gsa.gov code for testing auto dev scanning pipeline",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "code",
+        "code-analysis",
+        "ci",
+        "cloud",
+        "open-source",
+        "opensource"
+    ],
+    "repositoryURL": "https://github.com/GSA/christopher",
+    "contact": {
+        "email": "cto@gsa.gov"
+    },
+    "languages": [
+        "javascript",
+        "ruby"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

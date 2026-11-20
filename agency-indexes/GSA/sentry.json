@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-GSA-000268",
+    "name": "sentry",
+    "description": "Sentry is cross-platform crash reporting built with love",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/bsd-3-clause/",
+                "name": "bsd-3-clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/sentry",
+    "homepageURL": "https://sentry.io",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Makefile",
+        "Python",
+        "JavaScript",
+        "Shell",
+        "Lua",
+        "CSS",
+        "HTML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,37 @@
+{
+    "govcode_id": "2026-GSA-000725",
+    "name": "GSA/grace-paas-network",
+    "description": "The GRACE PaaS Network module creates the the network resources required for a basic GRACE PaaS account.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "grace",
+        "devsecops",
+        "grace-paas"
+    ],
+    "repositoryURL": "https://github.com/GSA/grace-paas-network",
+    "contact": {
+        "email": "grace-staff@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Makefile",
+        "HCL",
+        "Go"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "cc0-1.0",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

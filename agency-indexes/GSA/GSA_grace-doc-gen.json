@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000687",
+    "name": "GSA/grace-doc-gen",
+    "description": "Simple go program to generate markdown tables for inputs and outputs from the `variables.tf` and `outputs.tf` file",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "grace",
+        "devsecops"
+    ],
+    "repositoryURL": "https://github.com/GSA/grace-doc-gen",
+    "contact": {
+        "email": "grace-staff@gsa.gov"
+    },
+    "languages": [
+        "Go"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "cc0-1.0",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

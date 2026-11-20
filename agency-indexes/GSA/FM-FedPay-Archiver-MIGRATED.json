@@ -1,0 +1,26 @@
+{
+    "govcode_id": "2026-GSA-000619",
+    "name": "FM-FedPay-Archiver-MIGRATED",
+    "description": "The FEDPAY is an invoice matching subsystem developed for processing FAS purchase orders in support of Accounts Payable for Pegasys. Invoices are validated against purchase orders to establish a purchase/payment transaction for goods and supplies.",
+    "permissions": {
+        "licenses": null,
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/FM-FedPay-Archiver-MIGRATED",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "C#",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

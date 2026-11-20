@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-GSA-000310",
+    "name": "recruiter",
+    "description": "Embeddable forms to recruit research participants. Sends results to a Google Sheet, deployed via Google Tag Manager.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "recruiters",
+        "usability",
+        "feedback-systems",
+        "google-sheets",
+        "google-tag-manager",
+        "embeddable-forms",
+        "user-feedback"
+    ],
+    "repositoryURL": "https://github.com/GSA/recruiter",
+    "homepageURL": "https://gsa.github.io/recruiter/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "JavaScript"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

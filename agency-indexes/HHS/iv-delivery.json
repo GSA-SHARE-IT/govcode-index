@@ -1,0 +1,86 @@
+{
+    "govcode_id": "2026-HHS-000644",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "iv-delivery",
+    "version": "",
+    "description": "Document Delivery transports a file to a destination location as determined by the caller. This service is created for investigation and evaluation purposes only.",
+    "longDescription": "A backend microservice that transports/delivers files to a destination location as determined by the caller. It's specifically built for income verification document delivery within the CMS (Centers for Medicare & Medicaid Services) / HHS ecosystem.",
+    "status": "Archival",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/DSACMS/iv-delivery/blob/main/LICENSE"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ]
+    },
+    "repositoryURL": "https://github.com/DSACMS/iv-delivery",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "homepageURL": "",
+    "downloadURL": "",
+    "disclaimerURL": "",
+    "disclaimerText": "",
+    "vcs": "git",
+    "laborHours": 2119,
+    "reuseFrequency": {
+        "forks": 0,
+        "clones": 0
+    },
+    "platforms": [
+        "web"
+    ],
+    "categories": [
+        "document-management"
+    ],
+    "softwareType": "standalone/backend",
+    "languages": [
+        "Java",
+        "Dockerfile"
+    ],
+    "maintenance": "internal",
+    "contractNumber": [
+        "0"
+    ],
+    "SBOM": "https://github.com/DSACMS/iv-delivery/network/dependencies",
+    "relatedCode": [],
+    "reusedCode": [],
+    "partners": [],
+    "date": {
+        "created": "2024-06-23T17:39:33Z",
+        "lastModified": "2026-08-12T17:50:02Z",
+        "metadataLastUpdated": "2026-08-20T14:18:15.213Z"
+    },
+    "tags": [
+        "income-verification",
+        "document",
+        "delivery",
+        "archived"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Program Office"
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/iv-delivery/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "APIs",
+    "userInput": true,
+    "fismaLevel": "moderate",
+    "group": "CMS/OA/DSAC",
+    "projects": [
+        "income-verification"
+    ],
+    "systems": [],
+    "subsetInHealthcare": [
+        "medicaid"
+    ],
+    "userType": [
+        "patients",
+        "government"
+    ],
+    "maturityModelTier": 1
+}

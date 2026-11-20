@@ -1,0 +1,41 @@
+{
+    "govcode_id": "2026-HHS-000680",
+    "organization": "DSACMS",
+    "name": "CSViper",
+    "description": "CSViper is a command-line tool that automates the process of analyzing CSV files and generating SQL scripts and Python programs to load the data into relational databases. It supports both MySQL and PostgreSQL backends and is designed for scenarios where the database is hosted remotely while the CSV file resides on the local machine.",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://raw.githubusercontent.com/DSACMS/npd_csviper/refs/heads/main/LICENSE"
+            }
+        ],
+        "usageType": "openSource",
+        "exemptionText": ""
+    },
+    "repositoryURL": "https://github.com/DSACMS/npd_csviper",
+    "repositoryVisibility": "public",
+    "laborHours": 5708.606,
+    "reuseFrequency": {
+        "forks": 0,
+        "clones": 9
+    },
+    "maintenance": "none",
+    "contractNumber": "none",
+    "tags": [
+        "data",
+        "python",
+        "csv",
+        "SQL",
+        "mySQL",
+        "postgres"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": ""
+    },
+    "feedbackMechanisms": [
+        "https://github.com/DSACMS/npd_csviper/issues"
+    ],
+    "AIUseCaseInventory": false
+}

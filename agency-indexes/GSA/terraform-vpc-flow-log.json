@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-000405",
+    "name": "terraform-vpc-flow-log",
+    "description": "reusable Terraform module for setting up AWS VPC flow logs",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/terraform-vpc-flow-log",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HCL",
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,32 @@
+{
+    "govcode_id": "2026-GSA-000016",
+    "name": "ckanext-geodatagov",
+    "description": "data.gov extension",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ckanext-geodatagov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python",
+        "HTML",
+        "Shell",
+        "Dockerfile",
+        "Makefile",
+        "XSLT"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

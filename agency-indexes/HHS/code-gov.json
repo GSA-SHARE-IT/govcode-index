@@ -1,0 +1,86 @@
+{
+    "govcode_id": "2026-HHS-000619",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "code-gov",
+    "version": "",
+    "description": "Github pages site that provides an inventory of federal government software projects",
+    "longDescription": "Code-gov is a redux project aiming to replicate the functionality provided by code.gov. This site aims to provide a software inventory and informational resource about open source projects throughout the federal government. This site is populated through GitHub actions and Python scripts that save data that is used by a static eleventy site that replicates the functionality of the old code.gov.",
+    "status": "Development",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/DSACMS/code-gov/blob/main/LICENSE"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ],
+        "exemptionText": ""
+    },
+    "repositoryURL": "https://github.com/DSACMS/code-gov",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "homepageURL": "",
+    "downloadURL": "",
+    "disclaimerURL": "",
+    "disclaimerText": "",
+    "vcs": "git",
+    "laborHours": 37569,
+    "reuseFrequency": {
+        "forks": 2,
+        "clones": 0
+    },
+    "platforms": [
+        "web"
+    ],
+    "categories": [
+        "knowledge-management",
+        "document-management"
+    ],
+    "softwareType": "standalone/web",
+    "languages": [
+        "JavaScript",
+        "HTML",
+        "SCSS",
+        "Python",
+        "Shell",
+        "Nunjucks"
+    ],
+    "maintenance": "internal",
+    "contractNumber": [],
+    "SBOM": "https://github.com/DSACMS/code-gov/network/dependencies",
+    "relatedCode": [],
+    "reusedCode": [],
+    "partners": [],
+    "date": {
+        "created": "2025-05-01T18:39:26Z",
+        "lastModified": "2025-12-21T07:42:23Z",
+        "metadataLastUpdated": "2026-01-01T02:00:55.743Z"
+    },
+    "tags": [
+        "featured"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Team"
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/code-gov/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "standards",
+    "userInput": false,
+    "fismaLevel": "low",
+    "group": "CMS/OA/DSAC",
+    "projects": [
+        "share-it-act"
+    ],
+    "systems": [],
+    "subsetInHealthcare": [
+        "operational"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 2
+}

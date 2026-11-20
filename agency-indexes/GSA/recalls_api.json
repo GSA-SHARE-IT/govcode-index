@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-000038",
+    "name": "recalls_api",
+    "description": "NOT SUPPORTED. Allows you to tap into a list of car, drug, food, and product safety recalls. Recalls are searchable by keyword, issuing agency, date, UPC code, vehicle-specific attributes, or any combination of these.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/recalls_api",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "HTML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

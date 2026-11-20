@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-000816",
+    "name": "SF-reCAPTCHA-Enterprise",
+    "description": "Module to implement reCAPTCHA Enterprise in Salesforce",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "salesforce",
+        "recaptcha",
+        "recaptcha-enterprise"
+    ],
+    "repositoryURL": "https://github.com/GSA/SF-reCAPTCHA-Enterprise",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Apex"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

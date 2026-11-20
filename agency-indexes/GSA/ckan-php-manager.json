@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000088",
+    "name": "ckan-php-manager",
+    "description": "A tool for managing a CKAN data catalog",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/gpl-3.0/",
+                "name": "gpl-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "ckan-api",
+        "php",
+        "ckan-php-manager",
+        "ckan",
+        "export"
+    ],
+    "repositoryURL": "https://github.com/GSA/ckan-php-manager",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "PHP",
+        "Shell",
+        "Dockerfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

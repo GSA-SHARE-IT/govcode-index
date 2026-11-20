@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000611",
+    "name": "USEPA/pyaqsapi",
+    "organization": "usepa",
+    "description": " A python 3 package to retrieve ambient air monitoring data from the United States Environmental Protection Agency’s (US EPA) Air Quality System (AQS) Data Mart API v2 interface",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/pyaqsapi/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/pyaqsapi",
+    "downloadURL": "https://github.com/USEPA/pyaqsapi/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/pyaqsapi/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/pyaqsapi.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2022-12-02T13:54:45Z",
+        "lastModified": "2026-11-19T18:28:02Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.215Z"
+    }
+}

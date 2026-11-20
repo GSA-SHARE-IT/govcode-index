@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-000412",
+    "name": "ansible-osquery",
+    "description": "Ansible osquery role",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/bsd-2-clause/",
+                "name": "bsd-2-clause"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ansible-osquery",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Ruby",
+        "Roff"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

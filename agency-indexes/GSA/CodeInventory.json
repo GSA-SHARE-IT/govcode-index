@@ -1,0 +1,31 @@
+{
+    "govcode_id": "2026-GSA-000273",
+    "name": "CodeInventory",
+    "description": "A Ruby gem that harvests project metadata from an agency's repositories.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "code.gov"
+    ],
+    "repositoryURL": "https://github.com/GSA/codeinventory",
+    "contact": {
+        "email": "jeffrey.fredrickson@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "https://github.com/GSA/codeinventory/blob/master/LICENSE.md",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

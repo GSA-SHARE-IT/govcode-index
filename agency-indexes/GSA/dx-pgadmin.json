@@ -1,0 +1,23 @@
+{
+    "govcode_id": "2026-GSA-000837",
+    "name": "dx-pgadmin",
+    "description": "A local demonstration of a pgadmin and postgres container orchestration.",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/dx-pgadmin",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Dockerfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

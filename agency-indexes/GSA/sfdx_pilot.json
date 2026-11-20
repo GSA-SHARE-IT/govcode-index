@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-000288",
+    "name": "sfdx_pilot",
+    "description": "User Training GIT (public) repository",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/apache-2.0/",
+                "name": "apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/sfdx_pilot",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "CSS",
+        "JavaScript",
+        "Apex"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

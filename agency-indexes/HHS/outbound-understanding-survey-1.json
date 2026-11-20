@@ -1,0 +1,87 @@
+{
+    "govcode_id": "2026-HHS-000664",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "outbound-understanding-survey-1",
+    "version": "",
+    "description": "A web form to evaluate documentation clarity and user confidence in figuring out tier, benefits and risks",
+    "longDescription": "A survey where project teams fill out information about their experience using the OSPO outbound review checklist and repo-scaffolder for repository hygiene. This form focuses on the tier determination section as well as benefits & risk evaluation.",
+    "status": "Production",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/DSACMS/codejson-generator/blob/main/LICENSE"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ],
+        "exemptionText": ""
+    },
+    "repositoryURL": "https://github.com/DSACMS/outbound-understanding-survey-1",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "homepageURL": "https://dsacms.github.io/outbound-understanding-survey-1/",
+    "downloadURL": "",
+    "disclaimerURL": "",
+    "disclaimerText": "",
+    "vcs": "git",
+    "laborHours": 3472,
+    "reuseFrequency": {
+        "forks": 0,
+        "clones": 0
+    },
+    "platforms": [
+        "web"
+    ],
+    "categories": [
+        "it-asset-management",
+        "inventory-management",
+        "data-collection"
+    ],
+    "softwareType": "standalone/web",
+    "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+    ],
+    "maintenance": "internal",
+    "contractNumber": [],
+    "SBOM": "https://github.com/DSACMS/outbound-understanding-survey-1/network/dependencies",
+    "relatedCode": [],
+    "reusedCode": [],
+    "partners": [],
+    "date": {
+        "created": "2025-05-29T16:51:26Z",
+        "lastModified": "2025-11-04T18:41:15Z",
+        "metadataLastUpdated": "2025-12-01T02:25:46.469Z"
+    },
+    "tags": [
+        "codejson",
+        "compliance",
+        "OSPO",
+        "user-testing"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Team"
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/outbound-understanding-survey-1/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "website",
+    "userInput": false,
+    "fismaLevel": "low",
+    "group": "CMS/OA/DSAC",
+    "projects": [
+        "ospo-outbound"
+    ],
+    "systems": [],
+    "subsetInHealthcare": [
+        "operational"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 3
+}

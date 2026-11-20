@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000324",
+    "name": "USEPA/S2S-Tool",
+    "organization": "usepa",
+    "description": "S2S-Tool: U.S. EPA's SPECIATE-to-SMOKE Tool generates GSPRO and GSCNV files that are used by SMOKE to generate gridded emissions for photochemical modeling.",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/S2S-Tool/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/S2S-Tool",
+    "downloadURL": "https://github.com/USEPA/S2S-Tool/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/S2S-Tool/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/S2S-Tool.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2022-12-07T17:23:30Z",
+        "lastModified": "2026-05-28T18:26:35Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.215Z"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-GSA-000374",
+    "name": "code-gov-harvester-deprecated",
+    "description": "Standalone code.json harvester and Lunr index creator - DEPRECATED",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "code-gov",
+        "open-source",
+        "open-data",
+        "us-government",
+        "harvester",
+        "gov-harvester",
+        "government-data",
+        "government"
+    ],
+    "repositoryURL": "https://github.com/GSA/code-gov-harvester-deprecated",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "JavaScript"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

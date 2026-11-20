@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-000371",
+    "name": "ansible-role-kibana",
+    "description": "Ansible Role - Kibana",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ansible-role-kibana",
+    "homepageURL": "https://galaxy.ansible.com/geerlingguy/kibana/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-GSA-001237",
+    "name": "OSCAL",
+    "description": "Open Security Controls Assessment Language (OSCAL) Fork for OSCAL PRs",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/OSCAL",
+    "homepageURL": "https://pages.nist.gov/OSCAL/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Python",
+        "XSLT",
+        "XProc",
+        "CSS",
+        "Makefile",
+        "HTML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

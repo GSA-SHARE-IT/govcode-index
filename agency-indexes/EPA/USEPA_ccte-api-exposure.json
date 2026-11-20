@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000421",
+    "name": "USEPA/ccte-api-exposure",
+    "organization": "usepa",
+    "description": "US EPA's CTX Exposure API, available at: https://comptox.epa.gov/ctx-api/docs/exposure.html",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/ccte-api-exposure/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/ccte-api-exposure",
+    "downloadURL": "https://github.com/USEPA/ccte-api-exposure/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/ccte-api-exposure/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/ccte-api-exposure.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2023-06-12T17:04:56Z",
+        "lastModified": "2026-11-17T16:09:31Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.524Z"
+    }
+}

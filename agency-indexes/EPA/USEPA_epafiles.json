@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000490",
+    "name": "USEPA/epafiles",
+    "organization": "usepa",
+    "description": "EPA's Master Look and Feel",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/epafiles/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/epafiles",
+    "downloadURL": "https://github.com/USEPA/epafiles/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/epafiles/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/epafiles.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2012-07-11T18:07:55Z",
+        "lastModified": "2015-06-25T21:12:48Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.067Z"
+    }
+}

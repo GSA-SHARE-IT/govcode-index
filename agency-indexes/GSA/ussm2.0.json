@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000848",
+    "name": "ussm2.0",
+    "description": "ussm2.0",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ussm2.0",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "Dockerfile",
+        "Ruby",
+        "SCSS",
+        "JavaScript",
+        "Less",
+        "CSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

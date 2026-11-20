@@ -1,0 +1,38 @@
+{
+    "govcode_id": "2026-GSA-000298",
+    "name": "FM-ULO-MIGRATED",
+    "description": "Repository for the ULO application.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "finance-management",
+        "accounting",
+        "gsa",
+        "dotnet",
+        "asp-net-mvc"
+    ],
+    "repositoryURL": "https://github.com/GSA/FM-ULO-MIGRATED",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "C#",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "PLpgSQL",
+        "TSQL",
+        "NASL",
+        "ASP.NET"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

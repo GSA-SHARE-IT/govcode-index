@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-000658",
+    "name": "datagov-deploy-jenkins",
+    "description": "Ansible role to configure and deploy a Jenkins single-instance for continuous integration and deployment for the Data.gov platform",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/datagov-deploy-jenkins",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python",
+        "Shell",
+        "Jinja"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

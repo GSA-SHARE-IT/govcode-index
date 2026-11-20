@@ -1,0 +1,23 @@
+{
+    "govcode_id": "2026-GSA-000869",
+    "name": "spba-elastic",
+    "description": "SPBA Elastic 5.6 Single Node",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/spba-elastic",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

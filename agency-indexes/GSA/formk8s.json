@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-000242",
+    "name": "formk8s",
+    "description": "A Terraform plan to create a Kubernetes cluster with Atomic instances",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/apache-2.0/",
+                "name": "apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/formk8s",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HCL",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

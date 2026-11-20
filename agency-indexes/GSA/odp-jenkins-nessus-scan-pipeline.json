@@ -1,0 +1,23 @@
+{
+    "govcode_id": "2026-GSA-001001",
+    "name": "odp-jenkins-nessus-scan-pipeline",
+    "description": "Nessus Scan for AMI Produced by odp-jenkins-hardening-pipeline",
+    "permissions": {
+        "licenses": null,
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/odp-jenkins-nessus-scan-pipeline",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile",
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

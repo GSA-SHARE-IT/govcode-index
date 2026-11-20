@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000510",
+    "name": "USEPA/generate-r-cloud-gov-libraries",
+    "organization": "usepa",
+    "description": "Generates a set of libraries needed to run certain R Shiny geospatial packages in cloud.gov.",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/generate-r-cloud-gov-libraries/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/generate-r-cloud-gov-libraries",
+    "downloadURL": "https://github.com/USEPA/generate-r-cloud-gov-libraries/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/generate-r-cloud-gov-libraries/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/generate-r-cloud-gov-libraries.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2022-03-12T14:47:49Z",
+        "lastModified": "2026-06-24T20:38:41Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.197Z"
+    }
+}

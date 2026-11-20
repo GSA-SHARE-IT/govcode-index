@@ -1,0 +1,92 @@
+{
+    "govcode_id": "2026-HHS-000661",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "ospo-guide",
+    "version": "",
+    "description": "Open Source Program Office Guide for CMS.gov",
+    "longDescription": "A comprehensive guide offering resources, best practices, and processes in open source software development that take place within the CMS Open Source Program Office.",
+    "status": "Production",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/DSACMS/ospo-guide/blob/main/LICENSE"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ],
+        "exemptionText": ""
+    },
+    "repositoryURL": "https://github.com/DSACMS/ospo-guide",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "homepageURL": "https://dsacms.github.io/ospo-guide/",
+    "downloadURL": "",
+    "disclaimerURL": "",
+    "disclaimerText": "",
+    "vcs": "git",
+    "laborHours": 5882,
+    "reuseFrequency": {
+        "forks": 5,
+        "clones": 0
+    },
+    "platforms": [
+        "web"
+    ],
+    "categories": [
+        "knowledge-management",
+        "document-management"
+    ],
+    "softwareType": "standalone/web",
+    "languages": [
+        "HTML",
+        "JavaScript",
+        "SCSS",
+        "Shell",
+        "Nunjucks"
+    ],
+    "maintenance": "internal",
+    "contractNumber": [],
+    "SBOM": "https://github.com/DSACMS/ospo-guide/network/dependencies",
+    "relatedCode": [],
+    "reusedCode": [
+        {
+            "name": "U.S. Web Design System (USWDS)",
+            "URL": "https://github.com/uswds/uswds"
+        }
+    ],
+    "partners": [],
+    "date": {
+        "created": "2024-04-03T20:47:21Z",
+        "lastModified": "2026-10-06T18:13:10Z",
+        "metadataLastUpdated": "2026-11-01T04:54:32.355Z"
+    },
+    "tags": [
+        "featured",
+        "guide",
+        "ospo"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Team"
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/ospo-guide/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "standards",
+    "userInput": false,
+    "fismaLevel": "low",
+    "group": "CMS/OA/DSAC",
+    "projects": [
+        "ospo"
+    ],
+    "systems": [],
+    "subsetInHealthcare": [
+        "operational"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 2
+}

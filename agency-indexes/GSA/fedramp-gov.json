@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000421",
+    "name": "fedramp-gov",
+    "description": "Fedramp.gov source code for site built on https://federalist.18f.gov/",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/fedramp-gov",
+    "homepageURL": "https://www.fedramp.gov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Ruby",
+        "Python",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

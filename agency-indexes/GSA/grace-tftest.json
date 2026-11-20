@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000547",
+    "name": "grace-tftest",
+    "description": "GRACE Terraform Test provides testing capabilities to simplify integration testing for Terraform",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "terraform",
+        "terraform-testing",
+        "integration-testing",
+        "terraform-aws"
+    ],
+    "repositoryURL": "https://github.com/GSA/grace-tftest",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Makefile",
+        "Go",
+        "Shell",
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

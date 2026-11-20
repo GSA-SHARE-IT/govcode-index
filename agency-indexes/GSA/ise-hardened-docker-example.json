@@ -1,0 +1,23 @@
+{
+    "govcode_id": "2026-GSA-000822",
+    "name": "ise-hardened-docker-example",
+    "description": "Example Jenkins pipeline that harden a Docker Image",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ise-hardened-docker-example",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

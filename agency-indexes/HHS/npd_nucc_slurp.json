@@ -1,0 +1,79 @@
+{
+    "govcode_id": "2026-HHS-000681",
+    "organization": "DSACMS",
+    "name": "npd_nucc_slurp",
+    "version": "",
+    "description": "because the CSV makes calculating the parent difficult.",
+    "longDescription": "",
+    "status": "",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://raw.githubusercontent.com/DSACMS/npd_nucc_slurp/refs/heads/main/LICENSE"
+            }
+        ],
+        "usageType": "openSource",
+        "exemptionText": ""
+    },
+    "repositoryURL": "https://github.com/DSACMS/npd_nucc_slurp",
+    "repositoryHost": "github",
+    "repositoryVisibility": "public",
+    "homepageURL": "",
+    "downloadURL": "",
+    "disclaimerURL": "",
+    "disclaimerText": "",
+    "vcs": "git",
+    "laborHours": 11148,
+    "reuseFrequency": {
+        "forks": 0,
+        "clones": 7
+    },
+    "platforms": [],
+    "categories": [],
+    "softwareType": "",
+    "languages": [
+        "HTML",
+        "Python",
+        "Shell"
+    ],
+    "maintenance": "none",
+    "contractNumber": [
+        "none"
+    ],
+    "SBOM": "https://github.com/DSACMS/npd_nucc_slurp/network/dependencies",
+    "relatedCode": [],
+    "reusedCode": [],
+    "partners": [],
+    "date": {
+        "created": "2025-07-22T18:56:17Z",
+        "lastModified": "2025-12-08T06:37:45Z",
+        "metadataLastUpdated": "2025-12-08T06:38:50.014Z"
+    },
+    "tags": [
+        "html",
+        "python",
+        "data",
+        "data science"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "Open Source Program Office"
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/npd_nucc_slurp/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "tools",
+    "userInput": false,
+    "fismaLevel": "low",
+    "group": "CMS/OA/DSAC",
+    "projects": [],
+    "systems": [],
+    "subsetInHealthcare": [
+        "operational"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 3
+}

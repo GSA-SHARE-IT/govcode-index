@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000123",
+    "name": "USEPA/CvTdbLoad",
+    "organization": "usepa",
+    "description": "R package/scripts to normalize CvT data from templates and load to the database",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/CvTdbLoad/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/CvTdbLoad",
+    "downloadURL": "https://github.com/USEPA/CvTdbLoad/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/CvTdbLoad/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/CvTdbLoad.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2023-04-13T19:54:26Z",
+        "lastModified": "2025-09-18T15:18:25Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.225Z"
+    }
+}

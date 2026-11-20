@@ -1,0 +1,32 @@
+{
+    "govcode_id": "2026-GSA-001127",
+    "name": "uswds",
+    "description": "The U.S. Web Design System helps the federal government build fast, accessible, mobile-friendly websites.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/uswds",
+    "homepageURL": "https://designsystem.digital.gov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "JavaScript",
+        "HTML",
+        "SCSS",
+        "Twig"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

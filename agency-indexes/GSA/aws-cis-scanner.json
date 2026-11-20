@@ -1,0 +1,24 @@
+{
+    "govcode_id": "2026-GSA-000295",
+    "name": "aws-cis-scanner",
+    "description": "AWS CIS Benchmark scanner",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/aws-cis-scanner",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Go",
+        "Shell",
+        "HTML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000394",
+    "name": "USEPA/aquametNWCA",
+    "organization": "usepa",
+    "description": "R package used to calculate vegetation metrics for National Wetlands Condition Assessment",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/aquametNWCA/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/aquametNWCA",
+    "downloadURL": "https://github.com/USEPA/aquametNWCA/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/aquametNWCA/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/aquametNWCA.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2024-05-20T18:34:32Z",
+        "lastModified": "2025-04-15T22:34:56Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.620Z"
+    }
+}

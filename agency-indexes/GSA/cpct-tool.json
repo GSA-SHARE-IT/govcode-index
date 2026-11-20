@@ -1,0 +1,23 @@
+{
+    "govcode_id": "2026-GSA-001098",
+    "name": "cpct-tool",
+    "description": "CPCT use can enhance detection of certificate profile issues during FPKI development and maintenance phases. In conjunction with the Card Conformance Tool (CCT), the Certificate Profile Conformance Tool (CPCT) enables FPKI stakeholders to perform local testing.",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/cpct-tool",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile",
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

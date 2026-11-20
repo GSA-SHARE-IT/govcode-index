@@ -1,0 +1,22 @@
+{
+    "govcode_id": "2026-GSA-000986",
+    "name": "datagov-s3-migrate",
+    "description": "Migrate s3 objects the hard way when using two sets of credentials in different accounts",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/datagov-s3-migrate",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

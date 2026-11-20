@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000190",
+    "name": "data.gov",
+    "description": "Main repository for the data.gov service",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "ansible",
+        "provisioning",
+        "terraform",
+        "infrastructure",
+        "stack"
+    ],
+    "repositoryURL": "https://github.com/GSA/data.gov",
+    "homepageURL": "https://data.gov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

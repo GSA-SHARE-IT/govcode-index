@@ -1,0 +1,37 @@
+{
+    "govcode_id": "2026-GSA-000921",
+    "name": "openacr-website",
+    "description": "Beta site for OpenACR (previously Open Product Accessibility Template or OPAT) -  https://github.com/GSA/openacr",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "accessibility",
+        "government",
+        "documentation",
+        "section508",
+        "vpat",
+        "acr"
+    ],
+    "repositoryURL": "https://github.com/GSA/openacr-website",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "Dockerfile",
+        "Ruby",
+        "SCSS",
+        "JavaScript",
+        "CSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

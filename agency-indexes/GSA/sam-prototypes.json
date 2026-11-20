@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-000549",
+    "name": "sam-prototypes",
+    "description": "Prototyping Module for beta.SAM.gov Project",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/sam-prototypes",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

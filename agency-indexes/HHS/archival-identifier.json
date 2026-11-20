@@ -1,0 +1,95 @@
+{
+    "govcode_id": "2026-HHS-000601",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "archival-identifier",
+    "version": "1.0.0",
+    "description": "A GitHub Action to identify repositories for archival",
+    "longDescription": "A GitHub Action to identify repositories that are candidates for archival based on development activity, usage, criticality score, and repository contents",
+    "status": "Production",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/DSACMS/archival-identifier/blob/main/LICENSE"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ]
+    },
+    "repositoryURL": "https://github.com/DSACMS/archival-identifier",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "homepageURL": "https://github.com/marketplace/actions/archival-identifier",
+    "downloadURL": "",
+    "disclaimerURL": "",
+    "disclaimerText": "",
+    "vcs": "git",
+    "laborHours": 3343,
+    "reuseFrequency": {
+        "forks": 4,
+        "clones": 0
+    },
+    "platforms": [
+        "web"
+    ],
+    "categories": [
+        "it-asset-management",
+        "inventory-management",
+        "it-management"
+    ],
+    "softwareType": "standalone/web",
+    "languages": [
+        "Python",
+        "JavaScript"
+    ],
+    "maintenance": "internal",
+    "contractNumber": [
+        "0"
+    ],
+    "SBOM": "https://github.com/DSACMS/archival-identifier/network/dependencies",
+    "relatedCode": [],
+    "reusedCode": [],
+    "partners": [],
+    "date": {
+        "created": "2026-01-28T17:57:29Z",
+        "lastModified": "2026-08-21T15:24:29Z",
+        "metadataLastUpdated": "2026-10-01T03:35:46.381Z"
+    },
+    "tags": [
+        "archive",
+        "archive-candidate",
+        "dsacms-tier3",
+        "end-of-life",
+        "eol",
+        "featured",
+        "github-actions",
+        "organization-management",
+        "ospos",
+        "stale-repo",
+        "sunset"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Team"
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/archival-identifier/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "libraries",
+    "userInput": false,
+    "fismaLevel": "low",
+    "group": "CMS/OA/DSAC",
+    "projects": [
+        "ospo",
+        "repo-sunsetter"
+    ],
+    "systems": [],
+    "subsetInHealthcare": [
+        "operational"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 3
+}

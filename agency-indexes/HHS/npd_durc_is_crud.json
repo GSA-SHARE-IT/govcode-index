@@ -1,0 +1,76 @@
+{
+    "govcode_id": "2026-HHS-000654",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "npd_durc_is_crud",
+    "description": "Python version of DURC",
+    "longDescription": "DURC (Database to CRUD) is a Python package that simplifies the process of generating CRUD (Create, Read, Update, Delete) operations from database schemas. It automatically extracts relational models from your database and generates the necessary code artifacts.",
+    "status": "production",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/DSACMS/npd_durc_is_crud/blob/main/LICENSE"
+            }
+        ],
+        "usageType": "openSource",
+        "exemptionText": ""
+    },
+    "repositoryURL": "https://github.com/DSACMS/npd_durc_is_crud",
+    "projectURL": "",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "vcs": "git",
+    "laborHours": 96446,
+    "reuseFrequency": {
+        "forks": 0
+    },
+    "platforms": [
+        "windows",
+        "mac",
+        "linux"
+    ],
+    "categories": [
+        "application-development"
+    ],
+    "softwareType": "standalone/desktop",
+    "languages": [
+        "Python",
+        "Shell"
+    ],
+    "maintenance": "internal",
+    "contractNumber": "0",
+    "date": {
+        "created": "2025-07-22T19:16:16Z",
+        "lastModified": "2025-07-28T13:04:45Z",
+        "metaDataLastUpdated": "2025-07-30T14:54:39.113Z"
+    },
+    "tags": [
+        "CRUB",
+        "Python",
+        "DURC"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "Remy DeCausemaker"
+    },
+    "feedbackMechanisms": [
+        "https://github.com/DSACMS/npd_durc_is_crud/issues"
+    ],
+    "localisation": false,
+    "repositoryType": "tools",
+    "userInput": true,
+    "fismaLevel": "low",
+    "group": "CMS/OA/DSAC",
+    "projects": [
+        "National Provider Directory"
+    ],
+    "systems": [],
+    "upstream": "https://github.com/DSACMS/npd_durc_is_crud/network/dependencies",
+    "subsetInHealthcare": [
+        "operational"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 0
+}

@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000218",
+    "name": "USEPA/IWTT",
+    "organization": "usepa",
+    "description": "Industrial Wastewater Treatment Technology (IWTT) Database",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/IWTT/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/IWTT",
+    "downloadURL": "https://github.com/USEPA/IWTT/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/IWTT/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/IWTT.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2025-05-19T13:40:07Z",
+        "lastModified": "2025-05-20T19:41:19Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.669Z"
+    }
+}

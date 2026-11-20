@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-001263",
+    "name": "APG-Pilot-AI-Editor",
+    "description": "AI Editor Tool for the APG reporting pilot.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/gpl-2.0/",
+                "name": "gpl-2.0"
+            }
+        ],
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/APG-Pilot-AI-Editor",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "TypeScript",
+        "JavaScript",
+        "HTML",
+        "CSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

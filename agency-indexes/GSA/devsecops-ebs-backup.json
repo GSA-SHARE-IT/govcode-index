@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-000449",
+    "name": "devsecops-ebs-backup",
+    "description": "Quick and easy implementation of EBS snapshots via AWS Lambda, with SNS notifications.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "aws",
+        "aws-lambda",
+        "ebs-snapshots",
+        "ebs",
+        "ebs-volumes",
+        "backup",
+        "backup-script",
+        "automation"
+    ],
+    "repositoryURL": "https://github.com/GSA/devsecops-ebs-backup",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python",
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

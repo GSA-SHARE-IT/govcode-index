@@ -1,0 +1,32 @@
+{
+    "govcode_id": "2026-GSA-000069",
+    "name": "ckanext-datajson",
+    "description": "A CKAN extension for US-DCAT and /data pages in Project Open Data implementation",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ckanext-datajson",
+    "homepageURL": "https://resources.data.gov/schemas/dcat-us/v1.1/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python",
+        "HTML",
+        "Shell",
+        "Dockerfile",
+        "Makefile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

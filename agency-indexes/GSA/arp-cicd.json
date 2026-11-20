@@ -1,0 +1,22 @@
+{
+    "govcode_id": "2026-GSA-000950",
+    "name": "arp-cicd",
+    "description": "example implementation to run terraform in codebuild",
+    "permissions": {
+        "licenses": null,
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/arp-cicd",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

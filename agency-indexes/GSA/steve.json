@@ -1,0 +1,38 @@
+{
+    "govcode_id": "2026-GSA-000455",
+    "name": "steve",
+    "description": "Public repo with fake insecure code for static code scanning supporting code scan project.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "code",
+        "scan",
+        "static-code-analysis",
+        "cto",
+        "digital-service"
+    ],
+    "repositoryURL": "https://github.com/GSA/steve",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Batchfile",
+        "Shell",
+        "Java",
+        "CSS",
+        "JavaScript",
+        "HTML",
+        "Scala",
+        "Ruby"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

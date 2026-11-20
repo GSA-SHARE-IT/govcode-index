@@ -1,0 +1,81 @@
+{
+    "govcode_id": "2026-HHS-000633",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "eng-cop",
+    "version": "",
+    "description": "Talk schedule for the OHTP Engineering Community of Practice",
+    "longDescription": "A static site and GitHub Actions workflow that show the Engineering CoP schedule and let participants claim an open speaking slot through a prefilled GitHub issue. No server, no database, and no stored credentials.",
+    "status": "Development",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/DSACMS/eng-cop/blob/main/LICENSE"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ],
+        "exemptionText": ""
+    },
+    "repositoryURL": "https://github.com/DSACMS/eng-cop",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "homepageURL": "https://dsacms.github.io/eng-cop/",
+    "downloadURL": "",
+    "disclaimerURL": "",
+    "disclaimerText": "",
+    "vcs": "git",
+    "laborHours": 0,
+    "reuseFrequency": {
+        "forks": 0,
+        "clones": 0
+    },
+    "platforms": [
+        "web"
+    ],
+    "categories": [
+        "scheduling"
+    ],
+    "softwareType": "standalone/web",
+    "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+    ],
+    "maintenance": "internal",
+    "contractNumber": [],
+    "SBOM": "https://github.com/DSACMS/eng-cop/network/dependencies",
+    "relatedCode": [],
+    "reusedCode": [],
+    "partners": [],
+    "date": {
+        "created": "2026-10-02T00:00:00Z",
+        "lastModified": "2026-10-02T00:00:00Z",
+        "metadataLastUpdated": "2026-10-02T00:00:00Z"
+    },
+    "tags": [
+        "community-of-practice",
+        "scheduling"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "OHTP Engineering CoP"
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/eng-cop/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "website",
+    "userInput": true,
+    "projects": [],
+    "systems": [],
+    "userType": [
+        "government"
+    ],
+    "fismaLevel": "low",
+    "group": "CMS/OA/DSAC",
+    "subsetInHealthcare": [
+        "operational"
+    ],
+    "maturityModelTier": 0
+}

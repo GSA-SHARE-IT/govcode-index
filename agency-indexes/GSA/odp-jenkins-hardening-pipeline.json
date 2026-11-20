@@ -1,0 +1,26 @@
+{
+    "govcode_id": "2026-GSA-000860",
+    "name": "odp-jenkins-hardening-pipeline",
+    "description": "Jenkins pipeline to build CIS Benchmark Hardened AMIs ",
+    "permissions": {
+        "licenses": null,
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/odp-jenkins-hardening-pipeline",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile",
+        "Shell",
+        "HCL",
+        "Jinja",
+        "PowerShell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

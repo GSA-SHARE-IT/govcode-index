@@ -1,0 +1,23 @@
+{
+    "govcode_id": "2026-GSA-000911",
+    "name": "odp-jenkins-container-hardening-pipeline",
+    "description": "Jenkins pipeline that builds hardened docker images, scans them using Anchore and publishes to GSA's docker registry",
+    "permissions": {
+        "licenses": null,
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/odp-jenkins-container-hardening-pipeline",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

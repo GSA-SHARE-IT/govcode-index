@@ -1,0 +1,27 @@
+{
+    "govcode_id": "2026-GSA-000630",
+    "name": "INFORM-Pilot",
+    "description": "Data transformations for data extracted from Qualtrics surveys for SQL / Tableau Ingestion. Three survey are converted to Pandas dataframes, transformed wide to long, and merged to a single dataframe. Additional manipulation of multiple spreadsheets with hours data. ",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/INFORM-Pilot",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Jupyter Notebook"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

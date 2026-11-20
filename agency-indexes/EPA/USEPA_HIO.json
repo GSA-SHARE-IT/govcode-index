@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000211",
+    "name": "USEPA/HIO",
+    "organization": "usepa",
+    "description": "Hybrid Input-Output models",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/HIO/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/HIO",
+    "downloadURL": "https://github.com/USEPA/HIO/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/HIO/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/HIO.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2022-08-02T20:45:33Z",
+        "lastModified": "2023-12-15T03:07:56Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.207Z"
+    }
+}

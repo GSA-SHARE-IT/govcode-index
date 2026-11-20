@@ -1,0 +1,83 @@
+{
+    "govcode_id": "2026-HHS-000656",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "npd_plainerflow",
+    "version": "1.0.0",
+    "description": "A Python package for plain flow operations with SQLAlchemy integration.",
+    "longDescription": "npd_plainerflow is a Python package designed to simplify plain flow operations and integrate seamlessly with SQLAlchemy-based data pipelines. The project provides utilities and abstractions that help developers structure and execute data transformation flows more consistently across NPD-related systems. Its goal is to reduce boilerplate, improve maintainability, and offer clear patterns for orchestrating data operations within CMS workflows. This repository supports health data–focused processing tasks and enables easier reuse across projects that utilize SQLAlchemy and Python for backend processing.",
+    "status": "Production",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://raw.githubusercontent.com/DSACMS/npd_plainerflow/refs/heads/main/LICENSE"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ],
+        "exemptionText": ""
+    },
+    "repositoryURL": "https://github.com/DSACMS/npd_plainerflow",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "homepageURL": "https://github.com/DSACMS/npd_plainerflow",
+    "downloadURL": "https://github.com/DSACMS/npd_plainerflow/releases",
+    "disclaimerURL": null,
+    "disclaimerText": "",
+    "vcs": "git",
+    "laborHours": 5022.406,
+    "reuseFrequency": {
+        "forks": 0,
+        "clones": 9
+    },
+    "platforms": [
+        "linux",
+        "mac"
+    ],
+    "categories": [
+        "data-processing",
+        "health"
+    ],
+    "softwareType": "library",
+    "languages": [
+        "Python"
+    ],
+    "maintenance": "none",
+    "contractNumber": [],
+    "SBOM": "None",
+    "relatedCode": [],
+    "reusedCode": [],
+    "partners": [],
+    "date": {
+        "created": "2023-01-01T00:00:00Z",
+        "lastModified": "2024-12-01T00:00:00Z",
+        "metadataLastUpdated": "2025-12-05T00:00:00Z"
+    },
+    "tags": [
+        "python",
+        "data",
+        "health"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": ""
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/npd_plainerflow/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "libraries",
+    "userInput": false,
+    "fismaLevel": "low",
+    "group": "NPD",
+    "projects": [],
+    "systems": [],
+    "subsetInHealthcare": [
+        "medicare",
+        "medicaid"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 1
+}

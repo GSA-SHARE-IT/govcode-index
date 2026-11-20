@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-GSA-000968",
+    "name": "dxcore-pricing-calc",
+    "description": "DX Solutions ID Pricing Application Backend",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/dxcore-pricing-calc",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile",
+        "Python",
+        "HTML",
+        "Shell",
+        "JavaScript",
+        "SCSS",
+        "CSS",
+        "PLpgSQL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

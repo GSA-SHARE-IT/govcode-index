@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000443",
+    "name": "USEPA/comptox-toxcast-invitrodb",
+    "organization": "usepa",
+    "description": "Comptox utility that loads invitrodb into the user's database",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/comptox-toxcast-invitrodb/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/comptox-toxcast-invitrodb",
+    "downloadURL": "https://github.com/USEPA/comptox-toxcast-invitrodb/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/comptox-toxcast-invitrodb/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/comptox-toxcast-invitrodb.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2018-08-28T15:51:51Z",
+        "lastModified": "2020-02-21T15:56:07Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.122Z"
+    }
+}

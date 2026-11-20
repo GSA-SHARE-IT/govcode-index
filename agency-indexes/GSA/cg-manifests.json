@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-000209",
+    "name": "cg-manifests",
+    "description": "Release Manifest for Cloud Foundry",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/cg-manifests",
+    "homepageURL": "https://github.com/18F/cg-manifests/wiki",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,37 @@
+{
+    "govcode_id": "2026-GSA-000253",
+    "name": "open.gsa.gov Redesign",
+    "description": "A fresh start for open.gsa.gov.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "data",
+        "api",
+        "developer"
+    ],
+    "repositoryURL": "https://github.com/GSA/open-gsa-redesign",
+    "homepageURL": "https://open.gsa.gov/",
+    "contact": {
+        "email": "cto@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Ruby",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "https://github.com/GSA/open-gsa-redesign/blob/dev/LICENSE.md",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

@@ -1,0 +1,85 @@
+{
+    "govcode_id": "2026-HHS-000639",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "gov-codejson",
+    "version": "2.0.0",
+    "description": "CMS code.json: An agency-wide metadata standard for software projects",
+    "longDescription": "This repository contains documentation on code.json, a metadata standard used to collect information on agency software projects in compliance with M-16-21 and the SHARE IT Act.",
+    "status": "Production",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/DSACMS/gov-codejson/blob/main/LICENSE"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ],
+        "exemptionText": ""
+    },
+    "repositoryURL": "https://github.com/DSACMS/gov-codejson",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "homepageURL": "",
+    "downloadURL": "",
+    "disclaimerURL": "",
+    "disclaimerText": "",
+    "vcs": "git",
+    "laborHours": 4998,
+    "reuseFrequency": {
+        "forks": 2,
+        "clones": 0
+    },
+    "platforms": [
+        "web"
+    ],
+    "categories": [
+        "knowledge-management",
+        "help-desk"
+    ],
+    "softwareType": "standalone/web",
+    "languages": [],
+    "maintenance": "community",
+    "contractNumber": [],
+    "SBOM": "https://github.com/DSACMS/gov-codejson/network/dependencies",
+    "relatedCode": [],
+    "reusedCode": [],
+    "partners": [],
+    "date": {
+        "created": "2025-02-04T21:59:53Z",
+        "lastModified": "2026-05-19T17:09:53Z",
+        "metadataLastUpdated": "2026-10-01T03:54:33.657Z"
+    },
+    "tags": [
+        "codejson",
+        "dsacms-tier3",
+        "featured",
+        "government",
+        "json",
+        "metadata",
+        "metadata-standard"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Team"
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/gov-codejson/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "standards",
+    "userInput": false,
+    "fismaLevel": "low",
+    "group": "CMS/OA/DSAC",
+    "projects": [
+        "share-it-act"
+    ],
+    "systems": [],
+    "subsetInHealthcare": [
+        "operational"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 3
+}

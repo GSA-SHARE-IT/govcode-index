@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-001096",
+    "name": "ttsnotify-brokerpak-sms",
+    "description": "ttsnotify-brokerpak-sms",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ttsnotify-brokerpak-sms",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Makefile",
+        "Shell",
+        "HCL",
+        "Dockerfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

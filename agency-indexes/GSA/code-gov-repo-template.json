@@ -1,0 +1,26 @@
+{
+    "govcode_id": "2026-GSA-000640",
+    "name": "code-gov-repo-template",
+    "description": "DEPRECATED 🛑 - A basic template to use for all code.gov repositories which includes our standard documents and contact info",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "deprecated",
+        "archived",
+        "code-gov"
+    ],
+    "repositoryURL": "https://github.com/GSA/code-gov-repo-template",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

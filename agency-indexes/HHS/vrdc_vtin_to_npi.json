@@ -1,0 +1,85 @@
+{
+    "govcode_id": "2026-HHS-000677",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "vrdc_vtin_to_npi",
+    "title": "CMS code.json metadata",
+    "description": "Metadata description for the repository vrdc_vtin_to_npi",
+    "version": "1.0.0",
+    "longDescription": "vrdc_vtin_to_npi is a Python utility for calculating VTINs for a VRDC Public Use File (PUF). The tool automates transformation processes needed within VRDC workflows and ensures consistent and accurate VTIN generation. It supports repeatable usage within data processing pipelines and is intended for internal analytics workflows as well as open-source reuse. This description contains more than one hundred fifty characters to satisfy schema requirements.",
+    "status": "Production",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://raw.githubusercontent.com/DSACMS/npd_vrdc_python_projects/refs/heads/main/LICENSE"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ],
+        "exemptionText": null
+    },
+    "repositoryURL": "https://github.com/DSACMS/npd_vrdc_python_projects",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "homepageURL": "https://github.com/DSACMS/npd_vrdc_python_projects",
+    "downloadURL": "https://github.com/DSACMS/npd_vrdc_python_projects/archive/refs/heads/main.zip",
+    "disclaimerURL": "https://github.com/DSACMS/npd_vrdc_python_projects",
+    "disclaimerText": "This software is provided as-is without warranty of any kind.",
+    "vcs": "git",
+    "laborHours": 1912.602,
+    "reuseFrequency": {
+        "forks": 0,
+        "clones": 8
+    },
+    "platforms": [
+        "linux",
+        "mac",
+        "other"
+    ],
+    "categories": [
+        "data-processing",
+        "analytics"
+    ],
+    "softwareType": "library",
+    "languages": [
+        "Python"
+    ],
+    "maintenance": "none",
+    "contractNumber": [],
+    "SBOM": "None",
+    "relatedCode": [],
+    "reusedCode": [],
+    "partners": [],
+    "date": {
+        "created": "2024-01-01T00:00:00Z",
+        "lastModified": "2025-01-01T00:00:00Z",
+        "metadataLastUpdated": "2025-12-05T00:00:00Z"
+    },
+    "tags": [
+        "python",
+        "VTN"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": ""
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/npd_vrdc_python_projects/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "tools",
+    "userInput": false,
+    "fismaLevel": "low",
+    "group": "NPD",
+    "projects": [],
+    "systems": [],
+    "subsetInHealthcare": [
+        "medicare",
+        "medicaid"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 1,
+    "additionalProperties": false
+}

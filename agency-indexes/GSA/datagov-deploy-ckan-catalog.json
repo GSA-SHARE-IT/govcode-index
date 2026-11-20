@@ -1,0 +1,31 @@
+{
+    "govcode_id": "2026-GSA-000459",
+    "name": "datagov-deploy-ckan-catalog",
+    "description": "Repository of the elements solely tied to the CKAN Catalog instance",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/datagov-deploy-ckan-catalog",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "Python",
+        "Shell",
+        "Groovy",
+        "PHP"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

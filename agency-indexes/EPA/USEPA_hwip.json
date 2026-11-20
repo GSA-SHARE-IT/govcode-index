@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000533",
+    "name": "USEPA/hwip",
+    "organization": "usepa",
+    "description": "Hazardous Waste Information Platform",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/hwip/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/hwip",
+    "downloadURL": "https://github.com/USEPA/hwip/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/hwip/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/hwip.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2025-08-21T20:22:49Z",
+        "lastModified": "2026-06-15T21:18:33Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.515Z"
+    }
+}

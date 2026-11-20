@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-000451",
+    "name": "datagov-deploy-dashboard",
+    "description": "Ansible role for Data.gov Dashboard",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/datagov-deploy-dashboard",
+    "homepageURL": "https://labs.data.gov/dashboard/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python",
+        "Jinja"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

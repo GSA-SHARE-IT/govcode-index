@@ -1,0 +1,32 @@
+{
+    "govcode_id": "2026-GSA-001059",
+    "name": "GSA/aws-trustedadvisor-reports",
+    "description": "This function parses trusted advisor reports and creates google sheets with tenant specific recommendations.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "devsecops"
+    ],
+    "repositoryURL": "https://github.com/GSA/aws-trustedadvisor-reports",
+    "contact": {
+        "email": "ciss-infra-mgmt@gsa.gov"
+    },
+    "languages": [
+        "Makefile",
+        "HCL",
+        "Go"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "cc0-1.0",
+    "openSourceProject": 0,
+    "governmentWideReuseProject": 0
+}

@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-000830",
+    "name": "terraform-kubernetes-aws-load-balancer-controller",
+    "description": "Terraform module to ease deployment of the AWS ALB Ingress Controller",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mpl-2.0/",
+                "name": "mpl-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/terraform-kubernetes-aws-load-balancer-controller",
+    "homepageURL": "https://registry.terraform.io/modules/iplabs/alb-ingress-controller/kubernetes/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

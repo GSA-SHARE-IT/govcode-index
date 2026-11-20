@@ -1,0 +1,31 @@
+{
+    "govcode_id": "2026-GSA-000226",
+    "name": "jkan",
+    "description": "A lightweight, backend-free open data portal, powered by Jekyll",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/jkan",
+    "homepageURL": "http://gsa.github.io/jkan/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

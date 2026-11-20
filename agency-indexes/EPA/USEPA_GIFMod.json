@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000197",
+    "name": "USEPA/GIFMod",
+    "organization": "usepa",
+    "description": "Computer program that can be used to construct models to evaluate the performance of stormwater green infrastructure (GIs) and other types of urban and agricultural best management practices",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/GIFMod/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/GIFMod",
+    "downloadURL": "https://github.com/USEPA/GIFMod/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/GIFMod/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/GIFMod.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2016-05-18T13:42:41Z",
+        "lastModified": "2020-05-25T05:47:03Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.087Z"
+    }
+}

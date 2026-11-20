@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-GSA-000395",
+    "name": "citizenscience.gov",
+    "description": "This is the new build of CitizenScience.gov using Jekyll on Federalist. Feel free to contribute or submit an issue!",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "federalist",
+        "jekyll",
+        "work-in-progress"
+    ],
+    "repositoryURL": "https://github.com/GSA/citizenscience.gov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "JavaScript",
+        "Ruby",
+        "Rich Text Format",
+        "Python",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

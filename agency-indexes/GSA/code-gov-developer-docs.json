@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-000441",
+    "name": "code-gov-developer-docs",
+    "description": " 🛑DEPRECATED 🛑Quick micro site for Code.gov developer docs.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "docs",
+        "code-gov",
+        "developer-documentation",
+        "deprecated",
+        "archived"
+    ],
+    "repositoryURL": "https://github.com/GSA/code-gov-developer-docs",
+    "homepageURL": "https://developers.code.gov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "JavaScript",
+        "HTML",
+        "CSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

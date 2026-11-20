@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-GSA-000334",
+    "name": "GSA Open Source Implementation Guidance - Alpha",
+    "description": "Placeholder for GSA IT workgroup to develop open source code release guidance",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "cto",
+        "gsa-digital-service"
+    ],
+    "repositoryURL": "https://github.com/GSA/open-source-policy",
+    "homepageURL": "https://open.gsa.gov/code/",
+    "contact": {
+        "email": "cto@gsa.gov"
+    },
+    "languages": [
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": null,
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

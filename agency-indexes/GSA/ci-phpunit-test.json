@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-000693",
+    "name": "ci-phpunit-test",
+    "description": "An easier way to use PHPUnit with CodeIgniter 3.x.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ci-phpunit-test",
+    "homepageURL": "http://kenjis.github.io/ci-phpunit-test/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "PHP",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-001159",
+    "name": "research-portal",
+    "description": "Federal Government Project Portal (in development) using https://github.com/thepolicylab-projectportals/project-portal-theme",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/research-portal",
+    "homepageURL": "https://federal-project-portal-preview.netlify.app/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "JavaScript",
+        "TypeScript"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000491",
+    "name": "USEPA/epanet-engine",
+    "organization": "usepa",
+    "description": "Perform extended-period simulation of the hydraulic and water quality behavior within drinking water distribution systems",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/epanet-engine/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/epanet-engine",
+    "downloadURL": "https://github.com/USEPA/epanet-engine/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/epanet-engine/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/epanet-engine.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2014-03-14T17:18:46Z",
+        "lastModified": "2026-05-08T14:43:35Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.074Z"
+    }
+}

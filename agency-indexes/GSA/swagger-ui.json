@@ -1,0 +1,31 @@
+{
+    "govcode_id": "2026-GSA-000874",
+    "name": "swagger-ui",
+    "description": "Web page: https://ryandaydev.github.io/swagger-ui/dist/",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/swagger-ui",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile",
+        "HTML",
+        "Shell",
+        "JavaScript",
+        "CSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

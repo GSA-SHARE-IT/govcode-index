@@ -1,0 +1,24 @@
+{
+    "govcode_id": "2026-GSA-000075",
+    "name": "gman",
+    "description": "A ruby gem to check if the owner of a given email address or website is working for THE MAN (a.k.a verifies government domains).",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/gman",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-000949",
+    "name": "GSA/iaas-networking",
+    "description": "The IaaS Networking module creates the the network resources required for tenet application and edge VPCs, as well as a Firewall VPC",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "IaaS",
+        "devsecops"
+    ],
+    "repositoryURL": "https://github.com/GSA/iaas-networking",
+    "contact": {
+        "email": "bryan.alexander@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Makefile",
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "cc0-1.0",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}
