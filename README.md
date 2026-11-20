@@ -290,10 +290,6 @@ The data refresh step uses `continue-on-error`, so successfully downloaded
 agencies are still committed when another agency fails. Check the run log for
 `Failed {AGENCY}` and `WARNING` lines.
 
-`auto-changelog.yml`, `contributors.yml`, `repoHygieneCheck.yml`, and
-`updateCodeJSON.yml` come from the repository template and currently fail to
-parse because they contain unrendered `{% raw %}` template tags.
-
 ## Known Limitations
 
 - **Matching requires name and URL agreement.** Partial matches require review;
