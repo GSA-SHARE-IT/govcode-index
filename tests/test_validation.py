@@ -9,7 +9,7 @@ Tests for scripts/utils/validate.py:
 
 import unittest
 from scripts.utils.validate import (
-    slugify, usable_url, is_github_repo, github_repo, derive_identifier,
+    slugify, usable_url, is_github_repo, github_repo,
     is_closed, standardize_license_name, standardize_status,
     validate_record, has_identity, fill_record
 )
@@ -133,28 +133,6 @@ class HelperFunctionTests(unittest.TestCase):
 
     def test_github_repo_url_too_few_parts_returns_none(self):
         self.assertIsNone(github_repo("https://github.com/owner"))
-
-    # === derive_identifier ===
-    def test_derive_identifier_from_github_url(self):
-        record = {"repositoryURL": "https://github.com/owner/repo"}
-        result = derive_identifier("DOI", "file.json", record)
-        self.assertIn("github.com/owner/repo", result.lower())
-
-    def test_derive_identifier_from_name_hash(self):
-        record = {"name": "My Project"}
-        result = derive_identifier("DOI", "file.json", record)
-        self.assertIn("doi", result.lower())
-        self.assertIn("my-project", result)
-
-    def test_derive_identifier_no_url_no_name(self):
-        record = {"repositoryURL": "private"}
-        result = derive_identifier("DOI", "file.json", record)
-        self.assertIn("doi", result.lower())
-
-    def test_derive_identifier_uses_filename_if_no_name(self):
-        record = {}
-        result = derive_identifier("DOI", "my-project.json", record)
-        self.assertIn("my-project", result)
 
     # === is_closed ===
     def test_is_closed_with_exempt_usage_no_opensource(self):
@@ -718,27 +696,17 @@ class FillRecordTests(unittest.TestCase):
                 self.assertEqual(filled["repositoryVisibility"], visibility)
                 self.assertNotIn("repositoryVisibility", derived)
 
-    def test_fill_identifier_derived_from_github_url(self):
-        """Identifier should be derived from GitHub URL."""
-        record = {
-            "name": "Test",
-            "repositoryURL": "https://github.com/owner/repo"
-        }
-        filled, derived = fill_record("TEST_AGENCY", "file.json", record)
-        self.assertIsNotNone(filled["identifier"])
-        self.assertIn("github.com/owner/repo", filled["identifier"].lower())
-        self.assertIn("derived", derived["identifier"])
+    def test_missing_identifier_is_null_even_with_url_or_name(self):
+        for record in ({}, {"name": "My Project"},
+                       {"repositoryURL": "https://github.com/o/repo"}):
+            filled, derived = fill_record("TEST", "file.json", record)
+            self.assertIsNone(filled["identifier"])
+            self.assertEqual(derived["identifier"], "not supplied by agency")
 
-    def test_fill_identifier_derived_from_agency_and_name(self):
-        """Identifier should use agency+name hash when no URL."""
-        record = {
-            "name": "My Project"
-        }
-        filled, derived = fill_record("TEST_AGENCY", "file.json", record)
-        self.assertIsNotNone(filled["identifier"])
-        self.assertIn("test_agency", filled["identifier"].lower())  # Underscore, not hyphen
-        self.assertIn("my-project", filled["identifier"].lower())
-        self.assertIn("derived", derived["identifier"])
+    def test_agency_identifier_is_preserved(self):
+        filled, derived = fill_record("TEST", "file.json", {"identifier": "000123"})
+        self.assertEqual(filled["identifier"], "000123")
+        self.assertNotIn("identifier", derived)
 
     def test_fill_organization_inferred_from_agency(self):
         """Organization should be inferred from agency folder name."""
@@ -1300,7 +1268,7 @@ class RealisticDataValidationTests(unittest.TestCase):
         record = RealWorldDataFixtures.VA_LEGACY_PROJECT.copy()
         filled, derived = fill_record("VA", "file.json", record)
         
-        # Should have identifier (from id or derived)
+        # This fixture supplies an agency identifier
         self.assertIn("identifier", filled)
         self.assertIsNotNone(filled["identifier"])
         
@@ -1358,15 +1326,15 @@ class RealisticDataValidationTests(unittest.TestCase):
         
         self.assertEqual(filled["repositoryVisibility"], "private")
 
-    def test_fill_identifier_from_github_url(self):
-        """Identifier should be derived from GitHub URL when missing."""
+    def test_fill_missing_identifier_stays_null(self):
+        """Repository URLs must not invent agency identifiers."""
         record = RealWorldDataFixtures.GITHUB_ENTERPRISE_PROJECT.copy()
-        # Remove identifier so it gets derived from GitHub URL
+        # Remove the agency-reported identifier
         del record["identifier"]
         filled, derived = fill_record("COMMERCE", "file.json", record)
         
-        # Should derive identifier from GitHub URL
-        self.assertIn("github.com", filled["identifier"].lower())
+        # Missing agency values remain null
+        self.assertIsNone(filled["identifier"])
 
     def test_identity_github_project(self):
         """GitHub project has identity (name or URL)."""

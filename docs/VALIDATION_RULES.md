@@ -262,25 +262,23 @@ If `repositoryVisibility` is missing or null:
 An HTTP(S) URL, including a GitHub URL, does not establish public visibility.
 Existing non-null `repositoryVisibility` values are preserved by filling.
 Unknown visibility remains null and does not satisfy the schema's enum; it is
-not replaced with a guessed value. Identifier, VCS, and feedback inference are
-unaffected.
+not replaced with a guessed value. VCS and feedback inference are unaffected.
 
 ---
 
-### **Identifier Deriving**
+### **Agency Identifier Preservation**
 
-If `identifier` is missing or null:
+Preserve the agency's `identifier` (including legacy `id` mapping during
+normalization). If missing or null, include `identifier: null`. Blank strings
+become null during normalization. No repository URL or name hash is used.
+The derivation log records `"not supplied by agency"` for absent values.
 
-- **Derive from repository URL** (if usable public URL):
-  - Use `netloc + path` from parsed URL, lowercase, right-stripped slashes
-  - Example: `github.com/owner/repo` → `"github.com/owner/repo"`
-- **Otherwise, derive from agency + name hash:**
-  - Create hash: `sha1(agency|name).hexdigest()[:8]`
-  - Format: `"{agency_lower}:{slugified_name}-{hash_8chars}"`
-  - Example: `"dhs:federal-ai-system-abc12345"`
-- Derivation: `"derived from repositoryURL or agency+name hash"`
-
-**Slugify:** Convert to kebab-case, max 40 characters
+`govcode_id` is assigned only by the collectors and carried through unchanged.
+Consolidation rejects missing, malformed, or duplicate local IDs before writing
+output. The local release validation contract requires `identifier` to be
+present and permits string or null, and requires a string `govcode_id`.
+The fetched agency schema currently supplies agency/version configuration; this
+is not a full validation against the remote project schema.
 
 ---
 
@@ -428,13 +426,6 @@ After all fills and derivations:
 - Extracts `(owner, repo)` tuple from github.com URL
 - Strips `.git` suffix from repo name
 - Returns `None` if URL is not a valid github.com repository or lacks enough path segments
-
-### **derive_identifier(agency, filename, record)**
-
-- Derives stable identifier from repositoryURL or generates one
-- Uses netloc + path if URL is public and usable
-- Falls back to: `"{agency_lower}:{slugified_name}-{sha1_hash[:8]}"`
-- Example filename fallback: If URL is None, uses Path(filename).stem as name
 
 ### **is_closed(record)**
 

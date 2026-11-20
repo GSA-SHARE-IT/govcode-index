@@ -67,3 +67,5 @@ target/
 .terraform/
 *.tfstate
 *.tfstate.*
+# Local collector lock; registry JSON and recovery journals are committed.
+agency-indexes/.govcode/.lock

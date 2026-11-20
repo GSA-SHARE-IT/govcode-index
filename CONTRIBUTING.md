@@ -134,7 +134,8 @@ The project does not enforce a linter. Please:
 3. Resolve data paths relative to the repository (see `ROOT` in
    `pull_index_assets.py`), not the caller's working directory.
 4. Keep agency URLs in `sources/agency-index-sources.json` rather than in code.
-5. Preserve complete project objects in `agency-indexes/`. Filename cleanup must
+5. Preserve agency fields in project objects, adding only local `govcode_id`.
+   Keep the ID registry with generated outputs. Filename cleanup must
    never change values inside the JSON.
 6. Keep visible warnings for anything that changes how a project is saved
    (sanitized, truncated, suffixed, or unnamed), including the original name,

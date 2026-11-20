@@ -61,3 +61,16 @@ class CsvDateTests(unittest.TestCase):
                 [row["date_metadataLastUpdated"] for row in rows],
                 [timestamp, "", "", "", "", ""],
             )
+
+    def test_local_id_is_first_column_and_value_is_preserved(self):
+        with tempfile.TemporaryDirectory() as directory:
+            source = Path(directory) / "input.json"
+            output = Path(directory) / "output.csv"
+            source.write_text(json.dumps([{"agency": "DOE", "releases": [
+                {"name": "Example", "govcode_id": "2026-DOE-000123"},
+                {"name": "Legacy"}]}]), encoding="utf-8")
+            self.assertTrue(convert_to_csv(source, output))
+            with output.open(newline="", encoding="utf-8") as handle:
+                reader = csv.DictReader(handle)
+                self.assertEqual(reader.fieldnames[:3], ["govcode_id", "agency", "name"])
+                self.assertEqual([row["govcode_id"] for row in reader], ["2026-DOE-000123", ""])

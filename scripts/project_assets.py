@@ -1,5 +1,6 @@
 """Shared project identity, recency, and filesystem-safe write planning."""
 
+from collections import defaultdict
 from datetime import datetime, timezone
 import json
 import re
@@ -91,13 +92,77 @@ def releases_from(index):
     return index["releases"]
 
 
-def plan_project_writes(index, agency_dir):
-    """Resolve all matches before writing; existing records and filenames survive."""
-    incoming = releases_from(index)
+def name_key(record):
+    value = record.get("name")
+    return (value.strip() or None) if isinstance(value, str) else None
+
+
+def url_evidence(record):
+    """Retain non-key URLs so different homepages/private markers cannot match."""
+    return repository_key(record) or str(record.get("repositoryURL") or "").strip() or None
+
+
+def resolve_incoming_duplicates(records, agency):
+    """Resolve duplicate identities, warning and skipping unresolved groups."""
+    groups = {}
+    for position, record in enumerate(records, 1):
+        if "govcode_id" in record:
+            raise ValueError("Incoming govcode_id is reserved for local assignment")
+        pair = (name_key(record), url_evidence(record))
+        if not pair[0]:
+            raise ValueError(f"[{agency}] Missing project name; review required: {record!r}")
+        groups.setdefault(pair, []).append((position, record))
+
+    resolved = []
+    for pair, members in groups.items():
+        # Canonical JSON ignores key order, but preserves JSON value types and
+        # every source field. Do not merge fields from different versions.
+        variants = {}
+        for position, record in members:
+            key = json.dumps(record, sort_keys=True, ensure_ascii=False)
+            variants.setdefault(key, (position, record))
+        unique = list(variants.values())
+        chosen = unique[0]
+        reason = "identical records collapsed"
+        if len(unique) > 1:
+            dated = [(latest_timestamp(record), position, record)
+                     for position, record in unique]
+            conflict = None
+            if any(date is None for date, _, _ in dated):
+                conflict = "conflicting records have missing/invalid timestamps"
+            else:
+                newest = max(date for date, _, _ in dated)
+                winners = [(position, record) for date, position, record in dated if date == newest]
+                if len(winners) != 1:
+                    conflict = "conflicting records share the newest timestamp"
+            if conflict:
+                print(f"WARNING [{agency}]: skipped duplicate incoming identity {pair!r}: "
+                      f"{conflict}; skipped releases {[position for position, _ in members]}; "
+                      "existing record and ID retained if present; no new ID assigned; "
+                      "resolve conflicting source code.json records",
+                      file=sys.stderr, flush=True)
+                continue
+            chosen = winners[0]
+            reason = f"kept uniquely newest record ({newest.isoformat()})"
+        resolved.append(chosen[1])
+        if len(members) > 1:
+            print(f"WARNING [{agency}]: duplicate incoming identity {pair!r}: "
+                  f"{reason}; kept release #{chosen[0]} of releases "
+                  f"{[position for position, _ in members]}", file=sys.stderr, flush=True)
+    return resolved
+
+
+def plan_project_writes(index, agency_dir, *, identities=None, mappings=None):
+    """Plan one-to-one matches without modifying files or incoming objects.
+
+    IDs are allocated by save_projects after this entire plan succeeds.
+    """
+    incoming = resolve_incoming_duplicates(releases_from(index), agency_dir.name)
     if agency_dir.is_symlink():
         raise ValueError(f"Agency directory cannot be a symlink: {agency_dir}")
-    existing = {}
-    reserved = set()
+    existing = dict(identities or {})
+    present = set()
+    reserved = set(existing_name.casefold() for existing_name in existing)
     if agency_dir.exists():
         for path in sorted(agency_dir.iterdir()):
             reserved.add(path.name.casefold())
@@ -109,25 +174,59 @@ def plan_project_writes(index, agency_dir):
             if not isinstance(record, dict):
                 raise ValueError(f"Expected a project object: {path}")
             existing[path.name] = record
+            present.add(path.name)
 
-    writes = {}
+    incoming_names = defaultdict(int)
     for record in incoming:
-        key = repository_key(record)
-        matches = [name for name, old in existing.items()
-                   if (repository_key(old) == key if key else old == record)]
+        incoming_names[name_key(record)] += 1
+
+    by_name, by_url = defaultdict(list), defaultdict(list)
+    for filename, old in existing.items():
+        if name_key(old):
+            by_name[name_key(old)].append(filename)
+        if repository_key(old):
+            by_url[repository_key(old)].append(filename)
+    writes = {}
+    claimed = set()
+    for source in incoming:
+        record = dict(source)
+        if "govcode_id" in record:
+            raise ValueError("Incoming govcode_id is reserved for local assignment")
+        name, url = name_key(record), repository_key(record)
+        same_name = by_name.get(name, [])
+        same_url = by_url.get(url, [])
+        matches = [f for f in same_name if f in same_url]
+        if not matches and len(same_name) == 1 and incoming_names[name] == 1:
+            old = existing[same_name[0]]
+            if not url or not repository_key(old):
+                a, b = url_evidence(record), url_evidence(old)
+                if not a or not b or a == b:
+                    matches = same_name
+        overrides = [m for m in (mappings or [])
+                     if m.get("name") == name and m.get("repositoryURL") == record.get("repositoryURL")]
+        if overrides:
+            if len(overrides) != 1 or overrides[0].get("filename") not in existing:
+                raise ValueError(f"Invalid explicit mapping for {name!r}")
+            matches = [overrides[0]["filename"]]
+        if len(matches) > 1 or (not matches and (same_name or same_url)):
+            raise ValueError(f"[{agency_dir.name}] Ambiguous match for {name!r} "
+                             f"({record.get('repositoryURL')!r}): {same_name or same_url}; review required")
         if matches:
-            # If historical duplicates exist, compare against their newest version.
-            newest = max((latest_timestamp(existing[name]) for name in matches),
-                         key=lambda date: date or datetime.min.replace(tzinfo=timezone.utc))
-            incoming_date = latest_timestamp(record)
-            if incoming_date is not None and (newest is None or incoming_date > newest):
-                for name in matches:
-                    existing[name] = record
-                    writes[name] = record
+            filename = matches[0]
+            if filename in claimed:
+                raise ValueError(f"Multiple incoming records claim {filename}; review required")
+            claimed.add(filename)
+            old = existing[filename]
+            incoming_date, old_date = latest_timestamp(record), latest_timestamp(old)
+            if filename not in present or (incoming_date is not None and
+                                          (old_date is None or incoming_date > old_date)):
+                if "govcode_id" in old:
+                    record["govcode_id"] = old["govcode_id"]
+                writes[filename] = record
+            elif incoming_date is None:
+                print(f"WARNING [{agency_dir.name}]: {name!r} -> {filename!r}: "
+                      "no recognized incoming timestamp; existing record retained", file=sys.stderr)
         else:
-            name = project_filename(record, agency_dir.name, reserved)
-            existing[name] = record
-            writes[name] = record
+            filename = project_filename(record, agency_dir.name, reserved)
+            writes[filename] = record
     return writes
-
-

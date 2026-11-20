@@ -2,8 +2,8 @@
 
 This document defines every field found in the data, at three levels:
 
-- **Source files** (`agency-indexes/`) are stored exactly as agencies publish
-  them. Agencies publish the code.gov **code.json 2.0.0** metadata format, with
+- **Complete source indexes** are stored as published. Extracted project files
+  in `agency-indexes/{AGENCY}/` preserve agency fields and add local `govcode_id`. Agencies publish the code.gov **code.json 2.0.0** metadata format, with
   some legacy and non-standard keys.
 - **`gov-code.json`** targets the
   [**code.json 0.1.0** project schema](https://gsa-share-it.github.io/codejson-schemas/schemas/schema-0.1.0.json)
@@ -12,7 +12,7 @@ This document defines every field found in the data, at three levels:
   It adds several required fields that 2.0.0 does not have.
 
 - **`gov-code.csv`** is the flattened export of `gov-code.json`, with one row
-  per project and 62 columns, including CMS fields and separate object subfields.
+  per project and 63 columns, including CMS fields and separate object subfields.
 
 **How to read the tables:**
 
@@ -57,7 +57,7 @@ project record.
 | Field | Type | Req. | Description | Source fill |
 | :-- | :-- | :-: | :-- | --: |
 | `name` | string | ✔ | Name of the project or software. Also used to build the project's filename. | 100% |
-| `identifier` | string | ✔ | Persistent unique ID that follows the project across renames and migrations. | New (1.8% have legacy `id`) |
+| `identifier` | string | ✔ | Agency-reported identifier; may be missing or nonunique. | New (1.8% have legacy `id`) |
 | `version` | string | | Version of this release, for example `1.0.0`. | 15% |
 | `description` | string | | One- or two-sentence description of the software. | 96% |
 | `organization` | string | ✔ | Organization or component within the agency that owns the project, for example `18F`, `Navy`, or a national laboratory. | 98% |
@@ -148,7 +148,7 @@ The `identifier`, `repositoryVisibility`, `maintenance`, and
 
 ## How `gov-code.json` changes each field
 
-Source files are never modified. These changes apply only to the consolidated
+Consolidation never modifies source project files. These changes apply only to the consolidated
 output. The full rules are in
 [NORMALIZATION_RULES.md](NORMALIZATION_RULES.md) and
 [VALIDATION_RULES.md](VALIDATION_RULES.md).
@@ -156,7 +156,8 @@ output. The full rules are in
 | Field | Normalization and filling |
 | :-- | :-- |
 | Recognized string fields | Leading and trailing whitespace is trimmed. An empty optional string is removed. An empty required string becomes `null`. |
-| `identifier` | Legacy `id` is renamed. Otherwise the value is derived from `repositoryURL` as lower-case `host/path` (for example `github.com/cisagov/acid`). Without a usable URL it becomes `{agency}:{name-slug}-{first 8 hex chars of SHA-1}`. |
+| `identifier` | Legacy `id` is renamed, strings trimmed, numeric values stringified. Missing/blank values become null; no generated fallback. |
+| `govcode_id` | Local immutable `YEAR-AGENCY-NUMBER`, assigned at creation, e.g. `2026-DOE-000123`. Preserved during consolidation and globally unique. |
 | `organization` | Missing values are filled with the agency acronym. |
 | `version` | Numbers are converted to strings. Empty or `null` values are removed. |
 | `status` | Known spellings are mapped to the enum, for example `rc` → `Release Candidate` and `Alpha v0.11 (Prototype)` → `Alpha`. Unmappable values become `null`. Missing values are never guessed. |
@@ -177,7 +178,7 @@ output. The full rules are in
 | `laborHours` | Numeric strings are converted to numbers. Values of `0` or below are removed. |
 | `relatedCode`, `reusedCode`, `partners` | Keys not listed in this dictionary are removed. Empty items are dropped, and an empty array is removed. |
 | `reuseFrequency`, `contractNumber` | A missing `reuseFrequency` becomes `{}`, and a missing `contractNumber` becomes `[]`. |
-| Field order | Required fields come first, in schema order, followed by all other fields in source order. |
+| Field order | `govcode_id` comes first, then required fields in schema order, followed by remaining source fields. |
 | Unknown top-level keys | Kept as-is (for example `repoURL` and `exemption`). The empty-string key `""` is removed. |
 
 ## Legacy and non-standard keys in source data
@@ -313,68 +314,69 @@ related/reused-code and partner columns retain alternating member pairs.
 ### CSV header order
 
 ```text
-1. agency
-2. name
-3. identifier
-4. version
-5. description
-6. organization
-7. status
-8. permissions_licenses
-9. permissions_licenses_name
-10. permissions_licenses_URL
-11. permissions_usageType
-12. permissions_exemptionText
-13. reuseFrequency_forks
-14. reuseFrequency_clones
-15. reuseFrequency_downloads
-16. repositoryURL
-17. repositoryVisibility
-18. homepageURL
-19. downloadURL
-20. disclaimerURL
-21. disclaimerText
-22. vcs
-23. laborHours
-24. languages
-25. maintenance
-26. contractNumber
-27. SBOM
-28. relatedCode
-29. relatedCode_name
-30. relatedCode_URL
-31. relatedCode_isGovernmentRepo
-32. reusedCode
-33. reusedCode_name
-34. reusedCode_URL
-35. partners
-36. partners_name
-37. partners_email
-38. date_created
-39. date_lastModified
-40. date_metadataLastUpdated
-41. tags
-42. contact_email
-43. contact_name
-44. feedbackMechanism
-45. AIUseCaseID
-46. contact_url
-47. contact_phone
-48. longDescription
-49. group
-50. repositoryHost
-51. repositoryType
-52. softwareType
-53. fismaLevel
-54. platforms
-55. categories
-56. userType
-57. subsetInHealthcare
-58. projects
-59. systems
-60. localisation
-61. userInput
-62. maturityModelTier
+1. govcode_id
+2. agency
+3. name
+4. identifier
+5. version
+6. description
+7. organization
+8. status
+9. permissions_licenses
+10. permissions_licenses_name
+11. permissions_licenses_URL
+12. permissions_usageType
+13. permissions_exemptionText
+14. reuseFrequency_forks
+15. reuseFrequency_clones
+16. reuseFrequency_downloads
+17. repositoryURL
+18. repositoryVisibility
+19. homepageURL
+20. downloadURL
+21. disclaimerURL
+22. disclaimerText
+23. vcs
+24. laborHours
+25. languages
+26. maintenance
+27. contractNumber
+28. SBOM
+29. relatedCode
+30. relatedCode_name
+31. relatedCode_URL
+32. relatedCode_isGovernmentRepo
+33. reusedCode
+34. reusedCode_name
+35. reusedCode_URL
+36. partners
+37. partners_name
+38. partners_email
+39. date_created
+40. date_lastModified
+41. date_metadataLastUpdated
+42. tags
+43. contact_email
+44. contact_name
+45. feedbackMechanism
+46. AIUseCaseID
+47. contact_url
+48. contact_phone
+49. longDescription
+50. group
+51. repositoryHost
+52. repositoryType
+53. softwareType
+54. fismaLevel
+55. platforms
+56. categories
+57. userType
+58. subsetInHealthcare
+59. projects
+60. systems
+61. localisation
+62. userInput
+63. maturityModelTier
 ```
 
 

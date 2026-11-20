@@ -39,6 +39,7 @@ CMS_COLUMNS = (*CMS_STRING_FIELDS, *CMS_ARRAY_FIELDS, *CMS_VALUE_FIELDS,
 
 
 COLUMN_ORDER = (
+    'govcode_id',
     'agency',
     'name',
     'identifier',
@@ -207,7 +208,7 @@ def flatten_project(project, agency):
     Returns:
         Flattened dict with all fields expanded
     """
-    flat = {}
+    flat = {"govcode_id": project.get("govcode_id") or ""}
     
     # Add agency (new field)
     flat["agency"] = agency

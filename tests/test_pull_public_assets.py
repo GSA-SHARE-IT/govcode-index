@@ -13,6 +13,14 @@ from unittest.mock import Mock, patch
 from scripts import pull_public_assets as public
 from scripts import project_assets
 
+def agency_record(text):
+    record = json.loads(text)
+    value = record.pop("govcode_id")
+    from scripts.govcode_ids import valid_id
+    assert valid_id(value), value
+    return record
+
+
 
 def project(name="example", date=None, url="https://github.com/org/repo"):
     record = {"name": name, "repositoryURL": url, "extra": {"text": "Café 界"}}
@@ -100,7 +108,7 @@ class PublicTests(unittest.TestCase):
                              ("2024-01-01", False), (None, False), ("bad", False),
                              ("2023-12-31T19:00:00-05:00", False)]:
             with self.subTest(date=date):
-                new = project("renamed", date, "https://GITHUB.com/ORG/REPO.git/")
+                new = project("example", date, "https://GITHUB.com/ORG/REPO.git/")
                 self.assertEqual(self.writes([new]), {"original.json": new} if update else {})
         self.seed("original.json", project())
         self.assertEqual(self.writes([project(date="2024-01-01")]), {"original.json": old})
@@ -109,7 +117,7 @@ class PublicTests(unittest.TestCase):
         records = [project("a/b", url="https://github.com/o/1"),
                    project("A_B", url="https://github.com/o/2"),
                    project("界" * 100, url="https://github.com/o/3"),
-                   {"unknown": [1, None]}, {"name": "../escape"}]
+                   {"name": "unknown", "unknown": [1, None]}, {"name": "../escape"}]
         self.seed("a_b.json", project(url="https://github.com/o/original"))
         writes = self.writes(records)
         self.assertEqual(len(writes), 5)
@@ -120,22 +128,24 @@ class PublicTests(unittest.TestCase):
             self.assertLessEqual(len(Path(name).stem.encode()), 182)
             self.seed(name, record)
         self.assertEqual(self.writes(records), {})
-        for reason in ("duplicate filename", "truncated", "missing or empty", "characters replaced"):
+        for reason in ("duplicate filename", "truncated", "characters replaced"):
             self.assertIn(reason, self.stderr.getvalue())
-        for record in records:
+        for record in (records[0], records[1], records[2], records[4]):
             self.assertIn(repr(record.get("name")), self.stderr.getvalue())
 
-    def test_missing_urls_only_match_identical_objects(self):
+    def test_missing_urls_match_unique_name_with_recency(self):
         self.seed("same.json", {"name": "same", "value": 1})
         self.assertEqual(self.writes([{"name": "same", "value": 1}]), {})
-        self.assertEqual(list(self.writes([{"name": "same", "value": 2}])), ["same-2.json"])
+        self.assertEqual(self.writes([{"name": "same", "value": 2}]), {})
+        newer = {"name": "same", "value": 2, "lastModified": "2026-01-01"}
+        self.assertEqual(self.writes([newer]), {"same.json": newer})
 
-    def test_duplicate_repository_candidates_use_newest_and_do_not_delete(self):
+    def test_duplicate_pair_candidates_require_review(self):
         self.seed("a.json", project(date="2024-01-01"))
         self.seed("b.json", project(date="2025-01-01"))
-        self.assertEqual(self.writes([project(date="2024-06-01")]), {})
-        newest = project(date="2026-01-01")
-        self.assertEqual(self.writes([newest]), {"a.json": newest, "b.json": newest})
+        with self.assertRaisesRegex(ValueError, "Ambiguous"):
+            self.writes([project(date="2026-01-01")])
+        self.assertEqual(len(list(self.agency.glob("*.json"))), 2)
 
     def test_pagination_is_fully_consumed_and_duplicate_repositories_skipped(self):
         repos = [repository(str(i), project(str(i))) for i in range(101)]
@@ -175,25 +185,25 @@ class PublicTests(unittest.TestCase):
 
     def test_staged_index_is_reloaded_and_index_named_project_is_safe(self):
         old = project("old", "2026-01-01")
-        self.seed("old.json", old)
+        public.save_projects({"releases": [old]}, self.agency)
         raw = project("index", "2025-01-01", "https://github.com/org/index")
         factory = self.factory({"org": [repository("index", raw)]})
         public.process_agency("TEST", {"organizations": ["org"]}, self.output, "token", factory)
         factory.assert_called_once_with(agency="TEST", verison="1.0.0", token="token")
         saved = json.loads((self.output / "TEST-public-index.json").read_text())
-        self.assertEqual(json.loads((self.agency / "index.json").read_text()), saved["releases"][0])
-        self.assertEqual(json.loads((self.agency / "old.json").read_text()), old)
+        self.assertEqual(agency_record((self.agency / "index.json").read_text()), saved["releases"][0])
+        self.assertEqual(agency_record((self.agency / "old.json").read_text()), old)
         self.assertIn("Café 界", (self.agency / "index.json").read_text())
         self.assertFalse(list(self.output.glob(".public-index-*")))
 
     def test_public_snapshot_can_be_older_than_project(self):
         old = project(date="2026-01-01")
-        self.seed("example.json", old)
+        public.save_projects({"releases": [old]}, self.agency)
         factory = self.factory({"org": [repository("repo", project(date="2024-01-01"))]})
         public.process_agency("TEST", {"organizations": ["org"]}, self.output, None, factory)
         saved = json.loads((self.output / "TEST-public-index.json").read_text())
         self.assertEqual(saved["releases"][0]["date"]["lastModified"], "2024-01-01")
-        self.assertEqual(json.loads((self.agency / "example.json").read_text()), old)
+        self.assertEqual(agency_record((self.agency / "example.json").read_text()), old)
 
     def test_main_is_cwd_independent_and_continues_after_failure(self):
         sources = {"TEST": {"organizations": ["bad"]}, "NEXT": {"organizations": ["one", "two"]}}
@@ -241,7 +251,7 @@ class PublicTests(unittest.TestCase):
         self.assertEqual(saved["version"], "1.0.0")
         self.assertEqual(saved["releases"][0],
                          {"organization": "org", **project(date="2024-01-01")})
-        self.assertEqual(json.loads((self.agency / "example.json").read_text()),
+        self.assertEqual(agency_record((self.agency / "example.json").read_text()),
                          saved["releases"][0])
 
     def test_inventory_wrappers_are_skipped_for_all_organizations(self):
@@ -260,8 +270,8 @@ class PublicTests(unittest.TestCase):
                     folder = output / org
                     folder.mkdir(parents=True)
                     existing = folder / "Source-Code-Inventory.json"
-                    original = json.dumps(project("Source-Code-Inventory"))
-                    existing.write_text(original)
+                    public.save_projects({"releases": [project("Source-Code-Inventory")]}, folder)
+                    original = existing.read_text()
                     ordinary = project("ordinary", "2025-01-01", "https://github.com/org/ordinary")
                     factory = self.factory({org: [
                         repository("Source-Code-Inventory", wrapper),
@@ -284,7 +294,7 @@ class PublicTests(unittest.TestCase):
         index = json.loads((self.output / "GSA-public-index.json").read_text())
         self.assertEqual(index["releases"], [{"organization": "GSA", **r} for r in records])
         for record in index["releases"]:
-            self.assertEqual(json.loads((self.output / "GSA" / (record["name"] + ".json")).read_text()), record)
+            self.assertEqual(agency_record((self.output / "GSA" / (record["name"] + ".json")).read_text()), record)
 
     def test_symlinked_output_is_rejected(self):
         self.output.mkdir()

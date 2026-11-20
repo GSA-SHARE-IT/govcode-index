@@ -53,8 +53,22 @@ Consult `README.md` and `CONTRIBUTING.md` for additional repository context.
 
 - Filenames use project names. Stable IDs are a future option; assess ID coverage,
   uniqueness, missing-ID fallbacks, and migration effects before switching.
-- Matching files are overwritten on reruns. Obsolete project files are not
-  automatically deleted. Numeric collision suffixes depend on release order.
+- Match agency-scoped trimmed name plus normalized repository URL. Unique-name
+  fallback requires no conflicting URL. Ambiguities fail the agency before
+  project writes; only newer matches replace content. Retain filenames and IDs.
+- Collapse identical incoming name/URL records; select a uniquely newest
+  version only if every distinct version has a valid timestamp. Log selections;
+  skip conflicting newest ties or missing timestamps with warnings, retaining
+  existing records/IDs and allocating nothing for skipped new projects. Other
+  projects continue; duplicate skips alone do not fail the collector.
+- `govcode_id` is local immutable metadata. Keep the committed
+  `agency-indexes/.govcode/` registry with project outputs; never reset counters.
+  Existing unregistered files require the staged rebuild. Do not refresh real
+  data for code-only work. See `docs/PROJECT_IDENTITY.md`.
+- Consolidation preserves agency `identifier` or fills null; never derive it.
+  Missing/invalid/duplicate `govcode_id` values block consolidation.
+- Obsolete files are not automatically deleted. Initial filename suffixes
+  depend on release order; matched files retain their filenames.
 - Invalid JSON is rejected before writing the full index. Validation of the
   `releases` structure currently happens after saving that index; do not assume
   all validation failures preserve the previous index.

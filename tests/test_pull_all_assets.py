@@ -12,6 +12,14 @@ from scripts import pull_all_assets as runner
 from scripts import pull_index_assets as legacy
 from scripts import pull_public_assets as public
 
+def agency_record(text):
+    record = json.loads(text)
+    value = record.pop("govcode_id")
+    from scripts.govcode_ids import valid_id
+    assert valid_id(value), value
+    return record
+
+
 
 class RunnerTests(unittest.TestCase):
     def setUp(self):
@@ -83,11 +91,7 @@ class CrossSourceTests(unittest.TestCase):
         index = {"releases": [record]}
         if source == "legacy":
             return legacy.save_projects(index, self.directory)
-        writes = public.plan_project_writes(index, self.directory)
-        self.directory.mkdir(exist_ok=True)
-        for name, value in writes.items():
-            (self.directory / name).write_text(json.dumps(value), encoding="utf-8")
-        return len(writes)
+        return public.save_projects(index, self.directory)
 
     def test_both_source_orders_keep_newest_with_original_filename(self):
         for first, second in (("public", "legacy"), ("legacy", "public")):
@@ -97,13 +101,13 @@ class CrossSourceTests(unittest.TestCase):
                            "date": {"lastModified": "2024-01-01"}, "unknown": ["café", None]}
                 self.assertEqual(self.save(first, initial), 1)
                 for date in ("2023-01-01", "2024-01-01", "invalid", None):
-                    incoming = {**initial, "name": "renamed", "repositoryURL": "https://github.com/org/repo",
+                    incoming = {**initial, "name": "original", "repositoryURL": "https://github.com/org/repo",
                                 "date": {"lastModified": date}}
                     self.assertEqual(self.save(second, incoming), 0)
                 incoming["date"] = {"metadataLastUpdated": "2025-01-01"}
                 self.assertEqual(self.save(second, incoming), 1)
                 path = self.directory / "original.json"
-                self.assertEqual(json.loads(path.read_text()), incoming)
+                self.assertEqual(agency_record(path.read_text()), incoming)
                 self.assertEqual(list(self.directory.iterdir()), [path])
                 self.assertEqual(self.save(first, initial), 0)
 
@@ -113,14 +117,16 @@ class CrossSourceTests(unittest.TestCase):
         self.assertEqual(self.save("public", {**initial, "extra": "no timestamp"}), 0)
         newer = {**initial, "metadataLastUpdated": "2025-01-01"}
         self.assertEqual(self.save("public", newer), 1)
-        self.assertEqual(self.save("legacy", {**newer, "repositoryURL": "https://github.com/o/b"}), 1)
-        self.assertEqual({p.name for p in self.directory.iterdir()}, {"same.json", "same-2.json"})
+        with self.assertRaisesRegex(ValueError, "Ambiguous"):
+            self.save("legacy", {**newer, "repositoryURL": "https://github.com/o/b"})
+        self.assertEqual({p.name for p in self.directory.iterdir()}, {"same.json"})
 
-    def test_url_less_records_only_match_identical_objects(self):
+    def test_url_less_records_match_name_and_require_newer_timestamp(self):
         self.assertEqual(self.save("legacy", {"name": "same"}), 1)
         self.assertEqual(self.save("public", {"name": "same"}), 0)
-        self.assertEqual(self.save("legacy", {"name": "same", "extra": True}), 1)
-        self.assertEqual(len(list(self.directory.iterdir())), 2)
+        self.assertEqual(self.save("legacy", {"name": "same", "extra": True}), 0)
+        self.assertEqual(self.save("legacy", {"name": "same", "lastModified": "2026-01-01"}), 1)
+        self.assertEqual(len(list(self.directory.iterdir())), 1)
 
 
 if __name__ == "__main__":

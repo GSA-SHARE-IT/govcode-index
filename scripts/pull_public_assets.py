@@ -10,8 +10,10 @@ from types import SimpleNamespace
 
 try:
     from .project_assets import plan_project_writes, releases_from
+    from .govcode_ids import save_projects
 except ImportError:  # Direct execution: python3 scripts/pull_public_assets.py
     from project_assets import plan_project_writes, releases_from
+    from govcode_ids import save_projects
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -94,19 +96,10 @@ def process_agency(agency, configuration, output_dir, token, generator_factory):
         staged_index = staging / "index.json"
         generator.save_index(str(staged_index))
         index = json.loads(staged_index.read_text(encoding="utf-8"))
-        writes = plan_project_writes(index, agency_dir)
-        staged_projects = staging / "projects"
-        staged_projects.mkdir()
-        for name, record in writes.items():
-            (staged_projects / name).write_text(
-                json.dumps(record, indent=4, ensure_ascii=False) + "\n", encoding="utf-8"
-            )
-        agency_dir.mkdir(parents=True, exist_ok=True)
-        for name in writes:
-            (staged_projects / name).replace(agency_dir / name)
+        count = save_projects(index, agency_dir)
         destination = output_dir / f"{agency}-public-index.json"
         staged_index.replace(destination)
-    print(f"Saved {destination}; updated {len(writes)} project files", flush=True)
+    print(f"Saved {destination}; updated {count} project files", flush=True)
 
 
 def pull_public_assets():

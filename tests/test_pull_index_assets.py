@@ -11,6 +11,14 @@ from urllib.error import HTTPError, URLError
 
 from scripts import pull_index_assets as downloader
 
+def agency_record(text):
+    record = json.loads(text)
+    value = record.pop("govcode_id")
+    from scripts.govcode_ids import valid_id
+    assert valid_id(value), value
+    return record
+
+
 
 class ProjectTests(unittest.TestCase):
     def setUp(self):
@@ -28,13 +36,13 @@ class ProjectTests(unittest.TestCase):
                    "repositoryURL": "https://github.com/org/example", "lastModified": "2024-01-01"}
         self.assertEqual(self.save([project]), 1)
         path = self.directory / "example.json"
-        self.assertEqual(json.loads(path.read_text(encoding="utf-8")), project)
+        self.assertEqual(agency_record(path.read_text(encoding="utf-8")), project)
         project["description"] = "Updated"
         self.assertEqual(self.save([project]), 0)
         self.assertEqual(json.loads(path.read_text())["description"], "Café ®")
         project["lastModified"] = "2025-01-01"
         self.assertEqual(self.save([project]), 1)
-        self.assertEqual(json.loads(path.read_text()), project)
+        self.assertEqual(agency_record(path.read_text()), project)
         self.assertEqual(self.stderr.getvalue(), "")
 
     def test_unsafe_name_stays_inside_agency_directory_and_is_flagged(self):
@@ -42,7 +50,7 @@ class ProjectTests(unittest.TestCase):
         self.save([project])
         files = list(self.directory.glob("*.json"))
         self.assertEqual(len(files), 1)
-        self.assertEqual(json.loads(files[0].read_text()), project)
+        self.assertEqual(agency_record(files[0].read_text()), project)
         self.assertFalse(any(c in files[0].name for c in '/\\():?*|<>"\n '))
         warning = self.stderr.getvalue()
         self.assertIn("WARNING [AGENCY]", warning)
@@ -51,7 +59,7 @@ class ProjectTests(unittest.TestCase):
         self.assertIn("characters replaced or trimmed", warning)
 
     def test_collisions_do_not_drop_projects_including_case_and_suffix_collisions(self):
-        projects = [{"name": name, "id": i} for i, name in enumerate(
+        projects = [{"name": name, "id": i, "repositoryURL": f"https://example.test/{i}"} for i, name in enumerate(
             ["a/b", "a_b", "A_B", "a_b-2", "a/b"]
         )]
         self.save(projects)
@@ -66,14 +74,16 @@ class ProjectTests(unittest.TestCase):
         self.save([project])
         path, = self.directory.glob("*.json")
         self.assertLessEqual(len(path.stem.encode("utf-8")), 180)
-        self.assertEqual(json.loads(path.read_text()), project)
+        self.assertEqual(agency_record(path.read_text()), project)
         self.assertIn("truncated", self.stderr.getvalue())
 
-    def test_missing_empty_and_dot_only_names_have_nonempty_unique_filenames(self):
-        projects = [{}, {"name": ""}, {"name": None}, {"name": "..."}]
-        self.save(projects)
-        self.assertEqual(len(list(self.directory.glob("*.json"))), 4)
-        self.assertTrue(all(p.stem for p in self.directory.glob("*.json")))
+    def test_missing_names_require_review_and_filename_fallback_still_warns(self):
+        from scripts.project_assets import project_filename
+        used = set()
+        for project in ({}, {"name": ""}, {"name": None}):
+            with self.assertRaisesRegex(ValueError, "Missing project name"):
+                self.save([project])
+            self.assertTrue(project_filename(project, "AGENCY", used).endswith(".json"))
         self.assertIn("missing or empty project name", self.stderr.getvalue())
 
     def test_invalid_release_shapes_fail_before_writing(self):
@@ -121,7 +131,7 @@ class DownloadTests(unittest.TestCase):
         data = json.dumps(index, ensure_ascii=False).encode()
         self.assertEqual(self.run_download({"TEST": data}), 0)
         self.assertEqual((self.root / "agency-indexes/TEST-index.json").read_bytes(), data)
-        self.assertEqual(json.loads((self.root / "agency-indexes/TEST/sample.json").read_text()), project)
+        self.assertEqual(agency_record((self.root / "agency-indexes/TEST/sample.json").read_text()), project)
 
     def test_windows_1252_is_saved_as_utf8(self):
         index = {"releases": [{"name": "sample", "description": "An en dash – and ®"}]}
