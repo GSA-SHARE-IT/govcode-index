@@ -1,0 +1,31 @@
+{
+    "govcode_id": "2026-GSA-001024",
+    "name": "elasticsearch-ruby",
+    "description": "Ruby integrations for Elasticsearch",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/apache-2.0/",
+                "name": "apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/elasticsearch-ruby",
+    "homepageURL": "https://www.elastic.co/guide/en/elasticsearch/client/ruby-api/current/index.html",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Ruby",
+        "HTML",
+        "Dockerfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

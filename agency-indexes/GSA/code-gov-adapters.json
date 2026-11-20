@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-000523",
+    "name": "code-gov-adapters",
+    "description": "A collection of adapters for Code.gov",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "adapters",
+        "elasticsearch",
+        "code-gov",
+        "government"
+    ],
+    "repositoryURL": "https://github.com/GSA/code-gov-adapters",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "JavaScript"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

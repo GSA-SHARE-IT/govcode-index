@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000127",
+    "name": "USEPA/DIO",
+    "organization": "usepa",
+    "description": "Defense Input-Output model",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/DIO/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/DIO",
+    "downloadURL": "https://github.com/USEPA/DIO/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/DIO/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/DIO.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2022-08-02T14:19:23Z",
+        "lastModified": "2025-11-18T13:25:58Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.207Z"
+    }
+}

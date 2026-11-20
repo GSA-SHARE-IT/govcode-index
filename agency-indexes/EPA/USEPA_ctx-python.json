@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000446",
+    "name": "USEPA/ctx-python",
+    "organization": "usepa",
+    "description": "Python wrapper for U.S. EPA's Center for Computational Toxicology and Exposure (CTE) APIs.",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/ctx-python/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/ctx-python",
+    "downloadURL": "https://github.com/USEPA/ctx-python/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/ctx-python/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/ctx-python.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2024-05-08T13:46:20Z",
+        "lastModified": "2026-07-20T15:44:51Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.629Z"
+    }
+}

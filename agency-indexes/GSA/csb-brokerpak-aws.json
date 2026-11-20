@@ -1,0 +1,32 @@
+{
+    "govcode_id": "2026-GSA-000850",
+    "name": "csb-brokerpak-aws",
+    "description": "ARCHIVED: We prototyped the SES service based on this existing AWS brokerpak, but decided to implement it standalone. See datagov-brokerpak-smtp.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/apache-2.0/",
+                "name": "apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/csb-brokerpak-aws",
+    "homepageURL": "https://github.com/GSA/datagov-brokerpak-smtp",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Makefile",
+        "Shell",
+        "Java",
+        "HCL",
+        "JavaScript"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

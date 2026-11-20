@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-GSA-000139",
+    "name": "Sitelink Generator",
+    "description": "For generating links to additional relevant content within a website, to be displayed next to a given item on a DigitalGov Search results page",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA",
+        "DigitalGovSearch",
+        "search",
+        "website",
+        "links"
+    ],
+    "repositoryURL": "https://github.com/GSA/sitelink_generator",
+    "contact": {
+        "email": "dawn.mccleskey@gsa.gov"
+    },
+    "languages": [
+        "Ruby"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": null,
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 0
+}

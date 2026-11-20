@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000541",
+    "name": "USEPA/invitrotkstats_dataproc",
+    "organization": "usepa",
+    "description": "Data processing scripts for manuscript datasets using the invitroTKstats R package.",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/invitrotkstats_dataproc/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/invitrotkstats_dataproc",
+    "downloadURL": "https://github.com/USEPA/invitrotkstats_dataproc/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/invitrotkstats_dataproc/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/invitrotkstats_dataproc.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2025-05-06T13:43:25Z",
+        "lastModified": "2026-04-08T19:25:13Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.506Z"
+    }
+}

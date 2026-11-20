@@ -1,0 +1,31 @@
+{
+    "govcode_id": "2026-GSA-000205",
+    "name": "pysaml2",
+    "description": "Python implementation of SAML2",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/apache-2.0/",
+                "name": "apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/pysaml2",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python",
+        "Shell",
+        "Mako",
+        "CSS",
+        "Lua"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

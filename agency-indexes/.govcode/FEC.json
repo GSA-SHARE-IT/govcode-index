@@ -1,0 +1,42 @@
+{
+    "version": 1,
+    "next_number": 8,
+    "records": {
+        "FEC.json": {
+            "name": "FEC",
+            "repositoryURL": "https://github.com/fecgov/FEC",
+            "govcode_id": "2026-FEC-000001"
+        },
+        "openFEC.json": {
+            "name": "openFEC",
+            "repositoryURL": "https://github.com/fecgov/openFEC",
+            "govcode_id": "2026-FEC-000002"
+        },
+        "fec-cms.json": {
+            "name": "fec-cms",
+            "repositoryURL": "https://github.com/fecgov/fec-cms",
+            "govcode_id": "2026-FEC-000003"
+        },
+        "fec-proxy.json": {
+            "name": "fec-proxy",
+            "repositoryURL": "https://github.com/fecgov/fec-proxy",
+            "govcode_id": "2026-FEC-000004"
+        },
+        "fec-eregs.json": {
+            "name": "fec-eregs",
+            "repositoryURL": "https://github.com/fecgov/fec-eregs",
+            "govcode_id": "2026-FEC-000005"
+        },
+        "fec-pattern-library.json": {
+            "name": "fec-pattern-library",
+            "repositoryURL": "https://github.com/fecgov/fec-pattern-library",
+            "govcode_id": "2026-FEC-000006"
+        },
+        "fec-infrastructure.json": {
+            "name": "fec-infrastructure",
+            "repositoryURL": "https://github.com/fecgov/fec-infrastructure",
+            "govcode_id": "2026-FEC-000007"
+        }
+    },
+    "pending": {}
+}

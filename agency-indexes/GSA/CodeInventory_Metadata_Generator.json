@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-000271",
+    "name": "CodeInventory Metadata Generator",
+    "description": "Generates project metadata files that can be used to build an organization-wide code inventory.",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "open-source",
+        "code.gov"
+    ],
+    "repositoryURL": "https://github.com/GSA/codeinventory-metadata-generator",
+    "homepageURL": "https://gsa.github.io/codeinventory-metadata-generator/",
+    "contact": {
+        "email": "cto@gsa.gov"
+    },
+    "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": null,
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

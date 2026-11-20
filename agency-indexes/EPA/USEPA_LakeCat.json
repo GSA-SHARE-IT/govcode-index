@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000232",
+    "name": "USEPA/LakeCat",
+    "organization": "usepa",
+    "description": "Landscape summaries of natural and anthropogenic landscape features for ~378,088 lakes and their associated catchments across the conterminous US.",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/LakeCat/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/LakeCat",
+    "downloadURL": "https://github.com/USEPA/LakeCat/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/LakeCat/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/LakeCat.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2016-10-13T20:57:53Z",
+        "lastModified": "2026-04-27T23:25:20Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.093Z"
+    }
+}

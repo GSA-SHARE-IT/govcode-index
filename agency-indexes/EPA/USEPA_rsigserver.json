@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000631",
+    "name": "USEPA/rsigserver",
+    "organization": "usepa",
+    "description": "",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/rsigserver/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/rsigserver",
+    "downloadURL": "https://github.com/USEPA/rsigserver/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/rsigserver/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/rsigserver.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2025-04-29T19:48:49Z",
+        "lastModified": "2026-10-29T18:59:32Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.521Z"
+    }
+}

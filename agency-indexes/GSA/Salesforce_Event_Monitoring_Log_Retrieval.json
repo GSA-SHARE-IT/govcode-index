@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-000278",
+    "name": "Salesforce Event Monitoring Log Retrieval",
+    "description": "Python-based utility to fetch Salesforce Event Monitoring Logs and store them locally for consumption by log monitoring and analytics software.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "https://creativecommons.org/publicdomain/zero/1.0/",
+                "name": "CC0 1.0 Universal"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "salesforce-event-monitoring",
+        "python",
+        "salesforce"
+    ],
+    "repositoryURL": "https://github.com/GSA/SF-Event-Monitoring-Log-Retrieval",
+    "contact": {
+        "email": "mark.vogelgesang@gsa.gov"
+    },
+    "languages": [
+        "Python",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA IT"
+}

@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000334",
+    "name": "USEPA/SW_Model",
+    "organization": "usepa",
+    "description": "New, organized version of water_temp_model",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/SW_Model/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/SW_Model",
+    "downloadURL": "https://github.com/USEPA/SW_Model/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/SW_Model/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/SW_Model.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2023-03-08T13:56:45Z",
+        "lastModified": "2026-03-03T20:17:04Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.221Z"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-000773",
+    "name": "Controlled-Document-Tracker",
+    "description": "Salesforce application to help manage controlled correspondence across a federal agency",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "salesforce",
+        "salesforce-lightning"
+    ],
+    "repositoryURL": "https://github.com/GSA/Controlled-Document-Tracker",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Apex",
+        "HTML",
+        "JavaScript"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

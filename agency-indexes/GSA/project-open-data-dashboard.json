@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-GSA-000070",
+    "name": "project-open-data-dashboard",
+    "description": "Project Open Data Dashboard",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/project-open-data-dashboard",
+    "homepageURL": "http://labs.data.gov/dashboard/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Shell",
+        "Dockerfile",
+        "Makefile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

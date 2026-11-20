@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000056",
+    "name": "USEPA/CRACMM",
+    "organization": "usepa",
+    "description": "The Community Regional Atmospheric Chemistry Multiphase Mechanism (CRACMM) is a description of atmospheric NOx-VOC-ozone-aerosol chemistry and associated metadata.",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/CRACMM/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/CRACMM",
+    "downloadURL": "https://github.com/USEPA/CRACMM/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/CRACMM/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/CRACMM.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2022-08-04T14:01:59Z",
+        "lastModified": "2026-11-04T19:08:55Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.208Z"
+    }
+}

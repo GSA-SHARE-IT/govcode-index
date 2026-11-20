@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-001243",
+    "name": "datagov-harvest-ui",
+    "description": "Front-end view logic for Data.gov Harvest Sources",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/datagov-harvest-ui",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "JavaScript",
+        "Svelte"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

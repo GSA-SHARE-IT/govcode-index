@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000254",
+    "name": "USEPA/NLFA",
+    "organization": "usepa",
+    "description": "National Listing of Fish Advisories",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/NLFA/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/NLFA",
+    "downloadURL": "https://github.com/USEPA/NLFA/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/NLFA/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/NLFA.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2025-05-20T16:19:24Z",
+        "lastModified": "2025-05-23T19:20:28Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.660Z"
+    }
+}

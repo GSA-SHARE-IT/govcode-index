@@ -1,0 +1,24 @@
+{
+    "govcode_id": "2026-GSA-000750",
+    "name": "datagov-tf-eks-helm",
+    "description": "Infrastructure-as-Code for spinning up EKS and deploying Helm charts via Terraform. Based on https://github.com/abdennour/eks-training",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/datagov-tf-eks-helm",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HCL",
+        "Smarty",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

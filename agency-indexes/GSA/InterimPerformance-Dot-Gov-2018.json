@@ -1,0 +1,36 @@
+{
+    "govcode_id": "2026-GSA-000419",
+    "name": "InterimPerformance-Dot-Gov-2018",
+    "description": "Performance.gov - Helping the Nation track the U.S. government's goals, progress, and results",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "performance",
+        "data",
+        "federal",
+        "government"
+    ],
+    "repositoryURL": "https://github.com/GSA/InterimPerformance-Dot-Gov-2018",
+    "homepageURL": "https://performance.gov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "Ruby",
+        "JavaScript",
+        "SCSS",
+        "Dockerfile",
+        "CSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

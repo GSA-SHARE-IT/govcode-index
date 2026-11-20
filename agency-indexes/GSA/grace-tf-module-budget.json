@@ -1,0 +1,27 @@
+{
+    "govcode_id": "2026-GSA-000501",
+    "name": "grace-tf-module-budget",
+    "description": "Terraform module for AWS budgets that is used in GRACE",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/grace-tf-module-budget",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,25 @@
+{
+    "govcode_id": "2026-GSA-000283",
+    "name": "ansible-role-repo-webtatic",
+    "description": "Ansible role - Webtatic repository for RHEL/CentOS 6.x.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ansible-role-repo-webtatic",
+    "homepageURL": "https://galaxy.ansible.com/list#/roles/5484",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

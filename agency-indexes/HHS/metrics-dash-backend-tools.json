@@ -1,0 +1,91 @@
+{
+    "govcode_id": "2026-HHS-000649",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "metrics-dash-backend-tools",
+    "version": "",
+    "description": "A backend Python module for use in the DSACMS metrics dashboard.",
+    "longDescription": "This project contains a Python module for use in the DSACMS metrics dashboard backend. The module contains a set of functionality to support static metrics dashboards with data populated through both REST and graphql apis.",
+    "status": "Production",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/DSACMS/metrics-dash-backend-tools/blob/main/LICENSE"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ]
+    },
+    "repositoryURL": "https://github.com/DSACMS/metrics-dash-backend-tools",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "homepageURL": "",
+    "downloadURL": "",
+    "disclaimerURL": "",
+    "disclaimerText": "",
+    "vcs": "git",
+    "laborHours": 3943,
+    "reuseFrequency": {
+        "forks": 1,
+        "clones": 0
+    },
+    "platforms": [
+        "windows",
+        "mac",
+        "linux"
+    ],
+    "categories": [
+        "application-development"
+    ],
+    "softwareType": "standalone/backend",
+    "languages": [
+        "Python"
+    ],
+    "maintenance": "internal",
+    "contractNumber": [
+        "0"
+    ],
+    "SBOM": "https://github.com/DSACMS/metrics-dash-backend-tools/network/dependencies",
+    "relatedCode": [],
+    "reusedCode": [],
+    "partners": [],
+    "date": {
+        "created": "2024-12-13T18:30:09Z",
+        "lastModified": "2025-11-21T15:59:50Z",
+        "metadataLastUpdated": "2025-12-11T18:46:02.410Z"
+    },
+    "tags": [
+        "package",
+        "metrics",
+        "backend",
+        "pypi",
+        "multiplatform",
+        "CHAOSS",
+        "Augur",
+        "featured"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Program Office"
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/metrics-dash-backend-tools/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "package",
+    "userInput": false,
+    "fismaLevel": "low",
+    "group": "HHS/CMS/OA/DSAC",
+    "projects": [
+        "Metrics",
+        "Metrics_Frontend"
+    ],
+    "systems": [],
+    "subsetInHealthcare": [
+        "operational"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 3
+}

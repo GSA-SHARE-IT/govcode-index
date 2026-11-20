@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-001144",
+    "name": "datagov-harvesting-logic",
+    "description": "Main repo for Datagov Harvester 2.0. Contains the code for Flask API and Harvesting Logic",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/datagov-harvesting-logic",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python",
+        "Makefile",
+        "Shell",
+        "Dockerfile",
+        "HTML",
+        "Mako",
+        "CSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-GSA-000502",
+    "name": "grace-tf-module-member-account",
+    "description": "Terraform module for AWS subaccounts that is used in GRACE. This module is a supporting module that is required for [grace-core](https://github.com/GSA/grace-core) but may be used independently by other projects if required.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "gsa-it",
+        "devsecops",
+        "grace"
+    ],
+    "repositoryURL": "https://github.com/GSA/grace-tf-module-member-account",
+    "contact": {
+        "email": "devsecops-core@gsa.gov"
+    },
+    "languages": [
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": null,
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

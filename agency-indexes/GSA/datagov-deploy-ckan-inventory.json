@@ -1,0 +1,24 @@
+{
+    "govcode_id": "2026-GSA-000460",
+    "name": "datagov-deploy-ckan-inventory",
+    "description": "Subsidiary repository for items related solely to the CKAN Inventory instance.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/datagov-deploy-ckan-inventory",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

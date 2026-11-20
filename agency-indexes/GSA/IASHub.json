@@ -1,0 +1,32 @@
+{
+    "govcode_id": "2026-GSA-000223",
+    "name": "IASHub",
+    "description": "A Jekyll site for the GSA IT IAS team to publish documentation and process guides.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/IASHub",
+    "homepageURL": "https://iashub.apps.cloud.gov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

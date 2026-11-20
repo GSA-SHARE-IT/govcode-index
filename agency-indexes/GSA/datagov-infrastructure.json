@@ -1,0 +1,32 @@
+{
+    "govcode_id": "2026-GSA-000296",
+    "name": "datagov-infrastructure",
+    "description": "Data.gov Infrastructure as Code",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/datagov-infrastructure",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Groovy",
+        "Python",
+        "HCL",
+        "Makefile",
+        "Dockerfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

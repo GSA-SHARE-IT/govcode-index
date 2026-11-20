@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000179",
+    "name": "ScopeID Script",
+    "description": "A script for formatting the output of the Government URLs repo for submission to the Bing web index",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA",
+        "DigitalGovSearch",
+        "search",
+        "Bing",
+        "domains"
+    ],
+    "repositoryURL": "https://github.com/GSA/scopeid-script",
+    "contact": {
+        "email": "search@support.digitalgov.gov"
+    },
+    "languages": [
+        "Ruby",
+        "JavaScript",
+        "CoffeeScript",
+        "CSS",
+        "HTML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": null,
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 0
+}

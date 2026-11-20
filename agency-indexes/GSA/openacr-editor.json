@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-GSA-000976",
+    "name": "openacr-editor",
+    "description": "With this tool, people can generate Accessibility Conformance Report in the OpenACR format.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "accessibility",
+        "vpat",
+        "a11y",
+        "compliance",
+        "reporting-tool"
+    ],
+    "repositoryURL": "https://github.com/GSA/openacr-editor",
+    "homepageURL": "https://gsa.github.io/openacr-editor/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "JavaScript",
+        "Svelte",
+        "HTML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-GSA-000241",
+    "name": "cto-website",
+    "description": "Tech at GSA website",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "federalist",
+        "javascript",
+        "css",
+        "hugo",
+        "sass"
+    ],
+    "repositoryURL": "https://github.com/GSA/cto-website",
+    "homepageURL": "https://tech.gsa.gov/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "JavaScript",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

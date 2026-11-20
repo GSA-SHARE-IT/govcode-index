@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-000435",
+    "name": "code-gov-stats",
+    "description": "Extract some stats for Code.gov using the Github API and Cloc",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "government",
+        "government-data",
+        "stats",
+        "code-gov"
+    ],
+    "repositoryURL": "https://github.com/GSA/code-gov-stats",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "JavaScript"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

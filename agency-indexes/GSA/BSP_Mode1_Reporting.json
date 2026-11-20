@@ -1,0 +1,32 @@
+{
+    "govcode_id": "2026-GSA-000434",
+    "name": "BSP_Mode1_Reporting",
+    "description": "Lambda functions for creating and Emailing reports for BSP Mode1 AWS Accounts",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "gsa-it"
+    ],
+    "repositoryURL": "https://github.com/GSA/BSP_Mode1_Reporting",
+    "contact": {
+        "email": "cloudmgmt@gsa.gov"
+    },
+    "languages": [
+        "Python",
+        "HCL",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": null,
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 0
+}

@@ -1,0 +1,26 @@
+{
+    "govcode_id": "2026-GSA-001010",
+    "name": "odp-ami-hardening-pipeline-lockdown",
+    "description": "Same pipeline as odp-jenkins-hardening-pipeline but with ansible lockdown roles instead",
+    "permissions": {
+        "licenses": null,
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/odp-ami-hardening-pipeline-lockdown",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile",
+        "Shell",
+        "HCL",
+        "Jinja",
+        "YAML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

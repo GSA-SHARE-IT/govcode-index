@@ -1,0 +1,27 @@
+{
+    "govcode_id": "2026-GSA-000506",
+    "name": "data-strategy-classification",
+    "description": "A notebook that uses word embeddings and linear algebra to classify comments on OMB's Federal Data Strategy.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/data-strategy-classification",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Jupyter Notebook"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

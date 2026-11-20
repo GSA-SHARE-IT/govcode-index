@@ -1,0 +1,22 @@
+{
+    "govcode_id": "2026-GSA-000786",
+    "name": "sectools-terraform-jenkins",
+    "description": "Terraform deployment of Jenkins master",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/sectools-terraform-jenkins",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-000574",
+    "name": "sf-field-history",
+    "description": "Python-based utility to fetch Field History data from Salesforce objects.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "salesforce",
+        "field-history",
+        "data-backup"
+    ],
+    "repositoryURL": "https://github.com/GSA/sf-field-history",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

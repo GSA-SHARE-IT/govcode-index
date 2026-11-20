@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000362",
+    "name": "plainlanguage.gov",
+    "description": "A resource to help federal employees write in plain language and comply with the Plain Writing Act of 2010",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "government",
+        "civic-tech",
+        "policy"
+    ],
+    "repositoryURL": "https://github.com/GSA/plainlanguage.gov",
+    "homepageURL": "https://www.plainlanguage.gov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "HTML",
+        "JavaScript",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

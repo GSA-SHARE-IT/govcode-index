@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000461",
+    "name": "USEPA/dynamic-gwd-downscaler",
+    "organization": "usepa",
+    "description": "Downscale dynamic coarse-resolution groundwater depth simulations and observations to predict fine-resolution stream and wetland dynamics",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/dynamic-gwd-downscaler/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/dynamic-gwd-downscaler",
+    "downloadURL": "https://github.com/USEPA/dynamic-gwd-downscaler/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/dynamic-gwd-downscaler/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/dynamic-gwd-downscaler.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2026-04-22T17:14:21Z",
+        "lastModified": "2026-06-09T16:46:28Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.663Z"
+    }
+}

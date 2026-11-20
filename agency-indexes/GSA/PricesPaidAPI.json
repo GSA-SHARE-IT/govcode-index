@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-000093",
+    "name": "PricesPaidAPI",
+    "description": "Prices Paid Portal API",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/unlicense/",
+                "name": "unlicense"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/PricesPaidAPI",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python",
+        "Perl",
+        "Shell",
+        "JavaScript"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

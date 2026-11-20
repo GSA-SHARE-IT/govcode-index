@@ -1,0 +1,23 @@
+{
+    "govcode_id": "2026-GSA-000215",
+    "name": "datagov-cf-cron",
+    "description": "Run cron jobs in a Cloud Foundry app.",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/datagov-cf-cron",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "JavaScript",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

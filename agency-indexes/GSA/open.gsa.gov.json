@@ -1,0 +1,36 @@
+{
+    "govcode_id": "2026-GSA-000118",
+    "name": "open.gsa.gov",
+    "description": "A developer hub to share GSA data, APIs, and code.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "data",
+        "api",
+        "developer"
+    ],
+    "repositoryURL": "https://github.com/GSA/open.gsa.gov",
+    "contact": {
+        "email": "cto@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "https://github.com/GSA/open.gsa.gov/blob/gh-pages/TERMS.md",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

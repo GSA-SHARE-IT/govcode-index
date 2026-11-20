@@ -1,0 +1,71 @@
+{
+    "govcode_id": "2026-HHS-000685",
+    "organization": "United States Department of Health and Human Services",
+    "name": "NASA-NOIS2-192-Frontend",
+    "description": "AI-powered regulatory support tool for Lyme disease diagnostics.",
+    "longDescription": "A longer description of the project.",
+    "status": "Production",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "LICENSE",
+                "name": "CC0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "repositoryURL": "https://github.com/HHS/nasa-nois2-192-frontend",
+    "repositoryHost": "github.com/HHS",
+    "repositoryVisibility": "public",
+    "vcs": "git",
+    "laborHours": 764.07,
+    "reuseFrequency": {
+        "forks": 0
+    },
+    "platforms": [
+        "web"
+    ],
+    "categories": [
+        "healthcare"
+    ],
+    "softwareType": "standalone/web",
+    "languages": [
+        "JavaScript"
+    ],
+    "maintenance": "internal",
+    "contractNumber": "0",
+    "date": {
+        "created": "2025-09-10T15:38:28-06:00",
+        "lastModified": "2025-09-10T22:22:24+0000",
+        "metadataLastUpdated": "2025-09-10T22:22:24+0000"
+    },
+    "tags": [
+        "data-collection",
+        "codejson"
+    ],
+    "contact": {
+        "email": "cdo@hhs.gov",
+        "name": "Chief Data Officer (CDO) at Health and Human Services"
+    },
+    "feedbackMechanisms": [
+        "https://github.com/HHS/nasa-nois2-192-frontend/issues"
+    ],
+    "localisation": "true",
+    "repositoryType": "Website",
+    "userInput": "Yes",
+    "fismaLevel": "Low",
+    "group": "HHS",
+    "projects": [
+        "https://github.com/HHS/NASA-NOIS2-192-Backend",
+        "https://github.com/HHS/NASA-NOIS2-192-AI-Services"
+    ],
+    "systems": [],
+    "upstream": [],
+    "subsetInHealthcare": [
+        "Operational"
+    ],
+    "userType": [
+        "Government"
+    ],
+    "maturityModelTier": 1
+}

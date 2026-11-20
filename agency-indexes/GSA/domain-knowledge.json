@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-000313",
+    "name": "domain-knowledge",
+    "description": "Project to support discovery, measurement, and analysis of the federal internet presence.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/domain-knowledge",
+    "homepageURL": "https://federalist-proxy.app.cloud.gov/site/gsa/domain-knowledge/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "CSS",
+        "HTML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

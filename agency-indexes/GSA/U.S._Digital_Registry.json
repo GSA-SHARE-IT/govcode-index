@@ -1,0 +1,38 @@
+{
+    "govcode_id": "2026-GSA-000020",
+    "name": "U.S. Digital Registry",
+    "description": "Application that allows for record keeping of US government social media accounts and mobile applications",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "gsa",
+        "socialmedia",
+        "mobileapps"
+    ],
+    "repositoryURL": "https://github.com/GSA/us-digital-registry",
+    "homepageURL": "https://usdigitalregistry.digitalgov.gov",
+    "contact": {
+        "email": "justin.herman@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Shell",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": null,
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

@@ -1,0 +1,80 @@
+{
+    "govcode_id": "2026-HHS-000659",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "opportunities",
+    "version": "",
+    "description": "Resource for Public Service Internship and Fellowship Opportunities",
+    "longDescription": "This page shares currently active opportunities for recurring fellowship and internships, related to data science or technology, for work in the U.S. Department of Health and Human Services (HHS). The people of HHS are essential to its vision of making data meaningfully usable and actively used across the Department. Fellowships and internships provide a unique opportunity to learn about government work and to contribute to HHS’ mission of enhancing the health and well-being of all Americans.",
+    "status": "Production",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/DSACMS/opportunities/blob/main/LICENSE.md"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ],
+        "exemptionText": ""
+    },
+    "repositoryURL": "https://github.com/DSACMS/opportunities",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "homepageURL": "",
+    "downloadURL": "",
+    "disclaimerURL": "",
+    "disclaimerText": "",
+    "vcs": "git",
+    "laborHours": 1896,
+    "reuseFrequency": {
+        "forks": 0,
+        "clones": 0
+    },
+    "platforms": [
+        "web"
+    ],
+    "categories": [
+        "educational-content",
+        "talent-management"
+    ],
+    "softwareType": "standalone/web",
+    "languages": [
+        "HTML",
+        "CSS"
+    ],
+    "maintenance": "internal",
+    "contractNumber": [],
+    "SBOM": "https://github.com/DSACMS/opportunities/network/dependencies",
+    "relatedCode": [],
+    "reusedCode": [],
+    "partners": [],
+    "date": {
+        "created": "2023-06-29T15:55:54Z",
+        "lastModified": "2025-11-07T15:51:14Z",
+        "metadataLastUpdated": "2025-11-07T15:53:05.886Z"
+    },
+    "tags": [
+        "repository"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS/OA/DSAC"
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/opportunities/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "website",
+    "userInput": false,
+    "fismaLevel": "low",
+    "group": "CMS/OA/DSAC",
+    "projects": [],
+    "systems": [],
+    "subsetInHealthcare": [
+        "operational"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 2
+}

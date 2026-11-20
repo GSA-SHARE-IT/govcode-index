@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000402",
+    "name": "USEPA/cTSI",
+    "organization": "usepa",
+    "description": "POLR Model to classify estuarine sites according to water quality variables",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/cTSI/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/cTSI",
+    "downloadURL": "https://github.com/USEPA/cTSI/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/cTSI/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/cTSI.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2021-05-25T18:03:48Z",
+        "lastModified": "2023-12-04T18:08:42Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.182Z"
+    }
+}

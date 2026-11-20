@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000200",
+    "name": "USEPA/GLharmonizeR",
+    "organization": "usepa",
+    "description": "An R package to fetch and harmonize federal Great Lakes water quality data",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/GLharmonizeR/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/GLharmonizeR",
+    "downloadURL": "https://github.com/USEPA/GLharmonizeR/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/GLharmonizeR/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/GLharmonizeR.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2023-04-04T15:18:39Z",
+        "lastModified": "2025-08-25T16:56:36Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.224Z"
+    }
+}

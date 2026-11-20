@@ -1,0 +1,41 @@
+{
+    "govcode_id": "2026-GSA-000403",
+    "name": "piv-conformance",
+    "description": "Tool to verify conformance to the PIV data model per most recent releases of FIPS 201 and associated publications",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "piv",
+        "iso",
+        "identification-cards",
+        "piv-cards",
+        "integrated-circuit-cards",
+        "algorithm",
+        "sp800-73-4",
+        "fips201-2",
+        "sp800-76-2",
+        "sp800-78-4"
+    ],
+    "repositoryURL": "https://github.com/GSA/piv-conformance",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Java",
+        "Shell",
+        "Batchfile",
+        "HTML",
+        "JavaScript",
+        "CSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

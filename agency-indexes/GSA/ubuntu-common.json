@@ -1,0 +1,19 @@
+{
+    "govcode_id": "2026-GSA-000480",
+    "name": "ubuntu-common",
+    "description": "Creates and Ansible role and installs necessary common Ubuntu software.",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ubuntu-common",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,23 @@
+{
+    "govcode_id": "2026-GSA-001012",
+    "name": "MD-fleet-asset-level-data-cleanup",
+    "description": "Clean up the \"2022-0321-export-vld-vehicles\" dataset especially standardizing the values of the vehModel column",
+    "permissions": {
+        "licenses": null,
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/MD-fleet-asset-level-data-cleanup",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Jupyter Notebook",
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

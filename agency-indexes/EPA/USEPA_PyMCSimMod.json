@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000294",
+    "name": "USEPA/PyMCSimMod",
+    "organization": "usepa",
+    "description": "A Python port of USEPA/MCSimMod to run ODE's defined in the MCSim model specification language",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/PyMCSimMod/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/PyMCSimMod",
+    "downloadURL": "https://github.com/USEPA/PyMCSimMod/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/PyMCSimMod/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/PyMCSimMod.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2025-03-07T20:21:50Z",
+        "lastModified": "2026-07-13T11:55:59Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.515Z"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-GSA-000508",
+    "name": "inventory-app",
+    "description": "Docker image for ckan app powering inventory.data.gov",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/inventory-app",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile",
+        "Makefile",
+        "Shell",
+        "Python",
+        "HTML",
+        "PLpgSQL",
+        "JavaScript",
+        "CSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

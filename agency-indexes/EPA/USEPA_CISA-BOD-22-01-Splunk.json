@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000047",
+    "name": "USEPA/CISA-BOD-22-01-Splunk",
+    "organization": "usepa",
+    "description": "Contains a Splunk dashboard for viewing Known Exploitable Vulnerability (KEV) data and a Splunk report to generate the CISA BOD 22-01 reporting file.",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/CISA-BOD-22-01-Splunk/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/CISA-BOD-22-01-Splunk",
+    "downloadURL": "https://github.com/USEPA/CISA-BOD-22-01-Splunk/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/CISA-BOD-22-01-Splunk/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/CISA-BOD-22-01-Splunk.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2022-07-07T15:00:47Z",
+        "lastModified": "2022-12-31T22:54:33Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.205Z"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-000936",
+    "name": "GSA/iaas-transit-gateway",
+    "description": "CISS IaaS Transit Gateway terraform module",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "ciss-iaas-tgw",
+        "ciss-iaas",
+        "ciss",
+        "devsecops"
+    ],
+    "repositoryURL": "https://github.com/GSA/iaas-transit-gateway",
+    "contact": {
+        "email": "grace-staff@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Makefile",
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "cc0-1.0",
+    "openSourceProject": 0,
+    "governmentWideReuseProject": 0
+}

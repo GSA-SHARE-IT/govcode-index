@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-000544",
+    "name": "code-gov-harvester",
+    "description": "Stand alone metadata harvester for Code.gov",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "code-gov"
+    ],
+    "repositoryURL": "https://github.com/GSA/code-gov-harvester",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "JavaScript",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

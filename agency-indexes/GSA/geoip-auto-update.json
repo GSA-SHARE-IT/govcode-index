@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-000579",
+    "name": "geoip-auto-update",
+    "description": "GSA maintained fork of geoip-auto-update",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA",
+        "Search.gov",
+        "search",
+        "chef"
+    ],
+    "repositoryURL": "https://github.com/GSA/geoip-auto-update",
+    "contact": {
+        "email": "search@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "Shell",
+        "HTML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": null,
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 0
+}

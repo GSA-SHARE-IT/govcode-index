@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-001083",
+    "name": "hbdr2",
+    "description": "hbdr2",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/lgpl-3.0/",
+                "name": "lgpl-3.0"
+            }
+        ],
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/hbdr2",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile",
+        "JavaScript",
+        "Smarty",
+        "HTML",
+        "SCSS",
+        "TypeScript",
+        "CSS",
+        "Shell",
+        "Roff"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

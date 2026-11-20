@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000250",
+    "name": "USEPA/NARS_multimetric_code",
+    "organization": "usepa",
+    "description": "This is a set of legacy code used to generate documentation of    various functions used to screen candidate metrics and run best subsets code to evaluate combinations of metrics for use in a multimetric index.",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/NARS_multimetric_code/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/NARS_multimetric_code",
+    "downloadURL": "https://github.com/USEPA/NARS_multimetric_code/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/NARS_multimetric_code/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/NARS_multimetric_code.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2025-03-05T15:32:24Z",
+        "lastModified": "2025-05-06T17:06:18Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.502Z"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000654",
+    "name": "USEPA/stateior",
+    "organization": "usepa",
+    "description": "Prepares US state two-region Make and Use tables",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/stateior/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/stateior",
+    "downloadURL": "https://github.com/USEPA/stateior/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/stateior/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/stateior.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2020-07-13T17:49:13Z",
+        "lastModified": "2025-04-23T14:54:15Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.156Z"
+    }
+}

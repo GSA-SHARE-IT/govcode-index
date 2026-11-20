@@ -1,0 +1,543 @@
+{
+  "agency": "GSA",
+  "version": "1.0.0",
+  "measurementType": {
+    "method": "projects"
+  },
+  "releases": [
+    {
+      "organization": "Centers for Medicare & Medicaid Services",
+      "name": "automated-codejson-generator",
+      "version": "2.0.0",
+      "description": "Tooling that allows for code.json creation through automation",
+      "longDescription": "A GitHub Action that generates and maintains code.json metadata files for federal open source repositories. It reads repository data such as languages, labor hours, dependencies and dates, merges it into the existing file, can draft missing fields from the README with a local AI model, and validates code.json on pull requests.",
+      "status": "Production",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "CC0-1.0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        ],
+        "usageType": [
+          "openSource"
+        ],
+        "exemptionText": ""
+      },
+      "repositoryURL": "https://github.com/DSACMS/automated-codejson-generator",
+      "repositoryHost": "github.com/DSACMS",
+      "repositoryVisibility": "public",
+      "homepageURL": "",
+      "downloadURL": "",
+      "disclaimerURL": "",
+      "disclaimerText": "",
+      "vcs": "git",
+      "laborHours": 6482,
+      "reuseFrequency": {
+        "forks": 7,
+        "clones": 0
+      },
+      "platforms": [],
+      "categories": [],
+      "softwareType": "standalone/other",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "maintenance": "internal",
+      "contractNumber": [],
+      "SBOM": "https://github.com/DSACMS/automated-codejson-generator/network/dependencies",
+      "relatedCode": [],
+      "reusedCode": [
+        {
+          "name": "codejson-core (CMS Digital Service)",
+          "URL": "https://github.com/dsacms/codejson-core"
+        }
+      ],
+      "partners": [],
+      "date": {
+        "created": "2025-02-07T16:29:38Z",
+        "lastModified": "2026-10-14T20:39:29Z",
+        "metadataLastUpdated": "2026-10-14T21:00:00.000Z"
+      },
+      "tags": [
+        "code-json",
+        "dsacms-tier3",
+        "federal-open-source",
+        "github-action",
+        "codejson-generator",
+        "metadata"
+      ],
+      "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Team"
+      },
+      "feedbackMechanism": "https://github.com/DSACMS/automated-codejson-generator/issues",
+      "AIUseCaseID": "0",
+      "localisation": false,
+      "repositoryType": "tools",
+      "userInput": false,
+      "fismaLevel": "low",
+      "group": "CMS/OA/DSAC",
+      "projects": [
+        "share-it-act"
+      ],
+      "systems": [],
+      "subsetInHealthcare": [
+        "operational"
+      ],
+      "userType": [
+        "government"
+      ],
+      "maturityModelTier": 3
+    },
+    {
+      "organization": "Centers for Medicare & Medicaid Services",
+      "name": "codejson-schemas",
+      "identifier": "codejson-schemas",
+      "version": "2.0.0",
+      "description": "CMS code.json: An agency-wide metadata standard for software projects",
+      "longDescription": "This repository contains documentation on code.json, a metadata standard used to collect information on agency software projects in compliance with M-16-21 and the SHARE IT Act.",
+      "status": "Production",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "CC0-1.0",
+            "URL": "https://github.com/GSA-SHARE-IT/codejson-schemas/blob/main/LICENSE"
+          }
+        ],
+        "usageType": [
+          "openSource"
+        ],
+        "exemptionText": ""
+      },
+      "repositoryURL": "https://github.com/GSA-SHARE-IT/codejson-schemas",
+      "repositoryVisibility": "public",
+      "homepageURL": "",
+      "downloadURL": "",
+      "disclaimerURL": "",
+      "disclaimerText": "",
+      "vcs": "git",
+      "laborHours": 4998,
+      "reuseFrequency": {
+        "forks": 2,
+        "clones": 0
+      },
+      "platforms": [
+        "web"
+      ],
+      "categories": [
+        "knowledge-management",
+        "help-desk"
+      ],
+      "softwareType": "standalone/web",
+      "languages": [],
+      "maintenance": "community",
+      "contractNumber": [],
+      "SBOM": "https://github.com/GSA-SHARE-IT/codejson-schemas/network/dependencies",
+      "relatedCode": [],
+      "reusedCode": [],
+      "partners": [],
+      "date": {
+        "created": "2025-02-04T21:59:53Z",
+        "lastModified": "2026-05-19T17:09:53Z",
+        "metadataLastUpdated": "2026-10-01T03:54:33.657Z"
+      },
+      "tags": [
+        "codejson",
+        "tier3",
+        "featured",
+        "government",
+        "json",
+        "metadata",
+        "metadata-standard"
+      ],
+      "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Team"
+      },
+      "feedbackMechanism": "https://github.com/GSA-SHARE-IT/codejson-schemas/issues",
+      "AIUseCaseID": "0"
+    },
+    {
+      "organization": "General Services Administration",
+      "name": "codejson-form",
+      "version": "",
+      "description": "Form to generate code.json",
+      "longDescription": "A web form where project teams fill out information about their project and creates a completed code.json to add to repositories as part of SHARE IT Act compliance.",
+      "status": "Production",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "CC0-1.0",
+            "URL": "https://github.com/gsa-share-it/codejson-form/blob/main/LICENSE"
+          }
+        ],
+        "usageType": [
+          "openSource"
+        ],
+        "exemptionText": ""
+      },
+      "repositoryURL": "https://github.com/gsa-share-it/codejson-form",
+      "repositoryHost": "github.com/gsa-share-it",
+      "repositoryVisibility": "public",
+      "homepageURL": "https://gsa-share-it.github.io/codejson-form/",
+      "downloadURL": "",
+      "disclaimerURL": "",
+      "disclaimerText": "",
+      "vcs": "git",
+      "laborHours": 4833,
+      "reuseFrequency": {
+        "forks": 8,
+        "clones": 0
+      },
+      "platforms": [
+        "web"
+      ],
+      "categories": [
+        "it-asset-management",
+        "inventory-management",
+        "data-collection"
+      ],
+      "softwareType": "standalone/web",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "maintenance": "internal",
+      "contractNumber": [],
+      "SBOM": "https://github.com/gsa-share-it/codejson-form/network/dependencies",
+      "relatedCode": [],
+      "reusedCode": [],
+      "partners": [],
+      "date": {
+        "created": "2024-11-22T16:30:29Z",
+        "lastModified": "2026-09-15T15:09:38Z",
+        "metadataLastUpdated": "2026-10-01T03:35:24.955Z"
+      },
+      "tags": [
+        "dsacms-tier3",
+        "featured"
+      ],
+      "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Team"
+      },
+      "feedbackMechanism": "https://github.com/gsa-share-it/codejson-form/issues",
+      "AIUseCaseID": "0",
+      "localisation": false,
+      "repositoryType": "website",
+      "userInput": true,
+      "fismaLevel": "low",
+      "group": "CMS/OA/DSAC",
+      "projects": [
+        "share-it-act"
+      ],
+      "systems": [],
+      "subsetInHealthcare": [
+        "operational"
+      ],
+      "userType": [
+        "government"
+      ],
+      "maturityModelTier": 3
+    },
+    {
+      "organization": "General Services Administration",
+      "name": "index-generator-website",
+      "version": "",
+      "description": "Tool to help federal agencies compile their code.json index files for SHARE IT Act compliance",
+      "longDescription": "This tool helps federal agencies compile and maintain their code.json files for SHARE IT Act compliance. It automatically scans specified GitHub organizations, finds repositories containing code.json files, and combines them into a single index file.",
+      "status": "Development",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "CC0-1.0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        ],
+        "usageType": [
+          "openSource"
+        ],
+        "exemptionText": ""
+      },
+      "repositoryURL": "https://github.com/GSA-SHARE-IT/index-generator-website",
+      "repositoryHost": "github.com/GSA-SHARE-IT",
+      "repositoryVisibility": "public",
+      "homepageURL": "https://gsa-share-it.github.io/index-generator-website/",
+      "downloadURL": "",
+      "disclaimerURL": "",
+      "disclaimerText": "",
+      "vcs": "git",
+      "laborHours": 3665,
+      "reuseFrequency": {
+        "forks": 0,
+        "clones": 0
+      },
+      "platforms": [
+        "web"
+      ],
+      "categories": [
+        "it-development",
+        "compliance",
+        "content-management"
+      ],
+      "softwareType": "standalone/web",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "maintenance": "internal",
+      "contractNumber": [],
+      "SBOM": "https://github.com/GSA-SHARE-IT/index-generator-website/network/dependencies",
+      "relatedCode": [
+        {
+          "name": "code.json Index Generator",
+          "URL": "https://github.com/DSACMS/codejson-index-generator",
+          "isGovernmentRepo": true
+        }
+      ],
+      "reusedCode": [],
+      "partners": [],
+      "date": {
+        "created": "2025-04-08T15:45:13Z",
+        "lastModified": "2025-11-07T19:11:53Z",
+        "metadataLastUpdated": "2025-12-01T01:21:42.398Z"
+      },
+      "tags": [
+        "gsa-share-it",
+        "codejson",
+        "shareit",
+        "inventory",
+        "agency",
+        "website",
+        "featured"
+      ],
+      "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "GSA SHARE IT Team"
+      },
+      "feedbackMechanism": "https://github.com/GSA-SHARE-IT/index-generator-website/issues",
+      "AIUseCaseID": "0",
+      "localisation": false,
+      "repositoryType": "application",
+      "userInput": true,
+      "fismaLevel": "low",
+      "group": "GSA/SHARE-IT",
+      "projects": [
+        "share-it-act"
+      ],
+      "systems": [],
+      "subsetInHealthcare": [
+        "operational"
+      ],
+      "userType": [
+        "government"
+      ],
+      "maturityModelTier": 3
+    },
+    {
+      "organization": "General Services Administration",
+      "name": "repo-form",
+      "description": "Static web form for collecting source code repository information",
+      "status": "Development",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "CC0-1.0",
+            "URL": "https://github.com/GSA-SHARE-IT/repo-form/blob/main/LICENSE"
+          }
+        ],
+        "usageType": [
+          "openSource"
+        ]
+      },
+      "repositoryURL": "https://github.com/GSA-SHARE-IT/repo-form",
+      "repositoryVisibility": "public",
+      "homepageURL": "https://gsa-share-it.github.io/repo-form/",
+      "vcs": "git",
+      "laborHours": 10,
+      "reuseFrequency": {
+        "forks": 0,
+        "clones": 0
+      },
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "maintenance": "internal",
+      "contractNumber": [
+        "0"
+      ],
+      "SBOM": "https://github.com/GSA-SHARE-IT/repo-form/network/dependencies",
+      "relatedCode": [
+        {
+          "name": "Web Form Template",
+          "URL": "https://github.com/DSACMS/web-form-template",
+          "isGovernmentRepo": true
+        }
+      ],
+      "reusedCode": [
+        {
+          "name": "Web Form Template",
+          "URL": "https://github.com/DSACMS/web-form-template"
+        }
+      ],
+      "date": {
+        "created": "2026-08-10T20:03:21Z",
+        "lastModified": "2026-08-10T21:28:41Z",
+        "metadataLastUpdated": "2026-08-11T17:39:17.074Z"
+      },
+      "tags": [
+        "open source",
+        "form",
+        "discovery"
+      ],
+      "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "OSPG"
+      },
+      "feedbackMechanism": "https://github.com/GSA-SHARE-IT/repo-form/issues",
+      "AIUseCaseID": "0"
+    },
+    {
+      "organization": "General Services Administration",
+      "name": "site",
+      "version": "",
+      "description": "Guide to the SHARE IT Act helping federal agencies comply with source code sharing requirements",
+      "longDescription": "The Source Code Harmonization And Reuse in Information Technology Act (SHARE IT Act) requires federal agencies to share custom-developed software code, including metadata about the project, with each other to eliminate duplicative government work. This website provides comprehensive documentation that goes more in depth into the SHARE IT Act and provides tooling and guidance to help users become compliant.",
+      "status": "Production",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "CC0-1.0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        ],
+        "usageType": [
+          "openSource"
+        ],
+        "exemptionText": ""
+      },
+      "repositoryURL": "https://github.com/GSA-SHARE-IT/site",
+      "repositoryVisibility": "public",
+      "homepageURL": "https://gsa-share-it.github.io/site/",
+      "downloadURL": "",
+      "disclaimerURL": "",
+      "disclaimerText": "",
+      "vcs": "git",
+      "laborHours": 5442,
+      "reuseFrequency": {
+        "forks": 4,
+        "clones": 0
+      },
+      "platforms": [
+        "web"
+      ],
+      "categories": [
+        "it-development",
+        "it-documentation",
+        "compliance",
+        "government-services"
+      ],
+      "softwareType": "standalone/web",
+      "languages": [
+        "HTML",
+        "JavaScript",
+        "SCSS",
+        "Nunjucks"
+      ],
+      "maintenance": "internal",
+      "contractNumber": [],
+      "SBOM": "https://github.com/GSA-SHARE-IT/site/network/dependencies",
+      "relatedCode": [],
+      "reusedCode": [
+        {
+          "name": "U.S. Web Design System (USWDS)",
+          "URL": "https://github.com/uswds/uswds"
+        }
+      ],
+      "partners": [],
+      "date": {
+        "created": "2025-04-08T14:25:37Z",
+        "lastModified": "2026-09-28T19:48:31Z",
+        "metadataLastUpdated": "2026-09-28T19:53:23.546Z"
+      },
+      "tags": [
+        "cms-ospo",
+        "codejson",
+        "featured",
+        "inventory",
+        "metadata",
+        "share-it-act"
+      ],
+      "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Program Office"
+      },
+      "feedbackMechanism": "https://github.com/GSA-SHARE-IT/site/issues",
+      "AIUseCaseID": "0",
+      "localisation": false,
+      "repositoryType": "website",
+      "userInput": false,
+      "fismaLevel": "low",
+      "group": "CMS/OA/DSAC",
+      "projects": [
+        "share-it-act"
+      ],
+      "systems": [
+        ""
+      ],
+      "subsetInHealthcare": [
+        "operational"
+      ],
+      "userType": [
+        "government"
+      ],
+      "maturityModelTier": 3
+    },
+    {
+      "organization": "General Services Administration (GSA)",
+      "name": "demo-repo",
+      "identifier": "demo-repo1234",
+      "description": "Repository for demonstrating SHARE IT Act tooling functionality",
+      "status": "Development",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "CC0-1.0",
+            "URL": "https://github.com/GSA-SHARE-IT/demo-repo/blob/main/LICENSE"
+          }
+        ],
+        "usageType": [
+          "openSource"
+        ]
+      },
+      "reuseFrequency": {
+        "forks": 0
+      },
+      "repositoryURL": "https://github.com/GSA-SHARE-IT/demo-repo",
+      "repositoryVisibility": "public",
+      "vcs": "git",
+      "languages": [],
+      "maintenance": "internal",
+      "contractNumber": [
+        "0"
+      ],
+      "SBOM": "https://github.com/GSA-SHARE-IT/demo-repo/network/dependencies",
+      "date": {
+        "created": "2026-10-15T21:35:20Z",
+        "lastModified": "2026-11-04T17:47:16Z",
+        "metadataLastUpdated": "2026-11-18T19:44:58.388Z"
+      },
+      "tags": [],
+      "contact": {
+        "email": "cdo@hhs.gov"
+      },
+      "feedbackMechanism": "https://github.com/GSA-SHARE-IT/demo-repo/issues"
+    }
+  ]
+}

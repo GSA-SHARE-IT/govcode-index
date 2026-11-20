@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-000731",
+    "name": "GSA/grace-",
+    "description": "Command to generate Terrafrom JSON Configuration Syntax to create an RDS from a ServiceNow ticket (json)",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "grace",
+        "devsecops",
+        "grace-paas"
+    ],
+    "repositoryURL": "https://github.com/GSA/grace-paas-rds",
+    "contact": {
+        "email": "grace-staff@gsa.gov"
+    },
+    "languages": [
+        "Makefile",
+        "Go"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "cc0-1.0",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

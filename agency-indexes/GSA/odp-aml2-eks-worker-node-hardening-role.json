@@ -1,0 +1,24 @@
+{
+    "govcode_id": "2026-GSA-001028",
+    "name": "odp-aml2-eks-worker-node-hardening-role",
+    "description": "Amazon Linux 2 K8S Node Hardening per GSA Guidance",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/odp-aml2-eks-worker-node-hardening-role",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

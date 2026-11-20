@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-000898",
+    "name": "ansible-role-tomcat",
+    "description": "Install and configure tomcat on your system.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/apache-2.0/",
+                "name": "apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ansible-role-tomcat",
+    "homepageURL": "https://robertdebock.nl/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Jinja"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

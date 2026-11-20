@@ -1,0 +1,23 @@
+{
+    "govcode_id": "2026-GSA-000870",
+    "name": "ansible-os-rhel8",
+    "description": "Ansible role for hardening Redhat 8 AMI",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ansible-os-rhel8",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Jinja"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

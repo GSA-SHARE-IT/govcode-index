@@ -1,0 +1,86 @@
+{
+    "govcode_id": "2026-HHS-000657",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "npd_plan_scrape",
+    "version": "",
+    "description": "plan scrape prototype",
+    "longDescription": "This project is designed to identify and ingest healthcare provider network information from various payer (insurance company) sources. The process is broken down into several steps, from discovering potential API endpoints to downloading and normalizing the data from those endpoints.",
+    "status": "production",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/DSACMS/npd_plan_scrape/blob/main/LICENSE"
+            }
+        ],
+        "usageType": "openSource",
+        "exemptionText": ""
+    },
+    "repositoryURL": "https://github.com/DSACMS/npd_plan_scrape",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "homepageURL": "",
+    "downloadURL": "",
+    "disclaimerURL": "",
+    "disclaimerText": "",
+    "vcs": "git",
+    "laborHours": 3065,
+    "reuseFrequency": {
+        "forks": 0,
+        "clones": 0
+    },
+    "platforms": [
+        "windows",
+        "mac",
+        "linux"
+    ],
+    "categories": [
+        "application-development"
+    ],
+    "softwareType": "standalone/desktop",
+    "languages": [
+        "Python",
+        "Shell"
+    ],
+    "maintenance": "internal",
+    "contractNumber": [
+        "0"
+    ],
+    "SBOM": "https://github.com/DSACMS/npd_plan_scrape/network/dependencies",
+    "relatedCode": [],
+    "reusedCode": [],
+    "partners": [],
+    "date": {
+        "created": "2025-07-22T19:55:43Z",
+        "lastModified": "2025-12-08T06:58:40Z",
+        "metadataLastUpdated": "2025-12-08T06:59:50.248Z"
+    },
+    "tags": [
+        "provider",
+        "identify",
+        "ingest",
+        "scraping"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "Remy DeCausemaker"
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/npd_plan_scrape/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "tools",
+    "userInput": true,
+    "fismaLevel": "low",
+    "group": "CMS/OA/DSAC",
+    "projects": [
+        "National Provider Directory"
+    ],
+    "systems": [],
+    "subsetInHealthcare": [
+        "operational"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 2
+}

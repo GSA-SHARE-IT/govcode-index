@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000523",
+    "name": "USEPA/haztrak",
+    "organization": "usepa",
+    "description": "Open-source waste management software, focused on interfacing with e-Manifest to track hazardous waste electronically",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/haztrak/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/haztrak",
+    "downloadURL": "https://github.com/USEPA/haztrak/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/haztrak/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/haztrak.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2022-03-16T00:44:27Z",
+        "lastModified": "2026-02-03T19:43:41Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.198Z"
+    }
+}

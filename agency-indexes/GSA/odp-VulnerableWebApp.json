@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-GSA-001139",
+    "name": "odp-VulnerableWebApp",
+    "description": "Vulnerable WebApp from OWASP to test Security Scanner ",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/odp-VulnerableWebApp",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile",
+        "Shell",
+        "RobotFramework",
+        "Java",
+        "HTML",
+        "JavaScript",
+        "CSS",
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

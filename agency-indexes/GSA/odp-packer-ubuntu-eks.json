@@ -1,0 +1,22 @@
+{
+    "govcode_id": "2026-GSA-000841",
+    "name": "odp-packer-ubuntu-eks",
+    "description": "Jenkins pipeline hardening eks optimized ubuntu ami ",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/odp-packer-ubuntu-eks",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

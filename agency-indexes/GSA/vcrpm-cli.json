@@ -1,0 +1,23 @@
+{
+    "govcode_id": "2026-GSA-000988",
+    "name": "vcrpm-cli",
+    "description": "A command line application written in GO that goes with vcrpm-server to reliable and robust RPC calls over GRPC.  ",
+    "permissions": {
+        "licenses": null,
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/vcrpm-cli",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Go",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

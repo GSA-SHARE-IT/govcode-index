@@ -1,0 +1,31 @@
+{
+    "govcode_id": "2026-GSA-000217",
+    "name": "logsearch-boshrelease",
+    "description": "A BOSH-scalable Elasticsearch+Logstash+Kibana release",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/apache-2.0/",
+                "name": "apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/logsearch-boshrelease",
+    "homepageURL": "http://www.logsearch.io",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "Shell",
+        "HTML",
+        "Go"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

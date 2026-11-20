@@ -1,0 +1,227 @@
+{
+    "version": 1,
+    "next_number": 45,
+    "records": {
+        "DigitalGov_Analytics.json": {
+            "name": "DigitalGov Analytics",
+            "repositoryURL": "https://www.drupal.org/project/gov_analytics",
+            "govcode_id": "2026-USDA-000001"
+        },
+        "LAP__LAMP_without_MySQL__on_Docker.json": {
+            "name": "LAP (LAMP without MySQL) on Docker",
+            "repositoryURL": "https://bitbucket.org/usdawcmaas/gov-drupal",
+            "govcode_id": "2026-USDA-000002"
+        },
+        "USDA_WCMaaS_Rancher_Provisioner.json": {
+            "name": "USDA WCMaaS Rancher Provisioner",
+            "repositoryURL": "https://bitbucket.org/usdawcmaas/rancher-salt",
+            "govcode_id": "2026-USDA-000003"
+        },
+        "USDA_WCMaaS_Varnish_Cache.json": {
+            "name": "USDA WCMaaS Varnish Cache",
+            "repositoryURL": "https://bitbucket.org/usdawcmaas/varnish-cache",
+            "govcode_id": "2026-USDA-000004"
+        },
+        "Rancher_Git_Deployment_Sidekick_Service.json": {
+            "name": "Rancher Git Deployment Sidekick Service",
+            "repositoryURL": "https://bitbucket.org/usdawcmaas/git-deploy",
+            "govcode_id": "2026-USDA-000005"
+        },
+        "Animal_Disease_Spread_Model.json": {
+            "name": "Animal Disease Spread Model",
+            "repositoryURL": "https://github.com/NAVADMC/ADSM",
+            "govcode_id": "2026-USDA-000006"
+        },
+        "Animal_Disease_Spread_Model_C-Engine.json": {
+            "name": "Animal Disease Spread Model C-Engine",
+            "repositoryURL": "https://github.com/NAVADMC/ADSM-CEngine",
+            "govcode_id": "2026-USDA-000007"
+        },
+        "RIDB.json": {
+            "name": "RIDB",
+            "repositoryURL": "https://github.com/USDA/RIDB",
+            "govcode_id": "2026-USDA-000008"
+        },
+        "data-standards.json": {
+            "name": "data-standards",
+            "repositoryURL": "https://github.com/USDA/data-standards",
+            "govcode_id": "2026-USDA-000009"
+        },
+        "BovineTFBS.json": {
+            "name": "BovineTFBS",
+            "repositoryURL": "https://github.com/USDA-ARS-AGIL/BovineTFBS",
+            "govcode_id": "2026-USDA-000010"
+        },
+        "cattleCNV.json": {
+            "name": "cattleCNV",
+            "repositoryURL": "https://github.com/USDA-ARS-AGIL/cattleCNV",
+            "govcode_id": "2026-USDA-000011"
+        },
+        "tfbsConsSites.json": {
+            "name": "tfbsConsSites",
+            "repositoryURL": "https://github.com/USDA-ARS-AGIL/tfbsConsSites",
+            "govcode_id": "2026-USDA-000012"
+        },
+        "website-content-api.json": {
+            "name": "website-content-api",
+            "repositoryURL": "https://github.com/USDA-ERS/website-content-api",
+            "govcode_id": "2026-USDA-000013"
+        },
+        "widgets.json": {
+            "name": "widgets",
+            "repositoryURL": "https://github.com/USDA-ERS/widgets",
+            "govcode_id": "2026-USDA-000014"
+        },
+        "data-apis.json": {
+            "name": "data-apis",
+            "repositoryURL": "https://github.com/USDA-ERS/data-apis",
+            "govcode_id": "2026-USDA-000015"
+        },
+        "geospatial-apis.json": {
+            "name": "geospatial-apis",
+            "repositoryURL": "https://github.com/USDA-ERS/geospatial-apis",
+            "govcode_id": "2026-USDA-000016"
+        },
+        "fsa-style.json": {
+            "name": "fsa-style",
+            "repositoryURL": "https://github.com/USDA-FSA/fsa-style",
+            "govcode_id": "2026-USDA-000017"
+        },
+        "fsa-design-system.json": {
+            "name": "fsa-design-system",
+            "repositoryURL": "https://github.com/USDA-FSA/fsa-design-system",
+            "govcode_id": "2026-USDA-000018"
+        },
+        "playbook-draft-content.json": {
+            "name": "playbook-draft-content",
+            "repositoryURL": "https://github.com/USDA-FSA/playbook-draft-content",
+            "govcode_id": "2026-USDA-000019"
+        },
+        "dependency-intelligence.json": {
+            "name": "dependency-intelligence",
+            "repositoryURL": "https://github.com/USDA-FSA/dependency-intelligence",
+            "govcode_id": "2026-USDA-000020"
+        },
+        "FSA_Prototype_Kit.json": {
+            "name": "FSA Prototype Kit",
+            "repositoryURL": "https://github.com/USDA-FSA/fsa-prototype-kit",
+            "govcode_id": "2026-USDA-000021"
+        },
+        "reference_guided_assembly.json": {
+            "name": "reference_guided_assembly",
+            "repositoryURL": "https://github.com/USDA-VS/reference_guided_assembly",
+            "govcode_id": "2026-USDA-000022"
+        },
+        "snp_analysis.json": {
+            "name": "snp_analysis",
+            "repositoryURL": "https://github.com/USDA-VS/vSNP",
+            "govcode_id": "2026-USDA-000023"
+        },
+        "ksnp.json": {
+            "name": "ksnp",
+            "repositoryURL": "https://github.com/USDA-VS/ksnp",
+            "govcode_id": "2026-USDA-000024"
+        },
+        "Open_Forest.json": {
+            "name": "Open Forest",
+            "repositoryURL": "https://github.com/USDAForestService/fs-open-forest",
+            "govcode_id": "2026-USDA-000025"
+        },
+        "SuperTracker.json": {
+            "name": "SuperTracker",
+            "repositoryURL": "https://inventory.data.gov/dataset/97f9a5cf-61c4-406b-8170-5a6422b68654/resource/c04948d7-4af3-42c7-ae4b-5b805ea7571e/download/supertrackersource2.zip",
+            "govcode_id": "2026-USDA-000026"
+        },
+        "Fast_and_robust_curve_skeletonization_for_real-world_elongated_objects.json": {
+            "name": "Fast and robust curve skeletonization for real-world elongated objects",
+            "repositoryURL": "https://github.com/amy-tabb/CurveSkel-Tabb-Medeiros",
+            "govcode_id": "2026-USDA-000027"
+        },
+        "Automated_Water_Supply_Model__AWSM_.json": {
+            "name": "Automated Water Supply Model (AWSM)",
+            "repositoryURL": "https://github.com/USDA-ARS-NWRC/awsm.git",
+            "govcode_id": "2026-USDA-000028"
+        },
+        "Spatial_Modeling_for_Resources_Framework__SMRF_.json": {
+            "name": "Spatial Modeling for Resources Framework (SMRF)",
+            "repositoryURL": "https://github.com/USDA-ARS-NWRC/smrf.git",
+            "govcode_id": "2026-USDA-000029"
+        },
+        "Weather_Database.json": {
+            "name": "Weather Database",
+            "repositoryURL": "https://github.com/USDA-ARS-NWRC/weather_database.git",
+            "govcode_id": "2026-USDA-000030"
+        },
+        "Weather_forecast_retrieval.json": {
+            "name": "Weather forecast retrieval",
+            "repositoryURL": "https://github.com/USDA-ARS-NWRC/weather_forecast_retrieval.git",
+            "govcode_id": "2026-USDA-000031"
+        },
+        "Python_Snobal.json": {
+            "name": "Python Snobal",
+            "repositoryURL": "https://github.com/USDA-ARS-NWRC/pysnobal.git",
+            "govcode_id": "2026-USDA-000032"
+        },
+        "Snow_and_water_model_analysis_and_visualization__snowav_.json": {
+            "name": "Snow and water model analysis and visualization (snowav)",
+            "repositoryURL": "https://github.com/USDA-ARS-NWRC/snowav.git",
+            "govcode_id": "2026-USDA-000033"
+        },
+        "Image_Processing_Workbench__IPW_.json": {
+            "name": "Image Processing Workbench (IPW)",
+            "repositoryURL": "https://github.com/USDA-ARS-NWRC/ipw.git",
+            "govcode_id": "2026-USDA-000034"
+        },
+        "inicheck.json": {
+            "name": "inicheck",
+            "repositoryURL": "https://github.com/USDA-ARS-NWRC/inicheck.git",
+            "govcode_id": "2026-USDA-000035"
+        },
+        "Basin_setup_tool.json": {
+            "name": "Basin setup tool",
+            "repositoryURL": "https://github.com/USDA-ARS-NWRC/basin_setup.git",
+            "govcode_id": "2026-USDA-000036"
+        },
+        "swiflow.json": {
+            "name": "swiflow",
+            "repositoryURL": "https://github.com/USDA-ARS-NWRC/swiflow.git",
+            "govcode_id": "2026-USDA-000037"
+        },
+        "topocalc.json": {
+            "name": "topocalc",
+            "repositoryURL": "https://github.com/USDA-ARS-NWRC/topocalc.git",
+            "govcode_id": "2026-USDA-000038"
+        },
+        "Goldmeister.json": {
+            "name": "Goldmeister",
+            "repositoryURL": "https://github.com/USDA-ARS-NWRC/goldmeister.git",
+            "govcode_id": "2026-USDA-000039"
+        },
+        "spatialnc.json": {
+            "name": "spatialnc",
+            "repositoryURL": "https://github.com/USDA-ARS-NWRC/spatialnc.git",
+            "govcode_id": "2026-USDA-000040"
+        },
+        "Tablizer.json": {
+            "name": "Tablizer",
+            "repositoryURL": "https://github.com/USDA-ARS-NWRC/tablizer.git",
+            "govcode_id": "2026-USDA-000041"
+        },
+        "Katana.json": {
+            "name": "Katana",
+            "repositoryURL": "https://github.com/USDA-ARS-NWRC/katana.git",
+            "govcode_id": "2026-USDA-000042"
+        },
+        "AWSM_Run_Manager.json": {
+            "name": "AWSM Run Manager",
+            "repositoryURL": "https://github.com/USDA-ARS-NWRC/awsm_run_manager.git",
+            "govcode_id": "2026-USDA-000043"
+        },
+        "Repeat_Array_Quality_Check__RAQC_.json": {
+            "name": "Repeat Array Quality Check (RAQC)",
+            "repositoryURL": "https://github.com/USDA-ARS-NWRC/raqc.git",
+            "govcode_id": "2026-USDA-000044"
+        }
+    },
+    "pending": {}
+}

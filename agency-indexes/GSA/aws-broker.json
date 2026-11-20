@@ -1,0 +1,31 @@
+{
+    "govcode_id": "2026-GSA-001055",
+    "name": "aws-broker",
+    "description": "Cloud Foundry AWS RDS Service Broker",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/aws-broker",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Python",
+        "Go",
+        "HCL",
+        "Procfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

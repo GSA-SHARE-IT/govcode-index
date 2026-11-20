@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000916",
+    "name": "cio-aia",
+    "description": "aia for tool cio",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/cio-aia",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Vue",
+        "TypeScript",
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

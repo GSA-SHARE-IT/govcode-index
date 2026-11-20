@@ -1,0 +1,22 @@
+{
+    "govcode_id": "2026-GSA-000415",
+    "name": "ansible-fluentd",
+    "description": "Ansible roles to install https://github.com/fluent/fluentd for system log parsing and streaming",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ansible-fluentd",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-000712",
+    "name": "cloudgov-demo-postgrest",
+    "description": "Get a federally-compliant REST API for your CSV data on cloud.gov in about 60 seconds. ATO not included.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/cloudgov-demo-postgrest",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

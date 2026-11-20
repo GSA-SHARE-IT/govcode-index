@@ -1,0 +1,32 @@
+{
+    "govcode_id": "2026-GSA-000324",
+    "name": "AAS_root",
+    "description": "AAS Site",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/AAS_root",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "JavaScript",
+        "Dockerfile",
+        "Ruby",
+        "SCSS",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

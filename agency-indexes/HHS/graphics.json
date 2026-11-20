@@ -1,0 +1,73 @@
+{
+    "govcode_id": "2026-HHS-000640",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "graphics",
+    "description": "A repository to store OSPO graphics",
+    "longDescription": "This repository contains various graphics for the CMS OSPO materials. They are used in landing pages, tooling documentation, presentations, conference materials, and more.",
+    "status": "Production",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/DSACMS/graphics/blob/main/LICENSE"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ],
+        "exemptionText": ""
+    },
+    "repositoryURL": "https://github.com/DSACMS/graphics",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "vcs": "git",
+    "laborHours": 250,
+    "reuseFrequency": {
+        "forks": 0
+    },
+    "platforms": [
+        "web"
+    ],
+    "categories": [
+        "graphic-design"
+    ],
+    "softwareType": "standalone/web",
+    "languages": [
+        "None"
+    ],
+    "maintenance": "internal",
+    "contractNumber": [
+        "0"
+    ],
+    "SBOM": "https://github.com/DSACMS/graphics/network/dependencies",
+    "date": {
+        "created": "2025-06-30T20:42:09Z",
+        "lastModified": "2025-11-13T21:49:08Z",
+        "metadataLastUpdated": "2025-11-13T22:17:35.593Z"
+    },
+    "tags": [
+        "dsacms-tier2"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Team"
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/graphics/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "data",
+    "userInput": false,
+    "fismaLevel": "low",
+    "group": "CMS/OA/DSAC",
+    "projects": [
+        "ospo"
+    ],
+    "systems": [],
+    "subsetInHealthcare": [
+        "operational"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 2
+}

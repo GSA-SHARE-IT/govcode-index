@@ -1,0 +1,43 @@
+{
+    "govcode_id": "2026-GSA-000213",
+    "name": "Federal Public Key Infrastructure (FPKI) Guides",
+    "description": "Guides providing information about the Federal Public Key Infrastructure (FPKI), as well as commonly used links, tools, tips, and user guides for leveraging the FPKI.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "pki",
+        "fpki",
+        "ficam",
+        "certificate",
+        "X.509",
+        "common-policy",
+        "federal-bridge",
+        "trust",
+        "crl",
+        "certificate-authority"
+    ],
+    "repositoryURL": "https://github.com/GSA/fpki-guides",
+    "homepageURL": "https://playbooks.idmanagement.gov/fpki/",
+    "contact": {
+        "email": "icam@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

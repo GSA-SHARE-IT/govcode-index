@@ -1,0 +1,316 @@
+{
+    "agency": "FEC",
+    "measurementType": {
+        "ifOther": "TBD",
+        "method": "other"
+    },
+    "releases": [
+        {
+            "organization": "Federal Election Commission",
+            "contact": {
+                "URL": "https://github.com/fecgov/fec/issues",
+                "email": "opensource@fec.gov"
+            },
+            "date": {
+                "created": "2014-07-23",
+                "lastModified": "2020-09-28",
+                "metadataLastUpdated": "2020-10-06"
+            },
+            "description": "A general discussion forum for FEC.gov. This is the best place to submit general feedback.",
+            "downloadURL": "https://api.github.com/repos/fecgov/FEC/downloads",
+            "homepageURL": "https://github.com/fecgov/FEC",
+            "laborHours": 5806,
+            "languages": [],
+            "name": "FEC",
+            "permissions": {
+                "usageType": "openSource",
+                "licenses": [
+                    {
+                        "URL": "https://github.com/fecgov/FEC/blob/master/LICENSE.md",
+                        "name": "CC0"
+                    }
+                ]
+            },
+            "repositoryURL": "https://github.com/fecgov/FEC",
+            "status": "Production",
+            "tags": [
+                "FEC",
+                "github",
+                "feedback",
+                "discussion"
+            ],
+            "vcs": "git"
+        },
+        {
+            "organization": "Federal Election Commission",
+            "contact": {
+                "URL": "https://github.com/fecgov/fec/issues",
+                "email": "opensource@fec.gov"
+            },
+            "date": {
+                "created": "2014-08-19",
+                "lastModified": "2020-10-05",
+                "metadataLastUpdated": "2020-10-06"
+            },
+            "description": "The first RESTful API for the Federal Election Commission. We're aiming to make campaign finance more accessible for journalists, academics, developers, and other transparency seekers.",
+            "downloadURL": "https://api.github.com/repos/fecgov/openFEC/downloads",
+            "homepageURL": "https://api.open.fec.gov/developers/",
+            "laborHours": 205853.6,
+            "languages": [
+                "Python",
+                "PLpgSQL",
+                "JavaScript",
+                "HTML",
+                "Shell",
+                "CSS"
+            ],
+            "name": "openFEC",
+            "permissions": {
+                "usageType": "openSource",
+                "licenses": [
+                    {
+                        "URL": "https://github.com/fecgov/openFEC/blob/master/LICENSE.md",
+                        "name": "CC0"
+                    }
+                ]
+            },
+            "repositoryURL": "https://github.com/fecgov/openFEC",
+            "status": "Production",
+            "tags": [
+                "FEC",
+                "github",
+                "API",
+                "campaign finance"
+            ],
+            "vcs": "git"
+        },
+        {
+            "organization": "Federal Election Commission",
+            "contact": {
+                "URL": "https://github.com/fecgov/fec/issues",
+                "email": "opensource@fec.gov"
+            },
+            "date": {
+                "created": "2015-08-16",
+                "lastModified": "2020-10-06",
+                "metadataLastUpdated": "2020-10-06"
+            },
+            "description": "The content management system (CMS) for the new Federal Election Commission website.",
+            "downloadURL": "https://api.github.com/repos/fecgov/fec-cms/downloads",
+            "homepageURL": "https://www.fec.gov",
+            "laborHours": 46696.0,
+            "languages": [
+                "HTML",
+                "JavaScript",
+                "Python",
+                "CSS",
+                "Shell"
+            ],
+            "name": "fec-cms",
+            "permissions": {
+                "usageType": "openSource",
+                "licenses": [
+                    {
+                        "URL": "https://github.com/fecgov/fec-cms/blob/master/LICENSE.md",
+                        "name": "CC0"
+                    }
+                ]
+            },
+            "repositoryURL": "https://github.com/fecgov/fec-cms",
+            "relatedCode": [
+                {
+                    "name": "U.S. Web Design System",
+                    "URL": "https://github.com/uswds/uswds"
+                }
+            ],
+            "status": "Production",
+            "tags": [
+                "FEC",
+                "github",
+                "agency website",
+                "content"
+            ],
+            "vcs": "git"
+        },
+        {
+            "organization": "Federal Election Commission",
+            "contact": {
+                "URL": "https://github.com/fecgov/fec/issues",
+                "email": "opensource@fec.gov"
+            },
+            "date": {
+                "created": "2015-09-24",
+                "lastModified": "2020-09-29",
+                "metadataLastUpdated": "2020-10-06"
+            },
+            "description": "Reverse proxy app to combine multiple applications.",
+            "downloadURL": "https://api.github.com/repos/fecgov/fec-proxy/downloads",
+            "homepageURL": "https://github.com/fecgov/fec-proxy",
+            "laborHours": 30.4,
+            "languages": [],
+            "name": "fec-proxy",
+            "permissions": {
+                "usageType": "openSource",
+                "licenses": [
+                    {
+                        "URL": "https://github.com/fecgov/fec-proxy/blob/master/LICENSE.md",
+                        "name": "CC0"
+                    }
+                ]
+            },
+            "repositoryURL": "https://github.com/fecgov/fec-proxy",
+            "status": "Production",
+            "tags": [
+                "FEC",
+                "github",
+                "proxy"
+            ],
+            "vcs": "git"
+        },
+        {
+            "organization": "Federal Election Commission",
+            "contact": {
+                "URL": "https://github.com/fecgov/fec/issues",
+                "email": "opensource@fec.gov"
+            },
+            "date": {
+                "created": "2015-12-10",
+                "lastModified": "2020-09-29",
+                "metadataLastUpdated": "2020-10-06"
+            },
+            "description": "The Federal Election Commission's web-based application that makes regulations easier to find, read and understand.",
+            "downloadURL": "https://api.github.com/repos/fecgov/fec-eregs/downloads",
+            "homepageURL": "https://www.fec.gov/regulations",
+            "laborHours": 8406.6,
+            "languages": [
+                "SCSS",
+                "Python",
+                "HTML",
+                "Handlebars",
+                "JavaScript"
+            ],
+            "name": "fec-eregs",
+            "permissions": {
+                "usageType": "openSource",
+                "licenses": [
+                    {
+                        "URL": "https://github.com/fecgov/fec-eregs/blob/master/LICENSE.md",
+                        "name": "CC0"
+                    }
+                ]
+            },
+            "repositoryURL": "https://github.com/fecgov/fec-eregs",
+            "relatedCode": [
+                {
+                    "name": "regulations-core",
+                    "URL": "https://github.com/eregs/regulations-core"
+                },
+                {
+                    "name": "regulations-site",
+                    "URL": "https://github.com/eregs/regulations-site"
+                },
+                {
+                    "name": "regulations-parser",
+                    "URL": "https://github.com/eregs/regulations-parser"
+                }
+            ],
+            "status": "Production",
+            "tags": [
+                "FEC",
+                "github",
+                "regulations",
+                "search",
+                "eRegs",
+                "CFR"
+            ],
+            "vcs": "git"
+        },
+        {
+            "organization": "Federal Election Commission",
+            "contact": {
+                "URL": "https://github.com/fecgov/fec/issues",
+                "email": "opensource@fec.gov"
+            },
+            "date": {
+                "created": "2016-10-29",
+                "lastModified": "2020-09-29",
+                "metadataLastUpdated": "2020-10-06"
+            },
+            "description": "Pattern Library for FEC.gov",
+            "downloadURL": "https://api.github.com/repos/fecgov/fec-pattern-library/downloads",
+            "homepageURL": "https://fec-pattern-library.app.cloud.gov/",
+            "laborHours": 11110.6,
+            "languages": [
+                "HTML",
+                "JavaScript",
+                "SCSS",
+                "Shell"
+            ],
+            "name": "fec-pattern-library",
+            "permissions": {
+                "usageType": "openSource",
+                "licenses": [
+                    {
+                        "URL": "https://github.com/fecgov/fec-pattern-library/blob/master/LICENSE.md",
+                        "name": "CC0"
+                    }
+                ]
+            },
+            "repositoryURL": "https://github.com/fecgov/fec-pattern-library",
+            "relatedCode": [
+                {
+                    "name": "U.S. Web Design System",
+                    "URL": "https://github.com/uswds/uswds"
+                }
+            ],
+            "status": "Production",
+            "tags": [
+                "FEC",
+                "github",
+                "styles",
+                "design patterns"
+            ],
+            "vcs": "git"
+        },
+        {
+            "organization": "Federal Election Commission",
+            "contact": {
+                "URL": "https://github.com/fecgov/fec/issues",
+                "email": "opensource@fec.gov"
+            },
+            "date": {
+                "created": "2017-02-11",
+                "lastModified": "2020-05-31",
+                "metadataLastUpdated": "2020-10-06"
+            },
+            "description": "Terraform configuration and CircleCI for managing custom FEC infrastructure in AWS.",
+            "downloadURL": "https://api.github.com/repos/fecgov/fec-infrastructure/downloads",
+            "homepageURL": "https://github.com/fecgov/fec-infrastructure",
+            "laborHours": 121.6,
+            "languages": [
+                "HCL"
+            ],
+            "name": "fec-infrastructure",
+            "permissions": {
+                "usageType": "openSource",
+                "licenses": [
+                    {
+                        "URL": "https://github.com/fecgov/fec-infrastructure/blob/master/LICENSE.md",
+                        "name": "CC0"
+                    }
+                ]
+            },
+            "repositoryURL": "https://github.com/fecgov/fec-infrastructure",
+            "status": "Production",
+            "tags": [
+                "FEC",
+                "github",
+                "ferraform",
+                "configuration",
+                "AWS"
+            ],
+            "vcs": "git"
+        }
+    ],
+    "version": "2.0.0"
+}

@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-000763",
+    "name": "PD Library",
+    "description": "The Position Description Library is a tool that stores position descriptions across the enterprise. The tool allows those in HR position classification to create and maintain position descriptions, and allows read-only users, primarily managers and HR Specialists, to search for and view PDs.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://www.usa.gov/publicdomain/label/1.0/",
+                "name": "PD"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "salesforce"
+    ],
+    "repositoryURL": "https://github.com/GSA/PD-Library",
+    "contact": {
+        "email": "gsalabs@gsa.gov"
+    },
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "languages": [
+        "javascript",
+        "apex"
+    ]
+}

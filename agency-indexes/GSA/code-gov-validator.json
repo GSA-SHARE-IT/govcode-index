@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-000490",
+    "name": "code-gov-validator",
+    "description": "Schema validation package for Code.gov",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "code-gov",
+        "government",
+        "validation",
+        "code-json-validation"
+    ],
+    "repositoryURL": "https://github.com/GSA/code-gov-validator",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "JavaScript"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

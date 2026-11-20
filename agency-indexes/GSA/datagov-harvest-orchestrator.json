@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-001242",
+    "name": "datagov-harvest-orchestrator",
+    "description": "Handles Administration of Harvest Sources and Orchestration of Harvest Jobs",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/gpl-3.0/",
+                "name": "gpl-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/datagov-harvest-orchestrator",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Dockerfile",
+        "Makefile",
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

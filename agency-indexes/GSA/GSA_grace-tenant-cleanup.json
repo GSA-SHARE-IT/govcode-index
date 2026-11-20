@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-GSA-000559",
+    "name": "GSA/grace-tenant-cleanup",
+    "description": "Go program to delete services from AWS accounts prior to decommissioning",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "grace",
+        "devsecops"
+    ],
+    "repositoryURL": "https://github.com/GSA/grace-tenant-cleanup",
+    "contact": {
+        "email": "devsecops-core@gsa.gov"
+    },
+    "languages": [
+        "Go",
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": null,
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

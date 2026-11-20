@@ -1,0 +1,27 @@
+{
+    "govcode_id": "2026-GSA-001097",
+    "name": "odp-ansible-elp",
+    "description": "An Ansible role that installs/configures logging agent/client to ship the logs to Enterprise Logging Platform (ELP)  ",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/apache-2.0/",
+                "name": "apache-2.0"
+            }
+        ],
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/odp-ansible-elp",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Jinja"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

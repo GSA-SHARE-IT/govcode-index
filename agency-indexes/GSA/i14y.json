@@ -1,0 +1,37 @@
+{
+    "govcode_id": "2026-GSA-000160",
+    "name": "i14y",
+    "description": "An API for indexing agency web content in real time.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA",
+        "DigitalGovSearch",
+        "websites",
+        "search",
+        "indexing"
+    ],
+    "repositoryURL": "https://github.com/GSA/i14y",
+    "contact": {
+        "email": "search@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "HTML",
+        "Dockerfile",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

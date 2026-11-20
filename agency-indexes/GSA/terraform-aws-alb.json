@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-000954",
+    "name": "terraform-aws-alb",
+    "description": "Terraform module to create an AWS Application/Network Load Balancer (ALB/NLB) and associated resources",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/apache-2.0/",
+                "name": "apache-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/terraform-aws-alb",
+    "homepageURL": "https://registry.terraform.io/modules/terraform-aws-modules/alb/aws",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HCL",
+        "Makefile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,38 @@
+{
+    "govcode_id": "2026-GSA-000349",
+    "name": "digitalgov.gov",
+    "description": "Digital.gov: Better websites. Better government.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "government",
+        "civic-tech",
+        "standards",
+        "policy",
+        "best-practices",
+        "digital-services",
+        "websites"
+    ],
+    "repositoryURL": "https://github.com/GSA/digitalgov.gov",
+    "homepageURL": "https://digital.gov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SCSS",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

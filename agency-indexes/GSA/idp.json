@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000098",
+    "name": "idp",
+    "description": "Identity Provider for Data.gov and Related Systems",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/idp",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "PHP",
+        "Shell",
+        "Perl",
+        "CSS",
+        "JavaScript",
+        "HTML",
+        "Hack"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

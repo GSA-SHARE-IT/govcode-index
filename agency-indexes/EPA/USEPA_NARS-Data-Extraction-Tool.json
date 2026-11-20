@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000247",
+    "name": "USEPA/NARS-Data-Extraction-Tool",
+    "organization": "usepa",
+    "description": "Generalized eForms Shiny app to parse data across all NARS surveys",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/NARS-Data-Extraction-Tool/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/NARS-Data-Extraction-Tool",
+    "downloadURL": "https://github.com/USEPA/NARS-Data-Extraction-Tool/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/NARS-Data-Extraction-Tool/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/NARS-Data-Extraction-Tool.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2021-04-26T14:49:02Z",
+        "lastModified": "2026-11-19T14:41:52Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.182Z"
+    }
+}

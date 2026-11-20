@@ -1,0 +1,76 @@
+{
+    "govcode_id": "2026-HHS-000584",
+    "organization": "CMS Open Source Program Office",
+    "name": "Libyears",
+    "description": "A local CLI that measures the age of direct Python and npm dependencies using release timestamps from PyPI and the public npm registry.",
+    "longDescription": "Libyears measures the age of direct Python and npm dependencies using release timestamps from PyPI and the public npm registry. It uses repository evidence for exact versions, reports measurement coverage, and does not resolve or install dependencies.",
+    "status": "Development",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0 1.0 Universal",
+                "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ]
+    },
+    "repositoryURL": "https://github.com/DSACMS/libyears",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "homepageURL": "https://dsacms.github.io/libyears",
+    "vcs": "git",
+    "laborHours": 6,
+    "reuseFrequency": {
+        "forks": "TODO(TIER2): Record public fork count after repository publication",
+        "clones": "TODO(TIER2): Record public clone count after repository publication"
+    },
+    "platforms": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "categories": [
+        "it-development"
+    ],
+    "softwareType": "standalone/other",
+    "languages": [
+        "Python"
+    ],
+    "maintenance": "internal",
+    "contractNumber": [
+        0
+    ],
+    "SBOM": "https://github.com/DSACMS/libyears/network/dependencies",
+    "date": {
+        "created": "2026-10-01T20:43:52Z",
+        "lastModified": "2026-10-14T10:24:23Z",
+        "metadataLastUpdated": "2026-10-14T10:24:23Z"
+    },
+    "tags": [
+        "python",
+        "pypi",
+        "libyears",
+        "dependency-freshness",
+        "npm"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS OSPO"
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/libyears/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "tools",
+    "userInput": true,
+    "fismaLevel": "low",
+    "group": "CMS Open Source Program Office",
+    "projects": [],
+    "systems": [],
+    "subsetInHealthcare": [],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 2
+}

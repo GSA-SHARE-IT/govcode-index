@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-000060",
+    "name": "ckanext-usmetadata",
+    "description": "A CKAN extension for inventory.data.gov",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ckanext-usmetadata",
+    "homepageURL": "https://inventory.data.gov/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Shell",
+        "Makefile",
+        "Dockerfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

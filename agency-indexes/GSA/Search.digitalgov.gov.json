@@ -1,0 +1,38 @@
+{
+    "govcode_id": "2026-GSA-000085",
+    "name": "Search.digitalgov.gov",
+    "description": "The website for the Search.gov program",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA",
+        "Search.gov",
+        "DigitalGovSearch",
+        "search",
+        "website"
+    ],
+    "repositoryURL": "https://github.com/GSA/search.digitalgov.gov",
+    "homepageURL": "https://search.gov",
+    "contact": {
+        "email": "search@support.digitalgov.gov"
+    },
+    "languages": [
+        "HTML",
+        "Ruby",
+        "JavaScript",
+        "CSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": null,
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 0
+}

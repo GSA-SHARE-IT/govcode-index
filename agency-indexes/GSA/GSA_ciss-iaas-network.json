@@ -1,0 +1,36 @@
+{
+    "govcode_id": "2026-GSA-000945",
+    "name": "GSA/ciss-iaas-network",
+    "description": "The IaaS Network module creates the the network resources required for a basic IaaS account.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "devsecops",
+        "iaas"
+    ],
+    "repositoryURL": "https://github.com/GSA/ciss-iaas-network",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Makefile",
+        "HCL",
+        "Go"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "cc0-1.0",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

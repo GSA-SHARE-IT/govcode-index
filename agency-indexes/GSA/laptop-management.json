@@ -1,0 +1,31 @@
+{
+    "govcode_id": "2026-GSA-000307",
+    "name": "laptop-management",
+    "description": "ALPHA/WIP for OSquery configuration for Mac and Linux Operating Systems",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "alpha",
+        "osquery",
+        "fleet",
+        "management",
+        "hids"
+    ],
+    "repositoryURL": "https://github.com/GSA/laptop-management",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

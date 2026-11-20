@@ -1,0 +1,77 @@
+{
+    "govcode_id": "2026-HHS-000587",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "CMMI-shadow-bundles",
+    "description": "SAS programs and relevant resources to create your own BPCI Advanced-style shadow bundles.",
+    "longDescription": "This repository contains all the SAS programs for users to create their own shadow bundles Clinical Episodes using the Bundled Payment for Care Improvement (BPCI) Advanced-style methodology.  Shadow bundles are Medicare claims data for items and services and their associated payments constructed into discrete procedural- and/or condition-specific acute episodes of care. Based on these Clinical Episodes, Benchmark Prices are constructed to estimate expected spending and provide opportunities for sharing savings with providers. Shadow bundles episode definitions and Benchmark Price construction leverage the BPCI Advanced model Clinical Episode Construction and Target Price methodologies, but are adapted to be specific to Accountable Care Organizations (ACOs).",
+    "status": "Release Candidate",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/CMSgov/CMMI-shadow-bundles/blob/main/LICENSE"
+            }
+        ],
+        "usageType": "governmentWideReuse",
+        "exemptionText": ""
+    },
+    "repositoryURL": "https://github.com/CMSgov/CMMI-shadow-bundles",
+    "repositoryHost": "github.com/CMSgov",
+    "repositoryVisibility": "public",
+    "vcs": "git",
+    "laborHours": 3034.04,
+    "reuseFrequency": {
+        "forks": 0
+    },
+    "platforms": [
+        "windows"
+    ],
+    "categories": [
+        "data-collection",
+        "healthcare"
+    ],
+    "softwareType": "standalone/backend",
+    "languages": [
+        "SAS"
+    ],
+    "maintenance": "internal",
+    "contractNumber": 0,
+    "date": {
+        "created": "2024-05-01T00:00:00-06:00",
+        "lastModified": "2025-04-01T00:00:00-06:00",
+        "metaDataLastUpdated": "2025-04-08T00:00:00-06:00"
+    },
+    "tags": [
+        "repo",
+        "repository",
+        "SAS",
+        "outbound",
+        "healthcare",
+        "BCPI",
+        "CMMI"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "CMS Open Source Program Office"
+    },
+    "feedbackMechanisms": [
+        "https://github.com/CMSgov/CMMI-shadow-bundles/issues"
+    ],
+    "localisation": false,
+    "repositoryType": "tools",
+    "userInput": true,
+    "fismaLevel": "Low",
+    "group": "DSAC",
+    "projects": [
+        "https://github.cms.gov/DSAC/CMMI-Bundles"
+    ],
+    "systems": [],
+    "upstream": [],
+    "subsetInHealthcare": [
+        "Operational"
+    ],
+    "userType": [
+        "Government"
+    ],
+    "maturityModelTier": 2
+}

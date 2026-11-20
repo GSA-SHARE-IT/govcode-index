@@ -1,0 +1,25 @@
+{
+    "govcode_id": "2026-GSA-000813",
+    "name": "etc_environment",
+    "description": "Populates /etc/environment",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/etc_environment",
+    "homepageURL": "http://community.opscode.com/cookbooks/etc_environment",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "HTML",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-000909",
+    "name": "GSA/aws-access-key-rotation-lambda",
+    "description": "Rotate AWS access keys for a list of users on a schedule and store them in secretsmanager",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "devsecops"
+    ],
+    "repositoryURL": "https://github.com/GSA/aws-access-key-rotation-lambda",
+    "contact": {
+        "email": "grace-staff@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Makefile",
+        "HCL",
+        "Go"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "cc0-1.0",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

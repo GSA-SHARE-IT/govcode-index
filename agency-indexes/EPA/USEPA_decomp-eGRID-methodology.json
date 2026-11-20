@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000451",
+    "name": "USEPA/decomp-eGRID-methodology",
+    "organization": "usepa",
+    "description": "Model for creation of comprehensive power sector data (integrating EPA and EIA data) using the eGRID methodology",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/decomp-eGRID-methodology/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/decomp-eGRID-methodology",
+    "downloadURL": "https://github.com/USEPA/decomp-eGRID-methodology/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/decomp-eGRID-methodology/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/decomp-eGRID-methodology.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2023-03-02T18:21:58Z",
+        "lastModified": "2023-06-08T17:58:39Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.595Z"
+    }
+}

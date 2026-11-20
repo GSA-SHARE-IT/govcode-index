@@ -1,0 +1,36 @@
+{
+    "govcode_id": "2026-GSA-000808",
+    "name": "GSA/grace-decider",
+    "description": "Program to monitor status of an IaaC provisioning request for GRACE PaaS",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "grace",
+        "devsecops",
+        "grace-paas"
+    ],
+    "repositoryURL": "https://github.com/GSA/grace-decider",
+    "contact": {
+        "email": "grace-staff@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Makefile",
+        "Go"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "cc0-1.0",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

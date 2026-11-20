@@ -1,0 +1,86 @@
+{
+    "govcode_id": "2026-HHS-000634",
+    "organization": "Centers for Medicare & Medicaid Services",
+    "name": "fast-facts-2.0",
+    "version": "0.0.9999",
+    "description": "Reimagining CMS Fast Facts communication of summary information",
+    "longDescription": "CMS makes a number of different data sources available to the public on data.cms.gov. One of those sources is the annual CMS Fast Facts which is a 'quick reference statistical summary on annual CMS program and financial data.' The 2025 release contains 13 pages worth of largely tabular data. This project aims to condense the data views while making the infomation more digestible and actionable.",
+    "status": "Development",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/DSACMS/fast-facts-2.0/blob/main/LICENSE"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ]
+    },
+    "repositoryURL": "https://github.com/DSACMS/fast-facts-2.0",
+    "repositoryHost": "github.com/DSACMS",
+    "repositoryVisibility": "public",
+    "homepageURL": "",
+    "downloadURL": "",
+    "disclaimerURL": "",
+    "disclaimerText": "",
+    "vcs": "git",
+    "laborHours": 5090,
+    "reuseFrequency": {
+        "forks": 0,
+        "clones": 0
+    },
+    "platforms": [
+        "windows",
+        "mac",
+        "linux"
+    ],
+    "categories": [
+        "data-analytics",
+        "data-visualization"
+    ],
+    "softwareType": "standalone/other",
+    "languages": [
+        "R",
+        "SCSS",
+        "CSS"
+    ],
+    "maintenance": "internal",
+    "contractNumber": [],
+    "SBOM": "https://github.com/DSACMS/fast-facts-2.0/network/dependencies",
+    "relatedCode": [],
+    "reusedCode": [],
+    "partners": [],
+    "date": {
+        "created": "2026-03-17T15:36:33Z",
+        "lastModified": "2026-09-18T16:35:50Z",
+        "metadataLastUpdated": "2026-10-01T04:14:14.205Z"
+    },
+    "tags": [
+        "dsacms-tier2"
+    ],
+    "contact": {
+        "email": "aaron.chafetz@cms.hhs.gov",
+        "name": "Aaron Chafetz"
+    },
+    "feedbackMechanism": "https://github.com/DSACMS/fast-facts-2.0/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "tools",
+    "userInput": true,
+    "fismaLevel": "low",
+    "group": "CMS/OA/DSAC",
+    "projects": [
+        "OEDA"
+    ],
+    "systems": [],
+    "subsetInHealthcare": [
+        "operational",
+        "medicare",
+        "medicaid"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 2
+}

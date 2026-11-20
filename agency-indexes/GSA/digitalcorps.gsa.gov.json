@@ -1,0 +1,32 @@
+{
+    "govcode_id": "2026-GSA-000908",
+    "name": "digitalcorps.gsa.gov",
+    "description": "U.S. Digital Corps website",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/digitalcorps.gsa.gov",
+    "homepageURL": "https://digitalcorps.gsa.gov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "Dockerfile",
+        "Ruby",
+        "SCSS",
+        "JavaScript"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

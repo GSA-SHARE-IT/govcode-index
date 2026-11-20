@@ -1,0 +1,22 @@
+{
+    "govcode_id": "2026-GSA-000668",
+    "name": "odp-gcp-project-setup",
+    "description": "Creates a GCP project, enables APIs, creates services accounts and assigns groups and permissions",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/odp-gcp-project-setup",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

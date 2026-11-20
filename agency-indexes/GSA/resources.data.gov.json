@@ -1,0 +1,32 @@
+{
+    "govcode_id": "2026-GSA-000632",
+    "name": "resources.data.gov",
+    "description": "Resources for open data and enterprise data inventory management",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/resources.data.gov",
+    "homepageURL": "https://resources.data.gov/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "HTML",
+        "JavaScript",
+        "CSS",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

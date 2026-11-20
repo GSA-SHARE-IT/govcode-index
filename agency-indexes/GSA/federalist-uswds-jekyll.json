@@ -1,0 +1,32 @@
+{
+    "govcode_id": "2026-GSA-000951",
+    "name": "federalist-uswds-jekyll",
+    "description": "Reference implementation of USWDS 2.0 for Jekyll on Federalist.  Demo ->",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/federalist-uswds-jekyll",
+    "homepageURL": "https://federalist-ce810add-9092-4627-8246-9b65cf94623c.app.cloud.gov/site/18f/federalist-uswds-jekyll/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "Ruby",
+        "JavaScript",
+        "Dockerfile",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

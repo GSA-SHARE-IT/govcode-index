@@ -1,0 +1,27 @@
+{
+    "govcode_id": "2026-GSA-000087",
+    "name": "ckan-php-client",
+    "description": "A PHP client for the CKAN data catalog, used by https://github.com/GSA/ckan-php-manager",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/gpl-3.0/",
+                "name": "gpl-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ckan-php-client",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "PHP"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

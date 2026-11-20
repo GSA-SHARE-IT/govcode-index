@@ -1,0 +1,36 @@
+{
+    "govcode_id": "2026-GSA-000293",
+    "name": "fedramp-tailored",
+    "description": "FedRAMP Tailored.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "compliance",
+        "information",
+        "security",
+        "authorization",
+        "framework",
+        "government"
+    ],
+    "repositoryURL": "https://github.com/GSA/fedramp-tailored",
+    "homepageURL": "https://tailored.fedramp.gov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "HTML",
+        "CSS",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

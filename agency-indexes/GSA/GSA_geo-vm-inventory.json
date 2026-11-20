@@ -1,0 +1,36 @@
+{
+    "govcode_id": "2026-GSA-000829",
+    "name": "GSA/geo-vm-inventory",
+    "description": "Scripts for the auditing and reconciliation of managed vmWare VM CMDB data",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "vmware",
+        "servicenow",
+        "javascript",
+        "golang"
+    ],
+    "repositoryURL": "https://github.com/GSA/geo-vm-inventory",
+    "contact": {
+        "email": "geo-cloudteam-serverautomation@gsa.gov"
+    },
+    "languages": [
+        "Go",
+        "JavaScript"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "cc0-1.0",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

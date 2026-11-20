@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-000370",
+    "name": "RobotsTagParser",
+    "description": "A gem to parse X-Robots-Tag HTTP headers.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA",
+        "Search.gov",
+        "search",
+        "indexing",
+        "robots"
+    ],
+    "repositoryURL": "https://github.com/GSA/robots_tag_parser",
+    "contact": {
+        "email": "search@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

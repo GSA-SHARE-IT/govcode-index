@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000389",
+    "name": "USEPA/adept",
+    "organization": "usepa",
+    "description": "USEPA ADEPT",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/adept/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/adept",
+    "downloadURL": "https://github.com/USEPA/adept/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/adept/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/adept.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2023-09-29T22:52:05Z",
+        "lastModified": "2024-11-08T17:43:31Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.233Z"
+    }
+}

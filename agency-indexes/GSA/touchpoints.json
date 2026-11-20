@@ -1,0 +1,39 @@
+{
+    "govcode_id": "2026-GSA-000524",
+    "name": "touchpoints",
+    "description": "Feedback platform for continuous improvement of systems, services, processes, and policy.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "user-feedback",
+        "human-centered-design",
+        "service-design",
+        "customer-experience",
+        "workflow",
+        "accounting"
+    ],
+    "repositoryURL": "https://github.com/GSA/touchpoints",
+    "homepageURL": "https://touchpoints.digital.gov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Shell",
+        "Dockerfile",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,24 @@
+{
+    "govcode_id": "2026-GSA-001152",
+    "name": "odp-jenkins-stackrox-policies-deployment-pipeline",
+    "description": "Deployment pipeline to deploy stackrox policy changes",
+    "permissions": {
+        "licenses": null,
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/odp-jenkins-stackrox-policies-deployment-pipeline",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Jinja",
+        "Python",
+        "Dockerfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

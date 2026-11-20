@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000901",
+    "name": "idmanagement.gov",
+    "description": "IDManagement.gov is a collaboration between GSA and the Federal CIO Council. It is managed by the Identity Assurance and Trusted Access Division in the GSA Office of Government-wide Policy.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "ficam",
+        "icam",
+        "fpki"
+    ],
+    "repositoryURL": "https://github.com/GSA/idmanagement.gov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "Ruby",
+        "CSS",
+        "SCSS",
+        "JavaScript"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

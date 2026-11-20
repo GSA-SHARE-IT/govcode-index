@@ -1,0 +1,52 @@
+{
+    "govcode_id": "2026-GSA-000681",
+    "name": "fedramp-automation",
+    "description": "FedRAMP Automation",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "fedramp",
+        "automation",
+        "ssp",
+        "xml",
+        "json",
+        "authorization",
+        "system-security-plan",
+        "sap",
+        "sar",
+        "poam",
+        "security-assessment-plan",
+        "security-assessment-report",
+        "plan-of-action-and-milestones",
+        "oscal",
+        "fedramp-baselines"
+    ],
+    "repositoryURL": "https://github.com/GSA/fedramp-automation",
+    "homepageURL": "https://www.fedramp.gov/using-the-fedramp-oscal-resources-and-templates/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HTML",
+        "XSLT",
+        "Dockerfile",
+        "Shell",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "SCSS",
+        "Makefile",
+        "Java",
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

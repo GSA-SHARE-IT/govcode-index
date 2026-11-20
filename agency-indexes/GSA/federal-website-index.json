@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-000877",
+    "name": "federal-website-index",
+    "description": "A project to build and maintain a comprehensive listing of the public websites of the U.S. federal government.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/federal-website-index",
+    "homepageURL": "https://github.com/GSA/site-scanning/issues",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

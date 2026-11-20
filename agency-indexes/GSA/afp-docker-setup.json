@@ -1,0 +1,25 @@
+{
+    "govcode_id": "2026-GSA-001234",
+    "name": "afp-docker-setup",
+    "description": "Repo to set up AFP services using docker for all AFP products",
+    "permissions": {
+        "licenses": null,
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/afp-docker-setup",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Dockerfile",
+        "PowerShell",
+        "Batchfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,27 @@
+{
+    "govcode_id": "2026-GSA-000748",
+    "name": "cloud-service-broker",
+    "description": "OSBAPI service broker that uses Terraform to provision and bind services. Derived from https://github.com/GoogleCloudPlatform/gcp-service-broker",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/cloud-service-broker",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

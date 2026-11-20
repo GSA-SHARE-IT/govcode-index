@@ -1,0 +1,29 @@
+{
+    "govcode_id": "2026-GSA-001129",
+    "name": "usnotify-ssb",
+    "description": "The Supplementary Service Broker (SSB) fills gaps in cloud.gov's brokered services using Terraform",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/usnotify-ssb",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "HCL",
+        "Dockerfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

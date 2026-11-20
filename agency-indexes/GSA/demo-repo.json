@@ -1,0 +1,41 @@
+{
+    "govcode_id": "2026-GSA-001282",
+    "organization": "General Services Administration (GSA)",
+    "name": "demo-repo",
+    "identifier": "demo-repo1234",
+    "description": "Repository for demonstrating SHARE IT Act tooling functionality",
+    "status": "Development",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://github.com/GSA-SHARE-IT/demo-repo/blob/main/LICENSE"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ]
+    },
+    "reuseFrequency": {
+        "forks": 0
+    },
+    "repositoryURL": "https://github.com/GSA-SHARE-IT/demo-repo",
+    "repositoryVisibility": "public",
+    "vcs": "git",
+    "languages": [],
+    "maintenance": "internal",
+    "contractNumber": [
+        "0"
+    ],
+    "SBOM": "https://github.com/GSA-SHARE-IT/demo-repo/network/dependencies",
+    "date": {
+        "created": "2026-10-15T21:35:20Z",
+        "lastModified": "2026-11-04T17:47:16Z",
+        "metadataLastUpdated": "2026-11-18T19:44:58.388Z"
+    },
+    "tags": [],
+    "contact": {
+        "email": "cdo@hhs.gov"
+    },
+    "feedbackMechanism": "https://github.com/GSA-SHARE-IT/demo-repo/issues"
+}

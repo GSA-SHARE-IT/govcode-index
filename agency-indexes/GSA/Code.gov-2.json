@@ -1,0 +1,41 @@
+{
+    "govcode_id": "2026-GSA-000515",
+    "name": "Code.gov",
+    "description": "Implementation of code.gov and the federal source code policy",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "code.gov",
+        "open",
+        "source",
+        "code",
+        "open source",
+        "source code",
+        "sourcecode",
+        "government code"
+    ],
+    "repositoryURL": "https://github.com/GSA/code-gov-front-end",
+    "homepageURL": "https://code.gov",
+    "contact": {
+        "email": "code@gsa.gov"
+    },
+    "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "SCSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "https://github.com/GSA/code-gov-front-end/blob/master/LICENSE.md",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

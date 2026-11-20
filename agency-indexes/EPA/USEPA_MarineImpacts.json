@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000240",
+    "name": "USEPA/MarineImpacts",
+    "organization": "usepa",
+    "description": "Calculating the impacts of temperature and OA on marine fisheries",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/MarineImpacts/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/MarineImpacts",
+    "downloadURL": "https://github.com/USEPA/MarineImpacts/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/MarineImpacts/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/MarineImpacts.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2022-05-31T17:36:07Z",
+        "lastModified": "2022-10-20T17:54:50Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.203Z"
+    }
+}

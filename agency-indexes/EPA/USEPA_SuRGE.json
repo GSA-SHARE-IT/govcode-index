@@ -1,0 +1,34 @@
+{
+    "govcode_id": "2026-EPA-000347",
+    "name": "USEPA/SuRGE",
+    "organization": "usepa",
+    "description": "Code to reproduce the data files described in \"Summertime methane and carbon dioxide emission rates and associated variables from a national-scale survey of 146 reservoirs in the United States\" published in Limnology and Oceanography Letters (doi.org/10.1002/lol2.70080). The project was led by the US EPA's Office of Research and Development.",
+    "version": "",
+    "status": "Development",
+    "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+            {
+                "URL": "https://github.com/USEPA/SuRGE/blob/master/LICENSE.md"
+            }
+        ]
+    },
+    "homepageURL": "https://github.com/USEPA/SuRGE",
+    "downloadURL": "https://github.com/USEPA/SuRGE/archive/master.zip",
+    "disclaimerURL": "https://github.com/USEPA/SuRGE/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USEPA/SuRGE.git/",
+    "vcs": "git",
+    "laborHours": 0,
+    "tags": [
+        "usgs"
+    ],
+    "languages": [],
+    "contact": {
+        "name": "USEPA"
+    },
+    "date": {
+        "created": "2017-03-21T21:19:59Z",
+        "lastModified": "2026-10-23T11:20:36Z",
+        "metadataLastUpdated": "2026-11-20T06:27:22.100Z"
+    }
+}

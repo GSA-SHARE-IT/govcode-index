@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-000354",
+    "name": "gsa-icam-card-builder",
+    "description": "ICAM Test Card Signer and Data Populator",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "piv",
+        "piv-card",
+        "gsa",
+        "signing",
+        "card-data-populator",
+        "biometrics"
+    ],
+    "repositoryURL": "https://github.com/GSA/gsa-icam-card-builder",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Batchfile",
+        "Java",
+        "Perl"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

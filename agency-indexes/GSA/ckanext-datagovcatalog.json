@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-000742",
+    "name": "ckanext-datagovcatalog",
+    "description": "ckanext-datagovcatalog",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/agpl-3.0/",
+                "name": "agpl-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ckanext-datagovcatalog",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Python",
+        "Dockerfile",
+        "Makefile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

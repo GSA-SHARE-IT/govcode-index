@@ -1,0 +1,36 @@
+{
+    "govcode_id": "2026-GSA-000039",
+    "name": "Jobs API",
+    "description": "An API for searching the DigitalGov Search index of USAJobs postings. Included in the index are jobs located in the U.S., and open to all public applicants.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA",
+        "DigitalGovSearch",
+        "search",
+        "indexing",
+        "jobs"
+    ],
+    "repositoryURL": "https://github.com/GSA/jobs_api",
+    "homepageURL": "https://search.gov/developer/jobs.html",
+    "contact": {
+        "email": "search@support.digitalgov.gov"
+    },
+    "languages": [
+        "Ruby",
+        "HTML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

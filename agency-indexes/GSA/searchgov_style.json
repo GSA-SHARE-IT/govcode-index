@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000839",
+    "name": "searchgov_style",
+    "description": "Shared Rubocop configuration for Search.gov repositories",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA",
+        "Search.gov",
+        "search",
+        "rubocop"
+    ],
+    "repositoryURL": "https://github.com/GSA/searchgov_style",
+    "contact": {
+        "email": "search@gsa.gov"
+    },
+    "languages": [
+        "Ruby"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

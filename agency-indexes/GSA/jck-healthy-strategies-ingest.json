@@ -1,0 +1,23 @@
+{
+    "govcode_id": "2026-GSA-000546",
+    "name": "jck-healthy-strategies-ingest",
+    "description": "Data ingest script for the JCK Healthy Strategies Pilot",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/jck-healthy-strategies-ingest",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python",
+        "Dockerfile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

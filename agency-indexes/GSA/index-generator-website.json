@@ -1,0 +1,96 @@
+{
+    "govcode_id": "2026-GSA-001279",
+    "organization": "General Services Administration",
+    "name": "index-generator-website",
+    "version": "",
+    "description": "Tool to help federal agencies compile their code.json index files for SHARE IT Act compliance",
+    "longDescription": "This tool helps federal agencies compile and maintain their code.json files for SHARE IT Act compliance. It automatically scans specified GitHub organizations, finds repositories containing code.json files, and combines them into a single index file.",
+    "status": "Development",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+            }
+        ],
+        "usageType": [
+            "openSource"
+        ],
+        "exemptionText": ""
+    },
+    "repositoryURL": "https://github.com/GSA-SHARE-IT/index-generator-website",
+    "repositoryHost": "github.com/GSA-SHARE-IT",
+    "repositoryVisibility": "public",
+    "homepageURL": "https://gsa-share-it.github.io/index-generator-website/",
+    "downloadURL": "",
+    "disclaimerURL": "",
+    "disclaimerText": "",
+    "vcs": "git",
+    "laborHours": 3665,
+    "reuseFrequency": {
+        "forks": 0,
+        "clones": 0
+    },
+    "platforms": [
+        "web"
+    ],
+    "categories": [
+        "it-development",
+        "compliance",
+        "content-management"
+    ],
+    "softwareType": "standalone/web",
+    "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+    ],
+    "maintenance": "internal",
+    "contractNumber": [],
+    "SBOM": "https://github.com/GSA-SHARE-IT/index-generator-website/network/dependencies",
+    "relatedCode": [
+        {
+            "name": "code.json Index Generator",
+            "URL": "https://github.com/DSACMS/codejson-index-generator",
+            "isGovernmentRepo": true
+        }
+    ],
+    "reusedCode": [],
+    "partners": [],
+    "date": {
+        "created": "2025-04-08T15:45:13Z",
+        "lastModified": "2025-11-07T19:11:53Z",
+        "metadataLastUpdated": "2025-12-01T01:21:42.398Z"
+    },
+    "tags": [
+        "gsa-share-it",
+        "codejson",
+        "shareit",
+        "inventory",
+        "agency",
+        "website",
+        "featured"
+    ],
+    "contact": {
+        "email": "opensource@cms.hhs.gov",
+        "name": "GSA SHARE IT Team"
+    },
+    "feedbackMechanism": "https://github.com/GSA-SHARE-IT/index-generator-website/issues",
+    "AIUseCaseID": "0",
+    "localisation": false,
+    "repositoryType": "application",
+    "userInput": true,
+    "fismaLevel": "low",
+    "group": "GSA/SHARE-IT",
+    "projects": [
+        "share-it-act"
+    ],
+    "systems": [],
+    "subsetInHealthcare": [
+        "operational"
+    ],
+    "userType": [
+        "government"
+    ],
+    "maturityModelTier": 3
+}

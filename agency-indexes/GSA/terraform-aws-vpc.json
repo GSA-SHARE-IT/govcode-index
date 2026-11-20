@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-000400",
+    "name": "terraform-aws-vpc",
+    "description": "Terraform module which creates VPC resources on AWS",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/terraform-aws-vpc",
+    "homepageURL": "https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

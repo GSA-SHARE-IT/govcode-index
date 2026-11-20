@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-000263",
+    "name": "ckanext-ga-report",
+    "description": "For creating detailed reports of CKAN analytics, sliced by group",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ckanext-ga-report",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python",
+        "CSS",
+        "JavaScript",
+        "HTML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

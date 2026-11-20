@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000410",
+    "name": "terraform",
+    "description": "Terraform is a tool for building, changing, and combining infrastructure safely and efficiently.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mpl-2.0/",
+                "name": "mpl-2.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/terraform",
+    "homepageURL": "https://www.terraform.io/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Makefile",
+        "Go",
+        "HCL",
+        "Shell",
+        "Ruby",
+        "HTML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

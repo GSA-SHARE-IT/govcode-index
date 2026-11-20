@@ -1,0 +1,35 @@
+{
+    "govcode_id": "2026-GSA-000960",
+    "name": "GSA/ciss-iaas-alerting",
+    "description": "IAAS Alerting provides basic CloudWatch Event Rules and Log Metric Filters that assist with the monitoring of an AWS environment.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "governmentWideReuse"
+    },
+    "tags": [
+        "open-source",
+        "opensource",
+        "iaas",
+        "devsecops"
+    ],
+    "repositoryURL": "https://github.com/GSA/ciss-iaas-alerting",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Shell",
+        "Makefile",
+        "HCL"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": "cc0-1.0",
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

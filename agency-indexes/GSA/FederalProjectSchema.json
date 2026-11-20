@@ -1,0 +1,31 @@
+{
+    "govcode_id": "2026-GSA-000222",
+    "name": "FederalProjectSchema",
+    "description": "JSON Schema to Webform Editor being used to ideate on a Draft Federal Project Schema applicable to federally funded investments, research, permits... projects",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/FederalProjectSchema",
+    "homepageURL": "https://gsa.github.io/FederalProjectSchema/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "JavaScript",
+        "HTML",
+        "CSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

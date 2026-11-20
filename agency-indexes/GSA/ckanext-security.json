@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-000319",
+    "name": "ckanext-security",
+    "description": "A CKAN extension to hold various security improvements for CKAN",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/agpl-3.0/",
+                "name": "agpl-3.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ckanext-security",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Python",
+        "HTML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

@@ -1,0 +1,28 @@
+{
+    "govcode_id": "2026-GSA-000006",
+    "name": "aws-s3",
+    "description": "AWS-S3 is a Ruby implementation of Amazon's S3 REST API",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/mit/",
+                "name": "mit"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/aws-s3",
+    "homepageURL": "http://amazon.rubyforge.org",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

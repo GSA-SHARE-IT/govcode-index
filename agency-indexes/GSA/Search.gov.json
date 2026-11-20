@@ -1,0 +1,39 @@
+{
+    "govcode_id": "2026-GSA-000442",
+    "name": "Search.gov",
+    "description": "The core application powering the Search.gov service, formerly DigitalGov Search",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA",
+        "Search.gov",
+        "search",
+        "SaaS"
+    ],
+    "repositoryURL": "https://github.com/GSA/search-gov",
+    "homepageURL": "https://search.gov",
+    "contact": {
+        "email": "search@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "JavaScript",
+        "HTML",
+        "CoffeeScript",
+        "CSS",
+        "Gherkin",
+        "Less",
+        "Haml",
+        "TypeScript",
+        "Dockerfile",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": null,
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 0
+}

@@ -1,0 +1,37 @@
+{
+    "govcode_id": "2026-GSA-000172",
+    "name": "DigitalGov Search i14y Slate",
+    "description": "API documentation for the DigitalGov Search indexing API `i14y`, using the Slate interface",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA",
+        "DigitalGovSearch",
+        "API",
+        "documentation",
+        "indexing"
+    ],
+    "repositoryURL": "https://github.com/GSA/slate",
+    "contact": {
+        "email": "search@support.digitalgov.gov"
+    },
+    "languages": [
+        "Ruby",
+        "JavaScript",
+        "HTML",
+        "CSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA",
+    "license": null,
+    "openSourceProject": 1,
+    "governmentWideReuseProject": 1
+}

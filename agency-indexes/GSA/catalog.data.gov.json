@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-000729",
+    "name": "catalog.data.gov",
+    "description": "Development environment for catalog.data.gov",
+    "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/catalog.data.gov",
+    "homepageURL": "https://catalog.data.gov",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile",
+        "Python",
+        "Shell",
+        "Makefile",
+        "PLpgSQL",
+        "JavaScript",
+        "HTML",
+        "CSS"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

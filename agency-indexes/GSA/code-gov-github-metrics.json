@@ -1,0 +1,33 @@
+{
+    "govcode_id": "2026-GSA-000638",
+    "name": "code-gov-github-metrics",
+    "description": "GitHub metrics report generator for code.gov repos",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "civic-tech",
+        "federal-government",
+        "federal",
+        "helpwanted",
+        "open-source",
+        "code-gov"
+    ],
+    "repositoryURL": "https://github.com/GSA/code-gov-github-metrics",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "JavaScript",
+        "Shell"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

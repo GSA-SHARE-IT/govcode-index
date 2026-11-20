@@ -1,0 +1,32 @@
+{
+    "govcode_id": "2026-GSA-000473",
+    "name": "data-strategy",
+    "description": "Federal data strategy website",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/data-strategy",
+    "homepageURL": "https://strategy.data.gov/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "Ruby",
+        "Makefile"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

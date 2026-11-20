@@ -1,0 +1,31 @@
+{
+    "govcode_id": "2026-GSA-001094",
+    "name": "ckanext-metrics_dashboard",
+    "description": "A CKAN extension to display metrics about datasets",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/other/",
+                "name": "other"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/ckanext-metrics_dashboard",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Dockerfile",
+        "Makefile",
+        "Python",
+        "Shell",
+        "HTML"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}

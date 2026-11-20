@@ -1,0 +1,30 @@
+{
+    "govcode_id": "2026-GSA-000143",
+    "name": "cfpb.github.io",
+    "description": "A site for the CFPB to share and discuss its technology work with the world.",
+    "permissions": {
+        "licenses": [
+            {
+                "URL": "http://choosealicense.com/licenses/cc0-1.0/",
+                "name": "cc0-1.0"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "tags": [
+        "GSA"
+    ],
+    "repositoryURL": "https://github.com/GSA/cfpb.github.io",
+    "homepageURL": "https://cfpb.github.io/",
+    "contact": {
+        "email": "gsa-github.support@gsa.gov"
+    },
+    "languages": [
+        "Ruby",
+        "CSS",
+        "JavaScript"
+    ],
+    "laborHours": 0,
+    "vcs": "git",
+    "organization": "GSA"
+}
