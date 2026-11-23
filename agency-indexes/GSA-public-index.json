@@ -161,6 +161,54 @@
     },
     {
       "organization": "General Services Administration",
+      "name": "Hopper",
+      "identifier": "gsa-hopper",
+      "description": "Open-source managed agent platform that any federal agency can deploy and extend, without vendor lock-in.",
+      "status": "Development",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "CC0-1.0",
+            "URL": "https://github.com/GSA-SHARE-IT/Hopper/blob/main/LICENSE"
+          }
+        ],
+        "usageType": [
+          "openSource"
+        ]
+      },
+      "reuseFrequency": {
+        "forks": 0,
+        "clones": 0
+      },
+      "repositoryURL": "https://github.com/GSA-SHARE-IT/Hopper",
+      "repositoryVisibility": "public",
+      "vcs": "git",
+      "laborHours": 0,
+      "languages": [],
+      "maintenance": "internal",
+      "contractNumber": [],
+      "SBOM": "https://github.com/GSA-SHARE-IT/Hopper/network/dependencies",
+      "date": {
+        "created": "2026-11-18T20:52:25Z",
+        "lastModified": "2026-11-20T19:20:29Z",
+        "metadataLastUpdated": "2026-11-20T19:20:29Z"
+      },
+      "tags": [
+        "ai-agents",
+        "agent-platform",
+        "managed-agents",
+        "multi-cloud",
+        "vendor-neutral"
+      ],
+      "contact": {
+        "email": "marko@ndstudio.gov",
+        "name": "Marko Jak"
+      },
+      "feedbackMechanism": "https://github.com/GSA-SHARE-IT/Hopper/issues",
+      "AIUseCaseID": "0"
+    },
+    {
+      "organization": "General Services Administration",
       "name": "codejson-form",
       "version": "",
       "description": "Form to generate code.json",
