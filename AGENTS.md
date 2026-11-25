@@ -5,30 +5,35 @@
 This repository collects federal agency software inventories, preserving each
 agency's full JSON index and extracting individual project objects from its
 `releases` array. A separate script normalizes, validates, and combines those
-project files into a single `gov-code.json` dataset.
+project files into a single `gov-code.json` dataset, then exports `gov-code.csv`.
 
 - `sources/agency-index-sources.json`: agency names and source URLs.
+- `scripts/pull_all_assets.py`: runs agency-index and public-repository collection.
 - `scripts/pull_index_assets.py`: downloads, validates, and saves inventories.
+- `sources/public-sources.json`: GitHub organizations for public collection.
 - `agency-indexes/{AGENCY}-index.json`: complete agency indexes.
 - `agency-indexes/{AGENCY}/{project-name}.json`: individual project records.
 - `scripts/consolidate_to_gov_code.py`: builds `gov-code.json` (generated
-  locally, not committed) from the project files; fetches the agency index schema.
+  and committed by the dataset workflow) from the project files; fetches the
+  agency index schema.
 - `scripts/utils/`: `normalize.py`, `validate.py`, and `schema.py` used by the
   consolidation script. Their rules are documented in `docs/NORMALIZATION_RULES.md`
   and `docs/VALIDATION_RULES.md`.
 - `tests/`: offline tests for the downloader, normalization, and validation.
-- `.github/workflows/pull-index-assets.yml`: weekly and manually triggered
+- `.github/workflows/pull-all-assets.yml`: weekly and manually triggered
   refreshes. The download step uses `continue-on-error`, so changed outputs are
   committed even when some agencies fail.
 - `.github/workflows/run-tests.yml`: PR tests for changes to `scripts/`,
-  `tests/`, or the test workflow.
+  `tests/`, `agency-indexes/`, or the test workflow.
+- `.github/workflows/update-dataset.yml`: scheduled/manual JSON and CSV generation
+  and commits, on a separate schedule from collection.
 
 Consult `README.md` and `CONTRIBUTING.md` for additional repository context.
 
 ## Development conventions
 
 - Follow the existing Python style and prefer the standard library where practical.
-- Keep code compatible with Python 3.12, which the workflows use.
+- Keep code compatible with Python 3.12; workflows currently run Python 3.13.
 - Resolve data paths relative to the repository, not the caller's working directory.
 - Keep agency URLs in the source JSON rather than duplicating them in code.
 - Keep changes focused on the requested task and preserve unrelated local edits.
@@ -51,8 +56,8 @@ Consult `README.md` and `CONTRIBUTING.md` for additional repository context.
 
 ## Current behavior and design decisions
 
-- Filenames use project names. Stable IDs are a future option; assess ID coverage,
-  uniqueness, missing-ID fallbacks, and migration effects before switching.
+- Filenames use project names; permanent `govcode_id` values live inside records.
+  Moving IDs into filenames would require a separately reviewed migration.
 - Match agency-scoped trimmed name plus normalized repository URL. Unique-name
   fallback requires no conflicting URL. Ambiguities fail the agency before
   project writes; only newer matches replace content. Retain filenames and IDs.
@@ -63,7 +68,7 @@ Consult `README.md` and `CONTRIBUTING.md` for additional repository context.
   projects continue; duplicate skips alone do not fail the collector.
 - `govcode_id` is local immutable metadata. Keep the committed
   `agency-indexes/.govcode/` registry with project outputs; never reset counters.
-  Existing unregistered files require the staged rebuild. Do not refresh real
+  Existing unregistered files require an explicit migration or rebuild. Do not refresh real
   data for code-only work. See `docs/PROJECT_IDENTITY.md`.
 - Consolidation preserves agency `identifier` or fills null; never derive it.
   Missing/invalid/duplicate `govcode_id` values block consolidation.
@@ -97,8 +102,8 @@ python3 scripts/consolidate_to_gov_code.py
 ```
 
 - Add or update relevant tests for behavior changes and run the suite before
-  completing Python changes. Install `requirements.txt` first; the tests import
-  `scripts.utils`, which requires `jsonschema`.
+  completing Python changes. Install `scripts/requirements.txt` first; the
+  tests import `scripts.utils`, which requires `jsonschema`.
 - Mock network responses and use temporary directories in tests. Tests must not
   depend on live agency availability or modify the real inventory files.
 - Cover data preservation, encoding, filename collisions and warnings, and failure

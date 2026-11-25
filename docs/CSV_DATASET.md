@@ -1,187 +1,78 @@
-# gov-code.json to CSV Converter
+# CSV dataset
 
-Converts the hierarchical `gov-code.json` file to a flattened CSV format for analysis and reporting.
-
-## Overview
-
-**Input**: `gov-code.json` (12 MB, 10 federal agencies, 8,044 projects)
-**Output**: `gov-code-flattened.csv` (31 columns; size and row count depend on input)
-
-## Flattening Strategy
-
-### Added Fields
-
-- **agency** - Added from parent object (DHS, DOD, DOE, EPA, FEC, HHS, NSF, SSA, USDA, VA)
-
-### Flattened Nested Objects
-
-| Original Structure        | Flattened Columns                                                           | Format                                                            |
-| ------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| `permissions.licenses[]`  | `permissions_licenses`                                                      | Pipe-separated license names (e.g., "MIT\|Apache-2.0")            |
-| `permissions.usageType[]` | `permissions_usageType`                                                     | Pipe-separated values (e.g., "openSource\|governmentWideReuse")   |
-| `contact.*`               | `contact_email`, `contact_name`, `contact_url`, `contact_phone`             | Prefix pattern (empty if not present)                             |
-| `date.*`                  | `date_created`, `date_lastModified`, `date_metadataLastUpdated`              | ISO 8601 timestamps (empty if not present)                         |
-| `reuseFrequency.*`        | `reuseFrequency_forks`, `reuseFrequency_clones`, `reuseFrequency_downloads` | Numeric (empty if not present)                                    |
-| `relatedCode[]`           | `relatedCode`                                                               | Pipe-separated name\|URL pairs (e.g., "name1\|url1\|name2\|url2") |
-| `reusedCode[]`            | `reusedCode`                                                                | Pipe-separated name\|URL pairs                                    |
-| `languages[]`             | `languages`                                                                 | Pipe-separated list (e.g., "Python\|JavaScript")                  |
-| `tags[]`                  | `tags`                                                                      | Pipe-separated list                                               |
-| `contractNumber[]`        | `contractNumber`                                                            | Pipe-separated list                                               |
-
-### Columns (31 total)
-
-**Core Fields**:
-
-- agency, name, identifier, organization, status
-
-**URLs**:
-
-- repositoryURL, repositoryVisibility, feedbackMechanism, downloadURL, homepageURL
-
-**Metadata**:
-
-- vcs, laborHours, description
-
-**Flattened Objects**:
-
-- permissions_licenses, permissions_usageType
-- contact_email, contact_name, contact_url, contact_phone
-- date_created, date_lastModified, date_metadataLastUpdated
-- reuseFrequency_forks, reuseFrequency_clones, reuseFrequency_downloads
-
-**Code References**:
-
-- relatedCode, reusedCode
-
-**Arrays**:
-
-- languages, tags, contractNumber
+[`gov_code_to_csv.py`](../scripts/gov_code_to_csv.py) converts the committed
+[`gov-code.json`](../gov-code.json) into [`gov-code.csv`](../gov-code.csv).
+The export has one row per project and 63 fixed columns. Row counts and file
+sizes change with each refresh; the CSV header is not a project record.
 
 ## Usage
 
-### Basic Usage
+From the repository root:
 
 ```bash
-python3 scripts/gov_code_to_csv.py
+python scripts/gov_code_to_csv.py
 ```
 
-This reads `gov-code.json` from the repository root and writes `gov-code-flattened.csv` to the repository root.
-
-### Custom Paths
+Default paths are relative to the repository, not the caller's working directory.
+For custom paths:
 
 ```bash
-python3 scripts/gov_code_to_csv.py <input.json> <output.csv>
+python scripts/gov_code_to_csv.py /path/to/input.json /path/to/output.csv
 ```
 
-Example:
+Custom relative paths are relative to the caller's working directory. The
+converter uses only the Python standard library. Use Python 3.13 to match the
+repository's workflows. It does not download data or rebuild `gov-code.json`.
+The dataset workflow runs consolidation first, then exports and commits the CSV.
 
-```bash
-python3 scripts/gov_code_to_csv.py ~/data/gov-code.json ~/exports/projects.csv
-```
+## Columns and flattening
 
-## Output Format
+`govcode_id` is the first column, followed by `agency`, `name`, and `identifier`.
+The exact order is defined by `COLUMN_ORDER` in the script and listed in the
+[data dictionary](DATA_DICTIONARY.md). The parent agency is added to each row;
+`govcode_id` is copied from the project rather than generated during export.
 
-- **Encoding**: UTF-8
-- **Delimiter**: Comma (`,`)
-- **Quote character**: Double quote (`"`)
-- **Standard**: RFC 4180 compliant CSV
-- **Line endings**: Platform-dependent (LF on Unix/Mac, CRLF on Windows)
+| JSON fields | CSV representation |
+| :-- | :-- |
+| Core project strings and URLs | Corresponding named columns |
+| `permissions.licenses[]` | Pipe-separated names in `permissions_licenses` and `permissions_licenses_name`, with URLs in `permissions_licenses_URL` |
+| `permissions.usageType[]` | Pipe-separated `permissions_usageType` |
+| `permissions.exemptionText` | `permissions_exemptionText` |
+| `contact.*` | `contact_email`, `contact_name`, `contact_url`, `contact_phone` |
+| `date.*` | `date_created`, `date_lastModified`, `date_metadataLastUpdated` |
+| `reuseFrequency.*` | `reuseFrequency_forks`, `reuseFrequency_clones`, `reuseFrequency_downloads` |
+| `relatedCode[]`, `reusedCode[]` | Combined name/URL pairs and separate name/URL columns; related-code government flags have their own column |
+| `partners[]` | Combined name/email pairs and separate `partners_name` and `partners_email` columns |
+| `languages[]`, `tags[]`, `contractNumber[]` | Pipe-separated strings |
+| CMS extension fields | Columns for long descriptions, grouping, repository metadata, categories, platforms, users, systems, localisation, and maturity metadata |
 
-### Handling Special Cases
+For example, two related-code objects become
+`name1|url1|name2|url2` in `relatedCode`. Separate columns expose the names,
+URLs, and available government-repository flags. Blank components preserve
+alignment where the converter retains an object.
 
-- **Null values**: Converted to empty strings
-- **Numeric zeros**: Preserved as `0` in forks, clones, downloads, and labor hours;
-  missing or null values remain blank.
-- **Empty objects**: Represented as empty strings in flattened fields
-- **Empty arrays**: Represented as empty strings
-- **Quoted fields**: Fields with commas, quotes, or newlines are automatically quoted
-- **Multiline content**: Descriptions may contain newlines, properly quoted in CSV
+## Values and formatting
 
-## Examples
+- UTF-8, comma-delimited output uses Python's `csv.DictWriter` with double-quote
+  escaping and its default CRLF row endings.
+- Missing or null values become empty cells. Empty arrays and objects produce
+  empty values in their flattened fields.
+- Numeric zero is preserved in labor hours and reuse counters.
+- String normalization replaces newlines and tabs with spaces, trims surrounding
+  whitespace, and collapses repeated spaces.
+- Boolean values become `true` or `false`.
+- Import identifiers and contract numbers as text in spreadsheet applications
+  to preserve leading zeros already present in strings.
+- Standalone export leaves the `govcode_id` cell blank if the input lacks it;
+  normal dataset publication relies on consolidation to reject missing IDs.
 
-### permissions.licenses (Array of dicts)
+## Limitations
 
-**Input**:
+CSV contains only the configured columns, not every unknown or nested JSON
+field. Flattening is not reversible: arrays use `|` without separate escaping
+for literal pipe characters, and string whitespace is normalized. Use the JSON
+for full normalized records and the source snapshots for original metadata.
 
-```json
-{
-  "permissions": {
-    "licenses": [
-      { "name": "MIT", "URL": "https://opensource.org/licenses/MIT" },
-      {
-        "name": "Apache-2.0",
-        "URL": "https://opensource.org/licenses/Apache-2.0"
-      }
-    ]
-  }
-}
-```
-
-**Output**:
-
-```csv
-permissions_licenses
-MIT|Apache-2.0
-```
-
-### relatedCode (Array of objects with name and URL)
-
-**Input**:
-
-```json
-{
-  "relatedCode": [
-    {
-      "name": "uswds-rails",
-      "URL": "https://github.com/jgarber623/uswds-rails"
-    },
-    { "name": "Design System", "URL": "https://github.com/uswds/uswds" }
-  ]
-}
-```
-
-**Output**:
-
-```csv
-relatedCode
-uswds-rails|https://github.com/jgarber623/uswds-rails|Design System|https://github.com/uswds/uswds
-```
-
-### contact (Nested object)
-
-**Input**:
-
-```json
-{
-  "contact": {
-    "email": "admin@example.gov",
-    "name": "John Doe",
-    "phone": "555-1234"
-  }
-}
-```
-
-**Output**:
-
-```csv
-contact_email,contact_name,contact_url,contact_phone
-admin@example.gov,John Doe,,555-1234
-```
-
-## Dependencies
-
-- Python 3.6+ (uses standard library only)
-- No external packages required
-
-## Performance
-
-- Conversion time: < 10 seconds
-- Input file: 12 MB
-- Output file: 5.9 MB
-- Compression: ~50% smaller than input
-
-## Notes
-
-- The script handles data quality issues gracefully (nulls, empty values, missing fields)
-- Pipe separator (`|`) is used for arrays; ensure queries handle this for array fields
-- All project data is preserved; no data loss in the conversion process
+CSV row totals reflect the input dataset. A successful export does not verify
+source completeness, ID uniqueness, or remote-schema compliance; those checks
+and limitations belong to collection and consolidation.

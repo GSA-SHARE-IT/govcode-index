@@ -164,7 +164,7 @@ output. The full rules are in
 | `maintenance` | Lower-cased if valid, otherwise `null`. Missing values are never guessed; supplied valid values are retained. |
 | `vcs` | Lower-cased if valid. Invalid values (for example `zip`) are removed. Missing values become `git` when `repositoryURL` is a github.com repository. |
 | `repositoryURL` | `http` is upgraded to `https`, the host is lower-cased, and a trailing `/` or `.git` is removed. A bare domain with no path is moved to `homepageURL`. Invalid URLs become `null`. A missing URL on closed code becomes `"private"`. |
-| `repositoryVisibility` | Inferred: `private` when `repositoryURL` is `"private"`, `public` when it is a usable URL, otherwise `null`. |
+| `repositoryVisibility` | Supplied values are normalized. If missing, only the explicit `repositoryURL: "private"` marker infers `private`; otherwise null. A usable URL alone does not imply public visibility. |
 | `homepageURL`, `downloadURL`, `disclaimerURL` | Legacy `homepage` is renamed to `homepageURL`. `http` is upgraded to `https`. Invalid URLs are removed. |
 | `feedbackMechanism` | Missing values become `https://github.com/{owner}/{repo}/issues` for github.com repositories, otherwise `null`. |
 | `permissions` | A missing object becomes `{"licenses": [], "usageType": []}`. Keys other than `licenses`, `usageType`, and `exemptionText` are removed. |
@@ -448,14 +448,14 @@ can survive non-blocking validation and are exported unchanged. See
 ## CSV review snapshot
 
 Reviewed on 2026-11-19 against the local `gov-code.json`, before the later
-column-order change and seven separate subfield additions (55 columns then,
-62 in the current exporter). These counts describe
-this generated snapshot and will change after refreshes; they are not live
-source availability checks.
+column-order change, seven separate subfield additions, and `govcode_id`
+addition (55 columns then; 63 in the current exporter). The findings below
+describe that historical snapshot, not the current dataset or live source
+availability.
 
 - 9,430 rows across 11 agencies; 55 unique column names.
-- Every row matches the current export transformation of the corresponding JSON
-  project, with no row-count, cell-value, or row-width discrepancies.
+- At review time, every row matched the then-current export transformation of
+  its JSON project, with no row-count, cell-value, or row-width discrepancies.
 - 93 HHS records are CMS-style. All have boolean `localisation` and `userInput`,
   and integer maturity tiers 0–4. CSV contains 87 `false`/6 `true` localisation
   values, 57 `false`/36 `true` user-input values, and eight maturity-tier zeros.

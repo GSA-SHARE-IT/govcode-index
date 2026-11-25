@@ -30,16 +30,17 @@ listed in [COMMUNITY.md](COMMUNITY.md). How decisions are made is described in
 
 ### Building dependencies
 
-The project is plain Python with one third-party dependency (`jsonschema`).
+The project uses Python with `jsonschema` and `codejson-index-generator`;
+dependencies are listed in `scripts/requirements.txt`.
 
-1. Install Python 3.12. The GitHub Actions workflows use 3.12, so keep code
-   compatible with it even if you develop on a newer version.
+1. Use Python 3.13 to match GitHub Actions; retain Python 3.12 compatibility
+   as described in the repository guidance.
 2. Create a virtual environment and install the requirements:
 
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate
-   pip install -r requirements.txt
+   pip install -r scripts/requirements.txt
    ```
 
 `jsonschema` is needed for the test suite as well as the consolidation script,
@@ -52,8 +53,10 @@ There is no build step. The scripts run directly from the repository root:
 | Command | What it does | Network | Writes |
 | :-- | :-- | :-- | :-- |
 | `python3 -m unittest discover -s tests -v` | Runs the offline test suite | No | Temporary directories only |
+| `python3 scripts/pull_all_assets.py` | Runs both collectors (public collection needs `GITHUB_TOKEN`) | Yes | `agency-indexes/` |
 | `python3 scripts/pull_index_assets.py` | Downloads every agency index and extracts project files | Yes | `agency-indexes/` |
 | `python3 scripts/consolidate_to_gov_code.py` | Normalizes, validates, and combines project files | Yes (schema) | `gov-code.json` |
+| `python3 scripts/gov_code_to_csv.py` | Exports the flattened dataset | No | `gov-code.csv` |
 
 Paths are resolved relative to the repository, so the scripts can be run from
 any working directory.
@@ -74,7 +77,7 @@ We follow the [GitHub Flow Workflow](https://guides.github.com/introduction/flow
 #### Code changes and data changes
 
 The files under `agency-indexes/` are generated outputs. The weekly
-[`pull-index-assets.yml`](.github/workflows/pull-index-assets.yml) workflow
+[`pull-all-assets.yml`](.github/workflows/pull-all-assets.yml) workflow
 refreshes and commits them.
 
 - For code-only changes, **do not commit refreshed inventory files**. Test
@@ -85,7 +88,10 @@ refreshes and commits them.
 - Do not hand-edit project files to fix agency data. They are overwritten on the
   next refresh. Fix the problem with a normalization rule, or report it to the
   agency.
-- `gov-code.json` is generated locally and should not be committed.
+- `gov-code.json` and `gov-code.csv` are generated and committed by
+  `update-dataset.yml`. Avoid unrelated dataset changes in code-only PRs.
+- Commit `agency-indexes/.govcode/` registry changes with project changes;
+  never reset allocated IDs. The runtime `.lock` file is ignored.
 
 ### Testing Conventions
 
@@ -120,8 +126,8 @@ Guidelines:
   [docs/VALIDATION_RULES.md](docs/VALIDATION_RULES.md).
 
 The [`run-tests.yml`](.github/workflows/run-tests.yml) workflow runs the suite
-on Python 3.12 for pull requests that change `scripts/`, `tests/`, or the
-workflow itself.
+on Python 3.13 for pull requests that change `agency-indexes/`, `scripts/`,
+`tests/`, or the workflow itself.
 
 ### Coding Style and Linters
 
@@ -129,7 +135,7 @@ The project does not enforce a linter. Please:
 
 1. Follow [PEP 8](https://peps.python.org/pep-0008/) and match the style of the
    surrounding code.
-2. Prefer the Python standard library. Add a dependency to `requirements.txt`
+2. Prefer the Python standard library. Add a dependency to `scripts/requirements.txt`
    only when it is clearly worth it.
 3. Resolve data paths relative to the repository (see `ROOT` in
    `pull_index_assets.py`), not the caller's working directory.
@@ -228,7 +234,7 @@ them once they are approved.
 
 govcode-index does not publish versioned releases. Changes to the scripts take
 effect when merged to `main`, and the data is refreshed every Monday by the
-[`pull-index-assets.yml`](.github/workflows/pull-index-assets.yml) workflow.
+[`pull-all-assets.yml`](.github/workflows/pull-all-assets.yml) workflow.
 Maintainers can start a refresh manually from the Actions tab with **Run
 workflow**.
 

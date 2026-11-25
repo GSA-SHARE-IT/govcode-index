@@ -106,12 +106,14 @@ mapping and string cleanup remain. The local validation contract permits null
 identifiers; the remote agency schema currently supplies configuration only,
 not full project-schema validation.
 
-## Initial rollout
+## Existing inventories and recovery
 
-This implementation does not alter existing inventories or backfill IDs.
-Existing files without registered IDs fail refresh and consolidation. Deploy
-with the separately planned staged rebuild: collect into a fresh output tree,
-resolve ambiguous source records, verify all expected agencies and ID checks,
-and only then replace existing data and commit the registry with it. Do not
-run the routine partial-success workflow as a delete-and-rebuild operation.
-A staged rebuild workflow is a separate rollout task.
+Initial ID assignment and the inventory rebuild have been completed. Routine
+refreshes use the committed registries; do not delete them or reset counters.
+Existing files without registered IDs still fail refresh and consolidation.
+
+If a future migration or rebuild is needed, stage it separately, preserve ID
+history, resolve ambiguous records, and verify expected coverage before
+replacing existing data. The routine workflow commits partial collection
+successes and is not a transactional full rebuild. No dedicated staged-rebuild
+workflow is currently included.

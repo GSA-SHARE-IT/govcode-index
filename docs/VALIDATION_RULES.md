@@ -465,7 +465,10 @@ into project JSON. Each violation is logged at WARNING with filename and field
 path. Checks are non-blocking and do not drop projects.
 
 Validation uses the pinned CMS 2.2.0 schema, Draft 2020-12, and format checking
-(`jsonschema[format]`, installed via `scripts/requirements.txt`). It retains
+using `jsonschema.FormatChecker`. `scripts/requirements.txt` installs
+`jsonschema` without explicitly requesting its optional format extras; format
+checks that depend on optional packages require those packages to be available.
+The validator retains
 supplied-field types, enums, unique-item rules, bounds, description lengths, and
 URI/date-time/email formats. Required-key and additional-property restrictions
 are removed recursively: missing fields, missing nested fields, and extensions
